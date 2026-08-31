@@ -1,0 +1,2499 @@
+1
+00:00:00,000 --> 00:00:05,800
+Nenhum homem é melhor do que uma máquina e nenhuma máquina é melhor do que um homem utilizando uma máquina.
+
+2
+00:00:05,800 --> 00:00:10,440
+Essa é uma frase que eu aprendi com meu amigo Bruno Perini do Richard Bookstabber.
+
+3
+00:00:10,440 --> 00:00:17,160
+Tá? Bookstabber? Bookstabber? Não sei. Mas a moral da história é, nenhum homem nunca vai ser melhor do que uma máquina.
+
+4
+00:00:17,160 --> 00:00:26,120
+A gente não vai ser melhor do que a inteligência artificial. Mas a inteligência artificial não tem como ser melhor do que a gente quando a gente está utilizando a inteligência artificial.
+
+5
+00:00:26,120 --> 00:00:31,280
+Essa aqui é a primeira aula de algumas aulas que a gente vai falar no curso sobre inteligência artificial.
+
+6
+00:00:31,280 --> 00:00:34,080
+Então, é o primeiro contato que a gente vai ter com o assunto.
+
+7
+00:00:34,080 --> 00:00:39,040
+E eu quero que você use esses grandes poderes, a gente diria o famoso tio bem.
+
+8
+00:00:39,040 --> 00:00:41,640
+Com grandes poderes e grandes responsabilidades.
+
+9
+00:00:41,640 --> 00:00:47,240
+O que eu estou prestes a te introduzir aqui o assunto e, mais uma vez, a gente vai se aprofundar com isso ao longo do curso.
+
+10
+00:00:47,240 --> 00:00:53,040
+É uma ferramenta que vai te ajudar muito ao longo da sua jornada como anunciante.
+
+11
+00:00:53,040 --> 00:00:57,520
+Tem gente que chegou a dizer que a inteligência artificial vai roubar o trabalho do gestor de tráfego.
+
+12
+00:00:57,520 --> 00:01:02,840
+Não vai. Vai potencializar o nosso trabalho e eu vou te mostrar exatamente como a gente faz isso já aqui nessa aula.
+
+13
+00:01:02,840 --> 00:01:08,160
+Tá? Primeiro passo aqui que a gente vai fazer, a gente vai utilizar uma inteligência artificial que chama o ChatGPT.
+
+14
+00:01:08,320 --> 00:01:12,640
+Nós vamos procurar ele no Google. Ele vai aparecer aqui, ó, openai.com.
+
+15
+00:01:12,740 --> 00:01:16,920
+A gente vai abrir o site. Você vai apertar nesse botão aqui e aí você vai ter que criar a sua conta.
+
+16
+00:01:17,180 --> 00:01:20,160
+Tá? A minha conta já está criada, por isso que já abriu aqui o ChatGPT.
+
+17
+00:01:20,160 --> 00:01:23,240
+Primeiro conhecimento que você tem que ter sobre o ChatGPT.
+
+18
+00:01:24,360 --> 00:01:30,300
+Ele é um grande cérebro que recolhe informações muito rapidamente.
+
+19
+00:01:30,380 --> 00:01:33,100
+Ele processa as informações muito rapidamente.
+
+20
+00:01:33,400 --> 00:01:36,160
+Sabe como você não consegue falar tão rápido quanto você pensa?
+
+21
+00:01:36,300 --> 00:01:40,380
+Ele consegue. Ele consegue gerar respostas tão rápido quanto ele pensa.
+
+22
+00:01:40,680 --> 00:01:45,560
+E ele usa um banco de dados absurdamente gigante para gerar as respostas para você.
+
+23
+00:01:45,700 --> 00:01:49,040
+Então ele é muito inteligente. Qualquer coisa que eu pedir para ele, ele vai fazer por mim.
+
+24
+00:01:49,040 --> 00:01:57,500
+Por exemplo, se eu falar, me dê uma ideia de anúncio para um produto de emagrecimento.
+
+25
+00:01:57,560 --> 00:01:58,760
+É como se fosse um super Google.
+
+26
+00:01:59,060 --> 00:01:59,960
+Ele vai me dar uma ideia.
+
+27
+00:02:00,200 --> 00:02:09,140
+Título, slogan, chamada para ação, testemunho de sucesso, benefícios, garantia de satisfação, bônus exclusivo, destaque dos ingredientes.
+
+28
+00:02:09,200 --> 00:02:14,280
+É um baita anúncio aqui que normalmente se eu botar isso aqui no formato de anúncio online não vai funcionar legal.
+
+29
+00:02:14,580 --> 00:02:14,880
+Por quê?
+
+30
+00:02:14,880 --> 00:02:18,580
+Porque tem uma expressão em inglês que se chama garbage in, garbage out.
+
+31
+00:02:18,680 --> 00:02:19,320
+O que quer dizer isso?
+
+32
+00:02:19,680 --> 00:02:20,860
+Lixo dentro, lixo fora.
+
+33
+00:02:21,200 --> 00:02:25,900
+Se o meu input, aquilo que eu pedi para ele foi mal feito, a resposta dele vai ser mal feita.
+
+34
+00:02:26,380 --> 00:02:30,860
+Tudo isso que está acontecendo aqui nesta conversa, a gente chama isso aqui de um chat.
+
+35
+00:02:31,020 --> 00:02:32,040
+Então eu estou dentro de um chat.
+
+36
+00:02:32,300 --> 00:02:35,300
+Eu posso pedir para ele, me dê mais uma ideia.
+
+37
+00:02:36,480 --> 00:02:37,480
+Ele vai me dar mais uma ideia.
+
+38
+00:02:37,620 --> 00:02:38,960
+Tudo isso aqui está dentro de um chat.
+
+39
+00:02:38,960 --> 00:02:46,500
+O ideal é que a gente mantenha a comunicação, quando a gente faz uma boa comunicação, dentro de um único chat.
+
+40
+00:02:46,620 --> 00:02:46,880
+Por quê?
+
+41
+00:02:47,080 --> 00:02:53,700
+Porque ele vai acumulando inteligência, ele vai acumulando histórico aqui dentro daquilo que eu estou pedindo para ele.
+
+42
+00:02:53,940 --> 00:02:58,140
+Aqui os pedidos estão horrorosos, então não faz sentido eu ficar em um único chat.
+
+43
+00:02:58,400 --> 00:03:05,140
+Mas você vai ver que a gente vai justamente utilizar esse grande superpoder do chat EPT, que é o acesso ao histórico.
+
+44
+00:03:05,140 --> 00:03:08,700
+Então como a gente usa inteligência artificial para criar bons anúncios?
+
+45
+00:03:08,840 --> 00:03:13,240
+Primeiro, a gente faz isso gerando histórico.
+
+46
+00:03:13,620 --> 00:03:22,540
+Então gerar histórico é gerar informações para o chat EPT, para que com base nessas informações, ele faça os meus pedidos.
+
+47
+00:03:22,960 --> 00:03:26,140
+Então eu estou treinando ele, estou treinando ele para fazer as coisas comigo.
+
+48
+00:03:26,280 --> 00:03:27,320
+Pensa num cachorrinho.
+
+49
+00:03:27,580 --> 00:03:33,140
+Imagina que você treinou o seu cachorro, você adestrou ele para pegar, sei lá, cerveja para você na geladeira.
+
+50
+00:03:33,140 --> 00:03:37,640
+Você treinou ele para fazer isso, ele tem histórico, ele consegue ir lá e pegar a cerveja para você na geladeira.
+
+51
+00:03:37,960 --> 00:03:43,960
+O chat EPT é a mesma coisa, só que o histórico que eu vou dar para ele é um histórico de conteúdo, de como que ele deve produzir as coisas.
+
+52
+00:03:44,280 --> 00:03:49,400
+E aí para gerar esse histórico é muito importante que a gente sempre siga alguns elementos.
+
+53
+00:03:49,860 --> 00:03:52,600
+O primeiro elemento é o elemento da personificação.
+
+54
+00:03:52,680 --> 00:03:53,860
+O que é a personificação?
+
+55
+00:03:53,860 --> 00:04:09,100
+É quando eu peço para ele, haja como um redator publicitário com alto, sei lá, com grandes conhecimentos de persuasão.
+
+56
+00:04:09,600 --> 00:04:13,860
+Então eu já estou pedindo para ele agir como alguém que escreve com grandes conhecimentos de persuasão.
+
+57
+00:04:14,080 --> 00:04:18,620
+Se eu sou, sei lá, dono de um pet shop e eu posso falar, escreva como se você fosse um dono do pet shop.
+
+58
+00:04:18,620 --> 00:04:21,460
+Com todos os conhecimentos que um dono do pet shop tem.
+
+59
+00:04:21,800 --> 00:04:25,200
+Então a personificação é quando eu peço para ele agir de uma determinada maneira.
+
+60
+00:04:26,020 --> 00:04:31,300
+Informações pertinentes é quando eu dou mais detalhes.
+
+61
+00:04:31,480 --> 00:04:36,520
+É o detalhamento do que eu estou pedindo.
+
+62
+00:04:36,600 --> 00:04:40,660
+Eu não vou simplesmente falar assim, faça um anúncio para um produto de emagrecimento.
+
+63
+00:04:40,760 --> 00:04:41,860
+Mas que produto que é esse?
+
+64
+00:04:42,380 --> 00:04:43,560
+Para quem que é esse produto?
+
+65
+00:04:43,680 --> 00:04:45,480
+É destinado para um público-alvo?
+
+66
+00:04:45,480 --> 00:04:47,180
+O que eu entrego nesse produto?
+
+67
+00:04:47,300 --> 00:04:49,300
+Qual é a transformação que esse produto causa?
+
+68
+00:04:49,660 --> 00:04:54,140
+Quanto mais informações pertinentes eu dou o chat GPT, melhor vai ser a resposta dele.
+
+69
+00:04:54,520 --> 00:05:03,720
+Além das informações pertinentes sobre o que a gente está pedindo, entra também o detalhamento do que você quer.
+
+70
+00:05:04,160 --> 00:05:07,600
+E o detalhamento do que eu quero e as informações pertinentes são muito parecidos.
+
+71
+00:05:07,860 --> 00:05:10,180
+Mas detalhar o que eu quero é eu ser bem específico.
+
+72
+00:05:10,180 --> 00:05:19,860
+Eu quero cinco anúncios, cinco anúncios ou cinco roteiros de anúncios de até dois minutos.
+
+73
+00:05:20,420 --> 00:05:26,240
+Eles devem ser colocados em uma tabela.
+
+74
+00:05:26,720 --> 00:05:29,280
+Eu estou fazendo um detalhamento do que eu quero que ele faça.
+
+75
+00:05:29,680 --> 00:05:31,620
+E eu posso ir lá para ele pedir isso.
+
+76
+00:05:31,960 --> 00:05:33,740
+Cinco roteiros de anúncios de até dois minutos.
+
+77
+00:05:33,840 --> 00:05:36,620
+Eles devem ser colocados em uma tabela e ele vai colocar uma tabela para mim.
+
+78
+00:05:37,140 --> 00:05:38,680
+Então eu faço esse detalhamento.
+
+79
+00:05:38,680 --> 00:05:41,460
+Além do detalhamento, a gente também tem os limitadores.
+
+80
+00:05:41,760 --> 00:05:42,680
+O que são os limitadores?
+
+81
+00:05:42,960 --> 00:05:48,500
+Eu posso dizer para ele, seja breve, utilize até 30 caracteres.
+
+82
+00:05:49,560 --> 00:05:53,200
+Eu falar que o anúncio tem até dois minutos não deixa de ser um limitador.
+
+83
+00:05:53,620 --> 00:05:58,060
+Então eu estou falando para ele, limitando ele para ele não ficar viajando tanto na maionese.
+
+84
+00:05:58,360 --> 00:05:59,760
+E a gente tem os refinadores.
+
+85
+00:05:59,860 --> 00:06:00,840
+O que são refinadores?
+
+86
+00:06:01,240 --> 00:06:06,260
+Refinadores é quando ele gera uma resposta ou antes dele gerar uma resposta, eu já digo para ele.
+
+87
+00:06:06,260 --> 00:06:20,520
+Utilize um tom, e aí eu posso dizer, sério, sarcástico, feminino, masculino, imponente, persuasivo, profissional.
+
+88
+00:06:20,900 --> 00:06:24,980
+Então eu posso pedir para ele utilizar um determinado tom de linguagem.
+
+89
+00:06:25,040 --> 00:06:27,160
+Vou até colocar isso aqui para baixo que eu vou colocar mais uns.
+
+90
+00:06:27,160 --> 00:06:28,920
+Utilize um determinado tom.
+
+91
+00:06:29,160 --> 00:06:41,400
+Posso pedir para ele utilizar o gatilho mental da escassez, urgência, autoridade, etc.
+
+92
+00:06:41,600 --> 00:06:42,760
+Todos os gatilhos mentais.
+
+93
+00:06:43,140 --> 00:06:50,100
+Posso pedir para ele seja mais emotivo, seja mais humano, seja mais engraçado.
+
+94
+00:06:50,100 --> 00:06:54,920
+Então posso pedir para ele refazer de alguma outra maneira.
+
+95
+00:06:55,300 --> 00:07:06,100
+Posso pedir para ele dar ênfase de foque no seguinte aspecto do produto.
+
+96
+00:07:06,500 --> 00:07:08,200
+Então numa dor que ele resolve.
+
+97
+00:07:10,500 --> 00:07:15,780
+Numa promoção, num bônus, no preço, numa garantia.
+
+98
+00:07:15,780 --> 00:07:18,960
+Então eu posso pedir para ele focar em determinadas coisas.
+
+99
+00:07:19,060 --> 00:07:23,940
+E eu posso pedir, refaça o item X, ou refaça tudo.
+
+100
+00:07:25,540 --> 00:07:28,500
+Refaça da maneira XYZ.
+
+101
+00:07:28,960 --> 00:07:33,580
+Então eu posso conversar com ele e ir refinando o chat GPT.
+
+102
+00:07:33,980 --> 00:07:37,120
+Isso daqui são as maneiras que a gente vai utilizar.
+
+103
+00:07:37,400 --> 00:07:41,680
+Tudo isso daqui são técnicas que se você procurar em qualquer conteúdo do chat GPT,
+
+104
+00:07:41,680 --> 00:07:47,380
+e você vai encontrar pessoas explicando coisas semelhantes,
+
+105
+00:07:47,460 --> 00:07:50,800
+porque o povo já começou a entender como a ferramenta funciona.
+
+106
+00:07:51,300 --> 00:07:55,300
+E o que eu vou te ensinar aqui hoje, usar inteligência artificial para criar bons anúncios,
+
+107
+00:07:55,560 --> 00:07:57,560
+a gente vai se valer de alguns prompts.
+
+108
+00:07:57,760 --> 00:07:58,500
+O que é o prompt?
+
+109
+00:07:58,880 --> 00:08:00,900
+Prompt é o pedido que eu faço para o chat GPT.
+
+110
+00:08:01,240 --> 00:08:05,500
+E eu vou te explicar quais prompts você vai utilizar para que ele faça bons anúncios.
+
+111
+00:08:05,700 --> 00:08:08,840
+Você vai ver que nos prompts que eu vou utilizar, tem muito disso daqui.
+
+112
+00:08:08,840 --> 00:08:12,140
+Mas isso daqui era só para dar uma introdução ao que é essa ferramenta.
+
+113
+00:08:12,240 --> 00:08:16,400
+Afinal de contas, é a primeira vez que a gente está falando sobre ela aqui no curso subido.
+
+114
+00:08:16,660 --> 00:08:21,000
+E aí, para a gente usar esses prompts, a gente vai levar em consideração o quê?
+
+115
+00:08:21,280 --> 00:08:24,460
+Tudo isso que eu te ensinei na última aula, que a gente falou sobre qualidade de anúncios.
+
+116
+00:08:24,780 --> 00:08:26,800
+Então eu vou ensinar o chat GPT essas coisas,
+
+117
+00:08:27,280 --> 00:08:30,260
+e a partir disso eu vou pedir para ele criar bons anúncios.
+
+118
+00:08:30,500 --> 00:08:30,780
+Por quê?
+
+119
+00:08:30,860 --> 00:08:33,080
+Eu estou gerando histórico, eu estou treinando ele.
+
+120
+00:08:33,080 --> 00:08:38,340
+E aí a partir disso, a partir dessa personificação de alguém que entende sobre anúncios,
+
+121
+00:08:38,340 --> 00:08:41,320
+ele vai, e aí eu vou mandar informações pertinentes,
+
+122
+00:08:41,580 --> 00:08:44,720
+eu vou detalhar o que eu quero, vou usar os limitadores e os refinadores,
+
+123
+00:08:44,840 --> 00:08:46,560
+e ele vai fazer um bom anúncio para a gente aqui.
+
+124
+00:08:47,100 --> 00:08:48,860
+Então, como que a gente vai fazer isso?
+
+125
+00:08:49,700 --> 00:08:52,020
+Antes de mais nada, eu tenho que dar os créditos aqui.
+
+126
+00:08:52,280 --> 00:08:54,900
+Porque a primeira vez que eu vi uma estrutura parecida com essa,
+
+127
+00:08:55,200 --> 00:08:56,960
+foi através de um aluno de mentoria.
+
+128
+00:08:57,400 --> 00:09:01,420
+E esse aluno mencionou que ele aprendeu isso com um cara chamado Son.
+
+129
+00:09:01,420 --> 00:09:02,480
+S-O-N.
+
+130
+00:09:02,540 --> 00:09:03,520
+Eu não sei quem é esse cara.
+
+131
+00:09:03,520 --> 00:09:06,520
+Eu procurei em tudo que é lugar da internet para achar o nome do cara,
+
+132
+00:09:06,740 --> 00:09:07,940
+para perguntar se eu podia...
+
+133
+00:09:08,940 --> 00:09:11,020
+Não é que eu copiei ele, eu modelei.
+
+134
+00:09:11,160 --> 00:09:14,200
+Eu peguei tudo que ele ensinou e, na minha opinião, eu melhorei aquilo que ele fez.
+
+135
+00:09:14,640 --> 00:09:16,760
+E aí eu testei e deu certo.
+
+136
+00:09:17,140 --> 00:09:19,560
+E aí eu vou pegar o conhecimento desse cara, que eu modelei.
+
+137
+00:09:19,680 --> 00:09:21,960
+Então eu estou aqui dando os créditos para ele, mas não sei quem ele é.
+
+138
+00:09:22,200 --> 00:09:25,820
+Mas eu estou dando os créditos para ele, porque eu sempre dou os créditos para todo mundo
+
+139
+00:09:25,820 --> 00:09:27,360
+que me ensinou alguma coisa.
+
+140
+00:09:27,360 --> 00:09:30,380
+Basicamente, o que esse cara ensinava era uma estrutura,
+
+141
+00:09:30,520 --> 00:09:32,980
+que ele chamava de estrutura do CTR infinito.
+
+142
+00:09:33,040 --> 00:09:33,720
+O que é o CTR?
+
+143
+00:09:33,980 --> 00:09:35,820
+É a taxa de cliques no seu anúncio.
+
+144
+00:09:35,920 --> 00:09:36,960
+Quantas pessoas estão clicando.
+
+145
+00:09:37,220 --> 00:09:39,600
+O nome é muito bom, mas é óbvio que a gente deu um upgrade.
+
+146
+00:09:40,020 --> 00:09:41,600
+Então, o que você vai receber?
+
+147
+00:09:41,700 --> 00:09:44,040
+Você vai receber isso no material de apoio.
+
+148
+00:09:44,200 --> 00:09:46,320
+Então, essa aula aqui vem com material de apoio.
+
+149
+00:09:46,420 --> 00:09:49,800
+Todos esses prompts vão estar no material de apoio para você copiar e colar.
+
+150
+00:09:50,620 --> 00:09:53,420
+Então eu chamei isso de estrutura do CTR subido.
+
+151
+00:09:53,740 --> 00:09:56,620
+E aí, alguns prompts vão ser só copia e cola.
+
+152
+00:09:56,620 --> 00:09:57,620
+Então eu vou copiar.
+
+153
+00:09:57,740 --> 00:09:59,180
+Isso aqui é só um copia e cola, por exemplo.
+
+154
+00:09:59,480 --> 00:10:00,320
+Eu vou mandar para ele aqui.
+
+155
+00:10:00,500 --> 00:10:02,600
+Hoje eu vou te ensinar a estrutura do CTR subido
+
+156
+00:10:02,600 --> 00:10:05,560
+e quero que toda vez que eu fale dele, você use essa estrutura.
+
+157
+00:10:05,700 --> 00:10:08,360
+Ele vai falar, beleza, me explique mais para que eu possa aplicá-la.
+
+158
+00:10:08,800 --> 00:10:13,200
+E aí eu vou mandar o passo número 2 aqui para ele.
+
+159
+00:10:14,380 --> 00:10:15,740
+Deixa eu mandar o passo número 2.
+
+160
+00:10:16,780 --> 00:10:18,760
+Vou colar aqui na minha tela para você ver sempre.
+
+161
+00:10:20,140 --> 00:10:20,880
+Um segundo.
+
+162
+00:10:21,300 --> 00:10:21,460
+Deu.
+
+163
+00:10:21,460 --> 00:10:29,980
+O método barra estrutura do CTR subido serve para criar anúncios de alta conversão dentro do meta, do YouTube.
+
+164
+00:10:30,120 --> 00:10:33,180
+Eu vou botar YouTube, meta e TikTok Ads.
+
+165
+00:10:34,640 --> 00:10:38,540
+E aí a gente poderia colocar todas as fontes de tráfego aqui, mas vamos deixar limitado por enquanto.
+
+166
+00:10:39,400 --> 00:10:40,240
+TikTok Ads.
+
+167
+00:10:40,240 --> 00:10:43,640
+Essa estrutura, esse método conta com cinco fases.
+
+168
+00:10:44,040 --> 00:10:45,320
+Gancho, corpo...
+
+169
+00:10:45,320 --> 00:10:47,180
+Eu apaguei uma fase aqui.
+
+170
+00:10:47,340 --> 00:10:48,140
+Espera aí que eu esqueci.
+
+171
+00:10:49,980 --> 00:10:50,400
+Três.
+
+172
+00:10:51,060 --> 00:10:52,040
+Desculpa, meu povo.
+
+173
+00:10:52,660 --> 00:10:55,240
+Depoimentos e chamada para ação.
+
+174
+00:10:55,540 --> 00:10:57,540
+Eu poderia fazer sem os depoimentos?
+
+175
+00:10:58,100 --> 00:10:58,580
+Poderia.
+
+176
+00:10:58,960 --> 00:11:00,100
+Mas eu quero usar...
+
+177
+00:11:00,100 --> 00:11:01,020
+Vou colocar os depoimentos.
+
+178
+00:11:01,180 --> 00:11:01,420
+Por quê?
+
+179
+00:11:01,680 --> 00:11:05,900
+Porque se a gente não for usar ele, é só descartar e a gente faz a estrutura mais clássica,
+
+180
+00:11:05,900 --> 00:11:10,740
+que é gancho, corpo e chamada para ação, que foi a primeira estrutura que a gente falou aqui na última aula.
+
+181
+00:11:10,860 --> 00:11:14,040
+Então, eu vou falar para ele que a estrutura do CTR subido segue isso daqui.
+
+182
+00:11:14,360 --> 00:11:15,900
+E eu ainda coloquei uma quinta...
+
+183
+00:11:16,660 --> 00:11:18,080
+Um quinto ponto, que é a duração.
+
+184
+00:11:18,400 --> 00:11:22,380
+Aí eu falo, o primeiro ponto que eu vou te explicar é o gancho e quero que você diga se entendeu sobre ele.
+
+185
+00:11:22,700 --> 00:11:24,420
+O gancho é o momento mais importante do vídeo.
+
+186
+00:11:24,580 --> 00:11:29,180
+Nele você tem que chamar atenção, quebrar o padrão, ser contraintuitivo, gerar curiosidade
+
+187
+00:11:29,180 --> 00:11:34,580
+e principalmente conversar com o público-alvo de acordo com o tema ou nicho do anúncio.
+
+188
+00:11:34,580 --> 00:11:37,620
+E aí, o tema ou nicho que eu te informarei previamente.
+
+189
+00:11:37,960 --> 00:11:43,260
+O gancho é responsável por despertar desejo e principalmente reter a pessoa no anúncio para que ela assista o resto.
+
+190
+00:11:43,440 --> 00:11:48,480
+É basicamente o que eu te expliquei por gancho, mas eu vou falar isso para o chat GPT
+
+191
+00:11:48,480 --> 00:11:50,860
+para que ele entenda o que é o gancho do anúncio.
+
+192
+00:11:51,240 --> 00:11:52,480
+E aí eu vou falar para ele aqui.
+
+193
+00:11:52,900 --> 00:11:54,260
+Muitas vezes, vou até botar isso.
+
+194
+00:11:54,260 --> 00:12:08,360
+Muitas vezes, vamos, inclusive, utilizar o nosso gancho para que o anúncio não se pareça com o anúncio.
+
+195
+00:12:08,480 --> 00:12:10,860
+Ou seja, é o anúncio da camuflagem.
+
+196
+00:12:11,040 --> 00:12:14,560
+Lembrando que a gente também vai utilizar o anúncio que a gente chamou de explícito.
+
+197
+00:12:14,900 --> 00:12:16,740
+Vou pegar esse prompt e vou colar aqui.
+
+198
+00:12:17,200 --> 00:12:18,240
+E ele vai me dizer que entendeu.
+
+199
+00:12:19,120 --> 00:12:20,060
+Entendi o conceito.
+
+200
+00:12:20,460 --> 00:12:22,360
+Ele vai reexplicar aqui e está tudo certo.
+
+201
+00:12:22,360 --> 00:12:25,780
+E aí a gente vai para o terceiro prompt, que eu vou explicar para ele o corpo.
+
+202
+00:12:26,240 --> 00:12:27,920
+Então eu vou dizer para ele agora o que é o corpo.
+
+203
+00:12:28,240 --> 00:12:31,080
+O próximo passo do método do CTR subido é o corpo.
+
+204
+00:12:31,500 --> 00:12:35,000
+É ali onde você vai explicar brevemente, de maneira simples,
+
+205
+00:12:35,100 --> 00:12:39,940
+para que qualquer pessoa possa entender o benefício dele, do corpo, e clicar naquele anúncio.
+
+206
+00:12:41,420 --> 00:12:46,880
+Um corpo pode ser explicado como um mecanismo único de como o produto funciona.
+
+207
+00:12:47,260 --> 00:12:52,260
+Nesse caso, o mecanismo único é o meio principal que vamos utilizar para levar a pessoa ao objetivo dela.
+
+208
+00:12:52,360 --> 00:12:55,280
+Então se estou vendendo uma receita secreta para a pessoa emagrecer,
+
+209
+00:12:55,600 --> 00:12:58,520
+o mecanismo único, o corpo desse produto é a receita secreta.
+
+210
+00:12:58,640 --> 00:12:58,920
+Entendeu?
+
+211
+00:12:59,100 --> 00:12:59,460
+É isso.
+
+212
+00:12:59,860 --> 00:13:04,220
+Então só dei o exemplo para ele aqui no final, mas a gente está explicando para ele o que é o corpo.
+
+213
+00:13:04,340 --> 00:13:07,740
+Mais uma vez, você vai copiar, vai colar e a gente está gerando histórico.
+
+214
+00:13:08,000 --> 00:13:10,640
+Quando você colar, não precisa dizer que esse é o prompt 3.
+
+215
+00:13:10,780 --> 00:13:14,000
+Isso aqui eu estou só colocando aqui por motivos organizacionais.
+
+216
+00:13:14,380 --> 00:13:15,060
+Prompt 4.
+
+217
+00:13:15,340 --> 00:13:17,020
+Agora a gente vai falar da fase dos depoimentos.
+
+218
+00:13:17,020 --> 00:13:17,620
+Eu vou falar aqui.
+
+219
+00:13:18,020 --> 00:13:22,580
+A fase de depoimentos é a fase onde vamos criar e colocar um volume maior de depoimentos curtos
+
+220
+00:13:22,580 --> 00:13:26,080
+de várias pessoas transformadas pelo corpo, pelo mecanismo único.
+
+221
+00:13:26,460 --> 00:13:30,320
+Então, com base no mecanismo único e no resultado desejado do produto,
+
+222
+00:13:30,780 --> 00:13:37,460
+você deve criar, ficou CRI, você deve criar diversos minis depoimentos,
+
+223
+00:13:37,600 --> 00:13:40,580
+2, 3, 4 depoimentos para colocarmos nessa parte do anúncio.
+
+224
+00:13:40,860 --> 00:13:43,000
+Você deve criar várias minis histórias para essa parte.
+
+225
+00:13:43,000 --> 00:13:45,520
+Lembre-se, são depoimentos em primeira pessoa, sempre.
+
+226
+00:13:45,640 --> 00:13:48,860
+Algumas vezes vou te pedir para não colocar depoimentos nos anúncios,
+
+227
+00:13:49,000 --> 00:13:56,720
+porque pode ser que eu já esteja divulgando algo que ainda não tenha depoimentos.
+
+228
+00:13:56,940 --> 00:13:58,340
+E aí eu vou ser claro aqui com você.
+
+229
+00:13:58,720 --> 00:14:01,980
+Nunca coloque depoimentos nos seus anúncios que não são depoimentos de verdade.
+
+230
+00:14:02,480 --> 00:14:04,300
+Depoimento fake vai ser horrível.
+
+231
+00:14:04,600 --> 00:14:06,540
+Você tem que ter depoimento de verdade no seu anúncio.
+
+232
+00:14:06,880 --> 00:14:07,280
+Não tem?
+
+233
+00:14:07,280 --> 00:14:11,800
+Você vai esquecer, você vai pedir tudo isso aqui nessa ordem,
+
+234
+00:14:11,860 --> 00:14:13,140
+mas você vai esquecer dos depoimentos.
+
+235
+00:14:13,440 --> 00:14:15,820
+E aí eu vou mandar para ele aqui, se entendeu, digite ok.
+
+236
+00:14:17,220 --> 00:14:18,680
+Às vezes ele dá uma pensadinha.
+
+237
+00:14:20,940 --> 00:14:21,840
+Ele está carregando.
+
+238
+00:14:21,920 --> 00:14:23,780
+Aí se ele demorar muito para carregar,
+
+239
+00:14:23,920 --> 00:14:25,240
+deu, entendi.
+
+240
+00:14:26,180 --> 00:14:26,820
+E aí ele vai,
+
+241
+00:14:27,520 --> 00:14:29,060
+às vezes tem muita gente usando,
+
+242
+00:14:29,420 --> 00:14:30,260
+ele dá uma demorada.
+
+243
+00:14:30,360 --> 00:14:33,000
+E aí se ele travar, você manda para ele assim,
+
+244
+00:14:33,480 --> 00:14:34,500
+continue a resposta.
+
+245
+00:14:34,500 --> 00:14:35,740
+E aí ele vai continuar a resposta.
+
+246
+00:14:36,060 --> 00:14:38,380
+Então ele vai seguir aqui me dando o ok que ele entendeu.
+
+247
+00:14:38,840 --> 00:14:40,460
+Enquanto isso, a gente vai para o próximo prompt.
+
+248
+00:14:41,600 --> 00:14:43,220
+Que eu vou explicar para ele o quê?
+
+249
+00:14:43,500 --> 00:14:44,520
+A chamada para a ação.
+
+250
+00:14:44,640 --> 00:14:45,140
+Então olha só,
+
+251
+00:14:45,400 --> 00:14:46,800
+eu expliquei para ele o que é o gancho,
+
+252
+00:14:46,880 --> 00:14:48,180
+o que é o corpo, o que é o depoimento.
+
+253
+00:14:48,300 --> 00:14:49,640
+Vou explicar para ele a chamada para a ação.
+
+254
+00:14:50,040 --> 00:14:51,840
+E aí o próximo passo é a chamada para a ação.
+
+255
+00:14:52,180 --> 00:14:54,540
+Nessa parte a gente reforça a promessa do início do vídeo
+
+256
+00:14:54,540 --> 00:14:56,940
+e deixa claro que a pessoa precisa clicar no botão
+
+257
+00:14:56,940 --> 00:14:58,660
+para ter acesso à nossa transformação.
+
+258
+00:15:01,200 --> 00:15:03,500
+Se entendeu, digite apenas ok.
+
+259
+00:15:03,500 --> 00:15:06,140
+Muitas vezes eu peço para ele digitar uma coisa
+
+260
+00:15:06,140 --> 00:15:08,500
+e aí ele vai me...
+
+261
+00:15:10,180 --> 00:15:11,920
+Ele vai tentar me corrigir.
+
+262
+00:15:12,880 --> 00:15:14,200
+Ok, agora...
+
+263
+00:15:14,200 --> 00:15:15,500
+Filho da mãe, eu vou...
+
+264
+00:15:16,460 --> 00:15:18,380
+Às vezes eu peço para ele digitar ok
+
+265
+00:15:18,380 --> 00:15:19,540
+e ele fica digitando outras coisas.
+
+266
+00:15:19,640 --> 00:15:21,380
+Agora ele entendeu e digitou ok.
+
+267
+00:15:21,860 --> 00:15:22,900
+Prompt número 6.
+
+268
+00:15:23,360 --> 00:15:23,800
+Vamos embora.
+
+269
+00:15:24,600 --> 00:15:25,580
+Prompt número 6.
+
+270
+00:15:25,580 --> 00:15:28,500
+A quinta fase não é bem uma fase,
+
+271
+00:15:28,780 --> 00:15:30,000
+porém uma observação.
+
+272
+00:15:30,160 --> 00:15:31,680
+O tamanho da cópia deste anúncio
+
+273
+00:15:31,680 --> 00:15:34,120
+tem que bater entre 1 a 2 minutos.
+
+274
+00:15:34,260 --> 00:15:35,160
+Bater eu vou botar ter.
+
+275
+00:15:35,260 --> 00:15:37,400
+Tem que ter entre 1 a 2 minutos.
+
+276
+00:15:37,760 --> 00:15:39,740
+Então ela tem que ter uma quantidade de palavras
+
+277
+00:15:39,740 --> 00:15:40,800
+que encaixem nesse tempo.
+
+278
+00:15:40,880 --> 00:15:42,520
+Não precisa me explicar o que você entendeu.
+
+279
+00:15:42,940 --> 00:15:44,080
+Digite apenas a palavra ok.
+
+280
+00:15:45,100 --> 00:15:47,420
+Porque às vezes ele fica gerando essas respostas.
+
+281
+00:15:47,640 --> 00:15:48,500
+Isso é um limitador.
+
+282
+00:15:48,920 --> 00:15:50,580
+Não precisa me digitar se você entendeu.
+
+283
+00:15:50,700 --> 00:15:51,420
+Digite apenas ok.
+
+284
+00:15:51,520 --> 00:15:52,780
+Aí ele vai me dizer ok, ele entendeu.
+
+285
+00:15:52,780 --> 00:15:54,800
+Então ele está recolhendo as informações.
+
+286
+00:15:55,300 --> 00:15:56,220
+Esse é o prompt 6.
+
+287
+00:15:56,460 --> 00:15:57,780
+Nós vamos utilizar aqui...
+
+288
+00:15:58,300 --> 00:15:59,680
+Vão ser 12 prompts.
+
+289
+00:15:59,980 --> 00:16:01,040
+A gente está na metade.
+
+290
+00:16:02,080 --> 00:16:02,840
+Prompt 7.
+
+291
+00:16:03,240 --> 00:16:04,980
+Mais uma dica valiosa aqui no YouTube.
+
+292
+00:16:05,080 --> 00:16:05,780
+Onde vamos...
+
+293
+00:16:05,780 --> 00:16:06,360
+O YouTube...
+
+294
+00:16:06,360 --> 00:16:06,780
+Vou botar aqui.
+
+295
+00:16:07,100 --> 00:16:11,500
+YouTube, meta e TikTok Ads.
+
+296
+00:16:13,120 --> 00:16:15,080
+Onde vamos utilizar esses anúncios.
+
+297
+00:16:15,720 --> 00:16:17,040
+Mais uma dica valiosa.
+
+298
+00:16:17,180 --> 00:16:19,020
+É que no YouTube, meta e TikTok Ads.
+
+299
+00:16:19,500 --> 00:16:21,580
+Onde vamos utilizar esses anúncios.
+
+300
+00:16:22,780 --> 00:16:27,760
+A pessoa é obrigada a assistir os primeiros 5 segundos do vídeo.
+
+301
+00:16:28,000 --> 00:16:28,780
+Ou então...
+
+302
+00:16:29,900 --> 00:16:33,060
+Temos que chamar muito a atenção da pessoa.
+
+303
+00:16:34,060 --> 00:16:36,480
+Nos primeiros 5 segundos.
+
+304
+00:16:37,440 --> 00:16:37,960
+Ponto.
+
+305
+00:16:38,340 --> 00:16:41,080
+Então devemos criar algo bem disruptivo nessa parte.
+
+306
+00:16:41,480 --> 00:16:44,980
+Para realmente chamar a atenção da pessoa.
+
+307
+00:16:45,720 --> 00:16:45,800
+Tá?
+
+308
+00:16:45,900 --> 00:16:47,100
+Então prompt número 7.
+
+309
+00:16:47,860 --> 00:16:48,860
+Ctrl C, Ctrl V.
+
+310
+00:16:48,860 --> 00:16:53,840
+Será que eu escrevi disruptivo errado?
+
+311
+00:16:56,240 --> 00:16:57,280
+Não, está certo.
+
+312
+00:16:59,280 --> 00:16:59,480
+Tá?
+
+313
+00:16:59,580 --> 00:17:01,100
+Aí ele vai me dizer aqui entendido.
+
+314
+00:17:01,280 --> 00:17:01,700
+Nananana.
+
+315
+00:17:02,480 --> 00:17:03,760
+Vamos para o próximo prompt.
+
+316
+00:17:04,120 --> 00:17:05,120
+Prompt número 8.
+
+317
+00:17:06,040 --> 00:17:08,180
+Aí agora é a fase que...
+
+318
+00:17:08,180 --> 00:17:10,000
+Aqui a gente está só copiando.
+
+319
+00:17:10,100 --> 00:17:11,300
+Você está só copiando e colando.
+
+320
+00:17:11,400 --> 00:17:13,420
+Você não colocou nenhuma informação sobre a sua audiência.
+
+321
+00:17:13,740 --> 00:17:14,880
+Eu estou só treinando ele.
+
+322
+00:17:14,880 --> 00:17:15,800
+Agora eu vou falar.
+
+323
+00:17:15,980 --> 00:17:19,540
+Agora eu vou te pedir para você me entregar algumas situações do meu público-alvo.
+
+324
+00:17:19,780 --> 00:17:23,360
+Para depois encaixar isso dentro da estrutura CTR subido.
+
+325
+00:17:23,440 --> 00:17:23,700
+Ok?
+
+326
+00:17:23,860 --> 00:17:25,120
+Ele vai me dizer ok.
+
+327
+00:17:26,660 --> 00:17:29,180
+Aí eu deixei prompt 8 escrito aqui sem querer.
+
+328
+00:17:29,420 --> 00:17:30,420
+Não tem problema.
+
+329
+00:17:30,540 --> 00:17:31,560
+Mas evita fazer isso.
+
+330
+00:17:32,900 --> 00:17:34,220
+Aí agora a gente vai fazer o quê?
+
+331
+00:17:34,460 --> 00:17:36,800
+A gente vai colocar o seu público-alvo aqui.
+
+332
+00:17:37,220 --> 00:17:37,880
+Prompt 9.
+
+333
+00:17:37,880 --> 00:17:41,220
+Então, no caso, nosso público-alvo são...
+
+334
+00:17:41,220 --> 00:17:42,620
+Aí você vai dizer seu público-alvo.
+
+335
+00:17:42,720 --> 00:17:44,120
+Pessoas que têm o sofá sujo.
+
+336
+00:17:44,420 --> 00:17:47,260
+Me diga 8 problemas mais comuns entre o meu público-alvo.
+
+337
+00:17:47,500 --> 00:17:48,480
+Eu posso botar aqui.
+
+338
+00:17:48,800 --> 00:17:50,880
+No caso, meu público-alvo são...
+
+339
+00:17:50,880 --> 00:17:53,420
+E aí no PDF vai estar assim para você, tá?
+
+340
+00:17:53,800 --> 00:17:55,300
+Com essa parte não preenchida.
+
+341
+00:17:55,520 --> 00:17:56,600
+Mas eu posso colocar aqui.
+
+342
+00:17:56,940 --> 00:17:59,280
+Meu público-alvo são, sei lá...
+
+343
+00:17:59,280 --> 00:18:05,140
+Mulheres com mais de 30 anos que estão acima do peso.
+
+344
+00:18:05,140 --> 00:18:08,200
+E querem emagrecer.
+
+345
+00:18:08,360 --> 00:18:10,420
+Então, eu vou colocar uma característica do meu público.
+
+346
+00:18:10,640 --> 00:18:11,040
+Básica.
+
+347
+00:18:11,300 --> 00:18:14,840
+Não precisa ter um grande conhecimento sobre o público-alvo, tá?
+
+348
+00:18:15,080 --> 00:18:16,700
+Deixa eu só apagar os colchetes aqui.
+
+349
+00:18:17,120 --> 00:18:19,500
+E aí aqui você vai preencher o seu público-alvo, tá?
+
+350
+00:18:20,440 --> 00:18:21,520
+E aí seu público-alvo...
+
+351
+00:18:21,520 --> 00:18:22,940
+E aí sempre usa concordância, tá?
+
+352
+00:18:22,940 --> 00:18:23,640
+Se aqui não...
+
+353
+00:18:23,640 --> 00:18:27,140
+Não dá para colocar são mulheres ou é uma mulher, assim, assim, assada.
+
+354
+00:18:27,240 --> 00:18:27,560
+Bota o é.
+
+355
+00:18:28,040 --> 00:18:28,160
+Tá?
+
+356
+00:18:28,220 --> 00:18:29,300
+Então, você faz essa correção.
+
+357
+00:18:29,600 --> 00:18:30,620
+Então, eu vou colocar aqui.
+
+358
+00:18:31,640 --> 00:18:32,300
+Prompt 9.
+
+359
+00:18:32,300 --> 00:18:35,540
+E aí ele vai me dizer 8 problemas mais comuns.
+
+360
+00:18:35,680 --> 00:18:40,120
+Dificuldades de encontrar métodos eficazes, frustração, falta de motivação.
+
+361
+00:18:40,440 --> 00:18:43,660
+Então, eu não estou pedindo anúncio nenhum para ele ainda, tá?
+
+362
+00:18:43,860 --> 00:18:44,660
+Eu estou fazendo...
+
+363
+00:18:44,660 --> 00:18:50,700
+Eu estou dando informações e estou, através dele, criando mais informações para ele utilizar como histórico.
+
+364
+00:18:51,080 --> 00:18:51,180
+Tá?
+
+365
+00:18:51,440 --> 00:18:53,480
+Agora, esse prompt 10 é muito bom.
+
+366
+00:18:53,840 --> 00:18:54,560
+Que ele é o seguinte.
+
+367
+00:18:54,560 --> 00:19:02,960
+Me diga 8 situações mais constrangedoras que seu público-alvo passa, tá?
+
+368
+00:19:03,160 --> 00:19:04,200
+Então, eu vou colocar aqui.
+
+369
+00:19:04,500 --> 00:19:19,060
+Me diga 8 situações mais constrangedoras que essas mulheres com mais de 30 anos e que estão acima do peso passam.
+
+370
+00:19:19,060 --> 00:19:20,160
+Tá?
+
+371
+00:19:20,220 --> 00:19:22,960
+Então, eu vou pedir as situações constrangedoras do meu público.
+
+372
+00:19:23,960 --> 00:19:24,780
+Aí, eu vou mandar aqui.
+
+373
+00:19:25,940 --> 00:19:28,440
+Ó, ficou até um errinho de português aqui, mas não tem problema, tá?
+
+374
+00:19:29,140 --> 00:19:30,420
+Ficou mulheres...
+
+375
+00:19:30,420 --> 00:19:36,260
+Aí, ela vai, ó, colocar aqui todas as situações desconfortáveis.
+
+376
+00:19:36,400 --> 00:19:36,780
+Beleza?
+
+377
+00:19:36,840 --> 00:19:38,660
+Colocou todas as situações desconfortáveis.
+
+378
+00:19:39,680 --> 00:19:41,340
+Agora, vamos para o próximo prompt.
+
+379
+00:19:41,480 --> 00:19:41,900
+O 11.
+
+380
+00:19:41,900 --> 00:19:42,620
+Penúltimo.
+
+381
+00:19:43,680 --> 00:19:49,120
+Me dê também 5 sonhos ou vontades desse público-alvo com base na dor delas, tá?
+
+382
+00:19:49,420 --> 00:19:52,220
+Então, me dê também 5 sonhos ou vontades.
+
+383
+00:19:53,180 --> 00:19:53,920
+Aí, eu vou botar aqui, ó.
+
+384
+00:19:54,140 --> 00:19:56,760
+Dessas mulheres com mais de 30 anos que estão acima do peso.
+
+385
+00:19:58,520 --> 00:19:59,980
+Aí, eu vou, ó, mudar aqui, ó.
+
+386
+00:20:02,980 --> 00:20:03,460
+Dessas...
+
+387
+00:20:03,460 --> 00:20:05,980
+Mulheres com mais de 30 anos que estão acima do peso.
+
+388
+00:20:06,740 --> 00:20:07,180
+Vírgula.
+
+389
+00:20:07,560 --> 00:20:09,140
+Com base na dor delas.
+
+390
+00:20:11,900 --> 00:20:19,820
+Ah, não. São 13, tá? Eu falei errado.
+
+391
+00:20:21,400 --> 00:20:21,580
+Tá?
+
+392
+00:20:21,800 --> 00:20:23,020
+E aí, o prompt 12.
+
+393
+00:20:26,760 --> 00:20:28,280
+5 objeções
+
+394
+00:20:28,280 --> 00:20:31,580
+e desejos
+
+395
+00:20:31,580 --> 00:20:35,080
+e dores
+
+396
+00:20:35,080 --> 00:20:39,140
+desse público-alvo.
+
+397
+00:20:39,140 --> 00:20:42,100
+Tá? Então, eu vou pedir para ele listar para mim
+
+398
+00:20:42,100 --> 00:20:46,040
+dores, objeções e dores do público-alvo.
+
+399
+00:20:46,500 --> 00:20:47,400
+Tá? Então, eu vou colocar aqui.
+
+400
+00:20:47,460 --> 00:20:49,260
+Me dê também 5 objeções e dores
+
+401
+00:20:49,260 --> 00:20:53,740
+dessas mulheres com mais de 30 anos que estão acima do peso.
+
+402
+00:20:53,740 --> 00:20:53,840
+Tá?
+
+403
+00:21:09,640 --> 00:21:09,880
+Tá tudo bem.
+
+404
+00:21:09,880 --> 00:21:12,640
+E aí, é muito importante que você leia o que está escrito aqui.
+
+405
+00:21:12,640 --> 00:21:12,740
+Tá?
+
+406
+00:21:12,740 --> 00:21:13,740
+É que eu estou na aula.
+
+407
+00:21:13,740 --> 00:21:16,740
+Eu estou só gerando aqui para você essas informações.
+
+408
+00:21:16,740 --> 00:21:17,240
+Tá?
+
+409
+00:21:17,240 --> 00:21:19,240
+Mas aqui você já vai pegar muita ideia.
+
+410
+00:21:19,240 --> 00:21:20,040
+Muita ideia.
+
+411
+00:21:20,040 --> 00:21:21,040
+Muita ideia.
+
+412
+00:21:21,040 --> 00:21:23,340
+Só nessa parte aqui já pegamos muita ideia.
+
+413
+00:21:23,340 --> 00:21:24,640
+E agora, o que eu vou fazer?
+
+414
+00:21:24,640 --> 00:21:26,840
+Eu vou soltar o prompt final.
+
+415
+00:21:26,840 --> 00:21:28,240
+Que é o prompt 13.
+
+416
+00:21:28,240 --> 00:21:31,140
+Que agora eu vou efetivamente pedir para ele o anúncio.
+
+417
+00:21:31,140 --> 00:21:31,840
+Tá?
+
+418
+00:21:31,840 --> 00:21:32,540
+Então, eu vou botar assim.
+
+419
+00:21:32,540 --> 00:21:36,640
+Com base em todos esses pontos citados acima, quero que você crie um anúncio para YouTube
+
+420
+00:21:36,640 --> 00:21:37,640
+ou Facebook, né?
+
+421
+00:21:37,640 --> 00:21:39,240
+Você vai colocar aqui o que você quiser.
+
+422
+00:21:39,240 --> 00:21:41,240
+Na estrutura de CTR.
+
+423
+00:21:41,240 --> 00:21:42,640
+Ficou até o nome antigo.
+
+424
+00:21:42,640 --> 00:21:44,740
+CTR subido que eu te ensinei.
+
+425
+00:21:44,740 --> 00:21:47,640
+Com o mecanismo único sendo.
+
+426
+00:21:47,640 --> 00:21:48,140
+Tá?
+
+427
+00:21:48,140 --> 00:21:49,140
+E aí, eu vou botar aqui.
+
+428
+00:21:49,140 --> 00:21:50,140
+É um curso.
+
+429
+00:21:50,140 --> 00:21:52,640
+Aí, deixa eu botar aqui em vermelho para você entender.
+
+430
+00:21:52,640 --> 00:21:54,340
+Aí, você vai colocar aqui o mecanismo único.
+
+431
+00:21:54,340 --> 00:21:55,840
+Que é o que você está divulgando.
+
+432
+00:21:55,840 --> 00:22:00,640
+Estou divulgando um evento com o mecanismo único sendo um evento gratuito.
+
+433
+00:22:00,640 --> 00:22:12,640
+Onde eu vou ensinar as técnicas para você emagrecer sem ter que fazer dietas milagrosas.
+
+434
+00:22:12,640 --> 00:22:14,640
+Ou se matar.
+
+435
+00:22:14,640 --> 00:22:19,640
+Ou passar horas na academia.
+
+436
+00:22:19,640 --> 00:22:20,140
+Tá?
+
+437
+00:22:20,140 --> 00:22:22,140
+Daí, você vai colocar o seu mecanismo único aqui.
+
+438
+00:22:22,140 --> 00:22:23,140
+O seu diferencial.
+
+439
+00:22:23,140 --> 00:22:24,140
+O que você entrega.
+
+440
+00:22:24,140 --> 00:22:24,640
+Tá?
+
+441
+00:22:24,640 --> 00:22:26,140
+Vou tirar esses três pontinhos aqui.
+
+442
+00:22:26,140 --> 00:22:28,140
+Vou colocar aqui o meu mecanismo único.
+
+443
+00:22:28,140 --> 00:22:30,140
+Deixa eu apagar aqui os colchetes, tá?
+
+444
+00:22:30,140 --> 00:22:33,140
+E aí, você vai colocar aqui o mecanismo único do seu produto.
+
+445
+00:22:33,140 --> 00:22:34,140
+Tá?
+
+446
+00:22:34,140 --> 00:22:35,140
+Aí, ele vai criar para mim um anúncio.
+
+447
+00:22:35,140 --> 00:22:36,140
+Vamos ver se ele vai fazer.
+
+448
+00:22:36,140 --> 00:22:37,140
+Então, vamos embora.
+
+449
+00:22:37,140 --> 00:22:38,140
+Enter.
+
+450
+00:22:38,140 --> 00:22:39,140
+E aí, ele vai criar o anúncio.
+
+451
+00:22:39,140 --> 00:22:40,140
+Então, gancho.
+
+452
+00:22:40,140 --> 00:22:41,140
+Cinco segundos.
+
+453
+00:22:41,140 --> 00:22:45,140
+Atenção, mulheres com mais de 30 anos acima do peso e cansada de dietas restritivas.
+
+454
+00:22:45,140 --> 00:22:46,140
+Corpo.
+
+455
+00:22:46,140 --> 00:22:47,140
+Você já tentou de tudo para emagrecer?
+
+456
+00:22:47,140 --> 00:22:48,140
+Dietas milagrosas?
+
+457
+00:22:48,140 --> 00:22:49,140
+Horas na academia?
+
+458
+00:22:49,140 --> 00:22:51,140
+Mas se eu te disser que há uma maneira mais simples e eficaz.
+
+459
+00:22:51,140 --> 00:22:53,140
+Apresenta a você...
+
+460
+00:22:53,140 --> 00:22:55,140
+Ele usou a palavra mecanismo único.
+
+461
+00:22:55,140 --> 00:22:56,140
+Às vezes, vai acontecer isso, tá?
+
+462
+00:22:56,140 --> 00:23:03,140
+Apresento para você a solução para você alcançar o emagrecimento do duradouro sem sacrifícios extremos.
+
+463
+00:23:03,140 --> 00:23:07,140
+E aí, podem aparecer os depoimentos e eu posso colocar assim.
+
+464
+00:23:07,140 --> 00:23:08,140
+Não utilize...
+
+465
+00:23:08,140 --> 00:23:09,140
+E aí, eu vou fazer o que?
+
+466
+00:23:09,140 --> 00:23:10,140
+Refinamento.
+
+467
+00:23:10,140 --> 00:23:11,140
+Não utilize...
+
+468
+00:23:13,140 --> 00:23:14,140
+É...
+
+469
+00:23:14,140 --> 00:23:16,140
+Refaça...
+
+470
+00:23:16,140 --> 00:23:21,140
+Sem utilizar a palavra mecanismo único.
+
+471
+00:23:21,140 --> 00:23:28,140
+E não precisa colocar depoimentos.
+
+472
+00:23:32,140 --> 00:23:33,140
+E aí, ele refez.
+
+473
+00:23:33,140 --> 00:23:34,140
+Você fez.
+
+474
+00:23:34,140 --> 00:23:35,140
+Então, gancho...
+
+475
+00:23:35,140 --> 00:23:36,140
+Aí, ele fez sem os depoimentos.
+
+476
+00:23:36,140 --> 00:23:39,140
+Mas, ele já sabe como é que coloca os depoimentos.
+
+477
+00:23:39,140 --> 00:23:44,140
+E se você tiver depoimentos, é aqui que você pode colocar um, dois depoimentos na tela.
+
+478
+00:23:44,140 --> 00:23:46,140
+Prints de pessoas.
+
+479
+00:23:46,140 --> 00:23:47,140
+Tá?
+
+480
+00:23:47,140 --> 00:23:48,140
+E aí, você vai botar aqui.
+
+481
+00:23:48,140 --> 00:23:50,140
+E ele fez toda a copy para a gente.
+
+482
+00:23:50,140 --> 00:23:51,140
+Gancho, corpo...
+
+483
+00:23:51,140 --> 00:23:54,140
+Você está em busca de uma forma mais simples e eficaz de emagrecer.
+
+484
+00:23:54,140 --> 00:23:59,140
+Isso aqui poderia ser até uma imagem com isso daqui escrito.
+
+485
+00:23:59,140 --> 00:24:01,140
+Isso aqui poderia estar na descrição.
+
+486
+00:24:01,140 --> 00:24:02,140
+Tá?
+
+487
+00:24:02,140 --> 00:24:03,140
+E eu posso pedir para ele.
+
+488
+00:24:03,140 --> 00:24:04,140
+Agora...
+
+489
+00:24:07,140 --> 00:24:11,140
+Seguindo a estrutura do CTR subido...
+
+490
+00:24:13,140 --> 00:24:20,140
+Crie mais cinco ganchos com base em tudo que falamos acima.
+
+491
+00:24:20,140 --> 00:24:21,140
+Toma.
+
+492
+00:24:21,140 --> 00:24:22,140
+E aí, ele vai lá e vai.
+
+493
+00:24:22,140 --> 00:24:24,140
+Claro, aqui estão mais cinco ganchos.
+
+494
+00:24:24,140 --> 00:24:25,140
+Ele está botando uns emojis, não sei por quê.
+
+495
+00:24:25,140 --> 00:24:26,140
+Tá?
+
+496
+00:24:26,140 --> 00:24:27,140
+Mas, tá tudo bem.
+
+497
+00:24:27,140 --> 00:24:31,140
+E aí, ele vai me dar as ideias de ganchos aqui para que eu possa utilizar os meus anúncios.
+
+498
+00:24:31,140 --> 00:24:33,140
+Isso daqui é perfeito?
+
+499
+00:24:33,140 --> 00:24:34,140
+Não.
+
+500
+00:24:34,140 --> 00:24:35,140
+Perfeito é o quê?
+
+501
+00:24:35,140 --> 00:24:38,140
+Perfeito é você seguir tudo aquilo que a gente falou na aula anterior.
+
+502
+00:24:38,140 --> 00:24:39,140
+É você buscar referências.
+
+503
+00:24:39,140 --> 00:24:41,140
+É você criar quantidade.
+
+504
+00:24:41,140 --> 00:24:45,140
+Mas isso daqui é uma fonte inesgotável de novas ideias para você.
+
+505
+00:24:45,140 --> 00:24:46,140
+Tá?
+
+506
+00:24:46,140 --> 00:24:51,140
+E é muito melhor do que eu simplesmente chegar para o chat GPT e fazer igual eu fiz antes.
+
+507
+00:24:51,140 --> 00:24:53,140
+Quer apertar aqui e falar para ele.
+
+508
+00:24:53,140 --> 00:24:56,140
+Me deu uma ideia de anúncio para um produto de emagrecimento.
+
+509
+00:24:57,140 --> 00:25:01,140
+Isso aqui não tem nem competição com isso daqui que a gente fez agora.
+
+510
+00:25:01,140 --> 00:25:02,140
+Tá?
+
+511
+00:25:02,140 --> 00:25:03,140
+E aí, o que você pode fazer?
+
+512
+00:25:03,140 --> 00:25:04,140
+Você pode criar esse prompt.
+
+513
+00:25:04,140 --> 00:25:08,140
+Se você é gestor de tráfego, você vai criar um chat para cada cliente seu.
+
+514
+00:25:08,140 --> 00:25:12,140
+E sempre que você for ter ideia, quiser ideias de novos anúncios,
+
+515
+00:25:12,140 --> 00:25:16,140
+você vai vir no mesmo chat que você já utilizou anteriormente para aquele cliente
+
+516
+00:25:16,140 --> 00:25:18,140
+e vai fazer novos pedidos.
+
+517
+00:25:18,140 --> 00:25:20,140
+Sempre usando tudo isso aqui que a gente falou.
+
+518
+00:25:20,140 --> 00:25:25,140
+Montando os prompts aqui que você vai receber no material PDF para que você possa reutilizar.
+
+519
+00:25:25,140 --> 00:25:29,140
+E utilizando personificação, dando informações pertinentes,
+
+520
+00:25:29,140 --> 00:25:33,140
+detalhamento do que você quer, usando limitadores, usando refinadores.
+
+521
+00:25:33,140 --> 00:25:34,140
+Tá?
+
+522
+00:25:34,140 --> 00:25:38,140
+E as ideias, quanto melhor você fizer esse processo, mais resultado você vai ter.
+
+523
+00:25:38,140 --> 00:25:41,140
+Só para você ter uma noção.
+
+524
+00:25:41,140 --> 00:25:44,140
+Deixa eu achar aqui.
+
+525
+00:25:46,140 --> 00:25:47,140
+Deixa eu achar.
+
+526
+00:25:47,140 --> 00:25:48,140
+Tá aqui, ó.
+
+527
+00:25:48,140 --> 00:25:49,140
+Só para você ter uma noção.
+
+528
+00:25:49,140 --> 00:25:54,140
+Quando eu fiz isso com o chat GPT, eu dei muita informação para ele.
+
+529
+00:25:54,140 --> 00:25:57,140
+Então, por exemplo, eu não só falei para ele,
+
+530
+00:25:57,140 --> 00:26:00,140
+pedi para ele me dar dores e desejos do meu público.
+
+531
+00:26:00,140 --> 00:26:02,140
+Eu fiz tudo igualzinho eu te falei, tá?
+
+532
+00:26:02,140 --> 00:26:03,140
+Igualzinho eu te falei.
+
+533
+00:26:03,140 --> 00:26:05,140
+Então, mais uma dica valiosa aqui, YouTube.
+
+534
+00:26:05,140 --> 00:26:06,140
+Nós vamos usar esses anúncios.
+
+535
+00:26:06,140 --> 00:26:09,140
+Agora eu vou pedir para você me entregar situações.
+
+536
+00:26:09,140 --> 00:26:12,140
+E aí eu peguei e falei para ele, para quem que eu ajudo.
+
+537
+00:26:12,140 --> 00:26:13,140
+Ó, o meu público-alvo 1.
+
+538
+00:26:13,140 --> 00:26:15,140
+Quem que é o meu público-alvo 2.
+
+539
+00:26:15,140 --> 00:26:17,140
+Aí eu expliquei tudo sobre o meu público-alvo 1.
+
+540
+00:26:17,140 --> 00:26:18,140
+Que são os donos de negócio.
+
+541
+00:26:18,140 --> 00:26:20,140
+Quais são as dores que eles têm.
+
+542
+00:26:20,140 --> 00:26:22,140
+Quais são os desejos que ele tem.
+
+543
+00:26:22,140 --> 00:26:23,140
+Quais são as objeções.
+
+544
+00:26:23,140 --> 00:26:24,140
+O que que eles sentem.
+
+545
+00:26:24,140 --> 00:26:25,140
+O que que eles fazem.
+
+546
+00:26:25,140 --> 00:26:27,140
+Dei todas as informações sobre o meu público-alvo.
+
+547
+00:26:27,140 --> 00:26:28,140
+O meu público-alvo.
+
+548
+00:26:28,140 --> 00:26:29,140
+Aí eu vou lá e pedi um anúncio.
+
+549
+00:26:29,140 --> 00:26:30,140
+E falei tudo.
+
+550
+00:26:30,140 --> 00:26:31,140
+Tudo sobre o meu público-alvo.
+
+551
+00:26:31,140 --> 00:26:33,140
+E eu fiz a mesma coisa que eu mostrei para você.
+
+552
+00:26:33,140 --> 00:26:34,140
+Tá?
+
+553
+00:26:34,140 --> 00:26:36,140
+Me diga oito situações constrangedoras do público-alvo 1.
+
+554
+00:26:36,140 --> 00:26:41,140
+E depois oito situações constrangedoras que o público-alvo 2 passa.
+
+555
+00:26:41,140 --> 00:26:43,140
+Então, eu não só cheguei para...
+
+556
+00:26:43,140 --> 00:26:46,140
+E aí entra o que é do detalhamento, tá?
+
+557
+00:26:46,140 --> 00:26:48,140
+Então, na hora de falar o público-alvo.
+
+558
+00:26:48,140 --> 00:26:49,140
+Eu não disse para ele.
+
+559
+00:26:49,140 --> 00:26:51,140
+Ó, são só donos de negócio.
+
+560
+00:26:51,140 --> 00:26:52,140
+Não.
+
+561
+00:26:52,140 --> 00:26:53,140
+Falei, são donos de negócio.
+
+562
+00:26:53,140 --> 00:26:54,140
+Essas são as dores.
+
+563
+00:26:54,140 --> 00:26:55,140
+Essas são as objeções.
+
+564
+00:26:55,140 --> 00:26:56,140
+São os desejos que ele tem.
+
+565
+00:26:56,140 --> 00:26:57,140
+Por quê?
+
+566
+00:26:57,140 --> 00:26:59,140
+Porque eu tenho muito histórico sobre com quem eu falo.
+
+567
+00:26:59,140 --> 00:27:00,140
+E aí eu pedi para ele.
+
+568
+00:27:00,140 --> 00:27:02,140
+As oito situações mais constrangedoras do público-alvo.
+
+569
+00:27:02,140 --> 00:27:04,140
+Aí os cinco sonhos e vontades.
+
+570
+00:27:04,140 --> 00:27:05,140
+Pedi tudo para ele.
+
+571
+00:27:05,140 --> 00:27:06,140
+E aí eu peço no final.
+
+572
+00:27:06,140 --> 00:27:07,140
+Ó.
+
+573
+00:27:07,140 --> 00:27:08,140
+Com base...
+
+574
+00:27:08,140 --> 00:27:12,140
+Crie um anúncio com base na estrutura do CTR subido.
+
+575
+00:27:12,140 --> 00:27:13,140
+E nas informações que você...
+
+576
+00:27:13,140 --> 00:27:15,140
+Aliás, aqui eu pedi para ele.
+
+577
+00:27:15,140 --> 00:27:18,140
+Com base nesses pontos, crie a estrutura do CTR subido.
+
+578
+00:27:18,140 --> 00:27:19,140
+Tá?
+
+579
+00:27:19,140 --> 00:27:20,140
+E aí eu falei para ele.
+
+580
+00:27:20,140 --> 00:27:21,140
+O mecanismo único.
+
+581
+00:27:21,140 --> 00:27:22,140
+Olha o mecanismo único.
+
+582
+00:27:22,140 --> 00:27:24,140
+Com o mecanismo único sendo um evento gratuito chamado
+
+583
+00:27:24,140 --> 00:27:25,140
+da semana da gestão de tráfego.
+
+584
+00:27:25,140 --> 00:27:29,140
+Que é basicamente um curso gratuito de cinco aulas com dez horas de duração.
+
+585
+00:27:29,140 --> 00:27:31,140
+Onde eu vou te ensinar os fundamentos dos anúncios online.
+
+586
+00:27:31,140 --> 00:27:33,140
+Como anunciar no Instagram.
+
+587
+00:27:33,140 --> 00:27:34,140
+Vender o que você quiser.
+
+588
+00:27:34,140 --> 00:27:35,140
+Dominar o topo da pesquisa do Google.
+
+589
+00:27:35,140 --> 00:27:37,140
+Criar páginas que vendem todos os dias.
+
+590
+00:27:37,140 --> 00:27:39,140
+E as estratégias de anúncio online para cada tipo de negócio.
+
+591
+00:27:39,140 --> 00:27:40,140
+O que é isso aqui?
+
+592
+00:27:40,140 --> 00:27:41,140
+Detalhamento.
+
+593
+00:27:41,140 --> 00:27:43,140
+Detalhamento no nível máximo.
+
+594
+00:27:43,140 --> 00:27:45,140
+E aí cara, o que ele gerou para mim foi incrível.
+
+595
+00:27:45,140 --> 00:27:48,140
+Cansado de ver se é um negócio falindo enquanto os concorrentes prosperam.
+
+596
+00:27:48,140 --> 00:27:51,140
+Ou de perder dinheiro em campanhas de anúncios que não funcionam.
+
+597
+00:27:51,140 --> 00:27:53,140
+Tem algo que vai mudar essa situação.
+
+598
+00:27:53,140 --> 00:27:55,140
+Venha participar da semana da gestão de tráfego.
+
+599
+00:27:56,140 --> 00:27:57,140
+Aí ele gerou os depoimentos.
+
+600
+00:27:57,140 --> 00:27:58,140
+Chamada para a ação.
+
+601
+00:27:58,140 --> 00:28:00,140
+E aí ele bota aqui duração.
+
+602
+00:28:00,140 --> 00:28:03,140
+Esse anúncio foi projetado para durar entre um e dois minutos.
+
+603
+00:28:03,140 --> 00:28:04,140
+Mais uma vez.
+
+604
+00:28:04,140 --> 00:28:06,140
+O chat GPT ele é perfeito?
+
+605
+00:28:06,140 --> 00:28:07,140
+Não.
+
+606
+00:28:07,140 --> 00:28:10,140
+Mas o que vai fazer com que você tenha resultado com chat GPT.
+
+607
+00:28:10,140 --> 00:28:12,140
+Não é você confiar cegamente numa máquina.
+
+608
+00:28:12,140 --> 00:28:15,140
+Se você não quer ter o seu trabalho roubado por um robô.
+
+609
+00:28:15,140 --> 00:28:17,140
+Não haja como um robô.
+
+610
+00:28:17,140 --> 00:28:19,140
+Seja um homem utilizando a máquina.
+
+611
+00:28:19,140 --> 00:28:22,140
+E aí você vai ser muito mais poderoso que a máquina.
+
+612
+00:28:22,140 --> 00:28:24,140
+Isso aqui é uma ideia para você partir.
+
+613
+00:28:24,140 --> 00:28:26,140
+Exemplos de prompts que eu sei que funcionam.
+
+614
+00:28:26,140 --> 00:28:28,140
+E que vão gerar muito mais resultados.
+
+615
+00:28:28,140 --> 00:28:32,140
+Do que se você não criar esse histórico dentro do chat GPT.
+
+616
+00:28:32,140 --> 00:28:34,140
+Mas aí vai de você.
+
+617
+00:28:34,140 --> 00:28:36,140
+Utilizar os elementos de personificação.
+
+618
+00:28:36,140 --> 00:28:38,140
+De dar as informações pertinentes.
+
+619
+00:28:38,140 --> 00:28:40,140
+De detalhar o que você quer.
+
+620
+00:28:40,140 --> 00:28:41,140
+De usar os limitadores.
+
+621
+00:28:41,140 --> 00:28:42,140
+De usar os refinadores.
+
+622
+00:28:42,140 --> 00:28:44,140
+Para que o chat GPT.
+
+623
+00:28:44,140 --> 00:28:46,140
+Consiga te dar as informações cada vez melhor.
+
+624
+00:28:46,140 --> 00:28:47,140
+Fechou?
+
+625
+00:28:47,140 --> 00:28:51,140
+Com isso daqui você está mais do que preparado para encarar os anúncios online.

@@ -1,0 +1,1015 @@
+1
+00:00:00,000 --> 00:00:08,880
+Pixel e API de Conversões. Pedro, é o seguinte, eu já vi uma aula que falava sobre isso sua, Pixel e API de Conversões.
+
+2
+00:00:08,880 --> 00:00:16,440
+Então, tenho certeza que sim, porque se você é um aluno, se você é um subido exemplar, você passou por esta aula que está na sua tela agora,
+
+3
+00:00:16,440 --> 00:00:22,080
+que é a aula de Pixel e API de Conversões lá do módulo 1, Princípios Gerais do Tráfego.
+
+4
+00:00:22,080 --> 00:00:28,320
+Então, no módulo 1, Princípios Gerais do Tráfego, nós temos a aula sobre Pixel e API de Conversões.
+
+5
+00:00:28,320 --> 00:00:37,000
+É uma aula que tem 30 minutos, uma aula um pouquinho mais longa, mas nela eu explico tudo o que você precisa saber sobre a parte de Pixel e API de Conversões.
+
+6
+00:00:37,160 --> 00:00:41,320
+É muito importante que você assista esta aula antes de assistir esta daqui de agora.
+
+7
+00:00:41,660 --> 00:00:46,240
+Pedro, eu estou meio lerdo no curso subido, eu demorei, nem lembro mais o que você falou nesta aula.
+
+8
+00:00:46,800 --> 00:00:49,280
+Volta lá e reassiste, e aí você volta aqui.
+
+9
+00:00:49,460 --> 00:00:53,340
+Por quê? Porque nesta aula de agora a gente está falando de MetaEdge.
+
+10
+00:00:53,340 --> 00:01:00,580
+E falando de MetaEdge, eu quero te explicar as especificidades de Pixel e API de Conversões daqui do Meta.
+
+11
+00:01:00,860 --> 00:01:05,760
+E é o seguinte, como a gente já viu, tem dois lugares onde você consegue criar o seu Pixel.
+
+12
+00:01:06,040 --> 00:01:08,700
+O primeiro lugar é dentro da BM.
+
+13
+00:01:08,960 --> 00:01:14,200
+Então, aqui nas configurações do negócio, você vai entrar aqui em todas as ferramentas, configurações do negócio.
+
+14
+00:01:14,520 --> 00:01:16,820
+Às vezes você vai estar... Cadê, cadê, cadê, cadê?
+
+15
+00:01:16,820 --> 00:01:22,580
+Você vai estar aqui dentro do seu gerenciador de anúncios.
+
+16
+00:01:22,720 --> 00:01:24,220
+Então, isso aqui é o gerenciador de anúncios.
+
+17
+00:01:24,540 --> 00:01:25,480
+Como é que você acessa?
+
+18
+00:01:25,780 --> 00:01:28,460
+Você vai apertar aqui em todas as ferramentas.
+
+19
+00:01:28,740 --> 00:01:30,400
+Você vai acessar configurações do negócio.
+
+20
+00:01:30,580 --> 00:01:32,100
+Acessou configurações do negócio?
+
+21
+00:01:32,480 --> 00:01:34,820
+Aqui temos o menu Pixel aqui embaixo.
+
+22
+00:01:34,920 --> 00:01:36,880
+E aqui você consegue criar um Pixel.
+
+23
+00:01:37,160 --> 00:01:39,640
+Se você criar um Pixel aqui, o que você tem que fazer?
+
+24
+00:01:39,960 --> 00:01:42,680
+Você tem que dar acesso para pessoas.
+
+25
+00:01:42,680 --> 00:01:45,440
+e você tem que conectar ativos.
+
+26
+00:01:45,600 --> 00:01:49,740
+Então, você tem que adicionar pessoas, dar acesso para as pessoas a este Pixel
+
+27
+00:01:49,740 --> 00:01:52,260
+e você tem que adicionar ativos.
+
+28
+00:01:52,400 --> 00:01:55,420
+Ou seja, você tem que conectar as suas contas de anúncio.
+
+29
+00:01:55,560 --> 00:01:57,820
+Então, eu posso, por exemplo, eu posso pegar esse Pixel
+
+30
+00:01:57,820 --> 00:02:00,960
+e eu posso compartilhar esse Pixel com todas as minhas contas de anúncio.
+
+31
+00:02:01,860 --> 00:02:02,000
+Tá?
+
+32
+00:02:02,580 --> 00:02:05,320
+Então, eu vou compartilhar esse Pixel com todas as minhas contas de anúncio.
+
+33
+00:02:05,320 --> 00:02:09,120
+Agora, todas as minhas contas de anúncio têm acesso a esse Pixel.
+
+34
+00:02:09,200 --> 00:02:11,140
+Então, é um dos lugares onde eu posso criar o Pixel.
+
+35
+00:02:11,140 --> 00:02:13,900
+Ou eu posso entrar no meu gerenciador de anúncios.
+
+36
+00:02:13,980 --> 00:02:15,440
+Estou aqui no gerenciador de anúncios.
+
+37
+00:02:15,840 --> 00:02:17,740
+Aperto aqui em todas as ferramentas.
+
+38
+00:02:18,020 --> 00:02:20,100
+E aí, a gente vai abrir o gerenciador de eventos.
+
+39
+00:02:20,260 --> 00:02:22,260
+Ele fica aqui em gerenciar negócios.
+
+40
+00:02:22,400 --> 00:02:22,720
+Cadê ele?
+
+41
+00:02:23,400 --> 00:02:24,240
+Gerenciador de eventos.
+
+42
+00:02:24,320 --> 00:02:26,320
+Então, eu posso entrar aqui no gerenciador de eventos.
+
+43
+00:02:26,720 --> 00:02:30,120
+Através da BM aqui, eu também consigo acessar o gerenciador de eventos aqui.
+
+44
+00:02:30,300 --> 00:02:31,780
+Então, tem vários locais.
+
+45
+00:02:31,780 --> 00:02:35,180
+Eu estou só te mostrando vários caminhos para você acessar uma mesma coisa.
+
+46
+00:02:35,520 --> 00:02:37,420
+Então, agora eu estou dentro do gerenciador de eventos.
+
+47
+00:02:37,700 --> 00:02:41,020
+Aqui no gerenciador de eventos, ele vai sempre abrir uma conta
+
+48
+00:02:41,020 --> 00:02:41,440
+de anúncios.
+
+49
+00:02:41,540 --> 00:02:44,560
+Então, eu estou agora na conta de anúncios subidos account.
+
+50
+00:02:44,900 --> 00:02:47,700
+E eu posso mudar aqui para BM.
+
+51
+00:02:48,620 --> 00:02:50,940
+Eu posso mudar aqui o gerenciador de eventos.
+
+52
+00:02:51,000 --> 00:02:53,300
+Então, ele vai abrir o gerenciador de eventos da minha BM agora.
+
+53
+00:02:53,680 --> 00:02:57,040
+Eu posso mudar aqui para a minha conta de anúncio
+
+54
+00:02:57,040 --> 00:02:59,860
+de exemplo da comunidade Sobral, que a gente criou juntos.
+
+55
+00:02:59,860 --> 00:03:02,580
+Eu posso alterar aqui o gerenciador de eventos.
+
+56
+00:03:02,640 --> 00:03:05,080
+Então, eu vou entrar aqui na minha conta de anúncio oficial.
+
+57
+00:03:05,480 --> 00:03:06,360
+Vou entrar aqui dentro.
+
+58
+00:03:06,660 --> 00:03:07,740
+CA subidos account.
+
+59
+00:03:07,740 --> 00:03:09,180
+Primeira coisa.
+
+60
+00:03:10,440 --> 00:03:13,120
+Você sempre vai ter um milhão de alertas aqui.
+
+61
+00:03:13,600 --> 00:03:15,140
+Não precisa se desesperar.
+
+62
+00:03:15,560 --> 00:03:19,360
+Não é porque o alerta é vermelhinho que, meu Deus do céu, ferrou.
+
+63
+00:03:19,360 --> 00:03:21,840
+Muitas vezes eu já chego aqui.
+
+64
+00:03:22,300 --> 00:03:23,760
+Claro, é importante que você leia.
+
+65
+00:03:23,900 --> 00:03:25,560
+Mas eu gosto de...
+
+66
+00:03:25,560 --> 00:03:28,240
+Por que ele não está marcado como concluído?
+
+67
+00:03:28,340 --> 00:03:28,720
+Deixa eu botar.
+
+68
+00:03:28,860 --> 00:03:29,120
+Deixa eu ver.
+
+69
+00:03:29,180 --> 00:03:29,760
+Não está sumindo.
+
+70
+00:03:30,140 --> 00:03:30,540
+Tudo bem.
+
+71
+00:03:30,820 --> 00:03:35,860
+Mas, às vezes, você vai entrar aqui dentro e você vai ver que está cheio de alertas.
+
+72
+00:03:35,860 --> 00:03:36,860
+Lê o que está escrito.
+
+73
+00:03:37,100 --> 00:03:38,840
+Mas, na maioria das vezes, não é nada.
+
+74
+00:03:38,940 --> 00:03:42,480
+Na maioria das vezes, é só um monte de alerta que o MetaEdge está mandando para você.
+
+75
+00:03:42,940 --> 00:03:45,500
+Você sempre vai cair nessa página da visão geral.
+
+76
+00:03:45,680 --> 00:03:45,940
+Que é aqui.
+
+77
+00:03:46,020 --> 00:03:46,580
+Visão geral.
+
+78
+00:03:46,580 --> 00:03:48,840
+O MetaEdge tem esse menu lateral aqui.
+
+79
+00:03:48,940 --> 00:03:49,500
+Visão geral.
+
+80
+00:03:50,080 --> 00:03:51,220
+E aí, o que a gente pode fazer?
+
+81
+00:03:51,500 --> 00:03:54,920
+A gente pode dar uma olhada nas nossas fontes de dados.
+
+82
+00:03:55,140 --> 00:03:57,180
+Ou seja, vou olhar aqui os meus pixels.
+
+83
+00:03:57,600 --> 00:03:59,980
+Então, eu tenho aqui a lista de todos os meus pixels.
+
+84
+00:04:00,380 --> 00:04:03,280
+Então, eu tenho aqui o pixel subido, que é o meu pixel oficial.
+
+85
+00:04:03,600 --> 00:04:04,740
+E a gente tem o pixel novo.
+
+86
+00:04:04,880 --> 00:04:06,420
+Está vendo que ele está ativo?
+
+87
+00:04:06,480 --> 00:04:07,560
+Ele está verdinho aqui.
+
+88
+00:04:07,800 --> 00:04:13,880
+Agora, se eu entrar no pixel novo que eu criei, pixel de BM comunidade Sobral, ele vai...
+
+89
+00:04:13,880 --> 00:04:14,640
+Não tem nada aqui.
+
+90
+00:04:14,780 --> 00:04:14,980
+Por quê?
+
+91
+00:04:14,980 --> 00:04:16,420
+Porque eu não configurei o meu pixel.
+
+92
+00:04:16,580 --> 00:04:18,360
+Seu pixel não recebeu nenhuma atividade.
+
+93
+00:04:19,220 --> 00:04:23,460
+Então, isso acontece quando o código não está corretamente instalado no seu site.
+
+94
+00:04:23,760 --> 00:04:27,080
+Então, aqui dentro do gerenciador de eventos, eu consigo fazer o que aqui?
+
+95
+00:04:27,380 --> 00:04:29,560
+Eu consigo, por exemplo, criar...
+
+96
+00:04:29,560 --> 00:04:31,720
+Eu consigo criar um novo pixel aqui dentro.
+
+97
+00:04:31,840 --> 00:04:33,760
+Ou consigo criar lá na BM.
+
+98
+00:04:34,040 --> 00:04:36,040
+Para criar dentro daqui, eu vou apertar onde?
+
+99
+00:04:36,140 --> 00:04:37,280
+Conectar fontes de dados.
+
+100
+00:04:37,760 --> 00:04:38,700
+Então, de novo.
+
+101
+00:04:38,820 --> 00:04:41,060
+Estou aqui no gerenciador de eventos.
+
+102
+00:04:41,180 --> 00:04:42,560
+Estou aqui no gerenciador de eventos.
+
+103
+00:04:42,560 --> 00:04:44,080
+Vou apertar aqui no botãozinho.
+
+104
+00:04:44,160 --> 00:04:48,460
+Se eu quiser criar um novo pixel aqui, eu vou apertar em conectar fontes de dados.
+
+105
+00:04:48,780 --> 00:04:51,700
+Aqui eu vou poder conectar uma fonte de dados web, que é o pixel.
+
+106
+00:04:52,060 --> 00:04:55,160
+Vou poder conectar para aplicativo, se eu tenho um aplicativo.
+
+107
+00:04:56,440 --> 00:04:58,780
+Eventos offline, mais para negócios locais.
+
+108
+00:04:58,940 --> 00:04:59,980
+E CRM.
+
+109
+00:05:00,080 --> 00:05:05,460
+E aí eu consigo conectar o meu CRM, que é a minha ferramenta de e-mail marketing, por exemplo.
+
+110
+00:05:05,460 --> 00:05:07,460
+Aqui, a minha conta de anúncios.
+
+111
+00:05:07,780 --> 00:05:09,320
+No caso aqui, vamos falar de pixel.
+
+112
+00:05:09,440 --> 00:05:10,120
+Então, vamos na web.
+
+113
+00:05:10,440 --> 00:05:13,020
+E aí ele vai pedir para eu nomear o meu conjunto de dados.
+
+114
+00:05:13,160 --> 00:05:15,320
+Então, eu vou botar aqui, conjunto de dados.
+
+115
+00:05:18,540 --> 00:05:19,480
+Vou botar pixel.
+
+116
+00:05:20,580 --> 00:05:22,140
+Pixel maroto.
+
+117
+00:05:23,840 --> 00:05:24,980
+Vou apertar em criar.
+
+118
+00:05:24,980 --> 00:05:32,300
+E aí ele vai criar aqui, o meu pixel maroto.
+
+119
+00:05:32,600 --> 00:05:34,260
+Então, eu crio aqui o pixel maroto.
+
+120
+00:05:34,580 --> 00:05:35,560
+Eu dou o nome que eu quiser.
+
+121
+00:05:35,960 --> 00:05:37,160
+E aí ele vai aparecer o quê?
+
+122
+00:05:37,540 --> 00:05:39,640
+Isso aqui é só uma outra maneira de criar o pixel.
+
+123
+00:05:39,960 --> 00:05:43,160
+A gente criou ele por aqui, mas eu também posso criar ele por aqui.
+
+124
+00:05:43,480 --> 00:05:46,320
+Aqui dentro do pixel maroto, o que eu posso fazer?
+
+125
+00:05:46,680 --> 00:05:47,240
+Eu vou...
+
+126
+00:05:47,240 --> 00:05:48,460
+Ele está me dando aqui...
+
+127
+00:05:48,460 --> 00:05:51,720
+Ele está me dizendo que o pixel não recebeu nenhuma atividade.
+
+128
+00:05:52,240 --> 00:05:53,140
+E aí o que eu tenho que fazer?
+
+129
+00:05:53,140 --> 00:05:56,180
+Eu tenho que instalar o pixel no meu site.
+
+130
+00:05:56,380 --> 00:05:57,440
+Como que a gente faz isso?
+
+131
+00:05:57,700 --> 00:06:00,320
+A gente vai acessar esse menuzinho aqui, configurações.
+
+132
+00:06:00,400 --> 00:06:02,060
+E a gente tem que ativar duas opções aqui.
+
+133
+00:06:02,440 --> 00:06:04,860
+Vamos ativar a correspondência automática do site.
+
+134
+00:06:05,260 --> 00:06:07,060
+Então, tudo isso aqui deve estar ativado.
+
+135
+00:06:07,300 --> 00:06:10,700
+E vamos ativar o rastrear eventos automaticamente sem código.
+
+136
+00:06:11,060 --> 00:06:13,740
+São as duas coisas que a gente tem que manter ativo aqui.
+
+137
+00:06:13,740 --> 00:06:16,540
+Porque o nosso pixel vai funcionar melhor dessa maneira.
+
+138
+00:06:16,740 --> 00:06:17,100
+Beleza?
+
+139
+00:06:17,500 --> 00:06:17,880
+Ponto.
+
+140
+00:06:18,200 --> 00:06:20,600
+Além disso daqui, a gente vai voltar na visão geral.
+
+141
+00:06:20,600 --> 00:06:22,380
+Aí volta...
+
+142
+00:06:22,380 --> 00:06:23,840
+Às vezes ele desseleciona...
+
+143
+00:06:23,840 --> 00:06:25,420
+Ó, desselecionou esse filho da mãe.
+
+144
+00:06:25,520 --> 00:06:26,740
+Deixa eu ativar, deixa eu ativar.
+
+145
+00:06:27,140 --> 00:06:31,520
+E aí depois que a gente terminar de configurar, a gente vai voltar aqui para ver se ainda está ativado.
+
+146
+00:06:32,060 --> 00:06:36,680
+Muitas vezes ele desativa isso daqui e ele não tem um botãozão de salvar.
+
+147
+00:06:37,140 --> 00:06:37,840
+Não tem.
+
+148
+00:06:38,060 --> 00:06:39,180
+Eu queria muito que ele tivesse.
+
+149
+00:06:39,360 --> 00:06:40,080
+Então, beleza.
+
+150
+00:06:40,340 --> 00:06:41,680
+Vou voltar aqui no visão geral.
+
+151
+00:06:42,060 --> 00:06:44,360
+E agora a gente tem duas opções de instalação.
+
+152
+00:06:44,360 --> 00:06:45,820
+Opção número 1.
+
+153
+00:06:46,200 --> 00:06:49,940
+Temos coletar eventos do site nas atividades do navegador.
+
+154
+00:06:50,260 --> 00:06:53,040
+E temos o enviar eventos de um servidor.
+
+155
+00:06:53,460 --> 00:06:57,800
+Enviar eventos de um servidor, você já vai ver que ele está até com um botãozão azul aqui para você criar.
+
+156
+00:06:58,240 --> 00:06:59,200
+Que isso é o quê?
+
+157
+00:06:59,520 --> 00:07:01,540
+Isso é a API de conversões.
+
+158
+00:07:01,640 --> 00:07:02,900
+O que é a API de conversões?
+
+159
+00:07:03,400 --> 00:07:07,460
+É uma outra maneira de você instalar o pixel no seu site.
+
+160
+00:07:07,760 --> 00:07:09,720
+É uma maneira melhor, uma maneira aprimorada.
+
+161
+00:07:10,080 --> 00:07:12,040
+Pedro, eu preciso da API de conversões?
+
+162
+00:07:12,040 --> 00:07:14,080
+Mas, infelizmente, precisa.
+
+163
+00:07:15,660 --> 00:07:17,860
+Por que eu estou dizendo infelizmente precisa?
+
+164
+00:07:18,280 --> 00:07:25,980
+Porque a API de conversões vai garantir que os seus dados estejam mais bem mapeados dentro do site do seu cliente.
+
+165
+00:07:26,300 --> 00:07:32,480
+Ela vai permitir com que as pessoas que estão acessando o site sejam mais bem traqueadas.
+
+166
+00:07:32,580 --> 00:07:34,740
+Que o pixel consiga identificar melhor as pessoas.
+
+167
+00:07:34,740 --> 00:07:40,440
+E para isso, você vai utilizar o nosso lindo, o nosso maravilhoso curso de Google Tag Manager.
+
+168
+00:07:40,440 --> 00:07:43,800
+Que aqui tem toda a explicação.
+
+169
+00:07:44,160 --> 00:07:47,120
+API de conversões, o que é, como que você instala.
+
+170
+00:07:47,600 --> 00:07:49,780
+Tudo bonitinho está explicado aqui nessas aulas.
+
+171
+00:07:50,000 --> 00:07:53,060
+O Google Tag Manager, ele é o melhor amigo do pixel.
+
+172
+00:07:53,360 --> 00:07:59,880
+É através deste curso aqui que você vai dominar de trás para frente, de frente para trás, a instalação do pixel.
+
+173
+00:07:59,880 --> 00:08:08,700
+Então, se você está travado na parte do pixel, se você, meu Deus do céu, não conseguir, não conseguir instalar, este é o curso rápido que vai resolver essa dor da sua vida.
+
+174
+00:08:09,020 --> 00:08:10,500
+E que vai te ajudar nessa instalação.
+
+175
+00:08:10,940 --> 00:08:15,280
+Mas, por hora, vamos seguir aqui dentro do curso subido, só para eu te mostrar como é que funciona.
+
+176
+00:08:15,400 --> 00:08:17,120
+Espera aí que eu me perdi nas minhas abas.
+
+177
+00:08:17,560 --> 00:08:18,000
+Me perdi.
+
+178
+00:08:18,480 --> 00:08:18,880
+Não, está aqui.
+
+179
+00:08:19,060 --> 00:08:19,860
+Gerenciador de eventos.
+
+180
+00:08:19,920 --> 00:08:20,320
+Agora sim.
+
+181
+00:08:20,320 --> 00:08:24,900
+Então, se você for configurar a API, você vai apertar aqui em configurar a API de conversões.
+
+182
+00:08:25,220 --> 00:08:29,400
+Se você for configurar o pixel, você vai apertar aqui em configurar o pixel da meta.
+
+183
+00:08:29,740 --> 00:08:31,020
+E ele vai te dar duas opções.
+
+184
+00:08:31,440 --> 00:08:32,940
+Adicionar o código manualmente.
+
+185
+00:08:33,040 --> 00:08:35,380
+Então, eu posso adicionar o código manualmente no meu site.
+
+186
+00:08:35,700 --> 00:08:37,280
+Ele vai copiar esse código aqui.
+
+187
+00:08:37,640 --> 00:08:40,460
+E este daqui é o código do nosso pixel.
+
+188
+00:08:40,740 --> 00:08:43,460
+O código do pixel, ele tem uma identidade.
+
+189
+00:08:43,620 --> 00:08:45,380
+E ela está sempre nessa linha aqui.
+
+190
+00:08:46,320 --> 00:08:47,520
+FBQINT.
+
+191
+00:08:47,520 --> 00:08:49,800
+Está aqui o código.
+
+192
+00:08:50,080 --> 00:08:52,060
+Este aqui é o número de identidade do seu pixel.
+
+193
+00:08:52,300 --> 00:08:53,620
+Como se ele fosse um RG.
+
+194
+00:08:54,080 --> 00:08:55,300
+Como se ele fosse um RG.
+
+195
+00:08:55,580 --> 00:08:56,720
+Então, eu tenho aqui o RG.
+
+196
+00:08:57,020 --> 00:08:59,200
+O CPF do meu pixel.
+
+197
+00:08:59,620 --> 00:09:00,840
+Cada pixel tem o seu.
+
+198
+00:09:01,440 --> 00:09:02,940
+Isso é a primeira coisa que você tem que entender.
+
+199
+00:09:03,360 --> 00:09:08,940
+Muitas vezes, se você for instalar o pixel num site como, sei lá, Shopify, Loja Integrada,
+
+200
+00:09:09,140 --> 00:09:13,500
+Trey, uma plataforma de e-commerce, uma plataforma de vendas online, uma Hotmart.
+
+201
+00:09:14,000 --> 00:09:16,960
+Muitas dessas plataformas vão te pedir o código do seu pixel.
+
+202
+00:09:16,960 --> 00:09:18,060
+O número do seu pixel.
+
+203
+00:09:18,420 --> 00:09:19,940
+E este daqui é o número do seu pixel.
+
+204
+00:09:20,340 --> 00:09:22,260
+Pedro, e todo este resto aqui, ele importa?
+
+205
+00:09:22,640 --> 00:09:24,740
+Importa, mas a gente não precisa entender o que é isso.
+
+206
+00:09:25,200 --> 00:09:29,900
+Tudo o que a gente precisa é saber que este aqui é o numerozinho do código do nosso pixel.
+
+207
+00:09:30,300 --> 00:09:33,980
+E aí, eu posso copiar o código aqui e eu vou instalar o pixel no meu site.
+
+208
+00:09:34,100 --> 00:09:34,400
+Onde?
+
+209
+00:09:34,740 --> 00:09:35,900
+No head do meu site.
+
+210
+00:09:35,900 --> 00:09:41,760
+Assim como eu expliquei lá na aula de pixel e API de conversões dos princípios gerais do tráfego.
+
+211
+00:09:42,460 --> 00:09:44,920
+Feito isso, a gente vai apertar aqui em continuar.
+
+212
+00:09:45,740 --> 00:09:47,800
+Ativar a correspondência automática avançada.
+
+213
+00:09:47,940 --> 00:09:48,960
+Sempre ativa isso daqui.
+
+214
+00:09:49,620 --> 00:09:49,980
+Avançar.
+
+215
+00:09:50,680 --> 00:09:54,740
+E aí, ele está pedindo para eu usar ferramentas de configuração de eventos.
+
+216
+00:09:54,800 --> 00:09:55,100
+Que é o quê?
+
+217
+00:09:55,100 --> 00:10:00,440
+Se eu já tenho um pixel instalado no meu site, eu consigo colocar eventos no meu site.
+
+218
+00:10:00,540 --> 00:10:05,640
+Por exemplo, se alguém clicar nesse botão, eu quero que ele ative o evento adicionando o carrinho.
+
+219
+00:10:06,120 --> 00:10:09,580
+Se alguém apertar nesse botão do meu site, eu quero que ele ative o evento compra.
+
+220
+00:10:09,900 --> 00:10:13,460
+Mas isso só é possível se eu já tenho o pixel instalado no meu site.
+
+221
+00:10:13,920 --> 00:10:16,560
+E aí, eu vou voltar para a visão geral do pixel.
+
+222
+00:10:16,560 --> 00:10:18,300
+Então, eu voltei para a visão geral.
+
+223
+00:10:20,100 --> 00:10:25,820
+E ele vai seguir dizendo que não recebeu nenhuma atividade porque o pixel não foi instalado.
+
+224
+00:10:26,100 --> 00:10:29,180
+Mas eu também posso configurar o meu pixel via parceiros.
+
+225
+00:10:29,560 --> 00:10:31,500
+E aí, eu vou apertar aqui procurar parceiro.
+
+226
+00:10:31,820 --> 00:10:33,740
+Vai aparecer a lista de vários parceiros aqui.
+
+227
+00:10:34,080 --> 00:10:39,360
+Vai ter aqui, inclusive, o nosso parceiro gerenciador de tags do Google, que é o Google Tag Manager.
+
+228
+00:10:39,760 --> 00:10:41,960
+E aí, é muito importante para mim.
+
+229
+00:10:42,280 --> 00:10:44,680
+Eu não fugiria do Google Tag Manager.
+
+230
+00:10:44,680 --> 00:10:51,700
+O quanto antes você aprender a utilizar o Google Tag Manager, mais fácil vai ser a sua vida como gestor de tráfego.
+
+231
+00:10:52,000 --> 00:10:57,000
+E o curso do Google Tag Manager, ele resolve isso sem dúvida nenhuma.
+
+232
+00:10:57,460 --> 00:11:01,520
+Então, aqui vai ter toda a parte de configuração através do Google Tag Manager.
+
+233
+00:11:01,700 --> 00:11:03,220
+Ele já vai pedir para você fazer login.
+
+234
+00:11:03,620 --> 00:11:05,260
+Ele te dá todo o passo a passo aqui.
+
+235
+00:11:05,660 --> 00:11:07,860
+Mas, às vezes, você tem um outro parceiro.
+
+236
+00:11:07,940 --> 00:11:09,740
+Às vezes, você, sei lá, tem Shopify.
+
+237
+00:11:10,280 --> 00:11:12,900
+Às vezes, você usa Magento como loja online.
+
+238
+00:11:12,900 --> 00:11:15,880
+Você usa o WordPress, você usa o Wix, o WooCommerce.
+
+239
+00:11:16,240 --> 00:11:21,520
+Aqui, é só você clicar e fazer a instalação via parceiro do Google.
+
+240
+00:11:21,620 --> 00:11:22,720
+Para parceiro do Google, não.
+
+241
+00:11:23,000 --> 00:11:27,180
+Via parceiro do MetaEdge, que você faz a instalação do seu pixel.
+
+242
+00:11:27,700 --> 00:11:30,740
+Então, com isso, você entendeu o básico.
+
+243
+00:11:31,140 --> 00:11:32,200
+Como que você cria o pixel?
+
+244
+00:11:32,340 --> 00:11:33,500
+Tem dois lugares possíveis.
+
+245
+00:11:33,920 --> 00:11:37,200
+Primeiro lugar, dentro do seu gerenciador de negócios.
+
+246
+00:11:37,540 --> 00:11:41,200
+Segundo lugar, a gente cria dentro do gerenciador de eventos,
+
+247
+00:11:41,200 --> 00:11:42,720
+na nossa conta de anúncios.
+
+248
+00:11:42,820 --> 00:11:44,460
+Então, você vai acessar a sua conta de anúncios
+
+249
+00:11:44,460 --> 00:11:48,620
+e você vai acessar o seu gerenciador de eventos.
+
+250
+00:11:48,840 --> 00:11:51,580
+Pedro, isso é tudo que eu tenho para dominar sobre pixel?
+
+251
+00:11:51,940 --> 00:11:52,260
+Não.
+
+252
+00:11:52,460 --> 00:11:54,620
+Ainda tem duas coisas que você tem que aprender,
+
+253
+00:11:55,000 --> 00:11:57,840
+que é sobre eventos e conversões personalizadas.
+
+254
+00:11:58,180 --> 00:12:00,500
+Mas, isso a gente vê na próxima aula.

@@ -1,0 +1,903 @@
+1
+00:00:00,000 --> 00:00:25,960
+Conta configurada, o que a gente vai fazer agora? Agora a gente vai fazer aquela exploração marota no nosso pixel do Google Ads, tá? Mas você vai ver que não tem mistério não, é só você vir aqui ó, em ferramentas e configurações, que é o menu que a gente sempre vai usar pra acessar tudo, tá? Entrou aqui em ferramentas e configurações, você vai ter aqui a parte de medição, a gente tem aqui ó, conversões e Google Analytics, mas a gente vai entrar em conversões, porque o pixel do Google Analytics a gente já tem quando a gente criou a nossa conta lá.
+
+2
+00:00:25,960 --> 00:00:43,100
+Então, vou apertar aqui em mais conversões e agora eu vou pegar o pixel do Google, tá? Você tem que entender uma coisa sobre o pixel do Google, extremamente simples, o Google ele tem dois códigos principais, ele tem a tag do site global, a global site tag, o que que é a global site tag?
+
+3
+00:00:43,100 --> 00:00:55,040
+A global site tag é um código que tem que ser adicionado em todas as suas páginas, quando você adiciona esse código em todas as suas páginas, você vai poder criar o público de quem acessou todas as suas páginas.
+
+4
+00:00:55,300 --> 00:01:04,440
+E o Google ele tem um código de conversão, o que que é um código de conversão? É um código que você tem que colocar nas páginas que representam uma conversão, como assim?
+
+5
+00:01:04,440 --> 00:01:11,940
+Imagina que alguém foi no seu site e fez uma compra, depois que a pessoa finalizou a compra, ela caiu numa página de muito obrigado, compra realizada.
+
+6
+00:01:12,300 --> 00:01:20,740
+É nessa página que você tem que ter o código de conversão, mas nessa página você também tem que ter o código da global site tag.
+
+7
+00:01:20,740 --> 00:01:30,620
+Então a global site tag, que é um código, vai em todas as suas páginas, o código de conversão somente nas páginas que confirmam que a pessoa realizou uma conversão.
+
+8
+00:01:30,900 --> 00:01:33,980
+Eu não sei porque que ele abriu isso daqui, eu vou apertar em cancelar pra voltar aqui ó.
+
+9
+00:01:33,980 --> 00:01:39,680
+Então vou apertar aqui em nova ação de conversão, tá? Se o seu aparecer a mesma coisa é só apertar ali pra cancelar.
+
+10
+00:01:39,760 --> 00:01:47,260
+Então nova ação de conversão, site, putz ele bugou, agora sim, eu dei dois cliques ali no site e ele abriu isso daqui.
+
+11
+00:01:47,500 --> 00:01:52,960
+Beleza, ele vai verificar o meu site, aí eu vou colocar aqui meu site pra ele verificar minhas conversões.
+
+12
+00:01:54,860 --> 00:01:58,900
+Tá, vou apertar aqui em verificar, acho que talvez ele diga que já tem conversões no meu site.
+
+13
+00:01:58,900 --> 00:02:05,340
+Adicione um carregamento de página como uma ação de conversão, lá lá lá lá lá lá lá.
+
+14
+00:02:05,420 --> 00:02:09,500
+Eu vou apertar aqui ó, adicionar uma conversão manualmente, tá?
+
+15
+00:02:09,700 --> 00:02:13,040
+Adicionar uma conversão manual utilizando o código.
+
+16
+00:02:13,180 --> 00:02:18,500
+Então eu vou colocar adicionar uma conversão manual utilizando o código e ele vai abrir essa página aqui, tá?
+
+17
+00:02:18,500 --> 00:02:25,600
+Então apertei aqui nessa página, ele fala que ações de conversões criadas manualmente precisam ser adicionadas ao código do seu site.
+
+18
+00:02:25,980 --> 00:02:31,540
+Após concluir a criação delas, você receberá instruções de como configurá-las no seu site.
+
+19
+00:02:31,840 --> 00:02:33,800
+Pedro, como é que eu faço pra configurar no meu site?
+
+20
+00:02:33,920 --> 00:02:38,900
+Maneira mais fácil é você usar o Google Tag Manager, só seguir as aulas de Google Tag Manager que tem aqui na comunidade,
+
+21
+00:02:39,040 --> 00:02:44,560
+ou pedir pra alguém que entende dessa parte de programação, de instalação de códigos, instalar pra você.
+
+22
+00:02:44,560 --> 00:02:48,300
+Mas é extremamente simples, é só dar Ctrl C, Ctrl V no seu site, tá?
+
+23
+00:02:48,440 --> 00:02:50,400
+Primeira coisa, otimização e meta.
+
+24
+00:02:50,700 --> 00:02:55,380
+Você vai falar aqui qual que é o nome da sua conversão, aliás, a categoria da sua conversão.
+
+25
+00:02:55,700 --> 00:02:59,220
+Vamos dizer que eu quero que as pessoas se cadastrem nessa página pra minhas aulas ao vivo.
+
+26
+00:02:59,500 --> 00:03:06,600
+Então eu vou selecionar aqui, que é uma, pode ser enviar formulário de lead ou então uma inscrição.
+
+27
+00:03:06,700 --> 00:03:08,720
+Eu vou considerar como inscrição, tá?
+
+28
+00:03:08,920 --> 00:03:13,200
+Não precisa aqui abrir essas opções de otimização, não precisa fazer nada disso, tá?
+
+29
+00:03:13,200 --> 00:03:19,320
+Coloquei aqui inscrição, eu mantenho o nome da conversão como inscrição, mas eu coloco o identificador.
+
+30
+00:03:19,460 --> 00:03:21,120
+Então inscrição, aula ao vivo.
+
+31
+00:03:21,480 --> 00:03:23,580
+Entramos na parte de valor aqui, o que é o valor?
+
+32
+00:03:23,700 --> 00:03:25,280
+É quanto que essa conversão vale pra mim?
+
+33
+00:03:25,720 --> 00:03:27,160
+Todas elas têm o mesmo valor?
+
+34
+00:03:27,320 --> 00:03:29,980
+Todas elas representam 100 reais na minha conta?
+
+35
+00:03:30,180 --> 00:03:30,500
+Ou não?
+
+36
+00:03:30,820 --> 00:03:32,400
+Cada uma tem um valor diferente.
+
+37
+00:03:32,760 --> 00:03:38,340
+Se cada uma delas tem um valor diferente, você pelo menos tem que inserir um valor padrão.
+
+38
+00:03:38,340 --> 00:03:43,960
+E ele até te diz aqui, na próxima página você verá como adicionar valores dinâmicos ao seu código.
+
+39
+00:03:44,300 --> 00:03:48,960
+Se você não adicionar esse código, o valor padrão será definido no campo utilizado.
+
+40
+00:03:49,040 --> 00:03:54,440
+Então na próxima página aqui ele vai explicar como é que você faz pra inserir os valores diferentes.
+
+41
+00:03:54,560 --> 00:03:56,080
+Isso aqui é mais pra e-commerce.
+
+42
+00:03:56,220 --> 00:03:58,300
+Mas é uma configuração também super simples, tá?
+
+43
+00:03:58,520 --> 00:04:02,360
+No nosso caso aqui, não tem que usar valor pra essa conversão.
+
+44
+00:04:02,460 --> 00:04:04,340
+Ele até diz aqui, putz, isso aqui não é recomendado.
+
+45
+00:04:04,340 --> 00:04:08,540
+Mas não tem problema, porque a gente tá fazendo uma inscrição numa aula ao vivo.
+
+46
+00:04:08,640 --> 00:04:10,600
+Então eu não vou atribuir valor pra minha conversão.
+
+47
+00:04:10,880 --> 00:04:12,040
+Depois tem a contagem.
+
+48
+00:04:12,120 --> 00:04:12,880
+O que é a contagem?
+
+49
+00:04:13,060 --> 00:04:13,920
+Sendo bem simples.
+
+50
+00:04:14,420 --> 00:04:17,280
+Joãozinho da Silva se cadastrou 5 vezes no meu site.
+
+51
+00:04:17,660 --> 00:04:23,940
+Eu quero que isso conte como 5 conversões ou como 1 conversão.
+
+52
+00:04:25,160 --> 00:04:27,560
+Mariazinha comprou 10 vezes no meu e-commerce.
+
+53
+00:04:27,780 --> 00:04:31,560
+Eu quero que isso conte como 10 compras ou eu quero que isso conte como 1 compra?
+
+54
+00:04:31,840 --> 00:04:32,720
+Você que vai escolher.
+
+55
+00:04:32,720 --> 00:04:36,540
+Pra um cadastro do mal ao vivo, muita gente coloca uma.
+
+56
+00:04:36,820 --> 00:04:38,280
+Mas eu gosto de colocar todas.
+
+57
+00:04:38,580 --> 00:04:42,580
+Por mais que isso gere lá na minha ferramenta que coleta os e-mails da pessoa.
+
+58
+00:04:42,700 --> 00:04:44,300
+Então a pessoa vem aqui e coloca o e-mail dela.
+
+59
+00:04:44,660 --> 00:04:50,300
+Na minha ferramenta de e-mails, se o Joãozinho da Silva preencher 10 vezes o mesmo e-mail aqui,
+
+60
+00:04:50,620 --> 00:04:54,240
+lá na minha ferramenta de e-mail vai aparecer só uma vez o e-mail do Joãozinho da Silva.
+
+61
+00:04:54,580 --> 00:04:59,600
+Mas no Google Ads, se eu deixar selecionado todas, vai dizer que o Joãozinho converteu 10 vezes.
+
+62
+00:04:59,600 --> 00:05:03,600
+Então no Google Ads vai aparecer que tem 10 pessoas que se converteram,
+
+63
+00:05:03,780 --> 00:05:05,720
+só que na minha ferramenta de e-mail vai dizer que só tem 1.
+
+64
+00:05:06,040 --> 00:05:08,920
+Gera uma discrepância, mas eu não tenho problema com isso.
+
+65
+00:05:09,160 --> 00:05:11,640
+Se você quer o dado bem certinho, coloca uma.
+
+66
+00:05:11,760 --> 00:05:12,880
+Eu gosto de deixar todas.
+
+67
+00:05:13,260 --> 00:05:17,880
+Além disso daqui, você vai vir aqui na configuração das janelas de conversão.
+
+68
+00:05:17,880 --> 00:05:19,380
+O que é a janela de conversão?
+
+69
+00:05:20,420 --> 00:05:25,160
+Teve um dos moderadores da comunidade Sobral, ele deu o melhor exemplo do mundo, que é o seguinte.
+
+70
+00:05:25,700 --> 00:05:28,440
+Imagina que alguém chega em você e te dá um tapa na cara.
+
+71
+00:05:29,340 --> 00:05:33,160
+O tempo que você demora para lembrar, para esquecer,
+
+72
+00:05:33,300 --> 00:05:36,420
+ou o tempo que você lembra que aquela pessoa te deu tapa na cara,
+
+73
+00:05:36,600 --> 00:05:38,600
+é a janela de conversão.
+
+74
+00:05:38,980 --> 00:05:39,740
+É a mesma coisa.
+
+75
+00:05:39,880 --> 00:05:42,520
+O anúncio que aparece na sua frente é o tapa na cara.
+
+76
+00:05:42,760 --> 00:05:44,900
+Então o anúncio apareceu na frente da pessoa.
+
+77
+00:05:44,900 --> 00:05:50,320
+Se a pessoa clicou no seu anúncio, quanto tempo que aquele anúncio vai se lembrar
+
+78
+00:05:50,320 --> 00:05:52,240
+que a pessoa clicou no anúncio?
+
+79
+00:05:52,440 --> 00:05:53,060
+Vou dar um exemplo.
+
+80
+00:05:53,140 --> 00:05:54,500
+Vamos dizer que hoje é 1º de janeiro.
+
+81
+00:05:54,740 --> 00:05:56,620
+1º de janeiro alguém clica no meu anúncio.
+
+82
+00:05:57,420 --> 00:06:01,500
+Se daqui a 10 dias alguém achou meu site na internet,
+
+83
+00:06:01,760 --> 00:06:05,260
+achou meu site no meu Instagram, no meu TikTok, no meu LinkedIn, no meu Twitter, sei lá.
+
+84
+00:06:05,500 --> 00:06:11,280
+A pessoa achou meu site 20 dias depois e a pessoa converteu no meu site 20 dias depois.
+
+85
+00:06:11,280 --> 00:06:18,380
+Eu quero que esse anúncio considere essa pessoa que se cadastrou 20 dias depois como uma conversão?
+
+86
+00:06:19,000 --> 00:06:19,500
+Sim ou não?
+
+87
+00:06:19,880 --> 00:06:22,500
+Se eu quero que considere, eu vou deixar aqui 30 dias.
+
+88
+00:06:22,700 --> 00:06:26,200
+Às vezes eu posso colocar aqui até personalizado, 20 dias.
+
+89
+00:06:26,480 --> 00:06:32,260
+Então os meus anúncios vão se lembrar das pessoas que clicaram neles durante 20 dias.
+
+90
+00:06:32,880 --> 00:06:34,120
+O que eu recomendo para você?
+
+91
+00:06:34,240 --> 00:06:37,300
+Eu recomendo que você não mexa aqui nessa parte de configuração.
+
+92
+00:06:37,420 --> 00:06:38,480
+Pelo menos não no começo.
+
+93
+00:06:38,480 --> 00:06:42,740
+Mas se você sabe, por exemplo, que uma pessoa, sei lá, eu vendo imóveis,
+
+94
+00:06:43,040 --> 00:06:47,520
+e no meu caso uma pessoa normalmente demora 90 dias para fechar a compra do imóvel,
+
+95
+00:06:47,780 --> 00:06:50,060
+talvez faça sentido você colocar 90 dias.
+
+96
+00:06:50,420 --> 00:06:55,120
+Mas para a maioria de nós, meros mortais, que não vendemos imóveis de alto padrão,
+
+97
+00:06:55,360 --> 00:06:57,520
+nós vamos deixar aqui 30 dias bonitinho.
+
+98
+00:06:57,880 --> 00:06:59,720
+Além disso daqui, é a mesma coisa.
+
+99
+00:06:59,820 --> 00:07:02,320
+Tem a janela de visualização engajada.
+
+100
+00:07:02,480 --> 00:07:05,000
+Então depois que a pessoa engajou com o vídeo seu,
+
+101
+00:07:05,000 --> 00:07:07,940
+por exemplo, ela viu o seu vídeo inteiro, ela curtiu o seu vídeo,
+
+102
+00:07:08,260 --> 00:07:15,100
+quanto tempo que o Google, que esse anúncio vai se lembrar da pessoa e pode ou não considerar uma conversão.
+
+103
+00:07:15,420 --> 00:07:18,180
+Aqui eu vou manter 30 dias e tem a janela de visualização,
+
+104
+00:07:18,360 --> 00:07:20,500
+que é depois que a pessoa viu o seu anúncio,
+
+105
+00:07:20,840 --> 00:07:23,520
+se dentro de 24 horas a pessoa converter,
+
+106
+00:07:23,940 --> 00:07:26,200
+a conversão vai ser atribuída a esse anúncio.
+
+107
+00:07:26,480 --> 00:07:28,980
+Então o Google vai dizer, esse anúncio aqui foi o anúncio que converteu,
+
+108
+00:07:29,300 --> 00:07:30,960
+foi uma conversão de visualização.
+
+109
+00:07:30,960 --> 00:07:34,380
+A pessoa não clicou no anúncio, mas ela visualizou o anúncio
+
+110
+00:07:34,380 --> 00:07:38,400
+e dentro de 24 horas aconteceu uma conversão,
+
+111
+00:07:38,480 --> 00:07:41,900
+a pessoa se cadastrou, fez uma compra, seja lá qual for a sua conversão.
+
+112
+00:07:42,240 --> 00:07:43,360
+Vamos manter assim.
+
+113
+00:07:43,680 --> 00:07:45,200
+E aí aqui tem um modelo de atribuição.
+
+114
+00:07:45,460 --> 00:07:46,640
+O que é o modelo de atribuição?
+
+115
+00:07:46,820 --> 00:07:50,060
+É o seguinte, o Google é maluco nos modelos de atribuição, ele tem vários.
+
+116
+00:07:50,520 --> 00:07:53,960
+É o seguinte, vamos dizer que a pessoa clicou no anúncio A,
+
+117
+00:07:54,580 --> 00:07:56,020
+depois ela clicou no anúncio B,
+
+118
+00:07:56,500 --> 00:07:59,240
+e aí depois ela clicou no anúncio C e aí ela converteu.
+
+119
+00:07:59,240 --> 00:08:03,460
+Qual desses anúncios é o responsável pela conversão?
+
+120
+00:08:04,040 --> 00:08:06,460
+Eu gosto de considerar o último clique.
+
+121
+00:08:06,540 --> 00:08:07,440
+O que é o último clique?
+
+122
+00:08:07,760 --> 00:08:11,060
+O último anúncio que a pessoa clicou é o responsável pela conversão.
+
+123
+00:08:11,700 --> 00:08:15,660
+Tem gente que bota primeiro clique, tem gente que bota linear.
+
+124
+00:08:15,940 --> 00:08:17,460
+O que acontece se você botar linear?
+
+125
+00:08:17,840 --> 00:08:19,020
+Linear vai ser tipo assim,
+
+126
+00:08:19,400 --> 00:08:24,160
+cada anúncio vai ser responsável por 0,33 daquela conversão.
+
+127
+00:08:24,420 --> 00:08:28,320
+Então você vai ter anúncios que vai estar lá, 0,33 conversões.
+
+128
+00:08:28,320 --> 00:08:32,020
+Então eles foram responsáveis por 0,33 conversões.
+
+129
+00:08:32,380 --> 00:08:41,640
+E tem a opção aqui de baseada em dados, ele até vai dizer que o modelo com base em dados distribui o crédito pela conversão com bases nos dados anteriores.
+
+130
+00:08:42,000 --> 00:08:44,920
+Ela só está disponível para contas com dados suficientes.
+
+131
+00:08:45,080 --> 00:08:48,980
+Então no futuro, quando a sua conta tiver mais dados, você vai poder ativar isso daqui.
+
+132
+00:08:48,980 --> 00:08:53,980
+Os caras que dão consultoria do Google, os funcionários do Google, eles recomendam muito essa.
+
+133
+00:08:54,320 --> 00:08:55,720
+Mas eu vou ser sincero com você.
+
+134
+00:08:56,020 --> 00:08:59,600
+Para mim é assim, ou você vai usar o último clique ou você vai usar baseado em dados.
+
+135
+00:08:59,940 --> 00:09:01,400
+São as duas que fazem mais sentido.
+
+136
+00:09:01,740 --> 00:09:04,940
+Você pode no futuro testar o baseado em dados e ver se você gosta.
+
+137
+00:09:05,020 --> 00:09:06,160
+Vê se você gosta, literalmente.
+
+138
+00:09:06,260 --> 00:09:08,880
+Vai lá, cria uma conversão e vê se você sente um impacto.
+
+139
+00:09:09,000 --> 00:09:10,640
+Vê se você viu uma melhora nos seus anúncios.
+
+140
+00:09:11,000 --> 00:09:12,520
+Eu gosto de utilizar o último clique.
+
+141
+00:09:12,980 --> 00:09:15,460
+Como é a sua primeira configuração, você vai ter que usar essa daqui também.
+
+142
+00:09:15,460 --> 00:09:17,960
+Fez isso daqui, aperta concluído.
+
+143
+00:09:20,580 --> 00:09:22,060
+Está aqui a nossa conversão.
+
+144
+00:09:22,400 --> 00:09:24,100
+E aí eu vou apertar aqui em salvar e continuar.
+
+145
+00:09:24,560 --> 00:09:25,940
+Apertei em salvar e continuar.
+
+146
+00:09:26,980 --> 00:09:29,580
+Ele vai me jogar na página de ver instruções.
+
+147
+00:09:30,060 --> 00:09:32,560
+E aí ele vai me dar as instruções aqui.
+
+148
+00:09:32,660 --> 00:09:34,960
+Eu posso enviar as instruções por e-mail para alguém.
+
+149
+00:09:35,320 --> 00:09:37,340
+Ou eu posso editar o código do meu site.
+
+150
+00:09:37,660 --> 00:09:42,200
+Então, para editar o código do meu site, ele vai me dar aqui a Global Site Tag.
+
+151
+00:09:42,300 --> 00:09:43,620
+Que é aquele código que eu te falei.
+
+152
+00:09:43,620 --> 00:09:47,100
+A Global Site Tag, cada uma delas tem um código único.
+
+153
+00:09:47,440 --> 00:09:49,980
+No meu caso, o meu código único aqui é esse.
+
+154
+00:09:50,500 --> 00:09:55,640
+É o AW-1084-5295769.
+
+155
+00:09:55,980 --> 00:09:57,080
+Cada um vai ter o seu.
+
+156
+00:09:57,320 --> 00:10:02,280
+Se você tem uma plataforma de e-commerce, muitas vezes, sei lá, um plugin no seu site que instala o seu pixel.
+
+157
+00:10:02,640 --> 00:10:04,820
+Você só tem que colocar esse códigozinho lá.
+
+158
+00:10:05,160 --> 00:10:09,580
+E está a Global Site Tag instalada em todas as páginas do seu site.
+
+159
+00:10:10,040 --> 00:10:10,800
+Simples assim.
+
+160
+00:10:10,800 --> 00:10:15,840
+Então, coloca esse código em todas, todas, todas, todas as páginas do seu site.
+
+161
+00:10:16,240 --> 00:10:20,120
+Você pode copiar, você pode fazer o download para ter ela salva aí nos seus códigos.
+
+162
+00:10:20,480 --> 00:10:26,820
+E você pode, claro, usar o Google Analytics, o Google Tag Manager para instalar isso daqui em todas as páginas do seu site também.
+
+163
+00:10:26,920 --> 00:10:27,800
+É super tranquilo.
+
+164
+00:10:28,120 --> 00:10:28,440
+Fechou?
+
+165
+00:10:28,560 --> 00:10:31,800
+E aí a gente tem aqui o nosso evento de conversão.
+
+166
+00:10:32,200 --> 00:10:33,940
+Está aqui, ver tag de evento.
+
+167
+00:10:33,940 --> 00:10:39,620
+Então, quando eu clico aqui em ver tag de evento, eu vou ver o código do evento.
+
+168
+00:10:39,800 --> 00:10:46,840
+Esse código aqui, ele tem que ser adicionado somente na página em que a pessoa realizou a inscrição.
+
+169
+00:10:46,980 --> 00:10:48,820
+Então, vou te dar o exemplo prático aqui.
+
+170
+00:10:49,160 --> 00:10:51,900
+Você vai ir lá no Google e você vai baixar o seguinte.
+
+171
+00:10:52,460 --> 00:10:55,800
+Você vai procurar no Google e vai procurar Google Tag Assistant.
+
+172
+00:10:56,820 --> 00:10:58,180
+O que é o Google Tag Assistant?
+
+173
+00:10:58,440 --> 00:11:00,180
+Está aqui, Tag Assistant Legacy.
+
+174
+00:11:00,340 --> 00:11:01,580
+Pô, eles até mudaram o nome, eu não sabia.
+
+175
+00:11:01,580 --> 00:11:06,960
+Você vai pegar aqui o Tag Assistant Legacy e você vai colocar no seu Google Chrome isso daqui.
+
+176
+00:11:07,380 --> 00:11:09,360
+O que esse plugin faz?
+
+177
+00:11:09,720 --> 00:11:12,820
+Ele verifica se tem conversões instaladas no site.
+
+178
+00:11:13,140 --> 00:11:19,300
+Então, eu estou aqui no meu site, na minha página de captura, tem que ter tag de conversão aqui.
+
+179
+00:11:19,360 --> 00:11:20,460
+O que é tag de conversão?
+
+180
+00:11:20,600 --> 00:11:21,760
+É esse evento aqui.
+
+181
+00:11:22,080 --> 00:11:24,500
+Eu preciso ter esse evento na minha página de captura?
+
+182
+00:11:24,660 --> 00:11:24,900
+Não.
+
+183
+00:11:25,900 --> 00:11:30,880
+Na minha página de captura tem que ter só a Global Site Tag.
+
+184
+00:11:31,580 --> 00:11:38,560
+Aqui eu tenho outras tags, que é o Google Analytics, o Google Optimize, o Google Tag Manager, mas não vem ao caso agora.
+
+185
+00:11:38,860 --> 00:11:41,780
+Mas tem que estar nessa página aqui a Global Site Tag.
+
+186
+00:11:41,780 --> 00:11:51,780
+Agora, quando a pessoa vem aqui e se cadastra, contato arroba pedosobral.com, vem aqui, quero participar, se cadastra e cai nessa página, nessa página eu sei que ela converteu.
+
+187
+00:11:52,060 --> 00:12:00,040
+Então, nessa página aqui, eu tenho que colocar a Global Site Tag também, só que eu tenho que colocar o Google Ads Conversion Tracking.
+
+188
+00:12:00,040 --> 00:12:04,680
+Então, aqui tem que ter a tag de conversão do Google, que é essa tagzinha aqui.
+
+189
+00:12:04,960 --> 00:12:15,180
+Aí, mesma coisa, você pode instalar direto no código do seu site, ou então usar o Google Tag Manager, ou chamar alguém para te ajudar que manja das programações, dos TI, dos códigos do site, para instalar para você.
+
+190
+00:12:15,180 --> 00:12:20,120
+Mas é extremamente simples, tá? É só você procurar, eu juro para você, é só você procurar no Google.
+
+191
+00:12:20,460 --> 00:12:35,640
+Como instalar tag do Google no Lead Pages, no Great Pages, no WordPress, no não sei o que Pages, no não sei o que Páginas, no Lead Lovers, no Blá Blá Blá, no Shopify, no WooCommerce,
+
+192
+00:12:35,640 --> 00:12:48,880
+na Trey, na VTX, todos os sites, todas as plataformas de criação de site, na Wix, sei lá, todas as plataformas de criação de site, tem as instruções, e é só você seguir o passo a passo que vai dar bom.
+
+193
+00:12:49,040 --> 00:12:55,380
+Fechou? Então, pegou aqui esse código maroto, instalou na sua página que representa a conversão.
+
+194
+00:12:55,380 --> 00:13:08,480
+Um detalhe importante, esse código aqui, aqui está repetido a minha tag do Google, que é o meu número único, 10, 84, 45, 29, 57, 6, 9.
+
+195
+00:13:08,820 --> 00:13:16,200
+E aqui também tem o código da conversão, tá? Esse código aqui também é o único desta conversão.
+
+196
+00:13:16,540 --> 00:13:23,880
+Então, em muitos e-commerces, em muitos sites, você não vai ter que instalar, você não vai ter que botar lá todo esse monte de letra aqui, esse código inteiro.
+
+197
+00:13:23,880 --> 00:13:32,100
+Ele vai só te perguntar qual que é o código da conversão, e aí você vai colocar só esse valorzinho aqui, só esse negócio que vem depois desse barrinho aqui,
+
+198
+00:13:32,620 --> 00:13:37,260
+e aí você vai dizer que esse daqui é o código que representa a sua conversão de inscrição.
+
+199
+00:13:37,520 --> 00:13:44,660
+Mesma coisa, você pode copiar, fazer o download, no meu caso eu não vou fazer nada, vou apertar em fechar e vou apertar em concluído.
+
+200
+00:13:44,820 --> 00:13:50,460
+Ao apertar em concluído, vai aparecer, apareceu essa notificação aqui, não quero, saí do guia, saí do guia.
+
+201
+00:13:50,460 --> 00:13:55,300
+Tem aqui a minha conversão, putz, eu preciso pegar o código da minha conversão de novo.
+
+202
+00:13:55,620 --> 00:14:05,300
+Só clicar aqui em cima dela, vai abrir aqui as configurações, você pode editar as configurações, pode editar nome, pode editar a parada toda, se você se arrependeu.
+
+203
+00:14:06,140 --> 00:14:13,320
+Configurações da tag, clicou em configurações da tag, ele te dá três opções, instalar por conta própria, instalar a tag por e-mail,
+
+204
+00:14:13,320 --> 00:14:15,620
+ou usar o gerenciador de tags do Google.
+
+205
+00:14:15,940 --> 00:14:21,340
+Aí você clica aqui no gerenciador de tags do Google, ele já vai te dar todas as informações aqui que você precisa.
+
+206
+00:14:21,900 --> 00:14:25,980
+Rótulo da conversão, que é aquele númerozinho que eu tinha te mostrado agora há pouco.
+
+207
+00:14:26,380 --> 00:14:30,140
+Mas a gente pode instalar a tag por conta própria, e aí você vai pegar aqui,
+
+208
+00:14:31,600 --> 00:14:35,880
+a global site tag, que é essa tag global, que tem que estar em todas as suas páginas,
+
+209
+00:14:35,880 --> 00:14:41,020
+que tem esse númerozinho único que só é seu, e o evento de conversão.
+
+210
+00:14:41,020 --> 00:14:47,880
+O evento de conversão, mesma coisa, ele é um evento só seu, que tem que ser colocado somente na página que representa a conversão,
+
+211
+00:14:48,320 --> 00:14:55,360
+ele repete aqui o número da sua global site tag, só que ele também tem aqui o código da conversão,
+
+212
+00:14:55,480 --> 00:15:01,040
+o rótulo da conversão, que muitas vezes é o que você tem que adicionar em plataformas, em e-commerces,
+
+213
+00:15:01,040 --> 00:15:04,420
+eles vão te pedir só esse códigozinho aqui, esse rótulo da conversão.
+
+214
+00:15:05,380 --> 00:15:09,920
+Tá? Instalou suas tags no site, você tá pronto para começar a fazer anúncio,
+
+215
+00:15:09,920 --> 00:15:12,860
+e você traquear aquilo que tá acontecendo dentro do seu site.
+
+216
+00:15:13,020 --> 00:15:17,260
+Mais uma vez, lembrando que a gente sempre recomenda que você use o Google Tag Manager,
+
+217
+00:15:17,600 --> 00:15:21,100
+por isso que tem um curso na comunidade sobre altitráfego, explicando como é que você usa,
+
+218
+00:15:21,520 --> 00:15:22,740
+configura o Google Tag Manager.
+
+219
+00:15:22,860 --> 00:15:24,700
+No começo é um pouco complicado? É.
+
+220
+00:15:24,920 --> 00:15:29,060
+Mas depois que tá configurado, aí é mil maravilhas, porque você não precisa fazer mais nada.
+
+221
+00:15:29,060 --> 00:15:33,720
+e tem o passo a passo, passo a passo bonitinho lá no curso, explicando como é que faz.
+
+222
+00:15:34,000 --> 00:15:37,640
+E se você tiver qualquer dúvida, só perguntar lá na comunidade sobre altitráfego,
+
+223
+00:15:37,780 --> 00:15:42,220
+que com certeza vai ter uma penca de gente te ajudando a fazer a configuração aí
+
+224
+00:15:42,220 --> 00:15:44,280
+para você conseguir rodar suas campanhas.
+
+225
+00:15:44,480 --> 00:15:47,040
+Fechou? Então, essa foi a nossa aula sobre Pixel.
+
+226
+00:15:47,040 --> 00:15:48,780
+Te vejo na nossa próxima aula.

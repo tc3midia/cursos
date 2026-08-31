@@ -1,0 +1,6055 @@
+1
+00:00:00,000 --> 00:00:08,800
+Métricas, o que são, para que servem, onde vivem? A gente já falou um pouquinho sobre métricas quando a gente estava falando na nossa aula sobre o ABC do tráfego.
+
+2
+00:00:08,800 --> 00:00:22,500
+Te expliquei muitas delas que você vai ver ao longo do seu caminho e encare essa aula mais uma vez como um reforço para aquelas informações que você está absorvendo pela primeira vez e que vão ficar cada vez mais sedimentadas na sua cabeça.
+
+3
+00:00:22,500 --> 00:00:29,400
+Mas antes da gente falar especificamente das métricas, é muito importante que você entenda que existem dois tipos de métricas.
+
+4
+00:00:29,400 --> 00:00:35,000
+segundo o método subido de tráfego, tá? A primeira métrica é a métrica principal.
+
+5
+00:00:37,300 --> 00:00:45,260
+E a segunda é a métrica secundária, tá? O que é a métrica principal e a métrica secundária?
+
+6
+00:00:45,360 --> 00:00:52,780
+Quando a gente fala de métricas, muita gente se apavora, a galera fala assim, putz, ferrou, chegou no meu calcanhar de Aquiles, a parte que eu não sei,
+
+7
+00:00:52,780 --> 00:00:55,860
+se eu pergunto para as gestoras de tráfego, qual que é a sua maior dificuldade?
+
+8
+00:00:55,860 --> 00:01:00,560
+Eles vão falar assim, não, minha maior dificuldade é analisar e entender as métricas.
+
+9
+00:01:00,800 --> 00:01:05,520
+As pessoas que falam isso, elas não entenderam o conceito de métrica principal e métrica secundária.
+
+10
+00:01:05,820 --> 00:01:07,000
+O que é a métrica principal?
+
+11
+00:01:07,380 --> 00:01:17,320
+Métrica principal é uma única métrica que vai definir o sucesso ou fracasso da sua campanha.
+
+12
+00:01:17,640 --> 00:01:17,960
+Pronto.
+
+13
+00:01:17,960 --> 00:01:20,420
+Ponto. É isso. Uma única meta.
+
+14
+00:01:20,800 --> 00:01:22,820
+Pedro, não podem ser 15 métricas?
+
+15
+00:01:22,960 --> 00:01:28,260
+Não. Tem que ser apenas uma única métrica que vai definir o sucesso ou fracasso da sua campanha.
+
+16
+00:01:28,560 --> 00:01:34,040
+Quando a gente está analisando dados nas nossas campanhas, deixa eu entrar aqui no meu gerenciador de anúncios, por exemplo,
+
+17
+00:01:34,360 --> 00:01:38,740
+quando a gente está analisando dados aqui nas nossas campanhas, deixa eu pegar aqui uma campanha aleatória,
+
+18
+00:01:38,740 --> 00:01:45,940
+quando eu estou aqui analisando dados e estou vendo o que aconteceu com as minhas campanhas, qual que foi o resultado,
+
+19
+00:01:46,300 --> 00:01:50,240
+eu vou pegar aqui, deixa eu pegar um período que vai aparecer dados para você,
+
+20
+00:01:50,740 --> 00:01:55,940
+eu vou ver aqui um milhão de dados, tem um milhão de métricas aqui, um milhão de numerozinhos que eu vou olhar,
+
+21
+00:01:56,060 --> 00:01:57,740
+meu Deus, o que eu analiso?
+
+22
+00:01:57,740 --> 00:02:03,360
+Quando eu abro aqui as minhas colunas e aperto em métricas, tem mil dados diferentes,
+
+23
+00:02:03,520 --> 00:02:08,000
+cada um desses daqui é uma métrica que a gente vai analisar em cada um dos gerenciadores,
+
+24
+00:02:08,140 --> 00:02:13,300
+isso aqui estou só dentro do meta-ads, se eu for dentro do Google Ads vai ser a mesma coisa,
+
+25
+00:02:13,600 --> 00:02:18,420
+vou entrar aqui na parte dos meus dados, vou vir aqui nas minhas colunas e mais uma vez,
+
+26
+00:02:18,480 --> 00:02:22,480
+você não precisa saber nada do que eu estou fazendo agora, eu estou indo rápido só para te mostrar,
+
+27
+00:02:22,780 --> 00:02:27,420
+olha só, que são cada uma dessas daqui é uma métrica e muito importante você saber,
+
+28
+00:02:27,420 --> 00:02:31,940
+quando você bota o mouse em cima da métrica, tem a explicação do que ela é,
+
+29
+00:02:32,240 --> 00:02:37,260
+é sensacional isso daqui, pouca gente faz isso, interações, o que é interações?
+
+30
+00:02:37,580 --> 00:02:40,380
+Uma interação é a principal ação associada a um formato de anúncio,
+
+31
+00:02:40,720 --> 00:02:44,120
+pode incluir cliques de texto, visualizações de vídeo,
+
+32
+00:02:44,420 --> 00:02:48,300
+as interações ajudam a determinar se os anúncios estão atingindo suas metas de desempenho,
+
+33
+00:02:48,300 --> 00:02:54,180
+então todas as métricas, eu boto o mouse em cima, vai ter toda a explicação aqui,
+
+34
+00:02:54,180 --> 00:02:57,780
+isso tanto no Google Ads quanto, opa, entrei na página errada,
+
+35
+00:02:58,120 --> 00:03:04,980
+tanto no Google Ads quanto no meta-ads, você bota o mouse aqui em cima, vai ter toda a explicação,
+
+36
+00:03:05,120 --> 00:03:09,880
+e você sempre pode ainda clicar em ver mais, e aí vai ter uma explicação um pouco mais elaborada
+
+37
+00:03:09,880 --> 00:03:12,880
+de como que é feito, do que é essa métrica,
+
+38
+00:03:13,000 --> 00:03:16,260
+então é importante, isso aqui é o fuciclica que eu falo para você,
+
+39
+00:03:16,600 --> 00:03:20,700
+então tudo aqui bonitinho, explicadinho, mas tem um milhão de métricas,
+
+40
+00:03:20,700 --> 00:03:23,720
+agora o que eu analiso? Ferrou! Não, você não vai analisar tudo,
+
+41
+00:03:23,960 --> 00:03:28,760
+você vai analisar apenas uma métrica, e é a métrica que vai, aliás, num primeiro momento,
+
+42
+00:03:29,100 --> 00:03:32,480
+é a métrica que vai definir o sucesso ou fracasso da sua campanha,
+
+43
+00:03:32,780 --> 00:03:34,300
+e qual que é a métrica principal?
+
+44
+00:03:34,640 --> 00:03:38,020
+A métrica principal depende do seu objetivo, tá?
+
+45
+00:03:38,100 --> 00:03:39,440
+Então a métrica principal,
+
+46
+00:03:39,440 --> 00:03:49,260
+A métrica principal está 100% relacionada ao seu objetivo,
+
+47
+00:03:49,660 --> 00:03:53,840
+por exemplo, se eu tenho uma campanha onde eu quero vender mais,
+
+48
+00:03:54,140 --> 00:03:55,880
+a minha métrica principal vai ser vendas,
+
+49
+00:03:56,080 --> 00:03:59,540
+se eu tenho uma campanha onde eu quero mais engajamento,
+
+50
+00:03:59,600 --> 00:04:01,200
+a minha métrica principal vai ser engajamento,
+
+51
+00:04:01,300 --> 00:04:03,480
+se eu tenho uma campanha onde eu quero seguidores,
+
+52
+00:04:03,780 --> 00:04:06,500
+a minha métrica principal vai ser seguidores e custo por seguidores,
+
+53
+00:04:06,500 --> 00:04:13,560
+se eu tenho uma campanha onde o meu objetivo é fazer com que as pessoas me mandem mais mensagens no WhatsApp,
+
+54
+00:04:13,800 --> 00:04:16,940
+minha métrica principal vai ser o número de mensagens,
+
+55
+00:04:17,300 --> 00:04:20,420
+versus quanto que está custando para cada uma dessas mensagens,
+
+56
+00:04:20,720 --> 00:04:30,100
+então a métrica principal, ela é sempre uma combinação de quantidade e custo, tá?
+
+57
+00:04:30,320 --> 00:04:33,000
+Então se a minha métrica principal é leads, vai ser leads,
+
+58
+00:04:33,000 --> 00:04:35,960
+custo por leads, CPL ou CPA, né?
+
+59
+00:04:35,960 --> 00:04:37,660
+Que é como a gente chama também o custo por lead,
+
+60
+00:04:37,960 --> 00:04:40,800
+se a minha métrica principal ela é mensagens,
+
+61
+00:04:40,900 --> 00:04:43,800
+vai ser mensagens e custo por mensagem,
+
+62
+00:04:43,920 --> 00:04:46,820
+é que CPM é normalmente a métrica de engajamento,
+
+63
+00:04:46,980 --> 00:04:48,380
+é custo por mil impressões,
+
+64
+00:04:48,660 --> 00:04:51,540
+por isso que a gente não chama de custo por mensagem de CPM, tá?
+
+65
+00:04:51,620 --> 00:04:53,680
+Mas a métrica principal ela é isso,
+
+66
+00:04:53,920 --> 00:04:57,000
+ela é a medida do que você está buscando,
+
+67
+00:04:57,160 --> 00:04:59,560
+mas presta atenção agora que eu vou complicar um pouquinho a sua cabeça,
+
+68
+00:04:59,560 --> 00:05:01,400
+não só do que você está buscando,
+
+69
+00:05:01,780 --> 00:05:07,360
+mas do que você está buscando e do que você consegue medir, tá?
+
+70
+00:05:07,480 --> 00:05:14,100
+Então está 100% relacionado ao seu objetivo e ao que você consegue medir.
+
+71
+00:05:14,220 --> 00:05:15,220
+Vamos dizer o seguinte,
+
+72
+00:05:15,620 --> 00:05:18,320
+eu quero, vou pegar um exemplo assim que é clássico,
+
+73
+00:05:18,600 --> 00:05:21,900
+eu quero que as pessoas me mandem mensagens no WhatsApp,
+
+74
+00:05:22,260 --> 00:05:24,280
+só que eu quero que elas comprem lá no meu WhatsApp,
+
+75
+00:05:24,420 --> 00:05:26,260
+então eu quero que elas me mandem mensagens no WhatsApp
+
+76
+00:05:26,260 --> 00:05:27,880
+e que elas façam um pedido.
+
+77
+00:05:27,880 --> 00:05:29,160
+Só que o que acontece?
+
+78
+00:05:29,480 --> 00:05:30,540
+Dentro do WhatsApp,
+
+79
+00:05:30,940 --> 00:05:33,380
+eu não consigo instalar o meu Pixel dentro do WhatsApp,
+
+80
+00:05:33,680 --> 00:05:37,780
+eu só consigo instalar o meu Pixel dentro do meu site,
+
+81
+00:05:37,880 --> 00:05:41,000
+eu não consigo instalar o Pixel no site do meu concorrente,
+
+82
+00:05:41,280 --> 00:05:44,180
+eu tenho que ter acesso ao código do site para instalar o Pixel
+
+83
+00:05:44,180 --> 00:05:45,960
+e a API de conversões lá.
+
+84
+00:05:46,240 --> 00:05:48,040
+Não dá para instalar o Pixel no WhatsApp,
+
+85
+00:05:48,440 --> 00:05:49,960
+no YouTube, no Instagram,
+
+86
+00:05:50,100 --> 00:05:52,540
+porque eu não sou dono do WhatsApp, do YouTube e do Instagram,
+
+87
+00:05:52,960 --> 00:05:55,200
+eu só posso instalar o Pixel no meu próprio site,
+
+88
+00:05:55,200 --> 00:05:58,820
+no meu domínio, no meu caso, no pedrosobral.com.br,
+
+89
+00:05:59,160 --> 00:05:59,320
+tá?
+
+90
+00:05:59,580 --> 00:06:00,740
+Ou pedrosobral.com,
+
+91
+00:06:00,800 --> 00:06:03,940
+é o único lugar onde eu consigo instalar o meu Pixel,
+
+92
+00:06:04,260 --> 00:06:05,040
+é no meu site.
+
+93
+00:06:05,340 --> 00:06:07,120
+Agora, o que eu consigo fazer?
+
+94
+00:06:07,360 --> 00:06:10,200
+Se eu estou fazendo uma campanha com objetivo de mensagens,
+
+95
+00:06:10,300 --> 00:06:10,360
+tá?
+
+96
+00:06:10,420 --> 00:06:12,340
+Então, eu estou fazendo a campanha com objetivo de mensagens,
+
+97
+00:06:12,340 --> 00:06:14,440
+mas o que eu quero mesmo são vendas,
+
+98
+00:06:14,720 --> 00:06:14,820
+tá?
+
+99
+00:06:14,900 --> 00:06:17,140
+Só que eu estou fazendo a campanha com objetivo de mensagem.
+
+100
+00:06:17,400 --> 00:06:18,080
+Aí eu te pergunto,
+
+101
+00:06:18,320 --> 00:06:22,420
+tá, mas você consegue medir quantas pessoas estão comprando o Pixel?
+
+102
+00:06:22,540 --> 00:06:25,220
+Consegue medir quantas pessoas estão comprando?
+
+103
+00:06:25,320 --> 00:06:25,800
+Aí você vai me dizer,
+
+104
+00:06:26,120 --> 00:06:26,760
+não, por quê?
+
+105
+00:06:26,840 --> 00:06:28,940
+Porque eu não consigo instalar o Pixel dentro do WhatsApp.
+
+106
+00:06:29,300 --> 00:06:31,800
+Então, se eu não consigo medir vendas,
+
+107
+00:06:32,080 --> 00:06:33,380
+eu vou focar o quê?
+
+108
+00:06:33,640 --> 00:06:35,780
+Na segunda métrica que eu consigo medir,
+
+109
+00:06:36,020 --> 00:06:36,320
+que é o quê?
+
+110
+00:06:36,380 --> 00:06:38,120
+O que acontece antes da pessoa comprar?
+
+111
+00:06:38,240 --> 00:06:39,380
+Ela me envia uma mensagem.
+
+112
+00:06:39,380 --> 00:06:42,560
+Então, a pessoa, ela vê o meu anúncio,
+
+113
+00:06:42,660 --> 00:06:43,340
+então acontece o quê?
+
+114
+00:06:43,520 --> 00:06:44,780
+Acontece uma impressão,
+
+115
+00:06:44,900 --> 00:06:45,800
+a pessoa vê o meu anúncio,
+
+116
+00:06:45,840 --> 00:06:46,520
+é o primeiro passo.
+
+117
+00:06:46,880 --> 00:06:48,900
+Depois a pessoa clica no anúncio,
+
+118
+00:06:49,240 --> 00:06:51,420
+depois abre meu site,
+
+119
+00:06:51,580 --> 00:06:53,160
+vamos dizer que você jogou a pessoa para o seu site,
+
+120
+00:06:53,280 --> 00:06:54,600
+você pode jogar ela direto para o WhatsApp,
+
+121
+00:06:54,960 --> 00:06:55,840
+mas vamos dizer que a pessoa,
+
+122
+00:06:56,240 --> 00:06:57,960
+que você está jogando a pessoa no seu site,
+
+123
+00:06:58,080 --> 00:06:59,380
+então abre o seu site,
+
+124
+00:06:59,740 --> 00:07:01,980
+aí dentro do seu site a pessoa clica no botão,
+
+125
+00:07:02,420 --> 00:07:03,220
+abre o WhatsApp,
+
+126
+00:07:03,220 --> 00:07:07,720
+e a pessoa faz o pedido.
+
+127
+00:07:09,380 --> 00:07:10,780
+Com o Pixel,
+
+128
+00:07:11,080 --> 00:07:14,340
+eu consigo medir todo mundo que viu o meu anúncio,
+
+129
+00:07:14,600 --> 00:07:16,060
+então aqui, consigo medir,
+
+130
+00:07:16,760 --> 00:07:18,640
+eu consigo medir quem clica no anúncio,
+
+131
+00:07:19,020 --> 00:07:22,440
+eu consigo medir todo mundo que abriu o meu site,
+
+132
+00:07:22,940 --> 00:07:25,560
+eu consigo medir todo mundo que clicou no botão
+
+133
+00:07:25,560 --> 00:07:26,780
+e me chamou no WhatsApp.
+
+134
+00:07:27,180 --> 00:07:29,080
+Agora, eu consigo medir dentro do WhatsApp
+
+135
+00:07:29,080 --> 00:07:30,000
+quem faz o pedido?
+
+136
+00:07:30,300 --> 00:07:31,540
+Não consigo medir.
+
+137
+00:07:32,820 --> 00:07:33,120
+Por quê?
+
+138
+00:07:33,180 --> 00:07:34,340
+Porque o WhatsApp não é meu.
+
+139
+00:07:34,640 --> 00:07:36,960
+Então, a minha métrica principal aqui
+
+140
+00:07:36,960 --> 00:07:39,300
+é a última métrica que eu consigo medir,
+
+141
+00:07:39,420 --> 00:07:39,860
+ou seja,
+
+142
+00:07:40,260 --> 00:07:42,140
+todo mundo que abriu o WhatsApp.
+
+143
+00:07:42,280 --> 00:07:43,440
+Isso é a métrica principal.
+
+144
+00:07:43,780 --> 00:07:46,420
+Agora, o que é a métrica secundária?
+
+145
+00:07:46,740 --> 00:07:48,060
+A métrica secundária
+
+146
+00:07:48,060 --> 00:07:49,800
+são as métricas, né?
+
+147
+00:07:50,000 --> 00:07:51,060
+São as métricas,
+
+148
+00:07:51,080 --> 00:07:51,980
+eu vou até botar no plural,
+
+149
+00:07:52,180 --> 00:07:53,240
+métricas secundárias,
+
+150
+00:07:53,560 --> 00:07:55,460
+são as métricas que afetam
+
+151
+00:07:55,460 --> 00:07:57,480
+a métrica principal.
+
+152
+00:07:58,300 --> 00:07:58,840
+Ou seja,
+
+153
+00:07:59,340 --> 00:08:00,420
+todas as outras coisas
+
+154
+00:08:00,420 --> 00:08:01,340
+que eu consigo medir
+
+155
+00:08:01,340 --> 00:08:02,080
+que vieram antes.
+
+156
+00:08:02,660 --> 00:08:03,140
+Impressões?
+
+157
+00:08:03,280 --> 00:08:04,560
+Então, a minha métrica secundária
+
+158
+00:08:04,560 --> 00:08:06,200
+vai ser o meu CPM.
+
+159
+00:08:06,200 --> 00:08:08,060
+A pessoa que clica no meu anúncio
+
+160
+00:08:08,060 --> 00:08:09,180
+vai ser o CPC,
+
+161
+00:08:09,340 --> 00:08:10,180
+o custo por clique
+
+162
+00:08:10,180 --> 00:08:11,400
+e o CTR.
+
+163
+00:08:11,660 --> 00:08:13,060
+A pessoa que abriu o meu site
+
+164
+00:08:13,060 --> 00:08:14,260
+vai ser a visualização
+
+165
+00:08:14,260 --> 00:08:16,360
+da página de destino
+
+166
+00:08:16,360 --> 00:08:18,120
+e o custo pela visualização
+
+167
+00:08:18,120 --> 00:08:19,240
+da página de destino.
+
+168
+00:08:19,520 --> 00:08:21,080
+Então, são todas as métricas
+
+169
+00:08:21,080 --> 00:08:21,860
+que vêm antes
+
+170
+00:08:21,860 --> 00:08:24,020
+da minha métrica principal.
+
+171
+00:08:24,340 --> 00:08:25,360
+Se eu tenho um e-commerce,
+
+172
+00:08:25,540 --> 00:08:26,080
+por exemplo,
+
+173
+00:08:26,420 --> 00:08:27,960
+o caminho poderia ser o seguinte.
+
+174
+00:08:28,280 --> 00:08:29,740
+A pessoa vai lá e vê o anúncio,
+
+175
+00:08:29,860 --> 00:08:30,160
+ou seja,
+
+176
+00:08:30,500 --> 00:08:31,160
+impressão,
+
+177
+00:08:31,440 --> 00:08:33,140
+depois a pessoa clica no anúncio,
+
+178
+00:08:33,440 --> 00:08:35,360
+depois a pessoa abre ou não o site,
+
+179
+00:08:35,360 --> 00:08:36,560
+então abre o site,
+
+180
+00:08:36,900 --> 00:08:38,580
+aí a pessoa começa uma sessão.
+
+181
+00:08:38,840 --> 00:08:39,980
+Toda vez que abre o site,
+
+182
+00:08:40,080 --> 00:08:40,720
+quando a gente está falando
+
+183
+00:08:40,720 --> 00:08:41,240
+de e-commerce,
+
+184
+00:08:41,600 --> 00:08:42,280
+a gente chama isso
+
+185
+00:08:42,280 --> 00:08:43,300
+normalmente de sessão.
+
+186
+00:08:43,440 --> 00:08:44,000
+A gente já vai falar
+
+187
+00:08:44,000 --> 00:08:45,000
+sobre as métricas aqui,
+
+188
+00:08:45,180 --> 00:08:46,400
+vou explicar cada uma delas
+
+189
+00:08:46,400 --> 00:08:46,840
+para você,
+
+190
+00:08:47,100 --> 00:08:48,280
+mas a gente chama isso de sessão.
+
+191
+00:08:48,540 --> 00:08:49,680
+Aí a pessoa abre o site,
+
+192
+00:08:49,980 --> 00:08:51,120
+aí a pessoa visualiza
+
+193
+00:08:51,120 --> 00:08:52,180
+o produto,
+
+194
+00:08:52,560 --> 00:08:54,680
+aí depois que ela visualiza
+
+195
+00:08:54,680 --> 00:08:55,000
+o produto,
+
+196
+00:08:55,080 --> 00:08:55,880
+ela adiciona
+
+197
+00:08:55,880 --> 00:08:56,780
+o produto
+
+198
+00:08:56,780 --> 00:08:57,800
+no carrinho.
+
+199
+00:08:58,140 --> 00:08:59,080
+Depois ela vai lá
+
+200
+00:08:59,080 --> 00:09:00,920
+e inicia a compra,
+
+201
+00:09:01,080 --> 00:09:02,060
+o initiate checkout.
+
+202
+00:09:02,060 --> 00:09:03,940
+E aí ela compra.
+
+203
+00:09:04,400 --> 00:09:04,660
+Então,
+
+204
+00:09:04,980 --> 00:09:05,880
+esse daqui é o caminho.
+
+205
+00:09:06,040 --> 00:09:07,200
+A minha métrica principal
+
+206
+00:09:07,200 --> 00:09:07,860
+muitas vezes
+
+207
+00:09:07,860 --> 00:09:08,660
+vai ser compras.
+
+208
+00:09:09,080 --> 00:09:09,940
+Em outros momentos
+
+209
+00:09:09,940 --> 00:09:10,680
+eu posso focar
+
+210
+00:09:10,680 --> 00:09:11,640
+em fazer as pessoas
+
+211
+00:09:11,640 --> 00:09:12,440
+adicionarem o produto
+
+212
+00:09:12,440 --> 00:09:12,940
+no carrinho.
+
+213
+00:09:13,440 --> 00:09:13,900
+Você vai ver
+
+214
+00:09:13,900 --> 00:09:14,660
+nas aulas de e-commerce
+
+215
+00:09:14,660 --> 00:09:15,680
+que às vezes a gente foca
+
+216
+00:09:15,680 --> 00:09:17,060
+em etapas diferentes,
+
+217
+00:09:17,460 --> 00:09:18,120
+mas vamos dizer
+
+218
+00:09:18,120 --> 00:09:19,220
+que eu estou focando nisso.
+
+219
+00:09:19,500 --> 00:09:20,720
+E aqui eu consigo medir tudo.
+
+220
+00:09:21,040 --> 00:09:21,440
+Então,
+
+221
+00:09:21,540 --> 00:09:22,640
+se eu consigo medir tudo,
+
+222
+00:09:24,520 --> 00:09:25,800
+deixa eu dar um CTRL C aqui,
+
+223
+00:09:26,120 --> 00:09:27,180
+vai ficar mais fácil.
+
+224
+00:09:27,180 --> 00:09:28,040
+consigo medir,
+
+225
+00:09:28,100 --> 00:09:28,320
+opa,
+
+226
+00:09:28,660 --> 00:09:29,380
+consigo medir,
+
+227
+00:09:29,440 --> 00:09:30,080
+consigo medir,
+
+228
+00:09:30,160 --> 00:09:30,800
+consigo medir,
+
+229
+00:09:30,880 --> 00:09:31,500
+consigo medir,
+
+230
+00:09:31,560 --> 00:09:32,120
+consigo medir.
+
+231
+00:09:32,420 --> 00:09:33,860
+Isso daqui pode ser
+
+232
+00:09:33,860 --> 00:09:34,820
+minha métrica principal.
+
+233
+00:09:35,160 --> 00:09:35,380
+Então,
+
+234
+00:09:35,500 --> 00:09:37,560
+se compras é minha métrica principal,
+
+235
+00:09:38,000 --> 00:09:38,620
+tudo isso daqui
+
+236
+00:09:38,620 --> 00:09:39,900
+são métricas secundárias.
+
+237
+00:09:40,320 --> 00:09:41,320
+Qual que é o problema
+
+238
+00:09:41,320 --> 00:09:41,940
+das pessoas?
+
+239
+00:09:42,060 --> 00:09:43,140
+Onde que você erra?
+
+240
+00:09:43,420 --> 00:09:44,440
+Você erra no seguinte,
+
+241
+00:09:44,860 --> 00:09:47,340
+você acha que a métrica secundária
+
+242
+00:09:47,340 --> 00:09:49,140
+ela funciona como a métrica principal.
+
+243
+00:09:49,440 --> 00:09:49,900
+Ou seja,
+
+244
+00:09:50,160 --> 00:09:51,880
+você usa a métrica secundária
+
+245
+00:09:51,880 --> 00:09:53,780
+para definir o sucesso
+
+246
+00:09:53,780 --> 00:09:54,920
+ou fracasso da campanha.
+
+247
+00:09:55,240 --> 00:09:55,420
+Então,
+
+248
+00:09:55,520 --> 00:09:56,500
+métricas secundárias
+
+249
+00:09:56,500 --> 00:09:57,220
+são as métricas
+
+250
+00:09:57,220 --> 00:09:58,640
+que afetam a métrica principal,
+
+251
+00:09:59,160 --> 00:10:00,440
+mas que nós
+
+252
+00:10:00,440 --> 00:10:03,220
+não vamos usar
+
+253
+00:10:03,220 --> 00:10:03,980
+para
+
+254
+00:10:03,980 --> 00:10:06,060
+medir a palavra
+
+255
+00:10:06,060 --> 00:10:06,640
+que eu usei aqui,
+
+256
+00:10:06,800 --> 00:10:07,300
+definir.
+
+257
+00:10:07,520 --> 00:10:09,000
+Para definir
+
+258
+00:10:09,000 --> 00:10:10,020
+o sucesso
+
+259
+00:10:10,020 --> 00:10:11,360
+ou fracasso
+
+260
+00:10:11,360 --> 00:10:12,280
+da campanha.
+
+261
+00:10:12,520 --> 00:10:12,740
+Então,
+
+262
+00:10:12,840 --> 00:10:13,740
+muita gente vai falar assim,
+
+263
+00:10:14,060 --> 00:10:14,320
+putz,
+
+264
+00:10:14,400 --> 00:10:14,560
+Pedro,
+
+265
+00:10:14,620 --> 00:10:15,780
+a minha campanha está ruim.
+
+266
+00:10:16,600 --> 00:10:17,240
+Aí eu vou falar,
+
+267
+00:10:17,340 --> 00:10:18,620
+por que a sua campanha está ruim?
+
+268
+00:10:18,680 --> 00:10:19,180
+Aí você vai me dizer assim,
+
+269
+00:10:19,480 --> 00:10:19,960
+ah não,
+
+270
+00:10:20,220 --> 00:10:21,300
+o meu CTR
+
+271
+00:10:21,300 --> 00:10:22,200
+está baixo.
+
+272
+00:10:22,380 --> 00:10:23,060
+Tem pouca gente
+
+273
+00:10:23,060 --> 00:10:24,100
+clicando no meu anúncio.
+
+274
+00:10:24,180 --> 00:10:25,120
+Meu CTR está baixo.
+
+275
+00:10:25,540 --> 00:10:26,480
+Fulaninho falou para mim,
+
+276
+00:10:26,480 --> 00:10:28,040
+que o CTR tinha que ser 1%.
+
+277
+00:10:28,040 --> 00:10:30,140
+O meu está 0,5%.
+
+278
+00:10:30,140 --> 00:10:30,860
+Aí eu falo assim,
+
+279
+00:10:30,920 --> 00:10:31,000
+tá,
+
+280
+00:10:31,040 --> 00:10:31,420
+mas beleza,
+
+281
+00:10:31,540 --> 00:10:32,780
+quanto você está gastando por dia?
+
+282
+00:10:33,080 --> 00:10:33,240
+Ah,
+
+283
+00:10:33,280 --> 00:10:34,100
+estou gastando 500.
+
+284
+00:10:34,560 --> 00:10:34,740
+Aí,
+
+285
+00:10:34,820 --> 00:10:36,200
+quanto de venda que você está gerando?
+
+286
+00:10:36,260 --> 00:10:37,260
+Estou gerando 5 mil
+
+287
+00:10:37,260 --> 00:10:38,640
+em vendas por dia.
+
+288
+00:10:38,940 --> 00:10:39,200
+Aí eu falo,
+
+289
+00:10:39,260 --> 00:10:40,620
+e a sua campanha está ruim
+
+290
+00:10:40,620 --> 00:10:42,200
+por causa do CTR?
+
+291
+00:10:42,420 --> 00:10:43,200
+É sério isso?
+
+292
+00:10:43,700 --> 00:10:44,200
+Aí ele vai dizer,
+
+293
+00:10:44,460 --> 00:10:44,740
+não,
+
+294
+00:10:44,980 --> 00:10:45,620
+está boa,
+
+295
+00:10:45,700 --> 00:10:46,980
+mas é que o CTR está ruim.
+
+296
+00:10:47,120 --> 00:10:47,500
+Aí eu falo,
+
+297
+00:10:47,560 --> 00:10:47,680
+não,
+
+298
+00:10:47,760 --> 00:10:48,080
+beleza,
+
+299
+00:10:48,460 --> 00:10:50,120
+tem um ponto da sua campanha,
+
+300
+00:10:50,260 --> 00:10:52,120
+existe uma métrica secundária
+
+301
+00:10:52,120 --> 00:10:53,860
+que pode ser melhorada.
+
+302
+00:10:54,100 --> 00:10:55,860
+E se a gente melhora a métrica secundária,
+
+303
+00:10:56,260 --> 00:10:57,560
+todo o resto vai melhorar também.
+
+304
+00:10:58,200 --> 00:10:58,340
+Tá?
+
+305
+00:10:58,540 --> 00:10:59,500
+Só que a questão é,
+
+306
+00:10:59,580 --> 00:11:00,980
+se a campanha não está ruim,
+
+307
+00:11:01,280 --> 00:11:02,680
+o que diz se a campanha está ruim
+
+308
+00:11:02,680 --> 00:11:03,200
+ou não está ruim,
+
+309
+00:11:03,560 --> 00:11:05,000
+é uma única métrica,
+
+310
+00:11:05,280 --> 00:11:06,700
+que é a métrica principal.
+
+311
+00:11:07,140 --> 00:11:08,780
+Todas as outras métricas secundárias,
+
+312
+00:11:08,840 --> 00:11:10,760
+elas afetam a métrica principal,
+
+313
+00:11:11,120 --> 00:11:13,340
+mas elas não medem o sucesso
+
+314
+00:11:13,340 --> 00:11:14,560
+ou fracasso da campanha.
+
+315
+00:11:14,560 --> 00:11:14,960
+Tá?
+
+316
+00:11:15,260 --> 00:11:16,260
+E como que eu vou definir
+
+317
+00:11:16,260 --> 00:11:17,180
+minha métrica principal?
+
+318
+00:11:17,180 --> 00:11:18,400
+A gente vai entender
+
+319
+00:11:18,400 --> 00:11:19,460
+qual que é o meu objetivo
+
+320
+00:11:19,460 --> 00:11:20,780
+e o que eu consigo medir,
+
+321
+00:11:20,840 --> 00:11:21,800
+o que eu não consigo medir.
+
+322
+00:11:22,080 --> 00:11:22,380
+Ponto.
+
+323
+00:11:22,640 --> 00:11:23,220
+Como que eu sei
+
+324
+00:11:23,220 --> 00:11:24,120
+o que eu consigo medir,
+
+325
+00:11:24,180 --> 00:11:25,160
+o que eu não consigo medir?
+
+326
+00:11:25,900 --> 00:11:26,280
+Normalmente,
+
+327
+00:11:26,360 --> 00:11:27,520
+isso vai estar relacionado
+
+328
+00:11:27,520 --> 00:11:29,060
+a onde que você consegue
+
+329
+00:11:29,060 --> 00:11:29,980
+instalar o seu pixel.
+
+330
+00:11:30,400 --> 00:11:30,500
+Tá?
+
+331
+00:11:30,620 --> 00:11:30,820
+Então,
+
+332
+00:11:31,040 --> 00:11:31,840
+vai estar relacionado
+
+333
+00:11:31,840 --> 00:11:33,600
+a como que eu consigo medir
+
+334
+00:11:33,600 --> 00:11:35,140
+o que o usuário está fazendo
+
+335
+00:11:35,140 --> 00:11:36,320
+dentro do meu site.
+
+336
+00:11:36,440 --> 00:11:37,080
+Mas, às vezes,
+
+337
+00:11:37,220 --> 00:11:38,060
+em alguns casos,
+
+338
+00:11:38,320 --> 00:11:39,300
+a pessoa vai ter que sair
+
+339
+00:11:39,300 --> 00:11:40,020
+do nosso site
+
+340
+00:11:40,020 --> 00:11:40,800
+e ela vai ter que abrir
+
+341
+00:11:40,800 --> 00:11:41,200
+um WhatsApp,
+
+342
+00:11:41,720 --> 00:11:42,480
+ela vai ter que abrir
+
+343
+00:11:42,480 --> 00:11:44,140
+uma ferramenta
+
+344
+00:11:44,140 --> 00:11:45,060
+que eu não consigo instalar
+
+345
+00:11:45,060 --> 00:11:46,100
+meu pixel lá dentro
+
+346
+00:11:46,100 --> 00:11:47,340
+e aí eu não vou conseguir
+
+347
+00:11:47,340 --> 00:11:48,340
+medir a ação do usuário
+
+348
+00:11:48,340 --> 00:11:48,840
+lá dentro.
+
+349
+00:11:49,180 --> 00:11:49,240
+Tá?
+
+350
+00:11:49,280 --> 00:11:49,400
+Então,
+
+351
+00:11:49,440 --> 00:11:50,460
+a métrica principal
+
+352
+00:11:50,460 --> 00:11:51,540
+está relacionada
+
+353
+00:11:51,540 --> 00:11:52,360
+ao meu objetivo
+
+354
+00:11:52,360 --> 00:11:53,380
+e ao que eu consigo medir.
+
+355
+00:11:53,660 --> 00:11:54,580
+A partir disso,
+
+356
+00:11:54,620 --> 00:11:55,740
+a gente tem todo o nosso funil.
+
+357
+00:11:55,840 --> 00:11:56,540
+Isso aqui é o funil.
+
+358
+00:11:56,920 --> 00:11:57,500
+Funil é o quê?
+
+359
+00:11:57,580 --> 00:11:58,640
+Por onde que a pessoa passa
+
+360
+00:11:58,640 --> 00:12:00,500
+até chegar no objetivo final.
+
+361
+00:12:00,880 --> 00:12:01,260
+Tá, Pedro?
+
+362
+00:12:01,320 --> 00:12:02,380
+E quais são as possíveis
+
+363
+00:12:02,380 --> 00:12:03,340
+métricas que existem?
+
+364
+00:12:03,680 --> 00:12:04,440
+Como eu mostrei aqui
+
+365
+00:12:04,440 --> 00:12:04,840
+para você,
+
+366
+00:12:05,260 --> 00:12:06,740
+tem centenas,
+
+367
+00:12:07,160 --> 00:12:07,280
+tá?
+
+368
+00:12:07,280 --> 00:12:08,640
+Se não milhares de métricas,
+
+369
+00:12:08,720 --> 00:12:08,800
+tá?
+
+370
+00:12:09,060 --> 00:12:09,980
+A gente gastaria aqui
+
+371
+00:12:09,980 --> 00:12:10,660
+12 dias
+
+372
+00:12:10,660 --> 00:12:12,040
+olhando cada uma delas.
+
+373
+00:12:12,380 --> 00:12:13,340
+Não é isso que a gente vai fazer,
+
+374
+00:12:13,440 --> 00:12:14,080
+mas mais uma vez.
+
+375
+00:12:14,340 --> 00:12:15,440
+Você pode botar o mousezinho
+
+376
+00:12:15,440 --> 00:12:15,920
+aqui em cima,
+
+377
+00:12:15,920 --> 00:12:17,400
+algumas vão aparecer,
+
+378
+00:12:17,500 --> 00:12:17,880
+outras não,
+
+379
+00:12:18,180 --> 00:12:19,260
+mas eu consigo botar o mouse
+
+380
+00:12:19,260 --> 00:12:20,140
+em cima da métrica
+
+381
+00:12:20,140 --> 00:12:21,240
+e ele vai me dizer
+
+382
+00:12:21,240 --> 00:12:22,740
+o que essa métrica significa.
+
+383
+00:12:22,920 --> 00:12:23,040
+Então,
+
+384
+00:12:23,100 --> 00:12:24,680
+o que é uma impressão visível?
+
+385
+00:12:25,020 --> 00:12:25,640
+Aí ele vai me dizer
+
+386
+00:12:25,640 --> 00:12:26,860
+o que é impressão visível.
+
+387
+00:12:27,180 --> 00:12:27,320
+Então,
+
+388
+00:12:27,460 --> 00:12:28,300
+dê uma olhada nisso.
+
+389
+00:12:28,600 --> 00:12:28,940
+Você vai ver,
+
+390
+00:12:29,020 --> 00:12:29,320
+por exemplo,
+
+391
+00:12:29,380 --> 00:12:30,900
+que tem um milhão de métricas.
+
+392
+00:12:31,340 --> 00:12:32,600
+Uma das primeiras métricas
+
+393
+00:12:32,600 --> 00:12:33,380
+que a gente vai falar aqui
+
+394
+00:12:33,380 --> 00:12:34,200
+são as impressões.
+
+395
+00:12:34,200 --> 00:12:34,480
+Tá aqui,
+
+396
+00:12:34,540 --> 00:12:35,380
+impressões,
+
+397
+00:12:35,480 --> 00:12:36,360
+alcance e CPM.
+
+398
+00:12:36,680 --> 00:12:36,860
+Mas,
+
+399
+00:12:37,100 --> 00:12:37,920
+se eu entrar no Google,
+
+400
+00:12:38,060 --> 00:12:39,380
+tem impressões visíveis,
+
+401
+00:12:39,540 --> 00:12:40,040
+não visíveis,
+
+402
+00:12:40,220 --> 00:12:40,780
+mensuráveis,
+
+403
+00:12:40,920 --> 00:12:41,640
+não mensuráveis.
+
+404
+00:12:42,000 --> 00:12:43,120
+Tem um monte de métricas.
+
+405
+00:12:43,180 --> 00:12:44,060
+Aí você vai analisar
+
+406
+00:12:44,060 --> 00:12:44,540
+e você vai ver
+
+407
+00:12:44,540 --> 00:12:45,940
+o que faz mais sentido para você.
+
+408
+00:12:46,280 --> 00:12:47,140
+O que eu vou te passar aqui
+
+409
+00:12:47,140 --> 00:12:47,980
+é o principal.
+
+410
+00:12:48,320 --> 00:12:49,840
+É o que todo gestor de tráfego,
+
+411
+00:12:49,920 --> 00:12:50,460
+todo anunciante
+
+412
+00:12:50,460 --> 00:12:51,200
+deveria saber.
+
+413
+00:12:51,600 --> 00:12:51,960
+Então,
+
+414
+00:12:52,260 --> 00:12:52,980
+vamos começar aqui.
+
+415
+00:12:54,260 --> 00:12:55,840
+Leads e CPA ou CPL.
+
+416
+00:12:55,980 --> 00:12:56,820
+Leads a gente já falou
+
+417
+00:12:56,820 --> 00:12:57,940
+o que é lá na aula
+
+418
+00:12:57,940 --> 00:12:58,940
+do ABC do tráfego,
+
+419
+00:12:59,280 --> 00:13:00,800
+que são os contatos.
+
+420
+00:13:00,960 --> 00:13:01,440
+São as pessoas
+
+421
+00:13:01,440 --> 00:13:02,640
+que foram até o seu site
+
+422
+00:13:02,640 --> 00:13:03,280
+ou então
+
+423
+00:13:03,280 --> 00:13:04,980
+que dentro do próprio
+
+424
+00:13:04,980 --> 00:13:06,100
+Meta Ads
+
+425
+00:13:06,100 --> 00:13:07,000
+ou do Google Ads
+
+426
+00:13:07,000 --> 00:13:08,580
+te deram as informações
+
+427
+00:13:08,580 --> 00:13:10,300
+delas de e-mail,
+
+428
+00:13:10,660 --> 00:13:11,080
+celular,
+
+429
+00:13:11,440 --> 00:13:12,960
+algum canal de contato
+
+430
+00:13:12,960 --> 00:13:13,640
+para você falar
+
+431
+00:13:13,640 --> 00:13:14,400
+com essa pessoa.
+
+432
+00:13:14,540 --> 00:13:15,380
+Lead é a pessoa
+
+433
+00:13:15,380 --> 00:13:16,440
+que demonstrou interesse
+
+434
+00:13:16,440 --> 00:13:17,800
+naquilo que você está divulgando
+
+435
+00:13:17,800 --> 00:13:18,580
+e te deu
+
+436
+00:13:18,580 --> 00:13:20,500
+a informação de contato.
+
+437
+00:13:20,620 --> 00:13:20,760
+Então,
+
+438
+00:13:20,880 --> 00:13:21,380
+isso daqui
+
+439
+00:13:21,380 --> 00:13:23,160
+é leads e CPA.
+
+440
+00:13:23,800 --> 00:13:25,100
+Mensagens iniciadas
+
+441
+00:13:25,100 --> 00:13:26,780
+e custo por mensagem.
+
+442
+00:13:26,860 --> 00:13:28,240
+O que é a mensagem iniciada?
+
+443
+00:13:28,500 --> 00:13:29,100
+É a pessoa
+
+444
+00:13:29,100 --> 00:13:29,760
+que começou
+
+445
+00:13:29,760 --> 00:13:30,820
+uma conversa com você.
+
+446
+00:13:31,080 --> 00:13:31,880
+Pode ser pelo WhatsApp,
+
+447
+00:13:32,240 --> 00:13:33,240
+pode ser pelo Direct,
+
+448
+00:13:33,560 --> 00:13:34,580
+pode ser pelo Messenger.
+
+449
+00:13:34,780 --> 00:13:34,980
+Então,
+
+450
+00:13:35,020 --> 00:13:35,380
+é a pessoa
+
+451
+00:13:35,380 --> 00:13:35,920
+que começou
+
+452
+00:13:35,920 --> 00:13:36,980
+uma conversa com você
+
+453
+00:13:36,980 --> 00:13:38,340
+e o custo por essa mensagem.
+
+454
+00:13:39,000 --> 00:13:39,420
+Impressões,
+
+455
+00:13:39,540 --> 00:13:40,660
+alcance e CPM.
+
+456
+00:13:41,540 --> 00:13:42,200
+Lembra que a gente
+
+457
+00:13:42,200 --> 00:13:43,080
+falou sobre impressões
+
+458
+00:13:43,080 --> 00:13:43,560
+e alcance?
+
+459
+00:13:43,920 --> 00:13:45,260
+Que impressões
+
+460
+00:13:45,260 --> 00:13:46,540
+é relativo.
+
+461
+00:13:48,740 --> 00:13:49,460
+Impressões é
+
+462
+00:13:49,460 --> 00:13:50,320
+quantas vezes
+
+463
+00:13:50,320 --> 00:13:52,540
+meu anúncio apareceu.
+
+464
+00:13:55,920 --> 00:13:56,500
+Alcance
+
+465
+00:13:56,500 --> 00:14:01,720
+é para quantas pessoas
+
+466
+00:14:01,720 --> 00:14:03,700
+meu anúncio apareceu.
+
+467
+00:14:03,940 --> 00:14:04,220
+Então,
+
+468
+00:14:04,300 --> 00:14:05,340
+se meu anúncio apareceu
+
+469
+00:14:05,340 --> 00:14:06,340
+cinco vezes
+
+470
+00:14:06,340 --> 00:14:07,560
+para o João,
+
+471
+00:14:07,840 --> 00:14:09,000
+cinco vezes
+
+472
+00:14:09,000 --> 00:14:10,340
+para a Maria,
+
+473
+00:14:10,620 --> 00:14:11,060
+João não,
+
+474
+00:14:11,700 --> 00:14:12,220
+João,
+
+475
+00:14:12,760 --> 00:14:14,000
+apareceu cinco vezes
+
+476
+00:14:14,000 --> 00:14:14,300
+para o João,
+
+477
+00:14:14,400 --> 00:14:15,180
+cinco vezes para a Maria,
+
+478
+00:14:15,540 --> 00:14:16,160
+isso aqui são
+
+479
+00:14:16,160 --> 00:14:17,480
+dez impressões
+
+480
+00:14:17,480 --> 00:14:18,040
+e
+
+481
+00:14:18,040 --> 00:14:19,700
+dois alcances,
+
+482
+00:14:19,820 --> 00:14:20,420
+porque eu apareci
+
+483
+00:14:20,420 --> 00:14:21,620
+só para duas pessoas.
+
+484
+00:14:21,620 --> 00:14:23,300
+e a frequência
+
+485
+00:14:23,300 --> 00:14:25,120
+é a relação
+
+486
+00:14:25,120 --> 00:14:31,240
+entre impressões
+
+487
+00:14:31,240 --> 00:14:35,780
+e alcance.
+
+488
+00:14:36,580 --> 00:14:37,020
+Então,
+
+489
+00:14:37,340 --> 00:14:38,260
+eu até coloquei aqui
+
+490
+00:14:38,260 --> 00:14:39,540
+o cálculo das métricas
+
+491
+00:14:39,540 --> 00:14:40,080
+para você.
+
+492
+00:14:40,540 --> 00:14:41,680
+O CPM
+
+493
+00:14:41,680 --> 00:14:43,460
+é o custo
+
+494
+00:14:43,460 --> 00:14:44,360
+vezes mil
+
+495
+00:14:44,360 --> 00:14:45,380
+dividido pelo número
+
+496
+00:14:45,380 --> 00:14:46,000
+de impressões.
+
+497
+00:14:46,140 --> 00:14:47,160
+É assim que você calcula
+
+498
+00:14:47,160 --> 00:14:47,600
+o CPM.
+
+499
+00:14:47,960 --> 00:14:48,200
+Pedro,
+
+500
+00:14:48,260 --> 00:14:49,020
+eu vou ter que calcular
+
+501
+00:14:49,020 --> 00:14:49,800
+o meu CPM?
+
+502
+00:14:49,800 --> 00:14:50,480
+Não,
+
+503
+00:14:50,800 --> 00:14:52,360
+isso a própria fonte de tráfego
+
+504
+00:14:52,360 --> 00:14:53,620
+já vai calcular para você.
+
+505
+00:14:53,880 --> 00:14:54,220
+Então,
+
+506
+00:14:54,340 --> 00:14:55,380
+aqui na fonte de tráfego,
+
+507
+00:14:55,440 --> 00:14:56,040
+deixa eu pegar aqui
+
+508
+00:14:56,040 --> 00:14:56,720
+minhas colunas
+
+509
+00:14:56,720 --> 00:14:57,660
+que tem o CPM,
+
+510
+00:14:57,760 --> 00:14:58,160
+vai estar aqui,
+
+511
+00:14:58,460 --> 00:14:59,200
+CPM,
+
+512
+00:14:59,660 --> 00:15:00,880
+custo por mil impressões.
+
+513
+00:15:00,980 --> 00:15:01,340
+Está vendo aqui?
+
+514
+00:15:01,420 --> 00:15:01,920
+Deixa eu dar um zoom.
+
+515
+00:15:02,520 --> 00:15:02,880
+Cadê?
+
+516
+00:15:02,960 --> 00:15:03,120
+Cadê?
+
+517
+00:15:03,720 --> 00:15:04,040
+CPM,
+
+518
+00:15:04,480 --> 00:15:05,740
+custo por mil impressões.
+
+519
+00:15:05,860 --> 00:15:05,980
+Então,
+
+520
+00:15:06,040 --> 00:15:07,380
+a própria fonte de tráfego
+
+521
+00:15:07,380 --> 00:15:08,240
+já vai me informar.
+
+522
+00:15:08,580 --> 00:15:09,380
+Não é um cálculo
+
+523
+00:15:09,380 --> 00:15:10,080
+que eu tenho que fazer,
+
+524
+00:15:10,220 --> 00:15:11,160
+mas é bom que você saiba
+
+525
+00:15:11,160 --> 00:15:12,060
+como o cálculo é feito.
+
+526
+00:15:12,580 --> 00:15:13,540
+Isso é o CPM.
+
+527
+00:15:13,980 --> 00:15:14,100
+E,
+
+528
+00:15:14,360 --> 00:15:14,620
+não,
+
+529
+00:15:14,720 --> 00:15:15,060
+eu vou
+
+530
+00:15:15,060 --> 00:15:17,300
+colocar aqui também
+
+531
+00:15:17,300 --> 00:15:18,440
+a métrica da
+
+532
+00:15:18,440 --> 00:15:19,460
+frequência
+
+533
+00:15:19,460 --> 00:15:20,040
+é
+
+534
+00:15:20,040 --> 00:15:24,460
+as impressões
+
+535
+00:15:24,460 --> 00:15:27,240
+dividido pelo
+
+536
+00:15:27,240 --> 00:15:28,240
+alcance.
+
+537
+00:15:29,340 --> 00:15:30,340
+Essa é a métrica
+
+538
+00:15:30,340 --> 00:15:31,020
+da frequência.
+
+539
+00:15:31,140 --> 00:15:31,580
+Isso daqui
+
+540
+00:15:31,580 --> 00:15:32,980
+é assim que você calcula
+
+541
+00:15:32,980 --> 00:15:33,900
+a frequência
+
+542
+00:15:33,900 --> 00:15:34,800
+das suas campanhas.
+
+543
+00:15:35,020 --> 00:15:35,880
+Eu tenho que calcular?
+
+544
+00:15:36,320 --> 00:15:36,740
+Não.
+
+545
+00:15:37,020 --> 00:15:38,440
+A própria fonte de tráfego
+
+546
+00:15:38,440 --> 00:15:39,400
+vai calcular para você.
+
+547
+00:15:39,520 --> 00:15:40,300
+Deixa eu ver se eu coloquei
+
+548
+00:15:40,300 --> 00:15:41,040
+frequência aqui.
+
+549
+00:15:41,420 --> 00:15:42,200
+Não coloquei.
+
+550
+00:15:42,460 --> 00:15:43,140
+Mais uma vez,
+
+551
+00:15:43,180 --> 00:15:44,340
+você não tem que saber agora
+
+552
+00:15:44,340 --> 00:15:45,760
+mexer na fonte de tráfego aqui.
+
+553
+00:15:45,760 --> 00:15:47,000
+É só para te dar o exemplo.
+
+554
+00:15:47,120 --> 00:15:48,220
+Isso tanto no Google Ads
+
+555
+00:15:48,220 --> 00:15:48,940
+quanto no Meta Ads
+
+556
+00:15:48,940 --> 00:15:50,260
+quanto qualquer fonte de tráfego.
+
+557
+00:15:50,580 --> 00:15:50,760
+Então,
+
+558
+00:15:50,840 --> 00:15:51,720
+eu tenho aqui a métrica
+
+559
+00:15:51,720 --> 00:15:52,480
+da frequência.
+
+560
+00:15:52,700 --> 00:15:53,620
+Isso daqui é a minha
+
+561
+00:15:53,620 --> 00:15:54,780
+métrica de frequência.
+
+562
+00:15:55,080 --> 00:15:55,280
+Então,
+
+563
+00:15:55,340 --> 00:15:56,460
+a frequência é uma relação
+
+564
+00:15:56,460 --> 00:15:57,860
+entre impressões e alcance.
+
+565
+00:15:58,340 --> 00:15:58,400
+Tá?
+
+566
+00:15:58,780 --> 00:15:59,180
+Cliques,
+
+567
+00:15:59,460 --> 00:16:01,060
+CPC e CTR.
+
+568
+00:16:01,340 --> 00:16:02,360
+Link e todos.
+
+569
+00:16:02,720 --> 00:16:03,560
+O que é isso daqui?
+
+570
+00:16:04,800 --> 00:16:06,020
+Existe dois tipos.
+
+571
+00:16:06,140 --> 00:16:06,420
+Na verdade,
+
+572
+00:16:06,600 --> 00:16:07,320
+existem mais,
+
+573
+00:16:07,640 --> 00:16:08,780
+mas esses são os principais.
+
+574
+00:16:09,180 --> 00:16:10,760
+Existem vários tipos de cliques
+
+575
+00:16:10,760 --> 00:16:12,200
+e tem dois que são os principais.
+
+576
+00:16:12,560 --> 00:16:14,280
+Tem os cliques no link
+
+577
+00:16:14,280 --> 00:16:15,980
+e tem os cliques todos.
+
+578
+00:16:16,440 --> 00:16:16,500
+Tá?
+
+579
+00:16:16,680 --> 00:16:17,640
+Se a gente for buscar
+
+580
+00:16:17,640 --> 00:16:18,640
+nas fontes de tráfego
+
+581
+00:16:18,640 --> 00:16:19,760
+as métricas de clique,
+
+582
+00:16:20,080 --> 00:16:20,860
+você vai ver que está aqui,
+
+583
+00:16:20,980 --> 00:16:21,960
+CPC,
+
+584
+00:16:22,920 --> 00:16:24,080
+custo por clique no link,
+
+585
+00:16:24,260 --> 00:16:25,100
+cliques no link.
+
+586
+00:16:25,340 --> 00:16:25,660
+Mas,
+
+587
+00:16:25,760 --> 00:16:26,420
+se eu buscar
+
+588
+00:16:26,420 --> 00:16:27,940
+nas minhas métricas,
+
+589
+00:16:28,360 --> 00:16:28,500
+tá?
+
+590
+00:16:28,600 --> 00:16:29,440
+E eu estou dando o exemplo
+
+591
+00:16:29,440 --> 00:16:29,940
+no Meta,
+
+592
+00:16:29,980 --> 00:16:31,000
+mas poderia ser no Google,
+
+593
+00:16:31,120 --> 00:16:31,680
+porque é igual.
+
+594
+00:16:32,000 --> 00:16:32,640
+Você vai ver que
+
+595
+00:16:32,640 --> 00:16:33,480
+se eu buscar aqui,
+
+596
+00:16:33,660 --> 00:16:34,040
+cliques,
+
+597
+00:16:34,140 --> 00:16:35,680
+vai ter cliques no link
+
+598
+00:16:35,680 --> 00:16:37,280
+e tem cliques todos.
+
+599
+00:16:37,440 --> 00:16:38,160
+Qual que é a diferença
+
+600
+00:16:38,160 --> 00:16:38,980
+entre os dois?
+
+601
+00:16:39,520 --> 00:16:40,280
+Cliques no link
+
+602
+00:16:40,280 --> 00:16:41,080
+são as pessoas
+
+603
+00:16:41,080 --> 00:16:41,960
+que clicaram
+
+604
+00:16:41,960 --> 00:16:42,680
+no seu link.
+
+605
+00:16:43,100 --> 00:16:43,740
+Cliques todos
+
+606
+00:16:43,740 --> 00:16:44,760
+é a pessoa que clicou
+
+607
+00:16:44,760 --> 00:16:45,360
+em qualquer lugar.
+
+608
+00:16:45,720 --> 00:16:46,780
+Ela viu o seu anúncio
+
+609
+00:16:46,780 --> 00:16:48,500
+e clicou para ver a sua página.
+
+610
+00:16:48,980 --> 00:16:50,100
+Ela viu o seu anúncio
+
+611
+00:16:50,100 --> 00:16:51,460
+e não clicou
+
+612
+00:16:51,460 --> 00:16:52,600
+no botão de saiba mais,
+
+613
+00:16:52,900 --> 00:16:53,660
+mas ela clicou
+
+614
+00:16:53,660 --> 00:16:54,480
+num outro lugar
+
+615
+00:16:54,480 --> 00:16:55,240
+do seu anúncio.
+
+616
+00:16:55,520 --> 00:16:56,460
+Ela clicou para saber
+
+617
+00:16:56,460 --> 00:16:57,300
+mais informações
+
+618
+00:16:57,300 --> 00:16:58,100
+sobre você.
+
+619
+00:16:58,440 --> 00:16:58,720
+Então,
+
+620
+00:16:59,060 --> 00:16:59,760
+cliques todos
+
+621
+00:16:59,760 --> 00:17:00,760
+contabiliza
+
+622
+00:17:00,760 --> 00:17:05,120
+qualquer clique
+
+623
+00:17:05,120 --> 00:17:06,160
+no seu anúncio.
+
+624
+00:17:07,440 --> 00:17:07,960
+Agora,
+
+625
+00:17:08,660 --> 00:17:10,260
+o cliques no link
+
+626
+00:17:10,260 --> 00:17:11,580
+contabiliza
+
+627
+00:17:11,580 --> 00:17:13,160
+apenas os cliques
+
+628
+00:17:13,160 --> 00:17:14,300
+no link.
+
+629
+00:17:14,940 --> 00:17:15,480
+E aí,
+
+630
+00:17:15,560 --> 00:17:16,540
+a gente tem o CPC,
+
+631
+00:17:16,700 --> 00:17:17,680
+que é quanto que custa
+
+632
+00:17:17,680 --> 00:17:18,480
+para a pessoa clicar
+
+633
+00:17:18,480 --> 00:17:18,960
+no seu link,
+
+634
+00:17:19,000 --> 00:17:19,560
+quanto está custando
+
+635
+00:17:19,560 --> 00:17:20,360
+para a pessoa clicar
+
+636
+00:17:20,360 --> 00:17:21,420
+e o CTR,
+
+637
+00:17:21,680 --> 00:17:22,020
+que é o quê?
+
+638
+00:17:22,120 --> 00:17:23,380
+É a taxa de cliques.
+
+639
+00:17:23,840 --> 00:17:24,720
+Muito você vai ouvir
+
+640
+00:17:24,720 --> 00:17:25,440
+falar de CTR,
+
+641
+00:17:25,560 --> 00:17:26,240
+taxa de clique,
+
+642
+00:17:26,360 --> 00:17:26,940
+taxa de clique,
+
+643
+00:17:27,040 --> 00:17:27,620
+taxa de clique.
+
+644
+00:17:27,940 --> 00:17:29,580
+É a relação.
+
+645
+00:17:29,900 --> 00:17:30,680
+Vou até colocar aqui.
+
+646
+00:17:31,340 --> 00:17:31,760
+CTR
+
+647
+00:17:31,760 --> 00:17:35,020
+é a relação
+
+648
+00:17:35,020 --> 00:17:45,180
+entre impressões
+
+649
+00:17:45,180 --> 00:17:46,940
+e cliques.
+
+650
+00:17:46,940 --> 00:17:49,380
+ou seja,
+
+651
+00:17:49,620 --> 00:17:50,340
+CTR
+
+652
+00:17:50,340 --> 00:17:52,200
+é igual a impressões,
+
+653
+00:17:52,980 --> 00:17:53,380
+aliás,
+
+654
+00:17:53,500 --> 00:17:53,960
+cliques
+
+655
+00:17:53,960 --> 00:17:58,160
+dividido por
+
+656
+00:17:58,160 --> 00:18:00,020
+impressões.
+
+657
+00:18:01,840 --> 00:18:02,220
+Então,
+
+658
+00:18:02,520 --> 00:18:03,800
+se 10 pessoas,
+
+659
+00:18:03,940 --> 00:18:05,040
+vou botar o exemplo aqui,
+
+660
+00:18:05,420 --> 00:18:06,740
+mil pessoas
+
+661
+00:18:06,740 --> 00:18:08,180
+viram meu anúncio,
+
+662
+00:18:08,260 --> 00:18:08,560
+ou seja,
+
+663
+00:18:08,680 --> 00:18:08,960
+aliás,
+
+664
+00:18:09,320 --> 00:18:09,900
+o meu anúncio
+
+665
+00:18:09,900 --> 00:18:10,820
+apareceu mil vezes,
+
+666
+00:18:10,920 --> 00:18:12,660
+eu tive mil impressões
+
+667
+00:18:12,660 --> 00:18:13,780
+e 100 cliques,
+
+668
+00:18:13,780 --> 00:18:14,920
+isso daqui
+
+669
+00:18:14,920 --> 00:18:16,280
+é igual a
+
+670
+00:18:16,280 --> 00:18:18,020
+100 dividido por mil,
+
+671
+00:18:18,340 --> 00:18:19,620
+vou fazer aqui na calculadora,
+
+672
+00:18:20,300 --> 00:18:20,740
+vai dar
+
+673
+00:18:20,740 --> 00:18:22,060
+10%,
+
+674
+00:18:22,060 --> 00:18:22,660
+vezes 100,
+
+675
+00:18:22,760 --> 00:18:24,300
+sempre tem o vezes 100 no final,
+
+676
+00:18:24,620 --> 00:18:26,100
+porque aí entra a porcentagem.
+
+677
+00:18:26,460 --> 00:18:26,760
+Então,
+
+678
+00:18:27,160 --> 00:18:27,280
+é
+
+679
+00:18:27,280 --> 00:18:29,820
+100 dividido por mil
+
+680
+00:18:29,820 --> 00:18:30,920
+vezes 100,
+
+681
+00:18:31,600 --> 00:18:32,080
+isso daqui
+
+682
+00:18:32,080 --> 00:18:33,100
+vai ser igual a
+
+683
+00:18:33,100 --> 00:18:34,880
+10% das pessoas,
+
+684
+00:18:35,400 --> 00:18:36,800
+10% de CTR,
+
+685
+00:18:36,900 --> 00:18:37,280
+ou seja,
+
+686
+00:18:37,660 --> 00:18:39,100
+10% das pessoas
+
+687
+00:18:39,100 --> 00:18:40,120
+clicaram
+
+688
+00:18:40,120 --> 00:18:41,120
+no meu anúncio.
+
+689
+00:18:41,440 --> 00:18:42,040
+Mede,
+
+690
+00:18:42,100 --> 00:18:42,420
+normalmente,
+
+691
+00:18:42,420 --> 00:18:43,860
+a qualidade do anúncio,
+
+692
+00:18:44,020 --> 00:18:45,180
+quanto mais CTR eu tenho,
+
+693
+00:18:45,520 --> 00:18:46,560
+mais gente está clicando,
+
+694
+00:18:46,680 --> 00:18:47,700
+mostra que meu anúncio
+
+695
+00:18:47,700 --> 00:18:49,040
+está com um resultado legal.
+
+696
+00:18:49,400 --> 00:18:49,980
+Isso eu tenho que
+
+697
+00:18:49,980 --> 00:18:50,660
+calcular sozinho?
+
+698
+00:18:50,820 --> 00:18:51,180
+Não,
+
+699
+00:18:51,520 --> 00:18:53,080
+isso está dentro da ferramenta,
+
+700
+00:18:53,440 --> 00:18:54,180
+dentro da ferramenta
+
+701
+00:18:54,180 --> 00:18:54,980
+a gente vai encontrar aqui,
+
+702
+00:18:55,060 --> 00:18:55,580
+CTR,
+
+703
+00:18:55,700 --> 00:18:56,620
+taxa de clique no link,
+
+704
+00:18:56,920 --> 00:18:57,960
+então ele vai dizer aqui
+
+705
+00:18:57,960 --> 00:19:00,040
+qual que é o nosso CTR,
+
+706
+00:19:00,140 --> 00:19:00,760
+então a gente tem
+
+707
+00:19:00,760 --> 00:19:01,820
+dois tipos de cliques,
+
+708
+00:19:02,560 --> 00:19:03,240
+normalmente,
+
+709
+00:19:03,520 --> 00:19:04,200
+quem está focando
+
+710
+00:19:04,200 --> 00:19:05,140
+em performance,
+
+711
+00:19:05,560 --> 00:19:06,680
+de como que o seu anúncio
+
+712
+00:19:06,680 --> 00:19:07,560
+está performando,
+
+713
+00:19:07,840 --> 00:19:08,260
+para as pessoas
+
+714
+00:19:08,260 --> 00:19:09,160
+clicarem nele
+
+715
+00:19:09,160 --> 00:19:10,360
+e irem até o seu site,
+
+716
+00:19:10,780 --> 00:19:12,200
+as métricas de link,
+
+717
+00:19:12,420 --> 00:19:13,020
+vão ser melhores
+
+718
+00:19:13,020 --> 00:19:13,720
+do que todos.
+
+719
+00:19:15,180 --> 00:19:16,000
+A gente também
+
+720
+00:19:16,000 --> 00:19:16,780
+tem as métricas
+
+721
+00:19:16,780 --> 00:19:18,060
+de visualização
+
+722
+00:19:18,060 --> 00:19:19,260
+e taxa de visualização,
+
+723
+00:19:19,600 --> 00:19:20,700
+aqui a gente está falando
+
+724
+00:19:20,700 --> 00:19:22,060
+de vídeo,
+
+725
+00:19:22,420 --> 00:19:23,060
+que é
+
+726
+00:19:23,060 --> 00:19:24,260
+quantas pessoas
+
+727
+00:19:24,260 --> 00:19:25,340
+visualizaram
+
+728
+00:19:25,340 --> 00:19:25,980
+o seu vídeo
+
+729
+00:19:25,980 --> 00:19:27,700
+e qual que é a taxa
+
+730
+00:19:27,700 --> 00:19:28,080
+de pessoas
+
+731
+00:19:28,080 --> 00:19:28,860
+que está visualizando.
+
+732
+00:19:28,860 --> 00:19:30,080
+a taxa de pessoas
+
+733
+00:19:30,080 --> 00:19:30,980
+é igual ao CTR,
+
+734
+00:19:31,300 --> 00:19:32,220
+ela é uma relação
+
+735
+00:19:32,220 --> 00:19:33,600
+entre impressões
+
+736
+00:19:33,600 --> 00:19:34,000
+e,
+
+737
+00:19:34,260 --> 00:19:34,940
+vou até botar aqui,
+
+738
+00:19:35,460 --> 00:19:37,680
+taxa de,
+
+739
+00:19:37,700 --> 00:19:38,220
+eu vou botar,
+
+740
+00:19:38,460 --> 00:19:39,500
+TXVIL,
+
+741
+00:19:41,280 --> 00:19:41,560
+que é,
+
+742
+00:19:41,640 --> 00:19:42,320
+vou botar assim
+
+743
+00:19:42,320 --> 00:19:42,720
+que normalmente
+
+744
+00:19:42,720 --> 00:19:43,520
+a gente escreve assim,
+
+745
+00:19:43,920 --> 00:19:44,900
+taxa de visualização
+
+746
+00:19:44,900 --> 00:19:45,860
+é igual
+
+747
+00:19:45,860 --> 00:19:46,640
+ao número
+
+748
+00:19:46,640 --> 00:19:48,280
+de visualizações
+
+749
+00:19:48,280 --> 00:19:50,480
+dividido
+
+750
+00:19:50,480 --> 00:19:51,560
+pelas impressões,
+
+751
+00:19:51,660 --> 00:19:52,160
+ou seja,
+
+752
+00:19:52,820 --> 00:19:53,220
+o meu anúncio
+
+753
+00:19:53,220 --> 00:19:53,840
+está aparecendo
+
+754
+00:19:53,840 --> 00:19:54,480
+para as pessoas,
+
+755
+00:19:54,620 --> 00:19:55,160
+mas qual que é
+
+756
+00:19:55,160 --> 00:19:56,200
+a taxa de pessoas,
+
+757
+00:19:56,200 --> 00:19:56,700
+quantos,
+
+758
+00:19:56,780 --> 00:19:57,420
+quantos por cento
+
+759
+00:19:57,420 --> 00:19:57,840
+das pessoas
+
+760
+00:19:57,840 --> 00:19:58,920
+estão parando
+
+761
+00:19:58,920 --> 00:19:59,480
+para realmente
+
+762
+00:19:59,480 --> 00:20:00,760
+ver o meu vídeo,
+
+763
+00:20:01,020 --> 00:20:01,820
+essa é a métrica
+
+764
+00:20:01,820 --> 00:20:03,180
+de visualizações.
+
+765
+00:20:03,520 --> 00:20:04,380
+Seguidores e custo
+
+766
+00:20:04,380 --> 00:20:04,920
+por seguidor,
+
+767
+00:20:05,000 --> 00:20:05,700
+nem preciso falar,
+
+768
+00:20:05,860 --> 00:20:06,620
+é quantas pessoas
+
+769
+00:20:06,620 --> 00:20:07,420
+estão te seguindo
+
+770
+00:20:07,420 --> 00:20:08,400
+depois de verem
+
+771
+00:20:08,400 --> 00:20:08,960
+o seu anúncio
+
+772
+00:20:08,960 --> 00:20:09,980
+e quanto que está custando,
+
+773
+00:20:10,340 --> 00:20:11,320
+envolvimento e custo
+
+774
+00:20:11,320 --> 00:20:12,000
+por envolvimento,
+
+775
+00:20:12,100 --> 00:20:12,740
+mesma coisa,
+
+776
+00:20:13,060 --> 00:20:13,680
+e aí a gente tem
+
+777
+00:20:13,680 --> 00:20:15,400
+o CPV X%,
+
+778
+00:20:15,400 --> 00:20:16,940
+o que é o CPV?
+
+779
+00:20:17,240 --> 00:20:18,440
+CPV X%
+
+780
+00:20:18,440 --> 00:20:19,360
+é essa métrica aqui,
+
+781
+00:20:19,520 --> 00:20:20,600
+vídeo assistido
+
+782
+00:20:20,600 --> 00:20:22,000
+até 50,
+
+783
+00:20:22,100 --> 00:20:23,660
+75 e 100%
+
+784
+00:20:23,660 --> 00:20:25,080
+e no meta-edges
+
+785
+00:20:25,080 --> 00:20:26,180
+vai ser até 95%,
+
+786
+00:20:26,960 --> 00:20:28,120
+acho que tem
+
+787
+00:20:28,120 --> 00:20:28,980
+o 100% também
+
+788
+00:20:28,980 --> 00:20:29,380
+no meta,
+
+789
+00:20:29,500 --> 00:20:29,860
+que normalmente
+
+790
+00:20:29,860 --> 00:20:30,380
+é uma métrica
+
+791
+00:20:30,380 --> 00:20:31,260
+que eu não uso muito,
+
+792
+00:20:31,580 --> 00:20:32,540
+eu até tenho salvo
+
+793
+00:20:32,540 --> 00:20:33,180
+aqui nas colunas,
+
+794
+00:20:33,280 --> 00:20:33,940
+então é isso aí,
+
+795
+00:20:34,280 --> 00:20:36,200
+reprodução de 25%
+
+796
+00:20:36,200 --> 00:20:36,760
+do vídeo,
+
+797
+00:20:37,680 --> 00:20:38,760
+50%,
+
+798
+00:20:38,760 --> 00:20:40,140
+75 e 95,
+
+799
+00:20:40,440 --> 00:20:41,240
+isso exige
+
+800
+00:20:41,240 --> 00:20:41,940
+uma explicação
+
+801
+00:20:41,940 --> 00:20:42,700
+que até tem
+
+802
+00:20:42,700 --> 00:20:43,160
+uma pergunta
+
+803
+00:20:43,160 --> 00:20:44,180
+na prova de certificação
+
+804
+00:20:44,180 --> 00:20:45,020
+que fala sobre isso,
+
+805
+00:20:45,320 --> 00:20:46,220
+que é o seguinte,
+
+806
+00:20:46,380 --> 00:20:47,360
+muita gente confunde
+
+807
+00:20:47,360 --> 00:20:48,400
+essas visualizações,
+
+808
+00:20:48,800 --> 00:20:49,300
+pensa comigo,
+
+809
+00:20:49,460 --> 00:20:49,920
+eu tenho
+
+810
+00:20:49,920 --> 00:20:51,900
+um vídeo
+
+811
+00:20:51,900 --> 00:20:52,900
+de um minuto,
+
+812
+00:20:53,160 --> 00:20:53,360
+ok?
+
+813
+00:20:53,540 --> 00:20:54,300
+um vídeo de um minuto,
+
+814
+00:20:54,580 --> 00:20:55,120
+eu vou divulgar
+
+815
+00:20:55,120 --> 00:20:55,600
+esse vídeo,
+
+816
+00:20:55,600 --> 00:20:56,640
+quanto que é
+
+817
+00:20:56,640 --> 00:20:58,380
+25% de um minuto?
+
+818
+00:21:00,520 --> 00:21:02,260
+é 15 segundos,
+
+819
+00:21:03,220 --> 00:21:03,380
+tá?
+
+820
+00:21:03,660 --> 00:21:05,500
+50% de um minuto
+
+821
+00:21:05,500 --> 00:21:11,760
+é 30 segundos,
+
+822
+00:21:11,760 --> 00:21:14,280
+75% de um minuto
+
+823
+00:21:14,280 --> 00:21:17,460
+é 45 segundos,
+
+824
+00:21:17,460 --> 00:21:20,280
+e 95% de um minuto,
+
+825
+00:21:20,540 --> 00:21:22,120
+acho que é 58 segundos,
+
+826
+00:21:22,120 --> 00:21:23,980
+tá?
+
+827
+00:21:24,100 --> 00:21:24,660
+deixa eu fazer aqui,
+
+828
+00:21:24,720 --> 00:21:25,420
+60,
+
+829
+00:21:25,580 --> 00:21:27,540
+é 60 vezes 95%,
+
+830
+00:21:28,540 --> 00:21:29,680
+opa,
+
+831
+00:21:29,760 --> 00:21:30,820
+95%,
+
+832
+00:21:30,820 --> 00:21:31,320
+57,
+
+833
+00:21:31,320 --> 00:21:31,480
+57,
+
+834
+00:21:31,480 --> 00:21:31,500
+57,
+
+835
+00:21:31,500 --> 00:21:33,660
+57 segundos,
+
+836
+00:21:34,420 --> 00:21:34,600
+tá?
+
+837
+00:21:34,700 --> 00:21:34,880
+então,
+
+838
+00:21:35,300 --> 00:21:35,960
+isso daqui
+
+839
+00:21:35,960 --> 00:21:37,020
+é o tempo
+
+840
+00:21:37,020 --> 00:21:37,580
+dos vídeos,
+
+841
+00:21:37,860 --> 00:21:38,620
+se eu tenho
+
+842
+00:21:38,620 --> 00:21:38,920
+um vídeo
+
+843
+00:21:38,920 --> 00:21:39,440
+de um minuto,
+
+844
+00:21:39,560 --> 00:21:40,160
+e aí eu crio
+
+845
+00:21:40,160 --> 00:21:40,840
+o público de
+
+846
+00:21:40,840 --> 00:21:42,460
+CPV
+
+847
+00:21:42,460 --> 00:21:44,220
+25%,
+
+848
+00:21:44,220 --> 00:21:44,540
+tá?
+
+849
+00:21:44,820 --> 00:21:45,320
+ou seja,
+
+850
+00:21:45,460 --> 00:21:46,420
+o que é esse público
+
+851
+00:21:46,420 --> 00:21:46,700
+aqui?
+
+852
+00:21:47,020 --> 00:21:47,860
+são pessoas
+
+853
+00:21:47,860 --> 00:21:48,920
+que viram
+
+854
+00:21:48,920 --> 00:21:50,180
+pelo menos,
+
+855
+00:21:50,260 --> 00:21:50,900
+e essa é a palavra
+
+856
+00:21:50,900 --> 00:21:51,580
+mais importante
+
+857
+00:21:51,580 --> 00:21:52,020
+que as pessoas
+
+858
+00:21:52,020 --> 00:21:52,720
+se confundem,
+
+859
+00:21:53,100 --> 00:21:53,960
+pelo menos,
+
+860
+00:21:54,100 --> 00:21:54,800
+pelo menos,
+
+861
+00:21:54,800 --> 00:21:56,740
+25% do vídeo,
+
+862
+00:21:58,780 --> 00:21:59,240
+ou seja,
+
+863
+00:21:59,440 --> 00:22:00,580
+25%,
+
+864
+00:22:00,580 --> 00:22:02,920
+no caso do vídeo
+
+865
+00:22:02,920 --> 00:22:03,420
+de um minuto,
+
+866
+00:22:03,500 --> 00:22:04,260
+no caso do vídeo
+
+867
+00:22:04,260 --> 00:22:04,780
+de um minuto,
+
+868
+00:22:04,860 --> 00:22:04,980
+tá?
+
+869
+00:22:05,280 --> 00:22:05,880
+se for um vídeo
+
+870
+00:22:05,880 --> 00:22:06,660
+de 10 minutos,
+
+871
+00:22:06,780 --> 00:22:07,640
+esse valor vai mudar,
+
+872
+00:22:08,020 --> 00:22:08,760
+mas no caso
+
+873
+00:22:08,760 --> 00:22:09,100
+do vídeo
+
+874
+00:22:09,100 --> 00:22:09,720
+de um minuto,
+
+875
+00:22:11,700 --> 00:22:12,300
+que viram
+
+876
+00:22:12,300 --> 00:22:12,980
+pelo menos
+
+877
+00:22:12,980 --> 00:22:14,360
+15 segundos
+
+878
+00:22:14,360 --> 00:22:16,580
+do vídeo,
+
+879
+00:22:16,680 --> 00:22:17,040
+ou seja,
+
+880
+00:22:17,160 --> 00:22:17,520
+que viram
+
+881
+00:22:17,520 --> 00:22:18,820
+pelo menos 25%,
+
+882
+00:22:18,820 --> 00:22:19,460
+que no caso
+
+883
+00:22:19,460 --> 00:22:19,740
+do vídeo
+
+884
+00:22:19,740 --> 00:22:20,200
+de um minuto
+
+885
+00:22:20,200 --> 00:22:21,760
+é 15% do vídeo,
+
+886
+00:22:21,880 --> 00:22:22,140
+ok?
+
+887
+00:22:22,380 --> 00:22:22,660
+ok,
+
+888
+00:22:23,620 --> 00:22:24,440
+o CPV
+
+889
+00:22:24,440 --> 00:22:25,640
+5,
+
+890
+00:22:25,740 --> 00:22:26,540
+eu vou colar
+
+891
+00:22:26,540 --> 00:22:27,760
+todos aqui
+
+892
+00:22:27,760 --> 00:22:28,160
+que vai ficar
+
+893
+00:22:28,160 --> 00:22:28,640
+mais fácil,
+
+894
+00:22:28,720 --> 00:22:28,800
+tá?
+
+895
+00:22:28,900 --> 00:22:29,480
+o CPV
+
+896
+00:22:29,480 --> 00:22:30,320
+50%,
+
+897
+00:22:30,320 --> 00:22:31,560
+75%,
+
+898
+00:22:31,560 --> 00:22:32,500
+mesma coisa,
+
+899
+00:22:32,600 --> 00:22:33,500
+e 95%,
+
+900
+00:22:33,500 --> 00:22:34,260
+agora eu só vou mudar
+
+901
+00:22:34,260 --> 00:22:35,780
+aqui as respectivas
+
+902
+00:22:35,780 --> 00:22:37,020
+porcentagens,
+
+903
+00:22:37,120 --> 00:22:37,220
+tá?
+
+904
+00:22:37,280 --> 00:22:38,040
+então aqui é pessoas
+
+905
+00:22:38,040 --> 00:22:38,420
+que viram
+
+906
+00:22:38,420 --> 00:22:39,880
+pelo menos 50%,
+
+907
+00:22:39,880 --> 00:22:40,660
+aqui as pessoas
+
+908
+00:22:40,660 --> 00:22:41,100
+que viram
+
+909
+00:22:41,100 --> 00:22:41,800
+pelo menos
+
+910
+00:22:41,800 --> 00:22:43,720
+75%,
+
+911
+00:22:43,720 --> 00:22:44,380
+e aqui as pessoas
+
+912
+00:22:44,380 --> 00:22:44,780
+que viram
+
+913
+00:22:44,780 --> 00:22:45,440
+pelo menos
+
+914
+00:22:45,440 --> 00:22:47,520
+90%,
+
+915
+00:22:47,520 --> 00:22:47,800
+opa,
+
+916
+00:22:48,600 --> 00:22:49,060
+que viram
+
+917
+00:22:49,060 --> 00:22:49,840
+pelo menos
+
+918
+00:22:49,840 --> 00:22:53,800
+95%,
+
+919
+00:22:53,800 --> 00:22:53,920
+tá?
+
+920
+00:22:53,920 --> 00:22:54,420
+então aqui
+
+921
+00:22:54,420 --> 00:22:54,860
+viram
+
+922
+00:22:54,860 --> 00:22:55,520
+30%,
+
+923
+00:22:55,520 --> 00:22:56,920
+45%,
+
+924
+00:22:56,920 --> 00:22:59,080
+57 segundos
+
+925
+00:22:59,080 --> 00:22:59,500
+do vídeo,
+
+926
+00:22:59,580 --> 00:22:59,900
+beleza?
+
+927
+00:23:00,500 --> 00:23:01,440
+Estamos entendidos,
+
+928
+00:23:01,520 --> 00:23:01,980
+mais uma vez,
+
+929
+00:23:02,020 --> 00:23:02,900
+isso aqui vai ser uma questão,
+
+930
+00:23:02,960 --> 00:23:03,540
+vai ter uma questão
+
+931
+00:23:03,540 --> 00:23:04,320
+sobre isso na prova
+
+932
+00:23:04,320 --> 00:23:05,060
+de certificação,
+
+933
+00:23:05,580 --> 00:23:06,680
+tem muita gente
+
+934
+00:23:06,680 --> 00:23:07,580
+que erra por uma questão
+
+935
+00:23:07,580 --> 00:23:08,120
+e muita gente
+
+936
+00:23:08,120 --> 00:23:08,960
+erra essa questão,
+
+937
+00:23:09,380 --> 00:23:09,520
+tá?
+
+938
+00:23:09,760 --> 00:23:10,200
+então eu tenho
+
+939
+00:23:10,200 --> 00:23:10,860
+o vídeo de um minuto,
+
+940
+00:23:10,960 --> 00:23:12,000
+essas daqui são as informações
+
+941
+00:23:12,000 --> 00:23:12,800
+que a gente já colheu
+
+942
+00:23:12,800 --> 00:23:13,180
+até aqui,
+
+943
+00:23:13,600 --> 00:23:14,260
+vamos dizer
+
+944
+00:23:14,260 --> 00:23:15,860
+que eu divulguei
+
+945
+00:23:15,860 --> 00:23:16,180
+esse vídeo
+
+946
+00:23:16,180 --> 00:23:16,680
+de um minuto,
+
+947
+00:23:17,220 --> 00:23:18,160
+quais são as possíveis
+
+948
+00:23:18,160 --> 00:23:19,040
+métricas que podem
+
+949
+00:23:19,040 --> 00:23:19,440
+aparecer?
+
+950
+00:23:19,440 --> 00:23:20,680
+aí eu vou ver
+
+951
+00:23:20,680 --> 00:23:22,320
+que mil pessoas
+
+952
+00:23:22,320 --> 00:23:23,300
+viram
+
+953
+00:23:23,300 --> 00:23:23,940
+até
+
+954
+00:23:23,940 --> 00:23:25,720
+15 segundos,
+
+955
+00:23:26,200 --> 00:23:26,340
+tá?
+
+956
+00:23:26,480 --> 00:23:27,100
+Mil pessoas
+
+957
+00:23:27,100 --> 00:23:28,280
+passaram,
+
+958
+00:23:28,420 --> 00:23:28,780
+é que assim,
+
+959
+00:23:28,840 --> 00:23:29,780
+mil pessoas
+
+960
+00:23:29,780 --> 00:23:30,880
+viram pelo menos
+
+961
+00:23:30,880 --> 00:23:33,180
+15 segundos,
+
+962
+00:23:33,440 --> 00:23:34,100
+então as pessoas
+
+963
+00:23:34,100 --> 00:23:34,940
+passaram
+
+964
+00:23:34,940 --> 00:23:35,940
+pelos 15 segundos,
+
+965
+00:23:36,440 --> 00:23:37,500
+dessas mil pessoas,
+
+966
+00:23:37,600 --> 00:23:38,040
+não é que são
+
+967
+00:23:38,040 --> 00:23:38,980
+novas pessoas,
+
+968
+00:23:39,280 --> 00:23:40,200
+as pessoas passaram
+
+969
+00:23:40,200 --> 00:23:41,180
+pelos 15 segundos,
+
+970
+00:23:41,780 --> 00:23:42,920
+algumas pessoas
+
+971
+00:23:42,920 --> 00:23:43,900
+abandonaram
+
+972
+00:23:43,900 --> 00:23:44,920
+no segundo 17,
+
+973
+00:23:45,440 --> 00:23:45,560
+tá?
+
+974
+00:23:45,560 --> 00:23:46,760
+200 pessoas
+
+975
+00:23:46,760 --> 00:23:47,280
+abandonaram
+
+976
+00:23:47,280 --> 00:23:48,220
+no segundo 17,
+
+977
+00:23:48,420 --> 00:23:49,220
+a pessoa parou,
+
+978
+00:23:49,280 --> 00:23:49,800
+ela perdeu
+
+979
+00:23:49,800 --> 00:23:50,420
+o interesse no vídeo,
+
+980
+00:23:50,700 --> 00:23:51,360
+mas algumas
+
+981
+00:23:51,360 --> 00:23:52,400
+dessas mil pessoas
+
+982
+00:23:52,400 --> 00:23:53,260
+seguiram vendo
+
+983
+00:23:53,260 --> 00:23:53,620
+o vídeo,
+
+984
+00:23:53,940 --> 00:23:55,340
+e aí dessas mil pessoas,
+
+985
+00:23:55,820 --> 00:23:57,360
+600 pessoas
+
+986
+00:23:57,360 --> 00:24:00,020
+viram pelo menos
+
+987
+00:24:00,020 --> 00:24:02,260
+30 segundos,
+
+988
+00:24:02,500 --> 00:24:03,100
+não é que são
+
+989
+00:24:03,100 --> 00:24:04,380
+outras 600 pessoas,
+
+990
+00:24:04,520 --> 00:24:05,860
+essas 600 pessoas,
+
+991
+00:24:06,120 --> 00:24:06,960
+elas estão dentro
+
+992
+00:24:06,960 --> 00:24:07,700
+dessas mil pessoas,
+
+993
+00:24:07,800 --> 00:24:08,420
+porque mil pessoas
+
+994
+00:24:08,420 --> 00:24:09,400
+viram 15 segundos,
+
+995
+00:24:09,500 --> 00:24:09,860
+aí beleza,
+
+996
+00:24:10,200 --> 00:24:10,940
+umas enjoaram,
+
+997
+00:24:11,040 --> 00:24:11,480
+foram embora
+
+998
+00:24:11,480 --> 00:24:11,920
+e algumas
+
+999
+00:24:11,920 --> 00:24:12,700
+seguiram vendo,
+
+1000
+00:24:13,300 --> 00:24:13,420
+tá?
+
+1001
+00:24:13,640 --> 00:24:14,600
+E das que seguiram
+
+1002
+00:24:14,600 --> 00:24:14,880
+vendo,
+
+1003
+00:24:14,880 --> 00:24:16,420
+600 pessoas
+
+1004
+00:24:16,420 --> 00:24:17,060
+viram pelo menos
+
+1005
+00:24:17,060 --> 00:24:17,900
+30 segundos,
+
+1006
+00:24:18,800 --> 00:24:19,920
+dessas 600 pessoas
+
+1007
+00:24:19,920 --> 00:24:20,540
+que viram pelo menos
+
+1008
+00:24:20,540 --> 00:24:21,260
+30 segundos,
+
+1009
+00:24:21,420 --> 00:24:22,500
+algumas foram embora,
+
+1010
+00:24:22,940 --> 00:24:23,980
+outras seguiram vendo,
+
+1011
+00:24:24,320 --> 00:24:25,820
+400 pessoas
+
+1012
+00:24:25,820 --> 00:24:29,620
+viram pelo menos
+
+1013
+00:24:29,620 --> 00:24:31,340
+45 segundos,
+
+1014
+00:24:31,840 --> 00:24:32,760
+não é que as pessoas
+
+1015
+00:24:32,760 --> 00:24:34,460
+viram só 45 segundos,
+
+1016
+00:24:34,580 --> 00:24:34,660
+não,
+
+1017
+00:24:35,020 --> 00:24:35,660
+pelo menos,
+
+1018
+00:24:36,120 --> 00:24:36,680
+pelo menos,
+
+1019
+00:24:36,780 --> 00:24:37,320
+porque algumas
+
+1020
+00:24:37,320 --> 00:24:38,640
+podem ter visto 46,
+
+1021
+00:24:39,480 --> 00:24:40,760
+algumas podem ter visto,
+
+1022
+00:24:41,320 --> 00:24:41,560
+entendeu?
+
+1023
+00:24:41,840 --> 00:24:42,920
+Algumas podem ter visto 47,
+
+1024
+00:24:43,280 --> 00:24:43,840
+mas 40,
+
+1025
+00:24:43,840 --> 00:24:44,640
+400 pessoas
+
+1026
+00:24:44,640 --> 00:24:45,320
+viram pelo menos
+
+1027
+00:24:45,320 --> 00:24:46,380
+45 segundos,
+
+1028
+00:24:46,380 --> 00:24:47,120
+e aí,
+
+1029
+00:24:47,580 --> 00:24:48,080
+no final,
+
+1030
+00:24:48,580 --> 00:24:49,620
+280,
+
+1031
+00:24:49,960 --> 00:24:50,760
+200 pessoas,
+
+1032
+00:24:50,820 --> 00:24:51,720
+vou pegar uma matemática
+
+1033
+00:24:51,720 --> 00:24:52,640
+mais simples aqui,
+
+1034
+00:24:53,060 --> 00:24:54,240
+viram pelo menos
+
+1035
+00:24:54,240 --> 00:24:56,660
+57 segundos,
+
+1036
+00:24:56,820 --> 00:24:58,260
+onde que as pessoas erram?
+
+1037
+00:24:58,380 --> 00:24:59,280
+Elas não entendem
+
+1038
+00:24:59,280 --> 00:25:00,460
+que essas 200 pessoas
+
+1039
+00:25:00,460 --> 00:25:01,960
+que viram 57 segundos,
+
+1040
+00:25:02,300 --> 00:25:03,060
+elas também
+
+1041
+00:25:03,060 --> 00:25:04,580
+viram pelo menos 15,
+
+1042
+00:25:04,820 --> 00:25:05,380
+porque pro cara
+
+1043
+00:25:05,380 --> 00:25:06,680
+chegar no minuto 57,
+
+1044
+00:25:06,980 --> 00:25:07,600
+pro cara chegar lá
+
+1045
+00:25:07,600 --> 00:25:08,460
+no minuto 57,
+
+1046
+00:25:08,940 --> 00:25:10,000
+ele tem que ter assistido
+
+1047
+00:25:10,000 --> 00:25:10,900
+os primeiros 15,
+
+1048
+00:25:10,900 --> 00:25:11,560
+então ele,
+
+1049
+00:25:11,700 --> 00:25:12,120
+no minuto,
+
+1050
+00:25:12,200 --> 00:25:13,140
+no segundo 57,
+
+1051
+00:25:13,640 --> 00:25:14,560
+ele tem que ter passado
+
+1052
+00:25:14,560 --> 00:25:15,600
+pelo segundo 15,
+
+1053
+00:25:15,920 --> 00:25:16,160
+então,
+
+1054
+00:25:16,400 --> 00:25:17,820
+essas 200 pessoas
+
+1055
+00:25:17,820 --> 00:25:18,520
+que estão aqui dentro,
+
+1056
+00:25:18,600 --> 00:25:19,460
+elas estão dentro
+
+1057
+00:25:19,460 --> 00:25:20,380
+desse público aqui,
+
+1058
+00:25:20,920 --> 00:25:21,060
+tá?
+
+1059
+00:25:21,180 --> 00:25:21,360
+Então,
+
+1060
+00:25:21,460 --> 00:25:22,020
+quando eu faço
+
+1061
+00:25:22,020 --> 00:25:22,920
+o público de
+
+1062
+00:25:22,920 --> 00:25:25,100
+CPV 25%,
+
+1063
+00:25:25,100 --> 00:25:26,220
+esse público aqui,
+
+1064
+00:25:26,540 --> 00:25:27,340
+e aqui eu vou fazer,
+
+1065
+00:25:27,440 --> 00:25:27,820
+anunciar,
+
+1066
+00:25:27,880 --> 00:25:28,220
+por exemplo,
+
+1067
+00:25:28,340 --> 00:25:29,520
+pra mil pessoas,
+
+1068
+00:25:30,160 --> 00:25:31,040
+dentro do público
+
+1069
+00:25:31,040 --> 00:25:32,620
+do CPV 25%,
+
+1070
+00:25:32,620 --> 00:25:35,480
+estão as 200 pessoas
+
+1071
+00:25:35,480 --> 00:25:36,760
+que viram o vídeo
+
+1072
+00:25:36,760 --> 00:25:37,280
+até o final,
+
+1073
+00:25:37,620 --> 00:25:38,600
+mas eu posso escolher
+
+1074
+00:25:38,600 --> 00:25:39,440
+não anunciar
+
+1075
+00:25:39,440 --> 00:25:40,400
+pra esse público aqui,
+
+1076
+00:25:40,780 --> 00:25:41,420
+eu posso escolher
+
+1077
+00:25:41,420 --> 00:25:42,420
+anunciar só pra quem
+
+1078
+00:25:42,420 --> 00:25:43,060
+viu até o final,
+
+1079
+00:25:43,380 --> 00:25:44,040
+aí você vai me dizer assim,
+
+1080
+00:25:44,100 --> 00:25:44,280
+Pedro,
+
+1081
+00:25:44,360 --> 00:25:45,360
+o que vai valer mais a pena?
+
+1082
+00:25:45,440 --> 00:25:46,380
+Vai depender de caso
+
+1083
+00:25:46,380 --> 00:25:46,920
+pra caso,
+
+1084
+00:25:47,340 --> 00:25:47,480
+tá?
+
+1085
+00:25:48,100 --> 00:25:48,460
+Normalmente,
+
+1086
+00:25:48,520 --> 00:25:49,680
+a gente não vai pegar
+
+1087
+00:25:49,680 --> 00:25:50,440
+o de 95,
+
+1088
+00:25:51,060 --> 00:25:51,380
+por quê?
+
+1089
+00:25:51,580 --> 00:25:52,080
+Porque vai pegar
+
+1090
+00:25:52,080 --> 00:25:53,240
+um público muito pequeno,
+
+1091
+00:25:53,680 --> 00:25:54,260
+porque o cara
+
+1092
+00:25:54,260 --> 00:25:55,500
+que viu 45 segundos,
+
+1093
+00:25:55,620 --> 00:25:56,680
+ele já é qualificado,
+
+1094
+00:25:56,980 --> 00:25:58,080
+e aí se eu focar
+
+1095
+00:25:58,080 --> 00:25:58,800
+só em anunciar
+
+1096
+00:25:58,800 --> 00:26:00,420
+pra quem viu 95%,
+
+1097
+00:26:00,420 --> 00:26:01,580
+eu tô perdendo
+
+1098
+00:26:01,580 --> 00:26:02,880
+aqui 200 pessoas,
+
+1099
+00:26:03,740 --> 00:26:04,960
+porque tem 200 pessoas
+
+1100
+00:26:04,960 --> 00:26:05,820
+que viram pelo menos
+
+1101
+00:26:05,820 --> 00:26:06,380
+45,
+
+1102
+00:26:06,600 --> 00:26:07,660
+mas que não chegaram
+
+1103
+00:26:07,660 --> 00:26:08,660
+aqui no 57,
+
+1104
+00:26:08,960 --> 00:26:09,600
+mas elas viram
+
+1105
+00:26:09,600 --> 00:26:10,280
+a maior parte
+
+1106
+00:26:10,280 --> 00:26:10,840
+do meu vídeo,
+
+1107
+00:26:11,100 --> 00:26:11,840
+elas passaram
+
+1108
+00:26:11,840 --> 00:26:12,460
+da metade,
+
+1109
+00:26:12,820 --> 00:26:12,960
+tá?
+
+1110
+00:26:13,180 --> 00:26:13,420
+Então,
+
+1111
+00:26:13,480 --> 00:26:15,400
+o CPV X%
+
+1112
+00:26:15,400 --> 00:26:17,120
+ele mede
+
+1113
+00:26:17,120 --> 00:26:17,880
+o número
+
+1114
+00:26:17,880 --> 00:26:18,700
+de pessoas
+
+1115
+00:26:18,700 --> 00:26:21,440
+que passou
+
+1116
+00:26:21,440 --> 00:26:24,200
+por um determinado
+
+1117
+00:26:24,200 --> 00:26:24,800
+momento
+
+1118
+00:26:24,800 --> 00:26:26,480
+do vídeo,
+
+1119
+00:26:27,480 --> 00:26:27,660
+tá?
+
+1120
+00:26:27,800 --> 00:26:28,900
+Passou por um determinado
+
+1121
+00:26:28,900 --> 00:26:29,720
+momento do vídeo.
+
+1122
+00:26:30,080 --> 00:26:30,880
+Connect Rate,
+
+1123
+00:26:30,960 --> 00:26:32,040
+o que é o Connect Rate?
+
+1124
+00:26:32,460 --> 00:26:34,040
+É uma relação
+
+1125
+00:26:34,040 --> 00:26:34,900
+entre as pessoas
+
+1126
+00:26:34,900 --> 00:26:35,800
+que visualizaram
+
+1127
+00:26:35,800 --> 00:26:36,400
+a sua página
+
+1128
+00:26:36,400 --> 00:26:37,580
+e clicaram no link.
+
+1129
+00:26:37,900 --> 00:26:38,500
+Mais uma vez
+
+1130
+00:26:38,500 --> 00:26:39,100
+eu te expliquei,
+
+1131
+00:26:39,320 --> 00:26:39,840
+eu tô aqui,
+
+1132
+00:26:39,940 --> 00:26:40,400
+deixa eu abrir
+
+1133
+00:26:40,400 --> 00:26:41,680
+meu Facebook,
+
+1134
+00:26:42,040 --> 00:26:43,220
+tô aqui no Facebook,
+
+1135
+00:26:44,000 --> 00:26:45,360
+tô aqui olhando,
+
+1136
+00:26:45,480 --> 00:26:45,660
+aí ó,
+
+1137
+00:26:45,720 --> 00:26:46,240
+apareceu um anúncio
+
+1138
+00:26:46,240 --> 00:26:46,840
+do Google Ads
+
+1139
+00:26:46,840 --> 00:26:47,120
+pra mim,
+
+1140
+00:26:47,200 --> 00:26:47,620
+bom exemplo,
+
+1141
+00:26:47,940 --> 00:26:48,660
+apareceu um anúncio
+
+1142
+00:26:48,660 --> 00:26:49,340
+do Google Ads,
+
+1143
+00:26:50,140 --> 00:26:50,980
+isso daqui ó,
+
+1144
+00:26:51,080 --> 00:26:51,640
+se eu clicar
+
+1145
+00:26:51,640 --> 00:26:52,880
+na página do Google Ads,
+
+1146
+00:26:53,000 --> 00:26:53,700
+lembra dos cliques
+
+1147
+00:26:53,700 --> 00:26:54,340
+que eu falei pra você,
+
+1148
+00:26:54,420 --> 00:26:55,220
+eu acabei de clicar aqui
+
+1149
+00:26:55,220 --> 00:26:56,920
+abrindo uma nova aba,
+
+1150
+00:26:57,300 --> 00:26:58,100
+o Google Ads
+
+1151
+00:26:58,100 --> 00:26:58,720
+vai receber
+
+1152
+00:26:58,720 --> 00:26:59,900
+nas métricas dele lá
+
+1153
+00:26:59,900 --> 00:27:01,180
+que isso foi um clique,
+
+1154
+00:27:01,540 --> 00:27:01,640
+ó,
+
+1155
+00:27:01,700 --> 00:27:02,320
+isso é um clique,
+
+1156
+00:27:02,320 --> 00:27:04,180
+então isso aqui é um clique,
+
+1157
+00:27:04,420 --> 00:27:05,400
+mas não é um clique no link.
+
+1158
+00:27:05,740 --> 00:27:06,100
+Agora,
+
+1159
+00:27:06,380 --> 00:27:07,880
+eu posso fazer um clique
+
+1160
+00:27:07,880 --> 00:27:08,820
+no link no Google Ads,
+
+1161
+00:27:08,960 --> 00:27:09,380
+cliquei,
+
+1162
+00:27:09,460 --> 00:27:10,300
+mas a página demorou
+
+1163
+00:27:10,300 --> 00:27:10,780
+pra carregar,
+
+1164
+00:27:10,880 --> 00:27:11,300
+fechei,
+
+1165
+00:27:11,720 --> 00:27:12,040
+tá vendo?
+
+1166
+00:27:12,440 --> 00:27:12,920
+Cliquei,
+
+1167
+00:27:13,000 --> 00:27:13,940
+a página tá demorando,
+
+1168
+00:27:14,020 --> 00:27:14,220
+tchau,
+
+1169
+00:27:14,360 --> 00:27:14,780
+fechei,
+
+1170
+00:27:15,120 --> 00:27:16,080
+página nem carregou,
+
+1171
+00:27:16,160 --> 00:27:16,680
+eu já fechei.
+
+1172
+00:27:16,980 --> 00:27:17,800
+Isso vai contar
+
+1173
+00:27:17,800 --> 00:27:19,620
+como um clique no link,
+
+1174
+00:27:20,100 --> 00:27:21,320
+mas não vai contar
+
+1175
+00:27:21,320 --> 00:27:23,100
+como uma visualização
+
+1176
+00:27:23,100 --> 00:27:23,680
+na página.
+
+1177
+00:27:23,680 --> 00:27:25,080
+e o Connect Rate,
+
+1178
+00:27:25,240 --> 00:27:26,920
+ele mede o quanto
+
+1179
+00:27:26,920 --> 00:27:27,700
+que as pessoas estão
+
+1180
+00:27:27,700 --> 00:27:29,100
+realmente abrindo a sua página
+
+1181
+00:27:29,100 --> 00:27:30,280
+depois que elas clicaram.
+
+1182
+00:27:30,580 --> 00:27:31,300
+Ele é afetado
+
+1183
+00:27:31,300 --> 00:27:32,020
+pela velocidade
+
+1184
+00:27:32,020 --> 00:27:32,860
+do seu site,
+
+1185
+00:27:33,200 --> 00:27:33,300
+tá?
+
+1186
+00:27:33,380 --> 00:27:33,580
+Então,
+
+1187
+00:27:33,840 --> 00:27:34,560
+ele é calculado
+
+1188
+00:27:34,560 --> 00:27:35,580
+pelas visualizações
+
+1189
+00:27:35,580 --> 00:27:36,220
+na página
+
+1190
+00:27:36,220 --> 00:27:37,520
+dividido pelos
+
+1191
+00:27:37,520 --> 00:27:39,800
+cliques no link,
+
+1192
+00:27:40,140 --> 00:27:40,300
+tá?
+
+1193
+00:27:40,760 --> 00:27:41,960
+Sessões e CPS,
+
+1194
+00:27:42,340 --> 00:27:42,900
+isso aqui,
+
+1195
+00:27:43,000 --> 00:27:43,820
+normalmente a gente vai usar
+
+1196
+00:27:43,820 --> 00:27:44,980
+esses termos pra e-commerce,
+
+1197
+00:27:45,360 --> 00:27:45,520
+tá?
+
+1198
+00:27:45,680 --> 00:27:47,180
+São as pessoas que visitaram
+
+1199
+00:27:47,180 --> 00:27:48,700
+seu site,
+
+1200
+00:27:48,880 --> 00:27:49,560
+sua loja, né?
+
+1201
+00:27:49,680 --> 00:27:50,500
+Normalmente a gente usa
+
+1202
+00:27:50,500 --> 00:27:51,020
+pra e-commerce,
+
+1203
+00:27:51,360 --> 00:27:51,920
+sua loja.
+
+1204
+00:27:51,920 --> 00:27:53,160
+cada sessão é quando
+
+1205
+00:27:53,160 --> 00:27:53,920
+a pessoa visitou
+
+1206
+00:27:53,920 --> 00:27:54,400
+o seu site.
+
+1207
+00:27:54,520 --> 00:27:55,780
+CPS é quanto que custou
+
+1208
+00:27:55,780 --> 00:27:56,580
+pra pessoa visitar
+
+1209
+00:27:56,580 --> 00:27:57,200
+o seu site.
+
+1210
+00:27:57,680 --> 00:27:58,500
+ADD to Cart,
+
+1211
+00:27:58,680 --> 00:27:59,800
+custo pra ADD to Cart,
+
+1212
+00:27:59,960 --> 00:28:01,020
+eu usei o nome em inglês
+
+1213
+00:28:01,020 --> 00:28:01,840
+aqui, mas é as adições
+
+1214
+00:28:01,840 --> 00:28:02,400
+ao carrinho,
+
+1215
+00:28:02,680 --> 00:28:03,780
+é que adições ao carrinho
+
+1216
+00:28:03,780 --> 00:28:04,640
+fica muito grande,
+
+1217
+00:28:04,720 --> 00:28:04,820
+tá?
+
+1218
+00:28:05,180 --> 00:28:05,980
+É quanto que tá,
+
+1219
+00:28:06,200 --> 00:28:06,900
+quantas pessoas estão
+
+1220
+00:28:06,900 --> 00:28:07,640
+adicionando o produto
+
+1221
+00:28:07,640 --> 00:28:08,720
+no carrinho e quanto
+
+1222
+00:28:08,720 --> 00:28:09,460
+que tá custando.
+
+1223
+00:28:09,920 --> 00:28:10,780
+Initiate Checkout,
+
+1224
+00:28:10,940 --> 00:28:12,580
+custo por Initiate Checkout,
+
+1225
+00:28:12,900 --> 00:28:14,240
+é o início da finalização
+
+1226
+00:28:14,240 --> 00:28:14,780
+de compra,
+
+1227
+00:28:14,880 --> 00:28:15,880
+é a pessoa que tá começando
+
+1228
+00:28:15,880 --> 00:28:17,200
+a finalizar a compra dela,
+
+1229
+00:28:17,580 --> 00:28:17,680
+tá?
+
+1230
+00:28:17,700 --> 00:28:18,540
+É o Initiate Checkout,
+
+1231
+00:28:18,620 --> 00:28:19,160
+é a pessoa que tá lá
+
+1232
+00:28:19,160 --> 00:28:20,240
+nos finalmentes pra comprar
+
+1233
+00:28:20,240 --> 00:28:20,680
+de você,
+
+1234
+00:28:20,680 --> 00:28:22,120
+tá colocando as informações
+
+1235
+00:28:22,120 --> 00:28:22,880
+de pagamento.
+
+1236
+00:28:23,440 --> 00:28:23,940
+Compras,
+
+1237
+00:28:24,020 --> 00:28:24,740
+opa,
+
+1238
+00:28:26,060 --> 00:28:26,560
+compras,
+
+1239
+00:28:26,760 --> 00:28:27,140
+CPA,
+
+1240
+00:28:27,620 --> 00:28:28,880
+eu fiz um negócio
+
+1241
+00:28:28,880 --> 00:28:29,440
+aqui sem querer,
+
+1242
+00:28:29,960 --> 00:28:30,480
+compras,
+
+1243
+00:28:30,700 --> 00:28:32,360
+CPA e valor de compras
+
+1244
+00:28:32,360 --> 00:28:33,580
+são as pessoas
+
+1245
+00:28:33,580 --> 00:28:35,440
+que compraram de você,
+
+1246
+00:28:35,660 --> 00:28:36,720
+quanto que tá custando
+
+1247
+00:28:36,720 --> 00:28:37,860
+cada uma dessa compra
+
+1248
+00:28:37,860 --> 00:28:39,540
+e valor de compras
+
+1249
+00:28:39,540 --> 00:28:40,440
+é quanto que essa pessoa
+
+1250
+00:28:40,440 --> 00:28:41,840
+gastou de dinheiro com você,
+
+1251
+00:28:42,320 --> 00:28:42,480
+tá?
+
+1252
+00:28:42,900 --> 00:28:44,200
+Taxa de conversão de lista
+
+1253
+00:28:44,200 --> 00:28:45,660
+e taxa de conversão do site,
+
+1254
+00:28:46,100 --> 00:28:47,940
+é quantos por cento
+
+1255
+00:28:47,940 --> 00:28:49,640
+das pessoas que você tem,
+
+1256
+00:28:49,640 --> 00:28:50,260
+por exemplo,
+
+1257
+00:28:50,400 --> 00:28:51,700
+captei mil leads,
+
+1258
+00:28:52,220 --> 00:28:53,780
+quantos desses mil leads
+
+1259
+00:28:53,780 --> 00:28:54,460
+compraram?
+
+1260
+00:28:54,540 --> 00:28:54,640
+Ah,
+
+1261
+00:28:54,920 --> 00:28:56,320
+cem leads compraram,
+
+1262
+00:28:56,360 --> 00:28:57,440
+então você captou mil leads
+
+1263
+00:28:57,440 --> 00:28:58,280
+e dos mil leads,
+
+1264
+00:28:58,620 --> 00:28:59,960
+cem leads compraram,
+
+1265
+00:29:00,220 --> 00:29:01,700
+você tem uma taxa de conversão
+
+1266
+00:29:01,700 --> 00:29:02,220
+da sua lista
+
+1267
+00:29:02,220 --> 00:29:03,220
+de 10%,
+
+1268
+00:29:03,220 --> 00:29:03,660
+tá?
+
+1269
+00:29:04,540 --> 00:29:05,840
+Então é o número de compras
+
+1270
+00:29:05,840 --> 00:29:07,100
+dividido pelo número de leads
+
+1271
+00:29:07,100 --> 00:29:08,840
+e a taxa de conversão do site,
+
+1272
+00:29:08,940 --> 00:29:09,940
+a gente vai usar isso muito
+
+1273
+00:29:09,940 --> 00:29:10,580
+pra e-commerce,
+
+1274
+00:29:11,080 --> 00:29:11,640
+que é justamente,
+
+1275
+00:29:12,760 --> 00:29:14,000
+é o número de compras
+
+1276
+00:29:14,000 --> 00:29:15,660
+dividido pelo número de acessos,
+
+1277
+00:29:15,940 --> 00:29:16,060
+tá?
+
+1278
+00:29:16,060 --> 00:29:17,220
+A gente também pode ter
+
+1279
+00:29:17,220 --> 00:29:18,140
+taxa de conversão,
+
+1280
+00:29:18,180 --> 00:29:19,220
+vou até adicionar mais um aqui,
+
+1281
+00:29:19,300 --> 00:29:19,360
+ó,
+
+1282
+00:29:19,500 --> 00:29:22,040
+a gente pode ter a taxa de conversão
+
+1283
+00:29:22,040 --> 00:29:24,420
+de mensagens,
+
+1284
+00:29:24,780 --> 00:29:24,980
+tá?
+
+1285
+00:29:25,240 --> 00:29:25,720
+Então é,
+
+1286
+00:29:26,100 --> 00:29:27,180
+quantas mensagens
+
+1287
+00:29:27,180 --> 00:29:28,580
+eu precisei
+
+1288
+00:29:28,580 --> 00:29:31,600
+pra ter uma compra,
+
+1289
+00:29:32,140 --> 00:29:32,300
+tá?
+
+1290
+00:29:32,400 --> 00:29:33,540
+Isso é a taxa de conversão
+
+1291
+00:29:33,540 --> 00:29:34,040
+do site,
+
+1292
+00:29:34,500 --> 00:29:35,820
+taxa de conversão de lista
+
+1293
+00:29:35,820 --> 00:29:36,660
+e taxa de conversão
+
+1294
+00:29:36,660 --> 00:29:37,360
+de mensagens.
+
+1295
+00:29:38,640 --> 00:29:39,640
+Quantas mensagens,
+
+1296
+00:29:39,880 --> 00:29:40,720
+quantos acessos
+
+1297
+00:29:40,720 --> 00:29:42,000
+no meu site eu precisei
+
+1298
+00:29:42,000 --> 00:29:43,200
+pra realizar
+
+1299
+00:29:43,200 --> 00:29:44,760
+uma determinada compra,
+
+1300
+00:29:45,140 --> 00:29:45,280
+tá?
+
+1301
+00:29:45,620 --> 00:29:46,600
+ROE e ROAS,
+
+1302
+00:29:46,640 --> 00:29:47,840
+a gente já falou sobre eles,
+
+1303
+00:29:48,140 --> 00:29:49,300
+são as métricas de
+
+1304
+00:29:49,300 --> 00:29:51,820
+retorno de investimento.
+
+1305
+00:29:51,940 --> 00:29:52,380
+O ROE
+
+1306
+00:29:52,380 --> 00:29:53,220
+é o retorno
+
+1307
+00:29:53,220 --> 00:29:54,360
+no investimento total
+
+1308
+00:29:54,360 --> 00:29:54,960
+e o ROAS
+
+1309
+00:29:54,960 --> 00:29:55,940
+é dos anúncios online.
+
+1310
+00:29:56,280 --> 00:29:57,780
+Até coloquei as fórmulas aqui,
+
+1311
+00:29:57,920 --> 00:29:58,640
+muito importante,
+
+1312
+00:29:58,780 --> 00:29:58,860
+tá?
+
+1313
+00:29:59,120 --> 00:30:00,040
+Não quero dar spoiler,
+
+1314
+00:30:00,160 --> 00:30:00,780
+mas tem uma questão
+
+1315
+00:30:00,780 --> 00:30:01,520
+sobre isso também
+
+1316
+00:30:01,520 --> 00:30:04,540
+lá na nossa certificação.
+
+1317
+00:30:04,840 --> 00:30:05,260
+O ROE,
+
+1318
+00:30:05,340 --> 00:30:06,140
+mais de uma na verdade,
+
+1319
+00:30:06,440 --> 00:30:06,940
+o ROE
+
+1320
+00:30:06,940 --> 00:30:08,840
+é o faturamento,
+
+1321
+00:30:09,280 --> 00:30:09,400
+tá?
+
+1322
+00:30:09,480 --> 00:30:10,760
+Então quanto de dinheiro
+
+1323
+00:30:10,760 --> 00:30:11,720
+eu ganhei no total,
+
+1324
+00:30:11,720 --> 00:30:12,540
+quanto de dinheiro
+
+1325
+00:30:12,540 --> 00:30:13,980
+eu fiz de vendas
+
+1326
+00:30:13,980 --> 00:30:15,760
+menos o custo total,
+
+1327
+00:30:16,160 --> 00:30:16,260
+tá?
+
+1328
+00:30:16,300 --> 00:30:17,560
+Então todos os meus custos
+
+1329
+00:30:17,560 --> 00:30:18,580
+diminuem o faturamento
+
+1330
+00:30:18,580 --> 00:30:20,220
+dividido pelo custo total
+
+1331
+00:30:20,220 --> 00:30:20,780
+vezes 100.
+
+1332
+00:30:21,160 --> 00:30:22,040
+E o ROAS,
+
+1333
+00:30:22,380 --> 00:30:23,280
+diferente do ROE,
+
+1334
+00:30:23,400 --> 00:30:24,640
+ele é o faturamento,
+
+1335
+00:30:25,040 --> 00:30:26,260
+mas aqui a gente não vai
+
+1336
+00:30:26,260 --> 00:30:27,320
+diminuir dele
+
+1337
+00:30:27,320 --> 00:30:28,080
+o custo total,
+
+1338
+00:30:28,440 --> 00:30:28,540
+tá?
+
+1339
+00:30:28,580 --> 00:30:29,860
+Ele é só o faturamento
+
+1340
+00:30:29,860 --> 00:30:31,860
+dividido pelo valor gasto
+
+1341
+00:30:31,860 --> 00:30:32,320
+em anúncios
+
+1342
+00:30:32,320 --> 00:30:32,880
+vezes 100,
+
+1343
+00:30:33,320 --> 00:30:33,480
+tá?
+
+1344
+00:30:33,640 --> 00:30:34,180
+Aqui, ó,
+
+1345
+00:30:34,300 --> 00:30:35,200
+é o valor gasto
+
+1346
+00:30:35,200 --> 00:30:35,780
+em anúncios,
+
+1347
+00:30:35,920 --> 00:30:36,020
+tá?
+
+1348
+00:30:36,120 --> 00:30:37,260
+Aqui é o custo total,
+
+1349
+00:30:37,400 --> 00:30:38,360
+quanto que custou tudo,
+
+1350
+00:30:38,360 --> 00:30:39,820
+quanto que você está gastando
+
+1351
+00:30:39,820 --> 00:30:40,340
+de dinheiro
+
+1352
+00:30:40,340 --> 00:30:41,240
+vezes 100,
+
+1353
+00:30:41,400 --> 00:30:41,500
+tá?
+
+1354
+00:30:41,500 --> 00:30:42,260
+Essa é a diferença
+
+1355
+00:30:42,260 --> 00:30:43,240
+entre ROE e ROAS.
+
+1356
+00:30:43,540 --> 00:30:45,260
+O ROAS considera o faturamento
+
+1357
+00:30:45,260 --> 00:30:46,100
+e o valor gasto
+
+1358
+00:30:46,100 --> 00:30:46,620
+em anúncios.
+
+1359
+00:30:47,000 --> 00:30:48,700
+O ROE considera o lucro,
+
+1360
+00:30:48,780 --> 00:30:48,900
+né?
+
+1361
+00:30:48,900 --> 00:30:49,760
+Porque o faturamento
+
+1362
+00:30:49,760 --> 00:30:50,740
+menos o custo total
+
+1363
+00:30:50,740 --> 00:30:51,220
+é lucro.
+
+1364
+00:30:51,540 --> 00:30:52,100
+Isso é o lucro,
+
+1365
+00:30:52,180 --> 00:30:52,460
+quanto que,
+
+1366
+00:30:52,600 --> 00:30:53,020
+quanto de dinheiro
+
+1367
+00:30:53,020 --> 00:30:53,440
+eu lucrei,
+
+1368
+00:30:53,900 --> 00:30:54,040
+tá?
+
+1369
+00:30:54,300 --> 00:30:55,820
+Depois que eu ganhei dinheiro,
+
+1370
+00:30:56,160 --> 00:30:56,900
+quanto que eu gastei
+
+1371
+00:30:56,900 --> 00:30:57,780
+para fazer esse dinheiro?
+
+1372
+00:30:57,940 --> 00:30:58,840
+Diminui um pelo outro
+
+1373
+00:30:58,840 --> 00:30:59,260
+é o lucro,
+
+1374
+00:30:59,360 --> 00:30:59,940
+quanto que lucrou
+
+1375
+00:30:59,940 --> 00:31:02,080
+dividido pelo custo total,
+
+1376
+00:31:02,400 --> 00:31:03,720
+a gente é vezes 100,
+
+1377
+00:31:03,880 --> 00:31:04,000
+tá?
+
+1378
+00:31:04,080 --> 00:31:04,860
+Mas eu vou deixar aqui
+
+1379
+00:31:04,860 --> 00:31:05,840
+a fórmula do lucro
+
+1380
+00:31:05,840 --> 00:31:06,880
+que é o faturamento
+
+1381
+00:31:06,880 --> 00:31:07,560
+menos custo.
+
+1382
+00:31:07,820 --> 00:31:08,960
+Isso daqui é o lucro,
+
+1383
+00:31:09,080 --> 00:31:09,120
+tá?
+
+1384
+00:31:09,120 --> 00:31:10,400
+Faturamento menos custo
+
+1385
+00:31:10,400 --> 00:31:12,060
+dividido por custo total
+
+1386
+00:31:12,060 --> 00:31:13,880
+vezes 100,
+
+1387
+00:31:13,980 --> 00:31:15,080
+porque é uma porcentagem,
+
+1388
+00:31:15,380 --> 00:31:16,760
+a gente vai ter o nosso ROE.
+
+1389
+00:31:16,980 --> 00:31:18,000
+E o ticket médio,
+
+1390
+00:31:18,040 --> 00:31:18,540
+a gente já falou
+
+1391
+00:31:18,540 --> 00:31:19,220
+sobre ele também,
+
+1392
+00:31:19,580 --> 00:31:20,320
+ticket médio
+
+1393
+00:31:20,320 --> 00:31:21,580
+nada mais é
+
+1394
+00:31:21,580 --> 00:31:22,280
+do que
+
+1395
+00:31:22,280 --> 00:31:24,300
+o valor em compras
+
+1396
+00:31:24,300 --> 00:31:27,300
+dividido pelo número
+
+1397
+00:31:27,300 --> 00:31:27,880
+de compras.
+
+1398
+00:31:27,880 --> 00:31:30,020
+que eu vou descobrir
+
+1399
+00:31:30,020 --> 00:31:30,240
+o que?
+
+1400
+00:31:30,440 --> 00:31:31,320
+Quanto em média
+
+1401
+00:31:31,320 --> 00:31:32,060
+os meus clientes
+
+1402
+00:31:32,060 --> 00:31:32,820
+gastam comigo.
+
+1403
+00:31:33,140 --> 00:31:33,660
+Isso daqui é
+
+1404
+00:31:33,660 --> 00:31:34,780
+absolutamente importante
+
+1405
+00:31:34,780 --> 00:31:36,000
+para todo tipo
+
+1406
+00:31:36,000 --> 00:31:36,460
+de negócio
+
+1407
+00:31:36,460 --> 00:31:37,100
+que vende mais
+
+1408
+00:31:37,100 --> 00:31:37,600
+de um produto,
+
+1409
+00:31:38,060 --> 00:31:39,080
+para um negócio local,
+
+1410
+00:31:39,360 --> 00:31:40,180
+para um e-commerce,
+
+1411
+00:31:40,680 --> 00:31:41,260
+todos eles
+
+1412
+00:31:41,260 --> 00:31:42,100
+têm que ao máximo
+
+1413
+00:31:42,100 --> 00:31:42,820
+tentar aumentar
+
+1414
+00:31:42,820 --> 00:31:44,160
+o seu ticket médio,
+
+1415
+00:31:44,240 --> 00:31:44,940
+porque quanto maior
+
+1416
+00:31:44,940 --> 00:31:45,680
+o meu ticket médio,
+
+1417
+00:31:45,760 --> 00:31:46,500
+mais dinheiro está entrando
+
+1418
+00:31:46,500 --> 00:31:47,160
+no meu bolso,
+
+1419
+00:31:47,440 --> 00:31:47,580
+tá?
+
+1420
+00:31:47,860 --> 00:31:48,220
+Pedro,
+
+1421
+00:31:48,320 --> 00:31:49,160
+essas são as únicas
+
+1422
+00:31:49,160 --> 00:31:50,140
+métricas que existem?
+
+1423
+00:31:50,340 --> 00:31:50,760
+Não.
+
+1424
+00:31:51,140 --> 00:31:52,080
+Você vai decorar
+
+1425
+00:31:52,080 --> 00:31:52,660
+todas elas,
+
+1426
+00:31:52,760 --> 00:31:53,820
+como calcular todas elas
+
+1427
+00:31:53,820 --> 00:31:54,200
+agora?
+
+1428
+00:31:54,420 --> 00:31:54,820
+Não.
+
+1429
+00:31:55,120 --> 00:31:55,700
+É uma questão
+
+1430
+00:31:55,700 --> 00:31:57,000
+de campo de batalha.
+
+1431
+00:31:57,000 --> 00:31:57,600
+Mais uma vez,
+
+1432
+00:31:57,920 --> 00:31:58,760
+cada vez a gente
+
+1433
+00:31:58,760 --> 00:32:00,300
+vai ter mais e mais
+
+1434
+00:32:00,300 --> 00:32:01,720
+contato com as nossas
+
+1435
+00:32:01,720 --> 00:32:02,280
+métricas,
+
+1436
+00:32:02,360 --> 00:32:03,200
+cada vez a gente vai ter
+
+1437
+00:32:03,200 --> 00:32:04,340
+mais e mais contato
+
+1438
+00:32:04,340 --> 00:32:05,200
+com os nossos dados,
+
+1439
+00:32:05,300 --> 00:32:06,280
+mas é importante agora
+
+1440
+00:32:06,280 --> 00:32:07,080
+que você já ouviu
+
+1441
+00:32:07,080 --> 00:32:07,740
+falar sobre elas,
+
+1442
+00:32:08,040 --> 00:32:08,720
+você já entende
+
+1443
+00:32:08,720 --> 00:32:09,380
+o que elas são,
+
+1444
+00:32:09,700 --> 00:32:11,260
+como elas se comportam,
+
+1445
+00:32:11,340 --> 00:32:11,940
+qual é a diferença
+
+1446
+00:32:11,940 --> 00:32:13,020
+entre as principais.
+
+1447
+00:32:13,380 --> 00:32:14,160
+Toda vez que você tiver
+
+1448
+00:32:14,160 --> 00:32:14,660
+alguma dúvida,
+
+1449
+00:32:14,760 --> 00:32:15,440
+o que você pode fazer?
+
+1450
+00:32:15,580 --> 00:32:15,960
+Primeiro,
+
+1451
+00:32:16,240 --> 00:32:16,800
+você pode voltar
+
+1452
+00:32:16,800 --> 00:32:17,340
+nessa aula.
+
+1453
+00:32:17,620 --> 00:32:17,980
+Segundo,
+
+1454
+00:32:18,060 --> 00:32:19,180
+você pode dar um Google
+
+1455
+00:32:19,180 --> 00:32:19,880
+para pesquisar,
+
+1456
+00:32:19,960 --> 00:32:20,820
+pesquisa o que é.
+
+1457
+00:32:21,120 --> 00:32:21,780
+E terceiro,
+
+1458
+00:32:22,160 --> 00:32:22,860
+vem aqui no seu
+
+1459
+00:32:22,860 --> 00:32:23,900
+gerenciador de anúncios,
+
+1460
+00:32:24,260 --> 00:32:25,260
+vai nas suas colunas
+
+1461
+00:32:25,260 --> 00:32:26,560
+e bota o mouse
+
+1462
+00:32:26,560 --> 00:32:27,580
+em cima das métricas
+
+1463
+00:32:27,580 --> 00:32:28,880
+que tem a explicação
+
+1464
+00:32:28,880 --> 00:32:30,300
+de cada uma delas.
+
+1465
+00:32:30,380 --> 00:32:30,680
+E aí,
+
+1466
+00:32:31,000 --> 00:32:31,440
+terceiro,
+
+1467
+00:32:31,500 --> 00:32:32,440
+fiquei com dúvida,
+
+1468
+00:32:32,520 --> 00:32:32,860
+meu Deus,
+
+1469
+00:32:32,940 --> 00:32:33,560
+acho que é o terceiro
+
+1470
+00:32:33,560 --> 00:32:33,880
+ou o quarto,
+
+1471
+00:32:34,160 --> 00:32:34,520
+não sei,
+
+1472
+00:32:34,840 --> 00:32:35,520
+próxima opção,
+
+1473
+00:32:35,860 --> 00:32:36,760
+fiquei com dúvida,
+
+1474
+00:32:37,260 --> 00:32:39,060
+mas não faz a pergunta
+
+1475
+00:32:39,060 --> 00:32:39,840
+sem pesquisar.
+
+1476
+00:32:40,180 --> 00:32:40,880
+Ficou com dúvida?
+
+1477
+00:32:41,080 --> 00:32:42,060
+Publica na comunidade
+
+1478
+00:32:42,060 --> 00:32:42,460
+Sobral,
+
+1479
+00:32:42,720 --> 00:32:43,520
+na comunidade Subido
+
+1480
+00:32:43,520 --> 00:32:43,980
+de Tráfego,
+
+1481
+00:32:44,060 --> 00:32:44,740
+a galera está lá
+
+1482
+00:32:44,740 --> 00:32:45,440
+para te ajudar,
+
+1483
+00:32:45,800 --> 00:32:46,260
+eles estão lá
+
+1484
+00:32:46,260 --> 00:32:46,740
+para te ajudar
+
+1485
+00:32:46,740 --> 00:32:47,720
+se você fez
+
+1486
+00:32:47,720 --> 00:32:48,620
+o seu dever de casa.
+
+1487
+00:32:48,960 --> 00:32:49,720
+Faz o seu post lá
+
+1488
+00:32:49,720 --> 00:32:50,180
+que o pessoal
+
+1489
+00:32:50,180 --> 00:32:51,020
+vai ter o maior prazer
+
+1490
+00:32:51,020 --> 00:32:51,580
+do mundo
+
+1491
+00:32:51,580 --> 00:32:52,800
+em ajudar você.
+
+1492
+00:32:52,800 --> 00:32:53,620
+Então,
+
+1493
+00:32:53,880 --> 00:32:54,660
+essa foi a nossa aula
+
+1494
+00:32:54,660 --> 00:32:55,340
+sobre métricas,
+
+1495
+00:32:55,440 --> 00:32:56,340
+não esqueça que temos
+
+1496
+00:32:56,340 --> 00:32:57,320
+dois tipos de métricas,
+
+1497
+00:32:57,380 --> 00:32:58,780
+as principais e as secundárias,
+
+1498
+00:32:59,160 --> 00:33:00,160
+e vai depender do quê?
+
+1499
+00:33:00,400 --> 00:33:01,560
+Vai depender do seu objetivo
+
+1500
+00:33:01,560 --> 00:33:03,100
+e do que você consegue medir.
+
+1501
+00:33:03,420 --> 00:33:03,620
+Agora,
+
+1502
+00:33:03,740 --> 00:33:05,100
+quais são as possíveis métricas?
+
+1503
+00:33:05,320 --> 00:33:06,540
+São essas que eu coloquei aqui.
+
+1504
+00:33:06,660 --> 00:33:07,400
+Tem mais do que essas?
+
+1505
+00:33:07,660 --> 00:33:07,980
+Tem,
+
+1506
+00:33:08,240 --> 00:33:08,900
+mas essas daqui
+
+1507
+00:33:08,900 --> 00:33:09,740
+são as principais
+
+1508
+00:33:09,740 --> 00:33:10,620
+que todo mundo
+
+1509
+00:33:10,620 --> 00:33:12,000
+deve saber o que elas são
+
+1510
+00:33:12,000 --> 00:33:13,080
+e como elas funcionam.
+
+1511
+00:33:13,340 --> 00:33:13,560
+Tá bom?
+
+1512
+00:33:13,780 --> 00:33:14,440
+Tamo junto agora
+
+1513
+00:33:14,440 --> 00:33:15,500
+e a gente se vê na próxima aula.
+
+1514
+00:33:15,500 --> 00:33:20,520
+E aí

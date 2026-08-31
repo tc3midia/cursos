@@ -1,0 +1,2211 @@
+1
+00:00:00,000 --> 00:00:09,900
+Uma vez que seu pixel foi devidamente criado e instalado no seu site, ele deve aparecer para você neste formato.
+
+2
+00:00:09,900 --> 00:00:13,800
+Ou seja, o pixel maroto que a gente criou anteriormente, ele está aqui.
+
+3
+00:00:13,800 --> 00:00:25,000
+Eu consigo configurar ele através da API de conversões e configurar ele no pixel da meta daquela maneira que eu falei para você, adicionando manualmente código no site ou usando a integração de parceiros.
+
+4
+00:00:25,000 --> 00:00:30,000
+Esse pixel pode ter sido criado aqui ao conectar uma fonte de dados.
+
+5
+00:00:30,200 --> 00:00:40,800
+E aí, lembra, ele vai chamar o pixel de fonte de dados ou de conjunto de dados, criar um novo conjunto de dados, porque é um novo nome que eles estão dando para o pixel, porque é conjunto de dados.
+
+6
+00:00:41,000 --> 00:00:46,100
+Então, eu posso criar o pixel por aqui, mas eu também posso criar o pixel através do meu...
+
+7
+00:00:46,100 --> 00:00:47,100
+Pera aí, deixa eu abrir aqui.
+
+8
+00:00:47,100 --> 00:00:52,200
+Eu consigo também criar o pixel através da minha BM, do meu gerenciador de negócios.
+
+9
+00:00:52,200 --> 00:00:58,400
+Então, no meu gerenciador de negócios, aqui em fonte de dados, pixel, eu também consigo criar o pixel por aqui.
+
+10
+00:00:58,400 --> 00:01:07,200
+Se eu crio ele por aqui, eu tenho que dar acesso a ele para determinadas pessoas e para determinados ativos, contas de anúncio.
+
+11
+00:01:07,200 --> 00:01:08,800
+Então, é por aqui que eu crio o pixel.
+
+12
+00:01:08,800 --> 00:01:11,600
+Uma vez que ele está criado, eu tenho que configurar ele.
+
+13
+00:01:11,600 --> 00:01:13,800
+E aí, eu vou configurar ele no meu site.
+
+14
+00:01:13,800 --> 00:01:17,800
+Depois que eu configurá-lo, ele deve aparecer assim para mim.
+
+15
+00:01:17,800 --> 00:01:20,800
+Eu já devo ter atividades, a tela vai mudar.
+
+16
+00:01:20,800 --> 00:01:23,000
+Não vai mais ser essa tela aqui, vai ser essa daqui.
+
+17
+00:01:23,000 --> 00:01:24,800
+Esse aqui é um pixel configurado.
+
+18
+00:01:24,800 --> 00:01:29,800
+Como que você faz para saber se o seu pixel está devidamente instalado no seu site?
+
+19
+00:01:29,800 --> 00:01:35,800
+Você vai baixar um plugin, que é esse daqui, que é o Metapixel Helper.
+
+20
+00:01:35,800 --> 00:01:39,800
+Metapixel Helper, você vai procurar no Google Metapixel Helper.
+
+21
+00:01:39,800 --> 00:01:42,000
+Vai clicar no primeiro link que vai aparecer.
+
+22
+00:01:42,000 --> 00:01:45,400
+E aqui eu vou instalar ele no meu navegador.
+
+23
+00:01:45,400 --> 00:01:55,400
+Instalado ele no meu navegador, em todo site que eu entrar, eu consigo clicar no Metapixel Helper e eu consigo ver o que está instalado aqui no meu site.
+
+24
+00:01:55,400 --> 00:01:59,400
+Qual pixel que está instalado e quais eventos estão instalados.
+
+25
+00:01:59,400 --> 00:02:01,400
+Pedro, como assim quais eventos?
+
+26
+00:02:01,400 --> 00:02:03,400
+Eu já vou te explicar o que é isso.
+
+27
+00:02:03,400 --> 00:02:05,400
+Mas, por hora, o que você tem que saber?
+
+28
+00:02:05,400 --> 00:02:07,400
+Vem comigo aqui na informação essencial.
+
+29
+00:02:07,400 --> 00:02:10,400
+Essencial, você sabe instalar o seu pixel.
+
+30
+00:02:10,400 --> 00:02:15,400
+Você sabe achar o CPF, o RG do seu pixel, o número de identificação dele.
+
+31
+00:02:15,400 --> 00:02:19,400
+Então, você sabe encontrar esse número de identificação e você instalou ele no seu site.
+
+32
+00:02:19,400 --> 00:02:23,400
+Entrou no seu site, viu que ele está devidamente instalado aqui?
+
+33
+00:02:23,400 --> 00:02:25,400
+Qual que é o próximo passo?
+
+34
+00:02:25,400 --> 00:02:31,400
+Próximo passo é a gente aprender a configurar eventos no nosso pixel.
+
+35
+00:02:31,400 --> 00:02:32,400
+Pedro, o que são os eventos?
+
+36
+00:02:32,400 --> 00:02:33,400
+É o seguinte.
+
+37
+00:02:33,400 --> 00:02:37,400
+Evento é qualquer ação que a pessoa realizou no seu site.
+
+38
+00:02:37,400 --> 00:02:45,400
+Então, se a pessoa vem aqui, aperta, bota o e-mail dela aqui, por exemplo, e aperta fazer meu cadastro, isso daqui é um evento.
+
+39
+00:02:45,400 --> 00:02:55,400
+Se a pessoa vem na loja de subido e ela visita um produto, ela adiciona o produto no carrinho, isso daqui é um evento.
+
+40
+00:02:55,400 --> 00:02:59,400
+Se a pessoa inicia a compra dela aqui, isso aqui é outro evento.
+
+41
+00:02:59,400 --> 00:03:02,400
+Um evento são as ações que a pessoa faz no meu site.
+
+42
+00:03:02,400 --> 00:03:10,400
+E eu tenho que, presta atenção nisso aqui, eu tenho que pedir para o Meta rastrear quais são esses eventos para mim.
+
+43
+00:03:10,400 --> 00:03:19,400
+Ou seja, eu tenho que pedir para o Meta, Meta, eu quero que você mapeie, traquear e mapear é a mesma coisa.
+
+44
+00:03:19,400 --> 00:03:20,400
+Mas eu vou pedir para a Meta.
+
+45
+00:03:20,400 --> 00:03:26,400
+Meta, eu quero que você mapeie as pessoas que realizarem determinadas ações no meu site.
+
+46
+00:03:26,400 --> 00:03:29,400
+Eu quero que você mapeie quem adicionar o produto no carrinho.
+
+47
+00:03:29,400 --> 00:03:33,400
+Eu quero que você mapeie quem iniciou o pagamento.
+
+48
+00:03:33,400 --> 00:03:35,400
+Eu quero que você mapeie quem comprou.
+
+49
+00:03:35,400 --> 00:03:37,400
+Eu quero que você mapeie quem se cadastrou.
+
+50
+00:03:37,400 --> 00:03:39,400
+Eu quero que você mapeie quem clicou num botão.
+
+51
+00:03:39,400 --> 00:03:44,400
+Eu quero que você mapeie quem pesquisou alguma coisa no meu site.
+
+52
+00:03:44,400 --> 00:03:48,400
+Eu quero que você mapeie quem cadastrou para uma aula.
+
+53
+00:03:48,400 --> 00:03:53,400
+Eu quero que você mapeie quem entrou numa página no meu site que falava sobre sapatos.
+
+54
+00:03:53,400 --> 00:04:02,400
+Eu quero que você mapeie todo mundo que foi até o meu site e visitou um produto feminino.
+
+55
+00:04:02,400 --> 00:04:07,400
+Então, eu vou pedir para o Meta mapear diferentes ações do usuário no meu site.
+
+56
+00:04:07,400 --> 00:04:10,400
+Qualquer ação eu posso pedir para ele mapear.
+
+57
+00:04:10,400 --> 00:04:13,400
+E tem três maneiras de a gente pedir para ele mapear isso para a gente.
+
+58
+00:04:13,400 --> 00:04:15,400
+São os eventos padrão.
+
+59
+00:04:18,400 --> 00:04:20,400
+Os eventos personalizados.
+
+60
+00:04:24,400 --> 00:04:26,400
+E tem as conversões personalizadas.
+
+61
+00:04:26,400 --> 00:04:32,400
+Qual que é a diferença?
+
+62
+00:04:32,400 --> 00:04:35,400
+Os três vão funcionar de maneira muito semelhante.
+
+63
+00:04:35,400 --> 00:04:37,400
+Para que eles servem?
+
+64
+00:04:37,400 --> 00:04:38,400
+Vamos começar por aí.
+
+65
+00:04:38,400 --> 00:04:39,400
+Para que serve o evento padrão?
+
+66
+00:04:39,400 --> 00:04:41,400
+Para que serve o evento personalizado?
+
+67
+00:04:41,400 --> 00:04:43,400
+Para que serve a conversão personalizada?
+
+68
+00:04:43,400 --> 00:04:46,400
+Evento padrão, evento personalizado e conversão personalizada.
+
+69
+00:04:46,400 --> 00:04:51,400
+Os três servem para eu otimizar a minha campanha.
+
+70
+00:04:51,400 --> 00:04:53,400
+Quando eu for criar a minha campanha.
+
+71
+00:04:53,400 --> 00:04:54,400
+Vou pegar aqui um exemplo.
+
+72
+00:04:54,400 --> 00:04:56,400
+Vou apertar aqui em criar campanha.
+
+73
+00:04:56,400 --> 00:04:57,400
+E aí, deixa eu...
+
+74
+00:04:57,400 --> 00:04:59,400
+Opa, peraí que estou no lugar errado.
+
+75
+00:04:59,400 --> 00:05:00,400
+Agora sim.
+
+76
+00:05:00,400 --> 00:05:01,400
+Deixa eu apagar essa daqui.
+
+77
+00:05:01,400 --> 00:05:02,400
+Deu.
+
+78
+00:05:02,400 --> 00:05:04,400
+Não vou te ensinar a criar campanha ainda.
+
+79
+00:05:04,400 --> 00:05:05,400
+É só um exemplo.
+
+80
+00:05:05,400 --> 00:05:07,400
+Quando você for criar a sua campanha.
+
+81
+00:05:07,400 --> 00:05:09,400
+Você vai selecionar algum dos objetivos.
+
+82
+00:05:09,400 --> 00:05:12,400
+Quando eu seleciono o objetivo de vendas ou de cadastros.
+
+83
+00:05:12,400 --> 00:05:13,400
+Vou usar o exemplo de vendas.
+
+84
+00:05:13,400 --> 00:05:15,400
+Quando eu seleciono o objetivo de vendas.
+
+85
+00:05:15,400 --> 00:05:20,400
+Vai chegar um determinado momento da minha campanha.
+
+86
+00:05:20,400 --> 00:05:24,400
+Que eu vou ter que escolher onde está a minha conversão.
+
+87
+00:05:24,400 --> 00:05:27,400
+A localização da minha conversão.
+
+88
+00:05:27,400 --> 00:05:28,400
+Então, eu vou dizer para a meta.
+
+89
+00:05:28,400 --> 00:05:30,400
+A conversão vai acontecer no meu site.
+
+90
+00:05:30,400 --> 00:05:31,400
+O que é conversão?
+
+91
+00:05:31,400 --> 00:05:34,400
+Isso aqui poderia chamar localização do evento.
+
+92
+00:05:34,400 --> 00:05:35,400
+O que é o evento?
+
+93
+00:05:35,400 --> 00:05:37,400
+Evento é uma ação que alguém fez no meu site.
+
+94
+00:05:37,400 --> 00:05:38,400
+O que é a conversão?
+
+95
+00:05:38,400 --> 00:05:40,400
+É uma ação que alguém fez no meu site.
+
+96
+00:05:40,400 --> 00:05:42,400
+Então, eu vou botar aqui localização da conversão.
+
+97
+00:05:42,400 --> 00:05:45,400
+Então, gere vendas ou conversões no seu site.
+
+98
+00:05:45,400 --> 00:05:48,400
+E aí, ele vai perguntar qual que é o pixel.
+
+99
+00:05:48,400 --> 00:05:49,400
+Eu vou escolher aqui o meu pixel.
+
+100
+00:05:49,400 --> 00:05:51,400
+Então, eu vou colocar aqui o pixel subido.
+
+101
+00:05:51,400 --> 00:05:52,400
+E aí, ele vai me perguntar o que?
+
+102
+00:05:52,400 --> 00:05:54,400
+O meu evento de conversão.
+
+103
+00:05:54,400 --> 00:05:56,400
+O que é o evento de conversão?
+
+104
+00:05:56,400 --> 00:05:57,400
+Ele vai dizer aqui.
+
+105
+00:05:57,400 --> 00:05:59,400
+É o resultado que eu estou buscando com essa campanha.
+
+106
+00:05:59,400 --> 00:06:00,400
+Então, ele vai dizer aqui.
+
+107
+00:06:00,400 --> 00:06:05,400
+Um evento de conversão é uma ação que você quer que as pessoas executem.
+
+108
+00:06:05,400 --> 00:06:06,400
+Quando elas verem os seus anúncios.
+
+109
+00:06:06,400 --> 00:06:08,400
+Então, é o que eu quero com essa campanha.
+
+110
+00:06:08,400 --> 00:06:11,400
+E como que eu crio um evento de conversão?
+
+111
+00:06:11,400 --> 00:06:14,400
+Um evento de conversão pode ser três coisas.
+
+112
+00:06:14,400 --> 00:06:17,400
+Um evento de conversão pode ser um evento padrão.
+
+113
+00:06:17,400 --> 00:06:18,400
+Ele pode ser um evento personalizado.
+
+114
+00:06:18,400 --> 00:06:20,400
+Ou uma conversão personalizada.
+
+115
+00:06:20,400 --> 00:06:25,400
+Então, para que servem os eventos padrão, evento personalizado e conversão personalizada?
+
+116
+00:06:25,400 --> 00:06:27,400
+Eles servem para duas coisas.
+
+117
+00:06:27,400 --> 00:06:31,400
+Primeiro, eles servem para que eu diga para a meta.
+
+118
+00:06:31,400 --> 00:06:32,400
+Para três coisas, desculpa.
+
+119
+00:06:32,400 --> 00:06:37,400
+Eles servem, primeiro, para que eu diga para a meta o que eu estou buscando com a minha campanha.
+
+120
+00:06:37,400 --> 00:06:39,400
+Essa é a primeira coisa.
+
+121
+00:06:39,400 --> 00:06:41,400
+Segunda coisa.
+
+122
+00:06:41,400 --> 00:06:45,400
+Ele serve para que eu consiga analisar esses dados nas minhas campanhas.
+
+123
+00:06:45,400 --> 00:06:47,400
+Então, se eu pegar as minhas campanhas aqui.
+
+124
+00:06:47,400 --> 00:06:50,400
+Por exemplo, eu tenho uma campanha aqui que eu estava vendendo o subido ao vivo.
+
+125
+00:06:54,400 --> 00:06:56,400
+Deixa eu pegar umas campanhas.
+
+126
+00:06:56,400 --> 00:06:57,400
+Estou pegando as campanhas aleatórias aqui.
+
+127
+00:06:57,400 --> 00:07:00,400
+Por exemplo, eu tenho campanha aqui que eu estava vendendo o subido ao vivo.
+
+128
+00:07:00,400 --> 00:07:02,400
+Um evento presencial.
+
+129
+00:07:02,400 --> 00:07:04,400
+Aí, eu tenho aqui o meu evento de conversão.
+
+130
+00:07:04,400 --> 00:07:05,400
+Purchase.
+
+131
+00:07:05,400 --> 00:07:06,400
+Purchase.
+
+132
+00:07:06,400 --> 00:07:07,400
+Purchase.
+
+133
+00:07:07,400 --> 00:07:08,400
+É compra, né?
+
+134
+00:07:08,400 --> 00:07:10,400
+Compra subido ao vivo 2023.
+
+135
+00:07:10,400 --> 00:07:15,400
+Então, quando eu crio um evento, quando eu crio ou um evento padrão, ou um evento personalizado,
+
+136
+00:07:15,400 --> 00:07:19,400
+ou uma conversão personalizada, primeiro, eu consigo dizer meta.
+
+137
+00:07:19,400 --> 00:07:21,400
+É isso daqui que eu estou buscando.
+
+138
+00:07:21,400 --> 00:07:24,400
+Eu estou buscando gente comprando o subido ao vivo 2023.
+
+139
+00:07:24,400 --> 00:07:25,400
+Isso aqui é uma campanha antiga, tá?
+
+140
+00:07:25,400 --> 00:07:27,400
+Mas eu consigo dizer isso para ele.
+
+141
+00:07:27,400 --> 00:07:32,400
+E além de dizer isso para ele, para ele buscar mais pessoas que vão comprar o subido ao vivo 2023,
+
+142
+00:07:32,400 --> 00:07:35,400
+eu consigo ler esses dados nas minhas campanhas.
+
+143
+00:07:35,400 --> 00:07:40,400
+Então, quando eu crio um evento padrão, um evento personalizado, ou uma conversão personalizada,
+
+144
+00:07:40,400 --> 00:07:42,400
+eu estou basicamente falando para a meta.
+
+145
+00:07:42,400 --> 00:07:44,400
+Meta, esse dado ele importa para mim.
+
+146
+00:07:44,400 --> 00:07:48,400
+Esse dado ele importa e eu quero que você mapeie ele para mim.
+
+147
+00:07:48,400 --> 00:07:50,400
+Eu quero que você mapeie esse evento.
+
+148
+00:07:50,400 --> 00:07:53,400
+Eu quero que você mapeie essa ação, tá?
+
+149
+00:07:53,400 --> 00:07:59,400
+Lembra que evento, ação e conversão é a mesma coisa.
+
+150
+00:07:59,400 --> 00:08:02,400
+Tá?
+
+151
+00:08:02,400 --> 00:08:03,400
+É a mesma coisa.
+
+152
+00:08:03,400 --> 00:08:04,400
+É a mesma coisa.
+
+153
+00:08:04,400 --> 00:08:06,400
+Evento, ação e conversão é a mesma coisa.
+
+154
+00:08:06,400 --> 00:08:13,400
+Então, quando isso aqui serve para eu pedir para a meta mapear uma determinada ação do usuário no meu site.
+
+155
+00:08:13,400 --> 00:08:16,400
+Só que para eu mapear isso, eu preciso do quê?
+
+156
+00:08:16,400 --> 00:08:17,400
+Do pixel instalado no meu site.
+
+157
+00:08:17,400 --> 00:08:20,400
+Por isso que na aula anterior a gente falou sobre pixel e API de conversões.
+
+158
+00:08:20,400 --> 00:08:24,400
+Então, quando eu tenho o pixel instalado no meu site, o próximo passo é o quê?
+
+159
+00:08:24,400 --> 00:08:26,400
+É definir meta.
+
+160
+00:08:26,400 --> 00:08:28,400
+O que eu quero que você mapeie?
+
+161
+00:08:28,400 --> 00:08:30,400
+Por que eu devo querer que a meta mapeie as coisas para mim?
+
+162
+00:08:30,400 --> 00:08:31,400
+Por três motivos.
+
+163
+00:08:31,400 --> 00:08:35,400
+Primeiro, porque quando eu for criar a minha campanha,
+
+164
+00:08:35,400 --> 00:08:39,400
+eu vou ter que dizer para o meta, eu estou buscando esse resultado.
+
+165
+00:08:39,400 --> 00:08:43,400
+Segundo, porque quando eu crio um evento padrão, um evento personalizado,
+
+166
+00:08:43,400 --> 00:08:50,400
+ou uma conversão personalizada, eu consigo visualizar esses dados no meu gerenciador de anúncios.
+
+167
+00:08:50,400 --> 00:08:52,400
+Eu consigo encontrar esses dados aqui, ó.
+
+168
+00:08:52,400 --> 00:08:53,400
+Nas minhas...
+
+169
+00:08:53,400 --> 00:08:57,400
+Não vou falar de colunas agora, mas eu consigo pegar as minhas colunas aqui.
+
+170
+00:08:57,400 --> 00:09:02,400
+E todos esses eventos que eu criei, que eu pedi para a meta mapear, eles vão estar aqui, ó.
+
+171
+00:09:02,400 --> 00:09:03,400
+Vai ter uma lista, ó.
+
+172
+00:09:03,400 --> 00:09:04,400
+Tudo isso aqui, ó.
+
+173
+00:09:04,400 --> 00:09:07,400
+Todos isso aqui são eventos que eu criei.
+
+174
+00:09:07,400 --> 00:09:09,400
+Coisas que eu pedi para a meta mapear para mim.
+
+175
+00:09:09,400 --> 00:09:13,400
+E eu consigo ver os dados deles de cada uma das minhas campanhas.
+
+176
+00:09:13,400 --> 00:09:15,400
+Tá, Pedro. E o terceiro motivo?
+
+177
+00:09:15,400 --> 00:09:17,400
+O terceiro motivo é para criar públicos.
+
+178
+00:09:17,400 --> 00:09:21,400
+Eu consigo criar públicos de quem fez determinados eventos padrão.
+
+179
+00:09:21,400 --> 00:09:25,400
+Eu consigo criar públicos de quem fez determinados eventos personalizados.
+
+180
+00:09:25,400 --> 00:09:29,400
+Mas nós não conseguimos criar públicos de conversões personalizadas.
+
+181
+00:09:31,400 --> 00:09:35,400
+Não dá para pegar uma conversão personalizada e criar um público com ela.
+
+182
+00:09:35,400 --> 00:09:37,400
+Tá? Não dá, tá? Simplesmente não dá.
+
+183
+00:09:37,400 --> 00:09:41,400
+Mas tem como. A gente consegue resolver isso, mas não dá para criar.
+
+184
+00:09:41,400 --> 00:09:43,400
+É isso que você tem que saber agora.
+
+185
+00:09:43,400 --> 00:09:47,400
+Então tem três motivos para eu criar o evento padrão, o evento personalizado com versão personalizada.
+
+186
+00:09:47,400 --> 00:09:49,400
+E os motivos são?
+
+187
+00:09:49,400 --> 00:09:51,400
+Quais? Responde para mim.
+
+188
+00:09:51,400 --> 00:09:53,400
+Primeiro motivo.
+
+189
+00:09:53,400 --> 00:09:55,400
+Otimizar as campanhas.
+
+190
+00:09:55,400 --> 00:09:57,400
+Dizer para a campanha o que eu estou buscando.
+
+191
+00:09:57,400 --> 00:09:59,400
+Segundo motivo, ler dados.
+
+192
+00:09:59,400 --> 00:10:01,400
+Terceiro motivo, criar públicos.
+
+193
+00:10:01,400 --> 00:10:03,400
+Só que isso eu só consigo fazer com esses dois primeiros.
+
+194
+00:10:03,400 --> 00:10:05,400
+Tá?
+
+195
+00:10:05,400 --> 00:10:06,400
+É isso, cara.
+
+196
+00:10:06,400 --> 00:10:08,400
+Isso aqui eu preciso que você entenda isso.
+
+197
+00:10:08,400 --> 00:10:09,400
+Isso aqui não.
+
+198
+00:10:09,400 --> 00:10:10,400
+Isso aqui tem que entender agora.
+
+199
+00:10:10,400 --> 00:10:11,400
+Acabou.
+
+200
+00:10:11,400 --> 00:10:12,400
+É o momento de entender isso.
+
+201
+00:10:12,400 --> 00:10:13,400
+É agora.
+
+202
+00:10:13,400 --> 00:10:14,400
+Agora.
+
+203
+00:10:14,400 --> 00:10:15,400
+Vamos lá.
+
+204
+00:10:15,400 --> 00:10:16,400
+Vamos para o próximo passo.
+
+205
+00:10:16,400 --> 00:10:17,400
+Eu vou complicar esse rolê agora.
+
+206
+00:10:17,400 --> 00:10:18,400
+Presta atenção aqui em mim.
+
+207
+00:10:18,400 --> 00:10:23,400
+Depois que o meu pixel está criado, depois que ele está instalado, ele vai aparecer assim para mim.
+
+208
+00:10:23,400 --> 00:10:30,400
+Como que a gente configura evento padrão, evento personalizado, conversão personalizada?
+
+209
+00:10:30,400 --> 00:10:32,400
+Vamos começar pelo mais fácil.
+
+210
+00:10:32,400 --> 00:10:33,400
+Tá?
+
+211
+00:10:33,400 --> 00:10:40,400
+Quando o seu pixel está instalado, ele vai aparecer assim para você, você vai apertar aqui em adicionar eventos.
+
+212
+00:10:40,400 --> 00:10:41,400
+Tá?
+
+213
+00:10:41,400 --> 00:10:42,400
+Detalhe.
+
+214
+00:10:42,400 --> 00:10:44,400
+Muito importante que você verifique...
+
+215
+00:10:46,400 --> 00:10:47,400
+Desculpa.
+
+216
+00:10:47,400 --> 00:10:58,400
+Muito importante que você verifique aqui nas configurações se a correspondência avançada está ativada e se o rastrear eventos automaticamente sem código está ativado.
+
+217
+00:10:58,400 --> 00:11:00,400
+Sempre mantenha esses dois ativados.
+
+218
+00:11:00,400 --> 00:11:01,400
+Verifique isso de novo.
+
+219
+00:11:02,400 --> 00:11:03,400
+Voltou aqui?
+
+220
+00:11:03,400 --> 00:11:04,400
+Então, o que a gente vai fazer?
+
+221
+00:11:04,400 --> 00:11:05,400
+Adicionar eventos.
+
+222
+00:11:05,400 --> 00:11:09,400
+Se eu quiser pegar o código do meu pixel de novo, ele está aqui.
+
+223
+00:11:09,400 --> 00:11:11,400
+Adicionar uma nova integração.
+
+224
+00:11:11,400 --> 00:11:13,400
+E aí eu tenho aqui o pixel da meta.
+
+225
+00:11:13,400 --> 00:11:14,400
+Vou apertar em configurar.
+
+226
+00:11:14,400 --> 00:11:20,400
+Eu posso adicionar o código manualmente, usar a integração de parceiros ou enviar as instruções por e-mail.
+
+227
+00:11:20,400 --> 00:11:22,400
+E aqui eu consigo pegar o código do meu pixel.
+
+228
+00:11:22,400 --> 00:11:23,400
+Copiar ele aqui.
+
+229
+00:11:24,400 --> 00:11:25,400
+Tá?
+
+230
+00:11:25,400 --> 00:11:28,400
+Então, eu consigo copiar ele aqui, apertar em continuar.
+
+231
+00:11:28,400 --> 00:11:30,400
+Deixo isso aqui sempre ativado.
+
+232
+00:11:30,400 --> 00:11:32,400
+Aperto em continuar.
+
+233
+00:11:32,400 --> 00:11:35,400
+E aí, eu posso...
+
+234
+00:11:35,400 --> 00:11:41,400
+Aqui eu já tenho o código do meu pixel e aí eu posso ir aqui para a visão geral dos eventos.
+
+235
+00:11:41,400 --> 00:11:42,400
+Tá?
+
+236
+00:11:42,400 --> 00:11:43,400
+Então, eu vou aqui para...
+
+237
+00:11:43,400 --> 00:11:44,400
+Opa!
+
+238
+00:11:44,400 --> 00:11:45,400
+Veio para o lugar errado.
+
+239
+00:11:45,400 --> 00:11:46,400
+Deu.
+
+240
+00:11:46,400 --> 00:11:47,400
+Agora sim.
+
+241
+00:11:47,400 --> 00:11:48,400
+Vem aqui para a visão geral dos eventos.
+
+242
+00:11:48,400 --> 00:11:49,400
+Que é essa tela aqui.
+
+243
+00:11:49,400 --> 00:11:51,400
+Então, ali eu pego o código do meu pixel.
+
+244
+00:11:51,400 --> 00:11:54,400
+Você tem que saber que é aqui que você pega o código do seu pixel.
+
+245
+00:11:54,400 --> 00:11:57,400
+Agora, além disso daqui, então aqui que eu pego o código.
+
+246
+00:11:57,400 --> 00:12:00,400
+Mas como que eu faço para solicitar determinadas informações?
+
+247
+00:12:00,400 --> 00:12:03,400
+Como que eu faço para criar uma conversão personalizada?
+
+248
+00:12:03,400 --> 00:12:06,400
+Como que eu faço para criar um evento personalizado e um evento padrão?
+
+249
+00:12:06,400 --> 00:12:07,400
+Conversão personalizada.
+
+250
+00:12:07,400 --> 00:12:09,400
+O mais simples de todos.
+
+251
+00:12:09,400 --> 00:12:10,400
+Passo número 1.
+
+252
+00:12:10,400 --> 00:12:11,400
+Pixel está instalado no meu site.
+
+253
+00:12:11,400 --> 00:12:12,400
+Passo número 2.
+
+254
+00:12:12,400 --> 00:12:13,400
+Vou apertar em adicionar eventos.
+
+255
+00:12:13,400 --> 00:12:15,400
+Conversão personalizada.
+
+256
+00:12:15,400 --> 00:12:17,400
+Aqui, eu vou dar um nome.
+
+257
+00:12:17,400 --> 00:12:19,400
+Um nome que eu vou identificar ela.
+
+258
+00:12:19,400 --> 00:12:24,400
+Por exemplo, um nome que eu coloquei ali para uma conversão personalizada minha foi aquela que eu te mostrei.
+
+259
+00:12:24,400 --> 00:12:28,400
+Era o Purchase Subido ao Vivo 2023.
+
+260
+00:12:28,400 --> 00:12:33,400
+Porque eu bato o olho nela e eu sei que isso daqui é quem comprou o Subido ao Vivo de 2023.
+
+261
+00:12:33,400 --> 00:12:35,400
+Mas eu posso chamar como eu quiser.
+
+262
+00:12:35,400 --> 00:12:38,400
+Eu posso chamar, por exemplo, do Cadastron nas Aulas.
+
+263
+00:12:38,400 --> 00:12:41,400
+E aí, eu vou botar aqui fonte de dados.
+
+264
+00:12:41,400 --> 00:12:42,400
+Eu vou escolher o pixel.
+
+265
+00:12:42,400 --> 00:12:44,400
+Fonte da ação é o site.
+
+266
+00:12:44,400 --> 00:12:46,400
+Todo o tráfego da URL.
+
+267
+00:12:46,400 --> 00:12:48,400
+Não vamos mexer agora aqui em evento.
+
+268
+00:12:48,400 --> 00:12:50,400
+Não tem sentido a gente falar disso.
+
+269
+00:12:50,400 --> 00:12:51,400
+E aí, eu vou fazer o quê?
+
+270
+00:12:51,400 --> 00:12:53,400
+Eu vou selecionar a minha regra.
+
+271
+00:12:53,400 --> 00:12:55,400
+E o que é a minha regra?
+
+272
+00:12:55,400 --> 00:12:58,400
+A minha regra é uma regra de URL.
+
+273
+00:12:58,400 --> 00:13:07,400
+Eu vou dizer, olha, a minha URL, ou seja, o link que a pessoa vai visitar, ele deve conter determinadas palavras.
+
+274
+00:13:07,400 --> 00:13:13,400
+Então, por exemplo, quem cadastra na minha aula ao vivo, a pessoa visitou essa página aqui.
+
+275
+00:13:13,400 --> 00:13:15,400
+www.pedrosobral.com.br
+
+276
+00:13:15,400 --> 00:13:17,400
+barra lives semanais, barra obrigado.
+
+277
+00:13:17,400 --> 00:13:18,400
+O que eu vou fazer?
+
+278
+00:13:18,400 --> 00:13:20,400
+Eu sempre vou tirar o https 2.
+
+279
+00:13:20,400 --> 00:13:22,400
+Barra, barra.
+
+280
+00:13:22,400 --> 00:13:27,400
+E aí, eu sei que quem visitou essa página, converteu.
+
+281
+00:13:27,400 --> 00:13:30,400
+Quem visitou essa página, cadastrou nas aulas.
+
+282
+00:13:30,400 --> 00:13:32,400
+Então, eu vou colocar essa URL aqui.
+
+283
+00:13:32,400 --> 00:13:34,400
+E aí, eu vou apertar em criar.
+
+284
+00:13:34,400 --> 00:13:38,400
+E agora, eu tenho criado a conversão de quem cadastrou nas minhas aulas.
+
+285
+00:13:38,400 --> 00:13:41,400
+Se a pessoa visitar essa página, ela cadastrou nas minhas aulas.
+
+286
+00:13:41,400 --> 00:13:43,400
+Eu posso ir mais longe.
+
+287
+00:13:43,400 --> 00:13:52,400
+Vamos dizer que todas as páginas de live, vamos dizer que eu divulgo um ebook, que eu divulgo tutoriais gratuitos, materiais pdfs.
+
+288
+00:13:52,400 --> 00:14:01,400
+Todas as páginas que eu divulgo e que a pessoa cadastra, ela cai numa página que o final é sempre barra obrigado.
+
+289
+00:14:01,400 --> 00:14:02,400
+Esse aqui é sempre o final.
+
+290
+00:14:02,400 --> 00:14:08,400
+Toda vez que alguém cai numa página minha que contém barra obrigado, é porque a pessoa cadastrou em alguma coisa.
+
+291
+00:14:08,400 --> 00:14:10,400
+Eu posso pegar o barra obrigado e posso falar pro meta.
+
+292
+00:14:10,400 --> 00:14:12,400
+Meta, olha o meta.
+
+293
+00:14:12,400 --> 00:14:13,400
+Tá aqui.
+
+294
+00:14:13,400 --> 00:14:15,400
+Cadastrou em alguma coisa.
+
+295
+00:14:15,400 --> 00:14:16,400
+Tá?
+
+296
+00:14:16,400 --> 00:14:17,400
+Então, eu posso chamar de lead.
+
+297
+00:14:17,400 --> 00:14:19,400
+Eu gosto sempre de deixar organizadinho.
+
+298
+00:14:19,400 --> 00:14:23,400
+Lead cadastrou em alguma coisa.
+
+299
+00:14:23,400 --> 00:14:25,400
+Posso botar esse nome.
+
+300
+00:14:25,400 --> 00:14:27,400
+E aí, eu crio.
+
+301
+00:14:27,400 --> 00:14:30,400
+Crio essa conversão personalizada.
+
+302
+00:14:30,400 --> 00:14:37,400
+Aí, quando eu for configurar minha campanha, deixa eu criar só um exemplo aqui.
+
+303
+00:14:37,400 --> 00:14:45,400
+Quando eu for criar minha campanha e chegar a hora de eu escolher minha conversão, ela vai tá aqui ó.
+
+304
+00:14:45,400 --> 00:14:46,400
+Vou buscar aqui.
+
+305
+00:14:46,400 --> 00:14:47,400
+Cadastrou.
+
+306
+00:14:47,400 --> 00:14:52,400
+Opa, peraí que eu vou ter que atualizar a tela aqui.
+
+307
+00:14:52,400 --> 00:14:54,400
+Como eu criei e vim direto pra cá, ele não apareceu.
+
+308
+00:14:54,400 --> 00:14:56,400
+Agora vai dar certo.
+
+309
+00:14:56,400 --> 00:14:58,400
+Ó, pixel, pixel subido.
+
+310
+00:14:58,400 --> 00:15:01,400
+Agora vai.
+
+311
+00:15:01,400 --> 00:15:03,400
+Cadastrou em alguma coisa.
+
+312
+00:15:03,400 --> 00:15:04,400
+E aí, eu tô dizendo pro meta.
+
+313
+00:15:04,400 --> 00:15:07,400
+Meta, busca pessoas que cadastrar em alguma coisa.
+
+314
+00:15:07,400 --> 00:15:08,400
+Tá?
+
+315
+00:15:08,400 --> 00:15:11,400
+Então, a conversão personalizada, ela é criada o quê?
+
+316
+00:15:11,400 --> 00:15:14,400
+Criada a partir de URL.
+
+317
+00:15:14,400 --> 00:15:24,400
+Agora, o evento padrão e o evento personalizado, eles são criados a partir da edição do código do pixel.
+
+318
+00:15:24,400 --> 00:15:25,400
+Ferrou, Pedro.
+
+319
+00:15:25,400 --> 00:15:26,400
+Ferrou geral.
+
+320
+00:15:26,400 --> 00:15:28,400
+Eu vou editar o código do pixel.
+
+321
+00:15:28,400 --> 00:15:29,400
+Tá maluco?
+
+322
+00:15:29,400 --> 00:15:30,400
+Eu não manjo nada de código.
+
+323
+00:15:30,400 --> 00:15:31,400
+Eu também não manjo.
+
+324
+00:15:31,400 --> 00:15:34,400
+Todo mundo que faz isso não manja de código.
+
+325
+00:15:34,400 --> 00:15:35,400
+Mas é simples.
+
+326
+00:15:35,400 --> 00:15:36,400
+O que você vai fazer?
+
+327
+00:15:36,400 --> 00:15:39,400
+Nós vamos pegar aqui, esse aqui é o código do seu pixel.
+
+328
+00:15:39,400 --> 00:15:41,400
+O que você consegue reconhecer aqui nesse código?
+
+329
+00:15:41,400 --> 00:15:46,400
+O que você consegue bater o olho e dizer, olha, eu conheço isso daqui do código.
+
+330
+00:15:46,400 --> 00:15:48,400
+Você conhece a identidade do pixel.
+
+331
+00:15:48,400 --> 00:15:49,400
+O numerozinho que tá aqui.
+
+332
+00:15:49,400 --> 00:15:51,400
+Isso eu bato o olho e entendo.
+
+333
+00:15:51,400 --> 00:15:54,400
+Agora, tem outra coisa que você tem que reconhecer aqui nesse pixel.
+
+334
+00:15:54,400 --> 00:15:55,400
+Nesse código.
+
+335
+00:15:55,400 --> 00:15:56,400
+Que é o quê?
+
+336
+00:15:56,400 --> 00:15:59,400
+Embaixo da identidade, nós temos o evento.
+
+337
+00:15:59,400 --> 00:16:01,400
+Isso é um evento.
+
+338
+00:16:01,400 --> 00:16:03,400
+É o evento page view.
+
+339
+00:16:03,400 --> 00:16:04,400
+Vou botar de verde aqui.
+
+340
+00:16:04,400 --> 00:16:06,400
+É o evento page view.
+
+341
+00:16:06,400 --> 00:16:09,400
+Isso daqui é um evento page view.
+
+342
+00:16:09,400 --> 00:16:11,400
+É a pessoa que visualizou a página.
+
+343
+00:16:11,400 --> 00:16:12,400
+Mas o que acontece?
+
+344
+00:16:12,400 --> 00:16:15,400
+O meta, ele tem uma lista de eventos.
+
+345
+00:16:15,400 --> 00:16:16,400
+Tá?
+
+346
+00:16:16,400 --> 00:16:17,400
+É só você pesquisar no Google.
+
+347
+00:16:17,400 --> 00:16:20,400
+Eventos padrão meta ads.
+
+348
+00:16:20,400 --> 00:16:22,400
+E vai tá a listinha deles aqui.
+
+349
+00:16:24,400 --> 00:16:25,400
+Tá? E aí tem vários.
+
+350
+00:16:25,400 --> 00:16:28,400
+Por exemplo, ele tem um evento de quem?
+
+351
+00:16:28,400 --> 00:16:29,400
+Lead.
+
+352
+00:16:29,400 --> 00:16:30,400
+Ó, de cadastro.
+
+353
+00:16:30,400 --> 00:16:33,400
+O envio de informações por parte do cliente.
+
+354
+00:16:33,400 --> 00:16:34,400
+É o evento lead.
+
+355
+00:16:34,400 --> 00:16:40,400
+Então, eu posso ao invés de colocar no meu site, numa página minha, este código aqui.
+
+356
+00:16:40,400 --> 00:16:41,400
+Eu posso...
+
+357
+00:16:41,400 --> 00:16:43,400
+Essa é a linha que a gente pode editar.
+
+358
+00:16:43,400 --> 00:16:48,400
+Eu posso ao invés de colocar page view, eu posso colocar page view e posso colocar o lead também aqui.
+
+359
+00:16:49,400 --> 00:16:50,400
+Vou botar aqui o evento.
+
+360
+00:16:50,400 --> 00:16:51,400
+Ele vem numa caixinha aleatória aqui.
+
+361
+00:16:51,400 --> 00:16:52,400
+Pera aí.
+
+362
+00:16:52,400 --> 00:16:53,400
+Deixa eu fazer uma coisa.
+
+363
+00:16:57,400 --> 00:16:58,400
+Deixa eu apagar aqui.
+
+364
+00:16:58,400 --> 00:16:59,400
+Ele vem numa caixinha.
+
+365
+00:16:59,400 --> 00:17:00,400
+Não sei por quê.
+
+366
+00:17:00,400 --> 00:17:01,400
+Acho que foi porque eu copiei do...
+
+367
+00:17:01,400 --> 00:17:03,400
+Ai meu Deus, eu não quero essa caixinha.
+
+368
+00:17:03,400 --> 00:17:04,400
+Vou botar uns Ctrl Z aqui que vai dar certo.
+
+369
+00:17:04,400 --> 00:17:05,400
+Aí foi.
+
+370
+00:17:05,400 --> 00:17:06,400
+Agora sim.
+
+371
+00:17:06,400 --> 00:17:07,400
+Tá?
+
+372
+00:17:07,400 --> 00:17:09,400
+Então, ele vem no evento lead.
+
+373
+00:17:11,400 --> 00:17:12,400
+Tá aqui.
+
+374
+00:17:12,400 --> 00:17:13,400
+Este daqui é o evento lead.
+
+375
+00:17:13,400 --> 00:17:20,400
+Agora, se eu colocar este código numa página, toda vez que alguém acessar esta página,
+
+376
+00:17:20,400 --> 00:17:22,400
+vai ativar o evento lead.
+
+377
+00:17:22,400 --> 00:17:24,400
+Toda vez que alguém visitar, por exemplo...
+
+378
+00:17:24,400 --> 00:17:26,400
+Toda vez que alguém...
+
+379
+00:17:26,400 --> 00:17:29,400
+Vou te dar um exemplo de onde deve estar o evento lead.
+
+380
+00:17:29,400 --> 00:17:31,400
+Nessa página tem que estar o evento lead?
+
+381
+00:17:31,400 --> 00:17:32,400
+Não.
+
+382
+00:17:32,400 --> 00:17:34,400
+Porque esta é uma página que a pessoa está se cadastrando.
+
+383
+00:17:34,400 --> 00:17:35,400
+Ela não virou lead.
+
+384
+00:17:35,400 --> 00:17:37,400
+Mas depois que a pessoa aperta aqui, ó.
+
+385
+00:17:37,400 --> 00:17:38,400
+Fazer meu cadastro.
+
+386
+00:17:38,400 --> 00:17:41,400
+Nessa página tem que estar o evento lead.
+
+387
+00:17:41,400 --> 00:17:46,400
+Porque nessa página eu posso colocar o código com o evento lead.
+
+388
+00:17:46,400 --> 00:17:49,400
+E aí, se você olhar nesta página, abrir aqui o...
+
+389
+00:17:49,400 --> 00:17:51,400
+Pixel Helper tem o quê aqui, ó.
+
+390
+00:17:51,400 --> 00:17:53,400
+O evento lead.
+
+391
+00:17:53,400 --> 00:17:54,400
+Tá aqui o evento lead.
+
+392
+00:17:54,400 --> 00:17:55,400
+Ele tá aqui.
+
+393
+00:17:55,400 --> 00:17:56,400
+Ele já está instalado.
+
+394
+00:17:56,400 --> 00:17:57,400
+Eu fiz isso anteriormente, tá?
+
+395
+00:17:57,400 --> 00:17:58,400
+Não é que eu instalei agora.
+
+396
+00:17:58,400 --> 00:18:00,400
+Mas ele já estava instalado aqui.
+
+397
+00:18:00,400 --> 00:18:01,400
+Só que tá aqui o evento lead.
+
+398
+00:18:01,400 --> 00:18:03,400
+Então, o quê que são os eventos padrão?
+
+399
+00:18:03,400 --> 00:18:06,400
+Eventos padrão são criados a partir do código...
+
+400
+00:18:06,400 --> 00:18:08,400
+Da edição do código do pixel.
+
+401
+00:18:08,400 --> 00:18:11,400
+Eles são eventos que o próprio meta definiu.
+
+402
+00:18:16,400 --> 00:18:18,400
+A própria meta, o próprio meta, né?
+
+403
+00:18:18,400 --> 00:18:20,400
+Cada um vai usar um gênero aqui, tá?
+
+404
+00:18:20,400 --> 00:18:22,400
+Mas a meta que definiu esses eventos.
+
+405
+00:18:22,400 --> 00:18:23,400
+Só que o quê que acontece?
+
+406
+00:18:23,400 --> 00:18:25,400
+Esses eventos, eles são instalados.
+
+407
+00:18:25,400 --> 00:18:26,400
+Presta atenção.
+
+408
+00:18:26,400 --> 00:18:30,400
+Ou manualmente, eu manualmente boto no meu código eles.
+
+409
+00:18:30,400 --> 00:18:32,400
+Ou, pra maioria...
+
+410
+00:18:32,400 --> 00:18:33,400
+Isso é uma boa notícia.
+
+411
+00:18:33,400 --> 00:18:36,400
+Pra maioria das plataformas de e-commerce, cardápio digital,
+
+412
+00:18:36,400 --> 00:18:38,400
+plataformas de venda de infoproduto,
+
+413
+00:18:38,400 --> 00:18:40,400
+essas plataformas, elas vão falar assim...
+
+414
+00:18:40,400 --> 00:18:42,400
+Pedro, eu quero o CPF do seu pixel.
+
+415
+00:18:42,400 --> 00:18:44,400
+O ID do seu pixel.
+
+416
+00:18:44,400 --> 00:18:45,400
+O código do seu pixel.
+
+417
+00:18:45,400 --> 00:18:47,400
+E é esse número que eu vou dar pra ferramenta.
+
+418
+00:18:47,400 --> 00:18:49,400
+Então, eu dou esse número pra ferramenta.
+
+419
+00:18:49,400 --> 00:18:52,400
+Eu dou esse número lá dentro da ferramenta.
+
+420
+00:18:52,400 --> 00:18:54,400
+E a própria ferramenta já vai instalar pra mim.
+
+421
+00:18:54,400 --> 00:18:57,400
+O page view, o lead, ela vai instalar tudo.
+
+422
+00:18:57,400 --> 00:18:59,400
+Por exemplo, no meu e-commerce aqui,
+
+423
+00:18:59,400 --> 00:19:02,400
+a gente, quando criou, usou nuvem shop pra criar o e-commerce, tá?
+
+424
+00:19:02,400 --> 00:19:04,400
+Eu acho que é isso.
+
+425
+00:19:06,400 --> 00:19:08,400
+Enfim, eu usei uma plataforma de e-commerce.
+
+426
+00:19:08,400 --> 00:19:11,400
+Nessa plataforma, ele me pediu, me mandou o ID do pixel.
+
+427
+00:19:11,400 --> 00:19:14,400
+Tudo que eu tive que fazer, tudo que eu tive que fazer,
+
+428
+00:19:14,400 --> 00:19:16,400
+foi dar esse número aqui pra plataforma.
+
+429
+00:19:16,400 --> 00:19:17,400
+Pra plataforma.
+
+430
+00:19:17,400 --> 00:19:19,400
+E aí, a plataforma fez o quê?
+
+431
+00:19:19,400 --> 00:19:21,400
+Automaticamente, ela instala os eventos pra mim.
+
+432
+00:19:21,400 --> 00:19:23,400
+Então, se eu clicar aqui no produto, ó.
+
+433
+00:19:23,400 --> 00:19:24,400
+Vou visitar o produto.
+
+434
+00:19:24,400 --> 00:19:26,400
+O que vai aparecer aqui no código, ó.
+
+435
+00:19:26,400 --> 00:19:27,400
+View content.
+
+436
+00:19:27,400 --> 00:19:29,400
+Esse daqui, eu visitou o conteúdo.
+
+437
+00:19:29,400 --> 00:19:30,400
+Eu visitou o produto.
+
+438
+00:19:30,400 --> 00:19:32,400
+Se eu adicionar o produto no carrinho, ó.
+
+439
+00:19:32,400 --> 00:19:33,400
+Vou adicionar o produto no carrinho.
+
+440
+00:19:33,400 --> 00:19:34,400
+Automaticamente.
+
+441
+00:19:34,400 --> 00:19:37,400
+O que vai aparecer aqui no pixel helper?
+
+442
+00:19:37,400 --> 00:19:38,400
+Add to cart.
+
+443
+00:19:38,400 --> 00:19:40,400
+Aparecer automático aqui.
+
+444
+00:19:40,400 --> 00:19:44,400
+Se eu iniciar a compra, automaticamente, na próxima página, vai aparecer o quê?
+
+445
+00:19:44,400 --> 00:19:46,400
+Initiate Checkout.
+
+446
+00:19:46,400 --> 00:19:49,400
+Então, a própria ferramenta faz a instalação pra mim.
+
+447
+00:19:49,400 --> 00:19:50,400
+Tá?
+
+448
+00:19:50,400 --> 00:19:53,400
+Só que, se a ferramenta não faz, aí você que tem que fazer,
+
+449
+00:19:53,400 --> 00:19:58,400
+ou contratar um programador pra fazer esse passo a passo de disparar os códigos certos.
+
+450
+00:19:58,400 --> 00:20:01,400
+Só que aí, tem a lista aqui dentro da central de ajuda de todos eles.
+
+451
+00:20:01,400 --> 00:20:02,400
+Tá?
+
+452
+00:20:02,400 --> 00:20:07,400
+Só que, existe a possibilidade de você falar o seguinte.
+
+453
+00:20:07,400 --> 00:20:10,400
+Eu não quero esse evento que a meta definiu.
+
+454
+00:20:10,400 --> 00:20:13,400
+Eu quero criar o meu próprio evento.
+
+455
+00:20:13,400 --> 00:20:14,400
+Tá?
+
+456
+00:20:14,400 --> 00:20:16,400
+Então, eventos que você definiu.
+
+457
+00:20:16,400 --> 00:20:18,400
+Eu quero criar um evento diferente.
+
+458
+00:20:18,400 --> 00:20:20,400
+Eu quero eu dar nome para o meu evento.
+
+459
+00:20:20,400 --> 00:20:21,400
+Tá?
+
+460
+00:20:21,400 --> 00:20:22,400
+Então, eu quero dar um nome pro meu evento.
+
+461
+00:20:22,400 --> 00:20:28,400
+Por exemplo, se você entrar na minha página, você vai ver que tem o lead aqui, que é um evento padrão.
+
+462
+00:20:28,400 --> 00:20:31,400
+Mas você vai ver que tem, por exemplo, o typ aulas.
+
+463
+00:20:31,400 --> 00:20:33,400
+O que é o typ aulas?
+
+464
+00:20:33,400 --> 00:20:36,400
+Typ aulas é o tem que o page aulas.
+
+465
+00:20:36,400 --> 00:20:39,400
+Pessoas que se cadastraram nas minhas aulas.
+
+466
+00:20:39,400 --> 00:20:43,400
+Esse não é um evento que você vai encontrar aqui na lista do meta-ads.
+
+467
+00:20:43,400 --> 00:20:45,400
+Tem que o page aulas.
+
+468
+00:20:45,400 --> 00:20:47,400
+Typ aulas não vai estar aqui.
+
+469
+00:20:47,400 --> 00:20:48,400
+Não é um evento padrão.
+
+470
+00:20:48,400 --> 00:20:49,400
+É um evento personalizado.
+
+471
+00:20:49,400 --> 00:20:51,400
+Então, como que você...
+
+472
+00:20:51,400 --> 00:20:52,400
+Por que que eu faria isso?
+
+473
+00:20:52,400 --> 00:20:54,400
+Só porque eu quero um nome diferente no meu evento.
+
+474
+00:20:54,400 --> 00:20:57,400
+Porque eu quero traquear um evento que, pra mim, é muito específico.
+
+475
+00:20:57,400 --> 00:20:59,400
+E aí, como que eu vou fazer isso?
+
+476
+00:20:59,400 --> 00:21:01,400
+Eu vou pegar o código do meu pixel.
+
+477
+00:21:01,400 --> 00:21:02,400
+Tá?
+
+478
+00:21:02,400 --> 00:21:04,400
+E aí, eu vou pegar o fbq track page view aqui.
+
+479
+00:21:04,400 --> 00:21:06,400
+Vou dar ctrl c, ctrl v nele.
+
+480
+00:21:06,400 --> 00:21:10,400
+Do lado do track, eu vou digitar com a primeira letra maiúscula.
+
+481
+00:21:10,400 --> 00:21:11,400
+Custom.
+
+482
+00:21:11,400 --> 00:21:13,400
+Assim, custom.
+
+483
+00:21:13,400 --> 00:21:18,400
+E aí, eu vou colocar aqui, entre as aspinhas, o typ aulas.
+
+484
+00:21:18,400 --> 00:21:19,400
+Tá?
+
+485
+00:21:19,400 --> 00:21:20,400
+Um cuidado que você tem que ter...
+
+486
+00:21:20,400 --> 00:21:22,400
+Deixa eu ver se isso tá acontecendo aqui.
+
+487
+00:21:22,400 --> 00:21:23,400
+Não, não tá.
+
+488
+00:21:23,400 --> 00:21:25,400
+Um cuidado que você tem que ter é o seguinte.
+
+489
+00:21:25,400 --> 00:21:28,400
+Existem dois tipos de aspas.
+
+490
+00:21:28,400 --> 00:21:29,400
+Tá?
+
+491
+00:21:29,400 --> 00:21:30,400
+Deixa eu pegar aqui, ó.
+
+492
+00:21:30,400 --> 00:21:31,400
+Tem as aspas...
+
+493
+00:21:31,400 --> 00:21:32,400
+Deixa eu...
+
+494
+00:21:32,400 --> 00:21:33,400
+Deixa eu...
+
+495
+00:21:33,400 --> 00:21:34,400
+Aqui, ó.
+
+496
+00:21:35,400 --> 00:21:37,400
+Tem uma aspa que ela é...
+
+497
+00:21:37,400 --> 00:21:41,400
+Literalmente, no seu teclado, tem uma aspa que ela é curvadinha.
+
+498
+00:21:41,400 --> 00:21:43,400
+Tá vendo essa daqui que é curvadinha?
+
+499
+00:21:43,400 --> 00:21:45,400
+E tem uma que é retinha.
+
+500
+00:21:45,400 --> 00:21:46,400
+Tá vendo?
+
+501
+00:21:46,400 --> 00:21:47,400
+Olha a diferença entre as duas.
+
+502
+00:21:47,400 --> 00:21:48,400
+Deixa eu dar um zoom aqui.
+
+503
+00:21:49,400 --> 00:21:53,400
+Tem uma que tem essa curvinha e tem uma que ela é retinha.
+
+504
+00:21:53,400 --> 00:21:57,400
+Sempre que a gente vai fazer código, que a gente vai mexer no código, a aspa é o quê?
+
+505
+00:21:57,400 --> 00:21:58,400
+A aspa é reta.
+
+506
+00:21:58,400 --> 00:21:59,400
+Tá?
+
+507
+00:21:59,400 --> 00:22:02,400
+Então, cuidado pra não colocar uma aspinha curvada aqui, tá?
+
+508
+00:22:02,400 --> 00:22:05,400
+É um detalhinho, mas muita gente, às vezes, se ferra por causa disso.
+
+509
+00:22:05,400 --> 00:22:06,400
+Erra na aspinha.
+
+510
+00:22:06,400 --> 00:22:10,400
+Vai digitar e o seu teclado digita a aspa curvadinha.
+
+511
+00:22:10,400 --> 00:22:11,400
+Tem que ser essa aspa retinha.
+
+512
+00:22:11,400 --> 00:22:12,400
+Então, ó.
+
+513
+00:22:12,400 --> 00:22:14,400
+Sempre dá Ctrl C aqui, tá?
+
+514
+00:22:14,400 --> 00:22:16,400
+Por isso que eu gosto de dar Ctrl C em tudo, Ctrl V.
+
+515
+00:22:16,400 --> 00:22:19,400
+E aí eu digito sem mexer nas aspas, tá?
+
+516
+00:22:19,400 --> 00:22:23,400
+Sem mexer nas aspas, eu vou colocar aqui o meu evento padrão.
+
+517
+00:22:23,400 --> 00:22:24,400
+Aliás, personalizado.
+
+518
+00:22:24,400 --> 00:22:31,400
+E aí eu vou instalar este código na página onde eu quero que este evento seja disparado, tá?
+
+519
+00:22:31,400 --> 00:22:37,400
+Então, mais uma vez, tem três maneiras de eu pedir informações para o MetaEdge.
+
+520
+00:22:37,400 --> 00:22:41,400
+Com eventos padrão, com eventos personalizados e com conversões personalizadas.
+
+521
+00:22:41,400 --> 00:22:43,400
+Pedro, quais são os melhores de utilizar?
+
+522
+00:22:43,400 --> 00:22:45,400
+Eu já coloquei na ordem.
+
+523
+00:22:45,400 --> 00:22:49,400
+Dê preferência para os eventos padrão, depois para os eventos personalizados
+
+524
+00:22:49,400 --> 00:22:51,400
+e, por último, para conversão personalizada.
+
+525
+00:22:51,400 --> 00:22:52,400
+Por quê?
+
+526
+00:22:52,400 --> 00:22:58,400
+Porque o traqueamento, o mapeamento do evento padrão, ele é melhor do que o do evento personalizado,
+
+527
+00:22:58,400 --> 00:23:02,400
+que é melhor do que as conversões personalizadas, tá?
+
+528
+00:23:02,400 --> 00:23:06,400
+Então, é assim que a gente pede as informações para o MetaEdge.
+
+529
+00:23:06,400 --> 00:23:08,400
+E essas informações vão servir para quê?
+
+530
+00:23:08,400 --> 00:23:14,400
+Vão servir para eu otimizar as minhas campanhas, vão servir para eu ler os dados que eu quiser ler
+
+531
+00:23:14,400 --> 00:23:17,400
+e elas vão servir para criar públicos.
+
+532
+00:23:17,400 --> 00:23:20,400
+Pelo menos com evento padrão e evento personalizado, tá?
+
+533
+00:23:20,400 --> 00:23:25,400
+Conversão personalizada, a gente não consegue criar público a partir de uma conversão personalizada,
+
+534
+00:23:25,400 --> 00:23:31,400
+mas eu consigo criar público de quem visitou determinadas páginas do meu site.
+
+535
+00:23:31,400 --> 00:23:33,400
+Pedro, mas é igual conversão personalizada?
+
+536
+00:23:33,400 --> 00:23:37,400
+É igual, só que não é a partir da conversão personalizada que eu crio público.
+
+537
+00:23:37,400 --> 00:23:40,400
+É a partir de quem visitou uma página do meu site, tá?
+
+538
+00:23:40,400 --> 00:23:44,400
+Só para fazer a explicação aqui para você ter um entendimento completo, tá?
+
+539
+00:23:44,400 --> 00:23:47,400
+Então, são esses três aqui que a gente vai sempre utilizar.
+
+540
+00:23:47,400 --> 00:23:50,400
+Tem um pouco de manipulação de código?
+
+541
+00:23:50,400 --> 00:23:52,400
+Tem, mas é absolutamente simples.
+
+542
+00:23:52,400 --> 00:23:55,400
+É só você dar Ctrl C e Ctrl V e instalar o código no seu site.
+
+543
+00:23:55,400 --> 00:23:57,400
+O que vai te ajudar a fazer essa instalação?
+
+544
+00:23:57,400 --> 00:23:59,400
+Google Tag Manager.
+
+545
+00:23:59,400 --> 00:24:05,400
+Google Tag Manager vai te ajudar e muito a instalar os eventos padrão,
+
+546
+00:24:05,400 --> 00:24:07,400
+os eventos personalizados que você quiser colocar no seu site,
+
+547
+00:24:07,400 --> 00:24:10,400
+porque essa é a função do Google Tag Manager.
+
+548
+00:24:10,400 --> 00:24:12,400
+É ser um instalador de códigos no seu site.
+
+549
+00:24:12,400 --> 00:24:15,400
+Então, é muito importante que você o domine para que você saiba fazer isso
+
+550
+00:24:15,400 --> 00:24:17,400
+e te traz para frente, de frente e para trás, tá bom?
+
+551
+00:24:17,400 --> 00:24:20,400
+Então, tamo junto e a gente se vê na próxima aula,
+
+552
+00:24:20,400 --> 00:24:22,400
+onde a gente vai falar um pouquinho sobre a fase de aprendizado
+
+553
+00:24:22,400 --> 00:24:24,400
+e como que ela afeta as suas campanhas.
