@@ -17,6 +17,10 @@ Cada aula possui uma pasta própria com:
 - `transcricao.md`: texto organizado em parágrafos com timestamps
 - `segmentos.json`: saída estruturada, metadados e proveniência
 - `legenda.srt`: legenda compatível com players e editores
+- material de apoio da aula, quando existir (PDF e, em alguns casos, `.txt`)
+
+Aulas sem arquivo extra são aulas para as quais não havia material para baixar. Os materiais
+não ficam numa pasta `Materiais/` paralela: ficam junto da transcrição da mesma aula.
 
 Arquivos na raiz:
 
