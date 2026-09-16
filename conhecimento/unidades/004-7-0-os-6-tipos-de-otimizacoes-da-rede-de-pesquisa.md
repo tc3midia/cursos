@@ -1,0 +1,150 @@
+---
+type: unidades-aula
+status: validado
+title: "7.0 - Os 6 tipos de otimizações da Rede de Pesquisa"
+modulo: "004"
+ordem: 68
+aula_id: 59d3f050ee0a93e3
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m04_a07_os_6_tipos_de_otimizacao_da_rede_de_pesquisa.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 7.0 - Os 6 tipos de otimizações da Rede de Pesquisa
+
+## Contexto da aula
+
+A aula apresenta uma campanha de Rede de Pesquisa que já gastou R$ 700 e gerou 88 conversões.
+Explica que o custo por conversão pode oscilar nos primeiros dias por causa da fase de aprendizado.
+Orienta a leitura do desempenho por ontem e pelos últimos 7 dias, com uma exceção para contas inteligentes e grandes verbas.
+Por fim, enumera seis tipos de otimização que serão implementados nas aulas seguintes.
+Não demonstra a execução de cada otimização nesta aula.
+
+## Unidades
+
+### U:59d3f050ee0a93e3:001 — Fase de aprendizado é a flutuação inicial do custo por conversão
+```yaml
+tipo: conceito
+plataforma: [google-search]
+tema: otimizacao
+tarefas: []
+fonte: fala+pdf:cst_m04_a07_os_6_tipos_de_otimizacao_da_rede_de_pesquisa.pdf
+faixa: 00:00:41–00:01:57
+perecivel: false
+confianca: alta
+versao: 1
+```
+Nos primeiros dias, a campanha ainda não tem inteligência para converter por um preço mais baixo; por isso o custo por conversão pode flutuar bastante.
+Essa oscilação é chamada de fase de aprendizado.
+
+### U:59d3f050ee0a93e3:002 — Não se apavore com o custo das primeiras 24 horas
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: otimizacao
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala
+faixa: 00:01:16–00:01:57
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se o custo por conversão das primeiras 24 horas estiver caro, não se apavore: ele pode flutuar enquanto a campanha está em aprendizado.
+
+### U:59d3f050ee0a93e3:003 — Analise ontem e os últimos 7 dias na maioria dos casos
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala+pdf:cst_m04_a07_os_6_tipos_de_otimizacao_da_rede_de_pesquisa.pdf
+faixa: 00:01:57–00:03:10
+perecivel: false
+confianca: alta
+versao: 1
+```
+Pré-condição: campanha de Rede de Pesquisa em andamento, no caso usual sem grande verba e sem conta inteligente.
+1. Analise o dia de ontem para ter um panorama de como a campanha está.
+2. Analise os últimos 7 dias para avaliar o desempenho geral, sem tirar conclusão de um dia isolado.
+
+### U:59d3f050ee0a93e3:004 — Contas inteligentes com grande verba podem analisar o dia em curso
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala
+faixa: 00:01:57–00:02:33
+condicoes: "conta antiga, com várias campanhas de conversão rodando e grande verba"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se a conta já for inteligente e tiver grande verba rodando, analise o dia em curso.
+
+### U:59d3f050ee0a93e3:005 — Um bom ontem é sinal provável, não certeza
+```yaml
+tipo: exemplo
+plataforma: [google-search]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala
+faixa: 00:02:33–00:03:10
+perecivel: false
+confianca: alta
+versao: 1
+```
+Situação: o custo por conversão de ontem foi R$ 1,00.
+O que aconteceu: o professor considera isso um excelente sinal para a campanha.
+Lógica: o desempenho do dia mais próximo torna provável um custo bom no dia em curso, mas não dá certeza; a leitura precisa considerar os 7 dias.
+
+### U:59d3f050ee0a93e3:006 — Os seis tipos de otimização da Rede de Pesquisa
+```yaml
+tipo: conceito
+plataforma: [google-search]
+tema: otimizacao
+tarefas: []
+fonte: fala+pdf:cst_m04_a07_os_6_tipos_de_otimizacao_da_rede_de_pesquisa.pdf
+faixa: 00:03:10–00:04:40
+perecivel: false
+confianca: alta
+versao: 1
+```
+Os seis tipos são: otimização de lances; inclusão de novas palavras-chave; palavras-chave negativas; pausar e criar anúncios; criar e pausar grupos de anúncios; e melhorar a página de destino.
+
+### U:59d3f050ee0a93e3:007 — Palavras-chave negativas podem ser definidas antes ou após gasto
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [definir-palavras-chave-negativas]
+fonte: fala
+faixa: 00:03:25–00:03:51
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se preferir criar a campanha sem palavras-chave negativas, deixe-a gastar um pouco e depois faça as exclusões; elas também podem ser adicionadas já na criação da campanha.
+
+### U:59d3f050ee0a93e3:008 — A aula seguinte inicia a otimização de lances
+```yaml
+tipo: limite
+plataforma: [google-search]
+tema: otimizacao
+tarefas: []
+fonte: fala+pdf:cst_m04_a07_os_6_tipos_de_otimizacao_da_rede_de_pesquisa.pdf
+faixa: 00:04:40–00:04:56
+perecivel: false
+confianca: alta
+versao: 1
+```
+Esta aula apenas apresenta os seis tipos; a implementação começa na aula seguinte, pela otimização de lances.

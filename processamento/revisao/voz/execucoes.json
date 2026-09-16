@@ -1,0 +1,86 @@
+[
+  {
+    "estado": "concluida",
+    "papel": "astra",
+    "modelo": "gpt-6-astra",
+    "esforco": "high",
+    "inicio": 1789571781.2900748,
+    "pacote_sha256": "6ae91363002d3d19fed690d98d282e43a61dd4be695513a60ec89625caeeb7bd",
+    "fim": 1789571836.904962,
+    "returncode": 0,
+    "usage": [
+      {
+        "input_tokens": 47005,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1690,
+        "reasoning_output_tokens": 283
+      }
+    ],
+    "chamadas_ferramentas": 0,
+    "output_sha256": "66608cae53d6a4b225a1a184fad1dc720ee293f79f1a14765621610dd293f9e7"
+  },
+  {
+    "estado": "concluida",
+    "papel": "sol",
+    "modelo": "gpt-5.6-sol",
+    "esforco": "medium",
+    "inicio": 1789571721.4479349,
+    "pacote_sha256": "21933a4b7cbf5a2eacd9e6e3b04b4746d6825104b818d5f337210221fa94d77a",
+    "fim": 1789571765.889132,
+    "returncode": 0,
+    "usage": [
+      {
+        "input_tokens": 42217,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2174,
+        "reasoning_output_tokens": 273
+      }
+    ],
+    "chamadas_ferramentas": 0,
+    "output_sha256": "cc51b21f03e5f3d125c854d909cdbe2c0eef545fd545ace63b8093100bbf5c2e"
+  },
+  {
+    "estado": "concluida",
+    "papel": "terra-1",
+    "modelo": "gpt-5.6-terra",
+    "esforco": "medium",
+    "inicio": 1789571439.800952,
+    "pacote_sha256": "77f515339700510df139d3ca9070bfeb78c603ebcef622aabb9113e420dd0205",
+    "fim": 1789571461.202935,
+    "returncode": 0,
+    "usage": [
+      {
+        "input_tokens": 30376,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 976,
+        "reasoning_output_tokens": 182
+      }
+    ],
+    "chamadas_ferramentas": 0,
+    "output_sha256": "ead0c61139c70b1e66b090061356e1e7f29d9307da4b96c23995c23a0db6aa36"
+  },
+  {
+    "estado": "concluida",
+    "papel": "terra-2",
+    "modelo": "gpt-5.6-terra",
+    "esforco": "medium",
+    "inicio": 1789571441.034751,
+    "pacote_sha256": "5d09e25d4c02aad1da9e63df79b829a3f1fd131cd6b00624beb8b5f7bb907d54",
+    "fim": 1789571463.52402,
+    "returncode": 0,
+    "usage": [
+      {
+        "input_tokens": 30173,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1030,
+        "reasoning_output_tokens": 170
+      }
+    ],
+    "chamadas_ferramentas": 0,
+    "output_sha256": "f630bbd15d41a19362f611e1aaf1453ec25bb161b4f50e77529e30facf03f449"
+  }
+]

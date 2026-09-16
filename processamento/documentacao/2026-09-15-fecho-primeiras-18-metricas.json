@@ -1,0 +1,478 @@
+{
+  "data": "2026-09-15",
+  "estado": "primeira leva encerrada: quatro candidatos integrados, quatro laudos aprovados e selados, duas conferências focais aprovadas; 80 testes e zero erros",
+  "fonte_commit": "f188775",
+  "escopo": "primeiras 18 aulas do módulo 002; quatro correções e duas conferências focais",
+  "chamadas": [
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "13b2d9f52cf439b3",
+      "inicio": 1789479541.147418,
+      "fim": 1789479586.6846101,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 37239,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1293,
+          "reasoning_output_tokens": 113
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "b4bc5a79c3bd75d1078d1a39b6c73215dcd1e8b1058d9bdd4afe7f3127f6af36",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/13b2d9f52cf439b3.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "132b49d477065deb",
+      "inicio": 1789479580.53493,
+      "fim": 1789479630.383231,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 44874,
+          "cached_input_tokens": 6400,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1409,
+          "reasoning_output_tokens": 155
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "4ccaa29534c0a6e17b4b05778444067e71b9592d0eae9c24007a131185aeed0e",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/132b49d477065deb.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "extra",
+      "id": "42508f24eb7b3b3b",
+      "inicio": 1789479164.332785,
+      "fim": 1789479187.9761431,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 25438,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1115,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "7ae1472c688182741ba6979ca929b65aee8a6ef9ab6be89c9a6902239ae6288f",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/42508f24eb7b3b3b.extra.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-sol",
+      "kind": "sol",
+      "id": "13b2d9f52cf439b3",
+      "inicio": 1789479107.8896582,
+      "fim": 1789479135.8307562,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 33203,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1296,
+          "reasoning_output_tokens": 209
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "7720bf758e9f1e9b9210569d6a8c4b8d6df9c0e771dc80628fbeb10730d4c088",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/13b2d9f52cf439b3.sol.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "26bb0a8b5fd74ab4",
+      "inicio": 1789479542.373985,
+      "fim": 1789479582.560427,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 37223,
+          "cached_input_tokens": 6400,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1174,
+          "reasoning_output_tokens": 114
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "bb9a2cdc1bfed2ad0f52f23d4f13b3bd92657ef7481cb859a61e20a32e0db720",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/26bb0a8b5fd74ab4.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-sol",
+      "kind": "sol",
+      "id": "132b49d477065deb",
+      "inicio": 1789479107.889631,
+      "fim": 1789479164.3309891,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 39091,
+          "cached_input_tokens": 19456,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2873,
+          "reasoning_output_tokens": 717
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "f2ba9095a212542f8c1182335c3232d253420469b3722613e64b8b81740722d5",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/132b49d477065deb.sol.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "2ca16f54f7e1bd7a",
+      "inicio": 1789479293.274955,
+      "fim": 1789479316.3565729,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 27591,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 620,
+          "reasoning_output_tokens": 72
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "879f3e01759f93edb287f896d1dad38fe51d3dfc25e4c1ca21be6de1cbbb2459",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/2ca16f54f7e1bd7a.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-sol",
+      "kind": "sol",
+      "id": "26bb0a8b5fd74ab4",
+      "inicio": 1789479107.889643,
+      "fim": 1789479162.808888,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 36062,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2804,
+          "reasoning_output_tokens": 385
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "2c3dbfd00b311d22f178120152072d374c485910a9c28912a5cda751c7dd7548",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/26bb0a8b5fd74ab4.sol.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "inspetor",
+      "id": "13b2d9f52cf439b3",
+      "inicio": 1789479324.46349,
+      "fim": 1789479423.686134,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 29174,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5289,
+          "reasoning_output_tokens": 4142
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "2f32a27cfe67029a0c0ae962f1fb983e84f704ec2420e729f612f67ad8e9dfca",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/13b2d9f52cf439b3.inspetor.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "inspetor",
+      "id": "26bb0a8b5fd74ab4",
+      "inicio": 1789479324.463524,
+      "fim": 1789479454.222065,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32752,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7000,
+          "reasoning_output_tokens": 4660
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "e0b1f42d5e6b4b094a8747b68a94712c3e870da851d18e6c1102ed4c4d79a4b7",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/26bb0a8b5fd74ab4.inspetor.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "extra",
+      "id": "2ca16f54f7e1bd7a",
+      "inicio": 1789479162.810614,
+      "fim": 1789479223.753176,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 26780,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3132,
+          "reasoning_output_tokens": 2383
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "1e6295af34fab575a9ecbc2e5ea4bef911f20e8064417a5bb1e5e27d371be4fe",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/2ca16f54f7e1bd7a.extra.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "42508f24eb7b3b3b",
+      "inicio": 1789479294.502073,
+      "fim": 1789479324.277627,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 26639,
+          "cached_input_tokens": 6400,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 829,
+          "reasoning_output_tokens": 117
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "f27c5fd1f74eb18eeeaa0141709225716dfab46ddc0e20e320bdd09f8ced648e",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/42508f24eb7b3b3b.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-sol",
+      "kind": "sol",
+      "id": "2adad5b1c731d4ab",
+      "inicio": 1789479135.8322089,
+      "fim": 1789479242.23777,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 44744,
+          "cached_input_tokens": 19456,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5690,
+          "reasoning_output_tokens": 1005
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "488b6ae2c02dd0ab9df041b329489de3ee495e417db0975d441fbfbb3c33dec0",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/2adad5b1c731d4ab.sol.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "2adad5b1c731d4ab",
+      "inicio": 1789479595.60254,
+      "fim": 1789479634.747583,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 44037,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1127,
+          "reasoning_output_tokens": 147
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "7f1cbaadd7426bc9ec86db7a4a3a5065fbf1babef417cd246c0b4aa46bbe7f20",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/2adad5b1c731d4ab.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "inspetor",
+      "id": "2adad5b1c731d4ab",
+      "inicio": 1789479423.6883252,
+      "fim": 1789479551.570103,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 42494,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6893,
+          "reasoning_output_tokens": 4372
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "ed00066b5fbf48465b300db22ff6e9f1bd9a0b65fb59271047781975b6cb4a8b",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/2adad5b1c731d4ab.inspetor.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "inspetor",
+      "id": "132b49d477065deb",
+      "inicio": 1789479324.463422,
+      "fim": 1789479468.812435,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 35101,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7704,
+          "reasoning_output_tokens": 5178
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "a2a04f11ba856cb4b5aeeb841efa44b221643102090eea80f87a6fa3c5bec184",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/logs/132b49d477065deb.inspetor.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "132b49d477065deb",
+      "inicio": 1789479970.824909,
+      "fim": 1789480010.5676448,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 45427,
+          "cached_input_tokens": 6400,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1191,
+          "reasoning_output_tokens": 187
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "f50fbb7fc2be3856838af7942000e8735b8121cc83a4ba6637d0cc74244721ce",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/conferencia-autorizada61/logs/132b49d477065deb.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "inspetor",
+      "id": "132b49d477065deb",
+      "inicio": 1789479865.944876,
+      "fim": 1789479905.754019,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 29009,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1925,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "85969ca22e22a73466aed673e97cd36d9fa6410063d401774c457a2fa5b3cc5f",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/conferencia-autorizada61/logs/132b49d477065deb.inspetor.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-6-astra",
+      "kind": "juiz",
+      "id": "26bb0a8b5fd74ab4",
+      "inicio": 1789479879.104518,
+      "fim": 1789479912.195171,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 37732,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 941,
+          "reasoning_output_tokens": 67
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "26e62e1a2a572b283357121261b1a46951abecacb22e6e90cdabf55ae305a250",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/ciclo2-54/logs/26bb0a8b5fd74ab4.juiz.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-sol",
+      "kind": "sol",
+      "id": "26bb0a8b5fd74ab4",
+      "inicio": 1789479688.0963619,
+      "fim": 1789479705.151969,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 26035,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 647,
+          "reasoning_output_tokens": 206
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "3c47358d487738d2777ff62f88c1335541dcfe25f5b9ce10d397368ac46be2ec",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/ciclo2-54/logs/26bb0a8b5fd74ab4.sol.execucao.json"
+    },
+    {
+      "estado": "concluida",
+      "model": "gpt-5.6-terra",
+      "kind": "inspetor",
+      "id": "26bb0a8b5fd74ab4",
+      "inicio": 1789479798.387916,
+      "fim": 1789479837.499586,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 26021,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1928,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "77599976fff94ed922641425383ed4d1deceee9d80a99f826b58a863b75c17a0",
+      "registro": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/fecho-proporcional/ciclo2-54/logs/26bb0a8b5fd74ab4.inspetor.execucao.json"
+    }
+  ],
+  "por_modelo": {
+    "gpt-6-astra": {
+      "chamadas": 8,
+      "input_tokens": 300762,
+      "output_tokens": 8584,
+      "cached_input_tokens": 25600
+    },
+    "gpt-5.6-terra": {
+      "chamadas": 8,
+      "input_tokens": 246769,
+      "output_tokens": 34986,
+      "cached_input_tokens": 65792
+    },
+    "gpt-5.6-sol": {
+      "chamadas": 5,
+      "input_tokens": 179135,
+      "output_tokens": 13310,
+      "cached_input_tokens": 38912
+    }
+  },
+  "totais": {
+    "input_tokens": 726666,
+    "output_tokens": 56880,
+    "cached_input_tokens": 130304
+  },
+  "soma_entrada_saida": 783546,
+  "limites": "Cache já incluído na entrada. Não inclui coordenação desta conversa nem Claudex. Não prova eficiência comparativa entre modelos.",
+  "eventos_sem_chamada": "Normalização mecânica de cercas YAML e IDs abreviados; uma preparação do juiz abortou antes do CLI, sem consumo. Nenhuma tentativa de modelo foi descartada.",
+  "decisao_excepcional": "Will autorizou uma conferência Terra+Astra para U026/U035 da aula 6.1; contador não reiniciado."
+}

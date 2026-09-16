@@ -1,0 +1,293 @@
+---
+type: unidades-aula
+status: validado
+title: "9.3 - Otimização de anúncios"
+modulo: "005"
+ordem: 101
+aula_id: 86ad35c94c5e50fb
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m05_a93_otimizacao_de_anuncios.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 9.3 - Otimização de anúncios
+
+## Contexto da aula
+
+A aula apresenta a otimização de anúncios em campanhas do Google Ads.
+Ela assume que o aluno já estudou otimização de lances e de segmentações.
+O professor trata o anúncio como decisivo quando já existe uma segmentação mínima.
+São mostradas as otimizações grupo por grupo, geral e constante.
+A próxima aula fica dedicada à otimização de onde os anúncios são exibidos.
+
+## Unidades
+
+### U:86ad35c94c5e50fb:001 — Anúncio importa mais que organização com segmentação mínima
+```yaml
+tipo: regra
+plataforma: [google]
+tema: criativo
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:01:04–00:02:24"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Com uma segmentação mínima, priorize fazer um anúncio ótimo: uma hierarquia ou organização perfeita não compensa um anúncio ruim.
+
+### U:86ad35c94c5e50fb:002 — Três tipos de otimização de anúncios
+```yaml
+tipo: conceito
+plataforma: [google]
+tema: otimizacao
+tarefas: []
+fonte: "fala+pdf:cst_m05_a93_otimizacao_de_anuncios.pdf"
+faixa: "00:01:38–00:02:24"
+perecivel: false
+confianca: alta
+versao: 1
+```
+A aula divide a otimização de anúncios em grupo por grupo, geral e constante.
+
+### U:86ad35c94c5e50fb:003 — Otimização grupo por grupo ordena anúncios por conversões
+```yaml
+tipo: procedimento
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:02:24–00:02:46"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: estar dentro de um grupo de anúncios.
+1. Entre em cada grupo de anúncios.
+2. Ordene os anúncios por conversões.
+3. Mantenha o que funciona bem e identifique o que não funciona bem para pausar.
+
+### U:86ad35c94c5e50fb:004 — Confira período e custo por conversão antes de decidir
+```yaml
+tipo: regua
+plataforma: [google]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios, otimizar-anuncios]
+fonte: fala
+faixa: "00:02:48–00:03:32"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Antes da análise, confira o período selecionado; no exemplo o professor troca para 7 dias e compara o custo por conversão com a meta de R$5,00.
+Um anúncio com custo por conversão de R$7,00 fica como candidato a pausa nesse exemplo.
+
+### U:86ad35c94c5e50fb:005 — Volume de conversões exige cautela ao pausar
+```yaml
+tipo: regra
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: "fala+pdf:cst_m05_a93_otimizacao_de_anuncios.pdf"
+faixa: "00:03:32–00:05:37"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quanto maior o volume de conversões de um anúncio, mais cuidado tenha ao pausá-lo.
+O Google precisa de várias opções para gastar a verba; concentrar todo o gasto em um único anúncio pode encarecer o lead.
+
+### U:86ad35c94c5e50fb:006 — Não transfira gasto acima da capacidade do anúncio
+```yaml
+tipo: exemplo
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:04:15–00:05:37"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Situação: um AD4 gastou R$2.000, tem custo por conversão de R$4,00 e suporta mais volume que outro anúncio de custo R$3,00.
+O que aconteceu: ao pausar o anúncio de maior capacidade, os mesmos 2 litros de gasto precisariam ir para um copo menor.
+Lógica: o copo menor transborda e o lead fica caro; a capacidade só é descoberta depois de anunciar.
+
+### U:86ad35c94c5e50fb:007 — Pausa exige ativar um anúncio novo em seguida
+```yaml
+tipo: regra
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: "fala+pdf:cst_m05_a93_otimizacao_de_anuncios.pdf"
+faixa: "00:05:38–00:06:42"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Toda vez que pausar um anúncio, ative um anúncio novo em seguida.
+
+### U:86ad35c94c5e50fb:008 — Mantenha anúncios de reserva já enviados e pausados
+```yaml
+tipo: procedimento
+plataforma: [google]
+tema: criativo
+tarefas: [configurar-anuncio, otimizar-anuncios]
+fonte: fala
+faixa: "00:05:38–00:08:25"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: novos anúncios prontos para entrar na campanha.
+1. Envie os anúncios de reserva e deixe-os pausados.
+2. Quando um anúncio precisar sair, pause-o.
+3. Ative imediatamente o próximo anúncio de reserva.
+4. Comece pelos anúncios que performaram melhor antes ou que têm mais chance de atrair resultados.
+
+### U:86ad35c94c5e50fb:009 — Use grupo por grupo quando houver volume administrável
+```yaml
+tipo: decisao
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:06:44–00:09:05"
+condicoes: "volume pequeno de campanhas ou tempo para analisar todos os grupos"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando houver tempo para analisar todos os conjuntos, prefira a otimização grupo por grupo, pois normalmente ela funciona melhor.
+O professor costuma manter de 6 a 8 anúncios ativos e anúncios adicionais pausados como reserva.
+
+### U:86ad35c94c5e50fb:010 — Aba Vídeos mostra resultado geral por anúncio
+```yaml
+tipo: alerta-ui
+plataforma: [google]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios, otimizar-anuncios]
+fonte: fala
+faixa: "00:09:05–00:10:32"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Dentro da campanha, abra a aba “Vídeos” para analisar o resultado geral de cada vídeo.
+O resultado geral pode esconder que o mesmo anúncio está bom em um grupo específico; isso só aparece na análise grupo por grupo.
+
+### U:86ad35c94c5e50fb:011 — Otimização geral é alternativa a não otimizar
+```yaml
+tipo: decisao
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:09:44–00:10:32"
+condicoes: "não haver tempo para analisar todos os grupos de anúncios"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se não for possível analisar grupo por grupo, faça a otimização geral por vídeo; entre não otimizar e fazê-la, o professor recomenda fazê-la.
+
+### U:86ad35c94c5e50fb:012 — Pause ocorrências do anúncio ruim e preserve exceção melhor
+```yaml
+tipo: procedimento
+plataforma: [google]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:11:22–00:15:31"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: um anúncio identificado como ruim na análise geral.
+1. Abra todos os anúncios da campanha, filtre os ativos e ordene pelo nome do anúncio.
+2. Localize e selecione as ocorrências do anúncio ruim.
+3. Antes de pausar, confira se alguma ocorrência está se destacando; mantenha essa ativa se estiver melhor.
+4. Edite para pausar as demais e localize o anúncio novo pelo campo “Texto do anúncio” para ativá-lo.
+
+### U:86ad35c94c5e50fb:013 — Otimização geral substitui em todos os grupos
+```yaml
+tipo: conceito
+plataforma: [google]
+tema: otimizacao
+tarefas: []
+fonte: fala
+faixa: "00:15:17–00:16:28"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Na otimização geral, pause um anúncio em todos os grupos de anúncios e ative um anúncio novo em todos eles.
+A análise geral é feita na aba “Vídeos” da campanha.
+
+### U:86ad35c94c5e50fb:014 — Otimização constante produz anúncios novos
+```yaml
+tipo: regra
+plataforma: [google]
+tema: criativo
+tarefas: [otimizar-anuncios, configurar-anuncio]
+fonte: "fala+pdf:cst_m05_a93_otimizacao_de_anuncios.pdf"
+faixa: "00:16:31–00:17:11"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Produza e envie anúncios novos constantemente.
+Otimizar é mais sobre substituir do que excluir; uma campanha baseada só em pausar anúncios ruins tende a performar pior a cada dia.
+
+### U:86ad35c94c5e50fb:015 — Lançamento com 20 vídeos forma acervo de substituição
+```yaml
+tipo: exemplo
+plataforma: [google]
+tema: criativo
+tarefas: [configurar-anuncio, otimizar-anuncios]
+fonte: fala
+faixa: "00:16:31–00:17:11"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Situação: o professor vai fazer um lançamento.
+O que aconteceu: ele grava 20 vídeos diferentes de uma vez.
+Lógica: o acervo permite subir continuamente anúncios novos para substituir os que saem.
+
+### U:86ad35c94c5e50fb:016 — PDF chama segmentações de coração da campanha
+```yaml
+tipo: fato-material
+plataforma: [google]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes]
+fonte: "pdf:cst_m05_a93_otimizacao_de_anuncios.pdf"
+perecivel: false
+confianca: media
+versao: 1
+nota: "O PDF afirma que as segmentações são o coração da campanha, enquanto a transcrição apresenta o anúncio como esse ponto central."
+```
+O PDF retoma quatro tipos de otimização de segmentações: grupos não pausados, segmentações no mesmo grupo, separar/expandir/reprimir segmentações e excluir/substituir grupos de anúncios.
+
+### U:86ad35c94c5e50fb:017 — Otimização de posicionamentos fica para a próxima aula
+```yaml
+tipo: limite
+plataforma: [google]
+tema: posicionamentos-e-formatos
+tarefas: []
+fonte: fala
+faixa: "00:17:13–00:17:25"
+perecivel: false
+confianca: alta
+versao: 1
+```
+A aula não mostra a otimização de onde os anúncios são exibidos; esse assunto fica para a próxima aula.

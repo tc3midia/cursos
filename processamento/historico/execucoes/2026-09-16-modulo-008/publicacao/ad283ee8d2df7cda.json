@@ -1,0 +1,17 @@
+{
+  "sha256": "e7ab14fd1502c3a66868c28bfaa0358fff92b14b91df1c6746031190830968f5",
+  "raw_sha256": "84a1c5ce263fe11f72ef0de2f3b8aaf8f4a19305ff09e69377c543aea9f4b4a3",
+  "unidades": 24,
+  "ajustes_mecanicos": [
+    "U:ad283ee8d2df7cda:013"
+  ],
+  "alteracoes": {
+    "13": {
+      "substituir": {
+        "hoje": "dia em curso"
+      },
+      "motivo": "Normalização mecânica do marcador temporal; a opção original da interface é Hoje. A seleção continua relativa ao dia da análise, sem atualização das fontes."
+    }
+  },
+  "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/conclusao-modulos/008/saidas/ad283ee8d2df7cda.extrator.md"
+}

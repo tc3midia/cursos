@@ -1,0 +1,178 @@
+---
+type: unidades-aula
+status: validado
+title: "7.3 - Palavras-chave negativa"
+modulo: "004"
+ordem: 71
+aula_id: 23bd7bb22c921055
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m04_a73_palavras_chave_negativa.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 7.3 - Palavras-chave negativa
+
+## Contexto da aula
+
+A aula trata da exclusão de palavras-chave negativas em campanhas de Pesquisa do Google.
+Explica quando excluir termos conhecidos antes de iniciar a campanha e quando deixar a campanha revelar termos inadequados.
+Demonstra a análise de termos de pesquisa e a inclusão de negativas dentro de um grupo de anúncios.
+A escolha considera a qualidade e a intenção do público, não apenas o custo ou a quantidade de conversões.
+
+## Unidades
+
+### U:23bd7bb22c921055:001 — Exclua antecipadamente termos que já são inadequados
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [definir-palavras-chave-negativas]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:00:00–00:02:39
+condicoes: "quando já souber os termos para os quais não quer aparecer"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se já souber que determinados termos levam o anúncio ao público errado, exclua-os na criação da campanha; não espere a campanha errar para fazer a exclusão.
+Para negócios com serviço pago, o professor cita “grátis”, “gratuito” e “de graça” como termos a considerar para exclusão.
+
+### U:23bd7bb22c921055:002 — Curso de diplomacia excluía buscas por carro Diplomata
+```yaml
+tipo: exemplo
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [definir-palavras-chave-negativas]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:00:00–00:01:58
+perecivel: false
+confianca: media
+versao: 1
+nota: "A fala menciona uma expressão aparentemente repetida (“diplomata diplomata”); o PDF registra outras variações do termo."
+```
+Situação: uma empresa vendia cursos para a carreira de diplomata, mas havia buscas relacionadas a um carro chamado Diplomata.
+O que aconteceu: os anúncios apareciam para pesquisas de carro, então a campanha já começava com essas variações excluídas.
+Lógica: identifique palavras específicas do nicho que podem associar o anúncio a uma intenção diferente da oferta.
+
+### U:23bd7bb22c921055:003 — Deixe a campanha revelar termos desconhecidos
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [definir-palavras-chave-negativas, otimizar-palavras-chave]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:01:59–00:02:39
+condicoes: "quando não houver termos específicos conhecidos para excluir"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando não souber previamente quais termos excluir, rode a campanha durante um tempo e use os termos de pesquisa que ela gerar para identificar exclusões sem sentido para o negócio.
+
+### U:23bd7bb22c921055:004 — Analise termos de pesquisa no grupo de anúncios
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [otimizar-palavras-chave, definir-palavras-chave-negativas]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:02:39–00:03:51
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: campanha com termos de pesquisa suficientes para análise.
+1. Entre no grupo de anúncios e abra “termos de pesquisa” no menu lateral esquerdo.
+2. Use os ordenamentos ensinados na aula anterior; o professor ordena por conversões para procurar oportunidades.
+3. Identifique termos com pouca ou nenhuma conversão ou que atraiam público indesejado.
+4. Selecione o termo e use “adicionar como palavra-chave negativa”.
+
+### U:23bd7bb22c921055:005 — Adicione negativa exata e uma exclusão mais ampla
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [definir-palavras-chave-negativas]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:03:12–00:04:18
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: termo de pesquisa que não deve mais acionar o anúncio.
+1. Selecione o termo e escolha adicioná-lo como palavra-chave negativa.
+2. Na opção de destino da negativa, selecione “grupo de anúncios” e salve.
+3. Abra “palavras-chave negativas” no menu lateral esquerdo.
+4. Clique no ícone “+” e inclua uma palavra mais ampla quando não quiser aparecer em nenhuma busca que a contenha.
+
+### U:23bd7bb22c921055:006 — Não escolha negativas apenas pelo custo por conversão
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [otimizar-palavras-chave, definir-palavras-chave-negativas]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:04:20–00:08:14
+perecivel: false
+confianca: alta
+versao: 1
+```
+Ao decidir uma exclusão, dê mais peso ao termo pesquisado e à qualidade do público do que ao valor da conversão.
+Uma conversão barata pode trazer um público ruim; custo por conversão caro é apenas um possível indicativo de que o termo não presta.
+
+### U:23bd7bb22c921055:007 — Use filtros para encontrar termos que gastaram sem converter
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [otimizar-palavras-chave, definir-palavras-chave-negativas]
+fonte: fala
+faixa: 00:04:46–00:06:38
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: filtro salvo para termos que gastaram e não converteram.
+1. Ordene os termos por custo por conversão para examinar os mais caros.
+2. Feche a ordenação e abra os filtros.
+3. Aplique o filtro “gastou e não converteu”, com conversões menores do que 1.
+4. Ordene pelo custo, avalie cada termo e adicione como negativa os que não fazem sentido.
+
+### U:23bd7bb22c921055:008 — Negativa define para quem o anúncio deve aparecer
+```yaml
+tipo: conceito
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: []
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:05:22–00:08:40
+perecivel: false
+confianca: alta
+versao: 1
+```
+Uma palavra-chave negativa comunica para quais pesquisas o anunciante quer aparecer e para quais não quer.
+A exclusão busca fazer a campanha aparecer para o público certo e aumentar as chances de conversão.
+
+### U:23bd7bb22c921055:009 — Use discernimento antes de excluir termos
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [definir-palavras-chave-negativas, otimizar-palavras-chave]
+fonte: fala+pdf:cst_m04_a73_palavras_chave_negativa.pdf
+faixa: 00:06:38–00:08:40
+perecivel: false
+confianca: alta
+versao: 1
+```
+Use discernimento para avaliar se o termo atrai a pesquisa que o negócio quer atender antes de transformá-lo em negativa.
+A exclusão pode acontecer ao criar a campanha, se os termos já forem conhecidos, ou depois de a campanha fornecer novas ideias de termos.

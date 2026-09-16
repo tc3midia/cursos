@@ -1,0 +1,4 @@
+
+
+- **COB-01 — Material; veto de cobertura.** **Prova:** a inspeção registra, na fala de 00:20:47–00:21:23, “vou interromper. Cancelar o experimento” e “Finaliza a experiência”; nenhuma das unidades 001–021 preserva essas operações. **Efeito prático:** o leitor consegue iniciar o experimento, mas fica sem orientação para interrompê-lo ou finalizá-lo, inclusive diante dos problemas cuja identificação a unidade 021 recomenda. **Correção mínima:** acrescentar procedimento ou decisão localizado que preserve as duas ações e os respectivos contextos demonstrados, com marcação perecível quando descrever interface. **Aceite:** evidência atualizada confirma ambas as ações na faixa indicada, sem inventar distinções ou condições; a unidade permite executar o encerramento e a validação permanece sem erros.
+

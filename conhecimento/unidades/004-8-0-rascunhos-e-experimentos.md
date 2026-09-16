@@ -1,0 +1,235 @@
+---
+type: unidades-aula
+status: validado
+title: "8.0 - Rascunhos e Experimentos"
+modulo: "004"
+ordem: 76
+aula_id: 845d213226687b73
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m04_a08_rascunhos_e_experimentos.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 8.0 - Rascunhos e Experimentos
+
+## Contexto da aula
+
+A aula apresenta rascunhos e experiências para testar alterações em campanhas da Rede de Pesquisa.
+Ela parte de uma campanha já em veiculação e compara a original com uma versão alterada.
+Mostra a criação do rascunho, a divisão do tráfego e a leitura posterior do resultado.
+O professor recomenda experiências sobretudo para mudanças delicadas ou testes estruturados.
+A funcionalidade é apresentada como restrita à Rede de Pesquisa, não ao YouTube nem ao Display.
+
+## Unidades
+
+### U:845d213226687b73:001 — Teste A/B divide tráfego entre campanha original e alteração
+```yaml
+tipo: conceito
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: []
+fonte: fala
+faixa: 00:00:42–00:01:19
+perecivel: false
+confianca: alta
+versao: 1
+```
+Teste A/B compara uma campanha que já rodava com outra que recebeu alteração, dividindo entre ambas o tráfego que antes ia só para a original.
+Depois da veiculação, a comparação mostra qual das duas teve melhor desempenho.
+
+### U:845d213226687b73:002 — Experiências são disponíveis apenas na Rede de Pesquisa
+```yaml
+tipo: limite
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: []
+fonte: fala
+faixa: 00:00:00–00:00:42
+perecivel: false
+confianca: alta
+versao: 1
+```
+A aula declara que os experimentos só podem ser feitos na Rede de Pesquisa; não mostra essa possibilidade no YouTube nem na Rede de Display.
+
+### U:845d213226687b73:003 — Use rascunho para alterar uma cópia sem mudar a original
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala
+faixa: 00:02:38–00:04:47
+perecivel: false
+confianca: alta
+versao: 1
+```
+Crie um rascunho da campanha antes de montar uma experiência: ele permite alterar a cópia sem modificar a campanha original.
+
+### U:845d213226687b73:004 — Criar e identificar um rascunho de campanha
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m04_a08_rascunhos_e_experimentos.pdf
+faixa: 00:02:38–00:04:47
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: estar dentro de uma campanha da Rede de Pesquisa que já está rodando.
+1. Abra “rascunhos e experiências” na última opção do menu lateral e escolha criar um novo rascunho.
+2. Dê ao rascunho o nome da campanha, acrescente “rascunho” e indique a alteração planejada.
+3. Preencha uma descrição da mudança e salve.
+4. Faça no rascunho as alterações que deseja testar.
+
+### U:845d213226687b73:005 — Aplicar o rascunho oferece alteração direta ou experiência
+```yaml
+tipo: alerta-ui
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala
+faixa: 00:04:09–00:06:41
+perecivel: true
+confianca: alta
+versao: 1
+```
+O botão “aplicar” no rascunho oferece duas saídas: levar as alterações à campanha original ou executar uma experiência.
+O professor usa a segunda opção para não expor integralmente uma campanha que já performa bem a uma mudança incerta.
+
+### U:845d213226687b73:006 — Alterar estratégia de lance no rascunho
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: leilao-e-lances
+tarefas: [rodar-testes-e-experimentos, escolher-estrategia-de-lance]
+fonte: fala+pdf:cst_m04_a08_rascunhos_e_experimentos.pdf
+faixa: 00:04:48–00:06:17
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: haver um rascunho aberto para uma campanha com estratégia de CPA desejado.
+1. Abra “configurações” e entre na seção da estratégia de lance.
+2. Escolha mudar a estratégia e selecione uma estratégia diferente.
+3. No exemplo, selecione “maximizar conversões” e salve.
+4. Aplique o rascunho e escolha executar uma experiência, em vez de mudar a campanha original.
+
+### U:845d213226687b73:007 — Divida o tráfego conforme o risco da alteração
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m04_a08_rascunhos_e_experimentos.pdf
+faixa: 00:07:20–00:10:15
+condicoes: "a divisão experimental determina a parcela do tráfego enviada à experiência"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se a alteração for pequena e não deve prejudicar o resultado, use divisão de 50% para a original e 50% para a experiência.
+Quando a campanha original tiver resultado muito bom e a mudança for mais arriscada, use 25% para a experiência; a análise deve considerar que ela recebeu menos tráfego.
+
+### U:845d213226687b73:008 — Configure duração de um mês e divisão baseada em cookie
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m04_a08_rascunhos_e_experimentos.pdf
+faixa: 00:10:15–00:11:46
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: ter escolhido executar uma experiência a partir de um rascunho aplicado.
+1. Nomeie a experiência com o nome da campanha e a indicação de que é uma experiência; registre também a divisão experimental na descrição.
+2. Informe datas de início e término para rodar por 1 mês.
+3. Em “opções avançadas”, escolha a opção com base em cookie.
+4. Verifique as informações e salve; a configuração cria duas campanhas paralelas.
+
+### U:845d213226687b73:009 — Cookie evita que a mesma pessoa veja as duas campanhas
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: atribuicao
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala
+faixa: 00:10:15–00:10:55
+perecivel: false
+confianca: alta
+versao: 1
+```
+Use a divisão com base em cookie; segundo o professor, ela torna o resultado mais apurado porque a mesma pessoa não vê campanhas diferentes.
+
+### U:845d213226687b73:010 — Consulte o resultado nas experiências da campanha
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: metricas-e-relatorios
+tarefas: [rodar-testes-e-experimentos, ler-metricas-e-relatorios]
+fonte: fala+pdf:cst_m04_a08_rascunhos_e_experimentos.pdf
+faixa: 00:11:46–00:12:24
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: a experiência já terminou ou acumulou período suficiente para ser avaliada.
+1. Abra a campanha original e entre em “rascunhos e experiências”.
+2. Selecione “experiências da campanha”.
+3. Abra a experiência para ver período, conversões, cliques, custos e variações reportadas.
+
+### U:845d213226687b73:011 — Aplique a experiência apenas se atender ao objetivo
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala
+faixa: 00:12:24–00:14:23
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se a experiência atingir a métrica buscada — no exemplo, custo por conversão muito mais barato mantendo a escala — clique em “aplicar” para transformar a original na experiência.
+Quando o relatório não indicar melhora, não aplique a experiência.
+
+### U:845d213226687b73:012 — Resultado da experiência compara métricas e suas variações
+```yaml
+tipo: conceito
+plataforma: [google-search]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios, rodar-testes-e-experimentos]
+fonte: fala
+faixa: 00:11:46–00:14:23
+perecivel: false
+confianca: alta
+versao: 1
+```
+O relatório da experiência apresenta a comparação entre original e variação, incluindo conversões, cliques e custos, para indicar se a mudança melhorou ou não a campanha.
+
+### U:845d213226687b73:013 — Use experiências para mudanças delicadas e aprendizado contínuo
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala
+faixa: 00:14:23–00:15:24
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando a alteração for delicada ou você quiser testá-la de modo mais estruturado, envie uma parcela pequena do tráfego para uma experiência.
+O professor recomenda testar continuamente: como faz uma experiência por mês, o aprendizado sobre as campanhas se acumula ao longo dos meses.

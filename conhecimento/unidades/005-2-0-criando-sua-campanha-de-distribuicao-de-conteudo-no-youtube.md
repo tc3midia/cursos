@@ -1,0 +1,401 @@
+---
+type: unidades-aula
+status: validado
+title: "2.0 - Criando sua campanha de distribuição de conteúdo no YouTube"
+modulo: "005"
+ordem: 78
+aula_id: 05d980447a95d5a6
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 2.0 - Criando sua campanha de distribuição de conteúdo no YouTube
+
+## Contexto da aula
+
+A aula orienta a criação de campanhas de distribuição de conteúdo no YouTube.
+Compara os subtipos vídeo In-Feed e In-Stream pulável conforme objetivo, custo e interação.
+Demonstra a configuração da campanha no Google Ads até a entrada na criação do grupo de anúncios.
+Explica limites de frequência, programação e opções de adequação de conteúdo.
+A escolha detalhada dos públicos fica para a próxima aula.
+
+## Unidades
+
+### U:05d980447a95d5a6:001 — Subtipos para distribuição de conteúdo
+```yaml
+tipo: conceito
+plataforma: [youtube]
+tema: estrutura-de-campanha
+tarefas: []
+fonte: fala
+faixa: "00:00:00–00:01:22"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Campanhas de distribuição de conteúdo usam vídeo In-Feed, In-Stream pulável ou ambos.
+O In-Feed tende a ter visualizações mais qualificadas, vídeos maiores, mais engajamento e custo por visualização mais alto.
+O In-Stream pulável tende a divulgar vídeos menores, com visualizações menos qualificadas, menos engajamento e menor custo.
+
+### U:05d980447a95d5a6:002 — Escolher In-Feed para inscritos e engajamento
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: objetivos
+tarefas: [escolher-objetivo-de-campanha]
+fonte: fala
+faixa: "00:02:03–00:04:27"
+condicoes: "a métrica de sucesso é inscritos, likes ou compartilhamentos"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se a campanha busca inscritos e engajamento com o vídeo, crie uma campanha de vídeo In-Feed.
+No In-Feed, quem abre o anúncio pode se inscrever no canal, curtir, não curtir e comentar no vídeo.
+
+### U:05d980447a95d5a6:003 — Escolher In-Stream para volume de visualizações
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: objetivos
+tarefas: [escolher-objetivo-de-campanha]
+fonte: fala
+faixa: "00:03:20–00:05:00"
+condicoes: "o objetivo é ampliar o público que vê o vídeo, inclusive até o fim"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se a meta é volume de pessoas vendo o vídeo, prefira o In-Stream pulável, que gera visualizações mais baratas, embora muitas vezes menos qualificadas.
+Para o professor, pessoas vendo o vídeo até o final é a métrica mais importante para avaliar sua campanha de vídeo.
+
+### U:05d980447a95d5a6:004 — Começar pelo In-Stream e comparar campanhas
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos, criar-campanha]
+fonte: fala
+faixa: "00:04:27–00:05:00"
+condicoes: "você está começando a divulgar no YouTube"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se você está começando suas divulgações no YouTube, comece pelo In-Stream pulável e depois adicione uma campanha In-Feed para ver o que funciona melhor.
+Os dois subtipos podem rodar em campanhas separadas.
+
+### U:05d980447a95d5a6:005 — Um subtipo de anúncio por campanha
+```yaml
+tipo: regra
+plataforma: [youtube]
+tema: estrutura-de-campanha
+tarefas: [definir-estrutura-de-campanha]
+fonte: fala
+faixa: "00:05:41–00:06:23"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Não misture anúncios In-Feed e In-Stream pulável na mesma campanha: uma campanha selecionada para In-Feed só pode conter anúncios In-Feed.
+
+### U:05d980447a95d5a6:006 — Criar campanha de vídeo sem meta
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: estrutura-de-campanha
+tarefas: [criar-campanha]
+fonte: fala
+faixa: "00:05:01–00:07:02"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: acesso ao Google Ads e objetivo de gerar visualizações.
+1. Clique em criar nova campanha.
+2. Selecione “criar uma campanha sem meta”.
+3. Escolha campanha de vídeo.
+4. Selecione campanha de vídeo personalizada e clique em “continuar”.
+A escolha sem meta libera os subtipos In-Feed e In-Stream pulável.
+
+### U:05d980447a95d5a6:007 — Nomear campanha com rede e subtipo
+```yaml
+tipo: regra
+plataforma: [youtube]
+tema: nomenclatura
+tarefas: [nomear-campanhas]
+fonte: fala
+faixa: "00:06:23–00:07:36"
+perecivel: true
+confianca: alta
+versao: 1
+```
+No campo de nome da campanha, inclua a rede e o subtipo; o professor exemplifica uma campanha In-Feed para distribuição de lives.
+
+### U:05d980447a95d5a6:008 — Usar CPV para foco em visualizações
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: leilao-e-lances
+tarefas: [escolher-estrategia-de-lance]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:07:02–00:08:11"
+perecivel: true
+confianca: media
+versao: 1
+nota: "A fala recomenda CPV para foco em visualizações; o PDF instrui selecionar “CPM desejado” para a mesma campanha."
+```
+Se o foco é fazer as pessoas verem o vídeo, selecione CPV, custo por visualização.
+CPM é para foco em impressões e o professor o associa a bumper ou In-Stream não pulável.
+
+### U:05d980447a95d5a6:009 — Definir orçamento diário
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: orcamento
+tarefas: [definir-orcamento]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:07:36–00:08:11"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Quando escolher entre orçamento total da campanha e diário, o professor prefere diário para manter a organização.
+Ele exemplifica R$20 por dia e diz que, se der errado, haverá nova verba para gastar no dia seguinte.
+
+### U:05d980447a95d5a6:010 — Excluir parceiros de vídeo da Rede de Display
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: posicionamentos-e-formatos
+tarefas: [escolher-canais-e-posicionamentos]
+fonte: fala
+faixa: "00:08:11–00:08:47"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: a opção de rede está disponível na criação da campanha.
+1. Remova “parceiros de vídeo na rede de Display”.
+2. Mantenha selecionadas a pesquisa do YouTube e os vídeos relacionados do YouTube.
+O professor informa que o YouTube vem retirando gradativamente essa escolha de rede.
+
+### U:05d980447a95d5a6:011 — Selecionar locais e idiomas pelo público
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: publicos
+tarefas: [definir-segmentacao-demografica-e-interesses]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:08:47–00:09:28"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Quando configurar locais, escolha cidade, CEP, bairro ou outra área onde quer aparecer.
+Para idiomas, o professor recomenda espanhol, inglês e português; acrescente idiomas que façam sentido para a audiência, como alemão ou japonês.
+
+### U:05d980447a95d5a6:012 — Usar inventário padrão na maioria dos casos
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: posicionamentos-e-formatos
+tarefas: [escolher-canais-e-posicionamentos]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:08:47–00:10:41"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se o conteúdo não exige uma restrição especial, selecione inventário padrão.
+Se o conteúdo for religioso, por exemplo, o professor prefere inventário limitado.
+Inventário expandido é sua última opção para campanha sem gasto ou para escalar muito; ele cita gastar R$50 mil por dia como exemplo.
+
+### U:05d980447a95d5a6:013 — Deixar rótulos e tipos de conteúdo desselecionados
+```yaml
+tipo: regra
+plataforma: [youtube]
+tema: posicionamentos-e-formatos
+tarefas: [escolher-canais-e-posicionamentos]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:10:06–00:11:53"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Deixe desselecionadas as exclusões de rótulos e tipos de conteúdo para aparecer em todos os lugares.
+Excluir “vídeos incorporados do YouTube” impede a exibição em vídeos do YouTube incorporados em sites.
+
+### U:05d980447a95d5a6:014 — Configurar adequação de conteúdo na conta
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: posicionamentos-e-formatos
+tarefas: [escolher-canais-e-posicionamentos]
+fonte: fala
+faixa: "00:11:53–00:12:26"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: você precisa ajustar exclusões de conteúdo após a alteração apresentada na aula.
+1. Abra “ferramentas e configurações”.
+2. Entre em “adequação de conteúdo”.
+3. Configure as opções para a conta inteira.
+As exclusões de conteúdo deixam de ser configuradas apenas na campanha; as explicações anteriores continuam valendo nesse local.
+
+### U:05d980447a95d5a6:015 — Adicionar vídeos relacionados ao anúncio
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: posicionamentos-e-formatos
+tarefas: [configurar-anuncio]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:12:26–00:14:56"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: campanha de vídeo In-Feed ou In-Stream pulável e vídeos próprios no canal.
+1. Abra “vídeos relacionados”.
+2. Escolha ao menos 2 vídeos relacionados ao tema do anúncio.
+3. Copie as URLs dos vídeos e adicione-as na seção.
+4. Clique em “concluído”.
+Vídeos relacionados funcionam como extensão que complementa o anúncio.
+
+### U:05d980447a95d5a6:016 — Manter todos os dispositivos no início
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: posicionamentos-e-formatos
+tarefas: [escolher-canais-e-posicionamentos]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:14:23–00:14:56"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Quando configurar dispositivos, deixe todas as opções selecionadas no início.
+Depois de ler os resultados de TV, tablet, smartphone e computador, decida se deve restringir dispositivos.
+
+### U:05d980447a95d5a6:017 — Limitar impressões no In-Stream pulável
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: orcamento
+tarefas: [definir-orcamento]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:14:56–00:17:03"
+condicoes: "a campanha é In-Stream pulável"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se a campanha é In-Stream pulável, limite as impressões para não incomodar a mesma pessoa repetidamente.
+O professor costuma usar no máximo 3 impressões por dia e 14 por semana.
+Para In-Feed, ele diz para não se preocupar com limite de impressões.
+
+### U:05d980447a95d5a6:018 — Limitar visualizações após 30 segundos
+```yaml
+tipo: regua
+plataforma: [youtube]
+tema: orcamento
+tarefas: [definir-orcamento]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:17:03–00:18:13"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Use limite de visualizações para quem assistiu mais de 30 segundos do vídeo.
+O professor costuma limitar a 2 visualizações por dia e 3 por semana, inclusive em campanha In-Feed.
+
+### U:05d980447a95d5a6:019 — Remover limites para acelerar gasto
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: otimizacao
+tarefas: [diagnosticar-campanha-sem-gasto]
+fonte: fala
+faixa: "00:16:23–00:18:53"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se a campanha está gastando pouco e você precisa acelerar o gasto, remova os limites de frequência.
+O limite configurado pode ser a causa de uma campanha não gastar dinheiro.
+
+### U:05d980447a95d5a6:020 — Programar separadamente os sete dias
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:18:13–00:20:05"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: configuração da programação de anúncios.
+1. Adicione todos os 7 dias da semana separadamente.
+2. Depois da campanha rodar, leia os resultados por dia.
+3. Use a leitura para identificar dias com mais visualizações ou conversões.
+O professor não gosta de dividir cada dia em faixas de horário.
+
+### U:05d980447a95d5a6:021 — Público-alvo define para quem e conteúdo define onde
+```yaml
+tipo: conceito
+plataforma: [youtube]
+tema: publicos
+tarefas: []
+fonte: fala
+faixa: "00:20:08–00:24:58"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Segmentação de público-alvo define para quem o anúncio aparece; inclui públicos de YouTube, site, segmentação personalizada, segmentação combinada e demográficos.
+Segmentação por conteúdo define onde aparecer; pode usar palavras-chave, canais ou tópicos.
+É possível combinar público-alvo e conteúdo na mesma segmentação.
+
+### U:05d980447a95d5a6:022 — Começar separando para quem e onde
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: publicos
+tarefas: [definir-segmentacao-demografica-e-interesses]
+fonte: fala+pdf:cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf
+faixa: "00:24:58–00:27:59"
+condicoes: "você está criando sua primeira campanha"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se você está começando, separe a segmentação de para quem aparece da segmentação de onde aparece.
+Combinar público qualificado, canais e palavras-chave pode deixar o público pequeno demais, impedindo o YouTube de entregar volume ou gastar a verba.
+
+### U:05d980447a95d5a6:023 — Escolha detalhada do público fica para a próxima aula
+```yaml
+tipo: limite
+plataforma: [youtube]
+tema: publicos
+tarefas: []
+fonte: fala
+faixa: "00:27:59–00:28:38"
+perecivel: true
+confianca: alta
+versao: 1
+```
+A aula encerra a configuração da campanha antes de definir para quem anunciar no grupo de anúncios.
+A estrutura detalhada dos públicos será mostrada na próxima aula.

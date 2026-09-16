@@ -1,0 +1,109 @@
+---
+type: unidades-aula
+status: validado
+title: "7.3 - Campanhas de Reconhecimento"
+modulo: "002"
+ordem: 47
+aula_id: e762527908ae1c89
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - transcricao.md
+extraido_em: 2026-09-15
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 7.3 - Campanhas de Reconhecimento
+
+## Contexto da aula
+
+A aula demonstra a configuração de campanhas de reconhecimento no Meta Ads.
+O foco são as metas de desempenho e o controle de frequência disponível para alcance.
+Também orienta a escolha do público e esclarece opções da tela de criação do anúncio.
+A nomenclatura e configurações de CBO ou ABO são tratadas como assuntos já vistos.
+
+## Unidades
+
+### U:e762527908ae1c89:001 — Metas de desempenho em campanhas de reconhecimento
+```yaml
+tipo: conceito
+plataforma: [meta]
+tema: objetivos
+tarefas: [escolher-objetivo-de-campanha]
+fonte: fala
+faixa: 00:00:00–00:01:50
+perecivel: true
+confianca: alta
+versao: 1
+```
+No conjunto de anúncios, selecione a página do Facebook e defina a meta de desempenho.
+Alcance busca aparecer para o maior número possível de pessoas.
+Impressões busca muitas exibições, inclusive repetidas para a mesma pessoa; 100 exibições para uma pessoa são 100 impressões e 1 alcance.
+Incrementalidade na lembrança busca pessoas com maior probabilidade de recordar o anúncio e equilibra alcance com frequência.
+
+### U:e762527908ae1c89:002 — Altere a frequência ao maximizar alcance
+```yaml
+tipo: regua
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [criar-campanha-de-reconhecimento-ou-seguidores]
+fonte: fala
+faixa: 00:01:51–00:03:07
+condicoes: "ao selecionar a meta de desempenho de alcance"
+perecivel: true
+confianca: alta
+versao: 1
+```
+A configuração padrão de alcance exibe o anúncio 1 vez para cada pessoa a cada 7 dias.
+Altere o limite de frequência nas opções; o professor costuma definir 3 ou 4 vezes a cada 1 dia para dar margem de entrega.
+Impressões e incrementalidade na lembrança não oferecem esse limite de frequência.
+
+### U:e762527908ae1c89:003 — Segmente o público de uma campanha de alcance
+```yaml
+tipo: regra
+plataforma: [meta]
+tema: publicos
+tarefas: [definir-segmentacao-demografica-e-interesses]
+fonte: fala
+faixa: 00:03:07–00:03:51
+perecivel: true
+confianca: alta
+versao: 1
+```
+Em campanha de alcance, selecione um público; não anuncie aberto para alcançar o Brasil inteiro.
+Use público personalizado, localização ou outra segmentação para definir exatamente quem deve receber muitas exibições.
+
+### U:e762527908ae1c89:004 — Formatos disponíveis no anúncio de reconhecimento
+```yaml
+tipo: alerta-ui
+plataforma: [meta]
+tema: posicionamentos-e-formatos
+tarefas: [configurar-anuncio]
+fonte: fala
+faixa: 00:03:52–00:04:11
+perecivel: true
+confianca: alta
+versao: 1
+```
+A configuração do anúncio não tem detalhes diferentes dos demais casos: permite imagem, carrossel, coleção e adição de mídia.
+
+### U:e762527908ae1c89:005 — Destino faz surgir o campo de título
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: criativo
+tarefas: [configurar-anuncio]
+fonte: fala
+faixa: 00:04:13–00:05:27
+perecivel: true
+confianca: alta
+versao: 1
+```
+Quando adicionar um destino, como site ou WhatsApp, use o campo de título que passa a aparecer na tela.
+Sem destino, a campanha pode trabalhar apenas com texto principal e suas variações.
+Campanhas de alcance podem ter título; o professor diz que destino não é comum nesse caso porque não se busca clique.

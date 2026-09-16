@@ -1,0 +1,44 @@
+{
+  "unidades": {
+    "comando": [
+      "ferramentas/curso-subido/validate_unidades.py",
+      "--json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n \"arquivos\": 77,\n \"unidades\": 1798,\n \"erros\": [],\n \"warnings\": [\n  \"001-11-0-escala-como-aumentar-seus-resultados: U:66ef9cb703ae7a9d:007: confianca baixa\",\n  \"001-14-0-sobreposicao-de-publicos: U:518268cbf4025351:024: confianca baixa\",\n  \"001-2-0-o-abc-do-trafego: fonte ignorada: Mapa Mental.txt (contém apenas o endereço do mapa mental no Whimsical, sem conteúdo extraível)\",\n  \"001-2-0-o-abc-do-trafego: densidade fora de 3–60: 65 unidades\",\n  \"001-3-0-como-aprender-trafego-e-qual-fonte-aprender-primeiro: U:463ea0b6acde1e67:021: confianca baixa\",\n  \"001-5-0-pixel-e-api-de-conversoes: U:54dea110daddeb21:022: confianca baixa\",\n  \"001-6-0-metricas: fonte ignorada: Mapa Mental.txt (contém apenas o endereço do mapa mental, sem texto aproveitável)\",\n  \"001-6-0-metricas: U:d33f0baf66274a3d:044: confianca baixa\",\n  \"001-7-0-relatorios-os-simplificadores-da-sua-vida: U:3fe33200ba63c40f:024: confianca baixa\",\n  \"001-9-0-utilizando-o-chatgpt-para-criar-anuncios: U:f27a8bb79b5ba6b6:026: confianca baixa\",\n  \"002-6-1-selecao-de-objetivos-e-metas-de-desempenho: U:132b49d477065deb:026: confianca baixa\",\n  \"003-1-0-configuracoes-iniciais: U:7d799930d747fec1:016: confianca baixa\",\n  \"003-2-0-configurando-seu-pixel: U:c27d506b3f3b9659:027: confianca baixa\",\n  \"003-4-0-criando-sua-lista-de-palavras-chave-keywords: U:37faf06602b61686:010: confianca baixa\",\n  \"003-4-0-criando-sua-lista-de-palavras-chave-keywords: U:37faf06602b61686:036: confianca baixa\",\n  \"003-5-0-os-10-tipos-de-segmentacoes-do-google-ads: U:4dfa0ce0b375f1cd:042: confianca baixa\",\n  \"003-6-0-checklist-de-publicos-missao-pratica: U:76add28def37d80e:021: confianca baixa\",\n  \"003-7-0-estrategias-de-lance: U:ae968d044edcad03:022: confianca baixa\",\n  \"tarefa sem unidade: converter-campanha-entre-redes\"\n ]\n}\n",
+    "stderr": ""
+  },
+  "indices": {
+    "comando": [
+      "ferramentas/curso-subido/build_indices.py",
+      "--check"
+    ],
+    "returncode": 0,
+    "stdout": "ok\n",
+    "stderr": ""
+  },
+  "derivados": {
+    "comando": [
+      "ferramentas/curso-subido/validate_visoes.py",
+      "--playbooks",
+      "--desatualizadas"
+    ],
+    "returncode": 0,
+    "stdout": "0 erros\n",
+    "stderr": ""
+  },
+  "testes": {
+    "comando": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "ferramentas/curso-subido/tests",
+      "-p",
+      "test_curso_subido_*.py"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ".................................................................................\n----------------------------------------------------------------------\nRan 81 tests in 5.121s\n\nOK\n"
+  }
+}

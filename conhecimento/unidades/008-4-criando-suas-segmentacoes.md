@@ -1,0 +1,404 @@
+---
+type: unidades-aula
+status: validado
+title: "4.Criando suas segmentações"
+modulo: "008"
+ordem: 123
+aula_id: b303141a9653e458
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 4.Criando suas segmentações
+
+## Contexto da aula
+
+A aula demonstra a criação de públicos no TikTok Ads, principalmente públicos personalizados e semelhantes.
+Parte da orientação é baseada na interface exibida e pode mudar, embora o professor diga que o processo permanece parecido.
+Ela assume campanhas e grupos de anúncios já existentes para formar parte dos públicos de engajamento.
+A criação prática de campanhas e o formulário instantâneo são deixados para uma aula posterior.
+
+## Unidades
+
+### U:b303141a9653e458:001 — Acessar a criação de audiências pelos ativos
+```yaml
+tipo: procedimento
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:00:00–00:01:13"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: acesso à conta do TikTok Ads.
+1. Abra os ativos e entre no menu Audiências.
+2. Clique em criar audiência.
+3. Escolha entre audiência personalizada (Custom Audience) e audiência semelhante (Lookalike Audience).
+A criação também pode ser acessada pelo Business Center, onde os públicos podem ser compartilhados.
+
+### U:b303141a9653e458:002 — Não subir e-mails ou telefones como lista de clientes
+```yaml
+tipo: regra
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:01:13–00:02:18"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Não perca tempo tentando enviar listas de e-mail ou telefone em Customer File: a tela pede formatos IDFA e GAID, e o professor não conseguiu usar listas comuns.
+Ele afirma que uma atualização futura da aula avisaria caso o TikTok liberasse essa opção.
+
+### U:b303141a9653e458:003 — Público de engajamento usa interações com grupos de anúncio
+```yaml
+tipo: conceito
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:01:54–00:05:48"
+perecivel: true
+confianca: alta
+versao: 1
+```
+A audiência de engajamento do TikTok é formada por interações com anúncios dos grupos de anúncio, não por engajamento orgânico do perfil.
+Ela pode considerar cliques, impressões e visualizações de vídeo em diferentes durações ou percentuais.
+
+### U:b303141a9653e458:004 — Evitar usar impressão como público qualificado
+```yaml
+tipo: regra
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:03:06–00:03:47"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Evite criar público de impressão: o anúncio ter aparecido para alguém não significa que essa pessoa seja qualificada.
+
+### U:b303141a9653e458:005 — Usar Auto Refresh em público de visualização
+```yaml
+tipo: conceito
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:03:47–00:04:29"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Com Auto Refresh ativado, o TikTok acrescenta automaticamente ao público cada nova pessoa que atingir o critério escolhido, como ver 75% do vídeo.
+
+### U:b303141a9653e458:006 — Não ativar alcance e frequência no começo
+```yaml
+tipo: decisao
+plataforma: [tiktok]
+tema: objetivos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:03:48–00:05:14"
+condicoes: "para quem está começando a anunciar no TikTok"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se você estiver começando no TikTok, não ative alcance e frequência ao criar o público.
+A opção é indicada apenas para campanhas de alcance e frequência e faz o preenchimento do público levar cerca de 1 a 2 dias.
+
+### U:b303141a9653e458:007 — Atualizar públicos ao criar novos grupos de anúncio
+```yaml
+tipo: decisao
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:02:19–00:07:14"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Quando criar novos grupos de anúncio, edite os públicos de engajamento e inclua esses grupos.
+Faça isso a cada 15 ou 30 dias, conforme a frequência com que cria campanhas.
+
+### U:b303141a9653e458:008 — Direção inicial para públicos de vídeo engajados
+```yaml
+tipo: regua
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:06:27–00:08:41"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Crie, como direção geral, públicos de todos os grupos de anúncio para quem viu 50% e 75% dos Video Ads, nas janelas de 7, 30 e 180 dias.
+Isso forma 6 públicos; não crie uma combinação que sua conta nunca utiliza.
+
+### U:b303141a9653e458:009 — Criar públicos de atividade no aplicativo
+```yaml
+tipo: decisao
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:08:41–00:10:08"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se o negócio tiver aplicativo, use Atividade com aplicativo para criar públicos por ações como instalação, abertura, checkout, tutorial, pagamento ou nível atingido.
+A implementação do pixel no aplicativo deve ser entendida com o desenvolvedor responsável.
+
+### U:b303141a9653e458:010 — Criar públicos de tráfego do site por evento do pixel
+```yaml
+tipo: procedimento
+plataforma: [tiktok]
+tema: pixel-e-eventos
+tarefas: [montar-publicos-personalizados, instalar-pixel-e-eventos]
+fonte: fala
+faixa: "00:10:08–00:11:44"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: pixel do site selecionável no TikTok Ads.
+1. Em Website Traffic, escolha o evento que formará o público, como Page View ou Subscribe.
+2. Selecione o pixel correspondente.
+3. Dê um nome ao público, defina quantos dias a pessoa permanecerá nele e ative Auto Refresh.
+
+### U:b303141a9653e458:011 — Nomear públicos pelo tipo, evento e janela
+```yaml
+tipo: regra
+plataforma: [tiktok]
+tema: nomenclatura
+tarefas: [nomear-campanhas]
+fonte: fala
+faixa: "00:10:08–00:11:44"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Nomeie o público começando pelo tipo e depois detalhe evento ou critério e período; o professor usa EN para engajamento e WT para Website Traffic.
+Exemplos: EN Video Ads 50% 7 dias; WT Page View 30 dias; WT Subscribe 180 dias.
+
+### U:b303141a9653e458:012 — Associar a conta para usar Business Account
+```yaml
+tipo: procedimento
+plataforma: [tiktok]
+tema: conta-e-configuracao
+tarefas: [configurar-conta, montar-publicos-personalizados]
+fonte: fala
+faixa: "00:11:44–00:13:11"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: conta do TikTok disponível para associação.
+1. Clique no ícone de User Settings.
+2. Abra as configurações do usuário.
+3. Associe a conta do TikTok para selecionar o perfil em Business Account.
+
+### U:b303141a9653e458:013 — Públicos recomendados de Business Account
+```yaml
+tipo: regua
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:11:44–00:14:23"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Em Business Account, crie públicos de seguidores, de pessoas que viram o vídeo até 100%, de visitas ao perfil e de engajamento.
+Para vídeo, visita e engajamento, use 7, 14 ou 30 dias; o professor não considera muito úteis os públicos de visualização de 2 ou 6 segundos.
+
+### U:b303141a9653e458:014 — Públicos quentes de Website Traffic
+```yaml
+tipo: regua
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: "00:14:23–00:15:21"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Para Website Traffic, o professor criaria Page View e Subscribe em 7, 30 e 180 dias.
+Ele classifica esses públicos e os de engajamento como públicos quentes de pessoas que já interagiram com o negócio.
+
+### U:b303141a9653e458:015 — Público de formulário instantâneo
+```yaml
+tipo: conceito
+plataforma: [tiktok]
+tema: destino-e-landing-page
+tarefas: [criar-campanha-de-formulario, montar-publicos-personalizados]
+fonte: fala
+faixa: "00:15:21–00:16:03"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Lead Generation permite formar públicos de quem visualizou ou enviou um Instant Form, o formulário preenchido dentro do TikTok.
+A aula compara esse recurso ao formulário de cadastros do Facebook Ads e deixa sua criação de campanha para depois.
+
+### U:b303141a9653e458:016 — Direção para públicos de Lead Generation
+```yaml
+tipo: decisao
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-personalizados, criar-campanha-de-formulario]
+fonte: fala
+faixa: "00:16:03–00:17:07"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Se você usar formulário instantâneo, crie públicos LG de Submit Form e View Form, usando 7, 30 e 180 dias como direção.
+Há uma divergência na demonstração: antes o professor diz que a interface permite formulário de 7 até 90 dias e, depois, recomenda 180 dias.
+
+### U:b303141a9653e458:017 — Tipos de lookalike no TikTok
+```yaml
+tipo: conceito
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:17:07–00:20:12"
+perecivel: true
+confianca: alta
+versao: 1
+```
+O TikTok oferece lookalikes Narrow, Balanced e Broad, em vez de uma escala percentual de 1 a 10% como a citada para Facebook Ads.
+Narrow procura pessoas mais parecidas e tende a ter menos usuários; Balanced equilibra tamanho e semelhança; Broad amplia o público com menor proximidade da fonte.
+
+### U:b303141a9653e458:018 — Excluir o público fonte do lookalike
+```yaml
+tipo: regra
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:17:50–00:18:40"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Ao criar um lookalike, selecione Omit para não incluir no semelhante o próprio público usado como fonte.
+
+### U:b303141a9653e458:019 — Configurar sistema, placement e localização do lookalike
+```yaml
+tipo: procedimento
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:18:40–00:19:25"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: público fonte escolhido para gerar o lookalike.
+1. Deixe Sistema em Todos, salvo se anunciar somente para iOS.
+2. Em Placement, selecione somente TikTok.
+3. Escolha a localização do público, como Brasil.
+O professor recomenda somente TikTok porque afirma que seus testes apontaram melhor funcionamento.
+
+### U:b303141a9653e458:020 — Escolher a fonte conforme o objetivo da campanha
+```yaml
+tipo: decisao
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:20:12–00:20:53"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se a campanha for de conversão, crie semelhante de Subscribe; se for de seguidores, use seguidores; se for distribuição de conteúdo, use engajamento; se usar formulário, use quem enviou o formulário.
+Teste lookalikes cuja fonte seja próxima do objetivo da campanha.
+
+### U:b303141a9653e458:021 — Escolher Narrow, Balanced ou Broad pela escala necessária
+```yaml
+tipo: decisao
+plataforma: [tiktok]
+tema: escala
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:20:53–00:22:32"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se a verba for menor e a necessidade for de menos escala, use Narrow; se precisar de mais escala, use Balanced; se investir muito e precisar de muita escala, teste Broad.
+Só os testes dirão qual dos três funciona melhor para a conta.
+
+### U:b303141a9653e458:022 — Nomear lookalikes com tipo e público fonte
+```yaml
+tipo: regra
+plataforma: [tiktok]
+tema: nomenclatura
+tarefas: [nomear-campanhas, montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:20:53–00:22:32"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Use LL seguido do tipo do lookalike e do público fonte no nome, como LL Narrow ou LL Balanced mais a base usada.
+A fonte pode ser Subscribe, Purchase, Initiate Checkout ou outro evento que seja usado nos anúncios.
+
+### U:b303141a9653e458:023 — Atualizar manualmente públicos lookalike
+```yaml
+tipo: procedimento
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:23:16–00:26:59"
+perecivel: true
+confianca: media
+versao: 1
+nota: "A recomendação nasce de uma observação do professor: ele não sabe por que os lookalikes não estavam sendo atualizados automaticamente na conta demonstrada."
+```
+Pré-condição: públicos lookalike já criados e novas pessoas entrando no público fonte.
+1. A cada 15 ou 30 dias, ou pelo menos uma vez por mês, abra as audiências lookalike.
+2. Passe o mouse sobre o nome do público.
+3. Clique em Refresh para atualizá-lo com as novas pessoas do público base.
+O professor relata que anúncios que usam a audiência são atualizados automaticamente após esse refresh.
+
+### U:b303141a9653e458:024 — Tamanho exibido do lookalike pode exigir refresh
+```yaml
+tipo: exemplo
+plataforma: [tiktok]
+tema: publicos
+tarefas: [montar-publicos-semelhantes]
+fonte: fala
+faixa: "00:22:32–00:24:05"
+perecivel: true
+confianca: media
+versao: 1
+nota: "O professor levanta a hipótese de falha ou falta de atualização; não explica a causa."
+```
+Situação: na conta demonstrada, um lookalike Narrow de Submit Form mostrava 11 milhões de pessoas, Balanced mostrava 41 milhões e Broad 27 milhões.
+O que aconteceu: o Broad apareceu menor que o Balanced, embora o professor esperasse outra ordem.
+Lógica: ele sugere clicar em Refresh Lookalike Audience para atualizar a audiência, mas declara não saber por que ela não atualizava automaticamente.

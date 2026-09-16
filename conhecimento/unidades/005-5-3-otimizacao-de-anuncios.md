@@ -1,0 +1,269 @@
+---
+type: unidades-aula
+status: validado
+title: "5.3 - Otimização de anúncios"
+modulo: "005"
+ordem: 89
+aula_id: 69d6129ff46daecb
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m05_a53_otimizacao_de_anuncios.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 5.3 - Otimização de anúncios
+
+## Contexto da aula
+
+A aula mostra como analisar e otimizar anúncios de campanhas de distribuição de conteúdo.
+A demonstração é feita com anúncios de vídeo no Google Ads, tratados como anúncios do YouTube.
+Ela compara uma análise minuciosa por grupo de anúncios com uma análise consolidada da campanha.
+O foco é decidir pausas, substituir anúncios e interpretar métricas sem comparar vídeos de durações muito diferentes.
+
+## Unidades
+
+### U:69d6129ff46daecb:001 — Filtrar anúncios ativados antes da leitura
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala
+faixa: "00:00:00–00:00:29"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: estar na visualização de anúncios de um grupo de anúncios.
+1. Entre no grupo de anúncios que será analisado.
+2. Filtre os anúncios pelo status ativado para facilitar a leitura dos resultados.
+
+### U:69d6129ff46daecb:002 — Manter de 6 a 8 anúncios ativos por campanha
+```yaml
+tipo: regua
+plataforma: [youtube]
+tema: estrutura-de-campanha
+tarefas: [definir-estrutura-de-campanha]
+fonte: fala
+faixa: "00:00:30–00:01:09"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Mantenha entre 6 e 8 anúncios ativos na campanha; mais de 8 já é considerado estourado, e menos que essa faixa também não é a preferência do professor.
+Quando pausar um anúncio, suba um anúncio novo na campanha.
+
+### U:69d6129ff46daecb:003 — PDF indica 8 anúncios como ideal e 10 como máximo
+```yaml
+tipo: fato-material
+plataforma: [youtube]
+tema: estrutura-de-campanha
+tarefas: [definir-estrutura-de-campanha]
+fonte: "pdf:cst_m05_a53_otimizacao_de_anuncios.pdf"
+perecivel: false
+confianca: alta
+versao: 1
+nota: "Página 2. O PDF diverge parcialmente da fala, que prefere 6 a 8 e trata mais de 8 como estourado."
+```
+O PDF orienta não ter mais de 10 anúncios por campanha no Google Ads e aponta 8 como quantidade ideal.
+
+### U:69d6129ff46daecb:004 — Ordenar por custo e incluir visualizações
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: fala
+faixa: "00:01:09–00:01:44"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: estar na tela de anúncios com as colunas disponíveis.
+1. Abra “modificar colunas” e inclua a coluna de visualizações.
+2. Ordene pelo custo para identificar qual anúncio traz mais visualizações para a campanha.
+3. Observe o custo por visualização para comparar a variação de gasto entre os vídeos.
+
+### U:69d6129ff46daecb:005 — Usar taxa de visualização e percentuais como leitura complementar
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios, otimizar-anuncios]
+fonte: fala
+faixa: "00:01:44–00:03:45"
+condicoes: "quando o custo por visualização dos anúncios estiver semelhante"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando o custo por visualização estiver igual ou parecido, analise a taxa de visualização e os percentuais assistidos até 25%, 50% e 75%.
+Compare cada anúncio com a linha de média final da campanha antes de decidir a pausa.
+
+### U:69d6129ff46daecb:006 — Não pausar só por ficar levemente abaixo da média
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:02:18–00:04:21"
+condicoes: "quando o anúncio recebe mais gasto do Google e está apenas levemente abaixo da média"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se o anúncio recebe mais gasto porque o Google encontra mais oportunidades de visualização para ele, não o pause apenas por estar levemente abaixo da média na taxa de visualização.
+Se tiver a menor taxa de visualização e não registrar percentuais assistidos, o professor provavelmente o pausaria.
+
+### U:69d6129ff46daecb:007 — Copiar anúncio pausado e priorizar nova thumbnail
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: criativo
+tarefas: [otimizar-anuncios, configurar-anuncio]
+fonte: fala
+faixa: "00:04:21–00:05:10"
+condicoes: "quando um anúncio for pausado por taxa de visualização baixa"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se pausar um anúncio, crie uma cópia e tente melhorar a taxa de visualização.
+A melhor alteração indicada é uma thumbnail nova; se ela ainda depender do designer, altere o título e a descrição da cópia.
+
+### U:69d6129ff46daecb:008 — Editar título e descrição da cópia
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: copy-e-roteiro
+tarefas: [configurar-anuncio]
+fonte: fala
+faixa: "00:05:13–00:07:37"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: ter criado uma cópia do anúncio pausado e localizado o anúncio novo.
+1. Ative o anúncio novo e abra “editar” seguido de “editar anúncio”.
+2. Altere o título e a descrição, mantendo atenção à nomenclatura do anúncio.
+3. Clique em “salvar anúncio”.
+
+### U:69d6129ff46daecb:009 — Analisar a campanha inteira no modo consolidado
+```yaml
+tipo: procedimento
+plataforma: [youtube]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios, otimizar-anuncios]
+fonte: fala
+faixa: "00:08:14–00:10:09"
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: precisar analisar anúncios de todos os grupos de uma campanha.
+1. Abra os anúncios de toda a campanha e registre as médias de CPV, taxa de visualização e vídeo assistido até 25%.
+2. Adicione o filtro “texto do anúncio” e selecione o status dos anúncios ativados.
+3. Digite a nomenclatura de cada anúncio no filtro, como AD1, AD2 e assim por diante, e aplique a leitura consolidada.
+
+### U:69d6129ff46daecb:010 — Manter anúncios que ficam dentro das médias
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:10:09–00:12:39"
+condicoes: "na análise consolidada por nome de anúncio"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se CPV, taxa de visualização e percentual assistido estiverem dentro ou apenas um pouco abaixo da média, mantenha o anúncio sem alteração.
+No exemplo, nenhum anúncio foi pausado porque todos estavam muito dentro da média.
+
+### U:69d6129ff46daecb:011 — Escolher análise minuciosa ou consolidada
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:12:39–00:13:18"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando houver tempo para um trabalho mais minucioso, analise grupo de anúncio por grupo de anúncio.
+Quando precisar de uma leitura mais rápida, analise os anúncios de toda a campanha de forma consolidada.
+
+### U:69d6129ff46daecb:012 — Substituir anúncio pausado por copy nova ou vídeo novo
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: criativo
+tarefas: [otimizar-anuncios, configurar-anuncio]
+fonte: fala
+faixa: "00:13:18–00:13:53"
+condicoes: "quando anúncios forem pausados por resultado ruim"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se pausar um anúncio, crie uma cópia com novo título e nova descrição ou suba um vídeo novo no grupo de anúncios.
+Na maioria das vezes, a mudança que altera o resultado da campanha é subir um vídeo novo muito bom, não mudar a copy.
+
+### U:69d6129ff46daecb:013 — Não comparar percentuais de vídeos com tempos muito diferentes
+```yaml
+tipo: regra
+plataforma: [youtube]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios]
+fonte: "fala+pdf:cst_m05_a53_otimizacao_de_anuncios.pdf"
+faixa: "00:13:53–00:15:20"
+perecivel: false
+confianca: alta
+versao: 1
+nota: "O PDF, na página 6, também alerta que a duração do criativo altera as pessoas que chegam a 25%, 45% e 50%; a fala usa 25%, 50%, 75% e 100%."
+```
+Não compare diretamente percentuais assistidos de vídeos com durações muito diferentes.
+Vídeos menores podem ter percentuais de visualização até 25%, 50%, 75% e 100% muito maiores que vídeos longos.
+
+### U:69d6129ff46daecb:014 — Separar vídeos de durações muito diferentes
+```yaml
+tipo: decisao
+plataforma: [youtube]
+tema: estrutura-de-campanha
+tarefas: [definir-estrutura-de-campanha]
+fonte: fala
+faixa: "00:14:38–00:16:17"
+condicoes: "quando os vídeos tiverem tempos muito diferentes"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando for rodar campanhas de vídeo com durações muito diferentes, separe os vídeos em campanhas diferentes.
+Deixe na mesma campanha vídeos com tempos parecidos para que a análise dos percentuais de visualização seja comparável.
+
+### U:69d6129ff46daecb:015 — Preferir análise consolidada pela praticidade
+```yaml
+tipo: regua
+plataforma: [youtube]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala
+faixa: "00:15:20–00:16:17"
+perecivel: false
+confianca: alta
+versao: 1
+```
+O professor faz análise geral e consolidada em 90% das vezes pela praticidade.
+A análise por grupo e a consolidada podem ser usadas; não há uma que seja sempre melhor.

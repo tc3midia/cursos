@@ -1,0 +1,11 @@
+
+
+Lista fechada de falhas materiais:
+
+- **COB-01 — Search:** **Prova:** PDF pp. 1–8, segundo a inspeção, ensina replicação de Responsive Search Ads e Expanded Text Ads, mínimo de três criativos e pausa de anúncios ruins com variação dos que funcionam; não há unidades correspondentes. **Efeito:** impede executar a replicação e aplicar os critérios ensinados para manutenção dos criativos. **Correção mínima:** incorporar os procedimentos, a régua e a decisão de desempenho. **Aceite:** unidades com referências às páginas, passos executáveis, régua de três criativos e condição de pausa seguida de variação de anúncio com bom desempenho.
+- **COB-02 — Pausa em vídeo de conversão:** **Prova:** PDF pp. 9–10 registra pausa do AD5 ruim; as unidades 008–010 não preservam essa decisão. **Efeito:** permite replicar e ativar a nova peça sem interromper a peça identificada como ruim. **Correção mínima:** registrar a condição de desempenho ruim e a ação de pausar no contexto de vídeo de conversão, aproveitando os passos já cobertos. **Aceite:** condição, ação e contexto lastreados no PDF, sem transformar AD5 em regra geral.
+- **COB-03 — Display:** **Prova:** PDF pp. 11–18 apresenta Responsive Display Ads e o fluxo de Image Ads entre Google Ads e Editor; ambos estão ausentes. **Efeito:** impede executar a replicação de Display e preparar os anúncios de imagem para cópia. **Correção mínima:** acrescentar os dois procedimentos, preservando a ferramenta e a ordem de cada etapa. **Aceite:** cobertura lastreada dos anúncios responsivos e da sequência upload no Google Ads → download no Editor → cópia para outro grupo.
+- **COB-04 — Escolha da ferramenta:** **Prova:** PDF p. 19 atribui análise, otimização e anúncios de imagem ao Google Ads, e criação e replicação ao Editor; essa regra não consta do artefato. **Efeito:** falta o critério ensinado para decidir em qual ferramenta iniciar cada atividade. **Correção mínima:** acrescentar a regra com ambas as atribuições. **Aceite:** correspondência explícita entre atividades e ferramentas, referenciada ao PDF e sem extrapolar para proibições não demonstradas.
+
+Se for comprovada associação indevida do PDF à aula, a reconciliação documentada da fonte substitui as inclusões acima; a simples retirada de `fontes` não satisfaz o aceite.
+

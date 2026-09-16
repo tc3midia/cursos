@@ -1,0 +1,43 @@
+{
+  "estado": "concluida",
+  "id": "ce8fcab6ad6a538a",
+  "kind": "extrator",
+  "model": "gpt-5.6-terra",
+  "effort": "medium",
+  "inicio": 1789560107.3953652,
+  "pacote_sha256": "503d736832fa32f9c2cba8d6c95de93ab7bc0a437339d634e1f97fabd72fad58",
+  "cmd": [
+    "/Applications/ChatGPT.app/Contents/Resources/codex",
+    "exec",
+    "--ignore-user-config",
+    "--ephemeral",
+    "--skip-git-repo-check",
+    "-C",
+    "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-iol9g51g",
+    "-s",
+    "read-only",
+    "-c",
+    "project_doc_max_bytes=0",
+    "-c",
+    "model_reasoning_effort=\"medium\"",
+    "-m",
+    "gpt-5.6-terra",
+    "--json",
+    "-o",
+    "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/conclusao-modulos/005/saidas/ce8fcab6ad6a538a.extrator.md",
+    "-"
+  ],
+  "fim": 1789560198.994206,
+  "returncode": 0,
+  "usage": [
+    {
+      "input_tokens": 37184,
+      "cached_input_tokens": 18176,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4897,
+      "reasoning_output_tokens": 516
+    }
+  ],
+  "chamadas_ferramentas": 0,
+  "output_sha256": "1ba06ab3b30e44a68afa574ef5adf0c373af35dc0382bfba6990609280135d65"
+}

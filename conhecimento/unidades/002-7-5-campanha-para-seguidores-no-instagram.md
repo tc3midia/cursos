@@ -1,0 +1,339 @@
+---
+type: unidades-aula
+status: validado
+title: "7.5 - Campanha para seguidores no Instagram"
+modulo: "002"
+ordem: 49
+aula_id: de18a2b62b3da67e
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - transcricao.md
+extraido_em: 2026-09-15
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 7.5 - Campanha para seguidores no Instagram
+
+## Contexto da aula
+
+A aula mostra duas formas de estruturar campanhas cujo objetivo central é gerar seguidores no Instagram.
+A primeira usa campanha de tráfego no Gerenciador de Anúncios; a segunda parte do botão Impulsionar do Instagram.
+Ela aborda públicos, posicionamentos, criativo, destino e a adaptação da campanha impulsionada no gerenciador.
+O professor ressalta que seguidores também podem surgir como efeito colateral de campanhas de conversão e distribuição de conteúdo.
+A orientação pressupõe uma conta profissional do Instagram e públicos de envolvimento ou visita ao perfil quando forem usados.
+
+## Unidades
+
+### U:de18a2b62b3da67e:001 — Escolha a campanha conforme o objetivo buscado
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: objetivos
+tarefas: [escolher-objetivo-de-campanha]
+fonte: fala
+faixa: "00:00:00–00:01:21"
+perecivel: true
+confianca: alta
+versao: 2
+nota: "Ajuste mecânico: referência ao botão Impulsionar marcada como perecível; corpo preservado."
+```
+Se o objetivo central for ganhar seguidores no Instagram, use campanha de tráfego ou campanha pelo botão Impulsionar.
+Campanhas de conversão, divulgação de lives, lembretes e distribuição de conteúdo também podem gerar seguidores, mas como efeito colateral.
+
+### U:de18a2b62b3da67e:002 — Criar campanha de tráfego para seguidores
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [criar-campanha-de-reconhecimento-ou-seguidores, definir-orcamento]
+fonte: fala
+faixa: 00:00:32–00:01:21
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: campanha criada pelo Gerenciador de Anúncios.
+1. No botão de criar, selecione o objetivo Tráfego e continue.
+2. Nomeie a campanha para identificar que é de seguidores no Instagram.
+3. Ative a otimização de orçamento da campanha.
+4. No exemplo, defina R$50,00 de orçamento.
+
+### U:de18a2b62b3da67e:003 — Priorize visitantes recentes do perfil
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: 00:01:21–00:02:34
+condicoes: "quando quiser atrair pessoas novas para seguir o perfil"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se quiser atrair pessoas novas, priorize quem visitou seu perfil nos últimos 7 dias.
+Não é possível excluir diretamente quem já segue o perfil; a janela curta busca alcançar quem visitou e ainda não seguiu.
+
+### U:de18a2b62b3da67e:004 — Avalie envolvimento de 14 ou 30 dias com ressalva
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: 00:02:00–00:03:21
+condicoes: "ao testar públicos para campanha de seguidores"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se testar públicos de envolvimento, use janelas de 14 ou 30 dias como opções que podem trazer seguidores.
+Esse público pode gerar reclamações de pessoas que já seguem o perfil e voltam a receber o convite.
+
+### U:de18a2b62b3da67e:005 — Testar semelhantes, interesses e custo por clique
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: publicos
+tarefas: [montar-publicos-semelhantes, definir-segmentacao-demografica-e-interesses, ler-metricas-e-relatorios]
+fonte: fala
+faixa: 00:02:34–00:03:21
+perecivel: false
+confianca: alta
+versao: 1
+```
+Pré-condição: públicos de visita ao perfil ou envolvimento disponíveis como origem.
+1. Teste separadamente o público de visitantes de 7 dias e um semelhante de 1% dessa origem.
+2. Teste também semelhante de 1% do envolvimento do Instagram em janelas de 7 ou 14 dias.
+3. Inclua públicos de interesse para comparação.
+4. Meça o custo por clique para a pessoa visitar o perfil e mantenha o que for melhor.
+
+### U:de18a2b62b3da67e:006 — Criar público de visitantes do perfil no conjunto
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: publicos
+tarefas: [montar-publicos-personalizados]
+fonte: fala
+faixa: 00:03:23–00:04:08
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: conta profissional do Instagram vinculada e acesso à criação de público personalizado.
+1. Em Públicos personalizados, escolha a conta do Instagram.
+2. Selecione pessoas que visitaram essa conta profissional nos últimos 7 dias.
+3. Crie o público e aplique-o ao conjunto de anúncios.
+4. Use a nomenclatura padrão para identificá-lo como visitante de 7 dias.
+
+### U:de18a2b62b3da67e:007 — Use posicionamentos manuais só no Instagram
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: posicionamentos-e-formatos
+tarefas: [escolher-canais-e-posicionamentos]
+fonte: fala
+faixa: 00:04:08–00:04:50
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: conjunto de anúncios da campanha de tráfego para seguidores.
+1. Selecione posicionamentos manuais.
+2. Remova Facebook, Audience Network e Messenger.
+3. Anuncie somente no Instagram.
+4. O professor também removeria Loja e Explorar, concentrando a entrega em Stories e Reels; muitas vezes, apenas Stories.
+
+### U:de18a2b62b3da67e:008 — Faça criativo que filtre o público certo
+```yaml
+tipo: regra
+plataforma: [meta]
+tema: criativo
+tarefas: [configurar-anuncio]
+fonte: fala
+faixa: 00:04:50–00:05:33
+perecivel: false
+confianca: alta
+versao: 1
+```
+Faça um criativo que filtre claramente quem tem interesse no seu conteúdo.
+Trazer seguidores sem relação com o conteúdo pode prejudicar o engajamento porque esse público não o consumirá.
+
+### U:de18a2b62b3da67e:009 — Oriente a pessoa a visitar e seguir o perfil
+```yaml
+tipo: regra
+plataforma: [meta]
+tema: copy-e-roteiro
+tarefas: [escrever-copy-e-roteiro, configurar-anuncio]
+fonte: fala
+faixa: 00:05:33–00:06:18
+perecivel: false
+confianca: alta
+versao: 1
+```
+Inclua um CTA claro para a pessoa clicar no botão, ir ao perfil e seguir.
+Deixe explícito no anúncio o que acontecerá, embora essa campanha não permita medir o custo por seguidor.
+
+### U:de18a2b62b3da67e:010 — Configurar anúncio de Stories com URL do perfil
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: criativo
+tarefas: [configurar-anuncio]
+fonte: fala
+faixa: 00:06:20–00:07:37
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: anúncio de tráfego para levar a pessoa ao perfil do Instagram.
+1. Adicione um vídeo de Stories, como resposta a pergunta ou fala direta para a câmera.
+2. Mantenha o criativo filtrando a pessoa que você quer atrair.
+3. Copie a URL do seu perfil do Instagram e use-a como destino do site.
+4. Use o botão “Saiba mais”, pois não há botão de seguir.
+5. Suba vários anúncios e complete a estrutura dos conjuntos.
+
+### U:de18a2b62b3da67e:011 — Renomeie campanha criada pelo botão Impulsionar
+```yaml
+tipo: alerta-ui
+plataforma: [meta]
+tema: nomenclatura
+tarefas: [nomear-campanhas]
+fonte: fala
+faixa: 00:07:37–00:08:42
+perecivel: true
+confianca: alta
+versao: 1
+```
+A campanha criada diretamente no aplicativo pode aparecer com o nome “Publicação de Instagram”.
+Renomeie-a para identificar que veio do botão Impulsionar, que busca seguidores e qual publicação foi usada.
+O conjunto e o anúncio originais informam que foram criados no Instagram e não podem ser editados no gerenciador.
+
+### U:de18a2b62b3da67e:012 — Impulsionar publicação pelo aplicativo
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [criar-campanha-de-reconhecimento-ou-seguidores, definir-segmentacao-demografica-e-interesses, definir-orcamento]
+fonte: fala
+faixa: 00:08:42–00:11:17
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: publicação existente no perfil do Instagram e conta de anúncios disponível.
+1. No aplicativo, use “Turbinar publicação” e selecione a conta de anúncios.
+2. Escolha o objetivo “Mais visitas no perfil”.
+3. Crie um público, definindo localização, interesses, faixa etária e gênero conforme seu público-alvo.
+4. O professor recomenda criar um público e segmentá-lo o máximo possível para campanha de seguidores.
+5. Defina orçamento e duração; no exemplo, R$10 por dia durante 5 dias.
+6. Confira os dados e turbine a publicação.
+
+### U:de18a2b62b3da67e:013 — Duplicar impulsionamento para editar segmentação
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [replicar-campanhas-e-grupos, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:11:17–00:14:14
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: campanha criada pelo botão Impulsionar no Instagram.
+1. No gerenciador, duplique a campanha criada pelo Instagram e identifique a cópia como versão do gerenciador.
+2. Edite a segmentação no conjunto duplicado, substituindo o público criado no aplicativo por público de visitantes ou envolvimento.
+3. No exemplo, use visitantes do perfil em 7 dias e idade de 25 até 45 anos.
+4. Não altere o anúncio; confira e publique a campanha, inclusive se a interface permitir publicar com erro.
+5. O anúncio pode aparecer em processamento por causa do URL obrigatório vindo do Instagram, mas a prévia pode exibir o botão de acessar o perfil.
+
+### U:de18a2b62b3da67e:014 — Duplicar apenas o conjunto para ampliar públicos
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [replicar-campanhas-e-grupos, montar-publicos-semelhantes]
+fonte: fala
+faixa: 00:14:04–00:16:07
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: versão da campanha impulsionada já duplicada no Gerenciador de Anúncios.
+1. Duplique o conjunto de anúncios sem mexer no anúncio.
+2. Crie outro conjunto para ampliar a hierarquia de públicos.
+3. No exemplo, substitua o público pelo semelhante de 1% do envolvimento com Instagram em 7 dias.
+4. Confira e publique; o professor orienta tentar publicar mesmo quando o erro aparecer.
+
+### U:de18a2b62b3da67e:015 — Pausar a campanha original após criar a versão do gerenciador
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [replicar-campanhas-e-grupos]
+fonte: fala
+faixa: 00:14:14–00:16:44
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: uma publicação foi impulsionada no Instagram e sua campanha já foi duplicada no gerenciador.
+1. Impulsione uma publicação pelo botão Impulsionar.
+2. Entre no gerenciador e duplique a campanha criada pelo Instagram.
+3. Pause a campanha original criada pelo Instagram.
+4. Altere somente o grupo de anúncios da campanha duplicada.
+5. Duplique grupos de anúncios para criar a hierarquia e revise as alterações.
+
+### U:de18a2b62b3da67e:016 — Use o Impulsionar se a duplicação deixar de funcionar
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [criar-campanha-de-reconhecimento-ou-seguidores]
+fonte: fala
+faixa: "00:16:10–00:17:17"
+condicoes: se o Instagram bloquear a campanha duplicada ou ela não gastar
+perecivel: true
+confianca: alta
+versao: 2
+nota: "Ajuste mecânico: referência ao botão Impulsionar marcada como perecível; corpo preservado."
+```
+Se a adaptação no gerenciador bugar, parar de funcionar ou não gastar, faça a campanha pelo botão Impulsionar.
+O professor diz que isso pode ocorrer porque o gerenciador entende a duplicação como uma mini burla do sistema.
+
+### U:de18a2b62b3da67e:017 — Não destine toda a verba apenas a seguidores
+```yaml
+tipo: regra
+plataforma: [meta]
+tema: orcamento
+tarefas: [definir-orcamento]
+fonte: fala
+faixa: 00:17:17–00:18:27
+perecivel: false
+confianca: alta
+versao: 1
+```
+Não gaste toda a verba que deveria vender apenas chamando seguidores.
+A verba de branding e distribuição de conteúdo pode ter parte alocada para seguidores, mas mantenha campanhas voltadas a consumidores, engajamento, visualização de vídeo, lembrança do anúncio e vendas.
+
+### U:de18a2b62b3da67e:018 — Priorize campanhas que também buscam conversão
+```yaml
+tipo: regra
+plataforma: [meta]
+tema: objetivos
+tarefas: [escolher-objetivo-de-campanha]
+fonte: fala
+faixa: 00:17:17–00:18:55
+perecivel: false
+confianca: alta
+versao: 1
+```
+Mantenha campanhas que “chutam para o gol”: venda, cadastro e conversão direta.
+Elas também podem trazer seguidores mais qualificados do que os obtidos em campanha focada somente em seguidores.

@@ -1,0 +1,184 @@
+---
+type: unidades-aula
+status: validado
+title: "7.4 - Otimização de anúncios"
+modulo: "004"
+ordem: 72
+aula_id: f0ff407b51ad7817
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m04_a74_otimizacao_de_anuncios.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 7.4 - Otimização de anúncios
+
+## Contexto da aula
+
+A aula trata da otimização de anúncios na Rede de Pesquisa do Google.
+Ela parte de uma campanha que já acumulou quantidade relevante de dados.
+O professor mostra como pausar anúncios sem resultado e criar cópias melhoradas.
+A criação e pausa de grupos de anúncios fica para a aula seguinte.
+
+## Unidades
+
+### U:f0ff407b51ad7817:001 — Otimização exige dados relevantes
+```yaml
+tipo: conceito
+plataforma: [google-search]
+tema: otimizacao
+tarefas: []
+fonte: fala
+faixa: 00:00:00–00:00:45
+perecivel: false
+confianca: alta
+versao: 1
+```
+A otimização de anúncios na Rede de Pesquisa exige uma quantidade relevante de dados.
+O professor apresenta duas frentes: pausar anúncio sem resultado e criar um novo anúncio.
+
+### U:f0ff407b51ad7817:002 — Pause anúncios sem gasto por 14 dias
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:00:45–00:08:11
+condicoes: "o anúncio não gastou dinheiro nos últimos 14 dias"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se um anúncio não gastou dinheiro nos últimos 14 dias, pause-o.
+
+### U:f0ff407b51ad7817:003 — Pause anúncios com custo por conversão muito alto
+```yaml
+tipo: decisao
+plataforma: [google-search]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:00:45–00:09:34
+condicoes: "o anúncio está com custo por conversão muito caro"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se um anúncio estiver com custo por conversão muito caro, pause-o.
+
+### U:f0ff407b51ad7817:004 — Consulte detalhes dos recursos do anúncio que performa bem
+```yaml
+tipo: alerta-ui
+plataforma: [google-search]
+tema: metricas-e-relatorios
+tarefas: [ler-metricas-e-relatorios, otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:01:18–00:03:31
+perecivel: true
+confianca: alta
+versao: 1
+```
+No anúncio que gastou bem e deu resultado, use “ver detalhes dos recursos” para ver quantas vezes títulos e descrições apareceram.
+Na aba “combinações”, veja como o Google intercala as configurações do anúncio.
+
+### U:f0ff407b51ad7817:005 — Duplique o anúncio que teve melhor desempenho
+```yaml
+tipo: procedimento
+plataforma: [google-search]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:03:31–00:04:46
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: ter analisado os recursos e as combinações de um anúncio que rodou bem.
+1. Selecione o anúncio que performa melhor.
+2. Clique em “editar”, selecione “copiar” e cole no destino.
+3. Quando houver anúncio no destino, selecione a opção para criar um duplicado.
+4. Edite a cópia para melhorá-la.
+
+### U:f0ff407b51ad7817:006 — Mantenha recursos que o Google mostra mais
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: criativo
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:04:10–00:07:31
+perecivel: true
+confianca: alta
+versao: 1
+```
+Na cópia, retire títulos e descrições que não deram resultado e mantenha os recursos que o Google indicou como mais exibidos.
+Trabalhe mais os recursos que estão funcionando bem.
+
+### U:f0ff407b51ad7817:007 — Use termos de pesquisa na copy do novo anúncio
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: palavras-chave
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:05:31–00:08:11
+perecivel: false
+confianca: alta
+versao: 1
+```
+Inclua na copy os termos de pesquisa que estão convertendo muito e/ou tendo muitas impressões.
+O professor também orienta criar novas descrições a partir desses termos.
+
+### U:f0ff407b51ad7817:008 — Crie anúncios também a partir de novas ideias
+```yaml
+tipo: regra
+plataforma: [google-search]
+tema: criativo
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:09:04–00:10:19
+perecivel: false
+confianca: alta
+versao: 1
+```
+Além dos melhores recursos e termos de pesquisa, crie novos anúncios a partir de novas ideias.
+Não fique preso apenas ao que já aparece nos recursos ou termos pesquisados.
+
+### U:f0ff407b51ad7817:009 — Revise anúncios a cada 7 ou 14 dias
+```yaml
+tipo: regua
+plataforma: [google-search]
+tema: otimizacao
+tarefas: [otimizar-anuncios]
+fonte: fala+pdf:cst_m04_a74_otimizacao_de_anuncios.pdf
+faixa: 00:08:12–00:10:55
+condicoes: "a frequência depende de quanto se investe na campanha"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Analise os resultados, pause anúncios e crie novos anúncios a cada 7 ou 14 dias.
+Se o anúncio novo não ficar bom, ele não gastará dinheiro ou terá custo por conversão caro; otimize-o na semana seguinte.
+
+### U:f0ff407b51ad7817:010 — Criação e pausa de grupos ficam para a próxima aula
+```yaml
+tipo: limite
+plataforma: [google-search]
+tema: estrutura-de-campanha
+tarefas: []
+fonte: fala
+faixa: 00:10:20–00:11:04
+perecivel: false
+confianca: alta
+versao: 1
+```
+A aula seguinte aborda criar e pausar grupos de anúncios e aumentar a quantidade de grupos de uma campanha.

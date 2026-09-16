@@ -1,0 +1,246 @@
+---
+type: unidades-aula
+status: validado
+title: "10.0 - Como testar e descobrir novos públicos"
+modulo: "005"
+ordem: 104
+aula_id: d69f83e5937b2915
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+  - transcricao.md
+extraido_em: 2026-09-16
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 10.0 - Como testar e descobrir novos públicos
+
+## Contexto da aula
+
+A aula mostra como descobrir e testar novas segmentações no Google Ads.
+Ela trata a otimização diária como teste contínuo e apresenta os batches como lotes paralelos.
+O professor demonstra como obter ideias olhando grupos de anúncios e insights de públicos conversores.
+A implementação usa exemplos da própria conta demonstrada; os resultados desses exemplos não são promessa de resultado.
+
+## Unidades
+
+### U:d69f83e5937b2915:001 — Todo investimento e otimização de segmentação são testes
+
+```yaml
+tipo: conceito
+plataforma: [google]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos, otimizar-publicos-e-segmentacoes]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:00:00–00:01:30"
+perecivel: false
+confianca: alta
+versao: 1
+nota: "O PDF também define otimizações diárias como uma das duas formas de testar segmentações."
+```
+
+Uma campanha com diferentes públicos rodando já é um teste, pois permite identificar os públicos que se destacam.
+Pausar uma segmentação que não funcionou encerra um teste; manter uma segmentação ativa também encerra um teste com resultado favorável.
+
+### U:d69f83e5937b2915:002 — Use batches como campanhas paralelas de teste
+
+```yaml
+tipo: conceito
+plataforma: [google]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:02:04–00:04:08"
+perecivel: false
+confianca: alta
+versao: 1
+nota: "O PDF chama a estrutura de bet; a fala usa batch e explica como um lote de testes."
+```
+
+Batch é um lote paralelo de testes formado por grupos de anúncios com novas segmentações.
+No batch, exclua pessoas que já concluíram a conversão desejada, como compra ou cadastro.
+
+### U:d69f83e5937b2915:003 — Leve a segmentação aprovada ao conjunto principal
+
+```yaml
+tipo: decisao
+plataforma: [google]
+tema: estrutura-de-campanha
+tarefas: [definir-estrutura-de-campanha, rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:03:30–00:04:08"
+condicoes: "depois de rodar o batch pelo tempo necessário para identificar o que funcionou"
+perecivel: false
+confianca: alta
+versao: 1
+```
+
+Se uma segmentação funcionar bem no batch, coloque-a na estrutura principal de campanhas.
+
+### U:d69f83e5937b2915:004 — Avalie o batch pelo tempo necessário
+
+```yaml
+tipo: regua
+plataforma: [google]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala
+faixa: "00:03:30–00:04:08"
+perecivel: false
+confianca: alta
+versao: 1
+```
+
+Espere 3, 4, 5 ou 7 dias, ou o tempo necessário, para avaliar se uma segmentação do batch deu bom ou não.
+No exemplo, R$23 gastos sem conversão ainda não definem o teste antes dessa avaliação.
+
+### U:d69f83e5937b2915:005 — Teste quatro grupos por batch como preferência do professor
+
+```yaml
+tipo: regua
+plataforma: [google]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:04:08–00:04:44"
+perecivel: false
+confianca: media
+versao: 1
+nota: "O professor diz que adotou 4 grupos porque deu certo para ele e acredita que esse tamanho ajuda a evitar grupo sem gasto; não apresenta motivo comprovado."
+```
+
+Teste de 4 em 4 grupos de anúncios por batch, como preferência operacional do professor.
+
+### U:d69f83e5937b2915:006 — Ajuste o lance do grupo que não recebe gasto
+
+```yaml
+tipo: decisao
+plataforma: [google]
+tema: leilao-e-lances
+tarefas: [otimizar-lances, rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:04:08–00:05:23"
+condicoes: "quando um grupo do batch que se queria testar não estiver gastando"
+perecivel: true
+confianca: alta
+versao: 1
+```
+
+Quando um grupo não estiver gastando após 2 ou 3 dias de campanha, aumente o lance dele para tentar forçar gasto; deixe os demais no lance padrão.
+No exemplo demonstrado, os demais grupos usam lance padrão de R$5.
+
+### U:d69f83e5937b2915:007 — Gere hipóteses reagrupando públicos e palavras-chave
+
+```yaml
+tipo: procedimento
+plataforma: [google]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos, otimizar-publicos-e-segmentacoes]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:05:23–00:09:35"
+perecivel: true
+confianca: alta
+versao: 1
+```
+
+Pré-condição: grupos de anúncios e seus públicos ou palavras-chave já estejam visíveis no Google Ads.
+1. Observe um grupo e pergunte como seus públicos ou palavras poderiam ser anunciados de maneira diferente.
+2. Forme hipóteses, como reunir públicos quentes, separar palavras em grupos, ou testar correspondências ampla, exata e de frase.
+3. Anote cada ideia em uma planilha para depois criar os testes no gerenciador.
+
+### U:d69f83e5937b2915:008 — Mantenha o próximo teste pronto antes de pausar o atual
+
+```yaml
+tipo: regra
+plataforma: [google]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:06:39–00:08:37"
+perecivel: true
+confianca: alta
+versao: 1
+nota: "A fala recomenda manter dois batches pausados e criar outros dois ao ativá-los; o PDF diz para manter dois bets pausados. Ambos convergem em preparar estoque antes da pausa."
+```
+
+Deixe os próximos testes já criados e pausados enquanto o teste atual roda.
+Não espere pausar um teste para só então criar seu substituto.
+
+### U:d69f83e5937b2915:009 — Estruture ideias de públicos em grupos testáveis
+
+```yaml
+tipo: exemplo
+plataforma: [google]
+tema: publicos
+tarefas: [rodar-testes-e-experimentos, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: "00:05:23–00:06:39"
+perecivel: true
+confianca: alta
+versao: 1
+```
+
+Situação: o professor precisava de novas segmentações para um batch.
+O que aconteceu: testou palavras amplas em correspondência de frase, palavras-chave que davam resultado na Pesquisa, um público único e a reunião de todos os públicos quentes.
+Lógica: uma hipótese pode testar um só público ou combinar vários públicos em um grupo de anúncios.
+
+### U:d69f83e5937b2915:010 — Acesse os insights do público conversor
+
+```yaml
+tipo: procedimento
+plataforma: [google]
+tema: publicos
+tarefas: [montar-publicos-personalizados, otimizar-publicos-e-segmentacoes]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:09:35–00:12:06"
+perecivel: true
+confianca: alta
+versao: 1
+nota: "A fala alerta que o fluxo mudou: selecionar o público antes de entrar nos insights não garante que ele seja carregado; dentro de 'Seus insights de dados', selecione o público desejado."
+```
+
+Pré-condição: público de pessoas que converteram já criado no Gerenciador de públicos-alvo.
+1. Em Ferramentas e configurações, abra o Gerenciador de públicos-alvo e filtre as pessoas que converteram.
+2. Entre em “Seus insights de dados” no menu lateral esquerdo.
+3. Selecione, dentro dessa área, o público conversor cujos insights serão analisados.
+
+### U:d69f83e5937b2915:011 — Use segmentos de mercado dos conversores em batches
+
+```yaml
+tipo: decisao
+plataforma: [google]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes, rodar-testes-e-experimentos]
+fonte: fala+pdf:cst_m05_a10_como_testar_e_descobrir_novos_publicos.pdf
+faixa: "00:10:46–00:13:29"
+condicoes: "depois de selecionar corretamente o público de conversores em Seus insights de dados"
+perecivel: true
+confianca: alta
+versao: 1
+```
+
+Quando os insights indicarem segmentos de mercado associados ao público conversor, use esses segmentos em campanhas de teste.
+O índice compara a propensão do público analisado à da população em geral; no exemplo, desenvolvimento de websites e webdesign aparece com 3,1 vezes mais propensão.
+
+### U:d69f83e5937b2915:012 — Priorize os primeiros segmentos sugeridos para testar
+
+```yaml
+tipo: regua
+plataforma: [google]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes, rodar-testes-e-experimentos]
+fonte: fala
+faixa: "00:12:48–00:14:35"
+perecivel: true
+confianca: alta
+versao: 1
+```
+
+Teste principalmente os 3 ou 4 primeiros segmentos de mercado sugeridos.
+Para segmentos de afinidade, o professor também olha com atenção os 3, 4 ou 5 primeiros e pode reuni-los em um grupo ou testar um grupo para cada segmento.

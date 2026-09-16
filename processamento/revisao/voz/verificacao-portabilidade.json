@@ -1,0 +1,53 @@
+{
+  "copia_sem_git": true,
+  "resultados": [
+    {
+      "comando": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "processamento/tests",
+        "-p",
+        "test_curso_subido_*.py"
+      ],
+      "retorno": 0,
+      "resultado": "......................................................................................\n----------------------------------------------------------------------\nRan 86 tests in 8.522s\n\nOK\n"
+    },
+    {
+      "comando": [
+        "python3",
+        "processamento/scripts/build_indices.py",
+        "--check"
+      ],
+      "retorno": 0,
+      "resultado": "ok\n"
+    },
+    {
+      "comando": [
+        "python3",
+        "processamento/scripts/validate_visoes.py",
+        "--playbooks",
+        "--desatualizadas"
+      ],
+      "retorno": 0,
+      "resultado": "0 erros\n"
+    },
+    {
+      "comando": [
+        "python3",
+        "processamento/scripts/validate_unidades.py",
+        "--json"
+      ],
+      "retorno": 0,
+      "resultado": {
+        "arquivos": 133,
+        "unidades": 2829,
+        "erros": [],
+        "avisos": 18
+      }
+    }
+  ],
+  "varredura_segredos": "nenhum padrão identificado"
+}

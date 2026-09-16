@@ -1,0 +1,691 @@
+{
+  "data": "2026-09-14",
+  "run_relativo": "_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/piloto-20260914-2255",
+  "limites": [
+    "Tokens das duas extrações curtas nativas e do implementador não expostos; coordenação principal não medida.",
+    "Cache é subconjunto da entrada, não somar novamente. Não representa cobrança nem limites da assinatura.",
+    "Tempos são limites superiores até a consulta observar o fim, somados por etapa; excluem filas e montagem de pacotes.",
+    "Inspeções iniciais controle-01 e ouro-sol leram arquivos; demais etapas CLI receberam pacote integral. Comparação controlada dos extratores restrita à aula longa."
+  ],
+  "por_rota": {
+    "ouro-sol": {
+      "chamadas_cli": 5,
+      "entrada": 270850,
+      "entrada_cache": 126976,
+      "saida": 9678,
+      "segundos_acumulados_ate_observar_fim": 393,
+      "entrada_mais_saida": 280528
+    },
+    "ouro-terra": {
+      "chamadas_cli": 2,
+      "entrada": 68472,
+      "entrada_cache": 12288,
+      "saida": 2148,
+      "segundos_acumulados_ate_observar_fim": 85,
+      "entrada_mais_saida": 70620
+    },
+    "longa-sol": {
+      "chamadas_cli": 5,
+      "entrada": 228677,
+      "entrada_cache": 18944,
+      "saida": 21386,
+      "segundos_acumulados_ate_observar_fim": 621,
+      "entrada_mais_saida": 250063
+    },
+    "longa-terra": {
+      "chamadas_cli": 7,
+      "entrada": 295516,
+      "entrada_cache": 58496,
+      "saida": 21959,
+      "segundos_acumulados_ate_observar_fim": 811,
+      "entrada_mais_saida": 317475
+    },
+    "controle": {
+      "chamadas_cli": 8,
+      "entrada": 618769,
+      "entrada_cache": 320768,
+      "saida": 20696,
+      "segundos_acumulados_ate_observar_fim": 858,
+      "entrada_mais_saida": 639465
+    }
+  },
+  "etapas": [
+    {
+      "etapa": "controle-01-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "leitura_por_arquivo",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15T02:02:11Z",
+      "fim_observado_utc": "2026-09-15 02:04:28 UTC",
+      "segundos_ate_observar_fim": 137,
+      "uso": {
+        "input_tokens": 325809,
+        "cached_input_tokens": 272384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5821,
+        "reasoning_output_tokens": 2297
+      },
+      "ferramentas_chamadas": 7
+    },
+    {
+      "etapa": "ouro-sol-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "leitura_por_arquivo",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:03:55 UTC",
+      "fim_observado_utc": "2026-09-15 02:06:00 UTC",
+      "segundos_ate_observar_fim": 125,
+      "uso": {
+        "input_tokens": 129852,
+        "cached_input_tokens": 97280,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3153,
+        "reasoning_output_tokens": 1589
+      },
+      "ferramentas_chamadas": 3
+    },
+    {
+      "etapa": "ouro-terra-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:05:25 UTC",
+      "fim_observado_utc": "2026-09-15 02:06:01 UTC",
+      "segundos_ate_observar_fim": 36,
+      "uso": {
+        "input_tokens": 35143,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1440,
+        "reasoning_output_tokens": 516
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "ouro-sol-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:06:23 UTC",
+      "fim_observado_utc": "2026-09-15 02:07:14 UTC",
+      "segundos_ate_observar_fim": 51,
+      "uso": {
+        "input_tokens": 33883,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 867,
+        "reasoning_output_tokens": 244
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "ouro-terra-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:06:25 UTC",
+      "fim_observado_utc": "2026-09-15 02:07:14 UTC",
+      "segundos_ate_observar_fim": 49,
+      "uso": {
+        "input_tokens": 33329,
+        "cached_input_tokens": 6400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 708,
+        "reasoning_output_tokens": 178
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-sol-extracao",
+      "modelo": "gpt-5.6-sol",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:07:27 UTC",
+      "fim_observado_utc": "2026-09-15 02:11:00 UTC",
+      "segundos_ate_observar_fim": 213,
+      "uso": {
+        "input_tokens": 46654,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9952,
+        "reasoning_output_tokens": 1348
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-extracao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:07:28 UTC",
+      "fim_observado_utc": "2026-09-15 02:09:48 UTC",
+      "segundos_ate_observar_fim": 140,
+      "uso": {
+        "input_tokens": 46655,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6202,
+        "reasoning_output_tokens": 120
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:10:19 UTC",
+      "fim_observado_utc": "2026-09-15 02:12:05 UTC",
+      "segundos_ate_observar_fim": 106,
+      "uso": {
+        "input_tokens": 47630,
+        "cached_input_tokens": 23296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3358,
+        "reasoning_output_tokens": 1552
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-sol-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:11:19 UTC",
+      "fim_observado_utc": "2026-09-15 02:13:25 UTC",
+      "segundos_ate_observar_fim": 126,
+      "uso": {
+        "input_tokens": 50125,
+        "cached_input_tokens": 13056,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5429,
+        "reasoning_output_tokens": 2976
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:12:19 UTC",
+      "fim_observado_utc": "2026-09-15 02:13:25 UTC",
+      "segundos_ate_observar_fim": 66,
+      "uso": {
+        "input_tokens": 37819,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1332,
+        "reasoning_output_tokens": 441
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-sol-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:13:44 UTC",
+      "fim_observado_utc": "2026-09-15 02:14:51 UTC",
+      "segundos_ate_observar_fim": 67,
+      "uso": {
+        "input_tokens": 40988,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1083,
+        "reasoning_output_tokens": 433
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "ouro-sol-r2-redator",
+      "modelo": "gpt-5.6-sol",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:13:46 UTC",
+      "fim_observado_utc": "2026-09-15 02:15:44 UTC",
+      "segundos_ate_observar_fim": 118,
+      "uso": {
+        "input_tokens": 37459,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3790,
+        "reasoning_output_tokens": 713
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-02-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:14:57 UTC",
+      "fim_observado_utc": "2026-09-15 02:16:20 UTC",
+      "segundos_ate_observar_fim": 83,
+      "uso": {
+        "input_tokens": 50831,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3684,
+        "reasoning_output_tokens": 1552
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-sol-r2-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:16:17 UTC",
+      "fim_observado_utc": "2026-09-15 02:18:32 UTC",
+      "segundos_ate_observar_fim": 135,
+      "uso": {
+        "input_tokens": 50178,
+        "cached_input_tokens": 5888,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3604,
+        "reasoning_output_tokens": 1466
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-r2-redator",
+      "modelo": "gpt-5.6-sol",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:16:37 UTC",
+      "fim_observado_utc": "2026-09-15 02:21:46 UTC",
+      "segundos_ate_observar_fim": 309,
+      "uso": {
+        "input_tokens": 43315,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6535,
+        "reasoning_output_tokens": 169
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-01-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:18:37 UTC",
+      "fim_observado_utc": "2026-09-15 02:21:47 UTC",
+      "segundos_ate_observar_fim": 190,
+      "uso": {
+        "input_tokens": 40603,
+        "cached_input_tokens": 6400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1826,
+        "reasoning_output_tokens": 814
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-02-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:21:47 UTC",
+      "fim_observado_utc": "2026-09-15 02:22:59 UTC",
+      "segundos_ate_observar_fim": 72,
+      "uso": {
+        "input_tokens": 40588,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1657,
+        "reasoning_output_tokens": 730
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-03-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:21:48 UTC",
+      "fim_observado_utc": "2026-09-15 02:23:00 UTC",
+      "segundos_ate_observar_fim": 72,
+      "uso": {
+        "input_tokens": 50854,
+        "cached_input_tokens": 23296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3125,
+        "reasoning_output_tokens": 1034
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-04-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:23:00 UTC",
+      "fim_observado_utc": "2026-09-15 02:24:25 UTC",
+      "segundos_ate_observar_fim": 85,
+      "uso": {
+        "input_tokens": 34692,
+        "cached_input_tokens": 6400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1459,
+        "reasoning_output_tokens": 470
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "ouro-sol-r2-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:23:01 UTC",
+      "fim_observado_utc": "2026-09-15 02:23:48 UTC",
+      "segundos_ate_observar_fim": 47,
+      "uso": {
+        "input_tokens": 35784,
+        "cached_input_tokens": 23296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1124,
+        "reasoning_output_tokens": 272
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-sol-r2-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:23:48 UTC",
+      "fim_observado_utc": "2026-09-15 02:25:08 UTC",
+      "segundos_ate_observar_fim": 80,
+      "uso": {
+        "input_tokens": 40732,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1318,
+        "reasoning_output_tokens": 516
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-r2-redator-tentativa2",
+      "modelo": "gpt-5.6-sol",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:24:30 UTC",
+      "fim_observado_utc": "2026-09-15 02:25:08 UTC",
+      "segundos_ate_observar_fim": 38,
+      "uso": {
+        "input_tokens": 34573,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 240,
+        "reasoning_output_tokens": 0
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-03-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:25:08 UTC",
+      "fim_observado_utc": "2026-09-15 02:26:45 UTC",
+      "segundos_ate_observar_fim": 97,
+      "uso": {
+        "input_tokens": 40634,
+        "cached_input_tokens": 6400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1654,
+        "reasoning_output_tokens": 806
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "ouro-sol-r2-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:25:10 UTC",
+      "fim_observado_utc": "2026-09-15 02:26:02 UTC",
+      "segundos_ate_observar_fim": 52,
+      "uso": {
+        "input_tokens": 33872,
+        "cached_input_tokens": 6400,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 744,
+        "reasoning_output_tokens": 257
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-r2-inspecao",
+      "modelo": "gpt-5.6-terra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:26:02 UTC",
+      "fim_observado_utc": "2026-09-15 02:27:37 UTC",
+      "segundos_ate_observar_fim": 95,
+      "uso": {
+        "input_tokens": 47799,
+        "cached_input_tokens": 23296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3537,
+        "reasoning_output_tokens": 1998
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "longa-terra-r2-juiz",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:27:55 UTC",
+      "fim_observado_utc": "2026-09-15 02:28:52 UTC",
+      "segundos_ate_observar_fim": 57,
+      "uso": {
+        "input_tokens": 37725,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 755,
+        "reasoning_output_tokens": 246
+      },
+      "ferramentas_chamadas": 0
+    },
+    {
+      "etapa": "controle-04-juiz-pacote-completo",
+      "modelo": "gpt-6-astra",
+      "entrada": "stdin_integral",
+      "concluida": true,
+      "exit_code": 0,
+      "inicio_utc": "2026-09-15 02:28:24 UTC",
+      "fim_observado_utc": "2026-09-15 02:30:26 UTC",
+      "segundos_ate_observar_fim": 122,
+      "uso": {
+        "input_tokens": 34758,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1470,
+        "reasoning_output_tokens": 470
+      },
+      "ferramentas_chamadas": 0
+    }
+  ],
+  "resultados": {
+    "ouro-sol": {
+      "veredito": "falha",
+      "vetos": [
+        "cobertura"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "ebb99c55e5ee9382586a9c3ee743d5b819a12ddf85c0da038bb4338ed02b2975",
+        "evidencia.md": "155d3d6c0432327b41169fc7c9b4ece75cb31f260db49d20254499f33954764c",
+        "laudo.md": "5dc08c54268909fa3ec7dcbff8e32dc19f0e30218016e29c86a5154f78f09c5d",
+        "validacao.json": "7ce541e58627f959e889e79692a5f94d1fdafb4e16724c775fea6fbadb32839e"
+      }
+    },
+    "ouro-sol-r2": {
+      "veredito": "passa",
+      "vetos": [],
+      "rodada": 2,
+      "sha256": {
+        "candidato.md": "b5a2b1f8075c84fc6aa32367b8245398f2dcee8f7d31bd85c4db1c0dfb9c180d",
+        "evidencia.md": "b232da10fff59247069c7cd246d557f63878de6133234620c7f9c642df30ac68",
+        "laudo.md": "8369a69c977c730756e327f919f000798a48e46c98d0a1d893caa6c34851f807",
+        "validacao.json": "7ce541e58627f959e889e79692a5f94d1fdafb4e16724c775fea6fbadb32839e"
+      }
+    },
+    "ouro-terra": {
+      "veredito": "passa",
+      "vetos": [],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "e94c5b14f9d1d181d279fd0295027484a6cc42b4e139b212e028652a42251ccb",
+        "evidencia.md": "3df83fa458d3d242da83d7ee75a549e0a122658a1990fa2a627036e2bbfce311",
+        "laudo.md": "e28546a0f049dc7148362ac650c0d212688c4da06b0ef77b5e182a3211f6c358",
+        "validacao.json": "4eba370be6b341478887af206945fbf98103bd59e17c55cc52be0600c7316b3a"
+      }
+    },
+    "longa-sol": {
+      "veredito": "falha",
+      "vetos": [
+        "perecibilidade"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "5192ae4897a5e84032c03a95d17b3a15660ee9ffd165e29b9a852796b558bc85",
+        "evidencia.md": "768650ee04bf7ccd76fb1914824ed71d10a84e78a83946b46fb7e1f04d223c42",
+        "laudo.md": "c08b24ecab019ebb244629f70f258fab3187ac7bbdae76a18e6c0723fe15c879",
+        "validacao.json": "23c730bfdaa8cd1b021c14d760fae517b8b7e2583092af16ff68871a8403db1a"
+      }
+    },
+    "longa-sol-r2": {
+      "veredito": "falha",
+      "vetos": [
+        "fidelidade"
+      ],
+      "rodada": 2,
+      "sha256": {
+        "candidato.md": "d34d7f7bc2d1593a4823d835988d4ad40db1b14b6bb6c080fa37e344f48c47fd",
+        "evidencia.md": "d6d412ea146e9761baca65bf188fca159cab233f2fef7a87179469eae8f0260d",
+        "laudo.md": "4fe277ec7046c197178f046117e391a323749bd0df7c1ad86142c080d8cbf5c2",
+        "validacao.json": "23c730bfdaa8cd1b021c14d760fae517b8b7e2583092af16ff68871a8403db1a"
+      }
+    },
+    "longa-terra": {
+      "veredito": "falha",
+      "vetos": [
+        "fidelidade",
+        "cobertura"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "fdcfe4df0031c6bbd71c800c1519d0d086a988fd3e2954078caf93a3b6712302",
+        "evidencia.md": "90cfe25f9960bdf9aaff0cae6a43cd2b7c255701613c727ef95d78e229475de4",
+        "laudo.md": "d7741eac2bc3bed516a3e896521f6d8bfbb36cfa501de12098482a086f28f294",
+        "validacao.json": "9b83ac9453a5fa2503f304b27685a13b7ef521e49f28850bf143c773a624b560"
+      }
+    },
+    "longa-terra-r2": {
+      "veredito": "passa",
+      "vetos": [],
+      "rodada": 2,
+      "sha256": {
+        "candidato.md": "d5385e9e1df66ee17cd4a3770f30f3f02ec89fd35aafab1115d3557e941594e3",
+        "evidencia.md": "fd6d1282b1b80d01adf6a1e5391caa7b9a8db85b101527d4845935596f094eb7",
+        "laudo.md": "f283f10bd62ccb4762006db7a4bbe51b4c70a3c44ad12b8c6299d5e2ee209951",
+        "validacao.json": "9b83ac9453a5fa2503f304b27685a13b7ef521e49f28850bf143c773a624b560"
+      }
+    },
+    "controle-01": {
+      "veredito": "falha",
+      "vetos": [
+        "fidelidade",
+        "cobertura"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "22425a613bc7bb2431055864abd5740aa4c9fa1bb1ac9bf93f512640b148938a",
+        "evidencia.md": "13fc47cac1eea287d8458c934151e18b3853586879eb99e5ced38c7a249f4105",
+        "laudo.md": "a337574b2b2da6d2d3f95430648067b91bf00cffe3112837b14a18b805f0e29c",
+        "validacao.json": "fb044ddebf1f380172583e74f1daa43ff942b0d9815d55e7648c82e4e499a8b4"
+      }
+    },
+    "controle-02": {
+      "veredito": "falha",
+      "vetos": [
+        "fidelidade",
+        "cobertura"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "fe0f04acee26a0405d39cfee34a97a807357f25d1b9d12bd026d22107f886e25",
+        "evidencia.md": "8c1a96bcfdaebf1af41ee6ea34f3749346da4c3f44f3401d74c700e76fede66e",
+        "laudo.md": "c6402642a248f987f33209931183ff7e5a237ad0bf6e3b1a023d975b99e22c85",
+        "validacao.json": "fb044ddebf1f380172583e74f1daa43ff942b0d9815d55e7648c82e4e499a8b4"
+      }
+    },
+    "controle-03": {
+      "veredito": "falha",
+      "vetos": [
+        "contrato",
+        "fidelidade",
+        "cobertura",
+        "perecibilidade"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "371c494c785f6d771960a668b50924558e4f367acac6dfc5783c82c86b34f83c",
+        "evidencia.md": "3683fefcb19242e87c8d5fdaf35ba0373708974d5cc16c920f91f3a17d118455",
+        "laudo.md": "b3e55d7fcfb8687323c47a9e2d5a69b2963e1a846319fadccc88aa6d1f54973f",
+        "validacao.json": "735fbf30471361305e891384e76772b2f7ccf8298fafc63c8c6c5d48822ed86f"
+      }
+    },
+    "controle-04": {
+      "veredito": "falha",
+      "vetos": [
+        "aplicabilidade"
+      ],
+      "rodada": 1,
+      "sha256": {
+        "candidato.md": "27e16a91b3c28e1b5c2778c067e9ac50fb72f686a3b3f989258f9f2d173e8ed4",
+        "laudo.md": "6bdb2f7773c9f29e4d446c5a59a26209dd0b19e4ad6c4d01e7a8188536a58d7d",
+        "validacao.json": "9d6393865a92a3fdc7839585e2a554cf225028da106d9828459c53219a3ebc88"
+      }
+    }
+  },
+  "observacoes": [
+    "controle-04 foi julgado novamente após incluir a linha da taxonomia que faltava no primeiro pacote; ambos os consumos contabilizados, mesmo veto de aplicabilidade.",
+    "longa-terra-r2: duas tentativas de correção Sol; primeira repetiu omissão em U033 e anexou falhas ao fim. Lista removida mecanicamente; segunda devolveu somente U033 e foi incorporada pelo parser.",
+    "longa-sol-r2: interrompida após segunda rodada do juiz, ainda com fidelidade reprovada. Nenhum custo até aprovação disponível para essa rota.",
+    "Não houve promoção dos candidatos nem selagem dos laudos do piloto.",
+    "Testes de ferramenta: baseline 74, seis novos testes, 80 aprovados após migração de 11 selos. Todas as 26 aulas originais e 794 unidades preservadas."
+  ]
+}

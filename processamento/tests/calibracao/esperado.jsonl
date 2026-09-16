@@ -1,0 +1,4 @@
+{"fixture": "f1", "base": "ouro 8.3", "defeito": "números da régua U:008 trocados (3 a 5 por semana → 8 a 10; 150 a 200 → 500) e da régua U:040 (60 → 20)", "veredito_esperado": "falha", "veto_esperado": "fidelidade"}
+{"fixture": "f2", "base": "ouro 8.3", "defeito": "U:015 perde a condição 'só Facebook/Instagram' e a exceção do Display; U:022 perde a condição do perfil pronto", "veredito_esperado": "falha", "veto_esperado": "fidelidade"}
+{"fixture": "f3", "base": "ouro 8.3", "defeito": "U:006 e U:009 descrevem tela/menu com perecivel: false; U:009 reclassificada como regra para escapar do validador", "veredito_esperado": "falha", "veto_esperado": "perecibilidade"}
+{"fixture": "f4", "base": "playbook piloto", "defeito": "três bullets citam unidades existentes que não dizem o que o bullet afirma (U:004 diz o contrário; U:008 não fala de 20%; U:013 não fala de 3 públicos)", "veredito_esperado": "falha", "veto_esperado": "aplicabilidade"}

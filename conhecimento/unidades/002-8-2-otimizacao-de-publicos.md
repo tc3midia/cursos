@@ -1,0 +1,247 @@
+---
+type: unidades-aula
+status: validado
+title: "8.2 - Otimização de públicos"
+modulo: "002"
+ordem: 52
+aula_id: 5583803c49ba0ae7
+account_id: account.86ajrj8n9
+promoted_by: human.will
+fonte_repo: tc3midia/curso-subido-trafego-transcricoes
+fonte_commit: f188775
+fontes:
+  - transcricao.md
+extraido_em: 2026-09-15
+gerado_por: gpt-5.6-terra
+retiradas: []
+divisoes: []
+fusoes: []
+---
+
+# 8.2 - Otimização de públicos
+
+## Contexto da aula
+
+A aula apresenta quatro maneiras de otimizar públicos em campanhas do Facebook Ads.
+Ela parte de campanhas e conjuntos de anúncios já em veiculação, com públicos que funcionam ou não funcionam.
+O professor compara pausar e alterar, condensar ou dividir conjuntos, testar públicos em paralelo e preservar públicos valiosos.
+A análise recomendada considera o resultado da campanha, não apenas o custo isolado de um conjunto.
+A otimização de anúncios para públicos valiosos é citada como assunto da próxima aula.
+
+## Unidades
+
+### U:5583803c49ba0ae7:001 — Quatro maneiras de otimizar públicos
+```yaml
+tipo: conceito
+plataforma: [meta]
+tema: publicos
+tarefas: []
+fonte: fala
+faixa: 00:00:00–00:01:10
+perecivel: false
+confianca: alta
+versao: 1
+```
+A aula organiza a otimização de públicos em quatro frentes: pausar e alterar o que não funciona, expandir ou reprimir conjuntos, testar públicos em campanha paralela e preservar o que é valioso.
+
+### U:5583803c49ba0ae7:002 — Pause conjuntos muito ruins e substitua ou altere
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:01:05–00:03:14
+condicoes: "conjunto com custo por conversão, engajamento ou visualização muito acima do normal"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se um conjunto está muito ruim, pause-o e crie um novo conjunto ou faça uma alteração nele.
+
+### U:5583803c49ba0ae7:003 — Reprima conjuntos separados que não funcionam
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [otimizar-estruturas, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:01:45–00:05:18
+condicoes: "vários conjuntos separados não estão funcionando legal"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando vários conjuntos de anúncio não funcionam separados, condense seus públicos em um único conjunto em vez de simplesmente pausar e substituir todos.
+
+### U:5583803c49ba0ae7:004 — Público reunido não revela qual origem performa melhor
+```yaml
+tipo: conceito
+plataforma: [meta]
+tema: publicos
+tarefas: []
+fonte: fala
+faixa: 00:03:14–00:05:18
+perecivel: false
+confianca: alta
+versao: 1
+```
+Ao reunir vários públicos ou lookalikes em um conjunto, não é possível saber qual deles funciona melhor ou pior; a comparação passa a ser pelo resultado do conjunto.
+
+### U:5583803c49ba0ae7:005 — Expanda um conjunto com vários públicos
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: estrutura-de-campanha
+tarefas: [otimizar-estruturas, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:05:18–00:06:29
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando um conjunto reúne vários públicos, divida-os em vários conjuntos, inclusive em agrupamentos intermediários como dois conjuntos em vez de cinco.
+
+### U:5583803c49ba0ae7:006 — Duplique um conjunto para preservar seus dados ao reprimir
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: publicos
+tarefas: [replicar-campanhas-e-grupos, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:06:29–00:07:54
+perecivel: true
+confianca: alta
+versao: 1
+```
+Pré-condição: dois conjuntos de anúncios serão reunidos e você quer preservar os dados do conjunto original.
+1. Pause os dois conjuntos que serão reunidos.
+2. Duplique um deles no Gerenciador de Anúncios.
+3. Na cópia, edite a segmentação e inclua o lookalike do outro conjunto.
+4. Ative o novo conjunto com os dois públicos.
+
+### U:5583803c49ba0ae7:007 — Crie uma campanha paralela de testes de públicos
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:07:56–00:09:20
+perecivel: false
+confianca: alta
+versao: 1
+```
+Pré-condição: campanhas principais rodam diariamente e já há anúncios com bom desempenho.
+1. Crie uma campanha paralela, chamada pelo professor de batch, para formar um lote de testes.
+2. Coloque nela somente os melhores anúncios.
+3. Teste novos públicos, como um interesse por conjunto.
+4. Use os públicos aprovados para substituir conjuntos que não funcionam na campanha principal.
+
+### U:5583803c49ba0ae7:008 — Teste públicos de quatro em quatro
+```yaml
+tipo: regua
+plataforma: [meta]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:08:40–00:09:59
+perecivel: false
+confianca: alta
+versao: 1
+```
+Na campanha de batch, o professor testa públicos de 4 em 4; no exemplo, cada conjunto recebe somente um interesse.
+
+### U:5583803c49ba0ae7:009 — Transfira público aprovado e reponha os testes
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: testes-e-experimentos
+tarefas: [rodar-testes-e-experimentos, otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:09:59–00:11:58
+perecivel: false
+confianca: alta
+versao: 1
+```
+Pré-condição: um novo público funcionou na campanha paralela.
+1. Pause o teste paralelo e use o público aprovado na campanha principal, em substituição ao que não funciona.
+2. Se a campanha paralela ainda tem bom resultado, ela pode permanecer ativa.
+3. Crie uma nova campanha paralela logo depois para ter novos públicos disponíveis na próxima otimização.
+
+### U:5583803c49ba0ae7:010 — Não pause público valioso só pelo custo isolado
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:11:16–00:13:41
+condicoes: "público muito qualificado, especialmente público quente"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Quando um público é valioso, mantenha-o mesmo que seu custo por lead esteja caro; avalie o resultado da campanha como um todo, não apenas o custo de um conjunto.
+
+### U:5583803c49ba0ae7:011 — Público de página de vendas pode ser valioso acima da meta
+```yaml
+tipo: exemplo
+plataforma: [meta]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:11:58–00:13:41
+perecivel: false
+confianca: alta
+versao: 1
+```
+Situação: um público que viu a página de vendas nos últimos 180 dias converte a R$9, enquanto a meta é R$5.
+O que aconteceu: a campanha no geral paga R$5,88 por cadastro, dentro da faixa desejada de R$5 a R$6, e o conjunto é mantido.
+Lógica: pessoas que quase compraram são qualificadas; pausá-las por uma análise baseada somente no custo pode perder vendas.
+
+### U:5583803c49ba0ae7:012 — Otimize público valioso com anúncio específico
+```yaml
+tipo: decisao
+plataforma: [meta]
+tema: criativo
+tarefas: [otimizar-publicos-e-segmentacoes, otimizar-anuncios]
+fonte: fala
+faixa: 00:12:32–00:14:43
+condicoes: "público valioso com custo por lead caro, inclusive custo de R$50 por lead"
+perecivel: false
+confianca: alta
+versao: 1
+```
+Se um público valioso tem custo caro, procure outra forma de otimizá-lo, como gravar um anúncio específico que fale diretamente com essas pessoas.
+
+### U:5583803c49ba0ae7:013 — Altere janela, faixa de lookalike ou interesses do público ruim
+```yaml
+tipo: procedimento
+plataforma: [meta]
+tema: publicos
+tarefas: [otimizar-publicos-e-segmentacoes]
+fonte: fala
+faixa: 00:14:43–00:16:01
+perecivel: false
+confianca: alta
+versao: 1
+```
+Pré-condição: um conjunto ou público não está funcionando.
+1. Altere a janela de engajamento, como de 30 para 14 dias ou para 60 dias.
+2. Altere o lookalike, como de 1% para 5% ou para a faixa de 2% a 3%.
+3. Ressegmente interesses, combinando-os com interesses como compras de alto valor ou marketing de conteúdo.
+
+### U:5583803c49ba0ae7:014 — Só o teste revela qual alteração melhora o resultado
+```yaml
+tipo: conceito
+plataforma: [meta]
+tema: testes-e-experimentos
+tarefas: []
+fonte: fala
+faixa: 00:15:28–00:16:18
+perecivel: false
+confianca: alta
+versao: 1
+```
+Ninguém sabe antecipadamente qual mudança melhorará o resultado; isso só aparece depois da alteração, ao identificar padrões das próprias campanhas.

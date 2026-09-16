@@ -1,0 +1,644 @@
+{
+  "sessao": 5,
+  "modulo": "002",
+  "escopo": "ordens 19 a 36, E1-E5, status rascunho",
+  "fonte_commit": "f188775",
+  "baseline": {
+    "arquivos": 26,
+    "sha256_agregado": "50c8600a640359d968f542213a5812cc55203d26f0a5643985df95352e82a5e0"
+  },
+  "inicio": "2026-09-14T23:44:14-03:00",
+  "fim": "2026-09-15T00:06:32-03:00",
+  "estado": "concluido_E1_E5",
+  "resultado": {
+    "validador": "mecanico_ok",
+    "arquivos": 18,
+    "unidades": 406,
+    "erros": 0,
+    "warnings": 1,
+    "status_documentos": {
+      "rascunho": 18
+    },
+    "autoria_documentos": {
+      "gpt-5.6-terra": 18
+    },
+    "extraido_em": {
+      "2026-09-14": 15,
+      "2026-09-15": 3
+    },
+    "confianca_baixa": [],
+    "propostas_tag": [
+      {
+        "unidade": "U:f5fd46cdb63a8963:004",
+        "proposta": "tarefa: otimizar-campanhas",
+        "destino": "triagem na Sessão 6"
+      }
+    ],
+    "correcoes_mecanicas": 4,
+    "chamadas_correcao_conteudo": 1,
+    "usage": {
+      "terra_extracao": {
+        "chamadas": 18,
+        "input_tokens": 699949,
+        "cached_input_tokens": 370176,
+        "output_tokens": 68221,
+        "reasoning_output_tokens": 3907
+      },
+      "sol_correcao": {
+        "chamadas": 1,
+        "input_tokens": 31659,
+        "cached_input_tokens": 6016,
+        "output_tokens": 327,
+        "reasoning_output_tokens": 157
+      }
+    },
+    "lotes": [
+      {
+        "lote": 1,
+        "ordens": "19-24",
+        "arquivos": 6,
+        "unidades": 147,
+        "erros_finais": 0,
+        "warnings": 0,
+        "correcoes": 0
+      },
+      {
+        "lote": 2,
+        "ordens": "25-30",
+        "arquivos": 6,
+        "unidades": 119,
+        "erros_finais": 0,
+        "warnings": 0,
+        "correcoes": 1
+      },
+      {
+        "lote": 3,
+        "ordens": "31-36",
+        "arquivos": 6,
+        "unidades": 140,
+        "erros_finais": 0,
+        "warnings": 1,
+        "correcoes": 4
+      }
+    ]
+  },
+  "aulas": [
+    {
+      "ordem": 19,
+      "aula_id": "f4736e839d1e5cb0",
+      "titulo": "1.0 - Estruturas Iniciais",
+      "slug": "002-1-0-estruturas-iniciais",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 2173,
+      "unidades": 20,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 62,
+      "usage": {
+        "input_tokens": 37051,
+        "cached_input_tokens": 5888,
+        "output_tokens": 3137,
+        "reasoning_output_tokens": 70
+      }
+    },
+    {
+      "ordem": 20,
+      "aula_id": "887d4696c3467a94",
+      "titulo": "2.0 - Configuração completa do Gerenciador de Negócios",
+      "slug": "002-2-0-configuracao-completa-do-gerenciador-de-negocios",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 4681,
+      "unidades": 25,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 84,
+      "usage": {
+        "input_tokens": 40681,
+        "cached_input_tokens": 23296,
+        "output_tokens": 4282,
+        "reasoning_output_tokens": 211
+      }
+    },
+    {
+      "ordem": 21,
+      "aula_id": "cc1cb45cc04f075c",
+      "titulo": "3.0 - Pixel e API de Conversões",
+      "slug": "002-3-0-pixel-e-api-de-conversoes",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 2292,
+      "unidades": 21,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 70,
+      "usage": {
+        "input_tokens": 37334,
+        "cached_input_tokens": 23296,
+        "output_tokens": 3570,
+        "reasoning_output_tokens": 466
+      }
+    },
+    {
+      "ordem": 22,
+      "aula_id": "f94349a07934812a",
+      "titulo": "3.1 - Eventos padrão, personalizados e conversões personalizadas",
+      "slug": "002-3-1-eventos-padrao-personalizados-e-conversoes-personalizadas",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 4416,
+      "unidades": 23,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 76,
+      "usage": {
+        "input_tokens": 40419,
+        "cached_input_tokens": 23296,
+        "output_tokens": 3878,
+        "reasoning_output_tokens": 115
+      }
+    },
+    {
+      "ordem": 23,
+      "aula_id": "13b2d9f52cf439b3",
+      "titulo": "3.2 - Fase de aprendizado e aquecimento do pixel",
+      "slug": "002-3-2-fase-de-aprendizado-e-aquecimento-do-pixel",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 3132,
+      "unidades": 20,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 74,
+      "usage": {
+        "input_tokens": 38578,
+        "cached_input_tokens": 23296,
+        "output_tokens": 3784,
+        "reasoning_output_tokens": 466
+      }
+    },
+    {
+      "ordem": 24,
+      "aula_id": "522c2971f640b57f",
+      "titulo": "4.0 - Estruturas de campanha",
+      "slug": "002-4-0-estruturas-de-campanha",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 5970,
+      "unidades": 38,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 108,
+      "usage": {
+        "input_tokens": 42369,
+        "cached_input_tokens": 23296,
+        "output_tokens": 5659,
+        "reasoning_output_tokens": 195
+      }
+    },
+    {
+      "ordem": 25,
+      "aula_id": "2ca16f54f7e1bd7a",
+      "titulo": "5.0 - Os tipos de segmentações do Meta Ads",
+      "slug": "002-5-0-os-tipos-de-segmentacoes-do-meta-ads",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 892,
+      "unidades": 7,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 36,
+      "usage": {
+        "input_tokens": 35326,
+        "cached_input_tokens": 23296,
+        "output_tokens": 1648,
+        "reasoning_output_tokens": 287
+      }
+    },
+    {
+      "ordem": 26,
+      "aula_id": "2adad5b1c731d4ab",
+      "titulo": "5.1 - Públicos Personalizados",
+      "slug": "002-5-1-publicos-personalizados",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 9367,
+      "unidades": 50,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 1,
+      "correcoes_detalhe": [
+        {
+          "tipo": "mecanica",
+          "unidades": [
+            "U:2adad5b1c731d4ab:036"
+          ],
+          "descricao": "tarefa obrigatória associada ao exemplo",
+          "autor": "gpt-5.6-sol"
+        }
+      ],
+      "tempo_segundos": 147,
+      "usage": {
+        "input_tokens": 47586,
+        "cached_input_tokens": 23296,
+        "output_tokens": 7767,
+        "reasoning_output_tokens": 127
+      }
+    },
+    {
+      "ordem": 27,
+      "aula_id": "485b9655e438f86f",
+      "titulo": "5.2 - Públicos Semelhantes",
+      "slug": "002-5-2-publicos-semelhantes",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 1415,
+      "unidades": 12,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 49,
+      "usage": {
+        "input_tokens": 36058,
+        "cached_input_tokens": 23296,
+        "output_tokens": 2369,
+        "reasoning_output_tokens": 160
+      }
+    },
+    {
+      "ordem": 28,
+      "aula_id": "fd00fa74026cdd49",
+      "titulo": "5.3 - Localização, idade, gênero e idioma",
+      "slug": "002-5-3-localizacao-idade-genero-e-idioma",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 1888,
+      "unidades": 15,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 62,
+      "usage": {
+        "input_tokens": 36862,
+        "cached_input_tokens": 26368,
+        "output_tokens": 3111,
+        "reasoning_output_tokens": 462
+      }
+    },
+    {
+      "ordem": 29,
+      "aula_id": "26bb0a8b5fd74ab4",
+      "titulo": "5.4 - Direcionamento Detalhado (interesses)",
+      "slug": "002-5-4-direcionamento-detalhado-interesses",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 3770,
+      "unidades": 31,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 98,
+      "usage": {
+        "input_tokens": 39938,
+        "cached_input_tokens": 5888,
+        "output_tokens": 5056,
+        "reasoning_output_tokens": 83
+      }
+    },
+    {
+      "ordem": 30,
+      "aula_id": "42508f24eb7b3b3b",
+      "titulo": "6.0 - Criação de campanhas",
+      "slug": "002-6-0-criacao-de-campanhas",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 474,
+      "unidades": 4,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 27,
+      "usage": {
+        "input_tokens": 34761,
+        "cached_input_tokens": 23296,
+        "output_tokens": 1083,
+        "reasoning_output_tokens": 348
+      }
+    },
+    {
+      "ordem": 31,
+      "aula_id": "132b49d477065deb",
+      "titulo": "6.1 - Seleção de objetivos e metas de desempenho",
+      "slug": "002-6-1-selecao-de-objetivos-e-metas-de-desempenho",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 7823,
+      "unidades": 44,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 2,
+      "correcoes_detalhe": [
+        {
+          "tipo": "mecanica",
+          "unidades": [
+            "U:132b49d477065deb:004"
+          ],
+          "descricao": "descrição de interface marcada como perecível",
+          "autor": "gpt-5.6-sol"
+        },
+        {
+          "tipo": "conteudo",
+          "unidades": [
+            "U:132b49d477065deb:030"
+          ],
+          "descricao": "régua sem número ou unidade",
+          "autor": "gpt-5.6-sol",
+          "tentativa": 1,
+          "tempo_segundos": 12,
+          "usage": {
+            "input_tokens": 31659,
+            "cached_input_tokens": 6016,
+            "output_tokens": 327,
+            "reasoning_output_tokens": 157
+          }
+        }
+      ],
+      "tempo_segundos": 128,
+      "usage": {
+        "input_tokens": 44827,
+        "cached_input_tokens": 23296,
+        "output_tokens": 6787,
+        "reasoning_output_tokens": 85
+      }
+    },
+    {
+      "ordem": 32,
+      "aula_id": "f5fd46cdb63a8963",
+      "titulo": "6.2 - Nomenclatura de campanhas",
+      "slug": "002-6-2-nomenclatura-de-campanhas",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 2273,
+      "unidades": 19,
+      "erros": 0,
+      "warnings": 1,
+      "warning_detalhe": [
+        "U:f5fd46cdb63a8963:004 proposta_tag tarefa: otimizar-campanhas"
+      ],
+      "tentativas_extracao": 1,
+      "correcoes": 1,
+      "correcoes_detalhe": [
+        {
+          "tipo": "mecanica",
+          "unidades": [
+            "U:f5fd46cdb63a8963:004"
+          ],
+          "descricao": "tarefa proposta retirada do enum ativo; proposta_tag preservada para Sessão 6",
+          "autor": "gpt-5.6-sol"
+        }
+      ],
+      "tempo_segundos": 65,
+      "usage": {
+        "input_tokens": 37205,
+        "cached_input_tokens": 23296,
+        "output_tokens": 3183,
+        "reasoning_output_tokens": 126
+      }
+    },
+    {
+      "ordem": 33,
+      "aula_id": "802b17c1ee5145af",
+      "titulo": "6.3 - Tipos de orçamento (CBO, ABO, diário e total)",
+      "slug": "002-6-3-tipos-de-orcamento-cbo-abo-diario-e-total",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 4058,
+      "unidades": 26,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 79,
+      "usage": {
+        "input_tokens": 39881,
+        "cached_input_tokens": 5888,
+        "output_tokens": 4085,
+        "reasoning_output_tokens": 218
+      }
+    },
+    {
+      "ordem": 34,
+      "aula_id": "a8677eea5cf2d791",
+      "titulo": "6.4 - Estratégias de lance",
+      "slug": "002-6-4-estrategias-de-lance",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 2596,
+      "unidades": 22,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "ajustes_operacionais": [
+        "extraido_em ajustado para 2026-09-15 conforme início real da chamada"
+      ],
+      "tempo_segundos": 72,
+      "usage": {
+        "input_tokens": 37671,
+        "cached_input_tokens": 23296,
+        "output_tokens": 3655,
+        "reasoning_output_tokens": 72
+      }
+    },
+    {
+      "ordem": 35,
+      "aula_id": "7c86762dc9b85fdf",
+      "titulo": "6.5 - Conversão",
+      "slug": "002-6-5-conversao",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 2648,
+      "unidades": 20,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 1,
+      "correcoes_detalhe": [
+        {
+          "tipo": "mecanica",
+          "unidades": [
+            "U:7c86762dc9b85fdf:012"
+          ],
+          "descricao": "título reduzido ao limite de 80 caracteres",
+          "autor": "gpt-5.6-sol"
+        }
+      ],
+      "tempo_segundos": 69,
+      "usage": {
+        "input_tokens": 37865,
+        "cached_input_tokens": 23296,
+        "output_tokens": 3430,
+        "reasoning_output_tokens": 117
+      }
+    },
+    {
+      "ordem": 36,
+      "aula_id": "ba4ba6bb97808a45",
+      "titulo": "6.6 - Criativo dinâmico",
+      "slug": "002-6-6-criativo-dinamico",
+      "estado": "validador_mecanico_ok",
+      "status_documento": "rascunho",
+      "palavras_aula": 1024,
+      "unidades": 9,
+      "erros": 0,
+      "warnings": 0,
+      "tentativas_extracao": 1,
+      "correcoes": 0,
+      "tempo_segundos": 38,
+      "usage": {
+        "input_tokens": 35537,
+        "cached_input_tokens": 23296,
+        "output_tokens": 1737,
+        "reasoning_output_tokens": 299
+      }
+    }
+  ],
+  "hashes": [
+    {
+      "slug": "002-1-0-estruturas-iniciais",
+      "arquivo_sha256": "28fae2f4da3ccfa4d75546d8781ccb851006a82f1d1252715f1d294b958cd556",
+      "pacote_sha256": "b936ce1352a6340807ff05b1b9f77633654b3d211d05929f9f9d397db7fba630"
+    },
+    {
+      "slug": "002-2-0-configuracao-completa-do-gerenciador-de-negocios",
+      "arquivo_sha256": "4d4cc526fd86870ca49a2ba99bc9f5297f66983f652582550b3c3edd028a0f74",
+      "pacote_sha256": "f2d96557528d39e88ca881a35ed2f1db066d362f217de8afc3d08b276f25dfcb"
+    },
+    {
+      "slug": "002-3-0-pixel-e-api-de-conversoes",
+      "arquivo_sha256": "dd1c8d7016b112ef5a1f92adec9564ffcbc8436e44090c4b8a417f62bcf84bf1",
+      "pacote_sha256": "6bcb30f6190e9b383fbc23fc95f9573f8781f5cd0c2412d5380e2841b0a643e9"
+    },
+    {
+      "slug": "002-3-1-eventos-padrao-personalizados-e-conversoes-personalizadas",
+      "arquivo_sha256": "d921548d128b0df434993a3f9add97a6def32f63fdfcf89b03ef00d88364cd8c",
+      "pacote_sha256": "e7e3b299c64960ce4755e2f2ff3aabbe841a70046f8669a556afd76bd14302a3"
+    },
+    {
+      "slug": "002-3-2-fase-de-aprendizado-e-aquecimento-do-pixel",
+      "arquivo_sha256": "a58100fc4a911011bf25971c967d15b14fbbfbee020808a46bf6a9a8b16c0f89",
+      "pacote_sha256": "ed85d422ae8cbd7707d76e25a4d6d9093463c77630f71778a8e9f0a20725348a"
+    },
+    {
+      "slug": "002-4-0-estruturas-de-campanha",
+      "arquivo_sha256": "40f11bf781d52990a23aea880138d76f9828aba60006480ff27dc1af1ebf9411",
+      "pacote_sha256": "add09f3566264c8ea817a09be365093a270fd5f0568d1829db60d4daa5076ab2"
+    },
+    {
+      "slug": "002-5-0-os-tipos-de-segmentacoes-do-meta-ads",
+      "arquivo_sha256": "e33603c7c1dbca487e28c075268afde33021efbcc93761f74cb87b0eae3dfbb9",
+      "pacote_sha256": "bf0c06f5185bb0c94bf7337d25b096826ee2b36863018eff34b5377a78c2147d"
+    },
+    {
+      "slug": "002-5-1-publicos-personalizados",
+      "arquivo_sha256": "efcb92fb1ffa8c07a4bdcf886754d1edb89a03ba5b1be183376ed428f0d00b13",
+      "pacote_sha256": "0ab53c24f5d049dae0ae1add588004e89cf5b12db2478ec395080a2676f7fbc3"
+    },
+    {
+      "slug": "002-5-2-publicos-semelhantes",
+      "arquivo_sha256": "56e5faa37f339e6d963e0e3a8a8de5028dac57589f71637826cf8d5bb5100536",
+      "pacote_sha256": "99858459e71f10e20688a3a297378f5e65c1a5f975b45472aea491bb02c1a53d"
+    },
+    {
+      "slug": "002-5-3-localizacao-idade-genero-e-idioma",
+      "arquivo_sha256": "c4c727e54ecdaa09cccc2161e3e0ae43b2840ac94772faafd020e0dc7c0c3bb6",
+      "pacote_sha256": "94ff909badf8f5f147cd0a21207a9f74e5deff544426fd13da77aa1e614cf439"
+    },
+    {
+      "slug": "002-5-4-direcionamento-detalhado-interesses",
+      "arquivo_sha256": "75b10e3cda4274c19e248a1527b1b30b8e39b6937226449e734065c877f179c6",
+      "pacote_sha256": "84a13116b3d3c29b79345558348efe69a55cedfe49915ea5dd095ec94d7ad5ce"
+    },
+    {
+      "slug": "002-6-0-criacao-de-campanhas",
+      "arquivo_sha256": "b1c2f1669353b90d4d304940ebed007a3deee5552c4ba7ff57e2fb4e6dded58a",
+      "pacote_sha256": "84246e8f41d928b92989afd18f9d117faa60d8f7447be684d67a1b835eca675c"
+    },
+    {
+      "slug": "002-6-1-selecao-de-objetivos-e-metas-de-desempenho",
+      "arquivo_sha256": "5f8438899e2c2c1a5f23bbb5becea10c3603a8fceb87d9ea6e5b6506e49b0a37",
+      "pacote_sha256": "c3b1b1e353a3283d1faa1e8add779cdd3ffec59ab92f8d42010b25c5937abb73"
+    },
+    {
+      "slug": "002-6-2-nomenclatura-de-campanhas",
+      "arquivo_sha256": "72f4818d2e4e99f280e9dc9026f6bb7bc785fe60ac2865250302182fc230ae96",
+      "pacote_sha256": "cde6f693ddaca8b29faea0bfd86b51f8d3dbad38d4d402abe35dfddf47d6b049"
+    },
+    {
+      "slug": "002-6-3-tipos-de-orcamento-cbo-abo-diario-e-total",
+      "arquivo_sha256": "f2325359922b1a6da9bd33a6a552fbb626833997d02c226f4d3c9741cf57c79a",
+      "pacote_sha256": "e77e6afd09152cd1f249c8e01e774d059f20051bd6bcf0463d047290252264a5"
+    },
+    {
+      "slug": "002-6-4-estrategias-de-lance",
+      "arquivo_sha256": "c3bb81703c908b328893e5f39880d365182070968efb485db670041a629d177a",
+      "pacote_sha256": "2349a1529543866bdceabbed68115a8b017131b691903952b614b851e3df96cc"
+    },
+    {
+      "slug": "002-6-5-conversao",
+      "arquivo_sha256": "38bd5e2d43937eee2f970e43c8cf229eb27cbca4bad44b24c44ca377914ce904",
+      "pacote_sha256": "54d0e368baa1f5f02d4d7def38869afacc13d713a81645f52e5e68baf1a08ef8"
+    },
+    {
+      "slug": "002-6-6-criativo-dinamico",
+      "arquivo_sha256": "820240740f7d26c01ceebfe1b8bcf1062c08044d62e6bc83da1016200f275d65",
+      "pacote_sha256": "351f7cdda1cfa03fe8d157bcd9104cb16f6dc0a48377d143c9bb1c8bfc8dd4ae"
+    }
+  ],
+  "fechamento": {
+    "data": "2026-09-15",
+    "escopo": "Sessão 5, meia leva do módulo 002; sem revisão semântica ou triagem de tags",
+    "estado": "gates_aprovados",
+    "biblioteca": {
+      "arquivos": 44,
+      "unidades": 1200,
+      "erros": 0,
+      "warnings_globais": 21
+    },
+    "checks": {
+      "indices": "23 arquivos regenerados; build --check OK",
+      "visoes": "0 erros; nenhum derivado desatualizado",
+      "testes": "80 aprovados após ajustar teste de pendentes para as 18 aulas restantes",
+      "hashes_finais": "18/18 conferidos",
+      "originais": "26 arquivos e 794 unidades preservados; taxonomia idêntica",
+      "fonte": "f188775; nenhuma fonte bruta adicionada à biblioteca"
+    },
+    "limites_medicao": [
+      "Usage de 18 chamadas Terra e 1 chamada Sol de correção de conteúdo; não inclui tokens do coordenador Sol nem desta conversa.",
+      "cached_input_tokens já faz parte de input_tokens. reasoning_output_tokens mantido como campo informado, sem somar outra vez.",
+      "Falta a segunda metade e a revisão semântica do módulo; não mede custo até aprovação de conteúdo.",
+      "Tempos por chamada são observados pelo executor; início/fim do resultado cobre E1-E5, não os checks e commits finais."
+    ]
+  }
+}

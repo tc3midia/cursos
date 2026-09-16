@@ -1,0 +1,32 @@
+{
+  "sha256": "c8c6e1995921fba6b91004a40ea51de1e786793476d1feba861080baa4540dd3",
+  "raw_sha256": "0eb8999c8126edfd44d55e79e8f3364dc9e5dea43d01d563e3c246f80ef52acf",
+  "unidades": 24,
+  "ajustes_mecanicos": [
+    "U:05c3667ffa806bda:009",
+    "U:05c3667ffa806bda:010",
+    "U:05c3667ffa806bda:015"
+  ],
+  "alteracoes": {
+    "9": {
+      "substituir": {
+        "hoje": "o dia em curso",
+        "de o": "do"
+      },
+      "motivo": "Normalização mecânica do marcador temporal: dia em curso conserva o período de análise ensinado; sem atualização para o presente."
+    },
+    "10": {
+      "substituir": {
+        "de hoje": "do dia em curso"
+      },
+      "motivo": "Normalização mecânica do marcador temporal, preservando a distinção entre dia incompleto e dias completos."
+    },
+    "15": {
+      "substituir": {
+        "de hoje": "do dia em curso"
+      },
+      "motivo": "Normalização mecânica do marcador temporal, preservando condição de verba alta e períodos de 3 ou 7 dias completos."
+    }
+  },
+  "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/conclusao-modulos/005/saidas/05c3667ffa806bda.extrator.md"
+}

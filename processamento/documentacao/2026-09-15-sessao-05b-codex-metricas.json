@@ -1,0 +1,328 @@
+{
+  "estado": "diagnostico_concluido_correcao_bloqueada_duas_aulas",
+  "inicio": "2026-09-15T00:19:01-03:00",
+  "fim": "2026-09-15T08:46:32.582583-03:00",
+  "resultado_sha256": "9180c5a787619cb9f477a4fb6311fa6f3ec570b118840b58a0f36e78a002ff2c",
+  "modelos": {
+    "T": "gpt-5.6-terra",
+    "S": "gpt-5.6-sol",
+    "A": "gpt-6-astra"
+  },
+  "totais_cli_medidos": {
+    "input_tokens": 962660,
+    "cached_input_tokens": 232960,
+    "output_tokens": 65953,
+    "reasoning_output_tokens": 17271
+  },
+  "colunas_chamadas": [
+    "aula_id",
+    "fase",
+    "rodada",
+    "papel",
+    "modelo",
+    "entrada",
+    "cache_incluido_na_entrada",
+    "saida",
+    "raciocinio_incluido_na_saida"
+  ],
+  "chamadas": [
+    [
+      "132b49d477065deb",
+      "diagnostico_r1",
+      1,
+      "inspetor",
+      "T",
+      46591,
+      23296,
+      5342,
+      2307
+    ],
+    [
+      "132b49d477065deb",
+      "diagnostico_r1",
+      1,
+      "juiz",
+      "A",
+      39589,
+      0,
+      2101,
+      343
+    ],
+    [
+      "132b49d477065deb",
+      "diagnostico_r1",
+      1,
+      "redator",
+      "S",
+      43283,
+      0,
+      2144,
+      99
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "diagnostico_r1",
+      1,
+      "inspetor",
+      "T",
+      38859,
+      5888,
+      1799,
+      0
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "diagnostico_r1",
+      1,
+      "juiz",
+      "A",
+      35033,
+      0,
+      1394,
+      367
+    ],
+    [
+      "26bb0a8b5fd74ab4",
+      "diagnostico_r1",
+      1,
+      "inspetor",
+      "T",
+      42186,
+      5888,
+      2570,
+      0
+    ],
+    [
+      "26bb0a8b5fd74ab4",
+      "diagnostico_r1",
+      1,
+      "juiz",
+      "A",
+      37449,
+      6400,
+      1628,
+      409
+    ],
+    [
+      "2adad5b1c731d4ab",
+      "diagnostico_r1",
+      1,
+      "inspetor",
+      "T",
+      50245,
+      5888,
+      7104,
+      3006
+    ],
+    [
+      "2adad5b1c731d4ab",
+      "diagnostico_r1",
+      1,
+      "juiz",
+      "A",
+      41609,
+      0,
+      1666,
+      370
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      null,
+      "extrator",
+      "T",
+      45111,
+      5888,
+      7994,
+      119
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      2,
+      "inspetor",
+      "T",
+      48452,
+      23296,
+      5852,
+      2630
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      null,
+      "redator",
+      "S",
+      44257,
+      24576,
+      380,
+      23
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      null,
+      "extrator",
+      "T",
+      38857,
+      5888,
+      4568,
+      414
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      2,
+      "inspetor",
+      "T",
+      38539,
+      5888,
+      3379,
+      1034
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      null,
+      "redator",
+      "S",
+      39074,
+      0,
+      613,
+      79
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      2,
+      "juiz",
+      "A",
+      37372,
+      24448,
+      950,
+      323
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      2,
+      "juiz",
+      "A",
+      41906,
+      0,
+      1484,
+      497
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      3,
+      "redator",
+      "S",
+      40317,
+      0,
+      389,
+      0
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      3,
+      "redator",
+      "S",
+      45168,
+      24576,
+      1761,
+      115
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      3,
+      "inspetor",
+      "T",
+      49158,
+      23296,
+      6120,
+      2832
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      3,
+      "inspetor",
+      "T",
+      38908,
+      23296,
+      3899,
+      1552
+    ],
+    [
+      "13b2d9f52cf439b3",
+      "piloto_reextraido",
+      3,
+      "juiz",
+      "A",
+      37839,
+      0,
+      996,
+      242
+    ],
+    [
+      "132b49d477065deb",
+      "piloto_reextraido",
+      3,
+      "juiz",
+      "A",
+      42858,
+      24448,
+      1820,
+      510
+    ]
+  ],
+  "candidatos_temporarios_r3_sha256": {
+    "132b49d477065deb": {
+      "reconciliado": "8c77ac6d2d34a4f60ee7125b443d8562eff8dc98f05a017987efb0a667cc4cd6",
+      "r3.evidencia": "b6ca8215153afffb3687857e080dd82eab896225e54c429d030bc5bb483b6385"
+    },
+    "13b2d9f52cf439b3": {
+      "reconciliado": "dbe536b9aacbec2d1f1803eba9c2c99090c0ab44c598c3750dd745a58c3fdcd0",
+      "r3.evidencia": "5d913211d411642f51168ed89c30e60d7aa607e10c7a883c4abc6c62dd971e4d"
+    }
+  },
+  "validacao_canonica": {
+    "aulas": 44,
+    "unidades": 1208,
+    "modulo002_aulas": 18,
+    "modulo002_unidades": 414,
+    "erros": 0,
+    "avisos": 20,
+    "testes_aprovados": 80,
+    "indices": "atuais",
+    "derivados_desatualizados": 0,
+    "aprovacao_semantica": "nao obtida"
+  },
+  "limites": {
+    "coordenacao": "consumo nao incluido",
+    "tempo": "duas inspecoes tiveram 24711 segundos de parede incluindo suspensao e reconexoes; nao representa tempo ativo",
+    "novas_aulas_extraidas": 0,
+    "outras16_reextraidas": 0,
+    "candidatos_reextraidos_promovidos": 0,
+    "proposta_classificacao": "recusada; taxonomia preservada",
+    "terceira_falha": "bloqueado; contador historico preservado"
+  },
+  "laudos_r3_sha256": {
+    "132b49d477065deb": "9942bff8288d4e014390b59234a75bdea34c9af6e12e59d8051b926ccd51bb4e",
+    "13b2d9f52cf439b3": "e5fee476ead1586bba2db07bb5e00c33e95e2176a3e585b36d1d9850b72e12a8"
+  },
+  "preservacao": {
+    "aulas_anteriores_identicas": 26,
+    "taxonomia_sha256": "61d952075022069d8c6cc1c1ab74090c6e5372c6cc5b92c212b6a7502ccdd8ea",
+    "clone_commit": "f188775"
+  },
+  "effort_por_modelo": {
+    "T": "medium",
+    "S": "medium",
+    "A": "high"
+  }
+}

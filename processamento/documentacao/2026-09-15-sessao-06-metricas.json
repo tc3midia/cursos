@@ -1,0 +1,2065 @@
+{
+  "sessao": 6,
+  "fonte_commit": "f188775",
+  "aulas_novas": 18,
+  "unidades_novas": 334,
+  "aulas_modulo": 36,
+  "unidades_modulo": 765,
+  "aulas_biblioteca": 62,
+  "unidades_biblioteca": 1559,
+  "modelos": {
+    "gpt-5.6-terra": {
+      "chamadas": 20,
+      "input_tokens": 675943,
+      "cached_input_tokens": 250880,
+      "output_tokens": 65209,
+      "reasoning_output_tokens": 5417,
+      "esforco": "medium"
+    },
+    "gpt-6-astra": {
+      "chamadas": 2,
+      "input_tokens": 64933,
+      "cached_input_tokens": 0,
+      "output_tokens": 2703,
+      "reasoning_output_tokens": 359,
+      "esforco": "high"
+    },
+    "gpt-5.6-sol": {
+      "chamadas": 1,
+      "input_tokens": 29087,
+      "cached_input_tokens": 0,
+      "output_tokens": 228,
+      "reasoning_output_tokens": 0,
+      "esforco": "medium"
+    }
+  },
+  "totais": {
+    "chamadas": 23,
+    "input_tokens": 769963,
+    "cached_input_tokens": 250880,
+    "output_tokens": 68140,
+    "reasoning_output_tokens": 5776
+  },
+  "nota_tokens": "cached_input_tokens já incluído em input_tokens; reasoning_output_tokens já incluído em output_tokens. Apenas chamadas de papéis, não a coordenação. Não demonstra economia contra outra rota.",
+  "correcoes": {
+    "conteudo": 1,
+    "unidades_mecanicas": 5,
+    "cabecalhos_mecanicos": 1,
+    "reextracoes": 0
+  },
+  "revisao_amostra": {
+    "aula_id": "05ace36fbf112424",
+    "rodadas": 2,
+    "ciclos_correcao": 1,
+    "veredito": "passa",
+    "escopo": "integral por composição; 21 unidades, mapa de omissões e efeitos da alteração"
+  },
+  "gates": {
+    "testes": 80,
+    "erros": 0,
+    "warnings_preexistentes": 21,
+    "warnings_novos": 0,
+    "indices": "atuais",
+    "derivados": "zero erros",
+    "propostas_tags": 0
+  },
+  "preservacao": [
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-4-0-estruturas-de-campanha.md",
+      "baseline_sha256": "40f11bf781d52990a23aea880138d76f9828aba60006480ff27dc1af1ebf9411",
+      "atual_sha256": "97c74684795a1542175f70935645c003ff9344c47043e74201e38354119bb755",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-5-0-pixel-e-api-de-conversoes.md",
+      "baseline_sha256": "ba5994b50b1fcdf15aa890346298d0e07cb16367d54ed09568a0e4eb1d1886c1",
+      "atual_sha256": "ba5994b50b1fcdf15aa890346298d0e07cb16367d54ed09568a0e4eb1d1886c1",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-1-selecao-de-objetivos-e-metas-de-desempenho.md",
+      "baseline_sha256": "32946fa47e97155395ced4792e95fbe0656a3d836741f8bf82c87fb9ec8b6858",
+      "atual_sha256": "c8d5b7b0ede62ea6a34f2193f8dea3035baabf3a32e31672c78099bee5a43d84",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-9-0-utilizando-o-chatgpt-para-criar-anuncios.md",
+      "baseline_sha256": "fd99cfaac30bc9ab4af3a3f028465bb16f0ca2647d0eaad07f53c7f07ddd8f6f",
+      "atual_sha256": "fd99cfaac30bc9ab4af3a3f028465bb16f0ca2647d0eaad07f53c7f07ddd8f6f",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-5-3-localizacao-idade-genero-e-idioma.md",
+      "baseline_sha256": "c4c727e54ecdaa09cccc2161e3e0ae43b2840ac94772faafd020e0dc7c0c3bb6",
+      "atual_sha256": "91679f54351250250e541a9fd79fcf1ca48a72ba95e0c7cf9b19d0ab87c0248f",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-3-1-eventos-padrao-personalizados-e-conversoes-personalizadas.md",
+      "baseline_sha256": "d921548d128b0df434993a3f9add97a6def32f63fdfcf89b03ef00d88364cd8c",
+      "atual_sha256": "20e946d1b71cf95de0940e7ef082d1322bcabb40c441c8789afb7f40037a59d2",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-6-criativo-dinamico.md",
+      "baseline_sha256": "820240740f7d26c01ceebfe1b8bcf1062c08044d62e6bc83da1016200f275d65",
+      "atual_sha256": "cf54c2c04a777f93a5e0a3a6f71d217b740af909d2689a56ceed034125b860f8",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-5-0-os-10-tipos-de-segmentacoes-do-google-ads.md",
+      "baseline_sha256": "287283b0ae24a0c699ccd0d9909833cb1c6d74fbf5747af41fb954a119b2a3a9",
+      "atual_sha256": "287283b0ae24a0c699ccd0d9909833cb1c6d74fbf5747af41fb954a119b2a3a9",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-4-estrategias-de-lance.md",
+      "baseline_sha256": "c3bb81703c908b328893e5f39880d365182070968efb485db670041a629d177a",
+      "atual_sha256": "16e68edb3ab91688e4f24c3a53f011db7fca0af650ae8f08e8aed8b27261636e",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-2-0-o-abc-do-trafego.md",
+      "baseline_sha256": "b2405788b8ab95010ee7d65330a6221825012609245566f9794051a069da09e9",
+      "atual_sha256": "b2405788b8ab95010ee7d65330a6221825012609245566f9794051a069da09e9",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-4-0-as-5-habilidades-do-anunciante-de-sucesso.md",
+      "baseline_sha256": "152d414b63daed97aaa4e938d1a4af91da3e67fe9a9f7ce98765b5695c6b423e",
+      "atual_sha256": "152d414b63daed97aaa4e938d1a4af91da3e67fe9a9f7ce98765b5695c6b423e",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-1-0-o-que-e-trafego-pago.md",
+      "baseline_sha256": "20520a8138ee12c59e1f23651cf2d4e02508543ca81867d59e3a279ca4a8796a",
+      "atual_sha256": "20520a8138ee12c59e1f23651cf2d4e02508543ca81867d59e3a279ca4a8796a",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-8-1-lances.md",
+      "baseline_sha256": "acf7f7712fcbee941fa8136d590419846a33e5e9f98c7a685aea0c5d747aedd4",
+      "atual_sha256": "acf7f7712fcbee941fa8136d590419846a33e5e9f98c7a685aea0c5d747aedd4",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-5-2-publicos-semelhantes.md",
+      "baseline_sha256": "56e5faa37f339e6d963e0e3a8a8de5028dac57589f71637826cf8d5bb5100536",
+      "atual_sha256": "191077a6c90f3e0f6e47293fa67327b5a913ec475b70f62aa402f9f096d1fb89",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-10-0-testes-testes-e-mais-testes.md",
+      "baseline_sha256": "ac3daceac7f410a44195348950b8da962ea9acdefba8ee2f4418516ae7c06fff",
+      "atual_sha256": "ac3daceac7f410a44195348950b8da962ea9acdefba8ee2f4418516ae7c06fff",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-5-0-os-tipos-de-segmentacoes-do-meta-ads.md",
+      "baseline_sha256": "e33603c7c1dbca487e28c075268afde33021efbcc93761f74cb87b0eae3dfbb9",
+      "atual_sha256": "f30ef7dc2de72bd9c2c04853c8c9e2e6a8d5942338a82f030a30cfbd9f125ac2",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-13-0-trafego-organico-amigo-ou-inimigo.md",
+      "baseline_sha256": "938de05d354a639b9602b531adf3c19efb67c83bae1c0dcf0468ae70173a34d6",
+      "atual_sha256": "938de05d354a639b9602b531adf3c19efb67c83bae1c0dcf0468ae70173a34d6",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-5-4-direcionamento-detalhado-interesses.md",
+      "baseline_sha256": "1727a7067dc8eb64e73bb969d2a25bac0fb5fe8a81725d1052d2cb8156e1ea3c",
+      "atual_sha256": "f0562d976f46202758f29ca2bc85e1b2e5b96ae861f8fefadbe82b956e34f29d",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-5-conversao.md",
+      "baseline_sha256": "38bd5e2d43937eee2f970e43c8cf229eb27cbca4bad44b24c44ca377914ce904",
+      "atual_sha256": "195414ddaa69ab2e7cbb254e3bee39df039179e754acf3d176cb33c0f07e07c4",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-3-0-pixel-e-api-de-conversoes.md",
+      "baseline_sha256": "dd1c8d7016b112ef5a1f92adec9564ffcbc8436e44090c4b8a417f62bcf84bf1",
+      "atual_sha256": "e7018a44500d35cd5ae4c4b3185d7d8a878898653cadbcef160c1e5de3f428a7",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-6-0-checklist-de-publicos-missao-pratica.md",
+      "baseline_sha256": "3a35028ca778eb536eb9342e713957e6068546a5266b7c433da313962c274e9a",
+      "atual_sha256": "3a35028ca778eb536eb9342e713957e6068546a5266b7c433da313962c274e9a",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-8-2-taxa-de-acao-estimada-objetivos-e-segmentacoes.md",
+      "baseline_sha256": "07d9dd3ad37df9c3c8a176d9b078a0a0a4dad508132becc98c2ecc432d98080c",
+      "atual_sha256": "07d9dd3ad37df9c3c8a176d9b078a0a0a4dad508132becc98c2ecc432d98080c",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-2-0-configuracao-completa-do-gerenciador-de-negocios.md",
+      "baseline_sha256": "4d4cc526fd86870ca49a2ba99bc9f5297f66983f652582550b3c3edd028a0f74",
+      "atual_sha256": "151366977dd84f216ebb59406a62f61e1b989eebcc4ea3343708e033918d8b32",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-8-0-leilao-o-algoritmo-do-trafego-pago.md",
+      "baseline_sha256": "03716ae1ca13227f939461d33a14b561291cf5d7484725cbc6976d51d88951e7",
+      "atual_sha256": "03716ae1ca13227f939461d33a14b561291cf5d7484725cbc6976d51d88951e7",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-0-criacao-de-campanhas.md",
+      "baseline_sha256": "b1c2f1669353b90d4d304940ebed007a3deee5552c4ba7ff57e2fb4e6dded58a",
+      "atual_sha256": "9cadd1891daf5a2023b4280819512172e7ae4c8af83f72add3d7077191cff463",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-7-0-relatorios-os-simplificadores-da-sua-vida.md",
+      "baseline_sha256": "79c68049998c00ae7bdc1435c1f6c9b08638bf90035477e8a0c4dad841dcb972",
+      "atual_sha256": "79c68049998c00ae7bdc1435c1f6c9b08638bf90035477e8a0c4dad841dcb972",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-3-2-fase-de-aprendizado-e-aquecimento-do-pixel.md",
+      "baseline_sha256": "7ad55ace628b854352162bd7e3bd71709e7657017823e542eea986f714fdb803",
+      "atual_sha256": "c9dd6d444a750ff95ac2897f88e4ea5d8485a311461a076c7f0653c22a7fab56",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-3-0-como-aprender-trafego-e-qual-fonte-aprender-primeiro.md",
+      "baseline_sha256": "6e265bbc5d7b91a9b3f07389e2bb8986f44b316a9e72ac64d03de55873aacd63",
+      "atual_sha256": "6e265bbc5d7b91a9b3f07389e2bb8986f44b316a9e72ac64d03de55873aacd63",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-2-nomenclatura-de-campanhas.md",
+      "baseline_sha256": "d4a15fd78aaed603b9b6395f7d958ef50ac06a00e38c209daa0ab5f63a22f710",
+      "atual_sha256": "8fea4abadc3878fa9097ed2d4e0141aa8f501680157344503273965af2e3feb5",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-2-0-configurando-seu-pixel.md",
+      "baseline_sha256": "158210147979d616ad46a87075e229c734f87dacf0cbd092154183c6b92e6f80",
+      "atual_sha256": "158210147979d616ad46a87075e229c734f87dacf0cbd092154183c6b92e6f80",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-5-1-publicos-personalizados.md",
+      "baseline_sha256": "26c89dffe9679348594e089e30ac1cb1cd9a1664bc9372c4aaf9f44eb530f1ef",
+      "atual_sha256": "0728af9d99745b269859acb9076eee3305e94d1bb8a77ed9ab6ae9b2f333cb1c",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-0-0-como-tirar-o-melhor-proveito-do-curso.md",
+      "baseline_sha256": "a37ccf4f09e8349568e2400eea0ad2223e4352d362a02054a0d0397189e86e6e",
+      "atual_sha256": "a37ccf4f09e8349568e2400eea0ad2223e4352d362a02054a0d0397189e86e6e",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-3-0-tipos-de-campanhas-do-google.md",
+      "baseline_sha256": "4e7dfdd1377b41aad1a978b2c807325edc760482f1abd46c67bee1fec83ec596",
+      "atual_sha256": "4e7dfdd1377b41aad1a978b2c807325edc760482f1abd46c67bee1fec83ec596",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-8-3-anuncios-a-alma-do-seu-trafego-pago.md",
+      "baseline_sha256": "f50f569ab31f210f17b26df3184de66467d07acda98750201d65bbcb464af38c",
+      "atual_sha256": "f50f569ab31f210f17b26df3184de66467d07acda98750201d65bbcb464af38c",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-7-0-estrategias-de-lance.md",
+      "baseline_sha256": "594ee6c45ce4401abebf2f9d9616ddd82714ab9337257778c0e72c048b2aee95",
+      "atual_sha256": "594ee6c45ce4401abebf2f9d9616ddd82714ab9337257778c0e72c048b2aee95",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-1-0-estruturas-iniciais.md",
+      "baseline_sha256": "28fae2f4da3ccfa4d75546d8781ccb851006a82f1d1252715f1d294b958cd556",
+      "atual_sha256": "062c4bee3d9976697e184ff573e41059f0bd5cbfdd15a898d5cbb7b735be6044",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-1-0-configuracoes-iniciais.md",
+      "baseline_sha256": "0cf7148828352df381903381e046d507220227f42295c0a81c910be277528675",
+      "atual_sha256": "0cf7148828352df381903381e046d507220227f42295c0a81c910be277528675",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/003-4-0-criando-sua-lista-de-palavras-chave-keywords.md",
+      "baseline_sha256": "71d180b803a95614c3ab1b214b3fb30d72f70046debbc6b8fda7e2cb4e6ba87d",
+      "atual_sha256": "71d180b803a95614c3ab1b214b3fb30d72f70046debbc6b8fda7e2cb4e6ba87d",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/002-6-3-tipos-de-orcamento-cbo-abo-diario-e-total.md",
+      "baseline_sha256": "f2325359922b1a6da9bd33a6a552fbb626833997d02c226f4d3c9741cf57c79a",
+      "atual_sha256": "48f0423745c52547a5231363ac23af106745a2fe3db92d4cb7b7cbc3afddb699",
+      "mudanca": "somente status rascunho -> validado"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-12-0-janelas-de-conversao-ou-atribuicao.md",
+      "baseline_sha256": "2fd072b33639d44ddaa545bd09fed0a2e5739f97454b7fe9668f934d15939a00",
+      "atual_sha256": "2fd072b33639d44ddaa545bd09fed0a2e5739f97454b7fe9668f934d15939a00",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-6-0-metricas.md",
+      "baseline_sha256": "c5d98f6d115b1d94030f7e23181d199d41e5fdaf66b6afd704a715e6e0e1bb37",
+      "atual_sha256": "c5d98f6d115b1d94030f7e23181d199d41e5fdaf66b6afd704a715e6e0e1bb37",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/005-4-0-minha-campanha-esta-gastando-toda-verba-em-um-unico-grupo-de-anuncio-e-agora.md",
+      "baseline_sha256": "90bf3607d99da755c4ac54a1abf9e64e228ea2914979578a4dfc8387ecd26f10",
+      "atual_sha256": "90bf3607d99da755c4ac54a1abf9e64e228ea2914979578a4dfc8387ecd26f10",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-14-0-sobreposicao-de-publicos.md",
+      "baseline_sha256": "d2a010c65a9c520228d81f67ffd9c969920df14006b9e4b5d657b0adf631fc0b",
+      "atual_sha256": "d2a010c65a9c520228d81f67ffd9c969920df14006b9e4b5d657b0adf631fc0b",
+      "mudanca": "nenhuma"
+    },
+    {
+      "arquivo": "biblioteca/curso-subido-trafego/unidades/001-11-0-escala-como-aumentar-seus-resultados.md",
+      "baseline_sha256": "9a9c0eb85b31295ca92016cda4d5a038e2a33e807b361d434fbda1263f739575",
+      "atual_sha256": "9a9c0eb85b31295ca92016cda4d5a038e2a33e807b361d434fbda1263f739575",
+      "mudanca": "nenhuma"
+    }
+  ],
+  "aulas": [
+    {
+      "modulo": "002",
+      "aula_id": "9245e2a1486b5af5",
+      "slug": "002-6-7-uniao-e-separacao-de-publicos",
+      "palavras": 5198,
+      "unidades": 20,
+      "sha256": "b467b1dc43295dae1593cde5dd46d82f74eae31ba93ea9ee1bf8b7df3b3b1194",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 20
+      },
+      "publicacao": {
+        "sha256": "d0e51c77cf5ae43bcba336b6fa5d0712bb9801379e702b32277a44d3e5eac427",
+        "unidades": 20,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/9245e2a1486b5af5.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:9245e2a1486b5af5:001": "11e8dc94f06588ed62af277f9da715e60c244806c918e6245e04e0f73f327394",
+        "U:9245e2a1486b5af5:002": "bc5659e0b55efdea22a22477bcb454f7333506e732f44031dfaa0a447f0c4ab8",
+        "U:9245e2a1486b5af5:003": "6f746f15482aab397052f94086ad4976edde4428fe4a9bcf15bc3ba6b1656fdb",
+        "U:9245e2a1486b5af5:004": "3afb1c50c580412cef580189956fc0a11a68bbe87d121d7d713f2f93076e7e23",
+        "U:9245e2a1486b5af5:005": "95b8f17c44711dad88698ebf2f3b9642452d90abaf8b6421462826a96ded955d",
+        "U:9245e2a1486b5af5:006": "08d99599f5cb04569339f9735a88ad25fdc65c24f8a64e7ebbdedaad92c4736d",
+        "U:9245e2a1486b5af5:007": "b583cde50f4ec39bba80bacfb7e654a593e3123c17e0d586c0e603ff8e7c7cef",
+        "U:9245e2a1486b5af5:008": "50c0652f3b0a06f6025bb9ad2bf64a1bd35f1debfd5201fbd3617b3354c7c633",
+        "U:9245e2a1486b5af5:009": "c31e02e383ba1f58d249db3746772cb3e858f31084ac2352e5f96d6b2a468dfd",
+        "U:9245e2a1486b5af5:010": "63da87c1d77c5629364b5743d4f6e218324086a29466b5ce280fffd4eea76d3a",
+        "U:9245e2a1486b5af5:011": "7110da9a75a8c443f6b2b46b35176eee76bb0898a902b16e77e38289ae161cec",
+        "U:9245e2a1486b5af5:012": "c8597957cbdceae52f6d0f9b108b4d83eacb1e4168eea717da2aa3346e7e8c08",
+        "U:9245e2a1486b5af5:013": "91be4c6c3dbd2bf460aaeb5c653d923267542f761e241ed899a86594a9e83b22",
+        "U:9245e2a1486b5af5:014": "58e93756b6b2ec839ed0b62d6d834e7884b33c8fecb71e5d7c7e24aa5b3c1069",
+        "U:9245e2a1486b5af5:015": "ca49638ec579c26a99d90b8f2df0d2056fed9cacb64957496b9bf15721420c2a",
+        "U:9245e2a1486b5af5:016": "a922bacc86fd0d798b53b077002a2b2823a7d018d16e145db48523df23210b7b",
+        "U:9245e2a1486b5af5:017": "ca490ba7f3174adfd46785f49233d56be2aa8f24e9e0f4b120bd3d6fd9b4ef68",
+        "U:9245e2a1486b5af5:018": "dbb31d2da0ee81346f57192da2a2c737030b2ad0be9a54352fcdf7037dd283a2",
+        "U:9245e2a1486b5af5:019": "0fde6f9f2b71a8759aaa082170ae80a14150c69cb14e2f297d8c533eab4d2ee1",
+        "U:9245e2a1486b5af5:020": "b7a79a3cdc8ffb1928880090615ce011a4df9c98c9b330317040e196c338ebd3"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "c8b6931bb5d322bc",
+      "slug": "002-6-8-exclusao-e-hierarquia-de-publicos",
+      "palavras": 6017,
+      "unidades": 20,
+      "sha256": "5ce6b0114479b0ff0de83263d550f51d1496e7abe7291cbad59db61356707851",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 20
+      },
+      "publicacao": {
+        "sha256": "8c11294698954f182852d9cb2a9e12b3a7df70b3248fe5fee93e58b90fa3c535",
+        "unidades": 20,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/c8b6931bb5d322bc.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:c8b6931bb5d322bc:001": "486e07357434d480b76e1522030f6860b8d208cedeb45f9c12905fd23a5801e9",
+        "U:c8b6931bb5d322bc:002": "e64fcd7d83b413d09858ccbc707c3f60dac78034d1df79b27fcee1014bcdef14",
+        "U:c8b6931bb5d322bc:003": "0cb06a703ed4b595ef29e5f44aaa66d7f4fc85356b40bee03d15f65c3e00fea8",
+        "U:c8b6931bb5d322bc:004": "701c9e0bb7cbf73dd7569e4c72f2c05419158e9365d169e05bb91e4d9e1785e0",
+        "U:c8b6931bb5d322bc:005": "e5ea6344ba2ab138d834ef2a0e89828d673f74b6c574f57d4c8166b2ca28d215",
+        "U:c8b6931bb5d322bc:006": "789f9fee9d86dafe7f550e0e09ec44457ecbfe0e56538833ae590a15b3b8000b",
+        "U:c8b6931bb5d322bc:007": "d99ad0dec10165d42d1a65c8fdabed5dc9c863f6d5a3497af060ead203c4098b",
+        "U:c8b6931bb5d322bc:008": "d3857e883c31fe2cbc48d852b83a1e6b74c545de651e238376ef0f2b676507ec",
+        "U:c8b6931bb5d322bc:009": "920b716496cf729d8b692fb731815a58ce2ddc412c8bdf4c57372e028e85d29a",
+        "U:c8b6931bb5d322bc:010": "559672932a8e8c15ccc6ecd9bc91a92761edc316299000f88929e39c0d1b79fa",
+        "U:c8b6931bb5d322bc:011": "9848fd750bba0f06512b56e3376712a61bfa8ec61c2b7cdb77191f16848f8059",
+        "U:c8b6931bb5d322bc:012": "f602db65c0d0402e150511c076ce6b2c56fb604e63aa4c905733508ede9c4bb3",
+        "U:c8b6931bb5d322bc:013": "47979479410a20a85602e38294fc538921062a94063bcaa844156129244721ad",
+        "U:c8b6931bb5d322bc:014": "7ec72ac52d892bb67c5740a6a10a304979673d75647a120517dcfaf02d960456",
+        "U:c8b6931bb5d322bc:015": "cc30f337b7803bd1a6f22d3a41af58bceec938d58ccc10da8a872403ded57b9e",
+        "U:c8b6931bb5d322bc:016": "9bbbb7e199a31a9e2357fc7c81dd927b127db72387eb40ab11469c042034f166",
+        "U:c8b6931bb5d322bc:017": "692feb3b08d88cd5876a705e36a7186b94e778b812a6ae06740559e194c179d0",
+        "U:c8b6931bb5d322bc:018": "adbefa7c97fd67ba091296a4d0775e46ffeefdb26d6bff10e9123175ab4489a5",
+        "U:c8b6931bb5d322bc:019": "b2c2037421a71267dea8012ff92d2ecd1149d0427e96ead1d8a5f7037a500e40",
+        "U:c8b6931bb5d322bc:020": "05e14f1749382dcfde04a6ebd03f5a4e9057f173d5a01610a9c80f6b82d86cd9"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "0dceb6b73f3fbe90",
+      "slug": "002-6-9-controles-de-publico-e-publico-advantage",
+      "palavras": 2886,
+      "unidades": 14,
+      "sha256": "c94da5cec5ae639d58528060acee08090e1eaeaab5c1cb30e9f682daa731bd26",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 14
+      },
+      "publicacao": {
+        "sha256": "00234faaa1bc4d241b172fada1d61b4cdccb0660846738230af93574f10ac764",
+        "unidades": 14,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/0dceb6b73f3fbe90.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:0dceb6b73f3fbe90:001": "ec76ef4fbda2a76d013e9cc13d1039fe09ef35c3ee3fd1dd87991d5c1e264ffe",
+        "U:0dceb6b73f3fbe90:002": "22367f82792b7d36582ee564dd0ce8e278ebe6e105c5a98f47423bef0b9e6bb5",
+        "U:0dceb6b73f3fbe90:003": "a19802c1f695a4977d9b487d9ec9265ef8502abb9366c4d0f951099857e11e70",
+        "U:0dceb6b73f3fbe90:004": "8e7358b1bd68c51c8163f1283e5d3948c1876052b9b674eda438f4a87c699c3f",
+        "U:0dceb6b73f3fbe90:005": "ff0ad8a525ea4a928c14c9696e2a524d181b5959518bec7cff0da2cf3fc1fe93",
+        "U:0dceb6b73f3fbe90:006": "dd9a311dcebdca67cb42a71a7280fb4cae99da91f23307a49c4fe1c029ae91c4",
+        "U:0dceb6b73f3fbe90:007": "abe8ea1c1eced0f205178f6a193f54c1f4f7242ef7cdbb47db32b8ab781a569f",
+        "U:0dceb6b73f3fbe90:008": "550e3f394dbbb3bbc0cb918f1313dca3575a1fd43056d6cd35d87057cc92d6ce",
+        "U:0dceb6b73f3fbe90:009": "ae6b1c29888b10e051ae9140bbc51da84a7287a83de3db723ff2c6e6619890ca",
+        "U:0dceb6b73f3fbe90:010": "1e51b2058c9dd08656887093c1c5adf4365ca12d1d8294865182df0002701c73",
+        "U:0dceb6b73f3fbe90:011": "69c9ce03f13a8805e3443095f606cddcbbc573e7edc72caaa8524d75f841e513",
+        "U:0dceb6b73f3fbe90:012": "2ffbc38531e86fbf404657866ae898a716001013aa3d202fd3198b7414af5cf4",
+        "U:0dceb6b73f3fbe90:013": "e9a307003ee7765d85a5f88b32dadf3fa5906f2dc1dd6262325077b586689c50",
+        "U:0dceb6b73f3fbe90:014": "2ca8dca3e1ed581551e96c57ab8c5dec5c036f80abe753910fd632d0bfba6657"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "05ace36fbf112424",
+      "slug": "002-6-10-posicionamentos",
+      "palavras": 5507,
+      "unidades": 21,
+      "sha256": "545e21caa63c146775abe69858cee8cf1229f3579e012a4c0aeb6fef14be1b68",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 21
+      },
+      "publicacao": {
+        "sha256": "401f04b99bbb83715a0eb6357798765f0c4f907edce5f014942765f2ee83e30d",
+        "unidades": 21,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:05ace36fbf112424:001": "a0cd4a5862503fa56d4a9aa6c7c338329d579560a35184d6215f9d871a920b8f",
+        "U:05ace36fbf112424:002": "48dfb6bed25a17c67e53db9ccee589cb4d53e2406f8e82f971b637a807b1ffcd",
+        "U:05ace36fbf112424:003": "f82d51d9eed31ef249e273d3cec3c7a6fc5ac4b4397e99fbec0c840dee7ea8ff",
+        "U:05ace36fbf112424:004": "da2e31a1ddc02a39bdb9d7c90c59e42472b217c70cf9d13d4483095f55705cce",
+        "U:05ace36fbf112424:005": "7ec5e96e866cd525fb48187100693fc976a811fe608df4da072acc4612893685",
+        "U:05ace36fbf112424:006": "7751ab7787ced41bffc936ab0ae5d7c332dfa7e242da9aa479a18a73e8a41b47",
+        "U:05ace36fbf112424:007": "71335c8ffc1de3aa8a472c5fd3a5895ee042158b47dde85c5822c092d4f001f4",
+        "U:05ace36fbf112424:008": "b18f73f5dd9c66486379d4127f7bcd505a267168afac0844eb5045e893d46711",
+        "U:05ace36fbf112424:009": "4506c699d1ff3a92ba34bee0e4ce7b013ec27ba60c7518e9faa594ca2fb813a3",
+        "U:05ace36fbf112424:010": "7ae5cc7f1cb58827798375a587aa2f03142b844c812660ff0b8f6a7642437231",
+        "U:05ace36fbf112424:011": "20155d5e4d487cf0692fdbbf8685bd2b4f7f3a01f003b2a7d49e198fd10f8f9c",
+        "U:05ace36fbf112424:012": "26e5d45e359418cc7e77657969817662cb9f9dab2403fdc177ec4723dc5bdc59",
+        "U:05ace36fbf112424:013": "2259b6354e85e0ce05d15733c377356a1bf966481f6f1d52de6994de9599ef71",
+        "U:05ace36fbf112424:014": "388016f9fe7bc181c7a3b2fb98463a1cdf7da26697f2da58b2ea1fc9a7190b30",
+        "U:05ace36fbf112424:015": "1f850babf35e22381d4e0d0b2f1e20906fb071e4d2303f7867d4e4a08f869800",
+        "U:05ace36fbf112424:016": "dca2f75ef604056bae9dc2e6829d42a2262b913b41e0af2138e076eb4f347752",
+        "U:05ace36fbf112424:017": "5458d14224d13d3424fd569124fdc299091cb14d800f6310a2c749569d2770eb",
+        "U:05ace36fbf112424:018": "27f00984b0803279d5c636081670b4a5d553fa5c8b35064548abddb85132ba9a",
+        "U:05ace36fbf112424:019": "ffffd842c68828d56d3c658dfd185d2a7fa9bea9602d53d9c31c32e0652990fc",
+        "U:05ace36fbf112424:020": "5494a03d3ce9cb0c70c1dec40fbf4825b769b92e2c048dd58d125bd2155d0caa",
+        "U:05ace36fbf112424:021": "c5e55d21d636677ce174ce6b5a08a87ae91946b7a010243bedd822c74ab8b7b1"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "123dbaed1f3aa39e",
+      "slug": "002-6-11-anuncios-identidade-e-configuracao",
+      "palavras": 3414,
+      "unidades": 19,
+      "sha256": "ef7eab43f54effae43bdd10c35d31512dce6c7c0659e29ac77b06646924f36d9",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 19
+      },
+      "publicacao": {
+        "sha256": "ae8c40e9b1246a2c41b8327df78931c4864ea7e10633cb01293c4f5dae20d03e",
+        "unidades": 19,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/123dbaed1f3aa39e.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:123dbaed1f3aa39e:001": "b5fe21808f5d51d9102f3f4bc76587867382c4aa11ac570de6b5c154b9dd2c5d",
+        "U:123dbaed1f3aa39e:002": "885221db2d1e5f4dff72a630c80d307a4076bd05fbf33ba0eb7983f615e4d9bf",
+        "U:123dbaed1f3aa39e:003": "bf6e1f3a54ae2002991ff51157e0ed08d87cd4eecd5b37af0eea0e41cb656ebc",
+        "U:123dbaed1f3aa39e:004": "eb27ebc9405a289a37cfac6115ef70f8f9674abf305594db0438cb3c4f50216d",
+        "U:123dbaed1f3aa39e:005": "42b61f39f525ed76fb8994c7724ff1f9b805678c7bc01412327eab207e6d9bee",
+        "U:123dbaed1f3aa39e:006": "d23a67683a00a3329fc1db639903a47283c64cf7be56bd2316da7b036c21a151",
+        "U:123dbaed1f3aa39e:007": "619d91e772919a3f7fe478bdbdc1fb08ca18605b6cff6a44385e7bd574bf0b9c",
+        "U:123dbaed1f3aa39e:008": "ea2a5ec20f7844281a307a9dd1a07d70e6158db062c4c5240be356fc9155cb3d",
+        "U:123dbaed1f3aa39e:009": "ffbdadea86ed2736bb90a9fb5fdce66c127fcc17fa5abebcf5429c149d2aa9db",
+        "U:123dbaed1f3aa39e:010": "92e398a61c906540c14e59e57125c714a69ef4d53d8c529999810d7d5c724cb9",
+        "U:123dbaed1f3aa39e:011": "0755ba3d658869b00098dedfceda7bdb66af029ec8e248c123071df22d2e7dda",
+        "U:123dbaed1f3aa39e:012": "6fdbb1b258881dc67c8843d6b8e14d28abb099b5fcd0af5a8bc43dac32ba85cc",
+        "U:123dbaed1f3aa39e:013": "b9c7b0a2ae6511e00876aed86e8a49ce2a2e4fc3b3e5771f2b94004520460b1a",
+        "U:123dbaed1f3aa39e:014": "88daf669d6ce16bf6d04f43439d69deefa4c77c274300eb50a9aec98e439fcab",
+        "U:123dbaed1f3aa39e:015": "666183258adc9939c157bf3c92130d00ed18c07b13e68154d07fa9b21482778d",
+        "U:123dbaed1f3aa39e:016": "d91f67ccdc6627af2b9530917fafec4694c742d81d4cdbbe1ec124ff861d5102",
+        "U:123dbaed1f3aa39e:017": "80c5c0a088944b819d7187910a2fba50aac025f999be9caeff8abdb043e90072",
+        "U:123dbaed1f3aa39e:018": "39a1abf0a416881e6749cb253ce50f33305b9dce76414d8d9d8616d4bcfbb281",
+        "U:123dbaed1f3aa39e:019": "b265d60437cb83a40e5ee956c4a6afbefbb27ab59a12cbe505eec9758fd27890"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "367e808623ec5fe5",
+      "slug": "002-6-12-criativo-do-anuncio",
+      "palavras": 3967,
+      "unidades": 18,
+      "sha256": "0d0ff6d85a28424079d40f83cccf66f90ba86751bb11d54f91c81e4f079b0473",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 18
+      },
+      "publicacao": {
+        "sha256": "51bbc864910e81f60d41cc8183ab8a2a96541c0ff595adc3a458f3facecbe6aa",
+        "unidades": 18,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/367e808623ec5fe5.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:367e808623ec5fe5:001": "7f2f45a49d9806921cc99fde6623a0cea7a554c44c3e66212232a119afac429f",
+        "U:367e808623ec5fe5:002": "77770766120e1a02170d7cf48d9e96e80a627a9bd262b115a3a383d7267daaf9",
+        "U:367e808623ec5fe5:003": "8e01248a7386fd432cf184220f20c05e36e4fb37973daf3b3c75ccedfb4e6a4a",
+        "U:367e808623ec5fe5:004": "4e6d55417219d4db59e5b2752adcbc94b5d37c2e64ef4fc3cb08504a30e7473b",
+        "U:367e808623ec5fe5:005": "4b7d61aa948cf1b775a792b3e02888cef5cfecda089ce73777027caad3e3e50b",
+        "U:367e808623ec5fe5:006": "6d66f445da46b54cfc7be064fc9beb5145fba26875e978f44ad4a6a88f539811",
+        "U:367e808623ec5fe5:007": "b0fdcda81595244eb72623968913e4bd8df7aed7fcca8395e7ab75abf546a8d4",
+        "U:367e808623ec5fe5:008": "24187e7012693e300e5690416626cee1d4708490ab3b8a101d74cbb2d5126131",
+        "U:367e808623ec5fe5:009": "894810653df4d8740c46711042cba9f627ecd0faebbd095925dbef11c6c4c479",
+        "U:367e808623ec5fe5:010": "1556e7b11656b3fc463c215ac6624ba5b02994afc211b094433a10336fa9a245",
+        "U:367e808623ec5fe5:011": "0229865d4290977cc01ca162469ddfefae02cd5b04a9dc84291a962beb073f1f",
+        "U:367e808623ec5fe5:012": "0eff08cb133dcaac476e809e6cb7e5cabd67818afe0a08b0689f4653955504c7",
+        "U:367e808623ec5fe5:013": "8b42bc4d14bb88de4b84ec21ed006eceb7a70d0947d9ab669be673bfcba9a5f5",
+        "U:367e808623ec5fe5:014": "fe13013f33ca5aa849046be0691e56b9e716e6e30935d1b5a427ae4bd23a61d9",
+        "U:367e808623ec5fe5:015": "d42824006c343c4588998b76006ecbebaa4d72c5056c9555e39ea90035018336",
+        "U:367e808623ec5fe5:016": "1db51c4f49da3318fd27554d1cbfc0cc274bcf949b21143fd0860def922b9503",
+        "U:367e808623ec5fe5:017": "868b8bc4bc18891bf10f058426796eaf540d7994b347ff8692fb52393cdc6aa6",
+        "U:367e808623ec5fe5:018": "7efbf8f3730ef8aad122b14ab720d40968de5f02e8d502ec3bb703d3c0320564"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "2e7295a14c7a318f",
+      "slug": "002-6-13-configurando-o-destino-de-campanhas",
+      "palavras": 3551,
+      "unidades": 23,
+      "sha256": "263dc1b43c0fb516c20c203921a06b51d55af036f5380eadbf2142f3a7ecf087",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 23
+      },
+      "publicacao": {
+        "sha256": "e34f2e292252a74c9fc64a603f61a4bb3dbdd7829d351d9cfc2404e429a93ddf",
+        "unidades": 23,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/2e7295a14c7a318f.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:2e7295a14c7a318f:001": "f25189c42d6e739e38db2786534e8b20eb66f97a6f53ed1d553a7b8719659179",
+        "U:2e7295a14c7a318f:002": "b2cf492fd0de97ce7b6d6486b3d4c70b47ebb75bc1de6e1f57d3bf24ba7a3aac",
+        "U:2e7295a14c7a318f:003": "712eff194007017d1ce8172b1fb0952e9c7b1c56297622739e2764572d036c91",
+        "U:2e7295a14c7a318f:004": "903f03db1aa3cd2283f1c3b640cd14d98b41152f90da0dbcae6899e89190bde0",
+        "U:2e7295a14c7a318f:005": "27e76288a14bb6e9bb09ab4f298a5dd7223d3479e4ca08577e345bcb1eb6e110",
+        "U:2e7295a14c7a318f:006": "dd09927cf3d3e8ce7e7708589a5ee987bd43525734e4b580bf083232e3a4cf42",
+        "U:2e7295a14c7a318f:007": "5216963ea1663aab202f0641e22f31bb93e0ebca1106e68b18b72a46679c116b",
+        "U:2e7295a14c7a318f:008": "b1c02399a4bf2aef2fd5f7879241cf107aae1510db1cbaae53144f004b68752d",
+        "U:2e7295a14c7a318f:009": "8816995bcf326ffb98265ddb37dd0092c9a6318d58c57450ee45f68e858ff208",
+        "U:2e7295a14c7a318f:010": "fa96bd0c73735c9c47380cc4a545f2a8e61bb062e6db59281076e6007303a0e5",
+        "U:2e7295a14c7a318f:011": "f8fb0182a19a752e1f892785bc51c1e97a99a547d0c49f7646682acb131e8f64",
+        "U:2e7295a14c7a318f:012": "38b1679dda6aca8313744bf57d14da45cecf1726ecc1215587c7f34fc368d676",
+        "U:2e7295a14c7a318f:013": "661965dac5009c9bfe19756f46f6637013c69e3437e101a65a7b61ca9e1a9386",
+        "U:2e7295a14c7a318f:014": "a23be74a0fa7dca547b7bacbe05d312c3c307e2ec5a4346831c53734c3cbf906",
+        "U:2e7295a14c7a318f:015": "54661732dd4c6c7c7f0dd20d8777ca21313fccc56272bd36009e6f4df1b05626",
+        "U:2e7295a14c7a318f:016": "d004c151acdac421e159bca9cb47e2dbaf7aeed96ab7221c53ad7cfc66d154cc",
+        "U:2e7295a14c7a318f:017": "6042a435518ab13a8976f7f8abbdc2f9011b9c8d0bfd5600d5698a1b2c8846ee",
+        "U:2e7295a14c7a318f:018": "53c1043f8ea48e00bd68248839a97f726b44c6461c7e0e3d0a3f559b5c763dc5",
+        "U:2e7295a14c7a318f:019": "ec9765d05f97fe0256ca09a2d556a5b7bd4c720d7449d77a83fc1ef175e97edf",
+        "U:2e7295a14c7a318f:020": "254d99fed0c0797589868d3f7c53a501117a82f918f9ba3341c751133246388c",
+        "U:2e7295a14c7a318f:021": "44977ab5f6758298b66d58f199db5fc25d8846bc7527670c151d22c4c8d4154f",
+        "U:2e7295a14c7a318f:022": "dc68b36c8279f2c50647777cdf95082ac4d8de3834e5506e4352b66b469a1ada",
+        "U:2e7295a14c7a318f:023": "198c96d4013604f29df9317701da52d97fc9a80c29a6c94cb204c7c2e13b78de"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "7e51a38be8a32c3a",
+      "slug": "002-7-0-criacao-de-campanhas-na-pratica",
+      "palavras": 5001,
+      "unidades": 16,
+      "sha256": "c81de58525cd25a56cbe95b5eb0126e118360239d2092ccd525604840e3f5dac",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 16
+      },
+      "publicacao": {
+        "sha256": "25ed66b6864338777582fd8a0e1e017519508d708673833d6e4695739fd59e74",
+        "unidades": 16,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/7e51a38be8a32c3a.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:7e51a38be8a32c3a:001": "d223408bb5ccb0c1c4e1ac059c99b78764767d4b02dadeaa12417aa6cca377ee",
+        "U:7e51a38be8a32c3a:002": "f4d0ba879bee489e714775aa635ac55867d43bb1f03806364fc276e83bd25477",
+        "U:7e51a38be8a32c3a:003": "e1a4a1661b395184f54441899c0c19beffb5aceff66488790a311629952f7520",
+        "U:7e51a38be8a32c3a:004": "b8b7ddbee1d74179c94ed8eca114d20e4a1e28e58144066e3e31b5b79a669e85",
+        "U:7e51a38be8a32c3a:005": "74c89b75fb565fe35c62c2a688664a5e7f8af16924e6fd385a582caf08311ac5",
+        "U:7e51a38be8a32c3a:006": "2d8698aa364c636dfee64904371354361e96fb02d55f9991cdc6ae9c94e2cfbe",
+        "U:7e51a38be8a32c3a:007": "1bca59477443f9b1468e20150042ba758cb2cfae362270d1a81c5f8a47aebbf4",
+        "U:7e51a38be8a32c3a:008": "15eee64bd8cdb01efde14d6903771fafae0d8d35622cbb59fed3bbc183e7652d",
+        "U:7e51a38be8a32c3a:009": "8d957935bbec224955b40c0e21ecc342612d185c647f0f103120a653bf8909b6",
+        "U:7e51a38be8a32c3a:010": "c43b4224e79794bad4eaf81e6146db3be4b500f20192d7625b8f2ab7fb2d716d",
+        "U:7e51a38be8a32c3a:011": "13a04679ec83f72d9be00666048ef56ee4af1b3fa8d5e18f8bd0e6e016082a8a",
+        "U:7e51a38be8a32c3a:012": "86ad6a912d54c87953fc2c081fe4939d18ecd7be656c38700dde77bc8c186d15",
+        "U:7e51a38be8a32c3a:013": "5bb95f67c17add75dc324045f529c7ddff8d40a3d0a869c15c67faa2989c45cd",
+        "U:7e51a38be8a32c3a:014": "6cb1d741a9df50933d7bc395b3a0f5879b8c145c5f458e7f4f354c73f3f5c22e",
+        "U:7e51a38be8a32c3a:015": "a9a1500405a1b0895abb9650577887ab536f8583618e6c2c5db3ee6f57e6f402",
+        "U:7e51a38be8a32c3a:016": "dd308d8ccc59c9275c41f917fcaaf10e847144d76bcc6f5fa3aaede414920167"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "7cc58e06ed6a16b7",
+      "slug": "002-7-1-campanhas-de-catalogo",
+      "palavras": 7870,
+      "unidades": 35,
+      "sha256": "6e5fedc8deae7a37aaa42e5a1cadf05bc6cc0ebeb93d987e904881bb8f21e19d",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 35
+      },
+      "publicacao": {
+        "sha256": "7a13150225b2f454d64122458de164686b13ac3595a1ede9451b331ec95cd8f6",
+        "unidades": 35,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/7cc58e06ed6a16b7.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:7cc58e06ed6a16b7:001": "7e8026c8b21a0f5c3e051ee1d7044c1b3872eceee05f7afb3d001d832efad3b8",
+        "U:7cc58e06ed6a16b7:002": "4c2bb41fb265f08847f81ef4ef91a9b46f413080971b31370ed969a17ec26794",
+        "U:7cc58e06ed6a16b7:003": "a766789b2cade8727d5437f57e865a6e3dd847315656d28163685519bdc47194",
+        "U:7cc58e06ed6a16b7:004": "6943a5b41f47513341567534570d9b1d5407f45e97b31a988eda8308eb018e14",
+        "U:7cc58e06ed6a16b7:005": "fef5f67c7cf70f4c741d512f9dba2777f7acb808b01fa18875ec642c9094870c",
+        "U:7cc58e06ed6a16b7:006": "7eeacbb2fb257d3032220f3c776ca05a2bad203ba733257727f02b5217a25531",
+        "U:7cc58e06ed6a16b7:007": "df9952c9a51f2c7af9ab1b710f7a75d393f361f9be8f4502bb4f149b97ec518d",
+        "U:7cc58e06ed6a16b7:008": "a77e7b56510735bd7b62598a3572325f836794c68282573481925e68ce51b2a5",
+        "U:7cc58e06ed6a16b7:009": "7b5148058fbd02a144eef4cb759ceaf005830e7a971a42f9b0bffe96bcf3d52f",
+        "U:7cc58e06ed6a16b7:010": "7806e23a0b10c45eca93af1fc2ec9666973e54392ac59e4561e9a9721ee25c61",
+        "U:7cc58e06ed6a16b7:011": "d74d9c44ff825d8ed98735cf3643cde75217a70c38d70c35dd5acee8885a6dc6",
+        "U:7cc58e06ed6a16b7:012": "bbecf9c074fc5ed598aa2c2c079c63655169efaa5c660d8fa4b0def91e4a7220",
+        "U:7cc58e06ed6a16b7:013": "b45798a77bfbd4b3a1d449105459ca204f2bd1c4d9495a4925e8f7d50ff10fa0",
+        "U:7cc58e06ed6a16b7:014": "71ee0e490d0dd1ed6d12db807b0258f5eeeebe6acfe98325a9f2093322663f50",
+        "U:7cc58e06ed6a16b7:015": "49a31e9d5d08d373dbb6b739abbfeabd6c30f55d4ed1b09a50b2cd2284a835c4",
+        "U:7cc58e06ed6a16b7:016": "2904e950c9facc307d9f3fbebcadec918c2612a2f2de95f796ecda7e1268612e",
+        "U:7cc58e06ed6a16b7:017": "1147049bd62d724c6f540b0d7d9a5f5920ff9187dad619433776750b2468635c",
+        "U:7cc58e06ed6a16b7:018": "a76c9d6a823133b9217711cb9100630705f9fe7d25f904e17df48501f203be2b",
+        "U:7cc58e06ed6a16b7:019": "11a3e7b2c928c85cc1264eac43aef49e0a958888ecc6f59db7fa8c499b5a59fe",
+        "U:7cc58e06ed6a16b7:020": "a5de71ff622b92cec2bdc0c8c9f5c3cd32a48bff9f9134ba04faa8b2353ab984",
+        "U:7cc58e06ed6a16b7:021": "ba8aed6a7f5ad1ba372b2832424ac44bb6c1df0e2d79415bfd01a4f262f3bd2b",
+        "U:7cc58e06ed6a16b7:022": "4487f2c935626da7f44c972ed01204d4ad573ac220a2e0fa7fa93f58c11c32a7",
+        "U:7cc58e06ed6a16b7:023": "17727929068e129418b1e6ea8ad09a51303fa746f41a157080978b2dc08ff8ae",
+        "U:7cc58e06ed6a16b7:024": "2c43661bcc5a1736cc3588c711ea6f6589c79d0ad113eaa1800813674555b883",
+        "U:7cc58e06ed6a16b7:025": "77ed1e1b4f125bb05772e3394111ecae46a18b2603e8f56729935ed507196cb6",
+        "U:7cc58e06ed6a16b7:026": "591787ed6d9996dba857aea8fb27cb0a109f5f4e38059694501176204110a489",
+        "U:7cc58e06ed6a16b7:027": "94d44bbe6de54855102b2e32769b956075f38616a68013e3ba0b58b15961fad9",
+        "U:7cc58e06ed6a16b7:028": "be809c7120268824ec4f84dabed9f4dd0742b64b98c1bfd7a9a0b828dca71e21",
+        "U:7cc58e06ed6a16b7:029": "027be6964feec9cdd34b099f410a01e9016ae0ae568b993be87506c74ef99703",
+        "U:7cc58e06ed6a16b7:030": "3fd02fdffbf66278873f35106c25aedacb1caecbfbc104568bd8c686920698f4",
+        "U:7cc58e06ed6a16b7:031": "7e9c0559e0ab97949aef58d33e9aed9d16a459568956652a8254fd310bd539bf",
+        "U:7cc58e06ed6a16b7:032": "f6608af7d5c7531d9bc9dab4108bc27c1e739b89c43760857e0d78c4c83b0e05",
+        "U:7cc58e06ed6a16b7:033": "7f40030de2d51e1a163bf726867387dc1bb4114b3d006bf9264ee1cfbcb641e9",
+        "U:7cc58e06ed6a16b7:034": "73a7cf2df81baaf52350a1f76492fd8e9761f9a5a5680598afdf88b3a0fa3b52",
+        "U:7cc58e06ed6a16b7:035": "b6d4f36077055f77c48e6a17b1b5ebdc2ca6aee6adb90db589deb40bc93f20be"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "2077bb55014aefde",
+      "slug": "002-7-2-campanhas-de-formularios-instananeos",
+      "palavras": 3636,
+      "unidades": 18,
+      "sha256": "1841054b519f492b52b3c3c7eb6e31438ade87ac0e317590ab7b1e84bcb27f90",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 18
+      },
+      "publicacao": {
+        "sha256": "5531a0a8e37242d5992b04325a5553c2753657625924776f3b5ee1cde994b911",
+        "unidades": 18,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/2077bb55014aefde.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:2077bb55014aefde:001": "8d39dfafb75e58f633d25dc3a9c8654896f92c5b9d6bb10ccbccf9cd4a629321",
+        "U:2077bb55014aefde:002": "b55070c9366bb8294485ebcc248dbe9a7799c3970781bf0eace52a756e9d887d",
+        "U:2077bb55014aefde:003": "73a872d0bbd5fb221341f43c448a9719855e6b855c9127f25740a1e13e0c2e14",
+        "U:2077bb55014aefde:004": "83e047b74ffcaa54cedaeb9395d395f8b491345b0eda6fce91c19a3f14924823",
+        "U:2077bb55014aefde:005": "c8e10110b872ce43b210d6e3c280aff8156a36e01f255a6797b1ffdf76aea6d5",
+        "U:2077bb55014aefde:006": "2f4acddad558fbcd2c72e488aa5e51e22f47cf6f5c284c7a601bf1467d2826ce",
+        "U:2077bb55014aefde:007": "7cab80592f44778f717562674f5f0f23ee1b4a17f5cb80e33735b4d87ce8aa84",
+        "U:2077bb55014aefde:008": "64b7678cb950241c0d00488d12ca387290d4e3cb58aff76be285867be9150a67",
+        "U:2077bb55014aefde:009": "66429ee5c5423e14393a584c1d9a9a9b290bd7552b965a60e5d29a2d9e5250d4",
+        "U:2077bb55014aefde:010": "e5c0694eef4de6b1ad0e085775a61c25f234d7f833e9a2d739ee513e75c6868f",
+        "U:2077bb55014aefde:011": "39810eb67d472c1d8fe337faa66e1658a729e24cf022a6a1328c267f00f14691",
+        "U:2077bb55014aefde:012": "52ebbd51a6178d4e4a22b29d528f57e15bb2639132dd691878426f4f31c16c39",
+        "U:2077bb55014aefde:013": "a7f8cfa56d84f924bc0d96a8624147540bb28cbc69b47f503fec981c533519cf",
+        "U:2077bb55014aefde:014": "6d0cf1af1c8bf97c2e492430f473b629ce31cba216c1d553546d2d72c2739adf",
+        "U:2077bb55014aefde:015": "60c47563691d247498b12d25289e87a0528b4a32124910e2302ef8881e6b96ae",
+        "U:2077bb55014aefde:016": "b4fe0c0af4a0e10d476aa68358d0b24433c62032c1a153aa5713edeaf0119abf",
+        "U:2077bb55014aefde:017": "65ee29336df70648d432be209eb95a9e738db8d28f8d85c00d3d0837d604096f",
+        "U:2077bb55014aefde:018": "702d60c98c65f938fca546f0f2cb46c73ce5124df2f6328042a82ea674678358"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "e762527908ae1c89",
+      "slug": "002-7-3-campanhas-de-reconhecimento",
+      "palavras": 1038,
+      "unidades": 5,
+      "sha256": "c7b8b98b7bd2ad0727a8acfff6473e37a29f6f3afa823c4a6e6d908a1bba7d22",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 5
+      },
+      "publicacao": {
+        "sha256": "bbd8c7b8cc687eee9c5307af1860dd61e1c77ec7d186efa792fb132d8ea95010",
+        "unidades": 5,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/e762527908ae1c89.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:e762527908ae1c89:001": "6899739c5e5a0303af96e1205e83eee07218d74119a5ec7aca890147fc2f1cae",
+        "U:e762527908ae1c89:002": "40512d12b35d2da6baf9b7edeff39497bd88783ff9b31fa235fe8d73f9d02a07",
+        "U:e762527908ae1c89:003": "aaecdc4e8227e962f1bb2a50b5c9aa0fc9bafaafa484a56060b9924827b635a2",
+        "U:e762527908ae1c89:004": "97e2f72ef7e67f7bd9d3f3397bb8d44065ef9990bc5efb0ab28979d68cbf2eb4",
+        "U:e762527908ae1c89:005": "3e237b84b8d515373aee594cb0171146af678e4cdafcfd368381b892c7b31bbc"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "859adfb3130b4843",
+      "slug": "002-7-4-campanhas-para-whatsapp-direct-e-messenger",
+      "palavras": 2809,
+      "unidades": 18,
+      "sha256": "dadf4446045dad883549330afcc847c6b05df0e31881876933f10d8a7ba4b061",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 18
+      },
+      "publicacao": {
+        "sha256": "c27d7e81016b79896e3ee044643428343990ba72391ab0a2cb3b00736c2ddbe2",
+        "raw_sha256": "7894a92e8a4d3f97c69e90225c35b9300fa9d56989e992996f1a91a1d435b346",
+        "unidades": 18,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/859adfb3130b4843.extrator.md",
+        "ajuste_mecanico": "U:859adfb3130b4843:006",
+        "motivo": "Ajuste mecânico: abertura temporal equivalente de Ao criar para Quando criar, conforme contrato do tipo decisao; conteúdo preservado.",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:859adfb3130b4843:001": "17e5969537a72e03c5624c2a371daae950cff166ee8550c1d12487650915a801",
+        "U:859adfb3130b4843:002": "b79ec673cc722b89288fef74e66f9e0839e0cab3478fb857942eeaf389cd8df6",
+        "U:859adfb3130b4843:003": "f4c68668f4df7821cb0b1520d729949d6874a190547195b6a1627d3a9dfb83cb",
+        "U:859adfb3130b4843:004": "0434a3790742c706197f8de49b146a9651729eee1cc51445ceb825e7f014155c",
+        "U:859adfb3130b4843:005": "5f906fbff871b71c6d6b732eeb0b1d19905f1df6c1c0d8d3e78c2d5716bcdca9",
+        "U:859adfb3130b4843:006": "d37beff5d974a16daeb3bc7f728063741f9710dd3b8218460fd395f91e346f7d",
+        "U:859adfb3130b4843:007": "046377666afa37e75d5e5afe7595fa5714a7ac66252f1b18d3108cf1f5a2bc7c",
+        "U:859adfb3130b4843:008": "c91b72d00a09d8e7bc41ad5bcf954b3bb09be65c25755f302435b101cc32df47",
+        "U:859adfb3130b4843:009": "f84f936ec77c8cbe79daad688dc3ad22cd476b42820c81a331e1ddd5555cabc5",
+        "U:859adfb3130b4843:010": "8f693c6027d350f98bbaee7215b3e0759d3ffa7a873ce884383107f9c8196801",
+        "U:859adfb3130b4843:011": "a20fb95503d1a6e47f25103e1b86c160f553469dd81918338df074aac8b8630e",
+        "U:859adfb3130b4843:012": "a50add4c3d7b2fdd62e5c3736aad31eab9820f35db232af8350164e90521ed2d",
+        "U:859adfb3130b4843:013": "983d840ca31751e018aba3832bb0f94cafda374cfba4af2d321354bda2b1e4c2",
+        "U:859adfb3130b4843:014": "c483d8ef2e6eb7a4a5c854cdf43f353627d7ec061cd420facd414866133b177c",
+        "U:859adfb3130b4843:015": "88a7daf56194c27807f883b154f4291a5112c7f0ac9b2ef9f123b1d0a0901494",
+        "U:859adfb3130b4843:016": "e96f687382c143d7c6723ff695d98c56ffb0ae6819ba605f8fb0775cba17697d",
+        "U:859adfb3130b4843:017": "b93ebe9826ba460f38dbc19f53ca8135b18423a50d49c9b5694681046f9d8bcf",
+        "U:859adfb3130b4843:018": "28bf0c749e819fc318beab603fa62aefa9238a8d2079a0e79565a531e9db0704"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "de18a2b62b3da67e",
+      "slug": "002-7-5-campanha-para-seguidores-no-instagram",
+      "palavras": 3333,
+      "unidades": 18,
+      "sha256": "4c3e85bddb15e031fbf901ba2b985ab38476b91dd6ba54b0239522b66434b9a3",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 18
+      },
+      "publicacao": {
+        "sha256": "bb14bb99c6bfcd9dd84287285b478ba7f7b82f42ff6b14d0a26970039c48fd04",
+        "raw_sha256": "183ac8be5282f094abeec2873281bdb799c19a58e3bdfe207d208d3397dab466",
+        "unidades": 18,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/de18a2b62b3da67e.extrator.md",
+        "ajustes_mecanicos": [
+          {
+            "id": "U:de18a2b62b3da67e:001",
+            "motivo": "Ajuste mecânico: referência ao botão Impulsionar marcada como perecível; corpo preservado."
+          },
+          {
+            "id": "U:de18a2b62b3da67e:016",
+            "motivo": "Ajuste mecânico: referência ao botão Impulsionar marcada como perecível; corpo preservado."
+          }
+        ],
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:de18a2b62b3da67e:001": "149d539e3e7309b1a8de21a5df1e3011b07a584ee11d316352e601516f5fd7bc",
+        "U:de18a2b62b3da67e:002": "01c0654db1cbbe7bd621cb5965e7ba5d5ac747c9893114a58d733031dd22b86d",
+        "U:de18a2b62b3da67e:003": "02b33fcf5901847c408efcc11c06255a2d6b506c456d294a88afef04936c722a",
+        "U:de18a2b62b3da67e:004": "d743bb1f618dce96a8aa01af3b99b2764a7936070d1797904fa8fa55ef9b16e4",
+        "U:de18a2b62b3da67e:005": "8bbab2fd5acde96104ff675f4684f73ba82df7c4a2d9addb4508a7bd5ba993c7",
+        "U:de18a2b62b3da67e:006": "07caa53759f09784a91845dcc22cb7dbf82ecab1275fddee0bc0c68368ef33be",
+        "U:de18a2b62b3da67e:007": "251e1efcbcf09adb5a2467b656477d51d101c804d986fa5f2edc48a4a4297022",
+        "U:de18a2b62b3da67e:008": "efb7db6a5a040f419f544a4dc82bf9f5ffd83c5b3c29548850f899d69b6fa2b3",
+        "U:de18a2b62b3da67e:009": "03cfe2f6cd25ed63eccead0e72175e45349d905f7c5178a3aa2aeecd0fa93c45",
+        "U:de18a2b62b3da67e:010": "b5089837541beb6a6c8867790970459f933d373a272d67c18a2a714c6c034e3f",
+        "U:de18a2b62b3da67e:011": "0a93782d7b4d59afdb4627210493843e93bac84dc47de5f227ed2caf07a8bffa",
+        "U:de18a2b62b3da67e:012": "ac93c1049ac10f0c10ef54bed2915fe8d097144ab9b88e7cfbc5622301d2e362",
+        "U:de18a2b62b3da67e:013": "f0bf0493cd606cf1be4fc3bfafd8024c61f37599b22a456495a00cb283d9d27b",
+        "U:de18a2b62b3da67e:014": "bbf1b4738021e19325b3575d071483ad5bbe908076d5945da94f207ad8e9aeb5",
+        "U:de18a2b62b3da67e:015": "10f8bed1bdd3b3f01f4754391654a348eb5078ee2eed9e0b1f7c4bc5399032ac",
+        "U:de18a2b62b3da67e:016": "d0b4203b3968d1eb9c48aae775d224b64fc16d60047c8e16406f013617590f62",
+        "U:de18a2b62b3da67e:017": "e296ee12fc890ee8ad9d13dfac637b94df78a86cc6d02673abcef04e24108933",
+        "U:de18a2b62b3da67e:018": "75275e45454c8c503d2a8e525c319f868bc581db6e302fa529bb8e3d21ce7aa3"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "5a37923aee64fd43",
+      "slug": "002-8-0-otimizacao-de-campanhas",
+      "palavras": 8873,
+      "unidades": 33,
+      "sha256": "90f64c7adac9457478af8ede0dafdc93a573e8d60232422f676c860d3268f779",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 33
+      },
+      "publicacao": {
+        "sha256": "c3678945e1bbc081a967a5a7b6044a18b3b988c791982f4b84b8692b8edefb37",
+        "raw_sha256": "28c9716538ae7ba5275b2b7461c4ea778d91d1fed52d0694d3c0f0383a66d84b",
+        "unidades": 33,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/5a37923aee64fd43.extrator.md",
+        "ajustes_mecanicos": [
+          {
+            "id": "U:5a37923aee64fd43:024",
+            "motivo": "Ajuste mecânico: referências relativas hoje/ontem explicitadas como dia em análise/dia anterior, sem alterar as janelas de comparação."
+          },
+          {
+            "id": "U:5a37923aee64fd43:025",
+            "motivo": "Ajuste mecânico: referências relativas hoje/ontem explicitadas como dia em análise/dia anterior, sem alterar as janelas de comparação."
+          }
+        ],
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:5a37923aee64fd43:001": "ce0c4b4c0f3560ea59bcf751d4c0b44398393af394732c31493c1f67698f55e7",
+        "U:5a37923aee64fd43:002": "f845351774b269aa6cc920304ce89ba6c90f7c214e4a22087a7d7c589e62b58f",
+        "U:5a37923aee64fd43:003": "13d3ddf8ff2ed41ce1b612ab8f3bf6995d5208fa13d805fec454fa31cd8746c2",
+        "U:5a37923aee64fd43:004": "b372d93f712ec9570f3ee4222da3d595939de13936596c7464d438e2a9b33760",
+        "U:5a37923aee64fd43:005": "a0fb4ee873babb55bf42aefd877d8d0f0a65cec4c9e58eed47865761a9ea4043",
+        "U:5a37923aee64fd43:006": "66e1396777256c0b8645d860e957b7d53e020aa5032e68aa9e468706a350c99c",
+        "U:5a37923aee64fd43:007": "e6d6a85da9adbd19c4bd3cd6f5566fd3216d71588acc6a5d7953850fb938e028",
+        "U:5a37923aee64fd43:008": "cf96f95f253a9e05ec6861d6db16973886f7f6a7b2764604fb6a4a97df608352",
+        "U:5a37923aee64fd43:009": "0aae3303fac6179b1b27777d3b76f5bb3848d90e820be77e7f769490ad3545d0",
+        "U:5a37923aee64fd43:010": "1a588903f63ddccad5106d7b8f1a99b4818e99030b944f64fe2d6341b7b8070b",
+        "U:5a37923aee64fd43:011": "9e5c9c4187c01c1aa5e703eb28892d95e4bc1662d82bd78f12832e14ad45c522",
+        "U:5a37923aee64fd43:012": "06665062f390497cf91a5526c3c9b86c71e402eb377ac990caca382c18bee783",
+        "U:5a37923aee64fd43:013": "541036b0e531226953ca05aff637f78558d306cc2a1d6621214e39c59623399a",
+        "U:5a37923aee64fd43:014": "4ed2ba640010782462e6da99c557f31085ae1eaae9076a5d89fc1e81c90c2585",
+        "U:5a37923aee64fd43:015": "75409841fd9a76f6b8f71de01ee946222308037f63353fe136aba0469d59f238",
+        "U:5a37923aee64fd43:016": "f4cbe8f69b5b12a84854dd40336405cc609064ea466856f3a8e495be94f9083d",
+        "U:5a37923aee64fd43:017": "10bd5bd38ae09e1b415a4f3900232594a4d21e025602023cf0643429a85a437a",
+        "U:5a37923aee64fd43:018": "97ea3ef3f8d394a6a747f481cbb5913897c7b3cf1254420e2417abc8793e63c5",
+        "U:5a37923aee64fd43:019": "d182ad918b48d057dc157d969bb354c9c479a30a31bd27ff7e023c12fd8e438f",
+        "U:5a37923aee64fd43:020": "884a1d8a841dcb7729d05449b94b759e0bccd290c1c511458fcb145c22912755",
+        "U:5a37923aee64fd43:021": "0da61848d10394d341e0258368c49c197610e24fe6dfb24a90d86a270b06ee0e",
+        "U:5a37923aee64fd43:022": "448edbffbab38eaa4d06ff9a9818cf769d7acd7e9635068279d7ca798f272325",
+        "U:5a37923aee64fd43:023": "873195a83436922001227244e0d213208a574e544838828cf987bc5cf5409b67",
+        "U:5a37923aee64fd43:024": "2143a0daa5087859da517ab3d756f1aa6123b45f361ab1a6fba135b290965dcd",
+        "U:5a37923aee64fd43:025": "caf94ffff7086ee16b049b706aae55221ccd42ec1c374274b7973af58e76ffa4",
+        "U:5a37923aee64fd43:026": "bb15e04be8eed0e93a6c1fc48006befc59adec35067094b8b2507d541fc1ba74",
+        "U:5a37923aee64fd43:027": "214539ccb9b45fde0dc896ce2c61bef2a3239f9f0ae11a1f770afb363139dceb",
+        "U:5a37923aee64fd43:028": "d59d89a785ff61206d62613c916c8802699d598102e477e8de09759d1b13a89d",
+        "U:5a37923aee64fd43:029": "f238d9d230d5f0b9c04d316cafbd9c78a6f258e74608b65c39c358b56ee07676",
+        "U:5a37923aee64fd43:030": "f62a0f39daa7e576f5c6ad4dfd2574ff6b1b128b339a5013a833f69704e452ea",
+        "U:5a37923aee64fd43:031": "4d89f80617860e879c85bd8bb657443d0d3a82509881f3288dcbfe7c44abb25c",
+        "U:5a37923aee64fd43:032": "345c52824fd36edacf9d63bebcb7965ceb16982ff67ba1cce405db13f94bd826",
+        "U:5a37923aee64fd43:033": "beccefe9e5ecff0379979f6bb43dc73b5acdc9c84440e3d3cec8cb8a279d0fa3"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "6989dafadad4a10d",
+      "slug": "002-8-1-otimizacao-de-lances",
+      "palavras": 3165,
+      "unidades": 17,
+      "sha256": "23af1ff57159fcdfb8a5addcc47ba65f87f1e6567ad76ac40b8b09604c65a433",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 17
+      },
+      "publicacao": {
+        "sha256": "a75a8fab5927e06745601e6933d6ed111233feae7b642283fdbd358da0323009",
+        "raw_sha256": "b357b950507ab1a0cbc764317d5035d4cd4c7242c8edaeb981d1917310bdf2c6",
+        "unidades": 17,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/6989dafadad4a10d.extrator.md",
+        "ajuste_mecanico": "aula_id do cabeçalho corrigido pelo manifest; IDs e versões dos 17 blocos intactos",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:6989dafadad4a10d:001": "85fe3005aeb891a459de8fefb173019e7b84581c1d1b06d973729560c4462501",
+        "U:6989dafadad4a10d:002": "c5f7d6b58076720c85afe88022ac8692edd1fa3cc93eb18b82e92c1e4360d081",
+        "U:6989dafadad4a10d:003": "94bf8661c0102dea3b47cb80d9de2caad0630c34d09f537d7c3fc853c8a74410",
+        "U:6989dafadad4a10d:004": "51c85e1527dcbf6cd6c137dadc6b12cfca369bb84de272cf8e789a2dc0206584",
+        "U:6989dafadad4a10d:005": "531636be29a5d35f192b0faed9c24f8fcb14d9d612d9766450f5e5560e1a3d45",
+        "U:6989dafadad4a10d:006": "f7cadd499e33474f4d7c29224049d2761671a337aa2a0c2c84f5c0c43b1f4d25",
+        "U:6989dafadad4a10d:007": "947585dc7935d9ac2549e0979fa496dafdd28f97a58c528e8b245c53520f408e",
+        "U:6989dafadad4a10d:008": "25601b9ec1865395f7b61471130f9743a3bcd8a7af4a653b313b56680ad85c62",
+        "U:6989dafadad4a10d:009": "6d5b54a8f2c2537d7c9a7caaaa86b3d406c6d0b1404ac9e343a6cac633241f7d",
+        "U:6989dafadad4a10d:010": "20f8473139d83c83d3a618f11a282cf738241918d74170c612c7d81d1e6aa84a",
+        "U:6989dafadad4a10d:011": "2ceb9d9e14aa864cac61d8c670e1a1dc2b59d3ce1aeba2e6261a8969fe715955",
+        "U:6989dafadad4a10d:012": "a44c7d881b10a5bf5a62e07e573bf3a6c68391dc39af2fef938cd7921ba9bcf2",
+        "U:6989dafadad4a10d:013": "23081533b3be5b498ddf3c5b698b5dbcd800d4a1c495b7590b4782903aa5aa51",
+        "U:6989dafadad4a10d:014": "b80e56aabba4cee81a5e3b731b6562d326b09f7e15e0b8be2011d8f12c0c98d3",
+        "U:6989dafadad4a10d:015": "91b4a45b1d9272020c2ef87ebc483ae8bb24c50dbd738b6b525308a13b70331d",
+        "U:6989dafadad4a10d:016": "139947df4d1e6c35e296de732f4c54545a2a32d101a9757116b0658cd0ca916a",
+        "U:6989dafadad4a10d:017": "5f0a22033d40d8aa2d0114b31f94826eaaafe1ae988472c17f27c6386165cd88"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "5583803c49ba0ae7",
+      "slug": "002-8-2-otimizacao-de-publicos",
+      "palavras": 3196,
+      "unidades": 14,
+      "sha256": "093e297fde71cbea6925577286cb18ad798ced2a2b34a94c57767157224cd6fc",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 14
+      },
+      "publicacao": {
+        "sha256": "c05b7559e3948f0d996d6a9e8a54bd2982750b58d03e053e6ac0e9d6c3cdbecc",
+        "unidades": 14,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/5583803c49ba0ae7.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:5583803c49ba0ae7:001": "f6c9d7c1eed587a69ba21dc76201b7935ed66a84327a51849be86eeeae134531",
+        "U:5583803c49ba0ae7:002": "9fb471244b242ab2cedafe743a1f92cc2e6ae70036b3c89b0bd0e7ec78c26d9c",
+        "U:5583803c49ba0ae7:003": "56f58a346771be930ac8172f78285b9d57a584962a35b28ced305b902c2805ae",
+        "U:5583803c49ba0ae7:004": "3cd726f8c1bd92d4ad12e23bed345d11f458d00ab2464675a995380d117ca56c",
+        "U:5583803c49ba0ae7:005": "3c59d86bc49a6dd7cadadd694f6b8c9a2eaa1329465093c6655440674a1f8a1b",
+        "U:5583803c49ba0ae7:006": "1730e06a22d79adbed80cdafbe728cd4e081e31d48df4ff73c089a89879469c0",
+        "U:5583803c49ba0ae7:007": "ed909183d17385213277fd723fa954f270474db100f085fc2e1393705485f214",
+        "U:5583803c49ba0ae7:008": "49162257f240652123b729a874b35be147c8e8f40fa2f3a832d0baac2b353ed4",
+        "U:5583803c49ba0ae7:009": "12cd49a7f181e2845d79e023d507182c8dc77223de1350e21acae2c2bb6b0c6c",
+        "U:5583803c49ba0ae7:010": "c34e70cc8428cd452e4ea7f5cd8f39e6c6912300091d78ec16055391d22df4f6",
+        "U:5583803c49ba0ae7:011": "b9a6a237f95a03ccc99e382278c6126c2e218a4adc9a63d4a07cb7bec94685ca",
+        "U:5583803c49ba0ae7:012": "7081b69e612f00308b16aa597380c0ef31ee19834bf25aa49ee2ec694498b30f",
+        "U:5583803c49ba0ae7:013": "06a910908b6c540e4ae0e57577013e44ffc4153177c9d1b811101ba463944b6c",
+        "U:5583803c49ba0ae7:014": "d9838548709a0e7e58ba5bacc35ec86a19892fa5eb2d3dd216d12509717ec131"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "276afb7e27536530",
+      "slug": "002-8-3-otimizacao-de-anuncios",
+      "palavras": 2946,
+      "unidades": 18,
+      "sha256": "cf62b862a93599ebd7b84cac03a96a8ee953f74c4d8d0ca370d5c241b6256bbe",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 18
+      },
+      "publicacao": {
+        "sha256": "1b295652ec7bff864430970aff3ecb8b985e29c6db0e79d465c35f11d2b4bddf",
+        "unidades": 18,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/276afb7e27536530.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:276afb7e27536530:001": "e4d24d6307a9fcc2edf716c781a695693bb20e3f7853b369fa84ba5defaebe0b",
+        "U:276afb7e27536530:002": "79984eae5d1992178a9dc48e1f59ceb4c24549ea48fabb631db2ef4a51940ebb",
+        "U:276afb7e27536530:003": "6518799ddbdaddc452b60dc4043660b9a1a84ba13b0bb10a7b806f0bb471b73a",
+        "U:276afb7e27536530:004": "b13ae4d7f9c279267900f7988bab44ed1eddbf89ba52248b698e212e3f4f4f94",
+        "U:276afb7e27536530:005": "d65f33201e401e3dbefc1c7d4d9e1f21ece6fbc1853242a36be7a6f11e83ce53",
+        "U:276afb7e27536530:006": "75ceb06b97345b625169828d7d954fcc85cdb72398915b55878b20a3ffbc4b77",
+        "U:276afb7e27536530:007": "ff3c3a26eda8a1a17914412b98c124db3b1d2fda6c2484e05f89c6ed4bafb921",
+        "U:276afb7e27536530:008": "ad2be3c7a90bf59440f9ade6047ed97a77cf2a343ce95121d6c0134dc69c582c",
+        "U:276afb7e27536530:009": "4a6933b218761f0a38d4590668af49c015eedb00d38bf5064aff048678ed2914",
+        "U:276afb7e27536530:010": "7d4065c1dfd9d011f2fe887dfcfce24e0e1ef0d3ecc47af5d12991203e4ba7cc",
+        "U:276afb7e27536530:011": "813c7c8bda9ec910ce7471fb0466b155138cd7ff02dd6932638d6f589e51fd75",
+        "U:276afb7e27536530:012": "793710bd03e152627755e2f2c7026395f3dc5e9dd4bd1ff55ede2d7cdcb3152f",
+        "U:276afb7e27536530:013": "7f5f9bfcd5b4c5c7553ceb8166abe94dc51679f55009d9057e062de49e23d79a",
+        "U:276afb7e27536530:014": "01f86d7354005c2af22ed53d50646794498f9563d8600e99116f04c96b250aba",
+        "U:276afb7e27536530:015": "7413fe46989ee7bb428d1e4a6d7d94a72d5f8b81cda31c817ae50b1897c6df1a",
+        "U:276afb7e27536530:016": "aa5997d45e91968d317a97fa97d08d5b8721d940b90cf55b9997371ec71de289",
+        "U:276afb7e27536530:017": "e493876c01de11823d4cc64c1308b9707ced8205209854c5fa89e1cd2c8948df",
+        "U:276afb7e27536530:018": "c06e191ad3fbc38db7917fb4f01cd2ae4da3e5eff2d23f481d72be7630dcaffe"
+      }
+    },
+    {
+      "modulo": "002",
+      "aula_id": "eacdbbf7a76810e2",
+      "slug": "002-8-4-otimizacao-de-estruturas",
+      "palavras": 1558,
+      "unidades": 7,
+      "sha256": "82fc4b95d4f573531f3257b47d47b40cc1d5ae4a1c9b3e92eb07514f3c81d665",
+      "validacao": {
+        "erros": [],
+        "warnings": [],
+        "unidades": 7
+      },
+      "publicacao": {
+        "sha256": "346d1d66df99388f1eafd18b1085f1e191adfc635a430a5ddc8fe89ad230f689",
+        "unidades": 7,
+        "origem": "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/eacdbbf7a76810e2.extrator.md",
+        "estado": "rascunho"
+      },
+      "unidades_hash": {
+        "U:eacdbbf7a76810e2:001": "1c525c22aa7fc62a5937b6680babff8dd7eb2723cfa5e01408daf8e2d5774190",
+        "U:eacdbbf7a76810e2:002": "1708c8fec84083f54e981f1f2004529601edccf4e3072a4bcef582a8d0304568",
+        "U:eacdbbf7a76810e2:003": "13a4dc57e8b30fecc703423e613859dd7427e4b3ad6f680779c38ce0aba2d09b",
+        "U:eacdbbf7a76810e2:004": "4f07d27923682c7cd38f5994a78ee6513669bd232a6bc6258a0040abd3c087e2",
+        "U:eacdbbf7a76810e2:005": "08048ce213bdcbbbdbab12dad0ba4f30e921e65d7b89c782801da47afa4acabe",
+        "U:eacdbbf7a76810e2:006": "f32db17210a3cb4ce79968fda6e04f8ecf3e0746916430ad8341b8f4c120fe76",
+        "U:eacdbbf7a76810e2:007": "c96505f3810be725f6e2cecd42d718789d89c5f3cffdb23c705930db045d9a9f"
+      }
+    }
+  ],
+  "chamadas": [
+    {
+      "estado": "concluida",
+      "id": "05ace36fbf112424",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516833.602824,
+      "pacote_sha256": "f289a59ebc81cf58580a9a71081b17bce04f058e92ac241b803ea52f316b9d67",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-vu29o06b",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.extrator.md",
+        "-"
+      ],
+      "fim": 1789516900.362881,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 35875,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3466,
+          "reasoning_output_tokens": 72
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "401f04b99bbb83715a0eb6357798765f0c4f907edce5f014942765f2ee83e30d"
+    },
+    {
+      "estado": "concluida",
+      "id": "05ace36fbf112424",
+      "kind": "inspetor-r1",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516915.575994,
+      "pacote_sha256": "bea9ce857ca09a166f1f0115f9f899f84a948b791131c3c43b655daad91378ad",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-z7mkpo90",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.inspetor-r1.md",
+        "-"
+      ],
+      "fim": 1789516975.7847428,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 36470,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3122,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "2ceff00b8e1f6bda05037a68ffabfefcd6454c7b198d233f6129ae559aa25e59"
+    },
+    {
+      "estado": "concluida",
+      "id": "05ace36fbf112424",
+      "kind": "inspetor-r2",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517175.535166,
+      "pacote_sha256": "c4b4a58293ce68d4108d06cc42ce7270bc01855065290aeae89ce989e211b6a2",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-oqgi1vmn",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.inspetor-r2.md",
+        "-"
+      ],
+      "fim": 1789517203.8576581,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 28055,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1383,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "a7106d9d52afecd866f9e10ce33f7c99e88f86e7f7bc3403196a61af7c00fc92"
+    },
+    {
+      "estado": "concluida",
+      "id": "05ace36fbf112424",
+      "kind": "juiz-r1",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "inicio": 1789517003.122398,
+      "pacote_sha256": "3588c0c7b9e14a730030843e810ea79c959c34b71c87b0c089e66e775f73bf3b",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-j5g6g8lq",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"high\"",
+        "-m",
+        "gpt-6-astra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.juiz-r1.md",
+        "-"
+      ],
+      "fim": 1789517046.798996,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 31720,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1318,
+          "reasoning_output_tokens": 211
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "64264f9858bcf1d8b3693eb4aac8636ae2b87295ab890e3b4a0490b9852c6e48"
+    },
+    {
+      "estado": "concluida",
+      "id": "05ace36fbf112424",
+      "kind": "juiz-r2",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "inicio": 1789517215.195325,
+      "pacote_sha256": "48f432d8b3d56587c90850b2906934ef3b3ad2fb06df9a6265b5a6e0e868e2a6",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-y6oiogsd",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"high\"",
+        "-m",
+        "gpt-6-astra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.juiz-r2.md",
+        "-"
+      ],
+      "fim": 1789517261.5595148,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 33213,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1385,
+          "reasoning_output_tokens": 148
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "00937b47f8224f488172f21523bd43f06fae0585abe68decf4cd011a0bbd311f"
+    },
+    {
+      "estado": "concluida",
+      "id": "05ace36fbf112424",
+      "kind": "sol-r1",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "inicio": 1789517145.460227,
+      "pacote_sha256": "4bb47957ca9fd9a8ee9c68a82ac84c16e4ebb22de21fe82e4723ad269f93da3d",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-kmydrv9x",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-sol",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/05ace36fbf112424.sol-r1.md",
+        "-"
+      ],
+      "fim": 1789517153.7678568,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 29087,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 228,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "616340a0414479713af74001cd631967f165fea0b4e2676313560059ad04ac1b"
+    },
+    {
+      "estado": "concluida",
+      "id": "0dceb6b73f3fbe90",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516779.623358,
+      "pacote_sha256": "660bf3b3e7391189b3defb6010f6b4b4045bc3ef6f38b069e13b8ca6ea046e13",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-b16827vg",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/0dceb6b73f3fbe90.extrator.md",
+        "-"
+      ],
+      "fim": 1789516833.6008809,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32057,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2780,
+          "reasoning_output_tokens": 337
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "00234faaa1bc4d241b172fada1d61b4cdccb0660846738230af93574f10ac764"
+    },
+    {
+      "estado": "concluida",
+      "id": "123dbaed1f3aa39e",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516844.564738,
+      "pacote_sha256": "495a1b74f95b9f1f62bbda6b8567983c012ad08bf12dbfc8f48b7606c0390f59",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-xtqngs53",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/123dbaed1f3aa39e.extrator.md",
+        "-"
+      ],
+      "fim": 1789516905.7190669,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32877,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3140,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "ae8c40e9b1246a2c41b8327df78931c4864ea7e10633cb01293c4f5dae20d03e"
+    },
+    {
+      "estado": "concluida",
+      "id": "2077bb55014aefde",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517020.404813,
+      "pacote_sha256": "f698e940f9b95fe0d0ab0468e736246cb12bdd48053ad871d30df608f8a7e044",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-zq54c09l",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/2077bb55014aefde.extrator.md",
+        "-"
+      ],
+      "fim": 1789517086.268236,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 33190,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3456,
+          "reasoning_output_tokens": 129
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "5531a0a8e37242d5992b04325a5553c2753657625924776f3b5ee1cde994b911"
+    },
+    {
+      "estado": "concluida",
+      "id": "276afb7e27536530",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517388.4771469,
+      "pacote_sha256": "31a7d4fea25b257b2b11876d70486ebc477eda2dc60cf748baec69c7f52e31e1",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-j2c678vy",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/276afb7e27536530.extrator.md",
+        "-"
+      ],
+      "fim": 1789517452.7491882,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32417,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3382,
+          "reasoning_output_tokens": 356
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "1b295652ec7bff864430970aff3ecb8b985e29c6db0e79d465c35f11d2b4bddf"
+    },
+    {
+      "estado": "concluida",
+      "id": "2e7295a14c7a318f",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516949.947768,
+      "pacote_sha256": "b210fdc4fe7223b18ffd3e9764aeef590c96f34a539de49ef28278d080df60c4",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-6ffl9xmn",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/2e7295a14c7a318f.extrator.md",
+        "-"
+      ],
+      "fim": 1789517020.4022348,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 33267,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3716,
+          "reasoning_output_tokens": 73
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "e34f2e292252a74c9fc64a603f61a4bb3dbdd7829d351d9cfc2404e429a93ddf"
+    },
+    {
+      "estado": "concluida",
+      "id": "367e808623ec5fe5",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516852.3290398,
+      "pacote_sha256": "3f12588443f7cda5a6c0a16405cb17364e4a6b6e27a961c1ca95a9c0fbb88813",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-bvv9jh4v",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/367e808623ec5fe5.extrator.md",
+        "-"
+      ],
+      "fim": 1789516916.393409,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 33766,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3373,
+          "reasoning_output_tokens": 438
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "51bbc864910e81f60d41cc8183ab8a2a96541c0ff595adc3a458f3facecbe6aa"
+    },
+    {
+      "estado": "concluida",
+      "id": "5583803c49ba0ae7",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517354.184334,
+      "pacote_sha256": "f46deb2233c52477b4e6507338170c32c85ef2e0680e71a93fa7a48eaa59477b",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-bw6ylwj9",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/5583803c49ba0ae7.extrator.md",
+        "-"
+      ],
+      "fim": 1789517407.180384,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32521,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2716,
+          "reasoning_output_tokens": 230
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "c05b7559e3948f0d996d6a9e8a54bd2982750b58d03e053e6ac0e9d6c3cdbecc"
+    },
+    {
+      "estado": "concluida",
+      "id": "5a37923aee64fd43",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517252.161379,
+      "pacote_sha256": "c2318f0645b2a4b088b3af217fb4cf1cf5a21393a0ed42d874e81fa803ec0cf3",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-4s70frce",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/5a37923aee64fd43.extrator.md",
+        "-"
+      ],
+      "fim": 1789517354.1815848,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 40663,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5395,
+          "reasoning_output_tokens": 315
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "28c9716538ae7ba5275b2b7461c4ea778d91d1fed52d0694d3c0f0383a66d84b"
+    },
+    {
+      "estado": "concluida",
+      "id": "6989dafadad4a10d",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517321.0464761,
+      "pacote_sha256": "8b667045bca4a86447bf5db02abb03e9d63e7cff611f9ef823810bfac5576fd9",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-6y69yqla",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/6989dafadad4a10d.extrator.md",
+        "-"
+      ],
+      "fim": 1789517388.475416,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32681,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3534,
+          "reasoning_output_tokens": 487
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "b357b950507ab1a0cbc764317d5035d4cd4c7242c8edaeb981d1917310bdf2c6"
+    },
+    {
+      "estado": "concluida",
+      "id": "7cc58e06ed6a16b7",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517008.306547,
+      "pacote_sha256": "a871a6fd2a98e905c2652e857b9dc4fcdba9ebb798a7f487262bf43c29fb4085",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-w9x2h1c_",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/7cc58e06ed6a16b7.extrator.md",
+        "-"
+      ],
+      "fim": 1789517123.5007098,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 39373,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5883,
+          "reasoning_output_tokens": 95
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "7a13150225b2f454d64122458de164686b13ac3595a1ede9451b331ec95cd8f6"
+    },
+    {
+      "estado": "concluida",
+      "id": "7e51a38be8a32c3a",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516949.947721,
+      "pacote_sha256": "51680d04b02de90a0b5835bb2c53ffc90a341947eead180988a07cf05b3416e3",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-_8lzt2np",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/7e51a38be8a32c3a.extrator.md",
+        "-"
+      ],
+      "fim": 1789517008.3050282,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 35174,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3009,
+          "reasoning_output_tokens": 68
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "25ed66b6864338777582fd8a0e1e017519508d708673833d6e4695739fd59e74"
+    },
+    {
+      "estado": "concluida",
+      "id": "859adfb3130b4843",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517115.9237592,
+      "pacote_sha256": "4c4654816587f52869c5c9c69048bedaf344d99329139258a36c3a51b1194a96",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-w8n_m9je",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/859adfb3130b4843.extrator.md",
+        "-"
+      ],
+      "fim": 1789517234.486252,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 32587,
+          "cached_input_tokens": 31488,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3013,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "7894a92e8a4d3f97c69e90225c35b9300fa9d56989e992996f1a91a1d435b346"
+    },
+    {
+      "estado": "concluida",
+      "id": "9245e2a1486b5af5",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516779.6234539,
+      "pacote_sha256": "2a6c4150c55bb7109afa99aa1fb26fd466e81253b5ffff74773372606b0bc8d7",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-1ah5ysu4",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/9245e2a1486b5af5.extrator.md",
+        "-"
+      ],
+      "fim": 1789516852.325542,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 35454,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3840,
+          "reasoning_output_tokens": 433
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "d0e51c77cf5ae43bcba336b6fa5d0712bb9801379e702b32277a44d3e5eac427"
+    },
+    {
+      "estado": "concluida",
+      "id": "c8b6931bb5d322bc",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789516779.623488,
+      "pacote_sha256": "e65550308a02b5e8d8b3779efd730bc6c412047199a4b283a87c04493e59b190",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-rkex21xf",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/c8b6931bb5d322bc.extrator.md",
+        "-"
+      ],
+      "fim": 1789516844.563713,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 36637,
+          "cached_input_tokens": 5888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3422,
+          "reasoning_output_tokens": 181
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "8c11294698954f182852d9cb2a9e12b3a7df70b3248fe5fee93e58b90fa3c535"
+    },
+    {
+      "estado": "concluida",
+      "id": "de18a2b62b3da67e",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517252.1613371,
+      "pacote_sha256": "38068e8274262e48880d4bc4b6cf6aee4505259b9ee4e279af61ff59807d3dfa",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-ocez72j2",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/de18a2b62b3da67e.extrator.md",
+        "-"
+      ],
+      "fim": 1789517321.0439758,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 33097,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3645,
+          "reasoning_output_tokens": 86
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "183ac8be5282f094abeec2873281bdb799c19a58e3bdfe207d208d3397dab466"
+    },
+    {
+      "estado": "concluida",
+      "id": "e762527908ae1c89",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517086.2733939,
+      "pacote_sha256": "0cd3fb60a4f7b544d1cfbfede09b0e6b2e4520b774be1389d2a1af33e8c5d32d",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-tsqisfj1",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/e762527908ae1c89.extrator.md",
+        "-"
+      ],
+      "fim": 1789517115.921988,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 29490,
+          "cached_input_tokens": 2816,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1407,
+          "reasoning_output_tokens": 379
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "bbd8c7b8cc687eee9c5307af1860dd61e1c77ec7d186efa792fb132d8ea95010"
+    },
+    {
+      "estado": "concluida",
+      "id": "eacdbbf7a76810e2",
+      "kind": "extrator",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "inicio": 1789517407.182126,
+      "pacote_sha256": "37fbbe3b65d34b0e9f99b8ec4e92c41398735b55d1b83250864b5b9d1d49169e",
+      "cmd": [
+        "/Applications/ChatGPT.app/Contents/Resources/codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/var/folders/fw/zcp7jmzn5zdb7j276xzkxmm00000gn/T/curso-subido-papel-4dnuq5b1",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "model_reasoning_effort=\"medium\"",
+        "-m",
+        "gpt-5.6-terra",
+        "--json",
+        "-o",
+        "/Users/wilianrafaelribeiro/Jarvis 4/_saida/tc3/2026-09-14-curso-subido-base-atomica/temporarios/codex/sessao-06/saidas/eacdbbf7a76810e2.extrator.md",
+        "-"
+      ],
+      "fim": 1789517438.7955399,
+      "returncode": 0,
+      "usage": [
+        {
+          "input_tokens": 30292,
+          "cached_input_tokens": 18176,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1527,
+          "reasoning_output_tokens": 188
+        }
+      ],
+      "chamadas_ferramentas": 0,
+      "output_sha256": "346d1d66df99388f1eafd18b1085f1e191adfc635a430a5ddc8fe89ad230f689"
+    }
+  ],
+  "limitacao_runtime": "CLI emitiu aviso de hooks.json incompatível (SessionStart); chamadas concluíram com zero uso de ferramentas. Configuração global não alterada."
+}

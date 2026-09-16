@@ -1,0 +1,113 @@
+{
+  "causa": {
+    "causa": "Passos operacionais ensinados em PDF declarado ausentes das unidades; confirmado na amostra do 007 e na amostra do 005.",
+    "escopo": "Uma única ampliação para duas aulas do módulo em curso, por aula_id crescente, excluindo ouro e amostra; conferir somente cobertura de orientações operacionais do PDF e seus efeitos, sem reextração nem expansão recursiva.",
+    "aulas": [
+      "05d980447a95d5a6",
+      "0793959e991cacf9"
+    ],
+    "rodadas": {
+      "0793959e991cacf9": 2
+    }
+  },
+  "resultados": {
+    "05d980447a95d5a6": {
+      "trace": {
+        "arquivo_sha256": "61e93227e98d639b47b3fa2d46faaf76f01d29e52a7f175d2c6f79531106245d",
+        "unidades": {
+          "U:05d980447a95d5a6:001": "c294d958b3015a754cb0e4136436838593ea375084d62b7da214e51630063b90",
+          "U:05d980447a95d5a6:002": "d6939808a18cf424ed3bb21f0f08b17677baa4974ba9b65dc87c767e3bebb718",
+          "U:05d980447a95d5a6:003": "4062251d4bf12357a7d852d6161ebcb2e6181fdc03ffd61948e09ca2b36bcad0",
+          "U:05d980447a95d5a6:004": "09ebd54a4a0f504cb65e63518ecef67678a6290f158918b3c0b0806f8a38c3f6",
+          "U:05d980447a95d5a6:005": "2418921cc87d1a662271b94eb5f62a35e1f3965bf2f8e3a93b4504490fe2970e",
+          "U:05d980447a95d5a6:006": "7b5c0c2e86448420f87c516f3e821b5990dfa2107a6b06e10c7bfe69b92c9b74",
+          "U:05d980447a95d5a6:007": "3dea6287afe7002df5bab8bfc43d5611089e6b2821ad8fbbe741d52302f852e5",
+          "U:05d980447a95d5a6:008": "5de2b9c83eff936e699b63ba4c23eac60670cd35f7f3914fd3708001fefbc55a",
+          "U:05d980447a95d5a6:009": "9a10482511c58b90113fd7ea4fbc4a85a86eb76b9f3781de68854a5637bda92b",
+          "U:05d980447a95d5a6:010": "85128b9fd89ebde94d940c9bc7f8e111f955583c7aa76fd3e3b4de9739dbd64e",
+          "U:05d980447a95d5a6:011": "3a479e130d6bd8b0f5f70f45a69e2a967d7aa7864aadcde8f76028bfd5d7ea5b",
+          "U:05d980447a95d5a6:012": "c170e5f265c796dc119a9f321d1be047ee83ec9392b5aa3fceeed6866fa0eefd",
+          "U:05d980447a95d5a6:013": "88eade380f86a095ef68da83c8b7ed746df76436e81dd39bcb3069844e59d4a4",
+          "U:05d980447a95d5a6:014": "9094a642e8f0f4bcb474b9a1fe6f68af4d706ae30c31351ae32aa3399a64f65a",
+          "U:05d980447a95d5a6:015": "cbb998e730c80e87c8f10585bed9cc3d3949fc53ad13bdba8dd9ea8e098329af",
+          "U:05d980447a95d5a6:016": "deecf423d54439bb1ee439ac7dba86ce7f4fda852287c6dc75c8ac24b63e5b59",
+          "U:05d980447a95d5a6:017": "2cb3b0e34433c88ccc31482fae4f3e500142e19c3f8db54089ca6bdbbfb8a678",
+          "U:05d980447a95d5a6:018": "7b6eabe51cd9067cbd13264cbcaba320a19b9f4035b19a2d6483d6e443246085",
+          "U:05d980447a95d5a6:019": "a5ffb7a750bcc44e281fe50ce67c9e22f9cbd3705599d1e6c18fd77a54b32164",
+          "U:05d980447a95d5a6:020": "c94797d7c0af9fc82744a78f2b2d6c095f23b0f73ac01c42ef49b312958d63e5",
+          "U:05d980447a95d5a6:021": "2b70039a9570421bc5854ac9de4a8f1890c738ac0fd4decee5717ea241b8508e",
+          "U:05d980447a95d5a6:022": "211b925ff0c08fd324430ca40dcb21a6be00a7a322f30318b5bd83c35412d3bb",
+          "U:05d980447a95d5a6:023": "25c61798bc8744ecddd90e32a05c79d263bbd9b3b41c63e7e05da1a5f621b36d"
+        },
+        "fonte_commit": "f188775",
+        "fontes_sha256": {
+          "cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf": "541f2b73087cde588ba9c595ef7e7efc4ec461e88127e2deea7a761a42c38072",
+          "transcricao.md": "f93550cfc49d21823f6b2bc681d01254eeae35cdbcc4c06a66654f7e134b9721"
+        },
+        "fontes_disco": [
+          "cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf",
+          "transcricao.md"
+        ],
+        "fontes_declaradas": [
+          "cst_m05_a02_criando_sua_campanha_de_distribuicao_de_conteudo_no_youbube.pdf",
+          "transcricao.md"
+        ],
+        "conferencia_fontes": "coordenação comparou inventário real e declarado e conferiu hashes; OK",
+        "rubrica_sha256": "cb66ea352cc8fade2c3ee1c774c45f04de5be34eec18d0b0de0d0f314e609f47",
+        "validacao": {
+          "erros": [],
+          "warnings": [],
+          "unidades": 23
+        }
+      },
+      "rodada": 1,
+      "juiz_sha256": "de6e8ed59b581dad6e3b522e8a827c4be7ca9de4521222d11c2dcc5b5da44d9f",
+      "veredito": "passa",
+      "escopo": "Somente cobertura operacional do PDF; não é inspeção integral da aula."
+    },
+    "0793959e991cacf9": {
+      "trace": {
+        "arquivo_sha256": "8d655dc67793eb6fa3bb05193b61416b514d76ed6a15dde966e7f477b4bfbc1d",
+        "unidades": {
+          "U:0793959e991cacf9:001": "d26114f5b53be343aeff67cd11983fddf65e92a6a981278717913f42a385839a",
+          "U:0793959e991cacf9:002": "278a665398f42a2520c48f9f8b888211c9dafd374b4204d02bfb17f9c3e5979b",
+          "U:0793959e991cacf9:003": "b45f0e865a8caeae369bcc34fd64729b3389094a8689c47825ff673d38f41cf7",
+          "U:0793959e991cacf9:004": "0b9dd75705d57a5754c7a6ad008ea8b6242424e0bb9877fbd2e6b8c46609a359",
+          "U:0793959e991cacf9:005": "0bcac0a7900c2bcc6540e730c5dffd5dcf934e6176d5ef03a684d196576d2bd7",
+          "U:0793959e991cacf9:006": "f59584a2da6aa6aec8af65222aa5e0aba6a9513d12c66c7345d1701999015880",
+          "U:0793959e991cacf9:007": "6403199e8bab4825ae1cb42fbad10d919ae4e0ce2c781897581e188dea12755f",
+          "U:0793959e991cacf9:008": "f92c62f63fa948c02b1b0808f0db698b644124ab7e18e9d244928be009485465",
+          "U:0793959e991cacf9:009": "21989b7e7d75536646a08108c6ab84bbbf706c6cbd9c789a4afee59753c7b524",
+          "U:0793959e991cacf9:010": "c75a029ef2f10ca678de6920a49a57a0913eca69958286e96b0952e168e07e93",
+          "U:0793959e991cacf9:011": "ee9ac6e45bc3489893f26239c625e1fff9886e6a9989f1de1622362a2afcdbb7",
+          "U:0793959e991cacf9:012": "cbf34995b74480054106aad1a329ee5a4d55cf0b5a802611744c12af2903980e",
+          "U:0793959e991cacf9:013": "23a8a8334e676db5f26ec81a0713a67a10fa03ded601865e5f0e66c27f519a79"
+        },
+        "fonte_commit": "f188775",
+        "fontes_sha256": {
+          "cst_m05_a07_minha_campanha_nao_ta_gastando_dinheiro_e_agora_.pdf": "b11f42b368e19e985a41b61f75bb025ab58573a8df3255604afe7ad36de45223",
+          "transcricao.md": "f7d3d872efb3b8522577b923d6d7088abfa909a6d66bcbff342244b9104556de"
+        },
+        "fontes_disco": [
+          "cst_m05_a07_minha_campanha_nao_ta_gastando_dinheiro_e_agora_.pdf",
+          "transcricao.md"
+        ],
+        "fontes_declaradas": [
+          "cst_m05_a07_minha_campanha_nao_ta_gastando_dinheiro_e_agora_.pdf",
+          "transcricao.md"
+        ],
+        "conferencia_fontes": "coordenação comparou inventário real e declarado e conferiu hashes; OK",
+        "rubrica_sha256": "cb66ea352cc8fade2c3ee1c774c45f04de5be34eec18d0b0de0d0f314e609f47",
+        "validacao": {
+          "erros": [],
+          "warnings": [],
+          "unidades": 13
+        }
+      },
+      "rodada": 2,
+      "juiz_sha256": "f05af3cabc56a5841056973e0737ec5e6a027bb56e70d3e2cb85f56dcba376cc",
+      "veredito": "passa",
+      "escopo": "Somente cobertura operacional do PDF; não é inspeção integral da aula."
+    }
+  }
+}
