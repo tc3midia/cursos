@@ -1,0 +1,2100 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 10 - YouTube",
+  "aula_numero": 16,
+  "titulo": "Otimizacao extrema de anuncios",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "sha256": "2586d585a38817d562fa931e299bc4234cd36f5a32992fe145a91bc985950a8e",
+      "duracao_segundos": 859.817667,
+      "origem": "https://drive.google.com/drive/folders/19ngBUitcOkkiYmYdOVW-gYF7AHtjERvx?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T20:15:18.928679+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 11.02,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 11.02,
+      "texto": "Continuando aqui na parte de otimizações, agora nós vamos otimizar os anúncios, os vídeos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 11.82,
+      "fim_segundos": 17.400000000000002,
+      "inicio_global_segundos": 11.82,
+      "fim_global_segundos": 17.4,
+      "texto": "porque na última aula falamos apenas sobre segmentações, públicos, parte de negativação,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 17.5,
+      "fim_segundos": 23.02,
+      "inicio_global_segundos": 17.5,
+      "fim_global_segundos": 23.02,
+      "texto": "mas Tiago, eu subi vários criativos e como é que eu faço para otimizar esses vídeos?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 23.02,
+      "fim_segundos": 51.14,
+      "inicio_global_segundos": 23.02,
+      "fim_global_segundos": 51.14,
+      "texto": "Vamos lá, quando você sobe uma campanha de vídeo, você deve subir pelo menos dois anúncios diferentes, a recomendação é você subir até mais, 3, 4, 5, dependendo do seu investimento, se você investir pouco, 10 reais, 15, 20 reais por dia, talvez 3 seja o suficiente para você testar, agora, se o seu instrumento é maior, busque inserir mais criativos, porque o Google vai focar naqueles que geram mais desempenho."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 51.14,
+      "fim_segundos": 58.1,
+      "inicio_global_segundos": 51.14,
+      "fim_global_segundos": 58.1,
+      "texto": "Então eu vou pegar aqui um exemplo de uma campanha que teve um custo considerável e eu vou entrar aqui em anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 58.1,
+      "fim_segundos": 68.94,
+      "inicio_global_segundos": 58.1,
+      "fim_global_segundos": 68.94,
+      "texto": "E aqui em anúncios eu subi neste grupo de anúncio 12 anúncios, que neste momento estão ativos, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 69.4,
+      "fim_segundos": 78.92,
+      "inicio_global_segundos": 69.4,
+      "fim_global_segundos": 78.92,
+      "texto": "São criativos diferentes, na vertical, com fundo musical, com uma chamada, vídeos amadores, tem vários formatos aí desses vídeos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 78.92,
+      "fim_segundos": 81.92,
+      "inicio_global_segundos": 78.92,
+      "fim_global_segundos": 81.92,
+      "texto": "Como é que eu faço para otimizar esses vídeos?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 82.94,
+      "fim_segundos": 90.58,
+      "inicio_global_segundos": 82.94,
+      "fim_global_segundos": 90.58,
+      "texto": "Simples, primeira coisa, nós temos que entender uma coisa importantíssima, que é sempre otimizar por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 91.06,
+      "fim_segundos": 94.64,
+      "inicio_global_segundos": 91.06,
+      "fim_global_segundos": 94.64,
+      "texto": "Então em colunas, altere para conversões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 96.4,
+      "fim_segundos": 101.08,
+      "inicio_global_segundos": 96.4,
+      "fim_global_segundos": 101.08,
+      "texto": "E aí vai aparecer para você aqui quais são os anúncios que trazem um resultado melhor por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 101.46000000000001,
+      "fim_segundos": 107.42,
+      "inicio_global_segundos": 101.46,
+      "fim_global_segundos": 107.42,
+      "texto": "Então olha que interessante, se eu colocar aqui por custo, o Google vai me revelar na minha campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 107.42,
+      "fim_segundos": 110.96000000000001,
+      "inicio_global_segundos": 107.42,
+      "fim_global_segundos": 110.96,
+      "texto": "no meu grupo de anúncios aqui, quais são os anúncios que ele gastou mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 110.96000000000001,
+      "fim_segundos": 116.02,
+      "inicio_global_segundos": 110.96,
+      "fim_global_segundos": 116.02,
+      "texto": "e quais foram os resultados de cada um deles."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 116.86,
+      "fim_segundos": 124.58,
+      "inicio_global_segundos": 116.86,
+      "fim_global_segundos": 124.58,
+      "texto": "Neste primeiro, foi investido mais de R$ 1.300, como está aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 125.5,
+      "fim_segundos": 128.68,
+      "inicio_global_segundos": 125.5,
+      "fim_global_segundos": 128.68,
+      "texto": "Tive 258 conversões a R$ 5,17."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 129.74,
+      "fim_segundos": 131.82,
+      "inicio_global_segundos": 129.74,
+      "fim_global_segundos": 131.82,
+      "texto": "Já o de baixo, gastamos R$ 1.000."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 131.82,
+      "fim_segundos": 136.94,
+      "inicio_global_segundos": 131.82,
+      "fim_global_segundos": 136.94,
+      "texto": "E aí, deu 188 conversões a R$ 5,45."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 137.42,
+      "fim_segundos": 153.01999999999998,
+      "inicio_global_segundos": 137.42,
+      "fim_global_segundos": 153.02,
+      "texto": "E ó, isso aqui é muito bom para mim, está abaixo de 6 reais, está tranquilo, mas mesmo que você já tenha resultado hoje, sempre procure incluir novos criativos, novos anúncios, porque você pode encontrar um criativo ainda melhor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 153.02,
+      "fim_segundos": 175.48000000000002,
+      "inicio_global_segundos": 153.02,
+      "fim_global_segundos": 175.48,
+      "texto": "E na semana passada eu subi um novo criativo, que foi esse aqui, o anúncio 18, onde eu já investi, então eu subi esse anúncio, o Google entendeu que a taxa de conversão estava boa, começou a aparecer e eu descobri que com 415 reais, ele bateu aqui um custo por conversão menor que o restante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 175.48,
+      "fim_segundos": 198.73999999999998,
+      "inicio_global_segundos": 175.48,
+      "fim_global_segundos": 198.74,
+      "texto": "O que acontece? Ainda ele vai rodar por um tempo, mas se esse anúncio, depois de algum tempo, sempre vencer, cara, ele está sempre com R$4,50, R$5,00, Thiago, significa que o Google do nada vai pausar esses anúncios de cima e vai manter o principal?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 199.12,
+      "fim_segundos": 199.44,
+      "inicio_global_segundos": 199.12,
+      "fim_global_segundos": 199.44,
+      "texto": "Não."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 200.06,
+      "fim_segundos": 202.22,
+      "inicio_global_segundos": 200.06,
+      "fim_global_segundos": 202.22,
+      "texto": "Eu gostaria que o Google fizesse isso automaticamente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 202.3,
+      "fim_segundos": 205.34,
+      "inicio_global_segundos": 202.3,
+      "fim_global_segundos": 205.34,
+      "texto": "Ele sempre foca nos anúncios que tenham mais desempenho."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 205.8,
+      "fim_segundos": 210.44,
+      "inicio_global_segundos": 205.8,
+      "fim_global_segundos": 210.44,
+      "texto": "Mas se ele já identificou que esse anúncio aqui está batendo a minha meta de CPA e está,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 210.86,
+      "fim_segundos": 213.22,
+      "inicio_global_segundos": 210.86,
+      "fim_global_segundos": 213.22,
+      "texto": "ele falou, cara, está batendo, está ótimo, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 214.06,
+      "fim_segundos": 214.82000000000002,
+      "inicio_global_segundos": 214.06,
+      "fim_global_segundos": 214.82,
+      "texto": "Então, o que eu tenho que fazer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 214.94,
+      "fim_segundos": 215.98000000000002,
+      "inicio_global_segundos": 214.94,
+      "fim_global_segundos": 215.98,
+      "texto": "Isso de maneira até manual."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 217.20000000000002,
+      "fim_segundos": 220.02,
+      "inicio_global_segundos": 217.2,
+      "fim_global_segundos": 220.02,
+      "texto": "Eu espero gastar, pelo menos, então, aqui, mais um pouco,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 220.12,
+      "fim_segundos": 222.56,
+      "inicio_global_segundos": 220.12,
+      "fim_global_segundos": 222.56,
+      "texto": "talvez uns mil reais, deixar o custo parecido."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 222.98000000000002,
+      "fim_segundos": 226.28,
+      "inicio_global_segundos": 222.98,
+      "fim_global_segundos": 226.28,
+      "texto": "Aí, vamos supor, cara, está muito alto esse custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 226.28,
+      "fim_segundos": 228.9,
+      "inicio_global_segundos": 226.28,
+      "fim_global_segundos": 228.9,
+      "texto": "eu posso vir aqui e pausar esse anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 229.94,
+      "fim_segundos": 231.84,
+      "inicio_global_segundos": 229.94,
+      "fim_global_segundos": 231.84,
+      "texto": "Então, de todos os anúncios aqui,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 232.62,
+      "fim_segundos": 234.88,
+      "inicio_global_segundos": 232.62,
+      "fim_global_segundos": 234.88,
+      "texto": "que eu tenho nessa campanha específica,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 236.32,
+      "fim_segundos": 239.42000000000002,
+      "inicio_global_segundos": 236.32,
+      "fim_global_segundos": 239.42,
+      "texto": "eu subi 15 anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 239.98,
+      "fim_segundos": 241.92000000000002,
+      "inicio_global_segundos": 239.98,
+      "fim_global_segundos": 241.92,
+      "texto": "Sendo que, neste exato momento,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 242.7,
+      "fim_segundos": 246.02,
+      "inicio_global_segundos": 242.7,
+      "fim_global_segundos": 246.02,
+      "texto": "eu tenho alguns anúncios que já foram pausados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 246.88,
+      "fim_segundos": 247.2,
+      "inicio_global_segundos": 246.88,
+      "fim_global_segundos": 247.2,
+      "texto": "Por quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 247.5,
+      "fim_segundos": 248.52,
+      "inicio_global_segundos": 247.5,
+      "fim_global_segundos": 248.52,
+      "texto": "Porque estavam caros,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 249.04,
+      "fim_segundos": 250.38,
+      "inicio_global_segundos": 249.04,
+      "fim_global_segundos": 250.38,
+      "texto": "que foram esses três criativos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 250.88,
+      "fim_segundos": 251.82,
+      "inicio_global_segundos": 250.88,
+      "fim_global_segundos": 251.82,
+      "texto": "E olha que interessante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 251.82,
+      "fim_segundos": 273.84,
+      "inicio_global_segundos": 251.82,
+      "fim_global_segundos": 273.84,
+      "texto": "Esse primeiro estava com um custo por conversão de R$14, o segundo com R$11, então rodou R$28, R$44, eu já pausei, e aí por quê? Porque eu tinha anúncios que estavam me trazendo R$5, então já vou focar naquilo que funciona, eu prefiro focar na certeza,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 273.84,
+      "fim_segundos": 278.59999999999997,
+      "inicio_global_segundos": 273.84,
+      "fim_global_segundos": 278.6,
+      "texto": "Porque é mais fácil um anúncio de 5 reais e vir para 4"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 278.59999999999997,
+      "fim_segundos": 282.09999999999997,
+      "inicio_global_segundos": 278.6,
+      "fim_global_segundos": 282.1,
+      "texto": "Do que um anúncio de 11 e vir para 4 também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 282.09999999999997,
+      "fim_segundos": 286.73999999999995,
+      "inicio_global_segundos": 282.1,
+      "fim_global_segundos": 286.74,
+      "texto": "E aí eu vou sempre pausando os anúncios piores"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 286.73999999999995,
+      "fim_segundos": 288.67999999999995,
+      "inicio_global_segundos": 286.74,
+      "fim_global_segundos": 288.68,
+      "texto": "E mantendo os melhores"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 288.67999999999995,
+      "fim_segundos": 293.5,
+      "inicio_global_segundos": 288.68,
+      "fim_global_segundos": 293.5,
+      "texto": "Procure não simplesmente pausar e retirar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 293.5,
+      "fim_segundos": 295.28,
+      "inicio_global_segundos": 293.5,
+      "fim_global_segundos": 295.28,
+      "texto": "Mas em substituir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 295.28,
+      "fim_segundos": 297.71999999999997,
+      "inicio_global_segundos": 295.28,
+      "fim_global_segundos": 297.72,
+      "texto": "No caso, eita, se eu pausei um anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 297.71999999999997,
+      "fim_segundos": 301.7,
+      "inicio_global_segundos": 297.72,
+      "fim_global_segundos": 301.7,
+      "texto": "Eu vou subir um novo criativo melhor que esse aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 301.7,
+      "fim_segundos": 303.76,
+      "inicio_global_segundos": 301.7,
+      "fim_global_segundos": 303.76,
+      "texto": "Para bater aquela conversão inicial"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 303.76,
+      "fim_segundos": 309.9,
+      "inicio_global_segundos": 303.76,
+      "fim_global_segundos": 309.9,
+      "texto": "Então, vamos supor, Thiago, eu tenho aqui um criativo que está R$4,50, eu vou subir um novo criativo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 310.28,
+      "fim_segundos": 312.18,
+      "inicio_global_segundos": 310.28,
+      "fim_global_segundos": 312.18,
+      "texto": "Como é que eu posso fazer um criativo melhor que esse?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 313.08,
+      "fim_segundos": 318.4,
+      "inicio_global_segundos": 313.08,
+      "fim_global_segundos": 318.4,
+      "texto": "Por que esse criativo, ele está dando R$4,50 de conversão?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 319.86,
+      "fim_segundos": 324.15999999999997,
+      "inicio_global_segundos": 319.86,
+      "fim_global_segundos": 324.16,
+      "texto": "E aí você faz essa análise para buscar o melhor custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 324.59999999999997,
+      "fim_segundos": 328.38,
+      "inicio_global_segundos": 324.6,
+      "fim_global_segundos": 328.38,
+      "texto": "E além disso, você pode vir aqui e colocar um custo por conversão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 328.38,
+      "fim_segundos": 334.2,
+      "inicio_global_segundos": 328.38,
+      "fim_global_segundos": 334.2,
+      "texto": "se nesse momento tem algumas campanhas aí,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 334.76,
+      "fim_segundos": 336.96,
+      "inicio_global_segundos": 334.76,
+      "fim_global_segundos": 336.96,
+      "texto": "alguns anúncios que estão em uma conversão muito alta."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 337.08,
+      "fim_segundos": 338.44,
+      "inicio_global_segundos": 337.08,
+      "fim_global_segundos": 338.44,
+      "texto": "E tem, olha só, e tem."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 338.84,
+      "fim_segundos": 342.08,
+      "inicio_global_segundos": 338.84,
+      "fim_global_segundos": 342.08,
+      "texto": "Porque eu subi vários criativos ao mesmo tempo que aquele deu muito bom."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 342.56,
+      "fim_segundos": 345.44,
+      "inicio_global_segundos": 342.56,
+      "fim_global_segundos": 345.44,
+      "texto": "Outros não deram tão certo assim."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 345.44,
+      "fim_segundos": 350.52,
+      "inicio_global_segundos": 345.44,
+      "fim_global_segundos": 350.52,
+      "texto": "Por exemplo, um criativo aqui está dando R$16,00 por conversão, por custo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 350.82,
+      "fim_segundos": 352.62,
+      "inicio_global_segundos": 350.82,
+      "fim_global_segundos": 352.62,
+      "texto": "Ou seja, três vezes mais que o normal."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 353.08,
+      "fim_segundos": 353.88,
+      "inicio_global_segundos": 353.08,
+      "fim_global_segundos": 353.88,
+      "texto": "Aqui R$14,00."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 354.21999999999997,
+      "fim_segundos": 356.34,
+      "inicio_global_segundos": 354.22,
+      "fim_global_segundos": 356.34,
+      "texto": "E Tiago, por que você não pausou esse criativo ainda?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 356.34,
+      "fim_segundos": 361.52,
+      "inicio_global_segundos": 356.34,
+      "fim_global_segundos": 361.52,
+      "texto": "Porque ele não gastou pelo menos uns 25 a 30 reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 361.52,
+      "fim_segundos": 362.94,
+      "inicio_global_segundos": 361.52,
+      "fim_global_segundos": 362.94,
+      "texto": "Que é a minha meta"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 362.94,
+      "fim_segundos": 364.85999999999996,
+      "inicio_global_segundos": 362.94,
+      "fim_global_segundos": 364.86,
+      "texto": "Então eu espero esse anúncio rodar um pouquinho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 364.85999999999996,
+      "fim_segundos": 366.08,
+      "inicio_global_segundos": 364.86,
+      "fim_global_segundos": 366.08,
+      "texto": "25 reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 366.08,
+      "fim_segundos": 368.21999999999997,
+      "inicio_global_segundos": 366.08,
+      "fim_global_segundos": 368.22,
+      "texto": "E aí tive certeza"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 368.21999999999997,
+      "fim_segundos": 369.64,
+      "inicio_global_segundos": 368.22,
+      "fim_global_segundos": 369.64,
+      "texto": "Esse criativo não funciona"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 369.64,
+      "fim_segundos": 371.85999999999996,
+      "inicio_global_segundos": 369.64,
+      "fim_global_segundos": 371.86,
+      "texto": "E pausa logo no início"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 371.85999999999996,
+      "fim_segundos": 373.91999999999996,
+      "inicio_global_segundos": 371.86,
+      "fim_global_segundos": 373.92,
+      "texto": "Não espere um milagre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 373.91999999999996,
+      "fim_segundos": 376.03999999999996,
+      "inicio_global_segundos": 373.92,
+      "fim_global_segundos": 376.04,
+      "texto": "Não espere que o criativo vai gastar 100 reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 376.03999999999996,
+      "fim_segundos": 378.64,
+      "inicio_global_segundos": 376.04,
+      "fim_global_segundos": 378.64,
+      "texto": "E vai trazer um resultado inacreditável"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 378.64,
+      "fim_segundos": 380.02,
+      "inicio_global_segundos": 378.64,
+      "fim_global_segundos": 380.02,
+      "texto": "Isso não acontece"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 380.02,
+      "fim_segundos": 381.47999999999996,
+      "inicio_global_segundos": 380.02,
+      "fim_global_segundos": 381.48,
+      "texto": "Pelo menos eu nunca vi"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 381.47999999999996,
+      "fim_segundos": 383.23999999999995,
+      "inicio_global_segundos": 381.48,
+      "fim_global_segundos": 383.24,
+      "texto": "Isso pode acontecer em algumas campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 383.23999999999995,
+      "fim_segundos": 385.21999999999997,
+      "inicio_global_segundos": 383.24,
+      "fim_global_segundos": 385.22,
+      "texto": "Mas um criativo que nasceu ruim vai morrer ruim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 385.22,
+      "fim_segundos": 388.28000000000003,
+      "inicio_global_segundos": 385.22,
+      "fim_global_segundos": 388.28,
+      "texto": "Então nós temos que testar o criativo já no início"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 388.28000000000003,
+      "fim_segundos": 390.08000000000004,
+      "inicio_global_segundos": 388.28,
+      "fim_global_segundos": 390.08,
+      "texto": "Pra que ele já"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 390.08000000000004,
+      "fim_segundos": 391.70000000000005,
+      "inicio_global_segundos": 390.08,
+      "fim_global_segundos": 391.7,
+      "texto": "Tenha algum resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 391.70000000000005,
+      "fim_segundos": 393.02000000000004,
+      "inicio_global_segundos": 391.7,
+      "fim_global_segundos": 393.02,
+      "texto": "Tiago, mas subiu um criativo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 393.02000000000004,
+      "fim_segundos": 396.72,
+      "inicio_global_segundos": 393.02,
+      "fim_global_segundos": 396.72,
+      "texto": "E cara, não é bom"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 396.72,
+      "fim_segundos": 398.40000000000003,
+      "inicio_global_segundos": 396.72,
+      "fim_global_segundos": 398.4,
+      "texto": "Tem que ver se é realmente o criativo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 398.40000000000003,
+      "fim_segundos": 400.48,
+      "inicio_global_segundos": 398.4,
+      "fim_global_segundos": 400.48,
+      "texto": "Se não é só landing page, se não é segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 400.48,
+      "fim_segundos": 402.66,
+      "inicio_global_segundos": 400.48,
+      "fim_global_segundos": 402.66,
+      "texto": "Se você tem algum criativo que tá funcionando"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 402.66,
+      "fim_segundos": 403.54,
+      "inicio_global_segundos": 402.66,
+      "fim_global_segundos": 403.54,
+      "texto": "E você subiu outro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 403.54,
+      "fim_segundos": 406.46000000000004,
+      "inicio_global_segundos": 403.54,
+      "fim_global_segundos": 406.46,
+      "texto": "E foi horrível, aí sim eu posso afirmar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 406.46000000000004,
+      "fim_segundos": 408.66,
+      "inicio_global_segundos": 406.46,
+      "fim_global_segundos": 408.66,
+      "texto": "Cara, eles são com os mesmos públicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 408.66,
+      "fim_segundos": 409.74,
+      "inicio_global_segundos": 408.66,
+      "fim_global_segundos": 409.74,
+      "texto": "Nas mesmas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 409.74,
+      "fim_segundos": 412.70000000000005,
+      "inicio_global_segundos": 409.74,
+      "fim_global_segundos": 412.7,
+      "texto": "No mesmo ambiente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 412.70000000000005,
+      "fim_segundos": 413.78000000000003,
+      "inicio_global_segundos": 412.7,
+      "fim_global_segundos": 413.78,
+      "texto": "E esse aqui realmente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 413.78,
+      "fim_segundos": 415.52,
+      "inicio_global_segundos": 413.78,
+      "fim_global_segundos": 415.52,
+      "texto": "Gerou mais resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 415.52,
+      "fim_segundos": 417.78,
+      "inicio_global_segundos": 415.52,
+      "fim_global_segundos": 417.78,
+      "texto": "Então assim que gastar mais de 20, 25 reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 417.78,
+      "fim_segundos": 419.09999999999997,
+      "inicio_global_segundos": 417.78,
+      "fim_global_segundos": 419.1,
+      "texto": "Eu vou pausar, mas provavelmente aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 419.09999999999997,
+      "fim_segundos": 421.71999999999997,
+      "inicio_global_segundos": 419.1,
+      "fim_global_segundos": 421.72,
+      "texto": "Pela minha experiência, isso vai acontecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 421.71999999999997,
+      "fim_segundos": 423.79999999999995,
+      "inicio_global_segundos": 421.72,
+      "fim_global_segundos": 423.8,
+      "texto": "Ele vai acontecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 423.79999999999995,
+      "fim_segundos": 424.84,
+      "inicio_global_segundos": 423.8,
+      "fim_global_segundos": 424.84,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 425.05999999999995,
+      "fim_segundos": 427.53999999999996,
+      "inicio_global_segundos": 425.06,
+      "fim_global_segundos": 427.54,
+      "texto": "Olha a taxa de conversão, 0,15%"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 427.53999999999996,
+      "fim_segundos": 429.73999999999995,
+      "inicio_global_segundos": 427.54,
+      "fim_global_segundos": 429.74,
+      "texto": "Comparado com as melhores aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 429.73999999999995,
+      "fim_segundos": 433.76,
+      "inicio_global_segundos": 429.74,
+      "fim_global_segundos": 433.76,
+      "texto": "2,24%"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 433.76,
+      "fim_segundos": 434.85999999999996,
+      "inicio_global_segundos": 433.76,
+      "fim_global_segundos": 434.86,
+      "texto": "Ou seja"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 434.85999999999996,
+      "fim_segundos": 436.15999999999997,
+      "inicio_global_segundos": 434.86,
+      "fim_global_segundos": 436.16,
+      "texto": "Uma taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 436.15999999999997,
+      "fim_segundos": 438.4,
+      "inicio_global_segundos": 436.16,
+      "fim_global_segundos": 438.4,
+      "texto": "Muito boa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 438.4,
+      "fim_segundos": 439.7,
+      "inicio_global_segundos": 438.4,
+      "fim_global_segundos": 439.7,
+      "texto": "E olha que interessante, agora que eu vi"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 439.7,
+      "fim_segundos": 442.21999999999997,
+      "inicio_global_segundos": 439.7,
+      "fim_global_segundos": 442.22,
+      "texto": "Que é um vídeo na vertical"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 442.21999999999997,
+      "fim_segundos": 443.2,
+      "inicio_global_segundos": 442.22,
+      "fim_global_segundos": 443.2,
+      "texto": "Olha só"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 443.78,
+      "fim_segundos": 447.73999999999995,
+      "inicio_global_segundos": 443.78,
+      "fim_global_segundos": 447.74,
+      "texto": "Ele está a R$ 3,68 e gastou apenas R$ 11,00."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 448.59999999999997,
+      "fim_segundos": 456.58,
+      "inicio_global_segundos": 448.6,
+      "fim_global_segundos": 456.58,
+      "texto": "E aí você pausa então os anúncios ruins e também coloque os anúncios melhores."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 456.91999999999996,
+      "fim_segundos": 465.28,
+      "inicio_global_segundos": 456.92,
+      "fim_global_segundos": 465.28,
+      "texto": "Assim também nas extensões de site link, que você pode, nessa campanha específica que eu ainda não tenho,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 465.28,
+      "fim_segundos": 470.73999999999995,
+      "inicio_global_segundos": 465.28,
+      "fim_global_segundos": 470.74,
+      "texto": "mas você pode vir e criar uma extensão que eu tenho já em outras campanhas aqui, que eu vou até subir agora."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 470.74,
+      "fim_segundos": 475.98,
+      "inicio_global_segundos": 470.74,
+      "fim_global_segundos": 475.98,
+      "texto": "Eu não tenho a site link nessas campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 475.98,
+      "fim_segundos": 480.82,
+      "inicio_global_segundos": 475.98,
+      "fim_global_segundos": 480.82,
+      "texto": "Simplesmente porque eu divulgo apenas uma landing page"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 480.82,
+      "fim_segundos": 482.88,
+      "inicio_global_segundos": 480.82,
+      "fim_global_segundos": 482.88,
+      "texto": "Mas vamos supor que no seu caso você tenha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 482.88,
+      "fim_segundos": 485.82,
+      "inicio_global_segundos": 482.88,
+      "fim_global_segundos": 485.82,
+      "texto": "Você quer enviar a pessoa para outras landing pages"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 485.82,
+      "fim_segundos": 487.6,
+      "inicio_global_segundos": 485.82,
+      "fim_global_segundos": 487.6,
+      "texto": "Que falam de outros serviços, outros produtos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 487.6,
+      "fim_segundos": 491.7,
+      "inicio_global_segundos": 487.6,
+      "fim_global_segundos": 491.7,
+      "texto": "Então você também pode otimizar aqui as suas extensões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 491.7,
+      "fim_segundos": 493.98,
+      "inicio_global_segundos": 491.7,
+      "fim_global_segundos": 493.98,
+      "texto": "Em pausar as extensões ruins"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 493.98,
+      "fim_segundos": 496.72,
+      "inicio_global_segundos": 493.98,
+      "fim_global_segundos": 496.72,
+      "texto": "E alterar aqui o texto, melhorar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 496.72,
+      "fim_segundos": 499.06,
+      "inicio_global_segundos": 496.72,
+      "fim_global_segundos": 499.06,
+      "texto": "Para aquelas extensões que tem mais conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 499.06,
+      "fim_segundos": 503.46,
+      "inicio_global_segundos": 499.06,
+      "fim_global_segundos": 503.46,
+      "texto": "No meu caso eu não uso, porque eu mando a pessoa para a mesma landing page"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 503.46,
+      "fim_segundos": 508.38,
+      "inicio_global_segundos": 503.46,
+      "fim_global_segundos": 508.38,
+      "texto": "E eu quero mandar apenas para aquela página e não nenhuma outra"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 508.38,
+      "fim_segundos": 509.36,
+      "inicio_global_segundos": 508.38,
+      "fim_global_segundos": 509.36,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 510.2,
+      "fim_segundos": 513.0,
+      "inicio_global_segundos": 510.2,
+      "fim_global_segundos": 513.0,
+      "texto": "E tem uma outra coisa que é importante, que é"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 513.0,
+      "fim_segundos": 515.78,
+      "inicio_global_segundos": 513.0,
+      "fim_global_segundos": 515.78,
+      "texto": "Tiago, eu vi que você fez vários anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 515.78,
+      "fim_segundos": 517.42,
+      "inicio_global_segundos": 515.78,
+      "fim_global_segundos": 517.42,
+      "texto": "Vários anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 517.42,
+      "fim_segundos": 520.84,
+      "inicio_global_segundos": 517.42,
+      "fim_global_segundos": 520.84,
+      "texto": "Até o mesmo vídeo, com escritas diferentes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 520.84,
+      "fim_segundos": 523.32,
+      "inicio_global_segundos": 520.84,
+      "fim_global_segundos": 523.32,
+      "texto": "Mas eu quero descobrir apenas sobre o vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 523.32,
+      "fim_segundos": 525.26,
+      "inicio_global_segundos": 523.32,
+      "fim_global_segundos": 525.26,
+      "texto": "Não, tira o texto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 525.26,
+      "fim_segundos": 527.4,
+      "inicio_global_segundos": 525.26,
+      "fim_global_segundos": 527.4,
+      "texto": "Qual é o vídeo que converte mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 527.4,
+      "fim_segundos": 530.78,
+      "inicio_global_segundos": 527.4,
+      "fim_global_segundos": 530.78,
+      "texto": "e não apenas em uma campanha, mas em todas as campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 531.06,
+      "fim_segundos": 537.86,
+      "inicio_global_segundos": 531.06,
+      "fim_global_segundos": 537.86,
+      "texto": "Vamos supor que você pegou um vídeo e subiu como anúncio em todas as suas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 538.64,
+      "fim_segundos": 544.9599999999999,
+      "inicio_global_segundos": 538.64,
+      "fim_global_segundos": 544.96,
+      "texto": "E você quer descobrir, no geral, qual é aquele vídeo que gerou mais resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 544.9599999999999,
+      "fim_segundos": 546.1,
+      "inicio_global_segundos": 544.96,
+      "fim_global_segundos": 546.1,
+      "texto": "e aquele que gera menos resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 546.16,
+      "fim_segundos": 547.24,
+      "inicio_global_segundos": 546.16,
+      "fim_global_segundos": 547.24,
+      "texto": "Como é que eu faço isso na prática?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 547.86,
+      "fim_segundos": 552.6,
+      "inicio_global_segundos": 547.86,
+      "fim_global_segundos": 552.6,
+      "texto": "Você vai vir aqui em todas as campanhas de vídeo e clica em vídeos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 553.6,
+      "fim_segundos": 554.86,
+      "inicio_global_segundos": 553.6,
+      "fim_global_segundos": 554.86,
+      "texto": "E aqui vai aparecer o quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 554.86,
+      "fim_segundos": 561.16,
+      "inicio_global_segundos": 554.86,
+      "fim_global_segundos": 561.16,
+      "texto": "Vai aparecer os seus vídeos no geral e não em anúncio, apenas em formato em vídeo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 561.84,
+      "fim_segundos": 565.8000000000001,
+      "inicio_global_segundos": 561.84,
+      "fim_global_segundos": 565.8,
+      "texto": "Aí você coloca aqui um filtro, um título que contém, você quer filtrar talvez."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 566.5,
+      "fim_segundos": 570.54,
+      "inicio_global_segundos": 566.5,
+      "fim_global_segundos": 570.54,
+      "texto": "E aqui são todos os vídeos que estão rolando agora do evento que eu estou promovendo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 570.98,
+      "fim_segundos": 573.64,
+      "inicio_global_segundos": 570.98,
+      "fim_global_segundos": 573.64,
+      "texto": "que é o evento da dominação dos anúncios online."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 574.08,
+      "fim_segundos": 582.72,
+      "inicio_global_segundos": 574.08,
+      "fim_global_segundos": 582.72,
+      "texto": "E aí no geral eu vou analisar aqueles criativos, aqueles vídeos que geraram o maior custo para mim nos últimos 7 dias."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 582.72,
+      "fim_segundos": 584.9,
+      "inicio_global_segundos": 582.72,
+      "fim_global_segundos": 584.9,
+      "texto": "e olha só a diferença de um e de outro."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 585.34,
+      "fim_segundos": 589.28,
+      "inicio_global_segundos": 585.34,
+      "fim_global_segundos": 589.28,
+      "texto": "Eu peguei esses mesmos vídeos e subi eles em todas as campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 589.28,
+      "fim_segundos": 594.94,
+      "inicio_global_segundos": 589.28,
+      "fim_global_segundos": 594.94,
+      "texto": "e apenas pelo vídeo já me mostra aqui que esse aqui,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 594.94,
+      "fim_segundos": 601.0400000000001,
+      "inicio_global_segundos": 594.94,
+      "fim_global_segundos": 601.04,
+      "texto": "que é o hashtag 018, me trouxe 4,87 de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 601.0400000000001,
+      "fim_segundos": 603.48,
+      "inicio_global_segundos": 601.04,
+      "fim_global_segundos": 603.48,
+      "texto": "e quanto de baixo, 6 reais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 604.1,
+      "fim_segundos": 604.7,
+      "inicio_global_segundos": 604.1,
+      "fim_global_segundos": 604.7,
+      "texto": "Olha a diferença."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 605.4,
+      "fim_segundos": 609.6800000000001,
+      "inicio_global_segundos": 605.4,
+      "fim_global_segundos": 609.68,
+      "texto": "Quanto de baixo, 6 e 10, 7 e 20, 7 e 68."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 610.12,
+      "fim_segundos": 613.2399999999999,
+      "inicio_global_segundos": 610.12,
+      "fim_global_segundos": 613.24,
+      "texto": "Olha, não chega a ser o dobro, mas dá uma diferença bem gritante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 613.64,
+      "fim_segundos": 615.64,
+      "inicio_global_segundos": 613.64,
+      "fim_global_segundos": 615.64,
+      "texto": "5,80, 8,28."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 615.76,
+      "fim_segundos": 619.3599999999999,
+      "inicio_global_segundos": 615.76,
+      "fim_global_segundos": 619.36,
+      "texto": "Então, esse criativo aqui, para mim, é um criativo excelente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 619.64,
+      "fim_segundos": 623.28,
+      "inicio_global_segundos": 619.64,
+      "fim_global_segundos": 623.28,
+      "texto": "Então, isso aqui já é um indício de, cara, eu quero construir novos anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 623.9399999999999,
+      "fim_segundos": 624.64,
+      "inicio_global_segundos": 623.94,
+      "fim_global_segundos": 624.64,
+      "texto": "Eu olho para cá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 625.64,
+      "fim_segundos": 628.1999999999999,
+      "inicio_global_segundos": 625.64,
+      "fim_global_segundos": 628.2,
+      "texto": "Eu vejo aqui, cara, qual é o criativo que realmente funciona?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 628.68,
+      "fim_segundos": 629.8199999999999,
+      "inicio_global_segundos": 628.68,
+      "fim_global_segundos": 629.82,
+      "texto": "Por que ele funciona?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 630.12,
+      "fim_segundos": 631.2399999999999,
+      "inicio_global_segundos": 630.12,
+      "fim_global_segundos": 631.24,
+      "texto": "O que ele tem de diferente?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 632.06,
+      "fim_segundos": 633.88,
+      "inicio_global_segundos": 632.06,
+      "fim_global_segundos": 633.88,
+      "texto": "Vou subir um criativo parecido com esse."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 633.88,
+      "fim_segundos": 636.24,
+      "inicio_global_segundos": 633.88,
+      "fim_global_segundos": 636.24,
+      "texto": "porque ele já provou que funciona"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 636.24,
+      "fim_segundos": 639.9399999999999,
+      "inicio_global_segundos": 636.24,
+      "fim_global_segundos": 639.94,
+      "texto": "com investimento de 25 mil reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 639.9399999999999,
+      "fim_segundos": 642.4,
+      "inicio_global_segundos": 639.94,
+      "fim_global_segundos": 642.4,
+      "texto": "está comprovado que é um criativo muito bom"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 642.4,
+      "fim_segundos": 643.5,
+      "inicio_global_segundos": 642.4,
+      "fim_global_segundos": 643.5,
+      "texto": "você até pode vir aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 643.5,
+      "fim_segundos": 645.38,
+      "inicio_global_segundos": 643.5,
+      "fim_global_segundos": 645.38,
+      "texto": "e clicar no criativo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 645.38,
+      "fim_segundos": 648.9,
+      "inicio_global_segundos": 645.38,
+      "fim_global_segundos": 648.9,
+      "texto": "para entender ele"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 648.9,
+      "fim_segundos": 653.76,
+      "inicio_global_segundos": 648.9,
+      "fim_global_segundos": 653.76,
+      "texto": "e aí você assiste o criativo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 653.76,
+      "fim_segundos": 655.06,
+      "inicio_global_segundos": 653.76,
+      "fim_global_segundos": 655.06,
+      "texto": "dá uma olhada"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 655.06,
+      "fim_segundos": 657.56,
+      "inicio_global_segundos": 655.06,
+      "fim_global_segundos": 657.56,
+      "texto": "e busca essa inspiração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 657.56,
+      "fim_segundos": 659.12,
+      "inicio_global_segundos": 657.56,
+      "fim_global_segundos": 659.12,
+      "texto": "beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 659.12,
+      "fim_segundos": 661.78,
+      "inicio_global_segundos": 659.12,
+      "fim_global_segundos": 661.78,
+      "texto": "e aí você pode também analisar o vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 661.78,
+      "fim_segundos": 665.3399999999999,
+      "inicio_global_segundos": 661.78,
+      "fim_global_segundos": 665.34,
+      "texto": "Porque o próprio Google tem isso também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 665.3399999999999,
+      "fim_segundos": 668.42,
+      "inicio_global_segundos": 665.34,
+      "fim_global_segundos": 668.42,
+      "texto": "Aqui embaixo de vídeo você tem a parte de análises"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 668.42,
+      "fim_segundos": 670.78,
+      "inicio_global_segundos": 668.42,
+      "fim_global_segundos": 670.78,
+      "texto": "E a parte de análises você pode escolher o vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 670.78,
+      "fim_segundos": 673.4599999999999,
+      "inicio_global_segundos": 670.78,
+      "fim_global_segundos": 673.46,
+      "texto": "E nesse caso eu vou escolher aqui um vídeo de anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 673.4599999999999,
+      "fim_segundos": 677.98,
+      "inicio_global_segundos": 673.46,
+      "fim_global_segundos": 677.98,
+      "texto": "Não um vídeo aqui de um conteúdo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 677.98,
+      "fim_segundos": 679.5,
+      "inicio_global_segundos": 677.98,
+      "fim_global_segundos": 679.5,
+      "texto": "Vou pegar o hashtag 018"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 679.5,
+      "fim_segundos": 682.72,
+      "inicio_global_segundos": 679.5,
+      "fim_global_segundos": 682.72,
+      "texto": "Que foi o que a gente viu ali anteriormente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 682.72,
+      "fim_segundos": 686.92,
+      "inicio_global_segundos": 682.72,
+      "fim_global_segundos": 686.92,
+      "texto": "E no hashtag 18 aqui, nessa parte de analisar o vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 686.92,
+      "fim_segundos": 689.8399999999999,
+      "inicio_global_segundos": 686.92,
+      "fim_global_segundos": 689.84,
+      "texto": "Você pode entender se a retenção está alta, se não está"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 689.84,
+      "fim_segundos": 692.12,
+      "inicio_global_segundos": 689.84,
+      "fim_global_segundos": 692.12,
+      "texto": "se você consegue manter a atenção nas pessoas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 692.34,
+      "fim_segundos": 694.38,
+      "inicio_global_segundos": 692.34,
+      "fim_global_segundos": 694.38,
+      "texto": "E olha que interessante, eu consigo analisar aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 695.22,
+      "fim_segundos": 700.64,
+      "inicio_global_segundos": 695.22,
+      "fim_global_segundos": 700.64,
+      "texto": "A maioria cai aqui nos 5 segundos inicial e vai diminuindo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 700.76,
+      "fim_segundos": 703.02,
+      "inicio_global_segundos": 700.76,
+      "fim_global_segundos": 703.02,
+      "texto": "Eu perco muita audiência aqui, que é muito tempo no início do vídeo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 703.4200000000001,
+      "fim_segundos": 706.7,
+      "inicio_global_segundos": 703.42,
+      "fim_global_segundos": 706.7,
+      "texto": "Mas daqui até aqui você vê que a retenção é normal do vídeo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 707.4200000000001,
+      "fim_segundos": 712.6,
+      "inicio_global_segundos": 707.42,
+      "fim_global_segundos": 712.6,
+      "texto": "Ou seja, eu consegui comprar a atenção da pessoa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 713.98,
+      "fim_segundos": 715.88,
+      "inicio_global_segundos": 713.98,
+      "fim_global_segundos": 715.88,
+      "texto": "E no final tem essa pequena queda aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 717.38,
+      "fim_segundos": 718.6800000000001,
+      "inicio_global_segundos": 717.38,
+      "fim_global_segundos": 718.68,
+      "texto": "Tem essa pequena queda."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 718.68,
+      "fim_segundos": 726.4,
+      "inicio_global_segundos": 718.68,
+      "fim_global_segundos": 726.4,
+      "texto": "Essa queda, se eu pegar aqui e colocar o ponto do vídeo exatamente naquele momento aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 726.4,
+      "fim_segundos": 733.3599999999999,
+      "inicio_global_segundos": 726.4,
+      "fim_global_segundos": 733.36,
+      "texto": "É quando termina o conteúdo e começa a chamada para a ação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 733.3599999999999,
+      "fim_segundos": 737.92,
+      "inicio_global_segundos": 733.36,
+      "fim_global_segundos": 737.92,
+      "texto": "E aí de duas uma, ou a pessoa sai do vídeo porque não quer ver a chamada para a ação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 737.92,
+      "fim_segundos": 743.9,
+      "inicio_global_segundos": 737.92,
+      "fim_global_segundos": 743.9,
+      "texto": "Ou ela saiu realmente do vídeo para ir para a landing page e converter"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 743.9,
+      "fim_segundos": 745.76,
+      "inicio_global_segundos": 743.9,
+      "fim_global_segundos": 745.76,
+      "texto": "Se o seu vídeo aí"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 745.76,
+      "fim_segundos": 747.5,
+      "inicio_global_segundos": 745.76,
+      "fim_global_segundos": 747.5,
+      "texto": "Tiago, eu estou analisando um vídeo aqui muito"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 747.5,
+      "fim_segundos": 748.88,
+      "inicio_global_segundos": 747.5,
+      "fim_global_segundos": 748.88,
+      "texto": "Que não gera tanto resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 748.88,
+      "fim_segundos": 750.68,
+      "inicio_global_segundos": 748.88,
+      "fim_global_segundos": 750.68,
+      "texto": "Talvez seu vídeo, ele faz isso aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 750.68,
+      "fim_segundos": 752.14,
+      "inicio_global_segundos": 750.68,
+      "fim_global_segundos": 752.14,
+      "texto": "Ele perde muito no início"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 752.14,
+      "fim_segundos": 753.9399999999999,
+      "inicio_global_segundos": 752.14,
+      "fim_global_segundos": 753.94,
+      "texto": "E a retenção cai muito assim, ó"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 753.9399999999999,
+      "fim_segundos": 755.12,
+      "inicio_global_segundos": 753.94,
+      "fim_global_segundos": 755.12,
+      "texto": "Fica quase zerado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 755.12,
+      "fim_segundos": 756.24,
+      "inicio_global_segundos": 755.12,
+      "fim_global_segundos": 756.24,
+      "texto": "Por quê? Porque o conteúdo não é bom"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 756.24,
+      "fim_segundos": 758.9599999999999,
+      "inicio_global_segundos": 756.24,
+      "fim_global_segundos": 758.96,
+      "texto": "Porque o anúncio não retém a atenção das pessoas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 758.9599999999999,
+      "fim_segundos": 760.72,
+      "inicio_global_segundos": 758.96,
+      "fim_global_segundos": 760.72,
+      "texto": "E aí, por fim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 760.72,
+      "fim_segundos": 764.8,
+      "inicio_global_segundos": 760.72,
+      "fim_global_segundos": 764.8,
+      "texto": "Você não consegue fazer com que a pessoa assista o vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 764.8,
+      "fim_segundos": 765.86,
+      "inicio_global_segundos": 764.8,
+      "fim_global_segundos": 765.86,
+      "texto": "E se ela não assistir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 765.86,
+      "fim_segundos": 767.36,
+      "inicio_global_segundos": 765.86,
+      "fim_global_segundos": 767.36,
+      "texto": "Ela não vai até o final"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 767.36,
+      "fim_segundos": 770.18,
+      "inicio_global_segundos": 767.36,
+      "fim_global_segundos": 770.18,
+      "texto": "E ela não vai tomar uma decisão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 770.18,
+      "fim_segundos": 773.1999999999999,
+      "inicio_global_segundos": 770.18,
+      "fim_global_segundos": 773.2,
+      "texto": "Então você consegue ter algumas informações aqui sobre o seu vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 773.2,
+      "fim_segundos": 778.48,
+      "inicio_global_segundos": 773.2,
+      "fim_global_segundos": 778.48,
+      "texto": "a porcentagem de custo, de views, usuários exclusivos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 779.1600000000001,
+      "fim_segundos": 782.4200000000001,
+      "inicio_global_segundos": 779.16,
+      "fim_global_segundos": 782.42,
+      "texto": "umas informações interessantes aqui que podem te ajudar a entender"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 782.4200000000001,
+      "fim_segundos": 787.76,
+      "inicio_global_segundos": 782.42,
+      "fim_global_segundos": 787.76,
+      "texto": "por que esse vídeo funciona ou por que aquele outro vídeo não funciona."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 788.6600000000001,
+      "fim_segundos": 793.24,
+      "inicio_global_segundos": 788.66,
+      "fim_global_segundos": 793.24,
+      "texto": "Então a ideia de encontrar o anúncio perfeito é sempre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 793.24,
+      "fim_segundos": 799.36,
+      "inicio_global_segundos": 793.24,
+      "fim_global_segundos": 799.36,
+      "texto": "colocar para rodar alguns anúncios, 3, 4 anúncios,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 799.8000000000001,
+      "fim_segundos": 802.48,
+      "inicio_global_segundos": 799.8,
+      "fim_global_segundos": 802.48,
+      "texto": "identificar aquele que gerou mais resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 802.48,
+      "fim_segundos": 809.2,
+      "inicio_global_segundos": 802.48,
+      "fim_global_segundos": 809.2,
+      "texto": "E aí eu foco naqueles pausos piores, entendo porque aquele criativo é o melhor, eu faço uma análise."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 809.58,
+      "fim_segundos": 816.58,
+      "inicio_global_segundos": 809.58,
+      "fim_global_segundos": 816.58,
+      "texto": "E na hora de eu criar novos vídeos, eu busco fazer parecido com aquele que está vencendo para buscar superar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 816.6800000000001,
+      "fim_segundos": 822.28,
+      "inicio_global_segundos": 816.68,
+      "fim_global_segundos": 822.28,
+      "texto": "Ou seja, eu sempre tenho que criar um novo vídeo pensando em superar o melhor atual."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 823.2,
+      "fim_segundos": 827.08,
+      "inicio_global_segundos": 823.2,
+      "fim_global_segundos": 827.08,
+      "texto": "E talvez você pode colocar talvez um vídeo por mês ou a cada duas semanas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 827.08,
+      "fim_segundos": 828.6800000000001,
+      "inicio_global_segundos": 827.08,
+      "fim_global_segundos": 828.68,
+      "texto": "para a sua campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 828.6800000000001,
+      "fim_segundos": 831.5600000000001,
+      "inicio_global_segundos": 828.68,
+      "fim_global_segundos": 831.56,
+      "texto": "estar sempre no campo de batalha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 831.5600000000001,
+      "fim_segundos": 834.12,
+      "inicio_global_segundos": 831.56,
+      "fim_global_segundos": 834.12,
+      "texto": "realmente numa otimização"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 834.12,
+      "fim_segundos": 836.26,
+      "inicio_global_segundos": 834.12,
+      "fim_global_segundos": 836.26,
+      "texto": "eterna, numa busca"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 836.26,
+      "fim_segundos": 838.1800000000001,
+      "inicio_global_segundos": 836.26,
+      "fim_global_segundos": 838.18,
+      "texto": "em busca da perfeição"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 838.1800000000001,
+      "fim_segundos": 839.5400000000001,
+      "inicio_global_segundos": 838.18,
+      "fim_global_segundos": 839.54,
+      "texto": "essa é a ideia"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 839.5400000000001,
+      "fim_segundos": 842.12,
+      "inicio_global_segundos": 839.54,
+      "fim_global_segundos": 842.12,
+      "texto": "da utilização também de anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 842.12,
+      "fim_segundos": 844.2800000000001,
+      "inicio_global_segundos": 842.12,
+      "fim_global_segundos": 844.28,
+      "texto": "e vídeos nas suas campanhas de vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 844.2800000000001,
+      "fim_segundos": 845.46,
+      "inicio_global_segundos": 844.28,
+      "fim_global_segundos": 845.46,
+      "texto": "no Google Ads"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 845.46,
+      "fim_segundos": 847.86,
+      "inicio_global_segundos": 845.46,
+      "fim_global_segundos": 847.86,
+      "texto": "te vejo na próxima aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 847.86,
+      "fim_segundos": 849.72,
+      "inicio_global_segundos": 847.86,
+      "fim_global_segundos": 849.72,
+      "texto": "para continuarmos na parte"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 849.72,
+      "fim_segundos": 851.86,
+      "inicio_global_segundos": 849.72,
+      "fim_global_segundos": 851.86,
+      "texto": "de otimizações e aí é maçocado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 851.86,
+      "fim_segundos": 854.26,
+      "inicio_global_segundos": 851.86,
+      "fim_global_segundos": 854.26,
+      "texto": "na configuração da campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 854.26,
+      "fim_segundos": 856.24,
+      "inicio_global_segundos": 854.26,
+      "fim_global_segundos": 856.24,
+      "texto": "como um todo, até lá e te vejo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a16_otimizacao_extrema_de_anuncios.mp4",
+      "inicio_segundos": 856.24,
+      "fim_segundos": 857.12,
+      "inicio_global_segundos": 856.24,
+      "fim_global_segundos": 857.12,
+      "texto": "na próxima aula."
+    }
+  ]
+}

@@ -1,0 +1,3522 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 08 - Rede de Pesquisa",
+  "aula_numero": 20,
+  "titulo": "Otimizacao extrema de extensoes",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "sha256": "d8204d6cafcdb1b1fa408a45e917543332af32480bf12a2cc93dd549f699fe23",
+      "duracao_segundos": 1074.156411,
+      "origem": "https://drive.google.com/drive/folders/1xHVtKEmIO19S9A8ydPWF7Q3wf4P-ppz4?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T19:19:27.313145+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 9.16,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 9.16,
+      "texto": "Otimização de extensões das nossas campanhas no Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 9.64,
+      "fim_segundos": 14.64,
+      "inicio_global_segundos": 9.64,
+      "fim_global_segundos": 14.64,
+      "texto": "Eu falei lá atrás da importância de criarmos várias extensões e agora chegou a hora de otimizar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 14.64,
+      "fim_segundos": 19.5,
+      "inicio_global_segundos": 14.64,
+      "fim_global_segundos": 19.5,
+      "texto": "Não é simplesmente colocar lá as extensões de qualquer maneira e deixar para ver o que vai acontecer."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 19.64,
+      "fim_segundos": 25.02,
+      "inicio_global_segundos": 19.64,
+      "fim_global_segundos": 25.02,
+      "texto": "Não, eu crio as extensões e otimizo sempre em busca daquelas extensões que mais funcionam,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 25.02,
+      "fim_segundos": 30.3,
+      "inicio_global_segundos": 25.02,
+      "fim_global_segundos": 30.3,
+      "texto": "retirar aquilo que não funciona, pausar e incluir sempre novas extensões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 30.38,
+      "fim_segundos": 32.6,
+      "inicio_global_segundos": 30.38,
+      "fim_global_segundos": 32.6,
+      "texto": "E como é que eu faço isso na prática?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 32.8,
+      "fim_segundos": 33.18,
+      "inicio_global_segundos": 32.8,
+      "fim_global_segundos": 33.18,
+      "texto": "Então vamos lá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 33.54,
+      "fim_segundos": 36.480000000000004,
+      "inicio_global_segundos": 33.54,
+      "fim_global_segundos": 36.48,
+      "texto": "Você está na sua campanha no Google, clica aí no seu conjunto de anúncio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 36.96,
+      "fim_segundos": 41.5,
+      "inicio_global_segundos": 36.96,
+      "fim_global_segundos": 41.5,
+      "texto": "vai lá em extensões e aqui aparecem todas as extensões que você deve analisar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 42.480000000000004,
+      "fim_segundos": 45.120000000000005,
+      "inicio_global_segundos": 42.48,
+      "fim_global_segundos": 45.12,
+      "texto": "Nesse caso, na minha campanha, nesse momento,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 45.46,
+      "fim_segundos": 48.72,
+      "inicio_global_segundos": 45.46,
+      "fim_global_segundos": 48.72,
+      "texto": "eu estou utilizando apenas o frase destaque nessa campanha específica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 48.72,
+      "fim_segundos": 50.66,
+      "inicio_global_segundos": 48.72,
+      "fim_global_segundos": 50.66,
+      "texto": "e também extensão de imagem."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 50.66,
+      "fim_segundos": 54.7,
+      "inicio_global_segundos": 50.66,
+      "fim_global_segundos": 54.7,
+      "texto": "Então dependendo da sua campanha, pode ter várias extensões ou não."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 55.02,
+      "fim_segundos": 60.5,
+      "inicio_global_segundos": 55.02,
+      "fim_global_segundos": 60.5,
+      "texto": "Então, a ideia é, se você tiver várias, nós vamos analisar e melhorar aquelas que realmente fazem a diferença."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 60.84,
+      "fim_segundos": 64.62,
+      "inicio_global_segundos": 60.84,
+      "fim_global_segundos": 64.62,
+      "texto": "A primeira que nós vamos analisar aqui é a frase de destaque."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 65.2,
+      "fim_segundos": 66.88,
+      "inicio_global_segundos": 65.2,
+      "fim_global_segundos": 66.88,
+      "texto": "Tiago, por que você está usando só as duas extensões?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 67.04,
+      "fim_segundos": 70.24000000000001,
+      "inicio_global_segundos": 67.04,
+      "fim_global_segundos": 70.24,
+      "texto": "Porque para essa campanha específica eu não quero trabalhar outras extensões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 70.64,
+      "fim_segundos": 73.76,
+      "inicio_global_segundos": 70.64,
+      "fim_global_segundos": 73.76,
+      "texto": "Então, de novo, por isso que eu falei que depende do seu objetivo, depende daquilo que você quer,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 74.12,
+      "fim_segundos": 76.88,
+      "inicio_global_segundos": 74.12,
+      "fim_global_segundos": 76.88,
+      "texto": "mas independente disso, tem como melhorar as nossas extensões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 76.96000000000001,
+      "fim_segundos": 81.42,
+      "inicio_global_segundos": 76.96,
+      "fim_global_segundos": 81.42,
+      "texto": "É óbvio que tem algumas extensões que não tem como mexer muito, como por exemplo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 81.42,
+      "fim_segundos": 83.60000000000001,
+      "inicio_global_segundos": 81.42,
+      "fim_global_segundos": 83.6,
+      "texto": "extensão de chamada, que é o seu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 83.60000000000001,
+      "fim_segundos": 85.86,
+      "inicio_global_segundos": 83.6,
+      "fim_global_segundos": 85.86,
+      "texto": "telefone básico, não tem como você fazer um teste"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 85.86,
+      "fim_segundos": 87.68,
+      "inicio_global_segundos": 85.86,
+      "fim_global_segundos": 87.68,
+      "texto": "A, B, mas em outras"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 87.68,
+      "fim_segundos": 89.48,
+      "inicio_global_segundos": 87.68,
+      "fim_global_segundos": 89.48,
+      "texto": "extensões tem como sim você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 89.48,
+      "fim_segundos": 91.54,
+      "inicio_global_segundos": 89.48,
+      "fim_global_segundos": 91.54,
+      "texto": "melhorar e otimizar elas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 91.84,
+      "fim_segundos": 93.96000000000001,
+      "inicio_global_segundos": 91.84,
+      "fim_global_segundos": 93.96,
+      "texto": "Então vamos lá, começando pela frase de destaque"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 93.96000000000001,
+      "fim_segundos": 95.9,
+      "inicio_global_segundos": 93.96,
+      "fim_global_segundos": 95.9,
+      "texto": "todas funcionam"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 95.9,
+      "fim_segundos": 97.98,
+      "inicio_global_segundos": 95.9,
+      "fim_global_segundos": 97.98,
+      "texto": "da mesma lógica, eu tenho que identificar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 97.98,
+      "fim_segundos": 100.02000000000001,
+      "inicio_global_segundos": 97.98,
+      "fim_global_segundos": 100.02,
+      "texto": "quais geram"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 100.02000000000001,
+      "fim_segundos": 102.38,
+      "inicio_global_segundos": 100.02,
+      "fim_global_segundos": 102.38,
+      "texto": "mais conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 102.38,
+      "fim_segundos": 104.0,
+      "inicio_global_segundos": 102.38,
+      "fim_global_segundos": 104.0,
+      "texto": "qual a taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 104.0,
+      "fim_segundos": 106.12,
+      "inicio_global_segundos": 104.0,
+      "fim_global_segundos": 106.12,
+      "texto": "qual é a extensão de destaque"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 106.12,
+      "fim_segundos": 107.42,
+      "inicio_global_segundos": 106.12,
+      "fim_global_segundos": 107.42,
+      "texto": "que mais aparece. Lá no Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 107.42,
+      "fim_segundos": 109.78,
+      "inicio_global_segundos": 107.42,
+      "fim_global_segundos": 109.78,
+      "texto": "eu coloquei aqui mais ou menos, deixa eu ver quantas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 109.78,
+      "fim_segundos": 112.08,
+      "inicio_global_segundos": 109.78,
+      "fim_global_segundos": 112.08,
+      "texto": "frases tem, nós temos 16, não, são"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 112.08,
+      "fim_segundos": 114.0,
+      "inicio_global_segundos": 112.08,
+      "fim_global_segundos": 114.0,
+      "texto": "16 menos 4, nós temos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 114.0,
+      "fim_segundos": 115.98,
+      "inicio_global_segundos": 114.0,
+      "fim_global_segundos": 115.98,
+      "texto": "aqui então 12, tem 12"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 115.98,
+      "fim_segundos": 118.16,
+      "inicio_global_segundos": 115.98,
+      "fim_global_segundos": 118.16,
+      "texto": "frases de destaque, elas não aparecem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 118.16,
+      "fim_segundos": 120.0,
+      "inicio_global_segundos": 118.16,
+      "fim_global_segundos": 120.0,
+      "texto": "todas ao mesmo tempo, então no Google aparece"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 120.0,
+      "fim_segundos": 122.44,
+      "inicio_global_segundos": 120.0,
+      "fim_global_segundos": 122.44,
+      "texto": "4 ou 5, e aí o que acontece?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 123.0,
+      "fim_segundos": 124.24000000000001,
+      "inicio_global_segundos": 123.0,
+      "fim_global_segundos": 124.24,
+      "texto": "Quando aparece esse anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 124.24000000000001,
+      "fim_segundos": 126.08,
+      "inicio_global_segundos": 124.24,
+      "fim_global_segundos": 126.08,
+      "texto": "o Google vai mostrar aquelas que"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 126.08,
+      "fim_segundos": 128.14,
+      "inicio_global_segundos": 126.08,
+      "fim_global_segundos": 128.14,
+      "texto": "geram resultado, vai"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 128.14,
+      "fim_segundos": 130.18,
+      "inicio_global_segundos": 128.14,
+      "fim_global_segundos": 130.18,
+      "texto": "mostrar a taxa de conversão, por exemplo, quando aparece"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 130.18,
+      "fim_segundos": 132.4,
+      "inicio_global_segundos": 130.18,
+      "fim_global_segundos": 132.4,
+      "texto": "essa, essa e essa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 132.4,
+      "fim_segundos": 134.0,
+      "inicio_global_segundos": 132.4,
+      "fim_global_segundos": 134.0,
+      "texto": "essa extensão, tem uma conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 134.0,
+      "fim_segundos": 136.12,
+      "inicio_global_segundos": 134.0,
+      "fim_global_segundos": 136.12,
+      "texto": "X, depois aparece essa, tem uma conversão X"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 136.12,
+      "fim_segundos": 137.74,
+      "inicio_global_segundos": 136.12,
+      "fim_global_segundos": 137.74,
+      "texto": "toda vez que aparece essa, tem uma conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 137.74,
+      "fim_segundos": 139.72,
+      "inicio_global_segundos": 137.74,
+      "fim_global_segundos": 139.72,
+      "texto": "a taxa de conversão, e olha que interessante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 140.32,
+      "fim_segundos": 141.76,
+      "inicio_global_segundos": 140.32,
+      "fim_global_segundos": 141.76,
+      "texto": "Cada um aqui tem um número diferente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 142.18,
+      "fim_segundos": 144.4,
+      "inicio_global_segundos": 142.18,
+      "fim_global_segundos": 144.4,
+      "texto": "Por exemplo, quando aparece PDF das aulas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 145.12,
+      "fim_segundos": 148.64,
+      "inicio_global_segundos": 145.12,
+      "fim_global_segundos": 148.64,
+      "texto": "a taxa de conversão aumenta para 44%."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 148.64,
+      "fim_segundos": 152.26,
+      "inicio_global_segundos": 148.64,
+      "fim_global_segundos": 152.26,
+      "texto": "Ou seja, quando a palavra extensão de destaque"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 152.26,
+      "fim_segundos": 153.5,
+      "inicio_global_segundos": 152.26,
+      "fim_global_segundos": 153.5,
+      "texto": "aparece PDF das aulas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 154.57999999999998,
+      "fim_segundos": 157.3,
+      "inicio_global_segundos": 154.58,
+      "fim_global_segundos": 157.3,
+      "texto": "em média tem 44% de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 158.14,
+      "fim_segundos": 162.26,
+      "inicio_global_segundos": 158.14,
+      "fim_global_segundos": 162.26,
+      "texto": "Um custo por conversão aqui de 2,25 teve 4 conversões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 162.44,
+      "fim_segundos": 163.68,
+      "inicio_global_segundos": 162.44,
+      "fim_global_segundos": 163.68,
+      "texto": "É óbvio que ainda são poucos números,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 164.16,
+      "fim_segundos": 166.44,
+      "inicio_global_segundos": 164.16,
+      "fim_global_segundos": 166.44,
+      "texto": "mas já é um indício que o resultado é bem diferente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 166.44,
+      "fim_segundos": 168.48,
+      "inicio_global_segundos": 166.44,
+      "fim_global_segundos": 168.48,
+      "texto": "de outras campanhas, de outras frases."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 168.48,
+      "fim_segundos": 173.2,
+      "inicio_global_segundos": 168.48,
+      "fim_global_segundos": 173.2,
+      "texto": "como, por exemplo, gere mais vendas, onde a conversão é menor, 33%."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 173.2,
+      "fim_segundos": 178.94,
+      "inicio_global_segundos": 173.2,
+      "fim_global_segundos": 178.94,
+      "texto": "Eu até posso aqui modificar para quais frases geram um custo muito alto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 178.94,
+      "fim_segundos": 180.72,
+      "inicio_global_segundos": 178.94,
+      "fim_global_segundos": 180.72,
+      "texto": "e quais geram um custo muito baixo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 181.17999999999998,
+      "fim_segundos": 183.6,
+      "inicio_global_segundos": 181.18,
+      "fim_global_segundos": 183.6,
+      "texto": "E olha só, custo por conversão excelente, R$1,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 184.12,
+      "fim_segundos": 189.22,
+      "inicio_global_segundos": 184.12,
+      "fim_global_segundos": 189.22,
+      "texto": "venda mais com anúncios, PDF das aulas, comunidade exclusiva, materiais inclusos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 189.7,
+      "fim_segundos": 194.17999999999998,
+      "inicio_global_segundos": 189.7,
+      "fim_global_segundos": 194.18,
+      "texto": "Essas aqui são as minhas principais frases de saque."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 194.18,
+      "fim_segundos": 199.84,
+      "inicio_global_segundos": 194.18,
+      "fim_global_segundos": 199.84,
+      "texto": "Sendo que atraia mais clientes, aulas práticas não são tão boas assim."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 200.08,
+      "fim_segundos": 202.82,
+      "inicio_global_segundos": 200.08,
+      "fim_global_segundos": 202.82,
+      "texto": "E Tiago, a partir dessa informação, o que eu preciso fazer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 203.16,
+      "fim_segundos": 207.08,
+      "inicio_global_segundos": 203.16,
+      "fim_global_segundos": 207.08,
+      "texto": "Lembrando, otimização é basicamente intensificar aquilo que funciona"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 207.08,
+      "fim_segundos": 209.84,
+      "inicio_global_segundos": 207.08,
+      "fim_global_segundos": 209.84,
+      "texto": "e pausar ou retirar aquilo que não funciona."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 210.16,
+      "fim_segundos": 210.96,
+      "inicio_global_segundos": 210.16,
+      "fim_global_segundos": 210.96,
+      "texto": "Sempre assim."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 211.38,
+      "fim_segundos": 213.06,
+      "inicio_global_segundos": 211.38,
+      "fim_global_segundos": 213.06,
+      "texto": "Precisamos de mais números, mais informações."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 213.46,
+      "fim_segundos": 213.88,
+      "inicio_global_segundos": 213.46,
+      "fim_global_segundos": 213.88,
+      "texto": "Lembra que eu falei?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 214.36,
+      "fim_segundos": 217.06,
+      "inicio_global_segundos": 214.36,
+      "fim_global_segundos": 217.06,
+      "texto": "Deixa aí pelo menos uns 100 cliques."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 217.16,
+      "fim_segundos": 219.28,
+      "inicio_global_segundos": 217.16,
+      "fim_global_segundos": 219.28,
+      "texto": "Então vamos deixar mais cliques aqui porque são poucos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 219.68,
+      "fim_segundos": 222.26000000000002,
+      "inicio_global_segundos": 219.68,
+      "fim_global_segundos": 222.26,
+      "texto": "Mas vamos supor que o volume seja muito maior."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 222.26000000000002,
+      "fim_segundos": 224.06,
+      "inicio_global_segundos": 222.26,
+      "fim_global_segundos": 224.06,
+      "texto": "Então a ideia aqui é fazer o quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 224.18,
+      "fim_segundos": 234.20000000000002,
+      "inicio_global_segundos": 224.18,
+      "fim_global_segundos": 234.2,
+      "texto": "eu posso mais para frente, vir aqui e remover os dois piores e baseado nesses aqui, o que eu posso fazer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 234.62,
+      "fim_segundos": 242.06,
+      "inicio_global_segundos": 234.62,
+      "fim_global_segundos": 242.06,
+      "texto": "Criar outras extensões que são parecidas, relacionadas e que vão manter a conversão lá em cima."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 242.48000000000002,
+      "fim_segundos": 252.18,
+      "inicio_global_segundos": 242.48,
+      "fim_global_segundos": 252.18,
+      "texto": "Por exemplo, comunidade exclusiva, eu posso criar, por exemplo, grupo VIP, PDF das aulas, PDF desafios,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 252.18,
+      "fim_segundos": 281.5,
+      "inicio_global_segundos": 252.18,
+      "fim_global_segundos": 281.5,
+      "texto": "PDF de desafios, eu posso criar algo que tenha a ver com o PDF, com as aulas, então eu sei que isso gera muita conversão, que o meu público tem muito interesse, então de novo, eu pego aquilo que funciona e eu replico, pego sinônimos, pego palavras importantes, porque é isso que o usuário quer, venda mais com anúncios, posso testar com venda mais com tráfego pago, venda mais na internet, eu posso testar algumas variações para manter, e aí ó, aulas práticas, não é uma coisa que chama muita atenção, atraia mais clientes,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 281.5,
+      "fim_segundos": 282.94,
+      "inicio_global_segundos": 281.5,
+      "fim_global_segundos": 282.94,
+      "texto": "também não chama muita atenção."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 283.4,
+      "fim_segundos": 293.24,
+      "inicio_global_segundos": 283.4,
+      "fim_global_segundos": 293.24,
+      "texto": "Então, eu não vou utilizar isso nas próximas vezes que eu subir um novo anúncio nessa extensão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 293.7,
+      "fim_segundos": 295.78,
+      "inicio_global_segundos": 293.7,
+      "fim_global_segundos": 295.78,
+      "texto": "Então, na parte de otimização, vamos lá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 296.28,
+      "fim_segundos": 307.54,
+      "inicio_global_segundos": 296.28,
+      "fim_global_segundos": 307.54,
+      "texto": "1. Identifique as que geram mais resultado e foque e replique elas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 307.54,
+      "fim_segundos": 316.1,
+      "inicio_global_segundos": 307.54,
+      "fim_global_segundos": 316.1,
+      "texto": "E as que não geram tanto resultado, você pode remover da campanha."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 316.42,
+      "fim_segundos": 317.72,
+      "inicio_global_segundos": 316.42,
+      "fim_global_segundos": 317.72,
+      "texto": "Lembrando que você precisa de muitos dados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 317.82,
+      "fim_segundos": 323.82000000000005,
+      "inicio_global_segundos": 317.82,
+      "fim_global_segundos": 323.82,
+      "texto": "Para isso, geralmente, como eu falo, talvez 100 cliques, pegar um tempo de 90 dias, 120 dias,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 324.16,
+      "fim_segundos": 326.82000000000005,
+      "inicio_global_segundos": 324.16,
+      "fim_global_segundos": 326.82,
+      "texto": "retire aquilo que realmente faz sentido para você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 326.94,
+      "fim_segundos": 327.76,
+      "inicio_global_segundos": 326.94,
+      "fim_global_segundos": 327.76,
+      "texto": "Então, cuidado para não..."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 327.76,
+      "fim_segundos": 331.24,
+      "inicio_global_segundos": 327.76,
+      "fim_global_segundos": 331.24,
+      "texto": "Tipo assim, tem 8 cliques, é muita pouca informação para tomar uma decisão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 331.6,
+      "fim_segundos": 331.86,
+      "inicio_global_segundos": 331.6,
+      "fim_global_segundos": 331.86,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 332.48,
+      "fim_segundos": 334.42,
+      "inicio_global_segundos": 332.48,
+      "fim_global_segundos": 334.42,
+      "texto": "Então, vamos esperar um pouco mais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 334.42,
+      "fim_segundos": 336.48,
+      "inicio_global_segundos": 334.42,
+      "fim_global_segundos": 336.48,
+      "texto": "Seguindo em diante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 336.48,
+      "fim_segundos": 338.84000000000003,
+      "inicio_global_segundos": 336.48,
+      "fim_global_segundos": 338.84,
+      "texto": "Lembrando que sempre eu analiso o custo por conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 338.84000000000003,
+      "fim_segundos": 341.06,
+      "inicio_global_segundos": 338.84,
+      "fim_global_segundos": 341.06,
+      "texto": "E conversão que são as métricas principais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 341.06,
+      "fim_segundos": 341.68,
+      "inicio_global_segundos": 341.06,
+      "fim_global_segundos": 341.68,
+      "texto": "Tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 342.22,
+      "fim_segundos": 344.22,
+      "inicio_global_segundos": 342.22,
+      "fim_global_segundos": 344.22,
+      "texto": "E seguindo aqui então, beleza, eu analisei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 344.22,
+      "fim_segundos": 345.66,
+      "inicio_global_segundos": 344.22,
+      "fim_global_segundos": 345.66,
+      "texto": "Agora uma dica importante, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 345.92,
+      "fim_segundos": 348.64000000000004,
+      "inicio_global_segundos": 345.92,
+      "fim_global_segundos": 348.64,
+      "texto": "Que serve também para a otimização de anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 348.64000000000004,
+      "fim_segundos": 350.18,
+      "inicio_global_segundos": 348.64,
+      "fim_global_segundos": 350.18,
+      "texto": "Se eu identifiquei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 350.18,
+      "fim_segundos": 351.66,
+      "inicio_global_segundos": 350.18,
+      "fim_global_segundos": 351.66,
+      "texto": "Olha que interessante, eu identifiquei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 351.66,
+      "fim_segundos": 354.36,
+      "inicio_global_segundos": 351.66,
+      "fim_global_segundos": 354.36,
+      "texto": "Que essas frases de destaque, essas quatro aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 354.36,
+      "fim_segundos": 355.94,
+      "inicio_global_segundos": 354.36,
+      "fim_global_segundos": 355.94,
+      "texto": "São excelentes, são muito boas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 355.94,
+      "fim_segundos": 357.04,
+      "inicio_global_segundos": 355.94,
+      "fim_global_segundos": 357.04,
+      "texto": "O que eu faço com elas?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 357.76,
+      "fim_segundos": 359.88,
+      "inicio_global_segundos": 357.76,
+      "fim_global_segundos": 359.88,
+      "texto": "Eu adiciono essas palavras-chave lá"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 359.88,
+      "fim_segundos": 362.16,
+      "inicio_global_segundos": 359.88,
+      "fim_global_segundos": 362.16,
+      "texto": "No meu anúncio, porque eu sei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 362.16,
+      "fim_segundos": 364.04,
+      "inicio_global_segundos": 362.16,
+      "fim_global_segundos": 364.04,
+      "texto": "Que elas funcionam no campo de batalha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 364.04,
+      "fim_segundos": 366.48,
+      "inicio_global_segundos": 364.04,
+      "fim_global_segundos": 366.48,
+      "texto": "então sabe naquela parte de eu replicar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 366.48,
+      "fim_segundos": 368.34000000000003,
+      "inicio_global_segundos": 366.48,
+      "fim_global_segundos": 368.34,
+      "texto": "um anúncio, criar um novo anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 368.34000000000003,
+      "fim_segundos": 370.5,
+      "inicio_global_segundos": 368.34,
+      "fim_global_segundos": 370.5,
+      "texto": "responsivo, essas frases"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 370.5,
+      "fim_segundos": 371.82,
+      "inicio_global_segundos": 370.5,
+      "fim_global_segundos": 371.82,
+      "texto": "já vão entrar nesse novo anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 371.82,
+      "fim_segundos": 374.20000000000005,
+      "inicio_global_segundos": 371.82,
+      "fim_global_segundos": 374.2,
+      "texto": "então sempre aqui a frase está que é um bom"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 374.20000000000005,
+      "fim_segundos": 376.38,
+      "inicio_global_segundos": 374.2,
+      "fim_global_segundos": 376.38,
+      "texto": "é um bom caminho pra você testar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 376.38,
+      "fim_segundos": 378.24,
+      "inicio_global_segundos": 376.38,
+      "fim_global_segundos": 378.24,
+      "texto": "novas frases antes de"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 378.24,
+      "fim_segundos": 380.16,
+      "inicio_global_segundos": 378.24,
+      "fim_global_segundos": 380.16,
+      "texto": "colocar como principal lá"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 380.16,
+      "fim_segundos": 381.70000000000005,
+      "inicio_global_segundos": 380.16,
+      "fim_global_segundos": 381.7,
+      "texto": "nas suas campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 381.70000000000005,
+      "fim_segundos": 384.12,
+      "inicio_global_segundos": 381.7,
+      "fim_global_segundos": 384.12,
+      "texto": "além disso tem outra segmentação aqui que eu coloquei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 384.12,
+      "fim_segundos": 386.1,
+      "inicio_global_segundos": 384.12,
+      "fim_global_segundos": 386.1,
+      "texto": "que são a, na seção de imagem, que eu subi"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 386.1,
+      "fim_segundos": 388.16,
+      "inicio_global_segundos": 386.1,
+      "fim_global_segundos": 388.16,
+      "texto": "apenas quatro, eu coloquei inclusive aqui o meu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 388.16,
+      "fim_segundos": 389.66,
+      "inicio_global_segundos": 388.16,
+      "fim_global_segundos": 389.66,
+      "texto": "rosto que tá falando de um projeto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 389.66,
+      "fim_segundos": 392.28000000000003,
+      "inicio_global_segundos": 389.66,
+      "fim_global_segundos": 392.28,
+      "texto": "meu, mas você pode adicionar aqui, eu poderia adicionar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 392.28000000000003,
+      "fim_segundos": 393.78000000000003,
+      "inicio_global_segundos": 392.28,
+      "fim_global_segundos": 393.78,
+      "texto": "outros, né ó"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 394.04,
+      "fim_segundos": 400.62,
+      "inicio_global_segundos": 394.04,
+      "fim_global_segundos": 400.62,
+      "texto": "Extensão de imagem, eu vou criar uma nova, vou subir quatro imagens e eu vou comparar uma com a outra."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 400.92,
+      "fim_segundos": 405.96000000000004,
+      "inicio_global_segundos": 400.92,
+      "fim_global_segundos": 405.96,
+      "texto": "Posso colocar uma logo, posso colocar qualquer outra coisa que remete ao produto que eu estou vendendo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 406.26000000000005,
+      "fim_segundos": 412.98,
+      "inicio_global_segundos": 406.26,
+      "fim_global_segundos": 412.98,
+      "texto": "E aí eu vou comparar aquelas imagens e eu posso pausar as ruins e focar naquelas que me geram mais resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 413.74,
+      "fim_segundos": 415.58000000000004,
+      "inicio_global_segundos": 413.74,
+      "fim_global_segundos": 415.58,
+      "texto": "E aí, nesse caso, tem só essas extensões aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 415.58000000000004,
+      "fim_segundos": 417.92,
+      "inicio_global_segundos": 415.58,
+      "fim_global_segundos": 417.92,
+      "texto": "Mas vamos supor que você tem extensões de site links."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 418.04,
+      "fim_segundos": 421.82000000000005,
+      "inicio_global_segundos": 418.04,
+      "fim_global_segundos": 421.82,
+      "texto": "Então você vai ter lá, sei lá, quatro, cinco, seis extensões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 421.82,
+      "fim_segundos": 428.02,
+      "inicio_global_segundos": 421.82,
+      "fim_global_segundos": 428.02,
+      "texto": "Você pode, mais para frente, pausar aquelas que são ruins e manter aquelas que são boas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 428.08,
+      "fim_segundos": 434.21999999999997,
+      "inicio_global_segundos": 428.08,
+      "fim_global_segundos": 434.22,
+      "texto": "ou até alterar a descrição ou o título daquela site link, porque não chama muito a atenção."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 434.88,
+      "fim_segundos": 439.44,
+      "inicio_global_segundos": 434.88,
+      "fim_global_segundos": 439.44,
+      "texto": "Então, quando você pode adicionar mais de uma, um tipo de, tipo, mesmo extensão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 439.74,
+      "fim_segundos": 443.06,
+      "inicio_global_segundos": 439.74,
+      "fim_global_segundos": 443.06,
+      "texto": "mas vários tipos diferentes, você consegue fazer essa otimização."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 443.62,
+      "fim_segundos": 446.44,
+      "inicio_global_segundos": 443.62,
+      "fim_global_segundos": 446.44,
+      "texto": "Quando você não consegue, por exemplo, a localização."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 446.44,
+      "fim_segundos": 451.56,
+      "inicio_global_segundos": 446.44,
+      "fim_global_segundos": 451.56,
+      "texto": "A localização não tem como alterar, porque é a sua localização."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 451.82,
+      "fim_segundos": 454.86,
+      "inicio_global_segundos": 451.82,
+      "fim_global_segundos": 454.86,
+      "texto": "A chamada é a chamada ali do telefone."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 455.3,
+      "fim_segundos": 460.94,
+      "inicio_global_segundos": 455.3,
+      "fim_global_segundos": 460.94,
+      "texto": "Agora, Tiago, se eu percebi que quando aparece o meu endereço,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 461.0,
+      "fim_segundos": 464.02,
+      "inicio_global_segundos": 461.0,
+      "fim_global_segundos": 464.02,
+      "texto": "a conversão não é muito boa, a conversão não é excelente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 464.65999999999997,
+      "fim_segundos": 467.18,
+      "inicio_global_segundos": 464.66,
+      "fim_global_segundos": 467.18,
+      "texto": "vale a pena testar e eu retirar isso?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 468.21999999999997,
+      "fim_segundos": 470.78,
+      "inicio_global_segundos": 468.22,
+      "fim_global_segundos": 470.78,
+      "texto": "Talvez sim, e isso só o teste vai revelar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 470.9,
+      "fim_segundos": 474.24,
+      "inicio_global_segundos": 470.9,
+      "fim_global_segundos": 474.24,
+      "texto": "Se você retirar a exceção de local,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 475.14,
+      "fim_segundos": 478.21999999999997,
+      "inicio_global_segundos": 475.14,
+      "fim_global_segundos": 478.22,
+      "texto": "aí obviamente vai ficar mais difícil para o usuário e na sua localização,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 478.22,
+      "fim_segundos": 482.5,
+      "inicio_global_segundos": 478.22,
+      "fim_global_segundos": 482.5,
+      "texto": "mas se melhorar outras métricas, talvez aí pode valer a pena no seu caso."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 482.88000000000005,
+      "fim_segundos": 486.3,
+      "inicio_global_segundos": 482.88,
+      "fim_global_segundos": 486.3,
+      "texto": "Então isso tudo é para você analisar no campo de batalha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 486.38000000000005,
+      "fim_segundos": 489.74,
+      "inicio_global_segundos": 486.38,
+      "fim_global_segundos": 489.74,
+      "texto": "mas a ideia aqui é sempre você analisar as métricas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 490.16,
+      "fim_segundos": 493.24,
+      "inicio_global_segundos": 490.16,
+      "fim_global_segundos": 493.24,
+      "texto": "aquelas que estão funcionando, replicar e intensificar,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 493.6,
+      "fim_segundos": 497.32000000000005,
+      "inicio_global_segundos": 493.6,
+      "fim_global_segundos": 497.32,
+      "texto": "e aquelas que não estiverem funcionando, você remover ou pausar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 497.6,
+      "fim_segundos": 501.0,
+      "inicio_global_segundos": 497.6,
+      "fim_global_segundos": 501.0,
+      "texto": "E quando você identificar o que funciona muito bem,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 501.36,
+      "fim_segundos": 504.96000000000004,
+      "inicio_global_segundos": 501.36,
+      "fim_global_segundos": 504.96,
+      "texto": "que gera muito resultado, busque entender o motivo por trás disso."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 505.04,
+      "fim_segundos": 505.96000000000004,
+      "inicio_global_segundos": 505.04,
+      "fim_global_segundos": 505.96,
+      "texto": "Será que é a palavra-chave?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 505.96000000000004,
+      "fim_segundos": 507.74,
+      "inicio_global_segundos": 505.96,
+      "fim_global_segundos": 507.74,
+      "texto": "Será que é por causa do resultado garantido?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 507.74,
+      "fim_segundos": 515.24,
+      "inicio_global_segundos": 507.74,
+      "fim_global_segundos": 515.24,
+      "texto": "e tenta replicar, porque por exemplo, se eu identifiquei que PDF das aulas é algo que gera muito clique,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 515.4,
+      "fim_segundos": 519.82,
+      "inicio_global_segundos": 515.4,
+      "fim_global_segundos": 519.82,
+      "texto": "muita conversão, caraca, eu posso usar isso nos meus anúncios e também na minha landing page,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 520.1,
+      "fim_segundos": 526.24,
+      "inicio_global_segundos": 520.1,
+      "fim_global_segundos": 526.24,
+      "texto": "e também na comunicação na hora de vender, porque eu sei que isso é importante para o meu cliente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 526.32,
+      "fim_segundos": 531.04,
+      "inicio_global_segundos": 526.32,
+      "fim_global_segundos": 531.04,
+      "texto": "para a pessoa que está pesquisando, já fiz um teste AB disso, então quando eu olho para extensões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 531.04,
+      "fim_segundos": 536.58,
+      "inicio_global_segundos": 531.04,
+      "fim_global_segundos": 536.58,
+      "texto": "e também para anúncios, não é a questão apenas de eu olhar aqui e verificar, nossa, que legal a extensão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 536.58,
+      "fim_segundos": 539.1,
+      "inicio_global_segundos": 536.58,
+      "fim_global_segundos": 539.1,
+      "texto": "Não, isso serve para melhorar a minha comunicação como um todo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 539.6,
+      "fim_segundos": 541.0200000000001,
+      "inicio_global_segundos": 539.6,
+      "fim_global_segundos": 541.02,
+      "texto": "o meu marketing como um todo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 541.36,
+      "fim_segundos": 546.34,
+      "inicio_global_segundos": 541.36,
+      "fim_global_segundos": 546.34,
+      "texto": "porque essas frases estão sendo testadas o tempo inteiro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 546.34,
+      "fim_segundos": 548.5,
+      "inicio_global_segundos": 546.34,
+      "fim_global_segundos": 548.5,
+      "texto": "enquanto a campanha roda."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 548.7800000000001,
+      "fim_segundos": 550.72,
+      "inicio_global_segundos": 548.78,
+      "fim_global_segundos": 550.72,
+      "texto": "Então é fundamental que você entenda isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 550.72,
+      "fim_segundos": 555.0400000000001,
+      "inicio_global_segundos": 550.72,
+      "fim_global_segundos": 555.04,
+      "texto": "para melhorar todo o seu processo de vendas do início ao fim."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 555.48,
+      "fim_segundos": 560.44,
+      "inicio_global_segundos": 555.48,
+      "fim_global_segundos": 560.44,
+      "texto": "Então essa aqui foi a extensão de, a otimização de extensões,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 560.7,
+      "fim_segundos": 563.88,
+      "inicio_global_segundos": 560.7,
+      "fim_global_segundos": 563.88,
+      "texto": "onde focamos aqui em, Tiago, eu tenho várias extensões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 563.88,
+      "fim_segundos": 569.28,
+      "inicio_global_segundos": 563.88,
+      "fim_global_segundos": 569.28,
+      "texto": "Ótimo, você segue esse mesmo processo que eu te mostrei aqui na frase de destaque."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 569.38,
+      "fim_segundos": 575.14,
+      "inicio_global_segundos": 569.38,
+      "fim_global_segundos": 575.14,
+      "texto": "Site link, tem, enfim, preço e assim por diante, seguindo essa mesma lógica."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 575.54,
+      "fim_segundos": 581.9399999999999,
+      "inicio_global_segundos": 575.54,
+      "fim_global_segundos": 581.94,
+      "texto": "Sempre em busca de manter as melhores extensões e mover aquelas que não geram muito resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 582.32,
+      "fim_segundos": 583.28,
+      "inicio_global_segundos": 582.32,
+      "fim_global_segundos": 583.28,
+      "texto": "Alguém tem alguma dúvida?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 584.28,
+      "fim_segundos": 589.78,
+      "inicio_global_segundos": 584.28,
+      "fim_global_segundos": 589.78,
+      "texto": "Na verdade são duas dúvidas não específicas sobre extensão, mas sobre otimização de maneira geral."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 589.78,
+      "fim_segundos": 596.76,
+      "inicio_global_segundos": 589.78,
+      "fim_global_segundos": 596.76,
+      "texto": "Uma delas é o seguinte, eu tenho uma campanha e eu otimizei essa campanha por uma conversão específica que eu criei."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 596.8399999999999,
+      "fim_segundos": 597.28,
+      "inicio_global_segundos": 596.84,
+      "fim_global_segundos": 597.28,
+      "texto": "Perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 597.5,
+      "fim_segundos": 597.74,
+      "inicio_global_segundos": 597.5,
+      "fim_global_segundos": 597.74,
+      "texto": "Certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 598.62,
+      "fim_segundos": 603.8399999999999,
+      "inicio_global_segundos": 598.62,
+      "fim_global_segundos": 603.84,
+      "texto": "Só que depois eu decido alterar a conversão dessa campanha para outra."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 604.66,
+      "fim_segundos": 609.6999999999999,
+      "inicio_global_segundos": 604.66,
+      "fim_global_segundos": 609.7,
+      "texto": "Isso pode atrapalhar o rendimento da campanha da internet?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 610.26,
+      "fim_segundos": 612.3399999999999,
+      "inicio_global_segundos": 610.26,
+      "fim_global_segundos": 612.34,
+      "texto": "Você tem uma conversão e você alterou a conversão?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 612.62,
+      "fim_segundos": 613.9599999999999,
+      "inicio_global_segundos": 612.62,
+      "fim_global_segundos": 613.96,
+      "texto": "Isso, alterei a conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 613.96,
+      "fim_segundos": 616.32,
+      "inicio_global_segundos": 613.96,
+      "fim_global_segundos": 616.32,
+      "texto": "por exemplo, eu tinha uma campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 616.32,
+      "fim_segundos": 618.1600000000001,
+      "inicio_global_segundos": 616.32,
+      "fim_global_segundos": 618.16,
+      "texto": "com duas tags, eu potei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 618.1600000000001,
+      "fim_segundos": 620.24,
+      "inicio_global_segundos": 618.16,
+      "fim_global_segundos": 620.24,
+      "texto": "outra tag e eu alterei a conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 620.24,
+      "fim_segundos": 622.1,
+      "inicio_global_segundos": 620.24,
+      "fim_global_segundos": 622.1,
+      "texto": "ali pra outra que eu criei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 622.1,
+      "fim_segundos": 624.1,
+      "inicio_global_segundos": 622.1,
+      "fim_global_segundos": 624.1,
+      "texto": "é, se você alterou pra um novo produto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 624.1,
+      "fim_segundos": 626.0,
+      "inicio_global_segundos": 624.1,
+      "fim_global_segundos": 626.0,
+      "texto": "por exemplo, ou pra uma nova chamada"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 626.0,
+      "fim_segundos": 627.94,
+      "inicio_global_segundos": 626.0,
+      "fim_global_segundos": 627.94,
+      "texto": "aí começa do zero, basicamente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 627.94,
+      "fim_segundos": 629.74,
+      "inicio_global_segundos": 627.94,
+      "fim_global_segundos": 629.74,
+      "texto": "porque aquela métrica anterior"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 629.74,
+      "fim_segundos": 631.8000000000001,
+      "inicio_global_segundos": 629.74,
+      "fim_global_segundos": 631.8,
+      "texto": "não vale você considerar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 631.8000000000001,
+      "fim_segundos": 633.7800000000001,
+      "inicio_global_segundos": 631.8,
+      "fim_global_segundos": 633.78,
+      "texto": "porque você mudou completamente, talvez o produto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 633.7800000000001,
+      "fim_segundos": 635.1600000000001,
+      "inicio_global_segundos": 633.78,
+      "fim_global_segundos": 635.16,
+      "texto": "o serviço então começa realmente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 635.1600000000001,
+      "fim_segundos": 638.1800000000001,
+      "inicio_global_segundos": 635.16,
+      "fim_global_segundos": 638.18,
+      "texto": "do zero aí, a partir daquele momento que você fez a alteração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 638.1800000000001,
+      "fim_segundos": 639.48,
+      "inicio_global_segundos": 638.18,
+      "fim_global_segundos": 639.48,
+      "texto": "da tag, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 639.9200000000001,
+      "fim_segundos": 641.74,
+      "inicio_global_segundos": 639.92,
+      "fim_global_segundos": 641.74,
+      "texto": "certo, e a outra pergunta"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 641.74,
+      "fim_segundos": 643.14,
+      "inicio_global_segundos": 641.74,
+      "fim_global_segundos": 643.14,
+      "texto": "assim, ela"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 643.14,
+      "fim_segundos": 646.22,
+      "inicio_global_segundos": 643.14,
+      "fim_global_segundos": 646.22,
+      "texto": "é uma coisa que a gente tem bastante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 646.22,
+      "fim_segundos": 647.96,
+      "inicio_global_segundos": 646.22,
+      "fim_global_segundos": 647.96,
+      "texto": "no conversão extrema, que é o seguinte"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 647.96,
+      "fim_segundos": 650.12,
+      "inicio_global_segundos": 647.96,
+      "fim_global_segundos": 650.12,
+      "texto": "toda a sua parte de otimização"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 650.12,
+      "fim_segundos": 651.42,
+      "inicio_global_segundos": 650.12,
+      "fim_global_segundos": 651.42,
+      "texto": "é focada nas conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 651.42,
+      "fim_segundos": 652.02,
+      "inicio_global_segundos": 651.42,
+      "fim_global_segundos": 652.02,
+      "texto": "certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 652.9,
+      "fim_segundos": 655.6999999999999,
+      "inicio_global_segundos": 652.9,
+      "fim_global_segundos": 655.7,
+      "texto": "só que existe um número muito grande"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 655.6999999999999,
+      "fim_segundos": 657.9,
+      "inicio_global_segundos": 655.7,
+      "fim_global_segundos": 657.9,
+      "texto": "de pessoas que elas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 657.9,
+      "fim_segundos": 660.04,
+      "inicio_global_segundos": 657.9,
+      "fim_global_segundos": 660.04,
+      "texto": "demoram ter a primeira conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 660.04,
+      "fim_segundos": 662.48,
+      "inicio_global_segundos": 660.04,
+      "fim_global_segundos": 662.48,
+      "texto": "então como que eu otimizo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 662.48,
+      "fim_segundos": 664.24,
+      "inicio_global_segundos": 662.48,
+      "fim_global_segundos": 664.24,
+      "texto": "ou como que eu sei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 664.24,
+      "fim_segundos": 665.06,
+      "inicio_global_segundos": 664.24,
+      "fim_global_segundos": 665.06,
+      "texto": "o que está errado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 665.06,
+      "fim_segundos": 668.04,
+      "inicio_global_segundos": 665.06,
+      "fim_global_segundos": 668.04,
+      "texto": "eu não estou conseguindo conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 668.04,
+      "fim_segundos": 669.28,
+      "inicio_global_segundos": 668.04,
+      "fim_global_segundos": 669.28,
+      "texto": "então não tem conversão nenhuma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 669.28,
+      "fim_segundos": 672.0,
+      "inicio_global_segundos": 669.28,
+      "fim_global_segundos": 672.0,
+      "texto": "mas eu já gastei 200, 300, 500 reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 672.0,
+      "fim_segundos": 673.94,
+      "inicio_global_segundos": 672.0,
+      "fim_global_segundos": 673.94,
+      "texto": "da campanha, como que eu descobri"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 673.94,
+      "fim_segundos": 675.52,
+      "inicio_global_segundos": 673.94,
+      "fim_global_segundos": 675.52,
+      "texto": "que eu estou errando até começar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 675.52,
+      "fim_segundos": 677.64,
+      "inicio_global_segundos": 675.52,
+      "fim_global_segundos": 677.64,
+      "texto": "as primeiras conversões? Boa pergunta,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 677.72,
+      "fim_segundos": 679.58,
+      "inicio_global_segundos": 677.72,
+      "fim_global_segundos": 679.58,
+      "texto": "essa é uma boa pergunta. Aí a gente vai para a métrica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 679.58,
+      "fim_segundos": 682.1,
+      "inicio_global_segundos": 679.58,
+      "fim_global_segundos": 682.1,
+      "texto": "secundária. Olha só que interessante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 682.9,
+      "fim_segundos": 683.72,
+      "inicio_global_segundos": 682.9,
+      "fim_global_segundos": 683.72,
+      "texto": "Se eu não consigo ter"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 683.72,
+      "fim_segundos": 685.56,
+      "inicio_global_segundos": 683.72,
+      "fim_global_segundos": 685.56,
+      "texto": "nenhuma informação nas métricas principais,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 685.62,
+      "fim_segundos": 686.82,
+      "inicio_global_segundos": 685.62,
+      "fim_global_segundos": 686.82,
+      "texto": "que são as métricas primárias,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 687.54,
+      "fim_segundos": 687.84,
+      "inicio_global_segundos": 687.54,
+      "fim_global_segundos": 687.84,
+      "texto": "aqui,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 688.1,
+      "fim_segundos": 691.88,
+      "inicio_global_segundos": 688.1,
+      "fim_global_segundos": 691.88,
+      "texto": "vamos supor que isso aqui não existe,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 692.16,
+      "fim_segundos": 693.92,
+      "inicio_global_segundos": 692.16,
+      "fim_global_segundos": 693.92,
+      "texto": "que é conversão e o CPA."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 694.18,
+      "fim_segundos": 695.16,
+      "inicio_global_segundos": 694.18,
+      "fim_global_segundos": 695.16,
+      "texto": "Então vou colocar um vermelho aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 695.16,
+      "fim_segundos": 696.94,
+      "inicio_global_segundos": 695.16,
+      "fim_global_segundos": 696.94,
+      "texto": "Isso aqui não existe porque"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 696.94,
+      "fim_segundos": 699.16,
+      "inicio_global_segundos": 696.94,
+      "fim_global_segundos": 699.16,
+      "texto": "você não teve nenhuma conversão. E aí quais são as"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 699.16,
+      "fim_segundos": 699.72,
+      "inicio_global_segundos": 699.16,
+      "fim_global_segundos": 699.72,
+      "texto": "métricas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 699.72,
+      "fim_segundos": 701.9,
+      "inicio_global_segundos": 699.72,
+      "fim_global_segundos": 701.9,
+      "texto": "secundárias?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 702.46,
+      "fim_segundos": 704.8,
+      "inicio_global_segundos": 702.46,
+      "fim_global_segundos": 704.8,
+      "texto": "Clique, CPC, aqui não existe,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 704.86,
+      "fim_segundos": 706.9,
+      "inicio_global_segundos": 704.86,
+      "fim_global_segundos": 706.9,
+      "texto": "que a taxa de conversão não vai existir, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 706.94,
+      "fim_segundos": 708.5,
+      "inicio_global_segundos": 706.94,
+      "fim_global_segundos": 708.5,
+      "texto": "Até que eu vou colocar aqui, taxa de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 709.4,
+      "fim_segundos": 710.74,
+      "inicio_global_segundos": 709.4,
+      "fim_global_segundos": 710.74,
+      "texto": "E aí nós temos o CTR."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 711.24,
+      "fim_segundos": 713.44,
+      "inicio_global_segundos": 711.24,
+      "fim_global_segundos": 713.44,
+      "texto": "E essa métrica aqui é a métrica secundária"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 713.44,
+      "fim_segundos": 714.12,
+      "inicio_global_segundos": 713.44,
+      "fim_global_segundos": 714.12,
+      "texto": "que você pode analisar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 714.18,
+      "fim_segundos": 714.68,
+      "inicio_global_segundos": 714.18,
+      "fim_global_segundos": 714.68,
+      "texto": "Porque, por exemplo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 715.34,
+      "fim_segundos": 717.24,
+      "inicio_global_segundos": 715.34,
+      "fim_global_segundos": 717.24,
+      "texto": "se o meu CTR está muito baixo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 718.0,
+      "fim_segundos": 719.48,
+      "inicio_global_segundos": 718.0,
+      "fim_global_segundos": 719.48,
+      "texto": "não tem, isso já é um indício"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 719.48,
+      "fim_segundos": 721.52,
+      "inicio_global_segundos": 719.48,
+      "fim_global_segundos": 721.52,
+      "texto": "de que o meu anúncio não está muito segmentado,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 722.2,
+      "fim_segundos": 724.56,
+      "inicio_global_segundos": 722.2,
+      "fim_global_segundos": 724.56,
+      "texto": "não está muito bem feito, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 724.62,
+      "fim_segundos": 726.24,
+      "inicio_global_segundos": 724.62,
+      "fim_global_segundos": 726.24,
+      "texto": "Se o CTR estiver baixo daquela extensão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 726.92,
+      "fim_segundos": 729.3,
+      "inicio_global_segundos": 726.92,
+      "fim_global_segundos": 729.3,
+      "texto": "se o meu CTR estiver baixo daquele anúncio específico,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 729.36,
+      "fim_segundos": 730.74,
+      "inicio_global_segundos": 729.36,
+      "fim_global_segundos": 730.74,
+      "texto": "quer dizer que ele não está sendo relevante,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 730.74,
+      "fim_segundos": 732.12,
+      "inicio_global_segundos": 730.74,
+      "fim_global_segundos": 732.12,
+      "texto": "não está chamando atenção o suficiente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 732.74,
+      "fim_segundos": 734.94,
+      "inicio_global_segundos": 732.74,
+      "fim_global_segundos": 734.94,
+      "texto": "Então, a ideia é, se eu não consigo ainda otimizar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 734.94,
+      "fim_segundos": 736.6800000000001,
+      "inicio_global_segundos": 734.94,
+      "fim_global_segundos": 736.68,
+      "texto": "por conversão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 737.1800000000001,
+      "fim_segundos": 738.42,
+      "inicio_global_segundos": 737.18,
+      "fim_global_segundos": 738.42,
+      "texto": "eu preciso alcançar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 738.42,
+      "fim_segundos": 740.8,
+      "inicio_global_segundos": 738.42,
+      "fim_global_segundos": 740.8,
+      "texto": "o menor custo por clique"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 740.8,
+      "fim_segundos": 742.98,
+      "inicio_global_segundos": 740.8,
+      "fim_global_segundos": 742.98,
+      "texto": "e o melhor CTR."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 743.4,
+      "fim_segundos": 745.0600000000001,
+      "inicio_global_segundos": 743.4,
+      "fim_global_segundos": 745.06,
+      "texto": "Então, assim, Thiago, eu não consigo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 745.0600000000001,
+      "fim_segundos": 746.88,
+      "inicio_global_segundos": 745.06,
+      "fim_global_segundos": 746.88,
+      "texto": "ter o menor custo por conversão porque eu não tenho nenhuma conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 747.02,
+      "fim_segundos": 748.38,
+      "inicio_global_segundos": 747.02,
+      "fim_global_segundos": 748.38,
+      "texto": "Então, vamos tentar pagar o mínimo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 748.38,
+      "fim_segundos": 751.5600000000001,
+      "inicio_global_segundos": 748.38,
+      "fim_global_segundos": 751.56,
+      "texto": "por clique com o melhor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 751.5600000000001,
+      "fim_segundos": 753.0600000000001,
+      "inicio_global_segundos": 751.56,
+      "fim_global_segundos": 753.06,
+      "texto": "CTR. Essa, então, seria"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 753.0600000000001,
+      "fim_segundos": 754.98,
+      "inicio_global_segundos": 753.06,
+      "fim_global_segundos": 754.98,
+      "texto": "a métrica secundária. Então, vamos supor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 754.98,
+      "fim_segundos": 756.98,
+      "inicio_global_segundos": 754.98,
+      "fim_global_segundos": 756.98,
+      "texto": "aqui, vamos supor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 756.98,
+      "fim_segundos": 758.92,
+      "inicio_global_segundos": 756.98,
+      "fim_global_segundos": 758.92,
+      "texto": "que eu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 758.92,
+      "fim_segundos": 760.6800000000001,
+      "inicio_global_segundos": 758.92,
+      "fim_global_segundos": 760.68,
+      "texto": "não tenho, né,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 760.74,
+      "fim_segundos": 763.32,
+      "inicio_global_segundos": 760.74,
+      "fim_global_segundos": 763.32,
+      "texto": "a tag instalada aqui, tá bom? Eu não tenho essa informação."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 763.8,
+      "fim_segundos": 765.08,
+      "inicio_global_segundos": 763.8,
+      "fim_global_segundos": 765.08,
+      "texto": "Se eu puxar o CPC médio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 766.02,
+      "fim_segundos": 767.5,
+      "inicio_global_segundos": 766.02,
+      "fim_global_segundos": 767.5,
+      "texto": "eu sei que, por exemplo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 768.58,
+      "fim_segundos": 769.0600000000001,
+      "inicio_global_segundos": 768.58,
+      "fim_global_segundos": 769.06,
+      "texto": "o PDF,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 769.46,
+      "fim_segundos": 771.32,
+      "inicio_global_segundos": 769.46,
+      "fim_global_segundos": 771.32,
+      "texto": "ah não, CPC médio, é o CPF da aula,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 771.54,
+      "fim_segundos": 772.64,
+      "inicio_global_segundos": 771.54,
+      "fim_global_segundos": 772.64,
+      "texto": "o PDF da aula,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 772.98,
+      "fim_segundos": 774.4,
+      "inicio_global_segundos": 772.98,
+      "fim_global_segundos": 774.4,
+      "texto": "estou pagando R$1 no clique."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 775.32,
+      "fim_segundos": 777.44,
+      "inicio_global_segundos": 775.32,
+      "fim_global_segundos": 777.44,
+      "texto": "O CTR está 3,20%."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 777.44,
+      "fim_segundos": 778.94,
+      "inicio_global_segundos": 777.44,
+      "fim_global_segundos": 778.94,
+      "texto": "Vamos ver aqui se ele está"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 778.94,
+      "fim_segundos": 780.52,
+      "inicio_global_segundos": 778.94,
+      "fim_global_segundos": 780.52,
+      "texto": "entre os melhores ou não."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 781.04,
+      "fim_segundos": 783.7,
+      "inicio_global_segundos": 781.04,
+      "fim_global_segundos": 783.7,
+      "texto": "Olha só, o CTR não está entre os melhores."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 784.24,
+      "fim_segundos": 785.1800000000001,
+      "inicio_global_segundos": 784.24,
+      "fim_global_segundos": 785.18,
+      "texto": "Os melhores estão aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 785.1800000000001,
+      "fim_segundos": 787.14,
+      "inicio_global_segundos": 785.18,
+      "fim_global_segundos": 787.14,
+      "texto": "Olha só, então, eu sempre vou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 787.14,
+      "fim_segundos": 789.12,
+      "inicio_global_segundos": 787.14,
+      "fim_global_segundos": 789.12,
+      "texto": "buscar o quê? Ter o menor custo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 789.12,
+      "fim_segundos": 790.96,
+      "inicio_global_segundos": 789.12,
+      "fim_global_segundos": 790.96,
+      "texto": "por clique e o melhor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 790.96,
+      "fim_segundos": 792.92,
+      "inicio_global_segundos": 790.96,
+      "fim_global_segundos": 792.92,
+      "texto": "CTR que mostra a qualidade do meu anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 793.34,
+      "fim_segundos": 794.76,
+      "inicio_global_segundos": 793.34,
+      "fim_global_segundos": 794.76,
+      "texto": "Agora, olha que interessante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 795.18,
+      "fim_segundos": 797.02,
+      "inicio_global_segundos": 795.18,
+      "fim_global_segundos": 797.02,
+      "texto": "Isso aqui, como eu falei, é a métrica secundária."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 797.76,
+      "fim_segundos": 798.96,
+      "inicio_global_segundos": 797.76,
+      "fim_global_segundos": 798.96,
+      "texto": "Porque mesmo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 798.96,
+      "fim_segundos": 800.9,
+      "inicio_global_segundos": 798.96,
+      "fim_global_segundos": 800.9,
+      "texto": "com o PDF da aula, claro que são poucas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 800.9,
+      "fim_segundos": 802.9,
+      "inicio_global_segundos": 800.9,
+      "fim_global_segundos": 802.9,
+      "texto": "métricas para a gente avaliar, porque são apenas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 802.9,
+      "fim_segundos": 804.9,
+      "inicio_global_segundos": 802.9,
+      "fim_global_segundos": 804.9,
+      "texto": "nove cliques, mas mesmo com"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 804.9,
+      "fim_segundos": 806.64,
+      "inicio_global_segundos": 804.9,
+      "fim_global_segundos": 806.64,
+      "texto": "um CPC alto,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 807.02,
+      "fim_segundos": 808.66,
+      "inicio_global_segundos": 807.02,
+      "fim_global_segundos": 808.66,
+      "texto": "ele trouxe mais resultado no final."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 809.5,
+      "fim_segundos": 810.18,
+      "inicio_global_segundos": 809.5,
+      "fim_global_segundos": 810.18,
+      "texto": "Então nem sempre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 810.18,
+      "fim_segundos": 812.9,
+      "inicio_global_segundos": 810.18,
+      "fim_global_segundos": 812.9,
+      "texto": "o CPC é a melhor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 812.9,
+      "fim_segundos": 814.78,
+      "inicio_global_segundos": 812.9,
+      "fim_global_segundos": 814.78,
+      "texto": "solução. Então dá para remendar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 814.78,
+      "fim_segundos": 817.12,
+      "inicio_global_segundos": 814.78,
+      "fim_global_segundos": 817.12,
+      "texto": "com o CPC. Tiago, eu não tenho nenhuma conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 817.54,
+      "fim_segundos": 818.84,
+      "inicio_global_segundos": 817.54,
+      "fim_global_segundos": 818.84,
+      "texto": "Então menor custo por clique, ou seja,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 818.84,
+      "fim_segundos": 820.4,
+      "inicio_global_segundos": 818.84,
+      "fim_global_segundos": 820.4,
+      "texto": "eu quero pagar o mínimo possível"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 820.4,
+      "fim_segundos": 822.5400000000001,
+      "inicio_global_segundos": 820.4,
+      "fim_global_segundos": 822.54,
+      "texto": "pra levar mais pessoas pro meu site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 822.5400000000001,
+      "fim_segundos": 824.6600000000001,
+      "inicio_global_segundos": 822.54,
+      "fim_global_segundos": 824.66,
+      "texto": "pra dessa maneira ter mais chances de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 824.6600000000001,
+      "fim_segundos": 826.52,
+      "inicio_global_segundos": 824.66,
+      "fim_global_segundos": 826.52,
+      "texto": "é assim que a gente tem que seguir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 826.52,
+      "fim_segundos": 828.86,
+      "inicio_global_segundos": 826.52,
+      "fim_global_segundos": 828.86,
+      "texto": "e o CTR, Thiago, eu tenho 3 anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 828.86,
+      "fim_segundos": 831.38,
+      "inicio_global_segundos": 828.86,
+      "fim_global_segundos": 831.38,
+      "texto": "aqui, um CTR é 0,2%"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 831.38,
+      "fim_segundos": 832.76,
+      "inicio_global_segundos": 831.38,
+      "fim_global_segundos": 832.76,
+      "texto": "outro é 0,5% e um"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 832.76,
+      "fim_segundos": 834.62,
+      "inicio_global_segundos": 832.76,
+      "fim_global_segundos": 834.62,
+      "texto": "1,12%, então aquele anúncio de 2%"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 834.62,
+      "fim_segundos": 836.58,
+      "inicio_global_segundos": 834.62,
+      "fim_global_segundos": 836.58,
+      "texto": "é o melhor que você tem, então"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 836.58,
+      "fim_segundos": 838.8000000000001,
+      "inicio_global_segundos": 836.58,
+      "fim_global_segundos": 838.8,
+      "texto": "procure identificar porque aqueles outros"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 838.8000000000001,
+      "fim_segundos": 841.12,
+      "inicio_global_segundos": 838.8,
+      "fim_global_segundos": 841.12,
+      "texto": "são tão ruins assim e procure melhorar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 841.12,
+      "fim_segundos": 842.58,
+      "inicio_global_segundos": 841.12,
+      "fim_global_segundos": 842.58,
+      "texto": "eu acho que essa dúvida"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 842.58,
+      "fim_segundos": 844.82,
+      "inicio_global_segundos": 842.58,
+      "fim_global_segundos": 844.82,
+      "texto": "serve também pra anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 844.82,
+      "fim_segundos": 846.6600000000001,
+      "inicio_global_segundos": 844.82,
+      "fim_global_segundos": 846.66,
+      "texto": "por exemplo, eu tenho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 846.6600000000001,
+      "fim_segundos": 848.22,
+      "inicio_global_segundos": 846.66,
+      "fim_global_segundos": 848.22,
+      "texto": "3 extensões aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 848.22,
+      "fim_segundos": 850.6600000000001,
+      "inicio_global_segundos": 848.22,
+      "fim_global_segundos": 850.66,
+      "texto": "aí uma deu mil impressões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 850.6600000000001,
+      "fim_segundos": 851.8000000000001,
+      "inicio_global_segundos": 850.66,
+      "fim_global_segundos": 851.8,
+      "texto": "outra deu mil e pouca"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 851.8000000000001,
+      "fim_segundos": 853.94,
+      "inicio_global_segundos": 851.8,
+      "fim_global_segundos": 853.94,
+      "texto": "e outra deu duas impressões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 853.94,
+      "fim_segundos": 857.84,
+      "inicio_global_segundos": 853.94,
+      "fim_global_segundos": 857.84,
+      "texto": "e o Google já definiu que essa que deu duas impressões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 857.84,
+      "fim_segundos": 858.74,
+      "inicio_global_segundos": 857.84,
+      "fim_global_segundos": 858.74,
+      "texto": "é ruim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 858.74,
+      "fim_segundos": 860.52,
+      "inicio_global_segundos": 858.74,
+      "fim_global_segundos": 860.52,
+      "texto": "mas só teve duas impressões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 860.52,
+      "fim_segundos": 862.12,
+      "inicio_global_segundos": 860.52,
+      "fim_global_segundos": 862.12,
+      "texto": "aí beleza"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 862.12,
+      "fim_segundos": 865.1800000000001,
+      "inicio_global_segundos": 862.12,
+      "fim_global_segundos": 865.18,
+      "texto": "aí eu quero criar uma quarta extensão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 865.1800000000001,
+      "fim_segundos": 866.64,
+      "inicio_global_segundos": 865.18,
+      "fim_global_segundos": 866.64,
+      "texto": "show, ó, nem sempre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 866.64,
+      "fim_segundos": 868.34,
+      "inicio_global_segundos": 866.64,
+      "fim_global_segundos": 868.34,
+      "texto": "só pra cortar antes de terminar aí, nem sempre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 868.34,
+      "fim_segundos": 870.6,
+      "inicio_global_segundos": 868.34,
+      "fim_global_segundos": 870.6,
+      "texto": "porque deu duas impressões é porque é ruim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 870.6,
+      "fim_segundos": 872.6,
+      "inicio_global_segundos": 870.6,
+      "fim_global_segundos": 872.6,
+      "texto": "é porque aquela que tem muita impressão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 872.6,
+      "fim_segundos": 874.1800000000001,
+      "inicio_global_segundos": 872.6,
+      "fim_global_segundos": 874.18,
+      "texto": "ela é melhor, então o Google viu, cara"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 874.1800000000001,
+      "fim_segundos": 875.84,
+      "inicio_global_segundos": 874.18,
+      "fim_global_segundos": 875.84,
+      "texto": "se deu uma performance muito boa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 875.84,
+      "fim_segundos": 877.76,
+      "inicio_global_segundos": 875.84,
+      "fim_global_segundos": 877.76,
+      "texto": "eu vou continuar com essa aqui, tá dando"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 877.76,
+      "fim_segundos": 879.4,
+      "inicio_global_segundos": 877.76,
+      "fim_global_segundos": 879.4,
+      "texto": "a meta dele. Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 880.3199999999999,
+      "fim_segundos": 880.9399999999999,
+      "inicio_global_segundos": 880.32,
+      "fim_global_segundos": 880.94,
+      "texto": "E aí, continuando."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 881.12,
+      "fim_segundos": 884.1,
+      "inicio_global_segundos": 881.12,
+      "fim_global_segundos": 884.1,
+      "texto": "Aí eu quero criar uma quarta extensão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 884.1,
+      "fim_segundos": 885.5,
+      "inicio_global_segundos": 884.1,
+      "fim_global_segundos": 885.5,
+      "texto": "aqui, que eu quero fazer mais um teste."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 885.9399999999999,
+      "fim_segundos": 887.46,
+      "inicio_global_segundos": 885.94,
+      "fim_global_segundos": 887.46,
+      "texto": "Quando eu crio essa quarta,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 888.28,
+      "fim_segundos": 890.16,
+      "inicio_global_segundos": 888.28,
+      "fim_global_segundos": 890.16,
+      "texto": "ele meio que roda a verba"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 890.16,
+      "fim_segundos": 892.22,
+      "inicio_global_segundos": 890.16,
+      "fim_global_segundos": 892.22,
+      "texto": "proporcional para essas quatro extensões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 892.22,
+      "fim_segundos": 893.36,
+      "inicio_global_segundos": 892.22,
+      "fim_global_segundos": 893.36,
+      "texto": "de novo? Como é que funciona?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 893.8,
+      "fim_segundos": 895.86,
+      "inicio_global_segundos": 893.8,
+      "fim_global_segundos": 895.86,
+      "texto": "Então, vamos supor assim,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 896.0,
+      "fim_segundos": 897.9,
+      "inicio_global_segundos": 896.0,
+      "fim_global_segundos": 897.9,
+      "texto": "eu tenho a extensão ou o anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 897.9,
+      "fim_segundos": 899.72,
+      "inicio_global_segundos": 897.9,
+      "fim_global_segundos": 899.72,
+      "texto": "Vamos pegar o anúncio que é mais fácil, mas é a mesma lógica."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 900.14,
+      "fim_segundos": 901.24,
+      "inicio_global_segundos": 900.14,
+      "fim_global_segundos": 901.24,
+      "texto": "Eu tenho o anúncio 1,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 902.0,
+      "fim_segundos": 903.04,
+      "inicio_global_segundos": 902.0,
+      "fim_global_segundos": 903.04,
+      "texto": "o anúncio 2,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 903.74,
+      "fim_segundos": 906.12,
+      "inicio_global_segundos": 903.74,
+      "fim_global_segundos": 906.12,
+      "texto": "o anúncio 3 e o anúncio 4."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 906.84,
+      "fim_segundos": 907.24,
+      "inicio_global_segundos": 906.84,
+      "fim_global_segundos": 907.24,
+      "texto": "Aí,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 907.76,
+      "fim_segundos": 913.5,
+      "inicio_global_segundos": 907.76,
+      "fim_global_segundos": 913.5,
+      "texto": "O anúncio 1, cara, deu muito certo, rodou, cara, muito bem, deu muito interessante,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 913.62,
+      "fim_segundos": 916.06,
+      "inicio_global_segundos": 913.62,
+      "fim_global_segundos": 916.06,
+      "texto": "o Google já pega a maior parte de investimento e mete no anúncio 1."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 916.38,
+      "fim_segundos": 918.9399999999999,
+      "inicio_global_segundos": 916.38,
+      "fim_global_segundos": 918.94,
+      "texto": "E aqui, pouquinho investimento, pouquinho investimento, aqui quase nada."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 919.26,
+      "fim_segundos": 920.9,
+      "inicio_global_segundos": 919.26,
+      "fim_global_segundos": 920.9,
+      "texto": "Por quê? Porque aqui já está batendo a sua meta de CPA."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 921.36,
+      "fim_segundos": 923.78,
+      "inicio_global_segundos": 921.36,
+      "fim_global_segundos": 923.78,
+      "texto": "Por que eu vou arriscar aqui e experimentar outra sença que está dando resultado para você?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 924.4399999999999,
+      "fim_segundos": 925.02,
+      "inicio_global_segundos": 924.44,
+      "fim_global_segundos": 925.02,
+      "texto": "Essa é a parada."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 925.4399999999999,
+      "fim_segundos": 927.72,
+      "inicio_global_segundos": 925.44,
+      "fim_global_segundos": 927.72,
+      "texto": "Agora, pô, Tiago, então, eu notifiquei que isso aqui, cara,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 928.14,
+      "fim_segundos": 932.64,
+      "inicio_global_segundos": 928.14,
+      "fim_global_segundos": 932.64,
+      "texto": "ah, eu vi que não é muito bom e tal, e aí eu criei um novo anúncio ou uma nova extensão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 932.84,
+      "fim_segundos": 933.46,
+      "inicio_global_segundos": 932.84,
+      "fim_global_segundos": 933.46,
+      "texto": "E aí eu criei."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 933.46,
+      "fim_segundos": 937.3,
+      "inicio_global_segundos": 933.46,
+      "fim_global_segundos": 937.3,
+      "texto": "E aí o Google, será que o Google vai pegar parte dessa verba e colocar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 937.3,
+      "fim_segundos": 939.6999999999999,
+      "inicio_global_segundos": 937.3,
+      "fim_global_segundos": 939.7,
+      "texto": "para ver no campo de batalha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 939.6999999999999,
+      "fim_segundos": 941.14,
+      "inicio_global_segundos": 939.7,
+      "fim_global_segundos": 941.14,
+      "texto": "se essa aqui vai superar essa aqui?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 941.24,
+      "fim_segundos": 942.4399999999999,
+      "inicio_global_segundos": 941.24,
+      "fim_global_segundos": 942.44,
+      "texto": "E a resposta é que sim, mas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 942.4399999999999,
+      "fim_segundos": 945.3599999999999,
+      "inicio_global_segundos": 942.44,
+      "fim_global_segundos": 945.36,
+      "texto": "pouco orçamento. Porque se ele mantém"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 945.3599999999999,
+      "fim_segundos": 947.28,
+      "inicio_global_segundos": 945.36,
+      "fim_global_segundos": 947.28,
+      "texto": "pouco orçamento aqui e pouco orçamento aqui, significa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 947.28,
+      "fim_segundos": 949.4599999999999,
+      "inicio_global_segundos": 947.28,
+      "fim_global_segundos": 949.46,
+      "texto": "que o Google analisou que, cara, isso aqui não vai"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 949.4599999999999,
+      "fim_segundos": 951.28,
+      "inicio_global_segundos": 949.46,
+      "fim_global_segundos": 951.28,
+      "texto": "superar essa aqui. E esse aqui também não vai"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 951.28,
+      "fim_segundos": 953.24,
+      "inicio_global_segundos": 951.28,
+      "fim_global_segundos": 953.24,
+      "texto": "superar essa aqui. E esse aqui ele mantém pouco"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 953.24,
+      "fim_segundos": 955.16,
+      "inicio_global_segundos": 953.24,
+      "fim_global_segundos": 955.16,
+      "texto": "orçamento. Vamos supor que, cara, você criou um anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 955.16,
+      "fim_segundos": 957.1999999999999,
+      "inicio_global_segundos": 955.16,
+      "fim_global_segundos": 957.2,
+      "texto": "muito melhor, muito mais chamativo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 957.54,
+      "fim_segundos": 959.18,
+      "inicio_global_segundos": 957.54,
+      "fim_global_segundos": 959.18,
+      "texto": "A tendência é começar a aumentar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 959.18,
+      "fim_segundos": 961.0999999999999,
+      "inicio_global_segundos": 959.18,
+      "fim_global_segundos": 961.1,
+      "texto": "aqui e igualar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 961.0999999999999,
+      "fim_segundos": 963.52,
+      "inicio_global_segundos": 961.1,
+      "fim_global_segundos": 963.52,
+      "texto": "até o dia que ele tenha resultado. Geralmente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 964.3599999999999,
+      "fim_segundos": 965.64,
+      "inicio_global_segundos": 964.36,
+      "fim_global_segundos": 965.64,
+      "texto": "o que ele analisa de bom desempenho?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 966.02,
+      "fim_segundos": 967.02,
+      "inicio_global_segundos": 966.02,
+      "fim_global_segundos": 967.02,
+      "texto": "CTR, qualidade,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 967.3,
+      "fim_segundos": 969.54,
+      "inicio_global_segundos": 967.3,
+      "fim_global_segundos": 969.54,
+      "texto": "então quando a pessoa aparece uma impressão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 969.54,
+      "fim_segundos": 971.3599999999999,
+      "inicio_global_segundos": 969.54,
+      "fim_global_segundos": 971.36,
+      "texto": "uma impressão por clique"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 971.3599999999999,
+      "fim_segundos": 973.52,
+      "inicio_global_segundos": 971.36,
+      "fim_global_segundos": 973.52,
+      "texto": "pô, tem um CTR, cara, é muito qualificado esse anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 973.52,
+      "fim_segundos": 975.5,
+      "inicio_global_segundos": 973.52,
+      "fim_global_segundos": 975.5,
+      "texto": "e esse anúncio aqui tem uma taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 975.5,
+      "fim_segundos": 977.24,
+      "inicio_global_segundos": 975.5,
+      "fim_global_segundos": 977.24,
+      "texto": "é muito boa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 977.24,
+      "fim_segundos": 979.38,
+      "inicio_global_segundos": 977.24,
+      "fim_global_segundos": 979.38,
+      "texto": "porque esse anúncio não precisa gastar muita"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 979.38,
+      "fim_segundos": 981.3399999999999,
+      "inicio_global_segundos": 979.38,
+      "fim_global_segundos": 981.34,
+      "texto": "pra dizer que ele é bom, se aqui deu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 981.3399999999999,
+      "fim_segundos": 982.64,
+      "inicio_global_segundos": 981.34,
+      "fim_global_segundos": 982.64,
+      "texto": "100 cliques"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 982.64,
+      "fim_segundos": 985.0,
+      "inicio_global_segundos": 982.64,
+      "fim_global_segundos": 985.0,
+      "texto": "e aqui deu 100 cliques"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 985.0,
+      "fim_segundos": 987.5,
+      "inicio_global_segundos": 985.0,
+      "fim_global_segundos": 987.5,
+      "texto": "e aqui já deu tipo, sei lá"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 987.5,
+      "fim_segundos": 988.92,
+      "inicio_global_segundos": 987.5,
+      "fim_global_segundos": 988.92,
+      "texto": "5 conversões, aqui deu uma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 988.92,
+      "fim_segundos": 991.0,
+      "inicio_global_segundos": 988.92,
+      "fim_global_segundos": 991.0,
+      "texto": "já começou a identificar algo diferente aí"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 991.0,
+      "fim_segundos": 993.54,
+      "inicio_global_segundos": 991.0,
+      "fim_global_segundos": 993.54,
+      "texto": "mesmo com poucos cliques, porque o que importa é a taxa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 993.54,
+      "fim_segundos": 994.92,
+      "inicio_global_segundos": 993.54,
+      "fim_global_segundos": 994.92,
+      "texto": "é a taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 994.92,
+      "fim_segundos": 998.3399999999999,
+      "inicio_global_segundos": 994.92,
+      "fim_global_segundos": 998.34,
+      "texto": "Então aqui já começa a aparecer 200 vezes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 998.3399999999999,
+      "fim_segundos": 1000.04,
+      "inicio_global_segundos": 998.34,
+      "fim_global_segundos": 1000.04,
+      "texto": "E aqui já aparece 50 vezes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1000.04,
+      "fim_segundos": 1002.16,
+      "inicio_global_segundos": 1000.04,
+      "fim_global_segundos": 1002.16,
+      "texto": "Porque aqui já provou que mostra mais resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1002.16,
+      "fim_segundos": 1004.3199999999999,
+      "inicio_global_segundos": 1002.16,
+      "fim_global_segundos": 1004.32,
+      "texto": "Aí aqui, pô, manteve, teve 10 conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1004.3199999999999,
+      "fim_segundos": 1006.38,
+      "inicio_global_segundos": 1004.32,
+      "fim_global_segundos": 1006.38,
+      "texto": "E aqui, pô, não teve, foi zero"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1006.38,
+      "fim_segundos": 1010.0,
+      "inicio_global_segundos": 1006.38,
+      "fim_global_segundos": 1010.0,
+      "texto": "Era pra ter pelo menos 0,5 aqui de taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1010.0,
+      "fim_segundos": 1011.52,
+      "inicio_global_segundos": 1010.0,
+      "fim_global_segundos": 1011.52,
+      "texto": "Então você começa a identificar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1011.52,
+      "fim_segundos": 1015.42,
+      "inicio_global_segundos": 1011.52,
+      "fim_global_segundos": 1015.42,
+      "texto": "Dessa maneira que, meu, nem sempre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1015.42,
+      "fim_segundos": 1018.14,
+      "inicio_global_segundos": 1015.42,
+      "fim_global_segundos": 1018.14,
+      "texto": "Nem sempre vai começar a rodar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1018.14,
+      "fim_segundos": 1021.9399999999999,
+      "inicio_global_segundos": 1018.14,
+      "fim_global_segundos": 1021.94,
+      "texto": "A não ser que o Google identifique, cara, isso aqui vai superar esse anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1021.94,
+      "fim_segundos": 1026.38,
+      "inicio_global_segundos": 1021.94,
+      "fim_global_segundos": 1026.38,
+      "texto": "Por isso que, em busca do anúncio perfeito, essa é a ideia."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1026.9,
+      "fim_segundos": 1029.7,
+      "inicio_global_segundos": 1026.9,
+      "fim_global_segundos": 1029.7,
+      "texto": "Por exemplo, lá no vídeo no YouTube eu faço muito isso, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1030.26,
+      "fim_segundos": 1032.3400000000001,
+      "inicio_global_segundos": 1030.26,
+      "fim_global_segundos": 1032.34,
+      "texto": "No YouTube nós atingimos muitas pessoas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1033.22,
+      "fim_segundos": 1037.3600000000001,
+      "inicio_global_segundos": 1033.22,
+      "fim_global_segundos": 1037.36,
+      "texto": "E eu subo em média 30, 40 anúncios para encontrar um anúncio perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1037.7,
+      "fim_segundos": 1039.64,
+      "inicio_global_segundos": 1037.7,
+      "fim_global_segundos": 1039.64,
+      "texto": "Então eu subo lá 50 anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1040.1000000000001,
+      "fim_segundos": 1041.3,
+      "inicio_global_segundos": 1040.1,
+      "fim_global_segundos": 1041.3,
+      "texto": "Muita de CPA, R$8."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1041.92,
+      "fim_segundos": 1043.6000000000001,
+      "inicio_global_segundos": 1041.92,
+      "fim_global_segundos": 1043.6,
+      "texto": "Google achou aqui a boa? Vai seguir."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1044.28,
+      "fim_segundos": 1044.6000000000001,
+      "inicio_global_segundos": 1044.28,
+      "fim_global_segundos": 1044.6,
+      "texto": "Segue."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1044.94,
+      "fim_segundos": 1046.2,
+      "inicio_global_segundos": 1044.94,
+      "fim_global_segundos": 1046.2,
+      "texto": "Aí eu fico subindo anúncio, subindo anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1046.28,
+      "fim_segundos": 1049.14,
+      "inicio_global_segundos": 1046.28,
+      "fim_global_segundos": 1049.14,
+      "texto": "Ele roda um pouquinho, roda um pouquinho até encontrar aquele anúncio que supera."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1049.6200000000001,
+      "fim_segundos": 1050.0,
+      "inicio_global_segundos": 1049.62,
+      "fim_global_segundos": 1050.0,
+      "texto": "Esse aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1050.0,
+      "fim_segundos": 1054.9,
+      "inicio_global_segundos": 1050.0,
+      "fim_global_segundos": 1054.9,
+      "texto": "Então a ideia é sempre você melhorar, adicionar novos anúncios, novas extensões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1054.9,
+      "fim_segundos": 1058.04,
+      "inicio_global_segundos": 1054.9,
+      "fim_global_segundos": 1058.04,
+      "texto": "para buscar aquele anúncio que gera um resultado incrível."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1058.62,
+      "fim_segundos": 1059.74,
+      "inicio_global_segundos": 1058.62,
+      "fim_global_segundos": 1059.74,
+      "texto": "É difícil encontrar e superar?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1060.24,
+      "fim_segundos": 1062.7,
+      "inicio_global_segundos": 1060.24,
+      "fim_global_segundos": 1062.7,
+      "texto": "Muitas vezes é, mas a busca tem que ser contínua."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1063.46,
+      "fim_segundos": 1063.8,
+      "inicio_global_segundos": 1063.46,
+      "fim_global_segundos": 1063.8,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a20_otimizacao_extrema_de_extensoes.mp4",
+      "inicio_segundos": 1066.02,
+      "fim_segundos": 1071.52,
+      "inicio_global_segundos": 1066.02,
+      "fim_global_segundos": 1071.52,
+      "texto": "Então, te vejo na próxima aula para continuar essa parte de otimizações no Google Ads."
+    }
+  ]
+}

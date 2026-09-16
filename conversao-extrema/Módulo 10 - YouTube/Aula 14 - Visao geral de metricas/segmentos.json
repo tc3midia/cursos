@@ -1,0 +1,2289 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 10 - YouTube",
+  "aula_numero": 14,
+  "titulo": "Visao geral de metricas",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "sha256": "51d6c83986e4cee367f4616631cce6571930d1a44cf61536d78ff87b97506c74",
+      "duracao_segundos": 984.358367,
+      "origem": "https://drive.google.com/drive/folders/19ngBUitcOkkiYmYdOVW-gYF7AHtjERvx?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T20:13:12.340902+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 25.740000000000002,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 25.74,
+      "texto": "Nessa aula nós vamos falar sobre métricas, uma visão geral, porque é o seguinte, antes de começar a rodar a campanha, eu preciso entender quais métricas eu preciso analisar, porque não é só subir uma campanha de vídeo no YouTube, esperar aí alguns dias para ver o resultado e esperar os leads e as vendas caírem do céu."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 25.74,
+      "fim_segundos": 32.44,
+      "inicio_global_segundos": 25.74,
+      "fim_global_segundos": 32.44,
+      "texto": "Não é assim que funciona. Você cria a campanha da melhor maneira possível, seguindo o passo a passo que eu te mostrei aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 33.0,
+      "fim_segundos": 37.48,
+      "inicio_global_segundos": 33.0,
+      "fim_global_segundos": 37.48,
+      "texto": "E aí depois, no final, você vai rodar a campanha e otimizar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 37.58,
+      "fim_segundos": 42.239999999999995,
+      "inicio_global_segundos": 37.58,
+      "fim_global_segundos": 42.24,
+      "texto": "Mas, Tiago, o que é CPA, CPM? O que eu olho?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 42.56,
+      "fim_segundos": 49.599999999999994,
+      "inicio_global_segundos": 42.56,
+      "fim_global_segundos": 49.6,
+      "texto": "Aí as métricas, quais são as principais métricas que eu devo analisar nas minhas campanhas para, enfim, buscar mais e mais resultados?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 49.980000000000004,
+      "fim_segundos": 53.3,
+      "inicio_global_segundos": 49.98,
+      "fim_global_segundos": 53.3,
+      "texto": "E é sobre isso que nós vamos falar aqui nessa aula."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 53.3,
+      "fim_segundos": 53.92,
+      "inicio_global_segundos": 53.3,
+      "fim_global_segundos": 53.92,
+      "texto": "Vamos lá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 53.92,
+      "fim_segundos": 60.900000000000006,
+      "inicio_global_segundos": 53.92,
+      "fim_global_segundos": 60.9,
+      "texto": "Durante toda a conversão extrema, nós sempre falamos que você deve otimizar sempre, sempre, sempre baseado no CPA"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 60.900000000000006,
+      "fim_segundos": 63.480000000000004,
+      "inicio_global_segundos": 60.9,
+      "fim_global_segundos": 63.48,
+      "texto": "Que é o custo por aquisição"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 63.480000000000004,
+      "fim_segundos": 69.22,
+      "inicio_global_segundos": 63.48,
+      "fim_global_segundos": 69.22,
+      "texto": "Então sim, o que realmente importa é quanto que eu estou pagando para o Google ou para o Facebook"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 69.22,
+      "fim_segundos": 72.46000000000001,
+      "inicio_global_segundos": 69.22,
+      "fim_global_segundos": 72.46,
+      "texto": "Nesse caso é o YouTube aqui na campanha feita no Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 72.46000000000001,
+      "fim_segundos": 76.52000000000001,
+      "inicio_global_segundos": 72.46,
+      "fim_global_segundos": 76.52,
+      "texto": "Para gerar uma conversão, uma venda ou um lead"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 76.52000000000001,
+      "fim_segundos": 81.72,
+      "inicio_global_segundos": 76.52,
+      "fim_global_segundos": 81.72,
+      "texto": "Então a otimização sempre é por CPA, coisa mais importante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 81.72,
+      "fim_segundos": 85.36,
+      "inicio_global_segundos": 81.72,
+      "fim_global_segundos": 85.36,
+      "texto": "A segunda, isso aqui então é custo por aquisição."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 85.76,
+      "fim_segundos": 92.82,
+      "inicio_global_segundos": 85.76,
+      "fim_global_segundos": 92.82,
+      "texto": "A segunda aqui é a parte de conversões, que é o volume das conversões que você trabalha no dia a dia."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 92.98,
+      "fim_segundos": 96.24,
+      "inicio_global_segundos": 92.98,
+      "fim_global_segundos": 96.24,
+      "texto": "Então, essas duas métricas são as principais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 96.42,
+      "fim_segundos": 104.06,
+      "inicio_global_segundos": 96.42,
+      "fim_global_segundos": 104.06,
+      "texto": "Mas Tiago, o CPC, o CTR, a taxa de conversão são métricas importantes, mas são métricas secundárias."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 104.46000000000001,
+      "fim_segundos": 107.5,
+      "inicio_global_segundos": 104.46,
+      "fim_global_segundos": 107.5,
+      "texto": "A primeira métrica que você analisa são essas métricas iniciais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 107.5,
+      "fim_segundos": 113.7,
+      "inicio_global_segundos": 107.5,
+      "fim_global_segundos": 113.7,
+      "texto": "Então vamos lá na minha campanha para analisar um pouco dessas métricas aí nos últimos, por exemplo, 7 dias."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 114.08,
+      "fim_segundos": 121.6,
+      "inicio_global_segundos": 114.08,
+      "fim_global_segundos": 121.6,
+      "texto": "Então vamos supor que nos últimos 7 dias aqui, isso aqui são campanhas reais, eu investi aqui 100 mil reais no Google,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 121.72,
+      "fim_segundos": 126.8,
+      "inicio_global_segundos": 121.72,
+      "fim_global_segundos": 126.8,
+      "texto": "sendo que eu atingi 17 mil conversões em leads pagando 6 reais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 127.4,
+      "fim_segundos": 131.24,
+      "inicio_global_segundos": 127.4,
+      "fim_global_segundos": 131.24,
+      "texto": "E essas aqui são as exatas métricas que eu acompanho no YouTube."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 131.24,
+      "fim_segundos": 137.52,
+      "inicio_global_segundos": 131.24,
+      "fim_global_segundos": 137.52,
+      "texto": "A primeira então aqui são as conversões, que é a parte mais importante, junto com o custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 138.04000000000002,
+      "fim_segundos": 140.52,
+      "inicio_global_segundos": 138.04,
+      "fim_global_segundos": 140.52,
+      "texto": "Qual é a sua meta de custo por conversão, Tiago?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 140.84,
+      "fim_segundos": 148.42000000000002,
+      "inicio_global_segundos": 140.84,
+      "fim_global_segundos": 148.42,
+      "texto": "Nesse caso aqui, até R$ 6,57 para mim é um ótimo CPA em uma escala que eu estou fazendo agora,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 148.5,
+      "fim_segundos": 153.14000000000001,
+      "inicio_global_segundos": 148.5,
+      "fim_global_segundos": 153.14,
+      "texto": "gastando uma média de R$ 10 a R$ 20 mil por dia."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 153.14,
+      "fim_segundos": 161.32,
+      "inicio_global_segundos": 153.14,
+      "fim_global_segundos": 161.32,
+      "texto": "Então aqui nós temos um ótimo retorno, porque eu estou dentro da minha meta com um volume, escalando aí as minhas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 161.54,
+      "fim_segundos": 171.44,
+      "inicio_global_segundos": 161.54,
+      "fim_global_segundos": 171.44,
+      "texto": "Quando você roda suas campanhas no Google, vai aparecer, e é normal, algumas campanhas estarem aqui qualificadas, porém limitadas pelo orçamento."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 171.7,
+      "fim_segundos": 180.38,
+      "inicio_global_segundos": 171.7,
+      "fim_global_segundos": 180.38,
+      "texto": "Isso quer dizer que o Google pode gastar mais, você vai consumir mais a sua verba se você aumentar, mas vá com cuidado, vai crescendo as suas campanhas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 180.38,
+      "fim_segundos": 183.5,
+      "inicio_global_segundos": 180.38,
+      "fim_global_segundos": 183.5,
+      "texto": "cresça suas campanhas conforme o resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 183.5,
+      "fim_segundos": 185.28,
+      "inicio_global_segundos": 183.5,
+      "fim_global_segundos": 185.28,
+      "texto": "nunca vá na empolgação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 185.28,
+      "fim_segundos": 186.66,
+      "inicio_global_segundos": 185.28,
+      "fim_global_segundos": 186.66,
+      "texto": "sempre analisando as métricas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 186.66,
+      "fim_segundos": 188.88,
+      "inicio_global_segundos": 186.66,
+      "fim_global_segundos": 188.88,
+      "texto": "e aí nós temos aqui obviamente o custo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 188.88,
+      "fim_segundos": 190.84,
+      "inicio_global_segundos": 188.88,
+      "fim_global_segundos": 190.84,
+      "texto": "que foi quanto que a campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 190.84,
+      "fim_segundos": 193.18,
+      "inicio_global_segundos": 190.84,
+      "fim_global_segundos": 193.18,
+      "texto": "gerou para mim, quanto que eu investi"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 193.18,
+      "fim_segundos": 194.9,
+      "inicio_global_segundos": 193.18,
+      "fim_global_segundos": 194.9,
+      "texto": "nessa campanha no geral"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 194.9,
+      "fim_segundos": 197.04,
+      "inicio_global_segundos": 194.9,
+      "fim_global_segundos": 197.04,
+      "texto": "então, esse aqui é o investimento no Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 197.04,
+      "fim_segundos": 199.68,
+      "inicio_global_segundos": 197.04,
+      "fim_global_segundos": 199.68,
+      "texto": "essas são as métricas principais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 199.68,
+      "fim_segundos": 201.34,
+      "inicio_global_segundos": 199.68,
+      "fim_global_segundos": 201.34,
+      "texto": "que você deve focar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 201.34,
+      "fim_segundos": 204.0,
+      "inicio_global_segundos": 201.34,
+      "fim_global_segundos": 204.0,
+      "texto": "e aí, nós vamos para a segunda etapa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 204.0,
+      "fim_segundos": 205.57999999999998,
+      "inicio_global_segundos": 204.0,
+      "fim_global_segundos": 205.58,
+      "texto": "que aí nós temos as métricas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 205.57999999999998,
+      "fim_segundos": 206.78,
+      "inicio_global_segundos": 205.58,
+      "fim_global_segundos": 206.78,
+      "texto": "secundárias"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 206.78,
+      "fim_segundos": 209.14,
+      "inicio_global_segundos": 206.78,
+      "fim_global_segundos": 209.14,
+      "texto": "que é o seguinte, quanto que eu estou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 209.14,
+      "fim_segundos": 212.07999999999998,
+      "inicio_global_segundos": 209.14,
+      "fim_global_segundos": 212.08,
+      "texto": "é pagando quantos cliques eu tive na campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 212.07999999999998,
+      "fim_segundos": 214.66,
+      "inicio_global_segundos": 212.08,
+      "fim_global_segundos": 214.66,
+      "texto": "e quanto que eu estou pagando por clique."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 215.17999999999998,
+      "fim_segundos": 216.16,
+      "inicio_global_segundos": 215.18,
+      "fim_global_segundos": 216.16,
+      "texto": "Por que isso é importante?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 216.51999999999998,
+      "fim_segundos": 219.39999999999998,
+      "inicio_global_segundos": 216.52,
+      "fim_global_segundos": 219.4,
+      "texto": "Se o seu CPC for muito alto,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 220.0,
+      "fim_segundos": 223.38,
+      "inicio_global_segundos": 220.0,
+      "fim_global_segundos": 223.38,
+      "texto": "quer dizer que, obviamente, a sua conversão vai ser alta."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 223.79999999999998,
+      "fim_segundos": 229.14,
+      "inicio_global_segundos": 223.8,
+      "fim_global_segundos": 229.14,
+      "texto": "Tiago, eu quero, sei lá, eu quero R$ 5,00 de custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 229.57999999999998,
+      "fim_segundos": 231.66,
+      "inicio_global_segundos": 229.58,
+      "fim_global_segundos": 231.66,
+      "texto": "Só que, na verdade, o seu custo por clique,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 231.66,
+      "fim_segundos": 233.82,
+      "inicio_global_segundos": 231.66,
+      "fim_global_segundos": 233.82,
+      "texto": "por cada pessoa que clica no seu anúncio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 234.14,
+      "fim_segundos": 235.77999999999997,
+      "inicio_global_segundos": 234.14,
+      "fim_global_segundos": 235.78,
+      "texto": "está custando R$ 6,00."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 235.95999999999998,
+      "fim_segundos": 238.66,
+      "inicio_global_segundos": 235.96,
+      "fim_global_segundos": 238.66,
+      "texto": "Então, é impossível você alcançar R$ 5,00 de custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 239.14,
+      "fim_segundos": 246.5,
+      "inicio_global_segundos": 239.14,
+      "fim_global_segundos": 246.5,
+      "texto": "Porque se você tiver uma página muito bem estruturada, uma landing page de alta conversão e focada em lead, por exemplo, que é o meu caso,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 246.72,
+      "fim_segundos": 249.64,
+      "inicio_global_segundos": 246.72,
+      "fim_global_segundos": 249.64,
+      "texto": "você vai ter aí de 30%, 40% de conversão na página."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 250.1,
+      "fim_segundos": 254.7,
+      "inicio_global_segundos": 250.1,
+      "fim_global_segundos": 254.7,
+      "texto": "Então eu sei que, eita, se eu tenho mais ou menos 50% de conversão na minha página,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 254.7,
+      "fim_segundos": 261.15999999999997,
+      "inicio_global_segundos": 254.7,
+      "fim_global_segundos": 261.16,
+      "texto": "eu preciso pagar um custo por clique R$2,00, R$2,50, caso eu queira alcançar no máximo R$6,00."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 261.7,
+      "fim_segundos": 264.38,
+      "inicio_global_segundos": 261.7,
+      "fim_global_segundos": 264.38,
+      "texto": "Então eu já faço esse cálculo aí matemático."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 264.71999999999997,
+      "fim_segundos": 267.56,
+      "inicio_global_segundos": 264.72,
+      "fim_global_segundos": 267.56,
+      "texto": "E Tiago, como é que eu diminuo o meu custo por clique?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 268.03999999999996,
+      "fim_segundos": 268.82,
+      "inicio_global_segundos": 268.04,
+      "fim_global_segundos": 268.82,
+      "texto": "Isso é importante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 269.14,
+      "fim_segundos": 275.15999999999997,
+      "inicio_global_segundos": 269.14,
+      "fim_global_segundos": 275.16,
+      "texto": "Quanto maior o público, maior o alcance, melhor o seu criativo, melhor a sua segmentação."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 275.5,
+      "fim_segundos": 279.47999999999996,
+      "inicio_global_segundos": 275.5,
+      "fim_global_segundos": 279.48,
+      "texto": "Você vai conseguir melhorar também o custo por clique e naturalmente a conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 279.65999999999997,
+      "fim_segundos": 284.68,
+      "inicio_global_segundos": 279.66,
+      "fim_global_segundos": 284.68,
+      "texto": "Geralmente, quanto mais restrito, o clique, obviamente, ele fica mais caro."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 284.8,
+      "fim_segundos": 288.65999999999997,
+      "inicio_global_segundos": 284.8,
+      "fim_global_segundos": 288.66,
+      "texto": "Porém, você precisa de menos cliques para gerar mais conversões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 289.32,
+      "fim_segundos": 296.06,
+      "inicio_global_segundos": 289.32,
+      "fim_global_segundos": 296.06,
+      "texto": "Então, tem uma média, tem algumas campanhas onde o custo por clique é menor, 2,50."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 296.06,
+      "fim_segundos": 299.2,
+      "inicio_global_segundos": 296.06,
+      "fim_global_segundos": 299.2,
+      "texto": "E aí eu estou pagando menos por custo por conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 299.2,
+      "fim_segundos": 302.6,
+      "inicio_global_segundos": 299.2,
+      "fim_global_segundos": 302.6,
+      "texto": "Só que aqui eu estou pagando praticamente o mesmo custo por conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 302.6,
+      "fim_segundos": 306.92,
+      "inicio_global_segundos": 302.6,
+      "fim_global_segundos": 306.92,
+      "texto": "Pagando um pouquinho mais no custo por clique"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 306.92,
+      "fim_segundos": 308.96,
+      "inicio_global_segundos": 306.92,
+      "fim_global_segundos": 308.96,
+      "texto": "Por isso que no final o que vale é isso aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 308.96,
+      "fim_segundos": 313.28,
+      "inicio_global_segundos": 308.96,
+      "fim_global_segundos": 313.28,
+      "texto": "Ah Tiago, eu estou pagando muito caro por custo por clique"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 313.28,
+      "fim_segundos": 315.52,
+      "inicio_global_segundos": 313.28,
+      "fim_global_segundos": 315.52,
+      "texto": "Mas como é que é o custo por conversão?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 315.6,
+      "fim_segundos": 316.1,
+      "inicio_global_segundos": 315.6,
+      "fim_global_segundos": 316.1,
+      "texto": "Está ali na média?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 316.42,
+      "fim_segundos": 317.24,
+      "inicio_global_segundos": 316.42,
+      "fim_global_segundos": 317.24,
+      "texto": "Está, então ótimo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 317.24,
+      "fim_segundos": 319.04,
+      "inicio_global_segundos": 317.24,
+      "fim_global_segundos": 319.04,
+      "texto": "O custo por clique é secundário"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 319.04,
+      "fim_segundos": 323.6,
+      "inicio_global_segundos": 319.04,
+      "fim_global_segundos": 323.6,
+      "texto": "Agora Tiago, eu estou pagando muito caro no custo por conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 323.6,
+      "fim_segundos": 325.86,
+      "inicio_global_segundos": 323.6,
+      "fim_global_segundos": 325.86,
+      "texto": "Eu vou perguntar, cara, quanto é que dá o seu custo por clique?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 326.06,
+      "fim_segundos": 328.48,
+      "inicio_global_segundos": 326.06,
+      "fim_global_segundos": 328.48,
+      "texto": "Aí você olha, caraca, está muito caro."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 328.68,
+      "fim_segundos": 329.72,
+      "inicio_global_segundos": 328.68,
+      "fim_global_segundos": 329.72,
+      "texto": "Opa, então nós temos que resolver."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 330.14,
+      "fim_segundos": 331.52,
+      "inicio_global_segundos": 330.14,
+      "fim_global_segundos": 331.52,
+      "texto": "Talvez ampliar um pouco o público,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 332.02,
+      "fim_segundos": 336.36,
+      "inicio_global_segundos": 332.02,
+      "fim_global_segundos": 336.36,
+      "texto": "talvez melhorar os seus criativos para a pessoa clicar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 336.36,
+      "fim_segundos": 339.2,
+      "inicio_global_segundos": 336.36,
+      "fim_global_segundos": 339.2,
+      "texto": "e ir para o seu site com maior facilidade."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 339.82,
+      "fim_segundos": 343.26,
+      "inicio_global_segundos": 339.82,
+      "fim_global_segundos": 343.26,
+      "texto": "Então nós temos que fazer a pessoa ir para a próxima etapa,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 343.6,
+      "fim_segundos": 346.64,
+      "inicio_global_segundos": 343.6,
+      "fim_global_segundos": 346.64,
+      "texto": "pegar talvez algumas segmentações não tão concorridas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 346.64,
+      "fim_segundos": 349.58,
+      "inicio_global_segundos": 346.64,
+      "fim_global_segundos": 349.58,
+      "texto": "para que você possa diminuir o custo por clique."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 349.58,
+      "fim_segundos": 355.06,
+      "inicio_global_segundos": 349.58,
+      "fim_global_segundos": 355.06,
+      "texto": "Então o clique e o CPC são métricas importantes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 355.06,
+      "fim_segundos": 359.96,
+      "inicio_global_segundos": 355.06,
+      "fim_global_segundos": 359.96,
+      "texto": "que eu gosto, aí é o Tiago, tem gente que gosta de analisar outras métricas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 360.0,
+      "fim_segundos": 362.86,
+      "inicio_global_segundos": 360.0,
+      "fim_global_segundos": 362.86,
+      "texto": "mas eu gosto de analisar os cliques do CPC médio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 362.92,
+      "fim_segundos": 366.26,
+      "inicio_global_segundos": 362.92,
+      "fim_global_segundos": 366.26,
+      "texto": "E lembrando que cada métrica você pode clicar aqui, passar o mouse,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 366.68,
+      "fim_segundos": 371.12,
+      "inicio_global_segundos": 366.68,
+      "fim_global_segundos": 371.12,
+      "texto": "e o próprio Google explica o que cada um significa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 371.76,
+      "fim_segundos": 374.2,
+      "inicio_global_segundos": 371.76,
+      "fim_global_segundos": 374.2,
+      "texto": "Aqui, então nós temos a taxa de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 374.92,
+      "fim_segundos": 379.6,
+      "inicio_global_segundos": 374.92,
+      "fim_global_segundos": 379.6,
+      "texto": "A taxa de conversão mostra a frequência média com que sua interação com o anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 379.6,
+      "fim_segundos": 381.2,
+      "inicio_global_segundos": 379.6,
+      "fim_global_segundos": 381.2,
+      "texto": "resulta em uma conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 381.2,
+      "fim_segundos": 384.96,
+      "inicio_global_segundos": 381.2,
+      "fim_global_segundos": 384.96,
+      "texto": "a pessoa assistir ou clicar em alguma parte do vídeo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 385.06,
+      "fim_segundos": 389.44,
+      "inicio_global_segundos": 385.06,
+      "fim_global_segundos": 389.44,
+      "texto": "Então, nesse caso, eu tenho aqui 0,96% de uma taxa de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 389.94,
+      "fim_segundos": 394.92,
+      "inicio_global_segundos": 389.94,
+      "fim_global_segundos": 394.92,
+      "texto": "Ela está bem abaixo da média de, por exemplo, 1,93%, 1,32%,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 394.92,
+      "fim_segundos": 398.34,
+      "inicio_global_segundos": 394.92,
+      "fim_global_segundos": 398.34,
+      "texto": "que a minha média é 1,24%."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 398.34,
+      "fim_segundos": 403.94,
+      "inicio_global_segundos": 398.34,
+      "fim_global_segundos": 403.94,
+      "texto": "Tudo que está abaixo disso, talvez, é um ponto de atenção que eu preciso melhorar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 403.98,
+      "fim_segundos": 407.98,
+      "inicio_global_segundos": 403.98,
+      "fim_global_segundos": 407.98,
+      "texto": "Mas, aqui, a minha taxa de conversão está abaixo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 408.65999999999997,
+      "fim_segundos": 409.68,
+      "inicio_global_segundos": 408.66,
+      "fim_global_segundos": 409.68,
+      "texto": "Só que o que vale é o quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 410.18,
+      "fim_segundos": 411.09999999999997,
+      "inicio_global_segundos": 410.18,
+      "fim_global_segundos": 411.1,
+      "texto": "O custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 411.2,
+      "fim_segundos": 416.34,
+      "inicio_global_segundos": 411.2,
+      "fim_global_segundos": 416.34,
+      "texto": "E essa campanha está com custo por conversão boa na escala dela."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 416.64,
+      "fim_segundos": 422.08,
+      "inicio_global_segundos": 416.64,
+      "fim_global_segundos": 422.08,
+      "texto": "Por isso que sempre eu foco nas métricas primárias, nas principais, para depois nas secundárias,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 422.15999999999997,
+      "fim_segundos": 427.91999999999996,
+      "inicio_global_segundos": 422.16,
+      "fim_global_segundos": 427.92,
+      "texto": "porque senão pode enganar aí na hora de você gerenciar suas campanhas no Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 428.28,
+      "fim_segundos": 434.84,
+      "inicio_global_segundos": 428.28,
+      "fim_global_segundos": 434.84,
+      "texto": "Então, taxa de conversão de vídeo é muito boa, para você entender aqueles que geram mais resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 434.84,
+      "fim_segundos": 437.73999999999995,
+      "inicio_global_segundos": 434.84,
+      "fim_global_segundos": 437.74,
+      "texto": "O CPM médio, deixa eu seguir por último, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 437.94,
+      "fim_segundos": 444.5,
+      "inicio_global_segundos": 437.94,
+      "fim_global_segundos": 444.5,
+      "texto": "O CPM médio é quanto que está custando para você aparecer no YouTube"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 444.5,
+      "fim_segundos": 447.58,
+      "inicio_global_segundos": 444.5,
+      "fim_global_segundos": 447.58,
+      "texto": "ou também em sites e blogs parceiros, as suas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 448.09999999999997,
+      "fim_segundos": 450.47999999999996,
+      "inicio_global_segundos": 448.1,
+      "fim_global_segundos": 450.48,
+      "texto": "O CPM médio, ele revela se está muito caro ou não."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 450.56,
+      "fim_segundos": 456.23999999999995,
+      "inicio_global_segundos": 450.56,
+      "fim_global_segundos": 456.24,
+      "texto": "Porque, por exemplo, nesse caso, para esse público está me custando R$25 eu aparecer."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 456.88,
+      "fim_segundos": 460.0,
+      "inicio_global_segundos": 456.88,
+      "fim_global_segundos": 460.0,
+      "texto": "E já para esse, está custando R$55."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 460.79999999999995,
+      "fim_segundos": 462.15999999999997,
+      "inicio_global_segundos": 460.8,
+      "fim_global_segundos": 462.16,
+      "texto": "Quanto menos, melhor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 462.16,
+      "fim_segundos": 467.66,
+      "inicio_global_segundos": 462.16,
+      "fim_global_segundos": 467.66,
+      "texto": "Porque eu estou pagando R$25,00 para aparecer mil vezes para esse público,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 467.74,
+      "fim_segundos": 470.26000000000005,
+      "inicio_global_segundos": 467.74,
+      "fim_global_segundos": 470.26,
+      "texto": "enquanto o de baixo eu estou pagando R$55,00."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 470.64000000000004,
+      "fim_segundos": 472.66,
+      "inicio_global_segundos": 470.64,
+      "fim_global_segundos": 472.66,
+      "texto": "Por isso que é muito caro aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 472.84000000000003,
+      "fim_segundos": 478.18,
+      "inicio_global_segundos": 472.84,
+      "fim_global_segundos": 478.18,
+      "texto": "Então, CPM caro resulta em custo por clique caro,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 478.46000000000004,
+      "fim_segundos": 481.72,
+      "inicio_global_segundos": 478.46,
+      "fim_global_segundos": 481.72,
+      "texto": "que resulta em custo por conversão mais caro."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 483.36,
+      "fim_segundos": 488.94000000000005,
+      "inicio_global_segundos": 483.36,
+      "fim_global_segundos": 488.94,
+      "texto": "Agora, CPM mais barato resulta em CPC mais barato,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 488.94000000000005,
+      "fim_segundos": 491.34000000000003,
+      "inicio_global_segundos": 488.94,
+      "fim_global_segundos": 491.34,
+      "texto": "que vai resultar em um lead mais barato."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 492.16,
+      "fim_segundos": 497.32000000000005,
+      "inicio_global_segundos": 492.16,
+      "fim_global_segundos": 497.32,
+      "texto": "Então o CPM revela a disputa por aquele público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 497.32000000000005,
+      "fim_segundos": 500.36,
+      "inicio_global_segundos": 497.32,
+      "fim_global_segundos": 500.36,
+      "texto": "Se tem mais pessoas disputando, o CPM vai ser mais caro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 500.36,
+      "fim_segundos": 502.84000000000003,
+      "inicio_global_segundos": 500.36,
+      "fim_global_segundos": 502.84,
+      "texto": "Se tem menos, vai ser mais barato"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 502.84000000000003,
+      "fim_segundos": 506.5,
+      "inicio_global_segundos": 502.84,
+      "fim_global_segundos": 506.5,
+      "texto": "Se o seu CPM estiver muito alto, nesse caso o meu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 506.5,
+      "fim_segundos": 511.04,
+      "inicio_global_segundos": 506.5,
+      "fim_global_segundos": 511.04,
+      "texto": "Aqui, que eu considero bom, é em torno de 25 a 35 reais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 511.04,
+      "fim_segundos": 514.86,
+      "inicio_global_segundos": 511.04,
+      "fim_global_segundos": 514.86,
+      "texto": "Mais do que isso é um pouco caro e menos que isso é muito barato"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 514.86,
+      "fim_segundos": 519.84,
+      "inicio_global_segundos": 514.86,
+      "fim_global_segundos": 519.84,
+      "texto": "Então você precisa rodar a sua campanha em alguns dias"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 519.84,
+      "fim_segundos": 521.7,
+      "inicio_global_segundos": 519.84,
+      "fim_global_segundos": 521.7,
+      "texto": "para ver a média de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 521.7800000000001,
+      "fim_segundos": 522.44,
+      "inicio_global_segundos": 521.78,
+      "fim_global_segundos": 522.44,
+      "texto": "Olha a conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 522.96,
+      "fim_segundos": 523.5600000000001,
+      "inicio_global_segundos": 522.96,
+      "fim_global_segundos": 523.56,
+      "texto": "Está convertendo bem?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 523.74,
+      "fim_segundos": 524.12,
+      "inicio_global_segundos": 523.74,
+      "fim_global_segundos": 524.12,
+      "texto": "Ótimo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 524.5600000000001,
+      "fim_segundos": 525.84,
+      "inicio_global_segundos": 524.56,
+      "fim_global_segundos": 525.84,
+      "texto": "Quanto que é o CPM?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 527.02,
+      "fim_segundos": 528.32,
+      "inicio_global_segundos": 527.02,
+      "fim_global_segundos": 528.32,
+      "texto": "E a conversão está continuando a boa?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 528.6,
+      "fim_segundos": 531.76,
+      "inicio_global_segundos": 528.6,
+      "fim_global_segundos": 531.76,
+      "texto": "Ah, Tiago, eu descobri que o meu CPM bom aqui é R$30, R$25."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 532.1800000000001,
+      "fim_segundos": 533.02,
+      "inicio_global_segundos": 532.18,
+      "fim_global_segundos": 533.02,
+      "texto": "Eu tenho resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 533.9,
+      "fim_segundos": 535.72,
+      "inicio_global_segundos": 533.9,
+      "fim_global_segundos": 535.72,
+      "texto": "Porque acontece que, em alguns casos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 536.2,
+      "fim_segundos": 536.94,
+      "inicio_global_segundos": 536.2,
+      "fim_global_segundos": 536.94,
+      "texto": "depois de um ano,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 538.14,
+      "fim_segundos": 539.5400000000001,
+      "inicio_global_segundos": 538.14,
+      "fim_global_segundos": 539.54,
+      "texto": "a campanha para de converter"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 539.5400000000001,
+      "fim_segundos": 542.08,
+      "inicio_global_segundos": 539.54,
+      "fim_global_segundos": 542.08,
+      "texto": "ou fica muito caro o custo por conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 542.74,
+      "fim_segundos": 543.48,
+      "inicio_global_segundos": 542.74,
+      "fim_global_segundos": 543.48,
+      "texto": "Aí chega e fala para mim assim,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 543.48,
+      "fim_segundos": 546.12,
+      "inicio_global_segundos": 543.48,
+      "fim_global_segundos": 546.12,
+      "texto": "Tiago, está caro anunciar no Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 546.38,
+      "fim_segundos": 547.2800000000001,
+      "inicio_global_segundos": 546.38,
+      "fim_global_segundos": 547.28,
+      "texto": "Mas, na verdade,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 547.28,
+      "fim_segundos": 550.22,
+      "inicio_global_segundos": 547.28,
+      "fim_global_segundos": 550.22,
+      "texto": "Eu olho para o seu CPM e está o mesmo valor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 550.22,
+      "fim_segundos": 552.14,
+      "inicio_global_segundos": 550.22,
+      "fim_global_segundos": 552.14,
+      "texto": "Aí não é a culpa do Google não"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 552.14,
+      "fim_segundos": 554.88,
+      "inicio_global_segundos": 552.14,
+      "fim_global_segundos": 554.88,
+      "texto": "Você está pagando o mesmo valor para aparecer mil vezes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 554.88,
+      "fim_segundos": 556.88,
+      "inicio_global_segundos": 554.88,
+      "fim_global_segundos": 556.88,
+      "texto": "Aí o problema é que o seu anúncio está ruim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 556.88,
+      "fim_segundos": 558.64,
+      "inicio_global_segundos": 556.88,
+      "fim_global_segundos": 558.64,
+      "texto": "Sua landing page não está tão boa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 558.64,
+      "fim_segundos": 561.52,
+      "inicio_global_segundos": 558.64,
+      "fim_global_segundos": 561.52,
+      "texto": "E os seus concorrentes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 561.52,
+      "fim_segundos": 563.48,
+      "inicio_global_segundos": 561.52,
+      "fim_global_segundos": 563.48,
+      "texto": "Ou pessoas que estão disputando aquele mesmo público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 563.48,
+      "fim_segundos": 565.3199999999999,
+      "inicio_global_segundos": 563.48,
+      "fim_global_segundos": 565.32,
+      "texto": "Estão pegando o clique"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 565.3199999999999,
+      "fim_segundos": 567.24,
+      "inicio_global_segundos": 565.32,
+      "fim_global_segundos": 567.24,
+      "texto": "Chamando mais atenção que você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 567.24,
+      "fim_segundos": 570.28,
+      "inicio_global_segundos": 567.24,
+      "fim_global_segundos": 570.28,
+      "texto": "Por isso que você está pagando o mesmo valor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 570.28,
+      "fim_segundos": 571.52,
+      "inicio_global_segundos": 570.28,
+      "fim_global_segundos": 571.52,
+      "texto": "Para mil pessoas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 571.52,
+      "fim_segundos": 573.0,
+      "inicio_global_segundos": 571.52,
+      "fim_global_segundos": 573.0,
+      "texto": "Mas não tem cliques"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 573.0,
+      "fim_segundos": 574.6,
+      "inicio_global_segundos": 573.0,
+      "fim_global_segundos": 574.6,
+      "texto": "Não tem conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 574.6,
+      "fim_segundos": 576.9,
+      "inicio_global_segundos": 574.6,
+      "fim_global_segundos": 576.9,
+      "texto": "Não tem nenhuma ação ou interação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 576.9,
+      "fim_segundos": 601.8199999999999,
+      "inicio_global_segundos": 576.9,
+      "fim_global_segundos": 601.82,
+      "texto": "E por último, nós temos a taxa de conversão da sua landing page, que eu botei aqui de vídeo, e essa métrica não existe, porque é o seguinte, se você clicar aqui em colunas, em modificar colunas, você pode incluir várias colunas que são importantes para você, tem várias métricas que você pode acompanhar aqui nas suas campanhas de vídeo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 601.82,
+      "fim_segundos": 609.6400000000001,
+      "inicio_global_segundos": 601.82,
+      "fim_global_segundos": 609.64,
+      "texto": "E essa métrica de taxa de conversão, que eu chamei de vídeo, que é de vídeo em relação a quem entra no meu site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 610.0,
+      "fim_segundos": 617.32,
+      "inicio_global_segundos": 610.0,
+      "fim_global_segundos": 617.32,
+      "texto": "na verdade é quem entra no meu site dividido pelas conversões, conversões dividida para quem entra no meu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 617.9000000000001,
+      "fim_segundos": 626.0200000000001,
+      "inicio_global_segundos": 617.9,
+      "fim_global_segundos": 626.02,
+      "texto": "Eu criei essa métrica, porque você pode vir aqui em colunas personalizadas e criar uma métrica,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 626.02,
+      "fim_segundos": 632.68,
+      "inicio_global_segundos": 626.02,
+      "fim_global_segundos": 632.68,
+      "texto": "coluna personalizada e construir e criar aqui uma métrica sua que o Google não tem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 632.68,
+      "fim_segundos": 634.48,
+      "inicio_global_segundos": 632.68,
+      "fim_global_segundos": 634.48,
+      "texto": "e que é importante para você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 634.96,
+      "fim_segundos": 642.0799999999999,
+      "inicio_global_segundos": 634.96,
+      "fim_global_segundos": 642.08,
+      "texto": "E essa métrica revela para mim o seguinte, quantos cliques eu preciso para gerar uma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 642.0799999999999,
+      "fim_segundos": 642.84,
+      "inicio_global_segundos": 642.08,
+      "fim_global_segundos": 642.84,
+      "texto": "conversão?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 643.6,
+      "fim_segundos": 649.9399999999999,
+      "inicio_global_segundos": 643.6,
+      "fim_global_segundos": 649.94,
+      "texto": "Então a pessoa entra no meu site, se a cada três pessoas, a cada três cliques eu tenho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 649.9399999999999,
+      "fim_segundos": 652.74,
+      "inicio_global_segundos": 649.94,
+      "fim_global_segundos": 652.74,
+      "texto": "uma conversão, seria uma conversão de 33%."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 652.74,
+      "fim_segundos": 659.38,
+      "inicio_global_segundos": 652.74,
+      "fim_global_segundos": 659.38,
+      "texto": "E o meu desafio era criar uma landing page tão boa, tão rápida e de alta conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 659.38,
+      "fim_segundos": 662.96,
+      "inicio_global_segundos": 659.38,
+      "fim_global_segundos": 662.96,
+      "texto": "Que eu pudesse ter acima de 50% de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 662.96,
+      "fim_segundos": 668.5,
+      "inicio_global_segundos": 662.96,
+      "fim_global_segundos": 668.5,
+      "texto": "Ou seja, a cada dois cliques, um converte, um vira lead"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 668.5,
+      "fim_segundos": 673.02,
+      "inicio_global_segundos": 668.5,
+      "fim_global_segundos": 673.02,
+      "texto": "Aí seria o sonho, porque ia reduzir demais o meu custo por conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 673.02,
+      "fim_segundos": 676.5,
+      "inicio_global_segundos": 673.02,
+      "fim_global_segundos": 676.5,
+      "texto": "Então eu mexo na promessa, faço o teste a ver na minha página"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 676.5,
+      "fim_segundos": 678.88,
+      "inicio_global_segundos": 676.5,
+      "fim_global_segundos": 678.88,
+      "texto": "mexa o cara o que for"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 678.88,
+      "fim_segundos": 680.5,
+      "inicio_global_segundos": 678.88,
+      "fim_global_segundos": 680.5,
+      "texto": "para que a minha landing page"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 680.5,
+      "fim_segundos": 682.82,
+      "inicio_global_segundos": 680.5,
+      "fim_global_segundos": 682.82,
+      "texto": "de fato se torne uma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 682.82,
+      "fim_segundos": 684.74,
+      "inicio_global_segundos": 682.82,
+      "fim_global_segundos": 684.74,
+      "texto": "landing page de alta"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 684.74,
+      "fim_segundos": 686.5,
+      "inicio_global_segundos": 684.74,
+      "fim_global_segundos": 686.5,
+      "texto": "conversão, e aí eu vim aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 686.5,
+      "fim_segundos": 688.32,
+      "inicio_global_segundos": 686.5,
+      "fim_global_segundos": 688.32,
+      "texto": "e eu alterei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 688.32,
+      "fim_segundos": 690.84,
+      "inicio_global_segundos": 688.32,
+      "fim_global_segundos": 690.84,
+      "texto": "que eu chamei de"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 690.84,
+      "fim_segundos": 692.48,
+      "inicio_global_segundos": 690.84,
+      "fim_global_segundos": 692.48,
+      "texto": "taxa de conversão de vídeo, que eu até posso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 692.48,
+      "fim_segundos": 694.7,
+      "inicio_global_segundos": 692.48,
+      "fim_global_segundos": 694.7,
+      "texto": "tirar aqui, taxa de conversão de landing"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 694.7,
+      "fim_segundos": 695.24,
+      "inicio_global_segundos": 694.7,
+      "fim_global_segundos": 695.24,
+      "texto": "page"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 695.24,
+      "fim_segundos": 698.24,
+      "inicio_global_segundos": 695.24,
+      "fim_global_segundos": 698.24,
+      "texto": "e aí eu peguei as conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 698.24,
+      "fim_segundos": 700.28,
+      "inicio_global_segundos": 698.24,
+      "fim_global_segundos": 700.28,
+      "texto": "você pode vir aqui em métricas e atualizar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 700.28,
+      "fim_segundos": 702.36,
+      "inicio_global_segundos": 700.28,
+      "fim_global_segundos": 702.36,
+      "texto": "dividida por cliques"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 702.36,
+      "fim_segundos": 704.52,
+      "inicio_global_segundos": 702.36,
+      "fim_global_segundos": 704.52,
+      "texto": "e aí você coloca o dado, se é percentual"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 704.52,
+      "fim_segundos": 706.24,
+      "inicio_global_segundos": 704.52,
+      "fim_global_segundos": 706.24,
+      "texto": "se é número, valor numérico"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 706.24,
+      "fim_segundos": 707.36,
+      "inicio_global_segundos": 706.24,
+      "fim_global_segundos": 707.36,
+      "texto": "Coloca em salvar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 707.36,
+      "fim_segundos": 711.32,
+      "inicio_global_segundos": 707.36,
+      "fim_global_segundos": 711.32,
+      "texto": "E depois"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 711.32,
+      "fim_segundos": 715.12,
+      "inicio_global_segundos": 711.32,
+      "fim_global_segundos": 715.12,
+      "texto": "É só clicar em aplicar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 715.12,
+      "fim_segundos": 716.36,
+      "inicio_global_segundos": 715.12,
+      "fim_global_segundos": 716.36,
+      "texto": "E fechou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 716.36,
+      "fim_segundos": 718.52,
+      "inicio_global_segundos": 716.36,
+      "fim_global_segundos": 718.52,
+      "texto": "Óbvio que eu mudei e já mudou aqui ó"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 718.52,
+      "fim_segundos": 720.5600000000001,
+      "inicio_global_segundos": 718.52,
+      "fim_global_segundos": 720.56,
+      "texto": "Taxa de conversão, landing page"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 720.5600000000001,
+      "fim_segundos": 725.3,
+      "inicio_global_segundos": 720.56,
+      "fim_global_segundos": 725.3,
+      "texto": "E hoje a minha média aqui tá 46,97%"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 725.3,
+      "fim_segundos": 730.1800000000001,
+      "inicio_global_segundos": 725.3,
+      "fim_global_segundos": 730.18,
+      "texto": "Obviamente que em algumas páginas, em alguns públicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 730.1800000000001,
+      "fim_segundos": 733.46,
+      "inicio_global_segundos": 730.18,
+      "fim_global_segundos": 733.46,
+      "texto": "E geralmente, olha que interessante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 733.46,
+      "fim_segundos": 737.02,
+      "inicio_global_segundos": 733.46,
+      "fim_global_segundos": 737.02,
+      "texto": "Lembra que eu falei que o seu público P1"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 737.02,
+      "fim_segundos": 740.26,
+      "inicio_global_segundos": 737.02,
+      "fim_global_segundos": 740.26,
+      "texto": "Ele é mais quente, mais qualificado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 740.26,
+      "fim_segundos": 743.2800000000001,
+      "inicio_global_segundos": 740.26,
+      "fim_global_segundos": 743.28,
+      "texto": "E não só na parte de se tornar um lead"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 743.2800000000001,
+      "fim_segundos": 744.9000000000001,
+      "inicio_global_segundos": 743.28,
+      "fim_global_segundos": 744.9,
+      "texto": "Fazer uma conversão mais básica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 744.9000000000001,
+      "fim_segundos": 747.2,
+      "inicio_global_segundos": 744.9,
+      "fim_global_segundos": 747.2,
+      "texto": "Mas ele é mais comprador também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 747.2,
+      "fim_segundos": 749.4200000000001,
+      "inicio_global_segundos": 747.2,
+      "fim_global_segundos": 749.42,
+      "texto": "Porque ele já demonstrou o interesse que te conhece"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 749.4200000000001,
+      "fim_segundos": 753.08,
+      "inicio_global_segundos": 749.42,
+      "fim_global_segundos": 753.08,
+      "texto": "As campanhas que tem a maior taxa dos últimos 7 dias"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 753.08,
+      "fim_segundos": 756.58,
+      "inicio_global_segundos": 753.08,
+      "fim_global_segundos": 756.58,
+      "texto": "Que tem a maior taxa de conversão da minha landing page é"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 756.58,
+      "fim_segundos": 760.26,
+      "inicio_global_segundos": 756.58,
+      "fim_global_segundos": 760.26,
+      "texto": "P1, P1, P1, P1, P1"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 760.26,
+      "fim_segundos": 763.54,
+      "inicio_global_segundos": 760.26,
+      "fim_global_segundos": 763.54,
+      "texto": "Passando aqui, P1"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 763.54,
+      "fim_segundos": 766.74,
+      "inicio_global_segundos": 763.54,
+      "fim_global_segundos": 766.74,
+      "texto": "Então nós temos 1, 2, 3, 4, 5, 6, 7, 8"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 766.74,
+      "fim_segundos": 769.14,
+      "inicio_global_segundos": 766.74,
+      "fim_global_segundos": 769.14,
+      "texto": "9, 10"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 769.14,
+      "fim_segundos": 772.3199999999999,
+      "inicio_global_segundos": 769.14,
+      "fim_global_segundos": 772.32,
+      "texto": "Ou seja, o meu top 5"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 772.3199999999999,
+      "fim_segundos": 775.02,
+      "inicio_global_segundos": 772.32,
+      "fim_global_segundos": 775.02,
+      "texto": "De conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 775.02,
+      "fim_segundos": 778.0,
+      "inicio_global_segundos": 775.02,
+      "fim_global_segundos": 778.0,
+      "texto": "Apenas de conversão, é claro que tem alguns que não gastaram um tanto aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 778.0,
+      "fim_segundos": 780.28,
+      "inicio_global_segundos": 778.0,
+      "fim_global_segundos": 780.28,
+      "texto": "Mas de conversão é P1"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 780.28,
+      "fim_segundos": 783.62,
+      "inicio_global_segundos": 780.28,
+      "fim_global_segundos": 783.62,
+      "texto": "E dos 10, 70%"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 783.62,
+      "fim_segundos": 786.3199999999999,
+      "inicio_global_segundos": 783.62,
+      "fim_global_segundos": 786.32,
+      "texto": "Tiveram a maior taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 786.3199999999999,
+      "fim_segundos": 788.4,
+      "inicio_global_segundos": 786.32,
+      "fim_global_segundos": 788.4,
+      "texto": "É do público P1"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 788.4,
+      "fim_segundos": 796.8,
+      "inicio_global_segundos": 788.4,
+      "fim_global_segundos": 796.8,
+      "texto": "O público P1 vem, no meu caso, de pessoas que entram no meu site, pessoas que consomem meus vídeos, meus conteúdos no YouTube."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 797.3,
+      "fim_segundos": 803.48,
+      "inicio_global_segundos": 797.3,
+      "fim_global_segundos": 803.48,
+      "texto": "E aqui nós temos, então, até um CPM mais caro no meu público P1, tá vendo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 803.98,
+      "fim_segundos": 812.22,
+      "inicio_global_segundos": 803.98,
+      "fim_global_segundos": 812.22,
+      "texto": "Por quê? Porque é um público mais restrito e até, muitas vezes, um CPC mais caro que o normal."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 812.22,
+      "fim_segundos": 817.4399999999999,
+      "inicio_global_segundos": 812.22,
+      "fim_global_segundos": 817.44,
+      "texto": "Olha só, R$3,30, R$3,50, até R$5,25."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 818.4,
+      "fim_segundos": 825.62,
+      "inicio_global_segundos": 818.4,
+      "fim_global_segundos": 825.62,
+      "texto": "E mesmo pagando mais caro por esse clique, ele é mais qualificado, ele compra mais o meu produto."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 825.74,
+      "fim_segundos": 832.72,
+      "inicio_global_segundos": 825.74,
+      "fim_global_segundos": 832.72,
+      "texto": "Ou seja, uma conversão de lead de P1, ele vale, vamos supor, 30 reais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 832.9399999999999,
+      "fim_segundos": 837.8,
+      "inicio_global_segundos": 832.94,
+      "fim_global_segundos": 837.8,
+      "texto": "Enquanto uma conversão de P2, no meu caso, vale 10 reais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 838.16,
+      "fim_segundos": 843.0799999999999,
+      "inicio_global_segundos": 838.16,
+      "fim_global_segundos": 843.08,
+      "texto": "Então eu estou disposto a pagar até mais caro por um lead de P1 do que P2."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 843.08,
+      "fim_segundos": 872.3000000000001,
+      "inicio_global_segundos": 843.08,
+      "fim_global_segundos": 872.3,
+      "texto": "Só que olha só, a taxa de conversão média é de 46%, sendo que as primeiras aqui, 60, 66%, ou seja, a cada 3 pessoas que entram no meu site, 2 se cadastram, só que essa pessoa assistiu algum vídeo meu, algum vídeo raiz, que é um vídeo longo, um vídeo de uma aula, de uma live e assim por diante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 872.3,
+      "fim_segundos": 874.9,
+      "inicio_global_segundos": 872.3,
+      "fim_global_segundos": 874.9,
+      "texto": "Então, essas são as métricas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 874.9399999999999,
+      "fim_segundos": 881.52,
+      "inicio_global_segundos": 874.94,
+      "fim_global_segundos": 881.52,
+      "texto": "Tiago, eu quero analisar agora quais são os horários que mais converte,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 881.56,
+      "fim_segundos": 882.4599999999999,
+      "inicio_global_segundos": 881.56,
+      "fim_global_segundos": 882.46,
+      "texto": "ou os dispositivos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 882.54,
+      "fim_segundos": 885.26,
+      "inicio_global_segundos": 882.54,
+      "fim_global_segundos": 885.26,
+      "texto": "Você pode vir aqui, vamos colocar por custo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 885.9399999999999,
+      "fim_segundos": 891.0799999999999,
+      "inicio_global_segundos": 885.94,
+      "fim_global_segundos": 891.08,
+      "texto": "você pode vir aqui em dispositivos e colocar por conversão, por hora,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 891.54,
+      "fim_segundos": 895.4399999999999,
+      "inicio_global_segundos": 891.54,
+      "fim_global_segundos": 895.44,
+      "texto": "para descobrir quais são, colocar até no gráfico custo por conversão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 895.54,
+      "fim_segundos": 900.16,
+      "inicio_global_segundos": 895.54,
+      "fim_global_segundos": 900.16,
+      "texto": "aparece aqui a diferença de conversão de cada mídia e de cada campanha."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 900.16,
+      "fim_segundos": 908.52,
+      "inicio_global_segundos": 900.16,
+      "fim_global_segundos": 908.52,
+      "texto": "Se você olhar ali, ontem o computador foi quase o mesmo preço do smartphone e o tablet foi mais barato, mas tem menos escala."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 909.0799999999999,
+      "fim_segundos": 915.14,
+      "inicio_global_segundos": 909.08,
+      "fim_global_segundos": 915.14,
+      "texto": "Então você consegue analisar também as métricas por segmentação, por hora e assim por diante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 916.36,
+      "fim_segundos": 923.04,
+      "inicio_global_segundos": 916.36,
+      "fim_global_segundos": 923.04,
+      "texto": "Então essa foi uma visão geral das métricas de uma campanha de conversão de vídeo no Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 923.04,
+      "fim_segundos": 924.9,
+      "inicio_global_segundos": 923.04,
+      "fim_global_segundos": 924.9,
+      "texto": "O foco sempre é"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 924.9,
+      "fim_segundos": 927.06,
+      "inicio_global_segundos": 924.9,
+      "fim_global_segundos": 927.06,
+      "texto": "Custo por conversão, o CPA"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 927.06,
+      "fim_segundos": 928.4399999999999,
+      "inicio_global_segundos": 927.06,
+      "fim_global_segundos": 928.44,
+      "texto": "E também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 928.4399999999999,
+      "fim_segundos": 930.42,
+      "inicio_global_segundos": 928.44,
+      "fim_global_segundos": 930.42,
+      "texto": "Volume e o custo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 930.42,
+      "fim_segundos": 932.3,
+      "inicio_global_segundos": 930.42,
+      "fim_global_segundos": 932.3,
+      "texto": "São as três métricas que você tem que estar de olho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 932.3,
+      "fim_segundos": 934.62,
+      "inicio_global_segundos": 932.3,
+      "fim_global_segundos": 934.62,
+      "texto": "Tiago, eu não estou conseguindo resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 934.62,
+      "fim_segundos": 935.6999999999999,
+      "inicio_global_segundos": 934.62,
+      "fim_global_segundos": 935.7,
+      "texto": "Analise o CPM"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 935.6999999999999,
+      "fim_segundos": 937.14,
+      "inicio_global_segundos": 935.7,
+      "fim_global_segundos": 937.14,
+      "texto": "Ver se ele está na média"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 937.14,
+      "fim_segundos": 938.76,
+      "inicio_global_segundos": 937.14,
+      "fim_global_segundos": 938.76,
+      "texto": "Se você parou de gerar resultado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 938.76,
+      "fim_segundos": 940.42,
+      "inicio_global_segundos": 938.76,
+      "fim_global_segundos": 940.42,
+      "texto": "Será que você está pagando mais para aparecer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 942.24,
+      "fim_segundos": 944.04,
+      "inicio_global_segundos": 942.24,
+      "fim_global_segundos": 944.04,
+      "texto": "Analise também a taxa de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 944.04,
+      "fim_segundos": 945.68,
+      "inicio_global_segundos": 944.04,
+      "fim_global_segundos": 945.68,
+      "texto": "Será que a minha landing page está ruim?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 946.02,
+      "fim_segundos": 948.0,
+      "inicio_global_segundos": 946.02,
+      "fim_global_segundos": 948.0,
+      "texto": "Ou seja, 10% de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 948.0,
+      "fim_segundos": 949.4399999999999,
+      "inicio_global_segundos": 948.0,
+      "fim_global_segundos": 949.44,
+      "texto": "É ruim demais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 949.4399999999999,
+      "fim_segundos": 952.0799999999999,
+      "inicio_global_segundos": 949.44,
+      "fim_global_segundos": 952.08,
+      "texto": "Você não vai conseguir o resultado com uma landing page ruim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 952.08,
+      "fim_segundos": 962.9200000000001,
+      "inicio_global_segundos": 952.08,
+      "fim_global_segundos": 962.92,
+      "texto": "Para gerar resultado, todas as ferramentas, todo o processo precisa estar muito bem alinhado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 963.26,
+      "fim_segundos": 969.08,
+      "inicio_global_segundos": 963.26,
+      "fim_global_segundos": 969.08,
+      "texto": "Não apenas o criativo, não apenas a segmentação, não apenas tudo precisa estar 100% alinhado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 970.84,
+      "fim_segundos": 973.84,
+      "inicio_global_segundos": 970.84,
+      "fim_global_segundos": 973.84,
+      "texto": "E na próxima aula, nós vamos iniciar então a parte de segmentação."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 974.1600000000001,
+      "fim_segundos": 980.08,
+      "inicio_global_segundos": 974.16,
+      "fim_global_segundos": 980.08,
+      "texto": "Como melhorar as minhas campanhas de vídeo de conversão aí no Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 980.08,
+      "fim_segundos": 981.76,
+      "inicio_global_segundos": 980.08,
+      "fim_global_segundos": 981.76,
+      "texto": "Te vejo na próxima aula."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a14_visao_geral_de_metricas.mp4",
+      "inicio_segundos": 982.08,
+      "fim_segundos": 1012.0600000000001,
+      "inicio_global_segundos": 982.08,
+      "fim_global_segundos": 1012.06,
+      "texto": "Tchau, tchau."
+    }
+  ]
+}

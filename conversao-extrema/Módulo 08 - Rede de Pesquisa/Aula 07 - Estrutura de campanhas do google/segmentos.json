@@ -1,0 +1,2505 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 08 - Rede de Pesquisa",
+  "aula_numero": 7,
+  "titulo": "Estrutura de campanhas do google",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "sha256": "85a28ee762741cafa9cdefc2f33565051b5c62c83b3880f56627b4bc19c78504",
+      "duracao_segundos": 807.014533,
+      "origem": "https://drive.google.com/drive/folders/1xHVtKEmIO19S9A8ydPWF7Q3wf4P-ppz4?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T18:55:41.749802+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 10.3,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 10.3,
+      "texto": "Nessa aula nós vamos falar sobre estrutura de campanhas no Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 10.38,
+      "fim_segundos": 12.42,
+      "inicio_global_segundos": 10.38,
+      "fim_global_segundos": 12.42,
+      "texto": "Como é que funciona essa parte de estrutura?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 12.780000000000001,
+      "fim_segundos": 16.36,
+      "inicio_global_segundos": 12.78,
+      "fim_global_segundos": 16.36,
+      "texto": "Tiago, o que é campanha? Grupo de anúncios? Anúncios? A segmentação?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 16.44,
+      "fim_segundos": 18.1,
+      "inicio_global_segundos": 16.44,
+      "fim_global_segundos": 18.1,
+      "texto": "Como é que funciona toda essa parte de estrutura?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 18.580000000000002,
+      "fim_segundos": 24.44,
+      "inicio_global_segundos": 18.58,
+      "fim_global_segundos": 24.44,
+      "texto": "É algo simples de entender e ela segue uma lógica que você tem que entender na hora de criar as suas campanhas no Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 24.78,
+      "fim_segundos": 28.5,
+      "inicio_global_segundos": 24.78,
+      "fim_global_segundos": 28.5,
+      "texto": "Então vamos lá, vamos entender como funciona essa parte de estrutura de campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 28.5,
+      "fim_segundos": 34.3,
+      "inicio_global_segundos": 28.5,
+      "fim_global_segundos": 34.3,
+      "texto": "O primeiro passo é entender aqui os níveis de uma campanha no Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 34.5,
+      "fim_segundos": 38.58,
+      "inicio_global_segundos": 34.5,
+      "fim_global_segundos": 38.58,
+      "texto": "Nós temos o primeiro nível aqui, que nós chamamos de campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 39.08,
+      "fim_segundos": 41.42,
+      "inicio_global_segundos": 39.08,
+      "fim_global_segundos": 41.42,
+      "texto": "que é esse nível aqui, campanha."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 42.519999999999996,
+      "fim_segundos": 43.120000000000005,
+      "inicio_global_segundos": 42.52,
+      "fim_global_segundos": 43.12,
+      "texto": "Certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 43.68,
+      "fim_segundos": 45.019999999999996,
+      "inicio_global_segundos": 43.68,
+      "fim_global_segundos": 45.02,
+      "texto": "Então, aqui nós temos o nível de campanha."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 45.760000000000005,
+      "fim_segundos": 50.06,
+      "inicio_global_segundos": 45.76,
+      "fim_global_segundos": 50.06,
+      "texto": "E aí embaixo do nível de campanha, você cria os grupos de anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 50.22,
+      "fim_segundos": 56.900000000000006,
+      "inicio_global_segundos": 50.22,
+      "fim_global_segundos": 56.9,
+      "texto": "E é legal que essa estrutura é a mesma em todas as campanhas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 56.9,
+      "fim_segundos": 58.54,
+      "inicio_global_segundos": 56.9,
+      "fim_global_segundos": 58.54,
+      "texto": "Todos os tipos de campanhas no Google Ads"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 58.54,
+      "fim_segundos": 60.82,
+      "inicio_global_segundos": 58.54,
+      "fim_global_segundos": 60.82,
+      "texto": "Campanha na rede de pesquisa, como a gente está aqui nesse módulo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 60.82,
+      "fim_segundos": 62.9,
+      "inicio_global_segundos": 60.82,
+      "fim_global_segundos": 62.9,
+      "texto": "Campanhas também no Google e no Facebook"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 62.9,
+      "fim_segundos": 64.56,
+      "inicio_global_segundos": 62.9,
+      "fim_global_segundos": 64.56,
+      "texto": "Segue sempre campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 64.56,
+      "fim_segundos": 67.14,
+      "inicio_global_segundos": 64.56,
+      "fim_global_segundos": 67.14,
+      "texto": "Aí lá no Google e no Facebook são os conjuntos de anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 67.14,
+      "fim_segundos": 69.25999999999999,
+      "inicio_global_segundos": 67.14,
+      "fim_global_segundos": 69.26,
+      "texto": "Mas é sempre essa mesma lógica de aqui embaixo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 69.25999999999999,
+      "fim_segundos": 70.72,
+      "inicio_global_segundos": 69.26,
+      "fim_global_segundos": 70.72,
+      "texto": "Então"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 70.72,
+      "fim_segundos": 73.18,
+      "inicio_global_segundos": 70.72,
+      "fim_global_segundos": 73.18,
+      "texto": "A gente coloca"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 73.18,
+      "fim_segundos": 75.2,
+      "inicio_global_segundos": 73.18,
+      "fim_global_segundos": 75.2,
+      "texto": "Os grupos de anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 75.2,
+      "fim_segundos": 76.32,
+      "inicio_global_segundos": 75.2,
+      "fim_global_segundos": 76.32,
+      "texto": "Que são aqui, grupos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 76.32,
+      "fim_segundos": 77.96,
+      "inicio_global_segundos": 76.32,
+      "fim_global_segundos": 77.96,
+      "texto": "De anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 77.96,
+      "fim_segundos": 81.12,
+      "inicio_global_segundos": 77.96,
+      "fim_global_segundos": 81.12,
+      "texto": "E embaixo desse grupo de anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 81.12,
+      "fim_segundos": 83.24,
+      "inicio_global_segundos": 81.12,
+      "fim_global_segundos": 83.24,
+      "texto": "Nós temos os anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 83.24,
+      "fim_segundos": 84.75999999999999,
+      "inicio_global_segundos": 83.24,
+      "fim_global_segundos": 84.76,
+      "texto": "Por quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 84.75999999999999,
+      "fim_segundos": 86.56,
+      "inicio_global_segundos": 84.76,
+      "fim_global_segundos": 86.56,
+      "texto": "Deixa eu até colocar uma cor diferente aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 86.56,
+      "fim_segundos": 89.28,
+      "inicio_global_segundos": 86.56,
+      "fim_global_segundos": 89.28,
+      "texto": "para ficar mais simples de entender."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 89.82000000000001,
+      "fim_segundos": 91.98,
+      "inicio_global_segundos": 89.82,
+      "fim_global_segundos": 91.98,
+      "texto": "Nós temos aqui, em cada grupo de anúncio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 92.62,
+      "fim_segundos": 98.18,
+      "inicio_global_segundos": 92.62,
+      "fim_global_segundos": 98.18,
+      "texto": "a segmentação e também os anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 98.38,
+      "fim_segundos": 100.7,
+      "inicio_global_segundos": 98.38,
+      "fim_global_segundos": 100.7,
+      "texto": "Super simples, e aqui a mesma coisa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 101.42,
+      "fim_segundos": 103.68,
+      "inicio_global_segundos": 101.42,
+      "fim_global_segundos": 103.68,
+      "texto": "Então, na estrutura funciona o primeiro nível campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 104.28,
+      "fim_segundos": 107.08,
+      "inicio_global_segundos": 104.28,
+      "fim_global_segundos": 107.08,
+      "texto": "grupo de anúncios e depois a segmentação e o anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 107.2,
+      "fim_segundos": 108.72,
+      "inicio_global_segundos": 107.2,
+      "fim_global_segundos": 108.72,
+      "texto": "Tiago, por que essa campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 108.86,
+      "fim_segundos": 110.5,
+      "inicio_global_segundos": 108.86,
+      "fim_global_segundos": 110.5,
+      "texto": "por que essa aqui é uma estrutura de campanha no Google?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 111.22,
+      "fim_segundos": 113.14,
+      "inicio_global_segundos": 111.22,
+      "fim_global_segundos": 113.14,
+      "texto": "Basicamente, funciona dessa maneira"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 113.14,
+      "fim_segundos": 116.38,
+      "inicio_global_segundos": 113.14,
+      "fim_global_segundos": 116.38,
+      "texto": "para deixar os seus anúncios mais específicos no Google,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 116.38,
+      "fim_segundos": 119.64,
+      "inicio_global_segundos": 116.38,
+      "fim_global_segundos": 119.64,
+      "texto": "baseado no público e naquilo que a pessoa está pesquisando."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 119.88,
+      "fim_segundos": 123.66,
+      "inicio_global_segundos": 119.88,
+      "fim_global_segundos": 123.66,
+      "texto": "Então, por exemplo, se você, vou pegar aqui uma outra cor,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 124.08,
+      "fim_segundos": 129.38,
+      "inicio_global_segundos": 124.08,
+      "fim_global_segundos": 129.38,
+      "texto": "vamos supor que você tenha uma loja, uma loja que vende celulares,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 129.79999999999998,
+      "fim_segundos": 133.54,
+      "inicio_global_segundos": 129.8,
+      "fim_global_segundos": 133.54,
+      "texto": "você vende iPhone, e aí o grupo de anúncio serve para deixar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 133.54,
+      "fim_segundos": 135.92,
+      "inicio_global_segundos": 133.54,
+      "fim_global_segundos": 135.92,
+      "texto": "a segmentação mais específica."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 135.92,
+      "fim_segundos": 141.85999999999999,
+      "inicio_global_segundos": 135.92,
+      "fim_global_segundos": 141.86,
+      "texto": "Por exemplo, se a pessoa digitar iPhone, vamos supor, iPhone 11,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 142.42,
+      "fim_segundos": 145.04,
+      "inicio_global_segundos": 142.42,
+      "fim_global_segundos": 145.04,
+      "texto": "então ela tem que ver o anúncio do iPhone 11."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 145.04,
+      "fim_segundos": 153.12,
+      "inicio_global_segundos": 145.04,
+      "fim_global_segundos": 153.12,
+      "texto": "Se ela pesquisar iPhone, iPhone 12 e iPhone 13, ela vê cada um diferente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 153.22,
+      "fim_segundos": 153.85999999999999,
+      "inicio_global_segundos": 153.22,
+      "fim_global_segundos": 153.86,
+      "texto": "Então, o que acontece?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 154.22,
+      "fim_segundos": 164.76,
+      "inicio_global_segundos": 154.22,
+      "fim_global_segundos": 164.76,
+      "texto": "Em um grupo de anúncio, nesse grupo de anúncio de iPhone 11, você vai incluir apenas palavras-chave que têm a ver com iPhone 11."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 164.98,
+      "fim_segundos": 169.73999999999998,
+      "inicio_global_segundos": 164.98,
+      "fim_global_segundos": 169.74,
+      "texto": "Assim como anúncios que falam de iPhone 11."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 170.06,
+      "fim_segundos": 171.73999999999998,
+      "inicio_global_segundos": 170.06,
+      "fim_global_segundos": 171.74,
+      "texto": "Mas por que isso funciona, Tiago?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 171.73999999999998,
+      "fim_segundos": 173.06,
+      "inicio_global_segundos": 171.74,
+      "fim_global_segundos": 173.06,
+      "texto": "Por que é assim?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 173.62,
+      "fim_segundos": 178.58,
+      "inicio_global_segundos": 173.62,
+      "fim_global_segundos": 178.58,
+      "texto": "Basicamente, o que a pessoa pesquisa no Google, ela precisa ver o seu anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 179.04,
+      "fim_segundos": 183.68,
+      "inicio_global_segundos": 179.04,
+      "fim_global_segundos": 183.68,
+      "texto": "Então, a parte de estrutura de campanha funciona para deixar os seus anúncios mais específicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 183.68,
+      "fim_segundos": 185.78,
+      "inicio_global_segundos": 183.68,
+      "fim_global_segundos": 185.78,
+      "texto": "baseado naquele público-alvo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 186.06,
+      "fim_segundos": 189.96,
+      "inicio_global_segundos": 186.06,
+      "fim_global_segundos": 189.96,
+      "texto": "E dessa maneira eu consigo comparar cada grupo com o qual que funciona melhor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 190.4,
+      "fim_segundos": 197.02,
+      "inicio_global_segundos": 190.4,
+      "fim_global_segundos": 197.02,
+      "texto": "Porque se eu colocasse todas essas categorias de produtos em um conjunto só,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 197.02,
+      "fim_segundos": 201.8,
+      "inicio_global_segundos": 197.02,
+      "fim_global_segundos": 201.8,
+      "texto": "a pessoa poderia pesquisar iPhone 11 e aí vai sair iPhone 3, vai sair iPhone 12."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 201.8,
+      "fim_segundos": 207.62,
+      "inicio_global_segundos": 201.8,
+      "fim_global_segundos": 207.62,
+      "texto": "E para você gerar resultado no Google, quanto mais específico você for, melhor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 208.12,
+      "fim_segundos": 211.06,
+      "inicio_global_segundos": 208.12,
+      "fim_global_segundos": 211.06,
+      "texto": "O Google preza muito pela experiência do usuário."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 211.48000000000002,
+      "fim_segundos": 214.04000000000002,
+      "inicio_global_segundos": 211.48,
+      "fim_global_segundos": 214.04,
+      "texto": "E por que o Google é o melhor buscador?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 214.32000000000002,
+      "fim_segundos": 217.42000000000002,
+      "inicio_global_segundos": 214.32,
+      "fim_global_segundos": 217.42,
+      "texto": "Simplesmente porque você encontra aquilo que está pesquisando."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 217.82000000000002,
+      "fim_segundos": 223.4,
+      "inicio_global_segundos": 217.82,
+      "fim_global_segundos": 223.4,
+      "texto": "Então eu penso o seguinte, se eu colocar lá comprar TV, eu preciso ver um anúncio de comprar TV."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 223.62,
+      "fim_segundos": 227.76000000000002,
+      "inicio_global_segundos": 223.62,
+      "fim_global_segundos": 227.76,
+      "texto": "Não posso ver qualquer outro anúncio que fala de qualquer outro produto."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 228.17999999999998,
+      "fim_segundos": 231.39999999999998,
+      "inicio_global_segundos": 228.18,
+      "fim_global_segundos": 231.4,
+      "texto": "Então, essa parte de grupos de anúncio, ele serve exatamente para isso,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 231.57999999999998,
+      "fim_segundos": 233.54,
+      "inicio_global_segundos": 231.58,
+      "fim_global_segundos": 233.54,
+      "texto": "para deixar o anúncio bem específico."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 233.78,
+      "fim_segundos": 237.44,
+      "inicio_global_segundos": 233.78,
+      "fim_global_segundos": 237.44,
+      "texto": "E eu posso dar vários e vários exemplos, como por exemplo, Tiago, vendo serviço."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 238.29999999999998,
+      "fim_segundos": 238.7,
+      "inicio_global_segundos": 238.3,
+      "fim_global_segundos": 238.7,
+      "texto": "Ótimo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 239.01999999999998,
+      "fim_segundos": 239.92,
+      "inicio_global_segundos": 239.02,
+      "fim_global_segundos": 239.92,
+      "texto": "Qual serviço você vende?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 239.92,
+      "fim_segundos": 244.0,
+      "inicio_global_segundos": 239.92,
+      "fim_global_segundos": 244.0,
+      "texto": "Vamos supor que você, aí, vamos pegar aqui um exemplo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 244.1,
+      "fim_segundos": 247.14,
+      "inicio_global_segundos": 244.1,
+      "fim_global_segundos": 247.14,
+      "texto": "Tiago, eu trabalho, eu sou corretor de imóveis, pode ser um exemplo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 247.56,
+      "fim_segundos": 251.7,
+      "inicio_global_segundos": 247.56,
+      "fim_global_segundos": 251.7,
+      "texto": "Então, cada grupo de anúncio você pode focar em uma palavra-chave específica,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 251.76,
+      "fim_segundos": 256.36,
+      "inicio_global_segundos": 251.76,
+      "fim_global_segundos": 256.36,
+      "texto": "em palavras específicas que têm o mesmo objetivo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 256.74,
+      "fim_segundos": 257.08,
+      "inicio_global_segundos": 256.74,
+      "fim_global_segundos": 257.08,
+      "texto": "Vamos lá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 257.78,
+      "fim_segundos": 262.35999999999996,
+      "inicio_global_segundos": 257.78,
+      "fim_global_segundos": 262.36,
+      "texto": "Grupo número 1, eu posso falar apenas sobre aluguel, sobre aluguel de casa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 262.82,
+      "fim_segundos": 265.56,
+      "inicio_global_segundos": 262.82,
+      "fim_global_segundos": 265.56,
+      "texto": "Então, no grupo 1, eu coloco só palavras que tem aluguel de casa,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 266.0,
+      "fim_segundos": 271.03999999999996,
+      "inicio_global_segundos": 266.0,
+      "fim_global_segundos": 271.04,
+      "texto": "para, se a pessoa digitar aluguel de casa, eu colocar um anúncio que tem a ver com aluguel de casa,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 271.14,
+      "fim_segundos": 272.24,
+      "inicio_global_segundos": 271.14,
+      "fim_global_segundos": 272.24,
+      "texto": "e aí fica tudo no grupo 1."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 272.7,
+      "fim_segundos": 274.91999999999996,
+      "inicio_global_segundos": 272.7,
+      "fim_global_segundos": 274.92,
+      "texto": "Grupo 2, eu posso falar sobre venda de casa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 275.36,
+      "fim_segundos": 279.62,
+      "inicio_global_segundos": 275.36,
+      "fim_global_segundos": 279.62,
+      "texto": "E aí, tudo, se a pessoa precisar, quero comprar uma casa, como comprar uma casa,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 279.62,
+      "fim_segundos": 282.91999999999996,
+      "inicio_global_segundos": 279.62,
+      "fim_global_segundos": 282.92,
+      "texto": "e aí vai haver anúncios que falam sobre compra de uma casa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 282.92,
+      "fim_segundos": 287.92,
+      "inicio_global_segundos": 282.92,
+      "fim_global_segundos": 287.92,
+      "texto": "E assim como no 3 eu posso falar sobre, sei lá, aluguel de uma sala comercial."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 288.8,
+      "fim_segundos": 294.54,
+      "inicio_global_segundos": 288.8,
+      "fim_global_segundos": 294.54,
+      "texto": "Então se eu colocar aluguel de uma casa de temporada, de verão, ou uma sala comercial,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 294.74,
+      "fim_segundos": 299.08000000000004,
+      "inicio_global_segundos": 294.74,
+      "fim_global_segundos": 299.08,
+      "texto": "e sair compra de uma casa, o anúncio não vai ser relevante para o usuário."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 299.8,
+      "fim_segundos": 305.82,
+      "inicio_global_segundos": 299.8,
+      "fim_global_segundos": 305.82,
+      "texto": "Então a estrutura de uma campanha funciona para deixar bem específico e deixar mais relevante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 306.26,
+      "fim_segundos": 310.12,
+      "inicio_global_segundos": 306.26,
+      "fim_global_segundos": 310.12,
+      "texto": "A pessoa tem que pesquisar no Google e na hora que ela ver o seu anúncio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 310.12,
+      "fim_segundos": 315.18,
+      "inicio_global_segundos": 310.12,
+      "fim_global_segundos": 315.18,
+      "texto": "ela pensar o seguinte, nossa, é exatamente isso que eu estava procurando,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 315.94,
+      "fim_segundos": 317.02,
+      "inicio_global_segundos": 315.94,
+      "fim_global_segundos": 317.02,
+      "texto": "exatamente isso que eu quero."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 317.5,
+      "fim_segundos": 321.0,
+      "inicio_global_segundos": 317.5,
+      "fim_global_segundos": 321.0,
+      "texto": "Então, quanto mais específico for nesse sentido, melhor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 321.4,
+      "fim_segundos": 324.2,
+      "inicio_global_segundos": 321.4,
+      "fim_global_segundos": 324.2,
+      "texto": "Vamos supor aí, vou pegar um outro exemplo, vamos supor que você tem uma agência."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 324.58,
+      "fim_segundos": 325.8,
+      "inicio_global_segundos": 324.58,
+      "fim_global_segundos": 325.8,
+      "texto": "Tiago, eu tenho uma agência, perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 326.38,
+      "fim_segundos": 328.12,
+      "inicio_global_segundos": 326.38,
+      "fim_global_segundos": 328.12,
+      "texto": "Quais serviços você tem na sua agência?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 328.64,
+      "fim_segundos": 330.26,
+      "inicio_global_segundos": 328.64,
+      "fim_global_segundos": 330.26,
+      "texto": "Ah, Tiago, eu ofereço criação de sites."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 330.64,
+      "fim_segundos": 335.0,
+      "inicio_global_segundos": 330.64,
+      "fim_global_segundos": 335.0,
+      "texto": "Então, beleza, vou colocar aqui, número 1, site, seria o nosso conjunto número 1."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 336.7,
+      "fim_segundos": 339.6,
+      "inicio_global_segundos": 336.7,
+      "fim_global_segundos": 339.6,
+      "texto": "Tiago, eu ofereço também serviços de Google Ads,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 339.6,
+      "fim_segundos": 341.48,
+      "inicio_global_segundos": 339.6,
+      "fim_global_segundos": 341.48,
+      "texto": "eu faço gestão de tráfego. Perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 341.86,
+      "fim_segundos": 343.70000000000005,
+      "inicio_global_segundos": 341.86,
+      "fim_global_segundos": 343.7,
+      "texto": "Você pode colocar aqui a palavra"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 343.70000000000005,
+      "fim_segundos": 345.64000000000004,
+      "inicio_global_segundos": 343.7,
+      "fim_global_segundos": 345.64,
+      "texto": "Google Ads, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 346.92,
+      "fim_segundos": 347.54,
+      "inicio_global_segundos": 346.92,
+      "fim_global_segundos": 347.54,
+      "texto": "Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 348.3,
+      "fim_segundos": 349.28000000000003,
+      "inicio_global_segundos": 348.3,
+      "fim_global_segundos": 349.28,
+      "texto": "Ah, Tiago, eu também ofereço"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 349.28000000000003,
+      "fim_segundos": 351.98,
+      "inicio_global_segundos": 349.28,
+      "fim_global_segundos": 351.98,
+      "texto": "uma ajuda das pessoas a cuidar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 351.98,
+      "fim_segundos": 353.54,
+      "inicio_global_segundos": 351.98,
+      "fim_global_segundos": 353.54,
+      "texto": "da rede social. Perfeito. Você vai colocar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 353.54,
+      "fim_segundos": 354.14000000000004,
+      "inicio_global_segundos": 353.54,
+      "fim_global_segundos": 354.14,
+      "texto": "a rede social."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 355.98,
+      "fim_segundos": 357.62,
+      "inicio_global_segundos": 355.98,
+      "fim_global_segundos": 357.62,
+      "texto": "Então você vê o que... Olha só a estrutura de uma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 357.62,
+      "fim_segundos": 359.0,
+      "inicio_global_segundos": 357.62,
+      "fim_global_segundos": 359.0,
+      "texto": "campanha. Eu separei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 359.0,
+      "fim_segundos": 361.52000000000004,
+      "inicio_global_segundos": 359.0,
+      "fim_global_segundos": 361.52,
+      "texto": "cada categoria da minha empresa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 361.52000000000004,
+      "fim_segundos": 363.64000000000004,
+      "inicio_global_segundos": 361.52,
+      "fim_global_segundos": 363.64,
+      "texto": "ou do serviço que você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 363.64000000000004,
+      "fim_segundos": 365.5,
+      "inicio_global_segundos": 363.64,
+      "fim_global_segundos": 365.5,
+      "texto": "presta em grupos diferentes."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 365.92,
+      "fim_segundos": 367.66,
+      "inicio_global_segundos": 365.92,
+      "fim_global_segundos": 367.66,
+      "texto": "Então pense dessa maneira. Pô, eu tenho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 367.66,
+      "fim_segundos": 369.78000000000003,
+      "inicio_global_segundos": 367.66,
+      "fim_global_segundos": 369.78,
+      "texto": "aqui o e-commerce, cada categoria"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 369.78000000000003,
+      "fim_segundos": 371.82000000000005,
+      "inicio_global_segundos": 369.78,
+      "fim_global_segundos": 371.82,
+      "texto": "você faz de uma maneira diferente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 371.82000000000005,
+      "fim_segundos": 373.92,
+      "inicio_global_segundos": 371.82,
+      "fim_global_segundos": 373.92,
+      "texto": "do grupo de anúncio. Perfeito, aqui no site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 373.92,
+      "fim_segundos": 375.6,
+      "inicio_global_segundos": 373.92,
+      "fim_global_segundos": 375.6,
+      "texto": "o que eu tenho que fazer no grupo de anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 375.6,
+      "fim_segundos": 377.44,
+      "inicio_global_segundos": 375.6,
+      "fim_global_segundos": 377.44,
+      "texto": "de site? Eu tenho que falar apenas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 377.44,
+      "fim_segundos": 379.66,
+      "inicio_global_segundos": 377.44,
+      "fim_global_segundos": 379.66,
+      "texto": "do universo de criação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 379.66,
+      "fim_segundos": 381.66,
+      "inicio_global_segundos": 379.66,
+      "fim_global_segundos": 381.66,
+      "texto": "de site, ou seja, as palavras"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 381.66,
+      "fim_segundos": 383.52000000000004,
+      "inicio_global_segundos": 381.66,
+      "fim_global_segundos": 383.52,
+      "texto": "ou a segmentação, nesse caso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 383.52000000000004,
+      "fim_segundos": 385.56,
+      "inicio_global_segundos": 383.52,
+      "fim_global_segundos": 385.56,
+      "texto": "na rede de pesquisa, a segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 385.56,
+      "fim_segundos": 387.92,
+      "inicio_global_segundos": 385.56,
+      "fim_global_segundos": 387.92,
+      "texto": "principal aí são as palavras-chave"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 387.92,
+      "fim_segundos": 390.1,
+      "inicio_global_segundos": 387.92,
+      "fim_global_segundos": 390.1,
+      "texto": "porque a pessoa vai pesquisar uma palavra-chave"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 390.1,
+      "fim_segundos": 391.8,
+      "inicio_global_segundos": 390.1,
+      "fim_global_segundos": 391.8,
+      "texto": "para encontrar o seu anúncio, então"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 391.8,
+      "fim_segundos": 393.96000000000004,
+      "inicio_global_segundos": 391.8,
+      "fim_global_segundos": 393.96,
+      "texto": "tem que ter a ver com o que? Tudo a ver com o site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 393.96000000000004,
+      "fim_segundos": 396.12,
+      "inicio_global_segundos": 393.96,
+      "fim_global_segundos": 396.12,
+      "texto": "criação de site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 396.12,
+      "fim_segundos": 398.76,
+      "inicio_global_segundos": 396.12,
+      "fim_global_segundos": 398.76,
+      "texto": "como criar um site, contratar uma agência de site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 399.3,
+      "fim_segundos": 401.1,
+      "inicio_global_segundos": 399.3,
+      "fim_global_segundos": 401.1,
+      "texto": "E aí, o que tem que ter no anúncio?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 401.88,
+      "fim_segundos": 404.36,
+      "inicio_global_segundos": 401.88,
+      "fim_global_segundos": 404.36,
+      "texto": "Tem que ter as palavras relacionadas que você adicionou."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 404.64,
+      "fim_segundos": 406.1,
+      "inicio_global_segundos": 404.64,
+      "fim_global_segundos": 406.1,
+      "texto": "Tudo em relação a site também."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 406.7,
+      "fim_segundos": 409.76,
+      "inicio_global_segundos": 406.7,
+      "fim_global_segundos": 409.76,
+      "texto": "Você não faz geralzão, você faz em relação a site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 410.12,
+      "fim_segundos": 413.22,
+      "inicio_global_segundos": 410.12,
+      "fim_global_segundos": 413.22,
+      "texto": "Então, se a pessoa digitar, quero contratar uma agência de site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 413.36,
+      "fim_segundos": 417.08,
+      "inicio_global_segundos": 413.36,
+      "fim_global_segundos": 417.08,
+      "texto": "ela pesquisou no Google, ela tem que encontrar o anúncio que fala,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 417.42,
+      "fim_segundos": 419.74,
+      "inicio_global_segundos": 417.42,
+      "fim_global_segundos": 419.74,
+      "texto": "quero contratar uma agência que cria seu site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 419.94,
+      "fim_segundos": 421.8,
+      "inicio_global_segundos": 419.94,
+      "fim_global_segundos": 421.8,
+      "texto": "nós criamos seu site assim, assim, assado,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 421.8,
+      "fim_segundos": 425.22,
+      "inicio_global_segundos": 421.8,
+      "fim_global_segundos": 425.22,
+      "texto": "e a pessoa vai então clicar aí no seu anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 425.22,
+      "fim_segundos": 426.94000000000005,
+      "inicio_global_segundos": 425.22,
+      "fim_global_segundos": 426.94,
+      "texto": "e ir para a próxima etapa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 427.3,
+      "fim_segundos": 429.3,
+      "inicio_global_segundos": 427.3,
+      "fim_global_segundos": 429.3,
+      "texto": "E é interessante que no grupo de anúncio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 429.78000000000003,
+      "fim_segundos": 430.98,
+      "inicio_global_segundos": 429.78,
+      "fim_global_segundos": 430.98,
+      "texto": "nós também colocamos o quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 431.32000000000005,
+      "fim_segundos": 435.5,
+      "inicio_global_segundos": 431.32,
+      "fim_global_segundos": 435.5,
+      "texto": "No anúncio, a sua landing page de alta conversão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 435.62,
+      "fim_segundos": 437.42,
+      "inicio_global_segundos": 435.62,
+      "fim_global_segundos": 437.42,
+      "texto": "o seu site, que fala sobre o quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 437.90000000000003,
+      "fim_segundos": 439.64000000000004,
+      "inicio_global_segundos": 437.9,
+      "fim_global_segundos": 439.64,
+      "texto": "Que fala sobre a criação de sites."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 440.24,
+      "fim_segundos": 442.26000000000005,
+      "inicio_global_segundos": 440.24,
+      "fim_global_segundos": 442.26,
+      "texto": "Então, a pessoa pesquisou sobre a criação de site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 442.74,
+      "fim_segundos": 444.82000000000005,
+      "inicio_global_segundos": 442.74,
+      "fim_global_segundos": 444.82,
+      "texto": "ela vai ver o anúncio sobre a criação de site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 444.82000000000005,
+      "fim_segundos": 447.96000000000004,
+      "inicio_global_segundos": 444.82,
+      "fim_global_segundos": 447.96,
+      "texto": "e ela entra numa página que fala sobre a criação de sites."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 448.46000000000004,
+      "fim_segundos": 451.34000000000003,
+      "inicio_global_segundos": 448.46,
+      "fim_global_segundos": 451.34,
+      "texto": "Então, isso no Google se chama índice de qualidade."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 451.34000000000003,
+      "fim_segundos": 454.82000000000005,
+      "inicio_global_segundos": 451.34,
+      "fim_global_segundos": 454.82,
+      "texto": "Ou seja, quanto mais relevante, quanto mais amigável,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 454.82,
+      "fim_segundos": 462.24,
+      "inicio_global_segundos": 454.82,
+      "fim_global_segundos": 462.24,
+      "texto": "É o quanto melhor a experiência que você proporciona para o usuário, mais recompensado você é no Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 462.32,
+      "fim_segundos": 465.02,
+      "inicio_global_segundos": 462.32,
+      "fim_global_segundos": 465.02,
+      "texto": "Você até paga menos para aparecer nas melhores posições."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 465.56,
+      "fim_segundos": 468.02,
+      "inicio_global_segundos": 465.56,
+      "fim_global_segundos": 468.02,
+      "texto": "Então, como é que eu sou relevante, Tiago?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 468.62,
+      "fim_segundos": 476.26,
+      "inicio_global_segundos": 468.62,
+      "fim_global_segundos": 476.26,
+      "texto": "Onde o anúncio, as palavras-chave e a landing page, elas conversam entre elas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 477.1,
+      "fim_segundos": 484.18,
+      "inicio_global_segundos": 477.1,
+      "fim_global_segundos": 484.18,
+      "texto": "Então, já aconteceu no caso de você pesquisar assim, por exemplo, quero contratar uma empresa, sei lá,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 484.18,
+      "fim_segundos": 485.98,
+      "inicio_global_segundos": 484.18,
+      "fim_global_segundos": 485.98,
+      "texto": "Quero contratar um dentista"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 485.98,
+      "fim_segundos": 488.2,
+      "inicio_global_segundos": 485.98,
+      "fim_global_segundos": 488.2,
+      "texto": "Aí você vai lá, clica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 488.2,
+      "fim_segundos": 490.3,
+      "inicio_global_segundos": 488.2,
+      "fim_global_segundos": 490.3,
+      "texto": "Entra, e aí entra numa página geral"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 490.3,
+      "fim_segundos": 491.6,
+      "inicio_global_segundos": 490.3,
+      "fim_global_segundos": 491.6,
+      "texto": "Uma página inicial"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 491.6,
+      "fim_segundos": 494.1,
+      "inicio_global_segundos": 491.6,
+      "fim_global_segundos": 494.1,
+      "texto": "Você nem sabe onde ligar, não tem, sabe, o botão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 494.1,
+      "fim_segundos": 496.2,
+      "inicio_global_segundos": 494.1,
+      "fim_global_segundos": 496.2,
+      "texto": "Pra entrar em contato, ou seja, é confuso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 496.2,
+      "fim_segundos": 497.96000000000004,
+      "inicio_global_segundos": 496.2,
+      "fim_global_segundos": 497.96,
+      "texto": "Agora, se você colocar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 497.96000000000004,
+      "fim_segundos": 498.92,
+      "inicio_global_segundos": 497.96,
+      "fim_global_segundos": 498.92,
+      "texto": "Implantes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 498.92,
+      "fim_segundos": 502.16,
+      "inicio_global_segundos": 498.92,
+      "fim_global_segundos": 502.16,
+      "texto": "Olha só, quais são os serviços"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 502.16,
+      "fim_segundos": 504.2,
+      "inicio_global_segundos": 502.16,
+      "fim_global_segundos": 504.2,
+      "texto": "Que um dentista oferece? Vamos separar isso por"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 504.2,
+      "fim_segundos": 506.22,
+      "inicio_global_segundos": 504.2,
+      "fim_global_segundos": 506.22,
+      "texto": "Categoria, Thiago, ele serve implante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 506.22,
+      "fim_segundos": 508.38,
+      "inicio_global_segundos": 506.22,
+      "fim_global_segundos": 508.38,
+      "texto": "Ele serve também pra, enfim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 508.38,
+      "fim_segundos": 509.82,
+      "inicio_global_segundos": 508.38,
+      "fim_global_segundos": 509.82,
+      "texto": "Aparelho, então eu posso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 509.82,
+      "fim_segundos": 511.7,
+      "inicio_global_segundos": 509.82,
+      "fim_global_segundos": 511.7,
+      "texto": "Ser bem específico, se a pessoa digitar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 511.7,
+      "fim_segundos": 514.08,
+      "inicio_global_segundos": 511.7,
+      "fim_global_segundos": 514.08,
+      "texto": "Aparelho, vai aparecer aparelho e assim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 514.08,
+      "fim_segundos": 516.3000000000001,
+      "inicio_global_segundos": 514.08,
+      "fim_global_segundos": 516.3,
+      "texto": "por diante. E além disso, você pode criar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 516.3000000000001,
+      "fim_segundos": 517.1,
+      "inicio_global_segundos": 516.3,
+      "fim_global_segundos": 517.1,
+      "texto": "também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 517.1,
+      "fim_segundos": 520.2,
+      "inicio_global_segundos": 517.1,
+      "fim_global_segundos": 520.2,
+      "texto": "algo também mais amplo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 520.26,
+      "fim_segundos": 522.2800000000001,
+      "inicio_global_segundos": 520.26,
+      "fim_global_segundos": 522.28,
+      "texto": "um grupo de anúncio mais amplo. Por exemplo, se a pessoa digitar apenas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 522.2800000000001,
+      "fim_segundos": 524.08,
+      "inicio_global_segundos": 522.28,
+      "fim_global_segundos": 524.08,
+      "texto": "dentista na região, vai"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 524.08,
+      "fim_segundos": 526.14,
+      "inicio_global_segundos": 524.08,
+      "fim_global_segundos": 526.14,
+      "texto": "aparecer a minha palavra-chave e ela pode cair"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 526.14,
+      "fim_segundos": 527.98,
+      "inicio_global_segundos": 526.14,
+      "fim_global_segundos": 527.98,
+      "texto": "naquele serviço que você mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 527.98,
+      "fim_segundos": 529.94,
+      "inicio_global_segundos": 527.98,
+      "fim_global_segundos": 529.94,
+      "texto": "oferece. Então você pode criar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 529.94,
+      "fim_segundos": 531.84,
+      "inicio_global_segundos": 529.94,
+      "fim_global_segundos": 531.84,
+      "texto": "um grupo de anúncio, mas se a pessoa digitou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 531.84,
+      "fim_segundos": 534.0200000000001,
+      "inicio_global_segundos": 531.84,
+      "fim_global_segundos": 534.02,
+      "texto": "dentista, ela tem que ver"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 534.0200000000001,
+      "fim_segundos": 535.5600000000001,
+      "inicio_global_segundos": 534.02,
+      "fim_global_segundos": 535.56,
+      "texto": "um anúncio que fala a palavra dentista,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 535.6600000000001,
+      "fim_segundos": 537.46,
+      "inicio_global_segundos": 535.66,
+      "fim_global_segundos": 537.46,
+      "texto": "e lá na página"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 537.46,
+      "fim_segundos": 540.0400000000001,
+      "inicio_global_segundos": 537.46,
+      "fim_global_segundos": 540.04,
+      "texto": "dela a mesma coisa. Então essa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 540.0400000000001,
+      "fim_segundos": 541.9200000000001,
+      "inicio_global_segundos": 540.04,
+      "fim_global_segundos": 541.92,
+      "texto": "estrutura, ela"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 541.9200000000001,
+      "fim_segundos": 544.0,
+      "inicio_global_segundos": 541.92,
+      "fim_global_segundos": 544.0,
+      "texto": "funciona para deixar o seu anúncio mais relevante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 544.0,
+      "fim_segundos": 548.84,
+      "inicio_global_segundos": 544.0,
+      "fim_global_segundos": 548.84,
+      "texto": "e mostrar para o usuário aquilo que realmente ele está precisando."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 549.08,
+      "fim_segundos": 553.64,
+      "inicio_global_segundos": 549.08,
+      "fim_global_segundos": 553.64,
+      "texto": "Se você não for específico, a chance de ter resultado é muito menor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 554.46,
+      "fim_segundos": 556.74,
+      "inicio_global_segundos": 554.46,
+      "fim_global_segundos": 556.74,
+      "texto": "O Google não vai gostar muito das suas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 557.5,
+      "fim_segundos": 563.3,
+      "inicio_global_segundos": 557.5,
+      "fim_global_segundos": 563.3,
+      "texto": "E, se você faz assim, a chance de ter resultado, obviamente, aumenta muito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 563.84,
+      "fim_segundos": 566.06,
+      "inicio_global_segundos": 563.84,
+      "fim_global_segundos": 566.06,
+      "texto": "E, Thiago, mas eu tenho muitos produtos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 566.06,
+      "fim_segundos": 570.06,
+      "inicio_global_segundos": 566.06,
+      "fim_global_segundos": 570.06,
+      "texto": "Eu tenho, nossa, eu tenho e-commerce, eu tenho 150 produtos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 570.78,
+      "fim_segundos": 572.04,
+      "inicio_global_segundos": 570.78,
+      "fim_global_segundos": 572.04,
+      "texto": "O que eu faço nesse caso?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 572.4,
+      "fim_segundos": 575.28,
+      "inicio_global_segundos": 572.4,
+      "fim_global_segundos": 575.28,
+      "texto": "Bom, sempre quando você vai começar a anunciar no Google,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 575.54,
+      "fim_segundos": 578.92,
+      "inicio_global_segundos": 575.54,
+      "fim_global_segundos": 578.92,
+      "texto": "principalmente para quem está começando do zero e tem baixo orçamento,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 579.3199999999999,
+      "fim_segundos": 584.12,
+      "inicio_global_segundos": 579.32,
+      "fim_global_segundos": 584.12,
+      "texto": "você deve começar com aqueles produtos que a gente vai chamar que é o pão de padaria,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 584.26,
+      "fim_segundos": 585.92,
+      "inicio_global_segundos": 584.26,
+      "fim_global_segundos": 585.92,
+      "texto": "que é o seu carro-chefe, sabe?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 586.0,
+      "fim_segundos": 588.26,
+      "inicio_global_segundos": 586.0,
+      "fim_global_segundos": 588.26,
+      "texto": "Então, você não vai começar com 150 produtos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 588.8199999999999,
+      "fim_segundos": 592.76,
+      "inicio_global_segundos": 588.82,
+      "fim_global_segundos": 592.76,
+      "texto": "você vai começar com aqueles um ou dois produtos que você mais vende."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 592.88,
+      "fim_segundos": 594.4599999999999,
+      "inicio_global_segundos": 592.88,
+      "fim_global_segundos": 594.46,
+      "texto": "Quais são os produtos que você mais vende?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 594.4599999999999,
+      "fim_segundos": 597.62,
+      "inicio_global_segundos": 594.46,
+      "fim_global_segundos": 597.62,
+      "texto": "Quais são os produtos e serviços mais importantes do seu negócio?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 598.18,
+      "fim_segundos": 600.36,
+      "inicio_global_segundos": 598.18,
+      "fim_global_segundos": 600.36,
+      "texto": "Ah, Tiago, é esse, esse. Beleza, começa com esses dois."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 600.36,
+      "fim_segundos": 613.78,
+      "inicio_global_segundos": 600.36,
+      "fim_global_segundos": 613.78,
+      "texto": "É mais fácil você pegar aquele produto que é mais fácil de vender, que é o seu carro-chefe, desenvolver a campanha com maestria e depois você vai aplicando nos outros assim que esse você conseguirá resultado nesse."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 614.08,
+      "fim_segundos": 623.7,
+      "inicio_global_segundos": 614.08,
+      "fim_global_segundos": 623.7,
+      "texto": "Então não importa quantos produtos você tem ou serviços você oferece, começa com aquele que é o principal e depois conforme o resultado vai colocando os outros serviços."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 623.7,
+      "fim_segundos": 629.44,
+      "inicio_global_segundos": 623.7,
+      "fim_global_segundos": 629.44,
+      "texto": "O problema é as pessoas serem genéricas e querer anunciar tudo ao mesmo tempo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 629.6800000000001,
+      "fim_segundos": 631.3000000000001,
+      "inicio_global_segundos": 629.68,
+      "fim_global_segundos": 631.3,
+      "texto": "Tiago, eu tenho R$15 para investir."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 631.62,
+      "fim_segundos": 633.96,
+      "inicio_global_segundos": 631.62,
+      "fim_global_segundos": 633.96,
+      "texto": "Aí eu chego lá, tem 50 grupos de anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 634.32,
+      "fim_segundos": 637.6600000000001,
+      "inicio_global_segundos": 634.32,
+      "fim_global_segundos": 637.66,
+      "texto": "Não faz sentido, porque não vai ter orçamento para todos, sabe?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 637.74,
+      "fim_segundos": 639.1800000000001,
+      "inicio_global_segundos": 637.74,
+      "fim_global_segundos": 639.18,
+      "texto": "Então, você pode..."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 639.1800000000001,
+      "fim_segundos": 641.58,
+      "inicio_global_segundos": 639.18,
+      "fim_global_segundos": 641.58,
+      "texto": "Bom, então eu vou colocar só dois grupos de anúncios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 641.84,
+      "fim_segundos": 642.44,
+      "inicio_global_segundos": 641.84,
+      "fim_global_segundos": 642.44,
+      "texto": "Eu tenho uma agência."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 642.6400000000001,
+      "fim_segundos": 644.96,
+      "inicio_global_segundos": 642.64,
+      "fim_global_segundos": 644.96,
+      "texto": "Nessa agência, eu ofereço cinco serviços."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 645.4200000000001,
+      "fim_segundos": 645.94,
+      "inicio_global_segundos": 645.42,
+      "fim_global_segundos": 645.94,
+      "texto": "Não, mas espera aí."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 646.22,
+      "fim_segundos": 647.96,
+      "inicio_global_segundos": 646.22,
+      "fim_global_segundos": 647.96,
+      "texto": "Meu serviço principal é a criação de sites."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 648.4200000000001,
+      "fim_segundos": 651.2,
+      "inicio_global_segundos": 648.42,
+      "fim_global_segundos": 651.2,
+      "texto": "Meu serviço principal é uma gestão de Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 651.2,
+      "fim_segundos": 654.58,
+      "inicio_global_segundos": 651.2,
+      "fim_global_segundos": 654.58,
+      "texto": "Porque depois, quando a pessoa entra como cliente, você consegue oferecer outros serviços."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 654.98,
+      "fim_segundos": 660.9000000000001,
+      "inicio_global_segundos": 654.98,
+      "fim_global_segundos": 660.9,
+      "texto": "Aí você pega lá o grupo de anúncio, cria só daquele serviço específico e assim por diante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 661.32,
+      "fim_segundos": 663.74,
+      "inicio_global_segundos": 661.32,
+      "fim_global_segundos": 663.74,
+      "texto": "Lembra na aula de landing page que eu falei exatamente sobre isso?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 663.8000000000001,
+      "fim_segundos": 676.6600000000001,
+      "inicio_global_segundos": 663.8,
+      "fim_global_segundos": 676.66,
+      "texto": "De você primeiro criar uma landing page muito bem feita, fazer testes e aí depois duplicar assim que essa landing page confirmar que tem resultado, que funciona e que faz realmente diferença no seu projeto."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 676.66,
+      "fim_segundos": 679.04,
+      "inicio_global_segundos": 676.66,
+      "fim_global_segundos": 679.04,
+      "texto": "Essa estrutura de campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 679.04,
+      "fim_segundos": 681.18,
+      "inicio_global_segundos": 679.04,
+      "fim_global_segundos": 681.18,
+      "texto": "Não é só na rede de pesquisa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 681.18,
+      "fim_segundos": 682.38,
+      "inicio_global_segundos": 681.18,
+      "fim_global_segundos": 682.38,
+      "texto": "Como eu falei no início dessa aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 682.38,
+      "fim_segundos": 684.6,
+      "inicio_global_segundos": 682.38,
+      "fim_global_segundos": 684.6,
+      "texto": "Youtube é a mesma coisa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 684.6,
+      "fim_segundos": 687.1,
+      "inicio_global_segundos": 684.6,
+      "fim_global_segundos": 687.1,
+      "texto": "Só que altera as palavras-chave por segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 687.1,
+      "fim_segundos": 688.98,
+      "inicio_global_segundos": 687.1,
+      "fim_global_segundos": 688.98,
+      "texto": "Então eu quero segmentar para pessoas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 688.98,
+      "fim_segundos": 690.5,
+      "inicio_global_segundos": 688.98,
+      "fim_global_segundos": 690.5,
+      "texto": "Que tem mais interesse em criação de site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 690.5,
+      "fim_segundos": 692.64,
+      "inicio_global_segundos": 690.5,
+      "fim_global_segundos": 692.64,
+      "texto": "Eu quero segmentar para pessoas que tem mais interesse"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 692.64,
+      "fim_segundos": 694.52,
+      "inicio_global_segundos": 692.64,
+      "fim_global_segundos": 694.52,
+      "texto": "Em gestão de tráfego, gestão de anúncios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 694.52,
+      "fim_segundos": 695.24,
+      "inicio_global_segundos": 694.52,
+      "fim_global_segundos": 695.24,
+      "texto": "Para empresários"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 695.24,
+      "fim_segundos": 697.8399999999999,
+      "inicio_global_segundos": 695.24,
+      "fim_global_segundos": 697.84,
+      "texto": "E aí você vai dar lances específicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 697.8399999999999,
+      "fim_segundos": 699.42,
+      "inicio_global_segundos": 697.84,
+      "fim_global_segundos": 699.42,
+      "texto": "Para cada grupo baseado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 699.42,
+      "fim_segundos": 701.92,
+      "inicio_global_segundos": 699.42,
+      "fim_global_segundos": 701.92,
+      "texto": "Nível que você acha que é mais relevante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 701.92,
+      "fim_segundos": 703.3199999999999,
+      "inicio_global_segundos": 701.92,
+      "fim_global_segundos": 703.32,
+      "texto": "Por exemplo, Thiago, meu serviço"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 703.3199999999999,
+      "fim_segundos": 705.24,
+      "inicio_global_segundos": 703.32,
+      "fim_global_segundos": 705.24,
+      "texto": "Ele é mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 705.24,
+      "fim_segundos": 708.2,
+      "inicio_global_segundos": 705.24,
+      "fim_global_segundos": 708.2,
+      "texto": "O meu serviço A é mais importante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 708.2,
+      "fim_segundos": 710.3,
+      "inicio_global_segundos": 708.2,
+      "fim_global_segundos": 710.3,
+      "texto": "Você pode vir aqui e dar um lance"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 710.3,
+      "fim_segundos": 712.2,
+      "inicio_global_segundos": 710.3,
+      "fim_global_segundos": 712.2,
+      "texto": "Vou falar isso na próxima aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 712.2,
+      "fim_segundos": 713.84,
+      "inicio_global_segundos": 712.2,
+      "fim_global_segundos": 713.84,
+      "texto": "Sobre lance, a criação de campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 713.84,
+      "fim_segundos": 715.76,
+      "inicio_global_segundos": 713.84,
+      "fim_global_segundos": 715.76,
+      "texto": "Você pode dar um foco"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 715.76,
+      "fim_segundos": 717.76,
+      "inicio_global_segundos": 715.76,
+      "fim_global_segundos": 717.76,
+      "texto": "Nesse grupo de anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 717.76,
+      "fim_segundos": 720.0,
+      "inicio_global_segundos": 717.76,
+      "fim_global_segundos": 720.0,
+      "texto": "Maior do que no segundo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 720.0,
+      "fim_segundos": 721.0600000000001,
+      "inicio_global_segundos": 720.0,
+      "fim_global_segundos": 721.06,
+      "texto": "Naquele que é o principal"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 721.0600000000001,
+      "fim_segundos": 724.12,
+      "inicio_global_segundos": 721.06,
+      "fim_global_segundos": 724.12,
+      "texto": "Lá no Facebook e no Instagram é a mesma coisa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 724.12,
+      "fim_segundos": 725.42,
+      "inicio_global_segundos": 724.12,
+      "fim_global_segundos": 725.42,
+      "texto": "Você tem o nível de campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 725.42,
+      "fim_segundos": 728.0600000000001,
+      "inicio_global_segundos": 725.42,
+      "fim_global_segundos": 728.06,
+      "texto": "E o nível de grupo de anúncio, que lá é conjunto de anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 728.0600000000001,
+      "fim_segundos": 730.38,
+      "inicio_global_segundos": 728.06,
+      "fim_global_segundos": 730.38,
+      "texto": "E o nome, e embaixo tem anúncio e segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 730.38,
+      "fim_segundos": 731.5600000000001,
+      "inicio_global_segundos": 730.38,
+      "fim_global_segundos": 731.56,
+      "texto": "Sempre assim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 731.5600000000001,
+      "fim_segundos": 732.6,
+      "inicio_global_segundos": 731.56,
+      "fim_global_segundos": 732.6,
+      "texto": "Então se você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 732.6,
+      "fim_segundos": 735.5,
+      "inicio_global_segundos": 732.6,
+      "fim_global_segundos": 735.5,
+      "texto": "entende essa estrutura básica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 735.5,
+      "fim_segundos": 737.34,
+      "inicio_global_segundos": 735.5,
+      "fim_global_segundos": 737.34,
+      "texto": "de campanha, fica fácil na hora"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 737.34,
+      "fim_segundos": 739.38,
+      "inicio_global_segundos": 737.34,
+      "fim_global_segundos": 739.38,
+      "texto": "de você criar as suas campanhas, entender"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 739.38,
+      "fim_segundos": 741.2,
+      "inicio_global_segundos": 739.38,
+      "fim_global_segundos": 741.2,
+      "texto": "assim, mentalmente, opa, tô na campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 741.5600000000001,
+      "fim_segundos": 743.36,
+      "inicio_global_segundos": 741.56,
+      "fim_global_segundos": 743.36,
+      "texto": "tô no grupo, e agora tô no anúncio e na"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 743.36,
+      "fim_segundos": 745.1800000000001,
+      "inicio_global_segundos": 743.36,
+      "fim_global_segundos": 745.18,
+      "texto": "segmentação. E fica muito mais fácil,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 745.36,
+      "fim_segundos": 747.34,
+      "inicio_global_segundos": 745.36,
+      "fim_global_segundos": 747.34,
+      "texto": "obviamente, de você gerar resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 747.66,
+      "fim_segundos": 748.26,
+      "inicio_global_segundos": 747.66,
+      "fim_global_segundos": 748.26,
+      "texto": "E a grande,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 749.1,
+      "fim_segundos": 751.0400000000001,
+      "inicio_global_segundos": 749.1,
+      "fim_global_segundos": 751.04,
+      "texto": "o grande pulo do gato é você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 751.0400000000001,
+      "fim_segundos": 753.16,
+      "inicio_global_segundos": 751.04,
+      "fim_global_segundos": 753.16,
+      "texto": "não ser genérico, não ser"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 753.16,
+      "fim_segundos": 755.1,
+      "inicio_global_segundos": 753.16,
+      "fim_global_segundos": 755.1,
+      "texto": "geral, não falar assim, meu Deus,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 755.2,
+      "fim_segundos": 757.52,
+      "inicio_global_segundos": 755.2,
+      "fim_global_segundos": 757.52,
+      "texto": "Tiago, se a pessoa digitou,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 758.0400000000001,
+      "fim_segundos": 759.1,
+      "inicio_global_segundos": 758.04,
+      "fim_global_segundos": 759.1,
+      "texto": "por exemplo, você coloca uma palavra-chave"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 759.1,
+      "fim_segundos": 760.58,
+      "inicio_global_segundos": 759.1,
+      "fim_global_segundos": 760.58,
+      "texto": "muito ampla, Tiago, eu vendo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 760.58,
+      "fim_segundos": 762.8000000000001,
+      "inicio_global_segundos": 760.58,
+      "fim_global_segundos": 762.8,
+      "texto": "vamos lá, vamos pegar um outro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 762.8000000000001,
+      "fim_segundos": 764.74,
+      "inicio_global_segundos": 762.8,
+      "fim_global_segundos": 764.74,
+      "texto": "um outro serviço"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 764.74,
+      "fim_segundos": 765.9200000000001,
+      "inicio_global_segundos": 764.74,
+      "fim_global_segundos": 765.92,
+      "texto": "aqui, é"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 765.9200000000001,
+      "fim_segundos": 768.14,
+      "inicio_global_segundos": 765.92,
+      "fim_global_segundos": 768.14,
+      "texto": "deixa eu pegar aqui, Tiago eu vendo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 768.14,
+      "fim_segundos": 770.58,
+      "inicio_global_segundos": 768.14,
+      "fim_global_segundos": 770.58,
+      "texto": "eu sou um, sei lá"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 770.58,
+      "fim_segundos": 772.12,
+      "inicio_global_segundos": 770.58,
+      "fim_global_segundos": 772.12,
+      "texto": "eu sou um psicólogo, perfeito"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 772.12,
+      "fim_segundos": 774.5600000000001,
+      "inicio_global_segundos": 772.12,
+      "fim_global_segundos": 774.56,
+      "texto": "eu quero vender o meu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 774.5600000000001,
+      "fim_segundos": 776.48,
+      "inicio_global_segundos": 774.56,
+      "fim_global_segundos": 776.48,
+      "texto": "serviço, perfeito, aí a pessoa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 776.48,
+      "fim_segundos": 778.7800000000001,
+      "inicio_global_segundos": 776.48,
+      "fim_global_segundos": 778.78,
+      "texto": "coloca lá, o que é psicólogo? Ela coloca essa palavra-chave"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 778.7800000000001,
+      "fim_segundos": 781.0,
+      "inicio_global_segundos": 778.78,
+      "fim_global_segundos": 781.0,
+      "texto": "só que essa palavra-chave, ela é muito ampla"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 781.0,
+      "fim_segundos": 782.58,
+      "inicio_global_segundos": 781.0,
+      "fim_global_segundos": 782.58,
+      "texto": "essa palavra-chave não, sabe não"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 782.58,
+      "fim_segundos": 784.86,
+      "inicio_global_segundos": 782.58,
+      "fim_global_segundos": 784.86,
+      "texto": "a pessoa não quer contratar um psicólogo naquele momento"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 784.86,
+      "fim_segundos": 786.6,
+      "inicio_global_segundos": 784.86,
+      "fim_global_segundos": 786.6,
+      "texto": "lembre-se de uma coisa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 786.6,
+      "fim_segundos": 788.72,
+      "inicio_global_segundos": 786.6,
+      "fim_global_segundos": 788.72,
+      "texto": "quanto mais específico você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 788.72,
+      "fim_segundos": 791.26,
+      "inicio_global_segundos": 788.72,
+      "fim_global_segundos": 791.26,
+      "texto": "for, mais resultados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 791.26,
+      "fim_segundos": 791.94,
+      "inicio_global_segundos": 791.26,
+      "fim_global_segundos": 791.94,
+      "texto": "você gera."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 793.38,
+      "fim_segundos": 794.8000000000001,
+      "inicio_global_segundos": 793.38,
+      "fim_global_segundos": 794.8,
+      "texto": "Te vejo na próxima aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 794.8000000000001,
+      "fim_segundos": 796.72,
+      "inicio_global_segundos": 794.8,
+      "fim_global_segundos": 796.72,
+      "texto": "quando vamos iniciar a criação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 796.72,
+      "fim_segundos": 798.9200000000001,
+      "inicio_global_segundos": 796.72,
+      "fim_global_segundos": 798.92,
+      "texto": "de uma campanha no Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 798.9200000000001,
+      "fim_segundos": 800.46,
+      "inicio_global_segundos": 798.92,
+      "fim_global_segundos": 800.46,
+      "texto": "do absoluto zero"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 800.46,
+      "fim_segundos": 802.2,
+      "inicio_global_segundos": 800.46,
+      "fim_global_segundos": 802.2,
+      "texto": "e o passo a passo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 08 - Rede de Pesquisa/m8_a7_estrutura_de_campanhas_do_google.mp4",
+      "inicio_segundos": 802.2,
+      "fim_segundos": 804.3000000000001,
+      "inicio_global_segundos": 802.2,
+      "fim_global_segundos": 804.3,
+      "texto": "É isso. Um forte abraço."
+    }
+  ]
+}

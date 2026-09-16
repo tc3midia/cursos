@@ -1,0 +1,2577 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 09 - Facebook e Instagram Ads",
+  "aula_numero": 20,
+  "titulo": "Boas praticas ios 14",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "sha256": "8bb66bf7a909660f034fe4bbad193dd6f54f6820e7b430cdf6717792ac5a0cd3",
+      "duracao_segundos": 961.877578,
+      "origem": "https://drive.google.com/drive/folders/1IscwBtiyGPNNtEAq6NV2CWASDx-7SGSB?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T19:52:35.156555+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 10.3,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 10.3,
+      "texto": "Seja bem-vindo aqui a mais uma aula no módulo de Facebook Ads, de Instagram Ads, do Conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 10.3,
+      "fim_segundos": 16.04,
+      "inicio_global_segundos": 10.3,
+      "fim_global_segundos": 16.04,
+      "texto": "Extrema. Nessa aula eu resolvi trazer algo extra, tá? Não faz parte do módulo, por isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 16.04,
+      "fim_segundos": 22.240000000000002,
+      "inicio_global_segundos": 16.04,
+      "fim_global_segundos": 22.24,
+      "texto": "que ela tá aqui no finzinho como uma aula extra, porque eu decidi manter você o mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 22.240000000000002,
+      "fim_segundos": 29.38,
+      "inicio_global_segundos": 22.24,
+      "fim_global_segundos": 29.38,
+      "texto": "atualizado possível a respeito dessas políticas que já foram alvo aí de muitas polêmicas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 29.38,
+      "fim_segundos": 36.9,
+      "inicio_global_segundos": 29.38,
+      "fim_global_segundos": 36.9,
+      "texto": "que vai performar as minhas campanhas de forma negativa, vai aumentar os meus custos e não sei o que lá,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 37.24,
+      "fim_segundos": 43.3,
+      "inicio_global_segundos": 37.24,
+      "fim_global_segundos": 43.3,
+      "texto": "eu não vou conseguir mais rastrear os meus leads, enfim, a gente vai ver tudo o que tem de mais atualizado aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 43.3,
+      "fim_segundos": 52.739999999999995,
+      "inicio_global_segundos": 43.3,
+      "fim_global_segundos": 52.74,
+      "texto": "sobre o iOS 14 ou iOS 15, tá? 16, 17 e assim vai, sempre que houver uma atualização desse porte,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 53.58,
+      "fim_segundos": 56.54,
+      "inicio_global_segundos": 53.58,
+      "fim_global_segundos": 56.54,
+      "texto": "a gente vai atualizar aqui também no Conversão Extrema, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 56.54,
+      "fim_segundos": 63.28,
+      "inicio_global_segundos": 56.54,
+      "fim_global_segundos": 63.28,
+      "texto": "Essa vai ser uma aula um pouco mais teórica, é uma aula onde eu vou ler um pouquinho mais aqui o slide, tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 63.64,
+      "fim_segundos": 67.2,
+      "inicio_global_segundos": 63.64,
+      "fim_global_segundos": 67.2,
+      "texto": "Pra passar todas as informações precisas pra você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 68.28,
+      "fim_segundos": 75.0,
+      "inicio_global_segundos": 68.28,
+      "fim_global_segundos": 75.0,
+      "texto": "Em junho de 2020, a Apple anunciou uma nova política chamada App Tracking Transparency Framework."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 75.44,
+      "fim_segundos": 78.03999999999999,
+      "inicio_global_segundos": 75.44,
+      "fim_global_segundos": 78.04,
+      "texto": "Agora, se você é professor de inglês, você vai jogar o meu inglês aí, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 78.78,
+      "fim_segundos": 80.98,
+      "inicio_global_segundos": 78.78,
+      "fim_global_segundos": 80.98,
+      "texto": "Todos os anunciantes serão afetados de alguma maneira."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 81.56,
+      "fim_segundos": 85.78,
+      "inicio_global_segundos": 81.56,
+      "fim_global_segundos": 85.78,
+      "texto": "Isso vai fazer com que os dados fiquem restritos, agregados ou atrasados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 85.78,
+      "fim_segundos": 101.2,
+      "inicio_global_segundos": 85.78,
+      "fim_global_segundos": 101.2,
+      "texto": "Eu não sei se já aconteceu com você, no momento que você instala um aplicativo no seu celular, ele abre uma caixa de notificação pedindo se você permite ou não o rastreio de dados por parte do determinado aplicativo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 101.48,
+      "fim_segundos": 104.7,
+      "inicio_global_segundos": 101.48,
+      "fim_global_segundos": 104.7,
+      "texto": "No caso, Instagram, Facebook, enfim, qualquer outro aplicativo, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 105.48,
+      "fim_segundos": 108.78,
+      "inicio_global_segundos": 105.48,
+      "fim_global_segundos": 108.78,
+      "texto": "Todos os aplicativos foram afetados, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 109.78,
+      "fim_segundos": 114.96000000000001,
+      "inicio_global_segundos": 109.78,
+      "fim_global_segundos": 114.96,
+      "texto": "E todos eles também tiveram que se readequar a essas novas políticas aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 114.96,
+      "fim_segundos": 126.16,
+      "inicio_global_segundos": 114.96,
+      "fim_global_segundos": 126.16,
+      "texto": "O rótulo de dados são, todos os aplicativos devem apresentar informações sobre suas políticas, sobre suas práticas e pedidos de dados via aplicativo da Apple."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 126.78,
+      "fim_segundos": 134.84,
+      "inicio_global_segundos": 126.78,
+      "fim_global_segundos": 134.84,
+      "texto": "Promet de track de transparência, todos os aplicativos devem solicitar permissões para rastreamento nos apps externos ou sites por meio de pop-up."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 134.94,
+      "fim_segundos": 141.5,
+      "inicio_global_segundos": 134.94,
+      "fim_global_segundos": 141.5,
+      "texto": "Isso aqui são solicitações da Apple aos desenvolvedores de aplicativo, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 141.82,
+      "fim_segundos": 143.29999999999998,
+      "inicio_global_segundos": 141.82,
+      "fim_global_segundos": 143.3,
+      "texto": "As alternativas, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 143.3,
+      "fim_segundos": 147.8,
+      "inicio_global_segundos": 143.3,
+      "fim_global_segundos": 147.8,
+      "texto": "compartilhamento de dados via API de conversão do próprio Facebook para auxiliar nas conversões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 147.96,
+      "fim_segundos": 154.76000000000002,
+      "inicio_global_segundos": 147.96,
+      "fim_global_segundos": 154.76,
+      "texto": "Olha como o tempo passa rápido e a gente precisa se readequar junto com essas mudanças."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 155.34,
+      "fim_segundos": 159.60000000000002,
+      "inicio_global_segundos": 155.34,
+      "fim_global_segundos": 159.6,
+      "texto": "Lá em 2018 teve uma parada chamada Regulamento Geral de Proteção de Dados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 159.60000000000002,
+      "fim_segundos": 163.84,
+      "inicio_global_segundos": 159.6,
+      "fim_global_segundos": 163.84,
+      "texto": "Em 2019 os provedores de sistemas operacionais e dispositivos móveis"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 163.84,
+      "fim_segundos": 168.54000000000002,
+      "inicio_global_segundos": 163.84,
+      "fim_global_segundos": 168.54,
+      "texto": "anunciam políticas que exigem que os usuários optem pelo rastreamento."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 168.54,
+      "fim_segundos": 177.12,
+      "inicio_global_segundos": 168.54,
+      "fim_global_segundos": 177.12,
+      "texto": "2020, lei de privacidade do consumidor da Califórnia, LGPD no Brasil, das leis de proteção de dados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 177.12,
+      "fim_segundos": 185.26,
+      "inicio_global_segundos": 177.12,
+      "fim_global_segundos": 185.26,
+      "texto": "em 2021 daí, os desenvolvedores de aplicativos precisarão pedir aos usuários do iOS 14 permissão para rastreá-los"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 185.26,
+      "fim_segundos": 189.06,
+      "inicio_global_segundos": 185.26,
+      "fim_global_segundos": 189.06,
+      "texto": "isso acontece por enquanto só com usuários da Apple"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 189.06,
+      "fim_segundos": 197.48,
+      "inicio_global_segundos": 189.06,
+      "fim_global_segundos": 197.48,
+      "texto": "essas novas políticas terão impacto sobre segmentação, otimização e mensuração de aplicativos e campanhas da web para celular"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 197.48,
+      "fim_segundos": 206.54,
+      "inicio_global_segundos": 197.48,
+      "fim_global_segundos": 206.54,
+      "texto": "Beleza? Ou seja, todos os usuários que utilizam do iOS 14 para cima, eles foram afetados por essas políticas da Apple aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 206.66,
+      "fim_segundos": 218.23999999999998,
+      "inicio_global_segundos": 206.66,
+      "fim_global_segundos": 218.24,
+      "texto": "Eu lembro que quando surgiu essa notícia, os heads do Facebook ficaram bem irritados porque isso influenciou de forma negativa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 218.23999999999998,
+      "fim_segundos": 222.89999999999998,
+      "inicio_global_segundos": 218.24,
+      "fim_global_segundos": 222.9,
+      "texto": "como que essa notícia chegou aos ouvidos dos anunciantes."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 222.89999999999998,
+      "fim_segundos": 227.45999999999998,
+      "inicio_global_segundos": 222.9,
+      "fim_global_segundos": 227.46,
+      "texto": "Todo mundo ficou desesperado, achou que ia ter que parar investimento, achou que ia ter que correr para outra plataforma."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 227.48,
+      "fim_segundos": 234.42,
+      "inicio_global_segundos": 227.48,
+      "fim_global_segundos": 234.42,
+      "texto": "mas o Facebook sempre busca trazer melhores alternativas para o seu usuário e para quem também anuncia."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 235.14,
+      "fim_segundos": 240.32,
+      "inicio_global_segundos": 235.14,
+      "fim_global_segundos": 240.32,
+      "texto": "Em 2022, a maioria dos navegadores da web não suportará mais cookies, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 240.38,
+      "fim_segundos": 244.78,
+      "inicio_global_segundos": 240.38,
+      "fim_global_segundos": 244.78,
+      "texto": "Então, todos os sites que você entra, tem lá um aceito os cookies, aquela coisa toda,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 245.51999999999998,
+      "fim_segundos": 251.32,
+      "inicio_global_segundos": 245.52,
+      "fim_global_segundos": 251.32,
+      "texto": "e são coisas mais técnicas, assim, de uma linguagem mais técnica, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 251.32,
+      "fim_segundos": 256.76,
+      "inicio_global_segundos": 251.32,
+      "fim_global_segundos": 256.76,
+      "texto": "Mas eu estou fazendo essa introdução porque daqui a pouquinho você vai ver as mudanças, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 256.76,
+      "fim_segundos": 262.44,
+      "inicio_global_segundos": 256.76,
+      "fim_global_segundos": 262.44,
+      "texto": "o que você tem que se adequar para acompanhar essa atualização da Apple que teve, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 263.46,
+      "fim_segundos": 265.96,
+      "inicio_global_segundos": 263.46,
+      "fim_global_segundos": 265.96,
+      "texto": "Facebook, isso aqui é interessante, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 266.06,
+      "fim_segundos": 271.08,
+      "inicio_global_segundos": 266.06,
+      "fim_global_segundos": 271.08,
+      "texto": "Poderia ser pior caso o Facebook não adequasse seus aplicativos junto ao Promet da Apple."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 271.44,
+      "fim_segundos": 275.76,
+      "inicio_global_segundos": 271.44,
+      "fim_global_segundos": 275.76,
+      "texto": "Nesse caso, a Apple excluiria todos os aplicativos pertencentes ao Facebook de suas plataformas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 276.98,
+      "fim_segundos": 281.03999999999996,
+      "inicio_global_segundos": 276.98,
+      "fim_global_segundos": 281.04,
+      "texto": "Pensa comigo o seguinte, o Promet da Apple como se fosse um servidor da Apple."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 281.04,
+      "fim_segundos": 289.90000000000003,
+      "inicio_global_segundos": 281.04,
+      "fim_global_segundos": 289.9,
+      "texto": "Se o Facebook, o Instagram, o WhatsApp não se readequassem a esse servidor, a essas regras da Apple de lei de proteção de dados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 289.90000000000003,
+      "fim_segundos": 299.26,
+      "inicio_global_segundos": 289.9,
+      "fim_global_segundos": 299.26,
+      "texto": "Eles ameaçaram excluir os aplicativos da loja, da Apple Store, aplicativo de Facebook, de Instagram, de WhatsApp e todos da mesma família"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 299.26,
+      "fim_segundos": 303.16,
+      "inicio_global_segundos": 299.26,
+      "fim_global_segundos": 303.16,
+      "texto": "E aí o Facebook obviamente não ia deixar isso acontecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 303.16,
+      "fim_segundos": 309.24,
+      "inicio_global_segundos": 303.16,
+      "fim_global_segundos": 309.24,
+      "texto": "O que que acontece? O Promet de comando da Apple tem duas opções"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 309.24,
+      "fim_segundos": 317.62,
+      "inicio_global_segundos": 309.24,
+      "fim_global_segundos": 317.62,
+      "texto": "Quando você baixa o aplicativo, abre um pop-up na sua tela do seu celular, perguntando se você permite ou não."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 318.36,
+      "fim_segundos": 322.84000000000003,
+      "inicio_global_segundos": 318.36,
+      "fim_global_segundos": 322.84,
+      "texto": "Quando você clica em sim, que é o opt-in, nenhuma mudança acontece."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 323.24,
+      "fim_segundos": 325.14,
+      "inicio_global_segundos": 323.24,
+      "fim_global_segundos": 325.14,
+      "texto": "O jogo segue, a vida segue normal."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 325.96000000000004,
+      "fim_segundos": 332.68,
+      "inicio_global_segundos": 325.96,
+      "fim_global_segundos": 332.68,
+      "texto": "Agora, quando você seleciona a opção de não compartilhar, o Facebook limita o uso de dados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 332.92,
+      "fim_segundos": 336.6,
+      "inicio_global_segundos": 332.92,
+      "fim_global_segundos": 336.6,
+      "texto": "Os eventos de conversão serão restritos, agregados ou atrasados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 336.6,
+      "fim_segundos": 343.38,
+      "inicio_global_segundos": 336.6,
+      "fim_global_segundos": 343.38,
+      "texto": "Para contabilizar novos dados, o Facebook deve fazer mudança significativa nos fluxos de publicidade no aplicativo e da web."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 343.48,
+      "fim_segundos": 347.26000000000005,
+      "inicio_global_segundos": 343.48,
+      "fim_global_segundos": 347.26,
+      "texto": "Pode ter acontecido com você já, por exemplo, quando você vai analisar uma campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 347.48,
+      "fim_segundos": 354.0,
+      "inicio_global_segundos": 347.48,
+      "fim_global_segundos": 354.0,
+      "texto": "o Facebook não mostra mais quantos homens, quantas mulheres, qual a idade, qual cidade,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 354.40000000000003,
+      "fim_segundos": 360.46000000000004,
+      "inicio_global_segundos": 354.4,
+      "fim_global_segundos": 360.46,
+      "texto": "porque algumas pessoas optam por não compartilhar mais os dados dela com essas plataformas que fazem anúncio, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 360.82000000000005,
+      "fim_segundos": 363.94,
+      "inicio_global_segundos": 360.82,
+      "fim_global_segundos": 363.94,
+      "texto": "Então cada vez menos você vai conseguir fazer anúncios personalizados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 363.94,
+      "fim_segundos": 369.14,
+      "inicio_global_segundos": 363.94,
+      "fim_global_segundos": 369.14,
+      "texto": "Aí que está a importância de ter a pesquisa com o seu público comprador"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 369.14,
+      "fim_segundos": 371.7,
+      "inicio_global_segundos": 369.14,
+      "fim_global_segundos": 371.7,
+      "texto": "Porque quem tem pesquisa com o público comprador"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 371.7,
+      "fim_segundos": 373.78,
+      "inicio_global_segundos": 371.7,
+      "fim_global_segundos": 373.78,
+      "texto": "Não sentiu diferença nenhuma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 373.78,
+      "fim_segundos": 375.08,
+      "inicio_global_segundos": 373.78,
+      "fim_global_segundos": 375.08,
+      "texto": "A segmentação segue a mesma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 375.08,
+      "fim_segundos": 377.68,
+      "inicio_global_segundos": 375.08,
+      "fim_global_segundos": 377.68,
+      "texto": "Por mais que dentro da plataforma não tenha esses dados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 377.68,
+      "fim_segundos": 381.96,
+      "inicio_global_segundos": 377.68,
+      "fim_global_segundos": 381.96,
+      "texto": "A minha pesquisa, eu sei que estou anunciando para as pessoas certas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 381.96,
+      "fim_segundos": 382.4,
+      "inicio_global_segundos": 381.96,
+      "fim_global_segundos": 382.4,
+      "texto": "Tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 383.7,
+      "fim_segundos": 385.38,
+      "inicio_global_segundos": 383.7,
+      "fim_global_segundos": 385.38,
+      "texto": "Opt in, quando o usuário permite"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 385.38,
+      "fim_segundos": 389.14,
+      "inicio_global_segundos": 385.38,
+      "fim_global_segundos": 389.14,
+      "texto": "Opt out, quando o usuário não permite o rastreamento total dos dados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 389.14,
+      "fim_segundos": 392.22,
+      "inicio_global_segundos": 389.14,
+      "fim_global_segundos": 392.22,
+      "texto": "Nesse caso, apenas um retorno de evento"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 392.22,
+      "fim_segundos": 395.68,
+      "inicio_global_segundos": 392.22,
+      "fim_global_segundos": 395.68,
+      "texto": "o principal escolhido por você será mensurado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 396.1,
+      "fim_segundos": 400.68,
+      "inicio_global_segundos": 396.1,
+      "fim_global_segundos": 400.68,
+      "texto": "A gente falou isso também na aula de pixel eventos e domínios, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 401.12,
+      "fim_segundos": 407.98,
+      "inicio_global_segundos": 401.12,
+      "fim_global_segundos": 407.98,
+      "texto": "Ou seja, essa atualização da Apple fez com que cada domínio, cada site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 408.5,
+      "fim_segundos": 412.38000000000005,
+      "inicio_global_segundos": 408.5,
+      "fim_global_segundos": 412.38,
+      "texto": "tivesse apenas oito eventos de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 412.38000000000005,
+      "fim_segundos": 419.92,
+      "inicio_global_segundos": 412.38,
+      "fim_global_segundos": 419.92,
+      "texto": "E, por exemplo, mesmo que a pessoa do usuário do iOS 14"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 419.92,
+      "fim_segundos": 422.90000000000003,
+      "inicio_global_segundos": 419.92,
+      "fim_global_segundos": 422.9,
+      "texto": "Não permita o rastreamento"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 422.90000000000003,
+      "fim_segundos": 424.38,
+      "inicio_global_segundos": 422.9,
+      "fim_global_segundos": 424.38,
+      "texto": "Se você pegar essa pessoa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 424.38,
+      "fim_segundos": 427.76,
+      "inicio_global_segundos": 424.38,
+      "fim_global_segundos": 427.76,
+      "texto": "Através do seu evento principal"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 427.76,
+      "fim_segundos": 429.40000000000003,
+      "inicio_global_segundos": 427.76,
+      "fim_global_segundos": 429.4,
+      "texto": "Que é de compra ou lead"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 429.40000000000003,
+      "fim_segundos": 433.18,
+      "inicio_global_segundos": 429.4,
+      "fim_global_segundos": 433.18,
+      "texto": "Essa informação vai para o seu servidor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 433.18,
+      "fim_segundos": 436.46000000000004,
+      "inicio_global_segundos": 433.18,
+      "fim_global_segundos": 436.46,
+      "texto": "Do seu servidor vai para o Facebook"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 436.46000000000004,
+      "fim_segundos": 438.8,
+      "inicio_global_segundos": 436.46,
+      "fim_global_segundos": 438.8,
+      "texto": "E aí a vida segue normal"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 438.8,
+      "fim_segundos": 439.72,
+      "inicio_global_segundos": 438.8,
+      "fim_global_segundos": 439.72,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 440.20000000000005,
+      "fim_segundos": 442.70000000000005,
+      "inicio_global_segundos": 440.2,
+      "fim_global_segundos": 442.7,
+      "texto": "Então por isso que é importante você selecionar os seus eventos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 442.70000000000005,
+      "fim_segundos": 444.86,
+      "inicio_global_segundos": 442.7,
+      "fim_global_segundos": 444.86,
+      "texto": "Por ordem de prioridade do 1 ao 8"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 444.86,
+      "fim_segundos": 448.34000000000003,
+      "inicio_global_segundos": 444.86,
+      "fim_global_segundos": 448.34,
+      "texto": "Nós vamos chegar nessa etapa aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 448.34,
+      "fim_segundos": 452.41999999999996,
+      "inicio_global_segundos": 448.34,
+      "fim_global_segundos": 452.42,
+      "texto": "anunciantes da web, Facebook Pixel ou API"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 452.41999999999996,
+      "fim_segundos": 454.52,
+      "inicio_global_segundos": 452.42,
+      "fim_global_segundos": 454.52,
+      "texto": "a Apple criou um novo protocolo para atribuição"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 454.52,
+      "fim_segundos": 457.29999999999995,
+      "inicio_global_segundos": 454.52,
+      "fim_global_segundos": 457.3,
+      "texto": "chamado PCM, mensuração de cliques privados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 457.29999999999995,
+      "fim_segundos": 461.0,
+      "inicio_global_segundos": 457.3,
+      "fim_global_segundos": 461.0,
+      "texto": "restringe significativamente os dados de quem pode compartilhar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 461.0,
+      "fim_segundos": 462.78,
+      "inicio_global_segundos": 461.0,
+      "fim_global_segundos": 462.78,
+      "texto": "entre empresas e plataformas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 462.78,
+      "fim_segundos": 464.88,
+      "inicio_global_segundos": 462.78,
+      "fim_global_segundos": 464.88,
+      "texto": "não suporta mensuração de conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 464.88,
+      "fim_segundos": 467.15999999999997,
+      "inicio_global_segundos": 464.88,
+      "fim_global_segundos": 467.16,
+      "texto": "e avaliação entre domínios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 467.15999999999997,
+      "fim_segundos": 470.21999999999997,
+      "inicio_global_segundos": 467.16,
+      "fim_global_segundos": 470.22,
+      "texto": "e aí quais são as soluções do Facebook para isso?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 470.55999999999995,
+      "fim_segundos": 473.62,
+      "inicio_global_segundos": 470.56,
+      "fim_global_segundos": 473.62,
+      "texto": "foi criada a mensuração de eventos agregados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 473.62,
+      "fim_segundos": 475.73999999999995,
+      "inicio_global_segundos": 473.62,
+      "fim_global_segundos": 475.74,
+      "texto": "a mensuração de eventos agregados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 475.74,
+      "fim_segundos": 479.22,
+      "inicio_global_segundos": 475.74,
+      "fim_global_segundos": 479.22,
+      "texto": "é uma função que está dentro do gerenciador de eventos do Facebook,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 479.54,
+      "fim_segundos": 481.54,
+      "inicio_global_segundos": 479.54,
+      "fim_global_segundos": 481.54,
+      "texto": "onde você pode fazer, no máximo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 481.74,
+      "fim_segundos": 484.14,
+      "inicio_global_segundos": 481.74,
+      "fim_global_segundos": 484.14,
+      "texto": "oito eventos personalizados por domínio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 484.66,
+      "fim_segundos": 487.56,
+      "inicio_global_segundos": 484.66,
+      "fim_global_segundos": 487.56,
+      "texto": "E você escolhe esses eventos personalizados por domínio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 487.56,
+      "fim_segundos": 489.74,
+      "inicio_global_segundos": 487.56,
+      "fim_global_segundos": 489.74,
+      "texto": "de forma em prioridades, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 490.0,
+      "fim_segundos": 491.76,
+      "inicio_global_segundos": 490.0,
+      "fim_global_segundos": 491.76,
+      "texto": "Ou seja, o que é mais importante para você?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 492.14,
+      "fim_segundos": 493.46000000000004,
+      "inicio_global_segundos": 492.14,
+      "fim_global_segundos": 493.46,
+      "texto": "Será que é uma visualização de página?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 493.84000000000003,
+      "fim_segundos": 494.82,
+      "inicio_global_segundos": 493.84,
+      "fim_global_segundos": 494.82,
+      "texto": "Ou será que é uma compra?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 494.90000000000003,
+      "fim_segundos": 496.0,
+      "inicio_global_segundos": 494.9,
+      "fim_global_segundos": 496.0,
+      "texto": "Ou será que é um lead, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 496.24,
+      "fim_segundos": 499.42,
+      "inicio_global_segundos": 496.24,
+      "fim_global_segundos": 499.42,
+      "texto": "Então, defina, faça a sua lista de oito eventos, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 500.2,
+      "fim_segundos": 503.38,
+      "inicio_global_segundos": 500.2,
+      "fim_global_segundos": 503.38,
+      "texto": "E defina quais que têm mais prioridade para você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 503.38,
+      "fim_segundos": 510.52,
+      "inicio_global_segundos": 503.38,
+      "fim_global_segundos": 510.52,
+      "texto": "E aí é o seguinte, limita a transmissão de dados do usuário ao mesmo tempo que oferece suporte a casos de uso de anunciantes."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 510.8,
+      "fim_segundos": 513.9,
+      "inicio_global_segundos": 510.8,
+      "fim_global_segundos": 513.9,
+      "texto": "Suporte a atribuição de aplicativo versus web."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 514.4399999999999,
+      "fim_segundos": 518.46,
+      "inicio_global_segundos": 514.44,
+      "fim_global_segundos": 518.46,
+      "texto": "Mesmo assim, não resolverá todos os problemas porque alguns dados ficarão ocultos, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 518.76,
+      "fim_segundos": 524.16,
+      "inicio_global_segundos": 518.76,
+      "fim_global_segundos": 524.16,
+      "texto": "Mudanças. Quando os dados são restritos, agregados, atrasados, os clientes precisarão se adaptar a algumas mudanças."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 524.66,
+      "fim_segundos": 528.14,
+      "inicio_global_segundos": 524.66,
+      "fim_global_segundos": 528.14,
+      "texto": "Número 1, configuração de ferramenta de negócios."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 528.14,
+      "fim_segundos": 529.96,
+      "inicio_global_segundos": 528.14,
+      "fim_global_segundos": 529.96,
+      "texto": "desde lá do início do módulo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 529.96,
+      "fim_segundos": 532.38,
+      "inicio_global_segundos": 529.96,
+      "fim_global_segundos": 532.38,
+      "texto": "a gente já tá fazendo toda a parte de configuração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 532.38,
+      "fim_segundos": 533.92,
+      "inicio_global_segundos": 532.38,
+      "fim_global_segundos": 533.92,
+      "texto": "já adequando"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 533.92,
+      "fim_segundos": 535.9399999999999,
+      "inicio_global_segundos": 533.92,
+      "fim_global_segundos": 535.94,
+      "texto": "pra essas mudanças, pra essas atualizações"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 535.9399999999999,
+      "fim_segundos": 538.14,
+      "inicio_global_segundos": 535.94,
+      "fim_global_segundos": 538.14,
+      "texto": "limitação de 8 eventos por domínio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 538.14,
+      "fim_segundos": 539.72,
+      "inicio_global_segundos": 538.14,
+      "fim_global_segundos": 539.72,
+      "texto": "personalizado e padrões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 539.72,
+      "fim_segundos": 541.9399999999999,
+      "inicio_global_segundos": 539.72,
+      "fim_global_segundos": 541.94,
+      "texto": "entre os dois, né, configuração por"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 541.9399999999999,
+      "fim_segundos": 544.02,
+      "inicio_global_segundos": 541.94,
+      "fim_global_segundos": 544.02,
+      "texto": "evento e campanhas com mais de 8 eventos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 544.02,
+      "fim_segundos": 546.06,
+      "inicio_global_segundos": 544.02,
+      "fim_global_segundos": 546.06,
+      "texto": "serão pausadas automaticamente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 546.06,
+      "fim_segundos": 547.98,
+      "inicio_global_segundos": 546.06,
+      "fim_global_segundos": 547.98,
+      "texto": "Lucas, eu tô com 8 eventos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 547.98,
+      "fim_segundos": 549.8,
+      "inicio_global_segundos": 547.98,
+      "fim_global_segundos": 549.8,
+      "texto": "só que eu preciso colocar mais um"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 549.8,
+      "fim_segundos": 550.8199999999999,
+      "inicio_global_segundos": 549.8,
+      "fim_global_segundos": 550.82,
+      "texto": "que é muito importante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 550.8199999999999,
+      "fim_segundos": 553.96,
+      "inicio_global_segundos": 550.82,
+      "fim_global_segundos": 553.96,
+      "texto": "tem uma coisa aqui que é uma informação que é importante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 553.96,
+      "fim_segundos": 555.9,
+      "inicio_global_segundos": 553.96,
+      "fim_global_segundos": 555.9,
+      "texto": "tá, a partir do momento que"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 555.9,
+      "fim_segundos": 557.76,
+      "inicio_global_segundos": 555.9,
+      "fim_global_segundos": 557.76,
+      "texto": "você edita os seus"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 557.76,
+      "fim_segundos": 558.74,
+      "inicio_global_segundos": 557.76,
+      "fim_global_segundos": 558.74,
+      "texto": "eventos agregados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 558.74,
+      "fim_segundos": 561.68,
+      "inicio_global_segundos": 558.74,
+      "fim_global_segundos": 561.68,
+      "texto": "você precisa esperar 72 horas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 561.68,
+      "fim_segundos": 563.62,
+      "inicio_global_segundos": 561.68,
+      "fim_global_segundos": 563.62,
+      "texto": "pra voltar a funcionar, não tem choro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 563.62,
+      "fim_segundos": 565.78,
+      "inicio_global_segundos": 563.62,
+      "fim_global_segundos": 565.78,
+      "texto": "nem vela, tá? Você tem que esperar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 565.78,
+      "fim_segundos": 567.76,
+      "inicio_global_segundos": 565.78,
+      "fim_global_segundos": 567.76,
+      "texto": "72 horas pra funcionar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 567.76,
+      "fim_segundos": 569.52,
+      "inicio_global_segundos": 567.76,
+      "fim_global_segundos": 569.52,
+      "texto": "caso você queira fazer alguma alteração de"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 569.52,
+      "fim_segundos": 571.66,
+      "inicio_global_segundos": 569.52,
+      "fim_global_segundos": 571.66,
+      "texto": "prioridade ou quer adicionar algum que"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 571.66,
+      "fim_segundos": 573.3199999999999,
+      "inicio_global_segundos": 571.66,
+      "fim_global_segundos": 573.32,
+      "texto": "não tenha, tá bom? Então"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 573.3199999999999,
+      "fim_segundos": 575.66,
+      "inicio_global_segundos": 573.32,
+      "fim_global_segundos": 575.66,
+      "texto": "tem que aguardar, não tem jeito"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 575.66,
+      "fim_segundos": 577.5,
+      "inicio_global_segundos": 575.66,
+      "fim_global_segundos": 577.5,
+      "texto": "otimização e segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 577.5,
+      "fim_segundos": 579.16,
+      "inicio_global_segundos": 577.5,
+      "fim_global_segundos": 579.16,
+      "texto": "mudança na janela de conversão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 579.16,
+      "fim_segundos": 581.8199999999999,
+      "inicio_global_segundos": 579.16,
+      "fim_global_segundos": 581.82,
+      "texto": "redução nos tamanhos de público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 581.8199999999999,
+      "fim_segundos": 583.72,
+      "inicio_global_segundos": 581.82,
+      "fim_global_segundos": 583.72,
+      "texto": "e performance para públicos menores"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 583.72,
+      "fim_segundos": 585.68,
+      "inicio_global_segundos": 583.72,
+      "fim_global_segundos": 585.68,
+      "texto": "e restritos declínios no"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 585.68,
+      "fim_segundos": 587.8399999999999,
+      "inicio_global_segundos": 585.68,
+      "fim_global_segundos": 587.84,
+      "texto": "desempenho. Eu vou falar por mim, eu não senti"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 587.8399999999999,
+      "fim_segundos": 589.68,
+      "inicio_global_segundos": 587.84,
+      "fim_global_segundos": 589.68,
+      "texto": "tanta diferença assim, porque"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 589.68,
+      "fim_segundos": 591.64,
+      "inicio_global_segundos": 589.68,
+      "fim_global_segundos": 591.64,
+      "texto": "quando a Apple anunciou, eu já me"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 591.64,
+      "fim_segundos": 592.76,
+      "inicio_global_segundos": 591.64,
+      "fim_global_segundos": 592.76,
+      "texto": "adequei rapidamente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 592.76,
+      "fim_segundos": 595.62,
+      "inicio_global_segundos": 592.76,
+      "fim_global_segundos": 595.62,
+      "texto": "às mudanças necessárias que tinham"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 595.62,
+      "fim_segundos": 596.4599999999999,
+      "inicio_global_segundos": 595.62,
+      "fim_global_segundos": 596.46,
+      "texto": "que ser feitas, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 597.4,
+      "fim_segundos": 599.5,
+      "inicio_global_segundos": 597.4,
+      "fim_global_segundos": 599.5,
+      "texto": "Sobre mensuração, não existe mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 599.5,
+      "fim_segundos": 601.9599999999999,
+      "inicio_global_segundos": 599.5,
+      "fim_global_segundos": 601.96,
+      "texto": "atribuição de 28 dias, como antigamente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 602.38,
+      "fim_segundos": 603.7399999999999,
+      "inicio_global_segundos": 602.38,
+      "fim_global_segundos": 603.74,
+      "texto": "sem análise de eventos de conversão,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 603.8599999999999,
+      "fim_segundos": 606.04,
+      "inicio_global_segundos": 603.86,
+      "fim_global_segundos": 606.04,
+      "texto": "os clientes verão menos conversões relatadas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 606.66,
+      "fim_segundos": 607.6999999999999,
+      "inicio_global_segundos": 606.66,
+      "fim_global_segundos": 607.7,
+      "texto": "para conversões relatadas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 607.9,
+      "fim_segundos": 609.66,
+      "inicio_global_segundos": 607.9,
+      "fim_global_segundos": 609.66,
+      "texto": "os detalhamentos não existirão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 609.66,
+      "fim_segundos": 611.4599999999999,
+      "inicio_global_segundos": 609.66,
+      "fim_global_segundos": 611.46,
+      "texto": "mais, como eu falei, né? Homem, mulher,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 611.64,
+      "fim_segundos": 613.4399999999999,
+      "inicio_global_segundos": 611.64,
+      "fim_global_segundos": 613.44,
+      "texto": "idade, local, enfim, essa coisa toda."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 613.62,
+      "fim_segundos": 615.5799999999999,
+      "inicio_global_segundos": 613.62,
+      "fim_global_segundos": 615.58,
+      "texto": "Isso aqui é uma"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 615.58,
+      "fim_segundos": 618.34,
+      "inicio_global_segundos": 615.58,
+      "fim_global_segundos": 618.34,
+      "texto": "mudança de mensuração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 618.34,
+      "fim_segundos": 619.7,
+      "inicio_global_segundos": 618.34,
+      "fim_global_segundos": 619.7,
+      "texto": "então"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 619.7,
+      "fim_segundos": 622.1,
+      "inicio_global_segundos": 619.7,
+      "fim_global_segundos": 622.1,
+      "texto": "a visualização"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 622.1,
+      "fim_segundos": 623.98,
+      "inicio_global_segundos": 622.1,
+      "fim_global_segundos": 623.98,
+      "texto": "verdadeira que tinha antigamente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 623.98,
+      "fim_segundos": 625.98,
+      "inicio_global_segundos": 623.98,
+      "fim_global_segundos": 625.98,
+      "texto": "não existirá mais e janela"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 625.98,
+      "fim_segundos": 628.24,
+      "inicio_global_segundos": 625.98,
+      "fim_global_segundos": 628.24,
+      "texto": "de 28 dias também não existirá mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 628.24,
+      "fim_segundos": 630.2,
+      "inicio_global_segundos": 628.24,
+      "fim_global_segundos": 630.2,
+      "texto": "o que você precisa fazer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 630.2,
+      "fim_segundos": 632.0,
+      "inicio_global_segundos": 630.2,
+      "fim_global_segundos": 632.0,
+      "texto": "verificar o domínio da sua empresa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 632.0,
+      "fim_segundos": 634.08,
+      "inicio_global_segundos": 632.0,
+      "fim_global_segundos": 634.08,
+      "texto": "através do seu gerenciador de negócios"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 634.08,
+      "fim_segundos": 636.0600000000001,
+      "inicio_global_segundos": 634.08,
+      "fim_global_segundos": 636.06,
+      "texto": "lá em gerenciador de negócios, segurança"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 636.0600000000001,
+      "fim_segundos": 638.14,
+      "inicio_global_segundos": 636.06,
+      "fim_global_segundos": 638.14,
+      "texto": "da marca, domínios que tem lá na aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 638.14,
+      "fim_segundos": 639.88,
+      "inicio_global_segundos": 638.14,
+      "fim_global_segundos": 639.88,
+      "texto": "de pixel na parte prática"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 639.88,
+      "fim_segundos": 642.1600000000001,
+      "inicio_global_segundos": 639.88,
+      "fim_global_segundos": 642.16,
+      "texto": "e fazer um ranking dos 8 principais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 642.1600000000001,
+      "fim_segundos": 643.12,
+      "inicio_global_segundos": 642.16,
+      "fim_global_segundos": 643.12,
+      "texto": "eventos por domínio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 643.12,
+      "fim_segundos": 645.48,
+      "inicio_global_segundos": 643.12,
+      "fim_global_segundos": 645.48,
+      "texto": "por ordem de prioridade se houver"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 645.7,
+      "fim_segundos": 645.88,
+      "inicio_global_segundos": 645.7,
+      "fim_global_segundos": 645.88,
+      "texto": "Legal?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 646.14,
+      "fim_segundos": 646.8000000000001,
+      "inicio_global_segundos": 646.14,
+      "fim_global_segundos": 646.8,
+      "texto": "Resumo, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 646.9200000000001,
+      "fim_segundos": 649.64,
+      "inicio_global_segundos": 646.92,
+      "fim_global_segundos": 649.64,
+      "texto": "O que você precisa fazer agora e o que você precisa se preparar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 649.94,
+      "fim_segundos": 651.88,
+      "inicio_global_segundos": 649.94,
+      "fim_global_segundos": 651.88,
+      "texto": "Vamos ver se a gente já fez tudo isso aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 652.32,
+      "fim_segundos": 652.7,
+      "inicio_global_segundos": 652.32,
+      "fim_global_segundos": 652.7,
+      "texto": "Ação 1."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 652.78,
+      "fim_segundos": 654.72,
+      "inicio_global_segundos": 652.78,
+      "fim_global_segundos": 654.72,
+      "texto": "Verifique seu domínio de gerenciador de negócios Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 654.84,
+      "fim_segundos": 655.08,
+      "inicio_global_segundos": 654.84,
+      "fim_global_segundos": 655.08,
+      "texto": "Check."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 655.22,
+      "fim_segundos": 655.74,
+      "inicio_global_segundos": 655.22,
+      "fim_global_segundos": 655.74,
+      "texto": "Ação 2."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 655.94,
+      "fim_segundos": 659.6,
+      "inicio_global_segundos": 655.94,
+      "fim_global_segundos": 659.6,
+      "texto": "Operar e definir a prioridade de 8 eventos de pixel por domínio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 659.6800000000001,
+      "fim_segundos": 660.34,
+      "inicio_global_segundos": 659.68,
+      "fim_global_segundos": 660.34,
+      "texto": "Também está ok."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 660.88,
+      "fim_segundos": 665.12,
+      "inicio_global_segundos": 660.88,
+      "fim_global_segundos": 665.12,
+      "texto": "Antecipar as mudanças de janela de atribuição e atualizar as regras automatizadas, se necessário."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 665.52,
+      "fim_segundos": 665.78,
+      "inicio_global_segundos": 665.52,
+      "fim_global_segundos": 665.78,
+      "texto": "Ok."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 665.88,
+      "fim_segundos": 669.26,
+      "inicio_global_segundos": 665.88,
+      "fim_global_segundos": 669.26,
+      "texto": "A gente viu todas as criações de campanha com janela de atribuição de 7 dias."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 670.08,
+      "fim_segundos": 670.96,
+      "inicio_global_segundos": 670.08,
+      "fim_global_segundos": 670.96,
+      "texto": "Ação número 4."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 671.0600000000001,
+      "fim_segundos": 673.98,
+      "inicio_global_segundos": 671.06,
+      "fim_global_segundos": 673.98,
+      "texto": "Identificar estratégias de otimização de campanha que podem exigir testes."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 673.98,
+      "fim_segundos": 678.64,
+      "inicio_global_segundos": 673.98,
+      "fim_global_segundos": 678.64,
+      "texto": "Ou seja, opções alternativas de público, diferentes estratégias de lance e etc."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 679.3000000000001,
+      "fim_segundos": 686.08,
+      "inicio_global_segundos": 679.3,
+      "fim_global_segundos": 686.08,
+      "texto": "As conversões acontecerão normalmente, porém não serão mensuradas ou serão atrasadas, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 686.8000000000001,
+      "fim_segundos": 692.44,
+      "inicio_global_segundos": 686.8,
+      "fim_global_segundos": 692.44,
+      "texto": "A API de conversões, instalar imediatamente, que a gente também aprendeu, ou seja, olha que interessante, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 692.78,
+      "fim_segundos": 700.66,
+      "inicio_global_segundos": 692.78,
+      "fim_global_segundos": 700.66,
+      "texto": "Desde o início do módulo aqui de Facebook Ads, tudo que a gente está fazendo até aqui já está nas regras,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 700.66,
+      "fim_segundos": 702.56,
+      "inicio_global_segundos": 700.66,
+      "fim_global_segundos": 702.56,
+      "texto": "já é o que há de mais atualizado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 703.04,
+      "fim_segundos": 704.86,
+      "inicio_global_segundos": 703.04,
+      "fim_global_segundos": 704.86,
+      "texto": "Então nós já temos o API de conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 704.86,
+      "fim_segundos": 706.68,
+      "inicio_global_segundos": 704.86,
+      "fim_global_segundos": 706.68,
+      "texto": "instalados também, que é uma ferramenta do"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 706.68,
+      "fim_segundos": 708.9599999999999,
+      "inicio_global_segundos": 706.68,
+      "fim_global_segundos": 708.96,
+      "texto": "Facebook para empresas que permite que você compartilhe"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 708.9599999999999,
+      "fim_segundos": 710.6,
+      "inicio_global_segundos": 708.96,
+      "fim_global_segundos": 710.6,
+      "texto": "seus principais eventos offline"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 710.6,
+      "fim_segundos": 712.74,
+      "inicio_global_segundos": 710.6,
+      "fim_global_segundos": 712.74,
+      "texto": "e online com o web ou ações"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 712.74,
+      "fim_segundos": 714.9,
+      "inicio_global_segundos": 712.74,
+      "fim_global_segundos": 714.9,
+      "texto": "do cliente diretamente dos seus servidores"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 714.9,
+      "fim_segundos": 716.7199999999999,
+      "inicio_global_segundos": 714.9,
+      "fim_global_segundos": 716.72,
+      "texto": "para os servidores do"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 716.7199999999999,
+      "fim_segundos": 718.68,
+      "inicio_global_segundos": 716.72,
+      "fim_global_segundos": 718.68,
+      "texto": "Facebook, né? O Pixel traz"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 718.68,
+      "fim_segundos": 720.64,
+      "inicio_global_segundos": 718.68,
+      "fim_global_segundos": 720.64,
+      "texto": "o servidor, o Pixel pega a informação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 720.64,
+      "fim_segundos": 722.9399999999999,
+      "inicio_global_segundos": 720.64,
+      "fim_global_segundos": 722.94,
+      "texto": "do cliente e leva para o Facebook. A API"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 722.9399999999999,
+      "fim_segundos": 725.1,
+      "inicio_global_segundos": 722.94,
+      "fim_global_segundos": 725.1,
+      "texto": "pega a informação do seu servidor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 725.1,
+      "fim_segundos": 726.76,
+      "inicio_global_segundos": 725.1,
+      "fim_global_segundos": 726.76,
+      "texto": "e do seu servidor é mandado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 726.76,
+      "fim_segundos": 728.78,
+      "inicio_global_segundos": 726.76,
+      "fim_global_segundos": 728.78,
+      "texto": "para o Facebook, legal? É possível"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 728.78,
+      "fim_segundos": 731.02,
+      "inicio_global_segundos": 728.78,
+      "fim_global_segundos": 731.02,
+      "texto": "usar a API para mensurar as ações"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 731.02,
+      "fim_segundos": 732.48,
+      "inicio_global_segundos": 731.02,
+      "fim_global_segundos": 732.48,
+      "texto": "de clientes de várias maneiras,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 733.1999999999999,
+      "fim_segundos": 735.12,
+      "inicio_global_segundos": 733.2,
+      "fim_global_segundos": 735.12,
+      "texto": "melhorar a precisão dos eventos enviados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 735.12,
+      "fim_segundos": 736.9399999999999,
+      "inicio_global_segundos": 735.12,
+      "fim_global_segundos": 736.94,
+      "texto": "para mensuração e otimização quando"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 736.9399999999999,
+      "fim_segundos": 739.0799999999999,
+      "inicio_global_segundos": 736.94,
+      "fim_global_segundos": 739.08,
+      "texto": "usados com o pixel e controla"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 739.0799999999999,
+      "fim_segundos": 741.24,
+      "inicio_global_segundos": 739.08,
+      "fim_global_segundos": 741.24,
+      "texto": "os dados que você compartilha."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 741.68,
+      "fim_segundos": 742.74,
+      "inicio_global_segundos": 741.68,
+      "fim_global_segundos": 742.74,
+      "texto": "Os eventos do servidor API"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 742.74,
+      "fim_segundos": 745.3199999999999,
+      "inicio_global_segundos": 742.74,
+      "fim_global_segundos": 745.32,
+      "texto": "são vinculados ao seu pixel e se comportam"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 745.3199999999999,
+      "fim_segundos": 747.3399999999999,
+      "inicio_global_segundos": 745.32,
+      "fim_global_segundos": 747.34,
+      "texto": "como eventos de pixel, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 747.76,
+      "fim_segundos": 749.02,
+      "inicio_global_segundos": 747.76,
+      "fim_global_segundos": 749.02,
+      "texto": "Duas maneiras de configuração,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 749.02,
+      "fim_segundos": 751.1,
+      "inicio_global_segundos": 749.02,
+      "fim_global_segundos": 751.1,
+      "texto": "que é a parte que você já viu na aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 751.1,
+      "fim_segundos": 752.88,
+      "inicio_global_segundos": 751.1,
+      "fim_global_segundos": 752.88,
+      "texto": "técnica, se for preciso."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 753.1999999999999,
+      "fim_segundos": 755.06,
+      "inicio_global_segundos": 753.2,
+      "fim_global_segundos": 755.06,
+      "texto": "Você pode voltar lá, reassistir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 755.06,
+      "fim_segundos": 756.76,
+      "inicio_global_segundos": 755.06,
+      "fim_global_segundos": 756.76,
+      "texto": "e caso você ainda não tenha verificado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 756.76,
+      "fim_segundos": 758.78,
+      "inicio_global_segundos": 756.76,
+      "fim_global_segundos": 758.78,
+      "texto": "do seu domínio, faça isso agora, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 759.18,
+      "fim_segundos": 760.8,
+      "inicio_global_segundos": 759.18,
+      "fim_global_segundos": 760.8,
+      "texto": "E a diferença do pixel"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 760.8,
+      "fim_segundos": 762.78,
+      "inicio_global_segundos": 760.8,
+      "fim_global_segundos": 762.78,
+      "texto": "e do API do Facebook, eu acabei de falar,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 762.88,
+      "fim_segundos": 764.62,
+      "inicio_global_segundos": 762.88,
+      "fim_global_segundos": 764.62,
+      "texto": "né, que o Facebook, com o pixel,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 765.24,
+      "fim_segundos": 766.54,
+      "inicio_global_segundos": 765.24,
+      "fim_global_segundos": 766.54,
+      "texto": "o Facebook manda"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 766.54,
+      "fim_segundos": 768.72,
+      "inicio_global_segundos": 766.54,
+      "fim_global_segundos": 768.72,
+      "texto": "dados direto pro servidor do"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 768.72,
+      "fim_segundos": 770.4,
+      "inicio_global_segundos": 768.72,
+      "fim_global_segundos": 770.4,
+      "texto": "Facebook e através da API"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 770.4,
+      "fim_segundos": 772.64,
+      "inicio_global_segundos": 770.4,
+      "fim_global_segundos": 772.64,
+      "texto": "cai tudo no seu servidor e o seu servidor"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 772.64,
+      "fim_segundos": 774.86,
+      "inicio_global_segundos": 772.64,
+      "fim_global_segundos": 774.86,
+      "texto": "vai lá pro Facebook, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 776.04,
+      "fim_segundos": 777.04,
+      "inicio_global_segundos": 776.04,
+      "fim_global_segundos": 777.04,
+      "texto": "Eventos agregados,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 777.36,
+      "fim_segundos": 779.04,
+      "inicio_global_segundos": 777.36,
+      "fim_global_segundos": 779.04,
+      "texto": "que é a mensuração de eventos agregados,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 779.04,
+      "fim_segundos": 780.88,
+      "inicio_global_segundos": 779.04,
+      "fim_global_segundos": 780.88,
+      "texto": "uma solução do Facebook para cumprir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 780.88,
+      "fim_segundos": 781.96,
+      "inicio_global_segundos": 780.88,
+      "fim_global_segundos": 781.96,
+      "texto": "os protocolos da Apple."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 782.78,
+      "fim_segundos": 785.02,
+      "inicio_global_segundos": 782.78,
+      "fim_global_segundos": 785.02,
+      "texto": "Os eventos enviados para o Facebook por meio de API"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 785.02,
+      "fim_segundos": 787.26,
+      "inicio_global_segundos": 785.02,
+      "fim_global_segundos": 787.26,
+      "texto": "também serão processados de acordo com os"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 787.26,
+      "fim_segundos": 789.1999999999999,
+      "inicio_global_segundos": 787.26,
+      "fim_global_segundos": 789.2,
+      "texto": "limites definidos pela mensuração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 789.1999999999999,
+      "fim_segundos": 791.18,
+      "inicio_global_segundos": 789.2,
+      "fim_global_segundos": 791.18,
+      "texto": "do evento agregado. Extra."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 791.68,
+      "fim_segundos": 793.22,
+      "inicio_global_segundos": 791.68,
+      "fim_global_segundos": 793.22,
+      "texto": "Evento não aceito. Ao tentar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 793.22,
+      "fim_segundos": 795.06,
+      "inicio_global_segundos": 793.22,
+      "fim_global_segundos": 795.06,
+      "texto": "otimizar para um evento de conversão no site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 795.06,
+      "fim_segundos": 797.1999999999999,
+      "inicio_global_segundos": 795.06,
+      "fim_global_segundos": 797.2,
+      "texto": "que você não definiu como um dos oito"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 797.1999999999999,
+      "fim_segundos": 799.68,
+      "inicio_global_segundos": 797.2,
+      "fim_global_segundos": 799.68,
+      "texto": "eventos de mensuração agregados,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 799.98,
+      "fim_segundos": 801.1,
+      "inicio_global_segundos": 799.98,
+      "fim_global_segundos": 801.1,
+      "texto": "de preferência para o seu domínio,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 801.1999999999999,
+      "fim_segundos": 803.38,
+      "inicio_global_segundos": 801.2,
+      "fim_global_segundos": 803.38,
+      "texto": "o conjunto de anúncios da sua campanha será desativado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 803.8199999999999,
+      "fim_segundos": 805.0799999999999,
+      "inicio_global_segundos": 803.82,
+      "fim_global_segundos": 805.08,
+      "texto": "Ele não poderá ser ativado novamente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 805.66,
+      "fim_segundos": 807.24,
+      "inicio_global_segundos": 805.66,
+      "fim_global_segundos": 807.24,
+      "texto": "Você precisará criar um novo conjunto de"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 807.24,
+      "fim_segundos": 809.1999999999999,
+      "inicio_global_segundos": 807.24,
+      "fim_global_segundos": 809.2,
+      "texto": "anúncios para a campanha em questão"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 809.1999999999999,
+      "fim_segundos": 811.24,
+      "inicio_global_segundos": 809.2,
+      "fim_global_segundos": 811.24,
+      "texto": "e escolher um dos eventos que já priorizou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 811.24,
+      "fim_segundos": 813.36,
+      "inicio_global_segundos": 811.24,
+      "fim_global_segundos": 813.36,
+      "texto": "com o seu gerenciador de eventos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 813.36,
+      "fim_segundos": 815.48,
+      "inicio_global_segundos": 813.36,
+      "fim_global_segundos": 815.48,
+      "texto": "Caso tenha algum erro de configuração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 815.48,
+      "fim_segundos": 817.6,
+      "inicio_global_segundos": 815.48,
+      "fim_global_segundos": 817.6,
+      "texto": "Se não houver um domínio associado a um par de eventos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 817.6,
+      "fim_segundos": 818.84,
+      "inicio_global_segundos": 817.6,
+      "fim_global_segundos": 818.84,
+      "texto": "Do Pixel e o seu anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 818.84,
+      "fim_segundos": 820.6,
+      "inicio_global_segundos": 818.84,
+      "fim_global_segundos": 820.6,
+      "texto": "Será desativado também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 820.6,
+      "fim_segundos": 821.8000000000001,
+      "inicio_global_segundos": 820.6,
+      "fim_global_segundos": 821.8,
+      "texto": "Para solucionar esse problema"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 821.8000000000001,
+      "fim_segundos": 823.24,
+      "inicio_global_segundos": 821.8,
+      "fim_global_segundos": 823.24,
+      "texto": "Será necessário editar o anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 823.24,
+      "fim_segundos": 825.2,
+      "inicio_global_segundos": 823.24,
+      "fim_global_segundos": 825.2,
+      "texto": "Ou configurar um par de eventos no Pixel"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 825.2,
+      "fim_segundos": 827.44,
+      "inicio_global_segundos": 825.2,
+      "fim_global_segundos": 827.44,
+      "texto": "No gerenciador de eventos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 827.44,
+      "fim_segundos": 830.2,
+      "inicio_global_segundos": 827.44,
+      "fim_global_segundos": 830.2,
+      "texto": "Atualização dos eventos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 830.2,
+      "fim_segundos": 833.0,
+      "inicio_global_segundos": 830.2,
+      "fim_global_segundos": 833.0,
+      "texto": "Eu falei que leva 72 horas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 833.0,
+      "fim_segundos": 834.9,
+      "inicio_global_segundos": 833.0,
+      "fim_global_segundos": 834.9,
+      "texto": "Para você concluir uma ação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 834.9,
+      "fim_segundos": 838.1,
+      "inicio_global_segundos": 834.9,
+      "fim_global_segundos": 838.1,
+      "texto": "Então evite fazer muitas alterações"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 838.1,
+      "fim_segundos": 840.32,
+      "inicio_global_segundos": 838.1,
+      "fim_global_segundos": 840.32,
+      "texto": "Na sua mensuração de eventos agregados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 840.32,
+      "fim_segundos": 840.76,
+      "inicio_global_segundos": 840.32,
+      "fim_global_segundos": 840.76,
+      "texto": "Tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 841.72,
+      "fim_segundos": 843.14,
+      "inicio_global_segundos": 841.72,
+      "fim_global_segundos": 843.14,
+      "texto": "E só para fechar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 843.14,
+      "fim_segundos": 852.28,
+      "inicio_global_segundos": 843.14,
+      "fim_global_segundos": 852.28,
+      "texto": "E eu vou mostrar onde que fica também nessa aula a parte de mensuração de eventos agregados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 852.96,
+      "fim_segundos": 856.54,
+      "inicio_global_segundos": 852.96,
+      "fim_global_segundos": 856.54,
+      "texto": "Você vai vir aqui na sua conta de anúncios, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 857.06,
+      "fim_segundos": 859.62,
+      "inicio_global_segundos": 857.06,
+      "fim_global_segundos": 859.62,
+      "texto": "E vai vir aqui em gerenciador de eventos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 859.86,
+      "fim_segundos": 866.22,
+      "inicio_global_segundos": 859.86,
+      "fim_global_segundos": 866.22,
+      "texto": "Lembrando que tudo isso está o detalhamento, o passo a passo lá na aula prática de pixel eventos e domínios, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 866.74,
+      "fim_segundos": 871.24,
+      "inicio_global_segundos": 866.74,
+      "fim_global_segundos": 871.24,
+      "texto": "Mas, se você está aqui e não quer ir lá agora, não vou ensinar como configurar aqui, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 871.24,
+      "fim_segundos": 883.1,
+      "inicio_global_segundos": 871.24,
+      "fim_global_segundos": 883.1,
+      "texto": "Para isso você vai lá, mas é aqui, na parte de gerenciador de eventos, em mensuração de eventos agregados, você vai clicar aqui e vai gerenciar eventos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 883.3,
+      "fim_segundos": 893.8,
+      "inicio_global_segundos": 883.3,
+      "fim_global_segundos": 893.8,
+      "texto": "E se o seu domínio estiver verificado, vai aparecer nessa próxima tela, o meu é o conversaoextrema.com, e eu tenho aqui sete eventos configurados por ordem de prioridade."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 893.8,
+      "fim_segundos": 898.0999999999999,
+      "inicio_global_segundos": 893.8,
+      "fim_global_segundos": 898.1,
+      "texto": "E eu defini que a minha prioridade aqui é o cadastro, é o lead, né?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 898.18,
+      "fim_segundos": 903.16,
+      "inicio_global_segundos": 898.18,
+      "fim_global_segundos": 903.16,
+      "texto": "Porque o meu modelo de negócio, eu faço a captura de leads e não uma venda direta, por exemplo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 903.68,
+      "fim_segundos": 916.8,
+      "inicio_global_segundos": 903.68,
+      "fim_global_segundos": 916.8,
+      "texto": "Agora no caso de um e-commerce, você pode botar por ordem de prioridade, tipo compra, adição ao carrinho, visualização de produto, pá, pá, pá, pá, até bater oito eventos de mensuração aqui nos eventos agregados, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 916.8,
+      "fim_segundos": 922.3399999999999,
+      "inicio_global_segundos": 916.8,
+      "fim_global_segundos": 922.34,
+      "texto": "Essa foi a aula extra que eu separei aqui no módulo de Facebook Ads e Instagram Ads"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 922.3399999999999,
+      "fim_segundos": 924.76,
+      "inicio_global_segundos": 922.34,
+      "fim_global_segundos": 924.76,
+      "texto": "para manter você o mais atualizado possível."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 925.56,
+      "fim_segundos": 929.62,
+      "inicio_global_segundos": 925.56,
+      "fim_global_segundos": 929.62,
+      "texto": "E lembrando, sempre que houver alguma atualização, a gente vai trazer aqui em primeira mão para vocês."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 930.16,
+      "fim_segundos": 931.9,
+      "inicio_global_segundos": 930.16,
+      "fim_global_segundos": 931.9,
+      "texto": "Beleza? Espero que vocês tenham curtido."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 932.42,
+      "fim_segundos": 936.4599999999999,
+      "inicio_global_segundos": 932.42,
+      "fim_global_segundos": 936.46,
+      "texto": "Não se assustem porque foi uma aula bem com linguagem técnica,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 936.6999999999999,
+      "fim_segundos": 940.56,
+      "inicio_global_segundos": 936.7,
+      "fim_global_segundos": 940.56,
+      "texto": "mas não se preocupe que desde lá do início do módulo, de novo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 941.3,
+      "fim_segundos": 945.78,
+      "inicio_global_segundos": 941.3,
+      "fim_global_segundos": 945.78,
+      "texto": "a gente fez toda a configuração já na parte mais atualizada possível."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 945.78,
+      "fim_segundos": 948.02,
+      "inicio_global_segundos": 945.78,
+      "fim_global_segundos": 948.02,
+      "texto": "Então, mais atualizado que isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 948.02,
+      "fim_segundos": 950.06,
+      "inicio_global_segundos": 948.02,
+      "fim_global_segundos": 950.06,
+      "texto": "É impossível, espero que você tenha curtido"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 950.06,
+      "fim_segundos": 951.8199999999999,
+      "inicio_global_segundos": 950.06,
+      "fim_global_segundos": 951.82,
+      "texto": "Caso tenha alguma dúvida sobre"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 951.8199999999999,
+      "fim_segundos": 954.18,
+      "inicio_global_segundos": 951.82,
+      "fim_global_segundos": 954.18,
+      "texto": "Políticas de privacidade, US14"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 954.18,
+      "fim_segundos": 956.04,
+      "inicio_global_segundos": 954.18,
+      "fim_global_segundos": 956.04,
+      "texto": "Enfim, deixa aqui nos comentários"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 956.04,
+      "fim_segundos": 958.04,
+      "inicio_global_segundos": 956.04,
+      "fim_global_segundos": 958.04,
+      "texto": "E a gente se vê na próxima aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 09 - Facebook e Instagram Ads/m9_a20_boas_praticas_ios_14.mp4",
+      "inicio_segundos": 958.04,
+      "fim_segundos": 959.4,
+      "inicio_global_segundos": 958.04,
+      "fim_global_segundos": 959.4,
+      "texto": "Valeu, fui!"
+    }
+  ]
+}

@@ -1,0 +1,1920 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 07 - Sites Inteligentes",
+  "aula_numero": 8,
+  "titulo": "Como funciona a tag e o pixel",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "sha256": "cbd9b25c5c9e33c4b75bee8253f4d01ce9f88876da2dfbcdc21093d7ea7e1593",
+      "duracao_segundos": 838.1815,
+      "origem": "https://drive.google.com/drive/folders/1zhI0FlBsr3IivyDP_XVNI1KByzfMTTI9?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T18:41:34.732279+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 13.38,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 13.38,
+      "texto": "Nessa aula, nós vamos falar sobre como funcionam as tags do Google e do Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 13.58,
+      "fim_segundos": 18.5,
+      "inicio_global_segundos": 13.58,
+      "fim_global_segundos": 18.5,
+      "texto": "Um tema muito importante que você precisa aplicar aí no seu site, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 18.7,
+      "fim_segundos": 24.62,
+      "inicio_global_segundos": 18.7,
+      "fim_global_segundos": 24.62,
+      "texto": "Porque sem as tags não tem como criar campanhas no Google nem no Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 24.94,
+      "fim_segundos": 27.52,
+      "inicio_global_segundos": 24.94,
+      "fim_global_segundos": 27.52,
+      "texto": "Tiago, mas eu consigo criar para anunciar um vídeo e tal?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 27.52,
+      "fim_segundos": 34.4,
+      "inicio_global_segundos": 27.52,
+      "fim_global_segundos": 34.4,
+      "texto": "tem como criar, mas se você quer gerar resultado, você precisa instalar as tags de maneira correta."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 34.82,
+      "fim_segundos": 40.78,
+      "inicio_global_segundos": 34.82,
+      "fim_global_segundos": 40.78,
+      "texto": "Aqui no Conversão Extreme nós temos um módulo técnico, falando sobre criação de sites e também instalação de tags."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 41.34,
+      "fim_segundos": 45.34,
+      "inicio_global_segundos": 41.34,
+      "fim_global_segundos": 45.34,
+      "texto": "Nessa aula eu vou dar uma visão geral da importância, de como funciona,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 45.68,
+      "fim_segundos": 50.379999999999995,
+      "inicio_global_segundos": 45.68,
+      "fim_global_segundos": 50.38,
+      "texto": "e se você quiser aprender na prática, o passo a passo, a parte técnica,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 50.72,
+      "fim_segundos": 55.8,
+      "inicio_global_segundos": 50.72,
+      "fim_global_segundos": 55.8,
+      "texto": "eu vou recomendar que você assista o módulo aqui de sites, de a parte técnica mesmo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 55.8,
+      "fim_segundos": 59.279999999999994,
+      "inicio_global_segundos": 55.8,
+      "fim_global_segundos": 59.28,
+      "texto": "Porque tem duas maneiras de você instalar as tags no seu site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 59.279999999999994,
+      "fim_segundos": 61.82,
+      "inicio_global_segundos": 59.28,
+      "fim_global_segundos": 61.82,
+      "texto": "A primeira maneira é fazer isso sozinho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 61.82,
+      "fim_segundos": 64.78,
+      "inicio_global_segundos": 61.82,
+      "fim_global_segundos": 64.78,
+      "texto": "Você mesmo ir lá e colocar o passo a passo, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 65.3,
+      "fim_segundos": 69.22,
+      "inicio_global_segundos": 65.3,
+      "fim_global_segundos": 69.22,
+      "texto": "E a segunda maneira é você pedir para quem construiu o seu site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 69.22,
+      "fim_segundos": 70.94,
+      "inicio_global_segundos": 69.22,
+      "fim_global_segundos": 70.94,
+      "texto": "Ou agência ou profissional instalar para você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 70.94,
+      "fim_segundos": 75.44,
+      "inicio_global_segundos": 70.94,
+      "fim_global_segundos": 75.44,
+      "texto": "Que é muito mais fácil, porque ele já tem uma ideia de aplicar isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 75.44,
+      "fim_segundos": 78.25999999999999,
+      "inicio_global_segundos": 75.44,
+      "fim_global_segundos": 78.26,
+      "texto": "Porque, enfim, é o programador que criou o seu site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 78.25999999999999,
+      "fim_segundos": 81.25999999999999,
+      "inicio_global_segundos": 78.26,
+      "fim_global_segundos": 81.26,
+      "texto": "Se você está começando do zero e quer aplicar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 81.25999999999999,
+      "fim_segundos": 83.62,
+      "inicio_global_segundos": 81.26,
+      "fim_global_segundos": 83.62,
+      "texto": "Vai realmente passar um pouco de trabalho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 83.62,
+      "fim_segundos": 86.62,
+      "inicio_global_segundos": 83.62,
+      "fim_global_segundos": 86.62,
+      "texto": "porque, enfim, não é tão fácil quanto parece."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 86.76,
+      "fim_segundos": 90.06,
+      "inicio_global_segundos": 86.76,
+      "fim_global_segundos": 90.06,
+      "texto": "Agora, quem criou o seu site já sabe, é só você falar assim,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 90.14,
+      "fim_segundos": 92.9,
+      "inicio_global_segundos": 90.14,
+      "fim_global_segundos": 92.9,
+      "texto": "cara, eu preciso instalar a tag, é só fazer isso, isso, isso,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 92.94,
+      "fim_segundos": 95.10000000000001,
+      "inicio_global_segundos": 92.94,
+      "fim_global_segundos": 95.1,
+      "texto": "ele vai instalar rapidamente para você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 95.44,
+      "fim_segundos": 98.48,
+      "inicio_global_segundos": 95.44,
+      "fim_global_segundos": 98.48,
+      "texto": "Você faz apenas uma vez e acabou."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 98.92,
+      "fim_segundos": 102.5,
+      "inicio_global_segundos": 98.92,
+      "fim_global_segundos": 102.5,
+      "texto": "A partir dali, você consegue contar conversões, criar públicos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 102.58000000000001,
+      "fim_segundos": 103.84,
+      "inicio_global_segundos": 102.58,
+      "fim_global_segundos": 103.84,
+      "texto": "fazer anúncios de remarketing."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 104.18,
+      "fim_segundos": 108.66,
+      "inicio_global_segundos": 104.18,
+      "fim_global_segundos": 108.66,
+      "texto": "Então, sem as tags, eu digo que é praticamente impossível você crescer,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 108.9,
+      "fim_segundos": 113.58000000000001,
+      "inicio_global_segundos": 108.9,
+      "fim_global_segundos": 113.58,
+      "texto": "escalar e vender muito na internet ao anunciar no Google e no Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 113.62,
+      "fim_segundos": 118.96000000000001,
+      "inicio_global_segundos": 113.62,
+      "fim_global_segundos": 118.96,
+      "texto": "Então, Thiago, como funcionam as tags? O que é uma tag? Vamos lá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 120.04,
+      "fim_segundos": 125.88000000000001,
+      "inicio_global_segundos": 120.04,
+      "fim_global_segundos": 125.88,
+      "texto": "No Google a gente chama de tag, que é o tag do Google Ads, ou o pixel do Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 126.22,
+      "fim_segundos": 133.58,
+      "inicio_global_segundos": 126.22,
+      "fim_global_segundos": 133.58,
+      "texto": "E aí tem outros códigos também, como o código do Google Analytics, o código do Google Tag Manager."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 134.06,
+      "fim_segundos": 140.54000000000002,
+      "inicio_global_segundos": 134.06,
+      "fim_global_segundos": 140.54,
+      "texto": "Enfim, tem vários sites que... Thiago, eu estou anunciando aqui no Twitter, estou anunciando em uma outra plataforma."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 141.12,
+      "fim_segundos": 144.0,
+      "inicio_global_segundos": 141.12,
+      "fim_global_segundos": 144.0,
+      "texto": "essas plataformas também têm as suas tags para você instalar,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 144.34,
+      "fim_segundos": 149.79999999999998,
+      "inicio_global_segundos": 144.34,
+      "fim_global_segundos": 149.8,
+      "texto": "para medir conversões, ações ou criar públicos de remarketing."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 150.06,
+      "fim_segundos": 153.54,
+      "inicio_global_segundos": 150.06,
+      "fim_global_segundos": 153.54,
+      "texto": "Mas basicamente, tag pixel significa a mesma coisa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 154.0,
+      "fim_segundos": 159.29999999999998,
+      "inicio_global_segundos": 154.0,
+      "fim_global_segundos": 159.3,
+      "texto": "Ele é um código de programação, vou falar aqui bem um português aqui,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 159.66,
+      "fim_segundos": 161.1,
+      "inicio_global_segundos": 159.66,
+      "fim_global_segundos": 161.1,
+      "texto": "para que todo mundo possa entender."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 161.1,
+      "fim_segundos": 164.16,
+      "inicio_global_segundos": 161.1,
+      "fim_global_segundos": 164.16,
+      "texto": "É um código que você instala no seu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 164.57999999999998,
+      "fim_segundos": 164.94,
+      "inicio_global_segundos": 164.58,
+      "fim_global_segundos": 164.94,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 165.39999999999998,
+      "fim_segundos": 167.45999999999998,
+      "inicio_global_segundos": 165.4,
+      "fim_global_segundos": 167.46,
+      "texto": "Tiago, em qual página do site?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 167.46,
+      "fim_segundos": 172.14000000000001,
+      "inicio_global_segundos": 167.46,
+      "fim_global_segundos": 172.14,
+      "texto": "Você deve estar lá em um lugar onde pega todas as páginas do seu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 172.36,
+      "fim_segundos": 174.52,
+      "inicio_global_segundos": 172.36,
+      "fim_global_segundos": 174.52,
+      "texto": "Na página principal, na página de obrigado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 174.84,
+      "fim_segundos": 178.24,
+      "inicio_global_segundos": 174.84,
+      "fim_global_segundos": 178.24,
+      "texto": "Então, por exemplo, posso estar lá aqui no rodapé."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 178.54000000000002,
+      "fim_segundos": 181.58,
+      "inicio_global_segundos": 178.54,
+      "fim_global_segundos": 181.58,
+      "texto": "Porque o rodapé tem em todas as páginas do meu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 182.0,
+      "fim_segundos": 184.34,
+      "inicio_global_segundos": 182.0,
+      "fim_global_segundos": 184.34,
+      "texto": "Então você vai lá e instala a tag aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 184.92000000000002,
+      "fim_segundos": 191.32,
+      "inicio_global_segundos": 184.92,
+      "fim_global_segundos": 191.32,
+      "texto": "Pronto, você faz isso uma única vez e ele está marcando todas as pessoas que entram no seu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 191.32,
+      "fim_segundos": 198.68,
+      "inicio_global_segundos": 191.32,
+      "fim_global_segundos": 198.68,
+      "texto": "Você já deve ter entrado em algum site e ter saído e aquele anúncio perseguiu você em muitos outros lugares"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 198.68,
+      "fim_segundos": 207.22,
+      "inicio_global_segundos": 198.68,
+      "fim_global_segundos": 207.22,
+      "texto": "Isso é remarketing e você foi traqueado por causa dessa tag, por causa desse código que foi instalado no site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 207.22,
+      "fim_segundos": 211.79999999999998,
+      "inicio_global_segundos": 207.22,
+      "fim_global_segundos": 211.8,
+      "texto": "Então é super simples de entender, se você quer aprender de novo a parte técnica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 211.79999999999998,
+      "fim_segundos": 215.35999999999999,
+      "inicio_global_segundos": 211.8,
+      "fim_global_segundos": 215.36,
+      "texto": "Tem um módulo e uma aula sobre isso aqui no Conversão Extrema"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 215.36,
+      "fim_segundos": 222.82000000000002,
+      "inicio_global_segundos": 215.36,
+      "fim_global_segundos": 222.82,
+      "texto": "Eu sempre conto com programadores para instalar, mas qualquer pessoa pode instalar isso começando do zero."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 223.10000000000002,
+      "fim_segundos": 226.04000000000002,
+      "inicio_global_segundos": 223.1,
+      "fim_global_segundos": 226.04,
+      "texto": "Agora é o seguinte, como que funciona isso na prática?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 226.10000000000002,
+      "fim_segundos": 231.22000000000003,
+      "inicio_global_segundos": 226.1,
+      "fim_global_segundos": 231.22,
+      "texto": "Eu vou mostrar aqui para vocês como funciona na ferramenta."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 231.68,
+      "fim_segundos": 237.74,
+      "inicio_global_segundos": 231.68,
+      "fim_global_segundos": 237.74,
+      "texto": "Ao entrar na sua conta de Google Ads, se você clicar aqui em ferramentas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 238.12,
+      "fim_segundos": 245.06,
+      "inicio_global_segundos": 238.12,
+      "fim_global_segundos": 245.06,
+      "texto": "nós temos aqui gerenciador de público-salvo e aqui nós podemos acessar origens."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 245.36,
+      "fim_segundos": 246.76000000000002,
+      "inicio_global_segundos": 245.36,
+      "fim_global_segundos": 246.76,
+      "texto": "do público-alvo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 247.32000000000002,
+      "fim_segundos": 250.26000000000002,
+      "inicio_global_segundos": 247.32,
+      "fim_global_segundos": 250.26,
+      "texto": "Então, basicamente, quando você instala essa tag,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 250.60000000000002,
+      "fim_segundos": 256.42,
+      "inicio_global_segundos": 250.6,
+      "fim_global_segundos": 256.42,
+      "texto": "é uma comunicação que você cria entre o site e a ferramenta de tráfego."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 256.82,
+      "fim_segundos": 262.14,
+      "inicio_global_segundos": 256.82,
+      "fim_global_segundos": 262.14,
+      "texto": "Assim, você consegue passar as informações do seu site para essa ferramenta de tráfego."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 262.7,
+      "fim_segundos": 267.5,
+      "inicio_global_segundos": 262.7,
+      "fim_global_segundos": 267.5,
+      "texto": "E aí, a partir dessas informações, você vai conseguir otimizar suas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 267.94,
+      "fim_segundos": 271.94,
+      "inicio_global_segundos": 267.94,
+      "fim_global_segundos": 271.94,
+      "texto": "Você deve ter ouvido falar a frase que aquilo que não pode ser medido"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 271.94,
+      "fim_segundos": 273.44,
+      "inicio_global_segundos": 271.94,
+      "fim_global_segundos": 273.44,
+      "texto": "não tem como ser gerenciado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 273.44,
+      "fim_segundos": 291.52,
+      "inicio_global_segundos": 273.44,
+      "fim_global_segundos": 291.52,
+      "texto": "Ou seja, quando você instala uma tag, você consegue ver quem comprou no seu site, o horário que comprou, você consegue ver a localização, o tipo, o perfil da pessoa que comprou, você consegue ver qual palavra-chave, qual segmentação, qual anúncio, ou seja, tem muitas informações."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 291.52,
+      "fim_segundos": 296.82,
+      "inicio_global_segundos": 291.52,
+      "fim_global_segundos": 296.82,
+      "texto": "E isso é importante por quê? Porque a otimização é feita para..."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 296.82,
+      "fim_segundos": 301.78,
+      "inicio_global_segundos": 296.82,
+      "fim_global_segundos": 301.78,
+      "texto": "O nosso objetivo é impulsionar aquilo que funciona e retirar ou pausar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 301.78,
+      "fim_segundos": 304.7,
+      "inicio_global_segundos": 301.78,
+      "fim_global_segundos": 304.7,
+      "texto": "ou diminuir o orçamento daquilo que não funciona."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 305.06,
+      "fim_segundos": 310.03999999999996,
+      "inicio_global_segundos": 305.06,
+      "fim_global_segundos": 310.04,
+      "texto": "Só que você só vai descobrir aquilo que funciona se você tiver a tag instalada."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 310.59999999999997,
+      "fim_segundos": 314.52,
+      "inicio_global_segundos": 310.6,
+      "fim_global_segundos": 314.52,
+      "texto": "Ou se você quiser fazer um anúncio de remarketing, que é muito importante..."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 315.09999999999997,
+      "fim_segundos": 316.84,
+      "inicio_global_segundos": 315.1,
+      "fim_global_segundos": 316.84,
+      "texto": "Tchau, o que é o anúncio de remarketing?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 317.28,
+      "fim_segundos": 320.08,
+      "inicio_global_segundos": 317.28,
+      "fim_global_segundos": 320.08,
+      "texto": "Ou seja, pessoas que já entraram no seu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 320.58,
+      "fim_segundos": 322.97999999999996,
+      "inicio_global_segundos": 320.58,
+      "fim_global_segundos": 322.98,
+      "texto": "Então, você vai anunciar para elas novamente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 324.35999999999996,
+      "fim_segundos": 328.59999999999997,
+      "inicio_global_segundos": 324.36,
+      "fim_global_segundos": 328.6,
+      "texto": "Esse público é um público muito quente, porque ele já conhece você,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 328.91999999999996,
+      "fim_segundos": 333.68,
+      "inicio_global_segundos": 328.92,
+      "fim_global_segundos": 333.68,
+      "texto": "ele já entrou no seu site uma vez, ele já demonstrou pelo menos o mínimo de interesse"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 333.68,
+      "fim_segundos": 335.34,
+      "inicio_global_segundos": 333.68,
+      "fim_global_segundos": 335.34,
+      "texto": "naquilo que você vende."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 335.9,
+      "fim_segundos": 341.5,
+      "inicio_global_segundos": 335.9,
+      "fim_global_segundos": 341.5,
+      "texto": "Ou seja, se a pessoa sai do seu site e você não traqueia ela,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 342.02,
+      "fim_segundos": 346.41999999999996,
+      "inicio_global_segundos": 342.02,
+      "fim_global_segundos": 346.42,
+      "texto": "você simplesmente perdeu ela no mundo, não tem como conversar com ela novamente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 346.42,
+      "fim_segundos": 351.28000000000003,
+      "inicio_global_segundos": 346.42,
+      "fim_global_segundos": 351.28,
+      "texto": "E aí o seu custo de marketing, de campanhas, ele vai acabar aumentando."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 351.84000000000003,
+      "fim_segundos": 354.22,
+      "inicio_global_segundos": 351.84,
+      "fim_global_segundos": 354.22,
+      "texto": "Agora, se você sabe exatamente quem já entrou no seu site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 354.6,
+      "fim_segundos": 359.48,
+      "inicio_global_segundos": 354.6,
+      "fim_global_segundos": 359.48,
+      "texto": "você pode criar uma campanha no Google e no Facebook só para aparecer para essas pessoas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 360.06,
+      "fim_segundos": 366.74,
+      "inicio_global_segundos": 360.06,
+      "fim_global_segundos": 366.74,
+      "texto": "Dessa maneira, o seu custo de investimento de verbo diminui e o resultado aumenta,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 366.78000000000003,
+      "fim_segundos": 368.72,
+      "inicio_global_segundos": 366.78,
+      "fim_global_segundos": 368.72,
+      "texto": "porque são pessoas que já conhecem você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 369.22,
+      "fim_segundos": 375.70000000000005,
+      "inicio_global_segundos": 369.22,
+      "fim_global_segundos": 375.7,
+      "texto": "Quando você entra aqui em Origens de Público Alvo, nós temos aqui a tag do Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 375.7,
+      "fim_segundos": 379.8,
+      "inicio_global_segundos": 375.7,
+      "fim_global_segundos": 379.8,
+      "texto": "Você pode vincular, inclusive, a sua própria conta de Google com o seu YouTube"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 379.8,
+      "fim_segundos": 383.96,
+      "inicio_global_segundos": 379.8,
+      "fim_global_segundos": 383.96,
+      "texto": "para puxar todas as informações de quem é inscrito no seu canal,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 384.2,
+      "fim_segundos": 387.2,
+      "inicio_global_segundos": 384.2,
+      "fim_global_segundos": 387.2,
+      "texto": "de quem assiste seus vídeos, de quem curte seus vídeos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 387.3,
+      "fim_segundos": 388.5,
+      "inicio_global_segundos": 387.3,
+      "fim_global_segundos": 388.5,
+      "texto": "de quem comenta nos seus vídeos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 388.84,
+      "fim_segundos": 391.71999999999997,
+      "inicio_global_segundos": 388.84,
+      "fim_global_segundos": 391.72,
+      "texto": "Ou seja, é uma integração entre Google Ads e YouTube."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 392.36,
+      "fim_segundos": 394.15999999999997,
+      "inicio_global_segundos": 392.36,
+      "fim_global_segundos": 394.16,
+      "texto": "E o Google Analytics é a mesma coisa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 394.48,
+      "fim_segundos": 400.64,
+      "inicio_global_segundos": 394.48,
+      "fim_global_segundos": 400.64,
+      "texto": "Mas, nesse caso, nós estamos falando sobre a tag do Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 400.64,
+      "fim_segundos": 402.53999999999996,
+      "inicio_global_segundos": 400.64,
+      "fim_global_segundos": 402.54,
+      "texto": "Então, você entra aqui em detalhes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 402.54,
+      "fim_segundos": 406.58000000000004,
+      "inicio_global_segundos": 402.54,
+      "fim_global_segundos": 406.58,
+      "texto": "E você vai ter um código aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 406.58000000000004,
+      "fim_segundos": 409.5,
+      "inicio_global_segundos": 406.58,
+      "fim_global_segundos": 409.5,
+      "texto": "Que é configuração de código"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 409.5,
+      "fim_segundos": 410.94,
+      "inicio_global_segundos": 409.5,
+      "fim_global_segundos": 410.94,
+      "texto": "Inclusive já está instalado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 410.94,
+      "fim_segundos": 413.42,
+      "inicio_global_segundos": 410.94,
+      "fim_global_segundos": 413.42,
+      "texto": "Você pode instalar de três maneiras"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 413.42,
+      "fim_segundos": 415.5,
+      "inicio_global_segundos": 413.42,
+      "fim_global_segundos": 415.5,
+      "texto": "Ou instalar a tag por conta própria"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 415.5,
+      "fim_segundos": 417.52000000000004,
+      "inicio_global_segundos": 415.5,
+      "fim_global_segundos": 417.52,
+      "texto": "Ou enviar a tag por e-mail para alguém"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 417.52000000000004,
+      "fim_segundos": 419.74,
+      "inicio_global_segundos": 417.52,
+      "fim_global_segundos": 419.74,
+      "texto": "Para o seu programador ou para quem criou o seu site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 419.74,
+      "fim_segundos": 422.86,
+      "inicio_global_segundos": 419.74,
+      "fim_global_segundos": 422.86,
+      "texto": "Ou usar o gerenciador de tags do Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 422.86,
+      "fim_segundos": 425.36,
+      "inicio_global_segundos": 422.86,
+      "fim_global_segundos": 425.36,
+      "texto": "Que também é muito bom e recomendado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 425.36,
+      "fim_segundos": 431.56,
+      "inicio_global_segundos": 425.36,
+      "fim_global_segundos": 431.56,
+      "texto": "Porque é um lugar onde você centraliza todas as suas tags e pixels em um só lugar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 431.56,
+      "fim_segundos": 436.12,
+      "inicio_global_segundos": 431.56,
+      "fim_global_segundos": 436.12,
+      "texto": "facilitando aí você adicionar sem entender nada de programação."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 436.62,
+      "fim_segundos": 440.28000000000003,
+      "inicio_global_segundos": 436.62,
+      "fim_global_segundos": 440.28,
+      "texto": "E aí você simplesmente pega a tag, copia esse código,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 440.86,
+      "fim_segundos": 446.1,
+      "inicio_global_segundos": 440.86,
+      "fim_global_segundos": 446.1,
+      "texto": "coloca em uma tag global do Google, adicionando no seu site e fechou."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 446.52,
+      "fim_segundos": 453.32,
+      "inicio_global_segundos": 446.52,
+      "fim_global_segundos": 453.32,
+      "texto": "Você consegue então pegar todas as informações após o usuário entrar no seu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 453.32,
+      "fim_segundos": 460.18,
+      "inicio_global_segundos": 453.32,
+      "fim_global_segundos": 460.18,
+      "texto": "E é por isso que eu não recomendo você anunciar no Google e no Facebook"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 460.18,
+      "fim_segundos": 463.18,
+      "inicio_global_segundos": 460.18,
+      "fim_global_segundos": 463.18,
+      "texto": "se não for para uma landing page."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 463.6,
+      "fim_segundos": 464.76,
+      "inicio_global_segundos": 463.6,
+      "fim_global_segundos": 464.76,
+      "texto": "Isso é fundamental, olha só."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 465.16,
+      "fim_segundos": 467.1,
+      "inicio_global_segundos": 465.16,
+      "fim_global_segundos": 467.1,
+      "texto": "Se você anuncia, porque muita gente pergunta,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 467.2,
+      "fim_segundos": 469.12,
+      "inicio_global_segundos": 467.2,
+      "fim_global_segundos": 469.12,
+      "texto": "Tiago, eu posso anunciar no Google e no Facebook,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 469.72,
+      "fim_segundos": 473.90000000000003,
+      "inicio_global_segundos": 469.72,
+      "fim_global_segundos": 473.9,
+      "texto": "mandar para uma página, mandar para outra página que não seja o meu site,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 473.96000000000004,
+      "fim_segundos": 475.0,
+      "inicio_global_segundos": 473.96,
+      "fim_global_segundos": 475.0,
+      "texto": "porque eu não tenho um site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 475.44,
+      "fim_segundos": 479.78000000000003,
+      "inicio_global_segundos": 475.44,
+      "fim_global_segundos": 479.78,
+      "texto": "Sim, você pode, só que o resultado tende a ser menor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 480.58,
+      "fim_segundos": 480.92,
+      "inicio_global_segundos": 480.58,
+      "fim_global_segundos": 480.92,
+      "texto": "Por quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 481.02,
+      "fim_segundos": 483.06,
+      "inicio_global_segundos": 481.02,
+      "fim_global_segundos": 483.06,
+      "texto": "Porque você não consegue traquear as pessoas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 483.06,
+      "fim_segundos": 487.06,
+      "inicio_global_segundos": 483.06,
+      "fim_global_segundos": 487.06,
+      "texto": "você não consegue ver quais pessoas compraram o seu produto,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 488.02,
+      "fim_segundos": 489.88,
+      "inicio_global_segundos": 488.02,
+      "fim_global_segundos": 489.88,
+      "texto": "qual campanha gerou essa conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 490.18,
+      "fim_segundos": 492.52,
+      "inicio_global_segundos": 490.18,
+      "fim_global_segundos": 492.52,
+      "texto": "E isso é importante para melhorar suas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 493.18,
+      "fim_segundos": 494.08,
+      "inicio_global_segundos": 493.18,
+      "fim_global_segundos": 494.08,
+      "texto": "Então, pense comigo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 494.56,
+      "fim_segundos": 497.22,
+      "inicio_global_segundos": 494.56,
+      "fim_global_segundos": 497.22,
+      "texto": "Você pode mandar do Google para um vídeo no YouTube,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 497.88,
+      "fim_segundos": 499.18,
+      "inicio_global_segundos": 497.88,
+      "fim_global_segundos": 499.18,
+      "texto": "para a página principal do YouTube,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 499.8,
+      "fim_segundos": 502.02,
+      "inicio_global_segundos": 499.8,
+      "fim_global_segundos": 502.02,
+      "texto": "para uma fanpage no Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 502.24,
+      "fim_segundos": 504.32,
+      "inicio_global_segundos": 502.24,
+      "fim_global_segundos": 504.32,
+      "texto": "Você pode mandar para o seu perfil no Instagram."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 505.1,
+      "fim_segundos": 506.3,
+      "inicio_global_segundos": 505.1,
+      "fim_global_segundos": 506.3,
+      "texto": "Sim, isso tudo é possível."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 506.48,
+      "fim_segundos": 507.2,
+      "inicio_global_segundos": 506.48,
+      "fim_global_segundos": 507.2,
+      "texto": "Só que tem um problema."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 507.92,
+      "fim_segundos": 509.28000000000003,
+      "inicio_global_segundos": 507.92,
+      "fim_global_segundos": 509.28,
+      "texto": "Quando a pessoa ir para o seu perfil no Instagram,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 509.88,
+      "fim_segundos": 511.84000000000003,
+      "inicio_global_segundos": 509.88,
+      "fim_global_segundos": 511.84,
+      "texto": "você não vai saber a conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 512.08,
+      "fim_segundos": 516.0,
+      "inicio_global_segundos": 512.08,
+      "fim_global_segundos": 516.0,
+      "texto": "Não tem como fazer um anúncio de remarketing no Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 516.0,
+      "fim_segundos": 517.4,
+      "inicio_global_segundos": 516.0,
+      "fim_global_segundos": 517.4,
+      "texto": "para quem entrou no Instagram."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 517.4,
+      "fim_segundos": 527.9,
+      "inicio_global_segundos": 517.4,
+      "fim_global_segundos": 527.9,
+      "texto": "Ou seja, você perde o seu principal público e as principais informações para a otimização de conversão."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 528.22,
+      "fim_segundos": 533.14,
+      "inicio_global_segundos": 528.22,
+      "fim_global_segundos": 533.14,
+      "texto": "Então, por isso que eu recomendo você anunciar uma landing page com informações claras,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 533.48,
+      "fim_segundos": 538.74,
+      "inicio_global_segundos": 533.48,
+      "fim_global_segundos": 538.74,
+      "texto": "porque além de você facilitar a comunicação, a compra ou se tornar um lead,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 539.22,
+      "fim_segundos": 543.68,
+      "inicio_global_segundos": 539.22,
+      "fim_global_segundos": 543.68,
+      "texto": "você consegue criar público de remarketing e acompanhar as conversões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 544.42,
+      "fim_segundos": 545.3,
+      "inicio_global_segundos": 544.42,
+      "fim_global_segundos": 545.3,
+      "texto": "Então, isso aqui é do Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 545.3,
+      "fim_segundos": 547.9399999999999,
+      "inicio_global_segundos": 545.3,
+      "fim_global_segundos": 547.94,
+      "texto": "Quando você instala o código"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 547.9399999999999,
+      "fim_segundos": 549.4599999999999,
+      "inicio_global_segundos": 547.94,
+      "fim_global_segundos": 549.46,
+      "texto": "Já começa a aparecer como está aparecendo aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 549.4599999999999,
+      "fim_segundos": 551.42,
+      "inicio_global_segundos": 549.46,
+      "fim_global_segundos": 551.42,
+      "texto": "Os hits, que são aí"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 551.42,
+      "fim_segundos": 553.68,
+      "inicio_global_segundos": 551.42,
+      "fim_global_segundos": 553.68,
+      "texto": "Cada vez que o código é acionado"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 553.68,
+      "fim_segundos": 554.9599999999999,
+      "inicio_global_segundos": 553.68,
+      "fim_global_segundos": 554.96,
+      "texto": "Ele conta como um hit"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 554.9599999999999,
+      "fim_segundos": 557.78,
+      "inicio_global_segundos": 554.96,
+      "fim_global_segundos": 557.78,
+      "texto": "Uma pessoa que entrou no site, que fez uma ação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 557.78,
+      "fim_segundos": 559.18,
+      "inicio_global_segundos": 557.78,
+      "fim_global_segundos": 559.18,
+      "texto": "Está tudo aí, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 559.62,
+      "fim_segundos": 561.9399999999999,
+      "inicio_global_segundos": 559.62,
+      "fim_global_segundos": 561.94,
+      "texto": "E aí depois é outra história de você criar públicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 561.9399999999999,
+      "fim_segundos": 563.8399999999999,
+      "inicio_global_segundos": 561.94,
+      "fim_global_segundos": 563.84,
+      "texto": "Eu vou ensinar lá nas campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 563.8399999999999,
+      "fim_segundos": 565.4399999999999,
+      "inicio_global_segundos": 563.84,
+      "fim_global_segundos": 565.44,
+      "texto": "Na hora de mexer na ferramenta"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 565.4399999999999,
+      "fim_segundos": 567.4799999999999,
+      "inicio_global_segundos": 565.44,
+      "fim_global_segundos": 567.48,
+      "texto": "De criar públicos de remarketing"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 567.4799999999999,
+      "fim_segundos": 569.14,
+      "inicio_global_segundos": 567.48,
+      "fim_global_segundos": 569.14,
+      "texto": "De criar conversões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 569.14,
+      "fim_segundos": 571.0999999999999,
+      "inicio_global_segundos": 569.14,
+      "fim_global_segundos": 571.1,
+      "texto": "A gente vê isso mais para frente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 571.0999999999999,
+      "fim_segundos": 573.7199999999999,
+      "inicio_global_segundos": 571.1,
+      "fim_global_segundos": 573.72,
+      "texto": "E aqui no Facebook é a mesma coisa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 573.72,
+      "fim_segundos": 578.8000000000001,
+      "inicio_global_segundos": 573.72,
+      "fim_global_segundos": 578.8,
+      "texto": "Você vem aqui no lado esquerdo e clica em gerenciador de eventos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 579.62,
+      "fim_segundos": 586.12,
+      "inicio_global_segundos": 579.62,
+      "fim_global_segundos": 586.12,
+      "texto": "E ao clicar em gerenciador de eventos, você vai conseguir aqui ver o pixel do Thiago Tesma,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 586.2,
+      "fim_segundos": 588.26,
+      "inicio_global_segundos": 586.2,
+      "fim_global_segundos": 588.26,
+      "texto": "que está aqui certinho, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 588.4200000000001,
+      "fim_segundos": 594.0600000000001,
+      "inicio_global_segundos": 588.42,
+      "fim_global_segundos": 594.06,
+      "texto": "E está recebendo todos os hits, as pessoas que estão entrando no meu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 594.14,
+      "fim_segundos": 601.7,
+      "inicio_global_segundos": 594.14,
+      "fim_global_segundos": 601.7,
+      "texto": "Você consegue vir aqui em conversões, criar conversões personalizadas, baseada em ações, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 601.7,
+      "fim_segundos": 607.32,
+      "inicio_global_segundos": 601.7,
+      "fim_global_segundos": 607.32,
+      "texto": "Você pode fazer, depois que você coloca a conversão, a tag, o pixel, uma única vez,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 607.7,
+      "fim_segundos": 611.9000000000001,
+      "inicio_global_segundos": 607.7,
+      "fim_global_segundos": 611.9,
+      "texto": "você consegue então criar, eu quero pessoas que entraram na página X,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 612.36,
+      "fim_segundos": 616.6600000000001,
+      "inicio_global_segundos": 612.36,
+      "fim_global_segundos": 616.66,
+      "texto": "eu quero saber pessoas que converteram ou fizeram ação na página tal."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 616.74,
+      "fim_segundos": 619.44,
+      "inicio_global_segundos": 616.74,
+      "fim_global_segundos": 619.44,
+      "texto": "Você consegue criar várias conversões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 619.5400000000001,
+      "fim_segundos": 627.0,
+      "inicio_global_segundos": 619.54,
+      "fim_global_segundos": 627.0,
+      "texto": "E aqui em configurações do pixel, você vai pegar o código e colocar lá as informações, enviar, enfim."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 627.0,
+      "fim_segundos": 632.58,
+      "inicio_global_segundos": 627.0,
+      "fim_global_segundos": 632.58,
+      "texto": "Você consegue pegar as configurações aqui para instalar esse código também no seu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 632.98,
+      "fim_segundos": 633.58,
+      "inicio_global_segundos": 632.98,
+      "fim_global_segundos": 633.58,
+      "texto": "Beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 633.9,
+      "fim_segundos": 637.78,
+      "inicio_global_segundos": 633.9,
+      "fim_global_segundos": 637.78,
+      "texto": "Tiago, como eu sei se a minha tag está instalada corretamente?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 637.92,
+      "fim_segundos": 640.2,
+      "inicio_global_segundos": 637.92,
+      "fim_global_segundos": 640.2,
+      "texto": "A tag do Google e também o pixel do Facebook?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 640.62,
+      "fim_segundos": 641.46,
+      "inicio_global_segundos": 640.62,
+      "fim_global_segundos": 641.46,
+      "texto": "É super simples."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 642.0,
+      "fim_segundos": 652.74,
+      "inicio_global_segundos": 642.0,
+      "fim_global_segundos": 652.74,
+      "texto": "Você tem que instalar aí no seu Chrome duas ferramentas aí que vão te auxiliar nessa análise."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 652.74,
+      "fim_segundos": 661.0,
+      "inicio_global_segundos": 652.74,
+      "fim_global_segundos": 661.0,
+      "texto": "Então, a primeira ferramenta é a Pixel Facebook, você vai colocar aqui, Pixel Facebook Helper, tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 661.66,
+      "fim_segundos": 673.12,
+      "inicio_global_segundos": 661.66,
+      "fim_global_segundos": 673.12,
+      "texto": "Você vai digitar isso aí, acho que vai sair se eu colocar só Pixel Facebook, tá aqui, você vai instalar isso aqui e também o do Google, que é Tag Assistant."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 674.46,
+      "fim_segundos": 679.6800000000001,
+      "inicio_global_segundos": 674.46,
+      "fim_global_segundos": 679.68,
+      "texto": "E esse aqui é o do Google, que já tá inclusive instalado aqui, show!"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 679.68,
+      "fim_segundos": 685.0799999999999,
+      "inicio_global_segundos": 679.68,
+      "fim_global_segundos": 685.08,
+      "texto": "Então, nós temos aqui do Google, que é essa carinha aqui, e também do Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 685.38,
+      "fim_segundos": 691.76,
+      "inicio_global_segundos": 685.38,
+      "fim_global_segundos": 691.76,
+      "texto": "Agora, eu vou entrar aqui na minha página do Conversão Extrema e eu consigo ver aqui que eu tenho o do Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 692.3399999999999,
+      "fim_segundos": 695.5,
+      "inicio_global_segundos": 692.34,
+      "fim_global_segundos": 695.5,
+      "texto": "O código está instalado corretamente."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 695.9599999999999,
+      "fim_segundos": 701.5799999999999,
+      "inicio_global_segundos": 695.96,
+      "fim_global_segundos": 701.58,
+      "texto": "E quando eu entro, por exemplo, olha só que interessante, do podcast extrema."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 701.8399999999999,
+      "fim_segundos": 707.26,
+      "inicio_global_segundos": 701.84,
+      "fim_global_segundos": 707.26,
+      "texto": "Ou seja, a pessoa entrou aqui e sim, a tag do Facebook está aqui instalado certinho."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 707.26,
+      "fim_segundos": 716.4399999999999,
+      "inicio_global_segundos": 707.26,
+      "fim_global_segundos": 716.44,
+      "texto": "E se eu fizer uma ação, nesse caso eu botei uma ação, eu quero traquear pessoas que clicam no botão, por exemplo, do Spotify."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 716.74,
+      "fim_segundos": 725.04,
+      "inicio_global_segundos": 716.74,
+      "fim_global_segundos": 725.04,
+      "texto": "Então, quando a pessoa clica aqui, ela clicou e já apareceu mais um aqui, uma conversão, botão do podcast extremo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 725.12,
+      "fim_segundos": 733.26,
+      "inicio_global_segundos": 725.12,
+      "fim_global_segundos": 733.26,
+      "texto": "Ou seja, rolou uma conversão, vai aparecer lá na ferramenta e eu sei qual anúncio gerou, o horário, o perfil e assim por diante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 733.26,
+      "fim_segundos": 735.8,
+      "inicio_global_segundos": 733.26,
+      "fim_global_segundos": 735.8,
+      "texto": "Então você vai traquear tudo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 735.8,
+      "fim_segundos": 737.58,
+      "inicio_global_segundos": 735.8,
+      "fim_global_segundos": 737.58,
+      "texto": "Compra, quem se tornou lead"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 737.58,
+      "fim_segundos": 739.26,
+      "inicio_global_segundos": 737.58,
+      "fim_global_segundos": 739.26,
+      "texto": "Qualquer informação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 739.26,
+      "fim_segundos": 740.92,
+      "inicio_global_segundos": 739.26,
+      "fim_global_segundos": 740.92,
+      "texto": "Isso é muito importante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 740.92,
+      "fim_segundos": 743.68,
+      "inicio_global_segundos": 740.92,
+      "fim_global_segundos": 743.68,
+      "texto": "Para que você possa otimizar e melhorar as suas campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 743.68,
+      "fim_segundos": 745.9399999999999,
+      "inicio_global_segundos": 743.68,
+      "fim_global_segundos": 745.94,
+      "texto": "E é a mesma coisa no Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 745.9399999999999,
+      "fim_segundos": 747.4399999999999,
+      "inicio_global_segundos": 745.94,
+      "fim_global_segundos": 747.44,
+      "texto": "Eu vou colocar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 747.4399999999999,
+      "fim_segundos": 749.68,
+      "inicio_global_segundos": 747.44,
+      "fim_global_segundos": 749.68,
+      "texto": "Permitir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 749.68,
+      "fim_segundos": 750.96,
+      "inicio_global_segundos": 749.68,
+      "fim_global_segundos": 750.96,
+      "texto": "E vou atualizar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 750.96,
+      "fim_segundos": 753.12,
+      "inicio_global_segundos": 750.96,
+      "fim_global_segundos": 753.12,
+      "texto": "Fechou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 753.12,
+      "fim_segundos": 755.28,
+      "inicio_global_segundos": 753.12,
+      "fim_global_segundos": 755.28,
+      "texto": "Então o próprio Google já mostra as tags"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 755.28,
+      "fim_segundos": 758.06,
+      "inicio_global_segundos": 755.28,
+      "fim_global_segundos": 758.06,
+      "texto": "Tag de remarketing, a tag do Google Optimize"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 758.06,
+      "fim_segundos": 760.48,
+      "inicio_global_segundos": 758.06,
+      "fim_global_segundos": 760.48,
+      "texto": "Também a nossa tag principal do Tag Manager"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 760.48,
+      "fim_segundos": 761.62,
+      "inicio_global_segundos": 760.48,
+      "fim_global_segundos": 761.62,
+      "texto": "Está tudo aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 761.62,
+      "fim_segundos": 763.92,
+      "inicio_global_segundos": 761.62,
+      "fim_global_segundos": 763.92,
+      "texto": "certinho. Quando tem em verdinho, quer dizer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 763.92,
+      "fim_segundos": 766.22,
+      "inicio_global_segundos": 763.92,
+      "fim_global_segundos": 766.22,
+      "texto": "que está 100% instalado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 766.94,
+      "fim_segundos": 768.16,
+      "inicio_global_segundos": 766.94,
+      "fim_global_segundos": 768.16,
+      "texto": "Vamos ver se eu fizer alguma ação aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 768.7,
+      "fim_segundos": 769.72,
+      "inicio_global_segundos": 768.7,
+      "fim_global_segundos": 769.72,
+      "texto": "Não sei se vai aparecer aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 771.62,
+      "fim_segundos": 772.22,
+      "inicio_global_segundos": 771.62,
+      "fim_global_segundos": 772.22,
+      "texto": "Vamos ver"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 772.22,
+      "fim_segundos": 773.76,
+      "inicio_global_segundos": 772.22,
+      "fim_global_segundos": 773.76,
+      "texto": "se aparece aqui. Google Ads"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 773.76,
+      "fim_segundos": 776.2,
+      "inicio_global_segundos": 773.76,
+      "fim_global_segundos": 776.2,
+      "texto": "Conversion Tracking. Quer dizer, cliquei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 776.2,
+      "fim_segundos": 778.04,
+      "inicio_global_segundos": 776.2,
+      "fim_global_segundos": 778.04,
+      "texto": "e gerou uma conversão lá"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 778.04,
+      "fim_segundos": 780.0600000000001,
+      "inicio_global_segundos": 778.04,
+      "fim_global_segundos": 780.06,
+      "texto": "no Google. Então, se você pedir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 780.0600000000001,
+      "fim_segundos": 782.28,
+      "inicio_global_segundos": 780.06,
+      "fim_global_segundos": 782.28,
+      "texto": "para um programador ou para quem criou o seu site"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 782.28,
+      "fim_segundos": 784.24,
+      "inicio_global_segundos": 782.28,
+      "fim_global_segundos": 784.24,
+      "texto": "instalar essas tags, você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 784.24,
+      "fim_segundos": 786.28,
+      "inicio_global_segundos": 784.24,
+      "fim_global_segundos": 786.28,
+      "texto": "consegue vir aqui e checar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 786.28,
+      "fim_segundos": 788.22,
+      "inicio_global_segundos": 786.28,
+      "fim_global_segundos": 788.22,
+      "texto": "você mesmo sem entender nada"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 788.22,
+      "fim_segundos": 790.0,
+      "inicio_global_segundos": 788.22,
+      "fim_global_segundos": 790.0,
+      "texto": "de programação. Então, Thiago,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 790.0,
+      "fim_segundos": 794.6,
+      "inicio_global_segundos": 790.0,
+      "fim_global_segundos": 794.6,
+      "texto": "eu instalei e não tem nenhuma conversão lá na minha conta de Google ou de Facebook."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 794.78,
+      "fim_segundos": 797.44,
+      "inicio_global_segundos": 794.78,
+      "fim_global_segundos": 797.44,
+      "texto": "Vem aqui e verifique se está funcionando 100%."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 797.44,
+      "fim_segundos": 801.72,
+      "inicio_global_segundos": 797.44,
+      "fim_global_segundos": 801.72,
+      "texto": "Aí eu vou deixar também no módulo aqui de site a parte técnica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 801.72,
+      "fim_segundos": 808.7,
+      "inicio_global_segundos": 801.72,
+      "fim_global_segundos": 808.7,
+      "texto": "para você avaliar a criação do zero, instalação das tags do zero."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 808.7,
+      "fim_segundos": 813.6,
+      "inicio_global_segundos": 808.7,
+      "fim_global_segundos": 813.6,
+      "texto": "Isso vai te ajudar também a entender mais sobre o seu universo de tags, instalação."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 813.88,
+      "fim_segundos": 819.06,
+      "inicio_global_segundos": 813.88,
+      "fim_global_segundos": 819.06,
+      "texto": "Você faz uma única vez e o resto, a nossa preocupação é em tráfego,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 819.06,
+      "fim_segundos": 821.6199999999999,
+      "inicio_global_segundos": 819.06,
+      "fim_global_segundos": 821.62,
+      "texto": "gerar mais tráfego para o site e converter."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 822.2199999999999,
+      "fim_segundos": 826.6999999999999,
+      "inicio_global_segundos": 822.22,
+      "fim_global_segundos": 826.7,
+      "texto": "E isso é muito importante porque sem dados, sem essas informações,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 827.1199999999999,
+      "fim_segundos": 829.8599999999999,
+      "inicio_global_segundos": 827.12,
+      "fim_global_segundos": 829.86,
+      "texto": "não tem como melhorar as nossas campanhas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 07 - Sites Inteligentes/m7_a8_como_funciona_a_tag_e_o_pixel.mp4",
+      "inicio_segundos": 830.14,
+      "fim_segundos": 833.6999999999999,
+      "inicio_global_segundos": 830.14,
+      "fim_global_segundos": 833.7,
+      "texto": "Beleza? É isso. A gente se vê na próxima aula. Valeu!"
+    }
+  ]
+}

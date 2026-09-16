@@ -1,0 +1,3396 @@
+{
+  "schema_version": 1,
+  "curso": "Conversão Extrema",
+  "modulo": "Módulo 10 - YouTube",
+  "aula_numero": 10,
+  "titulo": "Exclusao de segmentacao",
+  "modelo": "large-v3-turbo",
+  "idioma": "pt",
+  "fontes": [
+    {
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "sha256": "215118cfc0141adbf5b2650375d418e7499f39d085b01e1d1975912de05f61d1",
+      "duracao_segundos": 1221.678789,
+      "origem": "https://drive.google.com/drive/folders/19ngBUitcOkkiYmYdOVW-gYF7AHtjERvx?hl=pt-br",
+      "parte": null,
+      "transcrito_em_utc": "2026-09-16T20:07:00.677100+00:00"
+    }
+  ],
+  "segmentos": [
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 0.0,
+      "fim_segundos": 9.92,
+      "inicio_global_segundos": 0.0,
+      "fim_global_segundos": 9.92,
+      "texto": "Nessa aula, nós vamos discutir sobre exclusões de segmentações."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 10.44,
+      "fim_segundos": 17.080000000000002,
+      "inicio_global_segundos": 10.44,
+      "fim_global_segundos": 17.08,
+      "texto": "E sim, você precisa excluir aquele público que não pode ver o seu anúncio de jeito nenhum."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 17.48,
+      "fim_segundos": 25.080000000000002,
+      "inicio_global_segundos": 17.48,
+      "fim_global_segundos": 25.08,
+      "texto": "Você precisa excluir segmentações, públicos, ações que já foram feitas lá atrás,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 25.08,
+      "fim_segundos": 33.8,
+      "inicio_global_segundos": 25.08,
+      "fim_global_segundos": 33.8,
+      "texto": "porque senão você vai aparecer para pessoas que nunca ou têm baixíssimas chances de comprar o seu produto ou serviço ou te se tornar um lead."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 34.14,
+      "fim_segundos": 36.9,
+      "inicio_global_segundos": 34.14,
+      "fim_global_segundos": 36.9,
+      "texto": "E muita gente erra neste ponto."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 37.06,
+      "fim_segundos": 38.379999999999995,
+      "inicio_global_segundos": 37.06,
+      "fim_global_segundos": 38.38,
+      "texto": "Ó, vamos reforçar aqui, cara."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 39.0,
+      "fim_segundos": 45.94,
+      "inicio_global_segundos": 39.0,
+      "fim_global_segundos": 45.94,
+      "texto": "É melhor você, muitas vezes, anotar, cara, eu não posso anunciar para as pessoas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 46.08,
+      "fim_segundos": 51.519999999999996,
+      "inicio_global_segundos": 46.08,
+      "fim_global_segundos": 51.52,
+      "texto": "Descobrir para quem não deve aparecer do que para quem você deve aparecer ou anunciar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 51.52,
+      "fim_segundos": 58.28,
+      "inicio_global_segundos": 51.52,
+      "fim_global_segundos": 58.28,
+      "texto": "Porque, de novo, como o público é gigante no Brasil, é mais fácil você errar, em alguns casos, do que acertar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 58.52,
+      "fim_segundos": 61.88,
+      "inicio_global_segundos": 58.52,
+      "fim_global_segundos": 61.88,
+      "texto": "Minha pergunta é, em quais canais você não pode aparecer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 62.36,
+      "fim_segundos": 64.62,
+      "inicio_global_segundos": 62.36,
+      "fim_global_segundos": 64.62,
+      "texto": "Em quais tópicos você não pode aparecer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 65.18,
+      "fim_segundos": 67.74000000000001,
+      "inicio_global_segundos": 65.18,
+      "fim_global_segundos": 67.74,
+      "texto": "Quais públicos não devem ver o seu anúncio?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 68.2,
+      "fim_segundos": 71.18,
+      "inicio_global_segundos": 68.2,
+      "fim_global_segundos": 71.18,
+      "texto": "Isso é fundamental para gerar resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 71.64,
+      "fim_segundos": 78.4,
+      "inicio_global_segundos": 71.64,
+      "fim_global_segundos": 78.4,
+      "texto": "E é por isso que é nessa aula, eu quero bater nessa tecla e, principalmente, mostrar as minhas exclusões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 78.4,
+      "fim_segundos": 85.16000000000001,
+      "inicio_global_segundos": 78.4,
+      "fim_global_segundos": 85.16,
+      "texto": "para que fique mais claro de como isso traz muito, mas muito mais resultado do que você imagina."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 85.5,
+      "fim_segundos": 90.82000000000001,
+      "inicio_global_segundos": 85.5,
+      "fim_global_segundos": 90.82,
+      "texto": "Então, se você anuncia no YouTube e não tem resultados, tem alguns fatores."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 91.0,
+      "fim_segundos": 92.26,
+      "inicio_global_segundos": 91.0,
+      "fim_global_segundos": 92.26,
+      "texto": "Landing page pode não estar boa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 92.84,
+      "fim_segundos": 98.22,
+      "inicio_global_segundos": 92.84,
+      "fim_global_segundos": 98.22,
+      "texto": "Vamos lá, a parte de criativos, seus anúncios, seus vídeos, pode também não estar muito bom."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 98.58000000000001,
+      "fim_segundos": 104.60000000000001,
+      "inicio_global_segundos": 98.58,
+      "fim_global_segundos": 104.6,
+      "texto": "Mas, geralmente, a segmentação está errada, está muito ampla, não está focada."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 104.6,
+      "fim_segundos": 110.3,
+      "inicio_global_segundos": 104.6,
+      "fim_global_segundos": 110.3,
+      "texto": "sempre comece com uma outra segmentação e vá ampliando esse público conforme o resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 110.58,
+      "fim_segundos": 116.94,
+      "inicio_global_segundos": 110.58,
+      "fim_global_segundos": 116.94,
+      "texto": "Se você não conseguir resultado unindo duas ou três segmentações para acertar o seu público-alvo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 117.02,
+      "fim_segundos": 120.11999999999999,
+      "inicio_global_segundos": 117.02,
+      "fim_global_segundos": 120.12,
+      "texto": "o que vai acontecer? Você não vai conseguir resultado com um público gigantesco,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 120.17999999999999,
+      "fim_segundos": 122.75999999999999,
+      "inicio_global_segundos": 120.18,
+      "fim_global_segundos": 122.76,
+      "texto": "um público muito amplo? Então, essa é a ideia."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 123.84,
+      "fim_segundos": 128.98,
+      "inicio_global_segundos": 123.84,
+      "fim_global_segundos": 128.98,
+      "texto": "Quem não pode ver o meu anúncio? Então, vamos falar sobre isso nessa aula."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 128.98,
+      "fim_segundos": 136.26,
+      "inicio_global_segundos": 128.98,
+      "fim_global_segundos": 136.26,
+      "texto": "Vamos lá. Primeiro passo. Tiago, o que eu posso segmentar nas minhas campanhas no Google Ads?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 136.78,
+      "fim_segundos": 142.73999999999998,
+      "inicio_global_segundos": 136.78,
+      "fim_global_segundos": 142.74,
+      "texto": "Todas as outras segmentações que a gente fez aqui anteriormente podem se tornar segmentações negativas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 143.2,
+      "fim_segundos": 147.23999999999998,
+      "inicio_global_segundos": 143.2,
+      "fim_global_segundos": 147.24,
+      "texto": "Então vamos lá. Vou copiar aqui e vou trazer para cá em exclusões."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 147.79999999999998,
+      "fim_segundos": 155.04,
+      "inicio_global_segundos": 147.8,
+      "fim_global_segundos": 155.04,
+      "texto": "Vamos lá. Palavras-chave. Que palavras você não pode aparecer de jeito nenhum em vídeos?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 155.04,
+      "fim_segundos": 159.78,
+      "inicio_global_segundos": 155.04,
+      "fim_global_segundos": 159.78,
+      "texto": "Pô, Tiago, tem alguns canais que eu não posso aparecer, porque não tem nada a ver com o meu público."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 160.12,
+      "fim_segundos": 162.68,
+      "inicio_global_segundos": 160.12,
+      "fim_global_segundos": 162.68,
+      "texto": "E vamos supor que você descubra alguns canais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 163.16,
+      "fim_segundos": 164.79999999999998,
+      "inicio_global_segundos": 163.16,
+      "fim_global_segundos": 164.8,
+      "texto": "Ó, vamos lá, vou dar um exemplo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 165.32,
+      "fim_segundos": 170.04,
+      "inicio_global_segundos": 165.32,
+      "fim_global_segundos": 170.04,
+      "texto": "No meu caso, eu não gosto de aparecer em canais que falam sobre pegadinhas, tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 170.45999999999998,
+      "fim_segundos": 172.85999999999999,
+      "inicio_global_segundos": 170.46,
+      "fim_global_segundos": 172.86,
+      "texto": "Ou até humor no geral. Por quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 173.18,
+      "fim_segundos": 176.06,
+      "inicio_global_segundos": 173.18,
+      "fim_global_segundos": 176.06,
+      "texto": "Porque naquele momento, na minha visão, me colocam no lugar do cliente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 176.1,
+      "fim_segundos": 180.48,
+      "inicio_global_segundos": 176.1,
+      "fim_global_segundos": 180.48,
+      "texto": "mas isso aqui é um machismo, é no meu caso, talvez no seu caso funciona muito bem, beleza?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 180.48,
+      "fim_segundos": 194.07999999999998,
+      "inicio_global_segundos": 180.48,
+      "fim_global_segundos": 194.08,
+      "texto": "Mas no meu caso, eu penso o seguinte, se a pessoa está ali assistindo uma pegadinha, não é o momento de ela estudar e ver algum anúncio que fala sobre Google Ads, sobre como anunciar no Google."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 194.14,
+      "fim_segundos": 202.32,
+      "inicio_global_segundos": 194.14,
+      "fim_global_segundos": 202.32,
+      "texto": "Ele não quer, naquele momento, estudar e sim, ela quer passar um tempo, quer rir um pouco e pode estar com a família na sala."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 202.32,
+      "fim_segundos": 213.48,
+      "inicio_global_segundos": 202.32,
+      "fim_global_segundos": 213.48,
+      "texto": "Então, quando você se imagina no lugar do cliente, do usuário, fica mais fácil você gerar uma experiência melhor para ele e aparecer o anúncio para a pessoa certa e no momento certo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 213.57999999999998,
+      "fim_segundos": 222.72,
+      "inicio_global_segundos": 213.58,
+      "fim_global_segundos": 222.72,
+      "texto": "Então, você pode escolher algumas palavras negativas e lá na sua campanha na rede de pesquisa tem algumas palavras que já podem servir para você adicionar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 222.72,
+      "fim_segundos": 233.46,
+      "inicio_global_segundos": 222.72,
+      "fim_global_segundos": 233.46,
+      "texto": "Mas pense nisso, a dica que eu dou é, entre em canais no YouTube, que você, tipo, cara, quem está nesse canal não deve ver o meu anúncio de jeito nenhum,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 233.96,
+      "fim_segundos": 239.84,
+      "inicio_global_segundos": 233.96,
+      "fim_global_segundos": 239.84,
+      "texto": "e vai lá nos vídeos mais vistos e pegue as palavras-chave desses vídeos que são os principais."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 240.16,
+      "fim_segundos": 249.66,
+      "inicio_global_segundos": 240.16,
+      "fim_global_segundos": 249.66,
+      "texto": "Por exemplo, no meu caso, quando alguém está assistindo algum vídeo de um jogo na internet, um jogo online, vamos supor, vou colocar aqui um jogo que seja Counter Strike, vai lá."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 249.66,
+      "fim_segundos": 252.06,
+      "inicio_global_segundos": 249.66,
+      "fim_global_segundos": 252.06,
+      "texto": "Então a pessoa está assistindo um vídeo de um jogo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 252.06,
+      "fim_segundos": 255.96,
+      "inicio_global_segundos": 252.06,
+      "fim_global_segundos": 255.96,
+      "texto": "Não é o momento para ela assistir o meu vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 255.96,
+      "fim_segundos": 257.42,
+      "inicio_global_segundos": 255.96,
+      "fim_global_segundos": 257.42,
+      "texto": "Então coloca a palavra Counter Strike"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 257.42,
+      "fim_segundos": 263.38,
+      "inicio_global_segundos": 257.42,
+      "fim_global_segundos": 263.38,
+      "texto": "E se tiver essa palavra-chave no vídeo, no título ou na descrição"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 263.38,
+      "fim_segundos": 268.56,
+      "inicio_global_segundos": 263.38,
+      "fim_global_segundos": 268.56,
+      "texto": "Ou também lá nos artigos, no site de notícias"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 268.56,
+      "fim_segundos": 272.1,
+      "inicio_global_segundos": 268.56,
+      "fim_global_segundos": 272.1,
+      "texto": "Num site parceiro do Google, o meu anúncio não vai aparecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 272.1,
+      "fim_segundos": 275.34,
+      "inicio_global_segundos": 272.1,
+      "fim_global_segundos": 275.34,
+      "texto": "Então essa exclusão é fundamental"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 275.34,
+      "fim_segundos": 278.32,
+      "inicio_global_segundos": 275.34,
+      "fim_global_segundos": 278.32,
+      "texto": "Depois eu vou mostrar dentro das contas aqui do Google"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 278.32,
+      "fim_segundos": 281.71999999999997,
+      "inicio_global_segundos": 278.32,
+      "fim_global_segundos": 281.72,
+      "texto": "para ficar mais simples de você entender, mas eu mostrei nas aulas passadas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 281.71999999999997,
+      "fim_segundos": 286.04,
+      "inicio_global_segundos": 281.72,
+      "fim_global_segundos": 286.04,
+      "texto": "que embaixo da segmentação tem a parte de exclusão de todas as segmentações."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 286.56,
+      "fim_segundos": 287.32,
+      "inicio_global_segundos": 286.56,
+      "fim_global_segundos": 287.32,
+      "texto": "Público salvo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 287.64,
+      "fim_segundos": 290.7,
+      "inicio_global_segundos": 287.64,
+      "fim_global_segundos": 290.7,
+      "texto": "Bom, um público que você tem e sempre tem que negativar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 290.7,
+      "fim_segundos": 293.94,
+      "inicio_global_segundos": 290.7,
+      "fim_global_segundos": 293.94,
+      "texto": "é o público que já fez a ação desejada, tá?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 294.14,
+      "fim_segundos": 295.21999999999997,
+      "inicio_global_segundos": 294.14,
+      "fim_global_segundos": 295.22,
+      "texto": "Se esse for o seu caso."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 295.32,
+      "fim_segundos": 299.42,
+      "inicio_global_segundos": 295.32,
+      "fim_global_segundos": 299.42,
+      "texto": "Por exemplo, Thiago, o meu objetivo é ter mais leads, mais resultados,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 300.06,
+      "fim_segundos": 302.38,
+      "inicio_global_segundos": 300.06,
+      "fim_global_segundos": 302.38,
+      "texto": "mais pessoas, mais cadastros no meu site."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 302.78,
+      "fim_segundos": 304.26,
+      "inicio_global_segundos": 302.78,
+      "fim_global_segundos": 304.26,
+      "texto": "O que você pode fazer com o público salvo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 304.26,
+      "fim_segundos": 308.88,
+      "inicio_global_segundos": 304.26,
+      "fim_global_segundos": 308.88,
+      "texto": "Eu posso negativar quem já se cadastrou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 308.88,
+      "fim_segundos": 310.02,
+      "inicio_global_segundos": 308.88,
+      "fim_global_segundos": 310.02,
+      "texto": "Tem que negativar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 310.02,
+      "fim_segundos": 313.42,
+      "inicio_global_segundos": 310.02,
+      "fim_global_segundos": 313.42,
+      "texto": "Se cadastrou, não vai ver mais o meu vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 313.42,
+      "fim_segundos": 315.76,
+      "inicio_global_segundos": 313.42,
+      "fim_global_segundos": 315.76,
+      "texto": "Porque quem se cadastrou tem que ver um outro tipo de campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 315.76,
+      "fim_segundos": 318.36,
+      "inicio_global_segundos": 315.76,
+      "fim_global_segundos": 318.36,
+      "texto": "Eu não vou mostrar o mesmo vídeo para essa pessoa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 318.36,
+      "fim_segundos": 320.14,
+      "inicio_global_segundos": 318.36,
+      "fim_global_segundos": 320.14,
+      "texto": "Sendo que ela já se cadastrou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 320.14,
+      "fim_segundos": 321.92,
+      "inicio_global_segundos": 320.14,
+      "fim_global_segundos": 321.92,
+      "texto": "Então essa exclusão é fundamental"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 321.92,
+      "fim_segundos": 327.09999999999997,
+      "inicio_global_segundos": 321.92,
+      "fim_global_segundos": 327.1,
+      "texto": "E você pode também excluir outros públicos que você acha relevante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 327.09999999999997,
+      "fim_segundos": 331.18,
+      "inicio_global_segundos": 327.1,
+      "fim_global_segundos": 331.18,
+      "texto": "No meu caso, geralmente eu cadastro a pessoa que já fez a ação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 331.18,
+      "fim_segundos": 333.22,
+      "inicio_global_segundos": 331.18,
+      "fim_global_segundos": 333.22,
+      "texto": "que eu gostaria que ela"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 333.22,
+      "fim_segundos": 335.3,
+      "inicio_global_segundos": 333.22,
+      "fim_global_segundos": 335.3,
+      "texto": "fizesse para não repetir o mesmo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 335.3,
+      "fim_segundos": 337.24,
+      "inicio_global_segundos": 335.3,
+      "fim_global_segundos": 337.24,
+      "texto": "anúncio para ela novamente, porque ela não"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 337.24,
+      "fim_segundos": 339.08,
+      "inicio_global_segundos": 337.24,
+      "fim_global_segundos": 339.08,
+      "texto": "vai converter. Agora, já que eu tenho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 339.08,
+      "fim_segundos": 341.02,
+      "inicio_global_segundos": 339.08,
+      "fim_global_segundos": 341.02,
+      "texto": "e-commerce e faz sentido"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 341.02,
+      "fim_segundos": 343.24,
+      "inicio_global_segundos": 341.02,
+      "fim_global_segundos": 343.24,
+      "texto": "aparecer para a mesma pessoa, no seu caso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 343.24,
+      "fim_segundos": 345.08,
+      "inicio_global_segundos": 343.24,
+      "fim_global_segundos": 345.08,
+      "texto": "pode sim, porque a pessoa pode comprar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 345.08,
+      "fim_segundos": 347.1,
+      "inicio_global_segundos": 345.08,
+      "fim_global_segundos": 347.1,
+      "texto": "outro produto que você vende aí"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 347.1,
+      "fim_segundos": 348.86,
+      "inicio_global_segundos": 347.1,
+      "fim_global_segundos": 348.86,
+      "texto": "no seu e-commerce, mas no meu caso,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 349.02,
+      "fim_segundos": 351.06,
+      "inicio_global_segundos": 349.02,
+      "fim_global_segundos": 351.06,
+      "texto": "lead é aquela pessoa, é aquela"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 351.06,
+      "fim_segundos": 353.58,
+      "inicio_global_segundos": 351.06,
+      "fim_global_segundos": 353.58,
+      "texto": "única pessoa. Informações"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 353.58,
+      "fim_segundos": 354.46000000000004,
+      "inicio_global_segundos": 353.58,
+      "fim_global_segundos": 354.46,
+      "texto": "demográficas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 356.16,
+      "fim_segundos": 356.68,
+      "inicio_global_segundos": 356.16,
+      "fim_global_segundos": 356.68,
+      "texto": "Fundamental."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 358.3,
+      "fim_segundos": 359.16,
+      "inicio_global_segundos": 358.3,
+      "fim_global_segundos": 359.16,
+      "texto": "Foque no público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 359.16,
+      "fim_segundos": 361.26000000000005,
+      "inicio_global_segundos": 359.16,
+      "fim_global_segundos": 361.26,
+      "texto": "comprador, quem são"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 361.26000000000005,
+      "fim_segundos": 363.40000000000003,
+      "inicio_global_segundos": 361.26,
+      "fim_global_segundos": 363.4,
+      "texto": "aí as pessoas que tem mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 363.40000000000003,
+      "fim_segundos": 364.98,
+      "inicio_global_segundos": 363.4,
+      "fim_global_segundos": 364.98,
+      "texto": "chances de comprar o seu produto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 364.98,
+      "fim_segundos": 367.18,
+      "inicio_global_segundos": 364.98,
+      "fim_global_segundos": 367.18,
+      "texto": "lá no público comprador eu explico"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 367.18,
+      "fim_segundos": 369.22,
+      "inicio_global_segundos": 367.18,
+      "fim_global_segundos": 369.22,
+      "texto": "sobre isso, a importância de você entender"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 369.22,
+      "fim_segundos": 371.48,
+      "inicio_global_segundos": 369.22,
+      "fim_global_segundos": 371.48,
+      "texto": "e aí você começa a perceber"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 371.48,
+      "fim_segundos": 373.12,
+      "inicio_global_segundos": 371.48,
+      "fim_global_segundos": 373.12,
+      "texto": "que caraca Tiago, quem compra de mim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 373.12,
+      "fim_segundos": 375.24,
+      "inicio_global_segundos": 373.12,
+      "fim_global_segundos": 375.24,
+      "texto": "são pessoas de 25 a 50 anos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 375.24,
+      "fim_segundos": 377.12,
+      "inicio_global_segundos": 375.24,
+      "fim_global_segundos": 377.12,
+      "texto": "e na grande"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 377.12,
+      "fim_segundos": 379.16,
+      "inicio_global_segundos": 377.12,
+      "fim_global_segundos": 379.16,
+      "texto": "maioria são homens, o que você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 379.16,
+      "fim_segundos": 381.12,
+      "inicio_global_segundos": 379.16,
+      "fim_global_segundos": 381.12,
+      "texto": "faz? Foca"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 381.12,
+      "fim_segundos": 382.98,
+      "inicio_global_segundos": 381.12,
+      "fim_global_segundos": 382.98,
+      "texto": "nesses públicos e exclui o restante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 382.98,
+      "fim_segundos": 385.28000000000003,
+      "inicio_global_segundos": 382.98,
+      "fim_global_segundos": 385.28,
+      "texto": "Tiago, mas tem aqui 5% de mulheres"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 385.28000000000003,
+      "fim_segundos": 387.18,
+      "inicio_global_segundos": 385.28,
+      "fim_global_segundos": 387.18,
+      "texto": "que compram o meu produto, ou tem aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 387.18,
+      "fim_segundos": 390.7,
+      "inicio_global_segundos": 387.18,
+      "fim_global_segundos": 390.7,
+      "texto": "Tem uma porcentagem pequena de pessoas que compram entre 18 e 24 anos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 390.7,
+      "fim_segundos": 395.36,
+      "inicio_global_segundos": 390.7,
+      "fim_global_segundos": 395.36,
+      "texto": "Mas primeiro, vamos focar nas pessoas que têm mais chances."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 395.46,
+      "fim_segundos": 396.5,
+      "inicio_global_segundos": 395.46,
+      "fim_global_segundos": 396.5,
+      "texto": "Depois você amplia."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 397.04,
+      "fim_segundos": 398.94,
+      "inicio_global_segundos": 397.04,
+      "fim_global_segundos": 398.94,
+      "texto": "Nunca se esqueça dos círculos concêntricos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 399.02,
+      "fim_segundos": 403.02,
+      "inicio_global_segundos": 399.02,
+      "fim_global_segundos": 403.02,
+      "texto": "Eu começo muito focado e vou ampliando conforme o resultado."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 403.64,
+      "fim_segundos": 406.9,
+      "inicio_global_segundos": 403.64,
+      "fim_global_segundos": 406.9,
+      "texto": "Então, comece as campanhas com uma outra segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 406.9,
+      "fim_segundos": 412.34000000000003,
+      "inicio_global_segundos": 406.9,
+      "fim_global_segundos": 412.34,
+      "texto": "naquilo que de fato tem mais chances de gerar resultado para você."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 412.82,
+      "fim_segundos": 416.06,
+      "inicio_global_segundos": 412.82,
+      "fim_global_segundos": 416.06,
+      "texto": "E o importante é que, nas partes de exclusões,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 416.06,
+      "fim_segundos": 417.74,
+      "inicio_global_segundos": 416.06,
+      "fim_global_segundos": 417.74,
+      "texto": "você pode excluir vários"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 417.74,
+      "fim_segundos": 420.4,
+      "inicio_global_segundos": 417.74,
+      "fim_global_segundos": 420.4,
+      "texto": "e várias segmentações"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 420.4,
+      "fim_segundos": 421.7,
+      "inicio_global_segundos": 420.4,
+      "fim_global_segundos": 421.7,
+      "texto": "porque quanto mais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 421.7,
+      "fim_segundos": 423.52,
+      "inicio_global_segundos": 421.7,
+      "fim_global_segundos": 423.52,
+      "texto": "assim que for correta, obviamente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 423.52,
+      "fim_segundos": 426.12,
+      "inicio_global_segundos": 423.52,
+      "fim_global_segundos": 426.12,
+      "texto": "melhor, porque você está garantindo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 426.12,
+      "fim_segundos": 428.06,
+      "inicio_global_segundos": 426.12,
+      "fim_global_segundos": 428.06,
+      "texto": "está garantindo em não aparecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 428.06,
+      "fim_segundos": 430.12,
+      "inicio_global_segundos": 428.06,
+      "fim_global_segundos": 430.12,
+      "texto": "os seus anúncios para essas pessoas que não tem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 430.12,
+      "fim_segundos": 431.84000000000003,
+      "inicio_global_segundos": 430.12,
+      "fim_global_segundos": 431.84,
+      "texto": "tanta chance de comprar de você, então"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 431.84000000000003,
+      "fim_segundos": 434.42,
+      "inicio_global_segundos": 431.84,
+      "fim_global_segundos": 434.42,
+      "texto": "esse é o detalhe, vamos usar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 434.42,
+      "fim_segundos": 436.32,
+      "inicio_global_segundos": 434.42,
+      "fim_global_segundos": 436.32,
+      "texto": "as exclusões com maestria"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 436.32,
+      "fim_segundos": 438.06,
+      "inicio_global_segundos": 436.32,
+      "fim_global_segundos": 438.06,
+      "texto": "para não aparecer o nosso anúncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 438.06,
+      "fim_segundos": 439.32,
+      "inicio_global_segundos": 438.06,
+      "fim_global_segundos": 439.32,
+      "texto": "para quem não deveria"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 439.32,
+      "fim_segundos": 442.32,
+      "inicio_global_segundos": 439.32,
+      "fim_global_segundos": 442.32,
+      "texto": "ver, porque senão eu vou gastar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 442.32,
+      "fim_segundos": 444.28,
+      "inicio_global_segundos": 442.32,
+      "fim_global_segundos": 444.28,
+      "texto": "um orçamento que, cara, não"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 444.28,
+      "fim_segundos": 449.91999999999996,
+      "inicio_global_segundos": 444.28,
+      "fim_global_segundos": 449.92,
+      "texto": "precisava gastar. Por que eu vou parecer mais para mulheres, sendo que homens se convertem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 449.91999999999996,
+      "fim_segundos": 454.02,
+      "inicio_global_segundos": 449.92,
+      "fim_global_segundos": 454.02,
+      "texto": "quatro vezes mais? E aí eu posso pegar esse dinheiro das mulheres e colocar em homens"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 454.02,
+      "fim_segundos": 460.55999999999995,
+      "inicio_global_segundos": 454.02,
+      "fim_global_segundos": 460.56,
+      "texto": "e ter mais conversões. Isso é o óbvio. Então, negative o restante. Nesse caso, eu vou negativar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 460.55999999999995,
+      "fim_segundos": 466.91999999999996,
+      "inicio_global_segundos": 460.56,
+      "fim_global_segundos": 466.92,
+      "texto": "a parte de mulheres, o desconhecido, quando o Google não percebe quem é a pessoa, e"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 466.92,
+      "fim_segundos": 468.52000000000004,
+      "inicio_global_segundos": 466.92,
+      "fim_global_segundos": 468.52,
+      "texto": "De 18 anos a 24 anos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 468.52000000000004,
+      "fim_segundos": 469.48,
+      "inicio_global_segundos": 468.52,
+      "fim_global_segundos": 469.48,
+      "texto": "Canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 469.48,
+      "fim_segundos": 473.08000000000004,
+      "inicio_global_segundos": 469.48,
+      "fim_global_segundos": 473.08,
+      "texto": "Que canais no Youtube, que vídeos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 473.08000000000004,
+      "fim_segundos": 474.3,
+      "inicio_global_segundos": 473.08,
+      "fim_global_segundos": 474.3,
+      "texto": "O seu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 474.3,
+      "fim_segundos": 476.94,
+      "inicio_global_segundos": 474.3,
+      "fim_global_segundos": 476.94,
+      "texto": "Você não deve aparecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 476.94,
+      "fim_segundos": 477.7,
+      "inicio_global_segundos": 476.94,
+      "fim_global_segundos": 477.7,
+      "texto": "De jeito nenhum"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 477.7,
+      "fim_segundos": 480.74,
+      "inicio_global_segundos": 477.7,
+      "fim_global_segundos": 480.74,
+      "texto": "Uma pesquisa que eu fiz, eu fui lá no Google e coloquei assim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 480.74,
+      "fim_segundos": 481.48,
+      "inicio_global_segundos": 480.74,
+      "fim_global_segundos": 481.48,
+      "texto": "Canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 481.48,
+      "fim_segundos": 483.88,
+      "inicio_global_segundos": 481.48,
+      "fim_global_segundos": 483.88,
+      "texto": "Maiores canais do Brasil"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 483.88,
+      "fim_segundos": 485.8,
+      "inicio_global_segundos": 483.88,
+      "fim_global_segundos": 485.8,
+      "texto": "E aí veio lá uma lista de 50 canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 485.8,
+      "fim_segundos": 487.24,
+      "inicio_global_segundos": 485.8,
+      "fim_global_segundos": 487.24,
+      "texto": "Eu entrei um por um"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 487.24,
+      "fim_segundos": 488.34000000000003,
+      "inicio_global_segundos": 487.24,
+      "fim_global_segundos": 488.34,
+      "texto": "E eu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 488.34000000000003,
+      "fim_segundos": 491.16,
+      "inicio_global_segundos": 488.34,
+      "fim_global_segundos": 491.16,
+      "texto": "Analisava aquele canal"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 491.16,
+      "fim_segundos": 493.78000000000003,
+      "inicio_global_segundos": 491.16,
+      "fim_global_segundos": 493.78,
+      "texto": "Eu olhava e falava, cara, esse canal aqui não é meu público-alvo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 493.78000000000003,
+      "fim_segundos": 495.84000000000003,
+      "inicio_global_segundos": 493.78,
+      "fim_global_segundos": 495.84,
+      "texto": "Por exemplo, o canal de funk lá de músicas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 495.84,
+      "fim_segundos": 501.76,
+      "inicio_global_segundos": 495.84,
+      "fim_global_segundos": 501.76,
+      "texto": "Cara, o meu público naquele momento não vai assistir, não vai acessar a partir daquela música"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 501.76,
+      "fim_segundos": 505.82,
+      "inicio_global_segundos": 501.76,
+      "fim_global_segundos": 505.82,
+      "texto": "Não por causa do funk em si, mas qualquer gênero musical"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 505.82,
+      "fim_segundos": 510.96,
+      "inicio_global_segundos": 505.82,
+      "fim_global_segundos": 510.96,
+      "texto": "Se a pessoa está naquele momento escutando um funk ou um rock, um sertanejo, seja lá o que for"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 510.96,
+      "fim_segundos": 514.48,
+      "inicio_global_segundos": 510.96,
+      "fim_global_segundos": 514.48,
+      "texto": "Ele não está no momento de, cara, eu quero estudar Google agora"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 514.48,
+      "fim_segundos": 516.74,
+      "inicio_global_segundos": 514.48,
+      "fim_global_segundos": 516.74,
+      "texto": "Então eu me coloco no lugar do cliente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 516.74,
+      "fim_segundos": 519.9599999999999,
+      "inicio_global_segundos": 516.74,
+      "fim_global_segundos": 519.96,
+      "texto": "Então nesse caso eu posso negativar alguns canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 519.9599999999999,
+      "fim_segundos": 525.6,
+      "inicio_global_segundos": 519.96,
+      "fim_global_segundos": 525.6,
+      "texto": "Por exemplo, canal infantil, canal de música, alguns canais de humor no geral"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 525.96,
+      "fim_segundos": 528.66,
+      "inicio_global_segundos": 525.96,
+      "fim_global_segundos": 528.66,
+      "texto": "alguns canais, enfim, que não fazem sentido você aparecer."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 528.76,
+      "fim_segundos": 532.3000000000001,
+      "inicio_global_segundos": 528.76,
+      "fim_global_segundos": 532.3,
+      "texto": "Que canais você não deve aparecer de jeito nenhum, porque não é o seu público?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 533.02,
+      "fim_segundos": 534.02,
+      "inicio_global_segundos": 533.02,
+      "fim_global_segundos": 534.02,
+      "texto": "Procure aí."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 534.14,
+      "fim_segundos": 535.7,
+      "inicio_global_segundos": 534.14,
+      "fim_global_segundos": 535.7,
+      "texto": "E Tiago, eu não tenho muitas ideias."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 535.76,
+      "fim_segundos": 538.66,
+      "inicio_global_segundos": 535.76,
+      "fim_global_segundos": 538.66,
+      "texto": "Tudo bem, vamos negativar as suas campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 538.66,
+      "fim_segundos": 543.0,
+      "inicio_global_segundos": 538.66,
+      "fim_global_segundos": 543.0,
+      "texto": "e com o tempo nós vamos descobrir, ver onde os nossos anúncios apareceram"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 543.0,
+      "fim_segundos": 546.4200000000001,
+      "inicio_global_segundos": 543.0,
+      "fim_global_segundos": 546.42,
+      "texto": "e aí nós vamos excluir esses canais, porque leva realmente um tempo,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 546.48,
+      "fim_segundos": 553.2,
+      "inicio_global_segundos": 546.48,
+      "fim_global_segundos": 553.2,
+      "texto": "é uma lista que você constrói ao longo da jornada com as suas campanhas rodando na internet."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 553.34,
+      "fim_segundos": 554.52,
+      "inicio_global_segundos": 553.34,
+      "fim_global_segundos": 554.52,
+      "texto": "Temos aqui os tópicos."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 554.52,
+      "fim_segundos": 558.8,
+      "inicio_global_segundos": 554.52,
+      "fim_global_segundos": 558.8,
+      "texto": "Tópicos é de novo, categorias aí que você deve excluir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 558.8,
+      "fim_segundos": 561.28,
+      "inicio_global_segundos": 558.8,
+      "fim_global_segundos": 561.28,
+      "texto": "Tiago, eu não devo aparecer no público infantil"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 561.28,
+      "fim_segundos": 567.4,
+      "inicio_global_segundos": 561.28,
+      "fim_global_segundos": 567.4,
+      "texto": "Não devo aparecer também, de novo, em tópicos que falam aqui de humor ou músicas no geral"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 567.4,
+      "fim_segundos": 568.72,
+      "inicio_global_segundos": 567.4,
+      "fim_global_segundos": 568.72,
+      "texto": "E assim por diante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 568.72,
+      "fim_segundos": 575.72,
+      "inicio_global_segundos": 568.72,
+      "fim_global_segundos": 575.72,
+      "texto": "Tiago, mas se eu negativar por tópico, pode ser que eu já não saia naquele canal de pegadinhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 575.72,
+      "fim_segundos": 578.76,
+      "inicio_global_segundos": 575.72,
+      "fim_global_segundos": 578.76,
+      "texto": "Porque eu tenho que excluir um ou outro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 578.76,
+      "fim_segundos": 582.92,
+      "inicio_global_segundos": 578.76,
+      "fim_global_segundos": 582.92,
+      "texto": "A minha ideia aqui é garantir que o seu anúncio não saia"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 582.92,
+      "fim_segundos": 587.18,
+      "inicio_global_segundos": 582.92,
+      "fim_global_segundos": 587.18,
+      "texto": "Então já aconteceu o caso de eu negativar aqui um tópico infantil,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 587.52,
+      "fim_segundos": 590.68,
+      "inicio_global_segundos": 587.52,
+      "fim_global_segundos": 590.68,
+      "texto": "mas lá aparece um canal que a categoria não está infantil, mas é."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 591.54,
+      "fim_segundos": 591.74,
+      "inicio_global_segundos": 591.54,
+      "fim_global_segundos": 591.74,
+      "texto": "Sabe?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 592.16,
+      "fim_segundos": 597.06,
+      "inicio_global_segundos": 592.16,
+      "fim_global_segundos": 597.06,
+      "texto": "Ali é um canal de humor, mas lá não está a categoria de humor, mas é."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 597.16,
+      "fim_segundos": 601.0799999999999,
+      "inicio_global_segundos": 597.16,
+      "fim_global_segundos": 601.08,
+      "texto": "Então sim, para garantir, exclua sempre o máximo possível,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 601.4799999999999,
+      "fim_segundos": 605.8199999999999,
+      "inicio_global_segundos": 601.48,
+      "fim_global_segundos": 605.82,
+      "texto": "porque dessa maneira nós vamos aparecer para pessoas relevantes, tá bom?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 606.4599999999999,
+      "fim_segundos": 607.92,
+      "inicio_global_segundos": 606.46,
+      "fim_global_segundos": 607.92,
+      "texto": "Semelhantes você pode excluir também,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 607.92,
+      "fim_segundos": 616.5999999999999,
+      "inicio_global_segundos": 607.92,
+      "fim_global_segundos": 616.6,
+      "texto": "E geralmente nós não fazemos nenhuma segmentação, nenhuma negativação com semelhantes e também com públicos personalizados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 616.92,
+      "fim_segundos": 622.26,
+      "inicio_global_segundos": 616.92,
+      "fim_global_segundos": 622.26,
+      "texto": "Agora, quando eu faço uma campanha P1, uma campanha P1 que é o quê?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 622.8399999999999,
+      "fim_segundos": 628.68,
+      "inicio_global_segundos": 622.84,
+      "fim_global_segundos": 628.68,
+      "texto": "Pessoas que são do meu público de remarketing, ótimo, eu anuncio para elas, faço toda a campanha, aquela coisa toda."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 628.68,
+      "fim_segundos": 635.92,
+      "inicio_global_segundos": 628.68,
+      "fim_global_segundos": 635.92,
+      "texto": "Agora, no P2, em alguns casos, caso você queira ver realmente o resultado apenas do P1 contra o P2,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 635.92,
+      "fim_segundos": 640.92,
+      "inicio_global_segundos": 635.92,
+      "fim_global_segundos": 640.92,
+      "texto": "pessoas que não conhecem você, públicos no geral que não te conhecem."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 641.4799999999999,
+      "fim_segundos": 643.3399999999999,
+      "inicio_global_segundos": 641.48,
+      "fim_global_segundos": 643.34,
+      "texto": "O que acontece nesse caso?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 643.68,
+      "fim_segundos": 651.38,
+      "inicio_global_segundos": 643.68,
+      "fim_global_segundos": 651.38,
+      "texto": "Você pode criar uma campanha onde a segmentação vai ser o P1, o P2, desculpa, menos o P1."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 651.9599999999999,
+      "fim_segundos": 661.14,
+      "inicio_global_segundos": 651.96,
+      "fim_global_segundos": 661.14,
+      "texto": "Ou seja, eu negativo todo mundo que já me conhece, já viu meu vídeo e eu foco apenas em pessoas novas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 661.14,
+      "fim_segundos": 663.46,
+      "inicio_global_segundos": 661.14,
+      "fim_global_segundos": 663.46,
+      "texto": "então essa ideia, você pode utilizar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 663.46,
+      "fim_segundos": 665.18,
+      "inicio_global_segundos": 663.46,
+      "fim_global_segundos": 665.18,
+      "texto": "essa parte de exclusões de"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 665.18,
+      "fim_segundos": 667.46,
+      "inicio_global_segundos": 665.18,
+      "fim_global_segundos": 667.46,
+      "texto": "N maneiras para alcançar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 667.46,
+      "fim_segundos": 669.1,
+      "inicio_global_segundos": 667.46,
+      "fim_global_segundos": 669.1,
+      "texto": "os seus objetivos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 669.1,
+      "fim_segundos": 671.72,
+      "inicio_global_segundos": 669.1,
+      "fim_global_segundos": 671.72,
+      "texto": "e a ideia aqui é te mostrar a estratégia"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 671.72,
+      "fim_segundos": 673.46,
+      "inicio_global_segundos": 671.72,
+      "fim_global_segundos": 673.46,
+      "texto": "por trás de uma criação de uma campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 673.46,
+      "fim_segundos": 675.48,
+      "inicio_global_segundos": 673.46,
+      "fim_global_segundos": 675.48,
+      "texto": "no Google, não é simplesmente clicar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 675.48,
+      "fim_segundos": 677.62,
+      "inicio_global_segundos": 675.48,
+      "fim_global_segundos": 677.62,
+      "texto": "os botões, não é falar assim, ah não, entendi"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 677.62,
+      "fim_segundos": 679.4,
+      "inicio_global_segundos": 677.62,
+      "fim_global_segundos": 679.4,
+      "texto": "lá nos canais, não, você tem que fazer isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 679.4,
+      "fim_segundos": 681.76,
+      "inicio_global_segundos": 679.4,
+      "fim_global_segundos": 681.76,
+      "texto": "com maestria e, caraca, eu preciso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 681.76,
+      "fim_segundos": 683.46,
+      "inicio_global_segundos": 681.76,
+      "fim_global_segundos": 683.46,
+      "texto": "dessa estratégia"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 683.46,
+      "fim_segundos": 684.92,
+      "inicio_global_segundos": 683.46,
+      "fim_global_segundos": 684.92,
+      "texto": "alcançar essas pessoas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 684.92,
+      "fim_segundos": 687.14,
+      "inicio_global_segundos": 684.92,
+      "fim_global_segundos": 687.14,
+      "texto": "e aí eu tenho que fazer isso, isso, isso, isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 687.14,
+      "fim_segundos": 689.62,
+      "inicio_global_segundos": 687.14,
+      "fim_global_segundos": 689.62,
+      "texto": "isso é o que? Uma estratégia"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 689.62,
+      "fim_segundos": 691.84,
+      "inicio_global_segundos": 689.62,
+      "fim_global_segundos": 691.84,
+      "texto": "bem elaborada para gerar mais resultados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 691.84,
+      "fim_segundos": 693.68,
+      "inicio_global_segundos": 691.84,
+      "fim_global_segundos": 693.68,
+      "texto": "para você. Então, olha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 693.68,
+      "fim_segundos": 695.54,
+      "inicio_global_segundos": 693.68,
+      "fim_global_segundos": 695.54,
+      "texto": "que interessante. Vou te mostrar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 695.54,
+      "fim_segundos": 697.28,
+      "inicio_global_segundos": 695.54,
+      "fim_global_segundos": 697.28,
+      "texto": "um pouco de como funciona"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 697.28,
+      "fim_segundos": 699.66,
+      "inicio_global_segundos": 697.28,
+      "fim_global_segundos": 699.66,
+      "texto": "a minha negativação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 699.66,
+      "fim_segundos": 701.44,
+      "inicio_global_segundos": 699.66,
+      "fim_global_segundos": 701.44,
+      "texto": "dos meus públicos. Então,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 701.7,
+      "fim_segundos": 703.5600000000001,
+      "inicio_global_segundos": 701.7,
+      "fim_global_segundos": 703.56,
+      "texto": "eu tenho aqui o público P2."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 704.2,
+      "fim_segundos": 705.98,
+      "inicio_global_segundos": 704.2,
+      "fim_global_segundos": 705.98,
+      "texto": "Vamos lá. Eu tenho uma..."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 705.98,
+      "fim_segundos": 707.58,
+      "inicio_global_segundos": 705.98,
+      "fim_global_segundos": 707.58,
+      "texto": "Vamos pegar aqui uma..."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 707.58,
+      "fim_segundos": 709.16,
+      "inicio_global_segundos": 707.58,
+      "fim_global_segundos": 709.16,
+      "texto": "Semelhantes aos inscritos. Perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 709.88,
+      "fim_segundos": 710.84,
+      "inicio_global_segundos": 709.88,
+      "fim_global_segundos": 710.84,
+      "texto": "Tenho uma campanha minha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 710.84,
+      "fim_segundos": 713.46,
+      "inicio_global_segundos": 710.84,
+      "fim_global_segundos": 713.46,
+      "texto": "e aí eu tenho aqui o público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 713.46,
+      "fim_segundos": 715.9,
+      "inicio_global_segundos": 713.46,
+      "fim_global_segundos": 715.9,
+      "texto": "principal, que são pessoas semelhantes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 715.9,
+      "fim_segundos": 717.5600000000001,
+      "inicio_global_segundos": 715.9,
+      "fim_global_segundos": 717.56,
+      "texto": "aos inscritos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 717.5600000000001,
+      "fim_segundos": 719.08,
+      "inicio_global_segundos": 717.56,
+      "fim_global_segundos": 719.08,
+      "texto": "do YouTube. Ou seja,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 719.62,
+      "fim_segundos": 721.8,
+      "inicio_global_segundos": 719.62,
+      "fim_global_segundos": 721.8,
+      "texto": "Eu tenho aqui o canal no YouTube, certo?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 721.88,
+      "fim_segundos": 722.74,
+      "inicio_global_segundos": 721.88,
+      "fim_global_segundos": 722.74,
+      "texto": "Quem se inscreveu no meu canal."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 723.12,
+      "fim_segundos": 726.92,
+      "inicio_global_segundos": 723.12,
+      "fim_global_segundos": 726.92,
+      "texto": "E o Google criou um público semelhante a essas pessoas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 727.18,
+      "fim_segundos": 729.12,
+      "inicio_global_segundos": 727.18,
+      "fim_global_segundos": 729.12,
+      "texto": "E essa campanha está indo muito bem."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 729.3,
+      "fim_segundos": 732.12,
+      "inicio_global_segundos": 729.3,
+      "fim_global_segundos": 732.12,
+      "texto": "Olha só, porque obviamente quem se inscreveu no canal é um público bem relevante."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 732.58,
+      "fim_segundos": 733.36,
+      "inicio_global_segundos": 732.58,
+      "fim_global_segundos": 733.36,
+      "texto": "Aí, beleza, Tiago."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 733.64,
+      "fim_segundos": 734.96,
+      "inicio_global_segundos": 733.64,
+      "fim_global_segundos": 734.96,
+      "texto": "Eu quero aparecer para essas pessoas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 735.3,
+      "fim_segundos": 738.88,
+      "inicio_global_segundos": 735.3,
+      "fim_global_segundos": 738.88,
+      "texto": "Mas eu vou excluir muita coisa."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 739.18,
+      "fim_segundos": 740.88,
+      "inicio_global_segundos": 739.18,
+      "fim_global_segundos": 740.88,
+      "texto": "Porque esse é o público perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 741.0,
+      "fim_segundos": 743.32,
+      "inicio_global_segundos": 741.0,
+      "fim_global_segundos": 743.32,
+      "texto": "Mas se ele está num vídeo lá de comédia, eu não quero aparecer."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 743.54,
+      "fim_segundos": 744.42,
+      "inicio_global_segundos": 743.54,
+      "fim_global_segundos": 744.42,
+      "texto": "Se ele está isso, sabe?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 744.64,
+      "fim_segundos": 745.92,
+      "inicio_global_segundos": 744.64,
+      "fim_global_segundos": 745.92,
+      "texto": "Eu agora apareço no momento certo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 745.98,
+      "fim_segundos": 746.54,
+      "inicio_global_segundos": 745.98,
+      "fim_global_segundos": 746.54,
+      "texto": "O público já está aqui."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 746.54,
+      "fim_segundos": 748.76,
+      "inicio_global_segundos": 746.54,
+      "fim_global_segundos": 748.76,
+      "texto": "Mas agora eu quero aparecer no momento certo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 748.82,
+      "fim_segundos": 749.5,
+      "inicio_global_segundos": 748.82,
+      "fim_global_segundos": 749.5,
+      "texto": "Como é que eu faço isso?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 749.62,
+      "fim_segundos": 759.02,
+      "inicio_global_segundos": 749.62,
+      "fim_global_segundos": 759.02,
+      "texto": "Vamos lá, palavras-chave, desse grupo aqui, palavras-chave, palavras-negativas, o que eu excluí aqui?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 760.1,
+      "fim_segundos": 763.66,
+      "inicio_global_segundos": 760.1,
+      "fim_global_segundos": 763.66,
+      "texto": "Eu criei uma lista de palavras-negativas, eu vou clicar aqui nessas palavras-negativas,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 764.52,
+      "fim_segundos": 769.72,
+      "inicio_global_segundos": 764.52,
+      "fim_global_segundos": 769.72,
+      "texto": "para nós vermos o que tem dentro dessas palavras-negativas, Among é um jogo, Anitta,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 769.72,
+      "fim_segundos": 772.1600000000001,
+      "inicio_global_segundos": 769.72,
+      "fim_global_segundos": 772.16,
+      "texto": "aplastando"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 772.1600000000001,
+      "fim_segundos": 774.98,
+      "inicio_global_segundos": 772.16,
+      "fim_global_segundos": 774.98,
+      "texto": "baile, bailes, brincadeiras"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 774.98,
+      "fim_segundos": 776.34,
+      "inicio_global_segundos": 774.98,
+      "fim_global_segundos": 776.34,
+      "texto": "BTS, canção"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 776.34,
+      "fim_segundos": 777.78,
+      "inicio_global_segundos": 776.34,
+      "fim_global_segundos": 777.78,
+      "texto": "eu tenho várias palavras"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 777.78,
+      "fim_segundos": 779.9200000000001,
+      "inicio_global_segundos": 777.78,
+      "fim_global_segundos": 779.92,
+      "texto": "GTA, eu tenho quase"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 779.9200000000001,
+      "fim_segundos": 782.24,
+      "inicio_global_segundos": 779.92,
+      "fim_global_segundos": 782.24,
+      "texto": "120 palavras nesse momento"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 782.24,
+      "fim_segundos": 784.3000000000001,
+      "inicio_global_segundos": 782.24,
+      "fim_global_segundos": 784.3,
+      "texto": "que garante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 784.3000000000001,
+      "fim_segundos": 785.98,
+      "inicio_global_segundos": 784.3,
+      "fim_global_segundos": 785.98,
+      "texto": "o meu anúncio não aparecer"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 785.98,
+      "fim_segundos": 788.4,
+      "inicio_global_segundos": 785.98,
+      "fim_global_segundos": 788.4,
+      "texto": "para as pessoas que estão com essas palavras-chave"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 788.4,
+      "fim_segundos": 790.02,
+      "inicio_global_segundos": 788.4,
+      "fim_global_segundos": 790.02,
+      "texto": "ou seja, já qualifica"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 790.02,
+      "fim_segundos": 791.88,
+      "inicio_global_segundos": 790.02,
+      "fim_global_segundos": 791.88,
+      "texto": "bastante o meu público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 791.88,
+      "fim_segundos": 794.14,
+      "inicio_global_segundos": 791.88,
+      "fim_global_segundos": 794.14,
+      "texto": "e eu sempre adiciono assim que eu encontro novas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 794.14,
+      "fim_segundos": 795.08,
+      "inicio_global_segundos": 794.14,
+      "fim_global_segundos": 795.08,
+      "texto": "palavras"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 795.08,
+      "fim_segundos": 798.28,
+      "inicio_global_segundos": 795.08,
+      "fim_global_segundos": 798.28,
+      "texto": "então vamos voltar, vou focar aqui na campanha novamente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 798.28,
+      "fim_segundos": 799.5400000000001,
+      "inicio_global_segundos": 798.28,
+      "fim_global_segundos": 799.54,
+      "texto": "em semelhantes aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 799.54,
+      "fim_segundos": 803.64,
+      "inicio_global_segundos": 799.54,
+      "fim_global_segundos": 803.64,
+      "texto": "semelhantes aos inscritos, show de bola"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 803.64,
+      "fim_segundos": 805.7199999999999,
+      "inicio_global_segundos": 803.64,
+      "fim_global_segundos": 805.72,
+      "texto": "aí eu tenho"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 805.7199999999999,
+      "fim_segundos": 807.0999999999999,
+      "inicio_global_segundos": 805.72,
+      "fim_global_segundos": 807.1,
+      "texto": "aqui agora a parte de"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 807.0999999999999,
+      "fim_segundos": 808.26,
+      "inicio_global_segundos": 807.1,
+      "fim_global_segundos": 808.26,
+      "texto": "públicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 808.26,
+      "fim_segundos": 810.9599999999999,
+      "inicio_global_segundos": 808.26,
+      "fim_global_segundos": 810.96,
+      "texto": "lembra que falamos em discussão de públicos?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 811.3199999999999,
+      "fim_segundos": 813.24,
+      "inicio_global_segundos": 811.32,
+      "fim_global_segundos": 813.24,
+      "texto": "vamos negativar quem já fez a ação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 813.24,
+      "fim_segundos": 815.6999999999999,
+      "inicio_global_segundos": 813.24,
+      "fim_global_segundos": 815.7,
+      "texto": "desejada, caso seja o seu caso aí também"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 815.6999999999999,
+      "fim_segundos": 816.86,
+      "inicio_global_segundos": 815.7,
+      "fim_global_segundos": 816.86,
+      "texto": "tá? no meu"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 816.86,
+      "fim_segundos": 819.66,
+      "inicio_global_segundos": 816.86,
+      "fim_global_segundos": 819.66,
+      "texto": "essa campanha é campanhas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 819.66,
+      "fim_segundos": 821.64,
+      "inicio_global_segundos": 819.66,
+      "fim_global_segundos": 821.64,
+      "texto": "focadas para leads"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 821.64,
+      "fim_segundos": 822.7199999999999,
+      "inicio_global_segundos": 821.64,
+      "fim_global_segundos": 822.72,
+      "texto": "então nesse caso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 822.7199999999999,
+      "fim_segundos": 825.4,
+      "inicio_global_segundos": 822.72,
+      "fim_global_segundos": 825.4,
+      "texto": "eu tenho aqui ó, semelhantes"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 825.4,
+      "fim_segundos": 827.42,
+      "inicio_global_segundos": 825.4,
+      "fim_global_segundos": 827.42,
+      "texto": "e embaixo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 827.42,
+      "fim_segundos": 829.48,
+      "inicio_global_segundos": 827.42,
+      "fim_global_segundos": 829.48,
+      "texto": "eu tenho exclusões, eu já estou"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 829.48,
+      "fim_segundos": 831.74,
+      "inicio_global_segundos": 829.48,
+      "fim_global_segundos": 831.74,
+      "texto": "negativando pessoas que se cadastraram"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 831.74,
+      "fim_segundos": 832.9,
+      "inicio_global_segundos": 831.74,
+      "fim_global_segundos": 832.9,
+      "texto": "no evento"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 832.9,
+      "fim_segundos": 835.38,
+      "inicio_global_segundos": 832.9,
+      "fim_global_segundos": 835.38,
+      "texto": "lead, porque daí ela não vai ser impactada pelo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 835.38,
+      "fim_segundos": 837.62,
+      "inicio_global_segundos": 835.38,
+      "fim_global_segundos": 837.62,
+      "texto": "anúncio novamente, e além disso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 837.62,
+      "fim_segundos": 839.22,
+      "inicio_global_segundos": 837.62,
+      "fim_global_segundos": 839.22,
+      "texto": "eu também negativei"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 839.22,
+      "fim_segundos": 841.52,
+      "inicio_global_segundos": 839.22,
+      "fim_global_segundos": 841.52,
+      "texto": "o que? Pessoas que não fazem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 841.52,
+      "fim_segundos": 843.4200000000001,
+      "inicio_global_segundos": 841.52,
+      "fim_global_segundos": 843.42,
+      "texto": "parte do meu público-alvo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 843.4200000000001,
+      "fim_segundos": 845.34,
+      "inicio_global_segundos": 843.42,
+      "fim_global_segundos": 845.34,
+      "texto": "nessa campanha, nesse caso, a minha campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 845.34,
+      "fim_segundos": 847.3000000000001,
+      "inicio_global_segundos": 845.34,
+      "fim_global_segundos": 847.3,
+      "texto": "está rodando apenas para"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 847.3000000000001,
+      "fim_segundos": 848.6,
+      "inicio_global_segundos": 847.3,
+      "fim_global_segundos": 848.6,
+      "texto": "25 a"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 848.6,
+      "fim_segundos": 851.5,
+      "inicio_global_segundos": 848.6,
+      "fim_global_segundos": 851.5,
+      "texto": "64 anos, e olha que"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 851.5,
+      "fim_segundos": 853.28,
+      "inicio_global_segundos": 851.5,
+      "fim_global_segundos": 853.28,
+      "texto": "interessante, isso não significa"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 853.28,
+      "fim_segundos": 854.62,
+      "inicio_global_segundos": 853.28,
+      "fim_global_segundos": 854.62,
+      "texto": "que eu não anuncio para 18 e 24"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 854.62,
+      "fim_segundos": 857.24,
+      "inicio_global_segundos": 854.62,
+      "fim_global_segundos": 857.24,
+      "texto": "ou nesse caso aqui, eu não anuncio"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 857.24,
+      "fim_segundos": 858.8000000000001,
+      "inicio_global_segundos": 857.24,
+      "fim_global_segundos": 858.8,
+      "texto": "para mulheres, que eu anuncio só para homens"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 858.8,
+      "fim_segundos": 862.1999999999999,
+      "inicio_global_segundos": 858.8,
+      "fim_global_segundos": 862.2,
+      "texto": "é que eu anuncio para mulheres em uma outra campanha com um orçamento menor."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 862.1999999999999,
+      "fim_segundos": 865.9599999999999,
+      "inicio_global_segundos": 862.2,
+      "fim_global_segundos": 865.96,
+      "texto": "Por quê? Porque 80% do meu público é do público masculino,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 866.02,
+      "fim_segundos": 870.54,
+      "inicio_global_segundos": 866.02,
+      "fim_global_segundos": 870.54,
+      "texto": "então eu vou destinar um orçamento maior para o público masculino."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 870.9399999999999,
+      "fim_segundos": 874.42,
+      "inicio_global_segundos": 870.94,
+      "fim_global_segundos": 874.42,
+      "texto": "Então essa é a ideia que você tem que ter na hora de criar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 874.76,
+      "fim_segundos": 879.4,
+      "inicio_global_segundos": 874.76,
+      "fim_global_segundos": 879.4,
+      "texto": "Eu tenho que fazer de tudo para alcançar o meu público e não aparecer nos lugares errados."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 880.14,
+      "fim_segundos": 884.5,
+      "inicio_global_segundos": 880.14,
+      "fim_global_segundos": 884.5,
+      "texto": "Em canais, eu tenho uma lista de canais aqui que eu, obviamente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 884.5,
+      "fim_segundos": 886.18,
+      "inicio_global_segundos": 884.5,
+      "fim_global_segundos": 886.18,
+      "texto": "Não"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 886.18,
+      "fim_segundos": 888.36,
+      "inicio_global_segundos": 886.18,
+      "fim_global_segundos": 888.36,
+      "texto": "Posso aparecer de jeito nenhum"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 888.36,
+      "fim_segundos": 890.36,
+      "inicio_global_segundos": 888.36,
+      "fim_global_segundos": 890.36,
+      "texto": "E tem quase 400 canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 890.36,
+      "fim_segundos": 892.82,
+      "inicio_global_segundos": 890.36,
+      "fim_global_segundos": 892.82,
+      "texto": "E essa lista foi montada ao longo de toda a jornada"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 892.82,
+      "fim_segundos": 894.9,
+      "inicio_global_segundos": 892.82,
+      "fim_global_segundos": 894.9,
+      "texto": "Vou anunciando, escolhe, escolhe"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 894.9,
+      "fim_segundos": 897.06,
+      "inicio_global_segundos": 894.9,
+      "fim_global_segundos": 897.06,
+      "texto": "E ó, se você clicar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 897.06,
+      "fim_segundos": 899.08,
+      "inicio_global_segundos": 897.06,
+      "fim_global_segundos": 899.08,
+      "texto": "Em onde os meus anúncios foram exibidos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 899.08,
+      "fim_segundos": 900.4,
+      "inicio_global_segundos": 899.08,
+      "fim_global_segundos": 900.4,
+      "texto": "O Google vai te mostrar"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 900.4,
+      "fim_segundos": 903.02,
+      "inicio_global_segundos": 900.4,
+      "fim_global_segundos": 903.02,
+      "texto": "Os canais que apareceram"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 903.02,
+      "fim_segundos": 903.88,
+      "inicio_global_segundos": 903.02,
+      "fim_global_segundos": 903.88,
+      "texto": "Aí os seus vídeos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 903.88,
+      "fim_segundos": 906.5,
+      "inicio_global_segundos": 903.88,
+      "fim_global_segundos": 906.5,
+      "texto": "E aí o ideal é você analisar canal por canal"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 906.5,
+      "fim_segundos": 908.9,
+      "inicio_global_segundos": 906.5,
+      "fim_global_segundos": 908.9,
+      "texto": "Canal por canal, é só você clicar aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 908.9,
+      "fim_segundos": 910.78,
+      "inicio_global_segundos": 908.9,
+      "fim_global_segundos": 910.78,
+      "texto": "E ver, será que esse canal aqui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 910.78,
+      "fim_segundos": 912.02,
+      "inicio_global_segundos": 910.78,
+      "fim_global_segundos": 912.02,
+      "texto": "Ele é bom, vai aparecer?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 912.86,
+      "fim_segundos": 914.2,
+      "inicio_global_segundos": 912.86,
+      "fim_global_segundos": 914.2,
+      "texto": "Pô, aqui um canal de notícias"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 914.2,
+      "fim_segundos": 915.3000000000001,
+      "inicio_global_segundos": 914.2,
+      "fim_global_segundos": 915.3,
+      "texto": "Então é interessante"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 915.3000000000001,
+      "fim_segundos": 917.5600000000001,
+      "inicio_global_segundos": 915.3,
+      "fim_global_segundos": 917.56,
+      "texto": "Se é um canal ruim, exclui"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 917.5600000000001,
+      "fim_segundos": 919.96,
+      "inicio_global_segundos": 917.56,
+      "fim_global_segundos": 919.96,
+      "texto": "Se é um canal bom, não faz nenhuma alteração"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 919.96,
+      "fim_segundos": 921.6,
+      "inicio_global_segundos": 919.96,
+      "fim_global_segundos": 921.6,
+      "texto": "Porque nós estamos segmentando por público"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 921.6,
+      "fim_segundos": 923.98,
+      "inicio_global_segundos": 921.6,
+      "fim_global_segundos": 923.98,
+      "texto": "E se for um canal neutro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 923.98,
+      "fim_segundos": 925.0600000000001,
+      "inicio_global_segundos": 923.98,
+      "fim_global_segundos": 925.06,
+      "texto": "Está tudo bem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 925.0600000000001,
+      "fim_segundos": 927.24,
+      "inicio_global_segundos": 925.06,
+      "fim_global_segundos": 927.24,
+      "texto": "Agora, se for um canal de marketing"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 927.24,
+      "fim_segundos": 929.74,
+      "inicio_global_segundos": 927.24,
+      "fim_global_segundos": 929.74,
+      "texto": "Algo que fala sobre o seu produto ou serviço"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 929.74,
+      "fim_segundos": 931.86,
+      "inicio_global_segundos": 929.74,
+      "fim_global_segundos": 931.86,
+      "texto": "Guarde esse canal, copia"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 931.86,
+      "fim_segundos": 933.8000000000001,
+      "inicio_global_segundos": 931.86,
+      "fim_global_segundos": 933.8,
+      "texto": "E adiciona lá uma segmentação de canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 933.8000000000001,
+      "fim_segundos": 935.5,
+      "inicio_global_segundos": 933.8,
+      "fim_global_segundos": 935.5,
+      "texto": "Porque eu tenho uma outra campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 935.5,
+      "fim_segundos": 939.0,
+      "inicio_global_segundos": 935.5,
+      "fim_global_segundos": 939.0,
+      "texto": "Que é focada apenas em canais específicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 939.0,
+      "fim_segundos": 940.74,
+      "inicio_global_segundos": 939.0,
+      "fim_global_segundos": 940.74,
+      "texto": "E aí eu vou adicionando esses canais bons"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 940.74,
+      "fim_segundos": 941.88,
+      "inicio_global_segundos": 940.74,
+      "fim_global_segundos": 941.88,
+      "texto": "Nessa campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 941.88,
+      "fim_segundos": 943.4000000000001,
+      "inicio_global_segundos": 941.88,
+      "fim_global_segundos": 943.4,
+      "texto": "E eu dou um lance maior"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 943.4,
+      "fim_segundos": 948.12,
+      "inicio_global_segundos": 943.4,
+      "fim_global_segundos": 948.12,
+      "texto": "para aparecer nesse canal, nesse site como um todo."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 948.22,
+      "fim_segundos": 950.98,
+      "inicio_global_segundos": 948.22,
+      "fim_global_segundos": 950.98,
+      "texto": "Não só canal, mas pode ser também, nesse caso aqui é canais do YouTube,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 951.0799999999999,
+      "fim_segundos": 954.18,
+      "inicio_global_segundos": 951.08,
+      "fim_global_segundos": 954.18,
+      "texto": "mas pode também ser sites de parceiros do Google aí."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 954.4599999999999,
+      "fim_segundos": 956.16,
+      "inicio_global_segundos": 954.46,
+      "fim_global_segundos": 956.16,
+      "texto": "E aí eu tenho também a parte de exclusões,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 956.4599999999999,
+      "fim_segundos": 961.26,
+      "inicio_global_segundos": 956.46,
+      "fim_global_segundos": 961.26,
+      "texto": "que tenho também aqui acionados manualmente,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 961.54,
+      "fim_segundos": 963.62,
+      "inicio_global_segundos": 961.54,
+      "fim_global_segundos": 963.62,
+      "texto": "e eu comecei a construir a minha lista de exclusões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 963.62,
+      "fim_segundos": 965.62,
+      "inicio_global_segundos": 963.62,
+      "fim_global_segundos": 965.62,
+      "texto": "para não precisar adicionar um a um."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 965.62,
+      "fim_segundos": 971.96,
+      "inicio_global_segundos": 965.62,
+      "fim_global_segundos": 971.96,
+      "texto": "E nesse caso, essa lista tem aqui 714 palavras."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 971.96,
+      "fim_segundos": 976.0400000000001,
+      "inicio_global_segundos": 971.96,
+      "fim_global_segundos": 976.04,
+      "texto": "Então depois eu quero só tirar aquelas palavras que eu adicionei manualmente"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 976.0400000000001,
+      "fim_segundos": 977.1800000000001,
+      "inicio_global_segundos": 976.04,
+      "fim_global_segundos": 977.18,
+      "texto": "E trazer tudo para a lista"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 977.1800000000001,
+      "fim_segundos": 980.0400000000001,
+      "inicio_global_segundos": 977.18,
+      "fim_global_segundos": 980.04,
+      "texto": "E depois eu falo aqui sobre as listas de exclusões"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 980.0400000000001,
+      "fim_segundos": 983.86,
+      "inicio_global_segundos": 980.04,
+      "fim_global_segundos": 983.86,
+      "texto": "Tanto de palavras negativas quanto de canais"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 983.86,
+      "fim_segundos": 987.22,
+      "inicio_global_segundos": 983.86,
+      "fim_global_segundos": 987.22,
+      "texto": "Além disso, nós temos aqui também tópicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 987.22,
+      "fim_segundos": 988.8000000000001,
+      "inicio_global_segundos": 987.22,
+      "fim_global_segundos": 988.8,
+      "texto": "Exclusões de tópicos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 988.8000000000001,
+      "fim_segundos": 993.7,
+      "inicio_global_segundos": 988.8,
+      "fim_global_segundos": 993.7,
+      "texto": "Olha só, eu não apareço, por exemplo, quando fazem aí vídeos de testes divertidos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 993.7,
+      "fim_segundos": 999.0600000000001,
+      "inicio_global_segundos": 993.7,
+      "fim_global_segundos": 999.06,
+      "texto": "Literatura infantil, bebês e crianças, humor, videogames"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 999.06,
+      "fim_segundos": 1001.68,
+      "inicio_global_segundos": 999.06,
+      "fim_global_segundos": 1001.68,
+      "texto": "quadrinhos de animação, desenhos animados"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1001.68,
+      "fim_segundos": 1003.68,
+      "inicio_global_segundos": 1001.68,
+      "fim_global_segundos": 1003.68,
+      "texto": "brinquedos e assim, jogos e assim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1003.68,
+      "fim_segundos": 1005.56,
+      "inicio_global_segundos": 1003.68,
+      "fim_global_segundos": 1005.56,
+      "texto": "por diante, então de novo isso me ajuda"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1005.56,
+      "fim_segundos": 1007.4799999999999,
+      "inicio_global_segundos": 1005.56,
+      "fim_global_segundos": 1007.48,
+      "texto": "a aparecer também no"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1007.4799999999999,
+      "fim_segundos": 1009.1199999999999,
+      "inicio_global_segundos": 1007.48,
+      "fim_global_segundos": 1009.12,
+      "texto": "momento certo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1009.1199999999999,
+      "fim_segundos": 1011.52,
+      "inicio_global_segundos": 1009.12,
+      "fim_global_segundos": 1011.52,
+      "texto": "então muitas vezes o segredo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1011.52,
+      "fim_segundos": 1013.52,
+      "inicio_global_segundos": 1011.52,
+      "fim_global_segundos": 1013.52,
+      "texto": "da campanha não é só descobrir"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1013.52,
+      "fim_segundos": 1015.28,
+      "inicio_global_segundos": 1013.52,
+      "fim_global_segundos": 1015.28,
+      "texto": "aquele público perfeito"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1015.28,
+      "fim_segundos": 1017.3599999999999,
+      "inicio_global_segundos": 1015.28,
+      "fim_global_segundos": 1017.36,
+      "texto": "e sim pra quem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1017.3599999999999,
+      "fim_segundos": 1019.3199999999999,
+      "inicio_global_segundos": 1017.36,
+      "fim_global_segundos": 1019.32,
+      "texto": "é, eu devo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1019.3199999999999,
+      "fim_segundos": 1021.5,
+      "inicio_global_segundos": 1019.32,
+      "fim_global_segundos": 1021.5,
+      "texto": "quem não deve"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1021.5,
+      "fim_segundos": 1022.4599999999999,
+      "inicio_global_segundos": 1021.5,
+      "fim_global_segundos": 1022.46,
+      "texto": "de fato"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1022.4599999999999,
+      "fim_segundos": 1025.1399999999999,
+      "inicio_global_segundos": 1022.46,
+      "fim_global_segundos": 1025.14,
+      "texto": "fazer parte desse público, quem eu devo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1025.1399999999999,
+      "fim_segundos": 1027.58,
+      "inicio_global_segundos": 1025.14,
+      "fim_global_segundos": 1027.58,
+      "texto": "excluir a qualquer custo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1027.58,
+      "fim_segundos": 1034.52,
+      "inicio_global_segundos": 1027.58,
+      "fim_global_segundos": 1034.52,
+      "texto": "E para ajudar nessa construção da asseguração de listas de exclusões, você pode vir aqui em ferramentas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1035.98,
+      "fim_segundos": 1044.1799999999998,
+      "inicio_global_segundos": 1035.98,
+      "fim_global_segundos": 1044.18,
+      "texto": "E aqui nós temos a parte de biblioteca compartilhada, nós temos a parte de listas de palavras negativas e também listas de exclusões negativas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1044.98,
+      "fim_segundos": 1047.22,
+      "inicio_global_segundos": 1044.98,
+      "fim_global_segundos": 1047.22,
+      "texto": "Então, quando você clica aqui, o que acontece?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1047.22,
+      "fim_segundos": 1068.46,
+      "inicio_global_segundos": 1047.22,
+      "fim_global_segundos": 1068.46,
+      "texto": "Você pode criar uma lista e toda vez que você encontrar um canal ruim, você simplesmente vem aqui, adiciona esse canal ruim aqui e aí ele já atualiza automaticamente em todas as suas campanhas que tem essa lista adicionada, assim como se for também nas palavras negativas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1068.46,
+      "fim_segundos": 1091.1000000000001,
+      "inicio_global_segundos": 1068.46,
+      "fim_global_segundos": 1091.1,
+      "texto": "Você vem aqui em ferramentas, lista de palavras negativas, está aqui, por exemplo, essa aqui que eu tenho é lista da display, que é do YouTube também, eu venho aqui, eu adiciono uma palavra, e aí quando eu atualizo aqui, atualiza em todas as listas automaticamente, então fica muito mais fácil para você gerenciar as suas campanhas dessa maneira."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1091.1,
+      "fim_segundos": 1096.06,
+      "inicio_global_segundos": 1091.1,
+      "fim_global_segundos": 1096.06,
+      "texto": "Então a ideia dessa aula de hoje é entender isso"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1096.06,
+      "fim_segundos": 1101.08,
+      "inicio_global_segundos": 1096.06,
+      "fim_global_segundos": 1101.08,
+      "texto": "Que cara, se eu não acertar a exclusão, eu vou errar a minha campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1101.08,
+      "fim_segundos": 1106.6799999999998,
+      "inicio_global_segundos": 1101.08,
+      "fim_global_segundos": 1106.68,
+      "texto": "Vai alcançar muitas e muitas pessoas que não deveriam assistir o meu vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1106.6799999999998,
+      "fim_segundos": 1109.1999999999998,
+      "inicio_global_segundos": 1106.68,
+      "fim_global_segundos": 1109.2,
+      "texto": "E pessoas que jamais comprariam o meu produto"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1109.1999999999998,
+      "fim_segundos": 1114.5,
+      "inicio_global_segundos": 1109.2,
+      "fim_global_segundos": 1114.5,
+      "texto": "Então quando alguém erra no YouTube, geralmente erra na segmentação"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1114.5,
+      "fim_segundos": 1117.34,
+      "inicio_global_segundos": 1114.5,
+      "fim_global_segundos": 1117.34,
+      "texto": "Geralmente erra nesse detalhe"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1117.34,
+      "fim_segundos": 1121.1799999999998,
+      "inicio_global_segundos": 1117.34,
+      "fim_global_segundos": 1121.18,
+      "texto": "ele quer não sair para todo mundo ou esquece de excluir."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1121.34,
+      "fim_segundos": 1127.78,
+      "inicio_global_segundos": 1121.34,
+      "fim_global_segundos": 1127.78,
+      "texto": "E a exclusão é algo infinito, porque tem muito canal, tem muitas segmentações,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1128.22,
+      "fim_segundos": 1132.62,
+      "inicio_global_segundos": 1128.22,
+      "fim_global_segundos": 1132.62,
+      "texto": "então a gente sempre analisa palavras novas, canais novos,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1132.6599999999999,
+      "fim_segundos": 1138.86,
+      "inicio_global_segundos": 1132.66,
+      "fim_global_segundos": 1138.86,
+      "texto": "e cada vez mais a campanha fica ainda melhor, porque eu sempre refino a minha campanha."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1139.4199999999998,
+      "fim_segundos": 1144.6,
+      "inicio_global_segundos": 1139.42,
+      "fim_global_segundos": 1144.6,
+      "texto": "E aí chega uma hora que é só você subir a campanha ou continuar,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1144.6,
+      "fim_segundos": 1146.78,
+      "inicio_global_segundos": 1144.6,
+      "fim_global_segundos": 1146.78,
+      "texto": "que vai te ajudar a gerar resultados mais rápidos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1146.78,
+      "fim_segundos": 1148.6599999999999,
+      "inicio_global_segundos": 1146.78,
+      "fim_global_segundos": 1148.66,
+      "texto": "e maiores. Por quê? Porque você"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1148.6599999999999,
+      "fim_segundos": 1150.6,
+      "inicio_global_segundos": 1148.66,
+      "fim_global_segundos": 1150.6,
+      "texto": "vai deixar de aparecer para quem"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1150.6,
+      "fim_segundos": 1152.62,
+      "inicio_global_segundos": 1150.6,
+      "fim_global_segundos": 1152.62,
+      "texto": "não deveria ver o seu anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1153.4599999999998,
+      "fim_segundos": 1155.12,
+      "inicio_global_segundos": 1153.46,
+      "fim_global_segundos": 1155.12,
+      "texto": "É isso. Continuamos"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1155.12,
+      "fim_segundos": 1156.4399999999998,
+      "inicio_global_segundos": 1155.12,
+      "fim_global_segundos": 1156.44,
+      "texto": "na próxima aula"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1156.4399999999998,
+      "fim_segundos": 1158.62,
+      "inicio_global_segundos": 1156.44,
+      "fim_global_segundos": 1158.62,
+      "texto": "aqui na criação de campanhas de vídeo"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1158.62,
+      "fim_segundos": 1159.52,
+      "inicio_global_segundos": 1158.62,
+      "fim_global_segundos": 1159.52,
+      "texto": "no Google Ads."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1162.1,
+      "fim_segundos": 1164.8,
+      "inicio_global_segundos": 1162.1,
+      "fim_global_segundos": 1164.8,
+      "texto": "Ô Tiago, como é que eu coloco, como é que eu insiro"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1164.8,
+      "fim_segundos": 1166.62,
+      "inicio_global_segundos": 1164.8,
+      "fim_global_segundos": 1166.62,
+      "texto": "uma palavra ou uma frase"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1166.62,
+      "fim_segundos": 1168.4399999999998,
+      "inicio_global_segundos": 1166.62,
+      "fim_global_segundos": 1168.44,
+      "texto": "que é negativa, que é ruim"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1168.4399999999998,
+      "fim_segundos": 1170.6,
+      "inicio_global_segundos": 1168.44,
+      "fim_global_segundos": 1170.6,
+      "texto": "na rede de vídeo, para me"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1170.6,
+      "fim_segundos": 1173.3,
+      "inicio_global_segundos": 1170.6,
+      "fim_global_segundos": 1173.3,
+      "texto": "negativar essa palavra ou palavras relacionadas"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1173.3,
+      "fim_segundos": 1174.4599999999998,
+      "inicio_global_segundos": 1173.3,
+      "fim_global_segundos": 1174.46,
+      "texto": "a essa palavra?"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1175.04,
+      "fim_segundos": 1175.48,
+      "inicio_global_segundos": 1175.04,
+      "fim_global_segundos": 1175.48,
+      "texto": "Perfeito."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1176.1999999999998,
+      "fim_segundos": 1179.24,
+      "inicio_global_segundos": 1176.2,
+      "fim_global_segundos": 1179.24,
+      "texto": "É só você clicar aqui na parte de grupo de anúncio, onde você quer."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1179.52,
+      "fim_segundos": 1182.4399999999998,
+      "inicio_global_segundos": 1179.52,
+      "fim_global_segundos": 1182.44,
+      "texto": "Você pode adicionar essa palavra negativa tanto a nível de campanha"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1182.4399999999998,
+      "fim_segundos": 1184.54,
+      "inicio_global_segundos": 1182.44,
+      "fim_global_segundos": 1184.54,
+      "texto": "ou a nível de grupo de anúncio."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1184.98,
+      "fim_segundos": 1186.02,
+      "inicio_global_segundos": 1184.98,
+      "fim_global_segundos": 1186.02,
+      "texto": "Aí você clica aqui em palavras."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1186.6999999999998,
+      "fim_segundos": 1188.52,
+      "inicio_global_segundos": 1186.7,
+      "fim_global_segundos": 1188.52,
+      "texto": "Nós temos a parte de palavras negativas."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1189.56,
+      "fim_segundos": 1193.3799999999999,
+      "inicio_global_segundos": 1189.56,
+      "fim_global_segundos": 1193.38,
+      "texto": "E aí nós podemos adicionar manualmente aqui, só nesse conjunto."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1193.3799999999999,
+      "fim_segundos": 1196.5,
+      "inicio_global_segundos": 1193.38,
+      "fim_global_segundos": 1196.5,
+      "texto": "Ou se você quiser adicionar naquela lista que você criou lá atrás."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1198.1799999999998,
+      "fim_segundos": 1202.62,
+      "inicio_global_segundos": 1198.18,
+      "fim_global_segundos": 1202.62,
+      "texto": "Vem aqui, adiciona a palavra e clica em salvar."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1203.4599999999998,
+      "fim_segundos": 1203.9599999999998,
+      "inicio_global_segundos": 1203.46,
+      "fim_global_segundos": 1203.96,
+      "texto": "E aí fechou."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1203.96,
+      "fim_segundos": 1209.78,
+      "inicio_global_segundos": 1203.96,
+      "fim_global_segundos": 1209.78,
+      "texto": "Quando você coloca na lista, ela vai excluir de todas as campanhas que tenham essa lista."
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1210.32,
+      "fim_segundos": 1214.58,
+      "inicio_global_segundos": 1210.32,
+      "fim_global_segundos": 1214.58,
+      "texto": "Se você adicionar apenas essa palavra-chave negativa nessa campanha,"
+    },
+    {
+      "parte": null,
+      "video_relativo": "Módulo 10 - YouTube/m10_a10_exclusao_de_segmentacao.mp4",
+      "inicio_segundos": 1214.8600000000001,
+      "fim_segundos": 1218.92,
+      "inicio_global_segundos": 1214.86,
+      "fim_global_segundos": 1218.92,
+      "texto": "vai excluir apenas daquela campanha como mostramos ali anteriormente."
+    }
+  ]
+}
