@@ -1,0 +1,342 @@
+# A6 a grande revelacao dos boletos
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 06 - Como Amplificar Seus Meteóricos.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 06 - Como Amplificar Seus Meteóricos\m6_a6_a_grande_revelacao_dos_boletos.mp4`. Duração: 00:10:10.517.
+SHA-256 do vídeo: `866178007e225580ec1976c49c3ddff46877a2ad984129c646d100a721d0b863`. [Origem](https://drive.google.com/drive/folders/1aEvybHw9_sLDqukg1ur5SGinQZ5dy4jX?hl=pt-br).
+
+[00:00:00.000–00:00:06.200] Em 95% dos lançamentos que nós fizemos, mentoramos ou acompanhamos,
+
+[00:00:06.600–00:00:14.220] nós encontramos pessoas nos grupos perguntando sobre a possibilidade de pagar o produto em boleto parcelado.
+
+[00:00:14.560–00:00:17.560] No começo, lá atrás, quando a gente começou a fazer os lançamentos,
+
+[00:00:17.940–00:00:23.080] a gente evitava ao máximo fazer esse tipo de negociação com medo do risco.
+
+[00:00:23.080–00:00:27.260] Até um dia em que nós decidimos arriscar e no final do dia,
+
+[00:00:27.260–00:00:30.280] depois de já ter garantido a venda nos cartões de crédito,
+
+[00:00:30.560–00:00:33.000] já depois de ter feito o buster das 14 horas,
+
+[00:00:33.300–00:00:36.460] nós decidimos abrir para essas pessoas que queriam comprar
+
+[00:00:36.460–00:00:39.400] num boleto parcelado, um parcelamento no boleto.
+
+[00:00:39.540–00:00:42.420] E para nossa surpresa, a adimplência, ou seja,
+
+[00:00:42.600–00:00:45.140] a taxa de pagamento foi extremamente alta,
+
+[00:00:45.440–00:00:46.800] foi extremamente positiva.
+
+[00:00:47.200–00:00:50.260] Daí em diante, nós começamos a orientar os nossos mentorados
+
+[00:00:50.260–00:00:53.100] e nos nossos lançamentos, sempre abrimos,
+
+[00:00:53.180–00:00:55.460] passamos a abrir essa possibilidade de pagamento
+
+[00:00:55.460–00:00:58.560] do boleto parcelado a partir das 17 horas.
+
+[00:00:59.000–00:01:01.240] Depois nós fomos estudar o porquê disso.
+
+[00:01:01.600–00:01:05.300] Nós observamos o seguinte, fizemos várias pesquisas e descobrimos que no Brasil
+
+[00:01:05.300–00:01:11.560] quase 70% das famílias estão endividadas, estão com nome no SPC e no Serasa.
+
+[00:01:11.740–00:01:19.340] Dessas dívidas, 80% são em cartão de crédito, ou seja, as pessoas estão penduradas no cartão.
+
+[00:01:19.440–00:01:23.020] Realmente tem muita gente que não está podendo usar o cartão de crédito.
+
+[00:01:23.020–00:01:28.180] E a grande maioria, para nossa surpresa, são pessoas que são bons pagadores
+
+[00:01:28.180–00:01:33.940] quando fazem crediário ou um parcelamento em cheque predatado ou boleto bancário.
+
+[00:01:34.320–00:01:37.620] Foi com esse dado aí que nós nos sentimos ainda mais seguros
+
+[00:01:37.620–00:01:41.160] para ensinar de modo mais massivo para todos os nossos alunos
+
+[00:01:41.160–00:01:46.960] a estratégia do Buster das 17 horas, que é a utilização do parcelamento via boleto.
+
+[00:01:47.420–00:01:49.460] Só que agora eu vou fazer uma divisão.
+
+[00:01:49.460–00:01:53.260] Vamos fazer uma divisão, porque você pode ser um infoprodutor,
+
+[00:01:53.500–00:01:58.300] ou seja, um profissional, uma empresa que venda infoprodutos, cursos digitais, etc.
+
+[00:01:58.860–00:02:03.380] Ou você pode ser um profissional, uma empresa que trabalhe com varejo ou serviços.
+
+[00:02:03.700–00:02:05.840] Vamos lá. Vamos começar pelo mais fácil.
+
+[00:02:06.180–00:02:09.060] Se você é um infoprodutor e vende um produto digital,
+
+[00:02:09.660–00:02:13.560] o seu risco de vender parcelado no boleto é muito pequeno.
+
+[00:02:13.940–00:02:18.000] Por quê? Porque você vende o produto, você só libera o acesso ao seu produto.
+
+[00:02:18.000–00:02:21.120] se o cliente pagar a primeira parcela do boleto.
+
+[00:02:21.460–00:02:25.880] E caso ele atrase, você tem a possibilidade de suspender o acesso, ok?
+
+[00:02:26.160–00:02:31.200] E, claro, continuar fazendo as cobranças nas segundas e terceiras parcelas.
+
+[00:02:31.620–00:02:35.220] Geralmente, eu recomendo que se você vai vender boleto parcelado,
+
+[00:02:35.300–00:02:38.620] você só utilize até um parcelamento de até três vezes.
+
+[00:02:38.980–00:02:41.820] Isso aumenta realmente a garantia de recebimento
+
+[00:02:41.820–00:02:46.360] e caso o cliente não pague a segunda, você suspende o acesso e continua cobrando.
+
+[00:02:46.360–00:02:54.260] E eu vou mostrar para você dois cases práticos e com os números da taxa de adimplência que nós tivemos aqui.
+
+[00:02:54.380–00:02:55.160] Olha só na tela.
+
+[00:02:55.700–00:03:01.920] Aí na tela, na coluna esquerda, está um case de uma venda de ingressos para um evento presencial
+
+[00:03:01.920–00:03:05.240] chamado o evento 8Ps, o evento do Corrado Adolfo.
+
+[00:03:05.540–00:03:10.220] Nós mentoramos esse projeto que teve 900 participantes nos grupos.
+
+[00:03:10.380–00:03:16.140] O Corrado trabalhou essencialmente a sua lista interna e teve 900 pessoas nos grupos.
+
+[00:03:16.140–00:03:23.080] das quais 293 pessoas compraram, o que deu uma taxa de 32,5% de conversão.
+
+[00:03:23.640–00:03:30.440] Curiosamente, dessas 293 pessoas, 106 compraram em boletos parcelados.
+
+[00:03:30.940–00:03:40.000] E das 106, 77 concretizaram o pagamento, o que deu uma taxa de 72,6% de conversão,
+
+[00:03:40.060–00:03:41.500] ou seja, de adimplência.
+
+[00:03:41.500–00:03:43.200] Só que tem um detalhe, tá?
+
+[00:03:43.200–00:03:50.360] A maioria dessas pessoas, a maioria desses 106 compradores foram contactados por telefone.
+
+[00:03:50.880–00:03:53.540] E isso ajuda muito a taxa de adimplência, tá?
+
+[00:03:53.660–00:03:58.700] Então trabalha o boleto depois das 17, que na prática é uma espremida que a gente dá no grupo,
+
+[00:03:59.160–00:04:03.660] sabendo que vale a pena você fazer uma ligação após a emissão do boleto.
+
+[00:04:03.980–00:04:07.840] Já já vou dar uma dica de qual ferramenta usar para imprimir o boleto, ok?
+
+[00:04:08.160–00:04:09.620] Vamos voltar para o segundo case.
+
+[00:04:09.620–00:04:13.240] O segundo case foi um lançamento nosso,
+
+[00:04:13.380–00:04:17.020] onde nós tivemos 1.650 participantes nos grupos
+
+[00:04:17.020–00:04:19.460] e fizemos 412 vendas,
+
+[00:04:19.520–00:04:23.100] o que deu uma taxa de conversão nesse lançamento de 25%.
+
+[00:04:23.100–00:04:27.280] Dessas 412 vendas, 156 pessoas emitiram boleto,
+
+[00:04:27.740–00:04:29.900] tivemos 124 pagamentos,
+
+[00:04:30.060–00:04:33.520] o que nos deu uma taxa de conversão de 80%,
+
+[00:04:33.520–00:04:38.200] e 92% das pessoas que primiram o boleto foram contactadas por nós.
+
+[00:04:38.200–00:04:42.060] ou seja, 80% de taxa de conversão nos boletos
+
+[00:04:42.060–00:04:43.380] se você é um infoprodutor
+
+[00:04:43.380–00:04:47.140] você sabe que ter uma taxa de conversão de boletos
+
+[00:04:47.140–00:04:49.120] de 20% já é o aceitável
+
+[00:04:49.120–00:04:52.900] 50% é sobrenatural
+
+[00:04:52.900–00:04:56.160] então nós temos tido 80% de taxa de conversão
+
+[00:04:56.160–00:04:59.260] pelo simples fato de fazer essa oferta
+
+[00:04:59.260–00:05:00.660] só no final do lançamento
+
+[00:05:00.660–00:05:03.340] ou ligar para todos aqueles que emitiram o boleto
+
+[00:05:03.340–00:05:06.280] a gente liga para fazer uma lembrança do pagamento
+
+[00:05:06.280–00:05:08.960] e está tendo uma taxa de conversão muito boa.
+
+[00:05:09.480–00:05:10.340] Esse é o primeiro ponto.
+
+[00:05:10.440–00:05:12.180] O segundo ponto que eu queria comentar é o seguinte.
+
+[00:05:12.580–00:05:15.940] É para quem é varejista e trabalha com empresa de serviços.
+
+[00:05:16.300–00:05:19.140] Thales, eu devo também trabalhar com boletos?
+
+[00:05:19.480–00:05:22.160] No caso de quem vende um produto físico,
+
+[00:05:22.160–00:05:24.980] tem que levar em consideração a margem de risco.
+
+[00:05:25.360–00:05:29.160] Porque se você vende o produto, a pessoa paga o primeiro boleto.
+
+[00:05:29.240–00:05:30.080] Você vendeu em três vezes.
+
+[00:05:30.280–00:05:33.220] Aí você envia o produto, entrega o produto.
+
+[00:05:33.220–00:05:37.220] e a pessoa não paga, você tem que calcular a sua margem de risco
+
+[00:05:37.220–00:05:41.400] mediante esse valor que você pode deixar de receber, ok?
+
+[00:05:41.800–00:05:45.740] Então é diferente do infoprodutor, que é mais fácil, é só suspender o acesso,
+
+[00:05:46.080–00:05:51.200] o varejista ou a empresa de serviço tem que levar em conta o risco de não receber.
+
+[00:05:51.460–00:05:57.060] Então você pensa o seguinte, bom, eu fiz 100 vendas, das quais 30 foram em boleto, legal.
+
+[00:05:57.460–00:05:59.680] E se metade desses boletos não pagarem?
+
+[00:05:59.680–00:06:05.000] Se eu levar cano de 15 clientes, isso vai comprometer o meu lançamento?
+
+[00:06:05.120–00:06:07.040] Isso vai comprometer o meu lucro?
+
+[00:06:07.280–00:06:09.680] Essa é a pergunta que você tem que se fazer.
+
+[00:06:10.120–00:06:13.100] Se a resposta for negativa, ou seja, não, não vai comprometer o lucro,
+
+[00:06:13.460–00:06:15.680] parte para cima, faça a venda em boletos parcelados,
+
+[00:06:16.460–00:06:19.500] porque você vai ter um aumento realmente significativo nas vendas.
+
+[00:06:20.200–00:06:23.540] Bom, como é que você vai emitir esse boleto?
+
+[00:06:23.920–00:06:26.160] O infoprodutor tem duas opções.
+
+[00:06:26.160–00:06:31.620] Você pode, se você trabalha com o Eduz, Hotmart ou Monetiz, seja o que for,
+
+[00:06:31.880–00:06:34.320] você pode criar um outro produto de recorrência,
+
+[00:06:34.840–00:06:37.860] fazer uma recorrência em três vezes e passar o link.
+
+[00:06:38.020–00:06:38.920] É uma possibilidade.
+
+[00:06:39.360–00:06:42.380] Uma outra possibilidade é você fazer uma venda por fora,
+
+[00:06:42.460–00:06:44.820] uma venda realmente em outro gadget.
+
+[00:06:45.160–00:06:45.400] Legal?
+
+[00:06:45.840–00:06:48.420] Eu recomendo um gadget chamado Asas.
+
+[00:06:48.660–00:06:50.160] Vai estar aqui na tela para você.
+
+[00:06:50.340–00:06:53.760] A-S-A-A-S.com.br
+
+[00:06:53.760–00:06:58.900] É um sistema que emite o boleto, você pede os dados do cliente, você entra no privado.
+
+[00:06:59.180–00:07:03.100] Eu vou até colocar aqui abaixo do vídeo uma abordagem como é que você deve fazer
+
+[00:07:03.100–00:07:05.300] para pedir os dados da pessoa, legal?
+
+[00:07:05.620–00:07:09.440] Então você pede os dados, que é nome, endereço completo, telefone e e-mail,
+
+[00:07:09.920–00:07:11.200] aí você emite o boleto.
+
+[00:07:11.300–00:07:14.820] Na hora que você emite o boleto, o ASA já manda para o e-mail da pessoa,
+
+[00:07:15.260–00:07:20.820] já faz as cobranças com lembretes um dia antes de vencer, no dia do vencimento.
+
+[00:07:20.820–00:07:25.880] Se atrasar, cobra o cliente, legal, te dá um relatório, é bem interessante.
+
+[00:07:26.300–00:07:30.820] Então você pode fazer também por fora, caso você não queira fazer um produto de recorrência.
+
+[00:07:31.300–00:07:33.540] Dessa forma, você aumenta a sua taxa de conversão.
+
+[00:07:34.000–00:07:37.120] O ASAS também se aplica para produtos físicos e serviços.
+
+[00:07:37.200–00:07:38.900] Você pode usar esse sistema.
+
+[00:07:39.000–00:07:43.000] Eu recomendo usá-lo porque ele, além de ser mais barato do que a emissão de banco,
+
+[00:07:43.320–00:07:46.260] por exemplo, aqui na empresa, nossa conta era no Santander,
+
+[00:07:46.520–00:07:50.280] e eu pago R$7,80 para cada boleto que eu emito lá.
+
+[00:07:50.280–00:07:53.360] E se o boleto for pago, eu pago R$7,80.
+
+[00:07:53.460–00:07:57.920] Se o boleto não for pago no banco, no Santander, também eu pago R$7,80.
+
+[00:07:58.020–00:08:01.360] No Asas, a taxa é um pouco mais de R$6 por boleto
+
+[00:08:01.360–00:08:06.500] e eu só pago a taxa se o cliente de fato efetivar o pagamento do boleto.
+
+[00:08:06.860–00:08:09.600] Então, para nós aqui é mais prático, é melhor.
+
+[00:08:09.840–00:08:09.980] Legal?
+
+[00:08:10.540–00:08:13.980] Tales, e aí esses recebimentos no Asas vão para onde?
+
+[00:08:14.260–00:08:18.320] Fica na conta do Asas e em três dias você faz a sua transferência automática.
+
+[00:08:18.320–00:08:21.240] É bastante seguro, temos utilizado há muito tempo, tá?
+
+[00:08:21.540–00:08:25.240] Essa aqui é uma recomendação, eu não sou afiliado do ASA, não ganho nada por indicar.
+
+[00:08:25.560–00:08:28.280] Estou realmente indicando que sou satisfeito com esse serviço.
+
+[00:08:28.600–00:08:33.140] Você pode usar qualquer outro serviço de boleto também que existe por aí, caso você já conheça, tá bom?
+
+[00:08:33.680–00:08:35.760] Então é isso. A sacada aqui é essa.
+
+[00:08:35.960–00:08:38.960] Chegou 17 horas, abre a opção de boleto.
+
+[00:08:39.340–00:08:41.720] Faz uma mensagem no grupo explicando o seguinte.
+
+[00:08:41.720–00:08:48.740] Gente, conseguimos uma condição diferenciada e vamos conseguir parcelar no boleto bancário.
+
+[00:08:48.880–00:08:53.340] Quem tiver interesse de fazer o parcelamento, digite boleto.
+
+[00:08:54.460–00:08:55.620] E aí o que você vai fazer?
+
+[00:08:55.940–00:08:59.780] Você vai fazer o mesmo fluxo que você fez no Buster das 14 horas.
+
+[00:09:00.180–00:09:03.820] Todo mundo que disse que queria um contato, você entrou no privado, não foi?
+
+[00:09:03.820–00:09:07.800] eu recomendo que você aí entre no privado com as pessoas
+
+[00:09:07.800–00:09:13.100] e negocie com elas o boleto em duas ou três vezes, ok?
+
+[00:09:13.360–00:09:15.820] Então você dá o chamado no grupo, as pessoas se manifestam,
+
+[00:09:16.520–00:09:18.520] manifestam o interesse que querem pagar parcelado,
+
+[00:09:18.840–00:09:22.140] você chama a pessoa no privado, negocia, pede os dados,
+
+[00:09:22.360–00:09:25.920] emite o boleto e pede para a pessoa dizer no grupo que fez a compra.
+
+[00:09:26.300–00:09:27.780] E isso vai estimular outras pessoas.
+
+[00:09:28.260–00:09:32.400] Das 17 até as 19, se você seguir o fluxo certinho,
+
+[00:09:32.400–00:09:36.440] nesse período de 17 a 19, é o que você vai fazer aos montes.
+
+[00:09:36.840–00:09:39.780] Em lançamentos grandes que nós fizemos aqui,
+
+[00:09:40.320–00:09:43.460] nós chegamos a aumentar, ou seja,
+
+[00:09:43.540–00:09:46.240] aumentar o número de vendas em mais de 40%.
+
+[00:09:46.240–00:09:50.040] Muita gente, dependendo do tipo de mercado que você esteja vendendo,
+
+[00:09:50.460–00:09:52.980] muita gente vai desejar o teu produto e não vai poder pagar
+
+[00:09:52.980–00:09:55.760] porque não tem cartão e você vai deixar muito dinheiro na mesa
+
+[00:09:55.760–00:09:56.760] se não usar o boleto.
+
+[00:09:57.060–00:09:58.860] Então não tenha medo, faça.
+
+[00:09:58.860–00:10:01.360] Se tiver dúvidas, pergunta para a gente.
+
+[00:10:01.360–00:10:03.300] mas eu realmente recomendo que isso aí
+
+[00:10:03.300–00:10:05.220] dá um buster, um app
+
+[00:10:05.220–00:10:06.860] muito bom nos lançamentos
+
+[00:10:06.860–00:10:09.320] vamos pra cima, vamos continuar que tem muita aula
+
+[00:10:09.320–00:10:09.880] pela frente

@@ -1,0 +1,330 @@
+# A5 como deve ser o suporte
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 09 - Bônus - Como Construir seu Produto Digital do Zero.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 09 - Bônus - Como Construir seu Produto Digital do Zero\m9_a5_como_deve_ser_o_suporte.mp4`. Duração: 00:06:51.550.
+SHA-256 do vídeo: `39313b39ae85ff23171282b0f9c2ae1881db5e9a6dbcb78d6618680f37ab14f3`. [Origem](https://drive.google.com/drive/folders/1Ua0TVks-_DusV5y5Ti30vR2JzSrA5OZ-?hl=pt-br).
+
+[00:00:00.000–00:00:14.800] Vamos agora falar do último ponto aqui em relação às duas coisas mais importantes na hora de considerar um curso, que é o suporte.
+
+[00:00:15.220–00:00:20.640] Então, a partir de agora, a gente vai falar de suporte. Show? Vamos lá.
+
+[00:00:21.760–00:00:26.220] Primeira coisa que você precisa saber, você infoprodutor que está doidinho para lançar um curso,
+
+[00:00:27.000–00:00:31.160] saiba que o suporte está 100% ligado à felicidade do seu cliente.
+
+[00:00:32.040–00:00:37.900] É no suporte que você cumpre a promessa que você fez na oferta.
+
+[00:00:38.040–00:00:39.580] Não é na entrega do curso, sabia?
+
+[00:00:40.160–00:00:43.980] Porque o curso é massa, tem os conhecimentos que a pessoa precisa,
+
+[00:00:43.980–00:00:47.640] mas a pessoa vai ter dúvidas, ela vai acionar você.
+
+[00:00:48.020–00:00:51.920] E se você negligenciar isso, toda a expectativa que ela tinha,
+
+[00:00:52.200–00:00:54.280] o resultado que ela esperava alcançar, o que vai acontecer?
+
+[00:00:54.280–00:00:57.540] ela não vai atingir e ela vai ficar infeliz.
+
+[00:00:58.080–00:01:00.460] Então, o seu suporte tem que ser bom
+
+[00:01:00.460–00:01:02.720] e você tem que pensar nisso desde agora,
+
+[00:01:03.080–00:01:04.880] desde antes de fazer o curso.
+
+[00:01:05.180–00:01:06.480] Então, vamos lá.
+
+[00:01:06.700–00:01:08.640] O que dá para a gente falar sobre suporte
+
+[00:01:08.640–00:01:09.560] que é importante você saber?
+
+[00:01:09.700–00:01:12.440] Primeiro, suporte é custo.
+
+[00:01:13.740–00:01:17.340] Suporte é custo do seu pós-venda.
+
+[00:01:17.460–00:01:19.380] Por isso, você tem que se planejar muito bem.
+
+[00:01:20.580–00:01:22.680] Pense em toda a jornada do aluno
+
+[00:01:22.680–00:01:24.800] antes de você dar o primeiro passo.
+
+[00:01:25.300–00:01:27.100] O que é a jornada do aluno?
+
+[00:01:27.140–00:01:28.780] Deixa eu voltar para mim aqui, vamos falar um pouquinho disso.
+
+[00:01:30.040–00:01:31.480] O que é a jornada do aluno?
+
+[00:01:31.580–00:01:36.120] Você pensa, em quanto tempo o aluno vai concluir o meu curso?
+
+[00:01:36.700–00:01:39.140] E não pense que se seu curso tem 20 horas,
+
+[00:01:39.140–00:01:42.240] que o seu cliente vai terminar o curso em um dia.
+
+[00:01:42.320–00:01:42.720] Não vai.
+
+[00:01:43.020–00:01:44.640] Ninguém vai estudar 20 horas direto.
+
+[00:01:45.100–00:01:46.780] Então, faça um cálculo de uma média.
+
+[00:01:47.120–00:01:49.480] Pense bem na característica do seu avatar
+
+[00:01:49.480–00:01:52.320] e pense, poxa, esse meu tipo de cliente aqui,
+
+[00:01:52.320–00:01:54.500] ele vai dedicar no máximo duas horas por dia.
+
+[00:01:55.160–00:01:56.360] Então, se o curso tem 20 horas,
+
+[00:01:56.420–00:01:57.900] ele vai terminar em 40 dias.
+
+[00:01:58.460–00:02:00.320] Então, é o tamanho da jornada. Comece
+
+[00:02:00.320–00:02:01.980] a estimar o tamanho da jornada.
+
+[00:02:02.440–00:02:04.300] Por que esse tamanho
+
+[00:02:04.300–00:02:06.320] da jornada é importante? Porque você vai
+
+[00:02:06.320–00:02:08.320] precisar dimensionar o seu
+
+[00:02:08.320–00:02:10.440] suporte. Se é você mesmo que vai responder
+
+[00:02:10.440–00:02:12.280] as dúvidas dele, então você sabe que
+
+[00:02:12.280–00:02:13.760] para cada aluno que comprar hoje,
+
+[00:02:14.080–00:02:16.520] os próximos 40 dias vão chegar a dúvidas.
+
+[00:02:16.520–00:02:18.700] Show? Os primeiros dias
+
+[00:02:18.700–00:02:20.560] logo depois da venda, são
+
+[00:02:20.560–00:02:22.560] os dias de maior suporte, que as pessoas
+
+[00:02:22.560–00:02:24.740] compram e a maioria tentam consumir
+
+[00:02:24.740–00:02:26.320] o mais rápido que podem. Então,
+
+[00:02:26.760–00:02:28.860] você tem que fazer essas contas, qual é essa jornada?
+
+[00:02:29.280–00:02:30.500] Quais são as dúvidas,
+
+[00:02:30.520–00:02:32.680] vamos voltar aqui, quais são as dúvidas
+
+[00:02:32.680–00:02:34.640] que eles vão ter no meio
+
+[00:02:34.640–00:02:36.720] desse caminho? Algumas dúvidas
+
+[00:02:36.720–00:02:38.200] você já consegue imaginar,
+
+[00:02:38.780–00:02:40.380] tá? Então, faça um mapa
+
+[00:02:40.380–00:02:42.540] de todas essas dúvidas. Ah, quando
+
+[00:02:42.540–00:02:44.620] eu estiver falando aqui sobre
+
+[00:02:44.620–00:02:46.620] a implementação dessa
+
+[00:02:46.620–00:02:47.980] estratégia X,
+
+[00:02:48.500–00:02:50.300] as dúvidas que vão surgir vão ser essa,
+
+[00:02:50.300–00:02:52.520] essas e essas. Então, mapeie todas elas
+
+[00:02:52.520–00:02:54.380] e tente responder nas
+
+[00:02:54.380–00:02:56.580] aulas, no que está gravado.
+
+[00:02:57.080–00:02:58.480] Por quê? Porque dúvida
+
+[00:02:58.480–00:03:00.360] respondida na aula é dúvida
+
+[00:03:00.360–00:03:01.740] que não chega no suporte.
+
+[00:03:02.360–00:03:03.900] E isso vai te dar mais
+
+[00:03:03.900–00:03:05.260] flexibilidade.
+
+[00:03:06.180–00:03:08.020] Como eu te falei, suporte é custo.
+
+[00:03:08.440–00:03:10.300] Suporte é gente que você vai ter que contratar
+
+[00:03:10.300–00:03:12.000] para responder. Ou, no mínimo,
+
+[00:03:12.140–00:03:14.460] é o seu tempo que você vai gastar respondendo.
+
+[00:03:14.740–00:03:16.500] Então, quanto mais dúvidas você responder
+
+[00:03:16.500–00:03:18.140] durante as aulas,
+
+[00:03:18.140–00:03:19.800] menos suporte você vai ter.
+
+[00:03:20.080–00:03:21.680] Isso é muito importante, galera.
+
+[00:03:22.060–00:03:24.400] Eu nunca vi, em nenhum curso que eu fiz
+
+[00:03:24.400–00:03:26.060] nenhum evento que eu fui, eu vivo
+
+[00:03:26.060–00:03:28.540] em um evento, vocês sabem disso, palestrando e participando
+
+[00:03:28.540–00:03:30.320] eu nunca vi ninguém
+
+[00:03:30.320–00:03:32.180] explicar isso aqui que eu estou explicando pra vocês.
+
+[00:03:32.640–00:03:33.960] Isso aqui é 100%
+
+[00:03:33.960–00:03:36.280] masterização da experiência
+
+[00:03:36.280–00:03:37.640] de uma empresa que faz isso
+
+[00:03:37.640–00:03:39.260] há 5 anos já.
+
+[00:03:39.640–00:03:42.020] Então faça o mapa das dúvidas e
+
+[00:03:42.020–00:03:43.920] responda nas aulas, responda no
+
+[00:03:43.920–00:03:46.100] conteúdo, no vídeo gravado o máximo
+
+[00:03:46.100–00:03:48.320] possível. Pense sempre
+
+[00:03:48.320–00:03:50.040] o seguinte, isso aqui é um drive nosso,
+
+[00:03:50.580–00:03:51.980] qual a melhor forma do aluno
+
+[00:03:51.980–00:03:54.360] obter resultado com o mínimo de esforço?
+
+[00:03:55.900–00:03:56.300] Gente,
+
+[00:03:56.740–00:03:58.280] gente, deixa eu voltar aqui,
+
+[00:03:58.700–00:03:59.980] o tempo do
+
+[00:03:59.980–00:04:01.780] seu aluno, ele é
+
+[00:04:01.780–00:04:04.060] muito limitado, é igualzinho o seu,
+
+[00:04:04.680–00:04:06.120] tá? Ele é muito
+
+[00:04:06.120–00:04:07.940] limitado. Se o aluno
+
+[00:04:07.940–00:04:10.020] achar que você tá embromando na aula,
+
+[00:04:10.020–00:04:12.400] ele vai embora, ele não volta
+
+[00:04:12.400–00:04:14.180] e ele vai falar mal, e se tiver
+
+[00:04:14.180–00:04:16.080] na garantia, ainda pode pedir o dia de volta.
+
+[00:04:16.100–00:04:35.640] Então não embrome o aluno, fica pensando como é que eu posso entregar o meu melhor no menor tempo possível, de um jeito mais sucinto, mais objetivo, mais prático, sabe? Se coloca no lugar do aluno sempre. Então qual é a forma do meu aluno obter o melhor resultado no mínimo tempo possível?
+
+[00:04:35.640–00:04:38.280] isso é um dos porquês do seu curso
+
+[00:04:38.280–00:04:40.240] ser o mais enxuto também
+
+[00:04:40.240–00:04:40.880] show?
+
+[00:04:41.260–00:04:43.860] como eu falei, resultados exponenciais
+
+[00:04:43.860–00:04:45.800] a galera vendendo, vendo dinheiro pra todo lado
+
+[00:04:45.800–00:04:47.420] um curso de 10 horas, cara
+
+[00:04:47.420–00:04:48.700] o que custa 5 mil?
+
+[00:04:49.060–00:04:51.680] porque as pessoas estão comprando, é solução, resultado
+
+[00:04:51.680–00:04:53.840] elas não estão comprando tamanho
+
+[00:04:53.840–00:04:55.320] de curso, ninguém quer
+
+[00:04:55.320–00:04:57.900] ai meu desejo hoje é eu gastar o dia
+
+[00:04:57.900–00:04:59.400] todo estudando um curso
+
+[00:04:59.400–00:05:01.700] só alguns poucos malucos
+
+[00:05:01.700–00:05:04.300] a maioria da galera quer, pô, o que esse curso vai me ensinar
+
+[00:05:04.300–00:05:06.040] para eu resolver esse meu problema aqui.
+
+[00:05:06.280–00:05:06.700] É assim.
+
+[00:05:07.040–00:05:09.780] Então, senta na cadeira do aluno e pensa como ele.
+
+[00:05:10.080–00:05:10.300] Show?
+
+[00:05:10.300–00:05:17.400] E, por fim, gire o PDCA com foco em reduzir o suporte
+
+[00:05:17.400–00:05:19.260] sem diminuir a qualidade.
+
+[00:05:19.440–00:05:20.280] O que é o PDCA?
+
+[00:05:20.380–00:05:23.480] PDCA é uma ferramenta, se você quiser, pesquisa aí na internet.
+
+[00:05:23.700–00:05:26.340] Plan, do, check, action.
+
+[00:05:26.880–00:05:28.100] É o PDCA, é um ciclo.
+
+[00:05:28.200–00:05:32.720] Você planeja, você faz, você checa o que fez
+
+[00:05:32.720–00:05:34.720] e você ajeita
+
+[00:05:34.720–00:05:36.720] o que tem que ser ajeitado e faz
+
+[00:05:36.720–00:05:38.560] de novo. Então, quando você
+
+[00:05:38.560–00:05:40.520] terminar o primeiro
+
+[00:05:40.520–00:05:42.560] ciclo do seu curso, tipo, chegar nos seus
+
+[00:05:42.560–00:05:44.540] primeiros 100 alunos, você
+
+[00:05:44.540–00:05:46.980] vai ter um monte de feedbacks.
+
+[00:05:47.220–00:05:48.420] Feedbacks positivos,
+
+[00:05:48.740–00:05:50.680] isso é joia, sobretudo para as
+
+[00:05:50.680–00:05:52.640] provas sociais que você precisa, mas os
+
+[00:05:52.640–00:05:54.520] mais importantes são os feedbacks
+
+[00:05:54.520–00:05:56.740] negativos. É aquilo que não está bom,
+
+[00:05:57.660–00:05:58.880] aquilo que ficou confuso,
+
+[00:05:59.260–00:06:00.820] aquilo que o aluno não conseguiu fazer,
+
+[00:06:01.280–00:06:02.580] aquilo que o aluno não entendeu,
+
+[00:06:02.720–00:06:06.300] Então, você vai pegar essas coisas, vai fazer uma checagem disso
+
+[00:06:06.300–00:06:08.440] e volta no curso e melhora.
+
+[00:06:08.880–00:06:13.340] Melhora a aula, acrescenta um PDF, grava uma aula nova e coloca lá.
+
+[00:06:13.900–00:06:16.800] Prepara o material que o teu suporte possa mandar por e-mail.
+
+[00:06:17.180–00:06:21.420] Você vai resolvendo os problemas à medida que você vai sentindo
+
+[00:06:21.420–00:06:23.340] depois do primeiro ciclo do teu curso.
+
+[00:06:23.760–00:06:28.200] E acredite, você nunca, nunca, nunca, nunca vai conseguir lançar um curso
+
+[00:06:28.200–00:06:30.320] 100% isento de falhas.
+
+[00:06:30.320–00:06:32.120] vai ter, é normal
+
+[00:06:32.120–00:06:34.360] só que quando você identificar
+
+[00:06:34.360–00:06:36.140] você vai lá e conserta, ok?
+
+[00:06:36.280–00:06:37.840] cuidado com o perfeccionista
+
+[00:06:37.840–00:06:40.760] o perfeccionismo, senão você vai procrastinar
+
+[00:06:40.760–00:06:41.900] pra sempre, show?
+
+[00:06:42.300–00:06:44.340] então isso aqui é muito importante sobre
+
+[00:06:44.340–00:06:45.780] o suporte, legal?

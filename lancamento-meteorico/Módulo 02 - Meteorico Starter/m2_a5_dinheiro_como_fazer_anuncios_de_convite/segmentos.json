@@ -1,0 +1,4227 @@
+{
+  "settings": {
+    "model": "large-v3-turbo",
+    "language": "pt",
+    "task": "transcribe",
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Talles Quinderé. Lançamento Meteórico."
+  },
+  "source_sha256": "954a57b2bd6273bd9232c05b8b92fbd03e182ba8d06884f1bf217313581d99b5",
+  "source_video": "D:\\Cursos\\Lançamento Meteórico\\Módulo 02 - Meteorico Starter\\m2_a5_dinheiro_como_fazer_anuncios_de_convite.mp4",
+  "transcribed_at_utc": "2026-09-16T22:23:47.374215+00:00",
+  "language_detected": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0600000000000005,
+      "text": " Essa aula será a aula mais técnica e mais longa aqui do Meteórico Start."
+    },
+    {
+      "start": 4.16,
+      "end": 6.72,
+      "text": " Por isso, eu faço questão de avisar isso agora"
+    },
+    {
+      "start": 6.72,
+      "end": 10.58,
+      "text": " para que você reserve um tempo maior e dedique a máxima atenção, ok?"
+    },
+    {
+      "start": 11.040000000000001,
+      "end": 14.48,
+      "text": " Na aula, você aprenderá a fazer os seus anúncios no Facebook e Instagram."
+    },
+    {
+      "start": 14.9,
+      "end": 18.52,
+      "text": " E se você não tem muita intimidade com o gerenciador de anúncios no Facebook,"
+    },
+    {
+      "start": 19.080000000000002,
+      "end": 22.28,
+      "text": " assista e repita essa aula quantas vezes você precisar."
+    },
+    {
+      "start": 22.68,
+      "end": 25.52,
+      "text": " Caso você tenha dúvidas, você pode ativar o suporte por e-mail."
+    },
+    {
+      "start": 25.7,
+      "end": 27.34,
+      "text": " O endereço está aqui na tela para você."
+    },
+    {
+      "start": 27.46,
+      "end": 29.88,
+      "text": " Mas uma dica antes de você ativar o suporte, tá bom?"
+    },
+    {
+      "start": 30.3,
+      "end": 32.78,
+      "text": " Procure fazer por si mesmo seus anúncios."
+    },
+    {
+      "start": 32.98,
+      "end": 35.82,
+      "text": " A prática é a melhor professora do conhecimento."
+    },
+    {
+      "start": 36.24,
+      "end": 38.06,
+      "text": " Coloque a mão na massa mesmo, tá certo?"
+    },
+    {
+      "start": 38.44,
+      "end": 40.78,
+      "text": " E se você tiver alguma dúvida, pode escrever pra gente."
+    },
+    {
+      "start": 41.04,
+      "end": 41.44,
+      "text": " Combinado?"
+    },
+    {
+      "start": 42.04,
+      "end": 45.78,
+      "text": " Então, antes da gente começar, eu tenho três considerações importantes aqui."
+    },
+    {
+      "start": 45.94,
+      "end": 49.400000000000006,
+      "text": " Primeira, tanto os anúncios no Facebook quanto no Instagram,"
+    },
+    {
+      "start": 49.56,
+      "end": 52.879999999999995,
+      "text": " eles são criados no painel do gerenciador de anúncios do Facebook."
+    },
+    {
+      "start": 53.32,
+      "end": 57.58,
+      "text": " Eu não recomendo que você crie os seus anúncios pelo celular e depois impulsione."
+    },
+    {
+      "start": 57.58,
+      "end": 59.42,
+      "text": " O ideal é usar o computador pra isso."
+    },
+    {
+      "start": 59.940000000000005,
+      "end": 62.72,
+      "text": " Siga as instruções conforme estão nessa aula, beleza?"
+    },
+    {
+      "start": 63.54,
+      "end": 66.38,
+      "text": " Segunda consideração, caso você nunca tenha criado um anúncio,"
+    },
+    {
+      "start": 66.48,
+      "end": 70.02,
+      "text": " você vai precisar configurar o seu gerenciador no Facebook."
+    },
+    {
+      "start": 70.38,
+      "end": 74.48,
+      "text": " É uma etapa bem simples e o passo a passo de como configurar o seu gerenciador de anúncios"
+    },
+    {
+      "start": 74.48,
+      "end": 76.92,
+      "text": " está descrito no PDF que eu coloquei aqui abaixo."
+    },
+    {
+      "start": 77.62,
+      "end": 81.36,
+      "text": " Terceira consideração, o Facebook está sempre mudando alguma coisa"
+    },
+    {
+      "start": 81.36,
+      "end": 84.04,
+      "text": " no layout do gerenciador de anúncios, é normal acontecer."
+    },
+    {
+      "start": 84.58,
+      "end": 86.74000000000001,
+      "text": " Pode ser que quando você esteja assistindo essa aula,"
+    },
+    {
+      "start": 86.74,
+      "end": 90.74,
+      "text": " alguma tela esteja diferente, mas não se assuste, tá?"
+    },
+    {
+      "start": 91.14,
+      "end": 94.89999999999999,
+      "text": " Basta localizar no gerenciador onde estão as informações que eu vou explicar aqui"
+    },
+    {
+      "start": 94.89999999999999,
+      "end": 97.08,
+      "text": " e seguir configurando, combinado?"
+    },
+    {
+      "start": 97.67999999999999,
+      "end": 102.5,
+      "text": " Dito isso, agora eu vou para a tela do computador para mostrar a você tela a tela"
+    },
+    {
+      "start": 102.5,
+      "end": 105.24,
+      "text": " como você vai construir seus anúncios. Vamos lá?"
+    },
+    {
+      "start": 105.78,
+      "end": 112.84,
+      "text": " Para criar a campanha com os anúncios, contendo os anúncios que vão atrair as pessoas para o seu grupo,"
+    },
+    {
+      "start": 112.84,
+      "end": 116.96000000000001,
+      "text": " Você vai vir aqui nessa aba Campanhas e clicar em Criar."
+    },
+    {
+      "start": 117.82000000000001,
+      "end": 123.78,
+      "text": " Quando você clicar no botãozinho verde Criar, a primeira tela que o Facebook vai te mostrar é essa aqui."
+    },
+    {
+      "start": 123.96000000000001,
+      "end": 127.66,
+      "text": " Ele vai te perguntar qual é o objetivo de marketing dessa campanha."
+    },
+    {
+      "start": 128.16,
+      "end": 132.7,
+      "text": " E o objetivo que nós vamos usar para atrair as pessoas pelo grupo é esse aqui, Tráfego."
+    },
+    {
+      "start": 132.92000000000002,
+      "end": 134.84,
+      "text": " Legal? Tráfego. Não é nenhum dos outros."
+    },
+    {
+      "start": 134.84,
+      "end": 142.86,
+      "text": " Por que tráfego? Porque assim o Facebook vai selecionar as pessoas mais propícias a clicarem no link do seu anúncio."
+    },
+    {
+      "start": 143.16,
+      "end": 147.38,
+      "text": " E é exatamente o que a gente quer. A gente quer que as pessoas cliquem no link para virem para o nosso grupo."
+    },
+    {
+      "start": 147.5,
+      "end": 148.46,
+      "text": " Então, tráfego."
+    },
+    {
+      "start": 149.74,
+      "end": 155.24,
+      "text": " Uma vez que você clicar aqui em tráfego, o Facebook vai pedir para você criar o nome da sua campanha."
+    },
+    {
+      "start": 155.38,
+      "end": 161.72,
+      "text": " Eu vou criar aqui para efeitos de teste a campanha Starter, ok? Só para efeitos de teste."
+    },
+    {
+      "start": 162.28,
+      "end": 168.6,
+      "text": " Depois, o Facebook faz uma sugestão automática para que você otimize automaticamente,"
+    },
+    {
+      "start": 168.64,
+      "end": 173.88,
+      "text": " ou melhor dizendo, para que ele otimize automaticamente um orçamento diário pré-definido por você."
+    },
+    {
+      "start": 174.26,
+      "end": 176.62,
+      "text": " Só que a gente não vai usar esse recurso, tá?"
+    },
+    {
+      "start": 177.02,
+      "end": 179.8,
+      "text": " Eu recomendo, pelo menos é como nós fazemos aqui na empresa,"
+    },
+    {
+      "start": 180.3,
+      "end": 185.86,
+      "text": " que você mesmo otimize e analise as suas campanhas."
+    },
+    {
+      "start": 185.86,
+      "end": 187.88,
+      "text": " E nessa aula eu vou te ensinar a fazer isso, tá bom?"
+    },
+    {
+      "start": 188.42,
+      "end": 191.2,
+      "text": " Então, desativou essa função, clica em continuar."
+    },
+    {
+      "start": 191.72,
+      "end": 196.16,
+      "text": " O próximo passo é você criar o nome do seu conjunto de anúncios, tá?"
+    },
+    {
+      "start": 196.68,
+      "end": 198.16,
+      "text": " Aliás, deixa eu explicar uma coisa."
+    },
+    {
+      "start": 198.28,
+      "end": 199.34,
+      "text": " São três níveis, tá?"
+    },
+    {
+      "start": 200.07999999999998,
+      "end": 203.5,
+      "text": " Campanha, conjunto de anúncios e anúncios."
+    },
+    {
+      "start": 203.56,
+      "end": 204.78,
+      "text": " É como se fossem três camadas."
+    },
+    {
+      "start": 204.9,
+      "end": 207.36,
+      "text": " A campanha é a área mais global."
+    },
+    {
+      "start": 207.92,
+      "end": 212.02,
+      "text": " O conjunto de anúncios é, como o próprio nome fala, conjunto de anúncios."
+    },
+    {
+      "start": 212.02,
+      "end": 216.62,
+      "text": " Você pode ter dois, três, cinco, dez, vinte anúncios contidos nessa campanha."
+    },
+    {
+      "start": 217.18,
+      "end": 219.24,
+      "text": " E o anúncio aqui é o anúncio propriamente dito."
+    },
+    {
+      "start": 219.24,
+      "end": 227.70000000000002,
+      "text": " Eu gosto de criar dois tipos de anúncios pra mesma campanha, separando esses anúncios por posicionamento."
+    },
+    {
+      "start": 227.78,
+      "end": 229.82000000000002,
+      "text": " Vamos falar disso nessa aula já já, tá bom?"
+    },
+    {
+      "start": 230.14000000000001,
+      "end": 231.58,
+      "text": " Mas vamos começar aqui pelo nome."
+    },
+    {
+      "start": 231.94,
+      "end": 235.60000000000002,
+      "text": " Como é que eu gosto também de organizar os meus conjuntos de anúncios?"
+    },
+    {
+      "start": 235.68,
+      "end": 242.62,
+      "text": " Eu gosto de colocar a palavra starter, que é o mesmo nome da campanha, no caso pra campanha do starter."
+    },
+    {
+      "start": 242.62,
+      "end": 246.74,
+      "text": " e aqui nós vamos colocar nesse conjunto de anúncios"
+    },
+    {
+      "start": 246.74,
+      "end": 251.70000000000002,
+      "text": " o nome do público que a gente pretende atingir."
+    },
+    {
+      "start": 252.12,
+      "end": 254.04,
+      "text": " Eu não vou preencher agora, tá certo?"
+    },
+    {
+      "start": 254.12,
+      "end": 255.56,
+      "text": " Depois a gente vem e renomeia,"
+    },
+    {
+      "start": 255.68,
+      "end": 258.3,
+      "text": " porque se eu falar agora eu vou antecipar uma parte da aula"
+    },
+    {
+      "start": 258.3,
+      "end": 259.78000000000003,
+      "text": " que eu não quero antecipar."
+    },
+    {
+      "start": 259.92,
+      "end": 263.56,
+      "text": " Então, Starter, mas aqui vai vir o nome do público"
+    },
+    {
+      "start": 263.56,
+      "end": 265.88,
+      "text": " que nós vamos usar."
+    },
+    {
+      "start": 266.06,
+      "end": 270.08,
+      "text": " Nome do público que nós vamos usar, ok?"
+    },
+    {
+      "start": 270.82,
+      "end": 275.12,
+      "text": " Mas aqui para baixo, nessa opção tráfego, você vai deixar marcado o site."
+    },
+    {
+      "start": 275.68,
+      "end": 277.96,
+      "text": " Ah, Thales, mas a gente não vai mandar o pessoal para o WhatsApp?"
+    },
+    {
+      "start": 278.64,
+      "end": 281.2,
+      "text": " Vamos, mas nós vamos mandar para grupos do WhatsApp."
+    },
+    {
+      "start": 281.34,
+      "end": 286.64,
+      "text": " E essa função que o Facebook tem aqui é para mandar mensagem automática para um WhatsApp."
+    },
+    {
+      "start": 286.78,
+      "end": 287.79999999999995,
+      "text": " Não é o que a gente quer fazer."
+    },
+    {
+      "start": 288.34,
+      "end": 290.14,
+      "text": " Você vai deixar marcado em site mesmo."
+    },
+    {
+      "start": 290.58,
+      "end": 293.82,
+      "text": " Vai deixar desabilitadas as opções criativo, dinâmico e oferta."
+    },
+    {
+      "start": 294.36,
+      "end": 296.41999999999996,
+      "text": " Aqui em público, vamos lá."
+    },
+    {
+      "start": 296.42,
+      "end": 302.42,
+      "text": " Se você já for um pouco mais experiente no Facebook e tiver, por exemplo, públicos personalizados"
+    },
+    {
+      "start": 302.42,
+      "end": 307.98,
+      "text": " com lista de clientes seus que você subiu para o Facebook, pegou lá o e-mail, a lista de e-mails"
+    },
+    {
+      "start": 307.98,
+      "end": 312.88,
+      "text": " de um grupo de clientes que você tenha e tiver feito um público personalizado"
+    },
+    {
+      "start": 312.88,
+      "end": 317.92,
+      "text": " e queira fazer uma campanha para eles, porque faz sentido colocá-los no nosso grupo Mix,"
+    },
+    {
+      "start": 318.34000000000003,
+      "end": 321.46000000000004,
+      "text": " então você vai vir aqui e vai adicionar os públicos personalizados."
+    },
+    {
+      "start": 321.85999999999996,
+      "end": 327.76,
+      "text": " Mas a maioria dos alunos aqui no Starter, eles são realmente novatos aqui nessa questão de fazer anúncios."
+    },
+    {
+      "start": 328.21999999999997,
+      "end": 333.84,
+      "text": " Então eu vou desconsiderar aqui públicos personalizados e a gente vai criar uma segmentação específica, tá bom?"
+    },
+    {
+      "start": 334.56,
+      "end": 338.96,
+      "text": " Então, a partir de agora, a gente vai definir as características dessa segmentação."
+    },
+    {
+      "start": 338.96,
+      "end": 341.2,
+      "text": " A primeira coisa é a geolocalização."
+    },
+    {
+      "start": 341.65999999999997,
+      "end": 344.7,
+      "text": " Onde estão as pessoas que eu quero atingir, tá certo?"
+    },
+    {
+      "start": 344.74,
+      "end": 349.88,
+      "text": " Se eu vou vender um produto digital e faz sentido vender para o Brasil inteiro, basta colocar Brasil aqui."
+    },
+    {
+      "start": 350.36,
+      "end": 353.06,
+      "text": " Mas se for um produto que a entrega é local, por exemplo,"
+    },
+    {
+      "start": 353.14,
+      "end": 355.68,
+      "text": " eu só posso vender para pessoas que moram em São Paulo,"
+    },
+    {
+      "start": 356.15999999999997,
+      "end": 360.64,
+      "text": " então eu desabilito aqui a opção Brasil e escrevo São Paulo."
+    },
+    {
+      "start": 362.4,
+      "end": 364.76,
+      "text": " E aí eu posso vender para a cidade ou para o estado."
+    },
+    {
+      "start": 364.86,
+      "end": 367.82,
+      "text": " Eu vou colocar no caso a cidade aqui como um exemplo, tá certo?"
+    },
+    {
+      "start": 368.88,
+      "end": 374.3,
+      "text": " A idade eu tenho que segmentar conforme o perfil do meu público."
+    },
+    {
+      "start": 374.3,
+      "end": 376.92,
+      "text": " O exemplo que nós vamos usar aqui para essa aula,"
+    },
+    {
+      "start": 377.0,
+      "end": 378.9,
+      "text": " porque eu tenho que dar algum exemplo para fazer sentido,"
+    },
+    {
+      "start": 378.9,
+      "end": 381.78,
+      "text": " é o seguinte, imagina que o produto que a gente vai vender"
+    },
+    {
+      "start": 381.78,
+      "end": 384.53999999999996,
+      "text": " lá no final, lá na hora da oferta, seja um livro"
+    },
+    {
+      "start": 384.53999999999996,
+      "end": 388.41999999999996,
+      "text": " e o nome desse livro é Como Empreender em Casal, ok?"
+    },
+    {
+      "start": 388.82,
+      "end": 391.56,
+      "text": " Então a gente vai montar um grupo mix sobre como empreender em casal"
+    },
+    {
+      "start": 391.56,
+      "end": 393.65999999999997,
+      "text": " que é o tema, é bem legal isso aí"
+    },
+    {
+      "start": 393.65999999999997,
+      "end": 398.09999999999997,
+      "text": " e eu quero atingir pessoas que estejam dentro de uma faixa etária"
+    },
+    {
+      "start": 398.09999999999997,
+      "end": 402.21999999999997,
+      "text": " e que sejam casadas, ou que empreendam com seus cônjuges"
+    },
+    {
+      "start": 402.21999999999997,
+      "end": 404.7,
+      "text": " então como é que a gente vai fazer isso?"
+    },
+    {
+      "start": 405.36,
+      "end": 408.97999999999996,
+      "text": " Vamos definir uma idade, imagina, se eu quero pessoas casadas,"
+    },
+    {
+      "start": 409.08,
+      "end": 417.2,
+      "text": " eu vou partir aqui do princípio que é uma média entre 25 e 55 anos, né, mais ou menos."
+    },
+    {
+      "start": 417.28,
+      "end": 422.03999999999996,
+      "text": " Eu tô fazendo um exemplo, mas você vai pensar nas características do seu público, tá bom?"
+    },
+    {
+      "start": 422.4,
+      "end": 426.9,
+      "text": " Então, onde ele mora, qual é a faixa etária predominante aí do seu público."
+    },
+    {
+      "start": 426.9,
+      "end": 430.41999999999996,
+      "text": " Legal. Se é todos, se é homens ou mulheres, aqui no caso é todos."
+    },
+    {
+      "start": 430.42,
+      "end": 432.58000000000004,
+      "text": " idiomas. Não precisa marcar nada"
+    },
+    {
+      "start": 432.58000000000004,
+      "end": 434.56,
+      "text": " a menos que você quisesse falar aqui com, por exemplo"
+    },
+    {
+      "start": 434.56,
+      "end": 436.62,
+      "text": " japoneses que moram no Brasil"
+    },
+    {
+      "start": 436.62,
+      "end": 438.62,
+      "text": " que falam japonês e tal. Não é o"
+    },
+    {
+      "start": 438.62,
+      "end": 441.1,
+      "text": " caso. Direcionamento detalhado"
+    },
+    {
+      "start": 441.1,
+      "end": 442.62,
+      "text": " é a parte mais importante"
+    },
+    {
+      "start": 442.62,
+      "end": 444.58000000000004,
+      "text": " aqui. É aqui onde você vai dizer pro"
+    },
+    {
+      "start": 444.58000000000004,
+      "end": 446.62,
+      "text": " Facebook que tipo de comportamento"
+    },
+    {
+      "start": 447.16,
+      "end": 448.52000000000004,
+      "text": " ou interesses"
+    },
+    {
+      "start": 448.52000000000004,
+      "end": 450.40000000000003,
+      "text": " você quer encontrar no Facebook."
+    },
+    {
+      "start": 450.72,
+      "end": 451.76,
+      "text": " Então eu vou digitar aqui"
+    },
+    {
+      "start": 451.76,
+      "end": 454.56,
+      "text": " empreendedorismo"
+    },
+    {
+      "start": 454.56,
+      "end": 456.8,
+      "text": " que é a palavra-chave que eu estou procurando"
+    },
+    {
+      "start": 456.8,
+      "end": 458.64,
+      "text": " e o Facebook já mostra aqui"
+    },
+    {
+      "start": 458.64,
+      "end": 460.26,
+      "text": " que existe público pra isso."
+    },
+    {
+      "start": 460.42,
+      "end": 461.58000000000004,
+      "text": " Cliquei em empreendedorismo."
+    },
+    {
+      "start": 462.12,
+      "end": 463.6,
+      "text": " Só que tem uma coisa, olha só."
+    },
+    {
+      "start": 463.96000000000004,
+      "end": 467.6,
+      "text": " Com empreendedorismo, para pessoas que moram em São Paulo,"
+    },
+    {
+      "start": 467.68,
+      "end": 471.06,
+      "text": " o Facebook consegue atingir 3 milhões e 400 mil pessoas."
+    },
+    {
+      "start": 471.32,
+      "end": 477.06,
+      "text": " Só que o tema do nosso assunto é empreender em casal."
+    },
+    {
+      "start": 477.18,
+      "end": 479.5,
+      "text": " Então eu quero encontrar as pessoas casadas."
+    },
+    {
+      "start": 480.02000000000004,
+      "end": 482.82,
+      "text": " Ou seja, eu preciso fazer um filtro, um cruzamento."
+    },
+    {
+      "start": 482.92,
+      "end": 486.64,
+      "text": " E eu quero que você pense nisso quando você estiver criando a sua campanha."
+    },
+    {
+      "start": 487.08000000000004,
+      "end": 489.68,
+      "text": " Você também precisa fazer filtros, ok?"
+    },
+    {
+      "start": 489.68,
+      "end": 491.62,
+      "text": " senão vai ficar muito aberto, então beleza"
+    },
+    {
+      "start": 491.62,
+      "end": 493.58,
+      "text": " o assunto é empreendedorismo"
+    },
+    {
+      "start": 493.58,
+      "end": 495.56,
+      "text": " mas eu quero limitar esse público, olha aqui"
+    },
+    {
+      "start": 495.56,
+      "end": 497.5,
+      "text": " essa opção, eu quero limitar"
+    },
+    {
+      "start": 497.5,
+      "end": 499.48,
+      "text": " esse público a pessoas que são"
+    },
+    {
+      "start": 499.48,
+      "end": 500.28000000000003,
+      "text": " casadas"
+    },
+    {
+      "start": 500.28000000000003,
+      "end": 502.68,
+      "text": " casadas"
+    },
+    {
+      "start": 502.68,
+      "end": 505.18,
+      "text": " vamos ver se o facebook tem"
+    },
+    {
+      "start": 505.18,
+      "end": 507.78000000000003,
+      "text": " casados não tem, então casados"
+    },
+    {
+      "start": 507.78000000000003,
+      "end": 509.86,
+      "text": " casados"
+    },
+    {
+      "start": 509.86,
+      "end": 511.36,
+      "text": " ele tem, ó, casado, ok"
+    },
+    {
+      "start": 511.36,
+      "end": 514.0,
+      "text": " eu clico aqui em casado, olha o que que aconteceu"
+    },
+    {
+      "start": 514.0,
+      "end": 515.58,
+      "text": " então empreendedorismo"
+    },
+    {
+      "start": 515.58,
+      "end": 517.6,
+      "text": " com interesse casado"
+    },
+    {
+      "start": 517.6,
+      "end": 524.58,
+      "text": " O Facebook reduziu muitíssimo agora o tamanho do nosso público, foi para menos de mil."
+    },
+    {
+      "start": 525.0600000000001,
+      "end": 528.9,
+      "text": " Nossa Thales, caiu muito, é bom fazer anúncios para públicos tão pequenos assim?"
+    },
+    {
+      "start": 529.66,
+      "end": 530.58,
+      "text": " Geralmente não."
+    },
+    {
+      "start": 531.02,
+      "end": 532.76,
+      "text": " Então o que eu recomendo que você faça?"
+    },
+    {
+      "start": 533.14,
+      "end": 536.38,
+      "text": " Você vai vir aqui e você vai clicar em sugestões."
+    },
+    {
+      "start": 537.2,
+      "end": 541.84,
+      "text": " E aí o Facebook vai mostrar sugestões de interesses semelhantes a casados."
+    },
+    {
+      "start": 541.94,
+      "end": 544.02,
+      "text": " Por exemplo, pais e mães."
+    },
+    {
+      "start": 544.02,
+      "end": 547.4,
+      "text": " Opa, interessante, então empreendedores que são pais e mães,"
+    },
+    {
+      "start": 547.6,
+      "end": 549.8000000000001,
+      "text": " tem grandes chances de serem casados."
+    },
+    {
+      "start": 550.12,
+      "end": 551.88,
+      "text": " Então vamos clicar e vamos ver como é que vai ficar."
+    },
+    {
+      "start": 552.66,
+      "end": 553.6800000000001,
+      "text": " O público vai subir?"
+    },
+    {
+      "start": 554.08,
+      "end": 556.14,
+      "text": " Opa, já subiu para 970 mil."
+    },
+    {
+      "start": 556.48,
+      "end": 557.28,
+      "text": " Olha só, tá vendo?"
+    },
+    {
+      "start": 558.12,
+      "end": 558.6,
+      "text": " Família."
+    },
+    {
+      "start": 559.1800000000001,
+      "end": 559.8000000000001,
+      "text": " Faz sentido?"
+    },
+    {
+      "start": 560.24,
+      "end": 561.6800000000001,
+      "text": " Empreendedorismo, casado, família?"
+    },
+    {
+      "start": 561.9,
+      "end": 562.2,
+      "text": " Faz."
+    },
+    {
+      "start": 562.3000000000001,
+      "end": 562.88,
+      "text": " Vamos ver então."
+    },
+    {
+      "start": 563.0,
+      "end": 563.86,
+      "text": " Coloquei família."
+    },
+    {
+      "start": 564.72,
+      "end": 566.84,
+      "text": " E aí o Facebook subiu para 3 milhões."
+    },
+    {
+      "start": 567.4200000000001,
+      "end": 569.0400000000001,
+      "text": " Talvez já seja grande demais."
+    },
+    {
+      "start": 569.6800000000001,
+      "end": 570.9,
+      "text": " Vamos então pensar o seguinte."
+    },
+    {
+      "start": 571.5,
+      "end": 573.24,
+      "text": " Dentro de um público de empreendedorismo,"
+    },
+    {
+      "start": 573.4200000000001,
+      "end": 575.1,
+      "text": " família, pais e mães e casado,"
+    },
+    {
+      "start": 575.1,
+      "end": 576.34,
+      "text": " o que faz mais sentido?"
+    },
+    {
+      "start": 576.34,
+      "end": 578.8000000000001,
+      "text": " acho que faz mais sentido casado e família"
+    },
+    {
+      "start": 578.8000000000001,
+      "end": 580.5400000000001,
+      "text": " vou tirar pais e mães, afinal de contas"
+    },
+    {
+      "start": 580.5400000000001,
+      "end": 582.8000000000001,
+      "text": " nem todo pai e mãe é empreendedor, não é verdade?"
+    },
+    {
+      "start": 583.0600000000001,
+      "end": 584.46,
+      "text": " então vou clicar aqui, vou tirar"
+    },
+    {
+      "start": 584.46,
+      "end": 586.24,
+      "text": " e vou ver como é que ficou"
+    },
+    {
+      "start": 586.24,
+      "end": 588.52,
+      "text": " não diminuiu nada, 3 milhões de pessoas"
+    },
+    {
+      "start": 588.52,
+      "end": 589.94,
+      "text": " tá um público enorme ainda"
+    },
+    {
+      "start": 589.94,
+      "end": 592.6600000000001,
+      "text": " joia, posso usar esse público? Posso"
+    },
+    {
+      "start": 592.6600000000001,
+      "end": 594.22,
+      "text": " eu recomendo"
+    },
+    {
+      "start": 594.22,
+      "end": 596.44,
+      "text": " que a gente encontre, que você encontre aí"
+    },
+    {
+      "start": 596.44,
+      "end": 598.72,
+      "text": " públicos entre 500 mil e 1 milhão"
+    },
+    {
+      "start": 598.72,
+      "end": 600.76,
+      "text": " de pessoas, mas se você trabalha"
+    },
+    {
+      "start": 600.76,
+      "end": 602.6600000000001,
+      "text": " com um produto muito amplo, que serve"
+    },
+    {
+      "start": 602.6600000000001,
+      "end": 604.9000000000001,
+      "text": " pra muita gente, não tem problema em ser públicos"
+    },
+    {
+      "start": 604.9,
+      "end": 607.02,
+      "text": " maiores não. Então, nesse caso, como é"
+    },
+    {
+      "start": 607.02,
+      "end": 609.1,
+      "text": " um livro, o produto aqui, eu vou deixar"
+    },
+    {
+      "start": 609.1,
+      "end": 611.12,
+      "text": " esses 3 milhões de pessoas, afinal de contas"
+    },
+    {
+      "start": 611.12,
+      "end": 612.84,
+      "text": " essa segmentação aqui"
+    },
+    {
+      "start": 612.84,
+      "end": 614.78,
+      "text": " está descrevendo o tipo de pessoa que eu quero"
+    },
+    {
+      "start": 614.78,
+      "end": 617.0,
+      "text": " encontrar. Empreendedor, que gosta"
+    },
+    {
+      "start": 617.0,
+      "end": 619.06,
+      "text": " de família, ou tenha interesse em família"
+    },
+    {
+      "start": 619.06,
+      "end": 620.28,
+      "text": " e seja casado. Show?"
+    },
+    {
+      "start": 621.06,
+      "end": 622.9399999999999,
+      "text": " Feito isso, vamos mais aqui abaixo"
+    },
+    {
+      "start": 622.9399999999999,
+      "end": 625.1,
+      "text": " não tem mais nada para marcar aqui, conexões"
+    },
+    {
+      "start": 625.1,
+      "end": 627.16,
+      "text": " salvar público. Se você quiser salvar o público, você pode"
+    },
+    {
+      "start": 627.16,
+      "end": 629.02,
+      "text": " mas vou usar aqui nesse exemplo"
+    },
+    {
+      "start": 629.02,
+      "end": 630.92,
+      "text": " e aí a gente chega num momento"
+    },
+    {
+      "start": 630.92,
+      "end": 633.0,
+      "text": " muito importante aqui, que é o posicionamento"
+    },
+    {
+      "start": 633.0,
+      "end": 638.8,
+      "text": " O que é posicionamento? Posicionamento é onde o Facebook vai mostrar a sua campanha."
+    },
+    {
+      "start": 639.48,
+      "end": 645.52,
+      "text": " E o Facebook mostra a sua campanha no Instagram e no próprio Facebook em vários lugares."
+    },
+    {
+      "start": 645.74,
+      "end": 650.46,
+      "text": " Eu, particularmente, não gosto de deixar no posicionamentos automáticos,"
+    },
+    {
+      "start": 650.58,
+      "end": 655.44,
+      "text": " porque quando você deixa no automático, o Facebook mostra para todo tipo de posicionamento."
+    },
+    {
+      "start": 656.02,
+      "end": 659.08,
+      "text": " E existem posicionamentos, aqui vai uma sacada coringa, hein?"
+    },
+    {
+      "start": 659.08,
+      "end": 663.2800000000001,
+      "text": " existem posicionamentos que deixam sua campanha cara"
+    },
+    {
+      "start": 663.2800000000001,
+      "end": 665.0200000000001,
+      "text": " eu vou te ensinar a desligá-los"
+    },
+    {
+      "start": 665.0200000000001,
+      "end": 665.74,
+      "text": " o que você vai fazer?"
+    },
+    {
+      "start": 665.86,
+      "end": 667.6600000000001,
+      "text": " você vai vir aqui em editar posicionamentos"
+    },
+    {
+      "start": 667.6600000000001,
+      "end": 670.08,
+      "text": " e nós vamos fazer o seguinte"
+    },
+    {
+      "start": 670.08,
+      "end": 673.82,
+      "text": " lembra, a gente está aqui num conjunto de anúncios"
+    },
+    {
+      "start": 673.82,
+      "end": 676.5200000000001,
+      "text": " nós vamos fazer esse primeiro anúncio"
+    },
+    {
+      "start": 676.5200000000001,
+      "end": 678.62,
+      "text": " somente para o Facebook"
+    },
+    {
+      "start": 678.62,
+      "end": 680.46,
+      "text": " ele não vai aparecer no Instagram"
+    },
+    {
+      "start": 680.46,
+      "end": 681.6800000000001,
+      "text": " nem no Messenger"
+    },
+    {
+      "start": 681.6800000000001,
+      "end": 683.46,
+      "text": " aliás, nem recomendo trabalhar com o Messenger"
+    },
+    {
+      "start": 683.46,
+      "end": 685.6800000000001,
+      "text": " para esse tipo de campanha que eu estou ensinando"
+    },
+    {
+      "start": 685.6800000000001,
+      "end": 687.3000000000001,
+      "text": " então você vem aqui"
+    },
+    {
+      "start": 687.3,
+      "end": 691.62,
+      "text": " Você vai desabilitar o Instagram, vai desabilitar o Messenger"
+    },
+    {
+      "start": 691.62,
+      "end": 695.64,
+      "text": " e você vai deixar só Facebook e Audience Network."
+    },
+    {
+      "start": 695.76,
+      "end": 696.4599999999999,
+      "text": " O que é isso aqui?"
+    },
+    {
+      "start": 696.88,
+      "end": 698.8199999999999,
+      "text": " São rede de parceiros do Facebook."
+    },
+    {
+      "start": 699.42,
+      "end": 703.02,
+      "text": " Beleza, então as plataformas em que o anúncio vai aparecer é no Facebook"
+    },
+    {
+      "start": 703.02,
+      "end": 705.8599999999999,
+      "text": " e no Audience Network, não vai aparecer no Instagram e no Messenger."
+    },
+    {
+      "start": 706.3599999999999,
+      "end": 707.74,
+      "text": " Joia, mas ainda não terminou."
+    },
+    {
+      "start": 708.24,
+      "end": 711.38,
+      "text": " Agora a gente vai editar os posicionamentos propriamente ditos."
+    },
+    {
+      "start": 711.9399999999999,
+      "end": 714.9799999999999,
+      "text": " Preste atenção, se precisar, anota isso que eu vou falar, legal?"
+    },
+    {
+      "start": 714.98,
+      "end": 721.2,
+      "text": " Como nós vamos fazer um anúncio em imagem, não vou usar vídeo aqui nesse exemplo,"
+    },
+    {
+      "start": 721.6,
+      "end": 727.4,
+      "text": " embora você possa usar, se você quiser, eu posso fazer um anúncio com vídeo meu falando e tal, você pode."
+    },
+    {
+      "start": 728.0600000000001,
+      "end": 733.34,
+      "text": " Só que eu estou equalizando esse conhecimento aqui por baixo."
+    },
+    {
+      "start": 733.9200000000001,
+      "end": 736.98,
+      "text": " A maioria dos alunos do Starter são alunos novatos,"
+    },
+    {
+      "start": 737.82,
+      "end": 742.48,
+      "text": " então não estão talvez disponíveis a fazer ou não sabem fazer vídeos de vendas."
+    },
+    {
+      "start": 742.48,
+      "end": 771.8000000000001,
+      "text": " Então vamos fazer o seguinte, vamos simplificar, é possível conseguir o objetivo que a gente quer usando só imagem, então por isso a gente vai desabilitar, nós vamos desabilitar algumas coisas aqui, nós vamos desabilitar o marketplace, nós vamos desabilitar feeds do vídeo do Facebook, porque isso aqui é tipo um player do Facebook de vídeos, então não tem por que aparecer um anúncio aqui de foto no meio dos vídeos, isso aqui só encarece."
+    },
+    {
+      "start": 771.8,
+      "end": 776.68,
+      "text": " Nós vamos desabilitar também o Stories, aqui é o Facebook Stories,"
+    },
+    {
+      "start": 776.8,
+      "end": 781.8,
+      "text": " e nós vamos principalmente desabilitar a coluna direita do Facebook."
+    },
+    {
+      "start": 782.18,
+      "end": 783.88,
+      "text": " Coluna direita, tá vendo aqui a imagem?"
+    },
+    {
+      "start": 784.26,
+      "end": 790.0999999999999,
+      "text": " A coluna direita do Facebook só aparece em Desktops e ela encarece muito o anúncio,"
+    },
+    {
+      "start": 790.18,
+      "end": 792.3599999999999,
+      "text": " então nós vamos desabilitar, ok?"
+    },
+    {
+      "start": 792.8199999999999,
+      "end": 798.4599999999999,
+      "text": " Perceba que à medida que a gente vai desabilitando os posicionamentos, o alcance também cai, não tem problema."
+    },
+    {
+      "start": 798.46,
+      "end": 800.7800000000001,
+      "text": " é importante que a gente encontre as pessoas"
+    },
+    {
+      "start": 800.7800000000001,
+      "end": 803.34,
+      "text": " que realmente vão clicar no nosso anúncio"
+    },
+    {
+      "start": 803.34,
+      "end": 805.2,
+      "text": " vão deixar a nossa campanha mais barata"
+    },
+    {
+      "start": 805.2,
+      "end": 806.1600000000001,
+      "text": " legal?"
+    },
+    {
+      "start": 806.62,
+      "end": 808.76,
+      "text": " e aqui embaixo você vai"
+    },
+    {
+      "start": 808.76,
+      "end": 810.6600000000001,
+      "text": " desabilitar essa opção"
+    },
+    {
+      "start": 810.6600000000001,
+      "end": 812.88,
+      "text": " no artigo, deixando apenas"
+    },
+    {
+      "start": 812.88,
+      "end": 815.38,
+      "text": " aplicativos e sites, que é o Audience Network"
+    },
+    {
+      "start": 815.38,
+      "end": 815.84,
+      "text": " tá bom?"
+    },
+    {
+      "start": 816.4200000000001,
+      "end": 818.86,
+      "text": " feito assim, já tem um número total"
+    },
+    {
+      "start": 818.86,
+      "end": 820.62,
+      "text": " de pessoas que podem ser impactadas"
+    },
+    {
+      "start": 820.62,
+      "end": 822.46,
+      "text": " não quer dizer que vão ser impactadas"
+    },
+    {
+      "start": 822.46,
+      "end": 824.8000000000001,
+      "text": " porque depende do orçamento que a gente vai definir"
+    },
+    {
+      "start": 824.8000000000001,
+      "end": 826.72,
+      "text": " mas isso aqui é o potencial"
+    },
+    {
+      "start": 826.72,
+      "end": 828.8000000000001,
+      "text": " total de pessoas que podem ser"
+    },
+    {
+      "start": 828.8000000000001,
+      "end": 831.0600000000001,
+      "text": " alcançadas com essa segmentação."
+    },
+    {
+      "start": 831.28,
+      "end": 833.1600000000001,
+      "text": " Legal? Feito isso,"
+    },
+    {
+      "start": 833.24,
+      "end": 834.7,
+      "text": " então a gente já fez o posicionamento,"
+    },
+    {
+      "start": 834.82,
+      "end": 836.74,
+      "text": " lembrando que nós fizemos um posicionamento"
+    },
+    {
+      "start": 836.74,
+      "end": 839.2,
+      "text": " pra onde? Apenas pra o Facebook."
+    },
+    {
+      "start": 839.74,
+      "end": 840.64,
+      "text": " Tales e o Instagram,"
+    },
+    {
+      "start": 840.84,
+      "end": 843.0600000000001,
+      "text": " a gente não vai fazer campanha pro Instagram? Vai."
+    },
+    {
+      "start": 843.52,
+      "end": 845.1,
+      "text": " Você vai depois clonar"
+    },
+    {
+      "start": 845.1,
+      "end": 847.08,
+      "text": " essa campanha, vai desligar"
+    },
+    {
+      "start": 847.08,
+      "end": 848.6,
+      "text": " o Facebook e vai ficar Instagram."
+    },
+    {
+      "start": 848.82,
+      "end": 850.1600000000001,
+      "text": " E vai deixar o Instagram."
+    },
+    {
+      "start": 850.7,
+      "end": 852.9,
+      "text": " Então aqui no conjunto de anúncios, nós vamos ficar"
+    },
+    {
+      "start": 852.9,
+      "end": 854.96,
+      "text": " com dois anúncios. Um anúncio"
+    },
+    {
+      "start": 854.96,
+      "end": 856.72,
+      "text": " só pra Facebook e outro"
+    },
+    {
+      "start": 856.72,
+      "end": 858.74,
+      "text": " anúncio igualzinho, mas só pro"
+    },
+    {
+      "start": 858.74,
+      "end": 860.74,
+      "text": " Instagram. E por que que eu"
+    },
+    {
+      "start": 860.74,
+      "end": 862.48,
+      "text": " faço essa diferenciação?"
+    },
+    {
+      "start": 862.9000000000001,
+      "end": 864.62,
+      "text": " Porque dependendo da sua"
+    },
+    {
+      "start": 864.62,
+      "end": 866.34,
+      "text": " audiência, pode ser que"
+    },
+    {
+      "start": 866.34,
+      "end": 868.6,
+      "text": " as campanhas no Facebook fiquem muito"
+    },
+    {
+      "start": 868.6,
+      "end": 870.0600000000001,
+      "text": " mais baratas do que o Instagram"
+    },
+    {
+      "start": 870.0600000000001,
+      "end": 872.6,
+      "text": " ou só no Instagram fiquem muito mais"
+    },
+    {
+      "start": 872.6,
+      "end": 874.6600000000001,
+      "text": " baratas do que no Facebook. E um dos objetivos"
+    },
+    {
+      "start": 874.6600000000001,
+      "end": 877.02,
+      "text": " dessa aula é fazer que você gaste o mínimo possível."
+    },
+    {
+      "start": 877.8000000000001,
+      "end": 878.6600000000001,
+      "text": " Então se a gente"
+    },
+    {
+      "start": 878.6600000000001,
+      "end": 880.82,
+      "text": " deixar tudo misturado, não tem como saber"
+    },
+    {
+      "start": 880.82,
+      "end": 882.6600000000001,
+      "text": " qual é a campanha que tá indo melhor. Tá indo melhor"
+    },
+    {
+      "start": 882.6600000000001,
+      "end": 884.12,
+      "text": " no Facebook ou tá indo melhor no Instagram?"
+    },
+    {
+      "start": 884.12,
+      "end": 887.18,
+      "text": " Se tiver marcado aqui, não vamos saber disso."
+    },
+    {
+      "start": 887.6,
+      "end": 894.4,
+      "text": " Então a gente desmarca e faz a campanha só para o Facebook e outro anúncio só para o Instagram, tá bom?"
+    },
+    {
+      "start": 895.02,
+      "end": 896.28,
+      "text": " Vamos lá, vamos continuar então."
+    },
+    {
+      "start": 896.72,
+      "end": 902.48,
+      "text": " Você coloca todos os dispositivos móveis, não mexe nada aqui, o orçamento e programação."
+    },
+    {
+      "start": 902.6,
+      "end": 908.86,
+      "text": " Você vai deixar a otimização para cliques no link, tem outras opções aqui, mas a nossa é cliques no link mesmo."
+    },
+    {
+      "start": 908.86,
+      "end": 913.86,
+      "text": " Porque a gente quer que a pessoa clique realmente no link do nosso anúncio e vá para o grupo."
+    },
+    {
+      "start": 914.12,
+      "end": 918.26,
+      "text": " Legal? Controle de custo opcional, não marque nada aqui nessa opção,"
+    },
+    {
+      "start": 918.66,
+      "end": 922.42,
+      "text": " senão o Facebook vai ficar pensando por você o seu orçamento, não é o que a gente quer."
+    },
+    {
+      "start": 923.18,
+      "end": 927.16,
+      "text": " E no orçamento e programação, eu recomendo que para cada anúncio,"
+    },
+    {
+      "start": 927.6,
+      "end": 932.88,
+      "text": " você comece investindo de R$2 a R$5, certo?"
+    },
+    {
+      "start": 933.26,
+      "end": 934.84,
+      "text": " Thales, mas não é muito pouco, não?"
+    },
+    {
+      "start": 934.84,
+      "end": 938.46,
+      "text": " É, é muito pouco, mas nós vamos fazer vários anúncios,"
+    },
+    {
+      "start": 939.04,
+      "end": 943.54,
+      "text": " e à medida que os anúncios forem performando bem, a gente vai aumentando a verba."
+    },
+    {
+      "start": 943.54,
+      "end": 950.14,
+      "text": " Por quê? Porque se você botar muito dinheiro e o anúncio não performar bem, o Facebook vai gastar o seu dinheiro."
+    },
+    {
+      "start": 950.48,
+      "end": 952.5799999999999,
+      "text": " Então vamos começar pouquinho e vamos subindo."
+    },
+    {
+      "start": 952.9,
+      "end": 956.64,
+      "text": " Talvez eu possa subir até que preço diariamente no anúncio?"
+    },
+    {
+      "start": 957.02,
+      "end": 964.1999999999999,
+      "text": " Nós aqui na empresa, a gente investe em até 200 reais por anúncio, mas dependendo se o anúncio for bem."
+    },
+    {
+      "start": 964.3199999999999,
+      "end": 969.5,
+      "text": " A gente vai analisar isso mais na frente, tá? Se o anúncio está bem, como é que você vai identificar isso, jóia?"
+    },
+    {
+      "start": 970.02,
+      "end": 973.76,
+      "text": " Então, com o orçamento definido, antes de darmos um continuar,"
+    },
+    {
+      "start": 974.04,
+      "end": 977.36,
+      "text": " nós vamos fazer o seguinte, vamos alterar o nome de conjunto de anúncios,"
+    },
+    {
+      "start": 977.48,
+      "end": 981.28,
+      "text": " porque, afinal de contas, a gente já definiu o nome do público"
+    },
+    {
+      "start": 981.28,
+      "end": 983.58,
+      "text": " e o posicionamento, tá?"
+    },
+    {
+      "start": 983.62,
+      "end": 986.98,
+      "text": " Você vai também colocar aqui o posicionamento, eu já estava esquecendo, ó."
+    },
+    {
+      "start": 988.26,
+      "end": 989.74,
+      "text": " Posicionamento, certo?"
+    },
+    {
+      "start": 990.32,
+      "end": 992.78,
+      "text": " A gente sempre vai colocar nome do público e posicionamento."
+    },
+    {
+      "start": 992.88,
+      "end": 995.12,
+      "text": " No caso aqui, a gente está trabalhando com que público?"
+    },
+    {
+      "start": 996.12,
+      "end": 998.96,
+      "text": " Empreendedorismo, ó, não foi esse que a gente colocou?"
+    },
+    {
+      "start": 998.96,
+      "end": 1005.02,
+      "text": " Dorismo versus Família, foi aquele filtro que a gente colocou lá."
+    },
+    {
+      "start": 1005.48,
+      "end": 1007.84,
+      "text": " E o posicionamento aqui, no caso, é Facebook."
+    },
+    {
+      "start": 1008.6800000000001,
+      "end": 1011.6800000000001,
+      "text": " Quando a gente for fazer um clone desse anúncio e mudar para Instagram,"
+    },
+    {
+      "start": 1011.84,
+      "end": 1013.96,
+      "text": " a gente vai mudar o nome aqui do anúncio também, tá bom?"
+    },
+    {
+      "start": 1014.52,
+      "end": 1017.76,
+      "text": " Então, feito isso, tudo ok, jóia, continuar."
+    },
+    {
+      "start": 1019.38,
+      "end": 1021.82,
+      "text": " Agora é hora de editar o anúncio."
+    },
+    {
+      "start": 1022.22,
+      "end": 1024.88,
+      "text": " Se você quiser, pode deixar esse nome aqui sem alteração."
+    },
+    {
+      "start": 1024.88,
+      "end": 1030.0200000000002,
+      "text": " Se quiser, você pode colocar o mesmo nome do anúncio que estava anteriormente, tá?"
+    },
+    {
+      "start": 1030.0800000000002,
+      "end": 1031.48,
+      "text": " Depois de anúncio, não tem nenhum problema."
+    },
+    {
+      "start": 1031.94,
+      "end": 1041.1000000000001,
+      "text": " Então, vamos colocar aqui, Starter Empreendedorismo vs Família, FB, de Facebook."
+    },
+    {
+      "start": 1041.3600000000001,
+      "end": 1041.6200000000001,
+      "text": " Xóia?"
+    },
+    {
+      "start": 1043.0,
+      "end": 1043.48,
+      "text": " Beleza."
+    },
+    {
+      "start": 1044.2,
+      "end": 1047.7,
+      "text": " Vamos passar direto aqui, depois eu vou falar sobre o Instagram."
+    },
+    {
+      "start": 1048.3600000000001,
+      "end": 1049.88,
+      "text": " Vamos passar direto aqui, vamos pra cá."
+    },
+    {
+      "start": 1049.98,
+      "end": 1053.14,
+      "text": " Nós vamos fazer o formato de imagem."
+    },
+    {
+      "start": 1053.14,
+      "end": 1056.3200000000002,
+      "text": " pode ser carrossel, coleção, imagem ou vídeo"
+    },
+    {
+      "start": 1056.3200000000002,
+      "end": 1058.4,
+      "text": " nós vamos usar imagem, então clica aqui no imagem"
+    },
+    {
+      "start": 1058.4,
+      "end": 1059.8000000000002,
+      "text": " deixa marcadinho"
+    },
+    {
+      "start": 1059.8000000000002,
+      "end": 1063.8200000000002,
+      "text": " e aí você vai adicionar uma imagem"
+    },
+    {
+      "start": 1063.8200000000002,
+      "end": 1066.0400000000002,
+      "text": " deixa eu limpar aqui essas imagens que estavam aqui"
+    },
+    {
+      "start": 1066.0400000000002,
+      "end": 1068.96,
+      "text": " porque no seu painel vai aparecer assim"
+    },
+    {
+      "start": 1068.96,
+      "end": 1071.2,
+      "text": " é dessa forma que a telinha vai aparecer"
+    },
+    {
+      "start": 1071.2,
+      "end": 1073.38,
+      "text": " então você vem aqui em adicionar mídia"
+    },
+    {
+      "start": 1073.38,
+      "end": 1075.5400000000002,
+      "text": " adicionar imagem"
+    },
+    {
+      "start": 1075.5400000000002,
+      "end": 1079.0600000000002,
+      "text": " e onde tem imagens da conta"
+    },
+    {
+      "start": 1079.0600000000002,
+      "end": 1081.0600000000002,
+      "text": " você não vai ter nada aí, você vai vir aqui"
+    },
+    {
+      "start": 1081.06,
+      "end": 1084.06,
+      "text": " Presta atenção nisso, você vai vir aqui, fotos gratuitas."
+    },
+    {
+      "start": 1084.6399999999999,
+      "end": 1090.48,
+      "text": " O Facebook disponibiliza um banco de imagens gratuita para a gente usar."
+    },
+    {
+      "start": 1091.1,
+      "end": 1093.1399999999999,
+      "text": " E como é que eu vou escolher essas imagens?"
+    },
+    {
+      "start": 1093.3,
+      "end": 1096.02,
+      "text": " Primeiro você vai colocar uma palavra-chave aqui na busca"
+    },
+    {
+      "start": 1096.02,
+      "end": 1099.7,
+      "text": " que represente a proposta de valor do seu grupo mix."
+    },
+    {
+      "start": 1100.2,
+      "end": 1102.48,
+      "text": " No caso aqui é casal empreendedor, eu joguei."
+    },
+    {
+      "start": 1102.56,
+      "end": 1105.1,
+      "text": " E olha a quantidade de imagens que apareceram aqui."
+    },
+    {
+      "start": 1105.46,
+      "end": 1106.8999999999999,
+      "text": " Várias imagens boas."
+    },
+    {
+      "start": 1107.3999999999999,
+      "end": 1110.04,
+      "text": " E aqui vai uma sacada, aliás, duas sacadas."
+    },
+    {
+      "start": 1110.04,
+      "end": 1114.98,
+      "text": " Primeiro, se você for usar uma dessas imagens disponíveis gratuitamente pelo Facebook,"
+    },
+    {
+      "start": 1115.62,
+      "end": 1120.36,
+      "text": " procure não usar imagens com muita cara de banco de imagens."
+    },
+    {
+      "start": 1120.46,
+      "end": 1121.46,
+      "text": " Por exemplo, está vendo essa aqui?"
+    },
+    {
+      "start": 1122.0,
+      "end": 1124.8999999999999,
+      "text": " Essa aqui é uma imagem com cara de propaganda."
+    },
+    {
+      "start": 1125.1399999999999,
+      "end": 1127.32,
+      "text": " Ela tem cara de banco de imagens, então não usa não."
+    },
+    {
+      "start": 1127.68,
+      "end": 1128.6399999999999,
+      "text": " Essa aqui não está boa."
+    },
+    {
+      "start": 1129.12,
+      "end": 1131.94,
+      "text": " Vamos procurar uma imagem o mais humana possível."
+    },
+    {
+      "start": 1132.04,
+      "end": 1132.84,
+      "text": " É a primeira dica."
+    },
+    {
+      "start": 1133.3,
+      "end": 1135.28,
+      "text": " Procure humanização na sua imagem."
+    },
+    {
+      "start": 1135.28,
+      "end": 1143.58,
+      "text": " E a segunda dica é, se possível, procura imagens em que apareça em close o rosto das pessoas,"
+    },
+    {
+      "start": 1143.7,
+      "end": 1145.22,
+      "text": " porque conecta mais."
+    },
+    {
+      "start": 1145.36,
+      "end": 1149.44,
+      "text": " Anúncios que usam rostos, eles tendem a gerar mais clique."
+    },
+    {
+      "start": 1149.52,
+      "end": 1152.08,
+      "text": " Então eu vou escolher esse aqui, por exemplo."
+    },
+    {
+      "start": 1152.86,
+      "end": 1155.6399999999999,
+      "text": " Eu posso escolher várias imagens ao mesmo tempo?"
+    },
+    {
+      "start": 1156.02,
+      "end": 1156.3799999999999,
+      "text": " Pode."
+    },
+    {
+      "start": 1156.82,
+      "end": 1162.24,
+      "text": " Só que quanto mais imagens você selecionar, mais variação de anúncios o Facebook vai criar"
+    },
+    {
+      "start": 1162.24,
+      "end": 1166.98,
+      "text": " E por algum motivo, pelo menos em todos os nossos testes aqui,"
+    },
+    {
+      "start": 1167.1200000000001,
+      "end": 1171.66,
+      "text": " todas as vezes que a gente coloca um monte de imagens nessa construção do anúncio,"
+    },
+    {
+      "start": 1172.08,
+      "end": 1178.6200000000001,
+      "text": " a performance da nossa campanha fica menor do que a gente criar uma campanha só com uma única imagem."
+    },
+    {
+      "start": 1179.28,
+      "end": 1182.14,
+      "text": " Tá, Liz, eu quero fazer vários anúncios com várias imagens."
+    },
+    {
+      "start": 1182.22,
+      "end": 1186.18,
+      "text": " Beleza, então é só você ir clonando e trocando as suas imagens."
+    },
+    {
+      "start": 1186.3,
+      "end": 1188.34,
+      "text": " Mas por hora, eu vou te ensinar a fazer só isso aqui."
+    },
+    {
+      "start": 1188.34,
+      "end": 1194.12,
+      "text": " Você vai escolher a imagem campeã que mais represente o tema da sua proposta de valor"
+    },
+    {
+      "start": 1194.12,
+      "end": 1195.72,
+      "text": " e aí você vai selecionar, beleza?"
+    },
+    {
+      "start": 1196.36,
+      "end": 1197.32,
+      "text": " E aí vem continuar."
+    },
+    {
+      "start": 1198.74,
+      "end": 1205.36,
+      "text": " Joia, com a imagem escolhida, o próximo passo, ele está carregando aqui,"
+    },
+    {
+      "start": 1205.6,
+      "end": 1213.1799999999998,
+      "text": " o próximo passo depois é a gente introduzir a copy no nosso anúncio, a copy do anúncio."
+    },
+    {
+      "start": 1213.82,
+      "end": 1215.76,
+      "text": " Então o que a gente vai fazer agora?"
+    },
+    {
+      "start": 1215.76,
+      "end": 1220.66,
+      "text": " eu vou abrir o template que está aqui abaixo dessa aula, o template do anúncio,"
+    },
+    {
+      "start": 1221.06,
+      "end": 1223.34,
+      "text": " e nós vamos analisar essa copy juntos. Vamos lá."
+    },
+    {
+      "start": 1223.74,
+      "end": 1226.04,
+      "text": " Esse aqui é o template que está aí para você, tá?"
+    },
+    {
+      "start": 1226.52,
+      "end": 1229.98,
+      "text": " Então, o texto principal aqui em cima e o título do anúncio."
+    },
+    {
+      "start": 1230.1,
+      "end": 1232.14,
+      "text": " Vamos analisar rapidamente essa copy, tá?"
+    },
+    {
+      "start": 1232.84,
+      "end": 1240.14,
+      "text": " Esse texto tem o objetivo de, primeiro, atrair pessoas que têm o perfil do tipo de gente que a gente quer no grupo."
+    },
+    {
+      "start": 1240.74,
+      "end": 1244.58,
+      "text": " Segundo, repelir o tipo de pessoa que a gente não quer."
+    },
+    {
+      "start": 1244.58,
+      "end": 1248.6399999999999,
+      "text": " E terceiro, esclarecer o que vai acontecer no grupo."
+    },
+    {
+      "start": 1248.8999999999999,
+      "end": 1254.8799999999999,
+      "text": " Então, é um anúncio com texto grande mesmo, não tem problema, não se espante com isso."
+    },
+    {
+      "start": 1255.3799999999999,
+      "end": 1258.76,
+      "text": " Anúncios com textos grandes não são necessariamente ruins."
+    },
+    {
+      "start": 1259.1799999999998,
+      "end": 1263.6999999999998,
+      "text": " Pelo contrário, eles filtram melhor o tipo do lead que vai entrar no grupo."
+    },
+    {
+      "start": 1263.82,
+      "end": 1265.6599999999999,
+      "text": " Então, vamos lá. Como é que você vai escrever?"
+    },
+    {
+      "start": 1267.1,
+      "end": 1268.98,
+      "text": " Destrave a gente vai começar mexendo na dor."
+    },
+    {
+      "start": 1268.98,
+      "end": 1275.44,
+      "text": " Ó, destrave o que te impede de realizar, ou aprender, ou conquistar, ou economizar,"
+    },
+    {
+      "start": 1275.66,
+      "end": 1279.78,
+      "text": " ou o que que seja que esteja travando a vida da pessoa, tá?"
+    },
+    {
+      "start": 1280.26,
+      "end": 1283.82,
+      "text": " Então, gente, eu vou já te mostrar um exemplo, isso que vai ficar mais claro já, já."
+    },
+    {
+      "start": 1284.4,
+      "end": 1288.6,
+      "text": " Essa é uma proposta diferente, o conteúdo é gratuito, mas por tempo limitado."
+    },
+    {
+      "start": 1289.38,
+      "end": 1295.78,
+      "text": " Criamos o grupo, e aí você coloca o nome do seu grupo, para, e aqui você descreve a sua proposta de valor."
+    },
+    {
+      "start": 1295.78,
+      "end": 1299.04,
+      "text": " Vou já dar um exemplo pra ficar claro isso aqui tudo, tá?"
+    },
+    {
+      "start": 1299.66,
+      "end": 1305.0,
+      "text": " Nele você vai receber podcasts ou aulas ou lives, você vai escolher um desses formatos."
+    },
+    {
+      "start": 1305.08,
+      "end": 1310.1399999999999,
+      "text": " Mais na frente, aqui no starter, a gente vai falar de cada um desses formatos aqui, fica tranquilo."
+    },
+    {
+      "start": 1310.48,
+      "end": 1315.94,
+      "text": " Mas se você decidiu, definiu, por exemplo, vai fazer o seu conteúdo em podcasts, então você vai deixar podcasts."
+    },
+    {
+      "start": 1316.08,
+      "end": 1321.76,
+      "text": " Então, nele você vai receber podcasts exclusivos durante sete dias de forma gratuita, mas atenção,"
+    },
+    {
+      "start": 1322.24,
+      "end": 1323.82,
+      "text": " Esteja ciente das regras."
+    },
+    {
+      "start": 1323.8799999999999,
+      "end": 1325.98,
+      "text": " É aqui que a gente vai separar o joio do trigo."
+    },
+    {
+      "start": 1326.52,
+      "end": 1330.74,
+      "text": " O grupo é moderado, ou seja, irei zelar pela ética e educação do grupo."
+    },
+    {
+      "start": 1331.32,
+      "end": 1334.72,
+      "text": " O grupo ficará silenciado para interações a maior parte do tempo."
+    },
+    {
+      "start": 1334.72,
+      "end": 1338.94,
+      "text": " O propósito principal é compartilhar os conteúdos exclusivos."
+    },
+    {
+      "start": 1339.28,
+      "end": 1342.52,
+      "text": " 3. O participante que fizer a expança irá removido."
+    },
+    {
+      "start": 1342.58,
+      "end": 1344.72,
+      "text": " Isso aqui é importante. Vai acontecer no seu grupo, viu?"
+    },
+    {
+      "start": 1344.92,
+      "end": 1348.4,
+      "text": " Nem se preocupe. Você vai ter que remover pessoas e está tudo bem."
+    },
+    {
+      "start": 1348.7,
+      "end": 1349.62,
+      "text": " Faz parte das regras."
+    },
+    {
+      "start": 1350.18,
+      "end": 1350.74,
+      "text": " Aí continua."
+    },
+    {
+      "start": 1350.74,
+      "end": 1354.52,
+      "text": " A proposta é aprender e crescermos juntos."
+    },
+    {
+      "start": 1354.7,
+      "end": 1356.5,
+      "text": " Confira o que você encontrará."
+    },
+    {
+      "start": 1356.9,
+      "end": 1357.56,
+      "text": " E aqui vai."
+    },
+    {
+      "start": 1357.6200000000001,
+      "end": 1360.32,
+      "text": " Você vai listar o benefício 1 do grupo"
+    },
+    {
+      "start": 1360.32,
+      "end": 1364.84,
+      "text": " ou simplesmente o tema da sua aula, do seu podcast, da sua live, do seu vídeo."
+    },
+    {
+      "start": 1365.16,
+      "end": 1365.48,
+      "text": " Certo?"
+    },
+    {
+      "start": 1366.32,
+      "end": 1368.02,
+      "text": " Benefício 2, benefício 3."
+    },
+    {
+      "start": 1368.48,
+      "end": 1370.92,
+      "text": " Clique nesse link e garanta a sua vaga."
+    },
+    {
+      "start": 1371.0,
+      "end": 1373.24,
+      "text": " E aqui vai vir o link do grupo ou o link do redirect."
+    },
+    {
+      "start": 1373.74,
+      "end": 1376.28,
+      "text": " Esse link também vai estar no Saiba Mais do anúncio."
+    },
+    {
+      "start": 1376.38,
+      "end": 1378.84,
+      "text": " Então, ele vai aparecer duas vezes no seu anúncio."
+    },
+    {
+      "start": 1378.84,
+      "end": 1380.9199999999998,
+      "text": " e aqui embaixo também tem o título"
+    },
+    {
+      "start": 1380.9199999999998,
+      "end": 1382.6999999999998,
+      "text": " que é onde o título vai aparecer"
+    },
+    {
+      "start": 1382.6999999999998,
+      "end": 1385.1999999999998,
+      "text": " num lugar específico do anúncio, você vai ver isso já já"
+    },
+    {
+      "start": 1385.1999999999998,
+      "end": 1386.76,
+      "text": " vamos dar um exemplo pra ficar"
+    },
+    {
+      "start": 1386.76,
+      "end": 1388.76,
+      "text": " mais claro ainda, então vamos lá, nós estamos"
+    },
+    {
+      "start": 1388.76,
+      "end": 1391.08,
+      "text": " partindo do princípio que a gente tá vendendo aqui um livro"
+    },
+    {
+      "start": 1391.08,
+      "end": 1393.0,
+      "text": " e o nome do livro é como empreender"
+    },
+    {
+      "start": 1393.0,
+      "end": 1395.1,
+      "text": " em casal, então ao redor"
+    },
+    {
+      "start": 1395.1,
+      "end": 1396.9599999999998,
+      "text": " desse produto a gente criou"
+    },
+    {
+      "start": 1396.9599999999998,
+      "end": 1398.8799999999999,
+      "text": " um tema, uma proposta de valor"
+    },
+    {
+      "start": 1398.8799999999999,
+      "end": 1400.9199999999998,
+      "text": " ok, assim como você vai fazendo o seu também"
+    },
+    {
+      "start": 1400.9199999999998,
+      "end": 1402.86,
+      "text": " então o texto principal vai ser assim"
+    },
+    {
+      "start": 1402.86,
+      "end": 1404.98,
+      "text": " pode ser assim, destrave o que te impede"
+    },
+    {
+      "start": 1404.98,
+      "end": 1407.22,
+      "text": " de empreender junto com o seu cônjuge"
+    },
+    {
+      "start": 1407.22,
+      "end": 1409.58,
+      "text": " sem precisar destruir o casamento."
+    },
+    {
+      "start": 1410.1000000000001,
+      "end": 1413.34,
+      "text": " Olha só, empreender sem destruir o casamento."
+    },
+    {
+      "start": 1413.42,
+      "end": 1416.42,
+      "text": " Isso é importante, isso aqui fala com a pessoa que está do outro lado"
+    },
+    {
+      "start": 1416.42,
+      "end": 1417.68,
+      "text": " e tem esse tipo de problema."
+    },
+    {
+      "start": 1418.54,
+      "end": 1422.42,
+      "text": " Essa é uma proposta diferente, o conteúdo é gratuito, mas por tempo limitado."
+    },
+    {
+      "start": 1423.14,
+      "end": 1426.46,
+      "text": " Criamos o grupo Empreendem Casal, é o nome do grupo,"
+    },
+    {
+      "start": 1427.0,
+      "end": 1431.06,
+      "text": " para que empresários que empreendem com seus maridos e esposas"
+    },
+    {
+      "start": 1431.06,
+      "end": 1435.06,
+      "text": " possam ter sucesso profissional, sendo felizes na vida pessoal."
+    },
+    {
+      "start": 1435.6200000000001,
+      "end": 1437.0,
+      "text": " Essa é a proposta de valor."
+    },
+    {
+      "start": 1437.22,
+      "end": 1439.96,
+      "text": " É conseguir empreender e ser feliz, ok?"
+    },
+    {
+      "start": 1440.44,
+      "end": 1444.32,
+      "text": " Você vai pensar na sua proposta de valor aí e vai colocar aqui nesse lugar da cópia."
+    },
+    {
+      "start": 1445.02,
+      "end": 1448.88,
+      "text": " Nele você vai receber podcasts, mas poderia ser vídeos, é o que você decidir."
+    },
+    {
+      "start": 1449.52,
+      "end": 1451.1200000000001,
+      "text": " Exclusivo durante sete dias e tal."
+    },
+    {
+      "start": 1452.06,
+      "end": 1453.44,
+      "text": " Esteja ciente das regras."
+    },
+    {
+      "start": 1453.48,
+      "end": 1456.06,
+      "text": " E aqui vem o seguinte, as regras a gente já leu, não muda nada."
+    },
+    {
+      "start": 1456.66,
+      "end": 1458.88,
+      "text": " A proposta é aprender e crescermos juntos."
+    },
+    {
+      "start": 1459.1000000000001,
+      "end": 1460.6200000000001,
+      "text": " Confira o que você encontrará."
+    },
+    {
+      "start": 1460.62,
+      "end": 1467.28,
+      "text": " Então aqui são os temas do caso das três aulas que nós daríamos aqui no grupo Empreender Casal."
+    },
+    {
+      "start": 1467.36,
+      "end": 1471.3999999999999,
+      "text": " Por exemplo, como conciliar casamento e trabalho sem enlouquecer."
+    },
+    {
+      "start": 1472.02,
+      "end": 1472.8799999999999,
+      "text": " Olha que tema legal."
+    },
+    {
+      "start": 1474.06,
+      "end": 1477.4599999999998,
+      "text": " Aperfeiçoar a linguagem de comunicação para evitar conflitos."
+    },
+    {
+      "start": 1478.3,
+      "end": 1482.6999999999998,
+      "text": " Os princípios da mentalidade de casais que enriqueceram trabalhando juntos."
+    },
+    {
+      "start": 1483.36,
+      "end": 1488.6599999999999,
+      "text": " Então imagina, se você está do outro lado dessa aula agora e você tem esse tipo de dor,"
+    },
+    {
+      "start": 1488.66,
+      "end": 1490.78,
+      "text": " você empreende aí com o seu marido, com a sua esposa,"
+    },
+    {
+      "start": 1491.26,
+      "end": 1494.0400000000002,
+      "text": " você sabe que isso aqui mexe com todo mundo, isso aqui é importante."
+    },
+    {
+      "start": 1494.18,
+      "end": 1496.5400000000002,
+      "text": " Cara, como é que eu concilio trabalho e casamento?"
+    },
+    {
+      "start": 1497.5400000000002,
+      "end": 1500.38,
+      "text": " Qual é a mentalidade desse pessoal que fica rico trabalhando junto?"
+    },
+    {
+      "start": 1500.48,
+      "end": 1502.64,
+      "text": " Porque aqui em casa só quebra pau."
+    },
+    {
+      "start": 1503.16,
+      "end": 1505.16,
+      "text": " Então, isso aqui faz sentido, não faz pra você?"
+    },
+    {
+      "start": 1505.72,
+      "end": 1507.6200000000001,
+      "text": " Se você é casado, você empreende."
+    },
+    {
+      "start": 1507.9,
+      "end": 1511.52,
+      "text": " Se você não é casado e nem empreende com ninguém,"
+    },
+    {
+      "start": 1511.8600000000001,
+      "end": 1513.98,
+      "text": " isso aqui talvez não faça sentido nenhum pra você."
+    },
+    {
+      "start": 1514.26,
+      "end": 1515.46,
+      "text": " Então, você não entraria no grupo."
+    },
+    {
+      "start": 1515.92,
+      "end": 1516.8000000000002,
+      "text": " Essa é a ideia."
+    },
+    {
+      "start": 1516.8,
+      "end": 1523.12,
+      "text": " Quando você define o tipo de conteúdo que vai ser publicado, você define a audiência que vai vir, ok?"
+    },
+    {
+      "start": 1523.68,
+      "end": 1527.5,
+      "text": " E por fim, termina com... clique nesse link e garanta sua vaga."
+    },
+    {
+      "start": 1527.6,
+      "end": 1532.54,
+      "text": " E o título poderia ser empreender em casal sem enlouquecer. É possível."
+    },
+    {
+      "start": 1533.08,
+      "end": 1533.3799999999999,
+      "text": " Jóia?"
+    },
+    {
+      "start": 1533.74,
+      "end": 1537.3999999999999,
+      "text": " Então vamos voltar agora para o painel do gerenciador de anúncios do Facebook."
+    },
+    {
+      "start": 1539.22,
+      "end": 1541.22,
+      "text": " Beleza. Qual vai ser o texto principal?"
+    },
+    {
+      "start": 1541.58,
+      "end": 1542.8799999999999,
+      "text": " Vou colar agora, olha só."
+    },
+    {
+      "start": 1542.8799999999999,
+      "end": 1546.28,
+      "text": " Você deve preparar também com antecedência."
+    },
+    {
+      "start": 1546.8,
+      "end": 1549.22,
+      "text": " Copia aqui, cola aqui."
+    },
+    {
+      "start": 1550.1399999999999,
+      "end": 1551.3999999999999,
+      "text": " Tá aqui o texto, ok?"
+    },
+    {
+      "start": 1551.76,
+      "end": 1556.6599999999999,
+      "text": " À medida que você for preenchendo o Facebook, já vai te mostrando o anúncio aqui do lado."
+    },
+    {
+      "start": 1557.34,
+      "end": 1561.84,
+      "text": " E não se preocupe com essas marcações aqui da imagem, da Shutterstock, tá?"
+    },
+    {
+      "start": 1562.18,
+      "end": 1567.9199999999998,
+      "text": " Porque na hora de você publicar, essas imagenzinhas aqui, essas marcações não vão aparecer, legal?"
+    },
+    {
+      "start": 1568.68,
+      "end": 1572.52,
+      "text": " Vale a pena dar uma revisada aqui pra ver se ficou tudo legal, né? Tudo jóia."
+    },
+    {
+      "start": 1572.52,
+      "end": 1575.3,
+      "text": " vem aqui, coloca o título"
+    },
+    {
+      "start": 1575.3,
+      "end": 1577.06,
+      "text": " deixa eu copiar o título aqui"
+    },
+    {
+      "start": 1577.06,
+      "end": 1579.62,
+      "text": " empreender em casal sem enlouquecer"
+    },
+    {
+      "start": 1579.62,
+      "end": 1580.32,
+      "text": " é possível"
+    },
+    {
+      "start": 1580.32,
+      "end": 1583.0,
+      "text": " aqui"
+    },
+    {
+      "start": 1583.0,
+      "end": 1586.8,
+      "text": " a medida que você for editando ele já vai"
+    },
+    {
+      "start": 1586.8,
+      "end": 1587.86,
+      "text": " mudando"
+    },
+    {
+      "start": 1587.86,
+      "end": 1590.7,
+      "text": " e aí o Facebook já vai"
+    },
+    {
+      "start": 1590.7,
+      "end": 1591.8,
+      "text": " preparando, descrição"
+    },
+    {
+      "start": 1591.8,
+      "end": 1594.1399999999999,
+      "text": " eu recomendo não"
+    },
+    {
+      "start": 1594.1399999999999,
+      "end": 1595.6,
+      "text": " usar, legal"
+    },
+    {
+      "start": 1595.6,
+      "end": 1598.94,
+      "text": " aqui na URL do site"
+    },
+    {
+      "start": 1598.94,
+      "end": 1600.34,
+      "text": " você vai colocar aqui"
+    },
+    {
+      "start": 1600.34,
+      "end": 1602.42,
+      "text": " o seu, o link"
+    },
+    {
+      "start": 1602.42,
+      "end": 1604.2,
+      "text": " do seu redirect, certo?"
+    },
+    {
+      "start": 1604.88,
+      "end": 1605.42,
+      "text": " O redirect"
+    },
+    {
+      "start": 1605.42,
+      "end": 1608.24,
+      "text": " ou o link"
+    },
+    {
+      "start": 1608.24,
+      "end": 1609.22,
+      "text": " direto do grupo."
+    },
+    {
+      "start": 1610.5,
+      "end": 1612.24,
+      "text": " Eu acredito que você que está aqui assistindo"
+    },
+    {
+      "start": 1612.24,
+      "end": 1614.46,
+      "text": " essa aula e está pretendendo investir"
+    },
+    {
+      "start": 1614.46,
+      "end": 1616.42,
+      "text": " grana no Facebook,"
+    },
+    {
+      "start": 1616.96,
+      "end": 1618.3400000000001,
+      "text": " você quer realmente fazer"
+    },
+    {
+      "start": 1618.3400000000001,
+      "end": 1620.26,
+      "text": " um starter maior."
+    },
+    {
+      "start": 1620.8600000000001,
+      "end": 1622.44,
+      "text": " Então, eu recomendo"
+    },
+    {
+      "start": 1622.44,
+      "end": 1624.3400000000001,
+      "text": " que você use o link do redirect"
+    },
+    {
+      "start": 1624.3400000000001,
+      "end": 1626.26,
+      "text": " aqui. Nós temos uma aula só"
+    },
+    {
+      "start": 1626.26,
+      "end": 1628.3400000000001,
+      "text": " sobre isso, uma cortesia do método"
+    },
+    {
+      "start": 1628.3400000000001,
+      "end": 1630.46,
+      "text": " meteórico que nós colocamos aqui no starter"
+    },
+    {
+      "start": 1630.46,
+      "end": 1631.72,
+      "text": " para você"
+    },
+    {
+      "start": 1631.72,
+      "end": 1634.28,
+      "text": " entender como é que você vai fazer"
+    },
+    {
+      "start": 1634.28,
+      "end": 1636.16,
+      "text": " esse redirect, então é aqui que ele vai"
+    },
+    {
+      "start": 1636.16,
+      "end": 1638.1200000000001,
+      "text": " entrar, show? Por hora eu vou"
+    },
+    {
+      "start": 1638.1200000000001,
+      "end": 1640.0,
+      "text": " colocar qualquer link só pra que"
+    },
+    {
+      "start": 1640.0,
+      "end": 1641.8600000000001,
+      "text": " o Facebook permita"
+    },
+    {
+      "start": 1641.8600000000001,
+      "end": 1644.16,
+      "text": " a gente avançar"
+    },
+    {
+      "start": 1644.16,
+      "end": 1646.16,
+      "text": " tá bom? Mas pode ser qualquer link"
+    },
+    {
+      "start": 1646.16,
+      "end": 1648.06,
+      "text": " aqui do redirect. Feito"
+    },
+    {
+      "start": 1648.06,
+      "end": 1650.1000000000001,
+      "text": " isso, esse link"
+    },
+    {
+      "start": 1650.1000000000001,
+      "end": 1651.54,
+      "text": " aqui que é o link da URL"
+    },
+    {
+      "start": 1651.54,
+      "end": 1653.96,
+      "text": " é o link que vai ficar dentro do"
+    },
+    {
+      "start": 1653.96,
+      "end": 1656.1200000000001,
+      "text": " botão saiba mais aqui ó, quando as pessoas"
+    },
+    {
+      "start": 1656.1200000000001,
+      "end": 1657.8600000000001,
+      "text": " clicarem saiba mais, é"
+    },
+    {
+      "start": 1657.8600000000001,
+      "end": 1659.8600000000001,
+      "text": " nesse link que elas estarão"
+    },
+    {
+      "start": 1659.86,
+      "end": 1661.86,
+      "text": " clicando e vão ser direcionados direto"
+    },
+    {
+      "start": 1661.86,
+      "end": 1664.1999999999998,
+      "text": " para o seu redirete. Feito isso,"
+    },
+    {
+      "start": 1664.6799999999998,
+      "end": 1666.1799999999998,
+      "text": " você vem mais aqui abaixo"
+    },
+    {
+      "start": 1666.1799999999998,
+      "end": 1667.9199999999998,
+      "text": " e uma última consideração."
+    },
+    {
+      "start": 1668.56,
+      "end": 1669.86,
+      "text": " Onde você tem rastreamento,"
+    },
+    {
+      "start": 1671.08,
+      "end": 1672.36,
+      "text": " você vai desligar"
+    },
+    {
+      "start": 1672.36,
+      "end": 1674.1,
+      "text": " esse pixel. Nós percebemos"
+    },
+    {
+      "start": 1674.1,
+      "end": 1676.26,
+      "text": " que quando nós deixamos o rastreamento"
+    },
+    {
+      "start": 1676.26,
+      "end": 1678.02,
+      "text": " do pixel do Facebook ativo"
+    },
+    {
+      "start": 1678.02,
+      "end": 1680.36,
+      "text": " numa campanha que leva direto"
+    },
+    {
+      "start": 1680.36,
+      "end": 1682.3,
+      "text": " para um grupo, a performance"
+    },
+    {
+      "start": 1682.3,
+      "end": 1684.56,
+      "text": " cai. Então, quando o pixel"
+    },
+    {
+      "start": 1684.56,
+      "end": 1686.3999999999999,
+      "text": " do Facebook está desligado, o Facebook"
+    },
+    {
+      "start": 1686.3999999999999,
+      "end": 1688.5,
+      "text": " tende a entregar mais"
+    },
+    {
+      "start": 1688.5,
+      "end": 1689.8,
+      "text": " e por menos preço."
+    },
+    {
+      "start": 1690.4799999999998,
+      "end": 1693.1999999999998,
+      "text": " Então deixa desligado aqui e confirma."
+    },
+    {
+      "start": 1693.62,
+      "end": 1697.34,
+      "text": " Uma vez que você confirme, ele vai confirmar os itens, beleza?"
+    },
+    {
+      "start": 1697.9799999999998,
+      "end": 1699.3999999999999,
+      "text": " E vai ativar a sua campanha."
+    },
+    {
+      "start": 1700.06,
+      "end": 1703.8999999999999,
+      "text": " Uma vez o seu anúncio criado, agora a gente vai fazer o seguinte."
+    },
+    {
+      "start": 1704.08,
+      "end": 1706.82,
+      "text": " Lembra que a gente fez um anúncio para onde? Para o Facebook."
+    },
+    {
+      "start": 1707.3999999999999,
+      "end": 1709.9599999999998,
+      "text": " Agora a gente vai clonar esse anúncio para o Instagram."
+    },
+    {
+      "start": 1710.12,
+      "end": 1710.9399999999998,
+      "text": " Como é que você vai fazer?"
+    },
+    {
+      "start": 1710.9399999999998,
+      "end": 1716.62,
+      "text": " Você vai vir em campanhas, abre aqui a campanha que você acabou de criar, legal?"
+    },
+    {
+      "start": 1716.62,
+      "end": 1720.26,
+      "text": " seleciona aqui na área de conjunto de anúncios"
+    },
+    {
+      "start": 1720.26,
+      "end": 1721.8799999999999,
+      "text": " a aba de conjunto de anúncios"
+    },
+    {
+      "start": 1721.8799999999999,
+      "end": 1724.4199999999998,
+      "text": " o anúncio que a gente acabou de criar"
+    },
+    {
+      "start": 1724.4199999999998,
+      "end": 1725.6799999999998,
+      "text": " você marca ele"
+    },
+    {
+      "start": 1725.6799999999998,
+      "end": 1727.52,
+      "text": " vem aqui em duplicar"
+    },
+    {
+      "start": 1727.52,
+      "end": 1729.04,
+      "text": " e clica aqui"
+    },
+    {
+      "start": 1729.04,
+      "end": 1731.1399999999999,
+      "text": " vai duplicar o seu anúncio"
+    },
+    {
+      "start": 1731.1399999999999,
+      "end": 1734.4599999999998,
+      "text": " você vai usar a campanha original"
+    },
+    {
+      "start": 1734.4599999999998,
+      "end": 1735.6,
+      "text": " deixa marcado aqui"
+    },
+    {
+      "start": 1735.6,
+      "end": 1737.12,
+      "text": " e o número de cópias é 1"
+    },
+    {
+      "start": 1737.12,
+      "end": 1738.5,
+      "text": " eu recomendo fazer de 1 em 1"
+    },
+    {
+      "start": 1738.5,
+      "end": 1740.08,
+      "text": " porque assim você não vai se atrapalhar"
+    },
+    {
+      "start": 1740.08,
+      "end": 1740.6799999999998,
+      "text": " tá bom?"
+    },
+    {
+      "start": 1741.1399999999999,
+      "end": 1742.08,
+      "text": " clica em duplicar"
+    },
+    {
+      "start": 1742.08,
+      "end": 1744.4799999999998,
+      "text": " imediatamente o Facebook vai criar"
+    },
+    {
+      "start": 1744.48,
+      "end": 1746.64,
+      "text": " um anúncio igualzinho"
+    },
+    {
+      "start": 1746.64,
+      "end": 1748.6200000000001,
+      "text": " ao outro. Então, a gente vai agora"
+    },
+    {
+      "start": 1748.6200000000001,
+      "end": 1750.08,
+      "text": " editá-lo. Legal?"
+    },
+    {
+      "start": 1750.66,
+      "end": 1752.64,
+      "text": " Editar o quê? Nós vamos editar o posicionamento"
+    },
+    {
+      "start": 1753.38,
+      "end": 1754.08,
+      "text": " apenas."
+    },
+    {
+      "start": 1755.8600000000001,
+      "end": 1756.48,
+      "text": " Depois que ele"
+    },
+    {
+      "start": 1756.48,
+      "end": 1758.26,
+      "text": " terminar de criar aqui,"
+    },
+    {
+      "start": 1758.26,
+      "end": 1760.18,
+      "text": " você vem aqui no nome de conjunto"
+    },
+    {
+      "start": 1760.18,
+      "end": 1762.44,
+      "text": " de anúncios. Primeiro passo que você vai fazer"
+    },
+    {
+      "start": 1762.44,
+      "end": 1763.76,
+      "text": " é alterar"
+    },
+    {
+      "start": 1763.76,
+      "end": 1766.18,
+      "text": " o nome do posicionamento aqui."
+    },
+    {
+      "start": 1766.56,
+      "end": 1767.76,
+      "text": " Você vem aqui"
+    },
+    {
+      "start": 1767.76,
+      "end": 1770.06,
+      "text": " e coloca Instagram."
+    },
+    {
+      "start": 1772.6,
+      "end": 1773.28,
+      "text": " Instagram."
+    },
+    {
+      "start": 1774.48,
+      "end": 1775.5,
+      "text": " Feito, ok?"
+    },
+    {
+      "start": 1775.8600000000001,
+      "end": 1777.98,
+      "text": " Não clica em publicar ainda, não clica,"
+    },
+    {
+      "start": 1778.08,
+      "end": 1779.6200000000001,
+      "text": " senão ele vai publicar sem a gente terminar."
+    },
+    {
+      "start": 1780.38,
+      "end": 1782.96,
+      "text": " Feito aqui a parte do nome, né?"
+    },
+    {
+      "start": 1782.96,
+      "end": 1783.98,
+      "text": " A gente mudou o nome."
+    },
+    {
+      "start": 1784.58,
+      "end": 1786.04,
+      "text": " Dá uma olhada aqui no orçamento."
+    },
+    {
+      "start": 1786.28,
+      "end": 1789.14,
+      "text": " Ficou R$5,00 naquele anúncio, mais R$5,00 nesse."
+    },
+    {
+      "start": 1789.22,
+      "end": 1791.68,
+      "text": " Então a gente já está investindo R$10,00 aqui, tá?"
+    },
+    {
+      "start": 1791.68,
+      "end": 1795.34,
+      "text": " Tá tudo ok, o público, ó, tudo certinho aqui."
+    },
+    {
+      "start": 1795.94,
+      "end": 1797.42,
+      "text": " Vamos mexer em nada ainda."
+    },
+    {
+      "start": 1797.88,
+      "end": 1800.24,
+      "text": " Tá, Thales, eu quero fazer um outro anúncio"
+    },
+    {
+      "start": 1800.24,
+      "end": 1803.34,
+      "text": " para testar uma outra segmentação, beleza?"
+    },
+    {
+      "start": 1803.34,
+      "end": 1806.76,
+      "text": " Você clona esse anúncio e depois vem aqui e edita."
+    },
+    {
+      "start": 1807.1,
+      "end": 1812.56,
+      "text": " E aí você pode fazer quantos anúncios você quiser e eu recomendo que faça mesmo anúncios diferentes,"
+    },
+    {
+      "start": 1812.6599999999999,
+      "end": 1816.0,
+      "text": " com diferentes segmentações, para encontrar o melhor público, legal?"
+    },
+    {
+      "start": 1816.78,
+      "end": 1822.6799999999998,
+      "text": " Então, beleza, está tudo certo aqui, os posicionamentos estão aqui e é onde a gente vai mexer."
+    },
+    {
+      "start": 1823.1599999999999,
+      "end": 1827.8799999999999,
+      "text": " Então, já que a gente está mexendo agora para o Instagram, nós vamos marcar o Instagram"
+    },
+    {
+      "start": 1827.8799999999999,
+      "end": 1832.28,
+      "text": " e vamos desabilitar o Facebook e o Audience Network."
+    },
+    {
+      "start": 1832.28,
+      "end": 1859.22,
+      "text": " Pronto, está só no Instagram, agora a gente vai vir aqui, tem que editar aqui, feed do Instagram, jóia, o explorar no Instagram também é legal, vou deixar isso aqui, nos stories do Instagram, pode ser, pode não ser, já tivemos campanhas boas, campanhas que não foram boas no stories, recomendo que você deixe ligado e depois analise lá se a campanha do Instagram está indo bem, e o restante, tudo desabilitado."
+    },
+    {
+      "start": 1859.22,
+      "end": 1861.76,
+      "text": " não se preocupe com essa mensagem"
+    },
+    {
+      "start": 1861.76,
+      "end": 1863.48,
+      "text": " que apareceu aqui, conjunto de anúncios"
+    },
+    {
+      "start": 1863.48,
+      "end": 1865.18,
+      "text": " pode obter zero cliques no link"
+    },
+    {
+      "start": 1865.18,
+      "end": 1867.56,
+      "text": " não se preocupe com isso, porque isso aqui é o Facebook"
+    },
+    {
+      "start": 1867.56,
+      "end": 1869.76,
+      "text": " que a gente diz, marca mais opções aqui"
+    },
+    {
+      "start": 1869.76,
+      "end": 1871.68,
+      "text": " de posicionamento e tal"
+    },
+    {
+      "start": 1871.68,
+      "end": 1873.26,
+      "text": " porque eu quero que você gaste dinheiro comigo"
+    },
+    {
+      "start": 1873.26,
+      "end": 1875.18,
+      "text": " não se preocupe, então o Instagram"
+    },
+    {
+      "start": 1875.18,
+      "end": 1877.88,
+      "text": " você deixando o feed do Instagram, que é o principal"
+    },
+    {
+      "start": 1877.88,
+      "end": 1879.82,
+      "text": " do Instagram, e o explorar"
+    },
+    {
+      "start": 1879.82,
+      "end": 1881.7,
+      "text": " no Instagram e o Stories, que aqui também"
+    },
+    {
+      "start": 1881.7,
+      "end": 1883.4,
+      "text": " é facultativo, já é suficiente"
+    },
+    {
+      "start": 1883.4,
+      "end": 1885.66,
+      "text": " show? Feito isso aqui"
+    },
+    {
+      "start": 1885.66,
+      "end": 1887.76,
+      "text": " você ainda não vem no publicar"
+    },
+    {
+      "start": 1887.76,
+      "end": 1890.66,
+      "text": " Você vai vir aqui, você vai clicar em um anúncio, tá vendo?"
+    },
+    {
+      "start": 1890.9,
+      "end": 1892.8,
+      "text": " O mousezinho, um anúncio."
+    },
+    {
+      "start": 1893.06,
+      "end": 1894.24,
+      "text": " O que falta aqui?"
+    },
+    {
+      "start": 1894.44,
+      "end": 1898.1,
+      "text": " Aqui falta o seguinte, configurar a conta do Instagram."
+    },
+    {
+      "start": 1898.36,
+      "end": 1901.74,
+      "text": " Eu preciso selecionar uma conta do Instagram para que o anúncio apareça lá."
+    },
+    {
+      "start": 1902.28,
+      "end": 1906.54,
+      "text": " Então nesse caso aqui, usar uma conta selecionada, eu já tenho essa conta,"
+    },
+    {
+      "start": 1907.06,
+      "end": 1911.5,
+      "text": " que é a minha conta do Instagram, do Thales Quinderela no Instagram."
+    },
+    {
+      "start": 1911.66,
+      "end": 1915.68,
+      "text": " No caso, como você vai fazer a primeira vez, você não vai ter essa configuração,"
+    },
+    {
+      "start": 1915.68,
+      "end": 1922.6000000000001,
+      "text": " Mas assim que você clicar aqui, você vai poder seguir um passo a passo e aí você faz o vínculo entre uma conta e outra."
+    },
+    {
+      "start": 1923.18,
+      "end": 1927.5600000000002,
+      "text": " Feito isso aqui, beleza, pode clicar em publicar e o seu anúncio tá pronto."
+    },
+    {
+      "start": 1927.68,
+      "end": 1929.66,
+      "text": " Eu avisei que essa aula seria a maior de todas, né?"
+    },
+    {
+      "start": 1929.76,
+      "end": 1933.24,
+      "text": " Então é uma aula completa sobre como fazer anúncios."
+    },
+    {
+      "start": 1933.5,
+      "end": 1940.1200000000001,
+      "text": " É aquilo que as pessoas pagam em cursos, eu tô ensinando o âmago aqui, o melhor, a melhor maneira de fazer,"
+    },
+    {
+      "start": 1940.2,
+      "end": 1944.98,
+      "text": " o jeito que a gente faz aqui, de um jeito concatenado, simples e objetivo, tá?"
+    },
+    {
+      "start": 1944.98,
+      "end": 1949.6,
+      "text": " para aquilo que a gente quer fazer, que é colocar pessoas nos grupos, essa é a melhor maneira."
+    },
+    {
+      "start": 1950.08,
+      "end": 1957.72,
+      "text": " Vamos lá então, você vai voltar no painel das campanhas, porque agora eu quero te ensinar a analisar as campanhas,"
+    },
+    {
+      "start": 1957.8,
+      "end": 1963.42,
+      "text": " como é que você vai fazer. Primeiro passo, você vai vir aqui nessa opção personalizado aqui em colunas,"
+    },
+    {
+      "start": 1963.8600000000001,
+      "end": 1972.04,
+      "text": " e você vai personalizar as suas colunas, porque para poder analisar as métricas, é importante definir quais serão as melhores métricas."
+    },
+    {
+      "start": 1972.04,
+      "end": 1978.22,
+      "text": " O Facebook vai carregar aqui o painel, e aqui você vai o seguinte, aqui o que é isso?"
+    },
+    {
+      "start": 1978.56,
+      "end": 1981.74,
+      "text": " São os tipos de métricas que a gente vai precisar analisar."
+    },
+    {
+      "start": 1982.1599999999999,
+      "end": 1986.28,
+      "text": " Dá um print screen dessa tela agora, ou anota no seu caderno."
+    },
+    {
+      "start": 1986.54,
+      "end": 1990.8999999999999,
+      "text": " Você vai selecionar essas 10 colunas, esses 10 indicadores."
+    },
+    {
+      "start": 1991.84,
+      "end": 1998.78,
+      "text": " Veiculação, impressões, orçamento, valor gasto, CTR de saída,"
+    },
+    {
+      "start": 1998.78,
+      "end": 2000.32,
+      "text": " cliques no link"
+    },
+    {
+      "start": 2000.32,
+      "end": 2003.24,
+      "text": " CPC, custo por clique no link"
+    },
+    {
+      "start": 2003.24,
+      "end": 2004.8999999999999,
+      "text": " cliques de saída"
+    },
+    {
+      "start": 2004.8999999999999,
+      "end": 2006.5,
+      "text": " e cliques de saída único"
+    },
+    {
+      "start": 2006.5,
+      "end": 2008.86,
+      "text": " eu vou explicar cada uma dessas aqui, tá bom?"
+    },
+    {
+      "start": 2009.28,
+      "end": 2011.02,
+      "text": " você vai selecionar todas"
+    },
+    {
+      "start": 2011.02,
+      "end": 2012.3,
+      "text": " essas 10 colunas"
+    },
+    {
+      "start": 2012.3,
+      "end": 2014.76,
+      "text": " vai salvar com uma predefinição"
+    },
+    {
+      "start": 2014.76,
+      "end": 2016.5,
+      "text": " basta clicar aqui e digitar um nome"
+    },
+    {
+      "start": 2016.5,
+      "end": 2018.28,
+      "text": " então você pode colocar minha"
+    },
+    {
+      "start": 2018.28,
+      "end": 2019.8999999999999,
+      "text": " definição"
+    },
+    {
+      "start": 2019.8999999999999,
+      "end": 2022.54,
+      "text": " minha definição"
+    },
+    {
+      "start": 2022.54,
+      "end": 2024.74,
+      "text": " ok? vou dar um nome"
+    },
+    {
+      "start": 2024.74,
+      "end": 2026.0,
+      "text": " que você quiser, não tem problema"
+    },
+    {
+      "start": 2026.0,
+      "end": 2027.76,
+      "text": " e aí clica em aplicar"
+    },
+    {
+      "start": 2028.18,
+      "end": 2028.54,
+      "text": " Beleza."
+    },
+    {
+      "start": 2028.78,
+      "end": 2032.98,
+      "text": " Assim o Facebook vai apresentar as colunas aqui que a gente quer analisar."
+    },
+    {
+      "start": 2033.72,
+      "end": 2034.62,
+      "text": " Veiculação, o que é?"
+    },
+    {
+      "start": 2034.98,
+      "end": 2038.7,
+      "text": " É o Facebook dizendo, o anúncio está ativo ou está inativo?"
+    },
+    {
+      "start": 2038.9,
+      "end": 2041.42,
+      "text": " A campanha, no caso aqui, está ativo ou inativo?"
+    },
+    {
+      "start": 2041.96,
+      "end": 2045.58,
+      "text": " Nesse caso, está inativo porque eu não estou rodando o anúncio de exemplo, tá bom?"
+    },
+    {
+      "start": 2046.5,
+      "end": 2047.78,
+      "text": " As impressões."
+    },
+    {
+      "start": 2048.26,
+      "end": 2051.28,
+      "text": " Quantas pessoas estão vendo esses anúncios?"
+    },
+    {
+      "start": 2051.72,
+      "end": 2052.58,
+      "text": " O orçamento."
+    },
+    {
+      "start": 2052.68,
+      "end": 2054.98,
+      "text": " O orçamento não vai aparecer no nível de campanha."
+    },
+    {
+      "start": 2054.98,
+      "end": 2058.88,
+      "text": " Ele só vai aparecer no nível de conjunto de anúncios, que já já a gente vai olhar."
+    },
+    {
+      "start": 2059.34,
+      "end": 2064.1,
+      "text": " O valor gasto com a campanha, o CTR de saída, o que é CTR de saída?"
+    },
+    {
+      "start": 2064.22,
+      "end": 2066.56,
+      "text": " É a taxa de cliques no link."
+    },
+    {
+      "start": 2066.98,
+      "end": 2070.38,
+      "text": " Tem um indicador que eu vou te passar já já, que é importante você saber."
+    },
+    {
+      "start": 2070.96,
+      "end": 2074.7400000000002,
+      "text": " Os cliques no link, que é efetivamente quantas pessoas estão clicando no link,"
+    },
+    {
+      "start": 2074.82,
+      "end": 2077.7400000000002,
+      "text": " e aqui não é qualquer link, não é em qualquer área do anúncio,"
+    },
+    {
+      "start": 2078.2,
+      "end": 2082.1,
+      "text": " é no link que leva as pessoas para o destino que a gente quer, tá bom?"
+    },
+    {
+      "start": 2082.1,
+      "end": 2086.92,
+      "text": " CPC é o custo por clique, é quanto eu estou pagando em cada clique,"
+    },
+    {
+      "start": 2087.06,
+      "end": 2088.5,
+      "text": " isso é uma variável importante."
+    },
+    {
+      "start": 2089.0,
+      "end": 2091.7999999999997,
+      "text": " Os cliques de saída, que é um pouquinho diferente dos cliques no link,"
+    },
+    {
+      "start": 2091.94,
+      "end": 2094.24,
+      "text": " e os cliques de saída único, tá bom?"
+    },
+    {
+      "start": 2094.68,
+      "end": 2097.68,
+      "text": " Vamos então analisar, essas são as colunas que a gente precisa."
+    },
+    {
+      "start": 2098.12,
+      "end": 2101.36,
+      "text": " Para fazer análise, você não deve fazer no nível de campanhas,"
+    },
+    {
+      "start": 2101.46,
+      "end": 2103.4,
+      "text": " você deve fazer no nível de conjunto de anúncios."
+    },
+    {
+      "start": 2103.8399999999997,
+      "end": 2105.92,
+      "text": " Então vamos analisar, por exemplo, essa campanha aqui,"
+    },
+    {
+      "start": 2106.04,
+      "end": 2108.1,
+      "text": " Start Empreendedorismo, que eu deixei rodando um tempo."
+    },
+    {
+      "start": 2108.44,
+      "end": 2108.8199999999997,
+      "text": " Vamos lá."
+    },
+    {
+      "start": 2111.5,
+      "end": 2111.94,
+      "text": " Beleza."
+    },
+    {
+      "start": 2112.1,
+      "end": 2117.56,
+      "text": " Tem dois anúncios aqui, o anúncio Facebook, o posicionamento Facebook,"
+    },
+    {
+      "start": 2118.0,
+      "end": 2121.02,
+      "text": " e o anúncio Instagram para o posicionamento Instagram, tá vendo?"
+    },
+    {
+      "start": 2121.5,
+      "end": 2124.64,
+      "text": " Então vamos lá, veiculação, estão inativos, porque eu desliguei, é um exemplo,"
+    },
+    {
+      "start": 2125.2799999999997,
+      "end": 2129.1,
+      "text": " as impressões que foram feitas, o orçamento aqui, R$15,00 diariamente,"
+    },
+    {
+      "start": 2129.48,
+      "end": 2132.86,
+      "text": " começou com R$15,00, a gente foi aumentando, porque a campanha estava indo bem e tal,"
+    },
+    {
+      "start": 2133.3399999999997,
+      "end": 2138.42,
+      "text": " R$15,00 diariamente, mas se você quiser editar, é só clicar aqui no lapisinho e editar,"
+    },
+    {
+      "start": 2138.84,
+      "end": 2139.2000000000003,
+      "text": " Jóia?"
+    },
+    {
+      "start": 2139.48,
+      "end": 2141.9,
+      "text": " Vou já falar um pouco sobre como é que você deve editar isso aqui."
+    },
+    {
+      "start": 2142.54,
+      "end": 2146.36,
+      "text": " O valor gasto, quanto que cada anúncio desse gastou até agora, até o momento."
+    },
+    {
+      "start": 2146.36,
+      "end": 2150.8,
+      "text": " E aqui você pode selecionar aqui em cima o período, que você quer analisar."
+    },
+    {
+      "start": 2151.26,
+      "end": 2153.2200000000003,
+      "text": " Eu vou ter vitalício, que foi todo o tempo."
+    },
+    {
+      "start": 2153.6800000000003,
+      "end": 2156.06,
+      "text": " O CTR de saída, vamos falar de CTR de saída."
+    },
+    {
+      "start": 2156.2400000000002,
+      "end": 2164.34,
+      "text": " É a taxa de clique, ou seja, a cada 100 pessoas, 0,54 estão clicando no anúncio."
+    },
+    {
+      "start": 2164.84,
+      "end": 2166.42,
+      "text": " Tales, isso é muito baixo."
+    },
+    {
+      "start": 2166.88,
+      "end": 2167.78,
+      "text": " Isso é normal, tá?"
+    },
+    {
+      "start": 2167.78,
+      "end": 2168.6000000000004,
+      "text": " Fique tranquilo."
+    },
+    {
+      "start": 2169.28,
+      "end": 2175.38,
+      "text": " Qualquer CTR de saída, a partir de 0,5, já é algo relevante para você."
+    },
+    {
+      "start": 2175.92,
+      "end": 2176.7200000000003,
+      "text": " Qual é o ideal?"
+    },
+    {
+      "start": 2176.96,
+      "end": 2179.28,
+      "text": " Acima de 1% de CTR de saída."
+    },
+    {
+      "start": 2179.6800000000003,
+      "end": 2183.42,
+      "text": " Eu peguei essas campanhas aqui, a gente teve 0,54, 0,73."
+    },
+    {
+      "start": 2183.94,
+      "end": 2184.76,
+      "text": " Dá para melhorar?"
+    },
+    {
+      "start": 2185.02,
+      "end": 2185.82,
+      "text": " Dá para melhorar."
+    },
+    {
+      "start": 2185.88,
+      "end": 2190.48,
+      "text": " A gente poderia mudar, por exemplo, a imagem, a gente poderia mudar o público."
+    },
+    {
+      "start": 2191.1400000000003,
+      "end": 2193.5600000000004,
+      "text": " Então, esse indicador aqui é que me mostra."
+    },
+    {
+      "start": 2193.6600000000003,
+      "end": 2195.1200000000003,
+      "text": " Eu estou no caminho ou não estou no caminho?"
+    },
+    {
+      "start": 2195.56,
+      "end": 2198.74,
+      "text": " Poxa, o CTR de saída aqui deu 0,2."
+    },
+    {
+      "start": 2199.04,
+      "end": 2200.18,
+      "text": " Tá muito baixo."
+    },
+    {
+      "start": 2200.38,
+      "end": 2202.44,
+      "text": " Então, vale a pena mexer na campanha."
+    },
+    {
+      "start": 2202.88,
+      "end": 2204.6,
+      "text": " Tá listado 1,50."
+    },
+    {
+      "start": 2204.72,
+      "end": 2205.6,
+      "text": " Tá ótimo, então."
+    },
+    {
+      "start": 2205.7599999999998,
+      "end": 2205.94,
+      "text": " Legal?"
+    },
+    {
+      "start": 2206.6,
+      "end": 2209.7799999999997,
+      "text": " Cliques no link é quantas pessoas clicaram no link."
+    },
+    {
+      "start": 2210.3599999999997,
+      "end": 2214.12,
+      "text": " E aqui eu coloquei duas métricas parecidas pra gente poder conferir, tá?"
+    },
+    {
+      "start": 2214.54,
+      "end": 2216.02,
+      "text": " Porque clique no link é uma coisa."
+    },
+    {
+      "start": 2216.02,
+      "end": 2218.12,
+      "text": " Mas essas pessoas realmente saíram."
+    },
+    {
+      "start": 2218.3399999999997,
+      "end": 2219.68,
+      "text": " Elas saíram do Facebook."
+    },
+    {
+      "start": 2219.8199999999997,
+      "end": 2221.44,
+      "text": " Elas foram pro destino que a gente queria."
+    },
+    {
+      "start": 2221.8199999999997,
+      "end": 2223.18,
+      "text": " Que no caso é o nosso Redirect."
+    },
+    {
+      "start": 2223.18,
+      "end": 2226.8599999999997,
+      "text": " Então foram, de 26 cliques no link, 26 saíram."
+    },
+    {
+      "start": 2226.98,
+      "end": 2227.48,
+      "text": " Isso é bom."
+    },
+    {
+      "start": 2228.14,
+      "end": 2232.0,
+      "text": " E o clique de saídas únicos é também importante, que é o seguinte."
+    },
+    {
+      "start": 2232.6,
+      "end": 2236.98,
+      "text": " Para saber quantas pessoas clicaram, a mesma pessoa clicou mais de uma vez no anúncio."
+    },
+    {
+      "start": 2237.08,
+      "end": 2239.66,
+      "text": " Observe essa anúncia aqui embaixo, por exemplo."
+    },
+    {
+      "start": 2240.24,
+      "end": 2247.14,
+      "text": " Nós tivemos 48 cliques de saída, mas foram 44 pessoas que clicaram."
+    },
+    {
+      "start": 2247.16,
+      "end": 2250.5,
+      "text": " Ou seja, 4 pessoas clicaram mais de uma vez no link, tá vendo?"
+    },
+    {
+      "start": 2250.5,
+      "end": 2257.08,
+      "text": " Então aqui eu consigo ver quantas pessoas efetivamente clicaram e foram para a nossa página de Redirect."
+    },
+    {
+      "start": 2257.48,
+      "end": 2259.56,
+      "text": " Aqui é importante o que eu vou dizer, tá?"
+    },
+    {
+      "start": 2260.08,
+      "end": 2266.14,
+      "text": " Não significa que esse número aqui será o mesmo número de pessoas dentro do grupo."
+    },
+    {
+      "start": 2266.38,
+      "end": 2268.26,
+      "text": " Não vai ser nunca. Por quê?"
+    },
+    {
+      "start": 2268.72,
+      "end": 2274.12,
+      "text": " Nós temos uma taxa média aqui de que a cada três pessoas que clicam aqui,"
+    },
+    {
+      "start": 2275.1,
+      "end": 2278.26,
+      "text": " a cada três que clicam, só uma entra no grupo."
+    },
+    {
+      "start": 2278.96,
+      "end": 2280.5200000000004,
+      "text": " Como assim, Thales, é algum bug?"
+    },
+    {
+      "start": 2280.82,
+      "end": 2282.2000000000003,
+      "text": " O que acontece no meio do caminho?"
+    },
+    {
+      "start": 2282.96,
+      "end": 2284.82,
+      "text": " Simples, as pessoas desistem."
+    },
+    {
+      "start": 2285.5400000000004,
+      "end": 2286.3,
+      "text": " É mesmo, Thales?"
+    },
+    {
+      "start": 2286.3,
+      "end": 2290.26,
+      "text": " É, tem gente que entre o tempo em que clicou no anúncio,"
+    },
+    {
+      "start": 2290.78,
+      "end": 2294.6400000000003,
+      "text": " a hora de entrar dentro do grupo, que não passa ali de alguns poucos segundos,"
+    },
+    {
+      "start": 2294.7400000000002,
+      "end": 2297.36,
+      "text": " tem gente que desiste, tem gente que olha o grupo e diz,"
+    },
+    {
+      "start": 2297.42,
+      "end": 2298.98,
+      "text": " não, não, não vou entrar nesse grupo não."
+    },
+    {
+      "start": 2299.44,
+      "end": 2300.3,
+      "text": " Então é normal."
+    },
+    {
+      "start": 2300.44,
+      "end": 2304.78,
+      "text": " Então a cada três cliques de saída, um lead é a média."
+    },
+    {
+      "start": 2305.3,
+      "end": 2306.4,
+      "text": " Thales, pode ser melhor?"
+    },
+    {
+      "start": 2306.7400000000002,
+      "end": 2307.1000000000004,
+      "text": " Pode."
+    },
+    {
+      "start": 2307.1,
+      "end": 2309.24,
+      "text": " Pode ser pior? Também pode."
+    },
+    {
+      "start": 2309.36,
+      "end": 2316.54,
+      "text": " Tem casos de starters com 12 cliques para um lead, 15 cliques para um lead."
+    },
+    {
+      "start": 2316.7,
+      "end": 2319.38,
+      "text": " Pode acontecer. Não existe regra nisso aqui."
+    },
+    {
+      "start": 2319.74,
+      "end": 2323.42,
+      "text": " Mas se você tiver aí com 3 cliques para um lead, está de ótimo tamanho."
+    },
+    {
+      "start": 2323.56,
+      "end": 2324.98,
+      "text": " Fica ligado nisso aqui."
+    },
+    {
+      "start": 2326.08,
+      "end": 2328.24,
+      "text": " E eu pulei essa coluna aqui de propósito."
+    },
+    {
+      "start": 2328.36,
+      "end": 2331.04,
+      "text": " Deixei ela por último, que é o CPC, é o custo por clique."
+    },
+    {
+      "start": 2331.54,
+      "end": 2333.08,
+      "text": " Esse é o indicador mais importante."
+    },
+    {
+      "start": 2333.08,
+      "end": 2337.88,
+      "text": " É o segundo indicador mais importante."
+    },
+    {
+      "start": 2337.98,
+      "end": 2341.2799999999997,
+      "text": " Depois nós temos um que está aqui fora, vou mostrar para você já já."
+    },
+    {
+      "start": 2341.92,
+      "end": 2346.7799999999997,
+      "text": " Isso aqui, o CPC, é o que mostra quanto você está pagando por cada clique desse, certo?"
+    },
+    {
+      "start": 2347.2799999999997,
+      "end": 2351.1,
+      "text": " Isso aqui é o que vai mostrar a curva do orçamento,"
+    },
+    {
+      "start": 2351.22,
+      "end": 2355.68,
+      "text": " vai mostrar o quanto você vai precisar investir para chegar na sua meta de leads."
+    },
+    {
+      "start": 2356.14,
+      "end": 2362.38,
+      "text": " Então, qualquer valor menor aqui, de R$1,00, já é considerável, já é relevante para você olhar."
+    },
+    {
+      "start": 2363.02,
+      "end": 2367.04,
+      "text": " Mas vai fazendo campanhas novas, vai explorando novos públicos"
+    },
+    {
+      "start": 2367.04,
+      "end": 2370.44,
+      "text": " para que você diminua ao máximo esse CPC aqui."
+    },
+    {
+      "start": 2370.9,
+      "end": 2374.7400000000002,
+      "text": " Quanto menor for o CPC, mais o seu orçamento vai render, você entende?"
+    },
+    {
+      "start": 2375.1600000000003,
+      "end": 2378.6600000000003,
+      "text": " Mais o seu orçamento vai ser efetivo, legal?"
+    },
+    {
+      "start": 2379.56,
+      "end": 2383.42,
+      "text": " E Thales, então se não é o CPC a principal métrica, qual é?"
+    },
+    {
+      "start": 2383.7200000000003,
+      "end": 2385.1600000000003,
+      "text": " Então vou te mostrar agora."
+    },
+    {
+      "start": 2385.86,
+      "end": 2390.92,
+      "text": " A principal métrica é o teu CPL, é o custo por lead."
+    },
+    {
+      "start": 2391.7000000000003,
+      "end": 2393.9,
+      "text": " Então, eu vou te ensinar aqui, é simples, olha a continha aí."
+    },
+    {
+      "start": 2393.96,
+      "end": 2396.06,
+      "text": " Como calcular o custo global por lead?"
+    },
+    {
+      "start": 2396.2000000000003,
+      "end": 2396.94,
+      "text": " É muito simples."
+    },
+    {
+      "start": 2396.94,
+      "end": 2401.0,
+      "text": " Você vai, depois de 48 horas das suas campanhas rodando,"
+    },
+    {
+      "start": 2401.38,
+      "end": 2403.86,
+      "text": " antes de você fazer qualquer mudança nelas,"
+    },
+    {
+      "start": 2404.32,
+      "end": 2406.58,
+      "text": " é importante você tirar o seu primeiro CPL."
+    },
+    {
+      "start": 2406.7000000000003,
+      "end": 2407.3,
+      "text": " O que é isso?"
+    },
+    {
+      "start": 2407.6800000000003,
+      "end": 2411.82,
+      "text": " Você vai pegar o investimento que você fez nas campanhas até o momento,"
+    },
+    {
+      "start": 2412.12,
+      "end": 2414.76,
+      "text": " dividir pelo número de pessoas que entraram nos grupos."
+    },
+    {
+      "start": 2415.3,
+      "end": 2418.56,
+      "text": " E o resultado disso é o CPL, é o teu custo por lead."
+    },
+    {
+      "start": 2418.56,
+      "end": 2426.46,
+      "text": " Então imagina que você investiu 100 reais e 20 pessoas entraram nos seus grupos."
+    },
+    {
+      "start": 2426.58,
+      "end": 2427.2799999999997,
+      "text": " Um exemplo, tá?"
+    },
+    {
+      "start": 2427.68,
+      "end": 2429.0,
+      "text": " Então o teu CPL é quanto?"
+    },
+    {
+      "start": 2429.7599999999998,
+      "end": 2431.2799999999997,
+      "text": " 100 dividido por 20."
+    },
+    {
+      "start": 2431.68,
+      "end": 2435.2999999999997,
+      "text": " Então você tá pagando 5 reais em cada lead."
+    },
+    {
+      "start": 2435.7799999999997,
+      "end": 2437.56,
+      "text": " Tá alto, Thales? Tá baixo?"
+    },
+    {
+      "start": 2438.24,
+      "end": 2438.7999999999997,
+      "text": " Depende."
+    },
+    {
+      "start": 2439.24,
+      "end": 2439.72,
+      "text": " Depende."
+    },
+    {
+      "start": 2439.82,
+      "end": 2443.52,
+      "text": " Se você lá na frente for vender um produto que o ticket é um ticket alto,"
+    },
+    {
+      "start": 2444.02,
+      "end": 2446.2999999999997,
+      "text": " pagar 5 reais num lead não tá caro."
+    },
+    {
+      "start": 2446.3,
+      "end": 2451.78,
+      "text": " Mas se você vai vender um produto baratinho, sei lá, um produto de R$19,90,"
+    },
+    {
+      "start": 2452.1800000000003,
+      "end": 2456.1200000000003,
+      "text": " você paga R$5 pelo lead, boa parte do teu lucro já foi embora aqui."
+    },
+    {
+      "start": 2456.46,
+      "end": 2459.0800000000004,
+      "text": " Então você tem que tomar muito cuidado com isso aqui, certo?"
+    },
+    {
+      "start": 2459.44,
+      "end": 2463.2400000000002,
+      "text": " Eu recomendo, inclusive, para o starter que você venda produtos de um ticket bom,"
+    },
+    {
+      "start": 2463.38,
+      "end": 2468.36,
+      "text": " um ticket de R$197,00, R$97,00 que seja, R$97,00 ali,"
+    },
+    {
+      "start": 2468.76,
+      "end": 2472.04,
+      "text": " para que você possa ter uma margem boa aqui no teu CPL."
+    },
+    {
+      "start": 2472.04,
+      "end": 2478.7799999999997,
+      "text": " Essa informação é importantíssima para te ajudar a definir se você vai escalar a campanha ou não."
+    },
+    {
+      "start": 2479.48,
+      "end": 2483.9,
+      "text": " E aqui, no que diz respeito a escalar a campanha, vem a última parte dessa aula."
+    },
+    {
+      "start": 2484.52,
+      "end": 2492.66,
+      "text": " Quando você identificar como está o teu CPL, embora aquela conta só vá mostrar o teu CPL global,"
+    },
+    {
+      "start": 2492.86,
+      "end": 2499.42,
+      "text": " ou seja, todo o gasto da sua campanha dividido pelo número de pessoas que já entraram no grupo,"
+    },
+    {
+      "start": 2499.42,
+      "end": 2500.88,
+      "text": " você vai ter o seu CPL."
+    },
+    {
+      "start": 2501.2200000000003,
+      "end": 2502.8,
+      "text": " Você vai ter uma noção"
+    },
+    {
+      "start": 2502.8,
+      "end": 2505.2000000000003,
+      "text": " se você está indo no caminho certo ou não."
+    },
+    {
+      "start": 2505.4,
+      "end": 2506.78,
+      "text": " Esse é o primeiro indicador, beleza?"
+    },
+    {
+      "start": 2507.2200000000003,
+      "end": 2509.2400000000002,
+      "text": " De modo global, eu estou pagando um CPL"
+    },
+    {
+      "start": 2509.2400000000002,
+      "end": 2510.64,
+      "text": " de R$3,00, por exemplo."
+    },
+    {
+      "start": 2511.16,
+      "end": 2512.64,
+      "text": " Vamos fazer o que para reduzir?"
+    },
+    {
+      "start": 2513.06,
+      "end": 2515.14,
+      "text": " Vamos olhar isso aqui, como é que está o CPL"
+    },
+    {
+      "start": 2515.14,
+      "end": 2517.0,
+      "text": " de saída de cada um dos anúncios,"
+    },
+    {
+      "start": 2517.4,
+      "end": 2519.42,
+      "text": " vamos olhar como é que está o CPC de cada um"
+    },
+    {
+      "start": 2519.42,
+      "end": 2521.42,
+      "text": " dos anúncios e vamos começar a fazer"
+    },
+    {
+      "start": 2521.42,
+      "end": 2523.46,
+      "text": " o seguinte, vamos começar, por exemplo,"
+    },
+    {
+      "start": 2523.46,
+      "end": 2525.48,
+      "text": " a aumentar o orçamento"
+    },
+    {
+      "start": 2525.48,
+      "end": 2527.34,
+      "text": " nas campanhas que estão boas"
+    },
+    {
+      "start": 2527.34,
+      "end": 2536.5,
+      "text": " e vamos reduzir ou desligar as campanhas que estão mais caras."
+    },
+    {
+      "start": 2537.1800000000003,
+      "end": 2542.52,
+      "text": " E aí você pode fazer o seguinte também, você pode duplicar, criar novos anúncios e ir testando."
+    },
+    {
+      "start": 2542.6600000000003,
+      "end": 2545.08,
+      "text": " Começa com R$2, R$5 e vai testando."
+    },
+    {
+      "start": 2545.08,
+      "end": 2555.48,
+      "text": " O ideal é que você tenha um conjunto, uma bateria de anúncios performando bem, com CPC baixo, com CTR de saída alto."
+    },
+    {
+      "start": 2555.48,
+      "end": 2557.68,
+      "text": " isso tudo vai impactar no teu"
+    },
+    {
+      "start": 2557.68,
+      "end": 2559.2400000000002,
+      "text": " CPL global, legal?"
+    },
+    {
+      "start": 2559.98,
+      "end": 2562.0,
+      "text": " Thales é uma matemática isso tudo"
+    },
+    {
+      "start": 2562.0,
+      "end": 2564.14,
+      "text": " não é Thales? É, é matemática"
+    },
+    {
+      "start": 2564.14,
+      "end": 2565.8,
+      "text": " tem uma frase que eu gosto"
+    },
+    {
+      "start": 2565.8,
+      "end": 2568.06,
+      "text": " muito que diz assim, separe o drama"
+    },
+    {
+      "start": 2568.06,
+      "end": 2569.18,
+      "text": " da matemática"
+    },
+    {
+      "start": 2569.18,
+      "end": 2571.68,
+      "text": " isso aqui não é pra pessoas que gostam de"
+    },
+    {
+      "start": 2571.68,
+      "end": 2573.96,
+      "text": " mimimi, tá gente? Isso aqui é pra quem gosta"
+    },
+    {
+      "start": 2573.96,
+      "end": 2575.22,
+      "text": " de olhar pra números"
+    },
+    {
+      "start": 2575.22,
+      "end": 2577.38,
+      "text": " de performar bem"
+    },
+    {
+      "start": 2577.38,
+      "end": 2580.04,
+      "text": " pessoas que gostam de colocar o dinheiro do lado"
+    },
+    {
+      "start": 2580.04,
+      "end": 2581.96,
+      "text": " e ver saindo do outro, tá? Nesse caso"
+    },
+    {
+      "start": 2581.96,
+      "end": 2583.92,
+      "text": " aqui é colocar o dinheiro do lado e ver"
+    },
+    {
+      "start": 2583.92,
+      "end": 2585.6,
+      "text": " pessoas entrando no grupo"
+    },
+    {
+      "start": 2585.6,
+      "end": 2587.78,
+      "text": " no outro, tá? Faça isso com muita"
+    },
+    {
+      "start": 2587.78,
+      "end": 2589.86,
+      "text": " atenção, muito cuidado, revise essa aula"
+    },
+    {
+      "start": 2589.86,
+      "end": 2591.48,
+      "text": " quantas vezes você precisar"
+    },
+    {
+      "start": 2591.48,
+      "end": 2593.7200000000003,
+      "text": " eu sei que ficou grande, mas eu fiz"
+    },
+    {
+      "start": 2593.7200000000003,
+      "end": 2595.9,
+      "text": " com carinho, com bastante"
+    },
+    {
+      "start": 2595.9,
+      "end": 2598.02,
+      "text": " propósito aqui pra que você aproveite"
+    },
+    {
+      "start": 2598.02,
+      "end": 2600.06,
+      "text": " e entenda finalmente como é que faz anúncio"
+    },
+    {
+      "start": 2600.06,
+      "end": 2602.04,
+      "text": " você aprendeu que é fazer anúncio no Facebook"
+    },
+    {
+      "start": 2602.04,
+      "end": 2603.26,
+      "text": " é fazer anúncio no Instagram"
+    },
+    {
+      "start": 2603.26,
+      "end": 2605.54,
+      "text": " você aprendeu a analisar as campanhas"
+    },
+    {
+      "start": 2605.54,
+      "end": 2607.44,
+      "text": " você aprendeu tudo que precisa"
+    },
+    {
+      "start": 2607.44,
+      "end": 2609.2200000000003,
+      "text": " pra poder fazer"
+    },
+    {
+      "start": 2609.2200000000003,
+      "end": 2611.2000000000003,
+      "text": " anúncios aí, Facebook Ads"
+    },
+    {
+      "start": 2611.2000000000003,
+      "end": 2612.84,
+      "text": " com qualidade, tá bom?"
+    },
+    {
+      "start": 2612.84,
+      "end": 2615.1600000000003,
+      "text": " é isso, revise"
+    },
+    {
+      "start": 2615.1600000000003,
+      "end": 2617.1400000000003,
+      "text": " quantas vezes você quiser essa aula, depois"
+    },
+    {
+      "start": 2617.1400000000003,
+      "end": 2619.04,
+      "text": " que você se sentir pronto, siga"
+    },
+    {
+      "start": 2619.04,
+      "end": 2621.06,
+      "text": " adiante, vamos adiante, porque ainda tem muito"
+    },
+    {
+      "start": 2621.06,
+      "end": 2623.1600000000003,
+      "text": " starter pela frente, vamos pra cima"
+    }
+  ]
+}

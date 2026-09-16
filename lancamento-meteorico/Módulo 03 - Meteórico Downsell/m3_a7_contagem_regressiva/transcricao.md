@@ -1,0 +1,392 @@
+# A7 contagem regressiva
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 03 - Meteórico Downsell.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 03 - Meteórico Downsell\m3_a7_contagem_regressiva.mp4`. Duração: 00:11:25.141.
+SHA-256 do vídeo: `1b1215aaf0e60c1570d26a7f774bfb5750ace786dd84735cec5c745b62d8ffbc`. [Origem](https://drive.google.com/drive/folders/1fGcaRxGq-JbrJDVSbD-XYmTl5yntW2jf?hl=pt-br).
+
+[00:00:00.000–00:00:05.680] Foi durante o lançamento de um dos nossos mentorados que nós descobrimos a importância
+
+[00:00:05.680–00:00:11.460] de ir renomeando o nome dos grupos. Quando você faz o convite lá na segunda-feira
+
+[00:00:11.460–00:00:18.000] para a galera entrar no grupo de WhatsApp, o grupo tem um nome, Grupo VIP XPTO, Grupo
+
+[00:00:18.000–00:00:24.560] VIP Pré-Lançamento do Produto Tal, ou Grupo VIP de Natal, dependendo do tipo de oferta
+
+[00:00:24.560–00:00:29.200] que você vai fazer, você vai batizar o nome desse grupo. Então até a quarta-feira perdura
+
+[00:00:29.200–00:00:33.940] o mesmo nome do grupo, que é Grupo VIP Alguma Coisa, ou VIP Alguma Coisa, certo?
+
+[00:00:34.420–00:00:40.660] Na quarta-feira, você vai fazer pela primeira vez a primeira mudança no nome do grupo.
+
+[00:00:41.000–00:00:46.020] Quando você publicar o vídeo 2, que é o vídeo onde você revela a oferta,
+
+[00:00:46.500–00:00:51.140] você vai mudar o nome do grupo para Oferta Revelada, legal?
+
+[00:00:51.480–00:00:52.480] Oferta Revelada.
+
+[00:00:52.760–00:00:56.300] E aí, as pessoas vão saber que alguma coisa aconteceu.
+
+[00:00:56.460–00:00:57.280] O que foi que aconteceu?
+
+[00:00:57.580–00:00:58.700] A oferta foi revelada.
+
+[00:00:58.700–00:01:08.960] E sabe o que é legal? Quando você muda o nome do grupo, o grupo passa a se destacar de novo no feed do WhatsApp das pessoas.
+
+[00:01:09.460–00:01:15.760] Então imagina, segunda e terça, o pessoal viu lá, grupo VIP alguma coisa, tá tudo bem, já interagi, entendi que vai rolar alguma coisa,
+
+[00:01:16.220–00:01:19.540] ou a vida passa, a fila anda e as pessoas até esquecem.
+
+[00:01:19.540–00:01:23.320] Quando você renomeia e alguém fala de novo no grupo,
+
+[00:01:23.640–00:01:27.380] a oferta revelada aparece dentre os grupos ali em destaque
+
+[00:01:27.380–00:01:30.120] e a pessoa vai ver novamente o que está acontecendo.
+
+[00:01:30.540–00:01:33.040] Então é legal porque você destaca o grupo
+
+[00:01:33.040–00:01:38.880] e é legal porque você oxigena novamente ali o interesse das pessoas pelo assunto.
+
+[00:01:39.340–00:01:42.980] Quarta-feira, oferta revelada na hora que você colocar o vídeo. Legal.
+
+[00:01:43.240–00:01:48.120] No dia D, na quinta-feira, a mudança no nome dos grupos vai ser muito mais ativa.
+
+[00:01:48.120–00:01:57.120] Então a primeira mudança que você vai fazer na quinta-feira é assim que você publicar o vídeo 3 com a liberação das compras,
+
+[00:01:57.240–00:02:02.560] você vai mudar o nome do grupo para inscrições abertas, legal?
+
+[00:02:02.920–00:02:06.980] Se você estiver vendendo curso ou alguma coisa assim, inscrições abertas resolve muito bem.
+
+[00:02:07.300–00:02:12.680] Se você estiver vendendo ingressos, por exemplo, você pode colocar vagas liberadas,
+
+[00:02:12.680–00:02:17.880] ou se você está vendendo um outro tipo de produto, compras liberadas, vendas abertas.
+
+[00:02:18.120–00:02:24.600] Alguma coisa que notifique todo mundo que, a partir de agora, as vendas estão acontecendo, ok?
+
+[00:02:24.880–00:02:31.060] Então, às 9 horas da manhã, que é a hora que você publica o vídeo, mudança do nome do grupo para isso aí.
+
+[00:02:31.380–00:02:38.400] Quando você estiver chegando perto do meio-dia, é hora de mudar de novo para vagas 50% preenchidas.
+
+[00:02:38.800–00:02:45.180] Ou seja, para mostrar para a audiência que a metade dos ingressos, produtos, vagas, seja o que for,
+
+[00:02:45.180–00:02:49.140] que você tinha reservado para a promoção, já foram ocupadas.
+
+[00:02:49.560–00:02:52.360] Claro, é importante usar isso aqui com ética, ok?
+
+[00:02:52.580–00:02:57.660] Você vai modificar esse nome se você já tiver chegado perto desse número.
+
+[00:02:58.180–00:03:02.960] Tales, mas até agora você não tinha falado de eu restringir o número de ingressos
+
+[00:03:02.960–00:03:06.060] ou o número de vagas ou o número de itens ou o número de produtos.
+
+[00:03:06.460–00:03:10.540] Isso aqui é muito facultativo, vai muito de aluno para aluno, ok?
+
+[00:03:11.120–00:03:16.080] Existem casos, por exemplo, eventos em que existe um número limitado de ingressos.
+
+[00:03:16.520–00:03:18.820] Existem casos, como por exemplo o varejo,
+
+[00:03:19.080–00:03:24.100] que existe um número limitado de itens que o fornecedor pode fornecer para a sua empresa.
+
+[00:03:24.440–00:03:26.540] Então nesse caso você já tem um número.
+
+[00:03:26.660–00:03:28.500] Ah, eu só vou poder fazer 80 vendas.
+
+[00:03:28.800–00:03:30.420] Eu só posso fazer 50 vendas.
+
+[00:03:30.680–00:03:34.020] Então você pode estabelecer esse total como a sua meta.
+
+[00:03:34.480–00:03:40.040] Quando você chegar na metade disso aí, você vai lá e publica 50% dos produtos vendidos.
+
+[00:03:40.040–00:03:44.940] ou então 50%, promoção em 50% no seu momento.
+
+[00:03:45.040–00:03:48.680] Você cria lá um status que mostra que você chegou na metade.
+
+[00:03:49.140–00:03:51.960] Isso é importante para que as pessoas percebam
+
+[00:03:51.960–00:03:56.060] que as vendas estão acontecendo e que o estoque está acabando,
+
+[00:03:56.140–00:03:57.400] os ingressos estão acabando.
+
+[00:03:57.840–00:04:02.140] Thales, mas eu tenho produtos que eu não necessariamente preciso limitar.
+
+[00:04:02.280–00:04:03.560] Por exemplo, um curso online.
+
+[00:04:04.080–00:04:05.800] Ok, mas será que não?
+
+[00:04:06.240–00:04:07.860] Observe para o seu suporte.
+
+[00:04:07.860–00:04:11.960] Será que se você fizer mil vendas, você vai dar conta de dar suporte a todo mundo?
+
+[00:04:12.300–00:04:18.240] Então, parta do princípio para saber o que é possível realmente você dar em produtos mais escaláveis.
+
+[00:04:18.600–00:04:25.380] Aqui no nosso caso, a gente sim, a gente limita o número de vagas que a gente quer disponibilizar
+
+[00:04:25.380–00:04:28.540] mediante uma meta e aí a gente vai fazendo a contabilidade.
+
+[00:04:28.660–00:04:31.500] Quando chegar em 50%, vai lá e publica.
+
+[00:04:31.940–00:04:37.280] Se tiver perto de 50%, tipo 40% ao meio dia, vai lá e coloca 50%, não tem problema.
+
+[00:04:37.280–00:04:38.960] Isso dá uma estimuladinha.
+
+[00:04:39.440–00:04:42.080] O fato é que, quando chegar na metade do dia,
+
+[00:04:42.200–00:04:46.580] é importante que se você tiver chegado perto da metade dos itens disponibilizados,
+
+[00:04:46.660–00:04:48.320] você divulgue isso, legal?
+
+[00:04:48.660–00:04:50.700] Então você coloca tanto no nome do grupo,
+
+[00:04:51.240–00:04:53.940] como também um comentário dentro do próprio grupo
+
+[00:04:53.940–00:04:57.680] para dizer que a galera está aproveitando e que está acabando.
+
+[00:04:57.940–00:05:02.060] Nem chegamos na metade do dia, já estamos com 50% das vagas preenchidas.
+
+[00:05:02.260–00:05:02.460] Legal?
+
+[00:05:03.040–00:05:10.780] Nesse princípio, à medida que você for batendo 70%, 80% das vagas preenchidas,
+
+[00:05:10.900–00:05:14.080] produtos vendidos, você vai mudando o status do grupo.
+
+[00:05:14.080–00:05:19.660] Então você vai lá, coloca tipo 15 horas, 82% das vagas preenchidas.
+
+[00:05:19.920–00:05:25.700] Quando estiver chegando pertinho do final, depois das 17 horas, 17h30,
+
+[00:05:25.940–00:05:30.080] você já pode mudar de novo para últimas vagas, ok?
+
+[00:05:30.340–00:05:31.220] Últimas vagas.
+
+[00:05:31.220–00:05:35.200] E aí a galera vai ficar maluca, porque está acabando.
+
+[00:05:35.760–00:05:39.180] Geralmente, o segundo sprint de vendas acontece ali,
+
+[00:05:39.280–00:05:43.440] depois das 17 horas, entre 17 e 19 horas.
+
+[00:05:44.260–00:05:47.260] Normalmente, nos meteóricos, você tem um pico de vendas no começo,
+
+[00:05:47.340–00:05:51.740] entre as 9 e 10 da manhã, e outro entre as 17 e 19 horas.
+
+[00:05:52.280–00:05:53.820] Normalmente, é assim que acontece.
+
+[00:05:54.160–00:05:55.640] É assim que vai ser no meu, Thales.
+
+[00:05:55.860–00:05:59.900] Impossível dizer, existem exceções, mas é assim que acontece normalmente.
+
+[00:05:59.900–00:06:00.340] Legal?
+
+[00:06:00.340–00:06:10.380] Quando acontecer de você chegar às 19 horas, que é a hora que encerrou a promoção, o que você vai fazer?
+
+[00:06:10.900–00:06:13.340] Você tem dois caminhos aí para você pensar.
+
+[00:06:14.120–00:06:21.420] Se você tiver batido a sua meta, vendido todos os produtos, você coloca lá a oferta encerrada, acabou a condição.
+
+[00:06:21.920–00:06:28.660] Se você não tiver batido ainda a meta, tiver ainda algumas vagas, alguns produtos para vender,
+
+[00:06:28.660–00:06:31.160] você faz o seguinte, você não muda o nome do grupo,
+
+[00:06:31.340–00:06:33.380] deixa lá ainda em últimas vagas,
+
+[00:06:33.800–00:06:38.640] porque certamente vai ter várias pessoas que deram sinal de compra durante o dia,
+
+[00:06:39.040–00:06:41.980] nós vamos falar sobre isso mais para frente nos módulos,
+
+[00:06:42.400–00:06:43.460] deram sinal de compra,
+
+[00:06:43.880–00:06:47.780] e que se você chamar as pessoas no privado, você pode converter.
+
+[00:06:48.340–00:06:51.660] Então se você tinha lá 100 itens, vendeu 85,
+
+[00:06:52.420–00:06:55.400] e às 19 horas você não bateu os 100 itens,
+
+[00:06:55.400–00:06:59.520] Então você tem 15 itens ainda, 15 ingressos, 15 produtos, seja o que for,
+
+[00:06:59.900–00:07:04.480] pra você abordar ativamente numa prospecção as pessoas e vender as 15.
+
+[00:07:04.660–00:07:07.620] Por isso você não muda lá pra vagas encerradas,
+
+[00:07:07.760–00:07:09.820] você deixa lá como últimas vagas ainda, legal?
+
+[00:07:10.320–00:07:13.260] Se alguém argumentar, mas a promoção acabou, você ainda tá vendendo.
+
+[00:07:13.340–00:07:16.760] Não, são pessoas que começaram a negociação com a gente,
+
+[00:07:16.880–00:07:18.260] estão terminando ainda, tá?
+
+[00:07:18.780–00:07:21.360] Nunca vi acontecer de alguém reclamar isso, tá?
+
+[00:07:21.480–00:07:24.380] Tipo, ah, você ainda tá vendendo depois da hora da promoção.
+
+[00:07:24.880–00:07:28.020] Nunca vi, mas se isso acontecer com você,
+
+[00:07:28.020–00:07:31.540] você diz, não, nós estamos negociando com pessoas que já estartaram a compra
+
+[00:07:31.540–00:07:33.420] e a gente está ajudando elas a concluírem.
+
+[00:07:33.660–00:07:34.600] Tranquilo, beleza?
+
+[00:07:35.860–00:07:39.920] Sexta-feira, dia seguinte, você vai mudar o nome do grupo de novo.
+
+[00:07:40.260–00:07:40.440] Legal?
+
+[00:07:40.920–00:07:43.000] Se você não tiver mais nada para vender,
+
+[00:07:43.160–00:07:45.980] lembra do downsell que eu falei nas aulas anteriores?
+
+[00:07:46.560–00:07:48.240] Então, se você não tiver mais nada para vender,
+
+[00:07:48.540–00:07:52.300] grupo encerrado, grava um áudio agradecendo a paciência de todo mundo.
+
+[00:07:52.700–00:07:52.980] Legal?
+
+[00:07:53.340–00:07:54.340] E encerra o grupo.
+
+[00:07:54.780–00:07:56.500] Tem duas formas de você encerrar o grupo.
+
+[00:07:56.640–00:08:01.300] Você pode encerrar mesmo, tipo, tira todo mundo do grupo, sai do grupo,
+
+[00:08:01.440–00:08:04.060] encerra a promoção, encerra tudo, não fica com nada.
+
+[00:08:04.060–00:08:08.080] Não se preocupa com esses leads, porque você já empilhou esses leads no e-mail,
+
+[00:08:08.220–00:08:10.140] no bot message, no whatsapp, de outra forma.
+
+[00:08:10.480–00:08:10.660] Legal?
+
+[00:08:11.340–00:08:15.720] Ou você tem a segunda opção, que é simplesmente silenciar o grupo.
+
+[00:08:16.060–00:08:21.000] Você muda o nome do grupo para lista de espera ou oferta encerrada,
+
+[00:08:21.300–00:08:23.460] alguma coisa que mostra que acabou a promoção.
+
+[00:08:23.460–00:08:27.440] e silencia o grupo para que só os administradores possam falar.
+
+[00:08:27.780–00:08:29.580] Você já aprendeu isso nas aulas anteriores também.
+
+[00:08:30.360–00:08:33.280] Isso é algo novo, porque quando nós estamos gravando esse método,
+
+[00:08:33.380–00:08:39.400] o método meteórico, é uma coisa que o WhatsApp implementou há pouquíssimo tempo.
+
+[00:08:39.400–00:08:44.420] Então é um mar relativamente novo até para a gente também.
+
+[00:08:44.680–00:08:46.360] Nós estamos testando lançamentos aqui.
+
+[00:08:46.760–00:08:51.020] Simplesmente silenciar o grupo para usar o mesmo grupo
+
+[00:08:51.020–00:08:53.280] num outro lançamento de um outro produto
+
+[00:08:53.280–00:08:55.260] no futuro. Se isso fizer sentido
+
+[00:08:55.260–00:08:56.980] pra você, você só silencia.
+
+[00:08:57.440–00:08:59.220] Se não, se você não tiver mais nenhum produto
+
+[00:08:59.220–00:09:01.060] pra vender, só vai fazer um outro
+
+[00:09:01.060–00:09:03.000] meteoro daqui a seis meses
+
+[00:09:03.000–00:09:04.500] ou quatro meses na frente.
+
+[00:09:04.940–00:09:07.020] Se esses leads que ficaram ali no grupo
+
+[00:09:07.020–00:09:08.900] são os piores leads que sobraram,
+
+[00:09:09.240–00:09:10.880] se você quiser descartar o grupo,
+
+[00:09:11.020–00:09:13.060] fica a seu critério. Então tem duas opções
+
+[00:09:13.060–00:09:14.080] pra você. Legal?
+
+[00:09:15.040–00:09:16.980] A outra possibilidade é que você
+
+[00:09:16.980–00:09:18.780] vai fazer uma oferta de downsell,
+
+[00:09:19.140–00:09:19.580] Lembra?
+
+[00:09:19.820–00:09:22.400] O pessoal que ficou no grupo até o final,
+
+[00:09:22.920–00:09:25.340] na sexta-feira, 9 horas da manhã,
+
+[00:09:25.400–00:09:26.520] você pode fazer um downsell.
+
+[00:09:27.100–00:09:28.100] Tem outro produto para vender?
+
+[00:09:28.420–00:09:28.880] Downsell.
+
+[00:09:29.180–00:09:31.300] Então você vai mudar o nome do grupo de novo
+
+[00:09:31.300–00:09:33.600] para Outra Chance.
+
+[00:09:34.160–00:09:34.400] Legal?
+
+[00:09:34.680–00:09:35.380] Outra Chance.
+
+[00:09:35.460–00:09:37.100] Você muda o nome para esse aí.
+
+[00:09:37.360–00:09:38.020] Outra Chance.
+
+[00:09:38.020–00:09:39.840] E aí você faz a oferta,
+
+[00:09:39.960–00:09:41.500] que pode ser em vídeo, pode ser em áudio,
+
+[00:09:41.620–00:09:42.480] pode ser até em texto,
+
+[00:09:43.000–00:09:44.460] dizendo basicamente o seguinte,
+
+[00:09:44.660–00:09:46.080] aqui não tem um script para você,
+
+[00:09:46.080–00:09:51.300] porque vai ser muito flexível de acordo com o produto de cada aluno do método meteórico.
+
+[00:09:51.380–00:09:52.760] Mas basicamente você vai dizer o seguinte,
+
+[00:09:53.260–00:09:56.620] gente, nós terminamos a promoção anterior e percebemos
+
+[00:09:56.620–00:09:59.980] que muita gente não conseguiu adquirir o produto XPTO,
+
+[00:10:00.420–00:10:02.940] por questões financeiras ou de agenda,
+
+[00:10:03.080–00:10:06.540] aí você pode argumentar aquilo que você mais escutou no grupo
+
+[00:10:06.540–00:10:07.860] como motivo para não comprar.
+
+[00:10:08.380–00:10:13.100] E aí você diz, por esse motivo, nós estamos disponibilizando aqui um outro produto,
+
+[00:10:13.100–00:10:15.440] não pode ser o mesmo produto mais barato,
+
+[00:10:15.440–00:10:20.320] senão você tem um ruído ético muito grande.
+
+[00:10:20.760–00:10:23.480] Não pode ser uma versão do seu produto resumida,
+
+[00:10:23.600–00:10:26.560] também não pega bem, caso você seja um infoprodutor, legal?
+
+[00:10:26.860–00:10:28.000] Então tem que ser um outro produto.
+
+[00:10:28.340–00:10:30.840] Então você diz o seguinte, nós temos um outro produto,
+
+[00:10:30.840–00:10:34.780] que é esse aqui, é maravilhoso, que resolve essas questões,
+
+[00:10:34.900–00:10:37.620] esses problemas, é indicado para tais casos,
+
+[00:10:37.960–00:10:41.040] pelo valor de, aí você coloca um valor bem abaixo
+
+[00:10:41.040–00:10:42.660] da oferta que você fez anteriormente.
+
+[00:10:42.660–00:10:46.100] Se você tem um produto que encaixe nessas características,
+
+[00:10:46.300–00:10:51.160] joga esse downsell, na sexta-feira colhe mais um monte de vendas,
+
+[00:10:51.500–00:10:57.580] no final da sexta-feira você muda o status do grupo para grupo encerrado,
+
+[00:10:57.700–00:11:01.940] oferta encerrada, algo que determine para todo mundo que acabou mesmo.
+
+[00:11:02.340–00:11:07.360] Então esse é o fluxo, até o dia D, agora mudando os nomes.
+
+[00:11:07.520–00:11:11.900] Nós vamos na próxima aula falar de uma outra coisa muito, muito importante,
+
+[00:11:11.900–00:11:17.480] que é você movendo os compradores para o grupo de boas-vindas.
+
+[00:11:17.800–00:11:20.680] Tem três motivos específicos para você fazer isso.
+
+[00:11:20.760–00:11:21.860] A gente vai falar na próxima aula.
+
+[00:11:21.960–00:11:24.620] Então vamos seguir, vamos para frente, vamos para a próxima aula.

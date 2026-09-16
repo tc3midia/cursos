@@ -1,0 +1,258 @@
+# A9 downsell do select
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 04 - Meteórico Select.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 04 - Meteórico Select\m4_a9_downsell_do_select.mp4`. Duração: 00:06:43.712.
+SHA-256 do vídeo: `7d6d1891f1585f4bd1a6592e26914ad08d2e0f1d222f2c323d4f1f29b6da5505`. [Origem](https://drive.google.com/drive/folders/179oQDCTNYWQ0zSvReJyc3xGyVHA48ris?hl=pt-br).
+
+[00:00:00.000–00:00:06.300] Na paralela da ação descrita na aula anterior, que carinhosamente chamamos de Indo Buscar os Mornos,
+
+[00:00:06.740–00:00:13.260] na sexta-feira você pode fazer um downsell para quem não comprou o seu high ticket no carrinho de ontem, no dia D.
+
+[00:00:13.840–00:00:16.920] Com um detalhe diferente da ação realizada com os leads fora do grupo.
+
+[00:00:17.120–00:00:20.000] Essa ação começa e encerra na sexta-feira, tá bom?
+
+[00:00:20.420–00:00:23.360] Digo isso para deixar claro aqui a diferença entre as duas ações.
+
+[00:00:23.360–00:00:28.320] Uma começa na sexta e continua sendo realizada pelos seus consultores de vendas
+
+[00:00:28.320–00:00:31.500] até concluírem toda a abordagem dos leads que saíram dos grupos
+
+[00:00:31.500–00:00:35.960] e o downsell é pontual, em um dia apenas, no caso, sexta-feira.
+
+[00:00:36.300–00:00:38.160] Mas por quê? Por que só um dia?
+
+[00:00:38.580–00:00:40.680] Porque diferentemente de quem saiu dos grupos,
+
+[00:00:40.840–00:00:42.940] os leads que permaneceram no grupo até aqui,
+
+[00:00:43.320–00:00:45.920] eles acompanharam toda a movimentação até aqui
+
+[00:00:45.920–00:00:49.120] e estão meio macerados na altura do campeonato.
+
+[00:00:49.120–00:00:52.680] E saiba, geralmente os leads que não compraram high ticket
+
+[00:00:52.680–00:00:54.660] e permaneceram no grupo, das duas uma.
+
+[00:00:55.240–00:00:59.680] Ou eles perderam o bonde e não conseguiram acompanhar o que aconteceu no grupo,
+
+[00:01:00.060–00:01:03.120] ou estão frustrados por não conseguirem adquirir o produto,
+
+[00:01:03.540–00:01:05.040] geralmente por questões financeiras.
+
+[00:01:05.040–00:01:10.260] Os que perderam o bonde, geralmente nós conseguimos converter no próximo lançamento.
+
+[00:01:10.700–00:01:13.340] Eles perceberam que perderam a oportunidade,
+
+[00:01:13.740–00:01:16.480] mas numa próxima vez eles vão ficar mais atentos.
+
+[00:01:16.720–00:01:19.440] Isso acontece regularmente no nosso lançamento.
+
+[00:01:19.760–00:01:23.660] Gente que perde o carrinho num lançamento e no outro ele compra, tá bom?
+
+[00:01:23.660–00:01:27.060] Só que quem não comprou por questões financeiras,
+
+[00:01:27.280–00:01:30.380] se você oferecer um segundo produto bem mais em conta,
+
+[00:01:30.760–00:01:33.980] que atenda parte da dor que o produto High Ticket atendia,
+
+[00:01:34.280–00:01:35.460] essas pessoas comprarão.
+
+[00:01:35.940–00:01:38.220] Todos? Não, mas uma parte compra.
+
+[00:01:38.600–00:01:41.420] O que temos visto é um acréscimo numérico de vendas,
+
+[00:01:41.480–00:01:44.580] na ordem de 10% a 20% na oferta do Downsell.
+
+[00:01:44.940–00:01:47.220] Numérico, ok? Não de faturamento.
+
+[00:01:47.520–00:01:51.160] Se comparado ao que você acabou de faturar no produto High Ticket,
+
+[00:01:51.160–00:01:54.320] o incremento financeiro do Dowsell não é tão robusto,
+
+[00:01:54.520–00:01:57.020] mas muitas vezes o número de vendas é.
+
+[00:01:57.480–00:02:01.440] A melhor parte é que são novos clientes entrando na sua esteira de produtos,
+
+[00:02:01.960–00:02:05.000] pessoas que serão atendidas por uma solução sua hoje
+
+[00:02:05.000–00:02:09.180] e que no futuro retornarão já transformadas para comprar o high ticket
+
+[00:02:09.180–00:02:10.480] numa próxima oferta.
+
+[00:02:10.760–00:02:12.420] Aliás, é assim que a roda gira.
+
+[00:02:12.700–00:02:16.700] O pensamento é de longo prazo, a mentalidade empresarial é long time value.
+
+[00:02:16.700–00:02:21.120] Clientes que compram hoje, outros sendo preparados para a compra de amanhã.
+
+[00:02:21.160–00:02:22.960] É assim que é, ok?
+
+[00:02:23.420–00:02:29.000] É comum eu receber a seguinte pergunta, mas Thales, eu preciso mesmo rodar um downsell aqui no select?
+
+[00:02:29.300–00:02:32.700] Na prática não, não precisa, mas é uma ação semente.
+
+[00:02:33.060–00:02:39.880] No jogo das vendas, o seeding do próximo movimento é tão importante quanto o próximo movimento, você entende?
+
+[00:02:40.420–00:02:44.860] Então, se você conseguir enxergar a máquina com pouco mais de distância,
+
+[00:02:44.960–00:02:49.060] você vai perceber que é sempre melhor plantar junto com a colheita.
+
+[00:02:50.000–00:02:53.740] Dito isso, aqui vão algumas instruções para você rodar o seu downsell.
+
+[00:02:54.100–00:02:56.380] O movimento aqui é o mais simples de todos,
+
+[00:02:56.460–00:02:59.680] inclusive você pode rodá-lo com os grupos fechados para interações,
+
+[00:02:59.940–00:03:01.940] com os grupos abertos ou com o meio termo,
+
+[00:03:02.160–00:03:05.520] abrindo somente alguns horários específicos do dia, como você preferir.
+
+[00:03:05.520–00:03:09.080] A interação neles, de toda forma, tende a ser muito menor,
+
+[00:03:09.200–00:03:11.480] ou às vezes até nem acontecer em alguns grupos,
+
+[00:03:11.560–00:03:14.580] se você compara sobretudo o que aconteceu nos dias anteriores.
+
+[00:03:14.960–00:03:18.760] O âmago aqui é você oferecer e deixar claro uma oportunidade
+
+[00:03:18.760–00:03:21.340] para quem não conseguiu adquirir o High Ticket.
+
+[00:03:21.480–00:03:23.240] Para isso, faça o seguinte.
+
+[00:03:23.840–00:03:27.440] Às 9 da manhã, publique um áudio seu falando assim.
+
+[00:03:28.220–00:03:29.580] Olá a todos do Grupo Select.
+
+[00:03:29.740–00:03:30.700] Bom dia, bom dia.
+
+[00:03:30.760–00:03:31.560] Olha a entonação, né?
+
+[00:03:31.720–00:03:32.900] Bom dia, bom dia.
+
+[00:03:33.240–00:03:35.240] Olha só, você que permaneceu aqui no grupo
+
+[00:03:35.240–00:03:37.740] e não conseguiu aproveitar a chance de se inscrever no,
+
+[00:03:38.000–00:03:40.060] aí você coloca o nome do seu High Ticket, né?
+
+[00:03:40.500–00:03:43.480] Fica ligado com o que eu vou dizer aqui nesse áudio.
+
+[00:03:43.480–00:03:45.920] Aqui na empresa, nós consideramos demais
+
+[00:03:45.920–00:03:47.640] as pessoas que se aproximam da gente.
+
+[00:03:47.640–00:03:54.580] E esses dias aqui no grupo, nesses dias, essa foi a nossa sensação, que estamos mais próximos.
+
+[00:03:55.100–00:03:59.160] Não foi dessa vez que você entrou no, aí você fala o nome do produto de novo.
+
+[00:03:59.480–00:04:03.620] Mas tudo bem, eu entendo, eu entendo de verdade que cada um tem o seu momento,
+
+[00:04:03.720–00:04:05.500] suas próprias limitações.
+
+[00:04:05.840–00:04:08.620] Você assim tá demonstrando empatia com o pessoal, legal?
+
+[00:04:09.200–00:04:09.740] Aí continua.
+
+[00:04:10.100–00:04:13.880] Mas olha só, o nosso desejo é não deixar ninguém pra trás.
+
+[00:04:14.600–00:04:15.620] Ótima expressão, tá?
+
+[00:04:15.620–00:04:17.320] Não deixar ninguém pra trás, usa ela.
+
+[00:04:17.640–00:04:21.400] Pra isso, você que não conseguiu ingressar por questões financeiras,
+
+[00:04:21.860–00:04:25.160] eu quero te dizer que existe uma outra solução bem mais em conta
+
+[00:04:25.160–00:04:27.160] que vai te ajudar com...
+
+[00:04:27.160–00:04:29.280] E aqui você descreve o problema de novo.
+
+[00:04:30.000–00:04:31.400] Deixa eu te falar do...
+
+[00:04:31.400–00:04:33.780] Aí você coloca o nome do produto de Downsell.
+
+[00:04:33.880–00:04:35.120] Você fala o nome do seu produto de Downsell.
+
+[00:04:35.740–00:04:37.480] Aí você descreve o produto.
+
+[00:04:37.640–00:04:38.900] Fala o nome dele e descreve.
+
+[00:04:38.900–00:04:43.720] Ao final da descrição, você vai destacar o contraste entre os preços.
+
+[00:04:44.040–00:04:45.520] Isso é importante, tá bom?
+
+[00:04:45.700–00:04:46.320] Presta atenção nisso.
+
+[00:04:46.320–00:04:49.680] Você mostra o contraste. Você pode dizer assim, um exemplo.
+
+[00:04:50.060–00:04:53.920] Olha só, ontem a inscrição no produto High Ticket foi de R$12.000,00.
+
+[00:04:54.560–00:05:02.100] Mas você que não dispõe desse recurso pode se juntar ao time adquirindo o nome do Downsell por R$897,00.
+
+[00:05:02.500–00:05:03.700] É um exemplo pra você entender.
+
+[00:05:04.060–00:05:07.340] É uma diferença bem grande, de R$12.000,00 por menos de R$1.000,00.
+
+[00:05:07.840–00:05:12.700] É claro, não é o mesmo produto, mas eu te garanto que esse passo que você vai dar hoje,
+
+[00:05:12.700–00:05:15.060] adquirindo o nome do Downsell,
+
+[00:05:15.160–00:05:18.780] vai mudar a sua realidade muito rapidamente também.
+
+[00:05:19.240–00:05:21.620] Eu vou deixar o link de inscrição aqui abaixo para você
+
+[00:05:21.620–00:05:25.100] e eu espero fortemente que você ingresse no meu time de...
+
+[00:05:25.100–00:05:29.640] Aí você fala alunos, clientes ou como você gosta de chamar a sua audiência.
+
+[00:05:29.720–00:05:33.160] Então você diz, você ingressa no meu time de clientes dessa vez.
+
+[00:05:33.380–00:05:34.820] Show? Então fala assim e termina.
+
+[00:05:35.140–00:05:35.980] Vem, vem para o time.
+
+[00:05:36.300–00:05:38.560] É hora de unir-se àqueles que têm a solução.
+
+[00:05:39.020–00:05:41.100] Vejo você no nome do produto.
+
+[00:05:41.920–00:05:42.220] Pronto.
+
+[00:05:42.600–00:05:43.320] Esse é o áudio.
+
+[00:05:43.680–00:05:45.720] Um áudio simples, dizendo isso.
+
+[00:05:46.120–00:05:48.200] E você pode fazer um resuminho também
+
+[00:05:48.200–00:05:51.780] pra colocar numa cópia junto com o link da inscrição
+
+[00:05:51.780–00:05:52.900] e lançar no grupo.
+
+[00:05:53.540–00:05:56.240] Eu vou pedir pro suporte escrever essa cópia que eu narrei agora
+
+[00:05:56.240–00:05:57.620] e deixar aqui abaixo pra você.
+
+[00:05:57.760–00:05:58.760] Você pode escrever a sua.
+
+[00:05:59.080–00:06:01.400] Essa é só um exemplo de como fazer, tá bom?
+
+[00:06:02.020–00:06:04.940] E durante o dia, as pessoas vão perguntar mais detalhes.
+
+[00:06:04.940–00:06:08.700] Então você e o seu time seguem explicando o que for necessário pra elas.
+
+[00:06:09.040–00:06:10.960] Essas perguntas geralmente é que saem no privado.
+
+[00:06:11.100–00:06:16.080] Ao final do dia, você reforça a mensagem do downsell com uma copy resumida
+
+[00:06:16.080–00:06:20.660] e deixando o link de inscrição no final da copy e encerra os movimentos do grupo.
+
+[00:06:20.860–00:06:26.220] É curioso que em alguns nichos, essa copy final continua fazendo vendas vários dias depois.
+
+[00:06:26.720–00:06:31.180] Se o produto do downsell for de venda perpétua, isso pode acontecer com você também.
+
+[00:06:31.760–00:06:35.180] E é isso. Esse é o dia do downsell no Select Meteorico.
+
+[00:06:35.380–00:06:38.500] Essa é a técnica, essa é a aula. Vamos para a próxima.
+
+[00:06:41.100–00:06:43.100] Obrigado.

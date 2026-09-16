@@ -1,0 +1,977 @@
+{
+  "settings": {
+    "model": "large-v3-turbo",
+    "language": "pt",
+    "task": "transcribe",
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Talles Quinderé. Lançamento Meteórico."
+  },
+  "source_sha256": "db9b60c42ceb32c2266cca6745b55ad2ebdb77ac29166929e5bc2d6ec2c175ee",
+  "source_video": "D:\\Cursos\\Lançamento Meteórico\\Módulo 08 - Tráfego para Meteóricos\\m8_a2_como_configurar_seu_dominio_e_sua_campanha_no_joinzap.mp4",
+  "transcribed_at_utc": "2026-09-16T22:57:52.677030+00:00",
+  "language_detected": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.6,
+      "text": " Olá, tudo bem? Eu sou o Jefferson. E nessa aula a gente vai apresentar para vocês a verificação de subdomínio e o cadastro dele junto ao Redirect."
+    },
+    {
+      "start": 11.14,
+      "end": 22.5,
+      "text": " Este é um passo importantíssimo para os lançamentos que a gente, inclusive, indica que se faça para que dessa maneira você tenha campanhas muito mais assertivas e que você consiga entregar os seus ads sem gássaros."
+    },
+    {
+      "start": 23.16,
+      "end": 25.54,
+      "text": " Então, para esta aula, o que a gente vai precisar?"
+    },
+    {
+      "start": 25.94,
+      "end": 28.58,
+      "text": " Você esteja logado em seu host de domínio."
+    },
+    {
+      "start": 28.78,
+      "end": 33.1,
+      "text": " Caso você utilize o hostgator, gpages ou até mesmo o Google Domains,"
+    },
+    {
+      "start": 33.34,
+      "end": 34.76,
+      "text": " qualquer um deles que você utilizar,"
+    },
+    {
+      "start": 35.18,
+      "end": 38.28,
+      "text": " você vai conseguir, através dessa aula, cadastrar o seu subdomínio"
+    },
+    {
+      "start": 38.28,
+      "end": 40.04,
+      "text": " de maneira bem simples, bem direta,"
+    },
+    {
+      "start": 40.3,
+      "end": 43.379999999999995,
+      "text": " e fazer o cadastro juntamente ao JoinZap."
+    },
+    {
+      "start": 43.5,
+      "end": 45.96,
+      "text": " Para iniciar, a gente vai dar uma olhada aqui no JoinZap,"
+    },
+    {
+      "start": 46.379999999999995,
+      "end": 49.64,
+      "text": " fazer o login de cara com essa tela,"
+    },
+    {
+      "start": 50.260000000000005,
+      "end": 52.24,
+      "text": " e bem aqui em domínios, na parte esquerda,"
+    },
+    {
+      "start": 52.5,
+      "end": 56.76,
+      "text": " Clicando aqui, você vai ter este DNS bem aqui embaixo."
+    },
+    {
+      "start": 57.1,
+      "end": 58.980000000000004,
+      "text": " O importante é realizar o apontamento."
+    },
+    {
+      "start": 58.980000000000004,
+      "end": 61.7,
+      "text": " Então, você vai copiar este IP aqui."
+    },
+    {
+      "start": 62.38,
+      "end": 66.42,
+      "text": " 177.44.191.252."
+    },
+    {
+      "start": 67.34,
+      "end": 69.74000000000001,
+      "text": " Este aqui é o DNS do próprio Jean-Exacto."
+    },
+    {
+      "start": 70.34,
+      "end": 73.26,
+      "text": " Então, copiando aqui, vou exemplificar com o GP."
+    },
+    {
+      "start": 73.26,
+      "end": 86.26,
+      "text": " Aqui no Gpages, quando você fizer o seu login, você vai ter essa página inicial."
+    },
+    {
+      "start": 86.68,
+      "end": 90.2,
+      "text": " Aqui no canto superior direito, você vai ter sites e e-mails."
+    },
+    {
+      "start": 91.46000000000001,
+      "end": 96.12,
+      "text": " Após carregar as informações da minha página, eu vou bem aqui na abinha DNS."
+    },
+    {
+      "start": 96.86000000000001,
+      "end": 101.48,
+      "text": " Então, aqui eu vou ter a opção de criar um apontamento do tipo A."
+    },
+    {
+      "start": 101.48,
+      "end": 107.04,
+      "text": " Olha a página, aqui embaixo eu tenho os tipos de apontamento e eu vou colocar .a"
+    },
+    {
+      "start": 107.04,
+      "end": 111.2,
+      "text": " E aqui eu vou colocar o DNS que a gente acabou de copiar lá do JoensApp"
+    },
+    {
+      "start": 111.2,
+      "end": 116.92,
+      "text": " Então sempre que alguém clicar no seu subdomínio, essa pessoa vai ser redirecionada para o JoensApp"
+    },
+    {
+      "start": 116.92,
+      "end": 119.64,
+      "text": " E posteriormente vai ser redirecionada para dentro dos seus grupos"
+    },
+    {
+      "start": 119.64,
+      "end": 125.26,
+      "text": " Então aqui eu coloquei o DNS e aqui eu vou colocar a nomenclatura que eu quero"
+    },
+    {
+      "start": 125.26,
+      "end": 129.34,
+      "text": " A palavra que eu quero utilizar antes do domínio"
+    },
+    {
+      "start": 129.34,
+      "end": 131.74,
+      "text": " Então, aqui você só precisa colocar uma palavra, tá?"
+    },
+    {
+      "start": 132.14000000000001,
+      "end": 135.48000000000002,
+      "text": " Então, no final, assim que a gente colocar aqui para salvar esse DNS,"
+    },
+    {
+      "start": 135.94,
+      "end": 140.66,
+      "text": " para criar esse subdomínio, ele vai ficar desta maneira."
+    },
+    {
+      "start": 141.86,
+      "end": 145.0,
+      "text": " vip.lancamentometeorico.com.br"
+    },
+    {
+      "start": 145.0,
+      "end": 149.46,
+      "text": " E esse daqui é o endereço que a gente vai utilizar para colocar lá no WhatsApp,"
+    },
+    {
+      "start": 149.62,
+      "end": 153.58,
+      "text": " cadastrando ele, para que dessa maneira você consiga ter um redirect mais nativo,"
+    },
+    {
+      "start": 153.94,
+      "end": 155.1,
+      "text": " mais com a tua cara, tá?"
+    },
+    {
+      "start": 155.1,
+      "end": 159.06,
+      "text": " A gente já está utilizando um, eu só fiz esse passo a passo para mostrar"
+    },
+    {
+      "start": 159.06,
+      "end": 161.76,
+      "text": " como é simples fazer este subdomínio."
+    },
+    {
+      "start": 162.18,
+      "end": 165.64000000000001,
+      "text": " Então, a partir de agora, eu vou exemplificar a partir deste subdomínio"
+    },
+    {
+      "start": 165.64000000000001,
+      "end": 169.68,
+      "text": " já criado aqui em cima, grupo.lancamento.meteorico.com.br."
+    },
+    {
+      "start": 170.22,
+      "end": 175.02,
+      "text": " Então, voltando lá no WhatsApp, você vai vir aqui no cadastro,"
+    },
+    {
+      "start": 175.2,
+      "end": 178.72,
+      "text": " colocar o seu subdomínio, e é importante também fazer esse passo"
+    },
+    {
+      "start": 178.72,
+      "end": 180.26,
+      "text": " com algumas horas de antecedência."
+    },
+    {
+      "start": 180.56,
+      "end": 186.54,
+      "text": " Alguns hosts de domínios demoram até 72 horas para propagar este novo DNS."
+    },
+    {
+      "start": 186.54,
+      "end": 188.5,
+      "text": " O GPGIS é muito rápido"
+    },
+    {
+      "start": 188.5,
+      "end": 190.66,
+      "text": " Então em alguns segundos, alguns minutos"
+    },
+    {
+      "start": 190.66,
+      "end": 192.32,
+      "text": " Ele já está com o DNS e tudo ok"
+    },
+    {
+      "start": 192.32,
+      "end": 194.04,
+      "text": " Então colocando aqui"
+    },
+    {
+      "start": 194.04,
+      "end": 196.32,
+      "text": " Você vai colocar o seu subdomínio"
+    },
+    {
+      "start": 196.32,
+      "end": 198.7,
+      "text": " Grupo.seudomínio.com.br"
+    },
+    {
+      "start": 198.7,
+      "end": 201.54,
+      "text": " E logo aqui embaixo você pode criar um nome de referência"
+    },
+    {
+      "start": 201.54,
+      "end": 204.07999999999998,
+      "text": " Para ele, para que você consiga encontrar ele mais rápido"
+    },
+    {
+      "start": 204.07999999999998,
+      "end": 205.26,
+      "text": " Aqui no seu John Zap"
+    },
+    {
+      "start": 205.26,
+      "end": 207.18,
+      "text": " Então assim como eu falei"
+    },
+    {
+      "start": 207.18,
+      "end": 209.54,
+      "text": " O nosso subdomínio já está salvo"
+    },
+    {
+      "start": 209.54,
+      "end": 212.39999999999998,
+      "text": " Eu já tinha clicado aqui em cadastrá-lo"
+    },
+    {
+      "start": 212.39999999999998,
+      "end": 214.12,
+      "text": " Então está tudo ok, está tudo bem"
+    },
+    {
+      "start": 214.12,
+      "end": 217.56,
+      "text": " e, a partir disso, você pode criar a sua campanha."
+    },
+    {
+      "start": 218.1,
+      "end": 220.22,
+      "text": " Como a nossa campanha também já está criada,"
+    },
+    {
+      "start": 220.52,
+      "end": 224.38,
+      "text": " eu vou mostrar para vocês aqui como devem se seguir as configurações"
+    },
+    {
+      "start": 224.38,
+      "end": 226.6,
+      "text": " após clicar em criar uma nova campanha."
+    },
+    {
+      "start": 228.36,
+      "end": 232.18,
+      "text": " Então, aqui, com a nossa campanha do Select Meteor,"
+    },
+    {
+      "start": 232.38,
+      "end": 234.16,
+      "text": " você vira em configurações."
+    },
+    {
+      "start": 235.22,
+      "end": 238.04000000000002,
+      "text": " Nessas configurações, você vai colocar o nome da sua campanha."
+    },
+    {
+      "start": 238.20000000000002,
+      "end": 240.32,
+      "text": " Este aqui é um nome diferente do nome que você utilizou"
+    },
+    {
+      "start": 240.32,
+      "end": 241.62,
+      "text": " para salvar aquele subdomínio."
+    },
+    {
+      "start": 241.62,
+      "end": 244.6,
+      "text": " Então você tem a opção de colocar um WhatsApp do suporte"
+    },
+    {
+      "start": 244.6,
+      "end": 248.78,
+      "text": " Até mesmo o preço do ticket que você estará praticando naquele lançamento"
+    },
+    {
+      "start": 248.78,
+      "end": 250.5,
+      "text": " E a estimativa de vendas que você tem"
+    },
+    {
+      "start": 250.5,
+      "end": 254.0,
+      "text": " O WhatsApp tem algumas integrações com gadgets de pagamentos"
+    },
+    {
+      "start": 254.0,
+      "end": 256.68,
+      "text": " Onde ele pode conversar e ter uma estimativa de venda"
+    },
+    {
+      "start": 256.68,
+      "end": 259.5,
+      "text": " De passando um valor no final da atuação"
+    },
+    {
+      "start": 259.5,
+      "end": 261.76,
+      "text": " Aqui no link, você clicando"
+    },
+    {
+      "start": 261.76,
+      "end": 264.84000000000003,
+      "text": " Você pode utilizar este subdomínio que a gente acabou de verificar"
+    },
+    {
+      "start": 264.84000000000003,
+      "end": 269.58,
+      "text": " Então colocando aqui grupo.lancamentometeórico.com.br"
+    },
+    {
+      "start": 269.58,
+      "end": 280.0,
+      "text": " E aqui você pode colocar, após a barra, outro endereço que também seja familiar ao teu público ou à ação que você está fazendo."
+    },
+    {
+      "start": 280.32,
+      "end": 283.62,
+      "text": " Aqui nós escolhemos colocar select traço meteórico."
+    },
+    {
+      "start": 284.21999999999997,
+      "end": 291.78,
+      "text": " Indo para o próximo, você tem a opção de colocar a data limite que aquelas pessoas podem entrar dentro do teu lançamento."
+    },
+    {
+      "start": 291.78,
+      "end": 297.28,
+      "text": " Então, você pode escolher aqui o mês em que vai rodar aquela tua estratégia,"
+    },
+    {
+      "start": 297.52,
+      "end": 301.32,
+      "text": " até que dia que você quer que os teus leads entrem naquele grupo efetivo."
+    },
+    {
+      "start": 301.71999999999997,
+      "end": 306.64,
+      "text": " E após isso, você pode cadastrar, aqui mesmo pelo John Zap, uma lista de espera."
+    },
+    {
+      "start": 307.0,
+      "end": 310.05999999999995,
+      "text": " Então, quem chegar após aquele momento limite, aquele tempo limite,"
+    },
+    {
+      "start": 310.15999999999997,
+      "end": 312.47999999999996,
+      "text": " aquelas pessoas irão para esta lista de espera."
+    },
+    {
+      "start": 312.97999999999996,
+      "end": 315.09999999999997,
+      "text": " E aqui também você pode colocar o horário."
+    },
+    {
+      "start": 315.34,
+      "end": 318.28,
+      "text": " Então, é interessante porque você pode dormir tranquilo,"
+    },
+    {
+      "start": 318.28,
+      "end": 320.46,
+      "text": " e o John WhatsApp vai fazer esse redirecionamento"
+    },
+    {
+      "start": 320.46,
+      "end": 323.67999999999995,
+      "text": " a partir do número de cliques que você configurar aqui."
+    },
+    {
+      "start": 324.28,
+      "end": 326.5,
+      "text": " Então, pode ativar a reentrada"
+    },
+    {
+      "start": 326.5,
+      "end": 330.44,
+      "text": " e você também deve ativar o redirecionamento automático"
+    },
+    {
+      "start": 330.44,
+      "end": 332.35999999999996,
+      "text": " sem tutorial, porque caso algum lead seu"
+    },
+    {
+      "start": 332.35999999999996,
+      "end": 336.29999999999995,
+      "text": " clique pelo WhatsApp Web, ele vai direto"
+    },
+    {
+      "start": 336.29999999999995,
+      "end": 338.71999999999997,
+      "text": " sem receber um tutorialzinho de como abrir."
+    },
+    {
+      "start": 339.14,
+      "end": 342.32,
+      "text": " Se o teu lead já tem o WhatsApp Web aberto,"
+    },
+    {
+      "start": 342.5,
+      "end": 344.64,
+      "text": " possivelmente ele já tem muita familiaridade com isso,"
+    },
+    {
+      "start": 345.0,
+      "end": 347.53999999999996,
+      "text": " mas caso ele não tenha e você queira que ele aprenda,"
+    },
+    {
+      "start": 347.54,
+      "end": 350.96000000000004,
+      "text": " De repente, abrir pela web, é só você desmarcar essa caixinha."
+    },
+    {
+      "start": 351.14000000000004,
+      "end": 352.68,
+      "text": " Geralmente, deixamos ela marcada."
+    },
+    {
+      "start": 353.20000000000005,
+      "end": 357.48,
+      "text": " E reentrada, caso você esteja fazendo uma campanha que seja longa, de captação,"
+    },
+    {
+      "start": 357.74,
+      "end": 361.22,
+      "text": " e você não queira leads duplicados, o John Zap também te dá essa opção"
+    },
+    {
+      "start": 361.22,
+      "end": 365.44,
+      "text": " em que você pode clicar aqui nessa caixinha e evitar com que o seu lead"
+    },
+    {
+      "start": 365.44,
+      "end": 367.18,
+      "text": " entre em mais de um grupo."
+    },
+    {
+      "start": 367.40000000000003,
+      "end": 370.64000000000004,
+      "text": " Por mais que a sua campanha dure, de repente, em uma semana, duas semanas,"
+    },
+    {
+      "start": 371.06,
+      "end": 373.64000000000004,
+      "text": " por mais que aquela pessoa clique em vários anúncios teus,"
+    },
+    {
+      "start": 374.0,
+      "end": 376.76,
+      "text": " ela vai ficar traqueada dentro do primeiro grupo que ela clicou."
+    },
+    {
+      "start": 376.76,
+      "end": 379.84,
+      "text": " contanto que ela esteja entrando no mesmo aparelho"
+    },
+    {
+      "start": 379.84,
+      "end": 382.78,
+      "text": " então se ela tiver entrado no teu grupo VIP 10, por exemplo"
+    },
+    {
+      "start": 382.78,
+      "end": 385.02,
+      "text": " e você já está no seu grupo VIP 50"
+    },
+    {
+      "start": 385.02,
+      "end": 387.8,
+      "text": " ela não vai conseguir entrar além do grupo VIP 10"
+    },
+    {
+      "start": 387.8,
+      "end": 389.96,
+      "text": " que foi o primeiro que ela foi traqueada lá atrás"
+    },
+    {
+      "start": 389.96,
+      "end": 391.24,
+      "text": " quando ela ficou no primeiro anúncio"
+    },
+    {
+      "start": 391.24,
+      "end": 392.78,
+      "text": " indo aqui para o próximo"
+    },
+    {
+      "start": 392.78,
+      "end": 397.32,
+      "text": " você tem opções também de configurar e personalizar as tuas páginas"
+    },
+    {
+      "start": 397.32,
+      "end": 400.68,
+      "text": " tanto a página de redirecionamento que aparece no computador ou no celular"
+    },
+    {
+      "start": 400.68,
+      "end": 403.92,
+      "text": " e também a tua página de espera caso as tuas vagas encerrem"
+    },
+    {
+      "start": 404.34000000000003,
+      "end": 407.94,
+      "text": " Então, tudo é editado e configurado a partir desta página aqui."
+    },
+    {
+      "start": 408.48,
+      "end": 412.88,
+      "text": " Salvando essas configurações, você já tem o teu redirect basicamente pronto."
+    },
+    {
+      "start": 413.32,
+      "end": 416.58000000000004,
+      "text": " Ele vai te voltar aqui para o dashboard e, a partir disso,"
+    },
+    {
+      "start": 416.64000000000004,
+      "end": 419.24,
+      "text": " você vai ter aqui a aba grupos, a parte esquerda."
+    },
+    {
+      "start": 419.8,
+      "end": 423.08000000000004,
+      "text": " Aqui você vai cadastrar os grupos que você quer usar para aquela campanha"
+    },
+    {
+      "start": 423.08000000000004,
+      "end": 427.22,
+      "text": " e, ali, a partir disso, todo mundo que clicar vai para dentro"
+    },
+    {
+      "start": 427.22,
+      "end": 429.44,
+      "text": " de um desses grupos que estão aqui dentro do teu redirect."
+    },
+    {
+      "start": 429.44,
+      "end": 434.66,
+      "text": " E lembrando, mudou aquele primeiro endereço que a gente fez lá atrás, né?"
+    },
+    {
+      "start": 434.8,
+      "end": 439.5,
+      "text": " Então agora está grupolancamentometeorico.com.br barra selectmeteorico."
+    },
+    {
+      "start": 439.9,
+      "end": 448.28,
+      "text": " No seu vai ficar grupo ou vip.seudomínio.com.br barra o endereçozinho que você quiser utilizar ali no final, tá?"
+    },
+    {
+      "start": 448.74,
+      "end": 454.5,
+      "text": " Caso você deixe cliques lá na configuração em 250, que é o número que a gente coloca como padrão,"
+    },
+    {
+      "start": 454.5,
+      "end": 457.22,
+      "text": " a partir do momento que bater aqueles 250 cliques,"
+    },
+    {
+      "start": 457.48,
+      "end": 459.88,
+      "text": " a pessoa vai ser direcionada para um novo grupo VIP."
+    },
+    {
+      "start": 460.62,
+      "end": 464.3,
+      "text": " E assim, até que você tenha ali grupos VIPs o suficiente para atuação,"
+    },
+    {
+      "start": 464.4,
+      "end": 466.98,
+      "text": " caso seja necessário, você pode adicionar novos grupos,"
+    },
+    {
+      "start": 467.4,
+      "end": 469.08,
+      "text": " inclusive você pode adicionar vários,"
+    },
+    {
+      "start": 469.38,
+      "end": 472.42,
+      "text": " ou importar grupos para dentro do JoinZap."
+    },
+    {
+      "start": 473.28,
+      "end": 476.22,
+      "text": " E essa relação de clique e entrada"
+    },
+    {
+      "start": 476.22,
+      "end": 479.32,
+      "text": " é algo que você vai aprender com o tempo com a sua audiência."
+    },
+    {
+      "start": 479.66,
+      "end": 483.18,
+      "text": " Muitas audiências, a gente considera o clique ideal como 3 para 1,"
+    },
+    {
+      "start": 483.18,
+      "end": 487.3,
+      "text": " que significa que três cliques para um lead dentro do grupo VIP."
+    },
+    {
+      "start": 487.84000000000003,
+      "end": 489.92,
+      "text": " Então, a cada três cliques que a pessoa dá, de repente,"
+    },
+    {
+      "start": 490.08,
+      "end": 493.42,
+      "text": " naquele link de redirect, ela vai entrar dentro do grupo."
+    },
+    {
+      "start": 493.68,
+      "end": 495.44,
+      "text": " Uma pessoa efetivamente vai estar lá dentro."
+    },
+    {
+      "start": 496.26,
+      "end": 499.24,
+      "text": " Há audiências em que é um pouco maior essa taxa,"
+    },
+    {
+      "start": 499.36,
+      "end": 501.14,
+      "text": " há audiências que é um pouco menor essa taxa."
+    },
+    {
+      "start": 501.24,
+      "end": 502.26,
+      "text": " Então, vai muito do filho."
+    },
+    {
+      "start": 502.68,
+      "end": 504.24,
+      "text": " Você vai dando uma percebida ali, de repente,"
+    },
+    {
+      "start": 504.68,
+      "end": 507.16,
+      "text": " de acordo com a ação que você tem feito com os seus leads,"
+    },
+    {
+      "start": 507.56,
+      "end": 509.44,
+      "text": " se for uma campanha de aquecimento,"
+    },
+    {
+      "start": 509.82,
+      "end": 511.82,
+      "text": " se for uma campanha para uma lista VIP,"
+    },
+    {
+      "start": 511.82,
+      "end": 514.36,
+      "text": " se for uma campanha para uma mentoria, por exemplo."
+    },
+    {
+      "start": 514.7,
+      "end": 519.12,
+      "text": " Em tudo isso, você vai ter esse feeling e saber se 250 é o ideal para ti ou não."
+    },
+    {
+      "start": 519.9,
+      "end": 524.22,
+      "text": " Ao cadastrar um novo grupo, você tem opções como colocar o nome do grupo."
+    },
+    {
+      "start": 525.3,
+      "end": 529.12,
+      "text": " Então, você pode seguir o mesmo nome padrão que você já tem colocado nos outros."
+    },
+    {
+      "start": 529.98,
+      "end": 532.98,
+      "text": " E você também vai ter as opções de colocar o link do grupo,"
+    },
+    {
+      "start": 533.4,
+      "end": 537.56,
+      "text": " que você anteriormente vai ter copiado, e cliques já recebidos."
+    },
+    {
+      "start": 538.02,
+      "end": 541.26,
+      "text": " Caso você esteja utilizando um grupo que já esteja parcialmente cheio,"
+    },
+    {
+      "start": 541.26,
+      "end": 543.34,
+      "text": " mas você queira colocá-lo dentro de um predirect,"
+    },
+    {
+      "start": 543.7,
+      "end": 548.58,
+      "text": " você pode colocar aqui dentro daquele cálculo que eu acabei de mencionar"
+    },
+    {
+      "start": 548.58,
+      "end": 552.08,
+      "text": " quantas pessoas mais ou menos têm e quantos cliques efetivamente"
+    },
+    {
+      "start": 552.08,
+      "end": 554.42,
+      "text": " os seus leads têm dado dentro dessa campanha ativa"
+    },
+    {
+      "start": 554.42,
+      "end": 556.6,
+      "text": " para que eles finalmente estejam dentro do teu grupo."
+    },
+    {
+      "start": 557.14,
+      "end": 561.5,
+      "text": " Então, a partir disso, você pode utilizar ali os cliques já recebidos"
+    },
+    {
+      "start": 561.5,
+      "end": 564.88,
+      "text": " para que ele vire mais rápido, porque ele já tem alguns leads lá dentro."
+    },
+    {
+      "start": 565.4,
+      "end": 568.42,
+      "text": " E caso também a sua campanha esteja performando um pouco mais lenta"
+    },
+    {
+      "start": 568.42,
+      "end": 572.6999999999999,
+      "text": " ou um pouco mais rápida, e você manualmente queira colocar um limite"
+    },
+    {
+      "start": 572.6999999999999,
+      "end": 575.56,
+      "text": " diferente do que está configurado para a campanha global,"
+    },
+    {
+      "start": 575.9,
+      "end": 577.64,
+      "text": " você pode colocar aqui grupo a grupo."
+    },
+    {
+      "start": 578.28,
+      "end": 580.8,
+      "text": " Então, caso você queira mexer no limite de todos os grupos,"
+    },
+    {
+      "start": 581.02,
+      "end": 582.14,
+      "text": " é só ir em configurações."
+    },
+    {
+      "start": 582.4599999999999,
+      "end": 584.1999999999999,
+      "text": " Caso você queira mexer em um grupo somente,"
+    },
+    {
+      "start": 584.3,
+      "end": 586.12,
+      "text": " queira configurar aquele grupo em específico,"
+    },
+    {
+      "start": 586.1999999999999,
+      "end": 588.88,
+      "text": " você pode vir aqui nas configurações do grupo, aqui em editar."
+    },
+    {
+      "start": 589.88,
+      "end": 592.3399999999999,
+      "text": " Então, a partir do momento que está aqui o teu grupo,"
+    },
+    {
+      "start": 592.62,
+      "end": 594.1999999999999,
+      "text": " você pode editá-lo à vontade."
+    },
+    {
+      "start": 594.2,
+      "end": 598.5,
+      "text": " Assim que este endereço aqui estiver tudo ok"
+    },
+    {
+      "start": 598.5,
+      "end": 600.24,
+      "text": " Tudo certinho, tudo configurado"
+    },
+    {
+      "start": 600.24,
+      "end": 601.24,
+      "text": " Você pode copiá-lo"
+    },
+    {
+      "start": 601.24,
+      "end": 604.1600000000001,
+      "text": " E a partir disso você vai fazer a configuração na sua BM"
+    },
+    {
+      "start": 604.1600000000001,
+      "end": 606.12,
+      "text": " Com este link de redirect aqui"
+    },
+    {
+      "start": 606.12,
+      "end": 607.88,
+      "text": " Inclusive vamos deixar um PDF"
+    },
+    {
+      "start": 607.88,
+      "end": 609.62,
+      "text": " Para que fique ainda mais bem ilustrado"
+    },
+    {
+      "start": 609.62,
+      "end": 611.6800000000001,
+      "text": " Como você pode fazer para que este link"
+    },
+    {
+      "start": 611.6800000000001,
+      "end": 614.82,
+      "text": " Se torne uma conversão personalizada"
+    },
+    {
+      "start": 614.82,
+      "end": 616.22,
+      "text": " Então colocando aqui"
+    },
+    {
+      "start": 616.22,
+      "end": 617.9200000000001,
+      "text": " Agora vou fazer uma exemplificação"
+    },
+    {
+      "start": 617.9200000000001,
+      "end": 620.9200000000001,
+      "text": " A partir do momento que o teu lead clicar aqui"
+    },
+    {
+      "start": 620.9200000000001,
+      "end": 623.5200000000001,
+      "text": " Seja pelo computador ou seja pelo celular"
+    },
+    {
+      "start": 623.52,
+      "end": 625.3,
+      "text": " Ele vai ser redirecionado para o grupo"
+    },
+    {
+      "start": 625.3,
+      "end": 627.4,
+      "text": " Que está ativo naquele momento"
+    },
+    {
+      "start": 627.4,
+      "end": 629.0799999999999,
+      "text": " Então, aqui"
+    },
+    {
+      "start": 629.0799999999999,
+      "end": 631.84,
+      "text": " Demora dois a três segundinhos"
+    },
+    {
+      "start": 631.84,
+      "end": 634.0799999999999,
+      "text": " E a partir deste momento aqui, seja no WhatsApp Web"
+    },
+    {
+      "start": 634.0799999999999,
+      "end": 635.8,
+      "text": " Ou seja pelo WhatsApp no celular"
+    },
+    {
+      "start": 635.8,
+      "end": 637.56,
+      "text": " A pessoa precisa confirmar que quer"
+    },
+    {
+      "start": 637.56,
+      "end": 639.6,
+      "text": " Entrar dentro daquele grupo, beleza?"
+    },
+    {
+      "start": 640.0799999999999,
+      "end": 641.4,
+      "text": " Então, bons lançamentos"
+    },
+    {
+      "start": 641.4,
+      "end": 642.14,
+      "text": " E até a próxima"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 2,
+  "module_title": "Meteorico Starter",
+  "item_kind": "lesson",
+  "lesson_number": 11,
+  "source_lesson_number": "11",
+  "title": "Formatos - Conteúdos em Podcast",
+  "source_filename": "AULA 11 - FORMATOS - Conteúdos em Podcast #ZDMPRIME.COM.mp4",
+  "local_filename": "m2_a11_formatos_conteudos_em_podcast.mp4",
+  "origin": "https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 42852881,
+  "duration_seconds": 485.483,
+  "duration_hms": "00:08:05.482",
+  "sha256": "9e3a18b15e823b8488dfdd94cc8c29b6005ca7a19f68f8528c5f7e20a409dc31",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "485.482812",
+    "size": "42852881",
+    "bit_rate": "706148"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "44100",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

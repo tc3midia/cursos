@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 2,
+  "module_title": "Meteorico Starter",
+  "item_kind": "lesson",
+  "lesson_number": 7,
+  "source_lesson_number": "07",
+  "title": "Tempo - Como prospectar leads em grupos",
+  "source_filename": "AULA 07 - [TEMPO] Como prospectar leads em grupos #ZDMPRIME.COM.mp4",
+  "local_filename": "m2_a7_tempo_como_prospectar_leads_em_grupos.mp4",
+  "origin": "https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 50593103,
+  "duration_seconds": 575.623,
+  "duration_hms": "00:09:35.622",
+  "sha256": "430c10ecf92097675fcc687fc379ee067c5a704dc5b9f4372f6ca85e18994a28",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "575.622676",
+    "size": "50593103",
+    "bit_rate": "703142"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "44100",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

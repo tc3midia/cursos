@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 1,
+  "module_title": "Meteorico Classico",
+  "lesson_number": 11,
+  "source_lesson_number": "12",
+  "title": "Grupo de boas vindas",
+  "source_filename": "AULA 12 - Grupo de boas vindas #ZDMPRIME.COM.mp4",
+  "local_filename": "m1_a11_grupo_de_boas_vindas.mp4",
+  "origin": "https://drive.google.com/drive/folders/1ljUbBugf_nFWO9wZ6NmLla-POBVlchIJ?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 164755780,
+  "duration_seconds": 574.848,
+  "duration_hms": "00:09:34.848",
+  "sha256": "2e23d2e54ec6bc6dce02cbdb5aac588c1216a45344f2681ff7fb76fd5ffbf978",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "574.848000",
+    "size": "164755780",
+    "bit_rate": "2292860"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

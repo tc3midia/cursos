@@ -1,0 +1,827 @@
+{
+  "settings": {
+    "model": "large-v3-turbo",
+    "language": "pt",
+    "task": "transcribe",
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Talles Quinderé. Lançamento Meteórico."
+  },
+  "source_sha256": "6e744fed2d68ce28c84e5c8e4306fe25a346f1e433581f6d423bb8e7c9e46936",
+  "source_video": "D:\\Cursos\\Lançamento Meteórico\\Módulo 10 - Bônus - Detalhes Técnicos\\m10_a4_como_extrair_os_compradores_do_interno_dos_grupos.mp4",
+  "transcribed_at_utc": "2026-09-16T23:13:47.326909+00:00",
+  "language_detected": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.02,
+      "text": " Olá pessoal, mais essa aula aqui no Método Meteórico e nessa aula eu quero apresentar para vocês o método de fazer a limpeza dos grupos, dos seus leads, quando você acabou de sair de um lançamento interno em que você ofertou o seu produto principal."
+    },
+    {
+      "start": 13.02,
+      "end": 29.62,
+      "text": " Então, importantíssimo para esse movimento é você entrar no seu gadget de pagamento e lá você precisa tirar o relatório de todos os compradores das datas que você deixou o seu carrinho aberto e a partir disso eu vou ensinar vocês a como importar estes contatos,"
+    },
+    {
+      "start": 30.0,
+      "end": 32.08,
+      "text": " para que você consiga identificar esse pessoal"
+    },
+    {
+      "start": 32.08,
+      "end": 34.72,
+      "text": " dentro dos seus grupos de lançamento,"
+    },
+    {
+      "start": 34.86,
+      "end": 36.04,
+      "text": " dos seus grupos de venda,"
+    },
+    {
+      "start": 36.34,
+      "end": 39.18,
+      "text": " e a partir disso você vai conseguir tirar essa galera de lá"
+    },
+    {
+      "start": 39.18,
+      "end": 40.54,
+      "text": " com muito mais efetividade, tá?"
+    },
+    {
+      "start": 40.74,
+      "end": 43.1,
+      "text": " Então, o gadget de pagamento que a gente vai utilizar aqui"
+    },
+    {
+      "start": 43.1,
+      "end": 44.42,
+      "text": " será a Hotmart, tá?"
+    },
+    {
+      "start": 44.519999999999996,
+      "end": 45.9,
+      "text": " Então, é importantíssimo também que,"
+    },
+    {
+      "start": 46.06,
+      "end": 49.480000000000004,
+      "text": " independente do gadget que você usa para o seu pagamento,"
+    },
+    {
+      "start": 49.900000000000006,
+      "end": 53.519999999999996,
+      "text": " é que você coloque a opção de exigir o telefone da pessoa"
+    },
+    {
+      "start": 53.519999999999996,
+      "end": 55.42,
+      "text": " no checkout, tá?"
+    },
+    {
+      "start": 55.5,
+      "end": 56.900000000000006,
+      "text": " Dessa maneira você vai ter certeza"
+    },
+    {
+      "start": 56.900000000000006,
+      "end": 58.96,
+      "text": " que você vai conseguir encontrar essa pessoa lá dentro do grupo."
+    },
+    {
+      "start": 59.54,
+      "end": 61.3,
+      "text": " Então, vamos entrar aqui na Hotmart."
+    },
+    {
+      "start": 61.96,
+      "end": 64.24,
+      "text": " Eu já estou logado, como vocês podem ver."
+    },
+    {
+      "start": 64.66,
+      "end": 67.24,
+      "text": " Então, a gente vai aqui para as vendas."
+    },
+    {
+      "start": 67.94,
+      "end": 71.76,
+      "text": " Você pode colocar aguardando o pagamento, aprovado, boleto gerado."
+    },
+    {
+      "start": 72.04,
+      "end": 72.88,
+      "text": " Então, vamos lá, pessoal."
+    },
+    {
+      "start": 72.88,
+      "end": 77.22,
+      "text": " O importante é que você coloque as datas que você fez a abertura de carrinho."
+    },
+    {
+      "start": 77.32,
+      "end": 79.08,
+      "text": " Caso seja uma semana, coloque uma semana."
+    },
+    {
+      "start": 79.22,
+      "end": 82.76,
+      "text": " Caso seja de um dia para o outro, você coloca as datas aqui que foi do checkout."
+    },
+    {
+      "start": 83.24000000000001,
+      "end": 84.5,
+      "text": " Então, aplica os filtros."
+    },
+    {
+      "start": 84.5,
+      "end": 87.52,
+      "text": " no seu gadget de pagamento"
+    },
+    {
+      "start": 87.52,
+      "end": 90.16,
+      "text": " você vai buscar a forma que ficar mais interessante"
+    },
+    {
+      "start": 90.16,
+      "end": 91.92,
+      "text": " para você para pegar todos esses dados"
+    },
+    {
+      "start": 91.92,
+      "end": 93.78,
+      "text": " nome completo dos seus compradores"
+    },
+    {
+      "start": 93.78,
+      "end": 95.78,
+      "text": " e também o número de telefone"
+    },
+    {
+      "start": 95.78,
+      "end": 98.42,
+      "text": " neste momento a gente vai lá no Excel"
+    },
+    {
+      "start": 98.42,
+      "end": 99.56,
+      "text": " aqui no Excel"
+    },
+    {
+      "start": 99.56,
+      "end": 101.68,
+      "text": " quando você abrir o seu relatório"
+    },
+    {
+      "start": 101.68,
+      "end": 103.84,
+      "text": " as únicas coisas que você vai precisar"
+    },
+    {
+      "start": 103.84,
+      "end": 106.03999999999999,
+      "text": " serão nome e o telefone"
+    },
+    {
+      "start": 106.03999999999999,
+      "end": 108.58,
+      "text": " então todas as outras informações você pode apagar"
+    },
+    {
+      "start": 108.58,
+      "end": 110.2,
+      "text": " para ficar ainda melhor"
+    },
+    {
+      "start": 110.2,
+      "end": 112.48,
+      "text": " a gente vai chegar aqui e pegar somente o nome das pessoas"
+    },
+    {
+      "start": 112.48,
+      "end": 115.78,
+      "text": " copiar todos eles"
+    },
+    {
+      "start": 115.78,
+      "end": 118.4,
+      "text": " e o telefone"
+    },
+    {
+      "start": 118.4,
+      "end": 129.94,
+      "text": " aqui nessa segunda planilha"
+    },
+    {
+      "start": 129.94,
+      "end": 131.76,
+      "text": " é importantíssimo que você coloque"
+    },
+    {
+      "start": 131.76,
+      "end": 133.98000000000002,
+      "text": " na primeira linha e na primeira coluna"
+    },
+    {
+      "start": 133.98000000000002,
+      "end": 135.4,
+      "text": " first name em inglês"
+    },
+    {
+      "start": 135.4,
+      "end": 138.22,
+      "text": " e na coluna B, também na primeira linha"
+    },
+    {
+      "start": 138.22,
+      "end": 139.54000000000002,
+      "text": " você coloque mobile phone"
+    },
+    {
+      "start": 139.54000000000002,
+      "end": 141.92000000000002,
+      "text": " também em inglês, então aqui a gente pode"
+    },
+    {
+      "start": 141.92,
+      "end": 143.67999999999998,
+      "text": " utilizar, pode colocar comprador 1"
+    },
+    {
+      "start": 143.67999999999998,
+      "end": 145.83999999999997,
+      "text": " até o número do comprador que você fez a venda"
+    },
+    {
+      "start": 145.83999999999997,
+      "end": 147.88,
+      "text": " para que evite você passar esses"
+    },
+    {
+      "start": 147.88,
+      "end": 149.01999999999998,
+      "text": " dados pessoais a essas pessoas."
+    },
+    {
+      "start": 149.7,
+      "end": 151.88,
+      "text": " E aqui você vai colocar o nome"
+    },
+    {
+      "start": 151.88,
+      "end": 152.57999999999998,
+      "text": " dessa pessoa"
+    },
+    {
+      "start": 152.57999999999998,
+      "end": 155.89999999999998,
+      "text": " utilizando a função de concatenar."
+    },
+    {
+      "start": 156.95999999999998,
+      "end": 157.92,
+      "text": " Então, após pegar esses"
+    },
+    {
+      "start": 157.92,
+      "end": 158.29999999999998,
+      "text": " dados,"
+    },
+    {
+      "start": 160.26,
+      "end": 162.88,
+      "text": " vamos colar aqui na primeira"
+    },
+    {
+      "start": 162.88,
+      "end": 163.29999999999998,
+      "text": " coluna"
+    },
+    {
+      "start": 163.29999999999998,
+      "end": 166.04,
+      "text": " e logo após"
+    },
+    {
+      "start": 166.04,
+      "end": 170.27999999999997,
+      "text": " o número de telefone de cada uma delas."
+    },
+    {
+      "start": 172.66,
+      "end": 179.35999999999999,
+      "text": " Aqui pela Hotmart, o padrão deste relatório é que ele coloque separadamente DDD e número de telefone."
+    },
+    {
+      "start": 179.67999999999998,
+      "end": 183.2,
+      "text": " Então, aqui a gente vai colocar mais uma informação para que fique completo dessa maneira,"
+    },
+    {
+      "start": 183.64,
+      "end": 188.56,
+      "text": " e assim o Google Contatos consiga sincronizar com muito mais rapidez os números de cada uma dessas pessoas."
+    },
+    {
+      "start": 189.77999999999997,
+      "end": 194.94,
+      "text": " Então, aqui a gente vai colocar o mais 5 sim, mas antes é interessante que você coloque a coluna"
+    },
+    {
+      "start": 194.94,
+      "end": 197.61999999999998,
+      "text": " para que ela fique na formatação de texto."
+    },
+    {
+      "start": 197.62,
+      "end": 203.28,
+      "text": " Assim o Excel não vai entender como uma forma"
+    },
+    {
+      "start": 203.28,
+      "end": 207.6,
+      "text": " Você pode repetir nas demais células"
+    },
+    {
+      "start": 207.6,
+      "end": 210.3,
+      "text": " Então aqui você vai colocar igual"
+    },
+    {
+      "start": 210.3,
+      "end": 212.16,
+      "text": " Clica na coluna D"
+    },
+    {
+      "start": 212.16,
+      "end": 214.4,
+      "text": " Coloque o E comercial"
+    },
+    {
+      "start": 214.4,
+      "end": 216.56,
+      "text": " Coluna B"
+    },
+    {
+      "start": 216.56,
+      "end": 217.92000000000002,
+      "text": " E comercial"
+    },
+    {
+      "start": 217.92000000000002,
+      "end": 218.74,
+      "text": " Coluna C"
+    },
+    {
+      "start": 218.74,
+      "end": 222.52,
+      "text": " Dessa maneira você vai ter o número já no padrão brasileiro"
+    },
+    {
+      "start": 222.52,
+      "end": 224.46,
+      "text": " Caso você faça vendas para o exterior"
+    },
+    {
+      "start": 224.46,
+      "end": 226.4,
+      "text": " Você pode utilizar dessa mesma maneira"
+    },
+    {
+      "start": 226.70000000000002,
+      "end": 231.88,
+      "text": " contanto que você coloque aqui na coluna D o DDD, que é específico de cada país."
+    },
+    {
+      "start": 232.5,
+      "end": 235.84,
+      "text": " Então aqui a gente vai também mais uma vez clicar duas vezes,"
+    },
+    {
+      "start": 235.98000000000002,
+      "end": 239.62,
+      "text": " para que dessa maneira a fórmula seja replicada em todas as células abaixo."
+    },
+    {
+      "start": 240.22,
+      "end": 244.64000000000001,
+      "text": " Então eu vou dar um Ctrl C, e logo aqui numa coluna do lado,"
+    },
+    {
+      "start": 244.64000000000001,
+      "end": 249.12,
+      "text": " você pode colocar um Ctrl V e colocar somente valores."
+    },
+    {
+      "start": 251.70000000000002,
+      "end": 255.46,
+      "text": " Logo mais você pode apagar todas essas outras informações."
+    },
+    {
+      "start": 256.4,
+      "end": 263.78,
+      "text": " e jogar essas informações aqui para a coluna B."
+    },
+    {
+      "start": 267.59999999999997,
+      "end": 274.35999999999996,
+      "text": " Agora o próximo passo muito importante é que você salve essa planilha como CSV em vírgulas."
+    },
+    {
+      "start": 277.47999999999996,
+      "end": 281.14,
+      "text": " Ela já está nesse padrão, essa planilha é uma planilha que eu já tenho,"
+    },
+    {
+      "start": 281.47999999999996,
+      "end": 286.38,
+      "text": " porém caso você vá salvá-la da primeira vez, é importantíssimo que você salve como CSV em vírgulas."
+    },
+    {
+      "start": 286.4,
+      "end": 293.65999999999997,
+      "text": " Assim vai ficar no padrão para que o Google Contatos consiga reconhecer estes nomes e números"
+    },
+    {
+      "start": 293.65999999999997,
+      "end": 298.71999999999997,
+      "text": " O próximo passo que você precisa fazer é estar logado na sua conta no Google Accounts"
+    },
+    {
+      "start": 298.71999999999997,
+      "end": 299.85999999999996,
+      "text": " No Google Contatos"
+    },
+    {
+      "start": 299.85999999999996,
+      "end": 302.56,
+      "text": " Então, vou mostrar aqui como é que funciona"
+    },
+    {
+      "start": 302.56,
+      "end": 306.29999999999995,
+      "text": " Vindo aqui no Google Contatos, você vai descer aqui essa coluna esquerda"
+    },
+    {
+      "start": 306.29999999999995,
+      "end": 310.06,
+      "text": " E vai encontrar a opção de importar os contatos"
+    },
+    {
+      "start": 310.06,
+      "end": 311.7,
+      "text": " E você vai selecionar o arquivo"
+    },
+    {
+      "start": 311.7,
+      "end": 315.4,
+      "text": " A partir do momento que você abrir essa seleção de arquivos"
+    },
+    {
+      "start": 315.4,
+      "end": 317.29999999999995,
+      "text": " Você vai colocar aqui"
+    },
+    {
+      "start": 317.29999999999995,
+      "end": 319.21999999999997,
+      "text": " Pode ser o nome que você preferir"
+    },
+    {
+      "start": 319.21999999999997,
+      "end": 321.47999999999996,
+      "text": " Para essa planilha, eu prefiro usar nomes limpeza"
+    },
+    {
+      "start": 321.47999999999996,
+      "end": 323.14,
+      "text": " Então assim fica ainda mais fácil de encontrar"
+    },
+    {
+      "start": 323.14,
+      "end": 325.38,
+      "text": " E mais uma vez ele está em .csv"
+    },
+    {
+      "start": 325.38,
+      "end": 326.96,
+      "text": " Abrindo aqui"
+    },
+    {
+      "start": 326.96,
+      "end": 329.32,
+      "text": " Ele vai importar esses nomes"
+    },
+    {
+      "start": 329.32,
+      "end": 331.14,
+      "text": " O tempo vai depender"
+    },
+    {
+      "start": 331.14,
+      "end": 332.9,
+      "text": " Do número de pessoas que compraram"
+    },
+    {
+      "start": 332.9,
+      "end": 334.56,
+      "text": " Números que estão lá dentro"
+    },
+    {
+      "start": 334.56,
+      "end": 337.59999999999997,
+      "text": " Então geralmente leva de 5 a 10 minutos"
+    },
+    {
+      "start": 337.59999999999997,
+      "end": 338.84,
+      "text": " Dessa vez foi bem rápido"
+    },
+    {
+      "start": 338.84,
+      "end": 340.5,
+      "text": " O outro passo que você precisa fazer"
+    },
+    {
+      "start": 340.5,
+      "end": 342.82,
+      "text": " Ele vai depender do seu telefone celular"
+    },
+    {
+      "start": 342.82,
+      "end": 344.56,
+      "text": " A partir do momento que você está"
+    },
+    {
+      "start": 344.56,
+      "end": 348.06,
+      "text": " aqui no seu celular, você pode ir em suas configurações"
+    },
+    {
+      "start": 348.06,
+      "end": 350.64,
+      "text": " e você vai ir em contas"
+    },
+    {
+      "start": 350.64,
+      "end": 355.28000000000003,
+      "text": " e backup. No iOS também é possível"
+    },
+    {
+      "start": 355.28000000000003,
+      "end": 358.98,
+      "text": " fazer essa sincronização, então mesmo que você tenha um iOS"
+    },
+    {
+      "start": 358.98,
+      "end": 362.96,
+      "text": " contanto que você tenha a sua conta do Google associada ao seu telefone"
+    },
+    {
+      "start": 362.96,
+      "end": 365.46,
+      "text": " iOS, também será possível fazer essa sincronização."
+    },
+    {
+      "start": 366.66,
+      "end": 371.24,
+      "text": " Você vem em contas e clica em cima da conta que você acabou de fazer"
+    },
+    {
+      "start": 371.24,
+      "end": 374.82,
+      "text": " fechei essa importação dos dados e peço para sincronizar."
+    },
+    {
+      "start": 375.24,
+      "end": 377.82,
+      "text": " Os meus contatos, assim como vocês verão agora,"
+    },
+    {
+      "start": 377.88,
+      "end": 381.04,
+      "text": " ele está sincronizando ainda, então isso leva alguns segundos."
+    },
+    {
+      "start": 381.54,
+      "end": 385.84000000000003,
+      "text": " E logo mais, todos esses contatos, esses 182 contatos"
+    },
+    {
+      "start": 385.84000000000003,
+      "end": 388.94,
+      "text": " que a gente acabou de importar, eles estarão tanto na minha agenda"
+    },
+    {
+      "start": 388.94,
+      "end": 392.34000000000003,
+      "text": " do Google, quanto será possível vê-los dentro de qualquer grupo"
+    },
+    {
+      "start": 392.34000000000003,
+      "end": 393.44,
+      "text": " que eles estiverem em comum."
+    },
+    {
+      "start": 394.06,
+      "end": 395.82,
+      "text": " Então, assim que terminar de fazer a sincronização,"
+    },
+    {
+      "start": 395.96000000000004,
+      "end": 400.12,
+      "text": " ela pode levar algum tempo, você pode entrar lá no seu WhatsApp"
+    },
+    {
+      "start": 400.12,
+      "end": 405.96,
+      "text": " e você vai perceber que, caso tenha alguma pessoa em qualquer grupo em comum,"
+    },
+    {
+      "start": 406.36,
+      "end": 408.9,
+      "text": " você conseguirá achá-la com muito mais facilidade."
+    },
+    {
+      "start": 409.34000000000003,
+      "end": 412.14,
+      "text": " Porque sempre que você tem contatos dentro do WhatsApp"
+    },
+    {
+      "start": 412.14,
+      "end": 413.84000000000003,
+      "text": " que eles não estão salvos em sua agenda,"
+    },
+    {
+      "start": 414.16,
+      "end": 417.26,
+      "text": " eles vão ficar de acordo com o DDD e o DDI."
+    },
+    {
+      "start": 418.22,
+      "end": 420.36,
+      "text": " Porém, se você tiver alguma pessoa salva,"
+    },
+    {
+      "start": 420.56,
+      "end": 424.68,
+      "text": " ela vai aparecer em primeiro lugar depois dos administradores."
+    },
+    {
+      "start": 425.16,
+      "end": 426.96,
+      "text": " Então, logo mais aqui, a gente pode ver que"
+    },
+    {
+      "start": 426.96,
+      "end": 430.09999999999997,
+      "text": " Já encontrei algumas pessoas aqui que fizeram a compra"
+    },
+    {
+      "start": 430.09999999999997,
+      "end": 431.35999999999996,
+      "text": " Todos esses leads aqui"
+    },
+    {
+      "start": 431.35999999999996,
+      "end": 432.73999999999995,
+      "text": " Eu irei removê-los"
+    },
+    {
+      "start": 432.73999999999995,
+      "end": 434.71999999999997,
+      "text": " Antes de fazer a minha segunda oferta"
+    },
+    {
+      "start": 434.71999999999997,
+      "end": 437.79999999999995,
+      "text": " Agora eu vou mostrar uma forma bem mais ágil"
+    },
+    {
+      "start": 437.79999999999995,
+      "end": 439.82,
+      "text": " Para que vocês possam remover"
+    },
+    {
+      "start": 439.82,
+      "end": 442.15999999999997,
+      "text": " Essas pessoas de dentro dos grupos"
+    },
+    {
+      "start": 442.15999999999997,
+      "end": 443.56,
+      "text": " Que não seja no 1 a 1"
+    },
+    {
+      "start": 443.56,
+      "end": 445.76,
+      "text": " Vindo pelo seu WhatsApp web"
+    },
+    {
+      "start": 445.76,
+      "end": 447.7,
+      "text": " Como a gente viu ali no grupo 1"
+    },
+    {
+      "start": 447.7,
+      "end": 449.06,
+      "text": " A gente tem algumas pessoas"
+    },
+    {
+      "start": 449.06,
+      "end": 452.14,
+      "text": " Então a partir do momento que eu já tenho essas pessoas aqui"
+    },
+    {
+      "start": 452.14,
+      "end": 454.0,
+      "text": " É muito mais fácil de identificá-las"
+    },
+    {
+      "start": 454.0,
+      "end": 455.76,
+      "text": " Eu posso clicar aqui na lupinha"
+    },
+    {
+      "start": 455.76,
+      "end": 458.2,
+      "text": " que fica logo perto"
+    },
+    {
+      "start": 458.2,
+      "end": 460.3,
+      "text": " dos participantes, clicar com o meu botão"
+    },
+    {
+      "start": 460.3,
+      "end": 462.0,
+      "text": " esquerdo em cima da pessoa e"
+    },
+    {
+      "start": 462.0,
+      "end": 464.2,
+      "text": " removê-la em seguida. Então, dessa"
+    },
+    {
+      "start": 464.2,
+      "end": 465.98,
+      "text": " maneira eu consigo fazer uma remoção"
+    },
+    {
+      "start": 465.98,
+      "end": 467.96,
+      "text": " muito mais rápida, uma limpeza"
+    },
+    {
+      "start": 467.96,
+      "end": 470.21999999999997,
+      "text": " muito mais dinâmica"
+    },
+    {
+      "start": 470.21999999999997,
+      "end": 472.18,
+      "text": " dos meus grupos. E assim você"
+    },
+    {
+      "start": 472.18,
+      "end": 473.76,
+      "text": " pode seguir em todos os grupos."
+    },
+    {
+      "start": 474.64,
+      "end": 476.09999999999997,
+      "text": " Entra nos participantes, veja"
+    },
+    {
+      "start": 476.09999999999997,
+      "end": 478.03999999999996,
+      "text": " se algum há necessidade de ser"
+    },
+    {
+      "start": 478.03999999999996,
+      "end": 479.3,
+      "text": " removido e"
+    },
+    {
+      "start": 479.3,
+      "end": 482.08,
+      "text": " pode clicar"
+    },
+    {
+      "start": 482.08,
+      "end": 484.14,
+      "text": " em removê-los. Bom, para essa aula é"
+    },
+    {
+      "start": 484.14,
+      "end": 486.44,
+      "text": " isso, pessoal. Então, mais uma vez, bons lançamentos"
+    },
+    {
+      "start": 486.44,
+      "end": 487.9,
+      "text": " para vocês e até a próxima."
+    }
+  ]
+}

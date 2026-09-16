@@ -1,0 +1,46 @@
+# Tempo ou Dinheiro
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 02 - Meteorico Starter.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 02 - Meteorico Starter\m2_a4_tempo_ou_dinheiro.mp4`. Duração: 00:01:30.813.
+SHA-256 do vídeo: `e7f9c73494189da225d4990a3d4cafaf77e641e8c65f4864974e1c3020733f64`. [Origem](https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br).
+
+[00:00:00.000–00:00:07.140] Tempo e dinheiro. Esses são os dois recursos básicos que todo empreendedor possui para realizar os seus projetos.
+
+[00:00:07.220–00:00:12.340] Quando nós idealizamos o Meteórico Starter, nós ponderamos bastante em como poderíamos ajudar
+
+[00:00:12.340–00:00:16.840] tanto quem tem dinheiro, mas não tem tempo, quanto quem tem tempo disponível,
+
+[00:00:17.100–00:00:21.060] mas no momento está sem recursos para investir no empilhamento dos leads.
+
+[00:00:21.680–00:00:26.480] O fato é que para você seguir adiante, você vai precisar usar um desses dois recursos.
+
+[00:00:26.480–00:00:30.560] Então vem comigo, vem comigo para entender como vai ser a partir de agora.
+
+[00:00:30.900–00:00:35.980] Para empilhar os leads necessários em seu grupo mix, você tem duas opções.
+
+[00:00:36.240–00:00:42.960] Opção 1, investir em anúncios, em ads no Facebook e no Instagram que vão atrair a sua audiência para o grupo mix.
+
+[00:00:43.580–00:00:52.960] Opção 2, dedicar seu tempo prospectando em eventos, grupos do Facebook, do WhatsApp, de terceiros e nos ecossistemas onde o seu potencial cliente está.
+
+[00:00:52.960–00:00:58.360] E para que você localize de modo fácil quais aulas estão mais ligadas à sua realidade,
+
+[00:00:58.880–00:01:03.820] no título das próximas aulas estará escrito dinheiro, caso você vá empilhar fazendo anúncio.
+
+[00:01:03.980–00:01:08.820] Ou estará escrito tempo, caso você use apenas o seu tempo para prospectar os leads.
+
+[00:01:09.480–00:01:11.160] Tales, eu posso fazer as duas coisas?
+
+[00:01:11.320–00:01:15.740] Tipo, eu posso investir um pouco de recursos em anúncios e também usar o meu tempo prospectando?
+
+[00:01:16.320–00:01:17.240] Pode sim, claro.
+
+[00:01:17.700–00:01:21.060] Se esse for o seu caso, pode assistir todas as aulas, não tem problema.
+
+[00:01:21.620–00:01:23.520] Faça o que ficar melhor para você.
+
+[00:01:23.940–00:01:26.940] O importante é chegar na meta de leads que você definiu.
+
+[00:01:27.700–00:01:29.720] Dito isso, vamos seguir adiante.
+
+[00:01:29.940–00:01:30.600] Vamos para cima.

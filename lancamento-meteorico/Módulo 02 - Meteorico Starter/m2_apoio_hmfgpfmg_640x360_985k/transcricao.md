@@ -1,0 +1,206 @@
+# Vídeo adicional hmfgpfmg 640x360 985K
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 02 - Meteorico Starter.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 02 - Meteorico Starter\m2_apoio_hmfgpfmg_640x360_985k.mp4`. Duração: 00:05:57.312.
+SHA-256 do vídeo: `2b86a9b692240c733bac6bbf8aaad9a213ca8e81583542af63c9482045d60d66`. [Origem](https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br).
+
+[00:00:00.000–00:00:04.560] O que você aprendeu até aqui no Starter ainda é o início da sua jornada.
+
+[00:00:04.900–00:00:07.080] Você não tinha leads, agora sabe como tê-los.
+
+[00:00:07.400–00:00:09.520] Não sabia como aquecê-los e agora sabe.
+
+[00:00:10.140–00:00:15.140] Isso é um grande passo para quem estava no zero antes do treinamento começar, não é verdade?
+
+[00:00:15.760–00:00:24.780] É preciso que você compreenda que executar o Starter vai proporcionar a você a variável mais importante nos negócios, que é a experiência.
+
+[00:00:25.000–00:00:29.820] Nada gera mais conhecimento das nossas capacidades próprias do que a prática.
+
+[00:00:30.000–00:00:32.940] E é isso que eu quero que você adquira, prática.
+
+[00:00:33.460–00:00:36.540] Depois que você realizar o seu primeiro starter, você estará testado,
+
+[00:00:36.920–00:00:40.640] pronto para escalar e partir para meteóricos mais grandiosos.
+
+[00:00:41.200–00:00:44.740] Você vai errar? Vai, com certeza, mas vai acertar também.
+
+[00:00:45.200–00:00:49.020] Essa prática vai te levar a um patamar que você ainda não tinha chegado,
+
+[00:00:49.260–00:00:51.360] o patamar daqueles que realizam.
+
+[00:00:51.360–00:00:54.120] Eu considero importante dizer isso para você nesse momento,
+
+[00:00:54.240–00:00:56.160] porque é aqui que muitos desistem.
+
+[00:00:56.560–00:00:59.120] É agora, prestes a colocar a mão na massa,
+
+[00:00:59.120–00:01:04.920] que o seu cérebro vai procurar sabotar você, dizendo que você não vai conseguir e não deve nem tentar.
+
+[00:01:05.360–00:01:07.300] Então, você consegue sim, beleza?
+
+[00:01:07.960–00:01:13.220] É hora de desafiar sua zona de conforto, colocar a mão na massa em algo que você nunca fez.
+
+[00:01:13.900–00:01:19.180] Todos, absolutamente todos os que estão hoje no topo, saindo desse mesmo lugar onde você está,
+
+[00:01:19.440–00:01:21.160] que é o básico, tá entendendo?
+
+[00:01:21.700–00:01:25.720] Eu senti que eu precisava dizer isso pra você nesse momento.
+
+[00:01:26.140–00:01:29.800] Agora, vamos repassar rapidamente a jornada até aqui.
+
+[00:01:29.880–00:01:30.240] Olha só.
+
+[00:01:30.620–00:01:32.980] Você já passou pela fase de convite para os grupos,
+
+[00:01:33.340–00:01:34.560] anunciando o seu evento,
+
+[00:01:34.880–00:01:37.200] seja ele um workshop, um minicurso,
+
+[00:01:37.460–00:01:39.280] o que você definiu lá atrás.
+
+[00:01:39.600–00:01:41.700] Você já empilhou os leads nos grupos
+
+[00:01:41.700–00:01:44.300] e nutriu eles através do seu evento.
+
+[00:01:44.640–00:01:47.440] Na aula passada, falamos sobre a segunda-feira
+
+[00:01:47.440–00:01:50.100] e a recapitulação de todos os conteúdos.
+
+[00:01:50.320–00:01:53.900] Nessa aula agora, nós estamos na terça-feira.
+
+[00:01:53.900–00:02:00.600] Terça é o dia da transição para amanhã revelarmos a oferta e na quinta abrir o carrinho
+
+[00:02:00.600–00:02:03.740] Então hoje é um dia muito, muito importante
+
+[00:02:03.740–00:02:09.020] A verdade é que toda a jornada do seu evento foi esquentando as pessoas para esse momento
+
+[00:02:09.020–00:02:13.120] Então nesse dia você vai publicar no grupo uma cópia em texto
+
+[00:02:13.120–00:02:18.420] Ou preferencialmente um vídeo seu anunciando a transição do grupo mix
+
+[00:02:18.420–00:02:21.620] Essa cópia de terça é a chave da mudança
+
+[00:02:21.620–00:02:25.560] É com ela que o grupo pivota para a direção que nós queremos.
+
+[00:02:25.900–00:02:27.280] Por isso, muita atenção.
+
+[00:02:27.780–00:02:32.040] Eu recomendo postar a cópia de transição, seja em texto, seja em vídeo,
+
+[00:02:32.360–00:02:36.040] logo no início da manhã da terça, às 8 horas, no máximo.
+
+[00:02:36.660–00:02:40.540] Aqui na área de membros está o PDF com o script dessa cópia.
+
+[00:02:40.900–00:02:44.320] Reforço que se você gravar um vídeo com ela, é ainda melhor.
+
+[00:02:45.120–00:02:48.380] Nesse vídeo, você vai explicar que o grupo está mudando
+
+[00:02:48.380–00:02:51.640] e que você está preparando uma oferta especial
+
+[00:02:51.640–00:02:56.760] para todos aqueles que permaneceram juntos na jornada do evento tal.
+
+[00:02:57.000–00:02:58.660] Aí você cita o nome do seu evento.
+
+[00:02:58.880–00:03:01.140] Minicurso, workshop, por aí vai, legal?
+
+[00:03:01.700–00:03:04.500] Essa oferta especial é um reconhecimento.
+
+[00:03:05.160–00:03:09.860] Escreve aí para você usar essa palavra nas interações que fará lá no grupo.
+
+[00:03:10.380–00:03:13.940] Reconhecimento pelo comprometimento de todos até aqui
+
+[00:03:13.940–00:03:18.520] e que nessa quarta você vai revelar que oferta especial é essa.
+
+[00:03:19.180–00:03:20.660] Preste atenção agora, tá bom?
+
+[00:03:20.960–00:03:25.920] Nesse vídeo, além de pivotar o grupo, você vai dizer que o produto que entrará em oferta especial,
+
+[00:03:26.460–00:03:29.780] quando aberto para o mercado, ele vai custar X.
+
+[00:03:30.500–00:03:34.440] E esse X é um valor mais alto, é um valor para fora, é um valor para o mercado.
+
+[00:03:34.780–00:03:43.100] Mas quem acompanhou a jornada do seu evento vai ter uma oportunidade de adquiri-lo por um valor muito menor que X.
+
+[00:03:43.100–00:03:44.980] Você vai definir o seu X, né?
+
+[00:03:45.380–00:03:49.920] Então, você vai falar que depois desse movimento vai custar mais
+
+[00:03:49.920–00:03:51.980] e que quem está aqui vai pagar menos.
+
+[00:03:52.320–00:03:55.380] Eu recomendo que você ofereça uma condição realmente encantadora.
+
+[00:03:55.540–00:03:57.960] 50%, 40% de desconto, ok?
+
+[00:03:58.240–00:04:01.600] O desconto mínimo que eu recomendo é de 35%.
+
+[00:04:01.600–00:04:05.400] Faça isso para que as vendas sejam mais expressivas, combinado?
+
+[00:04:05.960–00:04:10.220] E detalhe, nesse vídeo da terça, você não vai falar o tamanho do desconto
+
+[00:04:10.220–00:04:12.460] nem o preço com desconto ainda.
+
+[00:04:12.460–00:04:17.000] apenas o preço cheio, o objetivo é criar a ancoragem do preço
+
+[00:04:17.000–00:04:20.720] na mente dos participantes do grupo, as pessoas vão perguntar
+
+[00:04:20.720–00:04:24.680] detalhes do produto e é aí que a mágica começa a acontecer
+
+[00:04:24.680–00:04:29.060] e lembre-se que o grupo está aberto, as interações vão estar acontecendo
+
+[00:04:29.060–00:04:32.900] e você só fechou o grupo lá na hora de descansar, mas ele está
+
+[00:04:32.900–00:04:36.840] aberto desde ontem, legal? Outra coisa que eu acho muito legal
+
+[00:04:36.840–00:04:41.000] que você pode fazer, não é obrigatório aqui no Starter, mas é muito útil
+
+[00:04:41.000–00:04:43.540] criar uma página de vendas do produto
+
+[00:04:43.540–00:04:47.300] para que as pessoas possam conhecer mais detalhes sobre ele.
+
+[00:04:47.580–00:04:50.200] Existe uma aula no módulo Meteorico Clássico
+
+[00:04:50.200–00:04:52.540] chamada A Página de Vendas que Não Vende,
+
+[00:04:52.820–00:04:54.620] onde eu explico sobre essa página.
+
+[00:04:55.060–00:04:58.720] Nesse ponto exato, o fluxo é o mesmo do Meteorico Clássico.
+
+[00:04:58.780–00:05:00.900] Então você pode aprender o que eu ensino lá naquela aula
+
+[00:05:00.900–00:05:02.780] e aplicar aqui no seu starter.
+
+[00:05:02.900–00:05:05.500] Como eu disse, não é obrigatório, mas é bom que você faça.
+
+[00:05:05.500–00:05:08.480] E nas suas interações com as pessoas,
+
+[00:05:08.700–00:05:10.360] você vai citando a página.
+
+[00:05:10.360–00:05:13.800] e permitindo que elas façam perguntas sobre o produto.
+
+[00:05:14.460–00:05:15.500] Deixa fluir, tá?
+
+[00:05:15.920–00:05:17.120] Vai interagindo com as pessoas.
+
+[00:05:17.260–00:05:19.080] As pessoas vão lá na página, voltam, perguntam.
+
+[00:05:19.160–00:05:19.720] É isso que é.
+
+[00:05:20.220–00:05:21.760] E na terça, esse é o fluxo.
+
+[00:05:22.160–00:05:24.340] Os próximos passos do seu start serão
+
+[00:05:24.340–00:05:27.800] revelar a oferta na quarta e abrir o carrinho na quinta.
+
+[00:05:28.240–00:05:31.380] Nas próximas aulas vamos dar detalhes desses movimentos.
+
+[00:05:31.860–00:05:34.600] Eu imagino que a sua mente agora esteja fervilhando
+
+[00:05:34.600–00:05:36.460] ideias, dúvidas, vontade de começar,
+
+[00:05:36.460–00:05:39.780] um pouquinho de medo ou talvez um misto de tudo isso junto, não é não?
+
+[00:05:39.780–00:05:49.520] É assim mesmo, faz parte, mas coloque foco no que ainda vem pela frente e continue anotando o que você não pode esquecer de jeito nenhum, tá bom?
+
+[00:05:49.920–00:05:55.080] Lembrando que o PDF da cópia do seu vídeo para você baixar está aqui na área de membros.
+
+[00:05:55.440–00:05:56.740] Vamos para a próxima aula.

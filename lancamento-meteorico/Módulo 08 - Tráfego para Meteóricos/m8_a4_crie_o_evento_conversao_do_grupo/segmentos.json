@@ -1,0 +1,1347 @@
+{
+  "settings": {
+    "model": "large-v3-turbo",
+    "language": "pt",
+    "task": "transcribe",
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Talles Quinderé. Lançamento Meteórico."
+  },
+  "source_sha256": "554d74adc23c82886a8be59722fca5b5b94e1d569afc04e534599e819f98a03f",
+  "source_video": "D:\\Cursos\\Lançamento Meteórico\\Módulo 08 - Tráfego para Meteóricos\\m8_a4_crie_o_evento_conversao_do_grupo.mp4",
+  "transcribed_at_utc": "2026-09-16T22:59:05.278591+00:00",
+  "language_detected": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.36,
+      "text": " Fala pessoal, seja bem-vindo a mais uma aula do Método Meteórico."
+    },
+    {
+      "start": 3.9,
+      "end": 6.0200000000000005,
+      "text": " E nessa aula a gente vai falar de um assunto muito importante,"
+    },
+    {
+      "start": 6.44,
+      "end": 8.8,
+      "text": " que é sobre a criação da conversão personalizada,"
+    },
+    {
+      "start": 9.38,
+      "end": 13.46,
+      "text": " porque ela é o único jeito que a gente tem de metrificar"
+    },
+    {
+      "start": 13.46,
+      "end": 19.3,
+      "text": " quantas pessoas de fato estão próximas de entrar no nosso grupo do WhatsApp."
+    },
+    {
+      "start": 19.46,
+      "end": 20.6,
+      "text": " Por que próximas?"
+    },
+    {
+      "start": 21.2,
+      "end": 27.16,
+      "text": " Porque o WhatsApp não permite que a gente instale o pixel dentro do próprio grupo do WhatsApp,"
+    },
+    {
+      "start": 27.16,
+      "end": 29.64,
+      "text": " então a gente não consegue puxar para as campanhas"
+    },
+    {
+      "start": 29.64,
+      "end": 31.96,
+      "text": " a quantidade exata de pessoas que está entrando"
+    },
+    {
+      "start": 31.96,
+      "end": 33.06,
+      "text": " de fato no grupo"
+    },
+    {
+      "start": 33.06,
+      "end": 35.34,
+      "text": " mas a gente consegue puxar para as campanhas"
+    },
+    {
+      "start": 35.34,
+      "end": 37.24,
+      "text": " quantas pessoas passaram pelo Redirect"
+    },
+    {
+      "start": 37.24,
+      "end": 39.56,
+      "text": " e esse vai ser o determinante"
+    },
+    {
+      "start": 39.56,
+      "end": 42.08,
+      "text": " para a gente saber qual anúncio escalar"
+    },
+    {
+      "start": 42.08,
+      "end": 43.22,
+      "text": " qual campanha escalar"
+    },
+    {
+      "start": 43.22,
+      "end": 44.980000000000004,
+      "text": " qual conjunto de anúncios escalar"
+    },
+    {
+      "start": 44.980000000000004,
+      "end": 47.519999999999996,
+      "text": " então fazendo dessa forma"
+    },
+    {
+      "start": 47.519999999999996,
+      "end": 49.879999999999995,
+      "text": " criando a conversão personalizada desse link do Redirect"
+    },
+    {
+      "start": 49.879999999999995,
+      "end": 51.58,
+      "text": " a gente consegue tanto"
+    },
+    {
+      "start": 51.58,
+      "end": 53.82,
+      "text": " metrificar isso na campanha de cadastro"
+    },
+    {
+      "start": 53.82,
+      "end": 55.1,
+      "text": " antiga conversão"
+    },
+    {
+      "start": 55.1,
+      "end": 57.6,
+      "text": " Quanto na campanha de tráfego"
+    },
+    {
+      "start": 57.6,
+      "end": 60.660000000000004,
+      "text": " Quando a gente estiver fazendo os testes de campanha"
+    },
+    {
+      "start": 60.660000000000004,
+      "end": 62.38,
+      "text": " Para saber qual vai performar melhor"
+    },
+    {
+      "start": 62.38,
+      "end": 66.18,
+      "text": " Então eu vou ensinar para vocês como criar essa conversão"
+    },
+    {
+      "start": 66.18,
+      "end": 68.02,
+      "text": " E como criar a coluna"
+    },
+    {
+      "start": 68.02,
+      "end": 69.8,
+      "text": " Para poder puxar essa conversão"
+    },
+    {
+      "start": 69.8,
+      "end": 71.4,
+      "text": " Para poder fazer essa análise direta"
+    },
+    {
+      "start": 71.4,
+      "end": 72.46000000000001,
+      "text": " Vamos lá então"
+    },
+    {
+      "start": 72.46000000000001,
+      "end": 74.36,
+      "text": " Primeiro"
+    },
+    {
+      "start": 74.36,
+      "end": 77.4,
+      "text": " A gente vai vir nessa tela padrão aqui da configuração"
+    },
+    {
+      "start": 77.4,
+      "end": 79.08,
+      "text": " Deixei já duas campanhas criadas aqui"
+    },
+    {
+      "start": 79.08,
+      "end": 80.66,
+      "text": " Para exemplificar para vocês"
+    },
+    {
+      "start": 80.66,
+      "end": 84.38,
+      "text": " Mas a gente vai vir aqui no menu lateral da esquerda"
+    },
+    {
+      "start": 84.38,
+      "end": 85.75999999999999,
+      "text": " Em todas as ferramentas"
+    },
+    {
+      "start": 85.75999999999999,
+      "end": 87.32,
+      "text": " Eu estou usando uma conta genérica aqui"
+    },
+    {
+      "start": 87.32,
+      "end": 88.88,
+      "text": " Só para mostrar os exemplos para vocês"
+    },
+    {
+      "start": 88.88,
+      "end": 91.08,
+      "text": " Então a gente vai vir aqui na esquerda"
+    },
+    {
+      "start": 91.08,
+      "end": 92.32,
+      "text": " Gerenciador de eventos"
+    },
+    {
+      "start": 92.32,
+      "end": 93.88,
+      "text": " A gente vai cair nessa tela aqui"
+    },
+    {
+      "start": 93.88,
+      "end": 95.72,
+      "text": " Onde a gente vai ter que escolher o pixel"
+    },
+    {
+      "start": 95.72,
+      "end": 97.14,
+      "text": " O pixel da nossa conta"
+    },
+    {
+      "start": 97.14,
+      "end": 98.92,
+      "text": " Eu vou escolher esse 1"
+    },
+    {
+      "start": 98.92,
+      "end": 101.17999999999999,
+      "text": " Aí você escolhe o pixel da sua conta"
+    },
+    {
+      "start": 101.17999999999999,
+      "end": 103.62,
+      "text": " E aqui no menu lateral direito"
+    },
+    {
+      "start": 103.62,
+      "end": 105.78,
+      "text": " Tem um botão criar"
+    },
+    {
+      "start": 105.78,
+      "end": 107.28,
+      "text": " Botãozinho verde escrito criar"
+    },
+    {
+      "start": 107.28,
+      "end": 109.06,
+      "text": " Quando você clica nele"
+    },
+    {
+      "start": 109.06,
+      "end": 110.24,
+      "text": " Você vem na última opção"
+    },
+    {
+      "start": 110.24,
+      "end": 111.75999999999999,
+      "text": " Que é criar conversão personalizada"
+    },
+    {
+      "start": 111.75999999999999,
+      "end": 113.74,
+      "text": " Aqui, muito importante"
+    },
+    {
+      "start": 113.74,
+      "end": 116.14,
+      "text": " Você escolherá um nome para a sua conversão"
+    },
+    {
+      "start": 116.14,
+      "end": 117.86,
+      "text": " Lembrando que você vai ter que lembrar desse nome"
+    },
+    {
+      "start": 117.86,
+      "end": 119.1,
+      "text": " Para poder puxar na coluna"
+    },
+    {
+      "start": 119.1,
+      "end": 120.86,
+      "text": " Então recomendo algo simples"
+    },
+    {
+      "start": 120.86,
+      "end": 123.58,
+      "text": " Vou usar algo bem simples mesmo"
+    },
+    {
+      "start": 123.58,
+      "end": 125.61999999999999,
+      "text": " Entrou no grupo"
+    },
+    {
+      "start": 125.61999999999999,
+      "end": 127.58,
+      "text": " Pode colocar o nome que você quiser"
+    },
+    {
+      "start": 127.58,
+      "end": 128.38,
+      "text": " Para identificar"
+    },
+    {
+      "start": 128.38,
+      "end": 130.32,
+      "text": " Aqui você vai escolher seu pixel"
+    },
+    {
+      "start": 130.32,
+      "end": 131.88,
+      "text": " Normalmente vem setado por padrão"
+    },
+    {
+      "start": 131.88,
+      "end": 133.29999999999998,
+      "text": " Aquele que você escolheu antes"
+    },
+    {
+      "start": 133.29999999999998,
+      "end": 134.45999999999998,
+      "text": " Para poder entrar nessa página"
+    },
+    {
+      "start": 134.45999999999998,
+      "end": 136.5,
+      "text": " Na parte de evento"
+    },
+    {
+      "start": 136.5,
+      "end": 137.34,
+      "text": " Você não vai mexer"
+    },
+    {
+      "start": 137.34,
+      "end": 139.4,
+      "text": " Vai permanecer todo o tráfego da URL"
+    },
+    {
+      "start": 139.4,
+      "end": 142.16,
+      "text": " E você vai escolher um evento padrão de otimização"
+    },
+    {
+      "start": 142.16,
+      "end": 146.12,
+      "text": " Aqui a gente vai clicar em selecione a sua própria categoria"
+    },
+    {
+      "start": 146.12,
+      "end": 148.14,
+      "text": " E vir em cadastro"
+    },
+    {
+      "start": 148.14,
+      "end": 152.62,
+      "text": " Pra gente informar pro Facebook que essa conversão personalizada é um cadastro"
+    },
+    {
+      "start": 152.62,
+      "end": 155.1,
+      "text": " A pessoa entrando no grupo conta como um cadastro"
+    },
+    {
+      "start": 155.1,
+      "end": 158.92,
+      "text": " E na URL você vai colocar a URL do seu Redirect"
+    },
+    {
+      "start": 158.92,
+      "end": 162.51999999999998,
+      "text": " Então no caso aqui tem uma campanha antiga que nem tá funcionando mais"
+    },
+    {
+      "start": 162.51999999999998,
+      "end": 166.07999999999998,
+      "text": " Mas você pode vir copiar o link e dar Ctrl V aqui"
+    },
+    {
+      "start": 166.07999999999998,
+      "end": 170.4,
+      "text": " Lembrando, aqui tem que ser URL, Contém e o link"
+    },
+    {
+      "start": 170.4,
+      "end": 172.70000000000002,
+      "text": " outra coisa que eu gosto de sempre recomendar"
+    },
+    {
+      "start": 172.70000000000002,
+      "end": 173.78,
+      "text": " não coloque o"
+    },
+    {
+      "start": 173.78,
+      "end": 176.14000000000001,
+      "text": " HTTPS, nem o HTTP"
+    },
+    {
+      "start": 176.14000000000001,
+      "end": 177.72,
+      "text": " nem o WWW antes"
+    },
+    {
+      "start": 177.72,
+      "end": 180.02,
+      "text": " porque pode acontecer de"
+    },
+    {
+      "start": 180.02,
+      "end": 182.22,
+      "text": " algum usuário não carregar"
+    },
+    {
+      "start": 182.22,
+      "end": 184.70000000000002,
+      "text": " esse termo no site dele"
+    },
+    {
+      "start": 184.70000000000002,
+      "end": 186.1,
+      "text": " quando ele estiver navegando ali"
+    },
+    {
+      "start": 186.1,
+      "end": 188.18,
+      "text": " e abrir o anúncio, e você acabar"
+    },
+    {
+      "start": 188.18,
+      "end": 189.04000000000002,
+      "text": " perdendo a conversão"
+    },
+    {
+      "start": 189.04000000000002,
+      "end": 192.04000000000002,
+      "text": " eu prefiro assim, porque a gente"
+    },
+    {
+      "start": 192.04000000000002,
+      "end": 193.70000000000002,
+      "text": " deixando a regra de URL contém"
+    },
+    {
+      "start": 193.70000000000002,
+      "end": 196.26,
+      "text": " mesmo tendo o WWW ou tendo o HTTP"
+    },
+    {
+      "start": 196.26,
+      "end": 198.18,
+      "text": " tudo antes, não faz"
+    },
+    {
+      "start": 198.18,
+      "end": 200.18,
+      "text": " diferença porque depois disso"
+    },
+    {
+      "start": 200.18,
+      "end": 201.70000000000002,
+      "text": " vai vir o link que a gente colocou aqui"
+    },
+    {
+      "start": 201.70000000000002,
+      "end": 203.96,
+      "text": " então é só uma"
+    },
+    {
+      "start": 203.96,
+      "end": 206.18,
+      "text": " boas práticas mesmo, eu prefiro"
+    },
+    {
+      "start": 206.18,
+      "end": 208.04000000000002,
+      "text": " colocar sempre do domínio"
+    },
+    {
+      "start": 208.04000000000002,
+      "end": 209.5,
+      "text": " para frente, então nesse caso ficou"
+    },
+    {
+      "start": 209.5,
+      "end": 211.94,
+      "text": " vip.gaita.com.br"
+    },
+    {
+      "start": 211.94,
+      "end": 213.38,
+      "text": " barra vipgaita"
+    },
+    {
+      "start": 213.38,
+      "end": 215.8,
+      "text": " esse link seria o link do meu grupo"
+    },
+    {
+      "start": 215.8,
+      "end": 217.70000000000002,
+      "text": " quem clicasse nesse link ia ser"
+    },
+    {
+      "start": 217.70000000000002,
+      "end": 218.78,
+      "text": " redirecionado para o grupo"
+    },
+    {
+      "start": 218.78,
+      "end": 221.94,
+      "text": " aqui eu vou ter que fazer um"
+    },
+    {
+      "start": 221.94,
+      "end": 223.9,
+      "text": " dar uma alteradinha"
+    },
+    {
+      "start": 223.9,
+      "end": 224.48000000000002,
+      "text": " porque"
+    },
+    {
+      "start": 224.48000000000002,
+      "end": 227.58,
+      "text": " essa conversão já foi criada, então vou"
+    },
+    {
+      "start": 227.58,
+      "end": 229.62,
+      "text": " colocar um aqui, só para criar com vocês"
+    },
+    {
+      "start": 229.62,
+      "end": 231.52,
+      "text": " pra vocês, pra seguir o passo a passo"
+    },
+    {
+      "start": 231.52,
+      "end": 233.52,
+      "text": " certinho, né? Então você colocando"
+    },
+    {
+      "start": 233.52,
+      "end": 234.46,
+      "text": " o link aqui"
+    },
+    {
+      "start": 234.46,
+      "end": 237.6,
+      "text": " vai vir em criar, essa conversão"
+    },
+    {
+      "start": 237.6,
+      "end": 239.04,
+      "text": " vai ser criada, ó, sucesso"
+    },
+    {
+      "start": 239.04,
+      "end": 241.3,
+      "text": " entrou no grupo, foi criado, e o pixel que ele tá"
+    },
+    {
+      "start": 241.3,
+      "end": 243.46,
+      "text": " pra utilizar esse evento"
+    },
+    {
+      "start": 243.46,
+      "end": 245.78,
+      "text": " personalizado em campanha de anúncio, configuro"
+    },
+    {
+      "start": 245.78,
+      "end": 247.5,
+      "text": " isso é muito importante, que é a parte"
+    },
+    {
+      "start": 247.5,
+      "end": 249.64000000000001,
+      "text": " da misturação de eventos, se você já verificou o domínio"
+    },
+    {
+      "start": 249.64000000000001,
+      "end": 251.36,
+      "text": " resolver aqui ir pra"
+    },
+    {
+      "start": 251.36,
+      "end": 253.56,
+      "text": " configuração da web, pra poder configurar"
+    },
+    {
+      "start": 253.56,
+      "end": 254.12,
+      "text": " esse evento"
+    },
+    {
+      "start": 254.12,
+      "end": 257.58,
+      "text": " e aqui no domínio"
+    },
+    {
+      "start": 257.58,
+      "end": 259.34000000000003,
+      "text": " seu verificado, clicar"
+    },
+    {
+      "start": 259.34,
+      "end": 261.82,
+      "text": " nos eventos configurados, gerenciar eventos"
+    },
+    {
+      "start": 261.82,
+      "end": 263.53999999999996,
+      "text": " pode editar aqui tranquilamente"
+    },
+    {
+      "start": 263.53999999999996,
+      "end": 265.15999999999997,
+      "text": " e vocês"
+    },
+    {
+      "start": 265.15999999999997,
+      "end": 267.53999999999996,
+      "text": " aqui vocês colocarão adicionar evento"
+    },
+    {
+      "start": 267.53999999999996,
+      "end": 269.34,
+      "text": " esse botão verde aqui na direita"
+    },
+    {
+      "start": 269.34,
+      "end": 271.38,
+      "text": " vão subir, eu sempre"
+    },
+    {
+      "start": 271.38,
+      "end": 273.5,
+      "text": " gosto de deixar como maior prioridade"
+    },
+    {
+      "start": 273.5,
+      "end": 275.47999999999996,
+      "text": " nessa questão, porque"
+    },
+    {
+      "start": 275.47999999999996,
+      "end": 277.65999999999997,
+      "text": " a gente vai estar jogando todo o tráfego"
+    },
+    {
+      "start": 277.65999999999997,
+      "end": 279.47999999999996,
+      "text": " para isso, então nada mais importa do que"
+    },
+    {
+      "start": 279.47999999999996,
+      "end": 281.9,
+      "text": " essa entrada, a gente vai escolher"
+    },
+    {
+      "start": 281.9,
+      "end": 283.55999999999995,
+      "text": " conversão personalizada"
+    },
+    {
+      "start": 283.55999999999995,
+      "end": 285.88,
+      "text": " e aqui selecionar"
+    },
+    {
+      "start": 285.88,
+      "end": 287.46,
+      "text": " a conversão que a gente acabou de criar"
+    },
+    {
+      "start": 287.46,
+      "end": 288.9,
+      "text": " que no caso é entrou no grupo"
+    },
+    {
+      "start": 288.9,
+      "end": 291.03999999999996,
+      "text": " vou clicar aqui, você fazendo isso"
+    },
+    {
+      "start": 291.03999999999996,
+      "end": 291.78,
+      "text": " você aplica"
+    },
+    {
+      "start": 291.78,
+      "end": 295.12,
+      "text": " e segue para as campanhas"
+    },
+    {
+      "start": 295.12,
+      "end": 296.32,
+      "text": " eu não vou aplicar, porque"
+    },
+    {
+      "start": 296.32,
+      "end": 299.4,
+      "text": " essa conversão é só para dar um exemplo"
+    },
+    {
+      "start": 299.4,
+      "end": 300.71999999999997,
+      "text": " e pode acabar bagunçando aqui"
+    },
+    {
+      "start": 300.71999999999997,
+      "end": 302.88,
+      "text": " minha hierarquia, mas se você analisar"
+    },
+    {
+      "start": 302.88,
+      "end": 305.14,
+      "text": " eu fiz alguma outra conversão personalizada aqui"
+    },
+    {
+      "start": 305.14,
+      "end": 307.03999999999996,
+      "text": " para outro evento que rolou"
+    },
+    {
+      "start": 307.03999999999996,
+      "end": 309.14,
+      "text": " na Black Friday e eu coloquei"
+    },
+    {
+      "start": 309.14,
+      "end": 311.15999999999997,
+      "text": " ela aqui e vai ficar desse jeito na sua conta"
+    },
+    {
+      "start": 311.15999999999997,
+      "end": 313.08,
+      "text": " vocês podem clicar em aplicar"
+    },
+    {
+      "start": 313.08,
+      "end": 315.17999999999995,
+      "text": " aqui no canto direito inferior, eu acho que minha câmera"
+    },
+    {
+      "start": 315.17999999999995,
+      "end": 317.12,
+      "text": " está na frente, mas no canto"
+    },
+    {
+      "start": 317.12,
+      "end": 318.88,
+      "text": " direita inferior, fica o botãozinho"
+    },
+    {
+      "start": 318.88,
+      "end": 320.6,
+      "text": " cancelar e aplicar, você aplica"
+    },
+    {
+      "start": 320.6,
+      "end": 322.08,
+      "text": " vai vir para essa tela aqui"
+    },
+    {
+      "start": 322.08,
+      "end": 324.74,
+      "text": " aí você coloca sim, eu confirmo essas alterações"
+    },
+    {
+      "start": 324.74,
+      "end": 326.52,
+      "text": " e aplica novamente, eu não vou fazer"
+    },
+    {
+      "start": 326.52,
+      "end": 329.1,
+      "text": " como eu disse, porque é só para dar um exemplo para vocês"
+    },
+    {
+      "start": 329.1,
+      "end": 330.64,
+      "text": " feito isso"
+    },
+    {
+      "start": 330.64,
+      "end": 331.78000000000003,
+      "text": " a gente está pronto para"
+    },
+    {
+      "start": 331.78000000000003,
+      "end": 334.26,
+      "text": " criar a parte da coluna"
+    },
+    {
+      "start": 334.26,
+      "end": 336.68,
+      "text": " então a gente vai ali no menu lateral esquerdo"
+    },
+    {
+      "start": 336.68,
+      "end": 338.78000000000003,
+      "text": " todas as ferramentas, gerenciador de anúncios"
+    },
+    {
+      "start": 338.78000000000003,
+      "end": 340.7,
+      "text": " vamos para a nossa parte de campanha"
+    },
+    {
+      "start": 340.7,
+      "end": 342.82,
+      "text": " eu vou pegar essas duas campanhas"
+    },
+    {
+      "start": 342.82,
+      "end": 343.88,
+      "text": " que eu criei para teste"
+    },
+    {
+      "start": 343.88,
+      "end": 346.98,
+      "text": " e vou usar elas para exemplificar isso"
+    },
+    {
+      "start": 346.98,
+      "end": 350.58000000000004,
+      "text": " Lembrando, quando você fizer a campanha de cadastro"
+    },
+    {
+      "start": 350.58000000000004,
+      "end": 351.66,
+      "text": " Conversão aqui"
+    },
+    {
+      "start": 351.66,
+      "end": 354.74,
+      "text": " Você vai colocar no pixel"
+    },
+    {
+      "start": 354.74,
+      "end": 357.0,
+      "text": " Dessa parte aqui onde você configura o pixel"
+    },
+    {
+      "start": 357.0,
+      "end": 360.78000000000003,
+      "text": " Você vai colocar a configuração personalizada que você acabou de criar"
+    },
+    {
+      "start": 360.78000000000003,
+      "end": 363.22,
+      "text": " Então você vai deixar, entrou no grupo"
+    },
+    {
+      "start": 363.22,
+      "end": 364.88,
+      "text": " E vai seguir a campanha assim"
+    },
+    {
+      "start": 364.88,
+      "end": 370.34000000000003,
+      "text": " Aqui, agora a gente vai fazer a parte da configuração da coluna"
+    },
+    {
+      "start": 370.34000000000003,
+      "end": 373.72,
+      "text": " Pra gente poder puxar esse dado numa coluna separada"
+    },
+    {
+      "start": 373.72,
+      "end": 375.34000000000003,
+      "text": " E poder comparar as duas campanhas"
+    },
+    {
+      "start": 375.34,
+      "end": 378.65999999999997,
+      "text": " Quando você faz uma campanha de tráfego"
+    },
+    {
+      "start": 378.65999999999997,
+      "end": 381.23999999999995,
+      "text": " O resultado que mostra aqui são cliques no link"
+    },
+    {
+      "start": 381.23999999999995,
+      "end": 383.4,
+      "text": " Então você não consegue saber de fato"
+    },
+    {
+      "start": 383.4,
+      "end": 384.85999999999996,
+      "text": " Quantas pessoas chegaram no redirect"
+    },
+    {
+      "start": 384.85999999999996,
+      "end": 386.91999999999996,
+      "text": " Somente a informação de que"
+    },
+    {
+      "start": 386.91999999999996,
+      "end": 388.58,
+      "text": " X pessoas clicaram no link"
+    },
+    {
+      "start": 388.58,
+      "end": 389.79999999999995,
+      "text": " Isso não importa pra gente"
+    },
+    {
+      "start": 389.79999999999995,
+      "end": 392.38,
+      "text": " Importa pra gente quantas pessoas clicaram no link"
+    },
+    {
+      "start": 392.38,
+      "end": 394.32,
+      "text": " E carregaram os 3 segundos no redirect"
+    },
+    {
+      "start": 394.32,
+      "end": 396.35999999999996,
+      "text": " Essa é uma métrica importante pra gente"
+    },
+    {
+      "start": 396.35999999999996,
+      "end": 398.0,
+      "text": " Na campanha de cadastro de conversão"
+    },
+    {
+      "start": 398.0,
+      "end": 400.03999999999996,
+      "text": " O resultado principal vai ser isso"
+    },
+    {
+      "start": 400.03999999999996,
+      "end": 401.46,
+      "text": " Então nessa coluna resultados"
+    },
+    {
+      "start": 401.46,
+      "end": 404.05999999999995,
+      "text": " Vai aparecer já a quantidade de resultado geral"
+    },
+    {
+      "start": 404.06,
+      "end": 406.22,
+      "text": " que no caso seria a sua conversão personalizada"
+    },
+    {
+      "start": 406.22,
+      "end": 408.18,
+      "text": " que você colocou ali no conjunto"
+    },
+    {
+      "start": 408.18,
+      "end": 410.3,
+      "text": " dentro do anúncio, ou dentro da campanha"
+    },
+    {
+      "start": 410.3,
+      "end": 410.64,
+      "text": " perdão"
+    },
+    {
+      "start": 410.64,
+      "end": 414.28000000000003,
+      "text": " então a gente vai vir aqui, colunas"
+    },
+    {
+      "start": 414.28000000000003,
+      "end": 415.98,
+      "text": " vai vir"
+    },
+    {
+      "start": 415.98,
+      "end": 418.18,
+      "text": " pode deixar aqui em desempenhos e cliques"
+    },
+    {
+      "start": 418.18,
+      "end": 420.1,
+      "text": " mesmo, vamos clicar aqui em"
+    },
+    {
+      "start": 420.1,
+      "end": 421.4,
+      "text": " personalizar colunas"
+    },
+    {
+      "start": 421.4,
+      "end": 424.52,
+      "text": " certo? Vindo em personalizar colunas"
+    },
+    {
+      "start": 424.52,
+      "end": 425.66,
+      "text": " a gente vai digitar"
+    },
+    {
+      "start": 425.66,
+      "end": 427.88,
+      "text": " nesse campo pesquisar o nome"
+    },
+    {
+      "start": 427.88,
+      "end": 430.08,
+      "text": " da conversão personalizada que a gente acabou de criar"
+    },
+    {
+      "start": 430.08,
+      "end": 431.58,
+      "text": " então no nosso caso foi"
+    },
+    {
+      "start": 431.58,
+      "end": 432.74,
+      "text": " entrou no grupo, certo?"
+    },
+    {
+      "start": 432.74,
+      "end": 433.94,
+      "text": " Total"
+    },
+    {
+      "start": 433.94,
+      "end": 437.16,
+      "text": " Vai selecionar essa caixinha aqui do total"
+    },
+    {
+      "start": 437.16,
+      "end": 438.78000000000003,
+      "text": " Ela vai aparecer aqui"
+    },
+    {
+      "start": 438.78000000000003,
+      "end": 440.36,
+      "text": " Certo? Na direita"
+    },
+    {
+      "start": 440.36,
+      "end": 443.1,
+      "text": " É só descer a parte, a página aqui um pouquinho"
+    },
+    {
+      "start": 443.1,
+      "end": 444.48,
+      "text": " Ela vai aparecer aqui"
+    },
+    {
+      "start": 444.48,
+      "end": 446.64,
+      "text": " Eu recomendo que vocês subam e deixem do lado"
+    },
+    {
+      "start": 446.64,
+      "end": 448.54,
+      "text": " O resultado pra ficar mais fácil de comparar"
+    },
+    {
+      "start": 448.54,
+      "end": 450.14,
+      "text": " Então é só clicar com o mouse"
+    },
+    {
+      "start": 450.14,
+      "end": 451.44,
+      "text": " Arrastar pra cima"
+    },
+    {
+      "start": 451.44,
+      "end": 454.14,
+      "text": " E soltar aqui do lado de resultados"
+    },
+    {
+      "start": 454.14,
+      "end": 455.06,
+      "text": " Pronto"
+    },
+    {
+      "start": 455.06,
+      "end": 458.18,
+      "text": " Ah, outra coisa, eu recomendo você já clicar aqui em salvar como"
+    },
+    {
+      "start": 458.18,
+      "end": 460.7,
+      "text": " Predefinição e digitar um nome"
+    },
+    {
+      "start": 460.7,
+      "end": 466.76,
+      "text": " Para você não ter que ficar fazendo esse processo toda vez que você quiser analisar essa coluna"
+    },
+    {
+      "start": 466.76,
+      "end": 471.18,
+      "text": " Então só vir aqui, colocar o nome, meteórico, aplicar"
+    },
+    {
+      "start": 471.18,
+      "end": 474.32,
+      "text": " Aí quando você vier aqui em colunas, ela já aplicou aqui"
+    },
+    {
+      "start": 474.32,
+      "end": 477.14,
+      "text": " Mas quando você vier aqui em colunas, ela vai estar sempre aqui"
+    },
+    {
+      "start": 477.14,
+      "end": 479.09999999999997,
+      "text": " Tanto que se eu voltar para desempenho e cliques"
+    },
+    {
+      "start": 479.09999999999997,
+      "end": 482.68,
+      "text": " E voltar aqui, vai ter a coluna meteórica que eu acabei de criar"
+    },
+    {
+      "start": 482.68,
+      "end": 486.4,
+      "text": " Eu clico, já vai aparecer aqui a conversão personalizada"
+    },
+    {
+      "start": 486.4,
+      "end": 492.47999999999996,
+      "text": " E essa coluna é o que a gente vai usar para fazer essa comparação entre as duas campanhas"
+    },
+    {
+      "start": 492.47999999999996,
+      "end": 495.85999999999996,
+      "text": " Então no caso aqui estaria cliques no link da campanha de tráfego"
+    },
+    {
+      "start": 495.85999999999996,
+      "end": 497.29999999999995,
+      "text": " Aqui já estaria as conversões"
+    },
+    {
+      "start": 497.29999999999995,
+      "end": 501.62,
+      "text": " Mas nessa coluna em específico ia aparecer as conversões personalizadas"
+    },
+    {
+      "start": 501.62,
+      "end": 503.44,
+      "text": " E as conversões personalizadas aqui também"
+    },
+    {
+      "start": 503.44,
+      "end": 507.15999999999997,
+      "text": " E assim a gente saberia qual está trazendo mais resultado"
+    },
+    {
+      "start": 507.15999999999997,
+      "end": 511.67999999999995,
+      "text": " E essa campanha com mais resultado seria a campanha que a gente ia escalar"
+    },
+    {
+      "start": 511.67999999999995,
+      "end": 514.5799999999999,
+      "text": " Para captar nossos leads, para não gastar dinheiro à toa"
+    },
+    {
+      "start": 514.58,
+      "end": 516.58,
+      "text": " numa campanha que não vai trazer resultado"
+    },
+    {
+      "start": 516.58,
+      "end": 518.48,
+      "text": " então"
+    },
+    {
+      "start": 518.48,
+      "end": 520.7800000000001,
+      "text": " sobre conversão personalizada é isso"
+    },
+    {
+      "start": 520.7800000000001,
+      "end": 523.32,
+      "text": " é algo bem simples, mas de extrema importância"
+    },
+    {
+      "start": 523.32,
+      "end": 524.9200000000001,
+      "text": " você fazendo isso"
+    },
+    {
+      "start": 524.9200000000001,
+      "end": 527.0200000000001,
+      "text": " você vai poder comparar essas duas campanhas"
+    },
+    {
+      "start": 527.0200000000001,
+      "end": 528.6600000000001,
+      "text": " na hora de fazer os testes de campanhas"
+    },
+    {
+      "start": 528.6600000000001,
+      "end": 530.0200000000001,
+      "text": " de quais estão melhor"
+    },
+    {
+      "start": 530.0200000000001,
+      "end": 532.64,
+      "text": " e você vai ter um número aproximado"
+    },
+    {
+      "start": 532.64,
+      "end": 534.6800000000001,
+      "text": " de pessoas que entraram no grupo"
+    },
+    {
+      "start": 534.6800000000001,
+      "end": 535.7800000000001,
+      "text": " lembrando que"
+    },
+    {
+      "start": 535.7800000000001,
+      "end": 538.86,
+      "text": " essa é uma alternativa porque o WhatsApp não"
+    },
+    {
+      "start": 538.86,
+      "end": 541.08,
+      "text": " permite que a gente instale o pixel"
+    },
+    {
+      "start": 541.08,
+      "end": 542.86,
+      "text": " dentro dos grupos, então o número que"
+    },
+    {
+      "start": 542.86,
+      "end": 544.1,
+      "text": " aparecer ali na conversão,"
+    },
+    {
+      "start": 544.84,
+      "end": 546.74,
+      "text": " ele não é o número real de pessoas que"
+    },
+    {
+      "start": 546.74,
+      "end": 548.76,
+      "text": " entraram nos seus grupos, mas sim o número"
+    },
+    {
+      "start": 548.76,
+      "end": 550.52,
+      "text": " de pessoas que passaram pelo Redirect."
+    },
+    {
+      "start": 550.98,
+      "end": 552.5600000000001,
+      "text": " Pode acontecer da pessoa passar"
+    },
+    {
+      "start": 552.5600000000001,
+      "end": 554.2,
+      "text": " uns 3 segundos ali do Redirect,"
+    },
+    {
+      "start": 554.64,
+      "end": 556.96,
+      "text": " chegar na parte de clicar e entrar no grupo ali no celular"
+    },
+    {
+      "start": 556.96,
+      "end": 558.6,
+      "text": " e não clicar. Mas,"
+    },
+    {
+      "start": 558.76,
+      "end": 560.62,
+      "text": " ela vai contar aqui como uma conversão"
+    },
+    {
+      "start": 560.62,
+      "end": 561.86,
+      "text": " porque ela passou no Redirect."
+    },
+    {
+      "start": 562.6800000000001,
+      "end": 564.82,
+      "text": " Então, é só para vocês terem uma noção de qual anúncio,"
+    },
+    {
+      "start": 564.94,
+      "end": 567.02,
+      "text": " qual campanha, qual conjunto está performando melhor"
+    },
+    {
+      "start": 567.02,
+      "end": 569.08,
+      "text": " para ter uma baliza"
+    },
+    {
+      "start": 569.08,
+      "end": 570.88,
+      "text": " de qual pausar,"
+    },
+    {
+      "start": 571.1800000000001,
+      "end": 572.32,
+      "text": " qual colocar mais dinheiro,"
+    },
+    {
+      "start": 572.86,
+      "end": 574.36,
+      "text": " Pode escalar, enfim."
+    },
+    {
+      "start": 575.0,
+      "end": 577.78,
+      "text": " E você ter um melhor resultado com as suas campanhas voltadas para o meteórico."
+    },
+    {
+      "start": 578.5600000000001,
+      "end": 579.54,
+      "text": " Então, nessa aula é isso."
+    },
+    {
+      "start": 579.7,
+      "end": 581.7,
+      "text": " É algo super simples, mas que vai mudar seu jogo."
+    },
+    {
+      "start": 582.0600000000001,
+      "end": 582.76,
+      "text": " Até a próxima aula."
+    }
+  ]
+}

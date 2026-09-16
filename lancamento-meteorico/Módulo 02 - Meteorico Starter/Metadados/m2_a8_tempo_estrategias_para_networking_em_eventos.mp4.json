@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 2,
+  "module_title": "Meteorico Starter",
+  "item_kind": "lesson",
+  "lesson_number": 8,
+  "source_lesson_number": "08",
+  "title": "Tempo - Estratégias para networking em eventos",
+  "source_filename": "AULA 08 - [ TEMPO ] Estratégias para networking em eventos #ZDMPRIME.COM.mp4",
+  "local_filename": "m2_a8_tempo_estrategias_para_networking_em_eventos.mp4",
+  "origin": "https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 30118671,
+  "duration_seconds": 265.776,
+  "duration_hms": "00:04:25.775",
+  "sha256": "d787c99be9aa05685fccc0f0552dcc135bcfd3bb01024e51079f8073506bc684",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "265.775601",
+    "size": "30118671",
+    "bit_rate": "906589"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 640,
+      "height": 360,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "44100",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

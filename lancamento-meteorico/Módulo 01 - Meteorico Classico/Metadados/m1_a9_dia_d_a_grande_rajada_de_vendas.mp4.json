@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 1,
+  "module_title": "Meteorico Classico",
+  "lesson_number": 9,
+  "source_lesson_number": "10",
+  "title": "Dia D - A grande rajada de vendas",
+  "source_filename": "AULA 10 - Dia D - A grande rajada de vendas #ZDMPRIME.COM.mp4",
+  "local_filename": "m1_a9_dia_d_a_grande_rajada_de_vendas.mp4",
+  "origin": "https://drive.google.com/drive/folders/1ljUbBugf_nFWO9wZ6NmLla-POBVlchIJ?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 131403276,
+  "duration_seconds": 458.048,
+  "duration_hms": "00:07:38.048",
+  "sha256": "a517f348261ed7a497e78f1caf15db0014e1bf7d628fc5d0fd59b83d33e15ecb",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "458.048000",
+    "size": "131403276",
+    "bit_rate": "2295013"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

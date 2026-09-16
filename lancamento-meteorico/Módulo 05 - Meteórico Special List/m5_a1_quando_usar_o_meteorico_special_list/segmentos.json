@@ -1,0 +1,517 @@
+{
+  "settings": {
+    "model": "large-v3-turbo",
+    "language": "pt",
+    "task": "transcribe",
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Talles Quinderé. Lançamento Meteórico."
+  },
+  "source_sha256": "82ffe9c9eaf06bdf7849fc4458c953fdcb0717eeb69bf21d6e7e9e4994343ce9",
+  "source_video": "D:\\Cursos\\Lançamento Meteórico\\Módulo 05 - Meteórico Special List\\m5_a1_quando_usar_o_meteorico_special_list.mp4",
+  "transcribed_at_utc": "2026-09-16T22:47:20.918745+00:00",
+  "language_detected": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.68,
+      "text": " Seja bem-vindo ao módulo Special List."
+    },
+    {
+      "start": 2.92,
+      "end": 8.18,
+      "text": " Antes de tudo, eu preciso destacar pra você que essa aula não é só as boas-vindas ao módulo."
+    },
+    {
+      "start": 8.3,
+      "end": 13.34,
+      "text": " O que nós vamos tratar aqui já será a estrutura do modelo do Meteórico Special List."
+    },
+    {
+      "start": 13.5,
+      "end": 17.84,
+      "text": " Então, fica ligado, porque apesar desse ser o módulo mais objetivo do treinamento,"
+    },
+    {
+      "start": 18.18,
+      "end": 23.46,
+      "text": " essa aqui e as demais aulas são fundamentais pra você compreender o fluxo corretamente."
+    },
+    {
+      "start": 23.8,
+      "end": 24.2,
+      "text": " Combinado?"
+    },
+    {
+      "start": 24.26,
+      "end": 26.580000000000002,
+      "text": " E para quem se aplica o Meteórico Special List?"
+    },
+    {
+      "start": 26.58,
+      "end": 31.24,
+      "text": " Esse modelo de meteoro é adequado para produtores digitais e influenciadores"
+    },
+    {
+      "start": 31.24,
+      "end": 34.86,
+      "text": " que possuam grandes audiências em diferentes mídias"
+    },
+    {
+      "start": 34.86,
+      "end": 37.98,
+      "text": " ou, no mínimo, audiências hiperengajadas."
+    },
+    {
+      "start": 38.379999999999995,
+      "end": 41.239999999999995,
+      "text": " Não se aplica para quem está começando agora, combinado?"
+    },
+    {
+      "start": 41.7,
+      "end": 42.7,
+      "text": " Mas por que isso?"
+    },
+    {
+      "start": 43.12,
+      "end": 46.3,
+      "text": " Por que somente para quem já chegou nesse estágio do negócio digital?"
+    },
+    {
+      "start": 46.84,
+      "end": 51.2,
+      "text": " Porque boa parte das grandes audiências ou audiências engajadas"
+    },
+    {
+      "start": 51.2,
+      "end": 54.44,
+      "text": " tendem a investigar profundamente o especialista."
+    },
+    {
+      "start": 54.44,
+      "end": 61.04,
+      "text": " Essas pessoas se conectaram a você não apenas porque gostaram da sua comunicação ou conteúdo,"
+    },
+    {
+      "start": 61.339999999999996,
+      "end": 68.0,
+      "text": " mas porque também vêem em você alguém que pode ajudar a resolver um ou mais dos problemas latentes que elas têm."
+    },
+    {
+      "start": 68.46,
+      "end": 72.56,
+      "text": " Esses problemas latentes é o que eu chamo de hiperdores da audiência."
+    },
+    {
+      "start": 73.06,
+      "end": 76.97999999999999,
+      "text": " Existem em sua audiência pessoas que, mais que outras, umas mais que outras,"
+    },
+    {
+      "start": 77.34,
+      "end": 81.06,
+      "text": " precisam encontrar uma solução prática para as hiperdores que elas têm"
+    },
+    {
+      "start": 81.06,
+      "end": 84.34,
+      "text": " e esperam que você seja o autor dessa solução."
+    },
+    {
+      "start": 84.44,
+      "end": 88.39999999999999,
+      "text": " E é aqui que entra o seu produto como o remédio para essas dores"
+    },
+    {
+      "start": 88.39999999999999,
+      "end": 92.67999999999999,
+      "text": " e os grupos Specialist como a ponte para esse remédio."
+    },
+    {
+      "start": 92.74,
+      "end": 93.34,
+      "text": " Tá compreendendo?"
+    },
+    {
+      "start": 94.1,
+      "end": 99.4,
+      "text": " Entendendo esse princípio, o próximo passo é transformar todos os seus pontos de contato digitais"
+    },
+    {
+      "start": 99.4,
+      "end": 101.24,
+      "text": " em acessos a essa ponte."
+    },
+    {
+      "start": 101.78,
+      "end": 103.64,
+      "text": " Vamos lá, sendo práticos na explicação."
+    },
+    {
+      "start": 103.75999999999999,
+      "end": 107.96,
+      "text": " Imagina todos os seus vídeos do YouTube como um acesso para um local"
+    },
+    {
+      "start": 107.96,
+      "end": 110.75999999999999,
+      "text": " onde sua audiência poderá estar mais próximo de você"
+    },
+    {
+      "start": 110.76,
+      "end": 115.06,
+      "text": " para receber em primeira mão o acesso a um determinado produto seu."
+    },
+    {
+      "start": 115.28,
+      "end": 119.54,
+      "text": " Imagina sua bio do Instagram, seu perfil do TikTok, seu LinkedIn, seu Pinterest"
+    },
+    {
+      "start": 119.54,
+      "end": 122.14,
+      "text": " sendo portas de acesso a essa ponte."
+    },
+    {
+      "start": 122.54,
+      "end": 125.5,
+      "text": " Nós chamamos isso de ativos orgânicos, tá bom?"
+    },
+    {
+      "start": 125.98,
+      "end": 128.64000000000001,
+      "text": " E vamos utilizá-los para gerar leads qualificados."
+    },
+    {
+      "start": 129.06,
+      "end": 133.78,
+      "text": " A ideia é tão simples quanto parece e por isso que ela é eficiente, beleza?"
+    },
+    {
+      "start": 134.06,
+      "end": 134.52,
+      "text": " Então bora lá."
+    },
+    {
+      "start": 134.94,
+      "end": 136.86,
+      "text": " É uma estratégia de quatro passos."
+    },
+    {
+      "start": 136.86,
+      "end": 144.18,
+      "text": " O passo 1 é analisar a sua audiência, identificando as dores mais comuns da maioria das pessoas que seguem você"
+    },
+    {
+      "start": 144.18,
+      "end": 146.68,
+      "text": " e, em cima disso, criar um produto específico."
+    },
+    {
+      "start": 146.94000000000003,
+      "end": 149.76000000000002,
+      "text": " Se você já tiver esse produto pronto, ótimo, beleza?"
+    },
+    {
+      "start": 150.16000000000003,
+      "end": 151.74,
+      "text": " Na hora certa ele será oferecido."
+    },
+    {
+      "start": 152.08,
+      "end": 159.74,
+      "text": " Uma vez que você escolhe o produto, o passo 2 é espalhar o link inteligente em todos os seus pontos de contato digitais,"
+    },
+    {
+      "start": 160.20000000000002,
+      "end": 164.46,
+      "text": " indicando a essas pessoas a existência de uma lista especial."
+    },
+    {
+      "start": 164.46,
+      "end": 166.8,
+      "text": " Aqui começa a brincadeira, tá bom?"
+    },
+    {
+      "start": 167.28,
+      "end": 171.14000000000001,
+      "text": " Entenda, em toda audiência existe uma parte que possui dores latentes"
+    },
+    {
+      "start": 171.14000000000001,
+      "end": 174.32000000000002,
+      "text": " e essa parte irá se transformar em leads organicamente"
+    },
+    {
+      "start": 174.32000000000002,
+      "end": 177.74,
+      "text": " vindo para a sua especialista, caso você tenha uma, beleza?"
+    },
+    {
+      "start": 178.4,
+      "end": 182.10000000000002,
+      "text": " O passo 3 é manter esses leads interessados no produto."
+    },
+    {
+      "start": 182.32000000000002,
+      "end": 184.0,
+      "text": " Nós vamos falar disso nas próximas aulas."
+    },
+    {
+      "start": 184.0,
+      "end": 189.96,
+      "text": " E o passo 4 é rodar um meteórico clássico ou um meteórico select para eles."
+    },
+    {
+      "start": 190.26000000000002,
+      "end": 191.28000000000003,
+      "text": " Então, resumindo."
+    },
+    {
+      "start": 191.64000000000001,
+      "end": 195.54000000000002,
+      "text": " 1. Analisar a audiência e separar um produto que resolva as dores mais comuns."
+    },
+    {
+      "start": 195.54,
+      "end": 200.51999999999998,
+      "text": " 2. Espalhar o link inteligente dos grupos Specialist em seus canais digitais"
+    },
+    {
+      "start": 200.51999999999998,
+      "end": 203.18,
+      "text": " 3. Manter os leads interessados do produto"
+    },
+    {
+      "start": 203.18,
+      "end": 206.85999999999999,
+      "text": " 4. Rodar um Meteorico Clássico ou um Select"
+    },
+    {
+      "start": 206.85999999999999,
+      "end": 207.68,
+      "text": " Beleza?"
+    },
+    {
+      "start": 208.07999999999998,
+      "end": 210.18,
+      "text": " Uma dúvida muito comum que me pergunta assim"
+    },
+    {
+      "start": 210.18,
+      "end": 215.32,
+      "text": " Thales, o produto que eu vou oferecer na Specialist pode ser um produto que eu já vendo no perpétuo?"
+    },
+    {
+      "start": 215.78,
+      "end": 216.1,
+      "text": " Pode"
+    },
+    {
+      "start": 216.1,
+      "end": 220.14,
+      "text": " Ou Thales, o produto que eu vou oferecer lá na Specialist"
+    },
+    {
+      "start": 220.14,
+      "end": 223.45999999999998,
+      "text": " Eu só vendo em épocas de lançamento, eu também posso usar?"
+    },
+    {
+      "start": 223.98,
+      "end": 224.34,
+      "text": " Pode"
+    },
+    {
+      "start": 224.34,
+      "end": 224.88,
+      "text": " Legal?"
+    },
+    {
+      "start": 224.88,
+      "end": 232.74,
+      "text": " Se for um produto que roda no perpétuo, a Specialist funcionará para ações promocionais específicas dentro de um planejamento anual."
+    },
+    {
+      "start": 233.18,
+      "end": 236.7,
+      "text": " Se for um produto que você venda também em lançamento interno, por exemplo,"
+    },
+    {
+      "start": 237.1,
+      "end": 242.2,
+      "text": " a sua Specialist poderá ser usada quando chegar a semana dos conteúdos de pré-lançamento."
+    },
+    {
+      "start": 242.64,
+      "end": 246.57999999999998,
+      "text": " Serão táticas diferentes que nós vamos falar delas nas próximas aulas, tá bom?"
+    },
+    {
+      "start": 247.0,
+      "end": 251.42,
+      "text": " Mas sim, você pode usar um produto perpétuo ou um produto de lançamento ou um produto novo"
+    },
+    {
+      "start": 251.42,
+      "end": 253.96,
+      "text": " desde que cumpra os seguintes requisitos."
+    },
+    {
+      "start": 253.96,
+      "end": 256.48,
+      "text": " Anota agora, essa parte é muito importante."
+    },
+    {
+      "start": 256.6,
+      "end": 259.02,
+      "text": " Se ele cumprir esses requisitos, vai dar bom, beleza?"
+    },
+    {
+      "start": 259.54,
+      "end": 262.84000000000003,
+      "text": " Primeiro requisito, o produto deve ser abrangente."
+    },
+    {
+      "start": 263.34000000000003,
+      "end": 268.52,
+      "text": " Ou seja, que a solução que ele traga seja adequada à maior parte da sua audiência."
+    },
+    {
+      "start": 269.0,
+      "end": 273.46000000000004,
+      "text": " Aqui não cabe um produto de meio de esteira ou específico demais, tá bom?"
+    },
+    {
+      "start": 273.66,
+      "end": 277.26,
+      "text": " O ideal é que quanto mais pessoas sejam impactadas por ele, melhor."
+    },
+    {
+      "start": 277.92,
+      "end": 281.32,
+      "text": " E o segundo é que seja um produto de fácil compreensão."
+    },
+    {
+      "start": 281.32,
+      "end": 286.8,
+      "text": " Se for um produto difícil de explicar, então ele não é adequado para essa ação."
+    },
+    {
+      "start": 287.24,
+      "end": 291.74,
+      "text": " Crie ou adapte a oferta do seu produto para algo simples de ser compreendido."
+    },
+    {
+      "start": 292.12,
+      "end": 298.52,
+      "text": " Algo que, com poucas palavras, qualquer criança de 6 anos possa compreender para quem ele é e o que ele resolve."
+    },
+    {
+      "start": 299.02,
+      "end": 302.62,
+      "text": " De preferência, o próprio nome do produto deve ser auto-explicativo."
+    },
+    {
+      "start": 302.9,
+      "end": 303.46,
+      "text": " Vou dar um exemplo."
+    },
+    {
+      "start": 303.78,
+      "end": 306.76,
+      "text": " Imagine que você vende um método de estudos para passado no Enem."
+    },
+    {
+      "start": 307.26,
+      "end": 309.65999999999997,
+      "text": " Qual nome você acha que o seu lead vai compreender melhor?"
+    },
+    {
+      "start": 309.66,
+      "end": 314.96000000000004,
+      "text": " Método Sputnik ou Método Supério Enem em 60 Dias?"
+    },
+    {
+      "start": 315.5,
+      "end": 318.5,
+      "text": " Qual dos dois é mais claro do que se trata o produto?"
+    },
+    {
+      "start": 318.70000000000005,
+      "end": 319.12,
+      "text": " Compreende?"
+    },
+    {
+      "start": 319.76000000000005,
+      "end": 323.58000000000004,
+      "text": " Não me entenda mal, eu não estou dizendo que um nome autoral e diferenciado não é legal."
+    },
+    {
+      "start": 324.0,
+      "end": 327.44000000000005,
+      "text": " Na verdade, nossa empresa tem produtos com marcas autorais de muito sucesso,"
+    },
+    {
+      "start": 327.86,
+      "end": 333.44000000000005,
+      "text": " contudo, eles estão em fluxos de vendas que precisam de uma construção de consciência mais profunda."
+    },
+    {
+      "start": 333.74,
+      "end": 338.26000000000005,
+      "text": " Então, o modelo Specialist é um modelo mais direto e simples, tá entendendo?"
+    },
+    {
+      "start": 338.26,
+      "end": 341.38,
+      "text": " Então, esses são os dois pré-requisitos quanto ao produto."
+    },
+    {
+      "start": 341.62,
+      "end": 345.2,
+      "text": " Sendo abrangente na resolução das dores, na maior parte da sua audiência,"
+    },
+    {
+      "start": 345.36,
+      "end": 346.53999999999996,
+      "text": " e auto-explicativo."
+    },
+    {
+      "start": 347.08,
+      "end": 350.21999999999997,
+      "text": " Isso já é suficiente para ser um produto adequado ao Special List."
+    },
+    {
+      "start": 350.56,
+      "end": 354.78,
+      "text": " Nas próximas aulas, você saberá como colocar o link inteligente nos seus canais digitais,"
+    },
+    {
+      "start": 355.21999999999997,
+      "end": 357.7,
+      "text": " quanto tempo deve manter os leads na Special List,"
+    },
+    {
+      "start": 357.86,
+      "end": 359.9,
+      "text": " como mantê-los interessados no produto"
+    },
+    {
+      "start": 359.9,
+      "end": 363.2,
+      "text": " e qual modelo de meteórico plugar quando chegar a hora de vender."
+    },
+    {
+      "start": 363.64,
+      "end": 366.56,
+      "text": " Bora, que o que vem por aí é rápido e eficiente."
+    },
+    {
+      "start": 368.26,
+      "end": 398.24,
+      "text": " Legenda por Sônia Ruberti"
+    }
+  ]
+}

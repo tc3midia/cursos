@@ -1,0 +1,126 @@
+# Sequência de nutrição
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 02 - Meteorico Starter.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 02 - Meteorico Starter\m2_a10_sequencia_de_nutricao.mp4`. Duração: 00:03:53.198.
+SHA-256 do vídeo: `6de87b47eb8ad13e7a440fb95286cca778dbe98807a84bf69a92e8a194377808`. [Origem](https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br).
+
+[00:00:00.000–00:00:10.100] Agora que o número de pessoas que queríamos no grupo foi atingido, é hora de começar a fase de nutrição, ou seja, da entrega do conteúdo de valor que elas esperam.
+
+[00:00:10.660–00:00:20.160] Nessa e nas próximas aulas eu vou explicar como produzir esses conteúdos, mas antes vamos começar com o cronograma do que vai acontecer no grupo mix.
+
+[00:00:20.380–00:00:28.760] Serão três conteúdos liberados no grupo a cada dois dias com o grupo ainda silenciado. Aliás, você só irá liberar o grupo para interações na semana da oferta, tá bom?
+
+[00:00:29.360–00:00:30.940] A programação pode ser assim.
+
+[00:00:31.380–00:00:33.480] Se você liberar o primeiro conteúdo na segunda,
+
+[00:00:33.640–00:00:37.120] então as datas da liberação do conteúdo serão segunda, quarta e sexta.
+
+[00:00:37.480–00:00:42.160] Se você começar na quarta, os conteúdos serão liberados na quarta, sexta e domingo.
+
+[00:00:42.740–00:00:46.060] É importante que você se planeje para que o último conteúdo
+
+[00:00:46.060–00:00:49.340] seja postado no grupo no máximo até domingo.
+
+[00:00:49.960–00:00:52.380] Dessa forma, o cronograma da semana seguinte,
+
+[00:00:52.740–00:00:54.140] que será a semana da oferta,
+
+[00:00:54.140–00:00:56.940] ele vai se encaixar direitinho no plano todo, tá bom?
+
+[00:00:57.460–00:01:01.120] Quanto à semana da oferta, sendo você um aluno do método meteórico,
+
+[00:01:01.440–00:01:04.920] o seu meteórico terá algumas adaptações aqui na sua trilha,
+
+[00:01:05.320–00:01:07.380] mas falaremos sobre isso mais na frente.
+
+[00:01:07.820–00:01:10.100] Por hora, é importante que você compreenda isso.
+
+[00:01:10.520–00:01:13.620] Você pode começar o conteúdo na segunda, na terça ou na quarta,
+
+[00:01:13.800–00:01:18.300] desde que os três sejam entregues em dias alternados e até o domingo.
+
+[00:01:18.540–00:01:19.020] Beleza!
+
+[00:01:19.020–00:01:23.780] Uma vez definido isso, você vai precisar avisar o grupo como funcionará a ação.
+
+[00:01:24.300–00:01:25.540] Essa etapa é bem simples.
+
+[00:01:25.540–00:01:30.500] Quando o grupo atingir o número de pessoas desejado, você vai publicar a seguinte mensagem.
+
+[00:01:30.820–00:01:35.000] Confira nossa programação dos próximos dias, é o enunciado da mensagem.
+
+[00:01:35.540–00:01:40.600] E aí você vai colocar dia da semana, tema da aula e a hora que ela vai ser publicada.
+
+[00:01:41.040–00:01:45.660] Depois, dia da semana, tema da aula ou do podcast ou do vídeo e a hora que vai ser publicada.
+
+[00:01:45.980–00:01:50.360] E por fim, dia da semana, tema da aula ou do vídeo ou do podcast e a hora.
+
+[00:01:50.620–00:01:52.260] E aí finaliza com o PS.
+
+[00:01:52.760–00:01:56.620] Após a aula, faremos atendimentos aos participantes no grupo no privado.
+
+[00:01:56.760–00:01:59.840] Se você tiver dúvidas ou sugestões, pode me chamar no particular.
+
+[00:02:00.440–00:02:01.820] Sucesso e vamos juntos!
+
+[00:02:02.340–00:02:04.840] Essa é a mensagem, é o cronograma, é a publicação.
+
+[00:02:05.500–00:02:10.200] Uma vez publicada a mensagem, as pessoas irão se programar para acompanharem o seu conteúdo.
+
+[00:02:10.680–00:02:13.960] É importante que quando você postar o cronograma no grupo,
+
+[00:02:14.400–00:02:17.760] eu recomendo que você já esteja com os três conteúdos produzidos,
+
+[00:02:17.880–00:02:19.500] só aguardando para serem publicados.
+
+[00:02:19.700–00:02:20.120] E por quê?
+
+[00:02:20.700–00:02:25.180] Faça isso para que não fique muito em cima da hora e assim você evita furos, ok?
+
+[00:02:25.960–00:02:30.860] Quanto ao formato que você vai produzir os três conteúdos, eles podem ser de três formas.
+
+[00:02:31.380–00:02:36.580] Em áudio, como podcast, em vídeo gravado ou em lives ao vivo.
+
+[00:02:37.140–00:02:40.860] Nas próximas aulas eu falarei como produzir cada um desses formatos.
+
+[00:02:41.100–00:02:44.900] Mas Thales, eu posso escolher um só desses formatos para produzir o meu conteúdo?
+
+[00:02:45.540–00:02:46.020] Pode.
+
+[00:02:46.780–00:02:51.060] Tales, qual é o melhor tipo de formato? Qual deles irá aquecer mais a minha audiência?
+
+[00:02:51.800–00:02:56.600] Essa é uma pergunta difícil, porque cada nicho tem seu comportamento e suas preferências.
+
+[00:02:57.140–00:03:00.500] Vias de regra, vídeos e lives costumam ser melhores.
+
+[00:03:00.940–00:03:04.740] Mas se você está começando agora ou é acanhado para produzir vídeos maiores,
+
+[00:03:05.080–00:03:07.280] você pode começar com o podcast. Legal?
+
+[00:03:08.200–00:03:10.680] Sabe o que é mais legal? Sabe o que é muito legal?
+
+[00:03:11.160–00:03:15.560] Enquanto você estiver preparando e produzindo e realizando o seu starter,
+
+[00:03:15.560–00:03:18.720] você estará fazendo marketing digital na veia.
+
+[00:03:19.220–00:03:21.880] Olha só, captar leads, nutrir-los com conteúdo de valor,
+
+[00:03:22.080–00:03:25.760] produzir áudios, lives, vídeos, isso é marketing digital.
+
+[00:03:26.260–00:03:27.640] É uma coisa linda, concorda?
+
+[00:03:28.240–00:03:32.560] Após a jornada, você oficialmente será um internet marketer.
+
+[00:03:33.360–00:03:34.700] Legal? Então é isso aí.
+
+[00:03:35.140–00:03:38.660] Vamos para a próxima aula, porque nela você aprenderá a criar os seus podcasts
+
+[00:03:38.660–00:03:39.980] para o grupo Mix.
+
+[00:03:40.080–00:03:43.300] E mesmo que você decida produzir seu conteúdo em outro formato,
+
+[00:03:43.660–00:03:50.540] Assista a próxima aula, pois é nela onde eu explicarei o conceito que existe para construir o seu conteúdo.
+
+[00:03:50.720–00:03:52.620] Tá bom? Então, vamos adiante.

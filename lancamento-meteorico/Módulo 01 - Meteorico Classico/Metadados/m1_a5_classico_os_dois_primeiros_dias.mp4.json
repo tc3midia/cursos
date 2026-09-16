@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 1,
+  "module_title": "Meteorico Classico",
+  "lesson_number": 5,
+  "source_lesson_number": "06",
+  "title": "Clássico - Os dois primeiros dias",
+  "source_filename": "AULA 06 - Clássico - Os dois primeiros dias #ZDMPRIME.COM.mp4",
+  "local_filename": "m1_a5_classico_os_dois_primeiros_dias.mp4",
+  "origin": "https://drive.google.com/drive/folders/1ljUbBugf_nFWO9wZ6NmLla-POBVlchIJ?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 260677647,
+  "duration_seconds": 908.736,
+  "duration_hms": "00:15:08.736",
+  "sha256": "7bfe5c0a6d87462af5c1d7b366555cf8ba06ce8b66597bfcfd366ae9f57a3555",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "908.736000",
+    "size": "260677647",
+    "bit_rate": "2294859"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

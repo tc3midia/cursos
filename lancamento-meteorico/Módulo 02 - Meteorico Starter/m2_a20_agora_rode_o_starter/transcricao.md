@@ -1,0 +1,26 @@
+# Agora rode o Starter
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 02 - Meteorico Starter.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 02 - Meteorico Starter\m2_a20_agora_rode_o_starter.mp4`. Duração: 00:00:58.922.
+SHA-256 do vídeo: `59ccf034b9049811ba0c0dabbe36b00ebf14d63d5675b7470ea4ee4696d177c0`. [Origem](https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br).
+
+[00:00:00.000–00:00:13.020] Pronto, você concluiu o módulo Meteórico Starter. Lembre-se de estudar também os módulos 6 e o módulo especial Tráfego para Meteóricos para aprender a usar o tráfego pago para captar seus leads.
+
+[00:00:13.020–00:00:23.100] Eu sugiro que por hora você não saia vasculhando os demais módulos do treinamento para não se confundir, tá bom? Foco no seu estágio e no seu tipo de meteórico.
+
+[00:00:23.500–00:00:28.340] Depois de rodar o seu starter, você pode voltar e estudar os demais tipos de meteórico.
+
+[00:00:28.440–00:00:31.460] O seu plano de acesso é de dois anos, então você tem tempo.
+
+[00:00:31.940–00:00:35.300] Lembre-se também de estar presente na reunião da mentoria ao vivo comigo
+
+[00:00:35.300–00:00:39.820] para tirar dúvidas que acontecerá na data que foi divulgada lá no grupo de boas-vindas
+
+[00:00:39.820–00:00:44.580] e se por qualquer motivo você perdê-la, nós vamos deixar ela gravada para você.
+
+[00:00:45.020–00:00:49.380] Dúvidas? Tutoria.fbpratico.com.br
+
+[00:00:49.380–00:00:52.880] E no mais, é partir para a ação, vamos para cima!
+
+[00:00:53.100–00:01:23.080] Transcrição e Legendas Pedro Negri

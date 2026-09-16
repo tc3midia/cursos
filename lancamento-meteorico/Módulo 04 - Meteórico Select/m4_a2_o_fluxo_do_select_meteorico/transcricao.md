@@ -1,0 +1,184 @@
+# A2 o fluxo do select meteorico
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 04 - Meteórico Select.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 04 - Meteórico Select\m4_a2_o_fluxo_do_select_meteorico.mp4`. Duração: 00:05:49.951.
+SHA-256 do vídeo: `44131625484b0301606aadc0d320a5e0dd6767952157329cb32db93737ee2e8f`. [Origem](https://drive.google.com/drive/folders/179oQDCTNYWQ0zSvReJyc3xGyVHA48ris?hl=pt-br).
+
+[00:00:00.000–00:00:09.740] Se você estudou o módulo do Meteórico Clássico, vai perceber que o fluxo do Select é um pouco mais curto no tocante a tempo de interações com os grupos abertos.
+
+[00:00:10.120–00:00:17.440] Nesse ponto, o Select é mais exclusivo. E, aliás, essa é a palavra, esse é o gatilho. Exclusividade.
+
+[00:00:18.200–00:00:24.060] Tanto o produto oferecido quanto a oportunidade oferecida aqui no Select são exclusivos.
+
+[00:00:24.060–00:00:29.480] Você vai perceber isso quando eu mostrar pra você na tela o fluxo do Select Meteórico.
+
+[00:00:29.480–00:00:35.940] Olha só, o primeiro movimento do Select será a fase de empilhamento dos leads nos grupos.
+
+[00:00:36.400–00:00:40.360] Esse estágio é praticamente idêntico ao que acontece no fluxo do clássico.
+
+[00:00:40.620–00:00:44.520] Você vai começar a empilhar de 12 a 15 dias antes, vai ajustando o seu tráfego,
+
+[00:00:44.800–00:00:50.260] identificando os melhores conjuntos, escalando o orçamento das campanhas que estão gerando mais leads nos grupos,
+
+[00:00:50.760–00:00:52.440] tudo como manda o figurino.
+
+[00:00:52.800–00:00:58.000] A principal diferença em relação ao meteórico clássico vai estar nos criativos dos anúncios.
+
+[00:00:58.500–00:01:01.840] Enquanto o clássico foca na condição única e exclusiva da promoção,
+
+[00:01:02.200–00:01:08.200] aqui você vai focar na exclusividade do produto e nas vantagens de fazer parte do grupo seleto,
+
+[00:01:08.480–00:01:09.980] que vai estar mais perto de você.
+
+[00:01:10.440–00:01:14.300] A comunicação é totalmente voltada ao produto premium.
+
+[00:01:14.660–00:01:17.000] O seu high ticket é um produto premium.
+
+[00:01:17.000–00:01:23.000] Fora a peculiaridade da comunicação dos anúncios, a mecânica do tráfego é idêntica ao clássico.
+
+[00:01:23.000–00:01:28.520] Então, quando chegarmos na semana do lançamento, ainda com os grupos fechados,
+
+[00:01:29.000–00:01:36.520] a propósito, olha aí na tela, esse GF acima do box significa grupo fechado e GA significa grupo aberto.
+
+[00:01:36.680–00:01:41.380] Então, quando nós chegarmos na segunda-feira, você deve convidar suas listas de e-mail,
+
+[00:01:41.720–00:01:46.740] listas de transição do WhatsApp, grupos e canais do Telegram, grupos de nutrição do WhatsApp,
+
+[00:01:46.880–00:01:50.460] ou seja, os seus ativos para entrarem no grupo select.
+
+[00:01:51.140–00:01:53.320] Thales, eu posso começar esse convite no domingo
+
+[00:01:53.320–00:01:55.060] para dar mais tempo para os meus leads?
+
+[00:01:55.460–00:01:56.500] Mais tempo para a lista?
+
+[00:01:56.780–00:01:57.880] Pode, não tem problema.
+
+[00:01:58.280–00:02:01.520] Mesmo assim, você vai perceber que é na segunda-feira,
+
+[00:02:01.600–00:02:03.580] geralmente é isso, na segunda-feira
+
+[00:02:03.580–00:02:05.820] que os leads entram mais efetivamente nos grupos.
+
+[00:02:06.240–00:02:07.560] E lembrando que na segunda,
+
+[00:02:07.720–00:02:10.020] os grupos estarão fechados para interações
+
+[00:02:10.020–00:02:12.840] e ainda você vai estar recebendo leads
+
+[00:02:12.840–00:02:14.880] vindos do tráfego, ok?
+
+[00:02:14.880–00:02:18.840] O tráfego deve encerrar no final do dia da segunda-feira.
+
+[00:02:19.320–00:02:19.900] Anota aí.
+
+[00:02:20.280–00:02:25.000] Quando as pessoas forem entrando, o WhatsApp mostrará aquele resuminho da descrição do grupo.
+
+[00:02:25.520–00:02:28.700] Essa descrição é o que as pessoas terão acesso por enquanto.
+
+[00:02:28.820–00:02:34.460] E é importante você escrever uma descrição que elucide o que vai acontecer ali nos próximos dias.
+
+[00:02:34.740–00:02:39.980] Aqui abaixo, eu vou deixar um exemplo de descrição de um select meteórico para você se inspirar.
+
+[00:02:40.600–00:02:44.160] Ah, e quanto ao nome do grupo, você pode usar a palavra select.
+
+[00:02:44.160–00:02:45.760] Ela sempre cai bem.
+
+[00:02:45.760–00:02:50.880] Você escreve SELECT, nome do seu produto, hashtag, número do grupo.
+
+[00:02:51.020–00:02:52.960] Então, 01, 02, e aí vai.
+
+[00:02:53.400–00:02:55.040] Então, isso é para identificar o seu grupo.
+
+[00:02:55.360–00:02:59.060] Lembrando que você, certamente, vai formar mais de um grupo.
+
+[00:02:59.260–00:03:02.580] Então, utilize o Redirect durante o período de formação.
+
+[00:03:03.020–00:03:08.500] Lá no módulo Como Amplificar Seu Meteorico, existe uma aula onde eu dou mais detalhes sobre isso.
+
+[00:03:08.820–00:03:11.280] Anota aí que é importante você assistir essa aula.
+
+[00:03:11.840–00:03:15.060] E se você já domina o uso de redirecionadores para grupos,
+
+[00:03:15.060–00:03:20.000] eu recomendo que você conheça o JoinZap, que é a ferramenta oficial do Meteorico.
+
+[00:03:20.100–00:03:24.660] Os mentorados do Meteorico são os únicos com acesso ao Trial de 15 dias.
+
+[00:03:24.760–00:03:28.660] Eu vou deixar o link aqui abaixo nessa aula para você usar também, tá bom?
+
+[00:03:29.280–00:03:36.160] Voltando ao fluxo, no dia 1 você convidará suas listas e no dia 2, que é a terça, olha na tela, né?
+
+[00:03:36.520–00:03:42.380] Às 9 horas você vai publicar o vídeo de boas-vindas, que é diferente do clássico.
+
+[00:03:42.380–00:03:47.080] E você vai conduzir as pessoas a responderem o formulário SELECT.
+
+[00:03:47.380–00:03:50.600] Na próxima aula, vamos falar mais sobre esse movimento.
+
+[00:03:51.100–00:03:54.100] O formulário é fundamental para o sucesso da estratégia.
+
+[00:03:54.480–00:03:55.820] Sem ele, não existe SELECT.
+
+[00:03:56.040–00:03:58.100] Então, nada de improvisar aqui. Combinado?
+
+[00:03:58.640–00:04:02.440] Você vai entender como ele é importante e como criá-lo nas próximas aulas também.
+
+[00:04:02.580–00:04:05.200] Por hora, vamos só nos concentrar no fluxo.
+
+[00:04:05.500–00:04:07.600] Então, na terça, o grupo continuará fechado,
+
+[00:04:07.600–00:04:12.460] pois o foco é que as pessoas entendam o que está acontecendo e respondam o formulário.
+
+[00:04:13.000–00:04:18.060] Na quarta-feira, dia 3, chegamos num momento muito importante do Select.
+
+[00:04:18.400–00:04:20.240] Nesse dia vai acontecer muita coisa.
+
+[00:04:20.760–00:04:26.540] Não se espante, nem se desespere, porque na quarta nós vamos excluir do grupo
+
+[00:04:26.540–00:04:29.400] todos que responderam o formulário Select.
+
+[00:04:30.220–00:04:34.760] Calma. Calma que existe um propósito e a forma correta de fazer isso.
+
+[00:04:35.000–00:04:37.020] Nós vamos ver esses detalhes mais adiante.
+
+[00:04:37.020–00:04:39.080] por hora, só confia e vem
+
+[00:04:39.080–00:04:41.220] comigo, beleza? Na quarta,
+
+[00:04:41.560–00:04:43.160] após a seleção dos
+
+[00:04:43.160–00:04:45.160] leads no grupo, você abrirá o grupo
+
+[00:04:45.160–00:04:47.040] para interações, divulgará o
+
+[00:04:47.040–00:04:49.040] vídeo 2 com as instruções sobre a compra
+
+[00:04:49.040–00:04:50.960] e à noite fará a sala
+
+[00:04:50.960–00:04:53.100] secreta para fazer ferver
+
+[00:04:53.100–00:04:55.120] os seus leads. Sim, a expressão
+
+[00:04:55.120–00:04:57.120] aqui é fazer ferver,
+
+[00:04:57.460–00:04:59.200] porque com as ações anteriores
+
+[00:04:59.200–00:05:00.860] eles já estão quentíssimos.
+
+[00:05:01.680–00:05:03.160] E na quinta-feira, dia D,
+
+[00:05:03.480–00:05:04.620] você abrirá o carrinho.
+
+[00:05:04.620–00:05:09.000] O fluxo nesse dia é exatamente o mesmo do meteórico clássico.
+
+[00:05:09.340–00:05:14.780] As principais instruções estão no módulo 1 e aqui nós vamos dar uma pincelada também.
+
+[00:05:15.340–00:05:18.840] Na sexta, é recomendável rodar um downsell.
+
+[00:05:19.160–00:05:25.020] Esse dia não tem muito mistério e pode ser feito tanto com o grupo aberto quanto com o grupo fechado, como você preferir.
+
+[00:05:25.340–00:05:31.000] As instruções desse downsell são bem práticas e mais na frente vamos falar sobre isso também.
+
+[00:05:31.000–00:05:34.540] E essa é a semana do seu Select Meteorico.
+
+[00:05:34.620–00:05:49.580] Compreendeu o fluxo? É bem simples, agora nós vamos nos aprofundar em cada uma das etapas, vamos colocar a lupa e dar o zoom in, pois os detalhes garantem o sucesso da estratégia. Respira fundo aí e vamos para a próxima aula.

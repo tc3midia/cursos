@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "account_id": "account.86ajrj8n9",
+  "course": "Lançamento Meteórico",
+  "instructor": "Talles Quinderé",
+  "module_number": 2,
+  "module_title": "Meteorico Starter",
+  "item_kind": "lesson",
+  "lesson_number": 1,
+  "source_lesson_number": "01",
+  "title": "Quando fazer o Starter",
+  "source_filename": "AULA 01 - Quando fazer o Starter #ZDMPRIME.COM.mp4",
+  "local_filename": "m2_a1_quando_fazer_o_starter.mp4",
+  "origin": "https://drive.google.com/drive/folders/1vBQyEkjSG22SIP4pPuw3qBkp304wJwfm?hl=pt-br",
+  "acquired_at": "2026-09-13",
+  "file_size_bytes": 54775057,
+  "duration_seconds": 195.435,
+  "duration_hms": "00:03:15.434",
+  "sha256": "53003cc8fa4163c9a085f26ae3b285800322d1813e3087a83c6cfe4ebeed7356",
+  "recognized_by_ffprobe": true,
+  "audiovisual_review_complete": false,
+  "format": {
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": "195.434667",
+    "size": "54775057",
+    "bit_rate": "2242183"
+  },
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30000/1001"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0"
+    }
+  ]
+}

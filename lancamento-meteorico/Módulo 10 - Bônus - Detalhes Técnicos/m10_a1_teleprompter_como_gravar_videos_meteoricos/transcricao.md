@@ -1,0 +1,332 @@
+# A1 teleprompter como gravar videos meteoricos
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada contra o áudio.
+Módulo 10 - Bônus - Detalhes Técnicos.
+Vídeo original: `D:\Cursos\Lançamento Meteórico\Módulo 10 - Bônus - Detalhes Técnicos\m10_a1_teleprompter_como_gravar_videos_meteoricos.mp4`. Duração: 00:07:09.802.
+SHA-256 do vídeo: `a59f5202fac0abfb78dcb3150268877741dca058e5d743b184aae636c9827bd9`. [Origem](https://drive.google.com/drive/folders/1J--n3t6afSUQRX2r1r5Hy2FVh-mQy7cW?hl=pt-br).
+
+[00:00:00.000–00:00:02.500] Nós chamamos esse módulo de detalhes técnicos.
+
+[00:00:02.700–00:00:05.540] São três aulas super objetivas e rápidas
+
+[00:00:05.540–00:00:08.760] para ensinar você a gravar os vídeos do Meteórico,
+
+[00:00:08.880–00:00:10.800] os que nós chamamos os três vídeos mágicos.
+
+[00:00:11.160–00:00:13.500] E você não vai precisar contratar uma produtora
+
+[00:00:13.500–00:00:15.940] e nem sequer ter uma câmera profissional.
+
+[00:00:16.120–00:00:18.400] Com um smartphone, se você tiver um bom smartphone,
+
+[00:00:18.860–00:00:20.740] você já vai conseguir gravar os seus vídeos.
+
+[00:00:21.140–00:00:24.320] Para isso, você vai precisar baixar no seu telefone
+
+[00:00:24.320–00:00:29.360] um app de teleprompter gratuito chamado Teleprompter.
+
+[00:00:29.360–00:00:31.160] vai aparecer aqui, teleprompter
+
+[00:00:31.160–00:00:33.340] vídeo creator. Procura
+
+[00:00:33.340–00:00:35.200] por ele aí na Apple Store, caso você
+
+[00:00:35.200–00:00:36.980] use iPhone ou caso você use Android,
+
+[00:00:37.400–00:00:38.920] procura na Play Store, ele está aí.
+
+[00:00:39.200–00:00:41.140] Teleprompter vídeo creator. Se você não
+
+[00:00:41.140–00:00:43.100] achar com esse nome, procura como
+
+[00:00:43.100–00:00:46.280] Bigvu, B-I-G-V-U,
+
+[00:00:46.580–00:00:47.260] que é o
+
+[00:00:47.260–00:00:49.160] fabricante desse teleprompter, tá bom?
+
+[00:00:49.280–00:00:50.900] É gratuito, é super legal.
+
+[00:00:51.380–00:00:52.960] Daqui a pouco eu vou te mostrar como é que você
+
+[00:00:52.960–00:00:55.340] opera o teleprompter, tá? Vamos ser bem práticos
+
+[00:00:55.340–00:00:57.140] nessa aula. Mas antes, deixa eu te passar umas
+
+[00:00:57.140–00:00:59.100] dicas sobre a gravação.
+
+[00:00:59.360–00:01:02.980] primeira dica, é importante que você grave os seus vídeos
+
+[00:01:02.980–00:01:06.880] num lugar iluminado, não com o sol direto na cara,
+
+[00:01:07.040–00:01:09.480] isso fica ruim, mas um local iluminado,
+
+[00:01:09.760–00:01:10.540] essa é a primeira dica.
+
+[00:01:10.940–00:01:14.300] Segunda, e mais importante, um lugar silencioso,
+
+[00:01:14.300–00:01:18.000] é muito incômodo quando a gente está gravando um vídeo
+
+[00:01:18.000–00:01:21.020] e o áudio fica ruim, fica embaralhado,
+
+[00:01:21.140–00:01:24.260] entra ruído de fora, então procura um lugar silencioso,
+
+[00:01:24.640–00:01:28.440] um lugar iluminado e um lugar com um cenário neutro, ok?
+
+[00:01:28.440–00:01:35.340] Se você fizer com um cenário com muitos objetos, pode distrair a atenção da pessoa que vai assistir o seu vídeo.
+
+[00:01:35.420–00:01:36.680] Então, essas dicas são importantes.
+
+[00:01:37.120–00:01:43.220] Outra dica importante é a distância e a altura que você vai colocar o seu telefone, tá?
+
+[00:01:43.520–00:01:52.480] Eu recomendo, para que fique um vídeo mais natural, que você faça uma distância aproximadamente de um braço do seu telefone, ok?
+
+[00:01:52.480–00:01:57.540] Se você tiver um tripézinho como esse, você pode usar distância de um braço.
+
+[00:01:57.540–00:02:04.040] olha sempre para a câmera e para o texto que vai passar do ladinho aqui do teleprompter
+
+[00:02:04.040–00:02:06.140] e procura ser natural, ok?
+
+[00:02:06.560–00:02:08.780] Thales, eu não tenho um tripé, não tem nenhum problema,
+
+[00:02:08.940–00:02:10.760] você pode usar o seu próprio braço, tá bom?
+
+[00:02:11.140–00:02:15.920] Desde que você não use um tripé ou um braço muito de cima para baixo,
+
+[00:02:16.160–00:02:20.800] porque isso denota inferioridade sua em relação a quem está assistindo,
+
+[00:02:21.280–00:02:26.660] nem de baixo para cima, porque denota superioridade sua para quem está assistindo
+
+[00:02:26.660–00:02:28.800] e ainda dá uma papada feia em você.
+
+[00:02:29.280–00:02:33.820] Então, usa sempre aqui, na altura dos olhos, braço reto, bem esticado
+
+[00:02:33.820–00:02:37.340] e lendo o texto do TTP que vai passar.
+
+[00:02:37.660–00:02:41.300] Antes de eu te mostrar o app funcionando, uma última dica.
+
+[00:02:41.840–00:02:46.280] Como o texto do script do Meteorico não é um texto que você escreveu,
+
+[00:02:46.600–00:02:48.520] então esse texto não está na sua mente ainda.
+
+[00:02:48.520–00:02:50.440] O que eu recomendo que você faça?
+
+[00:02:50.740–00:02:55.360] Que você leia o texto várias vezes antes de começar a gravar.
+
+[00:02:55.360–00:02:57.980] Então imprime aí na tua impressora o texto, o script,
+
+[00:02:58.180–00:03:01.880] já depois de você ter editado com as informações do seu produto
+
+[00:03:01.880–00:03:04.420] e leia em voz alta algumas vezes.
+
+[00:03:04.760–00:03:05.720] Quantas vezes, Thales?
+
+[00:03:06.120–00:03:09.480] O máximo que você puder, leia aí 5, 6, 10 vezes, não tem problema.
+
+[00:03:09.820–00:03:13.420] Porque quanto mais você lê o texto, mais ele vai estar em você.
+
+[00:03:13.880–00:03:17.760] E dessa forma, quando você for gravar, ele vai ficar mais natural.
+
+[00:03:18.240–00:03:20.420] É importante que pareça natural, tá?
+
+[00:03:21.000–00:03:24.420] O meteórico funciona até para pessoas que são bem robóticas,
+
+[00:03:24.420–00:03:26.400] assim, não tem nenhum problema. O importante é ir lá
+
+[00:03:26.400–00:03:28.260] e fazer. Mas se ficar natural,
+
+[00:03:28.580–00:03:30.540] melhor ainda, tá? E pra ficar natural
+
+[00:03:30.540–00:03:32.420] você tem que dar uma ensaiadinha no texto.
+
+[00:03:32.700–00:03:34.440] Show? Quando você for
+
+[00:03:34.440–00:03:36.500] gravar, você vai ver que é possível
+
+[00:03:36.500–00:03:38.540] regular a velocidade do texto,
+
+[00:03:38.700–00:03:40.200] deixe bem confortável pra você
+
+[00:03:40.200–00:03:42.380] e aí vai dar tudo certo, tá bom?
+
+[00:03:42.660–00:03:44.460] Então vamos pra uma parte dessa aula
+
+[00:03:44.460–00:03:46.480] agora, onde eu mostro pra você o TP,
+
+[00:03:46.680–00:03:48.680] o Teleprompter, o app, por dentro.
+
+[00:03:48.820–00:03:50.500] Vamos lá. Depois de você instalar
+
+[00:03:50.500–00:03:52.000] o software, quando você abri-lo,
+
+[00:03:52.360–00:03:54.040] ele vai abrir essa tela em Minhas
+
+[00:03:54.040–00:03:56.200] reportagens, ok? Ele não vai ter
+
+[00:03:56.200–00:03:58.100] nada aqui, apenas esse Serena
+
+[00:03:58.100–00:03:59.700] Williams aqui como exemplo
+
+[00:03:59.700–00:04:02.040] então, o que você deve fazer? Você vai
+
+[00:04:02.040–00:04:04.240] clicar aqui no botãozinho mais
+
+[00:04:04.240–00:04:06.180] ok? E ele vai
+
+[00:04:06.180–00:04:08.040] abrir a possibilidade
+
+[00:04:08.040–00:04:09.920] de você criar um novo prômpter
+
+[00:04:09.920–00:04:12.040] então você escolhe um título qualquer
+
+[00:04:12.040–00:04:14.000] você pode escrever qualquer coisa aí, vou colocar
+
+[00:04:14.000–00:04:15.480] só um teste, tá?
+
+[00:04:16.840–00:04:17.560] Concluir
+
+[00:04:17.560–00:04:20.160] teste, e aqui você vai
+
+[00:04:20.160–00:04:22.220] colar o script do
+
+[00:04:22.220–00:04:24.320] meteórico. O script do vídeo 1,
+
+[00:04:24.320–00:04:26.220] o script do vídeo 2 e o script
+
+[00:04:26.220–00:04:28.400] do vídeo 3. É bem simples,
+
+[00:04:28.480–00:04:30.320] não precisa nem escrever nada.
+
+[00:04:30.420–00:04:32.200] Se você já editou o script no seu
+
+[00:04:32.200–00:04:34.280] computador, coloca ele aqui, ele já
+
+[00:04:34.280–00:04:36.400] vem pronto. Tales, eu também posso editar
+
+[00:04:36.400–00:04:37.940] ele aqui? Pode. É só você
+
+[00:04:37.940–00:04:40.320] escrever o que você quiser aqui, tá bom?
+
+[00:04:40.800–00:04:42.100] Feito isso, tá?
+
+[00:04:42.240–00:04:44.180] O que você vai fazer? Você vai clicar no
+
+[00:04:44.180–00:04:46.300] botãozinho câmera e quando
+
+[00:04:46.300–00:04:48.220] você clicar em câmera, o Prompter
+
+[00:04:48.220–00:04:50.260] vai começar. Ele vai abrir
+
+[00:04:50.260–00:04:52.340] essa telinha aqui, você é só clicar
+
+[00:04:52.340–00:04:53.760] em não. Show?
+
+[00:04:54.180–00:04:56.160] E olha eu aqui aparecendo aqui. Tudo bem, pessoal?
+
+[00:04:56.260–00:04:58.420] Vamos lá. Então, ele tem alguns comandos
+
+[00:04:58.420–00:05:00.520] bem interessantes. Se você quer filmar em HD
+
+[00:05:00.520–00:05:02.260] ou numa resolução
+
+[00:05:02.260–00:05:04.020] menor, se você
+
+[00:05:04.020–00:05:06.380] quer fazer algum ajuste de luz,
+
+[00:05:06.500–00:05:08.180] geralmente eu recomendo que você
+
+[00:05:08.180–00:05:10.200] não use. Essa opção do
+
+[00:05:10.200–00:05:12.080] Azinho aqui, ele é
+
+[00:05:12.080–00:05:14.100] configurações de fonte. E olha
+
+[00:05:14.100–00:05:16.080] que legal que você pode fazer. Se você quiser,
+
+[00:05:16.200–00:05:17.700] você pode colocar
+
+[00:05:17.700–00:05:20.240] a fonte para aparecer mais próximo
+
+[00:05:20.240–00:05:22.000] a câmera, bem aqui é a câmera
+
+[00:05:22.000–00:05:24.360] a câmera do celular, bem aqui
+
+[00:05:24.360–00:05:26.200] vai aparecer a fonte, dessa forma você
+
+[00:05:26.200–00:05:28.460] disfarça mais a leitura do texto
+
+[00:05:28.460–00:05:29.940] dá pra você também
+
+[00:05:29.940–00:05:32.740] fazer esse ajuste
+
+[00:05:32.740–00:05:33.720] no aumento
+
+[00:05:33.720–00:05:36.100] ou diminuição do tamanho da fonte
+
+[00:05:36.100–00:05:38.720] você pode colocar no centro, na direita
+
+[00:05:38.720–00:05:40.000] ou à esquerda
+
+[00:05:40.000–00:05:42.380] outro ajuste que você pode fazer é na velocidade
+
+[00:05:42.380–00:05:44.180] do texto, se você quer mais
+
+[00:05:44.180–00:05:46.560] rápido ou mais lento
+
+[00:05:46.560–00:05:48.580] isso aqui muda de pessoa pra pessoa
+
+[00:05:48.580–00:05:51.640] Então, você vai poder ajustar de acordo com o que você quer.
+
+[00:05:52.100–00:05:55.300] Feito todos os ajustes, você, então, vai apertar no REC
+
+[00:05:55.300–00:05:58.540] e o TP vai fazer a contagem regressiva e vai começar.
+
+[00:05:59.000–00:06:00.640] Então, se eu fosse ler esse TP, seria assim.
+
+[00:06:02.060–00:06:05.240] A jornada do empreendedor começa na compreensão profunda do seu mercado.
+
+[00:06:05.340–00:06:06.400] Olha só, ficou muito rápido.
+
+[00:06:06.840–00:06:07.660] Então, não gostei.
+
+[00:06:07.820–00:06:12.880] Eu vou dar uma parada e aí eu vou colocar em record new take, ok?
+
+[00:06:13.560–00:06:15.340] Não, vou diminuir a velocidade.
+
+[00:06:16.740–00:06:17.700] Pronto, vamos nessa.
+
+[00:06:18.220–00:06:19.260] Vamos ver se agora já ficou boa.
+
+[00:06:20.400–00:06:22.180] 3, 2, 1.
+
+[00:06:23.240–00:06:26.940] A jornada do empreendedor começa na compreensão profunda do seu mercado.
+
+[00:06:27.440–00:06:30.480] Passa pela construção correta da oferta dos seus produtos ou serviços
+
+[00:06:30.480–00:06:34.420] e só acaba quando ele atinge todos os objetivos que desenhou para a sua vida.
+
+[00:06:34.740–00:06:35.320] E por aí vai.
+
+[00:06:35.680–00:06:38.660] Esse é um texto de um vídeo de conteúdo que eu gerei.
+
+[00:06:38.820–00:06:39.020] Legal?
+
+[00:06:39.020–00:06:45.460] Quando você terminar, você aperta o pause e aí compartilhar clipe.
+
+[00:06:45.740–00:06:47.540] Você clicar em compartilhar clipe.
+
+[00:06:47.700–00:06:49.860] ele vai mandar para algum lugar.
+
+[00:06:50.060–00:06:51.000] Você quer salvar na galeria?
+
+[00:06:51.200–00:06:51.980] Quer mandar para o Facebook?
+
+[00:06:52.420–00:06:54.720] No nosso caso, o que a gente quer fazer é salvar na galeria.
+
+[00:06:55.340–00:06:57.820] Pronto, ele foi salvo no telefone.
+
+[00:06:58.280–00:07:03.740] Na próxima aula, eu vou te ensinar a usar um app de compactação do vídeo
+
+[00:07:03.740–00:07:07.940] para que ele fique pronto, prontinho para ir para o seu grupo de WhatsApp.
+
+[00:07:08.240–00:07:09.160] Vamos para a próxima aula.
