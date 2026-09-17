@@ -1,0 +1,496 @@
+# O atalho para acelerar os seus resultados
+
+Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada integralmente contra o áudio.
+Módulo 01 - O método Formato Criativo de Conteúdo. [Curso no Drive](https://drive.google.com/drive/folders/1gyNrgFt6oDIlLWYqTkJ3mz2GFdR_H-ht).
+Vídeo: `m1_a6_o_atalho_para_acelerar_os_seus_resultados.mkv`. SHA-256: `2c18d7ecb4c3a23eb07793155f0b214074d685cf55ddccb0d97fb13db50b79bd`.
+Velocidade da gravação: 1×. Os tempos abaixo seguem a aula original; a legenda SRT segue o vídeo gravado.
+
+[00:00:00.000–00:00:14.640] Essa aula é sobre como você pode ter 10 vezes mais resultado, 10 vezes mais rápido, usando o único atalho que existe, que é o seu ambiente.
+
+[00:00:15.520–00:00:20.640] A gente quer apresentar para vocês como que funcionam alguns detalhes da comunidade CDF.
+
+[00:00:20.780–00:00:27.600] Essa aula tanto é para você que já faz parte da comunidade para você entender o que te espera lá dentro,
+
+[00:00:27.600–00:00:37.320] E pra você também, que ainda não faz parte da comunidade, no final da aula a gente diz como você pode fazer esse upgrade pra ganhar tudo o que a gente vai falar aqui.
+
+[00:00:37.440–00:00:43.720] Só pra ficar claro, se você faz parte só do curso Formato Criativo de Conteúdo, você não tem acesso à comunidade.
+
+[00:00:44.160–00:00:51.080] Mas, enfim, no final da aula a gente explica como é que você pode adquirir o seu acesso, se você vai ver que se faz sentido pra você ou não.
+
+[00:00:51.440–00:00:51.820] Vamos lá!
+
+[00:00:51.820–00:01:16.880] A primeira coisa, a ideia da comunidade é a gente manter as pessoas crescendo junto com a gente, então na medida que a gente vai aprendendo novas estratégias, testando novos formatos, novas estruturas, aprendendo mais, na medida que a gente vai evoluindo, a gente vai evoluindo a comunidade também, porque todo dia 16 de cada mês tem um encontro ao vivo,
+
+[00:01:16.880–00:01:23.660] O encontro, onde a gente dedica pra trazer as maiores atualizações, tirar dúvidas ao vivo das pessoas da comunidade,
+
+[00:01:23.960–00:01:29.600] é o nosso dia mais importante do mês do encontro, onde reúne todo mundo da comunidade.
+
+[00:01:30.020–00:01:36.680] Você já vai entender, você já vai perceber que o 16, ele repete muito por aqui, eu já vou tirar essa sua dúvida.
+
+[00:01:36.800–00:01:43.100] 16 é simplesmente o meu número da sorte, que eu coloquei como o dia mais importante da comunidade,
+
+[00:01:43.100–00:01:45.820] pra vocês também verem o 16 de forma importante.
+
+[00:01:46.880–00:01:50.820] O próximo ponto são as monitorias
+
+[00:01:50.820–00:01:52.200] Três vezes por semana
+
+[00:01:52.200–00:01:55.020] A gente tem monitorias com o nosso time
+
+[00:01:55.020–00:01:56.660] Te dando instrução
+
+[00:01:56.660–00:01:57.620] Primeira coisa que você precisa entender
+
+[00:01:57.620–00:01:59.660] É que não são pessoas aleatórias
+
+[00:01:59.660–00:02:01.280] Que vão estar lá fazendo uma live
+
+[00:02:01.280–00:02:04.000] Para te entregar uma aula que não faz sentido
+
+[00:02:04.000–00:02:06.440] Não, são pessoas que realmente
+
+[00:02:06.440–00:02:08.300] A gente confia e que tem resultado
+
+[00:02:08.300–00:02:10.320] Que a gente confia a ponto de deixá-las fazendo as coisas
+
+[00:02:10.320–00:02:10.860] Para a gente
+
+[00:02:10.860–00:02:13.000] Então se vai alguém ir lá para falar de vídeo
+
+[00:02:13.000–00:02:14.280] São pessoas que fazem vídeos para a gente
+
+[00:02:14.280–00:02:16.900] pra falar de roteiro, são pessoas que fazem vídeo pra gente
+
+[00:02:16.900–00:02:18.180] e pros nossos clientes também
+
+[00:02:18.180–00:02:19.840] então são pessoas muito boas
+
+[00:02:19.840–00:02:21.740] e elas não tão lá pra te dar aula
+
+[00:02:21.740–00:02:23.760] elas tão lá pra te dar instrução
+
+[00:02:23.760–00:02:25.400] direção, pra falar
+
+[00:02:25.400–00:02:27.240] cara, é aqui que você tá errando
+
+[00:02:27.240–00:02:28.940] e você acerta se você fizer desse jeito
+
+[00:02:28.940–00:02:31.400] por esse caminho aqui, eu acho que não vai funcionar tanto
+
+[00:02:31.400–00:02:33.020] por esse caminho aqui, funciona
+
+[00:02:33.020–00:02:35.360] ah, mas eu tô com dúvida em tal coisa
+
+[00:02:35.360–00:02:37.520] beleza, deixa eu te explicar de um jeito um pouco mais claro
+
+[00:02:37.520–00:02:39.260] deixa eu te dar aqui um exemplo pro seu
+
+[00:02:39.260–00:02:41.300] nicho especificamente
+
+[00:02:41.300–00:02:43.400] então lá, é no ambiente
+
+[00:02:43.400–00:02:47.620] onde você vai ter esse direcionamento para você não se perder de forma nenhuma aqui no curso.
+
+[00:02:48.140–00:02:51.080] Para você conseguir ir caminhando passo a passo junto com a gente,
+
+[00:02:51.160–00:02:53.280] três vezes por semana, a gente tem esses encontros.
+
+[00:02:54.100–00:02:57.500] A monitoria acontece no nosso Discord.
+
+[00:02:58.080–00:03:02.500] O Discord que é a casa da comunidade CDF.
+
+[00:03:03.300–00:03:06.540] As aulas ao vivo, às vezes no Discord, às vezes no Zoom,
+
+[00:03:06.840–00:03:10.880] elas ficam gravadas no nosso acervo de aulas ao vivo do dia 16.
+
+[00:03:11.360–00:03:18.460] Já as monitorias, como elas são instruções, elas não ficam gravadas, mas elas acontecem dia sim, dia não.
+
+[00:03:18.780–00:03:21.700] Então, no momento que você precisar, vai ter uma monitoria acontecendo.
+
+[00:03:22.260–00:03:25.620] Além disso, nós temos desafios e gamificações.
+
+[00:03:25.620–00:03:30.900] Se você me acompanha há algum tempo no Instagram, você sabe que eu amo desafio.
+
+[00:03:31.620–00:03:39.060] Um período de desafio que tem dia para começar, dia para terminar, parece que vem uma força que a gente descobre nossos novos limites.
+
+[00:03:39.060–00:03:43.080] A gente descobre que consegue muito mais do que a gente achava,
+
+[00:03:43.580–00:03:46.000] principalmente por conta de estar em comunidade.
+
+[00:03:46.280–00:03:48.400] Eu estou fazendo o que as outras pessoas também estão fazendo
+
+[00:03:48.400–00:03:50.520] e a gente junto não tem julgamento.
+
+[00:03:50.940–00:03:52.200] Por isso, eu pensei...
+
+[00:03:52.200–00:03:55.280] E detalhe, nos desafios que eu faço abertos no meu Instagram,
+
+[00:03:55.680–00:03:57.200] sempre a galera tem muito resultado.
+
+[00:03:57.340–00:04:00.380] Eu pensei, como eu consigo trazer o resultado de desafio
+
+[00:04:00.380–00:04:02.840] para os meus alunos da comunidade?
+
+[00:04:03.460–00:04:06.220] Logo, eu criei um desafio mensal.
+
+[00:04:07.120–00:04:11.620] Todo dia, um de cada mês, a gente começa o sprint 16.
+
+[00:04:12.360–00:04:15.320] O que é sprint? A gente é corredor.
+
+[00:04:15.320–00:04:22.080] E na corrida, o sprint é aquele periodozinho curto que você vai na máxima velocidade possível.
+
+[00:04:22.240–00:04:27.160] Às vezes um minuto correndo na maior velocidade, às vezes um quilômetro correndo na maior velocidade possível.
+
+[00:04:27.560–00:04:32.580] Por isso, o sprint 16 é por 16 dias na maior velocidade possível.
+
+[00:04:32.580–00:04:38.020] E isso não significa que você precisa participar do Sprint 16 de todos os meses.
+
+[00:04:38.540–00:04:42.520] Se você quiser, sim, mas ele é feito pras pessoas que estão sentindo que precisam de movimento.
+
+[00:04:43.000–00:04:45.260] E você sabe quando você precisa de movimento.
+
+[00:04:45.740–00:04:49.200] Quando você achar que pode dar um chacoalhão pra prosperidade vir,
+
+[00:04:49.500–00:04:55.380] entra pro próximo Sprint 16, que começa no dia 1, e fica 16 dias em desafio com a gente.
+
+[00:04:55.660–00:05:01.420] Esse desafio de 16 dias tem premiações, tem benefícios.
+
+[00:05:01.420–00:05:03.880] Então participe dos Sprints 16
+
+[00:05:03.880–00:05:05.700] Que com certeza você vai conseguir
+
+[00:05:05.700–00:05:07.440] Prosperar em alguma coisa
+
+[00:05:07.440–00:05:09.580] Porque movimento gera prosperidade
+
+[00:05:09.580–00:05:12.220] Outro ponto interessante são as gamificações
+
+[00:05:12.220–00:05:13.580] Porque dentro
+
+[00:05:13.580–00:05:15.800] Tanto do Sprint 16 e a gente tem
+
+[00:05:15.800–00:05:18.100] Outras formas de bonificar, a gente vai estar premiando
+
+[00:05:18.100–00:05:19.480] Tanto as suas ações
+
+[00:05:19.480–00:05:21.640] Existem ações que a gente dá prêmio
+
+[00:05:21.640–00:05:23.260] Só pra você fazer, tipo, ver as aulas
+
+[00:05:23.260–00:05:25.560] Executar algumas estratégias que a gente ensina
+
+[00:05:25.560–00:05:27.600] Tudo isso vai estar descrito lá na comunidade
+
+[00:05:27.600–00:05:29.880] E a gente premia essas pessoas
+
+[00:05:29.880–00:05:31.620] E a gente premia de várias formas, né?
+
+[00:05:31.660–00:05:37.100] Tem prêmios, tipo, equipamentos, iluminação, microfone, às vezes um iPhone.
+
+[00:05:37.780–00:05:39.760] E também tem premiações de encontros.
+
+[00:05:40.060–00:05:43.620] A gente premia com uma mentoria individual comigo,
+
+[00:05:43.780–00:05:45.520] uma mentoria individual com a Hanna,
+
+[00:05:45.680–00:05:48.460] pra você ter motivação pra gerar resultado.
+
+[00:05:48.940–00:05:50.320] Eu não tô falando que é isso, tá?
+
+[00:05:50.360–00:05:51.840] Vou te dar um exemplo aleatório aqui.
+
+[00:05:52.740–00:05:56.540] Pode ser que uma dessas gamificações de premiações
+
+[00:05:56.540–00:06:03.100] Você ganha prêmios por postar 3 vídeos no mesmo formato
+
+[00:06:03.100–00:06:06.120] Por quê? Porque a gente sabe que postar 3 vídeos no mesmo formato
+
+[00:06:06.120–00:06:07.780] Te leva mais perto de onde você tá
+
+[00:06:07.780–00:06:11.180] Só que repara que eu não perguntei se esse vídeo deu bom ou não
+
+[00:06:11.180–00:06:13.780] Eu vou te premiar pelo simples ato de fazer
+
+[00:06:13.780–00:06:17.640] Postou 3 vídeos em sequência do mesmo formato, você já ganha um prêmio
+
+[00:06:17.640–00:06:22.960] Agora, acertou 3 vídeos do mesmo formato, você ganha outro prêmio
+
+[00:06:22.960–00:06:29.120] O que eu quero dizer? A nossa gamificação, eu quero motivar o seu fazer, entendeu?
+
+[00:06:29.380–00:06:33.560] A gente também vai motivar o resultado, mas o fazer vale muito mais.
+
+[00:06:34.500–00:06:34.940] Continuando.
+
+[00:06:35.740–00:06:37.800] Próximo ponto que a comunidade traz, né?
+
+[00:06:38.000–00:06:41.020] São oportunidades, interação e networking.
+
+[00:06:41.340–00:06:43.800] Oportunidade por quê? Porque tem uma aba pra você colocar lá,
+
+[00:06:44.500–00:06:48.800] pra você poder divulgar o seu trabalho e pra você também poder contratar outras pessoas.
+
+[00:06:48.800–00:06:51.360] Às vezes você precisa de um design, de uma pessoa pra te ajudar nos roteiros,
+
+[00:06:51.360–00:06:53.320] uma pessoa pra te ajudar em gravação
+
+[00:06:53.320–00:06:55.360] ou qualquer coisa nesse sentido, você vai
+
+[00:06:55.360–00:06:57.520] contratar pessoas que fazem parte desse ambiente
+
+[00:06:57.520–00:06:59.580] aqui, que são muito boas. Contratar
+
+[00:06:59.580–00:07:00.980] e ser contratado. Exato.
+
+[00:07:01.300–00:07:03.540] Porque você pode ser o empresário
+
+[00:07:03.540–00:07:05.300] que vai lá na comunidade e fala
+
+[00:07:05.300–00:07:07.220] Oi, tô em busca de um criador
+
+[00:07:07.220–00:07:09.280] estrategista. Quem é formado no
+
+[00:07:09.280–00:07:11.220] método? Vão aparecer pessoas pra te ajudar.
+
+[00:07:11.480–00:07:13.280] Ou você pode ser o criador
+
+[00:07:13.280–00:07:15.500] estrategista que chega lá. Oi, sou formada
+
+[00:07:15.500–00:07:17.300] no método. E aí os empresários
+
+[00:07:17.300–00:07:19.280] vão dizer que querem você
+
+[00:07:19.280–00:07:21.180] no caso. Então, tanto pra um como
+
+[00:07:21.180–00:07:23.300] pro outro. Cara, todos os dias, eu olhei
+
+[00:07:23.300–00:07:24.780] lá no último mês, todos os dias
+
+[00:07:24.780–00:07:27.440] surgiu pelo menos uma oportunidade
+
+[00:07:27.440–00:07:29.160] na comunidade. Todos
+
+[00:07:29.160–00:07:31.420] os dias. Mais de 30 oportunidades em um mês.
+
+[00:07:31.640–00:07:33.440] Sem contar as pessoas que enchem o saco
+
+[00:07:33.440–00:07:35.300] da gente perguntando, mano, e você tem
+
+[00:07:35.300–00:07:37.520] aluno que é criador estrategista, pra indicar?
+
+[00:07:37.780–00:07:39.280] Criador estrategista é quem aplica
+
+[00:07:39.280–00:07:41.140] isso que a gente ensina pra outras empresas.
+
+[00:07:41.420–00:07:43.440] Sim. Cara, muitas oportunidades
+
+[00:07:43.440–00:07:45.000] pra você. Além disso... Não,
+
+[00:07:45.160–00:07:46.760] sem falar também, é que nessa
+
+[00:07:46.760–00:07:49.220] sala de oportunidades, eu vejo
+
+[00:07:49.220–00:07:51.080] muita contratação de editores de vídeo
+
+[00:07:51.080–00:07:53.080] também. Então, editores que
+
+[00:07:53.080–00:07:55.020] passaram pelo nosso método,
+
+[00:07:55.140–00:07:56.940] que sabem editar como a gente,
+
+[00:07:57.200–00:07:59.060] é uma sala de oportunidades gerais.
+
+[00:07:59.700–00:08:00.880] Exato. E também tem
+
+[00:08:00.880–00:08:03.140] as parcerias e networking que você pode
+
+[00:08:03.140–00:08:05.100] fazer. A gente conhece várias pessoas que
+
+[00:08:05.100–00:08:06.860] se tornaram sócias. Sim!
+
+[00:08:07.100–00:08:09.040] Dentro da comunidade. Que viraram amigas.
+
+[00:08:09.160–00:08:11.120] Pra tu ter noção, 90% das pessoas
+
+[00:08:11.120–00:08:13.200] que são do nosso time, elas vieram
+
+[00:08:13.200–00:08:15.260] da comunidade porque a gente viu que as pessoas
+
+[00:08:15.260–00:08:17.260] tinham a mesma vibe que a gente. Você vai ver aqui na comunidade
+
+[00:08:17.260–00:08:18.900] as pessoas têm a mesma vibe que você.
+
+[00:08:19.220–00:08:25.640] Ponto importante sobre a comunidade é, cara, tem uma gestora de comunidade para tirar todas as suas dúvidas.
+
+[00:08:25.980–00:08:31.060] Então, quando você entra lá, você pode encontrar a Marcela e ela vai resolver todas as suas dúvidas
+
+[00:08:31.060–00:08:34.300] em relação a qualquer dúvida que você tiver, porque você pode ter tido alguma dúvida de como
+
+[00:08:34.300–00:08:38.360] como é que eu participo do desafio, como é que eu entro em tal lugar e tudo mais, não entendi direito.
+
+[00:08:38.700–00:08:39.920] Então, ela vai estar lá para te ajudar.
+
+[00:08:40.300–00:08:44.580] Agora eu vou te mostrar aqui como é que é a cara da comunidade, que é o Discord.
+
+[00:08:44.580–00:08:49.780] Um ponto importante é que se você nunca entrou no Discord, ele vai parecer que é difícil.
+
+[00:08:49.900–00:08:51.640] Mas ele só parece que é difícil porque ele é novo.
+
+[00:08:51.780–00:08:52.740] Ele não morde.
+
+[00:08:53.120–00:08:53.680] Ele não morde.
+
+[00:08:53.760–00:08:55.940] Ele é diferente das outras plataformas.
+
+[00:08:56.040–00:08:59.760] Mas você vai precisar de 10 minutinhos aqui se familiarizando para entender.
+
+[00:08:59.960–00:09:05.480] E também tem a Marcela como gestora de comunidade para te falar, para tirar qualquer dúvida que você tenha.
+
+[00:09:06.160–00:09:07.540] Poucas coisas que você precisa entender.
+
+[00:09:07.940–00:09:09.640] O Discord tem duas categorias de coisas.
+
+[00:09:10.400–00:09:12.940] Primeiro aqui do lado, as salas de texto.
+
+[00:09:12.940–00:09:18.120] Aqui, por exemplo, tem o Fique Por Dentro, que é onde você fica por dentro de tudo que está acontecendo.
+
+[00:09:18.480–00:09:23.940] Tem, por exemplo, o Chat Livre, que é onde você conversa livremente com os alunos da comunidade.
+
+[00:09:24.340–00:09:28.740] E tem também as salas de áudio e vídeo, que ficam aqui embaixo.
+
+[00:09:29.240–00:09:32.980] Os nossos encontros ali, as monitorias, geralmente acontecem aqui na Livre 1.
+
+[00:09:33.340–00:09:37.380] Você pode entrar e conversar tanto com as pessoas que fazem parte do nosso time,
+
+[00:09:37.640–00:09:39.780] quanto com a comunidade de forma livre.
+
+[00:09:40.380–00:09:41.740] Por isso que chama Livre 1.
+
+[00:09:41.740–00:09:50.940] Então, você tem essas duas opções aqui, você pode escrever ali por texto e você pode também ter interações por áudio.
+
+[00:09:51.080–00:09:56.960] E tudo isso é muito legal, você vai se divertir muito dentro do Discord, eu tenho certeza.
+
+[00:09:57.480–00:10:02.400] Uma coisa sobre o Discord, vocês já entenderam que no começo ele pode dar uma assustada,
+
+[00:10:02.480–00:10:04.780] meu Deus, são muitas coisas, pra que tantas coisas assim?
+
+[00:10:04.780–00:10:17.120] Mas, na verdade, isso é um facilitador, porque pra entender de forma simplificada o Discord, ele é dividido por salas, onde cada função tem o seu lugarzinho de acontecer.
+
+[00:10:17.540–00:10:27.440] Diferente de outros lugares que podem ficar tudo bagunçado, esse, entre aspas, um monte de coisa que você tá tendo visualmente agora, são simplesmente salas diferentes.
+
+[00:10:27.800–00:10:30.120] Então, quero só ficar por dentro do que está acontecendo?
+
+[00:10:30.460–00:10:31.680] Vou na sala que me diz isso.
+
+[00:10:32.020–00:10:33.940] Quero conversar de forma livre?
+
+[00:10:34.300–00:10:35.320] Vou na sala que me diz.
+
+[00:10:35.620–00:10:38.440] Quero contratar ou ser contratado?
+
+[00:10:38.520–00:10:40.040] Vou na sala de oportunidade.
+
+[00:10:40.360–00:10:44.020] Porque aí fica só o que importa para aquele assunto por sala.
+
+[00:10:44.380–00:10:49.460] Então, sugestão para você é, meu filho, seja um viajante aqui.
+
+[00:10:49.460–00:10:51.380] Vai clicando, vai fuçando.
+
+[00:10:51.640–00:10:52.180] Não tem nada.
+
+[00:10:52.260–00:10:54.120] O pior que pode acontecer é você mandar uma mensagem errada,
+
+[00:10:54.220–00:10:55.980] mas também você não vai morrer, ninguém vai brigar com você.
+
+[00:10:55.980–00:10:58.860] Vai fuçando, que aí você vai descobrir
+
+[00:10:58.860–00:11:00.360] Você vai ser um aventureiro no Discord
+
+[00:11:00.360–00:11:02.580] E aí, vai entendendo como entra
+
+[00:11:02.580–00:11:04.220] Se você entrar numa sala de áudio
+
+[00:11:04.220–00:11:05.720] Vê se alguém chega pra conversar com você
+
+[00:11:05.720–00:11:08.420] Às vezes pede ajuda pra sair da sala de áudio que você não sabe sair
+
+[00:11:08.420–00:11:09.980] E tá tudo bem no começo
+
+[00:11:09.980–00:11:11.380] Pede ajuda pra Marcela
+
+[00:11:11.380–00:11:13.600] O negócio é conhecer o Discord
+
+[00:11:13.600–00:11:15.860] Depois, cara, eu tenho certeza
+
+[00:11:15.860–00:11:17.480] Você vai amar o Discord
+
+[00:11:17.480–00:11:21.220] Beleza, Hanna, mas eu não tenho acesso ao Discord
+
+[00:11:21.220–00:11:22.060] Como é que eu faço?
+
+[00:11:22.180–00:11:24.140] Cara, há um tempo atrás
+
+[00:11:24.140–00:11:28.660] A única forma de ter acesso ao Discord era através da formação criador-estrategista,
+
+[00:11:28.780–00:11:34.820] que é a nossa formação de profissionais, pessoas que vão trabalhar criando conteúdo para outras empresas.
+
+[00:11:35.140–00:11:40.280] Só que a formação custa R$ 1.600, que é um custo um pouco mais elevado.
+
+[00:11:40.660–00:11:44.720] E aí a gente pensou, cara, vamos dar uma oportunidade para as pessoas entrarem na comunidade
+
+[00:11:44.720–00:11:46.160] sem precisar entrar na formação.
+
+[00:11:46.600–00:11:49.620] E aí a gente pensou nisso e criou uma forma.
+
+[00:11:49.620–00:11:53.980] Você pode comprar apenas o acesso de um ano à comunidade
+
+[00:11:53.980–00:11:59.320] Por 12 vezes de R$22,00 ou R$216,00 à vista
+
+[00:11:59.320–00:12:03.360] Para ter um ano, para ter monitoria, para ter desafio uma vez por mês
+
+[00:12:03.360–00:12:06.800] Com premiações, cara, vai mudar completamente o seu jogo
+
+[00:12:06.800–00:12:08.700] Para mudar o seu ambiente
+
+[00:12:08.700–00:12:12.780] O grande problema da boa parte das pessoas que conversam em relação à criação de conteúdo
+
+[00:12:12.780–00:12:16.400] É que as pessoas ao seu redor não entendem aquilo que você faz
+
+[00:12:16.400–00:12:18.280] Aqui na comunidade vai ser diferente
+
+[00:12:18.280–00:12:20.500] Vão ser pessoas que entendem exatamente o que você faz
+
+[00:12:20.500–00:12:22.200] Que entendem pelo que você passa
+
+[00:12:22.200–00:12:24.520] E que passaram por aquilo que você passa
+
+[00:12:24.520–00:12:26.100] E vão conseguir acelerar
+
+[00:12:26.100–00:12:28.100] Em 10 vezes ou mais os seus resultados
+
+[00:12:28.100–00:12:29.960] Então a instrução é muito simples
+
+[00:12:29.960–00:12:32.880] Participe da comunidade, compensa muito
+
+[00:12:32.880–00:12:34.840] Daqui embaixo vai ter um linkzinho
+
+[00:12:34.840–00:12:36.620] Um link, um botão
+
+[00:12:36.620–00:12:37.620] Pra você entrar e tal
+
+[00:12:37.620–00:12:38.680] Se você tiver alguma dificuldade
+
+[00:12:38.680–00:12:41.680] Na barra lateral aqui tem um botãozinho também
+
+[00:12:41.680–00:12:43.240] Pro suporte
+
+[00:12:43.240–00:12:45.760] Que ele pode tirar qualquer uma das suas dúvidas
+
+[00:12:45.760–00:12:46.840] Vamos nessa?
+
+[00:12:47.120–00:12:47.360] Bora
+
+[00:12:47.360–00:12:49.040] It's time for action
+
+[00:13:17.360–00:13:47.340] Legenda Adriana Zanotto
+
+[00:13:47.360–00:14:17.340] E aí
