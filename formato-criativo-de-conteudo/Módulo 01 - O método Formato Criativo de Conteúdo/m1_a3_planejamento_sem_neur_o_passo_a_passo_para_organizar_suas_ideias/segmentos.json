@@ -1,0 +1,906 @@
+{
+  "settings": {
+    "model": "large-v3-turbo",
+    "language": "pt",
+    "beam_size": 5,
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "initial_prompt": "Hanah e Alef. Formato Criativo de Conteúdo. SOFIA. AIDA."
+  },
+  "source_video": "m1_a3_planejamento_sem_neur_o_passo_a_passo_para_organizar_suas_ideias.mkv",
+  "source_sha256": "a1dcb0beb10b3a730e7a7120b8c197acba504092eb70e6a3c506bf246dd2db9f",
+  "source_size_bytes": 259412897,
+  "playback_speed": 1,
+  "timestamp_basis": "original_lesson_seconds",
+  "transcribed_at_utc": "2026-09-17T09:29:55.163979+00:00",
+  "language_detected": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 17.28,
+      "text": " Salve, salve, galera! A gente chegou na aula de Planejamento Sem Neura, que nada mais é do que a forma como a gente organiza o nosso conteúdo, que a gente faz o planejamento do nosso conteúdo."
+    },
+    {
+      "start": 17.96,
+      "end": 24.1,
+      "text": " Isso acontece porque se você não tem um planejamento de conteúdo, você está planejando falhar no seu conteúdo."
+    },
+    {
+      "start": 24.560000000000002,
+      "end": 29.14,
+      "text": " Então, a gente decidiu entregar logo de cara essa aula,"
+    },
+    {
+      "start": 29.28,
+      "end": 33.64,
+      "text": " porque você vai entrar, baixar o seu Trello ou o seu Notion,"
+    },
+    {
+      "start": 33.74,
+      "end": 35.72,
+      "text": " que é a mesma coisa, só que plataformas diferentes."
+    },
+    {
+      "start": 35.84,
+      "end": 37.34,
+      "text": " Quem gosta mais do Trello, vai para o Trello."
+    },
+    {
+      "start": 37.68,
+      "end": 39.5,
+      "text": " Quem gosta mais do Notion, vai para o Notion."
+    },
+    {
+      "start": 39.78,
+      "end": 43.2,
+      "text": " Quem nunca usou nenhum, começa pelo Trello, que ele é mais intuitivo."
+    },
+    {
+      "start": 43.68000000000001,
+      "end": 45.94,
+      "text": " Você vai abrir a sua plataforma de planejamento."
+    },
+    {
+      "start": 45.94,
+      "end": 48.52,
+      "text": " E você, ó, é o nosso compromisso."
+    },
+    {
+      "start": 49.1,
+      "end": 53.42,
+      "text": " Você vai assistir todas as aulas com esse Trello aberto na guia ao lado."
+    },
+    {
+      "start": 53.42,
+      "end": 61.2,
+      "text": " Porque no momento que esse curso de criatividade também, porque não deixa de ser um curso de criatividade de tudo que a gente ensina pra vocês,"
+    },
+    {
+      "start": 61.86,
+      "end": 70.1,
+      "text": " no momento que você tiver uma ideia, você vai pausar a aula, você vai na guia ao lado e você já vai adicionar a sua ideia no planejamento sem neura."
+    },
+    {
+      "start": 70.4,
+      "end": 75.96000000000001,
+      "text": " Porque um dos maiores erros são as pessoas que vão tendo ideias no decorrer do dia e anotam onde?"
+    },
+    {
+      "start": 76.54,
+      "end": 78.08,
+      "text": " No grupo de WhatsApp consigo mesma."
+    },
+    {
+      "start": 78.56,
+      "end": 81.24000000000001,
+      "text": " Ou no bloco de notas do celular."
+    },
+    {
+      "start": 81.24,
+      "end": 83.61999999999999,
+      "text": " você perde o fluxo, você não lembra mais"
+    },
+    {
+      "start": 83.61999999999999,
+      "end": 85.56,
+      "text": " onde você anotou, não te dá clareza"
+    },
+    {
+      "start": 85.56,
+      "end": 87.28,
+      "text": " visual das coisas, então"
+    },
+    {
+      "start": 87.28,
+      "end": 89.25999999999999,
+      "text": " usa uma dessas plataformas"
+    },
+    {
+      "start": 89.25999999999999,
+      "end": 91.5,
+      "text": " a gente vai mostrar aqui pra vocês como"
+    },
+    {
+      "start": 91.5,
+      "end": 93.19999999999999,
+      "text": " que funciona o planejamento sem neura"
+    },
+    {
+      "start": 93.19999999999999,
+      "end": 95.33999999999999,
+      "text": " pelo Trello, a princípio"
+    },
+    {
+      "start": 95.33999999999999,
+      "end": 97.78,
+      "text": " um ponto relevante"
+    },
+    {
+      "start": 97.78,
+      "end": 99.38,
+      "text": " sobre isso aí, porque eu por muito tempo"
+    },
+    {
+      "start": 99.38,
+      "end": 101.5,
+      "text": " fui uma pessoa que anotava as coisas do meu WhatsApp"
+    },
+    {
+      "start": 101.5,
+      "end": 103.22,
+      "text": " e me achava super inteligente por causa disso"
+    },
+    {
+      "start": 103.22,
+      "end": 105.47999999999999,
+      "text": " eu tinha as ideias, eu anotava no WhatsApp, só que aí"
+    },
+    {
+      "start": 105.47999999999999,
+      "end": 107.28,
+      "text": " eu nunca usava essas ideias, por quê?"
+    },
+    {
+      "start": 107.34,
+      "end": 109.58,
+      "text": " porque eu não tava organizado, porque era difícil usar"
+    },
+    {
+      "start": 109.58,
+      "end": 113.62,
+      "text": " Quando eu comecei a usar o Trello aqui para fazer essa organização,"
+    },
+    {
+      "start": 113.9,
+      "end": 117.96,
+      "text": " a nossa vida mudou completamente, porque fica tudo organizado"
+    },
+    {
+      "start": 117.96,
+      "end": 122.03999999999999,
+      "text": " e a gente consegue produzir mais conteúdo com mais clareza."
+    },
+    {
+      "start": 122.32,
+      "end": 122.86,
+      "text": " Então, vamos lá."
+    },
+    {
+      "start": 123.32,
+      "end": 126.18,
+      "text": " Você vai clicar nesse link e a primeira coisa que você vai fazer..."
+    },
+    {
+      "start": 126.18,
+      "end": 129.8,
+      "text": " O link está aqui embaixo, as duas opções para o Notion ou para o Trello."
+    },
+    {
+      "start": 130.22,
+      "end": 132.6,
+      "text": " Você vai clicar nesse link e se você estiver no Trello,"
+    },
+    {
+      "start": 132.74,
+      "end": 137.12,
+      "text": " a primeira coisa que você vai fazer é clicar aqui do lado e fazer uma cópia,"
+    },
+    {
+      "start": 138.0,
+      "end": 138.84,
+      "text": " copiar o quadro."
+    },
+    {
+      "start": 138.84,
+      "end": 141.86,
+      "text": " Você vai clicar em copiar o quadro e você vai fazer uma cópia pra você,"
+    },
+    {
+      "start": 141.96,
+      "end": 146.52,
+      "text": " porque aí sim você vai conseguir adicionar as suas próprias ideias no seu trelo."
+    },
+    {
+      "start": 146.6,
+      "end": 149.58,
+      "text": " Se você não fizer uma cópia, ele vai ficar bloqueadinho pra você não mexer."
+    },
+    {
+      "start": 150.0,
+      "end": 150.5,
+      "text": " Então, beleza."
+    },
+    {
+      "start": 150.78,
+      "end": 152.0,
+      "text": " Imagina que eu fiz a minha cópia."
+    },
+    {
+      "start": 152.12,
+      "end": 153.06,
+      "text": " Essa aqui é a minha cópia."
+    },
+    {
+      "start": 154.14000000000001,
+      "end": 157.58,
+      "text": " Eu quero começar te dizendo que são apenas seis passos,"
+    },
+    {
+      "start": 157.94,
+      "end": 161.72,
+      "text": " desde a ideia completamente sem pena em cabeça"
+    },
+    {
+      "start": 161.72,
+      "end": 165.58,
+      "text": " até o seu vídeo postado no seu feed do Instagram, do TikTok."
+    },
+    {
+      "start": 166.26000000000002,
+      "end": 172.20000000000002,
+      "text": " São seis passos que separam todo o processo de criação."
+    },
+    {
+      "start": 172.74,
+      "end": 176.24,
+      "text": " O passo número zero é a tempestade de ideias."
+    },
+    {
+      "start": 176.56,
+      "end": 177.62,
+      "text": " O que isso significa?"
+    },
+    {
+      "start": 177.94,
+      "end": 179.9,
+      "text": " É a ideia sem julgamento."
+    },
+    {
+      "start": 180.52,
+      "end": 182.58,
+      "text": " É a ideia que você fala, ah, mas eu não sei se é uma boa ideia,"
+    },
+    {
+      "start": 182.72000000000003,
+      "end": 185.32000000000002,
+      "text": " ah, mas eu não sei se eu quero fazer isso, ah, mas não quero saber."
+    },
+    {
+      "start": 185.32000000000002,
+      "end": 188.54000000000002,
+      "text": " Não vai te matar, simplesmente jogar aqui."
+    },
+    {
+      "start": 188.86,
+      "end": 189.12,
+      "text": " Por quê?"
+    },
+    {
+      "start": 189.20000000000002,
+      "end": 191.62,
+      "text": " Se você pega o hábito de estar vivendo a vida,"
+    },
+    {
+      "start": 191.88000000000002,
+      "end": 193.74,
+      "text": " estar conversando com a mãe, estar vendo um filme,"
+    },
+    {
+      "start": 193.74,
+      "end": 198.20000000000002,
+      "text": " tá? Qualquer coisa, tive uma ideia na minha vida, vou lá e escrevo sem julgamento,"
+    },
+    {
+      "start": 198.60000000000002,
+      "end": 200.92000000000002,
+      "text": " você vai ver como tudo vai fluir mais."
+    },
+    {
+      "start": 201.4,
+      "end": 202.4,
+      "text": " Mas aí, beleza."
+    },
+    {
+      "start": 203.72,
+      "end": 206.82000000000002,
+      "text": " Quando eu sento minha bunda na cadeira pra começar a escrever os meus conteúdos,"
+    },
+    {
+      "start": 206.96,
+      "end": 211.02,
+      "text": " já tem uma lista de dezenas de ideias ali na tempestade de ideias"
+    },
+    {
+      "start": 211.02,
+      "end": 213.32000000000002,
+      "text": " que eu fui vivendo e escrevendo."
+    },
+    {
+      "start": 213.72,
+      "end": 217.54000000000002,
+      "text": " E aí na hora que eu for de fato começar o meu processo de escrita,"
+    },
+    {
+      "start": 218.16000000000003,
+      "end": 220.16000000000003,
+      "text": " ele começa onde? No passo número 1."
+    },
+    {
+      "start": 220.16,
+      "end": 227.28,
+      "text": " Então, vamos supor, ideia 1, ideia 2, ideia 3, ideia 4, ideia 5, eu estou só vivendo e tendo ideias."
+    },
+    {
+      "start": 228.1,
+      "end": 233.74,
+      "text": " Quando eu for passar a escrever, qual que é a nossa sugestão para vocês?"
+    },
+    {
+      "start": 234.07999999999998,
+      "end": 237.57999999999998,
+      "text": " A nossa sugestão é escrever em blocos de 3."
+    },
+    {
+      "start": 238.3,
+      "end": 242.07999999999998,
+      "text": " Blocos de 3 roteiros de uma vez, de 3 vídeos de uma vez, nunca só um,"
+    },
+    {
+      "start": 242.4,
+      "end": 244.42,
+      "text": " porque você está gastando energia demais."
+    },
+    {
+      "start": 244.42,
+      "end": 251.23999999999998,
+      "text": " Sem falar que quando você faz três, você consegue fazer três de um formato criativo só."
+    },
+    {
+      "start": 251.66,
+      "end": 255.79999999999998,
+      "text": " Ou seja, você faz uma leva de testes do seu formato."
+    },
+    {
+      "start": 256.3,
+      "end": 257.58,
+      "text": " Então, tô criando."
+    },
+    {
+      "start": 258.15999999999997,
+      "end": 260.91999999999996,
+      "text": " Tudo sobre formato você vai descobrir nas próximas aulas."
+    },
+    {
+      "start": 261.28,
+      "end": 262.96,
+      "text": " Mas tô criando em cima dos meus formatos."
+    },
+    {
+      "start": 263.21999999999997,
+      "end": 268.09999999999997,
+      "text": " E eu vou trazer essa ideia, essa ideia e essa ideia pra eu começar a trazê-las"
+    },
+    {
+      "start": 268.09999999999997,
+      "end": 272.71999999999997,
+      "text": " pra minha esteira de criação, esteira do planejamento."
+    },
+    {
+      "start": 272.72,
+      "end": 274.38000000000005,
+      "text": " Chegou no passo número 1"
+    },
+    {
+      "start": 274.38000000000005,
+      "end": 276.64000000000004,
+      "text": " Eu vou seguir com as 3 de uma vez"
+    },
+    {
+      "start": 276.64000000000004,
+      "end": 279.38000000000005,
+      "text": " Até terem as 3 prontas"
+    },
+    {
+      "start": 279.38000000000005,
+      "end": 280.68,
+      "text": " Lá no passo número 6"
+    },
+    {
+      "start": 280.68,
+      "end": 283.16,
+      "text": " Só pra você entender também"
+    },
+    {
+      "start": 283.16,
+      "end": 285.46000000000004,
+      "text": " O que a gente tá chamando aqui"
+    },
+    {
+      "start": 285.46000000000004,
+      "end": 287.16,
+      "text": " Primeiro, esse bloco aqui"
+    },
+    {
+      "start": 287.16,
+      "end": 288.38000000000005,
+      "text": " Chama tempestade de ideias"
+    },
+    {
+      "start": 288.38000000000005,
+      "end": 289.42,
+      "text": " Que é ideias aleatórias"
+    },
+    {
+      "start": 289.42,
+      "end": 292.1,
+      "text": " Eu vi um filme, qualquer coisa que eu vejo"
+    },
+    {
+      "start": 292.1,
+      "end": 293.72,
+      "text": " Eu coloco a ideia aqui, como a Hannah falou"
+    },
+    {
+      "start": 293.72,
+      "end": 296.40000000000003,
+      "text": " Descarregar é o seguinte"
+    },
+    {
+      "start": 296.40000000000003,
+      "end": 298.12,
+      "text": " Tu vai olhar pras ideias, escolher"
+    },
+    {
+      "start": 298.12,
+      "end": 300.3,
+      "text": " E vai tirar tudo que tem na sua cabeça"
+    },
+    {
+      "start": 300.3,
+      "end": 301.96000000000004,
+      "text": " Sobre essa ideia e vai colocar lá"
+    },
+    {
+      "start": 301.96,
+      "end": 304.85999999999996,
+      "text": " sem pensar muito também no que você está querendo colocar."
+    },
+    {
+      "start": 305.68,
+      "end": 306.88,
+      "text": " Aí, beleza, descarregou?"
+    },
+    {
+      "start": 307.23999999999995,
+      "end": 308.96,
+      "text": " Aí vai ter um dia para você fazer o quê?"
+    },
+    {
+      "start": 309.32,
+      "end": 309.71999999999997,
+      "text": " Estruturar."
+    },
+    {
+      "start": 309.9,
+      "end": 312.0,
+      "text": " Quer colocar dentro de uma estrutura."
+    },
+    {
+      "start": 312.15999999999997,
+      "end": 314.24,
+      "text": " Você vai entender também ao longo do curso como fazer isso."
+    },
+    {
+      "start": 314.52,
+      "end": 317.96,
+      "text": " Que é você organizar o seu conteúdo com começo, meio e fim."
+    },
+    {
+      "start": 318.64,
+      "end": 320.52,
+      "text": " Dá essa organizada no roteiro."
+    },
+    {
+      "start": 320.56,
+      "end": 321.28,
+      "text": " No pensamento."
+    },
+    {
+      "start": 321.4,
+      "end": 324.53999999999996,
+      "text": " Porque antes, no descarregar, você realmente..."
+    },
+    {
+      "start": 324.53999999999996,
+      "end": 326.96,
+      "text": " Imagina que você faz um download de tudo que tem na sua cabeça"
+    },
+    {
+      "start": 326.96,
+      "end": 329.08,
+      "text": " com relação àquele assunto e só descarrega."
+    },
+    {
+      "start": 329.4,
+      "end": 331.76,
+      "text": " Às vezes vai sair bullet points e está tudo bem."
+    },
+    {
+      "start": 331.96,
+      "end": 337.09999999999997,
+      "text": " Porque no passo de estruturar, aí sim você começa colocando começo, meio e fim."
+    },
+    {
+      "start": 337.88,
+      "end": 341.9,
+      "text": " E aí a gente vai para o próximo passo, que é a ideia de lapidar."
+    },
+    {
+      "start": 342.85999999999996,
+      "end": 345.09999999999997,
+      "text": " Lapidar é sobre você colocar os elementos."
+    },
+    {
+      "start": 345.21999999999997,
+      "end": 347.58,
+      "text": " Você lembra os elementos que a gente falou na aula passada?"
+    },
+    {
+      "start": 347.58,
+      "end": 351.79999999999995,
+      "text": " A gente vai trabalhar eles várias vezes aqui dentro do produto de forma muito prática"
+    },
+    {
+      "start": 351.79999999999995,
+      "end": 353.08,
+      "text": " e você vai dominar esses elementos."
+    },
+    {
+      "start": 353.53999999999996,
+      "end": 354.96,
+      "text": " E aí quando chegar nesse passo, você vai olhar."
+    },
+    {
+      "start": 355.53999999999996,
+      "end": 357.91999999999996,
+      "text": " Beleza, como é que eu coloco um conflito mais forte aqui?"
+    },
+    {
+      "start": 358.28,
+      "end": 360.82,
+      "text": " Como é que eu gero contraste para as coisas ficarem mais interessantes?"
+    },
+    {
+      "start": 360.82,
+      "end": 363.82,
+      "text": " Como é que eu deixo o começo desse vídeo um pouco mais curioso?"
+    },
+    {
+      "start": 363.96,
+      "end": 365.88,
+      "text": " Deixo as pessoas se envolverem com ele mais?"
+    },
+    {
+      "start": 365.96,
+      "end": 370.64,
+      "text": " Aí você vai olhar para essas coisas e vai conseguir adaptar esses elementos dentro do seu roteiro."
+    },
+    {
+      "start": 370.98,
+      "end": 377.4,
+      "text": " E aí, o próximo passo, quando você tem três roteiros prontos, você para e grava os três de uma vez."
+    },
+    {
+      "start": 377.58,
+      "end": 384.82,
+      "text": " Esse é o ideal, porque aí você não gasta energia preparando o material para gravar, montando a sua iluminação."
+    },
+    {
+      "start": 385.02,
+      "end": 390.42,
+      "text": " Se você é mulher fazendo maquiagem, você se arruma e grava três vídeos de uma vez."
+    },
+    {
+      "start": 390.42,
+      "end": 392.18,
+      "text": " e aí você tá pronto pra editar, você também"
+    },
+    {
+      "start": 392.18,
+      "end": 394.6,
+      "text": " cria o seu fluxo de edição, lá no"
+    },
+    {
+      "start": 394.6,
+      "end": 396.38,
+      "text": " módulo de edição você vai ter um fluxo"
+    },
+    {
+      "start": 396.38,
+      "end": 398.32,
+      "text": " muito claro pra você editar muito rápido, e aí"
+    },
+    {
+      "start": 398.32,
+      "end": 400.2,
+      "text": " você tem três vídeos prontos pra"
+    },
+    {
+      "start": 400.2,
+      "end": 402.66,
+      "text": " postar, essa é a magia"
+    },
+    {
+      "start": 402.66,
+      "end": 404.5,
+      "text": " do planejamento sem neuron"
+    },
+    {
+      "start": 404.5,
+      "end": 406.06,
+      "text": " ele vai te ajudar, principalmente"
+    },
+    {
+      "start": 406.06,
+      "end": 408.48,
+      "text": " nessa parada de organizar as suas"
+    },
+    {
+      "start": 408.48,
+      "end": 410.46000000000004,
+      "text": " ideias, porque cara, ter a ideia"
+    },
+    {
+      "start": 410.46000000000004,
+      "end": 412.58000000000004,
+      "text": " é uma das coisas que mais dá trabalho na hora"
+    },
+    {
+      "start": 412.58000000000004,
+      "end": 414.22,
+      "text": " de criar conteúdo, se você tem"
+    },
+    {
+      "start": 414.22,
+      "end": 416.64,
+      "text": " as ideias ao longo do seu dia a dia"
+    },
+    {
+      "start": 416.64,
+      "end": 418.72,
+      "text": " na hora de criar, tá tudo certo"
+    },
+    {
+      "start": 418.72,
+      "end": 420.62,
+      "text": " Vai ser muito mais fácil, muito mais fluido"
+    },
+    {
+      "start": 420.62,
+      "end": 422.28000000000003,
+      "text": " Se você tem as ideias no dia a dia"
+    },
+    {
+      "start": 422.28000000000003,
+      "end": 423.56,
+      "text": " Põe lá no passo zero"
+    },
+    {
+      "start": 423.56,
+      "end": 425.70000000000005,
+      "text": " Só pra ser um lugar de você jogar as ideias"
+    },
+    {
+      "start": 425.70000000000005,
+      "end": 428.44000000000005,
+      "text": " E na hora de começar a criar dentro dos formatos"
+    },
+    {
+      "start": 428.44000000000005,
+      "end": 430.76000000000005,
+      "text": " Você entra pro passo um em diante"
+    },
+    {
+      "start": 430.76000000000005,
+      "end": 433.48,
+      "text": " E aí você vai seguindo em blocos de três vídeos"
+    },
+    {
+      "start": 433.48,
+      "end": 435.54,
+      "text": " Lembrando, todos no mesmo formato"
+    },
+    {
+      "start": 435.54,
+      "end": 438.92,
+      "text": " Porque a filosofia de conteúdo de formato criativo"
+    },
+    {
+      "start": 438.92,
+      "end": 440.1,
+      "text": " É repetir o formato"
+    },
+    {
+      "start": 440.1,
+      "end": 442.3,
+      "text": " Então o bloco de três vídeos que você fez"
+    },
+    {
+      "start": 442.3,
+      "end": 445.06,
+      "text": " Faça do mesmo formato os três vídeos"
+    },
+    {
+      "start": 445.06,
+      "end": 447.12,
+      "text": " Vai te ajudar muito, inclusive"
+    },
+    {
+      "start": 447.12,
+      "end": 452.46,
+      "text": " na hora de fazer as lapidações, a estrutura, porque a estrutura vai estar igual nos três vídeos."
+    },
+    {
+      "start": 452.94,
+      "end": 458.88,
+      "text": " Então, planejamento sem neura é pra te colocar no controle da sua criação."
+    },
+    {
+      "start": 459.16,
+      "end": 463.16,
+      "text": " Mas tem algo que você pode ter visto e a gente não explicou, não explicou de propósito."
+    },
+    {
+      "start": 463.46,
+      "end": 466.9,
+      "text": " Nessa aula, você só precisa entender o passo a passo do zero ao seis."
+    },
+    {
+      "start": 467.34000000000003,
+      "end": 473.32,
+      "text": " No módulo de autenticidade, a gente vai colocar vários elementos pessoais seus aqui,"
+    },
+    {
+      "start": 473.32,
+      "end": 478.24,
+      "text": " Porque isso vai te ajudar na hora de estar escrevendo esses roteiros aqui."
+    },
+    {
+      "start": 478.58,
+      "end": 483.18,
+      "text": " Você vai estar escrevendo aqui e você vai poder olhar nessa barra lateral"
+    },
+    {
+      "start": 483.18,
+      "end": 488.0,
+      "text": " os elementos, as crenças, as coisas do formato, que eu não vou entrar nesse detalhe agora,"
+    },
+    {
+      "start": 488.3,
+      "end": 492.08,
+      "text": " mas é basicamente para estou aqui escrevendo, estou aqui, né?"
+    },
+    {
+      "start": 492.9,
+      "end": 496.62,
+      "text": " Eu vou simplesmente olhar para o lado, pegar uma informação minha e voltar para cá."
+    },
+    {
+      "start": 496.96,
+      "end": 499.6,
+      "text": " Eu vou pegar uma informação nova e voltar para cá."
+    },
+    {
+      "start": 499.96,
+      "end": 502.98,
+      "text": " Então é algo para facilitar a sua criação, mas não se preocupa com isso agora."
+    },
+    {
+      "start": 503.32,
+      "end": 509.36,
+      "text": " Por quê? Porque a gente organizou esse produto da melhor forma para você conseguir aprender e colocar em prática."
+    },
+    {
+      "start": 509.52,
+      "end": 515.3199999999999,
+      "text": " E para colocar em prática, eu quero que você baixe o Trello, se você ainda não tem, ou o Notion,"
+    },
+    {
+      "start": 515.42,
+      "end": 518.14,
+      "text": " coloque ele do jeito mais fácil possível no seu celular."
+    },
+    {
+      "start": 518.14,
+      "end": 521.8,
+      "text": " No meu celular, ele fica na barra de baixo, ele está sempre a fácil acesso,"
+    },
+    {
+      "start": 521.9,
+      "end": 527.8,
+      "text": " porque eu tenho uma ideia, eu não preciso ficar procurando, eu simplesmente abro, clico ali e consigo anotar a minha ideia."
+    },
+    {
+      "start": 528.0,
+      "end": 532.28,
+      "text": " E eu quero que você faça isso agora, para quê? Para você já anotar alguma ideia."
+    },
+    {
+      "start": 532.28,
+      "end": 534.5,
+      "text": " eu tenho certeza que se você viu a aula passada"
+    },
+    {
+      "start": 534.5,
+      "end": 536.3399999999999,
+      "text": " você tá aqui nesse produto, você já teve algumas ideias"
+    },
+    {
+      "start": 536.3399999999999,
+      "end": 538.38,
+      "text": " que passaram pela sua cabeça, eu quero que você"
+    },
+    {
+      "start": 538.38,
+      "end": 540.48,
+      "text": " anote sem se importar se a ideia é boa"
+    },
+    {
+      "start": 540.48,
+      "end": 542.3,
+      "text": " se vai funcionar, não, cria o hábito"
+    },
+    {
+      "start": 542.3,
+      "end": 544.5,
+      "text": " de anotar, confia na gente"
+    },
+    {
+      "start": 544.5,
+      "end": 546.1999999999999,
+      "text": " isso vai mudar o seu jogo na criação de"
+    },
+    {
+      "start": 546.1999999999999,
+      "end": 548.52,
+      "text": " conteúdo, te vejo na próxima aula"
+    },
+    {
+      "start": 548.52,
+      "end": 549.56,
+      "text": " it's time"
+    },
+    {
+      "start": 549.56,
+      "end": 551.04,
+      "text": " for action"
+    },
+    {
+      "start": 562.28,
+      "end": 564.28,
+      "text": " Obrigado."
+    }
+  ],
+  "video_recording_relative_path": "Módulo 01 - O método Formato Criativo de Conteúdo/m1_a3_planejamento_sem_neur_o_passo_a_passo_para_organizar_suas_ideias.mkv",
+  "source_lesson_seconds": 544.531
+}
