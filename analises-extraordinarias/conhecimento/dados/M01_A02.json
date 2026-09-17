@@ -1,0 +1,295 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M01_A02",
+  "titulo": "Gestão de Tempo para Operações",
+  "contexto": [
+    "A aula combina apresentação pessoal, definição de spread e escolha de operações conforme tempo disponível.",
+    "Bruno Aguiar usa exemplos de gráficos e resultados relatados por mentorados para explicar percentuais alavancados.",
+    "As faixas e promessas são apresentadas como descrições e alegações do instrutor, sem verificação financeira externa.",
+    "Apesar do título de gestão de tempo, também contém as definições de curto, médio e longo spread."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Promessas de assertividade do instrutor",
+      "tipo": "conceito",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 85,
+      "fim": 138,
+      "condicoes": "Empenho, dedicação e equilíbrio emocional, segundo o instrutor.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A transcrição diz '9,5%' em dez operações; preservar a inconsistência, sem corrigir o denominador.",
+      "corpo": "Bruno anuncia mais de 95% de assertividade e associa falhas a stops, distinguindo curtos spreads e menção ao 3x. Afirma que o método não está em teste e atribui seu sucesso a revelação religiosa. São alegações do instrutor, sem série de operações demonstrada nesta aula.",
+      "evidencia": "operações com mais de 95% de assertividade",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Spread como potencial de valorização",
+      "tipo": "conceito",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 138,
+      "fim": 146,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor define spread como o potencial de valorização de uma moeda ou criptomoeda, no vocabulário próprio usado pelo curso.",
+      "evidencia": "O spread é o potencial de valorização de uma moeda",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Operar na própria conta",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 146,
+      "fim": 179,
+      "condicoes": "Uso de conta própria em corretora séria, conforme orientação da aula.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Bybit é a corretora citada; disponibilidade e exceção regulatória são afirmações contextuais do instrutor, não verificadas.",
+      "corpo": "Bruno orienta depositar o capital na própria corretora, executar as operações, retirar o lucro e pagar impostos. Na gravação utiliza Bybit, mas admite troca de corretora. Rejeita entregar dinheiro a outra pessoa para operar e faz ressalva aos fundos de investimento por corretora autorizada pela CVM, nos termos em que ele descreve.",
+      "evidencia": "Entregar o seu dinheiro para qualquer outra pessoa operar",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Faixa e duração do curto spread",
+      "tipo": "regua",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 224,
+      "fim": 244,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Na classificação do instrutor, curto spread busca lucros entre 50% e 500%, em operações que normalmente duram de minutos ou horas até sete dias. A faixa é a descrição do método, não resultado garantido.",
+      "evidencia": "São operações com lucro entre 50% a 500% de lucro.",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Faixas do médio e longo spread",
+      "tipo": "regua",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 244,
+      "fim": 268,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A aula deixa intervalo entre 1.500% e 2.000% sem classificação explícita.",
+      "corpo": "O instrutor classifica médio spread como lucro de 500% a 1.500% e longo spread como lucro acima de 2.000%. Usa percentuais de lucro alavancado para diferenciar as categorias.",
+      "evidencia": "São operações com lucro acima de 2.000%.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Relacionar movimento e alavancagem nos exemplos",
+      "tipo": "exemplo",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 244,
+      "fim": 268,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno exemplifica um movimento de 10% com alavancagem de 50x como lucro de 500%; movimento de 20% com 100x como 2.000%. Apresenta essa multiplicação para explicar a união entre spread e alavancagem; o trecho não detalha custos ou perdas.",
+      "evidencia": "você está alavancado a 50x, automaticamente você fez 500%",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Escolher operação conforme tempo e perfil",
+      "tipo": "decisao",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 268,
+      "fim": 324,
+      "condicoes": "Disponibilidade e preferência pessoal por acompanhar gráficos.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Segundo Bruno, quem dispõe de pouco tempo, como um médico, pode priorizar médios e longos spreads ou reservar o tempo livre a curtos spreads. Estudantes, aposentados e empreendedores com mais disponibilidade podem escolher operações curtas, especialmente se gostam de comprar e vender com frequência e acompanhar resultados na tela.",
+      "evidencia": "eu tenho que encontrar o teu perfil de investidor",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Usar blocos de operações para rotina ocupada",
+      "tipo": "decisao",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 324,
+      "fim": 359,
+      "condicoes": "Pessoa que dispõe de uma ou duas horas por dia e não prefere acompanhamento intenso.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Para o perfil ocupado, o instrutor propõe entrar em um bloco de operações e aguardar semanas ou meses. Atribui a essas operações potenciais de 1.000% a 2.000% e a si resultados de 5.000% a 15.000% em uma operação, sem comprovar tais alegações aqui. O princípio declarado é adaptar a operação à rotina, sem exigir mudança integral da vida.",
+      "evidencia": "você vai entrar num bloco de operações e você vai esperar meses nela",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Exemplo de rompimento no BTC",
+      "tipo": "exemplo",
+      "tema": "alavancagem",
+      "tarefas": [
+        "interpretar-indicadores",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 384,
+      "fim": 416,
+      "condicoes": "Exemplo do gráfico exibido na gravação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Limite de 125x é contextual, não condição atual confirmada de exchange.",
+      "corpo": "No exemplo do BTC, Bruno aponta rompimento da SMA amarela e da Pivot Supertrend, com movimento de 12%. Multiplica 12% por alavancagem de 125x e apresenta 1.500% como lucro ilustrativo, relacionando-o aos relatos de mentorados mostrados antes.",
+      "evidencia": "você fez 1500%",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Curto spread com entradas sucessivas na ZEC",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "avaliar-saida",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 403,
+      "fim": 472,
+      "condicoes": "Rompimentos sucessivos indicados no gráfico da ZEC.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Há falas e somas inconsistentes: 250% + 400% + 625% aparecem seguidos de total arredondado declarado de 1.200%; não tratado como cálculo validado.",
+      "corpo": "Bruno ilustra entradas sucessivas em rompimentos da SMA amarela: 5% de movimento com 50x gera 250%, 8% com 50x gera 400% e 12,5% com 50x gera 625%, segundo suas contas. Menciona stops técnicos abaixo da amarela e, em outro trecho, abaixo do topo. Afirma que os exemplos não foram estopados e contrapõe essas várias entradas à espera por um movimento maior.",
+      "evidencia": "Isso aqui são operações de curto spread",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Usar quatro horas para buscar movimentos maiores",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 472,
+      "fim": 489,
+      "condicoes": "Operações de médio e longo spread.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno explica que, no médio e longo spread, utiliza o gráfico de quatro horas para enxergar um potencial maior, coloca capital e aguarda o tempo necessário até o alvo. Contrasta isso com comprar e vender em períodos curtos.",
+      "evidencia": "são operações que a gente opera no gráfico de 4 horas",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Explorar quedas por posição vendida",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "compreender-metodo",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 489,
+      "fim": 518,
+      "condicoes": "Exemplos de mercado em queda exibidos na aula.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor mostra queda de 10% e diz que uma posição vendida a 50x corresponderia a 500%; outra queda de 13% a 50x corresponderia a mais de 600%. Usa os casos para sustentar sua afirmação de que é possível operar tanto alta quanto baixa, sem demonstrar aqui o procedimento de abertura.",
+      "evidencia": "Se você estava vendido, você, com 50x, fez 500%.",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Configurar saídas para reduzir presença contínua na tela",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "avaliar-saida",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 510,
+      "fim": 551,
+      "condicoes": "Operação já escolhida com stop loss e stop gain configurados.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Para quem tem duas ou três horas à noite, Bruno afirma que é possível entrar, configurar stop loss e stop gain e aguardar sem permanecer 100% do tempo na tela. Apresenta relatos pessoais de resultados enquanto estava com a família para defender a separação entre tempo trabalhado e retorno, sem oferecer garantia verificável.",
+      "evidencia": "coloca o stop loss, coloca o stop gain",
+      "versao": 1
+    }
+  ]
+}

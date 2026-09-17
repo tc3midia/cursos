@@ -1,0 +1,66 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M04_A01",
+  "arquivo_sha256": "79409e2c6d5297cd59530ba3a30ed68822282440f05507039aa462f285944818",
+  "inspecao_sha256": "55bea101fd81856cc755c6fccc33d9e7336c1e156a6039ddfe8d13c9260973bf",
+  "veredito": "passa",
+  "fundamentacao": {
+    "fidelidade": "As11unidades distinguem fim do pullback e rompimento do topo incluindo pavio, conservam o espelho da venda e a possibilidade de não ocorrer pullback. Recortes146–179 confirmam que10% a20% são condicionados a curto spread com stops e carteira desenvolvida.",
+    "condicoes_e_numeros": "As contas38×25=950%,6×50=300%,31×50=1550% e12×50=600% estão fiéis aos recortes;US$33mil eUS$80mil são tratados como totais. Alertas continuam exigindo análise, sem promessa.",
+    "cobertura": "As11unidades e respectivas evidências foram examinadas; os complementos cobrem os principais gatilhos, comparações de volume e números. Não se identificou omissão substantiva de orientação no conjunto apresentado.",
+    "perecibilidade": "U5,U6 eU9 agora estão perecíveis e as notas explicitam que38%/950%,6%/300% e11%–12%/600% são medidas/projeções do gráfico da gravação. A correção resolve a classificação sem alterar os gatilhos,números ou condições já conferidos.",
+    "formato": "Campos obrigatórios,11 números sequenciais,intervalos positivos,versão1 e âncoras de até24 palavras conferidos. JSON e inspeção finais pareiam; não há achado aberto."
+  },
+  "achados": [],
+  "limites": [
+    "Julgamento amostral de uma das três aulas selecionadas, sem leitura integral ou acesso à transcrição-fonte de Análises Extraordinárias.",
+    "Examinados o JSON de unidades e os laudos com evidências literais/complementares fornecidos pelo inspetor; cobertura limitada a esse pacote.",
+    "Não verifica rentabilidade, segurança, eficácia financeira, preços atuais, regras atuais de exchange nem resultados reais."
+  ],
+  "historico": [
+    {
+      "rodada": 1,
+      "arquivo_sha256": "79aec8f8928083415b63005f36431b2fd2352bdd8283b9a3c849fc982cec48b3",
+      "inspecao_sha256": "e8d3afbe43316ae79f4abe0101d81b453146454bd2be05d70c10a335f0de8b83",
+      "veredito": "falha",
+      "achados": [
+        {
+          "numeros": [
+            5,
+            6,
+            9
+          ],
+          "gravidade": "material",
+          "criterio": "perecibilidade",
+          "problema": "Mensurações retrospectivas de operações do gráfico estão mescladas à regra com perecivel=false, enquanto o exemplo comparável U8 está marcado true.",
+          "evidencia_inspecao": [
+            {
+              "inicio": 146,
+              "fim": 179,
+              "trecho": "outra operação. Houve outro rompimento."
+            },
+            {
+              "inicio": 202,
+              "fim": 232,
+              "trecho": "nesse caso dessa operação aqui Muito grande, vai ser só 6%"
+            },
+            {
+              "inicio": 290,
+              "fim": 316,
+              "trecho": "eu peguei aqui 11%, 12%"
+            }
+          ],
+          "correcao_sugerida": "MarcarU5,U6,U9 como perecíveis e explicitar em nota que os percentuais são medições dos exemplos da gravação; alternativa é separar a regra estável do exemplo contextual em unidades distintas."
+        }
+      ]
+    },
+    {
+      "rodada": 2,
+      "acao": "Rejulgamento das correções contra os recortes complementares da inspeção, sem acesso à transcrição. Hashes finais pareados.",
+      "veredito": "passa",
+      "correcoes_confirmadas": [
+        "U5,U6 eU9 perecível=true e notas vinculam os percentuais aos exemplos da gravação."
+      ]
+    }
+  ]
+}

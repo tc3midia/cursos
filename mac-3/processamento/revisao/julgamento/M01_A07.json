@@ -1,0 +1,32 @@
+{
+  "curso": "mac-3",
+  "aula": "M01_A07",
+  "arquivo_sha256": "1c28b0e85e5d6974f41053eab6bcf02755fd5f1a1f6e227e1540948d6d0b6163",
+  "inspecao_sha256": "f0f3405f14e2a78c8e57fb3ff382e54689e106ac1fb880d365813a19fa28fb2e",
+  "veredito": "passa",
+  "fundamentacao": {
+    "formato": "29 unidades sequenciais, contexto de quatro frases, taxonomia e campos presentes, intervalos válidos e âncoras de até 24 palavras. Checagem estrutural realizada sobre o JSON; validação literal completa da fonte pertence à inspeção.",
+    "fidelidade": "Excertos complementares de 343–550 sustentam 5% do patrimônio líquido disponível, exclusões, divisão 80/20 e exceção verbal oscilante de US$20/25 mil. Excertos de 688–824 sustentam alvo 3%, teto 5–7% condicionado a reserva e faixas divergentes de liquidação; a unidade atribui as garantias ao instrutor. O trecho 1600–1633 distingue aportar 3x de recuperar e reduzir 80%; 1669–1806 confirma a inconsistência 3200/3800/1200 preservada, sem correção silenciosa. O trecho 2078–2111 sustenta 20x nos primeiros seis meses.",
+    "cobertura": "O mapa de 29 unidades cobre perfil, capital que pode perder, limites da carteira, exposição agregada, prática de 3x, acompanhamento, progressão por blocos, saques e limites de responsabilidade. Nos núcleos demonstrados pelos excertos não encontrei orientação essencial omitida; não extrapolo essa conclusão à cobertura integral da transcrição não lida pelo juiz.",
+    "condicoes_e_numeros": "Distingue 30% dos 20% de 30% da banca,200 operações por bloco de entradas simultâneas e lucro de principal. As ambiguidades de banca/lucro e a falha aritmética do quarto bloco permanecem sinalizadas. Condição de reversão favorável e saída 80% do 3x não foi apagada.",
+    "perecibilidade": "U 12 foi corrigida para perecível por conter faixas de liquidação ligadas a condições de exchange. Ofertas, desconto e referências comerciais aparecem como históricos/perecíveis; exemplos aritméticos e regras pessoais permanecem atribuídos ao instrutor.",
+    "atribuicao_e_limites": "Promessas de não perder e projeções são atribuídas ao instrutor. A confiança expressa fidelidade e não eficácia; a extração não transforma exemplos contraditórios em teto de risco validado."
+  },
+  "achados": [],
+  "limites": [
+    "Julgamento amostral de três aulas do MAC 3.0; não representa julgamento de todas as aulas dos dois cursos.",
+    "Juiz não leu integralmente nem abriu as transcrições de MAC; confrontou artefatos e evidências selecionadas pela inspeção independente.",
+    "Cobertura avaliada conforme mapa e excertos fornecidos pelo inspetor; literalidade integral das âncoras na fonte permanece no alcance da inspeção e do validador.",
+    "Não avalia eficácia financeira, segurança real das estratégias, validade das probabilidades nem condições atuais de exchanges."
+  ],
+  "historico": [
+    {
+      "rodada": "preliminar",
+      "resultado": "Solicitado complemento de evidências literais com faixas para julgamento independente; âncoras curtas e conclusões da inspeção não bastavam para todos os números e condições."
+    },
+    {
+      "rodada": "final",
+      "resultado": "Complementos conferidos; U12 corrigida para perecível com nota, reinspeção e hashes atuais validados. Nenhum achado pendente."
+    }
+  ]
+}

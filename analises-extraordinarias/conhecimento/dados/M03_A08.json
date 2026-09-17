@@ -1,0 +1,247 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A08",
+  "titulo": "Aula 6 — Configuração dos Indicadores",
+  "contexto": [
+    "Um instrutor de apoio, não identificado nominalmente na transcrição, demonstra configurar os indicadores ensinados por Bruno Aguiar.",
+    "As demonstrações cobrem TradingView no computador e no celular, com menção a uso semelhante no tablet.",
+    "Telas, limites do plano e fornecedores são condições observadas na gravação, não confirmação de interface atual.",
+    "O tutorial apresenta dificuldades reais ao alternar RSI e outros indicadores, sem ocultar a divergência entre limite anunciado e comportamento mostrado."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Adicionar Volume com configuração padrão",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 9,
+      "fim": 55,
+      "condicoes": "Conta TradingView aberta.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor abre Indicadores, procura Volume e seleciona o primeiro resultado. Orienta manter valores e estilo padrão, confirmar com OK e verificar as barras na parte inferior do gráfico.",
+      "evidencia": "a gente vai procurar aqui, volume",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Observar limite de indicadores da conta",
+      "tipo": "alerta-ui",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 55,
+      "fim": 79,
+      "condicoes": "Conta gratuita conforme exibida na gravação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O limite de três é o anunciado pelo instrutor nesta gravação, sem verificação atual.",
+      "corpo": "O instrutor afirma que a conta gratuita permite no máximo três indicadores e antecipa alternar sua visualização para consultar outros. Diz que ensinará RSI por estar no conteúdo anterior, embora Bruno venha usando-o pouco.",
+      "evidencia": "no máximo três indicadores",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Selecionar PST e trocar os valores de fábrica",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 75,
+      "fim": 110,
+      "condicoes": "Menu Indicadores disponível.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Nome do fornecedor é ouvido como 'Lone some TH'; não completar por conhecimento externo. Caixa marcada não é nomeada nesta transcrição.",
+      "corpo": "Pesquisar Pivot Point Supertrend e escolher o fornecedor mostrado, transcrito como Lone some TH. Adicionar uma vez, abrir configurações pelo ícone ou duplo clique e trocar 2, 3, 10 por 1, 2, 10. Manter estilo, visibilidade e somente a caixa exibida marcada, conforme o instrutor.",
+      "evidencia": "Deixa 1, 2, 10",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Configurar duas SMAs de oito e vinte e um",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 110,
+      "fim": 156,
+      "condicoes": "Indicador SMAs adicionado.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Fornecedor transcrito como 'Dr. Fuji e tal'; identificação completa não está disponível no texto.",
+      "corpo": "Pesquisar SMA com s minúsculo final, escolher o fornecedor referido como Dr. Fuji e adicionar. Em Valores, desabilitar as três últimas linhas e configurar primeira SMA em 8 e segunda em 21. Em Estilo, colocar a primeira branca, a segunda amarela e desmarcar as outras opções mostradas. Ajustar a espessura se desejar e confirmar.",
+      "evidencia": "SMA de 8. No segundo você vai colocar de 21.",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Adicionar RSI e lidar com limite observado",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 157,
+      "fim": 217,
+      "condicoes": "Limite de indicadores impede adicionar RSI.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A demonstração não confirma que apenas ocultar um libera espaço: falha e exige desabilitar dois.",
+      "corpo": "Pesquisar Índice de Força Relativa. Se a conta impedir inclusão, o instrutor tenta ocultar Volume, mas ainda falha; desabilita um segundo indicador e consegue RSI junto às SMAs. Para voltar ao conjunto anterior, desabilita RSI e reabilita os demais. Explica que RSI ocupa praticamente duas vagas no cenário mostrado e deixa configurações padrão; o ponto de exclamação indica que não pode exibir o conjunto simultaneamente.",
+      "evidencia": "eu preciso desabilitar dois aqui",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Usar Fibonacci como ferramenta de desenho",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 217,
+      "fim": 265,
+      "condicoes": "Barra lateral de desenhos disponível.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor esclarece que Fibonacci não precisa ocupar lugar na lista de indicadores. Abrir a seta do terceiro grupo da barra lateral, após cruz e linha de tendência, selecionar Retração de Fibonacci e traçar de topo a fundo ou de fundo a topo conforme o movimento ensinado por Bruno.",
+      "evidencia": "a gente não precisa incluir aqui os indicadores.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Favoritar os indicadores para encontrá-los novamente",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "localizar-recursos"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 265,
+      "fim": 291,
+      "condicoes": "Indicadores localizados na busca.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A alegação de não precisar reconfigurar após excluir é do instrutor; comportamento atual não verificado.",
+      "corpo": "O instrutor orienta marcar a estrela dos indicadores ensinados. Depois usar Favoritos para localizá-los rapidamente caso sejam excluídos do gráfico, dizendo que isso evita refazer a procura e configuração.",
+      "evidencia": "vocês colocam essa estrelinha",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Celular: separar desenhos e indicadores",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 291,
+      "fim": 318,
+      "condicoes": "TradingView aberto no celular ou interface semelhante no tablet.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor mostra que o lápis permite buscar e traçar Retração de Fibonacci, mas não é o local dos demais indicadores. Para estes, tocar nos três pontos, abrir ferramentas Indicadores e repetir as pesquisas realizadas no computador.",
+      "evidencia": "Você está vendo aqui esses três pontinhos",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Celular: adicionar sem duplicar e conferir plano",
+      "tipo": "alerta-ui",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 318,
+      "fim": 348,
+      "condicoes": "Adicionar Volume ou Índice de Força Relativa pelo celular.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor pesquisa e adiciona Volume e RSI e observa que cliques repetidos podem duplicá-los; exclui a cópia de Volume porque já estava configurado. Explica que sua conta móvel é paga, por isso mostra mais indicadores simultâneos, enquanto a lógica de limite demonstrada no computador se aplica à conta gratuita.",
+      "evidencia": "eu já tinha",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Celular: aplicar mesmos parâmetros das SMAs e PST",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 348,
+      "fim": 379,
+      "condicoes": "Menu Indicadores móvel aberto.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Pesquisar SMAs e Pivot Point Supertrend, escolhendo os mesmos fornecedores mostrados no computador. Abrir configurações pelo ícone indicado e aplicar as duas SMAs de 8 e 21 com branca/amarela e PST de 1, 2, 10; desabilitar linhas excedentes e confirmar com OK.",
+      "evidencia": "faz aqui no celular as configurações também",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Rever tutorial e procurar suporte se necessário",
+      "tipo": "regra",
+      "tema": "ecossistema",
+      "tarefas": [
+        "localizar-recursos",
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 376,
+      "fim": 393,
+      "condicoes": "Dúvidas de configuração persistentes.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor recomenda assistir novamente ao vídeo quantas vezes forem necessárias para consolidar a configuração pela prática e entrar em contato com suporte caso ainda tenha dúvidas.",
+      "evidencia": "Qualquer dúvida, entra em contato com o suporte",
+      "versao": 1
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# gestao-de-risco
+
+Índice de unidades, sem síntese nova. Cada link abre a aula com a faixa e a fonte.
+
+- [M01_A07: Usar apenas dinheiro que pode perder](../unidades/M01_A07.md#u-8c133d3467eee3fa-004) · `U:8c133d3467eee3fa:004` · regra
+- [M01_A07: Teto sobre patrimônio líquido disponível](../unidades/M01_A07.md#u-8c133d3467eee3fa-005) · `U:8c133d3467eee3fa:005` · regua
+- [M01_A07: Divisão 80/20 da banca](../unidades/M01_A07.md#u-8c133d3467eee3fa-006) · `U:8c133d3467eee3fa:006` · regua
+- [M01_A07: Aplicar somente 30% dos 20%](../unidades/M01_A07.md#u-8c133d3467eee3fa-007) · `U:8c133d3467eee3fa:007` · regua
+- [M01_A07: Distribuir o limite em pequenas posições](../unidades/M01_A07.md#u-8c133d3467eee3fa-009) · `U:8c133d3467eee3fa:009` · procedimento
+- [M01_A07: Rácio de margem como medida da carteira](../unidades/M01_A07.md#u-8c133d3467eee3fa-011) · `U:8c133d3467eee3fa:011` · conceito
+- [M01_A07: Régua de rácio e reserva para intervenção](../unidades/M01_A07.md#u-8c133d3467eee3fa-012) · `U:8c133d3467eee3fa:012` · regua
+- [M01_A07: Diversificar direções](../unidades/M01_A07.md#u-8c133d3467eee3fa-014) · `U:8c133d3467eee3fa:014` · regra
+- [M02_A03: Validar confiança antes de aumentar lote](../unidades/M02_A03.md#u-d1e02a7a7899eae0-005) · `U:d1e02a7a7899eae0:005` · procedimento
+- [M02_A03: Entrada regular de 5% da carteira](../unidades/M02_A03.md#u-d1e02a7a7899eae0-011) · `U:d1e02a7a7899eae0:011` · regua
+- [M02_A03: Reduzir para 2% depois de loss](../unidades/M02_A03.md#u-d1e02a7a7899eae0-013) · `U:d1e02a7a7899eae0:013` · procedimento
+- [M02_A03: Stops podem não executar em movimento rápido](../unidades/M02_A03.md#u-d1e02a7a7899eae0-014) · `U:d1e02a7a7899eae0:014` · regra
+- [M02_A03: Reduzir abaixo de US$ 2 se necessário](../unidades/M02_A03.md#u-d1e02a7a7899eae0-019) · `U:d1e02a7a7899eae0:019` · decisao
+- [M02_A05: Ler posição, liquidação e margem](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-008) · `U:ed27643cbb4f1bb5:008` · procedimento
+- [M02_A06: Teto agregado antes da segunda posição](../unidades/M02_A06.md#u-1baf91c5930c2fde-005) · `U:1baf91c5930c2fde:005` · procedimento
+- [M02_A06: Margem cruzada e isolada](../unidades/M02_A06.md#u-1baf91c5930c2fde-009) · `U:1baf91c5930c2fde:009` · conceito
+- [M02_A06: Manter margem em 3%–5% e adicionar saldo](../unidades/M02_A06.md#u-1baf91c5930c2fde-010) · `U:1baf91c5930c2fde:010` · regua
+- [M03_A03: Reduzir 80% ao positivar](../unidades/M03_A03.md#u-f5c8c4d5065c6194-004) · `U:f5c8c4d5065c6194:004` · regra
+- [M03_A04: Controlar risco antes de pensar no 3x](../unidades/M03_A04.md#u-72ef7e09bff38bc5-001) · `U:72ef7e09bff38bc5:001` · procedimento
+- [M03_A04: Executar um 3x por vez](../unidades/M03_A04.md#u-72ef7e09bff38bc5-007) · `U:72ef7e09bff38bc5:007` · regra
+- [M03_A07: Risco começa antes de transferir à corretora](../unidades/M03_A07.md#u-07fbb8e66ba919c4-001) · `U:07fbb8e66ba919c4:001` · regua
+- [M03_A07: Até US$ 25 mil podem ficar em futuros](../unidades/M03_A07.md#u-07fbb8e66ba919c4-002) · `U:07fbb8e66ba919c4:002` · regra
+- [M03_A07: Régua por operação e posição na carteira](../unidades/M03_A07.md#u-07fbb8e66ba919c4-003) · `U:07fbb8e66ba919c4:003` · regua
+- [M03_A07: Exemplo de banca maior com reserva de margem](../unidades/M03_A07.md#u-07fbb8e66ba919c4-004) · `U:07fbb8e66ba919c4:004` · exemplo
+- [M03_A07: Diversificar por oportunidade de compra e venda](../unidades/M03_A07.md#u-07fbb8e66ba919c4-006) · `U:07fbb8e66ba919c4:006` · regra
+- [M03_A07: Percentuais aplicam-se individualmente](../unidades/M03_A07.md#u-07fbb8e66ba919c4-008) · `U:07fbb8e66ba919c4:008` · regra
+- [M03_A10: Primeiro ponto: régua de exposição por posição](../unidades/M03_A10.md#u-6d23a72aa288ff6a-002) · `U:6d23a72aa288ff6a:002` · regua
+- [M03_A10: Terceiro ponto: controlar rácio com capital ou lucro](../unidades/M03_A10.md#u-6d23a72aa288ff6a-004) · `U:6d23a72aa288ff6a:004` · procedimento
+- [M03_A10: Três blocos de capital](../unidades/M03_A10.md#u-6d23a72aa288ff6a-007) · `U:6d23a72aa288ff6a:007` · procedimento
+- [M03_A10: Sexto ponto: redução de metade como emergência](../unidades/M03_A10.md#u-6d23a72aa288ff6a-008) · `U:6d23a72aa288ff6a:008` · decisao
+- [M03_A10: Após redução, esperar e preparar proteção](../unidades/M03_A10.md#u-6d23a72aa288ff6a-009) · `U:6d23a72aa288ff6a:009` · decisao
+- [M03_A10: Sétimo ponto: stop antes da liquidação](../unidades/M03_A10.md#u-6d23a72aa288ff6a-010) · `U:6d23a72aa288ff6a:010` · regra
+- [M03_A10: Oitavo ponto: capital suficiente para voltar a 5%–7%](../unidades/M03_A10.md#u-6d23a72aa288ff6a-012) · `U:6d23a72aa288ff6a:012` · regra
+- [M03_A10: Reserva para banca pequena](../unidades/M03_A10.md#u-6d23a72aa288ff6a-013) · `U:6d23a72aa288ff6a:013` · exemplo
+- [M04_A01: Testar transferência com valor pequeno](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-002) · `U:5a8f5bd2f6b420fa:002` · regra
+- [M04_A01: Conferir custo sem usar toda a banca](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-017) · `U:5a8f5bd2f6b420fa:017` · regua
+- [M04_A01: RMM na OKX aumenta com maior folga](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-020) · `U:5a8f5bd2f6b420fa:020` · regra
+- [M05_A02: Long spread sem stop pode exigir capital adicional](../unidades/M05_A02.md#u-e586cd3d867b7f48-007) · `U:e586cd3d867b7f48:007` · exemplo
+- [M05_A02: Demonstração fora do risco não é regra do método](../unidades/M05_A02.md#u-e586cd3d867b7f48-009) · `U:e586cd3d867b7f48:009` · exemplo

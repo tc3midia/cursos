@@ -1,0 +1,35 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M02_A02",
+  "arquivo_sha256": "c5662d9b59879d4b7c6cb5c6211102f979cf85de2f6ab33fd330a3d5ff2b5f1b",
+  "inspecao_sha256": "b13e830c230a90e6b81ced70bf276dae2d9edc435a314348c3856815de7e687f",
+  "veredito": "passa",
+  "fundamentacao": {
+    "fidelidade": "Os recortes complementares confirmam os três planos com denominador US$200 e câmbio ilustrativo R$5/US$:50×200%,20×500% e5×2000%. A correção verbal do slide de reais para dólares está preservada. Os totais US$17mil eUS$190mil são corretamente distinguidos de lucro, e arredondamentos/contas verbais inconsistentes são anotados.",
+    "condicoes_e_limites": "As unidades mantêm limite variável de alavancagem, necessidade de risco controlado para suportar negativos,50operações antes de trocar modalidade e ausência de prazo na aprendizagem. Os recortes298–323 e446–473 sustentam essas condições, sem transformar as projeções em garantias.",
+    "cobertura": "Foram examinadas as20unidades e o mapa de20evidências do inspetor. Os complementos sustentam os blocos quantitativos e decisões essenciais selecionados. A conclusão de cobertura é restrita ao conjunto de evidências fornecido, não uma nova leitura integral da fonte.",
+    "perecibilidade": "Câmbio, limites de alavancagem disponíveis, exemplos datados e serviços/retornos históricos estão marcados perecíveis. U13 contém a correção registrada na inspeção; regras conceituais permanecem distintas dos resultados históricos.",
+    "formato": "Campos obrigatórios,20números sequenciais,intervalos positivos,versão1 e âncoras de até24palavras conferidos diretamente. Hash do laudo corresponde ao JSON examinado. Nenhuma exigência de plataforma adicional decorre das evidências examinadas.",
+    "reavaliacao": "Artefato e laudo mantiveram os hashes julgados na primeira rodada; os20 registros e a aprovação anterior permanecem válidos no alcance descrito."
+  },
+  "achados": [],
+  "limites": [
+    "Julgamento amostral de uma das três aulas selecionadas, sem leitura integral ou acesso à transcrição-fonte de Análises Extraordinárias.",
+    "Examinados o JSON de unidades e os laudos com evidências literais/complementares fornecidos pelo inspetor; cobertura limitada a esse pacote.",
+    "Não verifica rentabilidade, segurança, eficácia financeira, preços atuais, regras atuais de exchange nem resultados reais."
+  ],
+  "historico": [
+    {
+      "rodada": 1,
+      "arquivo_sha256": "c5662d9b59879d4b7c6cb5c6211102f979cf85de2f6ab33fd330a3d5ff2b5f1b",
+      "inspecao_sha256": "b13e830c230a90e6b81ced70bf276dae2d9edc435a314348c3856815de7e687f",
+      "veredito": "passa",
+      "achados": []
+    },
+    {
+      "rodada": 2,
+      "acao": "Rejulgamento das correções contra os recortes complementares da inspeção, sem acesso à transcrição. Hashes finais pareados.",
+      "veredito": "passa"
+    }
+  ]
+}

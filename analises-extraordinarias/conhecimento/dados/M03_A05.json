@@ -1,0 +1,516 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A05",
+  "titulo": "Aula 4.5 — Suporte e Resistência, operação ao vivo",
+  "contexto": [
+    "A aula ensina marcar zonas históricas de suporte e resistência no diário e consultar a relação com o preço em períodos menores.",
+    "Bruno combina exemplos antigos do BTC com uma operação apresentada ao vivo.",
+    "A gravação é datada pelo instrutor em 2 de maio de 2026.",
+    "O próprio instrutor declara que a operação demonstrativa excede seu gerenciamento de risco e diz não recomendar reproduzir isso.",
+    "Ganhos mostrados durante a fala são resultados momentâneos, sem encerramento comprovado nesta fonte.",
+    "Há correções orais de nomes, percentuais e ordem dos indicadores; são preservadas as distinções claras."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Suporte e resistência são regiões de reação histórica",
+      "tipo": "conceito",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 8,
+      "fim": 65,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno define resistência como região superior em que o preço repetidamente bate, lateraliza ou recua; suporte como região inferior em que bate e pode voltar a subir. A relevância vem da repetição histórica das reações de mercado.",
+      "evidencia": "é um ponto muito importante ao longo do histórico da cripto",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Marcar zonas no gráfico diário",
+      "tipo": "procedimento",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 65,
+      "fim": 97,
+      "condicoes": "Análise de uma criptomoeda antes de avaliar a operação.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor orienta sair de duas horas, passar a quatro horas e abrir o diário. Observar pontos históricos de batidas e traçar linhas nas regiões. Uma compra próxima à resistência pode ter spread menor até essa região; romper a resistência pode permitir expansão.",
+      "evidencia": "nós sempre traçamos o suporte e resistência no gráfico diário",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Tratar níveis como zonas, não preços exatos",
+      "tipo": "regra",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 97,
+      "fim": 162,
+      "condicoes": "Marcação de regiões históricas no diário do BTC.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Probabilidade de 80% de reação é afirmação do instrutor, não estatística verificada.",
+      "corpo": "Bruno aponta região em torno de US$ 78.100 como resistência e US$ 59–62 mil como suporte contextual. Ressalta que não se deve esperar reação exatamente em 78.100: a referência é uma zona. Afirma 80% de chance de alguma desaceleração ao atingir a região.",
+      "evidencia": "não é um preço específico",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Validar a importância por toques em períodos distintos",
+      "tipo": "exemplo",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 162,
+      "fim": 262,
+      "condicoes": "Histórico do BTC ilustrado na gravação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno mostra zona de US$ 59–61 mil com toques citados em abril e novembro de 2021; região de US$ 30–31 mil com retornos repetidos; e US$ 42 mil como outro nível importante. Diz que a linha não cria a resistência: representa reações já observadas. Menciona demora de 11/05 a 12/06/2022 para perder a região de US$ 31 mil.",
+      "evidencia": "Não é que você definiu que ali é resistência",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Rompimento de suporte pode iniciar expansão de queda",
+      "tipo": "exemplo",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 242,
+      "fim": 295,
+      "condicoes": "Perda histórica da região de US$ 31 mil no BTC.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno descreve a perda do suporte de US$ 31 mil e queda posterior à faixa de US$ 18–16 mil. Pede simplificar a marcação das regiões, sem ficar preso ao nome suporte ou resistência, acompanhando seu efeito conforme a direção do preço.",
+      "evidencia": "traça a linha nessa região de preço",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Várias operações podem evoluir sem novas entradas diárias",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "gerenciar-risco",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 275,
+      "fim": 317,
+      "condicoes": "Operações simultâneas dentro do gerenciamento de risco.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor diz que resultados de um dia podem vir de entradas feitas dois, três ou cinco dias antes. Admite três, quatro, cinco ou dez posições simultâneas, desde que dentro do gerenciamento de risco; não apresenta aqui cálculo de exposição agregada.",
+      "evidencia": "10 operações ao mesmo tempo dentro do gerenciamento de risco",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Otimismo e pessimismo extremos no relato do método",
+      "tipo": "conceito",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "compreender-metodo",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 301,
+      "fim": 359,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Generalizações de lucros diários e extraordinários são alegações do instrutor.",
+      "corpo": "Bruno identifica otimismo exacerbado e pânico como momentos de grandes movimentos. Contrasta o comportamento de comprar após alta e vender no pullback com analisar indicadores; cita posições short durante a queda de novembro de 2021 a julho de 2022 como seu exemplo de exploração do pessimismo.",
+      "evidencia": "o outro momento que a gente explode de ganhar dinheiro é no pessimismo exacerbado",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Canal entre duas regiões históricas",
+      "tipo": "conceito",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 348,
+      "fim": 385,
+      "condicoes": "BTC oscilando entre US$ 16 mil e US$ 31 mil no exemplo histórico.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno descreve um canal formado entre as regiões de US$ 16 mil e US$ 31 mil, com alternância de subidas e descidas. Destaca que repetidos testes da resistência não eliminam a possibilidade de rompimento posterior com força.",
+      "evidencia": "a zona de 31 E 16 começou a se formar",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Short sem stop exigiu aportes para evitar liquidação",
+      "tipo": "exemplo",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 375,
+      "fim": 432,
+      "condicoes": "Relato pessoal de longo spread após rompimento de US$ 31 mil.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A menção a retirar '50% 10% a cada 300%' é ambígua e não convertida em procedimento. O 3x é citado sem passos.",
+      "corpo": "Bruno relata ter mantido short sem stop quando o BTC rompeu US$ 31 mil e subiu até US$ 69 mil. Diz que precisou adicionar capital consistentemente para evitar liquidação, passou por tensão e depois executou um 3x ao analisar enfraquecimento de volume, obtendo segundo ele mais de 3.000% sem realizar prejuízo. O desfecho é relato não auditado.",
+      "evidencia": "Colocar capital na sua carteira Consistentemente para não ser liquidado",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Distinguir stop e manutenção de longo spread",
+      "tipo": "conceito",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 432,
+      "fim": 465,
+      "condicoes": "Escolha entre estratégias descritas no curso.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A afirmação de que ambas funcionam pertence ao instrutor.",
+      "corpo": "Bruno afirma que a estratégia com stop encerra a exposição ao atingir o limite ilustrativo de 50% da operação e permite buscar outra entrada, sem continuar aportando naquela posição. Contrasta-a com longo spread e alertas 3x, orientados a movimentos de milhares por cento e exigindo outro manejo emocional e de capital.",
+      "evidencia": "o stop você não vai ter que ficar colocando capital",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Descer do diário para duas horas e comparar volumes",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "identificar-niveis",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 465,
+      "fim": 527,
+      "condicoes": "Resistência do BTC em torno de US$ 78 mil já identificada no diário.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno observa repetidas tentativas na resistência, compra menor que venda e direção vendedora no candle diário. Depois abre duas horas como lupa, compara queda do volume comprador e barras vendedoras maiores antes de justificar seu short demonstrativo.",
+      "evidencia": "Agora vamos lá para o gráfico de 2 horas",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Operação demonstrativa fora do gerenciamento não é recomendação",
+      "tipo": "limite",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 527,
+      "fim": 583,
+      "condicoes": "Exemplo ao vivo do instrutor na resistência.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A fala alterna 40%, metade e US$ 20 mil de US$ 40 mil; inconsistência de proporção preservada.",
+      "corpo": "Bruno declara ter entrado fora do gerenciamento para demonstrar confiança na resistência. Cita primeiro 40% da carteira, depois metade, US$ 20 mil numa carteira de US$ 40 mil. Mostra cerca de US$ 3 mil momentâneos e projeta 1% de queda a 100x como 100% na posição. Afirma que nunca recomenda fazer isso e antecipa que pretende sair antes, sem comprovar fechamento.",
+      "evidencia": "É uma coisa que eu não recomendo você fazer Nunca",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Entrada antecipada do exemplo depende de experiência e congruência",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 583,
+      "fim": 673,
+      "condicoes": "Demonstração pessoal baseada em resistência; não regra inicial de entrada.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição registra 0,68 nesta passagem. O nível permanece incerto e não foi normalizado para 0,618 por conhecimento externo.",
+      "corpo": "Bruno explica que entrou antes do rompimento amarelo porque considerou resistência e congruência, apoiado em experiência e tempo de tela. Admite que a posição pode ficar negativa. Traça Fibonacci, relaciona alvo de 1% a 0,50, observa PST, o nível transcrito como 0,68 e proximidade de 0,382 com SMA, comparando força relativa de compra e venda.",
+      "evidencia": "você entrou em uma operação antes do rompimento amarelo",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Resultado aberto e projeções numéricas do instrutor",
+      "tipo": "exemplo",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "acompanhar-operacao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 673,
+      "fim": 790,
+      "condicoes": "Operação ao vivo ainda em andamento.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "US$ 3.800 e US$ 4.200 são valores exibidos/relatados, não lucro realizado comprovado. Na primeira projeção, os US$ 600 mil incluem o capital de entrada, portanto sua multiplicação não comprova lucro líquido mensal. As repetições são hipóteses do instrutor, não resultados observados.",
+      "corpo": "Bruno atualiza o resultado momentâneo de US$ 3.800 para US$ 4.200 e afirma que pode voltar a qualquer momento. Projeta uma banca de US$ 1 milhão com entrada de US$ 200 mil: adiciona 200% aos US$ 200 mil, chegando a US$ 600 mil totais na operação, e multiplica por 10 operações no mês para falar em US$ 6 milhões. Em outro exemplo, multiplica US$ 4.200 por 20 operações na semana, obtendo US$ 84 mil, e por 4 semanas, obtendo US$ 336 mil; associa esse exemplo à carteira de US$ 40 mil. Reitera que sair do gerenciamento não integra o método e que não se deve reproduzir a exceção.",
+      "evidencia": "ela pode voltar a qualquer momento",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Decidir por rompimento, volume e congruência",
+      "tipo": "procedimento",
+      "tema": "planejamento",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 790,
+      "fim": 818,
+      "condicoes": "Decisão regular de operação no método.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor orienta esperar rompimento, analisar a potência do volume e utilizar congruência dos indicadores, em lugar de emoção de mercado, achismo ou adivinhação.",
+      "evidencia": "Você vai esperar o rompimento",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Separar indicadores de entrada, confirmação e permanência",
+      "tipo": "conceito",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 818,
+      "fim": 872,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno relaciona SMAs branca e amarela e PST à leitura de entrada, volume à confirmação, e a posição da branca em relação à amarela à manutenção: branca acima sustenta long e abaixo sustenta short, mesmo com cruzamentos passageiros que se desfazem. Não exige usar todos simultaneamente em toda decisão.",
+      "evidencia": "existem outros indicadores que são para você confirmar",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Não adotar vinte horas de tela como requisito",
+      "tipo": "limite",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 852,
+      "fim": 904,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Relato de aluno com 2,8 milhões em um dia é alegação sem comprovação; a moeda não é explicitada claramente no primeiro valor.",
+      "corpo": "Bruno relata aluno com oito meses de formação que teria dedicado vinte horas a operar e obtido resultado elevado. Esclarece que essa dedicação de tela não é sua recomendação, apesar da liberdade de cada aluno para escolher o estilo.",
+      "evidencia": "Não é isso que eu estou te recomendando.",
+      "versao": 1
+    },
+    {
+      "numero": 18,
+      "titulo": "SMAs: início, fechamento e eventual espera do pullback",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 904,
+      "fim": 953,
+      "condicoes": "Rompimento inicial observado e aluno autorresponsável.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Na recapitulação, Bruno define branca como início do rompimento que será avaliado na amarela. Orienta aguardar rompimento e confirmação da amarela, podendo esperar um pouco pelo pullback. Reitera que alertas são material de análise, não dica de investimento que substitui a decisão.",
+      "evidencia": "Você pode até esperar um pouquinho para o back",
+      "versao": 1
+    },
+    {
+      "numero": 19,
+      "titulo": "Rejeitar entrada comprada sem volume e fechamento",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 953,
+      "fim": 1008,
+      "condicoes": "Tentativa de romper a SMA amarela para cima.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno orienta aguardar quando o volume comprador é pequeno em relação ao vermelho anterior ou o candle não confirmou acima da amarela. No exemplo seguinte, compra maior que a barra vendedora e fechamento acima fornecem confirmação para considerar entrada.",
+      "evidencia": "Não confirmou acima da amarela. Eu não entro.",
+      "versao": 1
+    },
+    {
+      "numero": 20,
+      "titulo": "PST pode ampliar spread após entrada pela SMA",
+      "tipo": "exemplo",
+      "tema": "indicadores",
+      "tarefas": [
+        "acompanhar-operacao",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1009,
+      "fim": 1037,
+      "condicoes": "Operação já iniciada e PST rompida com confirmação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No exemplo de BTC, Bruno compara 1% até a região posterior ao rompimento da amarela com 3% após romper a PST, usando 50x para apresentar 150%. Considera a PST confirmação de maior extensão possível, sem obrigatoriedade de usar todos os indicadores continuamente.",
+      "evidencia": "o spread era até aqui, 1%",
+      "versao": 1
+    },
+    {
+      "numero": 21,
+      "titulo": "Subir stop para proteger parte do lucro",
+      "tipo": "procedimento",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1037,
+      "fim": 1089,
+      "condicoes": "Long avançou a favor e começou a recuar; estratégia com stop.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Probabilidade de 60% de voltar em 0,50 é afirmação do instrutor. Os 1% do preço e 50% a 50x são mensuração e projeção do exemplo da gravação; não se transferem automaticamente a outra operação.",
+      "corpo": "Bruno propõe elevar o stop conforme a operação avança, para abaixo da amarela ou região de 0,50 de Fibonacci no exemplo. Partindo da entrada, isso conservaria 1% de movimento, apresentado como 50% a 50x. Admite posicionar um pouco além da zona para permitir o toque e retomada, mantendo stop ainda com lucro; relaciona a escolha a quem não pode acompanhar continuamente.",
+      "evidencia": "Você sobe o seu stop",
+      "versao": 1
+    },
+    {
+      "numero": 22,
+      "titulo": "Usar distância até próxima zona para estimar spread",
+      "tipo": "procedimento",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis",
+        "planejar-operacao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1089,
+      "fim": 1129,
+      "condicoes": "Linhas históricas traçadas no diário e posição sendo avaliada.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno recomenda manter linhas de suporte/resistência no gráfico para consultar em futuras entradas. Mostra long após PST com apenas 0,70% até a resistência próxima; para short, condiciona extensão até próximo suporte ao rompimento de amarela, PST, 0,618 e 0,786. Usa região de US$ 62 mil e movimento potencial de 19% como cenário de longo spread da gravação.",
+      "evidencia": "Qual é o próximo suporte?",
+      "versao": 1
+    },
+    {
+      "numero": 23,
+      "titulo": "Reavaliar diariamente sem torcer pelo alvo",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1129,
+      "fim": 1153,
+      "condicoes": "Cenário do BTC gravado em 02/05/2026.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno relata movimentos entre US$ 77–78 mil e US$ 65 mil e orienta analisar diariamente o que ocorre pelos indicadores, sem manter short apenas por torcida de queda.",
+      "evidencia": "Eu fico analisando diariamente",
+      "versao": 1
+    }
+  ]
+}

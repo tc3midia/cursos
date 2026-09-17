@@ -1,0 +1,383 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A04",
+  "titulo": "Aula 4.4 — Indicador Fibonacci",
+  "contexto": [
+    "Bruno ensina retração de Fibonacci para avaliar extensão de correções e possível reversão.",
+    "O instrutor distingue essa leitura da decisão de entrada, que vincula a rompimentos.",
+    "As probabilidades de 60% e 80% são estimativas afirmadas na aula, sem comprovação estatística.",
+    "A transcrição alterna grafias numéricas imprecisas de níveis; a extração preserva os níveis claramente estabelecidos e sinaliza ambiguidades.",
+    "Há exemplos históricos e promoção de serviços intercalados à demonstração."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Fibonacci não determina a entrada neste método",
+      "tipo": "limite",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 25,
+      "fim": 48,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno afirma que não usa Fibonacci para decidir entrada. Emprega-a para avaliar até onde o movimento ou pullback pode ir e quando uma reversão de direção pode estar ocorrendo.",
+      "evidencia": "não é um indicador para você tomar a decisão de entrada",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Retração como leitura de padrões humanos",
+      "tipo": "conceito",
+      "tema": "indicadores",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 48,
+      "fim": 107,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Afirmação de quase 80% de certeza é atribuída ao instrutor, sem validação.",
+      "corpo": "O instrutor relaciona padrões de mercado a medo, ganância, euforia e correções repetidas por participantes globais. Cita retrações e extensões para regiões de correção, suporte/resistência e alvos, mas esclarece que pessoalmente utiliza apenas retração.",
+      "evidencia": "Eu só uso a retração.",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Traçar retração de um movimento de alta",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 107,
+      "fim": 143,
+      "condicoes": "Movimento de alta identificado, inclusive após rompimento da SMA amarela.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No TradingView, Bruno orienta abrir o grupo de ferramentas das quatro linhas e selecionar Retração de Fibonacci. Para a alta, marcar o início do movimento embaixo, arrastar até o topo e estender lateralmente para visualizar níveis. O traçado deve acompanhar a direção do movimento estudado.",
+      "evidencia": "vem para a retração de Fibonacci",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Níveis 0,50 e 0,618 na correção",
+      "tipo": "regua",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 143,
+      "fim": 176,
+      "condicoes": "Correção após movimento de alta ou, por inversão do traçado, após queda.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Probabilidades são estimativas do instrutor e não frequências auditadas.",
+      "corpo": "Bruno atribui à retração até 0,50 uma chance de 60% de retomar a direção anterior e à retração até 0,618 uma chance de 80%. Alega que o preço pode voltar pouco ou muito; usa os níveis para decidir com mais calma durante o recuo do lucro.",
+      "evidencia": "80% das vezes Quando a operação volta até a 0,618",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Rompimento de 0,786 sinaliza possível mudança",
+      "tipo": "regua",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 176,
+      "fim": 244,
+      "condicoes": "Correção de uma alta previamente traçada.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "O instrutor usa linguagem categórica e afirma 80% dos casos; a unidade mantém a atribuição.",
+      "corpo": "O instrutor associa romper 0,786 após uma alta à mudança de tendência e diz que o preço desabaria em 80% dos casos. Distingue tocar de romper: no exemplo, o preço bate em 0,786 e volta para a região de 0,000, permitindo continuidade da posição em sua leitura. A régua serve para acompanhar um pullback, não exige permanecer em toda operação.",
+      "evidencia": "se ela voltar e romper a 786",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Combinar retorno ao nível com sustentação do volume",
+      "tipo": "exemplo",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 244,
+      "fim": 277,
+      "condicoes": "Preço realiza sucessivos retornos após uma alta.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno mostra dois toques em 0,50 seguidos de retomada, depois falta de sustentação do volume comprador e queda até 0,786, de onde volta. Usa o exemplo para defender acompanhamento por níveis e volume, sem necessidade de entrar e sair continuamente.",
+      "evidencia": "bateu aqui voltou",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Traçar queda do topo ao fundo",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 277,
+      "fim": 367,
+      "condicoes": "Movimento descendente contínuo e seu último fundo identificados.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A fala inicialmente confunde a direção e em seguida a corrige de forma explícita.",
+      "corpo": "Para analisar uma queda, Bruno orienta iniciar no topo do movimento, traçar para baixo até o fundo principal mais recente e deslocar a ferramenta lateralmente para leitura. Para alta, o inverso: fundo ao topo. Ajustar ao último ponto alcançado pelo movimento.",
+      "evidencia": "pega daqui de cima não é de baixo e traço para baixo",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Ler pullback de short sem confundir toque e rompimento",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "acompanhar-operacao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 367,
+      "fim": 436,
+      "condicoes": "Fibonacci traçada do topo ao fundo de uma queda.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A transcrição contém '0.08', '0.18' e '7,8,5'; níveis centrais vêm da definição explícita anterior, sem supor exatidão de cada apontamento.",
+      "corpo": "No short, Bruno observa repiques a 0,50 e à região definida anteriormente como 0,618 e continuidade da queda. Explica que tocar 0,786 e recuar não equivale a rompê-lo; romper para cima pode indicar mudança de tendência. Relaciona a mudança mostrada a um novo rompimento da SMA amarela.",
+      "evidencia": "só que quando romper a 786 pode ter a mudança de uma tendência",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Preferir quatro horas e ampliar para diário",
+      "tipo": "procedimento",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 436,
+      "fim": 517,
+      "condicoes": "Análise de Fibonacci e investigação de rompimento de 0,786.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno diz que Fibonacci funciona melhor em quatro horas ou mais e muda para quatro horas para avaliar o movimento total. Se 0,786 for rompido, propõe consultar o diário para enxergar um contexto mais amplo, incluindo PST e suporte/resistência. Usa 0,382 como exemplo de realização pequena antes da continuação.",
+      "evidencia": "ela funciona melhor em gráficos de quatro horas ou mais",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Operar rompimentos em vez de prever moedas",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 455,
+      "fim": 494,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor rejeita adivinhar o que determinada criptomoeda fará. Diz que seu interesse operacional é observar rompimentos, embora use Fibonacci para acompanhar cenários condicionais.",
+      "evidencia": "eu só entro em rompimentos",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Longo prazo e método 3x no relato pessoal",
+      "tipo": "exemplo",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 518,
+      "fim": 580,
+      "condicoes": "Estilo pessoal de operações estruturadas descrito por Bruno.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Condições de alavancagem, valores e método sem stop são relatos do instrutor; o mecanismo 3x não é ensinado nesta aula.",
+      "corpo": "Bruno projeta movimento de 19% no BTC, menciona alavancagem de 100x e operação por dois ou três meses. Diz que nessas operações pessoais, com US$ 100 mil, US$ 200 mil ou US$ 300 mil, não coloca stop e usa o 3x do MAC, consultando uma ou duas vezes ao dia e controlando risco da margem se negativo. Recomenda não concentrar análise apenas em BTC, mas olhar outras moedas.",
+      "evidencia": "eu não coloco stop nela eu trabalho com ela através do 3x",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Cenário do BTC permanece condicional",
+      "tipo": "exemplo",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "identificar-niveis"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 581,
+      "fim": 639,
+      "condicoes": "BTC no gráfico exibido na gravação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "US$ 95 mil é nível histórico observado pelo instrutor, não alvo atual.",
+      "corpo": "Bruno aponta tentativa frustrada e depois rompimento da PST do BTC, sugerindo possibilidade de alcançar resistência em US$ 95 mil. Reconhece cenário contrário: perder SMA amarela e PST e cair, especialmente com volume vendedor superior ao comprador. Diferencia a leitura do momento de uma previsão garantida.",
+      "evidencia": "Bruno pode acontecer o contrário Claro que pode",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Consolidar os indicadores ensinados",
+      "tipo": "regra",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 623,
+      "fim": 662,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno orienta concentrar o estudo nas aulas do curso e revê-las repetidamente, dizendo que o aluno não precisa buscar outros indicadores ou aulas externas para aplicar o método apresentado.",
+      "evidencia": "Você só precisa concentrar nessas aulas",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Traçar o movimento contínuo, não um ponto arbitrário",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 662,
+      "fim": 757,
+      "condicoes": "Análise de outras criptomoedas, com movimento amplo, contínuo e rápido.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Nos exemplos de QTUM e ENJ e de outro ativo não claramente nomeado, Bruno pede traçar desde o início do movimento contínuo até seu extremo. Compara sucessivos toques em 0,50, 0,618 e 0,786 com continuação e distingue cascata de realização de uma mudança confirmada. Reitera o traçado inverso para uma queda.",
+      "evidencia": "é o início desse movimento grande",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Verificar o topo após romper 0,786 no short",
+      "tipo": "procedimento",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 757,
+      "fim": 804,
+      "condicoes": "Repique de posição vendida ultrapassa 0,786.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Há inconsistências na transcrição de 0,618/0,68 e 0,786; orientação de rompimento do topo é explícita.",
+      "corpo": "Bruno diz que um repique pode tocar 0,786 e voltar a cair; se romper esse nível, orienta observar também o rompimento do topo, relacionando-o à futura aula de suporte e resistência. Apresenta risco de a reação atingir o stop e recomenda traçar Fibonacci ao ver um short subir, em vez de reagir com desespero.",
+      "evidencia": "aí você teria que esperar ela romper isso aqui que é o topo dela",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Exemplo especulativo de KNC não vira regra de entrada",
+      "tipo": "limite",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 804,
+      "fim": 884,
+      "condicoes": "Movimento brusco de KNC mostrado com alta de 25% no dia.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala atribui 80% a 0,50 neste exemplo, contrariando a régua de 60% apresentada antes; nomes e percentuais de níveis têm ruído.",
+      "corpo": "Bruno traça Fibonacci sobre um movimento brusco de KNC e ilustra possíveis pullbacks com movimentos de 6%, 9% e 14%, citando 7% já ocorrido. Diz que fazia esse tipo de tentativa antes, mas não orienta viver de adivinhar pullbacks; prefere receber alerta, analisar e decidir a entrada. A aula chama tais movimentos de especulação.",
+      "evidencia": "você não está aqui para ficar vivendo de pullback",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Volume contrário indica possibilidade, entrada depende de rompimento",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 874,
+      "fim": 896,
+      "condicoes": "Compra diminuindo e venda aumentando após pullback do BTC observado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno considera possível nova realização quando o volume comprador cai e o vendedor sobe, mas mantém a regra de só entrar depois do rompimento.",
+      "evidencia": "eu só entro após o rompimento",
+      "versao": 1
+    }
+  ]
+}

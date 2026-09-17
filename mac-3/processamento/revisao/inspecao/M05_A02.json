@@ -1,0 +1,34 @@
+{
+  "curso": "mac-3",
+  "aula": "M05_A02",
+  "arquivo_sha256": "ff71c4bc57391184329549e15f72ef44d87dde8f4cf07ca7902f58763ca8ec27",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Fonte integral lida e todas as unidades confrontadas, incluindo números, condições, passos e decisões. Cobertura essencial adequada, com correção localizada indicada. Sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "64e1cf163647e663f5312d19c9dad2e2172d4079a99ce41c72021236beebde22",
+      "correcao": "U7 remove sequência presumida depois, registra ambiguidade50%/10%/a cada300% e reduz confiança para média. Espaços editoriais conferidos por equivalência sem whitespace no snapshot independente; nenhuma outra mudança semântica."
+    }
+  ]
+}

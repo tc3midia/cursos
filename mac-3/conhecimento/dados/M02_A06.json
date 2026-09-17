@@ -1,0 +1,299 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A06",
+  "titulo": "Alavancagem + SMA AMARELA",
+  "contexto": [
+    "Aula sobre alavancagem inicial, rompimentos da SMA amarela e gestão de margem na Bybit.",
+    "Inclui tentativas de ordens ao vivo com erros de seleção e execução, corrigidos durante a demonstração.",
+    "As alegações de probabilidade e lucro pertencem ao instrutor; os exemplos não estabelecem eficácia financeira."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Alavancagem inicial e progressão",
+      "tipo": "regua",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 0,
+      "fim": 70,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A referência a reduzir 99,9% a chance de stop com experiência é alegação não demonstrada; não constitui taxa validada.",
+      "corpo": "O instrutor recomenda até 20x no início; após 50 operações admite 30x no MAC. Reserva acima de 30x preferencialmente a quem está nos Sinais Milionários e faixas de 75x, 100x e 125x ao Águia Spread. Explica que maior alavancagem reduz a margem para oscilar antes do stop; desencoraja reduzir a 5x ou 10x por medo quando 20x estiver disponível.",
+      "evidencia": "Utiliza 20x no máximo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Aguardar candle em vez de reagir ao cruzamento",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "avaliar-saida",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 70,
+      "fim": 137,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No exemplo ALICE, o instrutor espera o candle fechar após romper a amarela. Se o preço cruza de volta durante a formação mas fecha acima, pede não sair por desespero. Admite aguardar de três a cinco candles na lateralização porque o movimento pode continuar, citando que os recuos mostrados não atingiram o stop.",
+      "evidencia": "Até entre 3 a 5 candles você pode aguardar",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "20x e stop de 50%",
+      "tipo": "regua",
+      "tema": "alavancagem",
+      "tarefas": [
+        "gerenciar-risco",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 92,
+      "fim": 115,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor mostra que stop de 50% da operação com 20x corresponde a 2,5% de variação do ativo.",
+      "evidencia": "2,5% vezes 20 dá 50",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Exemplo de ALICE e equilíbrio no lucro",
+      "tipo": "exemplo",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 115,
+      "fim": 183,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Movimento retrospectivo exemplificativo; não previsão.",
+      "corpo": "Ao medir o movimento histórico de ALICE, o instrutor aponta 90% de variação do ativo, equivalentes a 1.800% com 20x. Usa o exemplo para orientar calma diante de recuos e relaciona controle emocional à Referência Emocional de Riqueza, tema aprofundado em outro produto.",
+      "evidencia": "RER é Referência Emocional de Riqueza",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Teto agregado antes da segunda posição",
+      "tipo": "procedimento",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 183,
+      "fim": 252,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit. A tentativa de usar o formulário de stop para consultar aporte não se conclui na demonstração.",
+      "corpo": "Antes de adicionar ALICE à Dusk, o instrutor calcula 5% da banca de US$ 47 mil=US$ 2.350. Com aproximadamente US$ 1.800 já na Dusk, arredonda o espaço restante para US$ 500. Tenta conferir o aporte pela interface do stop em 100%, encontra erro e recorre ao valor lembrado. Ajusta o custo da nova ordem abaixo desse teto.",
+      "evidencia": "47 mil dólares vezes 5%",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Redução de posição e ordens pendentes",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-saida",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 252,
+      "fim": 323,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit; a demonstração está ao vivo.",
+      "corpo": "Como alternativa para liberar exposição, o instrutor seleciona Dusk, 50% e Reduce Only. A ordem de venda fica pendente no book; ele cancela e tenta de novo, dizendo preferir execução imediata. Ao final desiste de reduzir 50% porque gosta da operação. Assim, a tentativa não comprova redução efetivada.",
+      "evidencia": "Eu coloquei uma ordem de venda e ela não saiu",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Preço agressivo e confirmação do ativo",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-entrada",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 298,
+      "fim": 369,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit; as cores referem-se à tela da gravação.",
+      "corpo": "O instrutor sugere preço vermelho para executar long mais rápido e verde para short. Depois percebe que enviou ordem na Dusk quando pretendia ALICE; orienta não operar afobado, seleciona ALICE, mantém 20x, ajusta custo próximo de US$ 248 e confere execução integral na lista.",
+      "evidencia": "eu tava querendo comprar a Alice, mas tava com a Dusk",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Adaptar stop abaixo da SMA e escolher alvo",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "outra",
+        "tradingview"
+      ],
+      "inicio": 369,
+      "fim": 414,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "2,8% e 60% são aproximações verbais distintas na demonstração; não uniformizadas. Exchange: Bybit.",
+      "corpo": "Na compra de ALICE a 20x, o instrutor parte de stop de 50%/2,5% do preço, desloca-o um pouco abaixo da SMA, cita 2,8% e define 60% de perda. Configura ganho de 200%/10% do preço ou 300%, desde que visualize spread alcançável, sem garantir que o alvo será atingido.",
+      "evidencia": "Você tem que colocar. Porque você visualizou que existe um spread sem alcançado.",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Margem cruzada e isolada",
+      "tipo": "conceito",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 414,
+      "fim": 482,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit; preferência e interpretação da liquidação são do instrutor.",
+      "corpo": "O instrutor descreve cruzada como uso do saldo geral, com risco de perder toda a banca numa liquidação, e isolada como perda limitada ao dinheiro da operação. Prefere cruzada por ver preço de liquidação mais distante; na isolada observa preço próximo ao mercado, embora reconheça que o aluno pode escolher.",
+      "evidencia": "Você só perde o dinheiro que está nela",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Manter margem em 3%–5% e adicionar saldo",
+      "tipo": "regua",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 414,
+      "fim": 504,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A régua é a do instrutor para essa demonstração; não verificação de requisitos atuais da exchange. Exchange: Bybit.",
+      "corpo": "O instrutor recomenda margem de manutenção de 3% a 5% no máximo na cruzada. Se subir para 6%,7% ou 8%, orienta adicionar capital para reequilibrar; com banca de US$ 47 mil exemplifica reserva adicional de US$ 5 mil ou US$ 10 mil. Associa o aporte à redução do índice e à folga para oscilações.",
+      "evidencia": "Isso aqui tem que estar de 3 a 5% no máximo",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Rompimento inicia avaliação, não entrada automática",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 504,
+      "fim": 526,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor esclarece que fechar acima ou abaixo da amarela inicia avaliação de compra ou venda. Não manda entrar automaticamente; admite esperar um pouco, inclusive uma descida, antes de escolher a entrada.",
+      "evidencia": "Não estou dizendo que é para entrar",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Aceitar oscilação negativa e aplicar lote após resultado",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 527,
+      "fim": 593,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A taxa 90% é afirmação do instrutor, sem demonstração estatística. O trecho não repete o denominador dos 2% e 5%; nesta aula o exemplo de alocação usa a banca, sem nova definição aqui.",
+      "corpo": "O instrutor orienta tolerar o negativo como parte da oscilação e alega que 90% das operações ficam negativas antes de positivas. Reforça disciplina: após stop/loss, nova entrada com 2%; após gain, com 5%.",
+      "evidencia": "Se eu for estopado, eu entro de novo. Mas eu entro com 2%",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Acompanhar espaçadamente e reavaliar saída",
+      "tipo": "decisao",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "acompanhar-operacao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 571,
+      "fim": 647,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Com stops configurados e alvo de 300%, o instrutor propõe conferir a posição em cerca de quatro horas, equivalentes a dois candles de duas horas. Se já houver 200% e lateralização sem força, admite encerrar ou permanecer para treinar o emocional. Reprova ficar o dia todo na tela e associa o método a tempo para família e religião.",
+      "evidencia": "Dá uma olhadinha no mercado daqui a 4 horas",
+      "versao": 1
+    }
+  ]
+}

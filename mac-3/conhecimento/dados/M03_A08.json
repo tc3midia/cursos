@@ -1,0 +1,120 @@
+{
+  "curso": "mac-3",
+  "aula": "M03_A08",
+  "titulo": "Resposta 8 - Quando sair da operação e passar de bem mais de R$1.000,00 por dia",
+  "contexto": [
+    "Pergunta e resposta sobre autonomia para encerrar operações e executar 3x.",
+    "O instrutor usa relatos de alunos para explicar sua política de comunicação.",
+    "Percentuais são exemplos e preferências pessoais, sem resultado futuro garantido."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Saída integral é decisão do investidor",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 21,
+      "fim": 74,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Política de comunicação de saídas conforme relato do instrutor na gravação, sem confirmação atual.",
+      "corpo": "O instrutor relata ter saído com 3.000% e visto a operação chegar a 7.000% dois dias depois. Após ser culpado por aluno, decidiu deixar de comunicar saída integral para estimular decisão própria. Diz ainda compartilhar reduções parciais, como 50% ou 10%.",
+      "evidencia": "não falo mais quando eu saio da operação",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Preferência pessoal por spread mínimo de 2.000%",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "avaliar-entrada",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 50,
+      "fim": 97,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor afirma entrar apenas quando enxerga spread mínimo de 2.000% e permanecer buscando mais que esse retorno. Ressalva que 20x pode ou não alcançar 2.000% e que alavancagens maiores aceleram essa meta. Não transforma seu alvo em obrigação do iniciante.",
+      "evidencia": "eu nunca entro numa operação que não tenha o spread mínimo de dois mil por cento",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Aceitar lucro adequado à própria banca",
+      "tipo": "exemplo",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "avaliar-saida",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 74,
+      "fim": 120,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Para aluno com US$ 500 de banca, o instrutor exemplifica posição de 5%=US$ 25 que chega a 800%. Diz para celebrar a saída a 800%, sem culpa se depois ele próprio divulgar 2.500%, pois cada pessoa decide o que é bom para si.",
+      "evidencia": "parabéns, você fez 800%",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Não copiar o momento do 3x",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 97,
+      "fim": 149,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Política de comunicação de aportes e reduções conforme a gravação, sem confirmação atual.",
+      "corpo": "O instrutor relata aluno liquidado ao copiar seu 3x mais de 20 minutos depois, já com outro preço. Por isso deixou de avisar o momento do aporte e passou a ensinar a execução; diz comunicar apenas reduções posteriores, como 50% a 120% após 3x.",
+      "evidencia": "ele entrou 20 e poucos minutos depois",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Praticar 50 execuções de 3x",
+      "tipo": "regua",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 120,
+      "fim": 151,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor descreve que antes exigia 100 execuções de 3x como degrau de aprendizagem e reduziu para 50. Mesmo depois desse bloco, recomenda crescer com cautela e reafirma que o aluno decide tanto o momento do 3x quanto o encerramento integral.",
+      "evidencia": "eu baixei o número de 3x pra 50 3x",
+      "versao": 1
+    }
+  ]
+}

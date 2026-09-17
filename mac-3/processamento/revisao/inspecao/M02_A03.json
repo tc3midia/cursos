@@ -1,0 +1,42 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A03",
+  "arquivo_sha256": "7e1f9f3869ebf2b2d969f2b67f4c2d26226abd1b06406f6635e47722a1aed58a",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Transcrição integral lida; todas as unidades confrontadas quanto a números, faixas, denominadores, condições, passos e decisões. Cobertura essencial adequada, com achados locais quando indicados; fidelidade ao instrutor, sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "32a04cb0467ced8dd7815eb1e64ebfb718290e8d7c23c9f23e4ba06e9064c335",
+      "correcao": "Reordenadas e renumeradas U15/U16, âncora U4 tornada literal e notaU21 identifica Águia Spread."
+    },
+    {
+      "arquivo_sha256_anterior": "88042659a68157f69fffbd5a8631e68b21a91149736116c2ddf4f0fe9a32b582",
+      "correcao": "Espaços editoriais conferidos por equivalência sem whitespace no snapshot independente; nenhuma outra mudança semântica."
+    }
+  ]
+}

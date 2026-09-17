@@ -1,0 +1,342 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A03",
+  "titulo": "Aula 4.3 — Indicador PST",
+  "contexto": [
+    "Bruno apresenta a Pivot Supertrend como complemento posterior ao rompimento da SMA amarela.",
+    "A aula alterna configuração, leitura de gráficos e divulgação dos Sinais Milionários.",
+    "Resultados mostrados no serviço são explicados pelo próprio instrutor como cenários de alertas para estudo, não necessariamente lucros executados.",
+    "Alavancagens, serviços, telas e câmbios são contextuais à gravação.",
+    "A interpretação enfatiza confirmação por fechamento e volume e rejeita entrada automática pelo rótulo buy ou sell."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "PST como confirmação adicional e possível reversão",
+      "tipo": "conceito",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 23,
+      "fim": 80,
+      "condicoes": "Após rompimento da SMA amarela.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno apresenta a PST como indicador consequente à SMA, cujo rompimento pode sugerir spread maior ou reversão. Exemplifica posição long com 1.000% que recua, rompe a PST contrária e é encerrada com 500% para considerar short. Trata-se de ilustração de leitura, não obrigação automática de inverter.",
+      "evidencia": "pode estar indicando inclusive uma variação comumente chamada de reversão",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Configurar Pivot Point Supertrend",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 80,
+      "fim": 131,
+      "condicoes": "Indicador localizado na ferramenta de gráficos da aula.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A plataforma não é nomeada verbalmente neste trecho; menus preservados como transcritos.",
+      "corpo": "Bruno orienta adicionar Pivot Point Supertrend, definir período 1, ATR Factor 2 e ATR Període 10, e marcar Show Buy Sell Labels. Mantém estilo padrão e visibilidade sem alterações. Identifica verde como compra e vermelho como venda.",
+      "evidencia": "ATR Factor, 2, ATR Període, 10",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Rótulo buy/sell e toque não bastam para entrar",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 130,
+      "fim": 178,
+      "condicoes": "Preço toca ou atravessa momentaneamente a região da PST.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor mostra preço que toca a PST, não confirma saída da região e despenca com volume, produzindo outra linha. Orienta não comprar apenas porque apareceu buy: é necessário romper e confirmar.",
+      "evidencia": "Tem que romper e confirmar",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Confirmar rompimento pelo fechamento do candle",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 178,
+      "fim": 226,
+      "condicoes": "Preço rompe a SMA e a linha da PST.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno define confirmação: o candle deve terminar acima da PST no rompimento para cima, ou abaixo no rompimento para baixo. Mostra linha nova criada após a queda e a usa como nova referência para eventual rompimento contrário.",
+      "evidencia": "Quando o candle terminou acima do pivô Supertrend",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Exemplos de spreads após rompimentos conjuntos",
+      "tipo": "exemplo",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 178,
+      "fim": 281,
+      "condicoes": "Rompimentos retrospectivos de branca, amarela e PST.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor aponta movimentos de 7%, apresentados como 350% a 50x ou 140% a 20x. Reitera que entraria quando as médias e a PST rompem com confirmação, usando movimentos de 5%, 6% e 8% para ilustrar spreads maiores.",
+      "evidencia": "7% novamente 350% a 50x",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Frequência estimada de movimentos muito grandes",
+      "tipo": "regua",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 267,
+      "fim": 314,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala varia entre 15–20% e 15–18%, e entre movimentos acima de 30% ou de 20–30%; não é estatística validada.",
+      "corpo": "Bruno estima pela experiência que uma minoria dos rompimentos da PST produz movimentos grandes: primeiro menciona 15% a 20%, depois restringe a 15% a 18%, abaixo de 20%. Associa movimentos de 20%, 30% ou 50% a retornos alavancados elevados; a fala apresenta variações e não fornece base amostral.",
+      "evidencia": "15 a 18% Pela minha experiência",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Conferir volume depois de confirmar PST",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 314,
+      "fim": 353,
+      "condicoes": "Rompimento e fechamento da PST já observados.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno orienta confirmar a PST e então comparar volumes de compra e venda para decidir entrada. Mostra aumento de compra e depois de venda como parte da congruência. Sinaliza que interpretação mais profunda do volume segundo o candle fica para a mentoria.",
+      "evidencia": "rompeu o pivô supertrend, confirmou olha para o volume",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Resultados de alertas são cenários condicionais",
+      "tipo": "limite",
+      "tema": "ecossistema",
+      "tarefas": [
+        "localizar-recursos",
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 350,
+      "fim": 402,
+      "condicoes": "Consulta ao histórico dos Sinais Milionários.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Valores de recordes de alunos são relatos promocionais sem comprovação apresentada.",
+      "corpo": "O instrutor ressalva que um alerta não deu lucro por si: algoritmos geram um aviso para estudo e o histórico representa o resultado que teria ocorrido se alguém decidisse entrar após o alerta. Distingue essa simulação de uma decisão real, ao citar históricos de milhares por cento e relato de aluno com US$ 780 mil em uma operação.",
+      "evidencia": "não quer dizer que o alerta deu lucro",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Distribuir operações respeitando a parcela da carteira",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 402,
+      "fim": 433,
+      "condicoes": "Uso de Sinais Milionários dentro de gerenciamento de risco.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno recomenda algumas operações simultâneas no mesmo gerenciamento e aguardar seu desenvolvimento, que nos exemplos leva dias ou semanas. Diz que operar US$ 10 mil por operação exige US$ 200 mil de carteira, pois a parcela por operação seria 5%. Remete a outra aula para detalhar o gerenciamento.",
+      "evidencia": "você tem que ter 200 mil dólares na carteira",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "BA Spread identifica rompimentos da PST",
+      "tipo": "conceito",
+      "tema": "ecossistema",
+      "tarefas": [
+        "localizar-recursos",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 433,
+      "fim": 461,
+      "condicoes": "Alerta recebido na aba Sinais Milionários.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O instrutor tenta BA Águia, depois se corrige para BA Spread no serviço mostrado.",
+      "corpo": "Bruno explica que BA Spread é o alerta de rompimento da Pivot Supertrend. O aviso chega num ponto a analisar, mas a escolha do ponto de entrada e do stop continua sendo do investidor.",
+      "evidencia": "São alertas que tem o que?",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Ponto de entrada altera exposição ao stop",
+      "tipo": "exemplo",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "avaliar-entrada",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 457,
+      "fim": 513,
+      "condicoes": "Entrada após alerta com stop de 1% do movimento do preço a 50x no exemplo.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno compara entradas em pontos diferentes após o mesmo alerta. Quem entra mais acima pode ser atingido pelo stop de 1% durante a oscilação, mesmo que a PST tenha rompido. Reforça que não basta receber alerta e entrar; a análise individual determina entrada e posição do stop.",
+      "evidencia": "não é só chegar o alerta e entrar na operação",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Adiar compra se compradores perdem força",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 513,
+      "fim": 556,
+      "condicoes": "Rompimento para cima com queda do volume comprador e crescimento vendedor.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O spread de 7% pertence ao gráfico retrospectivo da gravação, não a uma projeção atual.",
+      "corpo": "No exemplo, Bruno orienta não entrar enquanto compra cai e venda cresce. Aguarda o volume vendedor diminuir, observa uma compra ainda pequena e depois nova expansão compradora rompendo amarela e PST. A entrada descrita vem após essa confirmação, não no momento original do alerta; o spread apresentado é de 7%.",
+      "evidencia": "É o momento de você não entrar na operação ainda",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Copiar ativo do histórico para estudar no gráfico",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "localizar-recursos",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 548,
+      "fim": 603,
+      "condicoes": "Histórico de alertas já acessível na plataforma mostrada.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Botões são descritos por apontamento; a transcrição não identifica textualmente todos os campos nem a plataforma gráfica.",
+      "corpo": "Bruno demonstra clicar em copiar no registro do sinal, abrir a busca do gráfico, colar e selecionar o ativo para análise. Localiza alerta de 08/04/2026 às 3h e resultado de 15/04, usando sete dias como intervalo; pede paciência diante de lateralização que antecedeu o rompimento.",
+      "evidencia": "aí você clica aqui ó copiar",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Exemplo histórico de expansão após lateralização",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "acompanhar-operacao",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 572,
+      "fim": 666,
+      "condicoes": "Caso datado de 08/04 a 15/04/2026 mostrado na aula.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O instrutor diz 70 × 50 = 3.300%, depois usa 3.500% na conta seguinte; inconsistência preservada.",
+      "corpo": "Bruno mostra lateralização, rompimento da PST e expansão com volume comprador, medindo 103%–104% de movimento. Ressalva que não se adivinha o topo e ilustra uma saída com 70%; a 50x usa depois 3.500%. Com US$ 1.000 mais 3.500%, apresenta total de US$ 36 mil e R$ 198 mil a câmbio de 5,5. É cenário ilustrativo, não operação comprovada.",
+      "evidencia": "lógico que você não vai sair no topo",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Exercitar cinquenta rompimentos nas duas direções",
+      "tipo": "procedimento",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 666,
+      "fim": 699,
+      "condicoes": "PST configurada conforme a aula.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno pede estudar cinquenta rompimentos da Pivot Supertrend, incluindo a linha vermelha e a verde. Orienta observar continuidade e lateralização após o rompimento, reforçando que os rótulos buy/sell servem à análise.",
+      "evidencia": "analisa 50 rompimentos de pivô supertrend",
+      "versao": 1
+    }
+  ]
+}

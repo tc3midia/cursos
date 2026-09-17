@@ -1,0 +1,64 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A05",
+  "arquivo_sha256": "56840ad2531d9c1bba94878f3127960c17337c8dce49cad0306828c5934efc34",
+  "inspecao_sha256": "6d0e255f9b0fd779b4ffe87aa8aa68b716d484f6f761c315d8da4adfc674ef9c",
+  "veredito": "passa",
+  "fundamentacao": {
+    "fidelidade": "As23 unidades foram examinadas no julgamento inicial. U13 agora preserva o nível transcrito0,68, com nota de incerteza e confiança média, conforme recorte639–673. A normalização indevida para0,618 foi removida. Mantêm-se a ressalva de operação fora do risco, a distinção entre resultado aberto e realizado e os gatilhos condicionais.",
+    "condicoes_e_limites": "A não recomendação de reproduzir operação fora do risco está explícita em U12 e sustentada nos recortes527–583. U19 mantém volume e fechamento; U21 mantém stop ainda lucrativo; U22 condiciona o alvo aos rompimentos, conforme complementos953–1128.",
+    "cobertura": "U14 agora preserva as duas projeções dos recortes706–757: bancaUS$1milhão,entradaUS$200mil+200%=US$600mil totais,10operações no mês→US$6milhões; eUS$4.200×20operações na semana=US$84mil×4semanas=US$336mil,carteiraUS$40mil. A nota distingue capital incluído no primeiro total e hipóteses de repetição. A omissão quantitativa foi resolvida; não há achado aberto no conjunto de evidências examinado.",
+    "perecibilidade": "Exemplos de preços,datas e lucro flutuante mantêm contextualização. Na ampliação focal,U21 também passou a perecível e esclarece que1% do preço/50% a50x provêm do exemplo da gravação, sem transformar níveis em retorno universal.",
+    "formato": "Campos obrigatórios,23 números sequenciais,intervalos positivos,versão1 e limite de24 palavras das âncoras conferidos. JSON e inspeção finais pareiam. As correções preservam o formato e não abrem novas objeções."
+  },
+  "achados": [],
+  "limites": [
+    "Julgamento amostral de uma das três aulas selecionadas, sem leitura integral ou acesso à transcrição-fonte de Análises Extraordinárias.",
+    "Examinados o JSON de unidades e os laudos com evidências literais/complementares fornecidos pelo inspetor; cobertura limitada a esse pacote.",
+    "Não verifica rentabilidade, segurança, eficácia financeira, preços atuais, regras atuais de exchange nem resultados reais."
+  ],
+  "historico": [
+    {
+      "rodada": 1,
+      "arquivo_sha256": "2986213e155b28b82feacddd7cfb1767c0f2ba81be84ac37dc8ba564b814a5d1",
+      "inspecao_sha256": "1882b11f192323e58fefca79cf4385d353c648ea58d9f3e99e6e5e53f4ca412a",
+      "veredito": "falha",
+      "achados": [
+        {
+          "numero": 13,
+          "gravidade": "material",
+          "criterio": "fidelidade-numerica",
+          "problema": "O corpo informa0,618; o complemento literal639–673 diz0,68. A nota é nula e confiança alta, ocultando a diferença.",
+          "evidencia_inspecao": {
+            "inicio": 639,
+            "fim": 673,
+            "trecho": "Bateu aqui na 0,68"
+          },
+          "correcao_sugerida": "Preservar0,68 como fala transcrita com nota de incerteza e confiança média, ou omitir o nível incerto da paráfrase registrando-o na nota. Não substituir automaticamente por nível convencional."
+        },
+        {
+          "numero": 14,
+          "gravidade": "material",
+          "criterio": "cobertura-numerica",
+          "problema": "A unidade resume 'projeções com carteiras maiores e repetição' e descarta seus valores: bancaUS$1milhão,entradaUS$200mil+200%=totalUS$600mil,multiplicado por10paraUS$6milhões; eUS$4.200×20×4=US$336mil a partir da bancaUS$40mil.",
+          "evidencia_inspecao": {
+            "inicio": 706,
+            "fim": 757,
+            "trecho": "200 mil dólares mais, vamos contar 200% então você fez 600 mil dólares numa operação"
+          },
+          "correcao_sugerida": "Acrescentar os dois exemplos com seus números e denominadores, de preferência unidade distinta, deixando claro que são projeções do instrutor e que o primeiro multiplica total com capital, sem validar a conta como lucro mensal."
+        }
+      ]
+    },
+    {
+      "rodada": 2,
+      "acao": "Rejulgamento das correções contra os recortes complementares da inspeção, sem acesso à transcrição. Hashes finais pareados.",
+      "veredito": "passa",
+      "correcoes_confirmadas": [
+        "U13 mantém0,68,nota de incerteza e confiança média.",
+        "U14 restaura todos os números e denominadores das duas projeções,distinguindo total com capital de lucro.",
+        "U21 perecível com nota contextual após ampliação focal."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A06",
+  "arquivo_sha256": "367da9c4b32a3fd1977531781a2940d313581731874503b3354d5c3fefe656bc",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Fonte integral lida; todas as unidades confrontadas, incluindo números, proporções, condições, passos e decisões. Cobertura essencial adequada. Alegações e resultados atribuídos ao instrutor; sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "9296f7390bbc0a124ccebed53f999a1ef900860e196812198b50c394b02f6f49",
+      "correcao": "U12 âncora substituída por literal dentro da faixa; procedimento permanece fiel."
+    }
+  ]
+}

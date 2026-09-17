@@ -1,5 +1,8 @@
 # Análises Extraordinárias — Águia Spread
 
+- [Base de conhecimento](conhecimento/README.md): unidades por aula e índices por tema.
+- [Processamento e revisão](processamento/README.md): método, fontes, laudos e limites.
+
 16 transcrições automáticas revisadas em texto. Os timestamps acompanham as gravações locais em 2×. A revisão não foi uma escuta humana integral, nem valida afirmações do instrutor.
 
 Origem textual: [repositório de revisão](https://github.com/tc3midia/aguia-spread-transcricoes/tree/f383db9ee083f2404a4ec7359bacb3a205b44b9f) e [relatório de limites](https://github.com/tc3midia/aguia-spread-transcricoes/blob/f383db9ee083f2404a4ec7359bacb3a205b44b9f/REVISAO.md). Vídeos: [pasta privada no Drive](https://drive.google.com/drive/folders/1mSlqFJYh11Nr84166FBidTOaGZq5UmDt).

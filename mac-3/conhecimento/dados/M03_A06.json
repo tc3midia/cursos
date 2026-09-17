@@ -1,0 +1,99 @@
+{
+  "curso": "mac-3",
+  "aula": "M03_A06",
+  "titulo": "Resposta 6 - Entendendo ROI e Alavancagem para fazer R$1.000 por dia",
+  "contexto": [
+    "Explicação da relação entre capital, ROI e alavancagem.",
+    "O instrutor diferencia experiência necessária e capital para o 3x.",
+    "A interface da corretora é mencionada foneticamente, sem identificação segura pelo texto."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Reservar alavancagem alta a experientes",
+      "tipo": "regua",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 18,
+      "fim": 87,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor reserva 100x e 125x a pessoas experientes, definidas aqui como pelo menos seis a sete meses de Sinais Milionários. Considera 20x adequada; cita 30x e 40x como outras faixas e alerta que 50x já exige cautela, especialmente para novos alunos.",
+      "evidencia": "seis a sete meses de sinais milionários",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Alta alavancagem acelera ganhos e perdas",
+      "tipo": "conceito",
+      "tema": "alavancagem",
+      "tarefas": [
+        "compreender-metodo",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 18,
+      "fim": 52,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor exemplifica 10% de valorização a 100x como 1.000% de ROI, mas salienta que a perda ocorre com a mesma velocidade. Diz que alta alavancagem exige banca maior para conseguir fazer 3x.",
+      "evidencia": "se desvalorizar é igual a velocidade",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Identificar margem e lucro",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 52,
+      "fim": 110,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Nome da corretora aparece como 'base'; não normalizado.",
+      "corpo": "Com uma posição aberta, o instrutor aponta lucro/prejuízo em dólares e margem como capital colocado. Exemplo: usar 1% de uma banca de US$ 10 mil significa US$ 100 de margem. Considera quantidade/tamanho do ativo irrelevante para a explicação do método em futuros.",
+      "evidencia": "a margem é o que você colocou de capital",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "ROI exibido já incorpora alavancagem",
+      "tipo": "regra",
+      "tema": "alavancagem",
+      "tarefas": [
+        "interpretar-indicadores",
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 87,
+      "fim": 135,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor explica que não se multiplica novamente o ROI mostrado pela alavancagem. Com US$ 100 de margem e movimento de 10% a 50x, o ROI é 500% e o lucro US$ 500; sem alavancagem seriam 10% e US$ 10.",
+      "evidencia": "500 por cento já está calculado o percentual de lucro do mercado mais alavancagem",
+      "versao": 1
+    }
+  ]
+}

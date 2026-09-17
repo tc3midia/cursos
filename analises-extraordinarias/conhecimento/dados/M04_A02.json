@@ -1,0 +1,101 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M04_A02",
+  "titulo": "Aula 7.2 — Fim e pós-Pullback",
+  "contexto": [
+    "A gravação funciona como introdução ao estudo de fim e pós-pullback, apesar da numeração posterior na pasta.",
+    "Bruno recapitula Fibonacci e manejo emocional em operações lucrativas.",
+    "Não há demonstração dos pontos exatos de entrada nesta aula curta; são anunciados para o conteúdo seguinte.",
+    "A descrição de alocação simultânea é verbalmente ambígua e não foi convertida em regra numérica fechada."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Escolher indicador segundo a dúvida operacional",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 8,
+      "fim": 65,
+      "condicoes": "Operação já lucrativa começa a devolver parte do movimento.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Níveis falados como 0,68 e chance de 80% para 0,50 ou 0,68 diferem da régua mais específica da aula de Fibonacci; preservada a fala.",
+      "corpo": "Bruno diz que nem sempre é necessário reanalisar todos os indicadores. Para uma posição que vai de 1.500% a 700% de lucro, sugere traçar Fibonacci para avaliar o recuo e observar 0,50 e a região falada como 0,68. Se lateralizar nesses níveis, considera aguardar possível retomada. Alega retorno em cerca de 80% dos casos, sem demonstração estatística.",
+      "evidencia": "você traça a Fibo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Curto spread deve permanecer coerente com horizonte curto",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 65,
+      "fim": 80,
+      "condicoes": "Estratégia escolhida de curto spread.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno ressalva que a espera depende da estratégia: no curto spread não propõe aguardar semanas. Cita entrar e sair em um, dois, três ou quatro dias e depois buscar a próxima operação, mantendo equilíbrio diante das oscilações positivas.",
+      "evidencia": "não tem esse negócio de ficar esperando operações de semana",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Programar stops nas operações simultâneas",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 75,
+      "fim": 89,
+      "condicoes": "Múltiplas operações dentro do gerenciamento, conforme a fala.",
+      "perecivel": false,
+      "confianca": "baixa",
+      "nota": "O trecho mistura 100% da carteira, 20% e vinte, dez ou cinco operações; não esclarece se 20% é agregado ou por posição, impedindo uma alocação executável.",
+      "corpo": "O instrutor menciona dividir capital entre operações simultâneas e programar stop loss e stop gain para seguir a rotina fora da tela. A transcrição não permite reconstruir com segurança a alocação proposta, pois varia quantidade e percentual sem explicitar a relação entre eles.",
+      "evidencia": "Então você programou, vai e curte a sua vida.",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Fim e pós-pullback são anunciados como estudo de entrada",
+      "tipo": "limite",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "compreender-metodo",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 89,
+      "fim": 112,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A taxa de 95% é alegação promocional, não resultado comprovado.",
+      "corpo": "Bruno anuncia que ensinará a encontrar pontos de entrada além da leitura de indicadores e alertas, usando fim e pós-pullback. Associa esses pontos a 95% de acerto, mas esta gravação apenas introduz o tema e não fornece o procedimento.",
+      "evidencia": "você vai aprender agora com o fim do pullback e o pós pullback",
+      "versao": 1
+    }
+  ]
+}

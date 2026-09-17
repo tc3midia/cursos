@@ -1,0 +1,379 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A05",
+  "titulo": "Como entrar e sair de uma operação",
+  "contexto": [
+    "Demonstração de entrada, redução e stops na Bybit, com análise da SMA amarela no TradingView.",
+    "A operação apresentada é didática e o instrutor reconhece o risco de comprar contra mercado em queda.",
+    "Números e telas refletem a gravação; o resultado final da operação não é apresentado."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Limite e mercado",
+      "tipo": "conceito",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 22,
+      "fim": 68,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor define ordem limite como compra ou venda somente no preço escolhido. Prefere ordem a mercado por não gostar de aguardar execução, embora depois admita ambos os modos na demonstração.",
+      "evidencia": "Limite é quando você bota um preço numa ordem",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Confirmar rompimento no fechamento",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 45,
+      "fim": 113,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor orienta aguardar o candle romper a SMA amarela e fechar acima para analisar compra ou abaixo para analisar venda. Um cruzamento intraperíodo que volta antes de fechar não basta; a decisão de entrada cabe ao aluno.",
+      "evidencia": "você aguarda, que é esse segundo ponto aí, o fechamento do candle",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Long, short e nomes dos stops",
+      "tipo": "conceito",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 45,
+      "fim": 91,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor associa long/buy a compra e short a venda; nos alertas, verde remete à análise de compra e vermelho à de venda. Explica Stop Loss como perda e Stop Gain/Take Profit como ganho.",
+      "evidencia": "Sempre quando você ouvir esse termo short, é para vender",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Entrada demonstrativa contra a queda",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "outra",
+        "tradingview"
+      ],
+      "inicio": 91,
+      "fim": 136,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O nome aparece também como Dusky; interpretação contextual Dusk. Exchange: Bybit.",
+      "corpo": "No gráfico de Dusk, o instrutor mostra queda de cerca de 21% após rompimento para baixo e depois um fechamento acima da amarela. Classifica a compra demonstrativa como arriscada porque o mercado está em queda e entra para ensinar o uso da plataforma.",
+      "evidencia": "Tá numa operação arriscada, porque o mercado está em queda",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Selecionar par USDT na Bybit",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 113,
+      "fim": 159,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit.",
+      "corpo": "Na Bybit, o instrutor clica no ativo no topo, então BTC, digita o nome da cripto e escolhe o par USDT. Insiste em conferir USDT, e não outro sufixo parecido, antes de operar.",
+      "evidencia": "Sempre é o USDT",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Dimensionar custo e enviar entrada",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 136,
+      "fim": 205,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit. Valores da conta e ordem são históricos; não são o lote recomendado a iniciantes.",
+      "corpo": "Com o par selecionado, o instrutor mostra a régua de quantidade e o campo custo como o valor efetivo em dólares. Usa o botão verde para comprar/long e short para vender, seleciona preço no book, envia compra e confere mensagem de execução e inclusão na lista de operações. Mostra conta antiga de cerca de US$ 47 mil e entrada de aproximadamente US$ 1.800 para demonstração.",
+      "evidencia": "Ordem enviada com sucesso e a sua ordem foi executada",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Book não decide a entrada",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 182,
+      "fim": 205,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Observação de tela da Bybit.",
+      "corpo": "O instrutor observa 54% comprando e 46% vendendo no book, mas afirma que essa informação não é fator de decisão do método.",
+      "evidencia": "não é um fator de decisão",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Ler posição, liquidação e margem",
+      "tipo": "procedimento",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "acompanhar-operacao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 205,
+      "fim": 251,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A explicação sobre campo de liquidação é do instrutor para a tela da Bybit.",
+      "corpo": "O instrutor identifica ativo, alavancagem, quantidade, valor alavancado em USDT, preço de entrada, preço de mercado e liquidação. Define liquidação como preço em que se perde tudo e atribui a ausência de preço exibido à baixa exposição da conta. Recomenda margem inicial até 5%, idealmente entre 3% e 5%.",
+      "evidencia": "O ideal é manter entre 3% a 5%",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Consultar retorno percentual e monetário",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 229,
+      "fim": 274,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit.",
+      "corpo": "Na posição da Bybit, o instrutor mostra PL não realizado/ROE, abre o cartão de resultado e alterna a exibição entre percentual e lucro em dólares. Diz que a posição pode estar negativa após a entrada por variação de mercado.",
+      "evidencia": "aqui aparece o percentual e aqui aparece o lucro em dólar",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Reduzir ou fechar com Reduce Only",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-saida",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 251,
+      "fim": 320,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit; a correção de cor é da fala, não regra universal de execução.",
+      "corpo": "Para encerrar uma compra, o instrutor marca Reduce Only, escolhe na régua a fração a reduzir e envia venda. Demonstra redução de 3%, confere execução e explica 100% para saída integral. Durante o exemplo corrige a escolha de preço do book de vermelho para verde.",
+      "evidencia": "Eu clico Reduce Only",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Configurar TP/SL avançado por ROI",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 320,
+      "fim": 505,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Exchange: Bybit. A fase básica tem alternância e correções de preços, valores e moedas; os campos de ROI são o caminho final demonstrado.",
+      "corpo": "Após sair do modo de redução, o instrutor abre TP/SL. O formulário básico pede preço da cripto, gerando tentativas confusas; ele então muda para Avançado, seleciona long e usa ROI. Define ganho de 100% ou 200% e perda de 50%, compara os valores estimados para preparar os stops.",
+      "evidencia": "Eu vou para o avançado",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Converter ROI em movimento do preço",
+      "tipo": "regua",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 343,
+      "fim": 388,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A fala inicialmente arredonda a alavancagem para 12x e depois usa 12,5x. A alavancagem máxima disponível pertence ao ativo e à plataforma na gravação; não é disponibilidade atual verificada.",
+      "corpo": "No exemplo de alavancagem 12,5x, o instrutor divide o ROI desejado pela alavancagem: perda de 50% corresponde a 4% do preço; ganho de 100% a 8%; ganho de 200% a 16%. Explica que essa cripto não permitiu 20x, 30x ou 50x.",
+      "evidencia": "Dividido por 12,5 vai dar o quê? 16%",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Usar gráfico de duas horas no MAC",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 528,
+      "fim": 551,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor estabelece gráfico de duas horas para alunos do MAC. Remete o uso de outras temporalidades aos treinamentos seguintes.",
+      "evidencia": "Gráfico de 2 horas sempre",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Sair no rompimento contrário confirmado",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 528,
+      "fim": 687,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Se nenhum stop foi atingido, o instrutor orienta sair quando ocorre rompimento contrário da SMA amarela confirmado pelo fechamento. Enquanto não rompe, permanece apesar do recuo do lucro. Após a saída, admite analisar entrada oposta para acompanhar o novo movimento.",
+      "evidencia": "Enquanto não romper a amarela. Você continua na operação.",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Stops permitem se afastar da tela",
+      "tipo": "decisao",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 573,
+      "fim": 755,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Valores estimados e ordem na Bybit são históricos.",
+      "corpo": "O instrutor confirma a configuração dos stops antes de se afastar. Exemplifica perda de aproximadamente US$ 900 para alvo de US$ 3.618 a 200%, e depois alvo de 400% perto de US$ 7.200 enquanto viaja. Não informa o resultado final; enfatiza seguir a prática após gain ou loss e começar com US$ 2, não com o valor da demonstração.",
+      "evidencia": "Já está configurado. Pronto. Vai dormir.",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Distinguir toque, fechamento tímido e força",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 619,
+      "fim": 712,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Nos exemplos, o instrutor descarta o candle que rompe mas volta para o lado anterior; observa fechamento tímido como sinal e espera mais; dá maior convicção ao rompimento com força. Mostra alternância entre compra e venda após novos rompimentos.",
+      "evidencia": "Se o rompimento é com força, mais certo ainda",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Sequência de prática sem dinheiro e com US$ 2",
+      "tipo": "procedimento",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 756,
+      "fim": 776,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Ao encerrar, o instrutor propõe 50 primeiras operações praticadas no gráfico sem dinheiro, depois 50 com US$ 2, seguidas por mais 50 com US$ 2. Nesta etapa de prática diz para continuar mesmo com 30% ou 50% de assertividade, sem apresentar isso como autorização para saltar o lote.",
+      "evidencia": "Inicia as 50 primeiras operações praticando no gráfico, sem colocar dinheiro.",
+      "versao": 1
+    }
+  ]
+}

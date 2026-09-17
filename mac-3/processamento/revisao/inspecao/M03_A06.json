@@ -1,0 +1,25 @@
+{
+  "curso": "mac-3",
+  "aula": "M03_A06",
+  "arquivo_sha256": "0582386ae79323d51580f71839f69b7e1d758ec6f383769c0baa3f844249750c",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Transcrição integral lida; todas as unidades confrontadas quanto a números, faixas, denominadores, condições, passos e decisões. Cobertura essencial adequada, ressalvados achados locais. Fidelidade ao instrutor, sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "8ca03e357e2da88e9f603b5c28795240e5d6cdcb1671dc93d63ece28f7b99046",
+      "correcao": "U3 procedimento de interface agora perecivel=true."
+    },
+    {
+      "arquivo_sha256_anterior": "58610594eda0b9548d76b0736f06060f115f61f18dfc8d16bf6656165b48e6db",
+      "correcao": "Espaços editoriais conferidos por equivalência sem whitespace no snapshot independente; nenhuma outra mudança semântica."
+    }
+  ]
+}
