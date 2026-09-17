@@ -1,0 +1,209 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A01",
+  "titulo": "Aula 4.1 — Indicador SMA, parte 1",
+  "contexto": [
+    "Aula de interpretação conjunta das SMAs branca e amarela, complementando o MAC.",
+    "Bruno usa exemplos retrospectivos de gráficos para discutir entrada, confirmação e permanência.",
+    "Os percentuais ilustram o argumento de manter operações com base em indicadores, sem validar retornos.",
+    "A transcrição termina na transição para outro exemplo."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Permanecer comprado com branca acima da amarela",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 8,
+      "fim": 38,
+      "condicoes": "Após cruzamento e entrada comprada.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno orienta continuar comprado quando a SMA branca cruza a amarela e permanece acima dela. Apresenta essa relação como indício de spread restante e possibilidade de realizar menos operações com resultados maiores, não como lucro garantido.",
+      "evidencia": "ela permanece acima da amarela você continua comprado",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Não sair apenas por cruzamento breve da branca",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 71,
+      "fim": 117,
+      "condicoes": "Rompimento para cima seguido por oscilação ou lateralização.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor pede não se desesperar se a branca cruza brevemente para baixo, pois pode voltar. Orienta observar volumes de compra e venda e, em lateralização, aguardar em vez de decidir precipitadamente. A permanência deve ser consciente do indicador, não só obedecer à vontade de lucrar mais.",
+      "evidencia": "não é para se desesperar quando ela cruza para baixo",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Amarela define rompimento; branca acompanha a direção",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 137,
+      "fim": 196,
+      "condicoes": "Rompimento confirmado para cima ou para baixo.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno chama a SMA amarela de definitiva para identificar rompimento. Após rompimento para cima, manter branca acima favorece continuar comprado; após rompimento para baixo, branca abaixo favorece continuar vendido. Exemplifica 5% a 50x como 250% e outro movimento de 3% como 150%, totalizando 400% na soma ilustrativa.",
+      "evidencia": "a amarela é a definitiva para rompimento",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Stops fazem parte da estratégia que os utiliza",
+      "tipo": "limite",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 183,
+      "fim": 212,
+      "condicoes": "Escolha da estratégia com stop em rompimento confuso.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Em trecho com rompimentos da amarela e da Pivot Supertrend, Bruno diz que o spread seria pequeno, em torno de 1%, e o stop poderia ser atingido. Reconhece que ser estopado faz parte quando o aluno opera com essa estratégia.",
+      "evidencia": "ser estopado faz parte",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Aguardar confirmação e eventual pullback",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 203,
+      "fim": 273,
+      "condicoes": "Possível rompimento da SMA amarela.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor orienta identificar o rompimento, aguardar o candle fechar acima da amarela para compra ou abaixo para venda e dar algum tempo, pois o preço pode voltar em pullback. Usa um caso em que o stop de 1% não foi atingido para ilustrar que a primeira oscilação não encerra necessariamente a operação.",
+      "evidencia": "o candle fecha acima ou abaixo",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Separar três etapas da operação",
+      "tipo": "procedimento",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 248,
+      "fim": 338,
+      "condicoes": "Análise orientada pelo conjunto de indicadores do curso.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno organiza a operação em três etapas: entrada pelo rompimento da SMA amarela e fechamento do candle; confirmação por volume e congruência entre indicadores, incluindo Fibonacci e suporte/resistência a aprender; manutenção no spread enquanto as confirmações sustentarem a permanência. O objetivo de aprendizagem é entender indicadores e confirmar, sem fixação inicial em 1.000%, 1.500% ou 2.000%.",
+      "evidencia": "segundo ponto é confirmar a operação com volume e congruência",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Tratar saída antecipada como aprendizado",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 338,
+      "fim": 390,
+      "condicoes": "Aluno iniciante que sai antes da extensão total de um movimento.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno pede evitar culpa por sair, por exemplo, com 300% quando a operação posteriormente vai a 1.500%. Ilustra o desconforto de ver 4% a 50x, equivalentes a 200%, cair para 50% de lucro. Recomenda desenvolver a manutenção apoiada nas SMAs e aceitar o estágio de aprendizado.",
+      "evidencia": "existe aprendizado",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Distância entre médias e volume ajudam a avaliar continuação",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 390,
+      "fim": 449,
+      "condicoes": "Médias permanecendo ordenadas após rompimento.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno associa maior distância entre branca e amarela a maior confirmação de continuidade na direção observada. No exemplo de alta do BTC, compara volumes de compra e venda para avaliar se o movimento pode continuar ou reverter, sem tratar apenas o afastamento das médias como resposta suficiente.",
+      "evidencia": "quanto mais larga mais o potencial vai continuar subindo",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Esperar rompimento em vez de antecipar",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 449,
+      "fim": 456,
+      "condicoes": "Antes de iniciar nova operação.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor enfatiza não tentar adivinhar rompimentos: deve-se aguardar que o rompimento ocorra para entrar.",
+      "evidencia": "Não tente adivinhar rompimentos. Aguarde o rompimento para entrar.",
+      "versao": 1
+    }
+  ]
+}

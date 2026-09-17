@@ -1,0 +1,447 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M02_A02",
+  "titulo": "Aula 3, parte 2 — Planejamento dos primeiros R$100.000",
+  "contexto": [
+    "Bruno apresenta cenários aritméticos para planejar R$ 100 mil usando curtos, médios e longos spreads.",
+    "As contas utilizam US$ 200 como referência e câmbio ilustrativo de cinco reais por dólar.",
+    "O instrutor combina exemplos de gráficos, relatos de sinais e regras de preparação emocional.",
+    "Cenários são atribuídos ao instrutor e não representam garantia de resultado nem verificação de operações.",
+    "A aula termina com cinco orientações: confiança na repetição, continuidade, resiliência, controle da ansiedade e ausência de ganância."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Plano de curto spread para R$ 100 mil",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 42,
+      "fim": 68,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O instrutor corrige explicitamente o slide: US$ 200, não R$ 200. Câmbio usado na gravação: R$ 5/US$.",
+      "corpo": "Bruno projeta 50 operações com lucro de 200% sobre US$ 200 por operação. Pela conversão ilustrativa, US$ 200 equivalem a R$ 1.000; 200% correspondem a R$ 2.000 de lucro por operação e 50 lucros iguais totalizam R$ 100 mil. Trata-se de planejamento do instrutor, não histórico ou garantia.",
+      "evidencia": "Está errado na apresentação Coloca 200 dólares na sua cabeça aí",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Plano de médio spread para R$ 100 mil",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 68,
+      "fim": 101,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor projeta 20 operações de 500% com US$ 200: usando R$ 1.000 de capital, são R$ 5.000 de lucro por operação e R$ 100 mil em vinte. Afirma que operar US$ 2.000 na mesma lógica levaria a R$ 1 milhão e associa crescimento de carteira à consistência e juros compostos, sem demonstrar uma sequência de reinvestimento.",
+      "evidencia": "5 mil reais Vezes apenas 20 operações",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Plano de longo spread para R$ 100 mil",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 101,
+      "fim": 121,
+      "condicoes": "Perfil ocupado e disposto a esperar mais.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno propõe cinco operações mantidas por mais tempo, cada uma com US$ 200 e objetivo de 2.000%, para projetar R$ 100 mil na conversão usada. A espera é apresentada como alternativa à falta de tempo para operar continuamente.",
+      "evidencia": "200 dólares, objetivando 2 mil por cento",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Adaptar a meta aos limites de alavancagem",
+      "tipo": "regra",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 121,
+      "fim": 134,
+      "condicoes": "Alavancagem máxima diferente conforme operação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Nos exemplos Bruno toma 50x como referência, mas observa que determinadas operações admitem apenas 20x ou 15x. Propõe compensar essa diferença com mais operações ou maior valorização, sem afirmar que 50x estará sempre disponível.",
+      "evidencia": "tem operações que vai permitir apenas 20x, 15x",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Rompimentos sucessivos e retorno variável",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 121,
+      "fim": 183,
+      "condicoes": "Sequência retrospectiva de rompimentos no gráfico exibido.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Há cálculos orais inconsistentes, especialmente 3,67% descrito como 150% e trecho '2, 250%'; não foram corrigidos como se fossem dados exatos.",
+      "corpo": "Bruno aponta operações sucessivas de 4%, 6% e 7%, multiplicadas por 50x para apresentar 200%, 300% e 350%. Em seguida mostra operações abaixo e acima da referência, incluindo trecho descrito como 150% e outro de 5% associado a 250%. A orientação é tratar 200% como objetivo do planejamento, não retorno fixo de cada entrada.",
+      "evidencia": "Você está vendo que não é uma regra?",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Operações maiores podem compor várias parcelas da meta",
+      "tipo": "regua",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 183,
+      "fim": 209,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Percentual de frequência alegado pelo instrutor a partir de experiência, sem base de operações disponível.",
+      "corpo": "Bruno afirma que entre 15% e 35% das operações dariam mais de 500%. Exemplifica 14% de movimento a 50x, ou 700%, comparando o lucro a quase quatro parcelas de 200% do plano. A afirmação de frequência é do instrutor, não estatística validada.",
+      "evidencia": "entre 15 a 35% das operações vai dar mais de 500%",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Médio spread: duas horas, paciência e oscilação",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 209,
+      "fim": 265,
+      "condicoes": "Rompimentos no gráfico de duas horas.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Datas e contagem de oito dias são as declaradas na gravação.",
+      "corpo": "Bruno usa o gráfico de duas horas para médio spread. Mostra alta inicialmente medida em 44%, depois saída ilustrativa com 54%; a 20x apresenta 1.080%, pouco mais de duas parcelas de 500%. Data a operação de 30/04/2026 a 07/05/2026, chama o intervalo de oito dias e enfatiza suportar oscilação e espera. Outro rompimento de 15% a 20x é descrito como 300%, abaixo da referência de 500%.",
+      "evidencia": "o médio spread a gente já vai para o gráfico de 2 horas",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Longo spread: quatro horas e oscilação acentuada",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "planejar-operacao",
+        "gerenciar-risco",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 255,
+      "fim": 285,
+      "condicoes": "Espera de rompimentos no gráfico de quatro horas, segundo o método.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A aula menciona controlar risco, mas não ensina aqui seu dimensionamento. Negativos de 500%/1.000% são fala do instrutor.",
+      "corpo": "Bruno usa quatro horas para longo spread e afirma que, ao buscar 2.000%, podem aparecer negativos de 500% ou 1.000%. Orienta controlar o risco da carteira e aguardar com equilíbrio emocional. Este trecho não especifica capital de garantia ou critérios que tornariam possível suportar os negativos mencionados.",
+      "evidencia": "Basta controlar o risco da sua carteira",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Exemplo de 70% alavancado em longo spread",
+      "tipo": "exemplo",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 280,
+      "fim": 298,
+      "condicoes": "Rompimento retrospectivo no gráfico da aula.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno ilustra movimento de 70% a 35x como 2.450%, comparando o resultado a uma das cinco operações de 2.000% planejadas, com 450 pontos percentuais acima da referência.",
+      "evidencia": "deu 2.450%",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Manter o modo de operação por cinquenta operações",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 298,
+      "fim": 323,
+      "condicoes": "Escolha inicial entre curto, médio ou longo spread.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Justificativa de plasticidade cerebral é afirmação pessoal do instrutor, sem verificação externa.",
+      "corpo": "O instrutor estabelece não mudar de curto para médio, de médio para longo, ou outro modo antes de cinquenta operações naquele modo. Mesmo para planos que usam vinte ou cinco operações como projeção financeira, pede cinquenta como período de adaptação psicológica antes de considerar a troca.",
+      "evidencia": "não troque de módulos operante",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Estudar sinais antes de escolher uma entrada",
+      "tipo": "procedimento",
+      "tema": "ecossistema",
+      "tarefas": [
+        "localizar-recursos",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 324,
+      "fim": 346,
+      "condicoes": "Recebimento de alertas no Sinais Milionários.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno define Sinais Milionários como alertas de rompimento, não dicas de investimento. Orienta receber o alerta, abrir o ativo no gráfico e realizar a própria análise como investidor autorresponsável antes de escolher a operação.",
+      "evidencia": "vai pegar esse rompimento e vai jogar aqui no gráfico e vai analisar",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Exemplos de sinais incluem capital mais lucro",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "compreender-metodo",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 346,
+      "fim": 387,
+      "condicoes": "Resultados históricos apresentados pelo instrutor como ilustração.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Retornos, dias e câmbio são contextuais, não verificados; US$ 17 mil e US$ 190 mil são totais com capital nas contas da fala.",
+      "corpo": "Bruno mostra sinal com 1.655% em 28 dias e usa 1.600% na conta: US$ 1.000 mais esse percentual resultam em US$ 17 mil, convertidos a R$ 85 mil a câmbio de cinco. Mostra também 284% em um dia e exemplifica US$ 50 mil mais 280% como US$ 190 mil. Ressalva que não há promessa, pois entrada, escolha e equilíbrio emocional pertencem ao aluno.",
+      "evidencia": "não é uma promessa de resultado",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Enraizar conhecimento antes de aumentar valores",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 370,
+      "fim": 414,
+      "condicoes": "Evolução de carteira e de aprendizado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Resultado e caracterização do serviço são contextuais à gravação, não confirmação atual.",
+      "corpo": "O instrutor pede aprofundar conhecimento com pouco dinheiro e aumentar os valores conforme evolução e gerenciamento de risco. Cita resultado de 2.400% em quatorze dias e corrige a caracterização dos Sinais Milionários para médio spread.",
+      "evidencia": "aprofundar, enraizar o conhecimento com pouca grana e ir aumentando",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Escrever metas de operações sem prazo no aprendizado",
+      "tipo": "procedimento",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 414,
+      "fim": 453,
+      "condicoes": "Antes de avançar ao módulo três.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno manda anotar o planejamento: definir a meta financeira e combinar quantidade de operações com percentual desejado. Oferece alternativas como 100 operações de 100%, 40 de 250% ou 20 de 500%, usando a lógica apresentada anteriormente. Na fase de aprendizado, orienta não fixar data e manter uma meta elevada.",
+      "evidencia": "Não coloca data.",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Usar uma experiência bem-sucedida como incentivo para repetir",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 453,
+      "fim": 485,
+      "condicoes": "Prática inicial com US$ 1, US$ 2 ou US$ 5.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A equivalência entre operações futuras é crença defendida pelo instrutor, não garantia de repetição.",
+      "corpo": "Bruno pede que o aluno não se limite por julgamentos antigos sobre inteligência ou capacidade. Afirma que ver um lucro percentual na própria operação com pouco capital pode sustentar confiança para repetir o processo; diz que conseguir uma vez permite conseguir em mil.",
+      "evidencia": "se eu conseguir em uma eu posso conseguir em mil",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Manter continuidade e ocupação durante aprendizado",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 473,
+      "fim": 518,
+      "condicoes": "Aluno ainda em formação e com atividade profissional.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "O instrutor faz ressalva oral a quem ganha muito pouco, mas não detalha critério de renda para abandonar trabalho.",
+      "corpo": "Bruno recomenda continuar estudando e praticando em tempo parcial, mantendo o trabalho atual. Relata alunos que teriam abandonado profissões depois, mas diz que esse não é o momento do iniciante; eventual decisão futura deve vir após evolução.",
+      "evidencia": "continue trabalhando, não mexa no seu trabalho",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Adequar expectativas à curva de aprendizado",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 519,
+      "fim": 549,
+      "condicoes": "Dificuldade inicial com computador, corretora ou gráficos.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor pede paciência consigo, com o curso e com o suporte, principalmente a quem ainda está aprendendo ferramentas digitais. Define resiliência como continuar orientado por princípios mesmo quando o sentimento diário é desfavorável.",
+      "evidencia": "alinhar suas expectativas ao seu aprendizado",
+      "versao": 1
+    },
+    {
+      "numero": 18,
+      "titulo": "Pausar a operação em um dia emocionalmente ruim",
+      "tipo": "decisao",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 549,
+      "fim": 576,
+      "condicoes": "Dia em que circunstâncias pessoais prejudicam o estado emocional.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno distingue continuidade de operar a qualquer custo: em um dia ruim, orienta fechar o computador, não operar, buscar conteúdo que ajude emocionalmente e voltar no dia seguinte.",
+      "evidencia": "não vai operar",
+      "versao": 1
+    },
+    {
+      "numero": 19,
+      "titulo": "Controlar ansiedade diante do rompimento",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 572,
+      "fim": 581,
+      "condicoes": "Rompimento seguido por possível pullback.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor alerta que entrar ansiosamente ao ver um rompimento pode resultar em pullback e stop, deixando a operação negativa. Anuncia que o pullback será explicado depois, sem detalhar a entrada nesta aula.",
+      "evidencia": "porque foi ansioso",
+      "versao": 1
+    },
+    {
+      "numero": 20,
+      "titulo": "Evitar salto de capital por ganância",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 581,
+      "fim": 617,
+      "condicoes": "Após uma sequência inicial de operações lucrativas.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Exemplo oral cita carteira de US$ 1 mil e entrada de US$ 5 mil sem explicar a diferença; não harmonizado artificialmente.",
+      "corpo": "Bruno exemplifica iniciante com carteira de US$ 1 mil operando US$ 2, US$ 3, US$ 4 ou US$ 5 e que, após vários acertos, decide entrar com US$ 5 mil. Afirma que o aumento pode exceder a tolerância emocional, culminar em liquidação e perda. Recomenda zero ganância e remete à aula do MAC sobre não perder dinheiro: operar com stop ou dentro do gerenciamento de risco usando 3x, sem explicar esse procedimento aqui.",
+      "evidencia": "se você colocar ganância nele, você vai perder muito dinheiro",
+      "versao": 1
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "curso": "mac-3",
+  "aula": "M04_A02",
+  "titulo": "Como operacionalizar o 3X na OKX",
+  "contexto": [
+    "Demonstração didática de botões do 3x na OKX por instrutor que remete à estratégia de Bruno Aguiar.",
+    "A posição usada não reproduz um 3x real com espera e análise, o que é ressaltado várias vezes.",
+    "O conceito é ilustrado em gráfico e depois executado em conta de teste; não há prova de recuperação de posição negativa real."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Separar operação de tela da decisão de 3x",
+      "tipo": "limite",
+      "tema": "plataformas",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 18,
+      "fim": 42,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor delimita a aula a colocar três vezes mais capital e reduzir 80% usando a OKX. Não pretende realizar um 3x real, que pode levar dias; a escolha do momento depende da análise ensinada nos treinamentos de Bruno.",
+      "evidencia": "a gente não vai fazer um 3X exatamente na real aqui",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Aporte de 3x resulta em 4x na margem",
+      "tipo": "conceito",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 42,
+      "fim": 94,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "O próprio instrutor diz não calcular o preço exato.",
+      "corpo": "No exemplo long que caiu, o instrutor parte de US$ 10 e acrescenta US$ 30 no novo ponto, ficando com US$ 40 de margem. Explica que o aporte reposiciona o preço médio; sua indicação de cerca de um terço da distância é visual e aproximada.",
+      "evidencia": "você está com 40 investidos ali na margem",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Melhora percentual não significa zerar prejuízo",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 71,
+      "fim": 163,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Percentuais de 22%/70% são ilustração gráfica sem cálculo preciso do preço médio; não receita universal.",
+      "corpo": "O instrutor explica que o ROI melhora com mais capital, mas é preciso o preço se mover até o novo ponto de equilíbrio. No gráfico aproximado, cita necessidade de 22% de retorno em vez de 70%, queda prévia de 55% a 50x=−2.750% e 22%×50=1.100% para recuperar. A posição pode voltar contra antes de recuperar, exigindo gestão da banca.",
+      "evidencia": "você precisa esperar ela cumprir aqui esse movimento",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Sair 80% ao recuperar e preservar reposicionamento",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 141,
+      "fim": 185,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Segundo o instrutor, quando a posição alcança o ponto de equilíbrio e fica positiva, reduz-se 80% do capital, mantendo uma fração em preço melhor. Ele rejeita ficar com todo o aporte apenas para ampliar lucro porque essa não é a estratégia de 3x ensinada.",
+      "evidencia": "sair 80% do capital e ele vai ficar melhor posicionado",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Conferir futuro, cruzada e alavancagem",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 186,
+      "fim": 208,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala combina botão verde e short, inconsistência de direção/cor. Não tratar a cor como instrução confiável nem a alavancagem máxima como recomendação geral.",
+      "corpo": "Na primeira entrada de cada moeda, o instrutor manda conferir mercado futuro, margem cruzada e alavancagem escolhida. Na conta de teste, seleciona a máxima para a demonstração, menciona US$ 19,87 disponíveis e custo próximo de US$ 1,10/6% da banca; após executar, lê margem US$ 1,07.",
+      "evidencia": "você sempre vai checar quando for a primeira vez",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Margem é o custo sem alavancagem",
+      "tipo": "conceito",
+      "tema": "plataformas",
+      "tarefas": [
+        "acompanhar-operacao",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 208,
+      "fim": 232,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor aponta US$ 1,07 de margem como capital efetivamente colocado sem alavancagem e distingue esse valor do resultado/PNL. Observa sua dedução do saldo disponível e chama essa parcela inicial de 1x.",
+      "evidencia": "a margem que eu entrei com o custo daquela operação do meu capital",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Calcular 3x e repetir a mesma direção",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 232,
+      "fim": 295,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A posição demonstrativa estava positiva; o cenário negativo é explicitamente suposto.",
+      "corpo": "Pressupondo decisão gráfica já tomada, o instrutor multiplica US$ 1,07 por 3=US$ 3,21, ajusta a régua observando custo e envia nova ordem na mesma direção short. Aceita pequena aproximação da régua, perto de US$ 3,30; depois confere margem acumulada próxima de US$ 4,29.",
+      "evidencia": "É 1,07 Vezes 3",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Fechar 80% da posição pela régua",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-saida",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 266,
+      "fim": 318,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Depois de aguardar hipoteticamente a posição ficar positiva, o instrutor seleciona Fechar, ajusta 80% e usa Fechar curta para o short, enviando a ordem. Reforça que a pressa mostrada é apenas didática e não representa análise real do 3x.",
+      "evidencia": "você vai fechar a curta aqui",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Conferir saldo restante e reduzir outras frações",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "acompanhar-operacao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 318,
+      "fim": 362,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Após reduzir 80%, o instrutor confere margem inferior à inicial e explica que o preço médio permanece melhor posicionado. Diz que não precisa de Reduce Only nessa interface: usar Fechar e a régua permite também saídas de 50% ou 10%. Encerra remetendo à análise gráfica para decidir o momento correto.",
+      "evidencia": "não precisa de ter o botão Reduce Only",
+      "versao": 1
+    }
+  ]
+}

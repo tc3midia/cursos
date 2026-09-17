@@ -1,0 +1,98 @@
+{
+  "curso": "mac-3",
+  "aula": "M03_A03",
+  "titulo": "Resposta 3 - Valor para realizar o 3x na operação e sempre ganhar acima de R$1.000 por dia",
+  "contexto": [
+    "Pergunta e resposta sobre a base monetária do 3x.",
+    "O instrutor distingue margem, ROI e lucro exibido na corretora.",
+    "A recomendação de reduzir 80% se refere à estratégia de 3x desta aula."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Preferência pelo celular",
+      "tipo": "decisao",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 9,
+      "fim": 39,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor recomenda celular pela simplicidade e liberdade de deslocamento, mas reconhece que o aluno pode preferir computador e tela grande.",
+      "evidencia": "eu recomendo que vocês operem pelo celular",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Margem e cálculo do ROI",
+      "tipo": "conceito",
+      "tema": "alavancagem",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 9,
+      "fim": 61,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Nomes e apresentação dos campos da interface são os mostrados na gravação; a relação matemática é a explicada pelo instrutor.",
+      "corpo": "O instrutor identifica margem como capital colocado na operação e ROI como percentual do resultado. No exemplo, US$ 10 de margem e 500% de ROI geram US$ 50 de lucro exibido no campo de dólares.",
+      "evidencia": "a margem é o que você colocou na operação",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Aporte de 3x usa a margem",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 39,
+      "fim": 90,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Quando já identificou o momento adequado de recuperação de uma operação negativa, o instrutor manda acrescentar três vezes o valor da margem, não três vezes o prejuízo ou o lucro. Exemplifica posições em−500% ou−600%, mas remete o momento do aporte a outra explicação.",
+      "evidencia": "é 3 vezes o valor da margem",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Reduzir 80% ao positivar",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "avaliar-saida",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 62,
+      "fim": 90,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A taxa é relato do instrutor, sem dados dos testes na aula.",
+      "corpo": "O instrutor orienta usar o 3x para alcançar o positivo e então sair de 80%. Rejeita manter os 4x totais para buscar todo o spread porque uma volta do preço deixaria a posição ampliada exposta; relata 100 testes pessoais com 22% de acerto dessa alternativa.",
+      "evidencia": "esses 100 testes deu 22% só de acerto",
+      "versao": 1
+    }
+  ]
+}

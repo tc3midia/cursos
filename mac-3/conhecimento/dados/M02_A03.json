@@ -1,0 +1,467 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A03",
+  "titulo": "Como fazer R$1.000 por dia com o MAC",
+  "contexto": [
+    "O instrutor apresenta uma estratégia de operações curtas, com validação de assertividade, stops e aumento gradual do lote.",
+    "A meta de R$ 1.000 por dia e os resultados numéricos são projeções apresentadas na aula.",
+    "Esta aula trabalha com 5% da carteira por operação e redução a 2% após perda; não funde essa régua com outros módulos.",
+    "Os tempos são os da gravação em 2×."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Assertividade como taxa de acerto",
+      "tipo": "conceito",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 38,
+      "fim": 62,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor chama de assertividade a proporção de operações acertadas: seis acertos em dez são 60% e oito em dez são 80%. Usa essa medida como base do método.",
+      "evidencia": "você acertou 6 e errou 4",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Escolher duração conforme objetivo",
+      "tipo": "decisao",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 62,
+      "fim": 111,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor contrapõe operações longas, mantidas por dois ou três meses para buscar múltiplos maiores, a várias operações curtas no dia. Associa as curtas à construção mais rápida de capital e as longas a quem já possui banca e patrimônio e quer mais tempo livre; diz que uma não é superior à outra em absoluto.",
+      "evidencia": "não quer dizer que uma operação é melhor que a outra",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Validar 50 operações com US$ 2",
+      "tipo": "procedimento",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 111,
+      "fim": 225,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Independentemente do patrimônio do aluno, o instrutor orienta começar com US$ 2, realizar 50 operações e calcular a assertividade. O objetivo é alcançar 80%, sem cobrar esse desempenho no início; exemplifica três acertos em dez como parte do aprendizado.",
+      "evidencia": "50 operações, utilizando 2 dólares e calcular a sua assertividade",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Menor assertividade exige mais operações",
+      "tipo": "regua",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 201,
+      "fim": 272,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Uma expressão anterior transcrita como '12 loss' conflita com a explicação explícita de duas perdas em dez.",
+      "corpo": "O instrutor afirma que 60%, 70% e até 50% de acerto podem produzir ganho na estratégia, mas exigiriam mais operações para a mesma meta. Usa como objetivo duas perdas em dez entradas.",
+      "evidencia": "Você ter duas perdas",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Validar confiança antes de aumentar lote",
+      "tipo": "procedimento",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 295,
+      "fim": 348,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor define lote como dólares por operação. Depois de 50 operações a US$ 2 com 70%–80% de acerto, propõe repetir mais 50 para confirmar a taxa antes de ir a US$ 20. Apresenta então objetivo de 14 operações com 100% de ganho, condicionado à validação da execução.",
+      "evidencia": "confirmei que está 80, vou para 20 dólares por operação",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Alavancagem e movimento do ativo",
+      "tipo": "exemplo",
+      "tema": "alavancagem",
+      "tarefas": [
+        "compreender-metodo",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 348,
+      "fim": 381,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor exemplifica alavancagem de 50x: valorização de 5% do ativo equivale a 250% sobre o valor da operação. Menciona 20x, 30x e 50x conforme experiência e relaciona permanecer no movimento ao potencial de ganho maior.",
+      "evidencia": "se uma operação valorizar 5% no mercado e você está 50x, você ganhou 250%",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Comparar metas de retorno por operação",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 381,
+      "fim": 461,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Equivalências são projeções aproximadas do instrutor e dependem do câmbio implícito; relatos não são garantias.",
+      "corpo": "Com lote de US$ 20, o instrutor associa sete operações a 200%, quatro a 300% ou duas a 600% à meta aproximada de R$ 1.000 no dia. Para quem tem pouco tempo, sugere stops de perda e ganho e acompanhamento eventual. Relata operar às 21h no horário asiático e encontrar retornos no dia seguinte.",
+      "evidencia": "Sete operações com 200% de lucro",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Permanecer somente quando houver spread",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 461,
+      "fim": 510,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor limita a permanência maior a operações nas quais se evidencia spread. Explica pullback como recuo dentro de uma alta e diz que sair de 150% para 80% de lucro não é erro, mas pode revelar falta de treino emocional no positivo. Ressalta que alvos maiores podem levar dias ou uma semana e não devem ser exigidos de todas as posições.",
+      "evidencia": "nem toda operação você deve se manter nela",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Não acelerar o lote por ganância",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 510,
+      "fim": 533,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Após alcançar cerca de 80% de acerto com US$ 20, o instrutor proíbe saltar para valores muito maiores ou adicionar muito capital apenas porque a sequência foi positiva. Explica que tamanho acima do tolerado mentalmente rompe primeiro a gestão emocional e depois a gestão de risco.",
+      "evidencia": "Nunca, nunca, nunca sair do gerenciamento de risco",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Simulação diária e seus limites",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 533,
+      "fim": 603,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fonte chama 12 ganhos em 14 operações de 80% e contém totais intermediários oscilantes; a extração não valida a planilha.",
+      "corpo": "O instrutor apresenta simulação de carteira de R$ 2.000 chegando a R$ 3.222, lucro bruto de R$ 1.222 e cerca de 61% no dia, após 14 operações, 12 ganhos e duas perdas. Chama a assertividade de 80% e trata os valores como simulação de gestão.",
+      "evidencia": "a carteira inicial A carteira final no dia Deu 3.222",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Entrada regular de 5% da carteira",
+      "tipo": "regua",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 557,
+      "fim": 603,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No exemplo, o instrutor usa 5% da carteira atual por entrada: R$ 100 sobre R$ 2.000; após ganhar 100%, R$ 105 sobre R$ 2.100, com arredondamento possível na conversão a dólares. Pede manter o percentual, evitando elevar lote ou depósito por entusiasmo.",
+      "evidencia": "Você continua no gerenciamento de risco, que é 5% da sua carteira",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Alvo de ganho 100% e perda 50%",
+      "tipo": "regua",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 603,
+      "fim": 627,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor define alvo inicial de ganho em 100% e stop loss em 50% do valor da operação, não da carteira. Explica que uma posição de R$ 100 perderia R$ 50 no stop de 50%.",
+      "evidencia": "Quando você coloca o stop loss, você coloca em 50% de perda",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Reduzir para 2% depois de loss",
+      "tipo": "procedimento",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 627,
+      "fim": 683,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Após uma operação perdida, o instrutor manda usar 2% da carteira na seguinte para controlar o emocional. Se essa operação ganha, volta a 5% na próxima. Reprova continuar em 5% buscando recuperar a perda; aplica a mesma redução ao segundo loss do exemplo.",
+      "evidencia": "quando dá loss, você controla o emocional e entra com menos capital na próxima operação",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Stops podem não executar em movimento rápido",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 717,
+      "fim": 774,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor alerta que o mercado pode se mover rápido demais para pegar os stops, levando à liquidação e perda de toda a carteira. Usa essa possibilidade para insistir em não sair da gestão de risco, mesmo operando com stops.",
+      "evidencia": "o mercado pode ir um pouco rápido e não pegar os seus stops",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Projeções de três meses não fixam prazo pessoal",
+      "tipo": "exemplo",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 774,
+      "fim": 977,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Simulação histórica do instrutor, com arredondamentos e sem garantia de resultado.",
+      "corpo": "O instrutor projeta 22 dias úteis mensais, lucro diário próximo de R$ 1.200, mensal de R$ 26.885,10 e cerca de R$ 80 mil em três meses. Mostra também R$ 109 mil em três meses com 30 dias por mês, rotina que diz não recomendar. Afirma que a projeção não determina o resultado individual e que dificuldades iniciais podem alongar o aprendizado.",
+      "evidencia": "30 dias, eu particularmente não recomendo",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Aumentar após pelo menos 50 operações",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 797,
+      "fim": 857,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor estabelece fazer 50 operações com o valor anterior antes de aumentar: US$ 2, depois US$ 20, US$ 30, US$ 50 e outros níveis. Desaconselha saltar de US$ 30 para US$ 100 ou de US$ 20 para US$ 1.000; cita 50 a 70 operações também em lotes avançados.",
+      "evidencia": "Só aumente o valor por operação depois que você fizer 50 operações com o valor anterior",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Não se comparar e estudar antes de executar",
+      "tipo": "procedimento",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "compreender-metodo",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 889,
+      "fim": 1000,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor recomenda não comparar seu ritmo ao de alunos divulgados e distinguir ampliar conhecimento de apressar o capital. Manda estudar todo o curso, rever aulas não entendidas e só depois voltar aos passos para executar, evitando interromper aulas com perguntas respondidas ao final.",
+      "evidencia": "estude todo o curso pra depois voltar nas aulas",
+      "versao": 1
+    },
+    {
+      "numero": 18,
+      "titulo": "Ajustar ou remover stop gain diante de continuidade",
+      "tipo": "decisao",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1023,
+      "fim": 1079,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Ao recapitular a entrada de 5%, redução a 2% após loss e alvo de 100%, o instrutor admite tirar o stop gain quando se percebe a operação prosseguindo, buscando 150% ou 200%. Remete às aulas de entrada e saída para identificar esse momento.",
+      "evidencia": "se você está vendo que ela está indo, opa, tira o stop gain",
+      "versao": 1
+    },
+    {
+      "numero": 19,
+      "titulo": "Reduzir abaixo de US$ 2 se necessário",
+      "tipo": "decisao",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1079,
+      "fim": 1108,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Se US$ 2 for um valor que o aluno não pode perder, o instrutor permite começar com US$ 0,50 ou o que possa perder. Diante de sequência de perdas nessa fase, pede continuar a prática pequena e tratar a perda como aprendizado.",
+      "evidencia": "começa com 50 centavos de dólar",
+      "versao": 1
+    },
+    {
+      "numero": 20,
+      "titulo": "Distinguir estratégias de stops e 3x",
+      "tipo": "limite",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "compreender-metodo",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 1108,
+      "fim": 1141,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "O juízo sobre taxas é a posição do instrutor, sem análise de custos na aula.",
+      "corpo": "O instrutor diz que a estratégia de spread curto usa stops, enquanto a de longo spread, apresentada adiante, usa 3x e tolera posição negativa sem stop. Afirma pessoalmente não olhar taxas por considerá-las pequenas perante ganhos e identifica o emocional e o abandono das regras como riscos.",
+      "evidencia": "as operações de longo spread, aí não usa stop",
+      "versao": 1
+    },
+    {
+      "numero": 21,
+      "titulo": "Alertas exigem análise de entrada",
+      "tipo": "limite",
+      "tema": "ecossistema",
+      "tarefas": [
+        "localizar-recursos",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 1141,
+      "fim": 1186,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Taxa de acerto e disponibilidade de recursos são alegações datadas do instrutor. Plataforma outra: Águia Spread.",
+      "corpo": "O instrutor apresenta Sinais Milionários como acesso a quatro indicadores adicionais e à congruência de cinco, além de alertas do Águia Spread. Alega 98% de acerto dos alertas na data da gravação, mas explica que a valorização pode vir em horas, dias ou uma a três semanas; o ponto de entrada continua dependendo da análise do investidor.",
+      "evidencia": "o ponto que você entra depende do investidor",
+      "versao": 1
+    }
+  ]
+}

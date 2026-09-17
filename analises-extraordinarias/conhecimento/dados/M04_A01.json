@@ -1,0 +1,252 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M04_A01",
+  "titulo": "Aula 7.1 — Momentos de entrada: Pullback",
+  "contexto": [
+    "A aula distingue a entrada no fim do pullback da entrada após rompimento do extremo anterior.",
+    "Bruno exemplifica o raciocínio em compras e vendas e associa os momentos a diferentes spreads possíveis.",
+    "A divulgação de alertas é acompanhada da ressalva de que não são dicas ou promessas de investimento.",
+    "Faixas de exposição e resultados são orientações e exemplos específicos do instrutor.",
+    "O título segue a primeira linha da fonte, que usa dois-pontos antes de Pullback."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Pullback é correção contrária ao movimento anterior",
+      "tipo": "conceito",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "compreender-metodo",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 29,
+      "fim": 104,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno define pullback como volta/correção: após alta, o preço recua; após queda, repica. Relaciona a correção à realização de lucro e possível continuidade, mas ressalva que isso depende do mercado e não é regra universal.",
+      "evidencia": "se o rompimento for para baixo o pullback para cima",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Distinguir fim de pullback e pós-pullback",
+      "tipo": "conceito",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 34,
+      "fim": 61,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Fim do pullback é o momento em que a correção termina e a direção original começa a ser retomada. Pós-pullback, na definição de Bruno, é a retomada ultrapassar o topo anterior na compra ou o extremo equivalente na venda, oferecendo outra referência de entrada.",
+      "evidencia": "ela rompeu uma linha chamada topo",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Alerta de fim do pullback ainda exige análise",
+      "tipo": "regra",
+      "tema": "ecossistema",
+      "tarefas": [
+        "avaliar-entrada",
+        "localizar-recursos"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 104,
+      "fim": 146,
+      "condicoes": "Recebimento de alerta da plataforma citada.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno diz que variáveis do fim do pullback são incorporadas aos alertas, mas manda analisar antes de decidir. Alerta que entrar imediatamente ao receber o aviso pode dar errado porque o preço ainda pode corrigir mais. Ilustra movimento de 14% a 50x como 700%, e US$ 10 mil mais 700% como US$ 80 mil totais.",
+      "evidencia": "você pode se ferrar porque ela vai descer mais",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Exposição de dez a vinte por cento é condicionada ao curto com stop",
+      "tipo": "regua",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 146,
+      "fim": 160,
+      "condicoes": "Carteira já desenvolvida, operação de curto spread com stops.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A referência de até 20% pertence a esta fala e não substitui automaticamente faixas de outras aulas.",
+      "corpo": "Bruno exemplifica carteira de US$ 100 mil que cresceu com consistência e entrada de US$ 10 mil, equivalentes a 10%. Diz que poderia chegar a 20%, condicionando explicitamente a operação de curto spread com stops.",
+      "evidencia": "Se for operação de curto spread.",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Identificar término da correção pela força relativa dos volumes",
+      "tipo": "procedimento",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 160,
+      "fim": 202,
+      "condicoes": "Após rompimento e correção em possível operação comprada.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Os percentuais e valores são mensurações e projeções do exemplo da gravação, vinculadas ao gráfico demonstrado; não indicam retorno esperado de uma nova operação.",
+      "corpo": "Bruno observa volume comprador maior que vendedor e enfraquecimento da venda como evidência de fim do pullback. O investidor pode continuar esperando ou decidir entrar após análise. Ilustra movimento de 38% a 25x como 950%, isto é, US$ 9.500 de lucro sobre US$ 1.000, US$ 95 mil sobre US$ 10 mil e US$ 950 mil sobre US$ 100 mil.",
+      "evidencia": "esse volume de compra está maior do que o volume de venda",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Marcar o extremo anterior para entrada pós-pullback",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "identificar-niveis",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 202,
+      "fim": 232,
+      "condicoes": "Rompimento inicial e pullback já identificados.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Os 6% e 300% são mensuração e projeção do exemplo do gráfico na gravação, não valores transferíveis automaticamente a outra operação.",
+      "corpo": "Para compra pós-pullback, Bruno traça linha horizontal no máximo alcançado pelo rompimento inicial, incluindo o pavio. Aguarda o preço corrigir e depois superar essa linha antes de considerar a entrada. No exemplo sobra 6% de movimento, ou 300% a 50x.",
+      "evidencia": "contando esse cabelinho aqui que fica para cima",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Troca entre antecipação e confirmação adicional",
+      "tipo": "decisao",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 221,
+      "fim": 256,
+      "condicoes": "Escolha entre fim e pós-pullback.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Garantia maior é linguagem comparativa do instrutor, não garantia de retorno.",
+      "corpo": "Bruno afirma que o fim do pullback permite entrar mais abaixo em uma compra e capturar spread maior. O pós-pullback tende a entrar depois, ao superar o topo, com confirmação que ele descreve como um pouco maior. Considera ambos válidos, sem afirmar que o pós sempre rende pouco.",
+      "evidencia": "seu spread vai ser maior no fim do pullback",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Esperar consolidação após tentativa de superar topo",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 256,
+      "fim": 290,
+      "condicoes": "Exemplo retrospectivo de compra pós-pullback.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno mostra preço que corrige, tenta romper topo, volta e depois consolida volume comprador. Só então ilustra entrada após superar a linha. Mede 31% a 50x, apresentados como 1.550%; US$ 2 mil mais esse retorno dão US$ 33 mil totais na conta ilustrativa.",
+      "evidencia": "agora consolidou agora eu entro",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Aplicar pós-pullback à venda",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "identificar-niveis"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 290,
+      "fim": 321,
+      "condicoes": "Movimento inicial vendedor, repique e retomada para baixo.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Os 11%–12% e 600% pertencem ao exemplo do gráfico na gravação; preservam uma ilustração histórica, não uma previsão de retorno.",
+      "corpo": "Para short, Bruno orienta esperar pullback para cima e nova queda que rompa a linha do extremo do movimento vendedor anterior. Apresenta exemplo com 11%–12%, usando 12% a 50x para ilustrar 600%.",
+      "evidencia": "se é o movimento de venda eu espero pullback para cima",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Alertas são organizados por momento e spread",
+      "tipo": "conceito",
+      "tema": "ecossistema",
+      "tarefas": [
+        "localizar-recursos"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 316,
+      "fim": 373,
+      "condicoes": "Serviços mostrados na gravação.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Nomes de produtos e 'fecha-alertas' são transcritos com incerteza; disponibilidade não verificada.",
+      "corpo": "Bruno apresenta Agspread Education com alertas de fim e pós-pullback para curto, médio e longo spread. Refere-se a resultados de fecha-alertas, pré-alertas e alertas, associando pré-alertas a médio e alertas a longo; mostra janelas iniciais de quatro, oito e doze horas. Ressalva que resultados de alertas não são promessa e exigem decisão própria.",
+      "evidencia": "Tem alerta do fim do pullback E do pós pullback para curto spread",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Aguardar correção é preferência, não ocorrência garantida",
+      "tipo": "limite",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 373,
+      "fim": 392,
+      "condicoes": "Busca dos pontos de entrada ensinados.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Na síntese, Bruno aponta fim ou pós-pullback como os momentos de entrada preferidos, mas reconhece que às vezes não ocorre pullback após o rompimento.",
+      "evidencia": "Só que às vezes não.",
+      "versao": 1
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M04_A01",
+  "arquivo_sha256": "79409e2c6d5297cd59530ba3a30ed68822282440f05507039aa462f285944818",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Leitura integral da fonte e confronto de todas as unidades: números, proporções, condições, decisões, limites e passos essenciais. Cobertura semântica adequada; achados locais explicitados. Fidelidade ao instrutor, sem validação financeira externa.",
+  "evidencias_julgamento": [
+    {
+      "numero": 1,
+      "trecho": "se o rompimento for para baixo o pullback para cima",
+      "conclusao": "Pullback corrige direção anterior, com possível continuidade e sem universalidade."
+    },
+    {
+      "numero": 2,
+      "trecho": "ela rompeu uma linha chamada topo",
+      "conclusao": "Distingue fim da correção de rompimento do extremo anterior; não mistura os dois gatilhos."
+    },
+    {
+      "numero": 3,
+      "trecho": "você pode se ferrar porque ela vai descer mais",
+      "conclusao": "Alerta exige análise e pode preceder queda adicional;14%×50=700 e10mil→80mil totais conferidos."
+    },
+    {
+      "numero": 4,
+      "trecho": "10% da sua carteira, você pode entrar até com 20. Se for operação de curto spread. Tá bom? Com os tops.",
+      "conclusao": "10% e possibilidade20% restritas a curto spread com stops e carteira desenvolvida; não generalizadas."
+    },
+    {
+      "numero": 5,
+      "trecho": "esse volume de compra está maior do que o volume de venda",
+      "conclusao": "Compra superior à venda confirma fim;38×25=950%, lucro9500/95mil/950mil conforme margens1mil/10mil/100mil."
+    },
+    {
+      "numero": 6,
+      "trecho": "contando esse cabelinho aqui que fica para cima",
+      "conclusao": "Linha no topo incluindo pavio; superar após correção;6%×50=300 ilustrativos."
+    },
+    {
+      "numero": 7,
+      "trecho": "seu spread vai ser maior no fim do pullback",
+      "conclusao": "Entrada antecipada versus confirmação adicional explicada; nenhuma garantia de retorno."
+    },
+    {
+      "numero": 8,
+      "trecho": "agora consolidou agora eu entro",
+      "conclusao": "Consolidação compradora após tentativa frustrada;31%×50=1550 e2mil→33mil total conferidos."
+    },
+    {
+      "numero": 9,
+      "trecho": "se é o movimento de venda eu espero pullback para cima",
+      "conclusao": "Venda espelha compra: repique para cima, depois perda do extremo anterior;12%×50=600."
+    },
+    {
+      "numero": 10,
+      "trecho": "Tem alerta do fim do pullback E do pós pullback para curto spread",
+      "conclusao": "Produtos e janelas4/8/12h históricos; alerta não comprova lucro e nomes incertos sinalizados."
+    },
+    {
+      "numero": 11,
+      "trecho": "O pullback vai acontecer. Só que às vezes não.",
+      "conclusao": "Preferência fim/pós não implica que sempre haverá correção após rompimento."
+    }
+  ],
+  "evidencias_complementares": [
+    {
+      "inicio": 29,
+      "fim": 61,
+      "unidades": [
+        2
+      ],
+      "trechos": [
+        "Vamos lá. Então vamos analisar o seguinte. E quando eu falo isso, gente, eu não estou aqui exagerando não, tá? Você vai entender. O",
+        "que é pullback? É o momento de correção. O que significa isso? Subiu muito. Aí daqui a pouco tem o momento de correção. Ela",
+        "cai um pouquinho. O que é o fim do pullback? Ela caiu. Tem o fim. E continua subindo. Ou seja, não seria interessante a",
+        "gente saber o fim do pullback? Para a gente entrar aqui e pegar toda essa correção continuada? Legal. E tem o pós-pullback. É o",
+        "seguinte. Vamos dizer. Está vendo o meu óculos aqui? Subiu. foi até a linha do meu óculos desceu o pullback que é a correção,",
+        "veio até o meu queixo depois que ela voltou para a linha do óculos e ela rompeu a linha do óculos ela rompeu uma",
+        "linha chamada topo quando ela rompe a probabilidade de ela arrebentar para o que é o balão ir para cima é muito alta então",
+        "esse é o pós pullback vou representar isso diretamente no gráfico para você visualizar olha que poderoso isso aqui gente"
+      ]
+    },
+    {
+      "inicio": 146,
+      "fim": 179,
+      "unidades": [
+        4,
+        5
+      ],
+      "trechos": [
+        "Em uma operação, só porque o que você aprendeu aqui, e claro, você tem uma carteira, que você cresceu continuadamente, com resiliência, com perseverança,",
+        "às vezes até para 100 mil dólares, você já pode entrar em uma operação de 10 mil dólares. Por que não? 10% da sua",
+        "carteira, você pode entrar até com 20. Se for operação de curto spread. Tá bom? Com os tops. E aí, exatamente isso. Agora vamos",
+        "analisar. Vamos dizer o contrário aqui. O contrário não, outra operação. Houve outro rompimento. aí tem o pullback aqui é o fim do pullback",
+        "porque o fim do pullback você tá vendo o volume aqui ó esse volume de compra está maior do que o volume de venda",
+        "olha que delícia e aí prova que esse volume de venda aqui está acabando então aqui é o fim do pullback aí você vai",
+        "analisar tomar sua ela pode esperar, ou então a análise entrar aqui, vamos dizer que depois da análise, que todo investidor tem que fazer,",
+        "ele pegou aqui 38%, 38%, então a gente está falando 38 vezes,"
+      ]
+    },
+    {
+      "inicio": 180,
+      "fim": 202,
+      "unidades": [
+        5
+      ],
+      "trechos": [
+        "vamos colocar até 25x, 950%, então você fez uma operação de mil dólares, 9.500 dólares, uma operação de 10 mil dólares, 95 mil dólares,",
+        "uma operação de 100 mil dólares, sua carteira um dia vai chegar nesse nível, você fez 950 mil dólares, né? E assim vai. Aí,",
+        "automaticamente, vamos falar ao contrário. Teve aqui o rompimento. Olha aqui o pullback. Pullback e depois desceu a ladeira. Então, esse aqui, eu estou",
+        "te explicando, é o fim do pullback. Que é esse ponto aqui. O fim do pullback. Sinal de reversão. Agora vamos para o pós-pullback.",
+        "significa o que?"
+      ]
+    },
+    {
+      "inicio": 202,
+      "fim": 232,
+      "unidades": [
+        6
+      ],
+      "trechos": [
+        "vamos voltar lá eu tomei a decisão de entrar só depois que ultrapassar até onde foi o rompimento ou seja, o rompimento vou traçar",
+        "uma linha branca aqui o rompimento aqui foi até essa linha aqui contando esse cabelinho aqui que fica para cima deixa eu aumentar aqui",
+        "a tela para você visualizar bem aqui está vendo que houve um rompimento E esse cabelinho aqui, vou botar a linha branca Aonde foi,",
+        "certo? Bateu aqui o rompimento Aí teve o pullback, eu fiquei analisando aqui Aquela coisa toda E aí eu só entro Após romper A",
+        "linha Então o meu spread Não vai ser nesse caso dessa operação aqui Muito grande, vai ser só 6% Então vezes 50x eu fiz",
+        "300% Mas existe Uma um pouquinho maior de garantia quando existe o pós-pullback."
+      ]
+    },
+    {
+      "inicio": 256,
+      "fim": 290,
+      "unidades": [
+        8
+      ],
+      "trechos": [
+        "Vamos dizer, ah, não entrei não. Vou esperar o pullback. Esperou o pullback, desceu. Foi de novo. E quando ele foi, ele rompeu o",
+        "topo. Aí você falou, ah não, vou esperar um pouquinho. Quando entrou aqui, você viu que o volume de compra já estava começando a",
+        "se consolidar. Você esperou novamente, rompeu a linha, e aí você vai e entra aqui, no pós pullback. O que é o pós pullback?",
+        "Após a linha que bateu, o rompimento, o rompimento original é esse aqui. Rompeu, aconteceu, aconteceu, aconteceu, que aconteceu a tentou romper aqui voltou",
+        "ou agora consolidou agora eu entro boom 60 31 por cento então vamos dizer que você tá aqui com a operação de dois mil",
+        "dólares e não deixa eu calcular que é 31 por cento vezes 50 x 1550 por cento onde está com a operação de mais",
+        "1550 por cento você fez 33 mil dólares numa operação, fechou?"
+      ]
+    },
+    {
+      "inicio": 290,
+      "fim": 316,
+      "unidades": [
+        9
+      ],
+      "trechos": [
+        "às vezes você está iniciando pequenininho aí você está achando, um dia eu vou chegar nisso vai chegar nisso, é só você ter resiliência",
+        "e empenho e dedicação, porque tudo aqui depende de você fechado? então a mesma coisa aqui vamos tirar esse azulzinho aqui o pullback foi",
+        "bem rápido ele rompeu, olha o pullback aqui aqui ó rompeu foi para cima esse é o pullback desse movimento de venda e rompeu",
+        "aqui nessa minha amarela aí que aconteceu rompeu quando ele rompeu a linha do do do rompimento essa aqui ó ele rompeu essa linha",
+        "aqui ó aí ele voltou no pullback quando ele rompeu a linha agora para baixo né se é o movimento de venda eu espero",
+        "pullback para cima e o movimento para baixo aí no pós-pullback, estou falando do pós-pullback agora, e eu peguei aqui 11%, 12%."
+      ]
+    },
+    {
+      "inicio": 316,
+      "fim": 348,
+      "unidades": [
+        9,
+        10
+      ],
+      "trechos": [
+        "Pegou? Então 12% vezes 50x, 600%, então é isso que acontece. Então, a maior revolução da história, depois que você passar dos sinais milionários,",
+        "que você vai ter os alertas, que são alertas extraordinários também, aí você vai ter oportunidade, se você às vezes não tem capital, faz",
+        "capital com os sinais milionários, depois entra no Agspread Education, Aí o Agspread Education tem toda a plataforma E lá dentro do Agspread do",
+        "QG Já tem os alertas do fim do pullback E do pós pullback Tem alerta do fim do pullback E do pós pullback para",
+        "curto spread Tem alerta do fim do pullback E do pós pullback para médio spread E tem alerta do fim do pullback E do",
+        "pós pullback para long spread Tudo pronto Para o investidor analisar E tomar suas próprias decisões Então era isso que eu queria passar para",
+        "vocês Só para você ver aqui O fim do pullback Que é o Agspread Black A gente tem aqui os resultados do fecha-alertas Do",
+        "fim do pullback Tem aqui os resultados do pre alerta"
+      ]
+    },
+    {
+      "inicio": 348,
+      "fim": 373,
+      "unidades": [
+        10
+      ],
+      "trechos": [
+        "Que é a operação de med spread E tem os resultados aqui dos alertas Que são operações de long spread Beleza? Aí aqui no",
+        "post pullback Tem os resultados aqui dos fecha-alertas Post pullback resultados aqui dos pré-alertas, né? São todos alertas do pós-pullback e médio spread e",
+        "resultados das operações de longo spread que esses aqui são resultados iniciais, tá? Olha aqui, 4 horas, 4 horas, esse tempo se eu deixasse",
+        "aqui 2 meses, você ia ver o percentual que ia dar é surreal então 4 horas, 4 horas, 8 horas, 12 horas, entendeu? Isso",
+        "aqui não é promessa de resultado, atenção a isso isso aqui você vai pegar um alerta E automaticamente você vai ver e vai analisar",
+        "e tomar suas próprias decisões como investidor autorresponsável."
+      ]
+    }
+  ],
+  "nota_evidencias_complementares": "Blocos literais contínuos da fonte, selecionados após confronto integral para as unidades solicitadas pelo juiz. Cada trecho tem até24 palavras; ler trechos de cada bloco em sequência. A faixa é a do bloco original, podendo atravessar limites entre unidades. Não constitui nova extração nem validação financeira.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "79aec8f8928083415b63005f36431b2fd2352bdd8283b9a3c849fc982cec48b3",
+      "correcao": "U5/U6/U9 marcadas perecíveis e notas contextualizam percentuais e projeções como exemplos do gráfico da gravação, sem alterar números/gatilhos."
+    }
+  ]
+}

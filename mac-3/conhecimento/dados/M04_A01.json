@@ -1,0 +1,660 @@
+{
+  "curso": "mac-3",
+  "aula": "M04_A01",
+  "titulo": "Como operar na OKX",
+  "contexto": [
+    "Aula de Daniel sobre cadastro, transferências, configurações e negociação na OKX.",
+    "A demonstração usa contas e valores pequenos de teste, com posições escolhidas didaticamente sem análise do método.",
+    "Telas, taxas, mínimos, verificação e disponibilidade regional são históricos da gravação, sem confirmação atual.",
+    "A referência à conta global de El Salvador descreve a interface mostrada pelo instrutor."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Acesso oficial e cadastro",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 6,
+      "fim": 105,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor orienta usar o link ou QR oficial da OKX mostrado na aula, evitando links falsos. No site, seleciona cadastro e Brasil, informa e-mail ou autentica pelo Google; código de convite é opcional. Depois faz login e acessa visão geral e perfil.",
+      "evidencia": "É muito importante que vocês usem aí o link oficial da OKX",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Testar transferência com valor pequeno",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 70,
+      "fim": 105,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Ao transferir entre contas ou corretoras, o instrutor recomenda enviar primeiro valor pequeno, conferir recebimento correto e só depois transferir montante maior. A aula usa depósito prévio reduzido como teste.",
+      "evidencia": "nunca mande o valor todo de uma vez só",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Segurança e verificação de identidade",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 70,
+      "fim": 128,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No perfil, o instrutor orienta configurar proteções da conta e verificar identidade. Escolhe pessoa física ou jurídica, preenche formulários e envia documentos pessoais ou da empresa conforme o caso. Estima resposta em um a dois dias ou antes; sua conta já aparece verificada.",
+      "evidencia": "você vai fazer configurações de segurança",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Preferências de idioma e horário",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx",
+        "tradingview"
+      ],
+      "inicio": 128,
+      "fim": 152,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A descrição verbal do fuso/abertura é a da aula; não convertida em parâmetro não mostrado.",
+      "corpo": "O instrutor escolhe português do Brasil, moedaUSD e aparência clássica ou moderna conforme preferência. Ajusta formato 24h e horário referido às 21hBRT para corresponder ao TradingView usado pelo curso.",
+      "evidencia": "moeda USD",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Subcontas para separar estratégias",
+      "tipo": "decisao",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 128,
+      "fim": 180,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor apresenta subcontas como forma de manter spot e futuros separados entre estratégias de curto e longo prazo, ou entre usos de familiares. Cada subconta tem seus próprios saldos.",
+      "evidencia": "o dinheiro ali não se mistura, cada conta é uma conta",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Conta Brasil e conta global distintas",
+      "tipo": "conceito",
+      "tema": "plataformas",
+      "tarefas": [
+        "compreender-metodo",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 153,
+      "fim": 251,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Disponibilidade e enquadramento regional são os relatados pelo instrutor na gravação, sem confirmação atual.",
+      "corpo": "Na gravação, o instrutor explica que a conta Brasil recebePix,USDT e outras moedas, mas não oferece futuros. Mostra no perfil habilitar uma conta global de El Salvador e alternar entre ela e a principal; ressalta que os saldos são separados e precisam de transferência, não migram ao trocar a visualização.",
+      "evidencia": "realmente são contas separadas",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Aplicativo e funções equivalentes",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 251,
+      "fim": 284,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor orienta baixar o aplicativo OKX pela Apple Store ou Play Store. Explica que depósito, saque, portfólio e configurações têm as mesmas funções do site, com diferenças de posição e formato de botões.",
+      "evidencia": "O app que você vai baixar é o OKX",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Obter endereço para depósitoUSDT",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 284,
+      "fim": 308,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A rede é identificada claramente comoTRC20; 'PROM' é ruído da transcrição.",
+      "corpo": "Na conta nacional, o instrutor abre Depositar, selecionaUSDT e a redeTRC20, copia o endereço on-chain gerado. Admite outra rede de preferência, desde que seja usada corretamente na origem e destino.",
+      "evidencia": "rede de PROM, TRC20",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Sacar da Bybit para OKX usando a mesma rede",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx",
+        "outra"
+      ],
+      "inicio": 308,
+      "fim": 387,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Origem:Bybit, marcada outra; valores e taxa são da demonstração.",
+      "corpo": "Na Bybit, abre Ativos,Sacar,Cripto,USDT,on-chain; cola o endereço da OKX, seleciona exatamenteTRC20 e define quantia. Observa diferença próxima de US$ 1 atribuída a taxas, cumpre autorizações e confirma saque. Acompanha processamento e depois confere saldo atualizado na conta nacional OKX.",
+      "evidencia": "Você vai escolher a rede exatamente a mesma",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Depositar reais e converter antes de transferir",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 364,
+      "fim": 442,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Para quem não traz cripto de outra exchange, o instrutor abre depósito em real brasileiro e segue opçãoPix. Explica queBRL não é enviado diretamente à conta global: em Conversão, escolheBRL paraUSDT e informa valor. Essa conversão é apenas explicada, pois ele não tinhaBRL disponível nesse momento.",
+      "evidencia": "você não vai conseguir mandar real brasileiro lá para a conta global",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Transferência nacional para global",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 420,
+      "fim": 501,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "ComUSDT na conta nacional, o instrutor abreSacar e seleciona Minha conta El Salvador em vez de endereço/rede. Confere usuário preenchido, escolhe valor, avança e confirma com verificação facial, podendo concluir pelo celular. Depois alterna no perfil para global, espera processamento e confere recebimento em ativos/visão geral.",
+      "evidencia": "minha conta é El Salvador",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Abrir futuros e configurar layout",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 477,
+      "fim": 527,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Na conta global abastecida, o instrutor vai aTransacionar,Futuros e escolhe layoutAvançado direita pela seta. Mostra seletor de moeda, gráfico,book e painel de ordens; a disposição pode ser reorganizada arrastando componentes.",
+      "evidencia": "colocar aqui o avançado direita",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Modo futuros e cobertura",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 527,
+      "fim": 557,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A transcrição diz 'red' para o modo de cobertura/hedge; não confundir com margem cruzada.",
+      "corpo": "Nas definições, o instrutor muda modo de conta de à vista para futuros e seleciona modo de cobertura/hedge para permitir as duas direções na mesma moeda. Confere aparecimento deAbrir eFechar como sinal de configuração. Mantém unidade de futuros em criptomoedas; explica que opções não são usadas nesta aula.",
+      "evidencia": "O modo de conta precisa estar em modo futuro",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Confirmações, atalhos e preço de liquidação",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 557,
+      "fim": 581,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Outras opções apontadas apenas como 'aqui' não têm nome suficiente na transcrição para reprodução.",
+      "corpo": "O instrutor deixa confirmações de transação como opção para evitar cliques acidentais, prefere desativar atalhos de teclado e ativa exibição de preço de liquidação, ausente por padrão na sua tela. Notificações ficam a critério do usuário.",
+      "evidencia": "Atalhos de teclado. Essa aqui eu prefiro desabilitar",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Selecionar ativo, cruzada e alavancagem",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "okx",
+        "tradingview"
+      ],
+      "inicio": 581,
+      "fim": 606,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No painel de futuros, o instrutor seleciona moeda, escolheAbrir long ou short, usa modo cruzado conforme recomendação deBruno e define alavancagem permitida para aquele ativo. Prefere analisar o gráfico noTradingView em vez do gráfico da corretora.",
+      "evidencia": "O Bruno sempre recomenda a gente usar o modo cruzado",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Diferença entre ordem limite e mercado",
+      "tipo": "conceito",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-entrada",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 606,
+      "fim": 628,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Preferência histórica do instrutor desta aula; não harmonizada com outras aulas que preferem mercado.",
+      "corpo": "O instrutor define limite como ordem que só executa no preço definido e mercado como execução imediata aceitando variação de preço. Nesta aula atribui ao método preferência por limite, com cancelamento e reenvio quando a ordem não pega.",
+      "evidencia": "Se não chegar naquele preço, eu não vendo, eu não compro",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Conferir custo sem usar toda a banca",
+      "tipo": "regua",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 628,
+      "fim": 652,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Régua de 5% e custo US$ 1,32 não são reconciliados com o saldo na fala; valores de tela preservados, sem assumir equivalência aritmética.",
+      "corpo": "O instrutor reprova usar 100% do saldo em uma entrada e remete às regras de risco. Na conta de teste com US$ 19,70 disponíveis, seleciona 5% na régua e observa custo exibido de US$ 1,32 para compra ou venda e os respectivos preços de liquidação.",
+      "evidencia": "você nunca vai entrar com 100% da banca",
+      "versao": 1
+    },
+    {
+      "numero": 18,
+      "titulo": "Analisar cotação da mesma corretora",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "avaliar-entrada",
+        "interpretar-indicadores"
+      ],
+      "plataformas": [
+        "okx",
+        "tradingview"
+      ],
+      "inicio": 628,
+      "fim": 683,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor recomenda escolher noTradingView o BTC da OKX ao operar nessa exchange, porque preços variam entre corretoras e a análise deve usar a referência correspondente.",
+      "evidencia": "é muito importante que você escolha o BTC da OKX",
+      "versao": 1
+    },
+    {
+      "numero": 19,
+      "titulo": "Distinguir ordem enviada e posição executada",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-entrada",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 653,
+      "fim": 713,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Na compra didática BTC, o instrutor define preço e enviaAbrir long. AcompanhaOrdens abertas; quando a ordem executa, ela sai dessa seção e a posição aparece na lista com ativo,alavancagem,margem,preço médio e ROI. A operação foi escolhida sem análise para mostrar a ferramenta.",
+      "evidencia": "Quando ela some daqui, ela abriu de fato a posição",
+      "versao": 1
+    },
+    {
+      "numero": 20,
+      "titulo": "RMM na OKX aumenta com maior folga",
+      "tipo": "regra",
+      "tema": "gestao-de-risco",
+      "tarefas": [
+        "gerenciar-risco",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 683,
+      "fim": 713,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Regra de interface conforme a gravação; não validada contra termos atuais da OKX.",
+      "corpo": "O instrutor explica que oRMM da OKX, ao contrário do índice usado em outras corretoras no curso, é melhor quanto mais alto. Diz que aproximação de 100% ou valor abaixo disso leva à liquidação e pede acompanhar esse campo sem aplicar mecanicamente a escala invertida de outras interfaces.",
+      "evidencia": "quanto maior, melhor",
+      "versao": 1
+    },
+    {
+      "numero": 21,
+      "titulo": "ConfigurarTP/SL pelo formulário",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "okx",
+        "tradingview"
+      ],
+      "inicio": 713,
+      "fim": 794,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Preços de BTC aparecem truncados na transcrição; não há necessidade de tratá-los como níveis operacionais reutilizáveis.",
+      "corpo": "Na posição, o instrutor localizaTP/SL, deslocando colunas se estiver oculto. AbreAdicionar e usa posição inteira, admitindo parcial; busca preços noTradingView, preencheStop Loss eTake Profit e confirma. Os valores do BTC e ganhos/perdas esperados são exemplos aleatórios, não aplicação da estratégia.",
+      "evidencia": "Eu posso colocar o Stop Loss e o Take Profit de duas maneiras",
+      "versao": 1
+    },
+    {
+      "numero": 22,
+      "titulo": "ConfigurarTP/SL arrastando linhas",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 771,
+      "fim": 817,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Como alternativa, o instrutor usa as linhas no gráfico: na posição long arrastaTake Profit para cima eStop Loss para baixo, confere preço e confirma. Para editar, clica na linha, muda o preço e confirma novamente.",
+      "evidencia": "No Stop Loss eu pego essa linha e venho para baixo",
+      "versao": 1
+    },
+    {
+      "numero": 23,
+      "titulo": "Fechar percentual ou toda a posição",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 794,
+      "fim": 841,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Na moeda da posição, o instrutor selecionaFechar, informa preço e percentual:100% para tudo, ou 50%,10%,20% para parcial. Na long usaFechar long; como a ordem é limite, espera atingir preço. Após executar, confere ausência de posição aberta e presença no histórico.",
+      "evidencia": "Se for 100%, você fecha 100% da operação",
+      "versao": 1
+    },
+    {
+      "numero": 24,
+      "titulo": "Histórico de posição para assertividade",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "acompanhar-operacao",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 841,
+      "fim": 918,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor usaHistórico de posição para consultar entrada,saída,PNL/ROI,resultado líquido e horários e alimentar planilha ou controle de assertividade. Prefere o consolidado de posição ao histórico de ordens, que inclui múltiplos movimentos de entrada e saída.",
+      "evidencia": "É aqui que você pega a sua assertividade",
+      "versao": 1
+    },
+    {
+      "numero": 25,
+      "titulo": "Abrir short pelo celular",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-entrada",
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 863,
+      "fim": 963,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No app, o instrutor acessaTransacionar,Futuros, revisa definições nos três pontos e confere cruzada/alavancagem. SelecionaMASK, define 5% na régua,custo perto de US$ 0,97, escolhe preço eAbrir short. Confere ordem executada e posição ativa. A escolha é aleatória e sem análise, para ensino da interface.",
+      "evidencia": "Vou entrar com um valor de 5% da minha banca",
+      "versao": 1
+    },
+    {
+      "numero": 26,
+      "titulo": "Fechar e fechar tudo têm execuções diferentes",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 940,
+      "fim": 1018,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A primeira fala agrupa fechar/fechar tudo como mercado; a sequência posterior distingue e demonstra os dois caminhos.",
+      "corpo": "Após uma explicação inicial imprecisa, o instrutor demonstraFechar como limite com preço e montante escolhidos eFechar tudo como mercado imediato. Envia fechamento limite daMASK, observa ordem pendente, cancela e confirmaFechar tudo, vendo execução imediata. Pode escolher 100% ou 50% na saída parcial.",
+      "evidencia": "fechar é o limite",
+      "versao": 1
+    },
+    {
+      "numero": 27,
+      "titulo": "Consultar painel de desempenho",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "acompanhar-operacao",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 990,
+      "fim": 1069,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No app, o instrutor abre resultado/PNL, distingue total,spot e futuros e consulta resultado do dia. Expande taxa de sucesso,fator de lucro,total de ganhos,símbolos e comissões; usa filtros para comparar dias,semanas e meses.",
+      "evidencia": "taxa de sucesso, fator de lucro",
+      "versao": 1
+    },
+    {
+      "numero": 28,
+      "titulo": "Devolver saldo global à contaBrasil",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 1046,
+      "fim": 1128,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Para retirar ao banco, o instrutor primeiro transfere da global para a própriaOKXBrasil: abreLevantar, escolheConta OKXBrasil,informa valor e confirma. Depois muda no perfil para principal/nacional, aguarda e confere recebimento; o teste de US$ 2 chega como US$ 1,99.",
+      "evidencia": "é a conta OKX Brasil que você vai mandar",
+      "versao": 1
+    },
+    {
+      "numero": 29,
+      "titulo": "ConverterUSDT emBRL e observar mínimo",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 1128,
+      "fim": 1217,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Moeda do mínimo não é repetida nessa frase; contexto é a conversão deUSDT paraBRL. Mínimos e câmbio são históricos.",
+      "corpo": "Na conta nacional, o instrutor abreNegociar,Conversão,USDT paraBRL. O primeiro saldo de cerca de US$ 2 não atende o mínimo mostrado de 3,84; envia mais US$ 2 da global, conclui verificação facial e espera crédito. Com saldo suficiente, converte e confere R$ 20,32 e a taxa de câmbio exibida.",
+      "evidencia": "Só que aqui o mínimo é 3,84",
+      "versao": 1
+    },
+    {
+      "numero": 30,
+      "titulo": "Cadastrar conta bancária e solicitar saqueBRL",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma"
+      ],
+      "plataformas": [
+        "okx"
+      ],
+      "inicio": 1193,
+      "fim": 1242,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Após converter, o instrutor vai aAtivos,Sacar,Real Brasileiro,adiciona conta comCPF,banco,agência e número,escolhe valor ou máximo e orienta enviar. O trecho explica a solicitação, sem exibir confirmação de crédito final no banco.",
+      "evidencia": "o número da agência, o número da conta",
+      "versao": 1
+    }
+  ]
+}

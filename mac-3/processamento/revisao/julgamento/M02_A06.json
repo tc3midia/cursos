@@ -1,0 +1,32 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A06",
+  "arquivo_sha256": "8ccbac418f3dc7d45b41bc3ac35082d9467b23d62ad6d9fda660f3f01b1b8ac1",
+  "inspecao_sha256": "296a85f8338e460d37d104fe5c85354f23b869e41e03f29572dde7f7c4780cd8",
+  "veredito": "passa",
+  "fundamentacao": {
+    "formato": "13 unidades sequenciais, contexto de três frases, taxonomia válida e âncoras curtas. Intervalos válidos após expansão de U 12 até 593 para incluir a frase de 5%; checagem estrutural não substitui validação da transcrição.",
+    "fidelidade": "Excertos 0–70 confirmam 20x inicial,30x após 50 operações e segmentação de maiores alavancagens. Provas 183–414 confirmam banca 47 mil, teto 2350,1800 já expostos, espaço arredondado 500, redução 50% tentada e cancelada, erro Dusk/ALICE, execução posterior de ALICE e stop 50%/2,5% ajustado verbalmente para 2,8%/60%. Não se narra a redução frustrada como concluída.",
+    "cobertura": "Mapa de 13 unidades inclui progressão, fechamento de candle, stop, exemplo histórico, teto agregado, tentativas de ordem, correção de ativo, alvos, cruzada/isolada, reserva, autonomia deentrada, disciplina e acompanhamento. Os excertos complementares sustentam os passos essenciais solicitados; ausência de omissões fora deles permanece apoiada na inspeção, não em leitura integral do juiz.",
+    "condicoes_e_numeros": "Preserva 50% da posição versus 2,5% do ativo a 20x,5% sobre banca 47 mil, diferenças entre stop 50/60% e alvos 200/300%. U 12 agora inclui a fala 5% e nota que o denominador dos 2%/5% não é repetido, sem inventar definição. Excertos 571–617 sustentam quatro horas=dois candles e a escolha entre sair com 200% ou permanecer.",
+    "perecibilidade": "Telas Bybit, alavancagem disponível na demonstração, cotações, margem e preços de liquidação têm marcação perecível. Orientações gerais são separadas dos exemplos datados e preferências do instrutor.",
+    "atribuicao_e_limites": "Probabilidades 99,9% e 90% são explicitamente alegações. Preferência por cruzada e interpretação do risco são atribuídas a Bruno, sem promoção a recomendação financeira atual."
+  },
+  "achados": [],
+  "limites": [
+    "Julgamento amostral de três aulas do MAC 3.0; não representa julgamento de todas as aulas dos dois cursos.",
+    "Juiz não leu integralmente nem abriu as transcrições de MAC; confrontou artefatos e evidências selecionadas pela inspeção independente.",
+    "Cobertura avaliada conforme mapa e excertos fornecidos pelo inspetor; literalidade integral das âncoras na fonte permanece no alcance da inspeção e do validador.",
+    "Não avalia eficácia financeira, segurança real das estratégias, validade das probabilidades nem condições atuais de exchanges."
+  ],
+  "historico": [
+    {
+      "rodada": "preliminar",
+      "resultado": "Solicitado complemento de evidências literais com faixas para julgamento independente; âncoras curtas e conclusões da inspeção não bastavam para todos os números e condições."
+    },
+    {
+      "rodada": "final",
+      "resultado": "Complementos conferidos; U12 expandida de fim 571 para 593 e nota esclarece ausência de denominador repetido. Reinspeção e hashes atuais validados. Nenhum achado pendente."
+    }
+  ]
+}

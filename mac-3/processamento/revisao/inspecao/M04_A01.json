@@ -1,0 +1,51 @@
+{
+  "curso": "mac-3",
+  "aula": "M04_A01",
+  "arquivo_sha256": "7e0c80d1ba9459c7791dae9ee1d18ec13a0715c9ab1d23778fbe76ee51b8b12d",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Leitura integral da fonte e confronto de todas as unidades: números, proporções, condições, decisões, limites e passos essenciais. Cobertura semântica adequada; achados locais explicitados. Fidelidade ao instrutor, sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "d7dd47f92de583a8659075e7e3e06145571678f4019d3b2b41d029b0ce61c7a1",
+      "correcao": "U26 âncora literal corrigida, com distinção limite/mercado preservada."
+    },
+    {
+      "arquivo_sha256_anterior": "0da9e6e559e063788c9120cae0b16b326610e0a5c739b66ad20f177699951dae",
+      "correcao": "Espaços editoriais conferidos por equivalência sem whitespace no snapshot independente; nenhuma outra mudança semântica."
+    }
+  ]
+}

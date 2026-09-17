@@ -1,0 +1,210 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A02",
+  "titulo": "Aula 4.2 — Indicador SMA, parte 2",
+  "contexto": [
+    "Continuação da leitura das SMAs branca e amarela em mercado turbulento.",
+    "O instrutor contrasta operar repetidos rompimentos com permanecer numa tendência por dias.",
+    "Exemplos de lucro, frequência de stops e impacto na carteira são afirmações do instrutor.",
+    "Alguns cálculos e comentários orais são imprecisos; não foram harmonizados com dados externos."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Turbulência exige calma e respeito ao stop",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes",
+        "gerenciar-risco"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 10,
+      "fim": 74,
+      "condicoes": "Oscilações e pullbacks próximos ao preço de entrada.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O stop de 1% e seu não acionamento pertencem ao gráfico retrospectivo mostrado na gravação.",
+      "corpo": "Bruno mostra idas e voltas próximas de um stop de 1% e conclui, após se corrigir, que naquele exemplo ele não foi atingido. Orienta manter calma independentemente da agitação do mercado, entrar conforme estratégia e posicionar o stop.",
+      "evidencia": "O que importa é você estar calmo.",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Após stop, esperar novo rompimento",
+      "tipo": "procedimento",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada",
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 50,
+      "fim": 92,
+      "condicoes": "Stop efetivamente atingido.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor propõe procurar outra oportunidade ou reexaminar a mesma, mas aguardar um novo rompimento antes de reentrar. Rejeita entrar novamente abaixo apenas por ansiedade após o stop, pois o preço pode continuar caindo. Ilustra uma perda de 50% na operação seguida por lucro de 300% como defesa da continuidade da estratégia.",
+      "evidencia": "eu vou aguardar um novo rompimento",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Interpretar lateralização e pullback antes de agir",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "interpretar-indicadores",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 88,
+      "fim": 139,
+      "condicoes": "Após rompimento com volumes de compra e venda próximos.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno compara a consistência dos volumes e orienta aguardar quando não há direção clara. Descreve lateralização ou pullback como movimentos que podem anteceder continuidade; se surgir rompimento contrário, pede nova análise e espera, não presumir uma inversão imediata.",
+      "evidencia": "quando há um rompimento contrário, a gente tem que analisar",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Topos descendentes e congruência na venda",
+      "tipo": "regra",
+      "tema": "suporte-e-resistencia",
+      "tarefas": [
+        "identificar-niveis",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 130,
+      "fim": 197,
+      "condicoes": "Busca de confirmação para movimento vendedor.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A referência oral a cerca de 5% dos casos de inversão imediata é estimativa alegada pelo instrutor.",
+      "corpo": "Bruno descreve descida em cascata, com repiques em alturas menores, e pede aguardar rompimento claro. No exemplo, associa maior volume vendedor ao rompimento de uma Pivot Supertrend longa; afirma que uma linha mais longa é mais forte e que seu rompimento sugere maior potencial de spread.",
+      "evidencia": "quanto maior a linha da Pivot SuperTrend mais forte ela é",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Sair e reentrar quando as confirmações mudam",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-saida",
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 183,
+      "fim": 234,
+      "condicoes": "Rompimento contrário e SMA branca acima sugerindo alta.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contas intermediárias aparecem truncadas; preservados apenas os percentuais claros.",
+      "corpo": "No exemplo, Bruno considera adequada uma saída com 3% de movimento, apresentados como 150% a 50x, quando o rompimento e a branca para cima sugerem alta. Se houver novo rompimento vendedor, admite reentrada; aponta outro trecho de 8%, associado a 400%. Usa o caso para dizer que eventual stop integra a estratégia, embora ganhos futuros não sejam demonstrados como garantia.",
+      "evidencia": "é para sair mesmo",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Permanecer exige confirmação contínua nas médias",
+      "tipo": "regra",
+      "tema": "indicadores",
+      "tarefas": [
+        "acompanhar-operacao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 234,
+      "fim": 290,
+      "condicoes": "Posição vendida com branca predominantemente abaixo da amarela.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Movimento de 33% e lucro de 1.500% são valores ditos no exemplo, sem alavancagem/reconciliação explicitada ali. Os percentuais pertencem ao gráfico retrospectivo da gravação; não indicam retorno esperado de nova operação.",
+      "corpo": "Bruno contrasta múltiplas entradas com manter uma posição por dias. Mostra stop de 1% e movimento declarado de 33%, referido como 1.500% de lucro. Justifica a manutenção pela branca ficar majoritariamente abaixo da amarela, com cruzamentos passageiros. Ressalva que não se deve permanecer em toda operação apenas para esperar mais: é necessário confirmar com a SMA amarela.",
+      "evidencia": "É você ir confirmando com a SMA amarela.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Adequar estilo à vida fora da tela",
+      "tipo": "regra",
+      "tema": "planejamento",
+      "tarefas": [
+        "planejar-operacao",
+        "acompanhar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 290,
+      "fim": 326,
+      "condicoes": "Gráfico de duas horas e operações que podem durar dias.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor diz que comprar e vender repetidamente pode servir à prática, mas não recomenda ficar na tela 24 horas por dia. Define seu objetivo como formar investidor que coloca capital para trabalhar com controle emocional e stop, mantendo outras atividades.",
+      "evidencia": "eu não recomendo que é você ficar na tela 24 horas por dia",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Repetir as três etapas e praticar junto à revisão",
+      "tipo": "procedimento",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo",
+        "planejar-operacao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 326,
+      "fim": 356,
+      "condicoes": "Estudo e execução das análises apresentadas.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno recapitula: entrada pela SMA amarela com candle fechado acima ou abaixo; confirmação por volume e congruência dos indicadores; manutenção do spread com auxílio da branca. Recomenda assistir e praticar repetidamente, inclusive cinco, seis, sete ou oito vezes, para consolidar a interpretação.",
+      "evidencia": "primeiro ponto entrada SMA amarela",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Relação espiritualidade, emoção e ação no discurso do instrutor",
+      "tipo": "conceito",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 356,
+      "fim": 381,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "Bruno apresenta espiritualidade, equilíbrio emocional, ações e resultados como sequência de influência. Diz que sua ênfase em Deus visa fortalecer o emocional e não impor filiação religiosa; trata-se da visão pessoal do instrutor.",
+      "evidencia": "O emocional influencia as suas ações",
+      "versao": 1
+    }
+  ]
+}

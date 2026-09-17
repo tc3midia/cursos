@@ -1,0 +1,47 @@
+# plataformas
+
+Índice de unidades, sem síntese nova. Cada link abre a aula com a faixa e a fonte.
+
+- [M02_A04: Instalar TradingView e adicionar lista](../unidades/M02_A04.md#u-f136eb2238d138e9-005) · `U:f136eb2238d138e9:005` · procedimento
+- [M02_A05: Limite e mercado](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-001) · `U:ed27643cbb4f1bb5:001` · conceito
+- [M02_A05: Selecionar par USDT na Bybit](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-005) · `U:ed27643cbb4f1bb5:005` · procedimento
+- [M02_A05: Dimensionar custo e enviar entrada](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-006) · `U:ed27643cbb4f1bb5:006` · procedimento
+- [M02_A05: Consultar retorno percentual e monetário](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-009) · `U:ed27643cbb4f1bb5:009` · procedimento
+- [M02_A05: Reduzir ou fechar com Reduce Only](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-010) · `U:ed27643cbb4f1bb5:010` · procedimento
+- [M02_A05: Configurar TP/SL avançado por ROI](../unidades/M02_A05.md#u-ed27643cbb4f1bb5-011) · `U:ed27643cbb4f1bb5:011` · procedimento
+- [M02_A06: Redução de posição e ordens pendentes](../unidades/M02_A06.md#u-1baf91c5930c2fde-006) · `U:1baf91c5930c2fde:006` · procedimento
+- [M02_A06: Preço agressivo e confirmação do ativo](../unidades/M02_A06.md#u-1baf91c5930c2fde-007) · `U:1baf91c5930c2fde:007` · procedimento
+- [M03_A03: Preferência pelo celular](../unidades/M03_A03.md#u-f5c8c4d5065c6194-001) · `U:f5c8c4d5065c6194:001` · decisao
+- [M03_A06: Identificar margem e lucro](../unidades/M03_A06.md#u-0e8ba8f6dfd602de-003) · `U:0e8ba8f6dfd602de:003` · procedimento
+- [M04_A01: Acesso oficial e cadastro](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-001) · `U:5a8f5bd2f6b420fa:001` · procedimento
+- [M04_A01: Segurança e verificação de identidade](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-003) · `U:5a8f5bd2f6b420fa:003` · procedimento
+- [M04_A01: Preferências de idioma e horário](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-004) · `U:5a8f5bd2f6b420fa:004` · procedimento
+- [M04_A01: Subcontas para separar estratégias](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-005) · `U:5a8f5bd2f6b420fa:005` · decisao
+- [M04_A01: Conta Brasil e conta global distintas](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-006) · `U:5a8f5bd2f6b420fa:006` · conceito
+- [M04_A01: Aplicativo e funções equivalentes](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-007) · `U:5a8f5bd2f6b420fa:007` · procedimento
+- [M04_A01: Obter endereço para depósitoUSDT](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-008) · `U:5a8f5bd2f6b420fa:008` · procedimento
+- [M04_A01: Sacar da Bybit para OKX usando a mesma rede](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-009) · `U:5a8f5bd2f6b420fa:009` · procedimento
+- [M04_A01: Depositar reais e converter antes de transferir](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-010) · `U:5a8f5bd2f6b420fa:010` · procedimento
+- [M04_A01: Transferência nacional para global](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-011) · `U:5a8f5bd2f6b420fa:011` · procedimento
+- [M04_A01: Abrir futuros e configurar layout](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-012) · `U:5a8f5bd2f6b420fa:012` · procedimento
+- [M04_A01: Modo futuros e cobertura](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-013) · `U:5a8f5bd2f6b420fa:013` · procedimento
+- [M04_A01: Confirmações, atalhos e preço de liquidação](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-014) · `U:5a8f5bd2f6b420fa:014` · procedimento
+- [M04_A01: Selecionar ativo, cruzada e alavancagem](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-015) · `U:5a8f5bd2f6b420fa:015` · procedimento
+- [M04_A01: Diferença entre ordem limite e mercado](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-016) · `U:5a8f5bd2f6b420fa:016` · conceito
+- [M04_A01: Distinguir ordem enviada e posição executada](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-019) · `U:5a8f5bd2f6b420fa:019` · procedimento
+- [M04_A01: ConfigurarTP/SL pelo formulário](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-021) · `U:5a8f5bd2f6b420fa:021` · procedimento
+- [M04_A01: ConfigurarTP/SL arrastando linhas](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-022) · `U:5a8f5bd2f6b420fa:022` · procedimento
+- [M04_A01: Fechar percentual ou toda a posição](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-023) · `U:5a8f5bd2f6b420fa:023` · procedimento
+- [M04_A01: Histórico de posição para assertividade](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-024) · `U:5a8f5bd2f6b420fa:024` · procedimento
+- [M04_A01: Abrir short pelo celular](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-025) · `U:5a8f5bd2f6b420fa:025` · procedimento
+- [M04_A01: Fechar e fechar tudo têm execuções diferentes](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-026) · `U:5a8f5bd2f6b420fa:026` · procedimento
+- [M04_A01: Consultar painel de desempenho](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-027) · `U:5a8f5bd2f6b420fa:027` · procedimento
+- [M04_A01: Devolver saldo global à contaBrasil](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-028) · `U:5a8f5bd2f6b420fa:028` · procedimento
+- [M04_A01: ConverterUSDT emBRL e observar mínimo](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-029) · `U:5a8f5bd2f6b420fa:029` · procedimento
+- [M04_A01: Cadastrar conta bancária e solicitar saqueBRL](../unidades/M04_A01.md#u-5a8f5bd2f6b420fa-030) · `U:5a8f5bd2f6b420fa:030` · procedimento
+- [M04_A02: Separar operação de tela da decisão de 3x](../unidades/M04_A02.md#u-47a74e13abe9b56d-001) · `U:47a74e13abe9b56d:001` · limite
+- [M04_A02: Conferir futuro, cruzada e alavancagem](../unidades/M04_A02.md#u-47a74e13abe9b56d-005) · `U:47a74e13abe9b56d:005` · procedimento
+- [M04_A02: Margem é o custo sem alavancagem](../unidades/M04_A02.md#u-47a74e13abe9b56d-006) · `U:47a74e13abe9b56d:006` · conceito
+- [M04_A02: Calcular 3x e repetir a mesma direção](../unidades/M04_A02.md#u-47a74e13abe9b56d-007) · `U:47a74e13abe9b56d:007` · procedimento
+- [M04_A02: Fechar 80% da posição pela régua](../unidades/M04_A02.md#u-47a74e13abe9b56d-008) · `U:47a74e13abe9b56d:008` · procedimento
+- [M04_A02: Conferir saldo restante e reduzir outras frações](../unidades/M04_A02.md#u-47a74e13abe9b56d-009) · `U:47a74e13abe9b56d:009` · procedimento

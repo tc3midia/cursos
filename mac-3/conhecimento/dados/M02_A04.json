@@ -1,0 +1,184 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A04",
+  "titulo": "Lista das Criptos",
+  "contexto": [
+    "Aula introdutória à seleção de criptos e ao ambiente gráfico do método.",
+    "O instrutor prioriza negociações por gráfico, sem apego ao ativo ou estudo de notícias.",
+    "Afirmações sobre retornos e disponibilidade de alertas permanecem atribuídas ao instrutor."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Operar sem apego à criptomoeda",
+      "tipo": "regra",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 7,
+      "fim": 65,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor descreve criptomoeda como ativo digital em grande parte descentralizado. No escopo do treinamento, prioriza entrar e sair com lucro em compra ou venda e orienta não manter apego ao ativo nem estudá-lo para investimento de longo prazo.",
+      "evidencia": "você não é apegado a a criptomoedas",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Exigir mais de um ano de histórico",
+      "tipo": "regra",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 40,
+      "fim": 65,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O único filtro declarado pelo instrutor para escolher a cripto é ter mais de um ano de mercado, porque precisa de histórico gráfico para analisar. Esclarece que essa exigência não é apresentada como prova de segurança ou robustez.",
+      "evidencia": "a cripto tem que ter mais de um ano de mercado",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Não usar notícias como critério do método",
+      "tipo": "regra",
+      "tema": "fundamentos",
+      "tarefas": [
+        "avaliar-entrada"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 40,
+      "fim": 124,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor declara não usar notícias, revistas, falas de presidentes ou opiniões de youtubers para selecionar entradas. Recomenda ao aluno a mesma concentração no gráfico, sem projetar potencial da moeda.",
+      "evidencia": "não fique apegado à notícia",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Grupos de criptos na explicação",
+      "tipo": "conceito",
+      "tema": "fundamentos",
+      "tarefas": [
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 65,
+      "fim": 124,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor agrupa Bitcoin e Ethereum como blue chips; Solana, Chainlink e Avalanche como exemplos de altcoins selecionadas; e stablecoins como instrumentos de proteção. Equipara a compra de USDT à de dólares na explicação, mas diz que guardar moedas não é o objetivo deste treinamento.",
+      "evidencia": "as blue chips, bitcoin e ethereum",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Instalar TradingView e adicionar lista",
+      "tipo": "procedimento",
+      "tema": "plataformas",
+      "tarefas": [
+        "configurar-plataforma",
+        "localizar-recursos"
+      ],
+      "plataformas": [
+        "tradingview",
+        "outra"
+      ],
+      "inicio": 98,
+      "fim": 157,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Bybit é a exchange citada como comparação; marcada outra.",
+      "corpo": "O instrutor encaminha à aula seguinte/treinamento abaixo para instalar TradingView, adicionar a lista de criptos e analisar seus gráficos. Menciona mais de 300 moedas disponíveis na lista e prefere TradingView aos gráficos da própria Bybit, que considera pequenos e limitados.",
+      "evidencia": "vai precisar realmente instalar o TradingView",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Alertas são gatilho para análise",
+      "tipo": "procedimento",
+      "tema": "ecossistema",
+      "tarefas": [
+        "avaliar-entrada",
+        "localizar-recursos"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "inicio": 124,
+      "fim": 157,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Nome Águia Spread aparece foneticamente corrompido na transcrição; identificação contextual.",
+      "corpo": "O instrutor apresenta alertas de rompimento nos produtos Sinais Milionários e Águia Spread como aviso de momento propício para abrir e analisar o gráfico, sem descrever o alerta como ordem automática de entrada.",
+      "evidencia": "Você vai receber as criptos já com um alerta de rompimento",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Preferir computador e reduzir distrações",
+      "tipo": "regra",
+      "tema": "gestao-emocional",
+      "tarefas": [
+        "gerenciar-emocoes"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 157,
+      "fim": 180,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor atualiza sua preferência anterior por celular e passa a recomendar laptop ou computador, valorizando portabilidade do laptop e menor distração com redes sociais. Sugere deixar o celular longe e usar WhatsApp Web se necessário para comunicação e trabalho.",
+      "evidencia": "coloca o celular longe e foca nisso aqui",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Próximo passo e limite do treinamento",
+      "tipo": "limite",
+      "tema": "planejamento",
+      "tarefas": [
+        "configurar-plataforma",
+        "compreender-metodo"
+      ],
+      "plataformas": [
+        "tradingview"
+      ],
+      "inicio": 180,
+      "fim": 201,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor manda assistir à instalação do TradingView, configurar o indicador e adicionar a lista de criptos. Reforça que comprar no spot e segurar pelo potencial futuro não é o foco do método; sua comparação de anos de Bitcoin com semanas no método é uma alegação promocional pessoal.",
+      "evidencia": "adicionar a lista das criptomoedas que você vai operar",
+      "versao": 1
+    }
+  ]
+}

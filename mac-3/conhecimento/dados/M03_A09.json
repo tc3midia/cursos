@@ -1,0 +1,77 @@
+{
+  "curso": "mac-3",
+  "aula": "M03_A09",
+  "titulo": "Resposta 9 - Usando o ajuste de Alavancagem para fazer +R$1.000 por dia",
+  "contexto": [
+    "Resposta sobre ajuste de alavancagem durante uma posição.",
+    "A aplicação descrita é para investidor experiente com banca elevada.",
+    "A transcrição contém uma sequência de retirada e saldo monetário que não fica inteiramente reconciliada."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Ajustar alavancagem durante a posição",
+      "tipo": "decisao",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 19,
+      "fim": 53,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "O instrutor afirma que se pode alterar alavancagem durante a operação. Situa sua forma de uso num investidor já habituado a operações de US$ 10 mil, com experiência individual consolidada; não fixa tempo universal de aprendizagem.",
+      "evidencia": "no meio da operação, eu posso ajustar essa alavancagem? Pode",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Aporte maior para movimento curto",
+      "tipo": "exemplo",
+      "tema": "entradas-e-saidas",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 53,
+      "fim": 86,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "corpo": "No exemplo, investidor acostumado a US$ 10 mil por operação e com banca possível de US$ 500 mil identifica alta acelerando, entra com US$ 50 mil e busca 50%, equivalentes a US$ 25 mil de lucro. O instrutor condiciona essa posição maior a ter banca para comportá-la.",
+      "evidencia": "lógico ele tem banca para isso",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Aumentar alavancagem e reduzir margem após realização",
+      "tipo": "procedimento",
+      "tema": "alavancagem",
+      "tarefas": [
+        "dimensionar-exposicao",
+        "avaliar-saida"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "inicio": 53,
+      "fim": 87,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala alterna US$ 50 mil retirados, US$ 25 mil remanescentes e lucro; a sequência exata de retiradas não é inequívoca. Preservada a lógica, sem completar contas.",
+      "corpo": "Depois do movimento lucrativo, o instrutor descreve realizar parte e passar a alavancagem de 20x a 75x. Diz que a corretora reduz o tamanho da margem, levando a aproximadamente US$ 11–12 mil, valor confortável para quem operava US$ 10 mil. Orienta calcular a combinação e sair aos poucos.",
+      "evidencia": "a própria corretora faz ela diminui o tamanho da margem",
+      "versao": 1
+    }
+  ]
+}

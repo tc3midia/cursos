@@ -1,0 +1,25 @@
+{
+  "curso": "mac-3",
+  "aula": "M03_A03",
+  "arquivo_sha256": "113e448269d67cfa6f5ed9e099546c51d78aeea5177cf93d434a856398673c22",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Transcrição integral lida; todas as unidades confrontadas quanto a números, faixas, denominadores, condições, passos e decisões. Cobertura essencial adequada, ressalvados achados locais. Fidelidade ao instrutor, sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "2f3eb1e94d2715d30cce3a92cd846fbcda381fa98564bd784d841d7ee13beaec",
+      "correcao": "Espaços editoriais conferidos por equivalência sem whitespace no snapshot independente; nenhuma outra mudança semântica."
+    },
+    {
+      "arquivo_sha256_anterior": "ea49c60e9aae21660aec0a3c46e0599e9cc9d545656b0c392d2f5477f0c8b6b8",
+      "correcao": "Revisão focal após padrão detectado no julgamento: unidades2 marcadas perecíveis e notas contextualizam interface, serviço ou movimento do gráfico da gravação. Ajuste somente de metadados aplicado pelo inspetor por autorização limitada da coordenação; corpos/evidências/tipos/números preservados e metadados reinspecionados."
+    }
+  ]
+}

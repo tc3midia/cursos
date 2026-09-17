@@ -1,0 +1,26 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M04_A03",
+  "arquivo_sha256": "3fe21afc8b49cc766cc955e47027bc3ed037b5bac069d075cfcfb9c834ae739f",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Fonte integral lida e todas as unidades confrontadas, incluindo números, condições, passos e decisões. Cobertura essencial adequada, com correção localizada indicada. Sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "3fe21afc8b49cc766cc955e47027bc3ed037b5bac069d075cfcfb9c834ae739f",
+      "correcao": "U6 preserva relato de fábrica já construída, com autossustentabilidade e100 empregos projetados."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "curso": "mac-3",
+  "aula": "M02_A05",
+  "arquivo_sha256": "e1156798989227f058778add7fa7aa078d3433c37e805200dcf0da083c7f4107",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Transcrição integral lida; todas as unidades confrontadas quanto a números, faixas, denominadores, condições, passos e decisões. Cobertura essencial adequada, ressalvados achados locais. Fidelidade ao instrutor, sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "07b63bf73ae84cb6cb855e1c3dd45ded1d9a7873395f4c4ed606d69f7491574d",
+      "correcao": "Reordenadas unidades por inicio; U4 identificaBybit; confirmação final removida da preparaçãoTP/SL e preservada na unidade posterior."
+    },
+    {
+      "arquivo_sha256_anterior": "0c0ff9b9415696182d9a63e365131a1dd62fd9c8f891b1378229de540cf35e97",
+      "correcao": "Espaços editoriais conferidos por equivalência sem whitespace no snapshot independente; nenhuma outra mudança semântica."
+    },
+    {
+      "arquivo_sha256_anterior": "bda0a6e9b0311d5efd22584ee0276a815104ad0dee9c56881b973c279fede1fe",
+      "correcao": "Revisão focal após padrão detectado no julgamento: unidades12 marcadas perecíveis e notas contextualizam interface, serviço ou movimento do gráfico da gravação. Ajuste somente de metadados aplicado pelo inspetor por autorização limitada da coordenação; corpos/evidências/tipos/números preservados e metadados reinspecionados."
+    }
+  ]
+}

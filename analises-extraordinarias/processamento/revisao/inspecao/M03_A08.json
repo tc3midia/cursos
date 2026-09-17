@@ -1,0 +1,28 @@
+{
+  "curso": "analises-extraordinarias",
+  "aula": "M03_A08",
+  "arquivo_sha256": "61a1bbcc36d4d9d96b4959836baf5504c74a5b9fe6a3ff754022e2c950fb5f1b",
+  "veredito": "passa",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "achados": [],
+  "omissoes": [],
+  "alcance": "Leitura integral da fonte e confronto de todas as unidades: números, proporções, condições, decisões, limites e passos essenciais. Cobertura semântica adequada; achados locais explicitados. Fidelidade ao instrutor, sem validação financeira externa.",
+  "historico_correcoes": [
+    {
+      "arquivo_sha256_anterior": "fc43939f9320be6a150f736c2b5e17d3085864dcaacd400b74dbb5b6231dafd4",
+      "correcao": "U6 âncora substituída por literal dentro da faixa, sem mudança da explicação."
+    }
+  ]
+}
