@@ -1,0 +1,611 @@
+1
+00:00:00,000 --> 00:00:13,620
+Então, essa aula eu vou te mostrar, na prática, uma VSL que eu criei justamente para esse treinamento.
+
+2
+00:00:13,620 --> 00:00:21,550
+Essa VSL nunca foi lançada, ela nunca foi testada, mas eu criei ela com base que se eu tivesse que criar uma VSL para esse tipo de produto, eu iria colocar esse tipo de VSL para rodar.
+
+3
+00:00:21,550 --> 00:00:25,570
+Bom, então essa aula demorou um pouco mais, quem comprou o curso antes dessa aula lançar sabe que ela demorou um pouquinho mais
+
+4
+00:00:25,570 --> 00:00:28,960
+por conta que realmente eu fiz de tudo pra dar uma caprichada nela pra vocês verem como que funciona
+
+5
+00:00:28,960 --> 00:00:33,510
+porque eu não queria pegar qualquer VSL, fazer de qualquer jeito e mostrar pra vocês uma porcaria e vocês não aprender nada, fechou?
+
+6
+00:00:33,510 --> 00:00:34,850
+A intenção do treinamento não é essa.
+
+7
+00:00:35,120 --> 00:00:35,470
+Então, vamos lá.
+
+8
+00:00:35,740 --> 00:00:39,990
+Vamos começar a VSL de uma forma totalmente diferente e vender um produto e vamos ver o que vocês acham, tá?
+
+9
+00:00:40,230 --> 00:00:44,370
+Lembrando que essa VSL eu coloquei ali no Rodem Bump, ou seja, no Checkout você tem a opção de comprar essa VSL, tá?
+
+10
+00:00:44,590 --> 00:00:47,290
+Para você ler essa VSL e conseguir entender um pouquinho melhor como que funciona.
+
+11
+00:00:47,290 --> 00:00:49,430
+Aqui nesse treinamento eu não vou deixar ela disponível em documento
+
+12
+00:00:49,430 --> 00:00:51,250
+Somente em ordem Bump e eu vou explicar comentando ela
+
+13
+00:00:51,250 --> 00:00:52,720
+Mas é bom você ter essa VSL em mãos
+
+14
+00:00:52,720 --> 00:00:53,890
+Para quando você for criar a sua
+
+15
+00:00:53,890 --> 00:00:54,920
+Você pegar ela de base
+
+16
+00:00:54,920 --> 00:00:55,880
+Porque o documento que eu criei
+
+17
+00:00:55,880 --> 00:00:57,290
+Eu coloquei muito bem explicado em cada parte, tá bom?
+
+18
+00:00:57,580 --> 00:00:59,830
+Na próxima aula eu vou mostrar cada etapa dessa VSL
+
+19
+00:00:59,830 --> 00:01:00,990
+E hoje a gente vai fazer um comentado dela, fechou?
+
+20
+00:01:01,520 --> 00:01:01,880
+Então vamos lá
+
+21
+00:01:01,880 --> 00:01:04,500
+Andressa chegou em casa cansada de mais um dia de trabalho pesado como faxineira
+
+22
+00:01:04,500 --> 00:01:07,840
+Então sentou-se no sofá e vem sua filha Sofia de 6 anos extremamente feliz e animada dizendo
+
+23
+00:01:07,840 --> 00:01:09,480
+Mamãe, eu e o papai brincou de dedinho hoje
+
+24
+00:01:09,480 --> 00:01:12,530
+Agora se coloque no lugar da Andressa e imagine o que ela pensou quando a sua filha disse isso
+
+25
+00:01:12,530 --> 00:01:15,060
+Seu casamento já não estava bom, sexo e carinho já não existia mais
+
+26
+00:01:15,060 --> 00:01:18,270
+E por final, Sofia, sua filha, chega dizendo uma brincadeira que parece mais um abuso.
+
+27
+00:01:18,370 --> 00:01:20,910
+Então ela assustada perguntou a Sofia, filha, como assim? O papai colocou o dedo em você?
+
+28
+00:01:21,240 --> 00:01:24,070
+A filha responde, sim mamãe. O papai e eu já brincamos disso muitas vezes, só que dessa vez doeu muito.
+
+29
+00:01:24,490 --> 00:01:27,200
+Andressa em choque e extremamente sem chão percebeu que sua filha foi abusada pelo próprio pai.
+
+30
+00:01:27,200 --> 00:01:29,400
+Com muita raiva e ódio, ela pensou duas vezes no que deveria fazer.
+
+31
+00:01:29,570 --> 00:01:31,420
+Até porque Júlio, seu marido, é um homem extremamente manipulador.
+
+32
+00:01:31,620 --> 00:01:33,910
+Então, se a Andressa tirar satisfação com ele, Júlio com certeza iria contornar a situação.
+
+33
+00:01:34,460 --> 00:01:35,470
+Eu simplesmente não sei o que fazer.
+
+34
+00:01:35,570 --> 00:01:37,540
+Se eu denunciar o pai da minha filha, ela vai lembrar disso pro resto da vida dela.
+
+35
+00:01:37,750 --> 00:01:38,710
+Porém, eu não posso ficar de braços cruzados.
+
+36
+00:01:38,820 --> 00:01:39,710
+Ele abusou da própria filha.
+
+37
+00:01:39,810 --> 00:01:40,570
+O que esse homem é capaz de fazer?
+
+38
+00:01:40,980 --> 00:01:43,470
+Então Andressa tomou coragem e foi fazer algo que se arrependeria pelo resto da sua vida.
+
+39
+00:01:43,790 --> 00:01:45,050
+E foi denunciar o seu marido por abuso sexual.
+
+40
+00:01:45,620 --> 00:01:47,260
+Levei minha filha para a delegacia e fiz a denúncia contra o meu marido.
+
+41
+00:01:47,570 --> 00:01:48,830
+Foram no trabalho dele e fizeram uma busca e apreensão.
+
+42
+00:01:48,980 --> 00:01:50,780
+Chegando lá, ele fingiu que não sabia de nada que estava acontecendo.
+
+43
+00:01:51,040 --> 00:01:51,300
+Cínico.
+
+44
+00:01:51,610 --> 00:01:53,680
+Dizendo que não fez isso e que nunca teria coragem de tocar na Sofia.
+
+45
+00:01:53,850 --> 00:01:54,780
+Mas ele esqueceu que criança não mente.
+
+46
+00:01:54,780 --> 00:01:57,620
+Eu devastada em saber que a minha filha teria cicatrizes de algo que ela não teve com
+
+47
+00:01:57,620 --> 00:01:59,850
+Eu deveria ter acabado com esse relacionamento de merda antes disso acontecer
+
+48
+00:01:59,850 --> 00:02:01,400
+Depois que a sua filha nasceu, ele mudou muito
+
+49
+00:02:01,400 --> 00:02:02,410
+E eu de fato continuei com ele
+
+50
+00:02:02,410 --> 00:02:04,390
+Por conta que eu não tinha coragem de largar tudo e começar do zero
+
+51
+00:02:04,390 --> 00:02:06,880
+Medo do que as pessoas iriam pensar de mim na casa da minha mãe com a minha filha
+
+52
+00:02:06,880 --> 00:02:08,660
+Vergonha de não conseguir dar tudo o que a minha filha sonhava
+
+53
+00:02:08,970 --> 00:02:10,790
+Eu continuei com esse homem mesmo não amando ele por causa da minha filha.
+
+54
+00:02:10,990 --> 00:02:12,310
+Eu não queria que ela crescesse sem a presença do pai.
+
+55
+00:02:12,590 --> 00:02:13,580
+E tudo isso acabou em um estupro.
+
+56
+00:02:13,860 --> 00:02:15,220
+E a pior parte é que eu me sinto mais culpada do que ele.
+
+57
+00:02:15,540 --> 00:02:18,180
+Tudo isso passava na minha cabeça enquanto minha filha estava fazendo o exame de corpo de delito.
+
+58
+00:02:18,400 --> 00:02:20,420
+Enquanto isso, Júlio começou a chorar e eu fiquei pensando se era por arrependimento
+
+59
+00:02:20,420 --> 00:02:21,910
+ou pelas consequências que ele vai enfrentar a partir de agora.
+
+60
+00:02:22,270 --> 00:02:23,280
+Minha filha chega juntamente com a doutora.
+
+61
+00:02:23,280 --> 00:02:26,640
+que sai o resultado e confirmou que ela não sofreu nenhum abuso do meu marido.
+
+62
+00:02:27,140 --> 00:02:27,800
+Ele olha para mim chorando.
+
+63
+00:02:28,100 --> 00:02:29,550
+Eu e o delegado então ouviu a sua versão.
+
+64
+00:02:29,930 --> 00:02:30,770
+Eu nunca faria isso.
+
+65
+00:02:31,010 --> 00:02:31,460
+Essa mulher é louca.
+
+66
+00:02:31,660 --> 00:02:32,860
+Ela toma remédios controlados no qual eu pago.
+
+67
+00:02:33,120 --> 00:02:34,420
+Eu sou o proveitor da casa e nunca deixei faltar nada.
+
+68
+00:02:34,420 --> 00:02:36,620
+Quando Sofia nasceu, Andressa teve uma depressão pós-parto enorme
+
+69
+00:02:36,620 --> 00:02:37,730
+e depois disso ela nunca foi a mesma.
+
+70
+00:02:37,730 --> 00:02:39,760
+Mas pelo amor que tenho por ela e por ser um cristão temente a Deus
+
+71
+00:02:39,760 --> 00:02:40,670
+Sempre me mantive na minha
+
+72
+00:02:40,670 --> 00:02:42,110
+Comprando seus remédios e tudo o que ela precisava
+
+73
+00:02:42,110 --> 00:02:43,490
+Eu e a Sofia tem a brincadeira do dedinho
+
+74
+00:02:43,490 --> 00:02:44,930
+Quando ela fecha suas mãozinhas em um dedo meu
+
+75
+00:02:44,930 --> 00:02:46,950
+Para eu sungar ela para ver o quanto o papai é forte
+
+76
+00:02:46,950 --> 00:02:48,920
+Andressa sem chão e soluçando pediu perdão para o marido
+
+77
+00:02:48,920 --> 00:02:51,110
+Implorando para ele relevar essa tragédia
+
+78
+00:02:51,110 --> 00:02:52,480
+A sua resposta foi o divórcio
+
+79
+00:02:52,480 --> 00:02:59,290
+Ele provou que a Andressa não tinha condições de cuidar da Sofia, então pegou a guarda da sua filha e hoje, Andressa, minha mãe, vive em uma depressão profunda por ter perdido tudo.
+
+80
+00:02:59,600 --> 00:03:06,020
+Meu nome é Sofia e eu estou aqui para dizer a você que eu sou a prova viva de ver a falta de comunicação e entendimento a dois pode devastar uma vida, como aconteceu com a minha mãe.
+
+81
+00:03:06,020 --> 00:03:09,060
+Passei toda a minha vida estudando sobre o comportamento e mecanismos humanos para entrar em um resultado
+
+82
+00:03:09,060 --> 00:03:13,080
+Todos os resultados de divórcios e tragédias no casal brasileiro são causados pela falta de comunicação e entendimento
+
+83
+00:03:13,080 --> 00:03:16,560
+E o resultado disso é a falta de competência de profissionais que não sabem de fato como o cérebro humano funciona
+
+84
+00:03:16,560 --> 00:03:20,380
+Eu tenho certeza que você já viu por aí vários cursinhos dizendo que você vai conseguir recuperar o seu casamento em 30 dias
+
+85
+00:03:20,380 --> 00:03:23,300
+mas nenhum deles fala do estudo que realmente faz a diferença no dia a dia, que é a neurociência.
+
+86
+00:03:23,510 --> 00:03:25,440
+A neurociência é o estudo do cérebro e do sistema nervoso.
+
+87
+00:03:25,760 --> 00:03:27,570
+Ela investiga como essas partes do corpo funcionam
+
+88
+00:03:27,570 --> 00:03:29,710
+e como elas afetam o nosso comportamento, pensamento e emoções.
+
+89
+00:03:29,920 --> 00:03:31,570
+Então, o que vamos fazer para você, de fato, conseguir recuperar o seu casamento
+
+90
+00:03:31,570 --> 00:03:34,100
+não é te passando um cursinho que vai te ensinar a falar e tratar bem o seu parceiro,
+
+91
+00:03:34,100 --> 00:03:37,200
+mas sim como entender o seu par emocionalmente, prevenindo brigas, discussões,
+
+92
+00:03:37,280 --> 00:03:39,230
+apenas entendendo a mentalidade e as atitudes do seu cônjuge.
+
+93
+00:03:39,310 --> 00:03:41,600
+Ou seja, o que eu estou prometendo a você é dar um basta a partir de agora
+
+94
+00:03:41,600 --> 00:03:44,760
+nas brigas com os conceitos e estudos que eu coloquei na minha primeira ala da minha sessão de tratamento,
+
+95
+00:03:44,950 --> 00:03:47,800
+onde você vai entender como contornar uma briga e resolvê-la de forma calma e natural.
+
+96
+00:03:47,800 --> 00:03:49,140
+Como de fato entender o seu par
+
+97
+00:03:49,140 --> 00:03:50,790
+Para colocarmos em ação a reciprocidade
+
+98
+00:03:50,790 --> 00:03:52,600
+Conseguir identificar mentiras através do olhar, gestos
+
+99
+00:03:52,600 --> 00:03:53,820
+E conseguir contornar a situação
+
+100
+00:03:53,820 --> 00:03:56,170
+Para você de fato ter uma vida mais calma e amorosa com o seu par
+
+101
+00:03:56,170 --> 00:03:57,920
+Apenas aplicando algo que é muito novo no Brasil
+
+102
+00:03:57,920 --> 00:04:00,110
+Eu tenho certeza que vai mudar a forma que você e o seu marido vivem atualmente
+
+103
+00:04:00,110 --> 00:04:02,270
+Para aí sim, você ir para a segunda sessão do tratamento
+
+104
+00:04:02,270 --> 00:04:04,470
+Onde eu mostro como ter uma base sólida e feliz com seu marido
+
+105
+00:04:04,470 --> 00:04:06,890
+Aprendendo e entendendo a mentalidade ideal para um futuro com amor
+
+106
+00:04:06,890 --> 00:04:07,650
+Através de aulas simples
+
+107
+00:04:07,650 --> 00:04:10,540
+Onde eu mostro exemplos reais de pessoas que aplicaram e conseguiram reverter o divórcio
+
+108
+00:04:10,540 --> 00:04:12,300
+Com o mais incrível sistema de visualização de emoção
+
+109
+00:04:12,300 --> 00:04:13,330
+Mas antes de te oferecer tudo isso
+
+110
+00:04:13,330 --> 00:04:14,590
+Quero fazer algo que na minha opinião é o ouro
+
+111
+00:04:14,590 --> 00:04:16,140
+E que de fato vai mudar a relação de vocês dois
+
+112
+00:04:16,140 --> 00:04:17,800
+Onde eu vou entrar com você em uma terapia de uma hora
+
+113
+00:04:17,800 --> 00:04:19,480
+Onde eu vou te atender ao vivo, só nas duas
+
+114
+00:04:19,480 --> 00:04:21,640
+Você vai me explicar tudo o que está acontecendo e passando pela sua vida de casada
+
+115
+00:04:21,640 --> 00:04:24,240
+Para que eu, psiquiatra, neurocientista, possa usar todo o meu conhecimento
+
+116
+00:04:24,240 --> 00:04:26,100
+Para te dar uma solução única através da nossa terapia exclusiva
+
+117
+00:04:26,100 --> 00:04:29,050
+Então está liberada as vagas da primeira, segunda aula e a terapia online, só nas duas
+
+118
+00:04:29,050 --> 00:04:31,620
+por apenas 12 vezes de R$ 12,90 ou R$ 129 a vista.
+
+119
+00:04:31,740 --> 00:04:33,860
+Toque no botão verde abaixo e tenha acesso a todo o meu treinamento
+
+120
+00:04:33,860 --> 00:04:36,300
+que já mudou a vida de mais de 1.500 casais que estavam devastados
+
+121
+00:04:36,300 --> 00:04:38,120
+pela insegurança e a falta de compreensão a dois.
+
+122
+00:04:38,210 --> 00:04:39,800
+E tudo isso eu conto como uma grande graça,
+
+123
+00:04:40,020 --> 00:04:42,020
+pois eu vivi longe da minha mãe por toda a minha infância,
+
+124
+00:04:42,310 --> 00:04:43,290
+por conta de um erro que ela cometeu.
+
+125
+00:04:43,290 --> 00:04:46,000
+Mas tudo isso poderia ser evitado se ela tivesse a sanidade e o entendimento
+
+126
+00:04:46,000 --> 00:04:48,170
+E tudo que ela precisava fazer era ter entendido a situação
+
+127
+00:04:48,170 --> 00:04:51,430
+Então eu dediquei a minha vida para fazer com que nenhuma criança passe pelas inseguranças que eu passei
+
+128
+00:04:51,430 --> 00:04:54,340
+E sofra em ver sua mãe ou o pai devastado por conta de uma decisão equivocada
+
+129
+00:04:54,340 --> 00:04:57,500
+Toque no botão abaixo, preencha seus dados corretamente e faça parte da nossa comunidade
+
+130
+00:04:57,500 --> 00:04:59,990
+Receba agora todas as sessões para mudar o seu casamento
+
+131
+00:04:59,990 --> 00:05:03,470
+E após isso, vai ser um prazer imenso poder usar todo o meu conhecimento para a nossa terapia online
+
+132
+00:05:03,470 --> 00:05:05,000
+Onde vamos falar especialmente do seu casamento
+
+133
+00:05:05,000 --> 00:05:07,090
+E com base nisso, eu vou te ajudar a recuperar a sua vida de casada
+
+134
+00:05:07,090 --> 00:05:10,130
+Através de mais de 15 anos de conhecimento na área psicológica e neurociência
+
+135
+00:05:10,130 --> 00:05:12,450
+E caso você seja assim como as minhas pacientes
+
+136
+00:05:12,450 --> 00:05:13,700
+Que já haviam tentado de tudo e não conseguiu
+
+137
+00:05:13,700 --> 00:05:14,320
+Eu vou te falar uma coisa
+
+138
+00:05:14,320 --> 00:05:16,320
+Quantas vezes você tentou fazer métodos do YouTube no casamento?
+
+139
+00:05:16,560 --> 00:05:18,280
+Quantas videoaulas você comprou para reatar o seu casamento?
+
+140
+00:05:18,390 --> 00:05:19,310
+Se você está aqui agora me assistindo
+
+141
+00:05:19,310 --> 00:05:20,240
+Eu acredito que nenhuma funcionou
+
+142
+00:05:20,240 --> 00:05:21,900
+Pelo fato que todos os métodos e cursinhos
+
+143
+00:05:21,900 --> 00:05:23,580
+Foram criados por pessoas que visam ao lucro
+
+144
+00:05:23,580 --> 00:05:24,350
+E na venda dessas aulas
+
+145
+00:05:24,350 --> 00:05:30,440
+O que fazemos é algo totalmente único, até porque somente a minha consulta de uma hora custa mais de R$ 1.497 para os casais que me procuram diariamente na minha clínica.
+
+146
+00:05:30,600 --> 00:05:31,500
+Então vem a pergunta, por que não?
+
+147
+00:05:31,940 --> 00:05:35,050
+Uma última chance para reatar algo que você tem certeza que o que falta é a compreensão e o entendimento,
+
+148
+00:05:35,190 --> 00:05:37,430
+até porque o amor você sente lá no fundo e isso existe em ambos.
+
+149
+00:05:37,430 --> 00:05:42,640
+Então toca no link abaixo e garanta agora suas sessões, marque a sua terapia comigo e será um prazer realizar essa mudança incrível na sua vida.
+
+150
+00:05:42,910 --> 00:05:49,810
+Meu nome é Sofia, foi um imenso prazer compartilhar minha história com você e eu agradeço por ter assistido até o fim e poder compartilhar o meu conhecimento com você para te ajudar a ter uma vida amorosa e estável como casal.
+
+151
+00:05:50,040 --> 00:05:52,070
+Eu te vejo do outro lado do botão verde. Até lá.
+
+152
+00:05:52,070 --> 00:05:56,520
+Foi isso. Na próxima aula, a gente vai falar cada parte e cada etapa dessa VSL. Um forte abraço.
+
+153
+00:06:07,070 --> 00:06:08,070
+Obrigado.
