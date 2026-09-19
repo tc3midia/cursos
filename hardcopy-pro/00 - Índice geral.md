@@ -1,7 +1,7 @@
 # Hardcopy Pro — índice das transcrições
 
-113 gravações completas disponíveis no acervo em 19/09/2026. Transcrição automática em português pelo Whisper `large-v3-turbo` na GPU; não revisada integralmente contra o áudio.
-O módulo 0 a 100K ainda está incompleto na origem local. Tentativas e trechos parciais não entram na contagem de aulas.
+138 gravações completas disponíveis no acervo em 19/09/2026. Transcrição automática em português pelo Whisper `large-v3-turbo` na GPU; não revisada integralmente contra o áudio.
+As 138 aulas previstas no índice local estão gravadas. Tentativas e trechos parciais não entram na contagem de aulas.
 
 ## 01 Hard Copy/1a Temporada - O Inicio
 
@@ -146,3 +146,34 @@ O módulo 0 a 100K ainda está incompleto na origem local. Tentativas e trechos 
 
 - [Aula 1 - Vem aqui…](05%200%20a%20100K/03%20Inteligencia%20Artificial/hc_100k_t3_a01_vem_aqui/transcricao.md)
 - [Aula 2 - Entonação e voz](05%200%20a%20100K/03%20Inteligencia%20Artificial/hc_100k_t3_a02_entonacao_e_voz/transcricao.md)
+- [Aula 3 - Deixando o áudio pronto](05%200%20a%20100K/03%20Inteligencia%20Artificial/hc_100k_t3_a03_deixando_audio_pronto/transcricao.md)
+- [Aula 4 - Procurando o humano perfeito](05%200%20a%20100K/03%20Inteligencia%20Artificial/hc_100k_t3_a04_procurando_humano_perfeito/transcricao.md)
+- [Aula 5 - Olha isso](05%200%20a%20100K/03%20Inteligencia%20Artificial/hc_100k_t3_a05_olha_isso/transcricao.md)
+## 05 0 a 100K/04 Edicao
+
+- [Aula 1 - Canva](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a01_canva/transcricao.md)
+- [Aula 2 - Áudio pronto](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a02_audio_pronto/transcricao.md)
+- [Aula 3 - Mão na massa](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a03_mao_na_massa/transcricao.md)
+- [Aula 4 - Anúncios](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a04_anuncios/transcricao.md)
+- [Aula 5 - Edição Anúncio 01](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a05_edicao_anuncio_01/transcricao.md)
+- [Aula 6 - Som e sentimentalismo, Anúncio 01](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a06_som_sentimentalismo_anuncio_01/transcricao.md)
+- [Aula 7 - Edição Anúncio 02](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a07_edicao_anuncio_02/transcricao.md)
+- [Aula 8 - Som e sentimentalismo, Anúncio 02](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a08_som_sentimentalismo_anuncio_02/transcricao.md)
+- [Aula 9 - Hora de fazer $$$](05%200%20a%20100K/04%20Edicao/hc_100k_t4_a09_hora_de_fazer_dinheiro/transcricao.md)
+## 05 0 a 100K/05 Estrutura
+
+- [Aula 1 - Domínio](05%200%20a%20100K/05%20Estrutura/hc_100k_t5_a01_dominio/transcricao.md)
+- [Aula 2 - Hospedagem](05%200%20a%20100K/05%20Estrutura/hc_100k_t5_a02_hospedagem/transcricao.md)
+- [Aula 3 - Página de Vendas](05%200%20a%20100K/05%20Estrutura/hc_100k_t5_a03_pagina_de_vendas/transcricao.md)
+- [Aula 4 - Produto na Kiwify](05%200%20a%20100K/05%20Estrutura/hc_100k_t5_a04_produto_na_kiwify/transcricao.md)
+- [Aula 5 - Área de membros](05%200%20a%20100K/05%20Estrutura/hc_100k_t5_a05_area_de_membros/transcricao.md)
+## 05 0 a 100K/06 Escala
+
+- [Aula 01 - Estrutura](05%200%20a%20100K/06%20Escala/hc_100k_t6_a01_estrutura/transcricao.md)
+- [Aula 02.1 - Landing Page](05%200%20a%20100K/06%20Escala/hc_100k_t6_a02_landing_page/transcricao.md)
+- [Aula 02.2 - Instagram](05%200%20a%20100K/06%20Escala/hc_100k_t6_a03_instagram/transcricao.md)
+- [Aula 03 - Teste de ADS](05%200%20a%20100K/06%20Escala/hc_100k_t6_a04_teste_de_ads/transcricao.md)
+- [Aula 04 - Análise - PARTE 1](05%200%20a%20100K/06%20Escala/hc_100k_t6_a05_analise_parte_1/transcricao.md)
+- [Aula 05 - Análise - PARTE 2](05%200%20a%20100K/06%20Escala/hc_100k_t6_a06_analise_parte_2/transcricao.md)
+- [Aula 06 - Pré-Escala](05%200%20a%20100K/06%20Escala/hc_100k_t6_a07_pre_escala/transcricao.md)
+- [Aula 07 - Escala](05%200%20a%20100K/06%20Escala/hc_100k_t6_a08_escala/transcricao.md)

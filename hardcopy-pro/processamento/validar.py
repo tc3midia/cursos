@@ -12,6 +12,7 @@ from transcrever import OUTPUT, SOURCE
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PLANNED_LESSONS = 138
 
 
 def sha256(path: Path) -> str:
@@ -24,11 +25,12 @@ def sha256(path: Path) -> str:
 
 def validate() -> dict:
     rows = [json.loads(line) for line in (ROOT / "manifest.jsonl").read_text(encoding="utf-8").splitlines()]
-    assert len(rows) == 113, f"manifesto: {len(rows)}"
+    assert 113 <= len(rows) <= PLANNED_LESSONS, f"manifesto: {len(rows)}"
     assert len({row["video"] for row in rows}) == len(rows), "vídeo duplicado no manifesto"
     assert len({row["arquivo"] for row in rows}) == len(rows), "texto duplicado no manifesto"
     state = json.loads((ROOT / "status.json").read_text(encoding="utf-8"))
-    assert state["videos_complete"] == 113 and state["selection_partial_course"] and not state["errors"]
+    assert state["videos_complete"] == len(rows) and not state["errors"]
+    assert state["selection_partial_course"] == (len(rows) < PLANNED_LESSONS)
     index = (ROOT / "00 - Índice geral.md").read_text(encoding="utf-8")
     index_targets = [unquote(link) for link in re.findall(r"\]\(([^)]+\.md)\)", index)]
     assert set(index_targets) == {row["arquivo"] for row in rows}, "links do índice divergentes"
@@ -58,13 +60,14 @@ def validate() -> dict:
         assert len(blocks) + raw["readable_artifacts_omitted"] == sum(bool(s["text"].strip()) for s in segments), f"segmentos: {video}"
         omitted += raw["readable_artifacts_omitted"]
         captions += len(blocks)
-    assert len(list(ROOT.rglob("transcricao.md"))) == 113
-    assert len(list(ROOT.rglob("legenda.srt"))) == 113
-    assert len(list(ROOT.rglob("segmentos.json"))) == 113
-    assert len(list(ROOT.rglob("Metadados/*.json"))) == 113
+    assert len(list(ROOT.rglob("transcricao.md"))) == len(rows)
+    assert len(list(ROOT.rglob("legenda.srt"))) == len(rows)
+    assert len(list(ROOT.rglob("segmentos.json"))) == len(rows)
+    assert len(list(ROOT.rglob("Metadados/*.json"))) == len(rows)
     support = list((ROOT / "Materiais").rglob("*.md"))
     assert len(support) == 1, f"apoios Markdown: {len(support)}"
-    assert "seleção parcial" in (ROOT / "README.md").read_text(encoding="utf-8")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert ("seleção parcial" in readme) == state["selection_partial_course"]
     return {"aulas": len(rows), "legendas": len(rows), "segmentos_json": len(rows),
             "metadados": len(rows), "apoios_markdown": len(support),
             "blocos_srt": captions, "artefatos_evidentes_omitidos": omitted,
