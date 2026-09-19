@@ -14,6 +14,7 @@ from transcrever import OUTPUT, SOURCE, SETTINGS, raw_path
 
 REPO = Path(__file__).resolve().parents[1]
 DRIVE = "https://drive.google.com/drive/folders/1VmaxCRxWBsvGZ2xVyzc0WxQCfBlPM6js"
+PLANNED_LESSONS = 138
 
 
 def stamp(seconds: float, *, srt: bool = False) -> str:
@@ -71,9 +72,14 @@ def main() -> None:
     if (state["videos_complete"] != len(items)
             or state["videos_total"] != len(items) or state["errors"]):
         raise RuntimeError(f"Transcrição incompleta: {state['videos_complete']}/{state['videos_total']}; arquivos={len(items)}; erros={state['errors']}")
+    if len(items) > PLANNED_LESSONS:
+        raise RuntimeError(f"Mais gravações que as {PLANNED_LESSONS} aulas inventariadas: {len(items)}")
+    partial = len(items) < PLANNED_LESSONS
     index = ["# Hardcopy Pro — índice das transcrições", "",
              f"{len(items)} gravações completas disponíveis no acervo em 19/09/2026. Transcrição automática em português pelo Whisper `large-v3-turbo` na GPU; não revisada integralmente contra o áudio.",
-             "O módulo 0 a 100K ainda está incompleto na origem local. Tentativas e trechos parciais não entram na contagem de aulas.", ""]
+             ("O módulo 0 a 100K ainda está incompleto na origem local. " if partial else
+              "As 138 aulas previstas no índice local estão gravadas. ") +
+             "Tentativas e trechos parciais não entram na contagem de aulas.", ""]
     manifest = []
     previous_group = None
     for item in items:
@@ -140,13 +146,15 @@ def main() -> None:
     write(REPO / "manifest.jsonl", "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in manifest))
     write(REPO / "status.json", json.dumps({"videos_complete": len(items), "videos_total_selection": len(items),
                                           "model": SETTINGS["model"], "errors": [],
-                                          "selection_partial_course": True,
+                                          "selection_partial_course": partial,
                                           "synced_at_utc": datetime.now(timezone.utc).isoformat()},
                                          ensure_ascii=False, indent=2) + "\n")
+    coverage = ("O módulo 0 a 100K ainda não foi gravado por inteiro; o curso publicado aqui é uma seleção parcial. "
+                if partial else "As 138 aulas previstas no índice local estão gravadas e transcritas. ")
     write(REPO / "README.md", "# Hardcopy Pro — transcrições\n\n"
           f"[Índice das {len(items)} aulas disponíveis](00%20-%20%C3%8Dndice%20geral.md) · [manifesto](manifest.jsonl) · [vídeos no Drive]({DRIVE})\n\n"
           "As transcrições, legendas SRT, segmentos JSON e metadados foram gerados das gravações completas existentes em 19/09/2026. "
-          "O módulo 0 a 100K ainda não foi gravado por inteiro; o curso publicado aqui é uma seleção parcial. "
+          + coverage +
           "Os textos automáticos não tiveram revisão integral contra o áudio. Artefatos inequívocos de silêncio foram omitidos do texto e da legenda; os segmentos brutos permanecem nos JSONs. "
           "Os vídeos aguardam revisão audiovisual integral.\n")
     print(json.dumps({"videos": len(items), "manifest": len(manifest)}, ensure_ascii=False))

@@ -6,6 +6,7 @@ import ctypes
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -48,6 +49,9 @@ def inventory() -> list[dict]:
             continue
         meta_path = video.with_suffix(".json")
         if not meta_path.is_file():
+            # OBS writes a timestamp-named recording before the lesson is finalized.
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2} \d{2}-\d{2}-\d{2}", video.stem):
+                continue
             raise ValueError(f"Metadado ausente: {meta_path}")
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
         if meta.get("curso") != "Hardcopy Pro" or meta.get("arquivo") != video.name:
