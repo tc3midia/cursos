@@ -1,0 +1,178 @@
+{
+  "aula": "M03_A07",
+  "arquivo_sha256": "c71f8dd6e7ba8d2b4efc2fe333f363faece7bf13a224923f9d74ad369d1c86fc",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "f7757c5cd40d63040f9c4997e8e43fd151175e4892bb4dfec8f56ad730114611",
+    "2": "5553e9519a12405a7c2ca4a02872349c0390991ce49661a80d5dca65cee8e5cc",
+    "3": "1b891257f22215cd8652af895d01dc0f069688dbfe53eb5a23837c144c2adafb",
+    "4": "b8d6b3520bd1519c6698703ba7c257c95be34aa2947d2d066888b5076bf327d7",
+    "5": "5ad7e33730bef9820966822a15a596ec936f7b95bf8e052e99008d486c858d38",
+    "6": "25798209cd61b1e0c491146d903fe69fce81fe889bfc61efe2365d092821d368",
+    "7": "dcdd58f9f8409a9209952f906aa6be9080e4b30dcb7ac0a5ff4d4102246f9c21",
+    "8": "bb745277002a7efc0f259c8e9c56bcdfe11bcdb8c0263f123dda2a3cd3f244c4",
+    "9": "61a83c800e26d4a2a0e3070fde15d98662ed20f0b70408e1fc2c839a6a38aa85",
+    "10": "30e7dfa93d55fa37c8b3fbe43c7791cb33f0bde4c3dac431aa95a292ee658a77",
+    "11": "87ecdd31d7c3f5fbdf59521c8149a7fafb3ad0d8ec92f2dc0d2cfbf9bf441206",
+    "12": "abbcee473db105a3216a2ac99475b3b6312ff64fb5ed5834da921f74dbd7175c",
+    "13": "1b8440ba55983bdcd8555d3e7314280cff477cc993c4d2279922306fdcc4d145",
+    "14": "9c8020905934a3e12c2cf8502085220957ed6d861f149f3855558580445e0355"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "e o acerto acontecendo na produção de conteúdo de",
+      "explicacao": "O conteúdo da unidade está na fonte, mas parte do corpo fica fora da faixa 36–66 s. A frase sobre procurar 'o acerto acontecendo na produção de conteúdo de criadores que geram muito resultado' vai de 65,94 s a cerca de 70 s (00:01:05.940 a 00:01:09.900), e a faixa termina em 66. A ideia de que o erro passa despercebido 'quando a gente está começando' está em 00:00:28–00:00:32, antes do início da faixa. O EVA (estudar, visualizar e aplicar) e a consciência do erro estão dentro da faixa e conferem. Correção: ampliar a faixa para cerca de 26–73 s. O efeito prático é pequeno."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Um conflito, ele tem que ter uma curiosidade",
+      "explicacao": "O núcleo confere: o começo faz a promessa, o público quer descobrir ou reconhecer algo, e sem isso o vídeo é 'naturalmente ignorado'. A fala diz 'ele tem que ter um conflito, ele tem que ter uma curiosidade, ele tem que ter relevância emocional', ou seja, três exigências. Só depois vêm os 'ou então' das mensagens (descobrir algo novo, é sobre mim, já passei por isso). O corpo junta tudo em 'pode vir como…', o que transforma os três 'tem que' em alternativas. O material tem as duas leituras: 'ou' no item do erro e 'combine curiosidade, conflito e relevância emocional' em 'Como corrigir'. Como a fonte é mista, isso é ajuste menor, não desvio. Quem revisa um gancho pode achar que basta um dos elementos."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela naturalmente te enxerga como uma espécie de coach, como uma espécie de uma pessoa que está se intrometendo na vida dela.",
+      "explicacao": "Definição, efeito de afastamento, analogia da rua, condição (sem conexão nem autoridade antes) e a ideia de 'comprar ideias' conferem com a fala e com o material ('Tom Hiperativo (Apontar o Dedo)'). A condição do professor está preservada em `condicoes`. A faixa cobre o trecho, com folga de menos de 1 s no fim."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele tem que entregar uma descoberta",
+      "explicacao": "O final entrega descoberta, e a pessoa deve sentir que aprendeu ou entendeu algo. A frase 'tende a passar despercebido' vem do material ('Sem esse efeito de descoberta, o conteúdo tende a passar despercebido'), e a unidade declara `fonte: fala+material`. Não há desvio."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Sendo a pessoa que mais sabe",
+      "explicacao": "Confere: não existe 'tanto um atalho', é preciso se interessar por aprender coisas novas e ser a pessoa que mais sabe sobre o nicho, e copiar o que se vê no Instagram leva a 'ninguém vai prestar atenção em você'. A unidade atribui a posição ao professor. Dizer 'não há atalho' onde a fala diz 'não existe tanto um atalho' é diferença de redação sem efeito no uso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Entrei no YouTube, assisti umas duas palestras do TEDx",
+      "explicacao": "Situação, ação e resultado conferem, e o resultado ('viralizou') está atribuído ao professor. O caso está como `exemplo`, `perecivel: true`, sem número de caso virando régua. A nota registra que o material diz TikTok e a fala não cita a rede. A frase 'traga coisas novas pra elas' (00:06:14–00:06:18) fica logo depois da faixa 339–372, mas está resumida em 'Lógica'. Sem efeito prático."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tipo, se fizer isso melhor",
+      "explicacao": "Confere. A pesquisa curta (breve pesquisa, vídeo, artigo, página de livro) vale como ideia a anotar e trazer ao conteúdo. A preferência do professor por ler o livro inteiro está preservada em `condicoes`."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A pergunta é, como que eu consigo pensar e adaptar essa ideia para o meu nicho?",
+      "explicacao": "Confere: a pergunta certa é 'como serve', 'como acho referências do meu nicho que fazem isso' e 'como adaptar'. Também confere que o curso não traz exemplos para centenas de nichos e que o aluno deve exercitar o músculo de adaptar. A classificação de tema e tarefas é discutível, mas defensável."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que tem um trelo com ideias pro seu nicho",
+      "explicacao": "Confere: a aula fala em uma aula com ideias para o nicho, um Trello com ideias para o nicho, e a equipe sempre melhorando e trazendo novas ideias. A fonte é rasa e a unidade não inventa detalhe. Está com `perecivel: true`."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Isso não vai se conectar tanto",
+      "explicacao": "Confere: o criador tenta trazer a história, mas fala o que fazer sem ter resultado, e o professor chama isso de 'baixa autoridade'. A fala diz 'não vai se conectar tanto'. O corpo escreve 'a conexão não acontece', que é uma versão mais categórica. O efeito é pequeno. A faixa 473–558 cobre o vídeo e o comentário do professor. 'Iniciante' tem base em 00:06:46–00:06:50, 'dois perfis de pessoas que estão começando'."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Depois ele gera um conflito",
+      "explicacao": "A sequência confere: criador que todo mundo conhece, conflito ('todo mundo já fez'), identificação, pessoa aberta a ouvir. Também conferem 'não tem a ver com o cenário, roupa, câmera; tem a ver com a ideia' e a análise do começo (promessa mais clara, curiosidade, familiaridade). A faixa 561–736 cobre tudo. Sobre o conselho do próprio vídeo exibido, ver omissões."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Começa num tema que é familiar",
+      "explicacao": "Confere com 'começa num tema que é interessante pras pessoas… familiar… depois você vai trazendo o que é interessante pra você', atribuído à aula Tema e moral da história. A faixa 734–750 cobre o trecho."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você não precisa necessariamente",
+      "explicacao": "O núcleo confere: iniciante, aprendiz ou jornada, 'lado a lado', superioridade desconecta 'porque você ainda é desconhecido', e a ressalva sobre quem já é grande está em `condicoes`. A fonte é mais branda que a unidade. O professor diz 'não precisa necessariamente' fingir autoridade e 'é muito mais interessante' se comportar como aprendiz. O material diz 'Não é necessário… também aproxima'. O título 'comporte-se como aprendiz, não como autoridade' e o imperativo do corpo viram uma regra binária, sem a atribuição de preferência do professor. A fala também diz que a próxima era 'não aceita tanto' o tom de soberba, e a unidade tira o 'tanto'. Ajuste menor, porque a condição de iniciante está preservada e o caso mais forte de desvio (autoridade real) não é afirmado."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eles tem um tom mais, geralmente",
+      "explicacao": "Confere no conjunto, com a incerteza dos nomes registrada e `confianca: baixa`. A fala diz 'Tenta assistir os vídeos…', e o corpo diz que o professor 'manda assistir', que é mais forte. A fala também diz que os criadores têm 'geralmente' o tom de 'olha isso que eu tô fazendo, olha essa percepção que eu tive', e o corpo escreve 'usam um tom de…' sem o 'geralmente'. Ajuste menor."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 655,
+      "trecho_fonte": "Mas não uma história com as 10 principais dores do meu público que você pega no chat GPT",
+      "descricao": "O segundo vídeo exibido, que o professor apresenta como o 'mais correto', aconselha a construir a conexão com uma história das próprias dores do criador, e não com as '10 principais dores do público' tiradas do ChatGPT. Ele fecha com 'A forma mais fácil de você gerar uma conexão é você, sendo você'. A unidade 11 resume só a estrutura do vídeo (tema familiar, conflito, orientação) e não traz esse conselho. O professor não o comenta, então é conteúdo do vídeo exibido e não ensino direto dele.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a unidade 11 não vê a orientação sobre usar dores próprias em vez de dores genéricas geradas por IA. A falta não impede executar o que o professor ensina na aula. Não abre ciclo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1 (Método EVA): o título e o corpo falam em 'os erros' e 'esse erro' sem dizer quais são. 'Sem perceber no começo' também é ambíguo, porque a fala diz 'quando a gente está começando'. Um agente que consulte a unidade sem a aula não sabe a que erros o EVA se aplica. Sugestão: nomear em uma frase os três erros (sem promessa, tom hiperativo, sem descoberta) e dizer que 'no começo' é a fase inicial do criador.",
+    "Classificação, nas unidades 1 e 8: o tema de 1 (`mentalidade-e-ambiente`) e o de 8 (`metodo-formato-criativo`, com tarefa `analisar-video-de-referencia`) são discutíveis, mas defensáveis. É ajuste menor, sem risco de levar o agente ao lugar errado."
+  ],
+  "material": [
+    "O material 'Referências indicadas' traz dois links do Instagram (posts DOdTzNPjdQA e DO0rKW4Dh6n, com destinos não verificados). Nenhuma unidade os registra, e as notas das unidades 10 e 11 dizem que o criador do vídeo exibido não é identificado. O material não diz a que vídeo cada link corresponde, então não é divergência. Fica só o registro de que o material tem essas referências.",
+    "Unidade 14: a nota diz que os nomes 'Jenny Keller' e 'Hannah' vêm só da fala. O material, no cabeçalho, cita 'Hanah e Alef' como autores do curso, com grafia diferente de 'Hannah'. Não dá para afirmar que é a mesma pessoa, mas a grafia do material não foi registrada na nota.",
+    "Unidade 2: o material tem duas formulações. Em 'Os três erros', o começo precisa 'comunicar valor, despertar curiosidade, apresentar conflito ou ter relevância emocional' (alternativas). Em 'Como corrigir', diz 'combine curiosidade, conflito e relevância emocional'. A fala diz 'tem que ter um conflito, tem que ter uma curiosidade, tem que ter relevância emocional'. A unidade fica com 'pode vir como', sem registrar a tensão. É ajuste menor, sem desvio numérico.",
+    "Registrado corretamente: a divergência TikTok (material) × 'redes sociais' (fala) sobre a viralização do primeiro vídeo está na nota da unidade 6 e no contexto."
+  ],
+  "resumo": "As 14 unidades foram conferidas contra a transcrição inteira e o material. Nenhuma é sem-lastro, e não há número, condição ou sentido adulterado. Um caso narrado não virou régua, e a divergência TikTok × fala está registrada. Há uma faixa-errada menor na unidade 1, que também não se sustenta sozinha porque não diz a que erros o EVA se refere. Em quatro unidades (2, 10, 13, 14) a redação endurece um pouco a fonte, por 'tem que ter' virar 'pode vir como', 'tanto' ou 'geralmente' cair, e preferência virar imperativo, tudo em gravidade menor. Foi registrada uma omissão menor, o conselho do segundo vídeo exibido sobre usar as próprias dores em vez das dores geradas por IA. Não encontrei perecibilidade desmarcada."
+}

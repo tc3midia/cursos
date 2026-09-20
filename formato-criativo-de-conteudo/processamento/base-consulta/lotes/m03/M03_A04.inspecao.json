@@ -1,0 +1,210 @@
+{
+  "aula": "M03_A04",
+  "arquivo_sha256": "d71a9998593245e259fe8fbde244ec5355c888f8af031edeb3be9bd65929edb3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "hashes_unidades": {
+    "1": "188f05ce8b42f25709af1e025ce760349fe71971f723b2f6b9432d768f91d05b",
+    "2": "85b9b2805ced0398882134cc0d873288e71bbdf55260994b200c5bcfa57f08a7",
+    "3": "87bcc2f096a121e7c9c32ea98267ea43234a1b7361e5242eb0b1646c445e45a9",
+    "4": "901c870d770bdafcc7dad58a1ceb2dae28a81f94b42b6943ffe558cf635cf351",
+    "5": "b319f3afbd2dead2be362db14e98a93d6c1ba907873442518da5951a5fb40353",
+    "6": "7c2a4e4f4de6cd8fd51ea43e8ceb629bad4c2cf476647a31950b4ee95a3fcaee",
+    "7": "a4624b35915e9246afc4656fd144dbf8edad8fc23b0fbf30c04a04a531afd6c6",
+    "8": "6eb68eec6b573592974accafd1d374a8de253f16cce28ffd6eabeae0fb4e8ed4",
+    "9": "69c38bbd170d3e01ed630de0644d7a6e3f2df6be2775e7413086fa2ab5b4e0c9",
+    "10": "a60c4cf51a983b2798eef9d80736ebc9e8fff790576ead6408aadf12bc85e2e5",
+    "11": "0c6b6035a29724fd0970ab72d4d9740d4b87a0db397544e7808fa8ec1b0b18ed",
+    "12": "2a21e213445ebf307157725ae66c8796478d36f1be0e89efa0e61566e0deecd7",
+    "13": "809769eddf85558b16dd84a1f62a035045926b3150f5fea52610bf67d8072571",
+    "14": "bf5b6b0811046a4d7ed877fa3b3c42cc9e2d11b01d61e62362dfeba445bd2d45",
+    "15": "7ee3a9fe8b8dc7e41295ee249fd4c41b32b63fb0b347a92c550e8497cc40769c",
+    "16": "88a1e7ef4ceb171aadcc9e46d3fdd8df061b2e14a84070ce93a02b6a0d46ba29",
+    "17": "a133599b2ee399da442bcc32505ad3a6ee0b2e716348edb79c607f1a709701fb",
+    "18": "11358fc5a04f93712fb48acd33400d4425011508ab881045135b19fce9de86f2"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque o algoritmo ele quer isso, que você faça as pessoas ficarem até o final",
+      "explicacao": "Definição, localização em parágrafos, linhas e frases, e a justificativa do algoritmo batem com 0:29–2:45. A justificativa está atribuída ao professor. Faixa 0–165 cobre o conteúdo."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Até chegando a sua moral de história",
+      "explicacao": "A Pré-condição diz \"ter definido o tema e a moral da história\", mas a fonte põe a moral como ponto de chegada do passo 1, quando se descarrega tudo sobre o tema \"até chegando a sua moral de história\". O corpo fica contraditório: a moral é pré-condição e também resultado do passo 1. A fonte não diz que a moral precisa estar definida antes. O que a aula pressupõe é que o roteiro já está escrito. Os três passos (descarregar, estruturar em AIDA, lapidar com gatilhos) e a definição de AIDA estão corretos. O efeito é pequeno: um agente pode exigir a moral pronta antes de começar."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não, você não precisa usar todos os gatilhos",
+      "explicacao": "Não usar todos, \"não é uma regra absoluta\", encaixar depois de estruturar, testar, analisar e virar padrão estão na fonte. O exemplo do formato Análise (contraste no início) está atribuído ao professor e não vira régua. Faixa 168–222 correta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que é estudar, visualizar e aplicar",
+      "explicacao": "As três etapas, o ciclo, a revisão da aula e a conversa com IA (Sofia) estão na fonte, e o material confirma Estudar, Visualizar e Aplicar. A dúvida sobre \"o doutor\" está registrada em nota. A fala é \"revisa a aula, troca ideia com a inteligência artificial, com o doutor, com a Sofia\"."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai conseguir gerar mais emoções, intensificar as emoções se houver contraste.",
+      "explicacao": "A camiseta preta com folha branca e o exemplo do namoro (alívio × traição pelo melhor amigo) estão na fonte. Os pares confiança→insegurança, amor→raiva e admiração→nojo estão certos; \"certeza→incerteza\" foi omitido sem efeito. Faixa 282–375 correta."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A pessoa não vai nem chegar no final porque é um vídeo chato, entediante.",
+      "explicacao": "Vídeo que começa e termina com a mesma emoção, altos e baixos, viradas como falar mal e depois bem, e memorável por anos (atribuído ao professor) batem com a fonte. Fonte \"fala\" está correta para essa passagem."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas é um jeito que a gente usa pra aplicar contraste de emoções",
+      "explicacao": "O \"não é uma regra absoluta\" (7:16) e a função do \"mas\" estão na fonte. O exemplo da casa nova (orçamento, aumento do marido, pedreiro) está fiel. A nota sobre mas/mais no material confere. Faixa 436–535 correta."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vou mostrar um exemplo aqui pra vocês agora de um vídeo nosso que tem 5 milhões de views",
+      "explicacao": "O conteúdo confere: episódio 2 de \"10 anos de casal em 10 dicas de relacionamento\", 5 milhões de views atribuídos aos professores, contraste como um dos principais motivos, pedido para achar os contrastes, e maratonar vendo os \"mas\". O número está como caso (exemplo, perecível) e não como régua. Ajuste menor de faixa: a linha com \"5 milhões de views\" termina em 541,14 s e o inicio é 541, então essa frase fica antes da faixa. O restante está dentro dela."
+    },
+    {
+      "numero": 9,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "e Zanky e Ramon Vitor, no TikTok, como exemplos de familiaridade",
+      "explicacao": "Fala e material divergem sobre Ramon Vitor. Na fala (11:24–11:37) ele é criador de Narrado, indicado para estudar contraste. O material o lista, junto com Zanky, como exemplo de familiaridade no TikTok. A unidade segue a fala e a nota diz só \"Nome do criador transcrito como Ramon Vitor, igual ao material\". Isso sugere concordância e não registra a divergência de papel, o que a rubrica trata como divergência resolvida em silêncio. Um agente que procure referência de familiaridade não encontra o nome, ou aceita como consistente algo que as fontes tratam de modo diferente. Correção: registrar as duas versões em nota e baixar a confiança. O restante (Narrado, dar certo/dar errado, \"mas\" o tempo todo, TikTok, \"por trás da Matrix\") confere."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma ideia que eu gosto muito, que a gente aprendeu com Raoni Marques, que é a ideia de alguém quer alguma coisa, mas algo está impedindo que aquilo aconteça.",
+      "explicacao": "Conflito como expectativa × realidade e como desejo × obstáculo, com a atribuição a Raoni Marques, confere. A grafia incerta está registrada em nota, porque só a fala cita o nome."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "para ele ficar mais emocionante, para ele se tornar um roteiro mais viciante.",
+      "explicacao": "O conteúdo confere: oportunidade quando o roteiro \"está quase já falando isso, mas não com força\", o exemplo do hotel de luxo, ser também contraste, e \"as coisas são meio degradê\". A condição do \"Quando\" está preservada. Ajuste menor de faixa: a frase final sobre ficar \"mais emocionante… viciante\" está em 875,3–879,1 s e o fim é 875, então essa frase fica fora da faixa."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, cara, qual foi o conflito que gerou a maior mudança da sua vida?",
+      "explicacao": "A pergunta e o ganho de clareza para trazer os conflitos ao conteúdo estão na fonte. Fonte \"fala\" está correta e a faixa 879–895 cobre o trecho."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu me identifico com isso que você tá falando.",
+      "explicacao": "A definição (\"é sobre mim\", identificação, já passou por isso, universo pessoal) confere. A ideia de trocar palavras num roteiro já escrito está em 943–949 s, quase toda dentro da faixa. \"Sem reescrever tudo\" é um pequeno acréscimo sem efeito no uso."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "As blogueiras tal coisa, cita uma blogueira",
+      "explicacao": "As três formas (story gravado sete vezes, blogueira específica, livro famoso mostrado no vídeo) estão na fonte, com o número sete correto. A classificação como estrutura vai em contrato."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, essas palavras vão fazer o seu público desconectar do conteúdo",
+      "explicacao": "Palavras difíceis desconectam e palavras certas conectam estão na fala (18:17–18:31). \"Troque… por elementos que facilitem identificação e compreensão\" vem do material. A faixa 1057–1112 é mais larga que o conteúdo, mas o inclui."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Palavrinha familiar que ela nem precisava falar pra dizer o que ela queria",
+      "explicacao": "Vídeo da mãe de 44 anos e as expressões \"jovem senhora\", \"a audácia de falar que já tá velha demais\", \"somos mulheres, somos amigas\" e \"colocar o cropped e reagir\" estão na fonte. O \"nem precisava falar\" da fala refere-se só a \"colocar o cropped e reagir\". A Lógica estende isso a todas as expressões (\"mesmo quando não eram necessárias\"), uma generalização leve sem efeito no uso."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Outro criador de conteúdo que faz isso muito bem é o Zank",
+      "explicacao": "Marcas, memes, desenhos, filmes clássicos e artistas \"o tempo todo\" estão na fonte. A grafia Zanky (do material) e a plataforma TikTok (do material) estão corretas e a divergência de grafia está em nota."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Última partezinha na próxima aula",
+      "explicacao": "As repetições ficam para a aula seguinte, conforme 20:50–20:54. Perecível true está correto, pois refere-se à ordem das aulas do curso."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U2: a Pré-condição (\"ter definido o tema e a moral da história\") contradiz o passo 1, em que a moral é o ponto de chegada do descarregar. Corrigir a pré-condição, por exemplo \"roteiro já escrito, na etapa de lapidação\", ou tirar a moral.",
+    "U4 (menor): o método EVA vale para dominar qualquer gatilho, mas está com plataforma exclusiva `sofia` e tarefa `roteirizar-com-ia`. A Sofia é só uma das formas de aprofundar. O corpo também diz \"como na aula\", o que depende da aula ao lado.",
+    "U14 (menor): as \"formas de gerar familiaridade\" são três exemplos citados, não um molde com partes ordenadas. O tipo `estrutura` é discutível; `regra` ou `conceito` seriam defensáveis.",
+    "U9 e U17 (menor): a indicação de um criador para estudar está tipada como `regra`. Classificação discutível, sem efeito no uso."
+  ],
+  "material": [
+    "Ramon Vitor: na fala (11:24–11:37) é indicado como criador de Narrado com contraste. O material o cita, junto com Zanky, no TikTok, como exemplo de familiaridade. A U9 seguiu a fala e a nota diz \"igual ao material\" só quanto ao nome, sem registrar a divergência de papel. O esperado é registrar as duas versões em nota e baixar a confiança.",
+    "O restante do material confere com a fala. As divergências de grafia (mas/mais no material; Zank na fala × Zanky no material) estão registradas nas notas das U7 e U17. A métrica de 5 milhões de views é atribuída na U8."
+  ],
+  "resumo": "Percorri a transcrição inteira e o material e conferi as 18 unidades. Não encontrei omissão que mude a decisão de quem consulta, nem perecível escondido em unidade marcada como geral. Há dois desvios: a U9 resolve em silêncio a divergência sobre Ramon Vitor entre fala (contraste, Narrado) e material (familiaridade), e a U2 traz uma pré-condição que contradiz o próprio passo 1. Quatro ajustes menores são de faixa (U8 e U11), generalização (U16) e classificação (contrato); as demais unidades estão lastreadas."
+}

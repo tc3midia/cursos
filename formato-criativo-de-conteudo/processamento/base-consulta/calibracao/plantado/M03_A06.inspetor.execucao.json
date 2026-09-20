@@ -1,0 +1,36 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:42:44+00:00",
+  "fim": "2026-09-20T00:47:41+00:00",
+  "duracao_ms": 296602,
+  "duracao_api_ms": 296575,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 30353,
+    "cache_creation_input_tokens": 28954,
+    "cache_read_input_tokens": 13970
+  },
+  "thinking_tokens": 24432,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.4221440000000001,
+  "sistema_sha256": "59fabc5e7e783657ac7cc13d1092a4aacb28297364eb5d2ca169a51d2a43717f",
+  "pacote_sha256": "0a86af1583c753abfb612ad96e92384f2062b9e49d04f6190e340aba9aca9326",
+  "aula": "M03_A06",
+  "rotulo": "calibracao",
+  "arquivo_sha256": "d4b72d388b63e1c68f275ef5bddcfa2e9ae41cfbc38a260e23076c196f0fb311",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/calibracao/plantado/M03_A06.inspecao.json",
+  "resultado_sha256": "711da8a5c6995273c1ef1b1a4272f820c0a4ff55afcda11df53c5efd28385b3c"
+}

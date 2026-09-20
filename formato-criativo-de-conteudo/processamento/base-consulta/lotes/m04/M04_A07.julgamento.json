@@ -1,0 +1,75 @@
+{
+  "aula": "M04_A07",
+  "arquivo_sha256": "6de047092bbd59449255c737466e6ae1182a87112ff921f7d556a0186191f6f7",
+  "inspecao_sha256": "0324b611626da58a7b2537fec5e569ea62777539e38cce2cda120642a39135c0",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. O problema que o inspetor listou em `contrato` para a U4 (`plataformas: canva`) não é erro de script. É questão de aplicabilidade e está julgado lá. Depois das correções o validador roda de novo, porque `fim`, `plataformas` e `versao` mudam.",
+  "fidelidade": "Falha. A inspeção foi integral: 8 de 8 unidades, busca de omissões declarada e nenhuma citação não literal. Não há sem-lastro material nem número, condição ou atribuição adulterados. A eficácia está atribuída aos professores (U2) e a preferência sobre humor aparece como incerteza do professor (U5).\n\nDois pontos vetam:\n- **Faixa-errada em U2 e U3.** São 2 de 8 unidades com faixa, ou 25%, acima do limite de 10% da rubrica. O inspetor dá trechos literais e tempos: \"fácil de fazer\" em 268,28–273,68 s e a recomendação de testar em 273,68–276,84 s, com `fim` 268 na U2; a nomeação do formato em 106,42–108,5 s, com `fim` 101 na U3. O inspetor classifica a gravidade de cada uma como menor, mas o limite da rubrica é objetivo e não posso relativizá-lo. O conserto é só estender a janela.\n- **Divergência fala × material resolvida em silêncio na U3.** O material põe \"Humor ao longo da apresentação\" como parte fixa nº 3. Na fala, o professor diz \"Eu não tenho certeza se isso é uma regra do formato\". A U3 só registra a divergência de contagem de partes e tópicos. A ressalva sobre o humor ficou apenas na U5. A rubrica trata isso como desvio e espera as duas versões registradas. A evidência é sólida: o trecho da fala é a própria `evidencia` validada da U5.\n\nInferências menores, que não vetam: \"parceiro\" na U1 e \"vibe de humor\" na U2.",
+  "cobertura": "Passa, com um ajuste menor. O inspetor localizou no material uma única omissão: a orientação de experimentar o formato \"especialmente em conteúdos de argumento e opinião, combinando clareza, carisma e humor nos detalhes\". Não veto por ela. A U1 já define o formato como apresentar argumentos para convencer alguém de uma ideia, então o critério de uso em conteúdo de argumento se deduz da definição. A frase que falta é recomendação branda, não régua, passo, condição ou alerta que mude a ação. A estrutura em quatro partes, o setup, a alternativa com computador, a cena opcional e o limite do gancho com Trello estão cobertos.",
+  "perecibilidade": "Passa. O inspetor não encontrou perecível escondido, e minha leitura das unidades confirma. U4 (ferramenta citada), U6 (equipamento do setup) e U8 (Trello do desafio, recurso do curso) estão com `perecivel: true`. U1, U2, U3, U5 e U7 não trazem tela, ferramenta, preço, data nem número de mercado. A U4 muda para `plataformas: geral` na correção e deve manter `perecivel: true` enquanto o corpo citar o Canva e o tempo de montagem do exemplo.",
+  "aplicabilidade": "Falha em um ponto: a U4 está com `plataformas: [\"canva\"]`, mas a orientação não depende de ferramenta (slide simples, frase do motivo, argumentos em tópicos). A `nota` da própria unidade diz que o Canva é \"citado como ferramenta usada no exemplo, não como requisito\". A taxonomia define `geral` como padrão e diz que menção ao exemplo não muda isso. Portanto `canva` não é um segundo valor defensável. É o caso que a rubrica nomeia: plataforma específica quando a orientação é geral.\n\nO efeito é real. O agente que filtra por `geral` ao escrever ou gravar uma Palestrinha não encontra a regra dos slides. Além disso, `cobertura.jsonl` passa a declarar cobertura de `escrever-roteiro` e `gravar-video` em Canva, que o curso não dá.\n\nAs demais unidades se sustentam sozinhas. U3 é `estrutura` com as quatro partes do material, em ordem. U5, U6 e U7 têm `condicoes` preenchidas. U8 é `limite` coerente. As remissões a \"o exemplo\" e \"a criadora\" sem contexto em U3, U4, U7 e U8, e o tipo `regra` na U2, não mudam o uso e ficam como ajustes menores.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal e tempos: a faixa da U2 é 106–268 s, mas \"é fácil de fazer, é diferente, é padrão, é divertidinho e tal.\" está em 268,28–273,68 s, e a recomendação \"Se você tem essa vibe, recorde que você teste o formato\" está em 273,68–276,84 s. Os dois pontos estão no corpo e fora da janela. Somada à U3, são 2 de 8 unidades com faixa errada (25%), acima do limite de 10%.",
+      "impacto": "Quem verifica a unidade pela faixa não encontra \"fácil de fazer\" nem a recomendação de testar. Essa recomendação é o que sustenta a tarefa `escolher-formato` da unidade. A afirmação fica sem verificação, e o veto por faixa impede publicar.",
+      "mudanca_minima": "Alterar `fim` da U2 de 268 para 277 e incrementar `versao`. Não mexer no corpo. É opcional trocar \"essa vibe de humor\" por \"essa vibe\"; ver ajustes menores.",
+      "criterio_de_aceite": "A U2 tem `inicio` 106 e `fim` de 277 ou mais, dentro do limite da transcrição. `versao` é 2. A `evidencia` continua dentro da faixa. O validador dá zero erros. A inspeção focal confirma que \"fácil de fazer\" e a recomendação de testar caem dentro de `inicio`–`fim` e marca a U2 como `lastreada`."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal e tempos: a faixa da U3 é 38–101 s. O item 4 do corpo diz que o fecho do exemplo \"assume que era brincadeira e nomeia o formato\". A brincadeira está em 98,84–101,62 s, cortada no fim. A nomeação \"Esse é o formato criativo palestrinha\" está em 106,42–108,5 s, fora da janela. Somada à U2, a parcela de faixa errada passa de 10%.",
+      "impacto": "O exemplo da quarta parte da estrutura (conclusão) não pode ser verificado pela faixa declarada. A faixa errada conta para o veto, que impede publicar o arquivo.",
+      "mudanca_minima": "Alterar `fim` da U3 de 101 para 109 e incrementar `versao`. A sobreposição com o início da U2 (106 s) é aceitável. Fazer esta alteração na mesma edição de F3, com um único incremento de `versao`.",
+      "criterio_de_aceite": "A U3 tem `inicio` 38 e `fim` de 109 ou mais, dentro do limite da transcrição. A `evidencia` \"Pega sua pipoca, pode se sentar\" continua dentro da faixa. O validador dá zero erros. A inspeção focal confirma a brincadeira e a nomeação do formato dentro de `inicio`–`fim`."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, campo `material`: o material lista \"Humor ao longo da apresentação\" como parte fixa nº 3 da estrutura, e a U3 a reproduz sem ressalva. Na fala, em cerca de 286 s, o professor diz \"Eu não tenho certeza se isso é uma regra do formato\", porque viu poucas pessoas fazendo. Esse trecho é literal e é a `evidencia` validada da U5. A `condicoes` e a `nota` da U3 só registram a divergência de contagem de partes e tópicos. Rubrica: divergência fala × material resolvida em silêncio para um dos lados é desvio, e o esperado é registrar as duas versões.",
+      "impacto": "O agente que consulta só a U3 para montar um roteiro recebe o humor como componente obrigatório do molde: uma parte fixa e, no item 2, humor em cada slide. Ele não sabe que o professor declara ser só um padrão observado, sem certeza de que seja regra. A ressalva existe apenas na U5, que o agente pode não abrir.",
+      "mudanca_minima": "Não alterar as quatro partes do corpo. Acrescentar à `nota` da U3 as duas versões: o material lista o humor ao longo da apresentação como parte fixa; na fala, o professor diz não ter certeza de que o humor em cada argumento seja regra do formato, porque viu poucas pessoas fazendo, embora todas as que viu usem humor. Recomenda-se repetir a ressalva em uma oração da `condicoes`. Manter `confianca: media`. Não escolher um lado.",
+      "criterio_de_aceite": "A `nota` da U3 (e a `condicoes`, se usada) registra as duas versões: o humor como parte fixa segundo o material e a incerteza do professor na fala sobre ser regra. O corpo mantém as quatro partes na ordem do material. `confianca` continua `media`. A inspeção focal confirma que as duas versões estão descritas como a fonte as traz."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        4
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "A U4 tem `plataformas: [\"canva\"]`. O corpo orienta slide simples, frase do motivo e argumentos em tópicos, o que independe de ferramenta. A `nota` da própria unidade diz: \"O Canva é citado como ferramenta usada no exemplo, não como requisito.\" A taxonomia define `geral` como padrão e diz que menção ao exemplo não muda isso. O inspetor confirma que o Canva só aparece em 224–226 s, como ferramenta do exemplo.",
+      "impacto": "O agente que busca orientações gerais de `escrever-roteiro` ou `gravar-video` para Palestrinha não recupera a regra dos slides. O agente que a recupera trata a regra como dependente do Canva. `cobertura.jsonl` passa a declarar cobertura dessas duas tarefas na plataforma `canva`, que o curso não dá.",
+      "mudanca_minima": "Alterar `plataformas` da U4 para `[\"geral\"]`. Manter o Canva só como exemplo no corpo e na `nota`. Manter `perecivel: true` enquanto o corpo citar o Canva e os cinco minutos do exemplo. Incrementar `versao`.",
+      "criterio_de_aceite": "A U4 tem `plataformas` igual a `[\"geral\"]`. O corpo cita o Canva apenas como ferramenta do exemplo. `perecivel` continua `true` se a menção ao Canva ficar no corpo. `versao` é 2. O validador dá zero erros. Após `--write`, `cobertura.jsonl` não lista mais a U4 em nenhuma linha de plataforma `canva`."
+    }
+  ],
+  "ajustes_menores": [
+    "U1 e `contexto`: \"o parceiro\" é inferência da extração. O inspetor informa que a fala só diz \"convencer o Alef\" e que \"marido\" aparece como destinatário genérico. Trocar por \"o Alef\", com `nota` de grafia incerta, ou por \"outra pessoa\". Na U1 isso muda o hash e exige nova inspeção da unidade; pode ficar para outra ocasião. O campo `contexto` pode ser corrigido sem custo de hash.",
+    "U2: \"essa vibe de humor\" restringe o \"essa vibe\" da fala. Como a U2 já será reaberta por F1, convém usar \"essa vibe\" sem qualificar.",
+    "U2: o tipo `regra` é discutível para um corpo feito de justificativas atribuídas aos professores mais uma recomendação condicional. `conceito` e `decisao` são igualmente defensáveis. Pela rubrica, é ajuste menor.",
+    "U3, U4, U7 e U8: \"o exemplo\", \"o vídeo de exemplo\" e \"a criadora\" aparecem sem dizer qual é o exemplo; só a U1 explica. Isso não muda o uso. Em U3 e U4, já reabertas, vale acrescentar na primeira ocorrência algo como \"no vídeo de exemplo da aula, que defende morar em Floripa em vez de São Paulo\". Em U7 e U8 não compensa perder a evidência por isso.",
+    "Omissão do material: \"experimentar o formato especialmente em conteúdos de argumento e opinião, combinando clareza, carisma e humor nos detalhes\". Não veta, porque a U1 já define o formato como apresentar argumentos para convencer. Se o redator quiser preservar, o lugar é a U2, já reaberta: uma frase atribuída ao material e `fonte` alterada para `fala+material`. É opcional.",
+    "U6: o corpo junta dois falantes em \"ele\"; quem diz ter visto mais gente viralizar com computador é o segundo apresentador. Sem efeito no uso.",
+    "U5: o imperativo \"coloque\" é um pouco mais firme que o \"tenta colocar\" da fala, mas o próprio corpo desfaz isso ao registrar a incerteza. O inspetor situa o trecho da dopamina em 308–315 s e o `fim` é 314; um segundo de borda não justifica reabrir a unidade."
+  ],
+  "proximo": "Ciclo de correção 1. Enviar ao redator somente F1–F4:\n- U2: `fim` para 277.\n- U3: `fim` para 109 e divergência sobre o humor registrada na `nota`, e na `condicoes` se o redator optar por repeti-la.\n- U4: `plataformas` para `geral`, mantendo `perecivel: true`.\n\nOs ajustes menores são opcionais e só valem a pena nas unidades já reabertas (U2, U3, U4). Não editar o corpo de U1, U5, U6, U7 e U8, para preservar o hash e a evidência dessas unidades.\n\nDepois da correção:\n1. Rodar `base_fcc.py` e exigir zero erros, com a `evidencia` dentro das novas faixas.\n2. Fazer inspeção focal de U2, U3 e U4 contra os critérios de aceite, conferindo em especial os tempos de 268–277 s e 101–109 s e a redação das duas versões na U3.\n3. Julgar de novo sobre essa lista, sem procurar perfeição editorial no resto."
+}

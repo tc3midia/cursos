@@ -1,0 +1,166 @@
+{
+  "aula": "M04_A05",
+  "arquivo_sha256": "2c4a091720b81a8e9eae1e9143b0176e217067c5fe2de78b7ba8e77a9c134a17",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 5]; as demais mantêm a evidência da inspeção integral do arquivo 485704f89855, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "d7f0c62b2b0177bac80081ac25cd5a94e74b901201ffbccd0536241240283a1d",
+    "2": "ab81f0e98a1f94244a79e34b3619edb77d01522273d3296cf6827e7c04167bb4",
+    "3": "2a99b5b16be20e6d3a14675e915412ee1d113c74bfd6c8044ce98c354b554b56",
+    "4": "a807f76067ac1c8306ca0cc611f216ba572c955ee9504321ad2c6618b9ba8729",
+    "5": "c8dead6f07d700b3506a0cdf863d09f4b0e05cc9ef4e257e8c09b71bd100b011",
+    "6": "e76cbd8c3b8463051f4f80bf7cb1a9c333cbf374dd6f48bb3240f660baa69445",
+    "7": "d2c25260040a0fc87ef9521bad28cbff0a52945ed0122347fa4dc139bc910412",
+    "8": "db94c54ce6a02ca5bc04f368b8f8436e4f4dbe0c7b1e7a38439a9d4032ef3727",
+    "9": "1ea5af743152a3714d785bae206319cce66e9f00c241fe43cd957db2535b4f1b",
+    "10": "ce4dfa6013ab0a6c02fea27050719d3238cc7b73b056bb807247b009b9a3df72",
+    "11": "58060e00683f3df5771638706603b02b970be78250e02b09bd265b31fb40ae6e"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O trivial acontece quando você tá fazendo uma coisa da sua vida, sei lá, lavando a louça ou fazendo qualquer outra coisa",
+      "explicacao": "A definição bate com a fala (24,7–33,2 s). A menção a café, legumes e à mensagem íntima ou inspiradora vem do material ('Objetivo e definição') e está atribuída a ele. A faixa 24–34 cobre a fala usada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Lista de criadores do formato Trivial no Trello do Desafio Formato Criativo.",
+      "explicacao": "Os nomes, as atividades (louça, café) e a nota sobre as variações de grafia conferem com a fala e o material. Três pontos menores. (1) A frase 'Essa lista serve para analisar exemplos do formato' não está na fonte. O material só diz que a lista existe. A fala (2:07 e 6:19, degradada) diz só que o professor colocou lá criadores 'que explodem usando esse formato'. Essa frase sustenta a tarefa analisar-video-de-referencia. (2) O trecho 39–49 s é o gancho do vídeo de exemplo ('Sua referência brasileira não inventou...', seguido de 'Mas por que esse formato... funciona tanto?'), não um comentário didático. A unidade o apresenta como 'o professor lembra'. (3) O corpo diz 'com seus perfis no Instagram', mas não traz os perfis (@luanacarolina.s, @carolinaloback). Quem consultar não consegue apontar a referência."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Dia 8, testando o formato criativo que vai levar meu perfil pra 1 milhão de seguidores",
+      "explicacao": "F2 resolvida. A faixa passou a ser 39–128 s e cobre tudo o que o corpo cita. O gancho está em 39,38–51,98 s (referência brasileira que não inventou o formato, lavando louça, tomando café, \"por que esse formato de conteúdo funciona tanto\"). A abertura com o 1 milhão está em 51,98–56,62 s. A confissão (erro amador de tentar parecer a autoridade, as 3 dicas, o Instagram que nunca crescia, a virada para conexão e identificação) vai até cerca de 84 s. O fecho da versão limpa está em 119–127,88 s: \"eu simplesmente decidi me desafiar a encontrar o formato criativo que vai crescer meu perfil infinitamente\", \"E te convidar a viver essa jornada comigo\", \"Bora testar esse formato?\". O corpo agora traz as duas versões, cada uma na sua posição (o 1 milhão na abertura e o \"infinitamente\" no fecho), e não afirma mais que o vídeo termina com o 1 milhão. A nota não diz mais que só a versão limpa foi usada. Ela registra a divergência e as regravações em 5:38–5:55, onde a fala testa \"infinitamente\" e \"um milhão\". A ressalva de que o número é meta do desafio do professor, e não promessa, foi mantida e é coerente com a fala. A evidência (56,62 s) segue dentro da faixa, e `versao` é 2. Sem problema novo. Observação sem efeito no uso: o corpo e a nota chamam a linha \"Dia 8…\" de \"cartão\", mas a transcrição só traz a fala e não mostra se era cartão na tela ou narração. Não exige mudança."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Por estar fazendo junto com ela algo que é da vida comum",
+      "explicacao": "Os dois motivos (vida comum e tom amigável, menos professor e coach, mais amigo, sentado à mesa) estão dentro da faixa. A última frase do corpo ('Fazer a tarefa junto com a pessoa aproxima o público') vem de um trecho que começa em 176,96 s e vai até 180,7 s, e a faixa termina em 177. A ideia de aproximação também aparece dentro da faixa (2:36–2:45). Basta ampliar o fim para cerca de 181 s."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ou você pode, se você tiver essa habilidade",
+      "explicacao": "F1 resolvida. O corpo começa com \"Quando\". Apresenta as duas opções lado a lado, como a fala faz: \"você pode fazer montado e pensar tipo / Ah, vou montar a cena aqui pra eu fazer um vídeo legal\", e depois \"Ou você pode, se você tiver essa habilidade / simplesmente colocar um celular pra gravar um conteúdo / enquanto você está fazendo alguma coisa do seu dia a dia\". O corpo e `condicoes` prendem a segunda opção a \"ter essa habilidade\" e dizem que o professor não define qual é. \"Falar naturalmente\" saiu, e a cena montada não aparece mais como plano B. O exemplo do pimentão que \"não viraria comida naquele momento\" corresponde a \"A gente não vai usar esse pimentão pra fazer nenhuma comida, pelo menos não agora\" (~145,8 s). O apoio do material (\"Construa um contexto crível e visualmente interessante, encenado ou real\") está preservado, embora \"desde que\" endureça um pouco a redação do material, sem efeito no uso. `nota` registra que nem a fala nem o material especificam a habilidade. `confianca` é `media` e `versao` é 2. A faixa 130–200 s contém tudo (pimentão em ~139–146 s; a opção da rotina real em 186–199 s) e a evidência está dentro dela. Sem problema novo."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma coisa legal também, se for no seu lugar, se for fazer um vídeo trivial, dá pra você usar também iluminação natural",
+      "explicacao": "Confere com a fala (208–224 s): janela e 'funcionar pra caramba'. Confere também com o material ('celular e luz natural quando possível', aparência autêntica). A regra é permissiva e a unidade a mantém assim."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mostrando essa parte de dentro pra fazer assim.",
+      "explicacao": "A gravação com tomadas repetidas e pedidos de ajuste ('Fica um pouco mais pra cá', 'Assim?') está na fonte, e o essencial visual ficou só na imagem. O limite é legítimo e cumpre a regra do FORMATO sobre conteúdo visual. A faixa termina em 356 s, mas as tomadas repetidas continuam até cerca de 395 s. Isso não muda o uso."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então eu acho que essa pode ser uma coisa pra você pensar",
+      "explicacao": "Os exemplos (louça acabando, pimentão acabando e o monte crescendo, roupa dobrada no fim, sensação de trabalho concluído) conferem. O corpo abre com 'prefira uma [tarefa] bem básica e simples', em imperativo. Na fonte, 'Uma trivialidade é bem básica, bem simples de fazer' é uma descrição, e o critério de escolha é dito em tom de sugestão pessoal ('eu acho que essa pode ser uma coisa pra você pensar'). Só a `nota` preserva essa moderação, e o corpo não a carrega. Convém atribuir ao professor no corpo: 'o professor sugere pensar nisso ao escolher a tarefa'."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Senta como se fosse realmente convidando a pessoa",
+      "explicacao": "'O principal deles é o tom', a voz amigável e 'não dá pra querer ser professor' estão na fala (439–477 s). O trecho fragmentado ('alguma coisa fica estranha') sustenta o 'senão o vídeo fica estranho'. A unidade declara essa fragmentação em `nota`, com confiança média. As dicas do material (voz clara e sem pressa) estão atribuídas a ele."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "comunique-se de forma acessível, evitando uma postura professoral.",
+      "explicacao": "As quatro partes estão na ordem do material, com as mesmas funções e os exemplos (louça, café, legumes, roupa; pia esvaziando, café passando). Nada foi acrescentado."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Controle ruídos ambientais e evite falar com pressa.",
+      "explicacao": "O conteúdo (voz clara e amigável, controlar ruídos, não falar com pressa, conversar com alguém fora da câmera ou falar ao espectador) confere com o material. A frase final 'Essas orientações vêm só do material, e a aula não as detalha em fala' é imprecisa. A voz amigável é detalhada na fala (2:45–2:57 e 7:19–7:57) e é a base da unidade 9. Além disso, parte do conteúdo repete a unidade 9."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 133,
+      "trecho_fonte": "Pra participar, basta escrever brecha do algoritmo nos comentários.",
+      "descricao": "O vídeo de exemplo termina com uma chamada ao desafio do professor (escrever uma palavra-chave nos comentários para participar). A nota da unidade 3 diz que não foi extraída, mas não existe `limite` registrando que o trecho é oferta e o que ela promete cobrir. O FORMATO exige esse `limite` por aula.",
+      "gravidade": "menor",
+      "efeito_pratico": "Nenhum efeito na execução do formato. É só a lacuna de registro da oferta, que o FORMATO exige e a rubrica trata como ajuste menor."
+    },
+    {
+      "inicio": 39,
+      "trecho_fonte": "Mas por que esse formato de conteúdo funciona tanto?",
+      "descricao": "O gancho do vídeo de exemplo (0:39–0:56) abre com a referência brasileira que não inventou o formato e a pergunta 'por que funciona tanto?', antes de 'Dia 8...'. A unidade 3 começa em 56 s e tem a tarefa escrever-gancho, mas não traz essa abertura. A unidade 2 a apresenta como comentário didático sobre referências.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem buscar como o exemplo abre não encontra o gancho na unidade do exemplo. Encontra só uma versão reenquadrada na unidade 2."
+    },
+    {
+      "inicio": null,
+      "trecho_fonte": "Luana Carolina, Instagram @luanacarolina.s.",
+      "descricao": "O material traz os perfis das referências (@luanacarolina.s e @carolinaloback). A unidade 2 diz que os lista, mas não os preserva. Os perfis são perecíveis e o material os marca como 'destinos externos não verificados'.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente não consegue indicar qual perfil seguir como referência, apesar de a unidade 2 prometer isso."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 8: a tarefa `editar-video` não tem base na fonte. Fala e material tratam de escolher a atividade e de o andamento dela aparecer no vídeo (a pia esvaziando, a roupa dobrada). Não falam de cortes, ritmo ou montagem. Isso pode levar um agente de edição à unidade errada. Ajuste menor: retirar a tarefa.",
+    "Unidade 7: o corpo depende da aula ('No meio da aula, o professor grava...') e remete a 'outra unidade' sem identificá-la. Sem a aula ao lado, o leitor não sabe qual é. Ajuste menor: citar a unidade 3 pelo tema ou reescrever sem a referência à aula.",
+    "Unidade 2: o tipo `conceito` é discutível para uma lista de referências e de um recurso do curso. A rubrica trata escolha entre dois tipos defensáveis como ajuste menor. `fato-material` não serve, porque a unidade tem fonte `fala+material`.",
+    "Unidade 5: confiança `alta` e `nota: null` com uma condição que a fonte deixa ambígua ('essa habilidade'). Quando o desvio for corrigido, a incerteza precisa ir para `nota` e a confiança pode baixar para média."
+  ],
+  "material": [
+    "Unidade 11: o corpo diz que as dicas de gravação 'vêm só do material, e a aula não as detalha em fala'. Isso não vale para a voz amigável, que a fala detalha e que a unidade 9 já cobre com atribuição a fala e material. A unidade 11 repete parte da 9. Não é divergência entre fala e material, é atribuição imprecisa da origem.",
+    "Unidade 5: o material ('encenado ou real', 'contexto crível e visualmente interessante') é usado corretamente como apoio. Ele não define a 'habilidade' que a fala menciona, então não sustenta a formulação 'falar naturalmente'.",
+    "Sem divergência de conteúdo entre fala e material que tenha sido resolvida em silêncio. As variações de nome (Ana Carolina, Luana Carolina, Carol Loback, Karol Bach, Carolina Loback) e a degradação 'Nutrelo'/'trevo' para Trello foram registradas na nota da unidade 2. A divergência interna da fala sobre o fecho do vídeo de exemplo ('infinitamente' e '1 milhão') está apontada na unidade 3."
+  ],
+  "resumo": "Conferência focal das unidades 3 e 5 contra a fonte. As falhas F1 e F2 foram resolvidas pelos critérios de aceite, e nenhuma das duas correções criou problema novo. A unidade 3 ficou com a faixa cobrindo o 1 milhão e o fecho \"infinitamente\", as duas versões registradas com suas posições e a nota corrigida. A unidade 5 apresenta as duas opções lado a lado, sem inventar a habilidade, e a ambiguidade está na nota com confiança média. Nenhuma omissão nova, perecibilidade ou problema de contrato decorre dessas falhas."
+}

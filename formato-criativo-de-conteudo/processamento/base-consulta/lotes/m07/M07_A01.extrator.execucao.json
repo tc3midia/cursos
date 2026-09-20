@@ -1,0 +1,44 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T06:36:11+00:00",
+  "fim": "2026-09-20T06:45:07+00:00",
+  "duracao_ms": 535301,
+  "duracao_api_ms": 535270,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 56271,
+    "cache_creation_input_tokens": 70820,
+    "cache_read_input_tokens": 14516
+  },
+  "thinking_tokens": 35337,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.8488972,
+  "sistema_sha256": "0598350e417ecdd47fba6beac707760762ea2452b326ca477cbdb23d2406352e",
+  "pacote_sha256": "d00aa495bf4602087066e8f64e58e09fe2076f2841d8477948f0830c7350e757",
+  "aula": "M07_A01",
+  "rotulo": "lote-m07",
+  "palavras_fonte": 16178,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m07/M07_A01.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "8c6409256d77a67a002f3ff4a3ead6a4e9e81b0b7e150313f94be6ed57aed23d",
+  "unidades": 51,
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

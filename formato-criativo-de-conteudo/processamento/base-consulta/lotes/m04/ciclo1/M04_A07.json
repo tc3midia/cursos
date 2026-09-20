@@ -1,0 +1,215 @@
+{
+  "curso": "formato-criativo-de-conteudo",
+  "aula": "M04_A07",
+  "titulo": "Formato Criativo - Palestrinha",
+  "extraido_em": "2026-09-20",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de bastidores em que os professores gravam o Formato Criativo Palestrinha: montar slides simples para convencer alguém (público, marido ou personagem) de uma ideia, com humor.",
+    "O exemplo mostra a criadora convencendo o parceiro a morar em Floripa em vez de São Paulo, com quatro argumentos em slides.",
+    "Voltada a alunos que já conhecem a ideia de formato criativo e querem gravar este formato específico.",
+    "A aula traz o vídeo pronto, os comentários dos professores sobre por que funciona, o setup de gravação e uma parte de tomadas repetidas dos trechos.",
+    "No meio da aula há refações de falas (tomadas repetidas), que não foram usadas como fonte.",
+    "O fecho é só despedida. O material de apoio resume a estrutura em quatro partes e a execução.",
+    "Um trecho de chamada para comentar palavra-chave e receber lista de criadores no Trello do desafio é gancho do vídeo de exemplo, não orientação."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Palestrinha: o que é o formato",
+      "tipo": "conceito",
+      "tema": "formato-palestrinha",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 24,
+      "fim": 58,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O Formato Criativo Palestrinha consiste em montar slides para convencer o público, o marido ou algum personagem do vídeo de uma ideia. O material define como apresentar argumentos com slides simples, humor e encenação, como se tentasse convencer uma pessoa real ou fictícia. No exemplo da aula, a criadora apresenta argumentos para convencer o parceiro a morar em Floripa e não em São Paulo.",
+      "evidencia": "Você vai montar slides pra convencer o seu público",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Palestrinha: por que o formato funciona segundo os professores",
+      "tipo": "regra",
+      "tema": "formato-palestrinha",
+      "tarefas": [
+        "escolher-formato"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 106,
+      "fim": 277,
+      "condicoes": "São afirmações dos professores; a base não confirma eficácia. Um dos professores diz que viu o formato há pouco tempo.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A eficácia é atribuída aos professores, sem medição independente.",
+      "proposta_tag": null,
+      "corpo": "Segundo os professores, o formato funciona porque quebra o padrão, é visual e engraçadinho, além de ser fácil e divertido de fazer. Eles dizem ter visto várias pessoas usando e com bastante resultado. Recomendam testar o formato a quem tem essa vibe.",
+      "evidencia": "Ele funciona muito porque quebra o padrão, é visual e engraçadinho",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Palestrinha: estrutura do vídeo em quatro partes",
+      "tipo": "estrutura",
+      "tema": "formato-palestrinha",
+      "tarefas": [
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 38,
+      "fim": 109,
+      "condicoes": "A divisão em quatro partes e a faixa de três a cinco tópicos vêm do material; na fala o exemplo tem quatro argumentos. O humor como parte fixa também é do material: na fala o professor diz não ter certeza de que isso seja regra do formato.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A contagem de partes e de tópicos é do material; a fala só mostra o exemplo. Divergência fala × material sobre o humor: o material lista \"Humor ao longo da apresentação\" como parte fixa da estrutura e pede humor em cada slide; na fala o professor diz não ter certeza de que isso seja uma regra do formato, porque ainda viu poucas pessoas fazendo, embora todas as que viu usem humor.",
+      "proposta_tag": null,
+      "corpo": "1. Introdução descontraída: fale com o interlocutor como numa conversa divertida; no exemplo, oferece pipoca e anuncia uma decisão importante.\n2. Três a cinco tópicos: cada slide traz uma frase de impacto, uma lógica simples e humor; o exemplo numera os argumentos e contrapõe as duas cidades.\n3. Humor ao longo da apresentação: piadas e ironias nos argumentos, na entonação e nas pausas.\n4. Conclusão leve e confiante: reafirmar a ideia, como quem encerra a conversa convencido; no exemplo, o fecho assume que era brincadeira e nomeia o formato.",
+      "evidencia": "Pega sua pipoca, pode se sentar",
+      "versao": 2
+    },
+    {
+      "numero": 4,
+      "titulo": "Palestrinha: slide simples, frase do motivo e argumentos em tópicos",
+      "tipo": "regra",
+      "tema": "formato-palestrinha",
+      "tarefas": [
+        "escrever-roteiro",
+        "gravar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 222,
+      "fim": 240,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O Canva é citado como ferramenta usada no exemplo, não como requisito.",
+      "proposta_tag": null,
+      "corpo": "Faça os slides simples, porque ficam grandes na TV. Coloque no slide a frase com o motivo pelo qual se quer convencer as pessoas e divida os argumentos em tópicos. No exemplo, a criadora montou o slide no Canva em cerca de cinco minutos, e o material diz que a simplicidade faz parte da proposta.",
+      "evidencia": "É pra ser simples, porque fica grandão ali na TV",
+      "versao": 2
+    },
+    {
+      "numero": 5,
+      "titulo": "Palestrinha: uma piada em cada argumento",
+      "tipo": "regra",
+      "tema": "formato-palestrinha",
+      "tarefas": [
+        "inserir-gatilhos-de-atencao",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 283,
+      "fim": 314,
+      "condicoes": "O professor diz não ter certeza de que seja regra do formato, pois viu poucas pessoas fazendo; é o padrão que observou.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Professor declara incerteza se é regra; tratado como preferência observada.",
+      "proposta_tag": null,
+      "corpo": "Ao convencer alguém, coloque uma piadinha em cada argumento. No exemplo, o argumento do trânsito de São Paulo vira a brincadeira de dar para namorar, terminar e fazer terapia dentro do mesmo Uber. Segundo o professor, isso gera picos de dopamina e sorrisinhos a cada slide que passa. Todas as pessoas que ele viu fazendo o formato usam algum humor, mas ele não tem certeza de que seja regra.",
+      "evidencia": "Eu não tenho certeza se isso é uma regra do formato",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Palestrinha: setup de gravação simples e alternativa ao computador",
+      "tipo": "decisao",
+      "tema": "formato-palestrinha",
+      "tarefas": [
+        "gravar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 317,
+      "fim": 355,
+      "condicoes": "Vale quando o criador não tem TV; o professor diz que já viu mais gente viralizar com computador do que com TV.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando não houver TV, mostre os slides no computador: o essencial é ter uma palestra para apresentar. O setup da aula foi celular, uma luz principal e uma TV grande, mas o professor diz que não precisa ser grande. Ele afirma ter visto mais pessoas viralizando com o computador na frente do que com TV.",
+      "evidencia": "então se você não tem uma TV, com computador também funciona",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Palestrinha: cena com alguém assistindo é opcional",
+      "tipo": "decisao",
+      "tema": "formato-palestrinha",
+      "tarefas": [
+        "gravar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 241,
+      "fim": 260,
+      "condicoes": "Para quem não tem ninguém para ajudar.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Se não houver quem ajude, faça a palestrinha sozinho. No vídeo de exemplo há uma cena curta com a silhueta de alguém assistindo à palestra, servindo pipoca para criar atmosfera, mas isso não é obrigatório.",
+      "evidencia": "se você não tiver ninguém pra te ajudar, você pode fazer só você mesmo fazendo a palestrinha",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Palestrinha: chamada para lista de criadores no Trello é oferta do vídeo",
+      "tipo": "limite",
+      "tema": "formato-palestrinha",
+      "tarefas": [],
+      "plataformas": [
+        "trello"
+      ],
+      "fonte": "fala+material",
+      "inicio": 120,
+      "fim": 128,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O material também menciona o Trello com criadores e três vídeos de exemplo, sem endereços visíveis.",
+      "proposta_tag": null,
+      "corpo": "No vídeo de exemplo há uma chamada para comentar uma palavra-chave e receber acesso a uma lista de criadores que cresceram com o formato no Trello do desafio. É gancho do vídeo, não orientação; o conteúdo da lista não aparece na aula.",
+      "evidencia": "Lá no Trello do Desafio eu deixei uma lista de vários criadores que cresceram muito depois de usar ele",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        2,
+        3,
+        4
+      ],
+      "retiradas": [],
+      "observacoes": "F1 (U2): confirmei na transcrição que \"é fácil de fazer, é diferente, é padrão, é divertidinho e tal.\" cai em 268,28–273,68 s e \"Se você tem essa vibe, recorde que você teste o formato\" em 273,68–276,84 s, ambos fora da janela antiga. `fim` passou de 268 para 277 (transcrição termina em 361 s). A `evidencia` \"Ele funciona muito porque quebra o padrão, é visual e engraçadinho\" está em 113,2–116,88 s, dentro da nova faixa. A condição \"viu o formato há pouco tempo\" também ficou coberta (\"tem pouco tempo que eu vi esse formato\", 264,7–271 s aproximadamente). Apliquei o ajuste menor opcional: \"essa vibe de humor\" virou \"essa vibe\", porque a fala diz só \"Se você tem essa vibe\" e o antecedente ali é \"é fácil de fazer, é diferente, é padrão, é divertidinho\", não humor. Nenhuma outra alteração de corpo. `versao` deve ir para 2 (o esquema de saída não carrega o campo).\n\nF2 (U3): confirmei que \"Pra quem é de São Paulo, era só uma brincadeirinha\" está em 98,84–101,62 s, cortada pelo `fim` antigo, e que \"Esse é o formato criativo palestrinha\" está em 106,42–108,5 s. `fim` passou de 101 para 109. A `evidencia` \"Pega sua pipoca, pode se sentar\" (40,68–42,34 s) continua dentro de 38–109. A sobreposição com o início da U2 foi mantida, como autorizado.\n\nF3 (U3): feito na mesma edição de F2, com um único incremento de `versao` (para 2). A `nota` agora registra as duas versões: o material lista \"Humor ao longo da apresentação\" como parte fixa e pede humor em cada slide; na fala, em ~283,7–286,7 s, o professor diz \"Eu não tenho certeza se isso é uma regra do formato\", justificando que \"eu ainda não vi muita gente\", e logo em seguida que \"todas as pessoas que eu vi fazendo esse formato tem um temperinho de humor\". Repeti a ressalva em uma oração da `condicoes`. As quatro partes do corpo e a ordem do material foram mantidas intactas, `confianca` segue `media`, nenhum lado foi escolhido.\n\nF4 (U4): `plataformas` passou de `[\"canva\"]` para `[\"geral\"]`. O Canva aparece só em 224,56–226 s (\"Literalmente montei esse slide no Canva / Em 5 minutos\") e permanece no corpo e na `nota` apenas como ferramenta do exemplo; a orientação (slide simples porque fica grande na TV, frase do motivo, argumentos em tópicos) não depende de ferramenta. `perecivel` continua `true`, porque o corpo mantém a menção ao Canva e aos cinco minutos. `versao` deve ir para 2.\n\nMudança adicional em U4, fora da lista de falhas, para registro e conferência: estendi `fim` de 238 para 240. O corpo afirma \"divida os argumentos em tópicos\" e a fala só completa a frase em \"Os seus argumentos\", 238,18–239,38 s, logo depois do `fim` antigo. Como a unidade já estava sendo alterada por F4 e a aula foi vetada por faixa errada, preferi fechar essa ponta agora; a `evidencia` (229,84–232,34 s) e a menção ao Canva seguem dentro da faixa. Se a próxima conferência entender que isso excede o escopo, basta voltar `fim` para 238 sem mexer em mais nada.\n\nNenhuma falha se mostrou improcedente diante da fonte; nenhuma unidade nova foi necessária (a ressalva de F3 já tem unidade própria, a 005, e o pedido foi explicitamente de registro na U3, não de nova unidade); nada foi retirado."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "d4b72d388b63e1c68f275ef5bddcfa2e9ae41cfbc38a260e23076c196f0fb311",
+  "inspecao_sha256": "711da8a5c6995273c1ef1b1a4272f820c0a4ff55afcda11df53c5efd28385b3c",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "47b64800d25672d5a2d73a9155324892c7557b4764b5b1f401484b6652ba5e5f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura"
+  ],
+  "contrato": "Sem veto. O validador retornou zero erros e zero avisos. O número 7 não aparece nas unidades. O script exige presentes ∪ retiradas = 1..max e não acusou erro, então o 7 está em `retiradas` e não pode ser reutilizado. A unidade nova pedida em F5 recebe o número 19. Os itens que o inspetor listou na seção \"contrato\" (jargão em U10 e U18, tipo de U9, U12 montada a partir de caso) não são de script. Tratei-os em fidelidade, aplicabilidade e ajustes menores.",
+  "fidelidade": "Veto. A inspeção é integral: 17 de 17 unidades, todos os trechos literais e `citacoes_nao_literais` vazio. Das 17, 13 estão lastreadas e 4 têm desvio material comprovado.\n- U3: omite as duas condições da fonte (o vídeo não ser de trend e ser um tipo que você faria de novo) e inventa um filtro por visualizações.\n- U4: troca \"duas levas de três\" (6 vídeos) por \"três levas de três, nove no total\". O erro aparece na própria unidade, porque `condicoes` e `evidencia` dizem duas levas, e U5 e U18 também.\n- U12: transforma o relato do caso Sorocaba × Pantera em procedimento geral. \"Duas ou três hipóteses\" e \"só com elas\" não estão na fonte. A unidade também não registra a tensão com a regra do material de melhorar um mecanismo por vez.\n- U16: apresenta o resultado do professor no formato Análise (9 em 10) como régua geral, sem atribuição. A instrução \"use como meta\" não está na fonte.\nAceito como ajuste menor os pontos de U1, U2 e U11 que o inspetor classificou assim. Eles não mudam a decisão de quem consulta. `faixa-errada`: no máximo 1 de 15 unidades com faixa (U1, 6,7%), abaixo do limite de 10%.",
+  "cobertura": "Veto. Nenhuma unidade preserva a decisão depois das duas levas. O inspetor a localiza na fala em cerca de 291–321 s (\"Pô, eu troco de formato, vou tentar um diferente\") e no material (\"decida se quer continuar refinando o formato ou experimentar outro. Considere tanto o desempenho quanto sua afinidade com ele\"). Efeito prático: o agente sabe rodar as levas (U4, U5) e gerar hipóteses (U6), mas não sabe encerrar o teste. Falta a escolha entre trocar, insistir e aprimorar, e falta que a afinidade do criador com o formato pesa junto com o desempenho. Essa decisão responde à pergunta que abre a aula. A segunda omissão (o erro visual do vídeo do prefeito, que a fala só mostra na imagem) é menor. Registrar a lacuna basta e não abre ciclo.",
+  "perecibilidade": "Sem veto autônomo.\n- U16: os números são resultado de caso do professor. O defeito de origem é de fidelidade (caso apresentado como régua). Ao virar `exemplo`, a unidade passa a `perecivel: true` pelo FORMATO §3, e isso já está no critério de aceite de F4.\n- U8: discordo da gravidade que o inspetor deu. \"Comunidade do curso\" e \"lista de formatos virais\" são recursos do curso citados de passagem e sob condição (\"se estiver na comunidade\"). Não são tela, menu, preço, data nem número de mercado. O método EVA não depende deles. Fica como ajuste menor.\n- U11 e U15 têm números de caso e estão com `perecivel: true`.",
+  "aplicabilidade": "Sem veto autônomo. As unidades se sustentam sozinhas. Os metadados levam ao lugar certo: `tema`, `tarefas` e `plataformas` são coerentes, inclusive `trello` em U5. As estruturas U6 e U8 têm as partes que o inspetor confirma na fonte. U4 contradiz a si mesma (corpo × `condicoes`), mas isso é efeito do desvio tratado em F2. Ficam como ajuste menor porque não mudam o uso:\n- \"figurante\" sem explicação em U10, que se entende pelo contraste descrito no corpo;\n- \"espaço de discussão\" em U18;\n- o tipo `regua` de U9 para números ilustrativos, que é discutível entre dois valores defensáveis.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trechos literais: a fala impõe 'Eles não são vídeos de nenhuma trend' e 'um tipo de vídeo que você gostaria de fazer de novo' (2:23–2:27). O material repete: 'que não dependam apenas de uma tendência e que você teria vontade de repetir'. O passo 2 da unidade ('Mantenha os que tiveram mais visualizações') não existe em nenhuma das fontes.",
+      "impacto": "O agente filtra vídeos antigos por contagem de views e pode transformar em formato um vídeo de trend ou um tipo de vídeo que o criador não quer repetir. É o contrário do critério de seleção da fonte.",
+      "mudanca_minima": "Remover o passo 2 (filtro por visualizações). No lugar, pôr as duas condições da fonte como passo de seleção e refleti-las em `condicoes`: descartar vídeos de trend (que dependam apenas de tendência) e manter só os tipos de vídeo que você gostaria de fazer de novo. Manter os demais passos e a frase atribuída ao professor. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo de U3 não contém critério de seleção por quantidade de visualizações. Corpo ou `condicoes` trazem as duas condições (não ser vídeo de trend; ser vídeo que o criador faria de novo). O corpo segue começando com `Pré-condição:` e tem ≥2 passos numerados. Validador com zero erros. Inspetor marca U3 como `lastreada` contra os dois trechos citados."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal: 'Não tem uma regra para isso, mas um jeito bom de você pensar é fazer duas levas de três vídeos.' Material: 'Produza seis vídeos… duas levas de três'. Título e corpo da unidade dizem 'três levas de três, nove no total' e 'depois das três levas'. A contradição aparece no próprio arquivo: `condicoes` e `evidencia` de U4 dizem duas levas, e U5 e U18 também.",
+      "impacto": "O número da régua está adulterado. O agente manda produzir 9 vídeos em vez de 6 e entra em conflito com U5 e U18 da mesma aula.",
+      "mudanca_minima": "Corrigir título e corpo para 'duas levas de três vídeos, seis no total' e 'depois das duas levas'. Manter a ressalva de que não é regra rígida. Incrementar `versao`.",
+      "criterio_de_aceite": "Título e corpo de U4 não contêm 'três levas' nem 'nove'. Título, corpo, `condicoes` e `evidencia` dizem duas levas de três (seis vídeos), coerentes com U5 e U18. O tipo `regua` segue com número no corpo. Validador com zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        12
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal: 'tá, essas são as hipóteses, vou melhorar essas duas'. O professor narra o que fez no caso Sorocaba × Pantera: comunicar-se mais com o público do criador e mudar o início. 'Duas ou três hipóteses' e 'refaça o vídeo seguinte só com elas' não estão na fonte. O passo 3 troca 'ao longo do vídeo' por 'ritmo do vídeo todo', e ritmo não está na lista da fala (história do criador, linguagem familiar, furar a bolha). O passo 2 fixa 'começando pela abertura' como ordem, mas a fala só constata que o começo era diferente. Seção `material` do inspetor: o material diz 'Aperfeiçoe um mecanismo por vez' (U17), o professor melhora duas coisas juntas, e nenhuma `nota` registra as duas versões.",
+      "impacto": "O número de um caso virou parâmetro geral de procedimento. O agente prescreve 'duas ou três hipóteses' como método do curso e contradiz U17 sem aviso. Também passa a checar 'ritmo', que a fonte não lista ali.",
+      "mudanca_minima": "- Reescrever o passo 4 sem 'duas ou três' e sem 'só com elas': transformar as diferenças em hipóteses para o vídeo seguinte, dizendo que, no caso narrado, o professor escolheu duas (comunicar-se mais com o público do criador analisado e mudar o início).\n- No passo 3, trocar 'ritmo do vídeo todo' por 'ao longo do vídeo'.\n- No passo 2, tirar a ordem obrigatória. A abertura entra como o ponto onde o professor encontrou a diferença.\n- Deixar explícito, em `condicoes` ou no corpo, que o procedimento foi derivado do relato do professor sobre o próprio caso.\n- Registrar em `nota` as duas versões: a fala mostra duas mudanças no vídeo seguinte e o material recomenda um mecanismo por vez. Não escolher lado.\n- Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo de U12 não contém 'duas ou três' nem 'só com elas'. O número dois aparece apenas atribuído ao caso do professor. 'Ritmo' não aparece no passo 3. A `nota` de U12 cita a orientação do material (um mecanismo por vez) ao lado do que a fala mostra. O corpo segue com `Pré-condição:` e ≥2 passos. Validador com zero erros. Inspetor marca U12 como `lastreada`."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        16
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trechos literais: 'A cada 10 vídeos que eu faço de análise, 9 eu acerto.', 'A gente acerta 98%. 90% a gente acerta', 'porque a gente lapidou'. É resultado do próprio professor no formato Análise. Os 3, 5 e 7 em 10 são projeção dele de como a taxa cresce ('Daqui a pouco você posta 10 e 5 dão certo'). A frase 'Use esses números como meta para avaliar se a lapidação está no ritmo certo' não está na fonte. A unidade é `regua`, tem `condicoes: null`, não atribui ao professor e está com `perecivel: false`.",
+      "impacto": "O agente promete ou cobra 90% de acerto para qualquer formato lapidado e usa 3/5/7 em 10 como meta de ritmo. É número de caso como regra geral e resultado sem atribuição (rubrica, veto 2; FORMATO §3).",
+      "mudanca_minima": "- Retipar U16 como `exemplo` (Situação / O que aconteceu / Lógica), mantendo o número 16.\n- Atribuir ao professor e ao formato Análise: ele relata acertar cerca de 9 em cada 10 vídeos de análise porque lapidou o formato. A progressão 3 → 5 → 7 em 10 entra como ilustração dele de como a taxa sobe com a lapidação.\n- Remover a frase 'Use esses números como meta…'.\n- Ajustar o título (por exemplo, 'Caso: taxa de acerto do professor no formato Análise lapidado').\n- Preencher `condicoes` dizendo que os números são do caso, não referência.\n- Marcar `perecivel: true`.\n- Se citar os 98%, registrar em `nota` a oscilação 98%/90% sem escolher.\n- Incrementar `versao`.",
+      "criterio_de_aceite": "U16 não é `regua`. O corpo atribui os números ao professor e ao formato Análise. Nenhuma frase apresenta 9/10 ou 3/5/7 em 10 como meta ou parâmetro geral. `condicoes` preenchido. `perecivel: true`. As marcas `Situação:`, `O que aconteceu:` e `Lógica:` estão presentes. Validador com zero erros. Inspetor marca U16 como `lastreada`."
+    },
+    {
+      "id": "F5",
+      "unidades": [],
+      "veto": "cobertura",
+      "evidencia": "Omissão localizada pelo inspetor na fala, em cerca de 291–321 s (4:51–5:21), com trecho literal 'Pô, eu troco de formato, vou tentar um diferente'. Depois das duas levas, o professor manda perguntar: gostei de fazer o formato, acredito nele, acho que pode funcionar, foi fácil ou complexo de fazer. Com isso se escolhe entre trocar de formato, insistir mais um pouco ou aprimorar porque o resultado foi muito melhor que os outros. Material: 'decida se quer continuar refinando o formato ou experimentar outro. Considere tanto o desempenho quanto sua afinidade com ele'. Nenhuma das 17 unidades contém essa decisão (conferi U4, U5, U6, U9, U14 e U18).",
+      "impacto": "A aula abre com 'postei o formato e deu errado, o que eu faço?'. Sem essa unidade o agente roda as levas e gera hipóteses, mas não sabe encerrar o teste. Decide só por desempenho, ou não decide, e ignora o critério de afinidade do criador com o formato.",
+      "mudanca_minima": "- Criar uma unidade nova com `numero` 19. O 7 está retirado e não se reutiliza.\n- Campos: tipo `decisao`, tema `lapidacao-de-formato`, tarefas `lapidar-formato` e `escolher-formato`, plataformas `geral`, fonte `fala+material`, faixa dentro de cerca de 291–321 s, `evidencia` literal da faixa (por exemplo, o trecho citado pelo inspetor).\n- Corpo começando com 'Quando' ou 'Se': depois das duas levas, fazer as perguntas de afinidade (gostei de fazer, acredito, acho que pode funcionar, foi fácil ou complexo) e escolher entre trocar de formato, insistir mais um pouco ou aprimorar quando o resultado foi muito melhor que os outros. Incluir o que o material acrescenta: considerar desempenho e afinidade.",
+      "criterio_de_aceite": "Existe a unidade 19, tipo `decisao`, com as três saídas (trocar, insistir, aprimorar) e as perguntas de afinidade, citando desempenho e afinidade conforme o material. A faixa cobre o trecho apontado e a `evidencia` é literal dentro dela. `retiradas` continua contendo o 7. Validador com zero erros. Inspetor marca a unidade como `lastreada` e retira a omissão."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: 'aula de aprofundamento, depois das aulas-base' vem de 52–63 s, fora da faixa 32–47. 'Nada disso é tratado nesta aula' é inferência do extrator. Estender `fim` ou cortar as frases. Não muda o uso.",
+    "U9: o tipo `regua` para números que a própria `nota` declara ilustrativos é discutível (`exemplo` também seria defensável). O texto preserva o caráter hipotético. O último trecho passa cerca de 4 s do `fim`.",
+    "U10: 'figurante' não é explicado (só CDF é). Entende-se pelo contraste no corpo, mas convém uma glosa curta, por exemplo 'quem não aplica o método'. O título sugere que a mentalidade fixa é a do CDF e convém deixar claro que é a do figurante.",
+    "U11: 'meio forçado' resolve em silêncio um trecho degradado ('meio arrasa') e convém registrar isso em `nota`. 'Ele conhecia' troca o sujeito da equipe ('a gente'). 'Só depois de hipóteses' é mais forte que a fala. Registrar também em `nota` que o professor cita um erro visual no vídeo do prefeito que a transcrição não descreve (segunda omissão do inspetor, menor). `nota` não entra no hash, então a evidência da unidade fica preservada.",
+    "U17: acrescentar em `nota` que, na fala, o professor relata melhorar duas coisas de uma vez no caso Pantera, remetendo a U12. `nota` não altera o hash.",
+    "U18: 'espaço de discussão' não diz qual ambiente do curso é. Glosar como 'espaço de discussão da aula na plataforma do curso', se o material permitir.",
+    "U8: a menção à análise pelo time da comunidade e à lista de formatos virais depende de recursos do curso que podem mudar. Não é perecível no sentido da rubrica. Fica sem ação obrigatória."
+  ],
+  "proximo": "Tratei esta rodada como o ciclo 1 de 2 do artefato, porque o pacote não informa a rodada.\n- Redator de correções: recebe F1 a F5. Altera só U3, U4, U12 e U16 e cria a U19. Os ajustes menores são opcionais. Os que mexem só em `nota` podem entrar sem custo de hash.\n- Executor: antes da conferência, roda `base_fcc.py` e confirma zero erros, que o 7 segue em `retiradas` e que a unidade nova recebeu o 19. Registra a rodada em `correcoes`.\n- Conferência seguinte: focal, sobre U3, U4, U12, U16 e U19, pelos critérios de aceite desta lista. Confere também os efeitos colaterais: coerência de U4 com U5 e U18, e de U12 com U17. As 13 unidades intactas preservam a evidência desta inspeção enquanto hash, fonte e rubrica não mudarem.\n- Não é o caso de reextrair a aula. São quatro desvios localizados e uma omissão, sem problema amplo.\n- Coordenação: o desvio \"número de caso do professor virou régua ou regra geral\" (U12, U16) é a causa a conferir em outras aulas do lote. Se aparecer em uma segunda aula, aplica-se a ampliação focal prevista na rubrica."
+}

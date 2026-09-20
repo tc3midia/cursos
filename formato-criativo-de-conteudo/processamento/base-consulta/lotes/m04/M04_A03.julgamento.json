@@ -1,0 +1,52 @@
+{
+  "aula": "M04_A03",
+  "arquivo_sha256": "143b13845c84b2ac4c468ddeb3e422c25ce4ae72e66e91f773abe2a792a57bbe",
+  "inspecao_sha256": "c7d58364fcb8573d4be445b45668715ef5278dcfa8c80624f00292ab24acc51e",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os quatro itens que o inspetor listou sob `contrato` (plataformas da U5 e da U8, `condicoes` da U7, dependência da aula na U10) não são erro de script. São questões de classificação e de aplicabilidade, e foram julgados nessas áreas.",
+  "fidelidade": "Falha só pela taxa de `faixa-errada`: 2 de 10 unidades com faixa (20%), acima do teto de 10% da rubrica.\n- **U2:** o corpo atribui ao professor \"brutal, muda completamente a forma de interagir\". O inspetor localiza essa frase em 181–184 s, depois de fim=180.\n- **U5:** \"microfone conectado no celular\" e \"a minha voz vai guiar a edição\" estão em 444–451 s, depois de fim=444.\n\nOs dois apontamentos trazem trecho literal e marcação de tempo, e `citacoes_nao_literais` está vazio. O sentido das duas unidades está lastreado; o defeito é só de faixa, com correção objetiva.\n\nNão há `sem-lastro` nem `desvio` de número, condição ou sentido nas 10 unidades.\n- **U7:** mantém a incerteza fala × material com `confianca` media e `nota`, o que a rubrica aceita.\n- **U5 (fala × material):** a divergência não foi resolvida em silêncio. O corpo e a `nota` trazem as duas versões da finalidade do microfone. Falta registrar que o material situa a sugestão no passo de gravação do áudio. Fica como ajuste menor.",
+  "cobertura": "Passa. A inspeção é integral: cobriu as 10 unidades e declara ter buscado omissões na fonte inteira, sem achar nenhuma material. A aula tem 1.667 palavras, boa parte ensaio e conversa de bastidor, e 10 unidades é proporcional.\n\nO passo 5 do material (\"Varie ritmo e tom: pausas, expressões inesperadas, humor e ironia\") não está no corpo de nenhuma unidade. Está preservado só em `condicoes` da U7, que é o lugar errado, mas é recuperável. Não consigo demonstrar efeito prático que sustente veto. Fica como ajuste menor.",
+  "perecibilidade": "Passa. Não há perecível escondido em unidade `geral`. O Trello do curso (U9) e o equipamento (U5) estão com `perecivel: true`.\n\nNa U8 o `perecivel: true` é só consequência da plataforma `google-docs`. Com a correção para `geral`, a orientação (marcar expressões como comentário no roteiro) deixa de ter elemento perecível.",
+  "aplicabilidade": "Falha na U8. `plataformas: [\"google-docs\"]` é inferência do extrator, e a própria `nota` admite isso. Segundo o inspetor, a fala diz só \"marcar aqui como comentário\" e o material não cita Google Docs. A orientação vale para qualquer roteiro com comentários. É o caso que a rubrica nomeia: plataforma específica quando a orientação é geral.\n\nNão é classificação discutível entre dois valores defensáveis, porque um dos valores não tem fonte. O efeito sobre quem consulta está detalhado na falha F2.\n\nAs demais unidades se sustentam sozinhas.\n- **U3:** tem `Pré-condição:` e passos.\n- **U1, U2, U4, U6, U9:** os metadados levam ao lugar certo.\n- **U5:** `outra` sem ferramenta nomeada é discutível entre dois valores e fica como ajuste menor. A `nota` diz que é microfone sem modelo, e `tipo` e `perecivel` estão certos.\n- **U10:** depende um pouco da aula (\"o exemplo\", \"a atriz\"). Como é um `limite` cuja função é apontar o que ficou só na imagem, é ajuste menor.",
+  "falhas": [
+    {
+      "id": "M04_A03-F1",
+      "unidades": [
+        2,
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal e marcação de tempo. U2: \"Isso é brutal, muda completamente a forma de interagir\" está em 00:03:00.960–00:03:04.320 (≈181–184 s), depois de fim=180. U5: \"Então, o microfone tá conectado no celular ali, e aí a minha voz vai guiar a edição também, facilita muito o processo.\" está em 00:07:24.000–00:07:31.140 (≈444–451 s), depois de fim=444. São 2 de 10 unidades com faixa, ou seja, 20%, acima do teto de 10%.",
+      "impacto": "O agente cita a unidade pela faixa, e quem confere não encontra ali o que o corpo afirma. Na U2 falta a atribuição ao professor. Na U5 faltam o microfone conectado ao celular e a voz guiando a edição. Isso impede verificar justamente os trechos atribuídos. Em 20% das unidades, a faixa deixa de ser ponteiro confiável para a aula.",
+      "mudanca_minima": "U2: `fim` de 180 para 185. U5: `fim` de 444 para 452, porque o trecho termina em 451,14 s. Não alterar corpo nem sentido. Incrementar `versao` nas duas.",
+      "criterio_de_aceite": "(a) U2: `inicio`=135 e `fim`≥185, e o inspetor confirma que \"Isso é brutal, muda completamente a forma de interagir\" cai inteiro dentro da faixa. (b) U5: `inicio`=419 e `fim`≥451 (recomendado 452), e o inspetor confirma que o trecho \"o microfone tá conectado no celular ali ... facilita muito o processo\" cai inteiro dentro da faixa. (c) Corpo das duas unidades inalterado no sentido, `versao` incrementada. (d) `base_fcc.py` com zero erros, e `evidencia` ainda dentro da faixa. (e) Taxa de `faixa-errada` do arquivo ≤10%."
+    },
+    {
+      "id": "M04_A03-F2",
+      "unidades": [
+        8
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Inspetor: a fala diz só \"marcar aqui como comentário\" (âncora da unidade: \"Então você pode marcar aqui como comentário o tipo de expressão que você vai fazer\") e o material não cita Google Docs. A própria `nota` da U8 declara que \"Google Docs é inferência pelo uso de comentários no documento\". A taxonomia define `google-docs` como \"Depende do Google Docs\" e `geral` como o padrão para orientação que não depende de ferramenta.",
+      "impacto": "`cobertura.jsonl` passaria a marcar `planejar-conteudo` × `google-docs` e `gravar-video` × `google-docs` como `presente`, com base em ferramenta que a aula não nomeia. O agente consulta essa tabela antes de responder e afirmaria cobertura que o curso não dá. Quem filtra por `geral` não encontra a orientação. O `perecivel: true`, forçado pela plataforma, faz o agente tratar como datada uma recomendação que não depende de ferramenta.",
+      "mudanca_minima": "Trocar `plataformas` para [\"geral\"]. Ajustar `perecivel` para `false`, porque não sobra ferramenta nem recurso do curso na unidade. Reescrever a `nota` para dizer só que a fala menciona comentário no roteiro sem nomear a ferramenta, sem afirmar Google Docs. Incrementar `versao`.",
+      "criterio_de_aceite": "(a) U8 com `plataformas` == [\"geral\"]. (b) A `nota` não afirma Google Docs como ferramenta da aula; pode registrar que a fala não nomeia a ferramenta. (c) `perecivel` false, ou true com justificativa de fonte registrada em `nota`. (d) `versao` incrementada e `base_fcc.py` com zero erros. (e) Após `--write`, `cobertura.jsonl` não lista U8 em nenhuma linha de `google-docs`."
+    }
+  ],
+  "ajustes_menores": [
+    "U5: `plataformas: [\"outra\"]` sem ferramenta nomeada. A taxonomia pede ferramenta nomeada pela aula, e a nota diz \"sem modelo citado\". `geral` seria mais fiel, mantendo `tipo: ferramenta` e `perecivel: true`. Motivo de ser menor: é classificação discutível entre dois valores, e a `nota` já esclarece que é equipamento genérico. Como a U5 já será reaberta pela F1 e o hash já muda, pode ir junto.",
+    "U5 (`nota`): registrar que o material situa a sugestão do microfone no passo 1, \"Grave todo o áudio\" (\"Alef sugere usar microfone diretamente no celular para ajudar nas marcações e no tempo da edição\"), enquanto a fala o usa na gravação das cenas. Motivo de ser menor: as duas versões da finalidade já estão no corpo e na `nota`, com `confianca` media. Falta só a etapa, e isso não muda a ação. `nota` não entra no hash.",
+    "U7: `condicoes` mal usado. \"Exemplo da aula: diálogo de casal\" é exemplo, e já está no corpo. O passo 5 do material (\"Varie ritmo e tom: pausas, expressões inesperadas, humor e ironia\") não trata da abertura com conflito e só aparece ali. O ideal é limpar `condicoes` e levar o passo 5 para o corpo de uma unidade de encenação ou de roteiro. Motivo de ser menor: o conteúdo está preservado e recuperável, e a redação \"sugere também\" não restringe a regra. Atenção: alterar `condicoes` muda o hash, então a U7 entraria na conferência focal.",
+    "U8 (redação): a fonte diz que marcar as expressões \"vai facilitar muito para o seu cliente\", se você estiver gravando com um cliente. O corpo usa \"especialmente\" e um \"ele\" ambíguo, e `condicoes` usa \"sobretudo\", termos que a fonte não usa. Não muda a ação. Como a U8 já será reaberta pela F2, pode ir junto.",
+    "U10: \"o exemplo\", \"a atriz\" e \"assistir ao vídeo\" não dizem que se trata do vídeo de demonstração gravado na aula (diálogo de casal). Motivo de ser menor: é um `limite` cuja função é apontar o que ficou só na imagem, e o `contexto` da aula já situa o exemplo."
+  ],
+  "proximo": "O redator corrige F1 (`fim` da U2 e da U5) e F2 (plataforma, `perecivel` e `nota` da U8). São correções locais, sem reextração. Depois, rodar `base_fcc.py` e fazer conferência focal do inspetor apenas nas unidades cujo hash mudar: U2, U5, U8 e, se o ajuste menor for aplicado, U7. As demais preservam a evidência atual.\n\nOs ajustes menores da U5 e da U8 podem ir junto sem custo. Os da U7 e da U10 são opcionais e não condicionam a aprovação.\n\nObservação para a coordenação: U6 e U10 estão com `versao: 2`, e o JSON recebido não trouxe o campo `correcoes`. Confirmar em que ciclo este artefato está, para aplicar o teto de dois ciclos corretamente.\n\nSobre a inspeção: o inspetor classificou como `contrato` itens que são de aplicabilidade e classificação. Isso não afetou a decisão, mas vale ajustar no papel dele."
+}

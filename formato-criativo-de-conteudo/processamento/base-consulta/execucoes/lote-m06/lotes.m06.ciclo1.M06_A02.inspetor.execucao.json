@@ -1,0 +1,36 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T07:15:46+00:00",
+  "fim": "2026-09-20T07:16:31+00:00",
+  "duracao_ms": 44018,
+  "duracao_api_ms": 43986,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 4478,
+    "cache_creation_input_tokens": 19913,
+    "cache_read_input_tokens": 14646
+  },
+  "thinking_tokens": 3241,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.1273652,
+  "sistema_sha256": "3727a36fb10caa709cce683c763325b6c13c77325dab0d51739f435f2c84e012",
+  "pacote_sha256": "3110afa689633b46d2725adc89570d8c8f391917bf557f14e775631f7b48ef44",
+  "aula": "M06_A02",
+  "rotulo": "lote-m06-ciclo1",
+  "arquivo_sha256": "5864ff46db8707b2bedaa55b9cbfc0fcdf380d003c8338cfb06d0f66c99d1a80",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m06/ciclo1/M06_A02.inspecao.json",
+  "resultado_sha256": "693a9f868c05d2104c04806c9b5c8af7a2cb2b8987b572a9074c7c811ebe5819"
+}

@@ -1,0 +1,47 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T01:03:10+00:00",
+  "fim": "2026-09-20T01:04:35+00:00",
+  "duracao_ms": 83457,
+  "duracao_api_ms": 81612,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 6908,
+    "cache_creation_input_tokens": 36631,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 3897,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.5390199999999999,
+  "sistema_sha256": "585f53a62ff0899b1f0bebc84fa00e34770a9a7c42896877c0dd61d99d7128c6",
+  "pacote_sha256": "515ffbd586780129f5b7d8eddf312ad81850ef31cf75c3babecd1290264be20f",
+  "aula": "M03_A06",
+  "rotulo": "ouro-M03_A06",
+  "ciclo": 1,
+  "arquivo_anterior_sha256": "b63651477812ef24eb18f88bbf227b8bbc24103b383b2b55bfa9adaa6067b8b0",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/revisao/ouro-M03_A06/ciclo1/M03_A06.json",
+  "resultado_sha256": "3e93193a7aa032b9e62551d4d648d8e962caf7b53e5b5beefa57b5a862d2b554",
+  "unidades_alteradas": [
+    12,
+    17
+  ],
+  "validador": {
+    "erros": [
+      "M03_A06: U005: plataforma específica exige perecivel true"
+    ],
+    "avisos": []
+  }
+}

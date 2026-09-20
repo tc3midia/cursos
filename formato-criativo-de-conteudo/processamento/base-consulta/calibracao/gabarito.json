@@ -1,0 +1,61 @@
+{
+  "nota": "Gabarito dos defeitos plantados pela coordenação em cópias das extrações piloto s5-high. Não entra em nenhum pacote de modelo.",
+  "defeitos": [
+    {
+      "id": "P1",
+      "aula": "M03_A06",
+      "unidade": 4,
+      "defeito": "número adulterado: duas levas/seis vídeos virou três levas/nove vídeos",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P2",
+      "aula": "M03_A06",
+      "unidade": 3,
+      "defeito": "condição suprimida: vídeo não pode ser de trend e deve ser do tipo que a pessoa quer repetir; trocada por critério de visualizações que a fonte não dá",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P3",
+      "aula": "M03_A06",
+      "unidade": 16,
+      "defeito": "número de caso e estimativa verbal do professor promovidos a régua e meta geral; perecível e ressalvas removidos",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P4",
+      "aula": "M03_A06",
+      "unidade": 7,
+      "defeito": "omissão: retirada a decisão do que fazer depois das duas levas (trocar, insistir ou aprimorar, pesando desempenho e afinidade)",
+      "veto_esperado": "cobertura"
+    },
+    {
+      "id": "E1",
+      "aula": "M03_A06",
+      "unidade": 12,
+      "defeito": "falha preexistente da extração, não plantada: U12 generaliza caso em procedimento e acrescenta \"duas ou três hipóteses\"",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P5",
+      "aula": "M05_A02",
+      "unidade": 3,
+      "defeito": "perecível sem marca: procedimento preso a link e documento do Google Docs com perecivel false",
+      "veto_esperado": "perecibilidade"
+    },
+    {
+      "id": "P6",
+      "aula": "M05_A02",
+      "unidade": 7,
+      "defeito": "condição suprimida e generalização: a orientação vale para história triste; virou lei para todo vídeo, com consequência de alcance que a fonte não diz",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P7",
+      "aula": "M05_A02",
+      "unidade": 22,
+      "defeito": "unidade sem lastro: frequências de revisão e publicação e prazo de seis meses inventados; âncora literal real, conteúdo não",
+      "veto_esperado": "fidelidade"
+    }
+  ]
+}

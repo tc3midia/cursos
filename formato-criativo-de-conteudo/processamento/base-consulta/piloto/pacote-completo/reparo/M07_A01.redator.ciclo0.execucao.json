@@ -1,0 +1,46 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:51:53+00:00",
+  "fim": "2026-09-20T00:52:13+00:00",
+  "duracao_ms": 18954,
+  "duracao_api_ms": 18907,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 2252,
+    "cache_creation_input_tokens": 87218,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 684,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.371396,
+  "sistema_sha256": "3e3a4a3fbf6bc50a7511382ed75a19d16cd573a7566535eab9e2365130cb5d7c",
+  "pacote_sha256": "c7151285226c4536b88c885b7cf802e50e856ec3a0f04cebb4c864ac4bf6dc3b",
+  "aula": "M07_A01",
+  "rotulo": "reparo-contrato",
+  "ciclo": 0,
+  "arquivo_anterior_sha256": "75d158698abe8435e08082b2646dbc3e884ef1937512bd3aa4808954ac22582e",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/pacote-completo/reparo/M07_A01.json",
+  "resultado_sha256": "47465d94ead7769b9bfe820fb7b428eac83c223f699a43d02c51498d74591292",
+  "unidades_alteradas": [
+    11,
+    25,
+    43
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

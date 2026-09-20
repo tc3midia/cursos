@@ -1,0 +1,45 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:42:50+00:00",
+  "fim": "2026-09-20T00:51:10+00:00",
+  "duracao_ms": 498288,
+  "duracao_api_ms": 498259,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 52683,
+    "cache_creation_input_tokens": 82798,
+    "cache_read_input_tokens": 1658
+  },
+  "thinking_tokens": 32131,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.8583575999999999,
+  "sistema_sha256": "c0cbc477745bbce27482b2db7d77a0ebd0287525603c0e42af9ae96b4b2f0086",
+  "pacote_sha256": "9ec47a56b54f11964bb2119c53b6984e766c51480c953a7c10c0ce8f7e95480c",
+  "aula": "M07_A01",
+  "rotulo": "pacote-completo",
+  "palavras_fonte": 16178,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/pacote-completo/M07_A01.json",
+  "resultado_sha256": "75d158698abe8435e08082b2646dbc3e884ef1937512bd3aa4808954ac22582e",
+  "unidades": 52,
+  "validador": {
+    "erros": [
+      "M07_A01: U011: título fora de 1–80 caracteres",
+      "M07_A01: U025: marcador temporal no corpo",
+      "M07_A01: U043: título fora de 1–80 caracteres"
+    ],
+    "avisos": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "aula": "M02_A10",
+  "arquivo_sha256": "3ebff77fccc1b41460d8376f1ffa7c25251ae44d4f22f6caa53ac702499a82c2",
+  "inspecao_sha256": "7375b97d6d5b9c361e74c55e663024a8424813b0d37ec15b28975748bd9580e9",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. O script não barra o título da unidade 9 sem dois-pontos após o nome do formato. Esse ponto fica como ajuste mecânico menor.",
+  "fidelidade": "Falha. A inspeção é integral e não tem citações não literais, então a evidência tem peso pleno. Sete unidades estão lastreadas: 1, 2, 3, 5, 6, 7 e 8. Há quatro problemas que o rótulo \"menor\" do inspetor não resolve, porque a rubrica os trata por natureza.\n\n1. Unidade 4, item 2: atribui à variação encenada a \"transição leve\". Na fonte, essa expressão descreve o recorte que o professor vai exibir de cada vídeo. O sentido é diferente do de uma fonte clara, portanto é desvio. Quem monta roteiro por variação passaria a seguir uma distinção que o curso não faz.\n2. Unidades 4, 5 e 6: fala e material ligam os exemplos a variações opostas. No material, o AVC é \"situação real\" e o serviço da cidade é \"situação encenada\". Na fala, o prefeito é a cena que \"parece real\" e o bombeiro é a cena narrada, sem intenção de parecer real. As unidades 5 e 6 seguem a fala em silêncio, e a 6 tem nota nula e confiança alta. A nota da 4 é genérica. A rubrica nomeia esse caso como desvio e pede o registro das duas versões.\n3. Unidade 10: afirma que os links \"estão em outro lugar do curso\". A fala diz \"eles estão bem aqui, os links foram\", o que é ambíguo. É afirmação sem fonte, com confiança alta e nota que reforça o erro. A ambiguidade não foi preservada.\n4. Faixa: a unidade 9 é faixa-errada, com conteúdo em 524–528 s e fim=516. É 1 de 9 unidades com faixa, ou 11,1%, acima do teto de 10%. A unidade 4 também tem a descrição central da variação narrada em 375–400 s, depois do fim=372. O inspetor escreveu que só a 9 tem faixa fora, o que contradiz a própria explicação dele sobre a 4. Contando a 4, são 2 de 9.\n\nNão rebaixo esses pontos por serem baratos de corrigir. Todas as correções são locais.",
+  "cobertura": "Passa. O inspetor declarou busca de omissões na fonte inteira e achou uma, do fechamento do material: estudar referências, adaptar ao nicho e buscar o conflito na experiência do próprio criador. A ideia já aparece de forma indireta nas unidades 1 e 6. A falta não muda a decisão nem impede executar, então fica como ajuste menor. O procedimento de seis passos do material está completo na unidade 8, e as variações estão na unidade 4.",
+  "perecibilidade": "Passa com uma ressalva. Os exemplos (5, 6, 7) e o limite que cita links do curso (10) estão marcados `perecivel: true`. O inspetor não achou perecível escondido.\n\nRessalva sobre a unidade 1: ela diz que \"o curso não usa IA\" neste formato e está com `perecivel: false` e plataforma `geral`. Sem a fonte, não decido se a fala em 30–51 s descreve o estado de um recurso do curso, que seria perecível (por exemplo, a SOFIA não cobrir este formato), ou só um argumento de método. Peço prova em `proximo`, sem veto por ora.",
+  "aplicabilidade": "Passa. As dez unidades se entendem sem a aula: o formato é definido nas unidades 2 e 3, os exemplos trazem situação, acontecimento e lógica, e o limite (10) diz o que a transcrição não captura. Tema, tarefas e plataformas levam o agente ao lugar certo. O tipo `estrutura` na unidade 4 é discutível, porque variações alternativas não são partes ordenadas de um molde, mas é escolha entre valores defensáveis e fica como ajuste menor. As `condicoes` das unidades 4 e 9 cumprem a função. A pré-condição derivada na unidade 8 não altera nenhum passo.",
+  "falhas": [
+    {
+      "id": "M02_A10-F1",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor (3:43): \"E no máximo ali uma leve transição do que a pessoa quer de fato falar\". Nesse ponto o professor descreve o recorte que vai exibir de cada vídeo de referência (só o conflito e, no máximo, uma leve transição). Não descreve traço da variação encenada. O item 2 do corpo diz: \"Cena mais encenada: dramatizada, com transição leve para o que a pessoa quer falar\".",
+      "impacto": "O agente que escolhe variação ou monta skill do formato passa a distinguir a encenada pela \"transição leve\", em oposição à \"quebra de padrão\" da variação real. A fonte não faz essa distinção. Os roteiros da variação encenada sairiam com uma regra inventada.",
+      "mudanca_minima": "No item 2 da unidade 4, retirar \"com transição leve para o que a pessoa quer falar\". Descrever a variação encenada só com o que a fala ou o material dizem dela. Incrementar `versao`.",
+      "criterio_de_aceite": "O item 2 da unidade 4 não apresenta transição leve como característica da variação encenada. Cada traço que restar no item tem trecho literal apontado pela reinspeção. A `versao` da unidade 4 é maior ou igual a 2."
+    },
+    {
+      "id": "M02_A10-F2",
+      "unidades": [
+        4,
+        5,
+        6
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Campo `material` do inspetor. O material lista \"Situação real: uma cena sobre sinais de AVC\" e \"Situação encenada: ... como um serviço da cidade\". A fala trata o prefeito (serviço do município) como \"exemplo muito real ... uma cena que parece que realmente está acontecendo\" e o bombeiro/AVC como cena narrada, \"que não é a intenção dele parecer real\". As unidades 5 e 6 seguem a fala sem registro. A unidade 6 tem nota nula e confiança alta. A nota da unidade 4 diz apenas que \"a correspondência entre as listas não é exata\". A rubrica trata divergência entre fala e material resolvida em silêncio como desvio.",
+      "impacto": "O agente que pedir um exemplo de cada variação responde com a classificação da fala como se fosse a única. Quem tem o material em mãos vê o contrário: AVC como situação real e serviço da cidade como encenada. O agente não tem como avisar da divergência nem como verificá-la.",
+      "mudanca_minima": "Não alterar os corpos. Na `nota` das unidades 5 e 6, registrar como o material classifica aquele exemplo e como a fala o trata, sem escolher lado. Na `nota` da unidade 4, trocar a frase genérica por uma que diga a qual variação cada fonte liga cada exemplo (prefeito/serviço da cidade e bombeiro/AVC). A confiança da unidade 6 pode ficar como está, porque o corpo não rotula a variação. Se o redator baixar a confiança, a unidade entra na reinspeção, porque o hash muda.",
+      "criterio_de_aceite": "As notas das unidades 5 e 6 são não nulas e citam as duas versões, a classificação do material e o tratamento da fala. A nota da unidade 4 nomeia os dois exemplos e a variação que cada fonte atribui a cada um. Nenhum corpo ou nota declara um dos lados como o correto. O inspetor confirma na conferência focal que as duas versões registradas batem com o material e com a fala."
+    },
+    {
+      "id": "M02_A10-F3",
+      "unidades": [
+        10
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor (4:50–5:00): \"eles estão bem aqui, os links foram\". A fala é ambígua: os links estão \"bem aqui\" e \"foram\" tirados. O corpo afirma que \"os links das referências estão em outro lugar do curso\". A nota fala em links \"fora do vídeo\", o que a fala não diz. A confiança é alta.",
+      "impacto": "O agente manda o aluno procurar os links em um lugar que a aula não indica, e faz isso com confiança alta. É afirmação sem fonte sobre um recurso do curso. Além disso, a ambiguidade real da fala não fica visível para quem consulta.",
+      "mudanca_minima": "Trocar a frase final do corpo por uma formulação que fique dentro da fala: o professor menciona links das referências, mas a transcrição não permite saber onde eles ficam. Reescrever a `nota` para registrar a ambiguidade (\"bem aqui\" e \"foram\", trecho incerto), sem afirmar localização. Baixar `confianca` para `media` se o corpo continuar mencionando os links. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo e a nota da unidade 10 não afirmam onde os links estão (\"em outro lugar do curso\", \"fora do vídeo\" ou equivalente). A nota registra a ambiguidade da fala. A reinspeção classifica a unidade como `lastreada`."
+    },
+    {
+      "id": "M02_A10-F4",
+      "unidades": [
+        9,
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Unidade 9: a frase final do corpo (\"gosta de ver alunos praticando\") corresponde ao trecho literal \"que esse é o tipo de formato que eu gosto de ver assim\", em 524–528 s, e o fim é 516. O \"eu super faria\" (517,9 s) e o \"me manda\", citados na nota, também estão fora da faixa. O veredito do inspetor é `faixa-errada`. Isso dá 1 de 9 unidades com faixa, ou 11,1%, acima do teto de 10%. Unidade 4: a descrição central da variação narrada (\"ele narra, ele descreve enquanto vive visualmente o conflito\") está em 375–400 s, e o fim é 372.",
+      "impacto": "A faixa é o que permite verificar a unidade contra a aula. Com o fim curto, quem confere a unidade 9 ou o item 3 da unidade 4 não encontra o trecho no intervalo declarado e não consegue verificar a afirmação.",
+      "mudanca_minima": "Unidade 9: ajustar `fim` para cerca de 529. Unidade 4: ajustar `fim` para cerca de 401. Não alterar nada mais por causa deste item. Incrementar `versao` das duas, porque a faixa entra no hash.",
+      "criterio_de_aceite": "O validador segue com zero erros. Na conferência focal, o inspetor confirma que todo o conteúdo do corpo da unidade 9 e do item 3 da unidade 4 está dentro de `inicio`–`fim`. Nenhuma unidade fica com veredito `faixa-errada`."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 9: o título não segue o padrão 'Conflito Situacional: ...' porque falta o dois-pontos. A correção é mecânica, o `titulo` não entra no hash e pode ser corrigido junto com este ciclo.",
+    "Unidade 4: o tipo `estrutura` é discutível, porque variações alternativas não são partes fixas e ordenadas de um molde. `conceito` seria defensável. Não abre ciclo.",
+    "Unidade 2: `fonte` está como `fala+material`, mas o corpo só usa conteúdo da fala. Trocar para `fala` muda o hash. Se o redator fizer a troca neste ciclo, a unidade entra na conferência focal.",
+    "Unidade 8: a pré-condição foi derivada do passo 2 e da fala e não consta do material. O formato exige uma pré-condição e ela não altera nenhum passo.",
+    "Unidade 6: a linha 'Lógica' apresenta como fato a leitura do professor sobre o raciocínio do bombeiro. Atribuir ao professor.",
+    "Unidade 1: o corpo endurece 'não faria tanto sentido a gente trazer a IA' para 'o curso não usa IA'. Atribuir ao professor e manter o tom da fonte. O inspetor julgou que isso não muda o uso.",
+    "Omissão menor: o fechamento do material recomenda estudar referências, adaptar o formato ao nicho e buscar o conflito na experiência do próprio criador. Pode entrar como complemento em unidade existente. A falta não impede executar.",
+    "Contexto, frase 4: 'dos quais só a imagem não foi captada' é ambíguo e destoa da unidade 10, que diz que o áudio dos vídeos também não foi transcrito de forma útil."
+  ],
+  "proximo": "Este julgamento abre um ciclo de correção e consome um dos dois ciclos do teto. O redator recebe as falhas F1 a F4. As correções ficam restritas às unidades 4, 9 e 10 (corpo, faixa, nota e versão) e às notas das unidades 5 e 6.\n\nNa conferência focal, o inspetor reconfere as unidades 4, 9 e 10, cujo hash muda, e confirma as notas das unidades 5 e 6 contra o material e a fala. A evidência das unidades 1, 2, 3, 7 e 8 é preservada se o hash ficar intacto. A das unidades 5 e 6 também, se só a nota mudar.\n\nPedido de prova para essa mesma conferência, sem veto por ora: o inspetor deve informar, com trecho literal da fala em 30–51 s, se a justificativa da unidade 1 descreve o estado de um recurso do curso. O exemplo seria a SOFIA ou outra IA do curso não cobrir este formato. Se for esse o caso, a unidade precisa de `perecivel: true` e de revisão de `plataformas`. Se for só argumento de método, a unidade fica como está."
+}

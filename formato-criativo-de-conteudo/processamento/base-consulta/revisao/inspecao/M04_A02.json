@@ -1,0 +1,268 @@
+{
+  "aula": "M04_A02",
+  "arquivo_sha256": "dcce6d0cd39567fee3e30b0d60d6a27dd778f193178b0123b553241513250e50",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "hashes_unidades": {
+    "1": "6d2316800686da4c70b6d560515af44fcf3d8418f1ea2bb9e0333c4e99b2f866",
+    "2": "29449fba2db3e6b7711dd1b7a437162b67a9d239aab16ec4217c808624e94377",
+    "3": "63bf625631680ddd1979d0c105c896642b8f2d022d2b04f7ecb7a4cbd40e316d",
+    "4": "42a0b5b5cbeb4d5fbb16aeaf8aee565706b2787175fbdc8664922d88fbe804e6",
+    "5": "9e17b6dccb5b24b1b71a937a70bf7b789e7643aab48837d1414919fde8b30d8e",
+    "6": "9eb126ae185fb8d9b44e2d26aa93eafb17537f4c1e400e44aed903547f1269c6",
+    "7": "e818acf7dfba2217d34b7fa2c3b615ab719b23ee1a01a61b07cdf307f746d7cc",
+    "8": "5cf0ed2670425e615633d9236bc32c73d2e4e9a15527c3e3b5884b0c255ce5dc",
+    "9": "12e8acf56abea0d6bfbd8494c648a7ac9f4bba994cf99fd519b0c8413504dfac",
+    "10": "4fad584795081ea81bb498a3a2aef19d1aeb6c066c94ab7f4eeb79e2035aee85",
+    "11": "2e05a51f0704614982277f9e0776535a55416948f79302e5238553c493af0c38",
+    "12": "00bab888d96a656c87594717e35dbc972fb023f3ad261983503cc88ef301a934",
+    "13": "c3cc26f569ea59c2f6ae1d1f17ab0cfa7d9b55df7a32e0ac6f149d7d50fde148",
+    "14": "d9934c78b4aae79ebdadb3cbc9ac17989977ad4804489385f8244fabb640d616",
+    "15": "e56ba973df7c2c31d7cb00135695db118fa457a0283efc93d15b9dd3428bfe46",
+    "16": "46852c6046154a5d5de0bb204e0483cd05c7aef9a3e6d1176949c3b22d78ce26",
+    "17": "abbc6642d3d0abf202829571eeb13c4d3de849778dffddb6ad27a012b9600e36",
+    "18": "14f58a3dbc567a02ab0fcb96249823d59bd05530b22807ad7596622a6cdc1eba",
+    "19": "f649701030ab47c842e00b244b0c8ee61c61a65d66fc95b07727bf2ff09b32f4",
+    "20": "b814234b3f7af0d6a03c694b2f75c427c441b32eddd7225fa0997b0de6e9b810",
+    "21": "1e6362c56b66018ff2620956a9795ba300a6af343095ef30ca4843dfd9bfe1b7",
+    "22": "a4b6a3cf28d9abd644d12694f0f7392bfe77fc93a6e3945b3cb6318ef82aff15",
+    "23": "71d7408f99b67359e246065a499acd87fcb46c449290dda02447ed9b442b71f4"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Um trecho inicial teve saída automática repetitiva omitida; o áudio desse trecho ainda precisa de revisão humana.",
+      "explicacao": "O cabeçalho da transcrição confirma o trecho inicial omitido. A frase final da unidade, 'o conteúdo abaixo parte do momento em que a demonstração do formato já está em andamento', é inferência: a fonte só diz que o início foi omitido. Além disso, a faixa 30–38 aponta para as primeiras falas legíveis da abertura ('Pensar na hora de gravar um diálogo...'), não para o trecho degradado. Sem efeito na decisão de quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "troca de roupa, muda o posicionamento da câmera e grava todas as cenas do segundo personagem.",
+      "explicacao": "Os quatro passos batem com a fala (1:06–1:20) e com o passo 5 do material (intercalar, reações, interrupções). A pré-condição vem do passo 1 do material. Faixa 66–80 correta."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "O ideal é que esses dois personagens estejam em conflito.",
+      "explicacao": "A frase central e a evidência da unidade estão em 00:01:21.38–00:01:24.18 (≈81–84 s), antes de inicio=84. Dentro de 84–94 ficam só 'Briga, discussão, discordância', o par CDF × preguiçosa e o par cientista × teoria da conspiração. O conteúdo está na fonte e o corpo é fiel (CDF explicada conforme o vocabulário, atribuição a Mari Krieger correta). Falta ajustar a faixa para começar antes de 81."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "No estrelas do desafio, eu deixei uma lista de referências de pessoas que explodiram depois de usar esse formato.",
+      "explicacao": "A transcrição diz 'No estrelas do desafio', trecho visivelmente degradado (provável 'Trello'). O corpo troca isso por 'na área do desafio', que não está na fonte, e a nota trata como divergência fala × material algo que pode ser só erro de transcrição. A unidade deveria preservar a palavra como transcrita e sinalizar a dúvida. O material confirma o Trello do Desafio Formato Criativo, então quem consulta ainda chega ao lugar certo. A outra localização ('abaixo da aula') está em 11:03–11:09, fora da faixa 100–105, mas só aparece na nota."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E agora a gente conseguiu demarcar por dois chinelos.",
+      "explicacao": "Corpo fiel à fala (demarcar, dois chinelos, pessoa no lugar do outro, olhar nos olhos, mais natural) e ao material. Ajuste menor: a frase 'na edição parece que as duas versões se olham de verdade' está em 2:35.98–2:46.78, logo após fim=155 (fora da faixa por cerca de 1 s)."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque diálogo é uma conversa entre dois de você.",
+      "explicacao": "Fala (dois de você) e material (dois ou mais personagens, só o criador em cena; amiga fictícia, cliente, crítico; conflito, expressividade, performance e edição) sustentam o corpo. O 'segundo o material' está atribuído."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Se eu coloco a câmera pra trás da Hannah",
+      "explicacao": "A regra 'câmera na mesma linha' e o efeito 'olhando pro lado errado' estão na fonte. O corpo diz 'atrás de onde estava', mas a fala diz 'pra trás da Hannah', e a passagem depende de gestos e é ambígua. A unidade escolhe uma leitura sem registrar a dúvida (confianca alta, sem nota). Também converte 'a gente cometia' em 'ele próprio cometia'. Baixo impacto, porque a regra central está correta."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então a Hannah vem pra cá agora",
+      "explicacao": "A fala usa 'aqui', 'lá' e 'pra cá' sem descrever ângulos ou distâncias. O limite reflete isso corretamente, como o FORMATO pede para conteúdo que ficou só na imagem."
+    },
+    {
+      "numero": 9,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Pra iluminar o corredor também, que estava muito apagado",
+      "explicacao": "Celular, softbox como luz principal e LED de recorte no cabelo estão em 211–230 (correto). A segunda frase do corpo (luz de recorte levada para dentro para iluminar o corredor escuro) vem de 00:09:19–00:09:27 (≈559–567 s), a mais de 5 minutos da faixa 211–230, e nenhuma outra unidade a cobre. Conteúdo fiel, faixa não cobre todo o corpo."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E a gente vai fazer frase a frase",
+      "explicacao": "O gravar frase a frase (uma pessoa lê, a outra responde, corta) e a condição (alguém lê; senão o próprio criador) estão na fala. 'Ajuda a produzir respostas mais naturais' vem do material, que diz 'pode ajudar', e o corpo endurece isso para 'ajuda'. A fala (8:26–8:34) traz o caveat de que alguns clientes se confundem com a leitura; ele está na U15, mas não aqui."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Percebe que ela tá reagindo em conflito com a outra rinha.",
+      "explicacao": "Gravar reações com alguém dizendo a fala do outro, e a postura de enfrentamento ('parece que ela vai cair pra cima'), estão em 5:40–6:09. A frase final ('dá vida e tensão à cena quando as falas são intercaladas') é razão acrescentada, que a fala não enuncia. Sem efeito prático."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então eu posso mudar um pouquinho as palavras",
+      "explicacao": "Fala: 'posso mudar um pouquinho as palavras pra encaixar no meu jeito de expressar'. A incerteza da transcrição está registrada em nota, com confianca media."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Geralmente, essas cenas, tipo essa que a Hannah teve a ideia agora, a gente anota aqui no Docs.",
+      "explicacao": "Corpo fiel a 6:50–7:03, com atribuição ao professor. A fala diz só 'Docs'; a plataforma google-docs é inferência coerente com a taxonomia. Marcada perecivel, corretamente."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Nessa situação, como a Hanna vai ficar bem ali, eu vou só virar o tripé pra aquele ângulo ali,",
+      "explicacao": "Trocar de roupa, virar o tripé para o ângulo do segundo personagem, aproximar se ficar longe e repetir com a iluminação: tudo em 7:50–8:13. Faixa correta."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "existem clientes que vão gostar que você leia",
+      "explicacao": "Papel de criador criativo, clientes que gostam e clientes que se confundem com a leitura, e o objetivo de deixar o cliente confortável estão em 8:14–8:42. A condição (cliente) está preenchida."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela vai usar esse penteado como o penteado principal pra gerar uma diferenciaçãozinha",
+      "explicacao": "Troca de penteado, penteado como marca principal e valor de algo consistente nos vídeos estão em 9:05–9:16. A recomendação de repetir figurino, frase ou gesto vem do material e está atribuída a ele."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você não tiver outra pessoa, tu tenta fazer uma marcação, marca com chinelo pra tu ver a direção e tenta acertar a altura também.",
+      "explicacao": "Corpo e condição batem com 9:35–9:52. Faixa correta."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vendo tem que ser um pouco mais rápido, entende? Você tá entrando na faldão.",
+      "explicacao": "'Se abre falando', 'Entra falando já' e a fala sobre vender atalho que tem que ser mais rápida por causa do corte estão em 9:55–10:31. A transcrição do trecho é degradada, e isso está em nota com confianca media. 'Em cada take' é um pouco mais do que a fonte mostra, sem impacto."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então a Marie Krieger faz um diálogo entre personagens de fantasia,",
+      "explicacao": "Os exemplos de criadores, 'não um diálogo do jeito mais simples possível' e os três testes de lapidação (elemento a mais, personagem a mais ou a menos, elemento repetido em todos os vídeos) batem com 11:09–12:12. A grafia do nome está justificada em nota."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Só entender o formato se você for lá e tentar fazer pelo menos uma vez",
+      "explicacao": "Corpo fiel, com atribuição ao professor. 'Coloca pra teste o seu formato' está logo antes da faixa (731.92–735.88), sem consequência."
+    },
+    {
+      "numero": 21,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Treine o tempo das falas e das respostas, incluindo reações.",
+      "explicacao": "O material traz treino de tempo, diferenciar expressão corporal e maneira de falar, e figurino, penteado e adereços. Tudo atribuído ao material."
+    },
+    {
+      "numero": 22,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Use frases curtas, piadas rápidas, mudanças de tom e surpresas para dar ritmo.",
+      "explicacao": "Tensão real, frases curtas, piadas, mudanças de tom, surpresas e repetição de figurino, frase ou gesto estão na seção 'Como aprimorar' do material."
+    },
+    {
+      "numero": 23,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O formato combina interpretação de personagens em conflito, cuidado técnico na gravação e ritmo na edição.",
+      "explicacao": "Usos possíveis e baixo custo estão na 'Orientação final' do material, com atribuição explícita ('segundo o material')."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 330,
+      "trecho_fonte": "E leva um susto, porque a outra tá entrando",
+      "descricao": "Dica de atuação para o primeiro personagem: ao terminar a fala, olhar para o lado e reagir (susto) porque o outro personagem está entrando. O trecho vizinho é confuso na transcrição ('Olhando a área? Eu tenho que me expressar').",
+      "gravidade": "menor",
+      "efeito_pratico": "Perde-se uma indicação de direção de atuação no fim da fala do primeiro personagem. Não impede executar o formato, e a transcrição é parcialmente degradada."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U1: o tipo `limite` não corresponde ao conteúdo. É um aviso sobre a qualidade da transcrição, não algo que o curso declara não cobrir. O corpo depende da aula e da transcrição ('o conteúdo abaixo', 'a demonstração já está em andamento') e não se entende sem eles. Um agente que consulta a base não vê essa informação. A faixa 30–38 aponta para falas legíveis, não para o trecho omitido.",
+    "U4: o tipo `regra` é discutível para o que é um ponteiro para recurso do curso. O corpo diz 'na área do desafio', que a fonte (\"No estrelas do desafio\") não sustenta. Ajuste menor.",
+    "U15: o título começa com 'Diálogo:' e o tema é `direcao-e-gravacao`, que é geral. A tarefa `gerir-clientes-e-rotina` (agenda, entregas, expectativa de resultado) está distante do conteúdo (dirigir a gravação do cliente). Classificação discutível, ajuste menor.",
+    "U18: 'a fala sobre vender atalho' e 'a segunda personagem' dependem do roteiro da demonstração, que a unidade não explica. Ajuste menor de autossuficiência."
+  ],
+  "material": [
+    "U4: o material diz que a lista está no Trello do Desafio Formato Criativo. A fala diz 'No estrelas do desafio' (provável erro de transcrição de 'Trello') e, em 11:03, 'aqui abaixo da aula'. A unidade registra as duas localizações em nota, mas converteu 'estrelas' em 'área do desafio' sem sinalizar que o trecho é degradado, apresentando como divergência algo que pode ser só falha do Whisper.",
+    "U10: o material diz que uma pessoa lendo as falas do interlocutor 'pode ajudar' a produzir respostas mais naturais. A fala (8:26–8:34) diz que alguns clientes se confundem com a leitura e preferem ler sozinhos. A U15 registra o caveat, mas a U10 usa só o lado do material ('ajuda') sem remeter à ressalva. Não é divergência resolvida em silêncio no conjunto, só na U10 isolada."
+  ],
+  "resumo": "As 23 unidades foram conferidas contra a fala e o material, e a fonte foi percorrida do começo ao fim em busca de omissões. Nenhuma é `sem-lastro` e nenhuma tem desvio material. Os problemas são a U4 (`desvio` menor, com 'estrelas' virando 'área do desafio'), a U3 e a U9 (`faixa-errada`, 2 de 20 unidades com faixa, ou seja, no limiar de 10%, não acima) e pequenos ajustes de contrato. Cobertura quase completa (uma omissão menor); nenhuma pendência de perecibilidade."
+}

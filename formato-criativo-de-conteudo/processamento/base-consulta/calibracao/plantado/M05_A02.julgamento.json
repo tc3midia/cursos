@@ -1,0 +1,54 @@
+{
+  "aula": "M05_A02",
+  "arquivo_sha256": "a5b77a468de41b66bd75ea0c983aaab8e0ed20b9e9870c71fcfa7c6223524814",
+  "inspecao_sha256": "620cbcea8a5e77211d1659ca3c33ad1016e668c6adfc56e46736e005a7e3c4eb",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "47b64800d25672d5a2d73a9155324892c7557b4764b5b1f401484b6652ba5e5f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os itens que o inspetor listou no campo `contrato` (unidades 7, 14, 15, 16 e 22) não são erros de script. São pontos de fidelidade e de aplicabilidade, e estão julgados nessas áreas.",
+  "fidelidade": "Falha. Há duas falhas materiais. A inspeção foi integral, todos os trechos de fonte são literais e nenhum apontamento caiu em `citacoes_nao_literais`.\n\n- **Unidade 7 (desvio).** A fonte manda terminar com mensagem positiva \"quando você conta uma história triste\". A unidade transformou isso em regra para \"todo vídeo, qualquer que seja o tema\" e deixou `condicoes` nulo. Conferi o título e o corpo nas próprias unidades. A unidade ainda afirma que o vídeo sem final positivo \"perde alcance e afasta o público\". Segundo o inspetor, a professora não diz isso.\n- **Unidade 22 (sem-lastro).** A régua de 90 dias, um vídeo por semana e cerca de seis meses não aparece na fala nem no material. Ela repete a faixa 81–122 s e a evidência da unidade 3, e esse trecho só fala de copiar e responder o documento. A âncora é literal, mas não sustenta nada do corpo.\n\nAs outras 20 unidades estão lastreadas. Não há faixa-errada. As divergências entre fala e material estão registradas em nota nas unidades 2, 14, 15 e 17 (contagem de sete ou seis elementos, exemplos de linguagem sob descrentes, nomes ligados ao símbolo).\n\nDuas divergências restantes concordo em tratar como ajuste menor: imaginação listada como ritual no material e Rafael Gratta listado sob descrentes. No primeiro caso a unidade 16 não contradiz o material, só não registra o exemplo extra. O segundo é mais uma ocorrência da divergência que a nota da unidade 14 já registra. Nenhuma das duas muda a decisão de quem consulta.",
+  "cobertura": "Passa. O inspetor declarou ter percorrido a fonte inteira em busca de omissões e encontrou uma só, menor, aos 415 s: o vídeo-exemplo como caso de história de criação usada dentro do formato do próprio criador. A orientação já está nas unidades 4 e 6, então a falta não impede decidir nem executar. A correção da unidade 7 pode preservar esse exemplo.\n\nOs sete elementos, o procedimento do documento, o aviso de que o conteúdo não é pré-requisito e o limite dos vídeos que só aparecem na imagem estão presentes.",
+  "perecibilidade": "Passa. O inspetor não sinalizou nada, e a minha leitura das unidades concorda. Os números de caso (açaí de 30 reais, 30 mil seguidores, 500 reais, 40 mil reais) estão em unidades do tipo `exemplo` com `perecivel: true` (5 e 12). Nenhuma unidade descreve tela, menu, configuração, prompt, preço de oferta ou recurso de plataforma. O documento do Google Docs da unidade 3 é recurso do curso, e a unidade não descreve interface.",
+  "aplicabilidade": "Não abro veto separado nesta área. O único ponto que muda o uso é o `condicoes` nulo da unidade 7. Ele decorre do mesmo defeito julgado em fidelidade, e o critério de aceite de F1 já exige o campo preenchido.\n\nDiscordo em parte do inspetor sobre a unidade 7. A frase \"No vídeo-exemplo, um criador conta...\" descreve o suficiente para ser lida sem a aula e, sozinha, não vetaria.\n\nO restante se sustenta:\n- A estrutura da unidade 2 tem as sete partes, na ordem da fonte.\n- O procedimento da unidade 3 tem pré-condição e passos.\n- Temas, tarefas e plataformas levam o agente ao lugar certo.\n- O \"CDF\" sem explicação nas unidades 14 e 15 e a referência a \"o vídeo da corrida, o parceiro\" na unidade 16 ferem a regra de jargão e de autossuficiência. Não mudam a decisão, porque a definição e o exemplo central de cada unidade ficam de pé. São ajustes menores.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"quando você conta uma história triste, uma história de um momento que você não deveria, não gostaria de estar ali, sempre termina seu vídeo com uma mensagem uplifting, uma mensagem positiva.\" A unidade tem o título \"Todo vídeo termina com mensagem positiva\", o corpo \"Encerre todo vídeo... qualquer que seja o tema\" e `condicoes: null`. A frase \"Vídeo que não termina de forma positiva perde alcance e afasta o público\" não está na fonte, segundo o inspetor. A rubrica trata como desvio a condição que a fonte impõe e a unidade omite, e a afirmação acrescentada é sem-lastro.",
+      "impacto": "O agente imporia final positivo a qualquer roteiro, de qualquer tema e formato, como regra do curso. Também repetiria com confiança uma promessa de alcance que a professora não fez. `condicoes` nulo impede filtrar a orientação para a situação em que ela vale.",
+      "mudanca_minima": "1. Restringir título e corpo à situação da fonte: vídeo que conta história triste ou de um momento em que a pessoa não gostaria de estar termina com mensagem positiva (uplifting).\n2. Remover \"todo vídeo\" e \"qualquer que seja o tema\".\n3. Remover a frase sobre perder alcance e afastar o público. Só incluir uma razão se for a que a fonte dá, em paráfrase fiel.\n4. Preencher `condicoes` com a situação: vídeo que conta história triste ou momento difícil.\n5. Manter o vídeo-exemplo descrito de forma autocontida. Pode-se registrar que é um criador usando a história de criação dentro de um vídeo do próprio formato, como a fala diz aos 415 s.\n6. Incrementar `versao`.",
+      "criterio_de_aceite": "1. Título e corpo não contêm \"todo vídeo\", \"qualquer que seja o tema\" nem afirmação sobre alcance ou afastar o público.\n2. `condicoes` não é nulo e nomeia a situação de história triste ou momento difícil.\n3. O inspetor classifica a unidade como `lastreada`, com trecho literal, e confirma que toda razão presente no corpo está na fonte.\n4. `versao` ≥ 2 e o validador retorna zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        22
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor percorreu a fala e o material inteiros. Não existe menção a revisar o documento a cada 90 dias, a publicar um vídeo por semana por elemento nem a consolidar a marca em cerca de seis meses. Dá para ver nas próprias unidades que a 22 repete a faixa (81–122 s) e a evidência da unidade 3 (\"Você consegue clicar, fazer uma cópia para você e responder ali\"). Esse trecho não sustenta nenhum número do corpo. O trecho da fonte nessa faixa diz apenas \"pense sobre isso, escreva, faça pesquisa, aí melhore o seu documento e olhe para isso enquanto você cria o seu conteúdo\". É `sem-lastro` de gravidade material.",
+      "impacto": "O agente encontraria uma régua inventada, atribuída à professora, com `confianca: alta`. Prescreveria cadência de revisão, frequência de publicação e prazo de resultado que o curso não ensina.",
+      "mudanca_minima": "Retirar a unidade 22 e listar o número 22 em `retiradas`, sem renumerar as demais. Não substituir por outra régua. O conteúdo real dessa faixa já está na unidade 3.",
+      "criterio_de_aceite": "1. Não existe unidade de número 22 em `unidades`, e 22 consta em `retiradas`.\n2. Nenhuma unidade nem o `contexto` menciona 90 dias, um vídeo por semana por elemento ou consolidação em seis meses.\n3. O validador retorna zero erros, e presentes ∪ retiradas = 1..22."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidades 14 e 15: \"CDF\" aparece sem explicação na primeira ocorrência (\"Um CDF vai apesar da dúvida\", \"Salve, salve CDF\"). Explicar que é como o curso chama os alunos. Não muda a decisão de quem consulta.",
+    "Unidades 11 e 16: \"o parceiro\" é rótulo que a fonte não dá. A fala diz \"dele\" e \"O Alif\". Usar o nome como transcrito, com a incerteza em `nota`, ou uma descrição neutra. Na unidade 16, \"no vídeo da corrida\" pressupõe a unidade 11. Descrever em uma frase ou remover.",
+    "Unidade 16: registrar em `nota` que o material lista \"imaginação e respiração 4×\" como exemplos de ritual, enquanto a fala trata só a respiração como ritual.",
+    "Unidades 14 e 15: registrar em `nota` que o material também coloca Rafael Gratta e \"mais foco, menos ansiedade\" sob Descrentes. É a mesma divergência que a nota da unidade 14 já registra.",
+    "Unidade 12: redação confusa em \"faturariam 40 mil reais naquele mês teriam vivido só com essa ideia\". A fala diz que alunos, um ano e meio depois de começarem como criadores estrategistas, fariam 40 mil reais naquele mês só com essa ideia. O sentido geral sobrevive.",
+    "Unidade 6: `tipo: regra` para o que a fala apresenta como \"possibilidade\", e `condicoes` traz alcance, não condição. Unidade 4: `tipo: conceito` com título de ação. São classificações discutíveis entre valores defensáveis.",
+    "Omissão menor aos 415 s: o vídeo-exemplo como caso de história de criação dentro do formato do próprio criador. Pode ser preservado na correção da unidade 7 (F1).",
+    "Unidade 21: o material cita Thales e Pedro Sobral na história de criação, e nenhuma unidade os registra. Não afeta a execução.",
+    "Unidade 20: a faixa cobre só a primeira menção aos vídeos-exemplo. Não muda o uso do limite."
+  ],
+  "proximo": "Ciclo de correção 1. O redator corrige a unidade 7 conforme F1 e retira a unidade 22 conforme F2, pondo o 22 em `retiradas` e o registro em `correcoes`.\n\nConferência seguinte, focal:\n- O inspetor verifica a unidade 7 reescrita contra a fonte, com trecho literal da condição e de qualquer razão que o corpo mantiver.\n- O inspetor confirma que a unidade 22 saiu e que os números inventados não migraram para outra unidade nem para o `contexto`.\n\nAs 20 unidades intactas preservam a evidência atual enquanto os hashes não mudarem.\n\nOs ajustes menores não abrem ciclo. Se o redator aplicar algum que altere corpo ou metadado das unidades 11, 12, 14, 15 ou 16, o hash muda e essas unidades entram na conferência focal."
+}

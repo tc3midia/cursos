@@ -1,0 +1,111 @@
+{
+  "M03_A03": {
+    "estado": "erro de contrato residual",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "erros": [
+      "M03_A03: contexto com marcador temporal ou timestamp"
+    ]
+  },
+  "M03_A08": {
+    "estado": "erro de contrato residual",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "erros": [
+      "M03_A08: contexto com marcador temporal ou timestamp"
+    ]
+  },
+  "M03_A01": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03/ciclo1",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [
+        8
+      ],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M03_A02": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "julgamento": "amostra",
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 0
+  },
+  "M03_A04": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03/ciclo1",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [
+        2,
+        9
+      ],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M03_A05": {
+    "estado": "inspecionada, fora do julgamento",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "julgamento": null,
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    }
+  },
+  "M03_A07": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "julgamento": "amostra",
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 0
+  },
+  "M03_A09": {
+    "estado": "inspecionada, fora do julgamento",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "julgamento": null,
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    }
+  },
+  "M03_A10": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [
+        6
+      ],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 0
+  },
+  "M03_A11": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [
+        5
+      ],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 0
+  }
+}

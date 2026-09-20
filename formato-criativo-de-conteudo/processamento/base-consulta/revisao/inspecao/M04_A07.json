@@ -1,0 +1,121 @@
+{
+  "aula": "M04_A07",
+  "arquivo_sha256": "4698cc61ced210c3204319f750de9cc32df4a6be18fced28657fc9666858ac19",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 3, 4]; as demais mantêm a evidência da inspeção integral do arquivo 6de047092bbd, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    3,
+    4
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "50b07dcb026be23dc14c04a034aa3cf4155dd9ca00c9c23916f7b03674f6c1f2",
+    "2": "5e2738240d31f9e3231756d3c1d969bde722360d1cbafe09854585e77c91aea2",
+    "3": "7c4694fed9d48088ff235922718b7b4170f615a57e26cce6b72a10fe64e67756",
+    "4": "0092669726dd916230a8f4f43c48643e8b273d12388df3a503ab8c45369bd1f3",
+    "5": "79ec3031323c4f0370dbd7de985af6297f002c9a19a022b51e70bc69a254a6d3",
+    "6": "649e4b9ad72b189cd39b2501e9e4002f64ddcc766ec7c2759169e66fe892323c",
+    "7": "143651166ecae268eb988a4c15261fbf9cb25a4b1bcc4892ecd55eddef1b9931",
+    "8": "63fe809ff4757ae93d99dfc4aa65e333d328643a54f53710dcd0e3dc9e623be7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai montar slides pra convencer o seu público",
+      "explicacao": "A definição (slides para convencer público, marido ou personagem) está na fala e no material, dentro da faixa 24–58. O exemplo Floripa × São Paulo está em 44–50 s. Detalhe menor: o corpo chama o Alef de \"parceiro\", e nenhuma das duas fontes diz isso. A fala só diz \"convencer o Alef\", e \"marido\" aparece como exemplo genérico de destinatário. A falta não muda o uso, mas é inferência da extração."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você tem essa vibe, recorde que você teste o formato",
+      "explicacao": "F1 resolvida. A faixa agora é 106–277 s. \"é fácil de fazer, é diferente, é padrão, é divertidinho e tal.\" está em 268,28–273,68 s. A recomendação de testar está em 273,68–276,84 s. \"Ele funciona muito porque quebra o padrão, é visual e engraçadinho\" (113,2–116,88 s) e \"tenho visto várias pessoas usarem\", \"muita gente usa tem muito resultado\" (260,74–267,18 s) também estão dentro da faixa. A condição de que um professor viu o formato há pouco tempo (\"tem pouco tempo que eu vi esse formato\", cerca de 264–265 s) também cabe na faixa. O corpo não mudou além de \"essa vibe\", que agora coincide com a fala. A eficácia continua atribuída aos professores. Não abriu problema novo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não tenho certeza se isso é uma regra do formato",
+      "explicacao": "F2 resolvida. A faixa agora é 38–109 s. \"Pra quem é de São Paulo, era só uma brincadeirinha\" está em 98,84–101,62 s e \"Esse é o formato criativo palestrinha\" em 106,42–108,5 s. Os dois estão dentro da faixa, e a evidência \"Pega sua pipoca, pode se sentar\" (40,68–42,34 s) também. F3 resolvida. `nota` e `condicoes` registram as duas versões, como a fonte as traz. O material lista \"Humor ao longo da apresentação\" como parte 3 da estrutura e pede humor em cada slide. Na fala (283,74–286,66 s) o professor diz \"Eu não tenho certeza se isso é uma regra do formato\", \"Porque eu ainda não vi muita gente\", \"Mas todas as pessoas que eu vi fazendo esse formato / Tem um temperinho de humor\". O corpo manteve as quatro partes na ordem do material, `confianca` segue `media` e nenhum lado foi escolhido. Ressalva de leitura, sem efeito no aceite: o antecedente de \"isso\" na fala é ambíguo (pode ser o humor ou o contraste falar mal de São Paulo e bem de Floripa). A nota repete o \"isso\" da fala e não fixa o antecedente, e a `confianca` media cobre a incerteza."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E aí você divide em tópicos",
+      "explicacao": "F4 resolvida. `plataformas` agora é [\"geral\"]. O Canva aparece no corpo e na `nota` só como ferramenta do exemplo (\"Literalmente montei esse slide no Canva\", 224,56–225,58 s). `perecivel` segue `true` por causa dessa menção e dos cinco minutos, o que é coerente. A extensão de `fim` para 240 se justifica. \"E aí você divide em tópicos\" está em 236,46–238,18 s e \"Os seus argumentos\" em 238,18–239,38 s, então a frase \"divida os argumentos em tópicos\" agora cabe na faixa. A `evidencia` (229,84–232,34 s) e a menção ao Canva seguem dentro de 222–240. O corpo continua fiel à fala (slide simples porque fica grande na TV, frase do motivo, argumentos em tópicos) e ao material (\"a simplicidade faz parte da proposta\"). Não abriu problema novo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não tenho certeza se isso é uma regra do formato",
+      "explicacao": "A unidade preserva a preferência do professor sem virar lei: a incerteza está em `condicoes`, `nota` e no fim do corpo. O exemplo do Uber (302–308 s), os picos de dopamina e sorrisinhos (308–315 s) e \"todas as pessoas que eu vi\" têm temperinho de humor (288–292 s) conferem, e tudo está dentro da faixa 283–314. O imperativo \"coloque\" é um pouco mais firme que o \"tenta colocar\" da fala, mas o próprio corpo desfaz isso ao dizer que ele não tem certeza de que seja regra."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então se você não tem uma TV, com computador também funciona",
+      "explicacao": "Setup (celular, luz principal, TV grande, \"não precisa ser grande\"), computador como alternativa e \"o grande lance é ter uma palestra para apresentar\" conferem, dentro de 317–355 s. A afirmação de já ter visto mais gente viralizar com computador está atribuída ao professor e vem do segundo apresentador (336–344 s). O corpo funde os dois falantes em \"ele\", sem efeito no uso. `perecivel: true` está correto."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas não precisa, se você não tiver ninguém pra te ajudar, você pode fazer só você mesmo fazendo a palestrinha.",
+      "explicacao": "Fazer sozinho e a cena da silhueta assistindo conferem com a fala (249–260 s). Pipoca como atmosfera e \"não é obrigatório\" vêm do material, que a unidade declara em `fonte`. A condição \"para quem não tem ninguém para ajudar\" está preservada."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lá no Trello do Desafio eu deixei uma lista de vários criadores que cresceram muito depois de usar ele",
+      "explicacao": "A chamada para comentar a palavra-chave e receber a lista de criadores no Trello está em 120–128 s. É gancho do vídeo de exemplo, e a fala não mostra o conteúdo da lista. A menção do material ao Trello e aos três vídeos de exemplo sem endereço está registrada na `nota`. O tipo `limite` e `perecivel: true` são coerentes."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": null,
+      "trecho_fonte": "A orientação é experimentar o formato especialmente em conteúdos de argumento e opinião, combinando clareza, carisma e humor nos detalhes.",
+      "descricao": "O material dá o único critério explícito de aplicação do formato: experimentá-lo especialmente em conteúdos de argumento e opinião, combinando clareza, carisma e humor nos detalhes. Nenhuma unidade preserva isso. A unidade 2, marcada com `escolher-formato`, só diz para testar se a pessoa tem \"essa vibe\".",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que decide o formato para um vídeo de opinião ou de defesa de ideia não encontra na base a indicação de que o material recomenda Palestrinha para esse tipo de conteúdo. Fica só com o critério mais vago de \"vibe\"."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U4 (menor, mas afeta uso): `plataformas: [\"canva\"]` leva o agente ao lugar errado. A orientação (slide simples, frase do motivo, argumentos em tópicos) vale para qualquer ferramenta, e a `nota` da própria unidade diz que o Canva é só a ferramenta do exemplo, \"não como requisito\". A taxonomia diz que `geral` é o padrão e que a menção de onde ou como o exemplo foi feito não muda isso. Com `canva`, a unidade fica fora de buscas gerais e é tratada como dependente do Canva. Deveria ser `geral`, com o Canva só como exemplo no corpo. Se isso mudar `perecivel`, o corpo não pode depender de número ou de ferramenta.",
+    "U2 (menor, discutível): o tipo `regra` (\"frase categórica\") não descreve bem o corpo. O corpo são justificativas atribuídas aos professores (\"segundo os professores… funciona porque…\") mais uma recomendação condicional. `conceito` ou `decisao` seriam igualmente defensáveis. É ajuste menor.",
+    "U3, U4, U7 e U8 (menor): o corpo remete a \"o exemplo\", \"vídeo de exemplo\" e \"a criadora\" sem dizer qual é o exemplo. Só a unidade 1 explica que é o vídeo de convencer o parceiro a morar em Floripa. A U3 usa \"o exemplo\" três vezes (pipoca, argumentos numerados, fecho) sem contexto. O uso da estrutura não é afetado, mas quem consulta a unidade isolada não entende o que é \"o exemplo\". Bastaria uma frase de contexto na primeira ocorrência."
+  ],
+  "material": [
+    "U3 × U5 (fala × material, não registrado): o material lista \"Humor ao longo da apresentação\" como parte fixa nº 3 da estrutura, e a U3 reproduz isso sem ressalva no corpo, na `condicoes` e na `nota`. Na fala (286 s) o professor diz \"Eu não tenho certeza se isso é uma regra do formato\", porque viu poucas pessoas fazendo. A `nota` e a `condicoes` da U3 só registram a divergência da contagem de partes e tópicos. A hesitação do professor está só na U5. Quem consulta a U3 sozinho recebe o humor como componente obrigatório do molde. Sugestão: registrar as duas versões na `nota` da U3. Não é desvio de número, mas é uma divergência de grau resolvida em silêncio para o lado do material.",
+    "O material corresponde à aula (mesmo formato, mesmo exemplo Floripa × São Paulo, mesma abertura com pipoca). A única parte do material sem uso é \"argumento e opinião\", listada em `omissoes`."
+  ],
+  "resumo": "As falhas F1, F2, F3 e F4 estão resolvidas pelos critérios de aceite, e as unidades 2, 3 e 4 ficam lastreadas, sem gravidade. As faixas novas (U2: 106–277 s; U3: 38–109 s; U4: 222–240 s) contêm os trechos que o corpo cita. A U3 registra as duas versões sobre o humor (material e fala), e a U4 saiu da plataforma `canva` sem perder o `perecivel: true`. Não há omissão, perecibilidade, contrato ou material novos decorrentes das correções. Ressalva que não altera o aceite: na fala, o antecedente de \\\"isso\\\" em \\\"não tenho certeza se isso é uma regra do formato\\\" é ambíguo (humor ou contraste entre as cidades). A U5 não foi reaberta."
+}

@@ -1,0 +1,177 @@
+{
+  "aula": "M05_A02",
+  "arquivo_sha256": "a53e17dc1d1231c2325ea61de680fa1655cddc49d70f3b5f35b4464e2c9451e5",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "1f797b82a14f8ea1ed1e070dc0c0611b578a1b11960d65d240f490b632a3c767",
+    "2": "4018f9c7cb7380e423629b3617719de15f9398cfa2e2165c5ba540c97561b36f",
+    "3": "1d365b93954c6cfbfa8a7d9744b6e52ede53a35a48bde83d7a7e5880556c6134",
+    "4": "626ecd7f312b31464fa0bd78a8196aca7d2c7161ee367515c022d5cf14baf1d2",
+    "5": "c373fd3fb3c53cd5ca3c7666b5eb4f268cbedd7d9bbbc09f1263fc48389b7e40",
+    "6": "eb2689fe6175cf9adebbb1b362d46393775376bc8d82b2d5f3600e792b2a022b",
+    "7": "bb8c392b00730f7744530064540935cd0d4ad8ca141c753bdcda9fce6141f178",
+    "8": "8a3930d1e704da18c05e0ee785d58f4011533fdb81be139ff69794942788e727",
+    "9": "be446d1dacea0b42f06ed6403df0c3b1b23a51003d27a1a365690a00b63bd6f1",
+    "10": "2c4142732db6359c8bf5a55ecea2250268f86974eebef838904629796ee4305e",
+    "11": "7a5410f3b8b6fe07cd0978c8415ea6157c1e36c6da832b35ccd899f8fc2d7381",
+    "12": "2d4443064c22c0665ca22b15ba6e12830ee2db51b36d48f84649c63bb3104ab1",
+    "13": "b96212f67b80c28901a66543147055fb1b81ffea7eed18e2fa9cad8536467df3",
+    "14": "6910f47375778bb7657a1bdd055e0dfa9e95f875d4a84e2a572608e5efbe5996"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aqui nas redes sociais a gente consegue pegar esses elementos e usar para criar a nossa tribo.",
+      "explicacao": "Atribuição e sentido batem com a fonte: a professora, um pesquisador estadunidense, marcas que se provaram no tempo e o uso nas redes para criar tribo e comunidade. A nota sobre sete pontos na fala e seis no material está correta. A enumeração final dos sete elementos vem das seções seguintes da aula (até ~1196 s) e não está na faixa 27–72 s. É síntese fiel, sem efeito no uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você consegue clicar, fazer uma cópia para você e responder ali",
+      "explicacao": "Os passos (copiar o documento, responder, pesquisar, melhorar, consultar ao criar) correspondem à fala em 81–121 s. O documento fica na descrição da aula, e a unidade está marcada como perecível."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "o dia que eu não consegui pagar um açaí de 30 reais",
+      "explicacao": "O conteúdo é fiel à fonte, mas a faixa 76–175 s não o cobre. O açaí de 30 reais está em ~178–184 s, o primeiro vídeo que cresceu depois de mais de dois anos em ~213–248 s e a percepção de misturar marketing digital com criação de conteúdo em ~249–293 s. Só a definição e o exemplo de ser expulsa de casa (~148 s) estão dentro da faixa. Quem abrir a fonte pela faixa não encontra três dos quatro exemplos citados no corpo. A faixa deveria ir até ~293 s, pois a unidade 4 começa em 298 s."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tudo que eu vou falar aqui de todos os elementos, você tem a possibilidade de criar um vídeo só sobre isso,",
+      "explicacao": "O corpo (vídeo inteiro ou dentro de outros vídeos, com o público se familiarizando e se conectando) está atribuído à professora e bate com 298–325 s. O corpo fala de todos os elementos, mas o título e as tarefas falam só de histórias de criação (ver contrato)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, ele contou uma história pesada, mas o vídeo não termina ali, senão ele ainda estaria vivendo todo esse vício.",
+      "explicacao": "A regra e a condição (história triste, terminar com mensagem positiva) batem com a fonte, e a condição está preservada. O detalhe 'perda da namorada' vem do trecho exibido do vídeo (~327–386 s). Esse trecho está degradado na transcrição e fora da faixa 381–416 s. Não afeta a regra."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então é melhor que a gente vá usando as crenças pra ir construindo um muro em volta do nosso perfil com as pessoas que a gente gosta ali dentro desse muro.",
+      "explicacao": "Frases curtas e impactantes, atrair e afastar, o risco de haters e a imagem do muro correspondem à fala e estão atribuídos à professora. O último exemplo, 'imaginar é prever o futuro', é dito em ~509 s, poucos segundos depois do fim 502; o núcleo da orientação está na faixa."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele basicamente colocou uma crença nele no formato que ele já validou.",
+      "explicacao": "O vídeo da corrida (imaginação guiada na noite anterior, reencenada) e a crença de Crônicas de Jorge na última frase, dentro do formato validado, batem com a fonte. A condição sobre o vídeo dela ser anterior ao formato criativo está preservada. A imprecisão do trecho dele está em `nota`."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "no próximo e entrega o melhor resultado",
+      "explicacao": "Os números (um ano e meio, 40 mil reais no mês, 500 reais) estão como relato da professora, com Lógica que os impede de virar régua. Mas a professora enuncia a crença como 'cobra mais caro no próximo e entrega o melhor resultado no próximo', e o 40 mil vem 'só na ideia' dessa dupla. O corpo usa só a metade 'cobra mais caro' e omite a contrapartida da entrega. Ver omissões."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O descrente é basicamente a personificação de quem não segue as suas crenças.",
+      "explicacao": "A definição e os exemplos (vitimista, guarda conhecimento, repetir é chato, sucesso é sorte, quem para na dúvida) batem com 939–1000 s. Ver `material` sobre a precisão da nota."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tudo isso vai ocupando o espaço mental do seu público sobre você, sobre o seu universo",
+      "explicacao": "Definição, exemplos e a mistura entre crença e linguagem batem com a fonte. Os efeitos ('ocupam o espaço mental do público, constroem a marca, deixam mais memoráveis') estão escritos como fato, sem atribuição à professora. FORMATO §3 pede que afirmação de resultado seja atribuída."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ritual é aquela repetição que os seguidores daquela tribo fazem religiosamente.",
+      "explicacao": "A definição, o sinal da cruz, as quatro respirações nas aulas ao vivo e a contagem no vídeo da corrida batem com a fonte. O material também cita 'imaginação' como ritual (ver `material`)."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolhe o seu símbolo e reforça ele.",
+      "explicacao": "O balão (voar alto e ser leve), a bola de cristal com a justificativa e a admissão de que ela precisa reforçar os símbolos batem com 1140–1190 s. A variação de nomes está registrada em `nota`."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O líder é o autor do ato.",
+      "explicacao": "Líder como quem vai na frente, inspira e segue os outros elementos, e a exigência de viver o que prega e reafirmar os descrentes, batem com a fonte. Sentido e faixa estão corretos."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você não precisa disso pra começar",
+      "explicacao": "Não é pré-requisito, é um extra para criar comunidade e posicionar a marca ao longo do tempo, e não se deve travar por causa disso. Tudo bate com 1240–1265 s."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 737,
+      "trecho_fonte": "no próximo e entrega o melhor resultado",
+      "descricao": "A crença é enunciada como um par: 'cobra mais caro no próximo' e 'entrega o melhor resultado no próximo' (também em ~719–723 s). O 40 mil dos alunos é atribuído 'só na ideia' dessa dupla. A unidade 8 preserva só a metade do preço.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente pode recomendar subir o preço a cada trabalho sem a contrapartida de entregar um resultado melhor, que a professora coloca junto. O texto 'relato dela, não meta' atenua, mas a companhia da entrega se perde."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4: o título ('Onde usar as histórias de criação nos vídeos') e as tarefas restringem a orientação às histórias de criação. O corpo e a fonte ('todos os elementos') valem para todos os elementos do branding. Um agente que busca pelo título pode deixar de aplicá-la a crenças, símbolos e outros elementos. Ajuste menor.",
+    "Jargão do curso sem explicação no corpo: 'CDF' nas unidades 9 ('ao contrário do CDF') e 10 ('Salve, salve CDF'); 'formato já validado' na unidade 7; 'criadores estrategistas' na unidade 8. Sem a aula, a frase da unidade 9 não se entende. FORMATO §2 pede explicar o jargão na primeira ocorrência dentro da unidade. Ajuste menor.",
+    "Tarefas discutíveis, com dois valores defensáveis: a unidade 9 (descrentes) leva `pesquisar-publico`, que a taxonomia define como levantar desejos e medos do público, e a fala manda listar os próprios descrentes. A unidade 13 (líder) leva `definir-personalidade-e-voz`, mas a fala trata de coerência com os elementos da marca, não de mapear traços ou voz. Ajuste menor."
+  ],
+  "material": [
+    "Unidade 9: a nota diz que o material 'define descrentes de forma diferente', o que é impreciso. A definição do material ('Pessoas, ideias ou comportamentos que representam o que a comunidade rejeita') é compatível com a fala. A divergência real está nos exemplos: o material lista como descrentes 'CDF', 'Salve Salve', 'It's time for action' e 'Café com teu pai', que a fala trata como linguagem. O material também não tem seção de Linguagem (seis elementos, enquanto a fala tem sete, o que a unidade 1 registra). A nota deve descrever as duas versões com esse conteúdo. Menor.",
+    "Unidade 11 (fonte fala+material): o material dá como exemplos de ritual 'imaginação e respiração 4×'. A fala chama só a respiração de ritual, e a imaginação guiada aparece como conteúdo do vídeo da corrida. A unidade usa a versão da fala e não registra a do material. Menor.",
+    "O material traz itens que a fala não traz ou formula de outro modo: 'Thales' na história de criação, 'Repetição é a primeira lei do sucesso' entre as crenças e 'Quem não estuda não tem vez' para Crônicas de Jorge. Na fala, a crença dele é 'gostar de ler/estudar' e, na última frase do vídeo, 'eu não saio com você se você não ler'. As unidades 3, 6 e 7 seguem a fala sem registrar isso. O sentido não muda; menor."
+  ],
+  "resumo": "As 14 unidades foram conferidas contra a fala e o material e todas têm lastro. Não encontrei sem-lastro, número adulterado, exemplo virado régua nem preferência virada lei, e nada perecível ficou sem marca. O achado que pode pesar é a faixa da unidade 3, que cobre só a definição e um dos quatro exemplos (1 de 14 unidades com faixa, abaixo de 10%). O restante é menor: a unidade 8 perde a contrapartida 'entrega o melhor resultado', a unidade 10 traz efeitos sem atribuição, e há jargão sem explicação, tarefas discutíveis e notas de material imprecisas. A unidade 1 traz a enumeração dos elementos fora da faixa; se o juiz a contar como faixa-errada, seriam 2 de 14."
+}

@@ -1,0 +1,588 @@
+{
+  "curso": "formato-criativo-de-conteudo",
+  "aula": "M02_A06",
+  "titulo": "Formato Validado - Narrado",
+  "extraido_em": "2026-09-19",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula apresenta o formato validado Narrado, em que o criador narra por cima e aparecem imagens ao longo do vídeo, dentro do módulo de formatos validados para copiar e colar.",
+    "Ela é dirigida a alunos do curso (chamados de CDF pelos professores) que vão escolher, analisar e aplicar o formato em qualquer nicho.",
+    "Cobre as variações do formato, os três elementos viciantes (contraste, troca de imagem a cada cerca de três segundos e narração natural) e a análise de quatro vídeos de referência.",
+    "Também mostra como usar a ficha do Trello, o roteiro transcrito e a IA, e fecha com exemplos de alunos e um recado sobre executar rápido.",
+    "Assume que o aluno já conhece os conceitos de conflito, contraste e imagem mental vistos antes, e que a IA do curso e o Trello já foram apresentados.",
+    "Deixa para outro módulo o aprofundamento de vender sem ser chato (a semente de venda é só apontada). O material de apoio é um resumo curto e não traz nada além do que a fala já diz, exceto a orientação de as imagens acompanharem o sentido da narração."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Narrado: o que é e as quatro variações",
+      "tipo": "conceito",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escolher-formato"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 12,
+      "fim": 93,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O nome da criadora que mostra processos aparece na transcrição como 'Jenny Keller'; grafia não confirmada no material. O material lista três variações; a quarta (cenas gravadas para o roteiro) vem só da fala.",
+      "proposta_tag": null,
+      "corpo": "Formato Narrado: o criador narra e, ao longo do vídeo, aparecem imagens. As variações citadas na aula são quatro.\n1) Encenar o que se fala, como se a narração fosse um pensamento; os professores também chamam isso de telepatia.\n2) Usar imagens aleatórias da própria galeria que expressam mais ou menos o que o texto diz.\n3) Mostrar o processo de algo acontecendo (montar uma cozinha, fazer uma viagem), como faz a criadora citada como Jenny Keller.\n4) Gravar cenas específicas para o roteiro, que não são da galeria nem um processo, e narrar por cima.",
+      "evidencia": "Um formatinho que você narra e aparecem imagens ali no seu conteúdo.",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Narrado: contraste do negativo para o positivo",
+      "tipo": "regra",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "inserir-gatilhos-de-atencao",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 95,
+      "fim": 122,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O contraste é um elemento viciante forte do Narrado. Segundo o professor, os vídeos narrados que funcionam costumam ir de um lado para o outro, geralmente do negativo para o positivo. Exemplos dele: arrumar a cozinha e uma peça quebrar, corrigir e surgir outro problema; ou uma viagem para ser feliz em que a pessoa estava chorando por algum motivo.",
+      "evidencia": "Então, geralmente, ele vai indo do negativo para o positivo.",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Narrado: nova imagem a cada cerca de 3 segundos",
+      "tipo": "regua",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "editar-video",
+        "gravar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 122,
+      "fim": 136,
+      "condicoes": "O material acrescenta que a referência serve para não deixar o mesmo plano parado quando isso reduz o ritmo.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Regra dos três segundos: troque a imagem mais ou menos a cada três segundos. O professor a considera muito importante porque o dinamismo evita que as pessoas cansem do vídeo.",
+      "evidencia": "a cada três segundos, mais ou menos, você tem uma nova imagem",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Narrado: narração natural, como áudio para um amigo",
+      "tipo": "regra",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "gravar-video",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 136,
+      "fim": 159,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A narração precisa ter bom ritmo e soar natural, como um áudio mandado a um amigo, só que um pouco mais acelerado. Não deve parecer leitura de roteiro nem usar palavras que a pessoa não diria no dia a dia. O material de apoio acrescenta retirar pausas e respirações que não ajudem a mensagem.",
+      "evidencia": "Como se você estivesse mandando um áudio para um amigo, só que um pouco mais acelerado.",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Narrado: ficha no Trello, roteiro transcrito e uso da IA",
+      "tipo": "ferramenta",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso",
+        "roteirizar-com-ia"
+      ],
+      "plataformas": [
+        "trello",
+        "sofia"
+      ],
+      "fonte": "fala",
+      "inicio": 165,
+      "fim": 204,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Nesse trecho a fala diz 'links da IA' sem nomear a ferramenta; mais adiante a aula cita a Sofia para o roteiro. A associação com a SOFIA é inferida.",
+      "proposta_tag": null,
+      "corpo": "A ficha do formato Narrado no Trello do curso traz várias referências. O professor diz que o formato tem referência infinita e o chama de hipervalidado.\nO documento traz o roteiro transcrito de cada referência, para analisar, se inspirar e usar na IA. Para usar a IA, o aluno copia o prompt do documento e o roteiro em que vai se inspirar, seguindo os links da IA que estão ali.",
+      "evidencia": "vai copiar essa parte aqui que é o prompt e vai copiar também o roteiro que você vai se inspirar",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Narrado: exemplo do vídeo de higienização de sofá",
+      "tipo": "exemplo",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "analisar-video-de-referencia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 215,
+      "fim": 307,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição automática está ruidosa nesse trecho (nomes de produtos e piadas). Os números de duração e de processos são do caso, não recomendação.",
+      "proposta_tag": null,
+      "corpo": "Situação: um profissional de higienização de sofás grava um vídeo narrado sobre limpar um sofá de 25 anos nunca higienizado, a pedido de uma cliente cujo marido dizia que não precisava higienizar.\nO que aconteceu: ele narra imagens do processo (teste na lateral, papel branco, escova, máquina sugando a sujeira) e conta a historinha do marido. Diz que levou mais de 4 horas e mais de 12 processos, e o vídeo termina com o sofá limpo.\nLógica: o professor traz o caso para mostrar que o formato funciona em nichos variados, como o de serviço. Ele apresenta o vídeo como ponto de análise e não dá as durações como meta.",
+      "evidencia": "Me pediram pra higienizar um sofá de 25 anos e nunca higienizado.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Narrado: conflito e mudança dão a satisfação do final",
+      "tipo": "conceito",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "inserir-gatilhos-de-atencao",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 316,
+      "fim": 368,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A suspeita de que a história foi inventada é opinião dos professores, dita com 'quase certeza'; não é fato confirmado.",
+      "proposta_tag": null,
+      "corpo": "O professor destaca a satisfação no final do vídeo do sofá: há um conflito e uma mudança, o que ele chama de storytelling (o conflito muda a vida). O sofá começa sujo e termina limpo.\nOs professores acreditam que parte da historinha do marido foi inventada para deixar o roteiro mais memorável e despertar mais emoção. Eles não a apresentam como regra para o aluno.",
+      "evidencia": "Tem esse conflito e mudança. Isso é storytelling.",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Narrado: gerar imagem mental deixando o público concluir",
+      "tipo": "regra",
+      "tema": "gatilhos-de-atencao",
+      "tarefas": [
+        "inserir-gatilhos-de-atencao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 371,
+      "fim": 396,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Na transcrição o objeto aparece como 'papel branco' e depois como 'papel higiênico'; a fonte é ambígua.",
+      "proposta_tag": null,
+      "corpo": "Uma forma de gerar imagem mental é sugerir sem descrever. No vídeo do sofá, o criador passa um papel na superfície e diz que deixa a imaginação do público concluir a que aquilo se parece. O professor elogia o recurso e ressalta que não é preciso provocar nojo no conteúdo; o que vale é o princípio.",
+      "evidencia": "Ele falou assim, vou passar papel higiênico aqui só pra vocês",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Copiar os princípios do vídeo, não o nicho",
+      "tipo": "regra",
+      "tema": "engenharia-reversa",
+      "tarefas": [
+        "analisar-video-de-referencia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 396,
+      "fim": 425,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao analisar uma referência de outro nicho, olhe os princípios de por que ela funciona: gerar emoção, ter conflito e mudança, e começar mal para terminar de forma positiva, passando por dificuldades. O professor garante que o formato funciona em qualquer nicho.",
+      "evidencia": "então você olha pros princípios e fala beleza, tem que gerar emoção",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Narrado: plantar uma semente de venda na narração",
+      "tipo": "regra",
+      "tema": "venda-no-conteudo",
+      "tarefas": [
+        "vender-no-conteudo",
+        "escrever-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 426,
+      "fim": 470,
+      "condicoes": "Vale quando o criador quer que o público saiba que ele oferece outro serviço além do que mostra no vídeo.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O professor afirma que o vídeo vendeu muito e que a semente foi intencional; são suposições dele. O aprofundamento fica para o módulo de vender sem ser chato.",
+      "proposta_tag": null,
+      "corpo": "No vídeo do sofá, o criador cita de passagem seus alunos e sua mentoria, além do serviço de limpeza. O professor chama isso de plantar uma sementinha de venda: o público fica sabendo que ele também ensina a profissão. Na visão do professor, foi feito de forma intencional e estratégica, e o vídeo vendeu bastante o serviço. O tema é aprofundado em outro módulo.",
+      "evidencia": "vocês repararam a sementinha de venda que ele plantou?",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Narrado: telepatia nos primeiros segundos do vídeo do sofá",
+      "tipo": "exemplo",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escolher-formato",
+        "gravar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 470,
+      "fim": 504,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o criador do vídeo do sofá quer abrir o vídeo narrado.\nO que aconteceu: além de gravar imagens do processo, nos primeiros segundos ele encena com caras e bocas a fala de aceitar qualquer desafio.\nLógica: o professor mostra que as variações do Narrado se combinam. Ele encena o que quer dizer (telepatia) no início e usa imagens do processo no resto do vídeo.",
+      "evidencia": "pegou o que ele queria dizer e encenou o que ele queria dizer",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Narrado: exemplo do vídeo da sogra e do quarto de visita",
+      "tipo": "exemplo",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "analisar-video-de-referencia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 523,
+      "fim": 598,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: uma criadora prepara o quarto de visita para a sogra, que fez uma cirurgia e ficará na casa dela.\nO que aconteceu: ela narra as compras (roupão, colcha, bandeja de kit de higiene), os problemas do quarto e a solução (ar-condicionado instalado a tempo, refeições organizadas, presente de uma loja) e fecha com o quarto pronto para a chegada.\nLógica: o professor usa o vídeo para mostrar que a narração avança por pequenos contrastes e conflitos. Ele identifica o vídeo como publi de uma loja de presentes.",
+      "evidencia": "A cobra da minha sogra fez uma cirurgia e vai ficar na minha casa",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Narrado: gancho com conflito universal e familiar",
+      "tipo": "regra",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escrever-gancho",
+        "inserir-gatilhos-de-atencao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 602,
+      "fim": 638,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Que a criadora gosta da sogra é suposição do professor.",
+      "proposta_tag": null,
+      "corpo": "Abra o vídeo com uma frase que gere emoção para chamar atenção. No exemplo, chamar a sogra de \"cobra\" (com ironia, pois o professor supõe que ela gosta da sogra) cria um conflito com a sogra. Esse conflito é universal e familiar, e quase todo mundo já ouviu falar dele ou passou por algo parecido. O professor diz que a criadora usou a frase só para gerar esse efeito.",
+      "evidencia": "porque ela sabe que precisa gerar emoção pra chamar a atenção",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Narrado: o mesmo vídeo serve para publi ou para dono da loja",
+      "tipo": "conceito",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escolher-formato",
+        "vender-no-conteudo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 638,
+      "fim": 665,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O vídeo da sogra é uma publi de uma loja de presentes, mas o mesmo roteiro poderia ser feito pela dona de uma loja de roupa de cama. O professor conclui que, olhando com os princípios do curso, o formato se aplica literalmente a qualquer nicho.",
+      "evidencia": "ela poderia ser a dona de uma loja que vende roupa de cama",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Narrado: bom para quem tem rotina corrida",
+      "tipo": "decisao",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escolher-formato",
+        "gravar-video",
+        "planejar-conteudo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 665,
+      "fim": 692,
+      "condicoes": "Pessoa com rotina muito corrida, para quem é difícil parar e gravar.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a rotina é corrida e parar para gravar é difícil, use o Narrado. Ao longo do dia, com o olhar cada vez mais treinado para as cenas que valem gravar, junte as imagens e narre por cima depois. Isso facilita a produção para quem não tem tempo.",
+      "evidencia": "Esse formato é muito massa para pessoas que não têm tempo.",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Dono de loja: narrar a compra do que ele mesmo vende",
+      "tipo": "decisao",
+      "tema": "venda-no-conteudo",
+      "tarefas": [
+        "vender-no-conteudo",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 703,
+      "fim": 746,
+      "condicoes": "Empresário ou dono de loja que vende um produto e quer vender por meio de conteúdo.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Se você vende um produto, encontre na sua rotina um momento em que precisaria dele e faça o vídeo como quem está buscando aquilo. Por exemplo, quem vende roupa de cama compra uma nova para receber uma visita especial, na própria loja, como quem não quer nada. O professor diz ver muitos empresários fazendo isso.",
+      "evidencia": "Se coloca como alguém que tá querendo buscar isso e vai atrás como quem não quer nada.",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Narrado: usar o \"mas\" para criar contraste",
+      "tipo": "regra",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "inserir-gatilhos-de-atencao",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 749,
+      "fim": 825,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Coloque contraste no roteiro do Narrado desde a abertura. No vídeo da sogra, \"cobra\" é emoção negativa e \"coisinhas para deixar o quarto aconchegante\" é emoção positiva.\nO professor destaca o \"mas\" como atalho: ele indica mudança de direção. Escreva algo que ia acontecendo, mas algo dá errado; você conserta, mas outra coisa dá errado. Se tudo só der certo, diz ele, as pessoas não assistem ao conteúdo.",
+      "evidencia": "O mas, ele indica uma mudança de direção",
+      "versao": 1
+    },
+    {
+      "numero": 18,
+      "titulo": "Narrado: exemplo do vídeo do desenho na livraria",
+      "tipo": "exemplo",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "analisar-video-de-referencia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 825,
+      "fim": 925,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: uma criadora desenhista faz um vídeo narrado sobre desenhar pessoas aleatórias numa livraria.\nO que aconteceu: ela compra um caderno de 70 reais por não ter levado o seu, começa a desenhar uma moça, que se levanta para ir embora em 5 minutos. As duas conversam, a moça pede o desenho inacabado e a criadora chama de missão parcialmente cumprida.\nLógica: o professor mostra que um vídeo sobre desenho é um conflito atrás do outro (deu errado, deu certo dando errado), o que deixa o conteúdo mais impactante, e que isso funciona em qualquer nicho.",
+      "evidencia": "E observa como o conflito vai deixando as coisas mais interessantes",
+      "versao": 1
+    },
+    {
+      "numero": 19,
+      "titulo": "Narrado: o conflito nasce do roteiro, não da cena chocante",
+      "tipo": "regra",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escrever-roteiro",
+        "inserir-gatilhos-de-atencao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 925,
+      "fim": 977,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A fala cita um nome ('Aleph') para quem trouxe o detalhe do caderno; grafia incerta e omitida do corpo.",
+      "proposta_tag": null,
+      "corpo": "Nem sempre a rotina traz cenas chocantes. Muitas vezes a situação chocante vem do roteiro. No vídeo do desenho, o professor destaca o detalhe do caderno que custava muito mais do que deveria, algo que uma desenhista percebe. Esse pequeno conflito no roteiro vale para todos os roteiros, mas especialmente para o narrado, porque as pessoas ficam sem depender só das imagens.",
+      "evidencia": "A situação chocante muitas vezes vai vir do seu roteiro.",
+      "versao": 1
+    },
+    {
+      "numero": 20,
+      "titulo": "Narrado: nem só acertos nem só erros, do negativo ao positivo",
+      "tipo": "regra",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escrever-roteiro",
+        "inserir-gatilhos-de-atencao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 977,
+      "fim": 997,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, mostrar só o que deu certo faz o vídeo ser completamente ignorado, e mostrar só o que deu errado também funciona menos. A ideia é ir do negativo ao positivo: dá certo, você conserta, dá errado de novo, volta. Ele compara com a estrutura de um filme.",
+      "evidencia": "Se só der errado também Não vai funcionar tanto",
+      "versao": 1
+    },
+    {
+      "numero": 21,
+      "titulo": "Narrado: alunos com resultado usando o formato",
+      "tipo": "exemplo",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "escolher-formato"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1014,
+      "fim": 1068,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O nome 'Bárbara' aparece só na fala. Os números de seguidores e likes são casos citados pelo professor, não metas.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor mostra duas alunas que aplicam o Narrado.\nO que aconteceu: uma faz uma reforma sem celular potente nem ambiente especial. Tinha menos de 1800 seguidores ao postar e o vídeo passou de 9 mil likes. A outra é criadora e estrategista country, com um vídeo de 68 mil likes e vários virais no formato, segundo o professor.\nLógica: ele usa os casos para mostrar que o formato funciona com perfil pequeno e equipamento simples. Os números são desses casos e não servem de meta.",
+      "evidencia": "1800 seguidores, ela tinha menos quando ela fez esse vídeo, e o vídeo tem 9 mil likes",
+      "versao": 1
+    },
+    {
+      "numero": 22,
+      "titulo": "Uso da IA no Narrado: só se precisar, e lapidar a ideia",
+      "tipo": "decisao",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1068,
+      "fim": 1086,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Se a aula já deu uma ideia, não precisa da IA: use a inteligência real. Se for usar a IA, conecte inteligência real com artificial: olhe a ideia que ela trouxe e lapide para fazê-la funcionar.",
+      "evidencia": "Conecta inteligência real com inteligência artificial",
+      "versao": 1
+    },
+    {
+      "numero": 23,
+      "titulo": "Executar rápido: CDF testa e melhora, figurante arruma desculpa",
+      "tipo": "regra",
+      "tema": "mentalidade-e-ambiente",
+      "tarefas": [
+        "lapidar-formato"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1086,
+      "fim": 1104,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Mais importante do que qualquer ferramenta é executar. O figurante, o oposto do CDF (como os professores chamam os alunos), fica parado e arruma desculpa para não fazer. O CDF faz rápido, testa e melhora no vídeo seguinte.",
+      "evidencia": "O figurante ele vai arrumar desculpa pra não fazer O CDF vai fazer rápido e melhorar no próximo",
+      "versao": 1
+    },
+    {
+      "numero": 24,
+      "titulo": "Narrado: as imagens acompanham o sentido de cada trecho narrado",
+      "tipo": "fato-material",
+      "tema": "formato-narrado",
+      "tarefas": [
+        "editar-video",
+        "escrever-roteiro"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "material",
+      "inicio": null,
+      "fim": null,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Orientação presente só no material de apoio; a fala não a enuncia com estas palavras.",
+      "proposta_tag": null,
+      "corpo": "O material de apoio pede que cada imagem do vídeo acompanhe o sentido do trecho narrado naquele momento.",
+      "evidencia": "Faça as imagens acompanhar o sentido de cada trecho narrado.",
+      "versao": 1
+    }
+  ]
+}

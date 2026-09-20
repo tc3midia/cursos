@@ -1,0 +1,37 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:33:39+00:00",
+  "fim": "2026-09-20T00:36:22+00:00",
+  "duracao_ms": 162528,
+  "duracao_api_ms": 162499,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 13970,
+    "cache_creation_input_tokens": 28697,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 8827,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 1.2724600000000001,
+  "sistema_sha256": "36c07ee60f400a19b142598e6b78dc8e10ef618e1cabd33a45b47715c2b6fd69",
+  "pacote_sha256": "c819766fea2263a17a1de74b189c74b4f6d04fcf9eedaebaf95be173d7b45089",
+  "aula": "M03_A06",
+  "rotulo": "piloto-s5-high",
+  "arquivo_sha256": "b63651477812ef24eb18f88bbf227b8bbc24103b383b2b55bfa9adaa6067b8b0",
+  "inspecao_sha256": "da13f84d711a95ad376bf78dc0a0e508f9b1b73dbd931e885ea480b4a50ef4bb",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/s5-high/M03_A06.julgamento.json",
+  "resultado_sha256": "e9123a02cc521dd6d0ac60c387dd88e684a66f8c4639b613cbe661d6c2888c44"
+}

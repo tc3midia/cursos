@@ -1,0 +1,43 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:09:54+00:00",
+  "fim": "2026-09-20T00:12:10+00:00",
+  "duracao_ms": 134630,
+  "duracao_api_ms": 134604,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 14419,
+    "cache_creation_input_tokens": 33896,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 6357,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.27977799999999997,
+  "sistema_sha256": "46d055edc03fd8f2396d0f36688cfeb90560cb17add0d13e1ee61d45366cd96e",
+  "pacote_sha256": "a42308074b17c052081ac889346bed0a64f8ce999e869e00cb6c9d96e46b0426",
+  "aula": "M03_A06",
+  "rotulo": "piloto-s5-high",
+  "palavras_fonte": 4268,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/s5-high/M03_A06.json",
+  "resultado_sha256": "b63651477812ef24eb18f88bbf227b8bbc24103b383b2b55bfa9adaa6067b8b0",
+  "unidades": 18,
+  "validador": {
+    "erros": [
+      "M03_A06: U004: régua sem número"
+    ],
+    "avisos": []
+  }
+}

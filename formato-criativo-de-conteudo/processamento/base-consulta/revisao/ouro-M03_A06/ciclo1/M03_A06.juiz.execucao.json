@@ -1,0 +1,37 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T01:10:38+00:00",
+  "fim": "2026-09-20T01:14:00+00:00",
+  "duracao_ms": 201026,
+  "duracao_api_ms": 200870,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 17309,
+    "cache_creation_input_tokens": 29573,
+    "cache_read_input_tokens": 983
+  },
+  "thinking_tokens": 11509,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 1.4571757500000002,
+  "sistema_sha256": "6c215670fc4b439dcd268290ff6dcdd9fb7daf77748abdfd93ba4e73e7247390",
+  "pacote_sha256": "4560cbddeccb064d0892fd1580f3e4c991d787acd47a9a768c5c97162b4e656e",
+  "aula": "M03_A06",
+  "rotulo": "ouro-M03_A06-ciclo1",
+  "arquivo_sha256": "442b4ca698824ca54328911c80c7a793afb48610a3c15e0bd0032fe5d368eccd",
+  "inspecao_sha256": "da8e14babafb7e2d08dfcbf9a3f121273bfae8cb3a18efbc8b78590d09879e61",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/revisao/ouro-M03_A06/ciclo1/M03_A06.julgamento.json",
+  "resultado_sha256": "20fcfbc9697b4da5d0d2314b1ed3343976f9c8d0c24c60618ac0f8a07154c7c8"
+}

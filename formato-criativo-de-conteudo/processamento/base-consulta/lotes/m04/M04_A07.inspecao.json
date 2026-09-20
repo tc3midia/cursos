@@ -1,0 +1,117 @@
+{
+  "aula": "M04_A07",
+  "arquivo_sha256": "6de047092bbd59449255c737466e6ae1182a87112ff921f7d556a0186191f6f7",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "50b07dcb026be23dc14c04a034aa3cf4155dd9ca00c9c23916f7b03674f6c1f2",
+    "2": "7af216934e5829ecd47ba4c2a8d149c559c802df8cf9b2646bf8772019fb3388",
+    "3": "ebb58f4ad6642104fa6e6bf118d5a225564917a7b10a9b9c0ab2a96b3ae76fa7",
+    "4": "3772a3e87f797a157b24a6223256ef3c55c51710f9cb9ec9c10129ea218b68e4",
+    "5": "79ec3031323c4f0370dbd7de985af6297f002c9a19a022b51e70bc69a254a6d3",
+    "6": "649e4b9ad72b189cd39b2501e9e4002f64ddcc766ec7c2759169e66fe892323c",
+    "7": "143651166ecae268eb988a4c15261fbf9cb25a4b1bcc4892ecd55eddef1b9931",
+    "8": "63fe809ff4757ae93d99dfc4aa65e333d328643a54f53710dcd0e3dc9e623be7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai montar slides pra convencer o seu público",
+      "explicacao": "A definição (slides para convencer público, marido ou personagem) está na fala e no material, dentro da faixa 24–58. O exemplo Floripa × São Paulo está em 44–50 s. Detalhe menor: o corpo chama o Alef de \"parceiro\", e nenhuma das duas fontes diz isso. A fala só diz \"convencer o Alef\", e \"marido\" aparece como exemplo genérico de destinatário. A falta não muda o uso, mas é inferência da extração."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "é fácil de fazer, é diferente, é padrão, é divertidinho e tal.",
+      "explicacao": "A faixa é 106–268 s. Duas afirmações do corpo estão logo depois do fim. \"Fácil de fazer\" está em 268,28–273,68 s. A recomendação \"Se você tem essa vibe, recorde que você teste o formato\" está em 273,68–276,84 s. Quem ouvir só a faixa não encontra a recomendação de testar nem \"fácil\". Os demais pontos estão dentro: quebra o padrão, visual e engraçadinho em 113 s; várias pessoas usando e muito resultado em 260–267 s. Detalhe interpretativo: a fala diz \"essa vibe\" logo depois de \"divertidinho\", e o corpo restringe para \"vibe de humor\". Como \"recorde\" é transcrição degradada de \"recomendo\", a leitura é razoável, mas convém manter \"essa vibe\" sem restringir. O conteúdo é fiel e a atribuição aos professores está correta. O defeito é só a janela, que deve ir até cerca de 277 s."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Esse é o formato criativo palestrinha",
+      "explicacao": "A faixa é 38–101 s. No item 4 o corpo diz que \"no exemplo, o fecho assume que era brincadeira e nomeia o formato\". A brincadeirinha está em 98,84–101,62 s, cortada por pouco. A nomeação do formato está em 106,42–108,5 s, fora da faixa. O resto do corpo está lastreado: pipoca e decisão importante em 40–44 s, argumentos numerados em 49–100 s, e as quatro partes e os 3–5 tópicos no material. A nota e as condições registram que a contagem vem do material. O defeito é só o fim da janela, que deve ir até cerca de 109 s. Ver também a nota em `material` sobre o humor como parte fixa."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É pra ser simples, porque fica grandão ali na TV",
+      "explicacao": "Slide simples porque fica grande na TV, frase do motivo e argumentos divididos em tópicos, tudo dentro de 222–238 s. Os cinco minutos no Canva estão em 224–226 s. \"A simplicidade faz parte da proposta\" está no material. O conteúdo confere. O problema é de classificação, não de fidelidade: `plataformas: canva` contradiz a própria nota da unidade. Ver `contrato`."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não tenho certeza se isso é uma regra do formato",
+      "explicacao": "A unidade preserva a preferência do professor sem virar lei: a incerteza está em `condicoes`, `nota` e no fim do corpo. O exemplo do Uber (302–308 s), os picos de dopamina e sorrisinhos (308–315 s) e \"todas as pessoas que eu vi\" têm temperinho de humor (288–292 s) conferem, e tudo está dentro da faixa 283–314. O imperativo \"coloque\" é um pouco mais firme que o \"tenta colocar\" da fala, mas o próprio corpo desfaz isso ao dizer que ele não tem certeza de que seja regra."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então se você não tem uma TV, com computador também funciona",
+      "explicacao": "Setup (celular, luz principal, TV grande, \"não precisa ser grande\"), computador como alternativa e \"o grande lance é ter uma palestra para apresentar\" conferem, dentro de 317–355 s. A afirmação de já ter visto mais gente viralizar com computador está atribuída ao professor e vem do segundo apresentador (336–344 s). O corpo funde os dois falantes em \"ele\", sem efeito no uso. `perecivel: true` está correto."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas não precisa, se você não tiver ninguém pra te ajudar, você pode fazer só você mesmo fazendo a palestrinha.",
+      "explicacao": "Fazer sozinho e a cena da silhueta assistindo conferem com a fala (249–260 s). Pipoca como atmosfera e \"não é obrigatório\" vêm do material, que a unidade declara em `fonte`. A condição \"para quem não tem ninguém para ajudar\" está preservada."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lá no Trello do Desafio eu deixei uma lista de vários criadores que cresceram muito depois de usar ele",
+      "explicacao": "A chamada para comentar a palavra-chave e receber a lista de criadores no Trello está em 120–128 s. É gancho do vídeo de exemplo, e a fala não mostra o conteúdo da lista. A menção do material ao Trello e aos três vídeos de exemplo sem endereço está registrada na `nota`. O tipo `limite` e `perecivel: true` são coerentes."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": null,
+      "trecho_fonte": "A orientação é experimentar o formato especialmente em conteúdos de argumento e opinião, combinando clareza, carisma e humor nos detalhes.",
+      "descricao": "O material dá o único critério explícito de aplicação do formato: experimentá-lo especialmente em conteúdos de argumento e opinião, combinando clareza, carisma e humor nos detalhes. Nenhuma unidade preserva isso. A unidade 2, marcada com `escolher-formato`, só diz para testar se a pessoa tem \"essa vibe\".",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que decide o formato para um vídeo de opinião ou de defesa de ideia não encontra na base a indicação de que o material recomenda Palestrinha para esse tipo de conteúdo. Fica só com o critério mais vago de \"vibe\"."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U4 (menor, mas afeta uso): `plataformas: [\"canva\"]` leva o agente ao lugar errado. A orientação (slide simples, frase do motivo, argumentos em tópicos) vale para qualquer ferramenta, e a `nota` da própria unidade diz que o Canva é só a ferramenta do exemplo, \"não como requisito\". A taxonomia diz que `geral` é o padrão e que a menção de onde ou como o exemplo foi feito não muda isso. Com `canva`, a unidade fica fora de buscas gerais e é tratada como dependente do Canva. Deveria ser `geral`, com o Canva só como exemplo no corpo. Se isso mudar `perecivel`, o corpo não pode depender de número ou de ferramenta.",
+    "U2 (menor, discutível): o tipo `regra` (\"frase categórica\") não descreve bem o corpo. O corpo são justificativas atribuídas aos professores (\"segundo os professores… funciona porque…\") mais uma recomendação condicional. `conceito` ou `decisao` seriam igualmente defensáveis. É ajuste menor.",
+    "U3, U4, U7 e U8 (menor): o corpo remete a \"o exemplo\", \"vídeo de exemplo\" e \"a criadora\" sem dizer qual é o exemplo. Só a unidade 1 explica que é o vídeo de convencer o parceiro a morar em Floripa. A U3 usa \"o exemplo\" três vezes (pipoca, argumentos numerados, fecho) sem contexto. O uso da estrutura não é afetado, mas quem consulta a unidade isolada não entende o que é \"o exemplo\". Bastaria uma frase de contexto na primeira ocorrência."
+  ],
+  "material": [
+    "U3 × U5 (fala × material, não registrado): o material lista \"Humor ao longo da apresentação\" como parte fixa nº 3 da estrutura, e a U3 reproduz isso sem ressalva no corpo, na `condicoes` e na `nota`. Na fala (286 s) o professor diz \"Eu não tenho certeza se isso é uma regra do formato\", porque viu poucas pessoas fazendo. A `nota` e a `condicoes` da U3 só registram a divergência da contagem de partes e tópicos. A hesitação do professor está só na U5. Quem consulta a U3 sozinho recebe o humor como componente obrigatório do molde. Sugestão: registrar as duas versões na `nota` da U3. Não é desvio de número, mas é uma divergência de grau resolvida em silêncio para o lado do material.",
+    "O material corresponde à aula (mesmo formato, mesmo exemplo Floripa × São Paulo, mesma abertura com pipoca). A única parte do material sem uso é \"argumento e opinião\", listada em `omissoes`."
+  ],
+  "resumo": "Fiz a conferência das 8 unidades e a varredura da fonte inteira, fala e material. Nenhum número, condição ou atribuição foi adulterado, e não há sem-lastro; as preferências e a eficácia estão atribuídas aos professores. Achei duas `faixa-errada` menores, nas unidades 2 e 3: partes do corpo estão de 5 a 9 s depois do `fim`. Com 8 unidades, isso passa de 10% e aciona o veto de fidelidade, mas o conserto é só estender a janela. Restam três problemas menores: `plataformas: canva` na U4 quando a orientação é geral, uma omissão de aplicabilidade (\\\"argumento e opinião\\\") e a ressalva do professor sobre o humor, ausente na U3. Nada perecível ficou sem `perecivel: true`."
+}

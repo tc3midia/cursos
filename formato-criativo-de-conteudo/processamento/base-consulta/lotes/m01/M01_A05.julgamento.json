@@ -1,0 +1,72 @@
+{
+  "aula": "M01_A05",
+  "arquivo_sha256": "a02df7ec6f37d7fa5b571889f80f2dae4ec01a7faf451bc54edf8a0cb33c2071",
+  "inspecao_sha256": "d4192eef90e97c2ad844ca01c7605adb2b3facf1984daf04801600a19b4fcfc1",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "81577cc4baca8dc1f65eedafff81f314b588534c4dd4decd3a549b46a8f48d62",
+  "veredito": "falha",
+  "vetos": [
+    "perecibilidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos, e o juiz não o refaz. O inspetor previu que a âncora da U1 (65,28–69,26 s, com `fim` 66) \"provavelmente falha\" no script. A previsão não se confirmou, então não há erro de contrato. Os ajustes de fronteira em U1, U6 e U8 ficam como ajustes menores, porque o conteúdo está dentro ou ao lado da faixa e nenhuma unidade foi classificada como `faixa-errada` (0 de 9 com faixa).",
+  "fidelidade": "Passa. As 10 unidades estão lastreadas com trecho literal e `citacoes_nao_literais` está vazio. Não há `desvio`, `sem-lastro` nem `faixa-errada`. \"CDF = criador do futuro\" na U1 tem lastro literal nesta aula (\"CDF é o criador do futuro, a pessoa que cria a própria realidade\"). O FORMATO admite a definição que a própria aula dá, então não é desdobramento inventado, embora contradiga a frase do vocabulário compartilhado (ver `proximo`).\n\nTrês pontos menores não mudam a ação orientada. Em U4 e U8 há passagem mal transcrita com `confianca: alta` e sem `nota`. Na U7 há um parêntese acrescentado à pré-condição. Na U9 há duas leituras prováveis que não foram registradas. Todos ficam em ajustes menores.",
+  "cobertura": "Passa. O inspetor declara alcance integral, com busca de omissões na fonte inteira (1.684 palavras), e não localizou nenhuma. A fala cobre cinco dos sete hábitos do material. Os outros dois estão na U10, com nota. Não há divergência entre fala e material resolvida em silêncio.",
+  "perecibilidade": "Falha. A U3 manda buscar apoio na comunidade do curso e está com `perecivel: false`. A comunidade aparece no corpo, em `condicoes` e na tarefa `usar-recursos-do-curso`. A rubrica nomeia a comunidade como recurso do curso perecível, e o inspetor traz o trecho literal (\"Busque apoio na comunidade\").\n\nA U4 afirma no corpo que Bruno é instrutor de edição da comunidade, também com `perecivel: false`. É fato sobre um recurso do curso, que muda, e é incidental à orientação. Os dois são perecíveis escondidos em unidade `geral`, e o script não pega esse caso.",
+  "aplicabilidade": "Falha em U7 e U9. Nas duas, o jargão do curso é a própria instrução, não um rótulo lateral.\n\nNa U7, o gatilho é \"ideia de figurante\" e o passo é \"lembre que você é um CDF\", e nenhum dos dois termos é definido. Na U9, o título e os itens dependem de \"CDF\", \"figurante\" e \"olhar do criador ativado\". O último termo só é definido na U8, e o item 5 manda treiná-lo sem dizer o que é. Um agente sem a aula não executa esses passos ou preenche o sentido por conta própria. \"CDF\" tem outro sentido corrente em português, então o risco de o agente desdobrar errado com confiança é real.\n\nEm U2–U6 e U8 o jargão também aparece sem explicação. Ali a regra ou a decisão se sustenta sem ele, porque o contraste torna os dois perfis inferíveis, e o caso fica como ajuste menor.\n\nA tarefa `planejar-conteudo` em U4 e U7 e o tema `elementos-de-repeticao` na U2 são classificações ruins. O enum não tem tarefa de mentalidade, e o `tema` correto (`mentalidade-e-ambiente`) já leva o agente a U4 e U7. Por isso também ficam como ajuste menor, com `proposta_tag`.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da U3 diz \"busque ambientes digitais e a comunidade do curso\". `condicoes` aponta a comunidade do curso como o ambiente alternativo, a tarefa é `usar-recursos-do-curso` e `perecivel` é `false`. O inspetor traz o trecho literal da fonte: \"Então, no seu ambiente físico não tem apoio? Busque apoio na comunidade.\" A rubrica lista a comunidade entre os recursos do curso que exigem `perecivel: true`.",
+      "impacto": "Um agente que filtre ou pondere por `perecivel` vai tratar a indicação da comunidade como orientação durável. Vai recomendá-la com confiança mesmo que a comunidade mude de lugar, de acesso ou deixe de existir. O campo é justamente o que avisa o agente para conferir antes de repetir.",
+      "mudanca_minima": "Marcar `perecivel: true` na U3 e incrementar `versao`. Não retirar a comunidade do corpo: a fonte manda buscá-la, e tirar criaria omissão.",
+      "criterio_de_aceite": "A U3 fica com `perecivel: true` e `versao` ≥ 2. O corpo continua mencionando a comunidade do curso como ambiente alternativo. `base_fcc.py` retorna zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        4
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da U4 afirma: \"O professor atribui essa ideia a Bruno, instrutor de edição da comunidade\", com `perecivel: false`. O inspetor traz a fonte: \"que é o cara que vai te dar aula de edição aqui na comunidade\". É fato sobre pessoa e serviço da comunidade do curso, portanto recurso do curso. O inspetor acrescenta que a atribuição se apoia em trecho mal transcrito (\"Houve isso do Bruno\").",
+      "impacto": "O agente pode afirmar como fato estável quem dá a aula de edição na comunidade. Esse dado muda e, além disso, vem de um trecho incerto da transcrição. A orientação em si (agir apesar do medo) não depende dele.",
+      "mudanca_minima": "Preferencial: tirar do corpo a frase de atribuição a Bruno e o cargo, e levar a informação para `nota`. Sugestão de nota: a fala atribui a ideia a \"Bruno\", que daria aula de edição na comunidade; o trecho foi transcrito como \"Houve isso do Bruno\" e a atribuição é incerta. Manter `perecivel: false`. Alternativa aceitável: manter o corpo como está e marcar `perecivel: true`. Nos dois casos, incrementar `versao`.",
+      "criterio_de_aceite": "Vale uma das duas condições. (a) O corpo da U4 não menciona cargo, aula de edição nem comunidade ligados a Bruno, e `perecivel` permanece `false`. (b) `perecivel` é `true`. `versao` ≥ 2 e `base_fcc.py` retorna zero erros. O restante do corpo não muda de sentido: medo como sinal, coragem como fazer apesar do medo."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        7,
+        9
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "U7: o título é \"Repreender pensamentos de figurante\", a pré-condição é \"uma ideia de figurante passa pela sua cabeça\" e o passo 2 é \"Lembre que você é um CDF\". Nem \"figurante\" nem \"CDF\" são definidos na unidade. U9: o título é \"Checklist de autoavaliação CDF × figurante\", os itens dizem \"o CDF repete\" e \"Treine o olhar do criador ativado\", e o fechamento é \"identifique o que faz como figurante\". Nenhum dos três termos é definido. O inspetor confirma que CDF e figurante só estão definidos na U1, e \"olhar do criador ativado\" só na U8. O FORMATO exige jargão explicado na primeira ocorrência dentro da unidade, e a rubrica cita \"jargão do curso sem explicação\" como falha de aplicabilidade.",
+      "impacto": "Nestas duas unidades o jargão é a própria instrução: o gatilho e o passo da U7, e os itens e o fechamento da U9. Um agente que as consulte sem a aula não sabe o que é uma \"ideia de figurante\" nem o que é \"ser CDF\" ou \"olhar do criador ativado\". Ou ele não executa o passo, ou preenche o sentido por conta própria, e CDF tem outro sentido corrente em português.",
+      "mudanca_minima": "Acrescentar a cada uma das duas unidades uma explicação curta dos termos, só com o que a fonte diz. CDF é como os professores chamam o aluno que cria a própria realidade e alcança o que quer. Figurante é quem fica só fazendo volume no sonho dos outros. Na U9, acrescentar também que \"olhar do criador ativado\" é observar o tempo todo situações do dia a dia e anotar o que pode virar conteúdo, como está na U8. Na U7 a explicação entra dentro ou depois da linha `Pré-condição:`, que tem de continuar abrindo o corpo. Na U9 a lista numerada e a ordem ficam como estão. Não copiar 25 palavras seguidas da fonte. Incrementar `versao`.",
+      "criterio_de_aceite": "Os corpos de U7 e U9 definem \"CDF\" e \"figurante\" na primeira ocorrência, com conteúdo compatível com a U1 e com o vocabulário do FORMATO e sem definição nova. O corpo da U9 também define \"olhar do criador ativado\". A U7 continua começando com `Pré-condição:` e tem ≥ 2 passos numerados. A U9 mantém os 5 itens na mesma ordem e fica dentro de 15 linhas. `versao` ≥ 2 nas duas e `base_fcc.py` retorna zero erros. O inspetor confere as definições contra a fonte na reinspeção focal."
+    }
+  ],
+  "ajustes_menores": [
+    "U2–U6 e U8: 'CDF' e 'figurante' aparecem sem explicação. Nessas unidades a regra ou decisão se sustenta sem os termos, e o contraste deixa os dois perfis inferíveis. É menor, mas o FORMATO pede a explicação na primeira ocorrência. Se alguma dessas unidades for editada, acrescentar uma frase de glossário com a definição da U1 ou do vocabulário do FORMATO.",
+    "U4: a `nota` não registra que a atribuição a 'Bruno' vem de trecho mal transcrito ('Houve isso do Bruno') e que o nome só aparece na fala. O FORMATO pede essa nota. Aproveitar a edição de F2.",
+    "U4: `fonte: fala+material`, mas o corpo não usa nada do material. Ou usar `fonte: fala`, ou trazer ao corpo a nuance do material ('testes de exposição proporcionais ao momento').",
+    "U8: 'evita depender do repertório só na hora do roteiro' vem de passagem mal transcrita. O professor coloca como preferência ('melhor pra você') e a unidade está com `confianca: alta` e sem nota. Atribuir ao professor e registrar a incerteza em `nota`. A ação orientada não muda.",
+    "U7: o parêntese '(travar, adiar, ter medo)' na pré-condição é acréscimo do extrator; o professor diz só 'qualquer ideia de figurante'. É coerente com a aula. Marcar como 'por exemplo' ou retirar.",
+    "U9: a transcrição traz 'Você não deixa de fazer pelo medo...' e a unidade escreveu 'Deixa de fazer...', sem registrar a ambiguidade. No item 5, a fala diz 'você já tá aprendendo a ter o olhar do criador ativado' e a unidade virou 'Treine…'. A leitura é a provável. Acrescentar à nota.",
+    "U9: 'postar em um teste' é vago para quem lê sem a nota. Se o corpo passar a nomear o recurso ('Reels Test', TikTok), marcar `perecivel: true` e a plataforma correspondente.",
+    "U4 e U7: a tarefa `planejar-conteudo` não corresponde ao conteúdo (mentalidade), e o enum não tem tarefa que sirva. Registrar `proposta_tag` de tarefa de mentalidade, com a tarefa menos distante enquanto isso. Em U9, e em menor grau em U2, `lapidar-formato` também é frágil. Em U5 e U10 é defensável.",
+    "U2: o `tema: elementos-de-repeticao` foi escolhido pelo nome. A taxonomia o define como frases, gestos e momentos fixos que assinam um formato. `mentalidade-e-ambiente` ou `metodo-formato-criativo` descrevem melhor a regra de não ter medo de repetir formatos.",
+    "U1: 'CDF significa criador do futuro'. A fonte diz 'CDF é o criador do futuro'. Trocar 'significa' por 'é', para não afirmar desdobramento de sigla além do que a fala diz.",
+    "U1 e U6: 'A aula serve como guia de retorno' e 'o critério da aula é…' remetem à aula. Reescrever como orientação do professor.",
+    "U6: 'três opções' vem de exemplo hipotético da fala. Generalizar para 'várias opções'.",
+    "Fronteiras: U1 `fim` 66 → ~69–70 (a âncora termina em 69,26 s), ajustando o `inicio` da U2. U6 `inicio` 261 → ~255 (premissa da dúvida). U8 `fim` 399 → ~402 (frase de fechamento cortada). O validador não acusa erro.",
+    "`contexto`, 3ª frase: diz 'seis atitudes', mas são cinco atitudes mais o checklist de fechamento."
+  ],
+  "proximo": "Tratei esta rodada como primeiro ciclo de correção: todas as unidades estão em `versao: 1` e não há `correcoes`. O redator corrige só F1 (U3), F2 (U4) e F3 (U7, U9). A reinspeção é focal nessas quatro unidades, porque os hashes mudam. U1, U2, U5, U6, U8 e U10 preservam a evidência atual se não forem tocadas.\n\nTrês pontos vão para a coordenação. Nenhum bloqueia esta aula.\n\n1. O vocabulário do FORMATO diz que a fonte não desdobra a sigla CDF. Nesta aula o inspetor traz um trecho literal conferido (65,28–69,26 s): \"CDF é o criador do futuro, a pessoa que cria a própria realidade\". É preciso decidir se o pacote compartilhado será atualizado e identificar as aulas afetadas pela instrução atual.\n\n2. O script aceitou a `evidencia` da U1 com `fim` 66, embora o inspetor localize o fim da frase em 69,26 s. Conferir se é tolerância prevista (início do segmento) ou falha na checagem de faixa.\n\n3. A taxonomia não tem tarefa para orientação de mentalidade. Isso forçou `planejar-conteudo` em U4 e U7. Decidir sobre a `proposta_tag`."
+}

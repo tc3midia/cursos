@@ -1,0 +1,220 @@
+{
+  "curso": "formato-criativo-de-conteudo",
+  "aula": "M02_A02",
+  "titulo": "Como usar a SOFIA para copiar e colar",
+  "extraido_em": "2026-09-19",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula apresenta a SOFIA, a IA roteirista do curso, e mostra quatro formas de usá-la: três para fortalecer a inteligência do aluno e uma para copiar e colar.",
+    "É dirigida ao aluno CDF, que os professores descrevem como nerd por opção, e abre o Módulo 02, sobre formatos validados para copiar e colar.",
+    "A demonstração assume o quadro Trello do curso, os cartões de viral validado e o documento com prompt e roteiro analisado.",
+    "A aula mostra a SOFIA na plataforma das aulas (Hotmart) e como agente no ChatGPT.",
+    "A escolha do formato e a aplicação do formato validado ficam para as aulas seguintes.",
+    "O final da transcrição está truncado, sem conteúdo aproveitável."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "SOFIA para fortalecer a inteligência real: tirar dúvidas",
+      "tipo": "regra",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia"
+      ],
+      "plataformas": [
+        "sofia"
+      ],
+      "fonte": "fala",
+      "inicio": 39,
+      "fim": 90,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A primeira forma de usar a SOFIA é como quem tem a pessoa mais sábia do mundo ao lado. Pergunte o que não entendeu num ponto e peça a opinião dela. A professora enquadra isso como usar a IA para aprimorar a inteligência real do aluno CDF (como os professores chamam os alunos: nerds por opção).",
+      "evidencia": "Cara, eu não entendi esse ponto.",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "SOFIA como revisora de roteiro escrito por você",
+      "tipo": "regra",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia",
+        "revisar-roteiro"
+      ],
+      "plataformas": [
+        "sofia"
+      ],
+      "fonte": "fala+material",
+      "inicio": 90,
+      "fim": 118,
+      "condicoes": "O roteiro precisa ter sido escrito pelo aluno; a SOFIA só revisa.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Escreva o roteiro à mão, para exercitar a escrita, e só depois mande à SOFIA revisar. Peça o que ela melhoraria e quais pontos de melhora ela traz. Um jeito sugerido é pedir que ela comente frase a frase o que acha e o que poderia melhorar. O material de apoio confirma esse uso: análise frase por frase, com sugestões de clareza, interesse e estrutura.",
+      "evidencia": "Me conta, frase a frase, o que você acha desses pontos e o que eu poderia melhorar?",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "SOFIA para enxergar por trás da Matrix num vídeo viral",
+      "tipo": "procedimento",
+      "tema": "engenharia-reversa",
+      "tarefas": [
+        "analisar-video-de-referencia",
+        "roteirizar-com-ia"
+      ],
+      "plataformas": [
+        "sofia"
+      ],
+      "fonte": "fala",
+      "inicio": 118,
+      "fim": 183,
+      "condicoes": "A SOFIA não lê link: é preciso enviar o roteiro do vídeo, não o endereço.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: um vídeo viral que despertou emoção em você (riu, chorou ou encaminhou) e o roteiro dele em texto.\n1. Pegue o roteiro do vídeo, não o link, porque a SOFIA não lê link.\n2. Mande à SOFIA e diga o que o vídeo alcançou (a professora exemplifica com 100 mil likes no Instagram).\n3. Peça que explique frase a frase por que funcionou.\nEnxergar por trás da Matrix é descobrir por que um vídeo viral funcionou. A SOFIA devolve os mecanismos, como é feito no Trello do curso.",
+      "evidencia": "porque a Sofia não vai ler o seu link",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "As três primeiras formas usam a IA para fortalecer, não substituir",
+      "tipo": "conceito",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 149,
+      "fim": 161,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Segundo a professora, tirar dúvidas, revisar roteiro próprio e decifrar vídeo viral usam a inteligência artificial para fortalecer a inteligência real do aluno. A quarta forma, copiar e colar, é a que dispensa pensar.",
+      "evidencia": "pra fortalecer a sua inteligência real",
+      "versao": 2
+    },
+    {
+      "numero": 5,
+      "titulo": "Copiar e colar: gerar roteiro a partir de formato validado",
+      "tipo": "procedimento",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia",
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "sofia",
+        "trello"
+      ],
+      "fonte": "fala+material",
+      "inicio": 183,
+      "fim": 455,
+      "condicoes": "Serve para dar os primeiros passos ou quando a aula do formato não trouxe ideia boa; quem já chega com roteiro pronto não precisa.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: ter escolhido um formato validado e ter acesso ao quadro Trello do curso (link abaixo da aula).\n1. No Trello, entre na seção de aplicação e abra o cartão do formato; todos os virais validados têm o link do documento (na demonstração, Tela Dividida).\n2. Abra o documento: ele traz um prompt, um campo para o nicho e um roteiro já analisado, com a análise frase a frase do porquê funcionou.\n3. Copie o prompt junto com o roteiro analisado, tudo de uma vez.\n4. Cole na SOFIA e troque o nicho pelo seu.\n5. Envie; a SOFIA escreve o roteiro inspirado nos motivos pelos quais o original funcionou.\nLeia o roteiro analisado para entender o que fez o vídeo funcionar, mesmo pedindo a escrita à SOFIA.",
+      "evidencia": "Copia esse prompt abaixo e colhe",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Onde usar a SOFIA: plataforma das aulas ou agente no ChatGPT",
+      "tipo": "ferramenta",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "usar-recursos-do-curso",
+        "roteirizar-com-ia"
+      ],
+      "plataformas": [
+        "sofia",
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 325,
+      "fim": 430,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Há duas formas de acessar a SOFIA. Uma é o produto chamado Sofia na plataforma da Hotmart, onde estão as aulas, com um chat. A outra é um agente GPT chamado Sofia, com link disponível, para quem já usa o ChatGPT. O aluno pode testar nos dois e ficar com o que preferir. Em dificuldade no produto, chame o suporte. O procedimento de colar prompt e trocar o nicho é o mesmo nos dois.",
+      "evidencia": "a gente colocou também a opção de um agente GPT chamado Sofia",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Feedback à SOFIA quando o roteiro gerado não serve",
+      "tipo": "decisao",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia",
+        "revisar-roteiro"
+      ],
+      "plataformas": [
+        "sofia"
+      ],
+      "fonte": "fala",
+      "inicio": 478,
+      "fim": 527,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a SOFIA trouxer uma ideia que não faz sentido para você, há duas opções: enviar de novo, resetando, ou dizer por que não gostou e pedir outra história ou outro alinhamento. Ela refaz com base no seu feedback.",
+      "evidencia": "Ou você pode enviar de novo",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Melhor cenário: a SOFIA faz o bruto e você coloca o que só você sabe",
+      "tipo": "regra",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia",
+        "revisar-roteiro"
+      ],
+      "plataformas": [
+        "sofia"
+      ],
+      "fonte": "fala+material",
+      "inicio": 527,
+      "fim": 582,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "É a avaliação da professora sobre o melhor cenário, não regra obrigatória.",
+      "proposta_tag": null,
+      "corpo": "A professora considera o melhor dos mundos trabalhar junto com a SOFIA: peça que ela escreva, depois revise você mesmo. Ela faz o bruto e você acrescenta o que só você sabe, da sua história, do cliente ou do nicho. O material reforça que o resultado é rascunho de trabalho, e é preciso conferir se preserva o que você quer comunicar e se a linguagem é sua.",
+      "evidencia": "porque ela faz o bruto e você coloca excentricidades",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        4
+      ],
+      "retiradas": [],
+      "observacoes": "C1 (U004): a evidência \"pra fortalecer a sua inteligência real\" está em 00:02:38.460–00:02:41.000 (158–161 s), fora da faixa antiga 169–181 s. O fechamento das três formas começa em 00:02:29.100 (\"Essas três primeiras formas você vai estar usando a inteligência artificial pra fortalecer a sua inteligência real\"). Alterei só inicio/fim, para 149–161, que cobre o trecho e a evidência. Corpo, evidência e demais campos ficam como estavam. A frase do corpo sobre a quarta forma (copiar e colar, sem pensar) vem de 00:00:48–00:00:56, fora da nova faixa. Não mexi no corpo porque a falha pede só o ajuste da faixa. Se a próxima conferência achar isso um desvio, a solução é tirar essa frase ou dividir a unidade."
+    }
+  ]
+}

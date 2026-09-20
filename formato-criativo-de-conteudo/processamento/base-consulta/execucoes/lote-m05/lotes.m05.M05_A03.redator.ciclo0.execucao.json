@@ -1,0 +1,44 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T06:07:28+00:00",
+  "fim": "2026-09-20T06:07:44+00:00",
+  "duracao_ms": 14932,
+  "duracao_api_ms": 14894,
+  "consumo": {
+    "input_tokens": 4,
+    "output_tokens": 1887,
+    "cache_creation_input_tokens": 13262,
+    "cache_read_input_tokens": 38830
+  },
+  "thinking_tokens": 359,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.079692,
+  "sistema_sha256": "d419e183388c0e4d151969dd5dbbb06b20eb6d7cdc033bc92724547a315775aa",
+  "pacote_sha256": "bcab0dd82db03eeec3441b10eb63a154f69235f2fd5170c06716229430d7802f",
+  "aula": "M05_A03",
+  "rotulo": "lote-m05-reparo",
+  "ciclo": 0,
+  "arquivo_anterior_sha256": "5b95589ee8cb67ac460bab047a389b396600e0871edde10ed40a055447ea47a4",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m05/M05_A03.json",
+  "resultado_sha256": "af498e0fe91100ac73a86612ca15fd8ffddf882f689d09da9e8bd15ed31a5dde",
+  "unidades_alteradas": [
+    7
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

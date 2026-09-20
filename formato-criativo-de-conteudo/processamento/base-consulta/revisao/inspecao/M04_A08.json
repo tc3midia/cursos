@@ -1,0 +1,176 @@
+{
+  "aula": "M04_A08",
+  "arquivo_sha256": "613811b5b8e469a23ba3ecf80fc662842c89e6f690b7944f2ca827c88fb60957",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "cf8e443919ce89649f3c756437583b6ec426459d3eedc365f5d505ea6815d69c",
+    "2": "5d7f6f4ce946725ec7b3b7c50aede6e64876e9f23c32b023171f7f8a48b24026",
+    "3": "ce8358037a27519f35e8d6d792c61cdbbb5ef51d178831571148677befdb2480",
+    "4": "3c4572914283ed727075760ce08fa76c188960b5f615ea225dcfa8f2de38d8cd",
+    "5": "4f35ab92c36ac6a762bc69a598ccdbe51c5105334073c2f58c4e9ea4477f57f4",
+    "6": "e72d0a5e3ad8b6535a8a421e3d34bd95629df7732ee709613fbb3741198e83fc",
+    "7": "3fb1d61148dc040a60819f60dd3cef4e0e07de44fa5e9ceea528cdfae5c613f6",
+    "8": "2e4766a5b1454a2b0c78fe1174733fad7f02e785a5108cc7b42158ac9e62375a",
+    "9": "af10f3970aea1aa3dd510f67ed09b60f16b8b93881e613300135aaa7703892e6",
+    "10": "ec21ddfeebe4a1fb9358c100de60d4619708cbfe2648e6dc58afaffc31ba36f6",
+    "11": "3d8d36cde8ffbc97cd310ae2c75373dd098e66c42488d3c03c1f590f1e3c8ee2",
+    "12": "913542fe20651db6ee5a29a09d0302009f6e77668915016b67c9abdf82316691",
+    "13": "1bac77ea000a5e9f566853fd98a7cd275d34df0edb4c454df012dde0bec5608f",
+    "14": "7501e07a24da1a984f6c65b75c25ed53c3d29de27c2e0e1536e252647f5b32fb"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Como o próprio nome diz, analisar a gente vai estar analisando alguém, algum fato, alguma coisa.",
+      "explicacao": "A definição (alguém, fato, coisa) está na fala. A lista de exemplos, a 'leitura própria com opinião clara e ritmo' e a ausência de recurso visual vêm da fala (0:28) e do material (Objetivo e funcionamento). Sem número, sem condição perdida."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então eu prefiro fazer sentadinha, assim, sem muito algo er.",
+      "explicacao": "A preferência está atribuída ao professor e a razão (pouca coisa visual) está em 0:28–0:32. A frase da fonte está truncada ('sem muito algo er'), e a unidade a completa como 'sem muita produção' com confianca alta e sem nota. É uma leitura razoável, mas é interpretação de trecho degradado. Sem efeito prático."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente tá falando de assuntos que tem muita gente querendo falar sobre esse assunto",
+      "explicacao": "O resultado ('a maioria viralizou') e a explicação de 'fura bolhas' (assunto sobre o qual muita gente quer falar) estão atribuídos ao professor e dentro da faixa. O fecho 'alcança públicos além do nicho' é glosa da unidade: a fala não explica o que é a 'bolha'. O material sustenta a ideia com 'alcançar pessoas novas', mas a unidade não cita o material como fonte. Sem efeito na decisão."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então quando você vai fazer análise, é bom falar de um criador que está em alta no momento",
+      "explicacao": "Os quatro exemplos (criador em alta, pessoa famosa, filme, caso em andamento) estão em 0:51–1:04, e o material diz 'assunto atual ou popular'. Faixa correta."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o ideal é que você traga a análise",
+      "explicacao": "'Trazer a análise para o seu rolê' (1:04–1:14) foi lido como 'levar para a sua área'. O exemplo do professor (criação de conteúdo, analisar grandes criadores e explicar por que funcionam) está correto e é apresentado como exemplo dele."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "a gente já testou isso e geralmente quando aparece a cena da pessoa que",
+      "explicacao": "A fala completa é 'a cena da pessoa que está analisando funciona mais'. Literalmente isso seria o analista, mas o contexto imediato ('aparecendo aquilo que você está analisando') e o material ('quem ou o que será analisado') indicam o analisado. A unidade escolheu o analisado sem registrar a ambiguidade. O material a sustenta, então o efeito é baixo. A atribuição ('já testou', 'geralmente', 'não é garantia') está preservada."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "outra coisa que vai pesar muito análise é como você se expressa o seu tom de",
+      "explicacao": "Tom de voz, expressão e autenticidade pesam porque não há recurso visual (1:37–1:56). O material acrescenta naturalidade e conversa real. Faixa e sentido conferem."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Por isso, hoje nós vamos analisar os três princípios que o bom Talvão usa pra crescer infinitamente na internet",
+      "explicacao": "A ordem das cinco partes reproduz o vídeo gravado (opinião indignada, reconhecimento, erros básicos e autenticidade, anúncio dos três princípios, princípios) e os componentes 4 e 5 do material. A nota diz que o professor não enuncia a lista, e a confianca é media. A estrutura é inferida, mas isso está declarado. Sem número nem condição alterados."
+    },
+    {
+      "numero": 9,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Pode reparar, grandes criadores de conteúdo alternam entre frases curtas, frases longas e momentos de repetição",
+      "explicacao": "Os três princípios e os detalhes de dualidade e ritmo conferem. A 'Lógica' diz que 'cada ponto é explicado por um exemplo concreto', e a fala mostra isso só na dualidade (barato versus caro, William Bonner, Duda Reis). Ritmo (2:48–2:58) e formato criativo (3:07–3:16) são só afirmação, sem exemplo. 'Exemplos concretos' é instrução do material para a análise técnica, não descrição do que o vídeo faz. A unidade atribui ao vídeo um traço que ele só tem em um dos três pontos. O efeito é baixo, porque o material recomenda exemplos de qualquer forma."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque isso cria um ritmozinho na fala e é um recurso, né, da língua portuguesa",
+      "explicacao": "Frases curtas, longas e repetitivas, 'a grande maioria' dos vídeos de análise e o exemplo blazer por bermuda estão em 6:46–7:20. A unidade não dá nome ao criador do exemplo, o que evita problema com a grafia incerta na transcrição. Atribuição e faixa corretas."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Uma das coisas que eu mais adoro, e se você achar que esse formato pode ser o seu,",
+      "explicacao": "O conteúdo confere: lapidar, achar o próprio jeito, a lista de criadores, os toques na tela e gestos do professor, o tom de outro criador. A frase que dá a condição ('se você achar que esse formato pode ser o seu') começa em 7:21,1 (441,1 s), e a faixa só começa em 445. O restante da evidência está dentro da faixa. É folga de faixa de cerca de 4 s, sem perda de sentido, e a condição já está em `condicoes`. O `perecivel: true` está correto."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Para ter acesso, basta escrever brecha do algoritmo nos comentários",
+      "explicacao": "O trecho é a chamada do vídeo de exemplo (3:28–3:39), com o acesso por palavra-chave nos comentários. A unidade o trata como oferta, e o '90% das vezes que eu testei ele, eu viralizei' aparece atribuído ao professor e não verificado. Faixa correta, `perecivel: true` correto."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Pega o celular pra ficar passando assim pra cima",
+      "explicacao": "A cena do celular e as falas repetidas em várias tomadas estão na fonte (3:41–6:41), e a limitação declarada (a transcrição não captura a imagem) é correta. A fonte só diz que ele pega o celular e passa para cima, e a unidade infere que o que aparece na tela é 'o vídeo analisado' e fala em 'reações e gestos'. A faixa 228–300 cobre só o começo das repetições, que seguem até cerca de 401 s. Sem efeito prático."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Use uma abertura marcante, três pontos fortes ou fracos, voz natural e um traço pessoal — expressão, gesto ou repetição característica.",
+      "explicacao": "Os elementos e a orientação final (olhar crítico, criatividade, disposição de opinar, sem produção grande) conferem com o material. O material dá elementos de uma mesma gravação, não uma sequência. A unidade os numera como passos e põe 'Grave' antes de 'Abra com', e troca 'abertura marcante' por 'frase marcante'. O efeito no uso é baixo. Ver `contrato`."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": null,
+      "trecho_fonte": "Segundo o material, temas reconhecíveis podem alcançar pessoas novas, estimular comentários e posicionar o autor pela qualidade de sua interpretação.",
+      "descricao": "O material lista três benefícios que o curso atribui ao formato: alcance de pessoas novas, estímulo a comentários e posicionamento do autor pela qualidade da interpretação. Nenhuma unidade registra 'estimular comentários' nem 'posicionar o autor'. Só o alcance aparece, pela fala, na unidade 3.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta perde dois motivos que o curso dá para escolher o formato. Não muda como executar nem impede decidir, e o material os apresenta como benefícios do curso, não verificados."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 14 (`procedimento`): o material dá elementos de uma única gravação (abertura marcante, três pontos, voz natural, traço pessoal), não uma sequência. O corpo os numera como passos e põe 'Grave...' antes de 'Abra com...', ordem que a fonte não dá. Também troca 'abertura marcante' por 'frase marcante'. O tipo `estrutura` ou `regra` seria defensável. É classificação discutível, ajuste menor.",
+    "Unidade 8 (`estrutura`): o título e o item 2 dizem 'vídeo de exemplo' e 'no exemplo' sem dizer qual é (a demonstração sobre Bom Talvão). Só a unidade 9 identifica o exemplo. Lida sozinha, a unidade 8 depende da aula ou da unidade 9 para essa referência. Ajuste menor."
+  ],
+  "material": [
+    "Unidade 9 (`fala+material`): o material descreve o terceiro recurso como 'repetição de um formato eficaz com variações' e o ritmo como 'frases curtas e longas, pausas e repetições'. A fala (3:11–3:16) diz 'simplesmente repete, repete, repete, repete o padrão' e, em 2:51–2:58, cita só frases curtas, longas e repetição. O corpo segue a fala e omite 'com variações' e 'pausas', e a nota só trata da grafia de Bom Talvão. A nuance 'padrão repetido' versus 'repetição com variações' não foi registrada e afeta como se lê o terceiro princípio.",
+    "Unidade 6: a fala em 1:30–1:37 diz 'a cena da pessoa que está analisando', literalmente o analista, e o material diz 'quem ou o que será analisado'. A unidade adotou a leitura do material (a pessoa analisada) sem registrar a ambiguidade da fala. O contexto imediato da fala favorece essa leitura, por isso o efeito é baixo, mas a incerteza de transcrição não está em `nota`."
+  ],
+  "resumo": "Conferi as 14 unidades contra a transcrição inteira (0–499 s) e contra o material. Não há `sem-lastro` nem `faixa-errada`. Há um `desvio` de gravidade menor, na unidade 9: a Lógica diz que cada ponto tem exemplo concreto, mas na fala só a dualidade tem. As demais estão `lastreadas`, com ajustes menores: as unidades 2, 3, 6, 11, 13 e 14 têm pequenas glosas ou folgas de faixa. Não achei perecibilidade escondida. Como omissão, registrei só os benefícios do material que nenhuma unidade preservou (menor). Registrei duas ambiguidades entre fala e material e dois pontos de contrato, todos menores."
+}

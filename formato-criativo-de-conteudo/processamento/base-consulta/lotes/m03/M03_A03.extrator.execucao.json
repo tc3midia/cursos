@@ -1,0 +1,47 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T04:34:33+00:00",
+  "fim": "2026-09-20T04:37:42+00:00",
+  "duracao_ms": 188100,
+  "duracao_api_ms": 188078,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 19956,
+    "cache_creation_input_tokens": 21592,
+    "cache_read_input_tokens": 14430
+  },
+  "thinking_tokens": 9466,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.288818,
+  "sistema_sha256": "03dc3f9f2e175c88fe88b2d4d08d6dbc8c25d05acfa881e81f28515570c7f22b",
+  "pacote_sha256": "375a9ff1eef12e6b5e21250bb31e05293af82fd4165ffb47cc28cd67ca053b91",
+  "aula": "M03_A03",
+  "rotulo": "lote-m03",
+  "palavras_fonte": 4723,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03/M03_A03.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "51cfb1a22372f082885b1b7aeb3db58d0f2762bebc247846512c24ee0616fe8e",
+  "unidades": 29,
+  "validador": {
+    "erros": [
+      "M03_A03: contexto com marcador temporal ou timestamp",
+      "M03_A03: U029: cópia de 25 palavras no corpo"
+    ],
+    "avisos": []
+  }
+}

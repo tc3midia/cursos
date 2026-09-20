@@ -1,0 +1,46 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T04:41:02+00:00",
+  "fim": "2026-09-20T04:41:20+00:00",
+  "duracao_ms": 17682,
+  "duracao_api_ms": 17641,
+  "consumo": {
+    "input_tokens": 4,
+    "output_tokens": 2322,
+    "cache_creation_input_tokens": 10300,
+    "cache_read_input_tokens": 35557
+  },
+  "thinking_tokens": 495,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.0715394,
+  "sistema_sha256": "d419e183388c0e4d151969dd5dbbb06b20eb6d7cdc033bc92724547a315775aa",
+  "pacote_sha256": "7d2e949e9f5f9cfd85d4109351711424bf19885af05633f3eb58e7734777cf5c",
+  "aula": "M03_A08",
+  "rotulo": "lote-m03-reparo",
+  "ciclo": 0,
+  "arquivo_anterior_sha256": "582233db9ddaa43b729e1c9e3432e4eb812228c80130d00a84b5e4692e7b80d0",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m03/M03_A08.json",
+  "resultado_sha256": "b144e61c943d41279ed09151de134233f4e5693e373a525b2264ca31f2898043",
+  "unidades_alteradas": [
+    4
+  ],
+  "validador": {
+    "erros": [
+      "M03_A08: contexto com marcador temporal ou timestamp"
+    ],
+    "avisos": []
+  }
+}

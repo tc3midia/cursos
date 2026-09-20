@@ -1,0 +1,226 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "841ab6db8697ea99c4d951d2f4da14e329d7172e8d072afc3b10940bf6d3159b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 8, 12, 18]; as demais mantêm a evidência da inspeção integral do arquivo 442b4ca69882, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    8,
+    12,
+    18
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "hashes_unidades": {
+    "1": "39856461772ecfd46c297d1226e186cd1fb6de1efee0832119b238456060af2d",
+    "2": "79e0af9227c6e5f4bc25603d972ffc47a2a94f6350b08219d0cffa9a29c09335",
+    "3": "64ccae40898afecb57faab835f54873e1226ff8fb7d751c408f7931436c5c113",
+    "4": "df9a8d1b59f15b3f357ca8a0a11965ef463ee7ab9841b4b0afffd185b805815d",
+    "5": "50788f53acd035dc93f43983e56991036b1f229995171b9cac7542f61d8ddcf1",
+    "6": "babda5f3335db16183d993b99ac2aaaf312032545505aeb3c4b374a2cb62b082",
+    "7": "75bec877111fc4d4cff17b2290be3a8dd085e1359db6bcc94d1632614325e5de",
+    "8": "a9155a91d22f9a1563a75d661c22a4a254cffc98f8f20eab7433d085072ae1ca",
+    "9": "bdb16f45b85d35e320321b0361c005c23892304d28114ef754bc4ef2643c0c5e",
+    "10": "3e85ffdf996e82fbc05fb657d96ea645b95daaf3926db49231632753f07976cc",
+    "11": "ece1f4ac6a2350df9ab3aef60e24d411d96666352ae0da778c5d8f18eb3f7930",
+    "12": "2d1edcb19454bdb0c0900aa9cee391e2061955e2b6e57e597f34e992bc6706b0",
+    "13": "6703f7f663297b28d69b739dea1aaee9cbdd2f860672c658d1914c51e01f73af",
+    "14": "264b800be8df105d72a25de9c303ec355eb14b33941a25737c936f3fab8828e8",
+    "15": "fa73df00e427d1653c9398f17e7462f92b71b29e13721a7c5cb73f5e60c81f16",
+    "16": "c5f63b1bdc17c7fdd222037c19b2fc605ff2f4c0f1aead04f990c0a0a14e9c52",
+    "17": "92185350ee7f2b8f98876728dc568c9e2e46b45502a7eb72a3bf9e3b6341fdaf",
+    "18": "fb9a8cc1eb7019fd4c68f523cfb9d60a2f2a1735aa44c9c2ebb62e8487c43f8b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O próximo módulo, a Hanna vai trazer pra você",
+      "explicacao": "O núcleo está na fonte (autenticidade com a Hanna no módulo seguinte, vendas ao final; as próximas aulas do módulo são dele). A frase \"aula de aprofundamento, depois das aulas-base\" vem de 00:00:52–00:01:03 (\"São as aulas base de tudo que você precisa aplicar\" / \"E trazer um pouco mais de profundidade\"), fora da faixa 32–47. \"Nada disso é tratado nesta aula\" é inferência razoável. Ajuste: estender o fim da faixa para cerca de 64 s. Sem efeito na decisão de quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Formato criativo é o método científico",
+      "explicacao": "O ciclo hipótese, postar, analisar, novas hipóteses e melhorar no próximo bate com 00:01:14–00:01:37. A pergunta \"e se o formato der errado?\" está em 00:01:10–00:01:12 (\"Se eu postei o formato e deu errado, o que eu faço?\"), antes da faixa 74–98. \"Não por abandono\" vem do material (\"Desaconselha abandonar o formato após uma única tentativa\"), e a unidade declara fonte só \"fala\". O sentido é o do curso; a fonte e a faixa estão incompletas. Efeito menor."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eles não são vídeos de nenhuma trend",
+      "explicacao": "F4 resolvida pelo critério de aceite. A `nota` traz as duas formulações (fala: \"não são vídeos de nenhuma trend\"; material: \"que não dependam apenas de uma tendência\") e diz que a aula não apresenta nenhuma como prevalente. Corpo e `condicoes` seguem a versão da fala e não afirmam nada que as duas fontes não digam. Os demais passos batem com a fala: salvar os links dos vídeos que viralizaram, perguntar como funcionou e qual padrão levar ao próximo, tratar como hipótese de formato, e o \"talvez funcione até mais que os formatos validados\", atribuído ao professor. A faixa 105–166 contém a evidência e o conteúdo. Ajuste menor, que não é falha de F4: `confianca` segue `alta`, e o FORMATO (seção 3) manda baixá-la quando a divergência afeta a orientação. Aqui ela afeta o passo 2, que decide quais vídeos antigos descartar. Não abre ciclo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não tem uma regra para isso, mas um jeito bom de você pensar é fazer duas levas de três vídeos.",
+      "explicacao": "Número (2 × 3) e a ressalva de que não é regra estão corretos e preservados em `condicoes` e no corpo. \"Seis no total\" vem do material. A frase final \"depois das duas levas você já tem noção\" está em 00:04:14–00:04:17, fora da faixa 179–187. Sem efeito prático; é conteúdo já coberto nas unidades 6 e 7."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "cria três vídeos dentro do mesmo formato",
+      "explicacao": "Os quatro passos seguem a fala (00:03:07–00:04:14): primeira leva no Trello, postar, analisar com elementos de roteiro, hipóteses e segunda leva. A explicação sobre o Trello (primeiro módulo do método) está na fonte. `perecivel: true` está correto."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Será que a linguagem que eu estou usando é uma linguagem familiar",
+      "explicacao": "As sete perguntas seguem a ordem da fala (tema, conflito, contraste, curiosidade, linguagem, cortes, gravação). Os acréscimos do material (descoberta, ritmo, energia, apresentação visual) estão separados e sinalizados na nota. Confere."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pô, eu troco de formato, vou tentar um diferente",
+      "explicacao": "Perguntas de afinidade e os três caminhos (trocar, insistir, aprimorar se o resultado foi bem melhor) batem com 00:04:51–00:05:23. O uso conjunto de desempenho e afinidade está no material e na fala. Sem desvio."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se você está na comunidade, entra na comunidade",
+      "explicacao": "F1 resolvida: `perecivel: true` e `versao: 2`. Corpo e faixa 327–395 seguem os mesmos. A condição \"se estiver na comunidade\" e o pedido de análise ao time estão na fala (00:06:01–00:06:06). \"Lista de formatos virais\" e \"outras referências\" também estão na fala (00:06:15). Estudar, visualizar e aplicar, e a lista do que analisar no visual e no roteiro, batem com o material. A evidência \"método EVA, estudar, visualizar\" está na faixa. Nenhum problema novo."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "já foi, tipo, 10 vezes melhor do que",
+      "explicacao": "Os números (200 para 2 mil, 2 mil para 20 mil, \"tipo 10 vezes\") e a ressalva \"não é viral, mas dá sinais\" estão corretos; a `condicoes` e a nota os tratam como ilustrações. A fala usa \"tipo 10 vezes\" como exemplo de sinal, não como limiar; classificar como `regua` e escrever \"usa como referência\" endurece um pouco. O trecho \"Estudar, visualizar e aplicar\" fica em 00:05:58–00:06:00, logo após o fim da faixa (356). Efeito menor."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O figurante vai olhar para um conteúdo que deu errado e vai falar, ah, deu errado porque eu sou ruim e não consigo melhorar, tem mentalidade fixa.",
+      "explicacao": "O conteúdo confere. A fala diz \"Uma coisa que diferencia o CDF do figurante\" e atribui a mentalidade fixa ao figurante. A unidade escreve \"o que diferencia ... é a mentalidade fixa\" (artigo definido, sem dizer que é a mentalidade do figurante), o que pode ser lido como traço do CDF. \"Ao lapidar, trate o vídeo fracassado como fonte de hipóteses\" é aplicação do extrator, coerente com a fala. O termo \"figurante\" não é definido no corpo. Efeito menor."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E foi escrever de uma forma meio arrasa",
+      "explicacao": "Números (400 mil views, mais de 1 milhão, 80 mil likes, 160 mil views, 8 mil likes, comentário com 6 mil likes), comparação e correções batem com a fonte. Dois pontos menores: (1) \"o texto saiu meio forçado\" não está na fonte; a transcrição está degradada (\"meio arrasa\") e a unidade completou a palavra; (2) em \"Lógica\", \"um acerto vira formato só depois de hipóteses...\" acrescenta o \"só depois\", que o professor não diz. Ele descreve o processo de postar, analisar e melhorar, sem exclusividade."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ao longo do vídeo tem um outro problema",
+      "explicacao": "F3 resolvida. A lista numerada agora tem só três passos, que a fala sustenta: colocar os dois vídeos lado a lado, ver o que tem no que funcionou e não tem no outro, tratar como hipóteses e melhorar no seguinte. Nenhum passo prescreve começar pela abertura nem ordem de análise. A abertura e o \"ao longo do vídeo\" (sem a cara do criador, sem conflito com a comunidade, sem a história do criador, sem linguagem familiar, sem furar a bolha) aparecem só no relato do caso do formato Análise, atribuído ao professor. As \"duas mudanças\" (comunicar-se mais com o público do criador analisado e fazer o início de outra forma) batem com 00:11:59–00:12:13. O corpo começa com `Pré-condição:`, `condicoes` e `nota` (um mecanismo por vez × duas mudanças, mais a pesquisa de bolha melhor) estão preservadas e `versao` é 3. Tudo está dentro da faixa 683–734. Nenhum problema novo."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "gerando um conflito com a comunidade dele",
+      "explicacao": "Abertura olhando para cima, conflito com a comunidade e conflito universal, linguagem familiar (história, palavras da comunidade), conflito com relevância emocional e pesquisa de bolha melhor conferem com 00:12:21–00:13:04. A condição (formato Análise, relato do professor) está preservada."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vai sem clareza mesmo, deve estar rápido",
+      "explicacao": "A orientação de publicar rápido sem clareza e ganhar clareza analisando bate com 00:15:22–00:16:09 e com \"testa rápido e melhora no próximo\" (00:01:34). A frase-chave está degradada na transcrição (\"deve estar rápido\") e a unidade a leu como \"publique rápido\" com `confianca: alta` e sem nota. Registrar a incerteza é ajuste menor."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ela não usou uma linguagem tão familiar",
+      "explicacao": "Números (2 mil views, uns 200 likes, 8 mil likes, quase 2 mil seguidores), a sequência do caso e as imagens mentais (crossfit) conferem. \"Tema sem envolvimento\" é inferência ancorada em \"traz um tema que você se importa de fato\". A troca de nome Isabela × Isa Franklin está anotada. A transcrição tem lacuna entre 17:36 e 18:04, mas a unidade não depende dela."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A cada 10 vídeos que eu faço de análise, 9 eu acerto.",
+      "explicacao": "98%, 90% e depois 9 em 10, a previsão 1 em 3, 3 em 10, 5 em 10 e 7 em 10 estão corretos e atribuídos ao professor. A nota registra a correção verbal e o corpo diz para não tratar como meta."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez.",
+      "explicacao": "O corpo reproduz o material (um mecanismo por vez; potencial depende da aplicação e do encaixe formato × criador; desaconselha abandonar após uma tentativa ou publicar sem hipótese). A nota registra corretamente as duas versões, com o professor dizendo \"vou melhorar essas duas coisas\" (00:11:59–00:12:01), e não escolhe lado."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Registre no espaço de discussão qual aspecto será refinado e como aparecerá no próximo vídeo.",
+      "explicacao": "F2 resolvida: `perecivel: true` e `versao: 2`. O corpo reproduz o exercício do material sem acrescentar nada: escolher um formato, fazer as duas levas de três vídeos, selecionar um mecanismo entre elas e registrar o aspecto a refinar. A `condicoes` sobre o conteúdo antigo bem-sucedido também está no material. A evidência está no material e tem 15 palavras. Nenhum problema novo."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 626,
+      "trecho_fonte": "E a gente comentou um outro erro, que era um erro visual nesse vídeo",
+      "descricao": "O professor diz que o vídeo do prefeito de Sorocaba tinha, além dos erros de abertura e linguagem, um erro visual, mostrado só na imagem e não descrito na fala. Nenhuma unidade cita esse erro, e não há `limite` dizendo que a transcrição não captura o essencial visual.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar o caso do prefeito acha que os erros foram só os quatro listados (abertura, história, linguagem, bolha) e não sabe que houve um erro visual não recuperável pela fonte."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 10: \"figurante\" aparece sem definição no corpo (só \"CDF\" é explicado); o texto ainda escreve \"o que diferencia ... é a mentalidade fixa\" sem dizer que é a do figurante. Ajuste menor de aplicabilidade.",
+    "Unidades 11, 12 e 13: \"furar a bolha\", \"pesquisa de bolha\" e \"conflito universal\" são jargão do curso que a aula não define e o corpo não explica. Um agente sem a aula não sabe executar \"pesquisa de bolha\". Registrar em `nota` que a aula não define o termo, sem completar com conhecimento externo. Menor.",
+    "Unidade 8 (e a menção em 15): a fala convida à comunidade do curso (\"eu recomendo que você participe\", 00:16:29, e \"pede para o time dar uma analisada\", 00:06:04). Não há `limite` de oferta na aula, e a unidade 8 usa esse serviço como passo de orientação. Ajuste menor.",
+    "Unidade 9: `tipo: regua` para números que a própria nota chama de ilustrativos (\"tipo 10 vezes\"). Classificação discutível entre `regua` e `exemplo`/`regra`. Menor.",
+    "Unidade 13: `tipo: regra` para um relato de prática do professor (a nota já diz \"Relato de como o professor aplica\"). Classificação discutível. Menor.",
+    "Unidade 14: `confianca: alta` sobre frase-chave degradada na transcrição, sem nota. Baixar para `media` e anotar a incerteza."
+  ],
+  "material": [
+    "Tendência: a fala diz que os vídeos salvos \"não são vídeos de nenhuma trend\" (00:02:21–00:02:23); o material diz \"que não dependam apenas de uma tendência\". A unidade 3 segue a fala em silêncio, sem registrar a versão mais branda do material. Menor.",
+    "Nome da professora: a fala grafa \"Hanna\" (unidade 1) e o cabeçalho do material grafa \"Hanah\" (\"Formato Criativo de Conteúdo - Hanah e Alef\"). A unidade usa a grafia da fala sem nota. FORMATO manda a grafia do material. Menor.",
+    "Um mecanismo por vez × duas mudanças ao mesmo tempo: a divergência está registrada nas unidades 12 e 17 com as duas versões. As unidades 6 e 8 listam vários aspectos a melhorar (com acréscimos do material) sem carregar a regra de um mecanismo por vez do material. A informação está em 17 e o efeito é menor."
+  ],
+  "resumo": "As quatro falhas da lista (F1 a F4) foram resolvidas pelos critérios de aceite. As unidades 8 e 18 têm `perecivel: true` e `versao: 2`. A unidade 12 perdeu os passos que transformavam o relato do caso em método e ficou com três passos lastreados. A `nota` da unidade 3 registra as duas versões sobre trend, sem escolher lado. Não há problema novo nas quatro unidades e nenhuma omissão decorre das falhas listadas. Resta um ajuste menor na unidade 3: `confianca` continua `alta` apesar da divergência entre fala e material."
+}

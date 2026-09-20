@@ -1,0 +1,83 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "58ae92c58f18664270f161aebabd388b5d0e722935fda373c1dcf66633eb1dd1",
+  "inspecao_sha256": "778621a56c5ce8ebd1bfcce6f67a1f8d32b9c42453a37d66b65bc124292da54e",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "47b64800d25672d5a2d73a9155324892c7557b4764b5b1f401484b6652ba5e5f",
+  "veredito": "falha",
+  "vetos": [
+    "contrato",
+    "fidelidade",
+    "perecibilidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Veto. O validador devolve 1 erro: \"U008: evidência fora da faixa\". A rubrica exige zero erros. A inspeção explica a causa com trecho literal: a fala de figurante e CDF está em 400,98–417,66 s e a faixa declarada é 416–447 s. É erro mecânico e corrige-se ajustando `inicio`/`fim` da unidade 8. Não há avisos.",
+  "fidelidade": "Veto pela unidade 5, desvio material com trecho literal e nenhuma citação não literal. A fala lista três saídas depois das duas levas e não dá critério para escolher entre as duas primeiras. O material fala em duas opções e pede considerar desempenho e afinidade. A unidade, de tipo `decisao`, cria gatilhos que nenhuma das fontes traz: \"não dá sinal e você não se conecta\", \"se há potencial\" e \"mais uma rodada\". Isso muda o sentido e a condição da orientação.\n\n`faixa-errada`: só a unidade 8, 1 de 13 unidades com faixa (7,7%), abaixo do limiar de 10%. Ela não veta por fidelidade e é tratada em contrato. Na unidade 9, a faixa termina uns 3 s antes do \"6 mil likes\" e antes do trecho que sustenta a Lógica. O inspetor classificou a unidade como lastreada, porque a âncora e quase todo o conteúdo estão dentro da faixa. Aceito essa classificação e registro o caso como ajuste menor. Se contasse como faixa-errada, o total passaria de 10%; por isso recomendo estender `fim` já neste ciclo.\n\nUnidade 2, fala × material sobre trend: a fala (\"não são vídeos de nenhuma trend\") sustenta o corpo, e o material é apenas mais brando. Trato como nuance a registrar em `nota`, não como desvio material.\n\nUnidades 6, 10, 11 e 12: lastreadas, com ressalvas menores. As demais conferem.",
+  "cobertura": "Sem veto. O inspetor declara alcance integral e busca de omissões em toda a transcrição e no material, e não achou omissão material. As duas omissões localizadas não impedem executar nem mudam a decisão:\n- As listas de análise da seção EVA do material (música, expressão, relevância emocional) não aparecem nas unidades.\n- O detalhe de como a linguagem familiar foi aplicada no vídeo do Pantera ficou de fora.\n\nAmbas ficam como ajuste menor. A falta do `limite` de oferta da comunidade é ajuste menor por regra expressa da rubrica.",
+  "perecibilidade": "Veto pela unidade 7. O corpo (passo 1) e `condicoes` apresentam como orientação um benefício da comunidade paga do curso: pedir ao time que analise o seu conteúdo. O FORMATO §3 classifica comunidade paga como oferta. A unidade está com `perecivel: false`, e a rubrica manda que oferta sem `perecivel: true` falhe, sem gradação de gravidade. O inspetor sinalizou o ponto com trecho literal (\"se você está na comunidade, entra na comunidade\").\n\nAs unidades 9, 11 e 12, que trazem números de caso, estão corretamente com `perecivel: true`.\n\n\"Trello do curso\" (unidade 3), \"lista de formatos virais\" (unidade 7) e \"espaço de discussão\" (unidade 13) são recursos do curso, não da lista de perecíveis da rubrica, e não vetam aqui.",
+  "aplicabilidade": "Veto pela unidade 3. Ela traz a régua central da aula, duas levas de três vídeos, que é orientação geral, mas está com `plataformas: [\"trello\"]`. Pela taxonomia, `trello` significa \"depende do Trello\", e a régua não depende: o Trello é só o meio de organizar. É o caso literal da rubrica de plataforma específica quando a orientação é geral. Um agente que filtra `lapidar-formato` × `geral` não encontra a régua nem a condição \"não é regra fixa\". O `cobertura.jsonl` passaria a registrar a régua como coisa de Trello. Divirjo do inspetor, que chamou isso de classificação discutível: só `trello` não é valor defensável. Discutível é escolher entre `geral` e `geral`+`trello`.\n\nA mesma unidade cita \"o processo do Trello do curso\" sem dizer o que é.\n\nO resto se sustenta sozinho, com ressalvas menores:\n- Unidade 8: CDF está explicado só na `nota`.\n- Unidade 7: \"lista de formatos virais\" não tem descrição.\n- Unidade 13: \"espaço de discussão\" não tem descrição.\n- Unidade 14: o título promete \"uso da comunidade\", que o corpo não trata.\n- Unidades 4 e 13: tarefas `revisar-roteiro` e `usar-recursos-do-curso` são discutíveis.",
+  "falhas": [
+    {
+      "id": "M03_A06-F01",
+      "unidades": [
+        8
+      ],
+      "veto": "contrato",
+      "evidencia": "Validador: \"M03_A06: U008: evidência fora da faixa\". Inspetor: a fala do figurante está em 400,98–408,56 s e a do CDF em 408,98–417,66 s (trecho \"O figurante vai olhar para um conteúdo que deu errado\"). A faixa declarada, 416–447 s, cobre só os ~2 s finais e a transição para os exemplos.",
+      "impacto": "O arquivo não entra na base com erro de contrato. Quem seguir a faixa da unidade 8 cai na transição (\"Deixa eu achar o link…\") e não consegue verificar o conceito.",
+      "mudanca_minima": "Ajustar na unidade 8 `inicio` para ~396 e `fim` para ~418, cobrindo 400,98–417,66 s. Incrementar `versao`. Não alterar o corpo, que o inspetor deu como fiel.",
+      "criterio_de_aceite": "`base_fcc.py` com zero erros no arquivo. A faixa da unidade 8 contém 400,98–417,66 s e a `evidencia` cai dentro dela."
+    },
+    {
+      "id": "M03_A06-F02",
+      "unidades": [
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal (\"Pô, eu troco de formato, vou tentar um diferente\"; \"eu vou tentar um pouco mais esse formato aqui\"): a fala lista três saídas após as duas levas e não diz quando escolher as duas primeiras. O material fala em duas opções e pede considerar desempenho e afinidade. O corpo cria os gatilhos \"se o formato não dá sinal e você não se conecta com ele, teste outro\" e \"se há potencial, faça mais uma rodada\". Nem \"não dá sinal\", nem a conjunção \"e\", nem \"potencial\", nem \"uma rodada\" estão nas fontes. Só a terceira saída (já rendeu muito mais que os outros vídeos, seguir aprimorando) é fiel.",
+      "impacto": "Em uma unidade `decisao`, o agente aplicaria critérios que o professor não deu. Trocaria de formato só quando faltam resultado e afinidade ao mesmo tempo, ou limitaria a insistência a uma rodada extra, e repetiria isso como regra do curso.",
+      "mudanca_minima": "Reescrever o trecho das saídas mantendo o início \"Quando \" e os dois insumos (resultado e afinidade). Dizer que o professor lista três saídas e não dá critério para escolher entre as duas primeiras: trocar de formato e tentar um diferente; tentar um pouco mais o mesmo formato; ou, se já deu resultado muito melhor que os outros vídeos, seguir aprimorando. Registrar em `nota` que o material fala em duas opções (continuar refinando ou experimentar outro formato) com base em desempenho e afinidade. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 5 não contém gatilho inventado: nada de \"não dá sinal\", \"não se conecta\" como condição conjunta, \"potencial\" ou \"mais uma rodada\". Declara que a escolha entre trocar e insistir não tem critério dado pelo professor e mantém a terceira saída com sua condição. A `nota` registra as versões da fala (três saídas) e do material (duas opções). O inspetor reclassifica a unidade como lastreada."
+    },
+    {
+      "id": "M03_A06-F03",
+      "unidades": [
+        7
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "Inspetor (perecibilidade, trecho \"se você está na comunidade, entra na comunidade\"): o passo 1 do corpo e `condicoes` trazem \"na comunidade, pedir ao time uma análise do seu conteúdo\". É benefício da comunidade paga do curso, que o FORMATO §3 trata como oferta. A unidade está com `perecivel: false`.",
+      "impacto": "O agente recomendaria, como orientação estável do método, um serviço de uma oferta comercial que pode mudar ou acabar, sem nenhum sinal de que é perecível.",
+      "mudanca_minima": "Marcar `perecivel: true` na unidade 7 e incrementar `versao`. Alternativa aceita: retirar do corpo e de `condicoes` a menção à comunidade e ao time e levá-la a um `limite` de oferta. Pode ser a unidade 14, o que resolve junto o ajuste do título dela.",
+      "criterio_de_aceite": "A unidade 7 tem `perecivel: true`, ou não contém mais menção à comunidade nem ao time no corpo e em `condicoes`, e essa menção aparece em uma unidade `limite`. Validador com zero erros."
+    },
+    {
+      "id": "M03_A06-F04",
+      "unidades": [
+        3
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "A unidade 3 é a régua geral de teste, duas levas de três vídeos, e está com `plataformas: [\"trello\"]`. Na taxonomia, `trello` significa \"depende do Trello\". O inspetor confirma que o Trello é só o meio de organizar; a fala o descreve como \"o lugar onde a gente organiza o nosso conteúdo\", explicado no primeiro módulo. O corpo diz \"seguindo o processo do Trello do curso\" sem explicar o que é.",
+      "impacto": "A consulta `lapidar-formato` × `geral` não devolve a régua central da aula nem a condição \"não é regra fixa\". O `cobertura.jsonl` registra a régua como dependente do Trello. O agente encontra só o procedimento do material (unidade 13), sem a ressalva, ou trata a régua como específica de ferramenta.",
+      "mudanca_minima": "Trocar `plataformas` da unidade 3 para `[\"geral\"]` ou `[\"geral\",\"trello\"]`. No corpo, identificar o Trello do curso como o quadro onde se organiza o conteúdo, apresentado no primeiro módulo, sem acrescentar nada além disso. Incrementar `versao`.",
+      "criterio_de_aceite": "`plataformas` da unidade 3 contém `geral`. O corpo diz o que é o Trello do curso sem afirmação nova sem lastro. Validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 9: estender `fim` para ~925 s. O \"6 mil likes\" está em 901,74–903,92 s e o trecho da Lógica em 908–922 s. Recomendo fazer neste ciclo. \"Acertar um vídeo não garante o próximo\" é inferência do extrator: suavizar ou atribuir.",
+    "Unidade 9: o resumo \"corrigiram a abertura, o conflito e a linguagem\" pode ganhar o como do vídeo do Pantera: história do criador, palavras que a comunidade dele usa, conflito com relevância emocional para essa comunidade e conflito universal na abertura (~755 s).",
+    "Unidade 6: \"em torno de dez vezes a sua média já sinaliza\" lê como limiar, e a `nota` diz que os números não são parâmetros. Reescrever como \"muito acima da sua média (o professor ilustra com cerca de 10×)\".",
+    "Unidade 10: \"publique mesmo assim, rápido\" reconstrói uma linha mal transcrita (\"deve estar rápido\"). Registrar a incerteza em `nota`, o que não altera o hash. Baixar `confianca` para `media` é opcional.",
+    "Unidade 11: \"imagens mentais\" foi observação posterior do professor, não parte do que se pediu à aluna. Separar na Lógica. \"Sem apego ao tema\" é inferência. No título, usar a grafia do material (Isa Franklin), conforme o FORMATO §3; a `nota` já registra as duas versões.",
+    "Unidade 2: registrar em `nota` a diferença entre a fala (\"não são vídeos de nenhuma trend\") e o material (\"não dependam apenas de uma tendência\"). O \"e teste\" do passo 4 é extensão coerente com a aula, não com o trecho.",
+    "Unidade 1: `fonte: fala`, mas \"em vez de abandonar o formato quando o primeiro vídeo dá errado\" só é explícito no material. Usar `fala+material` ou retirar a frase.",
+    "Unidade 4: faltam música, expressão e relevância emocional, itens das listas de análise da seção EVA do material. Podem entrar aqui ou na unidade 7. A tarefa `revisar-roteiro` é discutível, porque a análise é de vídeos já postados.",
+    "Unidade 7: explicar \"lista de formatos virais\", que é recurso do curso.",
+    "Unidade 8: levar a explicação de CDF e figurante da `nota` para o corpo, como pede o FORMATO. A unidade já será tocada pela F01.",
+    "Unidade 13: dizer o que é o \"espaço de discussão\". A tarefa `usar-recursos-do-curso` é discutível.",
+    "Unidade 14: o título promete \"uso da comunidade\" e o corpo não trata disso. Falta ainda o `limite` de oferta da comunidade exigido pelo FORMATO §3 (convites em ~361 s e ~987 s). A rubrica classifica essa falta como ajuste menor. A unidade 14 pode absorver o registro da oferta, o que alinha o título.",
+    "`contexto`: afirma que o público \"conhece\" o formato Análise, pré-requisito que a aula não declara. \"Três casos\" é seguido de uma lista que não soma três."
+  ],
+  "proximo": "Este é o 1º ciclo de correção: o arquivo não tem `correcoes` e todas as unidades estão em `versao` 1.\n\n1. Enviar ao redator as falhas F01 a F04, que tocam as unidades 8, 5, 7 e 3. Os ajustes menores são opcionais. Destes, recomendo o `fim` da unidade 9 e as `nota` das unidades 2 e 10, que têm custo baixo; mudanças só em `nota` ou `titulo` não alteram hash.\n2. Depois da correção, rodar `base_fcc.py` e exigir zero erros.\n3. Fazer reinspeção focal, com fonte, das unidades cujo hash mudar: 3, 5, 7 e 8, mais a 9 se a faixa for ajustada. Conferir os critérios de aceite, em especial que a nova redação da unidade 5 não introduza outro critério sem lastro. As unidades intactas preservam a evidência desta inspeção.\n4. Conferir só a lista e os efeitos das alterações, sem nova busca editorial no resto."
+}

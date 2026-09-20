@@ -1,0 +1,332 @@
+{
+  "aula": "M03_A03",
+  "arquivo_sha256": "755a94799db9e023b139756a0e8311d72b153467f996993cccc8b538a90de557",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 20, 24]; as demais mantêm a evidência da inspeção integral do arquivo 896a0a710e78, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    20,
+    24
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "hashes_unidades": {
+    "1": "779d6ebd0c4613d8e72383bcf768316d0559376c26855a7a2b4ab928d1d4c48a",
+    "2": "9e163944364df25b5430a39d61287351b02b5b12cfd34bda82b5b2507d742609",
+    "3": "73b191c37c5c5b6e6fd86a1998e76ed537fd8989ea47385d241dbeaeb13cde81",
+    "4": "e3af10463bb290927125243fce3293e90c539c62addf5cf1f17e4245b40939fe",
+    "5": "ed5966813875f3ace61738ad4bca0c93def74e5c6e7cd10abcc0979b41487863",
+    "6": "cfd77c4766ea2cef4145643f1fafaf8d03f0dc50b401eb367a54054d37794bf0",
+    "7": "c3af991e59e8b363da28b50a83db1bf22b8e2ab5a35530a0c9d56469cc372b8c",
+    "8": "8dee03c27e2dd4e83ee1ebb46e080e1acd01e17fcce6ff5bfc51a8eee43768a1",
+    "9": "a3adeb4a428826989247a57fbb4a6ea2680878aea66bab99c5a0a3f1eff98db4",
+    "10": "4709400ca27318a108916137d4ae45bb268601c90039c32ccb3006f6fb9f069c",
+    "11": "7cc73fa4fe0866ef0d85d5108d91fd6d12f4cd4cb3a3fd6cce839f1eb23e11d5",
+    "12": "f319f1c6d73ce7e367d2024c02ae3fc0a261a3e7ac71a18ad23e15ab4a522a66",
+    "13": "b8163612f3b7629ebc12792b5679f933394dc5d71a5feca6e04051548d6b4523",
+    "14": "eaaf1c730110e741eacbced49e2fa49e9ccbae96ea8341bd2810d9261fe2052c",
+    "15": "83b3865d06a5d347ef64c65e351991dea8054afb1ab7d5445ce39da6193415b5",
+    "16": "4d3a9bb096a2396929ae3d3dc8edba112d6ee7455e8c21bb3be06fb4586ea529",
+    "17": "49ed0180f5a6104777863233ee3b3f143d81d7d4166bcdf62a367cd600821db6",
+    "18": "6f430ce5e9a7037ebe4d971fa13123f7fad635e4c9095a2d8b17044d6e46c7ac",
+    "19": "9732a7f3e567c7972b7572fa9a82d29a9f826d65c926c45fe114d4fe24605279",
+    "20": "b07e101e40e407838cd4ba5fde76c76a60fb8952f8842dd453dc3f067fb578d6",
+    "21": "de979010b89bebc51059c4402085dc4982d4a263d10d80a9954c40d8c6d2ae19",
+    "22": "35073075066b41ba3f5c2d3c0091ed9729c090842c4c4d7d4700046c8afa1b32",
+    "23": "ab38122ad62bad62dd52772404c4f6c7c55583be0c975ac0b13e36245cd390bc",
+    "24": "ddc3becd69f1db4a53ad7b928ccbdfbc4789431d9f3b7d489363f25db8fc6e45",
+    "25": "149e0c7fbdb19e60bdc07efdf1fb9fe9f6e334f52acba4e836eaf57695a64e95",
+    "26": "63ab431ef7563665ff735c6cd7e590b2d4e3f22209b453804edecd183fb3a947",
+    "27": "7c2039f26050ed9f9560dd8e42520c7c9e66d182a8ebb92dc13f3a45a67b186f",
+    "28": "9abf39bcbb7002040003b501faecd662489b5b3a5aa90dce603f9bf70e9d3583",
+    "29": "83fcd1f765ea85bd988640b3ee723efb065cc4d14b36ac932a35dc50fe4fbf0f"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O seu vídeo tem que chamar a atenção, ele tem que gerar interesse, ele tem que gerar desejo pela ideia que você quer vender.",
+      "explicacao": "A faixa 36–58 s sustenta só a lista atenção, interesse, desejo e CTA. Os demais detalhes vêm de outros pontos: 'primeiros segundos', 'moral da história' e 'passo seguinte' estão no material; 'a ação é vender uma ideia' está na fala por volta de 21:20 (~1280 s), fora da faixa. Como `fonte` é fala+material, o conteúdo tem lastro. A faixa cobre só parte do que o corpo afirma."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas todas as estruturas, de certa forma, eles vão conter o AIDA dentro dele, que é esse processo de convencimento da mente humana.",
+      "explicacao": "A fonte diz 'de certa forma' (hedge); o corpo o remove e afirma 'todas elas carregam o AIDA'. O corpo também acrescenta 'Trate o AIDA como a base sobre a qual as demais estruturas se apoiam', que o professor não diz (ele diz 'conter dentro'). Diferença de redação com efeito pequeno no uso."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se melhorou, meu filho, crie a sua própria",
+      "explicacao": "F1 resolvida. Na fala (1:33–1:46) o professor diz \"Observa o resultado, melhorou ou piorou\" e só prescreve o caso \"se melhorou\". O corpo v2 não traz mais o ramo de piora: não há \"volte\", \"retorne\" ou \"reverta\". Ele mantém a observação do resultado e o ramo \"se melhorou\", e ainda começa com \"Se \". A condição (alterar só depois que os vídeos já começaram a performar, e no começo seguir metodicamente) bate com 1:16–1:27 e com \"Mas no começo, segue aqui / Que vai dar bom também\". A faixa 65–107 cobre tudo isso. Não surgiu problema novo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aí a gente vai despertar desejo pra ideia que a gente quer plantar.",
+      "explicacao": "Sequência atenção (primeiros segundos/linhas), interesse (maior parte do vídeo) e desejo (ideia a plantar = ideia da CTA) confere com 2:13–2:40. A pré-condição (tema, fim e ponto de virada já definidos) vem de 1:48–1:58."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você não chama atenção, o seu vídeo morreu.",
+      "explicacao": "Fiel a 2:45–3:24: as pessoas pulam mesmo com conteúdo excelente; o elemento de atenção define o público; a pergunta sobre o público grande está presente."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Que é o conflito e a curiosidade",
+      "explicacao": "Tema mais gatilho, com conflito e curiosidade como os dois gatilhos principais, está em 3:28–4:31, dentro da faixa. A frase final 'procure um conflito ou uma curiosidade dentro do tema escolhido' vem de ~9:15–9:21 e 7:56–8:01, fora da faixa 208–272 s. O conteúdo tem lastro na aula, só a faixa não o cobre por inteiro."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E por isso, nunca mostrou o rosto dele nas redes sociais.",
+      "explicacao": "O caso confere (relacionamento de criador famoso, conflito, curiosidade). O corpo escreve 'ligado à polícia' para um trecho degradado da transcrição ('coragido da polícia'), o que contradiz a `nota` de que os detalhes pouco claros não foram usados. Sem efeito prático relevante."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O que é assustador não é sinônimo de incapacidade",
+      "explicacao": "Confere: tema medo do novo tratado como universal ('todo mundo já teve medo de fazer coisas novas') e conflito entre medo e coragem de fazer."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele está usando o termo de cultura pop",
+      "explicacao": "Caso e gatilho de curiosidade conferem (7:10–7:47). A 'lição' de fechamento ('unir o tema a uma curiosidade ou a um conflito do tema') está em ~7:51–8:01 (471–482 s) e ultrapassa o `fim` 475 s. O conteúdo tem lastro e a faixa fica curta poucos segundos."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Já vou eliminando essa decoração cafona",
+      "explicacao": "Confere: nicho de flores, conflito (chamar de brega) e curiosidade. O corpo diz 'abre desmontando um buquê', mas a fala usa 'Bora desbregar esse buquê?' e 'buquê desbregado', que é tirar o brega, não desmontar. Diferença de redação com pouco efeito."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "mas dá pra pegar o tema do seu nicho e colocar um ângulo que as pessoas se interessem.",
+      "explicacao": "A regra confere. Em `condicoes` a unidade escreve 'prefere, de início, temas universais', mas a fonte diz só 'a gente consegue, de preferência, usar temas universais' (8:51–8:57). 'De início' é um qualificador temporal acrescentado. Efeito pequeno."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você pode trazer argumentos lógicos,",
+      "explicacao": "Funções do interesse (manter a atenção, construir narrativa até a conclusão, preparar o terreno para provar o ponto na virada ao desejo) e os meios (história, argumentos lógicos, conteúdo) conferem com 9:28–10:09."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas em 2020 essa mesma mulher postou um vídeo no YouTube dizendo que tinha acabado de ser demitido",
+      "explicacao": "A transcrição diz 'Grammy em 2020' e 'em 2020 ... demitido' (mesmo ano nos dois, provável erro de transcrição). O corpo fixa 'Grammy em 2020' e 'antes foi demitida', uma ordem que a fonte não afirma. A `nota` só cita a identificação da cantora como degradada. O restante confere (27 m², medo de gravar, 'contou a nossa história')."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não é a pior que dizem, diga-me com quem anda",
+      "explicacao": "O caso, a grafia do material e a dupla leitura (conteúdo com prova e argumento lógico) conferem e estão na `nota`. O corpo escreve 'o fechamento de que você é quem anda com você', paráfrase que a transcrição degradada ('diga-me com quem anda') não diz. Efeito pequeno."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele começa falando, cara, como é que eu roubo",
+      "explicacao": "Confere com 14:05–14:23: a pergunta sobre roubar roupa da Prada é o gatilho (A) e o como fazer é o conteúdo (I). O trecho degradado seguinte não foi usado."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Um, dois primeiros, dois primeiros, um, dois primeiros",
+      "explicacao": "Há laço degradado em 14:39–15:09 e legenda em inglês incompleta. O passo a passo do vídeo não é extraível dessa faixa, como diz a unidade. Ver `contrato` sobre a natureza meta da unidade."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você olhar para as coisas e pensar, mano, como que eu traduzo isso para o meu nicho?",
+      "explicacao": "Olhar do criador, figurante × CDF e a premissa 'dá para fazer' conferem com 15:53–16:21. As definições de figurante e CDF são as do vocabulário do FORMATO."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente traz argumentos lógicos como conteúdo, então você pode misturar um pouco essas coisas.",
+      "explicacao": "Confere com 16:33–16:44, incluindo os dois exemplos de mistura."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E aí o desejo é o final do seu vídeo, que você traz como moral da história.",
+      "explicacao": "Objetivos do desejo (acreditar na ideia, sentir necessidade, esperança), crença nova e passagem para a CTA final conferem com 16:44–17:56 e com o material. O exemplo Mari Krieger ficou de fora por estar confuso, conforme a `nota`."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "No final, a gente acredita que faz mal e que agora eu sei como fazer.",
+      "explicacao": "F2 resolvida em todos os critérios. (1) O corpo v2 não põe o spa nem as alternativas naturais no desejo: \"O que aconteceu\" descreve a sequência do vídeo sem rótulo de etapa. (2) O spa aparece na \"Lógica\", ligado à ação e atribuído ao professor, como em 21:46–21:59 (\"A ação é o que mais / Ao invés de dar maquiagem / A gente faz o trabalho do spa\"). (3) O mapeamento \"estudo e explicação = interesse\" saiu. Os rótulos que sobram, \"ação\" e \"vender uma ideia\", são falados (\"Lembra que a ação aqui é vender uma ideia.\"). (4) A `nota` registra as duas versões: a fala põe o spa na ação e o material situa o exemplo em Desejo. (5) A faixa 1082–1320 contém \"A gente faz o trabalho do spa\" (1317,7–1319,9 s) e a evidência \"Mas se você segue os princípios certinhos\" (1094,7 s) segue literal dentro dela. Dois ajustes menores restam, sem efeito de decisão. Primeiro, a Lógica diz que \"a crença vendida é que não é sobre proibir, é sobre conscientizar\". O professor chama de crença vendida \"a gente acredita que faz mal e que agora eu sei como fazer\", e dá \"não é sobre proibir, é sobre conscientizar\" como a forma da ação. Os dois trechos estão na mesma passagem e a unidade os funde. Segundo, \"a autoridade de dermatologista ... reforça o ponto\" é leitura da unidade: o professor só diz que ela \"mostrou várias vezes no roteiro dela que ela manja do que ela tá fazendo\" e que é dermatologista. Nenhum dos dois inverte etapa, número ou condição."
+    },
+    {
+      "numero": 21,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lembra, a tela dividida é um dos formatos virais validados.",
+      "explicacao": "Confere com 18:50–19:16: a tela dividida mantém imagens chamativas em cima, e 'Tela dividida é uma delas' entre as formas de reter apesar de cenário ou expressão limitados. O corpo atribui ao professor."
+    },
+    {
+      "numero": 22,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você não precisa sempre colocar",
+      "explicacao": "Confere com 21:59–22:38: a CTA explícita fica para evento ou produto específico, a equipe não faz CTA em todos os vídeos, e o final é vender uma ideia. A `condicoes` atribui o uso aos professores."
+    },
+    {
+      "numero": 23,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele pode ser solicitado diretamente, como comentar, seguir ou comprar, ou decorrer naturalmente da conclusão.",
+      "explicacao": "Paráfrase fiel da seção Ação do material, incluindo a pergunta ao final."
+    },
+    {
+      "numero": 24,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E a gente já sabe até qual vai ser o ponto em comum que a gente vai fazer a virada do roteiro.",
+      "explicacao": "F3 resolvida: `perecivel: true` e `versao` 2. A referência aos exemplos que o professor \"vai deixar\" listados é a única do curso no corpo e agora está marcada. Nas outras partes o corpo bate com a fala (22:42–23:33): os passos 2 a 4 (tema que chama a atenção, ideia plantada no final, interseção entre os dois) estão em 23:19–23:29. O ajuste de figurante e CDF usa a definição da própria aula e o vocabulário do curso. Um detalhe menor entrou com a correção: o desenho seria \"com o tema no começo, a interseção no meio e a ideia final\". A fala só diz que o tema é onde começa, que se sabe onde termina e que há um \"ponto em comum\" da virada do roteiro (1:48–1:58). Ela não diz que a interseção fica \"no meio\", e o desenho só existe na imagem. Isso não muda a decisão nem a execução dos passos. Bastaria descrever o desenho com o que a fala diz (início = tema, fim = ideia final, ponto em comum da virada) ou tirar \"no meio\"."
+    },
+    {
+      "numero": 25,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "uma forma também é você enviar lá o seu roteiro",
+      "explicacao": "Confere com 23:33–23:56: envio de roteiro ou vídeo pronto, eventos de análise, comentários da comunidade e do time. A condição 'se você faz parte da comunidade' está preservada."
+    },
+    {
+      "numero": 26,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "testa rápido, você tem a oportunidade de melhorar",
+      "explicacao": "Confere com 23:57–24:08."
+    },
+    {
+      "numero": 27,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "São os gatilhos viciantes.",
+      "explicacao": "Confere com 4:02–4:21: prévia nesta aula, detalhamento dos gatilhos viciantes na aula seguinte."
+    },
+    {
+      "numero": 28,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A aula atribui essa diferença à repetição da estrutura, e não apenas ao talento do criador.",
+      "explicacao": "O corpo atribui ao material e confere. O título é mais categórico ('a diferença vem da repetição') que o corpo, sem efeito material."
+    },
+    {
+      "numero": 29,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolha uma ideia de vídeo que você já tenha.",
+      "explicacao": "Os quatro passos e o propósito do exercício conferem com a seção Exercício do material."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": null,
+      "trecho_fonte": "AIDA funciona como guia que pode ser repetido em diferentes temas, nichos e formatos.",
+      "descricao": "O material afirma que o AIDA é um guia reaproveitável em qualquer tema, nicho e formato, e que o formato criativo não depende só da aparência do vídeo. Nenhuma unidade preserva essa ideia; a unidade 28 cobre só a repetição como causa da diferença de qualidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar não vê a afirmação explícita de que a mesma estrutura serve a qualquer nicho ou formato. A ideia aparece só de forma implícita nos exemplos de nichos variados. Não muda a decisão nem impede executar."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto: a frase 'Os exemplos analisados são vídeos de terceiros' não vale para o exemplo Delusional (unidade 13). Na fala o professor o trata como vídeo próprio ('Depois contou a nossa história para gerar esse interesse'; 'uma história conectada com a gente'). Ajuste menor.",
+    "Unidade 24: o corpo diz que 'o professor sugere reproduzir o desenho da estrutura em casa' sem explicar que desenho é esse; é uma referência que ficou na aula. Também usa 'CDF' sem a definição do vocabulário do FORMATO, ao contrário da unidade 17. Ajuste menor.",
+    "Unidade 16: o `limite` descreve um defeito da transcrição ('a transcrição está degradada'), não uma declaração da aula sobre o que não cobre. Um agente que consulta a base sem a transcrição não tem como interpretar isso. Classificação discutível; ajuste menor.",
+    "Unidade 5: a tarefa `pesquisar-publico` é discutível. A orientação é escolher o elemento de atenção que atrai o público certo, não levantar desejos, medos e crenças do público. Ajuste menor."
+  ],
+  "material": [
+    "Unidade 20 (dermatologista): o material coloca o exemplo na seção Desejo ('O exemplo de dermatologia é usado para mostrar a ligação entre tema e moral'). A fala, na análise posterior, coloca 'ao invés de dar maquiagem, a gente faz o trabalho do spa' na AÇÃO. A unidade atribui o spa ao desejo sem registrar a fala em `nota`, o que resolve em silêncio para o lado do material e contra a fala. O esperado é registrar as duas versões.",
+    "Nas demais unidades, o uso do material confere com a aula: unidades 13, 14, 15, 19 e 20 estão como fala+material, e 23, 28 e 29 usam só o material. A grafia 'Rafa Grata' (material) × 'Rafael Grata' (fala) e a dupla leitura 'conteúdo com prova' × 'argumento lógico' estão registradas na `nota` da unidade 14."
+  ],
+  "resumo": "As três falhas da lista (F1, F2, F3) foram resolvidas pelos critérios de aceite, e a alteração não criou defeito material nas unidades 3, 20 e 24. Unidade 3: sem instrução de piora e lastreada. Unidade 20: spa na ação, sem rótulo de etapa inventado, `nota` com fala × material e faixa cobrindo a evidência. Unidade 24: agora `perecivel: true`. Ficam dois ajustes menores, que não abrem ciclo: a \"crença vendida\" da unidade 20 funde a crença dita pelo professor com a forma da ação, e \"interseção no meio\" na unidade 24 não está na fala. Nenhuma omissão nova, perecibilidade, contrato ou divergência de material decorre desta conferência."
+}

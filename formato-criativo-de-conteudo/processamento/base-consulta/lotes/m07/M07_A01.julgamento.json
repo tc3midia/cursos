@@ -1,0 +1,82 @@
+{
+  "aula": "M07_A01",
+  "arquivo_sha256": "8c6409256d77a67a002f3ff4a3ead6a4e9e81b0b7e150313f94be6ed57aed23d",
+  "inspecao_sha256": "756af9e0705617509d8ef3010dc1354c9749196800e16b3179fefa14c8e7e823",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Sem veto. O validador retornou zero erros e zero avisos, e não refiz a checagem. Os itens que o inspetor listou no campo `contrato` tratam de jargão, redação e classificação, não de erro de script; estão em aplicabilidade e nos ajustes menores.",
+  "fidelidade": "Veto por fidelidade, em quatro unidades de 51 (U9, U18, U30 e U37). As outras 47 ficam lastreadas ou com ressalva menor.\n\nA inspeção é integral: cobre as 51 unidades, todos os apontamentos trazem trecho literal e `citacoes_nao_literais` está vazio.\n\n- **Causa repetida (U9, U18, U30):** o extrator escreve em `condicoes` ou na Pré-condição uma restrição que a fonte não impõe. Esse campo decide quando o agente aplica a unidade, então o erro muda o uso.\n- **U9 e U30:** o inspetor classificou como `desvio` com trecho literal, e as próprias unidades confirmam. O passo 4 da U9 e a `condicoes` da U12 pressupõem que a lista serve a vários níveis. O corpo da U30 aplica o princípio à venda do curso, que não é venda um a um.\n- **U18:** o inspetor rotulou como `lastreada`, mas a explicação dele descreve uma pré-condição inventada e contrária à fonte (Bruno não conhecia a estrutura e fazia por instinto). A `condicoes` contradiz o passo 1 da própria unidade. O rótulo subestima o achado, por isso tratei como falha.\n- **U37:** \"mais de um milhão por ano\" onde a fonte diz \"um milhão por ano\". É número de faturamento inflado por inferência. A rubrica trata número diferente de fonte clara como desvio, qualquer que seja a `confianca`.\n- **U3:** o desvio é só de atribuição de uma frase, em transcrição sem rótulo de falante. O conteúdo é fiel e o ponto fica como ajuste menor.\n- **U31:** faixa-errada em 1 de 51 unidades (cerca de 2%), abaixo do limite de 10%. Fica como ajuste menor com correção objetiva.\n- **U16 e U35:** a incerteza da fonte está preservada com `nota` e `confianca` média, então passam.\n- **Inconsistência do inspetor:** na U3 ele afirma que Flávia é a esposa de Bruno. Nas U35 e U37 ele diz que a fonte nunca diz \"esposa\". Não dá para decidir esse ponto sem a fonte, e ele fica como ajuste menor.",
+  "cobertura": "Sem veto. O inspetor declara busca de omissões na fonte inteira. As três omissões listadas ficam em 26:13, 64:36 e 79:05, o que mostra que a busca chegou ao fim da aula. Todas são menores.\n\n- **Gancho cético e pergunta final do vídeo da Paula (U17):** são elementos do vídeo, não da leitura em quatro partes que o professor faz, e a estrutura continua executável. O defeito real é o contraste atribuído só ao elogio, registrado como ajuste menor.\n- **Reenquadre de Bruno (\"como começar agora\", cobrir os próprios custos):** é critério complementar. U31, U32 e U33 já permitem decidir o primeiro preço.\n- **Cursos de edição, gravação e iluminação:** é recurso perecível do curso e não muda decisão de execução.\n\nNenhuma régua, etapa ou parte essencial ausente foi demonstrada. A oferta comercial está registrada como limite (U39), assim como o Q&A da Paula (U45) e o conteúdo visual (U24).",
+  "perecibilidade": "Sem veto. O inspetor não sinalizou perecível escondido. Conferi as unidades com `perecivel: false` (3, 4, 6, 10, 11, 12, 15, 17, 18, 19, 21, 23, 25, 26, 27, 28, 30, 33, 38, 41, 42, 48). Nenhuma traz preço, data, oferta, recurso do curso, tela ou número de mercado.\n\n- Unidades com valores em reais, casos, Collab/Instagram, WhatsApp, SOFIA e recursos do curso estão marcadas `true`.\n- U38 cita \"20 clientes\" como dado do relato de Bruno dentro de uma regra atribuída a ele. Não é número de mercado nem preço.",
+  "aplicabilidade": "Sem veto próprio. Os problemas de `condicoes` que levam o agente a aplicar ou descartar a unidade no lugar errado (U9, U18, U30) estão tratados em fidelidade, porque a origem é condição sem lastro.\n\nO restante é menor. Cada unidade abaixo ainda se entende sozinha, com o título e o título da aula.\n- **Jargão do curso sem explicação:** \"formato criativo\" na U4, \"formato de análise\" na U15, \"contraste\" na U17, \"descarrega\" na U36, \"o produto\" na U50.\n- **Dependência leve da aula:** U1 (\"o que a aula traz\"), U24 (não nomeia os vídeos), U43 (abre com verbo sem sujeito).\n- **Classificações discutíveis entre valores defensáveis:** tipo `conceito` na U1, tema e tarefa de planejamento na U22, tarefas da U2 e da U7 (um `exemplo` precisa de ao menos uma tarefa).\n\nProcedimentos e estruturas têm as partes que a evidência mostra existirem na fonte. U27 foi conferida como completa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        9
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor classificou como `desvio`, com trecho literal \"Por exemplo, se você já é um social media\" (17:43–17:59). O professor diz que o método da lista vale para todos e que só a forma de entrar em contato muda conforme o nível. A `condicoes` da U9 diz \"Serve para quem ainda não tem clientes\", restrição que a fonte não impõe. As próprias unidades confirmam: o passo 4 da U9 (\"a forma depende do seu nível\") e a `condicoes` da U12 (\"Quem já é social media com experiência aborda de outro jeito\") pressupõem que a lista serve também a quem já atende.",
+      "impacto": "O agente que filtra por `condicoes` deixa de indicar a lista de contatos a quem já atende clientes, por exemplo um social media em transição. Para esse perfil a fonte ensina o mesmo método, com outra forma de abordagem.",
+      "mudanca_minima": "Reescrever só a `condicoes` da U9. Tirar \"Serve para quem ainda não tem clientes\". Dizer que o método vale para qualquer nível e que só a forma do contato muda conforme o nível. Manter \"não exige postar vídeo no feed\". Não descrever a abordagem do social media experiente além do que a fonte diz. Incrementar `versao` e registrar em `correcoes`.",
+      "criterio_de_aceite": "A `condicoes` da U9 não restringe a unidade a quem não tem clientes e declara que o método vale para qualquer nível, variando só a forma do contato. `versao` = 2. `base_fcc.py` com zero erros. Na reinspeção focal a U9 sai `lastreada`, sem ressalva de condição."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        30
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor classificou como `desvio`, com trecho literal \"só que quando você vai vendendo um a um é muito mais fácil\". A fonte diz que a venda um a um é mais fácil, não que o princípio só vale nela. O corpo da U30 confirma o alcance geral ao citar a venda do próprio curso, feita \"falando o que o aluno queria ouvir\", que não é venda um a um. A `condicoes` (\"Vale para venda um a um\") contradiz o corpo e a fonte.",
+      "impacto": "Um agente que consulte a unidade, ou construa uma skill de vendas com ela, grava que o princípio \"falar o que a pessoa quer ouvir\" só se aplica a venda um a um. Ele deixa de aplicá-lo em venda por conteúdo ou em escala, ao contrário do que o professor ensina.",
+      "mudanca_minima": "Reescrever a primeira frase da `condicoes`: o princípio é geral, segundo o professor, e na venda um a um ele é mais fácil de aplicar porque se vê no rosto do cliente o que faz diferença. Manter a segunda frase, sobre exclusividade só para quem a valoriza e para quem você quer fechar. Incrementar `versao` e registrar em `correcoes`.",
+      "criterio_de_aceite": "A `condicoes` da U30 não contém \"Vale para venda um a um\" nem formulação equivalente que limite o escopo. A venda um a um aparece como o caso mais fácil, não como condição de validade. A restrição da exclusividade está mantida. `versao` = 2. Validador com zero erros. Na reinspeção a U30 sai `lastreada`."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        18
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor aponta, com trecho literal \"conhecimento dessa estrutura jeito certo e jeito\", que Bruno diz que na época não conhecia a estrutura e fazia por instinto. A Pré-condição da unidade (\"conhece a estrutura jeito errado × jeito certo\") foi criada pelo extrator e vai contra a fonte. A `condicoes` (\"Vale para quem não tem acesso a reuniões\") contradiz o passo 1 da própria unidade (\"em reuniões ou olhando os perfis\"). Na fonte, olhar os perfis é a alternativa para quem não tem reuniões, não condição do método inteiro. O inspetor rotulou a unidade como `lastreada`, mas o que ele descreve é condição sem fonte.",
+      "impacto": "Um agente com usuário que tem reuniões com empreendedores descarta a unidade por causa da `condicoes`, embora o método se aplique a ele. Um agente com usuário que não estudou a estrutura manda estudá-la antes ou não aplica, exigência que a fonte não faz.",
+      "mudanca_minima": "Na Pré-condição, tirar \"e conhece a estrutura jeito errado × jeito certo\" e manter \"você quer atrair clientes pelo seu perfil\". Reescrever a `condicoes`: é relato de Bruno, e quem não tem acesso a reuniões levanta objeções e crenças olhando os perfis; quem tem, usa também as reuniões. Se o termo \"jeito errado × jeito certo\" ficar no corpo, basta o que o passo 3 já diz (mostrar o que fazem sem resultado e o que dá resultado). Opcional em `nota`: Bruno fazia por instinto, sem conhecer a estrutura, e a ordem numerada reconstrói uma narrativa. Incrementar `versao` e registrar em `correcoes`.",
+      "criterio_de_aceite": "A Pré-condição da U18 não exige conhecer a estrutura. A `condicoes` não limita a unidade inteira a quem não tem reuniões e é coerente com o passo 1. O corpo continua começando com \"Pré-condição:\" e com pelo menos 2 passos numerados. `versao` = 2. Validador com zero erros. Na reinspeção a U18 sai `lastreada`, sem ressalva de condição inventada."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        37
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor dá o trecho literal \"que faturava um milhão por ano\". A unidade escreve \"faturava mais de um milhão por ano\". Segundo o inspetor, o \"mais de\" é inferência do extrator a partir de outra fala (\"70 é base, a gente fazia mais do que isso\"), não é o que a fonte diz. O número difere de fonte clara.",
+      "impacto": "O agente repete com confiança um faturamento maior do que o declarado na fonte. A base inteira trata afirmação de resultado como atribuída e não confirmada. Número de caso aumentado por inferência é o tipo de erro que a base não pode publicar.",
+      "mudanca_minima": "No corpo da U37, trocar \"faturava mais de um milhão por ano\" por \"faturava um milhão por ano\". Manter a atribuição (\"Diz que\") e o restante. Incrementar `versao` e registrar em `correcoes`.",
+      "criterio_de_aceite": "O corpo da U37 contém \"um milhão por ano\" sem \"mais de\" nem outro intensificador. `versao` = 2. Validador com zero erros. Na reinspeção a U37 sai `lastreada`, sem ressalva sobre o número."
+    }
+  ],
+  "ajustes_menores": [
+    "U3: \"O professor resume: é questão de organização e método\". Pelo contexto o inspetor indica que a fala é de Bruno; a transcrição não tem rótulo de falante. O conteúdo é fiel e o erro é só de atribuição, por isso menor.",
+    "U31: faixa-errada, 1 de 51 unidades (abaixo de 10%). As duas últimas frases do corpo estão depois do `fim` (≈3369–3381 s). Correção objetiva: estender `fim` para ≈3388 ou tirar as frases, já que a U32 cobre \"cobre mais caro no próximo\".",
+    "Faixas com vazamento pequeno. U9: o passo 4 vem de 17:43–17:52, fora de 779–916. U5: a última frase está 1–3 s após o `fim`. U51: `fim` curto em cerca de 3 s. U2: `inicio` corta cerca de 2 s. O núcleo de cada uma está dentro da faixa.",
+    "U10: a `condicoes` (\"principalmente a partir do segundo ou terceiro mês\") sugere que o princípio só vale depois. A fonte manda começar a definir isso já, e o corpo (\"desde cedo\") corrige em parte.",
+    "U12: \"o áudio da primeira cliente da Paula\" é ambíguo. Na fonte é o áudio que a Paula mandou ao primeiro cliente dela. A orientação não muda.",
+    "U14: \"saía da reunião com o contrato fechado\" vem de uma frase degradada da transcrição. Registrar isso em `nota`.",
+    "U17: o corpo atribui o contraste ao elogio de abertura. Segundo o inspetor (26:13 e 28:46), o contraste vem do gancho cético (\"É sério mesmo que essa loja se diz o maior garden center do Brasil\") seguido do elogio, e o vídeo fecha com uma pergunta ao público. Convém registrar o gancho na parte 1 ou em `nota`. É menor porque as quatro partes seguem a leitura do professor e a estrutura continua executável.",
+    "U21: as três observações foram ditas sobre um vídeo específico (o da hamburgueria), e o corpo as generaliza para \"os vídeos que atraem clientes\". A atribuição ao professor se mantém.",
+    "U25: o inspetor vê indícios de que a ilustração do vendedor de loja é do professor, não de Bruno. É ilustração secundária.",
+    "U35 e U37: \"a esposa\" é inferência. A transcrição cita Flávia/Flávio, e o próprio inspetor se contradiz, porque na U3 afirma que é a esposa. Usar o nome como transcrito e registrar a incerteza em `nota`.",
+    "U38 e U47: o corpo abre no imperativo sem atribuir. Na U38 a `condicoes` diz que é prática de Bruno. Na U47 a primeira parte é prática de uma terceira pessoa (transcrita como Maria Lini), comentada como relevante, mais a preferência de Bruno. Convém atribuir isso no corpo ou em `condicoes`.",
+    "U49: a fonte não prova que o caso de 8 mil reais por 8 vídeos é de Bruno, porque há troca de falantes. A unidade também omite o critério \"bota um valor que você acha que vale a pena pra você, de acordo com o tempo que você vai dedicar\".",
+    "Jargão e autossuficiência, menores. U1: tipo `conceito` discutível para uma promessa de faturamento, e o corpo cita \"o que a aula traz\". U4: \"formato criativo\" sem explicação, definida só na U5. U15: \"formato de análise que o curso ensina\". U17: \"contraste\". U24: não diz quais vídeos de referência. U36: \"descarrega\" e planejamento sem nome, já sinalizado na nota. U43: abre com \"Explica o pacote…\", verbo sem sujeito. U50: \"o produto\" e \"material de organização\".",
+    "Classificação discutível. U22 está em `planejamento-de-conteudo`/`planejar-conteudo`, e a U20, de lógica parecida, está em `clientes-e-precificacao`. As tarefas da U2 e da U7 são escolha forçada, porque um `exemplo` exige tarefa.",
+    "Omissões menores sem unidade. (a) Reenquadre de Bruno em 64:36–65:45: a pergunta certa é como começar agora, e começar pode ser cobrir os próprios custos; ele cita a fila de espera de clientes ao crescer. (b) Resposta em 79:05–79:17: há curso de edição, gravação e iluminação na formação e no Formato Criativo, recurso perecível do curso."
+  ],
+  "proximo": "Assumo rodada 1: `versao` = 1 em todas as unidades e não há `correcoes`. Este é o ciclo 1 de correção. Não pedi prova adicional; a evidência bastou para decidir.\n\n1. O redator corrige só F1–F4 (U9, U18, U30, U37). Não renumera, incrementa `versao` e registra em `correcoes`.\n2. Rodar `base_fcc.py`, que precisa dar zero erros.\n3. Fazer reinspeção focal só dessas quatro unidades, porque o hash delas muda. As outras 47 preservam a evidência atual enquanto hash, fonte e rubrica não mudarem.\n4. O novo julgamento confere os critérios de aceite de F1–F4 e os efeitos colaterais das alterações.\n\nOs ajustes menores ficam registrados e não abrem ciclo. Se a coordenação quiser aproveitar o ciclo, o melhor é limitar-se às unidades que já serão editadas: a faixa do passo 4 da U9, a `nota` da U18 e \\\"a esposa\\\" na U37. Editar qualquer outra unidade muda o hash e obriga a reinspecioná-la.\n\nA causa de F1, F2 e F3 é a mesma: `condicoes` que estreita o alcance além do que a fonte diz. Se ela aparecer em outra aula, vale a regra de ampliação focal da rubrica."
+}

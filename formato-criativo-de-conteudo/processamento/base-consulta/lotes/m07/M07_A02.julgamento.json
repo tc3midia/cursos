@@ -1,0 +1,123 @@
+{
+  "aula": "M07_A02",
+  "arquivo_sha256": "ac436d984c4f9b40a053b8da08265e19d15a7f20196d961f81cda38e4626c618",
+  "inspecao_sha256": "638a862f035429986dd1a32446fcd426bb0c867a6aa934faa5976b4346030475",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os itens que o inspetor listou em `contrato` são de classificação e autossuficiência; estão tratados em aplicabilidade e nos ajustes menores.",
+  "fidelidade": "Falha. A inspeção é integral: 47 de 47 unidades, busca de omissões declarada e nenhuma citação não literal, então a evidência basta para decidir. Não há `sem-lastro`.\n\nDois defeitos sustentam o veto sozinhos:\n- **U40.** O trecho está truncado na fonte (\"polêmicas, se não for o seu / estilo ou não\"). A unidade o transformou na condição \"se combinar com o seu estilo\", com `confianca` alta e sem `nota`. É uma condição criada sobre fonte ambígua, sem preservar a incerteza, e muda o que o agente recomenda.\n- **U19.** O corpo afirma que \"a transcrição não traz nenhum ajuste de gravação do aparelho\". A U21 (gravar em 4K) e a U24 (30 quadros) do mesmo arquivo desmentem isso. O inspetor cita \"todo mundo tem que gravar em 4K\" e \"a gente grava 30fps\". O inspetor marcou a U19 como `lastreada`, mas a explicação dele chama a frase de falsa como afirmação geral. O rótulo não bate com a evidência dele, e decido pela evidência. Num `limite`, demarcar a cobertura errado muda a resposta do agente.\n\nOutros quatro desvios têm trecho literal (U4, U3, U36, U39). O inspetor os graduou como menores e concordo que pesam menos. Entram na mesma lista porque o veto 2 não condiciona desvio comprovado à gravidade, porque são erros conhecidos que a verificação contra a fonte não confirma, e porque cada correção é de uma frase.\n\nA U43 é `faixa-errada`: 1 em 47, cerca de 2%, abaixo dos 10%, sem veto. Em U1, U8, U28, U39 e U45 há frase de apoio fora da faixa com o núcleo dentro dela. O inspetor não as tratou como faixa-errada e eu acompanho.",
+  "cobertura": "Passa. O inspetor declarou busca na fonte inteira e localizou três omissões, todas menores:\n- Os \"sete passos\" de roteiro, mostrados em outra monitoria.\n- O uso de Trello e Docs na organização de clientes.\n- A diretriz de \"gerar identificação\" na resposta à podóloga.\n\nNenhuma retira régua, passo ou condição necessários para executar o que as unidades ensinam. A primeira merece um aviso em `nota` da U1, para o agente não tomar os quatro passos como o método completo. Todas ficam como ajuste menor.",
+  "perecibilidade": "Passa. O inspetor não sinalizou perecível escondido. Conferi as unidades com `perecivel: false` e não achei preço, data, oferta, equipamento nem recurso de curso sem a marca.\n\nUma observação sem veto: a U40 cita \"direct\" com plataformas `geral` e `perecivel: false`. Leio como menção lateral ao comportamento do público (empresário não comenta, mas responde em mensagem). Não é dependência de recurso do Instagram. Fica registrado nos ajustes menores, para avaliar na correção da U40.",
+  "aplicabilidade": "Falha em um ponto.\n\n**U37.** Está em `tema: formato-analise`, mas o corpo não trata do Formato Análise. Ele fala de nicho dominado por vídeo satisfatório, de contar casos sem expor o cliente e de diferencial e posicionamento. A própria `nota` diz \"sem indicação de formato específico do curso\". Pelo FORMATO, o tema `formato-*` só vence quando a orientação é específica do formato. Não é escolha entre dois valores defensáveis, porque o valor atual não se defende. Um agente que monta a skill do Formato Análise recebe a unidade errada, e quem procura posicionamento ou venda no conteúdo não a encontra.\n\nO resto é ajuste menor. São classificações discutíveis: `regua` em U15, U16 e U18 para práticas atribuídas à professora; a tarefa `pesquisar-publico` na U1; `quebrar-crencas` na U30; o `limite` da U9 em `curso-e-recursos`. Há também três problemas de autossuficiência: o título da U14, o referente de \"cliente\" na U31 e o \"primeiro áudio de fechamento\" na U34. Nenhum impede o uso. Na U38, \"sujar a base\" fica como está: a fonte não define a expressão e o FORMATO proíbe definição inventada.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        40
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"mais, às vezes, polêmicas, se não for o seu\" / \"estilo ou não\". A frase está truncada; a leitura mais provável, segundo o inspetor, é \"seja ou não do seu estilo\". O corpo da U40 diz \"se combinar com o seu estilo, fale coisas mais polêmicas\", com `confianca: alta` e `nota: null`.",
+      "impacto": "O agente passa a condicionar a recomendação ao estilo do criador. Para quem não tem estilo polêmico, ele deixa de sugerir algo que a fonte provavelmente recomenda de qualquer forma. Nada na unidade avisa que o trecho é duvidoso.",
+      "mudanca_minima": "Reescrever só essa frase sem impor a condição. Exemplo: \"...e falar coisas às vezes mais polêmicas; a fala menciona o estilo de quem cria, mas o trecho está truncado e não deixa claro se isso é condição\". Registrar em `nota` o trecho literal e as duas leituras. Baixar `confianca` para media. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo não afirma \"se combinar com o seu estilo\" nem equivalente como condição. A `nota` traz o trecho literal e as duas leituras. A `confianca` não é alta. O corpo continua começando com \"Se \" ou \"Quando \". O validador devolve zero erros. O inspetor confirma que a incerteza está preservada."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        19
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo diz \"A transcrição não traz nenhum ajuste de gravação do aparelho\". O inspetor cita na mesma aula \"todo mundo tem que gravar em 4K\" e \"a gente grava 30fps\", e a U21 e a U24 deste arquivo registram isso. A fonte hesita (\"Eu acho que depois o Bruno pode trazer... Talvez eu possa tirar um print\") e o corpo virou \"respondem que vão mostrar\". \"Uma aluna pergunta\" não tem lastro, porque a transcrição não diz quem perguntou.",
+      "impacto": "O `limite` é o que o agente lê para saber o que a aula não cobre. Como está, ele conclui que a aula não dá nenhum parâmetro de gravação no celular e deixa de usar 4K e 30 fps, que estão na U21 e na U24. Também passa adiante uma promessa firme de material futuro onde a fonte só hesita.",
+      "mudanca_minima": "Restringir a afirmação ao que de fato falta: a configuração detalhada do iPhone (os ajustes do aparelho) não é mostrada nem descrita. Acrescentar que, de parâmetro de gravação, a aula só traz que os professores gravam em 4K e a 30 quadros por segundo. Trocar \"Uma aluna pergunta\" por forma impessoal. Trocar \"respondem que vão mostrar\" por redação que preserve a hesitação (\"dizem que talvez mostrem depois, com prints...\"). Incrementar `versao`.",
+      "criterio_de_aceite": "Nenhuma frase da U19 nega que a aula traga ajustes de gravação. O corpo é compatível com a U21 e a U24. A hesitação da fonte aparece no corpo. Não há \"aluna\" sem lastro. O inspetor marca a unidade como lastreada, sem ressalva sobre essa frase."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        37
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "A U37 está em `tema: formato-analise` com tarefas `escolher-formato` e `planejar-conteudo`. O corpo não menciona o Formato Análise e a `nota` diz \"sem indicação de formato específico do curso\". O inspetor confirma que o conteúdo é nicho de vídeos satisfatórios, contar casos sem expor o cliente e diferencial e posicionamento. O FORMATO §2 reserva `formato-*` para orientação específica do formato.",
+      "impacto": "A unidade entra no índice de `formato-analise`. O agente que monta a skill do Formato Análise incorpora uma orientação que não é do formato. Quem busca posicionamento ou venda no conteúdo não a encontra.",
+      "mudanca_minima": "Trocar `tema` por um tema geral coerente com o corpo. O mais próximo é `venda-no-conteudo`, o mesmo da U38, que trata da mesma distinção entre viralizar e posicionar. Rever `escolher-formato`: trocar por `vender-no-conteudo` ou manter só `planejar-conteudo`. Tirar da `nota` a frase que justifica o tema de formato. Não mexer no corpo. Incrementar `versao`.",
+      "criterio_de_aceite": "O `tema` da U37 não é `formato-*`. As tarefas correspondem ao que o corpo ensina. O validador devolve zero erros. O índice derivado de `formato-analise` não lista mais a U37."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"Mas se não me engano / Acho que o Bruno / Ele conciliava / E ele atendia só um sábado\". O inspetor aponta três trechos da aula em que Bruno é o parceiro da professora. O corpo diz \"Um colega deles atendia só um sábado\", sem ressalva, com `confianca: alta` e `nota: null`.",
+      "impacto": "Peso menor, porque a decisão de conciliar não muda. Mesmo assim, o agente cita como fato certo um precedente de \"colega\" que não existe na fonte, e apaga a dupla ressalva de quem falou. Quem confere a unidade contra a fonte não encontra essa afirmação.",
+      "mudanca_minima": "Substituir a frase por algo como: \"A professora lembra, com ressalva ('se não me engano', 'acho'), que Bruno conciliava e atendia só um sábado\". Registrar em `nota` que Bruno é o nome usado na aula para o parceiro dela e que a transcrição não esclarece mais. Incrementar `versao`.",
+      "criterio_de_aceite": "\"Colega\" não aparece no corpo. A ressalva da fonte está no corpo. A `nota` registra a identificação do nome. O inspetor marca a unidade como lastreada."
+    },
+    {
+      "id": "F5",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo diz \"Dois dias depois de pedir demissão, ainda no emprego, ela prospectou o primeiro cliente\". Segundo o inspetor, na fonte o \"dois dias depois\" vem depois da conversa com os mentores, durante o aviso. Em seguida ela diz \"Eu já estava acho que na última semana de trabalho\" (trecho literal), o que não combina com dois dias após a demissão. A unidade tem `confianca: alta` e `nota: null`.",
+      "impacto": "Peso menor, porque é um caso narrado e a orientação sobre largar o emprego está na U10. Ainda assim, o agente narra uma linha do tempo que a fonte não sustenta e que contradiz o trecho seguinte. A `confianca` alta esconde a dúvida.",
+      "mudanca_minima": "Ancorar o \"dois dias depois\" na conversa com os mentores durante o aviso, como a fonte faz. Mencionar que ela situa o momento \"acho que na última semana de trabalho\". Registrar a ambiguidade em `nota`, com o trecho literal. Baixar `confianca` para media. Incrementar `versao`. Opcional: incluir que os mentores orientaram a começar a produção.",
+      "criterio_de_aceite": "O corpo não liga os \"dois dias\" ao pedido de demissão. A `nota` registra a ambiguidade com o trecho literal. A `confianca` não é alta. O inspetor marca a unidade como lastreada."
+    },
+    {
+      "id": "F6",
+      "unidades": [
+        36
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo diz que a dentista e o cliente de plantas \"ambos comentaram positivamente, porque ninguém fazia isso por eles\". Da dentista o inspetor encontra só \"ela comentou sobre isso.\". \"Ele achou o máximo\" e \"não tem quem faça isso lá para ele\" valem apenas para o cliente de plantas. Na fonte, \"não vai custar nada\" explica por que é fácil quando a empresa é da cidade. A unidade transformou isso em `condicoes`: \"Vale principalmente se a empresa do cliente é da sua cidade\".",
+      "impacto": "Peso menor. O agente presume reação positiva de dois clientes quando a fonte dá a de um. Ele também pode restringir a prática a empresas locais, por uma condição de validade que a fonte não impõe.",
+      "mudanca_minima": "Separar as reações no corpo: a dentista \"comentou sobre isso\"; o cliente de plantas achou o máximo, porque ninguém fazia isso por ele. Reescrever `condicoes` como facilitador atribuído aos professores (\"Os professores dizem que, quando a empresa é da sua cidade, não custa nada\"), ou deixar `null`, já que o corpo traz essa frase. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo não atribui reação positiva à dentista. `condicoes` não apresenta a localização como condição de validade. O inspetor marca a unidade como lastreada."
+    },
+    {
+      "id": "F7",
+      "unidades": [
+        39
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"Fechou o Canteiras Plantas, bateu 4 mil views\". A fala é \"um vídeo nosso, esse último que a gente fechou...\" e na faixa não diz que era vídeo de análise feito para o cliente. A `Lógica` (\"o alvo era o cliente e não o alcance\") é inferência. O mais próximo na fonte é \"O vídeo cumpriu o objetivo\", em 00:49:05, fora da faixa 2902–2927. Os números e o fechamento conferem.",
+      "impacto": "Peso menor. O agente afirma, como dado do curso, um tipo de vídeo e uma lógica que a faixa não sustenta. A U36 torna a inferência plausível (mesmo ramo, vídeo de análise), mas quem verifica na fonte não encontra a afirmação.",
+      "mudanca_minima": "Há dois caminhos. (a) Descrever como a fonte descreve (\"um vídeo deles, ligado ao último cliente fechado, do ramo de plantas\") e levar a inferência de que era o vídeo de análise para `nota`. (b) Se a fonte identificar esse vídeo como o de análise em outro ponto, ajustar a faixa ou citar o trecho literal em `nota`. Em qualquer caminho, limitar a `Lógica` ao que a fonte diz (\"o vídeo cumpriu o objetivo\", mesmo sem viralizar) e estender `fim` para cobrir esse trecho. Incrementar `versao`.",
+      "criterio_de_aceite": "Tudo o que o corpo afirma sobre o tipo do vídeo e sobre a lógica tem trecho literal dentro da faixa, ou está marcado em `nota` como inferência. Os números 4 mil e 600–800 e o fechamento ficam inalterados. O inspetor marca a unidade como lastreada."
+    }
+  ],
+  "ajustes_menores": [
+    "U43: `faixa-errada` menor. O preço (10 vídeos por 6 mil) e a lista de estruturas ficam em ~3097–3106 s. Estender `fim` para cerca de 3107. É 1 em 47, abaixo de 10%, sem veto.",
+    "U1: a pré-condição diz \"já tem ideias\", mas na fonte as ideias saem da pesquisa. \"Como se fosse ele falando\" vem de fora da faixa. A tarefa `pesquisar-publico` não corresponde, porque a pesquisa do corpo é por tema de vídeo. Acrescentar em `nota` que a professora cita \"os sete passos\" mostrados em outra monitoria, para os quatro passos não serem lidos como o método completo. Não muda a execução.",
+    "U8: a pergunta e a frase \"não sou a melhor pessoa\" estão fora da faixa, e a fala sobre o horário dela é do outro professor. O núcleo está lastreado.",
+    "U9: \"não vai explicar isso\" perde o \"muito\" da fonte. O `limite` está em `curso-e-recursos` e sem tarefa, então fica invisível para quem consulta `fechar-e-precificar-servico`. Classificação discutível.",
+    "U10: \"os professores dizem\" era fala de um só professor. \"O conselho de largar tudo\" vem do comentário de um aluno e fica sem dono para quem lê sem a aula. A tensão com a U3 existe na própria fonte.",
+    "U11: omite que a professora também organiza no Trello e no Docs. `plataformas: geral` é defensável, porque a orientação não depende da ferramenta.",
+    "U12: a fonte diz \"um pouco parecido\" e \"você pode oferecer\". O corpo e o título viraram instrução. Efeito pequeno.",
+    "U14: o título diz \"só conversa à distância\". O corpo não sustenta isso, e a fonte só diz que o cliente não será gravado presencialmente. Título não entra no hash.",
+    "U15: o trecho \"uns 5 dias\" também está degradado (\"ele ia\") e a `nota` não o cobre.",
+    "U15, U16 e U18: tipo `regua` para prazos e práticas pessoais. É defensável, porque as `condicoes` atribuem à professora. `exemplo` ou `regra` seria mais seguro.",
+    "U16: o \"às vezes\" de \"duas, três horas\" sumiu.",
+    "U18: \"Agora cobra\" no corpo é marcador temporal relativo. O mesmo vale para \"hoje\" nas `condicoes` da U35. O script não barra essas formas.",
+    "U17: na `Lógica`, \"e da produção, não de uma câmera profissional\" é acréscimo. A fonte fala só em configuração do celular.",
+    "U21: \"assim a imagem fica natural\" fixa uma leitura de trecho ambíguo. \"Natural\" pode se referir à perda de qualidade. Registrar em `nota`. A decisão de gravar em 4K não muda.",
+    "U27: o corpo diz \"em obra\". A primeira ocorrência na fonte, que é a própria `evidencia` da unidade, diz \"feitas\". Preferir \"feitas\" ou registrar as duas.",
+    "U28: \"no próximo cliente\" especifica o que a fonte deixa aberto (\"no próximo\"). \"Oportunidade de aprender\" vem de antes do `inicio`.",
+    "U30: a tarefa `quebrar-crencas` é discutível, porque a crença mudada é a do próprio professor e não a do público. `fechar-e-precificar-servico` basta.",
+    "U31: \"cliente\" designa duas pessoas no mesmo parágrafo: o cliente do criador e o cliente da advogada. \"Entende de imediato\" é mais forte que \"superentende\". O imperativo vem de um \"eu acho\".",
+    "U34: \"primeiro áudio de fechamento\" remete a um áudio tocado na aula. Trocar por \"no primeiro fechamento dela\" resolve.",
+    "U38: \"sujar a base\" é expressão opaca que a fonte não define. Manter como está, sem explicação inventada, ou remover.",
+    "Omissão em 2774 s (\"o conteúdo dele tem que gerar identificação\"): diretriz curta da resposta à podóloga que nenhuma unidade preserva. Não afeta a execução.",
+    "U40: \"direct\" aparece com `geral` e `perecivel: false`. Na correção da F1, avaliar `perecivel: true` se a frase ficar. Não veto por isso."
+  ],
+  "proximo": "**Correção.** Aplicar F1 a F7 só nas unidades afetadas: U3, U4, U19, U36, U37, U39 e U40. Incrementar `versao` em cada uma, registrar em `correcoes` e rodar `base_fcc.py`.\n\n**Conferência seguinte.** Reinspecionar com fonte apenas essas sete unidades, que são as que mudam de hash, mais o efeito cruzado entre U19 e U21/U24. As outras 40 preservam a evidência atual.\n\n**Pedidos de prova ao inspetor na conferência:**\n- F7: a fonte identifica em algum ponto o vídeo do \\\"Canteiras Plantas\\\" como vídeo de análise? É o mesmo cliente \\\"Transplantas\\\" da U36? A resposta decide entre os caminhos (a) e (b).\n- F4: confirmar se o \\\"Bruno\\\" do trecho é o parceiro da professora. A correção não depende disso, porque a identificação vai para `nota`.\n\n**Ajustes menores.** Não são critério de aceite. A coordenação pode aplicar junto os que ficam em `nota` ou `titulo`, que não entram no hash: o aviso dos sete passos na U1, o título da U14 e a nota da U21.\n\n**Contagem de ciclos.** Sete unidades estão em `versao` 2, mas não recebi `correcoes` nem o número da rodada. O executor deve conferir a contagem. Se este já for o segundo ciclo, a lista residual vai para a intervenção localizada da coordenação e para a conferência focal final, conforme a rubrica."
+}

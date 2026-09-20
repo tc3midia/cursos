@@ -1,0 +1,46 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "medium",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:09:54+00:00",
+  "fim": "2026-09-20T00:10:46+00:00",
+  "duracao_ms": 51245,
+  "duracao_api_ms": 51220,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 5878,
+    "cache_creation_input_tokens": 33898,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 0,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.194376,
+  "sistema_sha256": "46d055edc03fd8f2396d0f36688cfeb90560cb17add0d13e1ee61d45366cd96e",
+  "pacote_sha256": "a42308074b17c052081ac889346bed0a64f8ce999e869e00cb6c9d96e46b0426",
+  "aula": "M03_A06",
+  "rotulo": "piloto-s5-medium",
+  "palavras_fonte": 4268,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/s5-medium/M03_A06.json",
+  "resultado_sha256": "58ae92c58f18664270f161aebabd388b5d0e722935fda373c1dcf66633eb1dd1",
+  "unidades": 14,
+  "validador": {
+    "erros": [
+      "M03_A06: U005: evidência não literal na transcrição",
+      "M03_A06: U005: evidência fora da faixa",
+      "M03_A06: U006: evidência não literal na transcrição",
+      "M03_A06: U008: evidência fora da faixa"
+    ],
+    "avisos": []
+  }
+}

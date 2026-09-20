@@ -1,0 +1,46 @@
+{
+  "aula": "M04_A01",
+  "arquivo_sha256": "dbe81c90b172ac17e07f1c00f028717f6b2d567b14b24e65a8b2092fffce262a",
+  "inspecao_sha256": "86e1ef4985495e870b6e95720aaa718ba5d056f04b51f60fab7618a953dd5814",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os três itens que o inspetor listou no campo `contrato` (unidades 12, 16 e 14) são de redação e classificação. Foram tratados em aplicabilidade e em ajustes menores.",
+  "fidelidade": "Passa. A inspeção é integral e cobre as 19 unidades. Todas têm `trecho_fonte` e `citacoes_nao_literais` está vazio. As 19 foram dadas como lastreadas, sem desvio, sem-lastro ou faixa-errada.\n- Conferi nas próprias unidades que as condições da fonte estão preservadas: a mesa como preferência do professor (4), \"em algumas partes\" (7) e a ideia surgida na hora, sem métrica (9).\n- A observação sobre emoção está atribuída ao professor (3).\n- A divergência entre 16 formatos e 16 dias está registrada em nota (17).\n- As grafias de nomes seguem o material (12, 13, 18).\n- Os pontos residuais são menores e não mudam a ação de quem consulta: a causa inferida na unidade 8, \"descansar\" vindo de trecho degradado na 11, a inferência declarada na 15 e detalhes fora da faixa-âncora nas 6, 10 e 14.",
+  "cobertura": "Passa. O inspetor declarou busca de omissões na fonte inteira e localizou uma só: o caso de uso do gancho do vídeo de exemplo (pessoa pouco expressiva parada diante da câmera; \"o dinamismo é o melhor formato\").\n- Concordo com gravidade menor. É fala de roteiro de exemplo e hipérbole de gancho, não instrução, régua, passo ou restrição.\n- A falta não induz decisão errada nem impede executar. Apenas deixa `escolher-formato` com menos contexto.\n- As ideias centrais estão cobertas: movimento por frase, emoção exagerada, profundidade, variação de frases, fala em movimento, narração com cenas, duplicação, imobilidade do cenário, iteração, estudo de referências e jeito próprio.\n- O limite do conteúdo visual está registrado na unidade 16.",
+  "perecibilidade": "Falha na unidade 12.\n- O corpo manda escolher \"um criador da lista de referências\". O inspetor amarra essa lista ao trecho literal \"No trelo do desafio, eu deixei uma lista de referências com perfis que viralizaram\". É um recurso do curso.\n- A unidade está marcada como `geral` com `perecivel: false`. É o perecível escondido em unidade geral que a rubrica manda vetar.\n- As demais unidades com recurso do curso, equipamento ou plataforma (14, 17 e 18) já estão com `perecivel: true`.\n- As unidades 13 e 19 não dependem de recurso perecível.",
+  "aplicabilidade": "Passa. As unidades se sustentam sozinhas e os metadados levam ao lugar certo. As orientações de execução estão em `gravar-video` e `editar-video`, a lapidação na unidade 11, as referências e o jeito próprio nas 12 e 13, e o recurso do curso na 17.\n- Os `condicoes` estão preenchidos onde o corpo é situacional (4, 7, 9, 10, 15).\n- Unidade 12: \"lista de referências\" sem dizer qual. O procedimento de descer o perfil de um criador do formato até o início continua executável, e a unidade cita uma criadora.\n- Unidade 16: \"Nesse trecho da gravação\". O título e o corpo deixam claro que se trata da demonstração de movimentos.\n- Classificações discutíveis: tipo `ferramenta` na 14, tipo `conceito` na 17, `instagram` e `tiktok` na 18, e prefixo \"Dinamismo:\" no título da 15, que tem tema geral.\n- Nenhum desses pontos muda o uso. Ficam como ajustes menores.",
+  "falhas": [
+    {
+      "id": "M04_A01-F1",
+      "unidades": [
+        12
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da unidade 12 diz: \"Escolha um criador da lista de referências e role o perfil até o começo\". A unidade está com `plataformas: [geral]` e `perecivel: false`. O inspetor aponta em `perecibilidade` que a lista é recurso do curso (os perfis deixados no quadro do desafio). O trecho literal lastreado na unidade 17 confirma: \"No trelo do desafio, eu deixei uma lista de referências com perfis que viralizaram\". A rubrica, no veto 4, determina falha para recurso do curso (link, documento-modelo, quadro, comunidade) sem `perecivel: true`.",
+      "impacto": "O agente que filtra por `perecivel: false` para montar skill ou orientação durável vai incorporar como estável a instrução de escolher da lista de referências. Essa lista é um recurso do curso que pode mudar ou deixar de existir. A unidade também cita o estado do perfil de uma criadora específica. Sem a marca, quem consulta não recebe o sinal de que precisa conferir a validade antes de usar.",
+      "mudanca_minima": "Na unidade 12, trocar `perecivel` para `true`, incrementar `versao` para 2 e registrar a mudança em `correcoes`. Recomendado na mesma edição, sem ser condição de aceite: identificar no corpo que a lista é a de perfis de referência que o professor deixou no quadro do desafio do curso, sem acrescentar nada além do que o trecho citado sustenta. Não alterar nenhuma outra unidade.",
+      "criterio_de_aceite": "(1) A unidade 12 tem `perecivel: true` e `versao` >= 2, com a correção registrada em `correcoes`. (2) `base_fcc.py` segue com zero erros. (3) Os hashes das outras 18 unidades não mudam. (4) Se o corpo da 12 for tocado, o inspetor confirma que o acréscimo se limita a localizar a lista, tem lastro no trecho \"No trelo do desafio, eu deixei uma lista de referências com perfis que viralizaram\", e que sentido, números e nomes permanecem iguais."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 8: a cláusula \"porque são gravadas em tomadas separadas\" é causa inferida, que o professor não diz. A fonte só tem \"Mas vai ser com a mesma roupa\". Sugestão: remover o \"porque\" ou declarar em nota que é inferência. Não muda a ação.",
+    "Unidade 11: \"descansar\" vem do trecho degradado \"ao terceiro descansar\" e pode ser erro de transcrição. Sugestão: tirar a palavra da lista de movimentos ou sinalizar essa incerteza específica na nota. O efeito é pequeno, porque a orientação central de testar, assistir e melhorar está lastreada.",
+    "Unidade 15: a leitura de \"trabalha com isso\" como quem cria conteúdo para outra pessoa é inferência. Está declarada em nota com confiança media, o que é aceitável. O título começa com \"Dinamismo:\" embora o tema seja geral (`direcao-e-gravacao`). Sugestão: tirar o prefixo do título, que não entra no hash.",
+    "Unidade 6: o detalhe \"começar a frase caminhando\" é dito pelo professor por volta de 08:33, fora da faixa 285–291. A faixa cobre só a frase-âncora e o material confirma o detalhe. Vale registrar na nota.",
+    "Unidade 14: a mesa vem de outro ponto da aula (~02:01), fora da faixa. O tipo `ferramenta` é discutível, porque a unidade descreve a montagem do exemplo e aponta para a aula de equipamentos. É classificação entre valores defensáveis.",
+    "Unidade 10: \"Qualquer deslocamento\" é um pouco mais forte que a fala, e a mesa aparece fora da faixa (o material fala em \"cenário, cadeiras e demais objetos\"). A orientação e a consequência de regravar estão corretas.",
+    "Unidade 12 (aplicabilidade): \"lista de referências\" não é explicada na unidade. Resolve-se na mesma edição da falha F1, identificando a lista do quadro do desafio. Não é condição de aceite.",
+    "Unidade 16: \"Nesse trecho da gravação\" depende da faixa da aula. Sugestão: abrir com \"Na demonstração de movimentos da aula de Dinamismo, ...\".",
+    "Unidade 17: o tipo `conceito` para um fato sobre a estrutura do curso é discutível. Tema, tarefa, plataforma e perecível estão corretos.",
+    "Unidade 18: `instagram` e `tiktok` em `plataformas` são discutíveis diante da taxonomia (\"menção de onde um exemplo foi publicado não muda isso\"). É defensável porque o conteúdo da unidade é onde achar os perfis. `trello` está correto.",
+    "Unidade 9: o tipo `regra` para uma ideia surgida na gravação é discutível (poderia ser `exemplo`). As `condicoes` já delimitam o alcance.",
+    "Omissão menor (00:59 e ~06:10): o caso de uso do gancho do vídeo de exemplo, pessoa pouco expressiva parada diante da câmera, com \"melhor formato\" como afirmação do professor. Poderia entrar como `condicoes` ou nota de uma unidade de `escolher-formato`, com atribuição ao professor. Não abre ciclo."
+  ],
+  "proximo": "Ciclo de correção 1 de 2, com alcance restrito à falha M04_A01-F1 (unidade 12).\n1. O redator aplica a mudança mínima.\n2. O validador roda e precisa retornar zero erros.\n3. O inspetor reconfere apenas a unidade 12, cujo hash muda porque `perecivel` entra no hash. As outras 18 unidades preservam a evidência atual enquanto hash, fonte e rubrica forem os mesmos.\n4. O juiz confere somente os critérios de aceite de F1 e os efeitos da alteração.\nOs ajustes menores ficam registrados e não são condição de aceite. Se a coordenação aplicar algum deles no corpo de outra unidade, o hash dessa unidade muda e ela passa a exigir reinspeção. Não há pedido de prova adicional, porque a evidência do inspetor foi suficiente em todos os pontos."
+}

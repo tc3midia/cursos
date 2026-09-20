@@ -1,0 +1,74 @@
+{
+  "aula": "M03_A03",
+  "arquivo_sha256": "896a0a710e78375a9342e23a22c3af568f4b69debaca67dda43935bf5ac72977",
+  "inspecao_sha256": "db9a498615f15e25a14c5110a1b5ec4745e409042656f0a2e917f7d02860ee4d",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os quatro pontos que o inspetor listou em `contrato` são ajustes menores: a frase do contexto sobre vídeos de terceiros, a referência solta na unidade 24, a natureza meta da unidade 16 e a tarefa discutível da unidade 5. Nenhum é erro de formato.",
+  "fidelidade": "Falha, por duas unidades.\n\n- **Unidade 3 (sem-lastro material).** A cláusula \"se piorou, volte ao que funcionava\" não existe na fala. Segundo o inspetor, em 1:33–1:46 o professor diz \"Observa o resultado, melhorou ou piorou\" e só desenvolve o caso \"se melhorou\". Em unidade do tipo `decisao`, o ramo é o próprio conteúdo. Um ramo inventado vira regra do curso para quem consulta, e isso é completar lacuna, que a rubrica veta. A prova é de ausência e depende da leitura do inspetor. Aceito porque ele delimita o trecho e porque a âncora da própria unidade (\"Se melhorou, meu filho, crie a sua própria\") é coerente com o relato.\n- **Unidade 20 (desvio material).** O corpo põe \"dia do spa, alternativas naturais\" no desejo. Segundo o inspetor, em 21:43–21:58 o professor os põe na ação: \"E aí a ação fica ali como... não é sobre proibir, é sobre conscientizar\", \"Ao invés de dar maquiagem\", \"A gente faz o trabalho do spa\". O trecho literal conferido é só a frase do spa. A atribuição à ação vem das citações dentro da explicação, com marcação de tempo. Considero suficiente. O mapeamento \"estudo e explicação = interesse\" também é da unidade, não do professor. O exemplo existe para ensinar o que cabe em cada etapa, então a etapa trocada ensina o AIDA errado.\n- **Ressalva sobre a unidade 20.** A citação do material que o inspetor traz (\"usado para mostrar a ligação entre tema e moral\") situa o exemplo na seção Desejo, mas não diz que o spa é desejo. A divergência fala × material é plausível, não demonstrada. A correção pedida é registrar as duas versões em `nota`, e ela resolve o ponto nos dois cenários.\n- **Faixas.** O inspetor não classificou nenhuma unidade como `faixa-errada`. As unidades 1, 6, 9 e 20 têm faixa que cobre o núcleo e a âncora, mas não uma frase acessória. Mantenho a classificação do inspetor e não conto essas quatro para o limite de 10%. O `fim` da unidade 20 entra na falha F2. As faixas das unidades 6 e 9 ficam como ajuste menor.\n- **Demais unidades.** Os outros desvios apontados são de gravidade menor: hedge perdido na 2, detalhe de trecho degradado na 7, \"desmontando\" na 10, \"de início\" na 11, ordem dos fatos na 13, fechamento parafraseado na 14. Não mudam a lição de cada unidade.\n- **Resumo do inspetor.** O resumo conta \"26 lastreadas, 2 materiais, 1 menor\". Os vereditos por unidade dão 27 lastreadas, 1 sem-lastro e 1 desvio. A inconsistência é só de contagem e não afeta a decisão.",
+  "cobertura": "Passa. A inspeção foi integral: 29 de 29 unidades, busca de omissões declarada na fonte inteira e nenhuma citação não literal. As quatro etapas do AIDA, os meios de cada etapa, a regra da CTA, o procedimento de análise e o exercício do material estão preservados.\n\nA única omissão localizada está no material: o AIDA como guia repetível em diferentes temas, nichos e formatos. Ela não muda a decisão nem impede executar, porque a unidade 2 e a variedade de nichos dos exemplos já apontam a mesma ideia. Fica como ajuste menor. O exemplo da Mari Krieger ficou de fora por trecho confuso, registrado na `nota` da unidade 19, e isso é aceitável.",
+  "perecibilidade": "Falha, pela unidade 24. A pré-condição manda usar \"de preferência os [vídeos] que a aula usou como exemplo\". O inspetor localiza na fala o \"Vou deixar aqui embaixo\", e também no material: é uma lista de links do curso. A unidade está com `perecivel: false`. A rubrica é categórica para recurso do curso escondido em unidade `geral`. A correção é de um campo.\n\nAs unidades 25, 27 e 29 estão marcadas corretamente. Na unidade 22, \"link da bio\" aparece só como exemplo de CTA explícita e a orientação não depende dele, então não veto. A menção ao TikTok e o ano do Grammy na unidade 13 são dados do caso narrado, não recurso de plataforma.",
+  "aplicabilidade": "Passa, com ajustes menores. As unidades se sustentam sozinhas. Os tipos respeitam o molde: a `decisao` começa com \"Se\" ou \"Quando\", o `procedimento` tem pré-condição e passos, a `estrutura` tem as quatro partes. \"Figurante\" e \"CDF\" estão explicados na unidade 17, e `condicoes` está preenchido onde o corpo depende de situação (unidades 3, 4, 11, 21, 22 e 25).\n\n- A etapa trocada na unidade 20 já está tratada em fidelidade. Não abro veto duplicado.\n- Unidade 24: \"reproduzir o desenho da estrutura\" e \"olha por trás da Matrix\" são referências que ficaram na aula, e \"CDF\" aparece sem definição. Os quatro passos funcionam sem isso.\n- Unidade 21: cita \"a dermatologista\" sem apresentá-la.\n- Unidade 16: descreve um defeito da transcrição que o agente não vê. É inócua, mas pouco útil como está.\n- Unidade 5: a tarefa `pesquisar-publico` e o tema `venda-no-conteudo` da unidade 22 são classificações discutíveis entre valores defensáveis.",
+  "falhas": [
+    {
+      "id": "M03_A03-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor (sem-lastro, material): na fala, em 1:33–1:46, depois de \"Observa o resultado, melhorou ou piorou\" o professor só trata o caso \"se melhorou\" (\"Se melhorou, meu filho, crie a sua própria\"). Ele não prescreve ação para o caso \"piorou\". O corpo traz \"se piorou, volte ao que funcionava\", sem atribuição. O resto da unidade está fiel.",
+      "impacto": "A unidade é uma `decisao`. O agente vai tomar \"reverter à estrutura anterior quando o resultado piora\" como orientação do curso e levá-la para skills de lapidação de formato. O ramo foi completado por quem extraiu.",
+      "mudanca_minima": "Remover do corpo a cláusula \"; se piorou, volte ao que funcionava\". Pode ficar a instrução de observar se o resultado melhorou ou piorou e o ramo \"se melhorou\". Não substituir por outra instrução para o caso de piora. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 3 não contém instrução para o caso de piora (nada como \"volte\", \"retorne\" ou \"reverta\"). O restante do sentido fica inalterado e o corpo segue começando com \"Se \". `versao` ≥ 2. O validador dá zero erros. O inspetor remarca a unidade como lastreada."
+    },
+    {
+      "id": "M03_A03-F2",
+      "unidades": [
+        20
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor (desvio, material), com trecho literal \"A gente faz o trabalho do spa\". Em 21:43–21:58 o professor coloca o spa na AÇÃO: \"E aí a ação fica ali como... não é sobre proibir, é sobre conscientizar\", \"A ação é o que mais... Ao invés de dar maquiagem\", \"A gente faz o trabalho do spa\". O corpo diz \"no desejo mostra o meio-termo que usa (dia do spa, alternativas naturais)\". O mapeamento \"estudo e explicação = interesse\" também é da unidade, não do professor. Essa parte da fala começa no limite do `fim` (1306 s). O material situa o exemplo na seção Desejo (\"usado para mostrar a ligação entre tema e moral\"), e a unidade não registra as duas versões em `nota`.",
+      "impacto": "O exemplo existe para ensinar o que cabe em cada etapa do AIDA. Com a etapa trocada, o agente vai modelar roteiros pondo a alternativa prática no desejo e a crença na ação, contra a análise do professor. Um mapeamento que a fonte não faz passa a valer como análise do curso.",
+      "mudanca_minima": "Em \"O que aconteceu\", tirar o spa e as alternativas naturais do desejo. Apresentá-los como o professor faz, na ação, junto da crença \"não é sobre proibir, é sobre conscientizar\". Retirar rótulos de etapa que o professor não dá (estudo e explicação = interesse), ou descrever a sequência do vídeo sem rotular, salvo trecho da fala que sustente o rótulo. Acrescentar à `nota`, mantendo o aviso sobre afirmações de saúde, que o material situa o exemplo na seção Desejo (ligação entre tema e moral) e a fala coloca o spa na ação. Estender `fim` para cobrir a análise (cerca de 1318 s, segundo o inspetor), dentro do limite da transcrição. Incrementar `versao`.",
+      "criterio_de_aceite": "(1) O corpo não atribui spa nem alternativas naturais ao desejo. (2) O spa aparece ligado à ação, atribuído ao professor, ou só como descrição do vídeo, sem etapa. (3) Nenhum mapeamento de etapa é atribuído ao professor além do que o inspetor confirmar na fala. (4) A `nota` registra as duas versões, fala × material. (5) A faixa `inicio`–`fim` contém \"A gente faz o trabalho do spa\" e a `evidencia` segue literal dentro dela. (6) `versao` ≥ 2 e o validador dá zero erros. (7) O inspetor remarca a unidade como lastreada."
+    },
+    {
+      "id": "M03_A03-F3",
+      "unidades": [
+        24
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "Inspetor: a pré-condição manda usar \"de preferência os [vídeos] que a aula usou como exemplo\". Na fala (\"Vou deixar aqui embaixo\") e no material, essa lista é recurso do curso, com links que podem mudar ou sumir. A unidade está com `perecivel: false`, em plataforma `geral`.",
+      "impacto": "Um agente que filtra por conteúdo estável recebe como permanente uma pré-condição que aponta para uma lista de links do curso. Se a lista mudar ou sumir, ele continua indicando um recurso que não consegue verificar.",
+      "mudanca_minima": "Marcar `perecivel: true` na unidade 24 e incrementar `versao`. Alternativa aceitável: tirar do corpo a referência aos vídeos deixados pela aula, deixar a pré-condição genérica (\"ter vídeos virais para assistir\") e manter `perecivel: false`. Se a unidade for editada, vale aplicar junto o ajuste menor da mesma unidade, que é explicar \"desenho da estrutura\" e definir \"CDF\".",
+      "criterio_de_aceite": "Ou a unidade 24 está com `perecivel: true`, ou nem o corpo nem `condicoes` mencionam os vídeos ou links deixados pela aula. Nos dois casos, `versao` ≥ 2, o validador dá zero erros e o inspetor confirma que não sobrou recurso do curso sem marca."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: recolocar o hedge da fonte (\"de certa forma\"). Remover ou atribuir a frase \"Trate o AIDA como a base...\", que o professor não diz. O efeito é pequeno, porque a ação de quem consulta não muda.",
+    "Unidade 6: a frase final (\"procure um conflito ou uma curiosidade dentro do tema escolhido\") vem de ~476–482 s e ~555–561 s, fora da faixa 208–272, e repete a unidade 11. Remover a frase ou ajustar a faixa.",
+    "Unidade 9: a lição de fechamento está em ~471–482 s e o `fim` é 475. Estender o `fim` alguns segundos.",
+    "Unidade 1: a faixa 36–58 sustenta só a lista das etapas. O resto vem do material e da fala em ~1280 s. É aceitável porque a fonte é fala+material; pode ser registrado em `nota`.",
+    "Unidade 7: \"ligado à polícia\" vem de trecho degradado (\"coragido da polícia\") e contradiz a `nota`, que diz que detalhes pouco claros não foram usados. Tirar o detalhe ou ajustar a `nota`.",
+    "Unidade 10: \"abre desmontando um buquê\" não corresponde à fala, que usa \"desbregar\" (tirar o brega). Ajustar a redação.",
+    "Unidade 11: `condicoes` acrescenta \"de início\". A fonte diz só \"de preferência, usar temas universais\".",
+    "Unidade 13: a transcrição põe o Grammy e a demissão no mesmo ano, 2020, provável erro de transcrição. O corpo afirma uma ordem (\"antes foi demitida\") que a fonte não dá. Reescrever sem fixar a ordem e registrar a dúvida em `nota`.",
+    "Unidade 14: \"você é quem anda com você\" é paráfrase que a transcrição (\"diga-me com quem anda\") não sustenta. Ajustar.",
+    "Unidade 16: o `limite` descreve um defeito da transcrição, e o agente não tem a transcrição. Reescrever do ponto de vista de quem consulta (a base não registra o passo a passo do vídeo; vale só a análise do professor) ou retirar. A classificação é discutível.",
+    "Unidade 5: a tarefa `pesquisar-publico` é discutível. A orientação trata de escolher o elemento de atenção que atrai o público certo, não de levantar dados do público.",
+    "Unidade 21: \"a dermatologista\" aparece sem apresentação. Introduzir como criadora de um vídeo analisado na aula.",
+    "Unidade 24: \"reproduzir o desenho da estrutura\" e \"olha por trás da Matrix\" são referências que ficaram na aula, e \"CDF\" está sem a definição do vocabulário. A ordem numerada é da unidade, não do professor, e não altera o sentido.",
+    "Unidade 28: o título é mais categórico que o corpo (\"a diferença vem da repetição\" contra \"não só ao talento\").",
+    "Contexto: \"Os exemplos analisados são vídeos de terceiros\" não vale para o exemplo Delusional. O inspetor mostra que o professor o trata como vídeo próprio (\"contou a nossa história\").",
+    "Omissão menor do material: o AIDA como guia repetível em diferentes temas, nichos e formatos. Pode entrar como `fato-material` ou como frase na unidade 28. Não muda a decisão.",
+    "Aviso ao redator: ajuste que altera corpo, faixa, `condicoes` ou metadado semântico muda o hash, e a unidade perde a evidência preservada. Aplicar só os que forem entrar na mesma conferência focal."
+  ],
+  "proximo": "O redator corrige F1 (unidade 3), F2 (unidade 20) e F3 (unidade 24) conforme a mudança mínima, sem reextrair a aula.\n\nA conferência seguinte é focal. O inspetor relê a fonte para as unidades 3, 20 e 24 e para qualquer unidade cujo hash mude por ajuste menor aplicado. As demais preservam a evidência desta inspeção.\n\nProva pedida na unidade 20: o inspetor deve trazer como `trecho_fonte` literal a fala que liga o spa à ação (por exemplo \"Ao invés de dar maquiagem\") e o trecho do material sobre o exemplo da dermatologia. Assim a `nota` das duas versões pode ser conferida.\n\nEsta decisão consome um ciclo do teto de dois. Se já for o segundo, a lista residual vai para a intervenção localizada da coordenação e para a conferência focal final."
+}

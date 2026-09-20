@@ -1,0 +1,160 @@
+{
+  "aula": "M03_A09",
+  "arquivo_sha256": "bf578dca38397b39b59a1d73aeca698e2327a2c26c3ca5ad6834c648c9a088f6",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "1f7cf2ecac4bbe3cbc52cb84b6b0aa9634321e1636d26b126fb6213b7b2538b5",
+    "2": "e99b1070dc1c48c73faa2daa696f1e94a05257f2e2a9275997d6701eaa180d2e",
+    "3": "620b165470d73187abafbecc44a063a29e3e5fd4be9add13f091c34620425aaf",
+    "4": "5b7699cf9ca9642b60f059be71537b0ac403a2938bdc8485e199185757800690",
+    "5": "63cbc78505341eb5b3033f4469e70b1f353de6ef79e76fff7e3b89dfd36c23d6",
+    "6": "c1ea4f2608b83999355b21c9d134c20455a9565070c8ad262a26ea0fb8dae67f",
+    "7": "1e8184b45406e69a1fa05345b2ad8fe0dc24fe15ab98710ab2871e8b0becbdbb",
+    "8": "1ac9ae3ef4afdd29d58743fd3a3c505cd3ca942c662e24f4b772343f87635741",
+    "9": "2a09e0d3b7fce38ce4d8bd80d831701530228f52548546ae29c53b3757739086",
+    "10": "da4393e887d1220e701872183270c9a88dd4cd01af7dd43bc4ae047c046eef7d",
+    "11": "844b3ca0f12de5576364b015c934ebbdda180fc2ee1d77b6f1688e141622c8ef",
+    "12": "3cdad395ae42460896a1d173e18d6ce885771fb0784cb02428c068d4b34906a8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Existe uma estrutura clássica, uma fundamental, que é a AIDA",
+      "explicacao": "AIDA como estrutura clássica e fundamental, todas as estruturas seguindo a lógica dela, atenção/interesse/desejo/ação e formato criativo como padrão de roteiro mais padrão visual estão na fonte. Só um detalhe de faixa: a frase 'A gente cria o padrão de roteiro com estruturas de roteiro específicas' vai de 42,76 a 47,48 s, depois de fim=42. É o único apoio direto de 'elas servem para criar o padrão de roteiro'. Sem efeito no uso, porque o conteúdo está a poucos segundos da faixa e não há outra unidade nesse ponto."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Algumas pessoas vão se travar com essa estrutura definidinha",
+      "explicacao": "A fonte diz que o professor prefere estrutura muito bem definida, que algumas pessoas travam com isso, e que então cada um faz do jeito que for melhor. Ela também contrasta o figurante (inventa desculpa) com o CDF (rápido, melhora no próximo). A condição de preferência do professor está preservada. 'Em vez de abandonar a produção' é paráfrase razoável de 'então não vou fazer'. A questão dos termos 'figurante' e 'CDF' sem explicação vai em `contrato`."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A primeira estrutura que a gente criou, que ficou famosa no mercado, inclusive, muita gente fala dessa estrutura.",
+      "explicacao": "As três partes em ordem (identificação, história com conflito/virada/consequências positivas, conteúdo como moral da história) e a atribuição ao professor de 'primeira estrutura', 'famosa no mercado' e 'ajuda a pensar conteúdo de forma diferente' batem com a fonte. Faixa 72–226 cobre o trecho, de 'estrutura IHC' (74 s) até 'faça as coisas dessa forma' (226 s)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é sobre mim, é familiar e além de ser familiar, é sobre mim.",
+      "explicacao": "Fiel à distinção do professor: identificação é 'perninha' de familiaridade; familiaridade é tocar elementos da memória do público; identificação é familiar e além disso é sobre a pessoa, que reafirma 'eu já vivi isso, eu penso assim'. Sem número, condição nem atribuição alterados. Faixa 95–157 cobre o trecho."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "virada, são as consequências positivas",
+      "explicacao": "Os três elementos da história (conflito que desestabiliza a vida estável do personagem; processo de virada como ações para resolver e estabilizar de novo; consequências positivas, mudança e benefícios) correspondem à fala do professor. 'História é sobre conflito e mudança' está atribuída ao professor. Faixa 157–211 correta."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "De dia pra noite, cresci mais de 30 mil seguidores",
+      "explicacao": "Os números (mais de 30 mil seguidores, 100 mil reais em 30 dias, mais de 3 milhões em 12 meses) batem com o vídeo e estão como relato da criadora, num `exemplo` com `perecivel: true`, sem virar régua. A leitura do professor (pessoa conhecida do público, dois conflitos, virada, consequências positivas, moral) está na fonte. A nota sobre 'Rana' e o título do material é adequada. Falta só o motivo de a moral decorrer da história; ver `omissoes`."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A moral da história é o contador da história",
+      "explicacao": "Fiel quanto a: o conteúdo vem como ensinamento tirado da história, uma história permite várias morais, quem conta escolhe. O único ponto é a última frase: 'Por isso conte a história de um jeito que sustente a ideia que você quer vender' vem de 'Então eu conto a história de um jeito que ela dê base para aquilo que eu quero vender', em que o professor descreve o que ele faz. A unidade transforma isso em imperativo. É coerente com o que a aula ensina e não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "desejo de ação para finalizar o rolê, falando",
+      "explicacao": "Atenção (curiosidade sobre o Pedro Sobral, 'quero sacar mais um pouco') e interesse (a história conta como as coisas aconteceram) batem com a fonte. Quanto a 'desejo e ação: o fecho traz o desejo de ação, com a moral da história': a fonte diz só 'desejo de ação para finalizar o rolê, falando cara, antes que ele ter...', em trecho degradado. Ligar isso à moral é inferência, embora plausível. A nota já avisa que a última frase não é confiável. Sem efeito prático relevante."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É uma história de roteiro que se encaixa pra qualquer nicho.",
+      "explicacao": "'Qualquer nicho' está atribuído ao professor e a estrutura dada (identificação, história que prova, conteúdo como moral) confere. A segunda frase ('Como a história aconteceu e prova que fazer aquilo dá resultado, você não aponta o dedo...') afirma um resultado sem atribuição própria. Na fonte, é o professor quem diz 'Essa história aconteceu e ela prova que se você fizer isso, você vai ter resultado' e 'quebra completamente a possibilidade de apontar o dedo'. Como a frase anterior abre com 'O professor diz', a atribuição fica implícita. Ainda assim, o FORMATO pede atribuição explícita de resultado. A unidade 10 faz isso com `condicoes`."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E isso vai fazer as pessoas quererem comprar",
+      "explicacao": "Posicionar empresa, você ou a produção de conteúdo pela moral e o efeito de 'as pessoas quererem comprar' estão na fonte e atribuídos ao professor ('Segundo o professor'). Faixa 484–499 correta. O uso de `condicoes` para a ressalva de atribuição está em `contrato`."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O material critica vídeos sem padrão, temas que o público não reconhece e tentativas de impor autoridade antes de estabelecer conexão.",
+      "explicacao": "Proposta (conectar o roteiro ao público, despertar curiosidade, construir autoridade a partir de uma experiência), críticas e 'a experiência anterior sustenta a recomendação' estão no material. `fonte: material` sem faixa está correto. A ambiguidade de 'Ele critica' (sujeito) vai em `contrato`."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O material propõe publicar o vídeo e compartilhá-lo na comunidade do curso.",
+      "explicacao": "O exercício (tema familiar ao público, minirroteiro com identificação, história e conteúdo) e a proposta de publicar e compartilhar na comunidade batem com o material. `perecivel: true` está correto (comunidade do curso, tarefa usar-recursos-do-curso)."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 378,
+      "trecho_fonte": "porque eu estava preparada",
+      "descricao": "Na leitura do exemplo, o professor liga a moral à história: 'Isso aconteceu porque eu estava preparada', e por isso a moral é 'antes de querer ter, se prepare para ser'. A unidade 6 traz a moral, mas não diz que o sucesso é atribuído à preparação da criadora. O vídeo diz o mesmo em 'Mas só foi mesmo sorte porque eu tava preparada'.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta vê a moral sem ver como a história a sustenta. Perde o exemplo de como a história 'dá base' à moral (unidade 7). Entende-se a estrutura sem isso."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: usa 'figurante' e 'CDF' sem explicar. O corpo só descreve o comportamento de cada um (inventa desculpa / age rápido e melhora). O vocabulário do FORMATO tem definições da fonte: CDF como os professores chamam os alunos; figurante como o oposto, quem faz 'só volume no sonho dos outros'. Ajuste menor: sem a explicação, um agente que consulta a unidade isolada não sabe quem são os termos.",
+    "Unidade 8: o corpo depende do 'exemplo' e do 'vídeo de exemplo' (unidade 6), e cita 'Pedro Sobral' sem contexto. Isolada, não diz de que vídeo se trata. Além disso, `tipo: estrutura` para a leitura de um caso é discutível, porque a lista é a AIDA aplicada ao exemplo e não um molde novo, e a AIDA aparece com 3 itens ('Desejo e ação' fundidos) por causa do trecho degradado. `inserir-gatilhos-de-atencao` como tarefa é frágil. Classificação discutível, ajuste menor.",
+    "Unidade 9: a tarefa `escolher-formato` (decidir qual formato usar para um perfil, nicho ou objetivo) pode levar ao lugar errado, porque a unidade fala de estrutura de roteiro aplicável a qualquer nicho, não de escolher formato. Ajuste menor.",
+    "Unidade 10: `condicoes` traz uma ressalva de atribuição ('é afirmação do professor... a aula não traz dados'), não uma condição, exceção ou perfil. O corpo já atribui ao professor ('Segundo o professor'). Ajuste menor.",
+    "Unidade 11: 'Ele critica vídeos sem padrão...' tem sujeito ambíguo depois de 'o I.H.C. conecta...'. No material, quem critica é 'o material'. Pode ser lido como se a estrutura I.H.C. criticasse. Ajuste menor: reescrever com 'O material critica'."
+  ],
+  "material": [
+    "Não achei contradição entre fala e material nas partes cobertas. Estrutura (identificação, história, conteúdo), exemplo do Pedro Sobral, moral e exercício conferem com a aula.",
+    "Divergência leve, não registrada em nenhuma `nota`: o material define Identificação como 'abra com algo familiar, que o espectador reconheça ou já tenha vivido', enquanto na fala o professor distingue identificação (é familiar e além disso é sobre mim) de familiaridade. As unidades 3 e 4 seguem a fala. Sem efeito na decisão de quem consulta, e não considero desvio. Uma frase em `nota` da unidade 4 registraria as duas formulações.",
+    "Unidade 6 (`fala+material`): o material contribui apenas com o título do vídeo, citado só na `nota`. Compatível com a aula, sem divergência. A 'Rana' da transcrição não aparece no material, e a nota já trata isso."
+  ],
+  "resumo": "Todas as 12 unidades estão lastreadas na fonte, sem número alterado, condição perdida nem conteúdo sem base. Os números do exemplo do Pedro Sobral estão como relato da criadora, num `exemplo` perecível. Os pontos são menores: faixa curta na unidade 1, leve inferência na unidade 8, resultado sem atribuição própria na unidade 9, imperativo na unidade 7, jargão sem explicação na unidade 2 e uma omissão menor (a moral ligada à preparação da criadora). Não achei omissão material, perecível sem marca nem divergência fala × material que altere a decisão."
+}

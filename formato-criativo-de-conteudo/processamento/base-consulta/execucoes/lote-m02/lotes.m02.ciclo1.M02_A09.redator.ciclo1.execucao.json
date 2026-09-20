@@ -1,0 +1,47 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T04:39:32+00:00",
+  "fim": "2026-09-20T04:40:53+00:00",
+  "duracao_ms": 80627,
+  "duracao_api_ms": 78824,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 7291,
+    "cache_creation_input_tokens": 24488,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 4438,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.427165,
+  "sistema_sha256": "d419e183388c0e4d151969dd5dbbb06b20eb6d7cdc033bc92724547a315775aa",
+  "pacote_sha256": "b9da1d71d211a4a1f6b7fe88a3c79c63c1dd224343597146592589526fab3fef",
+  "aula": "M02_A09",
+  "rotulo": "lote-m02-ciclo1",
+  "ciclo": 1,
+  "arquivo_anterior_sha256": "0857d26f012d6f16906b344e91ff2e7a3f1281b1ee3a21e68a03defccb32188b",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1/M02_A09.json",
+  "resultado_sha256": "4b2e2ba520c410ff3177eb33f1ba0c9ea7804c21362b720a9115e0715d60d789",
+  "unidades_alteradas": [
+    9,
+    13
+  ],
+  "validador": {
+    "erros": [
+      "M02_A09: U009: evidência não literal na transcrição"
+    ],
+    "avisos": []
+  }
+}

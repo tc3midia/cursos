@@ -1,0 +1,47 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T05:17:09+00:00",
+  "fim": "2026-09-20T05:18:08+00:00",
+  "duracao_ms": 58773,
+  "duracao_api_ms": 58736,
+  "consumo": {
+    "input_tokens": 4,
+    "output_tokens": 6811,
+    "cache_creation_input_tokens": 9967,
+    "cache_read_input_tokens": 37475
+  },
+  "thinking_tokens": 0,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.115481,
+  "sistema_sha256": "0598350e417ecdd47fba6beac707760762ea2452b326ca477cbdb23d2406352e",
+  "pacote_sha256": "77fa0786c4a995c8293a6255091e99441e068e8939770a1fcb18febbef7bbfa9",
+  "aula": "M04_A03",
+  "rotulo": "lote-m04",
+  "palavras_fonte": 1667,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m04/M04_A03.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "4e0853306180f02fc817df53cd16de0796c6e1de21399af96ad1b4d3c7ca7f1f",
+  "unidades": 10,
+  "validador": {
+    "erros": [
+      "M04_A03: U006: régua sem número",
+      "M04_A03: U010: evidência fora da faixa"
+    ],
+    "avisos": []
+  }
+}

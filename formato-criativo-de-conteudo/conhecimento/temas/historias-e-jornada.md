@@ -1,0 +1,73 @@
+# historias-e-jornada
+
+Uso de histórias do passado e da jornada documentada para conexão e autoridade.
+
+44 unidades. Índice sem síntese nova; cada link abre a aula com a faixa e a fonte.
+
+## conceito
+
+- [M05_A02: História de criação: levantar os pontos de inflexão da sua trajetória](../unidades/M05_A02.md#u-a767ba6d5390ebcf-004) · `U:a767ba6d5390ebcf:004` · conceito
+- [M05_A05: Sacar dinheiro do passado: usar as próprias histórias para gerar conexão](../unidades/M05_A05.md#u-48c1b2f483b79166-001) · `U:48c1b2f483b79166:001` · conceito
+- [M05_A05: Dois caminhos das histórias: conexão e autoridade, que podem se misturar](../unidades/M05_A05.md#u-48c1b2f483b79166-002) · `U:48c1b2f483b79166:002` · conceito
+- [M05_A05: Conflitos universais: o que são e por que servem à conexão](../unidades/M05_A05.md#u-48c1b2f483b79166-003) · `U:48c1b2f483b79166:003` · conceito
+- [M05_A06: Efeito jornada: o público vive a história enquanto ela acontece](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-001) · `U:fedfdd3bba4a1c82:001` · conceito
+- [M05_A06: Grandes sonhos: abrir o sonho não é o mesmo que compromisso público](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-016) · `U:fedfdd3bba4a1c82:016` · conceito
+- [M06_A06: Deixar a audiência viver a história: conflito e mudança](../unidades/M06_A06.md#u-665837807ef5dd80-013) · `U:665837807ef5dd80:013` · conceito
+
+## regra
+
+- [M05_A02: Usar as histórias: vídeo dedicado ou inseridas no meio de outros vídeos](../unidades/M05_A02.md#u-a767ba6d5390ebcf-006) · `U:a767ba6d5390ebcf:006` · regra
+- [M05_A02: História triste: terminar o vídeo com mensagem positiva](../unidades/M05_A02.md#u-a767ba6d5390ebcf-007) · `U:a767ba6d5390ebcf:007` · regra
+- [M05_A05: Use o tema universal da história: vídeo inteiro ou citação dentro do formato](../unidades/M05_A05.md#u-48c1b2f483b79166-006) · `U:48c1b2f483b79166:006` · regra
+- [M05_A05: Autoridade: não tente parecer; use histórias de trajetória real](../unidades/M05_A05.md#u-48c1b2f483b79166-009) · `U:48c1b2f483b79166:009` · regra
+- [M05_A06: Não apareça só no topo: conte as piores histórias e mostre o processo](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-003) · `U:fedfdd3bba4a1c82:003` · regra
+- [M05_A06: Documentar o processo: o que mostrar da vida como ela está](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-005) · `U:fedfdd3bba4a1c82:005` · regra
+- [M05_A06: Termine sem tom de vítima: o problema é questão de tempo](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-006) · `U:fedfdd3bba4a1c82:006` · regra
+- [M05_A06: Sem coragem de postar? Não poste, mas grave a sua situação atual](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-008) · `U:fedfdd3bba4a1c82:008` · regra
+- [M05_A06: Abrir algo que demora a ficar pronto e mostrar as etapas](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-009) · `U:fedfdd3bba4a1c82:009` · regra
+- [M05_A06: Metas públicas: anunciar um resultado e mostrar a série avançando](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-011) · `U:fedfdd3bba4a1c82:011` · regra · perecível
+- [M05_A06: Tarefa da aula: extrair as próprias histórias e aplicar o efeito jornada](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-020) · `U:fedfdd3bba4a1c82:020` · regra
+- [M06_A06: História: para o professor, o elemento mais importante](../unidades/M06_A06.md#u-665837807ef5dd80-012) · `U:665837807ef5dd80:012` · regra
+- [M06_A06: Viver histórias com a audiência aproxima como amigos e família](../unidades/M06_A06.md#u-665837807ef5dd80-015) · `U:665837807ef5dd80:015` · regra
+
+## regua
+
+- [M05_A06: Desafio de postar todos os dias: o número certo não passa de 32](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-014) · `U:fedfdd3bba4a1c82:014` · regua · perecível
+
+## procedimento
+
+- [M05_A05: Exercício: listar histórias no documento e levar ideias ao Trello](../unidades/M05_A05.md#u-48c1b2f483b79166-013) · `U:48c1b2f483b79166:013` · procedimento · perecível
+
+## estrutura
+
+- [M05_A05: Cinco perguntas para extrair histórias de conexão](../unidades/M05_A05.md#u-48c1b2f483b79166-004) · `U:48c1b2f483b79166:004` · estrutura
+- [M05_A06: Quatro formas de aplicar o efeito jornada (resumo do material)](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-021) · `U:fedfdd3bba4a1c82:021` · estrutura
+
+## decisao
+
+- [M05_A06: Se temer perder autoridade ao mostrar um problema, termine o vídeo up](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-004) · `U:fedfdd3bba4a1c82:004` · decisao
+
+## exemplo
+
+- [M05_A02: Exemplo: história de criação da professora](../unidades/M05_A02.md#u-a767ba6d5390ebcf-005) · `U:a767ba6d5390ebcf:005` · exemplo · perecível
+- [M05_A05: Respostas da professora às perguntas de conexão: açaí, festa, cliente, bullying](../unidades/M05_A05.md#u-48c1b2f483b79166-005) · `U:48c1b2f483b79166:005` · exemplo · perecível
+- [M05_A05: Exemplo: ser expulsa de casa encaixado no meio de um vídeo](../unidades/M05_A05.md#u-48c1b2f483b79166-007) · `U:48c1b2f483b79166:007` · exemplo · perecível
+- [M05_A05: Exemplo: crescimento e desafio gratuito como história que prova o produto](../unidades/M05_A05.md#u-48c1b2f483b79166-008) · `U:48c1b2f483b79166:008` · exemplo · perecível
+- [M05_A05: Exemplo: da timidez com a câmera ao palco principal como história de autoridade](../unidades/M05_A05.md#u-48c1b2f483b79166-010) · `U:48c1b2f483b79166:010` · exemplo · perecível
+- [M05_A05: Exemplo: contar com quem já trabalhou para gerar autoridade](../unidades/M05_A05.md#u-48c1b2f483b79166-011) · `U:48c1b2f483b79166:011` · exemplo · perecível
+- [M05_A05: Exemplo: história que quebra a objeção de falta de equipamento](../unidades/M05_A05.md#u-48c1b2f483b79166-012) · `U:48c1b2f483b79166:012` · exemplo · perecível
+- [M05_A06: Exemplo: Rodrigo Pantera mostra a casa simples e o público vibra](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-002) · `U:fedfdd3bba4a1c82:002` · exemplo · perecível
+- [M05_A06: Exemplo: compartilhar o medo de live e palestra fez o público vibrar](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-007) · `U:fedfdd3bba4a1c82:007` · exemplo · perecível
+- [M05_A06: Exemplo: compramos uma casa abandonada gera jornada longa](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-010) · `U:fedfdd3bba4a1c82:010` · exemplo · perecível
+- [M05_A06: Exemplo: metas públicas da professora: 1 milhão de seguidores e 100 alunos](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-012) · `U:fedfdd3bba4a1c82:012` · exemplo · perecível
+- [M05_A06: Exemplo: desafio de 69 dias cumprido gerou autoridade](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-015) · `U:fedfdd3bba4a1c82:015` · exemplo · perecível
+- [M05_A06: Exemplo: seis anos falando do sonho de ir ao podcast dos sócios](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-017) · `U:fedfdd3bba4a1c82:017` · exemplo · perecível
+- [M05_A06: Exemplo: criadora fala do carro dos sonhos antes de tê-lo](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-018) · `U:fedfdd3bba4a1c82:018` · exemplo · perecível
+- [M05_A06: Exemplo: sonhos falados em público (varanda, Holanda, maratona)](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-019) · `U:fedfdd3bba4a1c82:019` · exemplo · perecível
+- [M06_A06: Boxe hipotético e casamento aguardado: história vivida com a audiência](../unidades/M06_A06.md#u-665837807ef5dd80-014) · `U:665837807ef5dd80:014` · exemplo · perecível
+
+## limite
+
+- [M05_A03: Efeito jornada fica para uma aula específica](../unidades/M05_A03.md#u-cc525a593b25465f-010) · `U:cc525a593b25465f:010` · limite · perecível
+- [M05_A05: Vídeos de exemplo: a transcrição não captura a imagem nem os links](../unidades/M05_A05.md#u-48c1b2f483b79166-014) · `U:48c1b2f483b79166:014` · limite · perecível
+- [M05_A06: Links de exemplos no Instagram não vieram no material](../unidades/M05_A06.md#u-fedfdd3bba4a1c82-022) · `U:fedfdd3bba4a1c82:022` · limite · perecível

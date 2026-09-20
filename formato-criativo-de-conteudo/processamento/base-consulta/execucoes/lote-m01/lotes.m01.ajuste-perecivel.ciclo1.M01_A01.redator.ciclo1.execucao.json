@@ -1,0 +1,46 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T02:37:59+00:00",
+  "fim": "2026-09-20T02:38:46+00:00",
+  "duracao_ms": 46425,
+  "duracao_api_ms": 45343,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 4429,
+    "cache_creation_input_tokens": 25809,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 1499,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.36882499999999996,
+  "sistema_sha256": "d419e183388c0e4d151969dd5dbbb06b20eb6d7cdc033bc92724547a315775aa",
+  "pacote_sha256": "af17520a8b5dcde25f742ae7514782310ed156b8957557cfd919af303adffe0d",
+  "aula": "M01_A01",
+  "rotulo": "lote-m01-ajuste-ciclo1",
+  "ciclo": 1,
+  "arquivo_anterior_sha256": "f11cd369cc47e82989dcb814ed14a39d773b1af07d630fdad98466173889cf14",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m01/ajuste-perecivel/ciclo1/M01_A01.json",
+  "resultado_sha256": "2af557a608553a92b35dfa79fcf642d261034efab5bb7fceb0e93c98255210da",
+  "unidades_alteradas": [
+    2,
+    3,
+    8
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

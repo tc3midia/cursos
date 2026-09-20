@@ -1,0 +1,37 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T02:35:15+00:00",
+  "fim": "2026-09-20T02:37:49+00:00",
+  "duracao_ms": 152680,
+  "duracao_api_ms": 152656,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 13538,
+    "cache_creation_input_tokens": 23127,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 8047,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 1.1394600000000001,
+  "sistema_sha256": "6fbcd305a280b2b74da5c138ff02513c5ea8520fda321689da3adaa38f2a89f2",
+  "pacote_sha256": "1885f5b7fa698abfef9514eb9b236b0b72f2891f529e3b54d85fe6ebc92e2367",
+  "aula": "M01_A01",
+  "rotulo": "lote-m01-ajuste",
+  "arquivo_sha256": "f11cd369cc47e82989dcb814ed14a39d773b1af07d630fdad98466173889cf14",
+  "inspecao_sha256": "a98dcd003f14c7da7880223a3c710d0d28e7a00c2c858e6d1fe40be5d75d42dd",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m01/ajuste-perecivel/M01_A01.julgamento.json",
+  "resultado_sha256": "8d44d85104e323c5c6889ede061bc9a19b16e1bba931c9152082f9c14e1f16f8"
+}

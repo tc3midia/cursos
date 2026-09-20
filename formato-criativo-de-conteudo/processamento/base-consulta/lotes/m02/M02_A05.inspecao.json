@@ -1,0 +1,229 @@
+{
+  "aula": "M02_A05",
+  "arquivo_sha256": "38106664ca48ec1777b98c4f6c51c7a74e1e4d71fe61ee69df192b49ed4e0661",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "hashes_unidades": {
+    "1": "516cfe61bdf69eee9a4e2198937b55145125cd444ded6067b0970bfc686f01d3",
+    "2": "b085835f65d549fb82afefc6516f1d39e119db9084902de8c5c5a59c9b82c05e",
+    "3": "1ecf2ab7824e02aed32b33804a2bdcd8fe43cc0c5d4b7a1765d6606ffc19d7ff",
+    "4": "007dfcfd9115abb80a909cbf47849054ce1298588e92c7ad48f7d05d5230a74a",
+    "5": "7f6bd30a9ab8dd9d24622fbdc10334c45c3717d8e27d564d934be6ec80a82d2e",
+    "6": "53f4f162630266978f5c95c35726b5a9999d0d27ebbf72389ee42eae99b7cfb8",
+    "7": "61caf860df46712ec0b1253297fe079b0ee9230491a580498d88b5a69c627c40",
+    "8": "c3209ac428f2684a8da4b8068b2ab0168e386196545abb25f75c08121fb712f6",
+    "9": "4049df15687ceefb1a15828f360da7d38446d5684ea76a0bdb00ac8c8463b41a",
+    "10": "bf7581afcf6a1c271476caedb95ce21ca831cbdefed5759d98667281c2c6b125",
+    "11": "5c6c08c56a7379eee0399852e0f524706e32703f75c14203b7793ff034b650f3",
+    "12": "ed34b0b1f9d7cdf2b47971e5e182250f815ffa5d478ef91b38227335abb52f67",
+    "13": "452e23908b18780287bd6ed6797ed74513b1362e0afd935727cbec885274a0b8",
+    "14": "5b053a1f0d559669083539b7d5217372641df04ecb45e9103d985db2c2112667",
+    "15": "43085cb5a8856cce455f4a4fd6146ce39942eefd43e749249342ff82512333d9",
+    "16": "39fdef51f26b9cb724db8f27b619ff7470c4c51a70880bae2a43d8d296782882",
+    "17": "a208c3401fedad468e497315d91c80cb7235c4b201ae6ca954a8cde71779ddf3",
+    "18": "676a45f6dc89509fc3d05badbebf48bb2b16629ad30051ac60632b0fa516803a",
+    "19": "99e634d246dbcaa8723873e7b250227945490d8171dc981c653b2a94e21dd570"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas tirando os formatos meus, ele tá no meu top 3, tá?",
+      "explicacao": "A definição (apresentação de slide para fazer o conteúdo) está na fonte e dentro de 28–37 s. A segunda frase do corpo, que diz que o formato está no top 3 do professor com exceção dos formatos dele, está em 22–26 s, fora da faixa. Quem for conferir a faixa não acha essa frase. É uma preferência pessoal sem efeito na execução, e o corpo a atribui ao professor, então o dano é pequeno. Sugestão: ampliar `inicio` para cerca de 20 s ou cortar a frase."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você pode mostrar ele em um notebook, você pode mostrar ele em uma TV, você vai passando com o celular, com o controle, você pode também usar um quadro ou um flipchart que também vai funcionar como palestrinha.",
+      "explicacao": "Suportes, celular/controle e quadro/flipchart batem com a fala e estão dentro da faixa. O tablet do material não aparece aqui, mas a U19 registra essa diferença em `nota`."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "tipo, vou convencer meu marido a mudar de cidade, aí faz uma palestrinha",
+      "explicacao": "Provar, convencer, explicar e usar o slide como suporte da fala natural estão na fonte. Os dois exemplos (treta do BBB e mudar de cidade) estão corretos e em 56–105 s. O corpo não os transforma em regra geral."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "de forma visual, e o ritmo, geralmente ele tem um certo exagero, um tomzinho mais cômico",
+      "explicacao": "O slide apoia a fala e o ritmo costuma ter exagero e tom cômico. A ressalva de que há quem faça sem isso está na fonte (\"tem pessoas que fazem esse formato que não tem\") e a unit a preserva com `confianca` media e `nota`. Sem desvio."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ele tá analisado, frase a frase",
+      "explicacao": "Botão no Trello, roteiros e referências, cópia do prompt junto com o roteiro escolhido, análise frase a frase e o \"exercício muito bom\" estão na fala. A assunção de que \"nossa IA\" é a SOFIA está declarada em `nota`. \"Cada roteiro\" generaliza um pouco o \"esse roteiro\" da fala, sem efeito prático. A última frase (\"exercício muito bom pra você fazer\") termina em ~165,7 s, um pouco depois do `fim` 164, sem consequência."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "roteiro sempre muito simples, ele demora, eu sei, pouquíssimos minutos pra fazer esse roteiro",
+      "explicacao": "O caso está fiel: criador 100% palestrinha, humor e cultura pop, migração para temas profundos, outro perfil, estética nova, mesmo formato, e likes tratados como número de caso. Duas imprecisões pequenas. (1) \"o de humor tem 808 mil likes\" pode ser lido como total do perfil; na fonte o número aparece logo depois do título do vídeo \"palavrões que só nordestinos entendem\", ou seja, é de um vídeo. (2) \"pouquíssimos minutos\" é dito na fonte sobre os roteiros simples da fase de humor, e a unit o estende a \"os roteiros do criador\", inclusive o vídeo longo sobre política. Nenhuma das duas vira régua nem muda a decisão. Vale registrar como ajuste menor."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você é alguém que a sua profissão te pede um pouco mais de seriedade",
+      "explicacao": "Advogado, médico e profissional da saúde, palestrinha mais profunda com assuntos mais intensos, \"sem desculpa\" e \"dá pra todo mundo\": tudo está na fala, dentro da faixa. O corpo remete ao \"criador acima\" (problema de autossuficiência, registrado em `contrato`). O lado do humor e do design simples na mesma passagem não foi preservado (ver omissões)."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E no final ela vai vender um produto físico",
+      "explicacao": "Vídeo de relacionamento que termina vendendo produto físico, funciona em qualquer nicho, e os três pontos (conflito de relacionamento, slide bem feito com imagens, interseção com o produto) estão na fonte. Fome, dor nas costas e moletom vêm do vídeo mostrado. O produto \"moletom\" é inferência razoável do vídeo (\"vai comprar um moletom para ela\"), embora o professor só diga \"produto físico\". A nota sobre o trecho degradado entre 8:02 e 8:32 é correta."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e tem um bonequinho lá corcunda e tal, então o slide",
+      "explicacao": "O limite é legítimo: o professor só diz que o slide é bem feito, com imagenzinhas, e cita um bonequinho corcunda, sem descrever o design. A frase \"a transcrição não traz ... os bonequinhos\" é correta quanto ao design, mas o professor menciona um bonequinho de passagem. Sem efeito prático."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "daqui naturalmente já gerou uma ideia na sua cabeça, você não precisa da nossa inteligência",
+      "explicacao": "Se a ideia veio, escrever sem IA; se não veio, usar a IA. Fiel à fala e dentro da faixa. A assunção de que \"nossa inteligência artificial\" é a SOFIA não está em `nota` aqui, ao contrário da U5 (ver `contrato`)."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, a cada 10 segundos, a pessoa, ah, eu conheço isso, ah, eu conheço aquilo",
+      "explicacao": "Vídeo de Dom Casmurro para a geração Z, personagens traduzidos por figuras e situações conhecidas, e o público reconhecendo algo \"a cada 10 segundos\": tudo confere e está em 566–780 s. O número está atribuído ao professor e não virou régua. \"Vovô criador de conteúdo\" é dito com incerteza pelo professor (\"se eu não me engano\"), e o corpo o afirma sem ressalva, sem efeito relevante."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essencialmente, aqui, a ideia é associar aquilo que você quer falar",
+      "explicacao": "Associar o assunto a algo que o público conhece, com relevância emocional, e a chance \"muito alta\" (atribuída ao professor) conferem. \"Vale para qualquer formato\" está em 13:38–13:52; o final da frase passa uns 2 s do `fim` 830, sem efeito. A \"chance muito alta\" foi dita sobre o caso do Dom Casmurro, mas o professor logo generaliza o princípio."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então tem a ideia de curiosidade, que é a promessa, e efeito errar é a entrega.",
+      "explicacao": "Promessa no início, curiosidade e entrega depois estão na fala. A truncagem (\"efeito errar é a entrega\") está reconhecida em `nota` e `confianca` baixa. O corpo se limita ao que a fonte sustenta."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas é perfeito. Por quê? Porque é natural pra todo mundo.",
+      "explicacao": "O corpo descreve a linguagem da criadora (sensação de videochamada, amiga, não parece vídeo de rede social) e atribui o \"perfeito porque é natural\" ao professor. É fiel e não vira lei. O problema é de classificação: o título e o tipo `regra` soam como prescrição, e o corpo é uma observação (ver `contrato`)."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e como que eu posso mesclar formatos 2 em 1, 3 em 1 com o tempo.",
+      "explicacao": "Palestrinha principal com dinamismo, sem verdade absoluta de formatos, mesclar 2 em 1 ou 3 em 1 com o tempo e \"começa com um só\": tudo confere. A condição de que a mistura é evolução, e não ponto de partida, está preservada."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então fica muito claro a diferença quando existe contraste",
+      "explicacao": "Contraste princeso × príncipe, frases familiares que conectam, clareza da diferença e engajamento atribuído ao professor estão na fonte, dentro da faixa."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pensar muito bem no tema que você vai usar para chamar a atenção, tem que ser um tema que as pessoas se interessem",
+      "explicacao": "Tema de interesse e slides que ajudem a visualizar estão em 1093–1108 s. O parêntese \"a criadora usa relacionamento\" vem de 18:05–18:09, poucos segundos antes do `inicio`. É complemento, não conteúdo central, e não afeta o uso."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "acho que só uma coisa importante é as letras serem bem grandes para a pessoa que está vendo conseguir enxergar muito bem.",
+      "explicacao": "Slide sem regra fixa, letras bem grandes como único ponto importante, e acabamento (\"qualquer jeito\" ou \"super bem trabalhado\") por conta do criador. Fiel, atribuído ao professor e com a condição preservada."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O quadro deve ajudar o público a acompanhar o raciocínio, em vez de apenas decorar a cena.",
+      "explicacao": "O material confere: apoio visual (slide, quadro, notebook, tablet, TV), recurso persuasivo central e função de ajudar a acompanhar o raciocínio. A divergência tablet × flipchart/controle está registrada em `nota`. O corpo troca \"O quadro\" por \"O apoio\"; a leitura é razoável, mas o material não esclarece se \"quadro\" é um dos suportes ou o termo geral (ver `material`)."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 360,
+      "trecho_fonte": "Tem como, tem como você ir pro design simples.",
+      "descricao": "Na mesma passagem da U7, o professor diz que quem é do humor ou quer algo mais orgânico pode ir para o design simples. A U7 preserva só o lado de quem precisa de seriedade e assuntos mais profundos. A outra metade da orientação (humor/orgânico → design simples) não está em nenhuma unidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "Ao recomendar a palestrinha a um perfil de humor ou informal, o agente não sabe que o professor considera viável o design simples. A U18 cobre parte disso (slide sem regra fixa), então a falta não impede a decisão."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U7: o corpo diz \"o exemplo do criador acima\", uma referência a outra unidade ou à aula. Sem a aula, o leitor não sabe a que criador se refere. Trocar por uma descrição autocontida (criador de humor que migrou para temas profundos). Menor.",
+    "U14: o título \"falar em tom natural de conversa\" e o tipo `regra` sugerem uma prescrição do formato. O corpo é uma observação sobre a linguagem de uma criadora não identificada (\"da criadora\") e uma preferência do professor. Nenhuma unidade descreve o vídeo do princeso, então quem consulta não sabe de qual criadora se trata. Classificação discutível entre `regra` e observação/exemplo. Menor.",
+    "U15: \"No vídeo do princeso\" usa um apelido de vídeo que só faz sentido com a aula (a U13 o explica, a U15 não). O núcleo (palestrinha + dinamismo, começar com um formato só) se entende sozinho. Menor.",
+    "U13: tipo `regra` e título genérico (\"promessa no início e entrega depois gera curiosidade\"), mas o corpo é a observação de um vídeo específico, atribuída ao professor. Discutível entre `regra` e `exemplo`. Menor.",
+    "U10: `plataformas` sofia por assunção (a fala diz só \"nossa inteligência artificial\"), mas sem a `nota` que a U5 traz sobre a mesma assunção. Menor."
+  ],
+  "material": [
+    "Fala e material não se contradizem. O material lista slide, quadro, notebook, tablet e TV; a fala lista notebook, TV (celular/controle), quadro e flipchart. A U19 registra as duas versões em `nota` e a U2 traz só a lista da fala, o que é aceitável porque o material entra como unidade própria.",
+    "U19: o material diz \"O quadro deve ajudar o público a acompanhar o raciocínio\". Como \"quadro\" também aparece na lista de suportes, pode ser um suporte específico ou o termo geral. O corpo escolhe em silêncio a leitura \"o apoio\". Vale uma frase na `nota`. Menor."
+  ],
+  "resumo": "Conferi as 19 unidades contra a fonte e percorri a transcrição e o material inteiros em busca de omissões. Não há sem-lastro nem desvio material. Números, atribuições ao professor e ressalvas estão preservados, e os números de caso da U6 não viraram régua. Achados menores: a U1 tem uma frase fora da faixa (top 3, aos 22–26 s), a U6 tem duas imprecisões de redação, há uma omissão menor (design simples para perfil de humor) e algumas unidades dependem de referências da aula ou têm tipo discutível. Perecibilidade está correta em todas as unidades, e a divergência entre fala e material está registrada na U19."
+}

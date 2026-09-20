@@ -1,0 +1,118 @@
+{
+  "aula": "M01_A04",
+  "arquivo_sha256": "4ef6d33ec36225457cd7c59a900be388689724b86a9d3c084e3197b2bde6d17b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "b5d39c9d62d313506a6198089c626c3041806b9bcbbddc1030712e321491b386",
+    "2": "dadbc0a08e5328c3a74bb5de7474a289e3e19047bbadd5fa8b58bc9267c69615",
+    "3": "1c9232551cad51c3ee439cdd6f5940dc41f524c4fca2ee3584590fdd8db590cc",
+    "4": "7e3ea2fe4469aeeecd53fa75466a55be47226bcab4ed7eb2a3b5c9787e85e670",
+    "5": "0e80e697d2f7413b0eacd5229b90cebe77795126b96ac1f8e0ff46335db08421",
+    "6": "6889665dedf26b964bf22a89e0f08895c44ac2616af07d1a308d7f92e7fcfeaa",
+    "7": "0169c077264e0b8d7c4f67ed0b9cb8bc63677dfc345db25ee36586cb638d8b46",
+    "8": "86c685f81d2bcb5cd39eac0c7fb540de72e8f46545d3096a63251ba38a567edb",
+    "9": "15d9c0cdec3606f3077b8fed9fe276f8a67d9fdd12cc14b96b1950259df86f7c"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "caraca, na verdade, esse momento que eu estou passando é só uma fase",
+      "explicacao": "Definição, relato do livro e contexto de dívida conferem com 00:00:30–00:01:12. O material sustenta a última frase ('evidência para aprender e ajustar, em vez de motivo para parar'). A fala diz 'depressão' e o corpo diz 'dívida e desânimo', uma suavização sem efeito no uso. A faixa 30–72,52 cobre o conteúdo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "isso aqui é só uma derrota provisória, eu tenho que aprender",
+      "explicacao": "A faixa 354,78–372,62 cobre 'certeza absoluta que um vídeo vai viralizar e ele flopar', 'derrota provisória', 'eu tenho que aprender' e 'testar no próximo conteúdo'. A condição 'certeza de que viralizaria / pior resultado' está preservada em `condicoes`. O corpo suaviza para 'apostava alto', mas `condicoes` guarda o sentido. 'Em vez de se travar' vem de 00:06:58–00:07:01, fora desta faixa mas dentro da unidade 3, e não muda a orientação."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ai, eu sou burro hoje, por isso serei burro até morrer.",
+      "explicacao": "Os dois polos (viralizou ⇒ sempre vai viralizar; sou burro ⇒ serei sempre) e a mentalidade de crescimento conferem. O trecho final ('não deixa isso acabar com você e te travar', 'existe jornada pela frente') está dentro da faixa 374,46–424,68."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas, lembra, são fases, você vai passando de uma fase para outra.",
+      "explicacao": "As quatro fases, a ordem e as descrições conferem com fala e material. A cláusula 'não fica em todas ao mesmo tempo' é inferência do extrator: a fonte só diz que se passa de uma fase para outra. Efeito prático mínimo, mas é um acréscimo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se você seguiu o que a gente tá falando exatamente, principalmente o próximo módulo e for, tipo, testa rápido e melhora no próximo, existem grandes chances de você viralizar o seu primeiro vídeo ainda na primeira fase",
+      "explicacao": "A condição imposta pelo professor para viralizar o primeiro vídeo está em `condicoes`, o resultado está atribuído a ele ('segundo o professor') e há nota. As três vitórias e o acréscimo do material conferem. A faixa 84,6–168,9 cobre o conteúdo. 'Grandes chances' virou 'boa chance', sem efeito no uso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A Hannah, por incrível que pareça, era uma pessoa que odiava a câmera.",
+      "explicacao": "O corpo (Situação/O que aconteceu) confere com 00:02:17–00:02:28. O título afirma que ela perdeu o medo 'na fase 1', e a fonte não diz em que fase isso aconteceu. O caso aparece no meio da vitória 'perder o medo de postar', então a ligação com a fase 1 é ilustração do professor, não data do fato. Ajuste menor no título."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você começa a saber, ó, eu aperto esse botão e dou esse resultado.",
+      "explicacao": "Conteúdo, condição ('já começou a criar, já perdeu o medo da exposição'), vitórias (motivação, acerto em sequência, não por sorte) e a prática descrita no material conferem. Os resultados mais rápidos e claros estão atribuídos ao professor. A faixa 168,9–239,24 é correta."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "As pessoas vão desejar pagar mais caro pelo seu produto.",
+      "explicacao": "Domínio do público e da personalidade, formato próprio, vitórias (conforto, 'estão ali por você', posicionamento, pagar mais caro) e a prática do material conferem. As vitórias estão atribuídas ao professor. A faixa 239,34–289,82 cobre o conteúdo."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vender vai se tornar algo natural",
+      "explicacao": "A definição de conteúdo estratégico, os efeitos (sem medo de vender ou cobrar caro, clientes vêm até você) e o trecho do material conferem. A condição 'produto ou serviço definido' vem do material e está em `condicoes`. A faixa 290,44–336,12 é correta."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 5, `condicoes`: 'principalmente o próximo módulo' é referência relativa que ficou na aula. Quem consulta a unidade sozinho não sabe qual módulo é. Ajuste menor: nomear o módulo ou descrever o que ele ensina, se a fonte permitir.",
+    "Unidade 6: usa 'Hannah', grafia da fala. O material cita 'Hanah' no cabeçalho (`curso: ... Hanah e Alef`), e o FORMATO manda usar a grafia do material quando ele cita o nome. A `nota` registra a divergência e a incerteza, então o efeito é mínimo. Ajuste menor, discutível porque a identidade da pessoa não está confirmada."
+  ],
+  "material": [
+    "Não achei divergência de sentido entre fala e material. O material é coerente com a fala nas quatro fases e as unidades o atribuem como 'segundo o material'.",
+    "Fase 2: o material diz 'ganhar velocidade de produção' e 'resultados acima da média de forma mais consistente'. A fala diz que os resultados acontecem 'com muito mais rapidez, com muito mais clareza'. A unidade 7 preserva só a versão da fala ('velocidade e clareza dos resultados'). Não é contradição, é complemento não registrado. Ajuste menor.",
+    "Nome do professor: 'Aleph' na fala e 'Alef' no material. A unidade 1 registra em `nota`. Está tratado corretamente."
+  ],
+  "resumo": "Conferi as 9 unidades contra fala e material: todas têm lastro, com faixas e evidências dentro do intervalo. Não achei desvio, sem-lastro nem faixa-errada. Números e condições estão preservados, e as afirmações de resultado estão atribuídas ao professor. Percorri a transcrição inteira e o material atrás de omissões e não achei nenhuma que mude a decisão ou a execução, porque o começo e o fim degradados não contam. Restam só ajustes menores: título da unidade 6, inferência na unidade 4, referência ao 'próximo módulo' na unidade 5 e grafia de 'Hannah'/'Hanah'."
+}

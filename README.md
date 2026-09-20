@@ -7,7 +7,7 @@ Repositório central de fontes transcritas, materiais de apoio e conhecimento de
 - [Curso Subido de Tráfego](curso-subido-de-trafego/README.md): 133 aulas, transcrições auditadas, materiais de apoio, base de conhecimento, processamento e voz textual.
 - [Conversão Extrema](conversao-extrema/README.md): seleção atual de 149 aulas em 155 vídeos, com transcrição automática, legendas e manifesto. O áudio ainda não passou por revisão integral.
 - [Lançamento Meteórico](lancamento-meteorico/README.md): 88 vídeos em dez módulos, transcrições e legendas automáticas, materiais de apoio, metadados de origem e manifesto.
-- [Formato Criativo de Conteúdo](formato-criativo-de-conteudo/README.md): 54 aulas em sete módulos, transcrições e legendas automáticas, materiais de apoio, metadados de origem e manifesto.
+- [Formato Criativo de Conteúdo](formato-criativo-de-conteudo/README.md): 54 aulas em sete módulos, transcrições e legendas automáticas, materiais de apoio, metadados de origem e manifesto; base de conhecimento por aula para consulta por agentes, com índices por tema e tarefa e laudos.
 - [Hardcopy Pro](hardcopy-pro/README.md): 138 aulas completas em 19/09/2026, com transcrições e legendas automáticas, metadados e manifesto; áudio ainda sem revisão integral.
 - [MAC 3.0](mac-3/README.md): 15 aulas com transcrição revisada em texto, base de conhecimento por aula, índices por tema e laudos; vídeos na pasta privada do Drive.
 - [Análises Extraordinárias](analises-extraordinarias/README.md): 16 aulas da Águia Spread com transcrição revisada em texto, base de conhecimento por aula, índices por tema e laudos; vídeos na pasta privada do Drive.

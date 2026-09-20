@@ -1,0 +1,140 @@
+{
+  "aula": "M01_A05",
+  "arquivo_sha256": "b1c859f06387f3fbf1c209df8e0b34b008b9e95db3f328d45271093dfd9ca57f",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 4, 7, 9]; as demais mantêm a evidência da inspeção integral do arquivo a02df7ec6f37, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    4,
+    7,
+    9
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "c00e2b0ffc6317015fc55d3fc792e96679f8ae18e2369e7559778e7b25ab1643",
+    "2": "7b8f10fb4c48ce5a5777d56dad46d59a3f508176943faf629662190d6db558d6",
+    "3": "c0aa4482c8eba92fe9e6f536343c3fa87e6ba3376b162a5f47ae69e18afc2de8",
+    "4": "914e74dc7db55e2ae5ad55864551cf639037b59ba77ec310a7885f3fdc7b0257",
+    "5": "37e4c800f3da0c8a822f4cdcdae741b933c61c7ce3cf28c6c7afddc67a07e5aa",
+    "6": "10f3100089c8d5122a40384eb9dcd7d2f1168d58bdea969b21fa15d8897208cd",
+    "7": "b61c24e2541a09cbec64b6a948705a1c4133da91c2aeffc99e4c6c1a1b91eed5",
+    "8": "e71b9a218a9606b0d0ddc2d0d55ab6be0ad10bd2d054915e65f2cfee5d46c54b",
+    "9": "36d3dcac0eb53d861cf9a89638e6d1a298f3dc53ca5cd658733c674e7d0eacc8",
+    "10": "4179469e00685621cfefde64303fde588b3167e177c116852dfb5877dc892713"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "CDF é o criador do futuro, a pessoa que cria a própria realidade.",
+      "explicacao": "O conteúdo está na fonte: 'alcançam o que eles querem' e 'fazendo volume no sonho dos outros' em 20.9–36.2 s, 'volte para o trilho rapidamente' em 48–53 s, e a definição de CDF em 65.28–69.26 s. A faixa termina em 66, então a segunda metade da definição ('a pessoa que cria a própria realidade') fica cerca de 3 s fora dela. A maior parte do corpo está dentro da faixa, por isso não é faixa-errada. Quem consultar a unidade não perde nada. É um problema de fronteira, registrado em `contrato`."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Cara, a gente analisou os maiores do planeta e todos eles repetem.",
+      "explicacao": "Fiel à fala (medo de repetir formatos, 'tudo que tem muito resultado no mundo é repetitivo', 'grandes vantagens') e ao material ('usá-lo várias vezes para aprender e criar reconhecimento'). 'Maiores criadores' é uma leitura razoável de 'maiores do planeta' e não muda o uso. A classificação de tema e tarefa é discutível e está em `contrato`."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ninguém fala de prosperidade, encontra ambientes digitais, entre pra comunidade, você que tá na comunidade,",
+      "explicacao": "F1 resolvida. A unidade agora tem `perecivel: true` e `versao: 2`, e o corpo continua mandando buscar ambientes digitais e a comunidade do curso, como a fonte. O resto do conteúdo segue lastreado: \"maior acelerador\" está na fala como afirmação e \"único atalho\" está atribuído à opinião do professor (\"Eu diria que é o único atalho que existe\"). A faixa 100–174 cobre o trecho e a evidência está dentro dela. Não vi problema novo criado pela alteração. O zero erro do `base_fcc.py` é conferido pelo executor, não por mim."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque se você fizer, vai se transformar em coragem.",
+      "explicacao": "F2 resolvida pela condição (a). O corpo não menciona mais Bruno, cargo, aula de edição nem comunidade, e `perecivel` continua `false`. O sentido do resto não mudou: o figurante deixa de fazer por medo do julgamento; o CDF também sente medo, mas o trata como sinal do que fazer, e agir vira coragem, que é fazer apesar do medo. A informação sobre Bruno foi para a `nota`. A `nota` cita corretamente o trecho degradado (\"Houve isso do Bruno\", em 00:03:08–00:03:12, dentro da faixa 174–210) e registra a incerteza da atribuição. `versao: 2`. Não vi problema novo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Entenda bem, não é acumular erro de propósito",
+      "explicacao": "Fiel: o figurante trava por dúvida e fica parado para não errar; o CDF erra logo para aprender logo, acumula 'erro de tentativa' e 'testa rápido, melhora no próximo'. A palavra 'vídeo' em 'próximo vídeo' é acréscimo interpretativo sem efeito no uso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e testa, tipo, ah, eu tenho três",
+      "explicacao": "'Simplesmente escolhe um, vai lá' e 'testa rápido e melhora no próximo' conferem. O 'três' da unidade vem de um exemplo hipotético da fala ('tipo, ah, eu tenho três aqui'), usado como cenário e não como régua, então não altera nada. A premissa da dúvida ('não sei em qual formato eu começo') começa por volta de 255 s, antes de `inicio` 261. O núcleo da orientação está dentro da faixa e a premissa fica ao lado dela (ver `contrato`)."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Quando qualquer ideia de figurante passar pela sua cabeça",
+      "explicacao": "F3 resolvida nesta unidade. O corpo continua abrindo com `Pré-condição:`, tem 2 passos numerados e 3 linhas. A definição acrescentada (figurante = quem só faz volume no sonho dos outros; CDF = como os professores chamam quem cria a própria realidade e alcança o que quer) bate com a fonte (00:00:20: \"dos CDFs que alcançam o que eles querem, pros figurantes que estão ali só fazendo volume no sonho dos outros\"; 00:01:05: \"CDF é o criador do futuro, a pessoa que cria a própria realidade\") e com o vocabulário do FORMATO. Não há definição nova nem cópia de 25 palavras. Essas definições estão fora da faixa 277–292, mas o FORMATO §3 as autoriza e a `nota` registra isso; por isso não é faixa-errada. Os passos 1 e 2 seguem a fala (\"Você fala, cancelado\"; \"eu vou fazer o contrário do que essa voz idiota tá me mandando fazer\"). Ajuste menor, sem abrir ciclo: o parêntese \"(travar, adiar, ter medo)\" da pré-condição é glosa que a fonte não traz. \"Adiar\" não aparece. \"Ter medo\" destoa da própria aula, que diz que o CDF também tem medo (00:03:03: \"O CDF, ele também tem medo do julgamento\") e que o figurante é quem deixa de fazer por medo. Como o passo 2 manda fazer o contrário, o uso não muda. Sugestão opcional: trocar por \"travar por dúvida, deixar de fazer por medo do julgamento\"."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Pois é, o mais cedo possível que você se identificar como um criador de conteúdo, melhor pra você.",
+      "explicacao": "O núcleo confere: o figurante pensa em conteúdo só ao escrever ou gravar, o CDF tem o olhar ativado o tempo todo e anota ideias. A parte do material (lista de ideias, em vez de ideia 'genial' na hora de gravar) também confere. A frase 'evita depender do repertório só na hora do roteiro' vem de um trecho degradado ('sonoro de escrever… você não tem todo o repertório da sua vida'). O professor coloca isso como preferência ('melhor pra você'), e a unidade a transforma em efeito garantido. Fica com `confianca: alta` e sem nota sobre a passagem incerta. A unidade não perde utilidade."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O CDF, ele tá fazendo o conteúdo o tempo todo.",
+      "explicacao": "F3 resolvida nesta unidade. O corpo define CDF e figurante logo na abertura, com conteúdo igual ao da fonte e ao da U1. Define também \"olhar do criador ativado\" (observar o tempo todo situações do dia a dia e anotar o que pode virar conteúdo), compatível com a fala (\"O CDF, ele tá fazendo o conteúdo o tempo todo\"; \"Deixa eu anotar\") e com a U8. A lista mantém os 5 itens na ordem da fonte, e o fechamento (\"o que eu tô fazendo que é de figurante pra eu passar a me tornar um criador do meu futuro?\") está preservado. O corpo tem 7 linhas, sem cópia bruta e sem definição inventada. As definições vêm de outros trechos da aula, e a `nota` registra isso. `versao: 2`, `confianca: media` com `nota`. Não vi problema novo criado pela alteração."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolha um formato, publique um teste, anote o que funcionou e o que não funcionou e faça uma nova versão.",
+      "explicacao": "Confere com o material: os sete hábitos, o ciclo estudar-visualizar-aplicar-repetir, a prática de aplicação e os testes de exposição proporcionais. A nota está correta: a fala não cobre 'mentalidade fixa × desenvolvível' nem o ciclo. A `evidencia` é literal e existe no material."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U1: a `evidencia` 'CDF é o criador do futuro, a pessoa que cria a própria realidade.' está na fonte em 65.28–69.26 s, mas `fim` é 66. A âncora sai da faixa e provavelmente falha na checagem por script. Correção mecânica: estender o `fim` da U1 até cerca de 69–70 s, ajustando o `inicio` da U2 (69).",
+    "U8: `fim` 399 corta no meio a frase de fechamento 'Logo, tudo da vida é uma ideia de conteúdo pra ele' (397.9–401.86 s). A `evidencia` está dentro da faixa, então é só ajuste de fronteira (`fim` ≈ 402).",
+    "U6: a premissa da decisão ('tem vários formatos aqui, eu não sei em qual formato que eu começo') começa por volta de 255 s, dentro da faixa da U5 (211–261). O `inicio` 261 da U6 deixa a premissa de fora. Ajuste menor de fronteira.",
+    "U2: `tema: elementos-de-repeticao` está pelo nome, mas essa tag na taxonomia é 'frases, gestos e momentos visuais fixos que assinam um formato'. A unidade trata de não ter medo de repetir formatos, que é mentalidade. Um agente que procure como criar elementos de repetição chegaria a uma regra de mentalidade. `mentalidade-e-ambiente` ou `metodo-formato-criativo` seriam mais adequados. A tarefa `lapidar-formato` ('testar em levas… ajustar') também não bate. Classificação discutível, ajuste menor.",
+    "U4 e U7: a tarefa `planejar-conteudo` ('capturar, organizar e sequenciar ideias e lotes de vídeos') não corresponde ao conteúdo. U4 é agir apesar do medo de postar, e U7 é uma técnica de mentalidade. Um agente que consulte a tarefa chegaria à unidade errada. Nenhuma tarefa do enum se encaixa bem. Escolher a mais próxima, por exemplo `lapidar-formato`, ou registrar `proposta_tag`. Também frágil: `lapidar-formato` em U9 e U10.",
+    "Jargão sem explicação dentro da unidade: 'CDF' e 'figurante' só são definidos na U1. As U2 a U9 os usam sem explicar ('O CDF repete', 'comportamento de figurante', 'você é um CDF'). A U9 usa ainda 'olhar do criador ativado' sem definir. O FORMATO pede o jargão explicado na primeira ocorrência dentro de cada unidade. O leitor é um agente que consulta cada unidade isolada. Uma frase de glossário no início de cada unidade resolve. Cabe ao juiz decidir a gravidade.",
+    "Referências que dependem da aula: U1 ('A aula serve como guia de retorno') e U6 ('o critério da aula é testar rápido') falam de 'a aula' sem dizer qual. O leitor consulta sem a aula. Reescrever sem a referência (por exemplo, 'a orientação do professor é…'). Ajuste menor.",
+    "`contexto`, 3ª frase: diz 'seis atitudes na fala (repetição, ambiente, julgamento, dúvida, olhar do criador, checklist final)'. São cinco atitudes; o checklist final não é uma atitude, é o fechamento. Os outros dois hábitos do material (mentalidade e aplicação) ficam de fora, o que o texto já indica. Ajuste menor de redação."
+  ],
+  "material": [
+    "Não encontrei divergência entre fala e material que as unidades tenham resolvido em silêncio. A fala cobre cinco dos sete hábitos do material. Os dois que faltam, mentalidade fixa × desenvolvível e o ciclo estudar-visualizar-aplicar-repetir, estão na nota da U10.",
+    "U4 está marcada `fonte: fala+material`, mas o corpo não usa nada do material. A nuance do material ('testes de exposição proporcionais ao momento') só aparece na U10. A fala manda 'fazer com medo mesmo' e sugere postar em teste ou numa rede nova, o que é compatível com o material. Ajuste menor: `fonte: fala` na U4, ou trazer a nuance do material para o corpo.",
+    "O material se aplica à aula: título, hábitos e a seção 'Aplicação' correspondem ao conteúdo. Não há uso indevido do material."
+  ],
+  "resumo": "As falhas F1 (U3, `perecivel: true`), F2 (U4, atribuição a Bruno retirada do corpo e mantida na `nota`) e F3 (U7 e U9, jargão definido dentro do corpo) foram resolvidas pelos critérios de aceite, sem problema novo de fidelidade nas quatro unidades. Registro um ajuste menor na U7: o parêntese \\\"(travar, adiar, ter medo)\\\" é glosa sem lastro literal e não abre ciclo. Não há omissão nova, perecibilidade pendente, erro de contrato nem divergência fala × material a registrar. O zero erro do `base_fcc.py` fica a cargo do executor, que eu não rodei."
+}

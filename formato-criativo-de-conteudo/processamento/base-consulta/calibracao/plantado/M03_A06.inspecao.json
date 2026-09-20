@@ -1,0 +1,226 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "d4b72d388b63e1c68f275ef5bddcfa2e9ae41cfbc38a260e23076c196f0fb311",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "hashes_unidades": {
+    "1": "39856461772ecfd46c297d1226e186cd1fb6de1efee0832119b238456060af2d",
+    "2": "79e0af9227c6e5f4bc25603d972ffc47a2a94f6350b08219d0cffa9a29c09335",
+    "3": "07b2d62a220f2c6d7f3e4f27efb69a9e079ce5ac83672ac879bc71b0979de2b6",
+    "4": "cc5b4ea1ff3194b7b888dbfec146816cc09a9c55d25db0325c71acf704703491",
+    "5": "877d6da4e549056a4187e88ca5458fb7aae775ebefc0ca2abb12a773f9c8f46d",
+    "6": "babda5f3335db16183d993b99ac2aaaf312032545505aeb3c4b374a2cb62b082",
+    "8": "cb6203b394b45d45e75d990d8cbd1c95d563d07f75b2aea865549dab1d11dab4",
+    "9": "bdb16f45b85d35e320321b0361c005c23892304d28114ef754bc4ef2643c0c5e",
+    "10": "3e85ffdf996e82fbc05fb657d96ea645b95daaf3926db49231632753f07976cc",
+    "11": "ece1f4ac6a2350df9ab3aef60e24d411d96666352ae0da778c5d8f18eb3f7930",
+    "12": "196eff26d760b77a74f4a730761d4557db4c6874988cc5db1fc4cdc559d87728",
+    "13": "6703f7f663297b28d69b739dea1aaee9cbdd2f860672c658d1914c51e01f73af",
+    "14": "264b800be8df105d72a25de9c303ec355eb14b33941a25737c936f3fab8828e8",
+    "15": "fa73df00e427d1653c9398f17e7462f92b71b29e13721a7c5cb73f5e60c81f16",
+    "16": "de4440a21c50d89e30518b7a9bead0c9a580ca43e8ade412053a3ba079b9fda1",
+    "17": "92185350ee7f2b8f98876728dc568c9e2e46b45502a7eb72a3bf9e3b6341fdaf",
+    "18": "3f7cfb5aa92feadd2c2bcef6bf54ef718e586030c64c8997a072e4c5ea5abafd"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O próximo módulo, a Hanna vai trazer pra você",
+      "explicacao": "Autenticidade no módulo seguinte, vendas no encerramento e 'as próximas aulas são dele' estão na fonte, dentro de 32–47 s. A frase 'aula de aprofundamento, depois das aulas-base' vem de 52–63 s ('As aulas daqui pra cima / São as aulas base…'), fora da faixa. 'Nada disso é tratado nesta aula' é inferência do extrator. Não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Formato criativo é o método científico",
+      "explicacao": "Ciclo hipótese, postar, analisar, novas hipóteses e melhorar no próximo, com 'testa rápido', bate com a fonte. A frase final sobre 'e se der errado' responde à pergunta de 70 s por inferência, mas o sentido é o do professor e o material corrobora ('desaconselha abandonar após uma única tentativa')."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Eles não são vídeos de nenhuma trend",
+      "explicacao": "A fonte impõe duas condições para transformar o vídeo em formato: não ser vídeo de trend ('Eles não são vídeos de nenhuma trend') e ser 'um tipo de vídeo que você gostaria de fazer de novo' (2:23–2:27). O material repete: 'que não dependam apenas de uma tendência e que você teria vontade de repetir'. O passo 2 ('Mantenha os que tiveram mais visualizações') não existe na fonte e cria um critério de seleção inventado. Quem consultar a unidade filtra por views e pode transformar vídeo de trend ou que não quer repetir em formato."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Não tem uma regra para isso, mas um jeito bom de você pensar é fazer duas levas de três vídeos.",
+      "explicacao": "A fonte diz duas levas de três vídeos, seis no total. O material confirma: 'Produza seis vídeos… duas levas de três'. A unidade troca por 'três levas de três, nove no total' e 'depois das três levas', no título e no corpo. A própria `condicoes` da unidade diz 'duas levas de três', então ela se contradiz. O número da régua está adulterado: 9 em vez de 6 vídeos."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "cria três vídeos dentro do mesmo formato",
+      "explicacao": "Os passos (Trello, três vídeos, postar, analisar familiaridade, tema e moral da história, hipóteses e mais três vídeos) batem com a fonte 3:07–4:10 e com o material. A explicação do Trello (quadro onde se organiza o conteúdo; primeiro módulo do método) também está na fala."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Será que a linguagem que eu estou usando é uma linguagem familiar",
+      "explicacao": "As sete perguntas, na ordem da fala (tema, conflito, contraste, curiosidade, linguagem familiar, cortes, gravação), estão em 4:18–4:49. A adição do material (descoberta, ritmo, energia, apresentação visual) está separada e explicada na `nota`."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "método EVA, estudar, visualizar",
+      "explicacao": "Estudar (voltar às aulas, pedir análise à equipe se estiver na comunidade), visualizar (lista de formatos virais e referências, o que o criador faz ou não faz) e aplicar estão na fala 5:29–6:35. 'Esclarecer conceitos', 'repetir a cada publicação' e a lista de análise visual e de roteiro vêm do material e estão sinalizados como tal."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a minha média de views é 2 mil views",
+      "explicacao": "Os números (200→2 mil, 2 mil→20 mil, cerca de 10 vezes melhor) e 'não é viral, mas dá sinais' estão na fonte. `condicoes` e `nota` marcam os números como ilustração hipotética, então a unidade não os promove a meta. O último trecho ('melhorar com estudo, visualização e aplicação') passa uns 4 s do `fim`, sem efeito."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu aprendi aqui várias coisas do que não fazer",
+      "explicacao": "A distinção CDF × figurante por mentalidade fixa está na fonte 6:34–6:58 e é atribuída ao professor. A frase 'trate o vídeo fracassado como fonte de hipóteses' é extensão coerente com a aula. 'Figurante' fica sem explicação (ver contrato)."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E foi escrever de uma forma meio arrasa",
+      "explicacao": "Números (400 mil; mais de 1 milhão e 80 mil likes; 160 mil e 8 mil likes; comentário de 6 mil likes), sequência do caso e diagnóstico da abertura, história, linguagem e bolha batem com a fonte. Pontos menores: (a) a fonte diz 'meio arrasa', trecho degradado (provavelmente 'raso'), e a unidade resolve em silêncio como 'meio forçado', palavra usada só no caso da aluna; (b) 'um acerto vira formato só depois de hipóteses' é mais forte que a fala; (c) na Lógica, 'Ele conhecia…' troca a equipe ('a gente') por 'ele'. Nenhum muda a decisão de quem consulta."
+    },
+    {
+      "numero": 12,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "tá, essas são as hipóteses, vou melhorar essas duas",
+      "explicacao": "O professor narra o que fez no caso Sorocaba × Pantera: identificou diferenças e decidiu melhorar 'essas duas coisas' (comunicar-se mais com o público do criador e mudar o início). A unidade transforma isso em regra geral com 'duas ou três hipóteses' e 'refaça o vídeo seguinte só com elas'. O 'duas ou três' e o 'só com elas' não estão na fonte, e o número do caso virou parâmetro. O passo 3 troca 'ao longo do vídeo' por 'ritmo do vídeo todo', e ritmo não é o que a fala lista (história do criador, linguagem familiar, furar a bolha). O passo 2 fixa 'começando pela abertura' como ordem, mas a fala só constata que o começo era diferente. Ver também o conflito com a regra do material de melhorar um mecanismo por vez."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "gerando um conflito com a comunidade dele",
+      "explicacao": "Abertura olhando para cima, conflito com a comunidade e conflito universal, linguagem familiar, história do criador, palavras da comunidade, relevância emocional e pesquisa de bolha estão na fonte 12:21–13:04. `condicoes` e `nota` deixam claro que é relato do professor, não a lista completa do formato Análise."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai sem clareza mesmo, deve estar rápido",
+      "explicacao": "Publicar mesmo sem clareza e melhorar no próximo, ganhar clareza analisando, vendo virais e revendo aulas, e 'provavelmente errou em várias coisas' estão na fonte 15:26–16:11 e são atribuídos ao professor. 'Deve estar rápido' é um trecho ruim de transcrição, mas a leitura 'publique rápido' é coerente com 'testa rápido'."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ela não usou uma linguagem tão familiar",
+      "explicacao": "Números (2 mil views, uns 200 likes; 8 mil likes, quase 2 mil seguidores), diagnóstico (primeiro vídeo emocional, segundo travado, linguagem pouco familiar), correção pedida (conversa de amigo, tema de que ela se importa) e imagens mentais (crossfit) batem com a fonte. A divergência Isabela × Isa Franklin está na `nota`. `condicoes` marca os números como do caso."
+    },
+    {
+      "numero": 16,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "A cada 10 vídeos que eu faço de análise, 9 eu acerto.",
+      "explicacao": "A fonte é resultado do próprio professor no formato Análise ('A gente acerta 98%. 90% a gente acerta', 'A cada 10 vídeos que eu faço de análise, 9 eu acerto', 'porque a gente lapidou'). A unidade generaliza para 'um formato lapidado acerta 9 em cada 10', sem atribuir ao professor nem limitar ao Análise. Os 3, 5 e 7 em 10 são a projeção dele de como a taxa cresce ('Daqui a pouco você posta 10 e 5 dão certo'), não meta. 'Use esses números como meta para avaliar se a lapidação está no ritmo certo' não está na fonte. Número de caso do professor virou régua geral, com `condicoes: null` e sem defini-lo como número do professor. Resultado prometido sem atribuição."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez.",
+      "explicacao": "Um mecanismo por vez, potencial dependente da aplicação dos elementos e do encaixe entre formato e criador, e o alerta contra abandonar após uma tentativa ou publicar sem hipótese estão no material. Ver a seção `material` sobre o conflito com a fala."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolha um formato e faça as duas levas de três vídeos.",
+      "explicacao": "O exercício (duas levas de três, um mecanismo escolhido entre elas, registro no espaço de discussão, conteúdo antigo bem-sucedido como base) bate com o material. A `condicoes` está correta."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 309.26,
+      "trecho_fonte": "Pô, eu troco de formato, vou tentar um diferente",
+      "descricao": "Nenhuma unidade preserva a decisão depois das duas levas. A fala (4:51–5:21, cerca de 291–321 s) manda fazer perguntas diferentes: eu gostei de fazer o formato, acredito nele, acho que pode funcionar, foi fácil ou complexo de fazer. Com esse insumo escolhe-se entre (a) trocar de formato, (b) insistir mais um pouco no mesmo ou (c) aprimorar porque o resultado foi muito melhor que os outros. O material confirma: 'decida se quer continuar refinando o formato ou experimentar outro. Considere tanto o desempenho quanto sua afinidade com ele'. O número 7 está ausente da sequência, e essa decisão é o candidato provável.",
+      "gravidade": "material",
+      "efeito_pratico": "A aula abre com 'Se eu postei o formato e deu errado, o que eu faço?', e a resposta operacional é essa decisão. Sem ela o agente sabe rodar as duas levas, mas não sabe decidir trocar, insistir ou aprimorar, nem que a afinidade do criador com o formato conta."
+    },
+    {
+      "inicio": 626.64,
+      "trecho_fonte": "E a gente comentou um outro erro, que era um erro visual nesse vídeo",
+      "descricao": "Na análise do vídeo do prefeito de Sorocaba, o professor diz que houve também um erro visual e depois só mostra o vídeo. A transcrição não diz qual era. A unidade 11 não menciona que esse erro existiu nem que a fala não o descreve.",
+      "gravidade": "menor",
+      "efeito_pratico": "O leitor pode achar que as únicas causas da queda foram abertura, história, linguagem e bolha. Faltaria um `limite` dizendo que o erro visual ficou só na imagem."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 16,
+      "problema": "Traz números de resultado do próprio professor (9 em 10; 3, 5 e 7 em 10) como referência e está com `perecivel: false`. Número de caso ou resultado de terceiros deve ser perecível pelo FORMATO."
+    },
+    {
+      "numero": 8,
+      "problema": "Manda pedir à equipe uma análise do conteúdo 'se estiver na comunidade do curso' e usar a 'lista de formatos virais', ambos recursos e benefícios do produto do curso que podem mudar, e a unidade está com `perecivel: false`."
+    }
+  ],
+  "contrato": [
+    "U10: 'figurante' aparece sem explicação. Só 'CDF (aluno do curso)' é explicado, então o agente não sabe o que é um figurante sem a aula (ajuste menor).",
+    "U18: 'espaço de discussão' é referência ao ambiente do curso, sem dizer qual é ou onde fica (ajuste menor).",
+    "U9: o tipo `regua` para números que a `nota` diz serem ilustrativos é discutível. `exemplo` ou `decisao` também seria defensável, e o texto preserva a natureza hipotética (ajuste menor).",
+    "U12: o corpo em `procedimento` foi montado a partir do relato do professor sobre o próprio caso (unidade 11), sem que ele tenha ensinado isso como procedimento geral. Ver desvio.",
+    "O número 7 não aparece nas unidades recebidas e o pacote não mostra o campo `retiradas`. Conferir pelo script se 7 está em `retiradas`, e ver a omissão da decisão pós-leva."
+  ],
+  "material": [
+    "Fala e material divergem sobre quantos mecanismos melhorar por vez, e nenhuma unidade registra isso. O material diz 'Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez' (U17). Na fala o professor melhora duas coisas juntas no vídeo seguinte: 'vou melhorar essas duas coisas' (comunicar-se mais com o público do criador e mudar o início), e a U12 diz 'duas ou três hipóteses'. Nenhuma `nota` lista as duas versões nem baixa a `confianca`.",
+    "U4 marca `fonte: fala+material`, mas o corpo ('três levas de três, nove no total') contradiz fala e material, que dizem duas levas de três, seis vídeos. O material é usado como base, mas o número não corresponde a ele.",
+    "U3 usa a seção 'Aproveitar o que já funcionou' do material, mas descarta as duas condições dela ('que não dependam apenas de uma tendência', 'que você teria vontade de repetir') e acrescenta um filtro por visualizações que não existe em nenhuma das fontes.",
+    "O material lista 'Considere tanto o desempenho quanto sua afinidade com ele' na decisão pós-leva, e essa parte do material não foi usada em nenhuma unidade (ver omissões)."
+  ],
+  "resumo": "Das 17 unidades recebidas, 13 estão lastreadas e 4 têm desvio material: U3 inventa um filtro por views e omite as condições da fonte, U4 troca duas levas por três, U12 generaliza o número de um caso, e U16 apresenta como régua geral o resultado do próprio professor no formato Análise. A cobertura tem uma omissão material, a decisão de trocar, insistir ou aprimorar depois das duas levas, que é a resposta à pergunta que abre a aula (o número 7 está ausente da sequência). Há também duas sinalizações de perecibilidade (U8 e U16), ajustes menores de contrato e um conflito fala × material não registrado sobre melhorar um mecanismo por vez."
+}

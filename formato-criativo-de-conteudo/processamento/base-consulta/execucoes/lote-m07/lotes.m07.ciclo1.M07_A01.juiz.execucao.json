@@ -1,0 +1,37 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T10:13:08+00:00",
+  "fim": "2026-09-20T10:14:58+00:00",
+  "duracao_ms": 108571,
+  "duracao_api_ms": 108533,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 9759,
+    "cache_creation_input_tokens": 45387,
+    "cache_read_input_tokens": 14122
+  },
+  "thinking_tokens": 5388,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 1.3992404999999999,
+  "sistema_sha256": "6fbcd305a280b2b74da5c138ff02513c5ea8520fda321689da3adaa38f2a89f2",
+  "pacote_sha256": "084cfa048fc6748ed2d3c9a4f12e3edd818b2b87373c002e19d47d7bee008a1e",
+  "aula": "M07_A01",
+  "rotulo": "lote-m07-ciclo1",
+  "arquivo_sha256": "714fd37015d64630635cc94047f697a89c71d9bfb8b41a8029dda0105f05030e",
+  "inspecao_sha256": "f0e6ac379b2530ac3254095ee20e4943104dfb4076ccb724cfcefc09dfb66657",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m07/ciclo1/M07_A01.julgamento.json",
+  "resultado_sha256": "fde62f495435c3d25e1a7a22eef00f442042f6d8d248579ff4be0d327f2ebbfd"
+}

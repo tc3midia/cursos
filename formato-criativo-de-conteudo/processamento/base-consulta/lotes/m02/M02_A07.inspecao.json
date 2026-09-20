@@ -1,0 +1,169 @@
+{
+  "aula": "M02_A07",
+  "arquivo_sha256": "708b2f4c6fb4576a641c6eb5e872b8a192b2db10b0796f1125472fe0d83b5bab",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "hashes_unidades": {
+    "1": "908075e5562c85fef73b66013d9888414dbe448e0cb6d547cdd592091fdeb762",
+    "2": "76c4551866427563ca39bbd569c667daabd1326889e4653de6d17945f7a2438c",
+    "3": "905f0af4ad57e602d4b4823a97411dbef5725f7a35567be93da0a363f962c4f1",
+    "4": "ff708c4cd8505820fde3a6451cb286263c8da9c5fa83220321413991d71bb784",
+    "5": "c59760261b21317eec79925f6344d235b12ddfe2af020da35cada9e4ec0b666c",
+    "6": "37c3d23bc818c3cd562bf7f7e4200e730d07ec06dd152a38722bd8d9a9134559",
+    "7": "8dbde8a61fea42ffd0160f4ed7b1bc1b8c1d6b75f1ca612997f838996adcaff9",
+    "8": "2385709debf72f11c6ef3a2f134e7d2651adb79ba015224b14ded04d081d97f6",
+    "9": "22801d6e6e96debcdd98e883c72dd1c94b1c25abce995775e0f1ce6693749dde",
+    "10": "6151618c739fcea98bda0083c2e9d3c020565e1770137297af772cb69ea56a84",
+    "11": "0fe4c68b625581f390d747e62f16a301cd4d88d30ef87e0253df3068c0dc9174",
+    "12": "9c4c92586cdabb42dbbe8846c0761e98abab9f6900273cd61b83dc8602c0b56e",
+    "13": "6017e5161e35bdfee86c12ef5baa425de46d47847dd3a27c1c68d7f7df40c3b8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que é uma música conhecida, que é familiar para as pessoas e que desperta alguma emoção.",
+      "explicacao": "A definição confere com a fala (bordas, música conhecida, funciona bem, bom formato para começar) e com o material (textos ou legendas em tela; reflexão, conselho ou desabafo), e a unidade atribui cada parte à fonte certa. A fala diz \"geralmente ele tem umas bordinhas\" e a unidade tira o \"geralmente\", o que não muda o uso. \"Molduras\" é glosa da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você pode usar algumas imagens, ter essa bordinha com imagens um pouco meio que aleatórias,",
+      "explicacao": "As quatro variações (espécie de narrado, imagens meio aleatórias que passam emoção, letterings grandes, vídeo cru tipo gravação de Zoom ou de computador em baixa qualidade) estão na fala dentro da faixa 43–101. Nenhum número ou condição foi alterado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que traz o clima conectado com o tema, é muito importante essa conexão entre as duas",
+      "explicacao": "Os três elementos (tema emocionalmente relevante, música que dá clima e energia, fala natural como conselho a amigo ou desabafo) conferem com 100–132. A última frase do corpo (\"reforça depois que a conexão entre tema e clima da música é muito importante\") vem de 08:16–08:21 (≈496–501 s), fora da faixa 100–132, embora o corpo já a marque como \"depois\". O `fonte: fala+material` também não se sustenta: nada no corpo vem só do material. Como o conteúdo essencial está na faixa, tratei como ajuste menor. A correção é ampliar a faixa ou tirar a frase."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "5. Publique variações e observe quais escolhas sustentam o interesse.",
+      "explicacao": "Os cinco passos reproduzem a lista \"Construção\" do material, na mesma ordem e sem alterar sentido. O único acréscimo é a \"Pré-condição: ter definido que vai usar o formato Cine\", que não está no material. Ela é exigida pelo tipo `procedimento` e não muda a execução."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não todos, mas a grande maioria",
+      "explicacao": "A unidade preserva a ressalva (\"a grande maioria, não todos\"), a atribuição (\"o professor defende\", \"ele viu um humorista\") e o \"não é uma regra absoluta\". A anedota do humorista está como relato e não como parâmetro. A faixa 146–320 cobre o trecho."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "sempre que você use a inteligência artificial conectada com a sua inteligência real.",
+      "explicacao": "A recomendação e a orientação de seguir a ideia própria conferem com a fala, e \"a chance de funcionar é muito grande\" está atribuída ao professor. O problema desta unidade é a omissão do procedimento do prompt, registrada em `omissoes`. A nota diz que o prompt \"não foi descrito\", mas a fala descreve o fluxo: copiar o prompt, juntar o roteiro escolhido, colocar o nicho e colar na IA."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que traz o clima conectado com o tema, é muito importante essa conexão entre as duas",
+      "explicacao": "A Situação (pais: não dá para salvá-los nem mudar hábitos; o maior presente é amá-los como são) e o comentário sobre identificação e clima da música conferem com 6:28–8:08. Na Lógica, a parte \"música cujo clima combine com o tema\" está em 08:16.58–08:21.08 (≈496,6–501 s), e a faixa termina em 496. A faixa fica ≈5 s curta. Ajuste menor: ampliar `fim` para ≈502."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, use o formato pra se inspirar, mas sabendo que você pode colocar pitadas de outros formatos dentro, se você quiser.",
+      "explicacao": "Confere: inserts que dão aspecto de narrado, imagens da galeria e \"testar não traz problema\", tudo dentro de 506–562. A permissão está como permissão, sem virar obrigação."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lá tem músicas separadas por emoções",
+      "explicacao": "A unidade preserva o tom calmo da música, a existência de músicas agitadas e empolgantes e a correção de roteiro para edição, que está em `nota`. `perecivel: true` está correto por apontar para a estrutura do curso."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "foi assim mas poderia ter sido né E aí ele vai e transforma isso no roteiro como é que é Cristiano Ronaldo",
+      "explicacao": "A fala é ambígua: o professor diz \"não sei se foi assim mas poderia ter sido\" e depois \"de fato, ele estava vendo uma entrevista, percebeu o momento…\". O corpo afirma \"o criador percebeu\" como fato. A `nota` registra que a fala imagina o percurso do criador e `confianca` está em `media`, então a incerteza foi preservada. Ajuste menor: escrever no corpo \"segundo o professor, provavelmente\". A faixa 616–1000 também é larga: o exemplo do Cristiano Ronaldo termina perto de 899 s, e o restante cobre o vídeo da moto e sobrepõe as unidades 11 e 12."
+    },
+    {
+      "numero": 11,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "e tem, em muitas vezes",
+      "explicacao": "Na fala, a estrutura \"tema interessante → curiosidade → ponto de vista → no final conecta com a vida de quem assiste\" é a análise do vídeo da moto (\"De novo, um tema interessante… Traz uma curiosidade… Ele leva isso para a sua vida\", 16:27–16:47). Na síntese o professor diz que o corte na tela e a música são características do formato e que o roteiro conecta a ideia com a vida de quem assiste \"em muitas vezes\". A unidade escreve \"Nos vídeos analisados, o roteiro abre com… curiosidade… e no final conecta\" e a publica como `regra`. Isso transforma o padrão de um vídeo em padrão de todos e tira o \"em muitas vezes\". Quem consulta passa a tratar essa abertura e esse fechamento como molde fixo do Cine, o que a fonte não diz."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "às vezes tentar você mesmo",
+      "explicacao": "Os passos (ler a análise frase a frase, reescrever um roteiro, conferir o próprio roteiro) conferem com 14:59–15:21. Na fala, reescrever é sugestão (\"às vezes tentar você mesmo\"), e o procedimento numerado a apresenta como passo fixo. Isso é só tom, sem efeito prático relevante."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Testa, testa rápido e melhora no próximo",
+      "explicacao": "Confere: aplicar, testar rápido, melhorar no seguinte, tolerar o não perfeito e a dúvida sobre o formato, \"é pra você começar\". Nenhum número ou condição foi alterado."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 327,
+      "trecho_fonte": "Mas, basicamente, você vai copiar essa parte aqui, que é o prompt, e junto com o roteiro que você escolher,",
+      "descricao": "A aula descreve o fluxo de uso da IA na página do formato: copiar o prompt do curso, juntá-lo ao roteiro de referência escolhido, colocar o nicho, colar na IA e receber uma ideia de roteiro. Também remete à aula de IA do curso para quem ainda não a viu. A unidade 6 guarda só a recomendação final (usar a IA junto com a própria ideia) e a nota diz que o prompt \"não foi descrito\". Nenhuma unidade preserva o fluxo, que a fala expõe apesar de degradada em \"ideia de rotação\".",
+      "gravidade": "material",
+      "efeito_pratico": "Um agente que consulte a base para roteirizar com IA no Cine não sabe que a página do formato traz um prompt pronto, nem que ele se combina com o roteiro de referência e com o nicho do aluno. Ele fica só com \"use a IA junto com sua ideia\", sem o passo de execução que dá sentido a um módulo de copiar e colar. A unidade nova seria perecível (prompt e página do curso)."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 6,
+      "problema": "`perecivel: false`, mas `condicoes` depende de um recurso do curso (\"a aula de IA do curso explica o uso\") e a `nota` cita o prompt da página do formato. Isso é estrutura e recurso do curso. Ao incluir o procedimento do prompt omitido, a unidade passa a depender do prompt do curso e deve ficar `perecivel: true`."
+    }
+  ],
+  "contrato": [
+    "U3: a tarefa `criar-elementos-de-repeticao` não corresponde ao conteúdo. Tema, música e fala natural são elementos de sustentação do formato, não frases, gestos ou momentos fixos que se repetem. `escolher-formato` ou `editar-video` levam a um lugar mais adequado. `fonte: fala+material` também não tem base, porque nada no corpo vem só do material.",
+    "U13: o título começa com \"Cine:\" e o tema é `lapidacao-de-formato` (geral). O conselho na fala é genérico (\"Não tenho certeza se esse é o formato\"). Classificação discutível, ajuste menor: manter o tema geral e tirar o prefixo, ou ficar com o prefixo e o tema `formato-cine`.",
+    "U10: a faixa 616–1000 é muito larga para o exemplo do Cristiano Ronaldo, que termina perto de 899 s. Ela inclui o vídeo da moto e sobrepõe as faixas das unidades 11 e 12. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Conferi as 13 unidades contra a transcrição e o material, e percorri a fonte inteira em busca de omissões. Há um desvio material na U11, que trata como padrão de todos os vídeos analisados o que a fala diz do vídeo da moto e tira o \\\"em muitas vezes\\\". Há uma omissão material: o fluxo do prompt do curso com roteiro e nicho, que a U6 não preserva. A U6 também deveria estar `perecivel: true`. O resto é fiel, com ajustes menores: faixas curtas na U3 e na U7, tarefa errada na U3 e incerteza da U10 escrita como fato no corpo. Comparei fala e material e não achei divergência resolvida em silêncio."
+}

@@ -1,0 +1,124 @@
+{
+  "aula": "M03_A11",
+  "arquivo_sha256": "020ef54f4959418286b1b97ab1c4dc9285ff6c338291e5d299ab948cb11941e9",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "f01ee8eb74b92e0065fb562657bf065ba82712939ac12f9dc9b56a5bfaa437da",
+    "2": "3010a331896cc92f2fe1989b383dac3856b090d14a3f183726686574dcd1f535",
+    "3": "6a4cc754483f4fd278128d811f6e68c29db75e3713eed05f6f71ac2ed27ba266",
+    "4": "e5dc6def461305272d88490a9a5e9c48890b6be49cd4a310637237e6a7d2238a",
+    "5": "18e9bce533e7c55d8a50e007c05ab54a651a553ee321cc9a58c1cf229ed25b75",
+    "6": "118f214bc06f6bbb53c665e9b614805ef5e503bb16e371700e674fbf10424588",
+    "7": "6bd7c460b01c9c96498b97272e5a9c3134b64592f685cc717f10eefad45e0929",
+    "8": "91cb667c0f934201104acbeb9a7203d0fe6f53de2a87d8e726846012a4e62c00",
+    "9": "6eee86e3c114e58fb66c743479315cd43f7f47f3459db4e31fdc0cd8666d17df"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Primeiro ponto, existe uma estrutura universal, que é a AIDA. Atenção, interesse, desejo e ação.",
+      "explicacao": "A fonte diz que a AIDA é a estrutura universal e que todas as estruturas do curso passam por ela. A chamada à ação pode ser específica ('falando faça isso') ou 'inconsciente', gerando o desejo de fazer. A unidade traduz 'inconsciente' por 'indireta', o que não altera o uso. Faixa 18–49 s cobre o conteúdo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E como a gente tem tudo muito bem definido, sempre que eu vou escrever uma análise, eu escrevo ali por blocos, fica muito fácil para mim entender.",
+      "explicacao": "Confere: estruturas criadas para os próprios conteúdos, formato criativo como 'padrão de roteiro e visual', ter padrão não é obrigatório ('Não necessariamente') mas facilita, e o professor escreve a análise por blocos e pesquisa elementos específicos. A preferência aparece atribuída ao professor. Faixa 48–114 s contém o conteúdo (48–107 s) e avança um pouco sobre o início da unidade 3, sem prejuízo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Depois eu trago os elementos de autoridade desse criador",
+      "explicacao": "Os quatro blocos na ordem da fala (conflito universal conectado ao criador; autoridade; três princípios que o criador usa para ter resultado; moral da história com CTA). Os temas de exemplo (política, cultura pop, relacionamentos, dinheiro), 'crescimento, resultados e diferenciais' e 'entretenimento, relevância e profundidade' vêm do material e estão atribuídos a ele. O fim 157 s fica 0,1 s antes do fim da fala do bloco 4, sem consequência."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você pode usar essa história para analisar qualquer coisa",
+      "explicacao": "Confere: o professor usa a estrutura para criadores, diz que serve para qualquer coisa, que o conflito universal pode ser com a marca ou a pessoa analisada, e que há duas formas de uso (adaptar à própria realidade ou criar a própria estrutura). A `condicoes` atribui a abrangência ao professor. A faixa 161–249 s é mais larga que o necessário (o conteúdo termina perto de 188 s e o resto é o início do vídeo de exemplo), mas o conteúdo está dentro dela, então não é faixa-errada."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "A cada um dos elementos aqui que eu trago, um, dois, três, eu tô, de novo, reforçando a história do cara e eu tô quebrando a objeção do meu público, né?",
+      "explicacao": "A fonte fala de cada um dos três elementos/princípios ('um, dois, três'). O corpo acerta ('Em cada um dos três princípios'), mas o título diz 'cada bloco', o que estende a afirmação aos quatro blocos da estrutura. Quem consultar só o título pode entender que conflito universal, autoridade e moral também devem reforçar a história e quebrar objeção. O trecho também descreve o que o professor faz no próprio vídeo de exemplo, tipado como regra geral da estrutura; o corpo o atribui ao professor, o que reduz o dano. Correção: trocar 'cada bloco' por 'cada princípio'."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E ela aponta um produto que eu te ensino a fazer",
+      "explicacao": "Situação, conflito universal (lavagem de dinheiro, relacionamentos, política), autoridade pelo crescimento, três princípios pelo material (profundidade com humor, sequência que mantém a atenção, repetir formatos criativos) e CTA de ensinar a achar formato e escrever roteiro: tudo confere. Nenhum número de seguidores virou régua. Ressalva menor: na Lógica, 'desejo e ação com o produto no final' é inferência do extrator. O professor diz que o vídeo cumpre todos os pontos da AIDA, mas só atribui expressamente atenção (tema universal) e interesse (análise); depois menciona que a análise 'aponta um produto' e que ele vende o produto no final, sem dizer 'desejo' e 'ação'. Sem consequência prática relevante."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O material desaconselha opiniões soltas, temas aleatórios e análises de marcas ou criadores sem relevância para o público.",
+      "explicacao": "Objetivo e desaconselhamentos batem com a seção 'Objetivo e problema' do material e estão atribuídos a ele. Não copia 25 palavras."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O material propõe gravar e publicar o vídeo e compartilhá-lo com a comunidade.",
+      "explicacao": "O exercício confere: escolher criador ou marca conhecido pelo público, escrever em quatro blocos. Ressalvas menores: (a) o material 'propõe' gravar, publicar e compartilhar, e a unidade os põe como passos imperativos 2 e 3 sem marcar que são proposta; (b) o material diz 'com a comunidade', e a unidade escreve 'comunidade do curso', pequeno acréscimo. `perecivel: true` está correto pela comunidade."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas aqui você já começa a ter uma ideia, lá no último módulo, inclusive eu vou mostrar esse vídeo aqui de novo",
+      "explicacao": "A fonte diz que a venda dentro do conteúdo é aprofundada no último módulo, que a aula só dá uma ideia, e que o vídeo será mostrado de novo lá. O corpo confere. `perecivel: true` está correto (estrutura do curso). Faixa 434–448 s cobre o trecho."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 426,
+      "trecho_fonte": "que as pessoas conhecem e que, de certa forma, usa a minha metodologia, eu vendo o meu produto no final, sacou?",
+      "descricao": "O professor fecha a aula com o critério do que analisar e por quê: uma análise de algo do mundo que as pessoas conhecem e que, de certa forma, usa a metodologia dele, com o produto vendido no final. Nenhuma unidade preserva que o objeto analisado deve ser conhecido do público e ligado à metodologia de quem analisa. A unidade 7 traz só 'relevância para o público' (do material) e a unidade 6 traz apenas 'produto no final'.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for escolher o que analisar fica sem o critério de escolha do professor (algo conhecido e que dialogue com a metodologia dele) e pode escolher um criador ou marca sem ligação com o que vai vender. O efeito é parcialmente coberto pela unidade 7, que pede relevância para o público."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U6: o título usa a grafia da fala ('professor Crônicas'), e o corpo e o material usam 'Kronikas'. O FORMATO §3 manda usar a grafia do material quando ele cita o nome. A nota registra a variação, então o efeito é só de consistência (menor).",
+    "U5: o corpo diz 'o vídeo parece feito para atrair seguidores' e 'os três princípios' sem dizer de que vídeo se trata (o vídeo de exemplo da aula, descrito na U6) nem quais são os princípios. Fora da aula, a unidade não se sustenta sozinha (menor).",
+    "U3, U6 e U7: 'o material' aparece como fonte sem dizer que é o material de apoio da própria aula (PDF de descrição). Um agente sem a aula não sabe a que documento se refere (menor)."
+  ],
+  "material": [],
+  "resumo": "As nove unidades têm lastro na fonte. Só a U5 tem um desvio menor: o título amplia 'cada um dos três princípios' para 'cada bloco'. A U6 tem uma ressalva menor de inferência (desejo e ação associados ao produto final), e a U8 uma ressalva menor sobre passos que o material apenas propõe. Percorri a transcrição inteira e o material e achei uma omissão menor (o critério do que analisar, no fim da aula). Não encontrei perecível escondido nem divergência fala × material sem registro. Não há falha material."
+}

@@ -1,0 +1,174 @@
+{
+  "aula": "M06_A08",
+  "arquivo_sha256": "4ac4d7902367c3d800962f531fb69b2c0ac81024430f4541d5c7a047c4918063",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "001df65fcab99647e993374372342a0566d3236aa83312fc3fad2da12e6fe54c",
+    "2": "4294162e5b53390454074280c90917fff235ebdc0b1bd37885724344157f9675",
+    "3": "fbf305a2447d9dc6fb9ac1f5d9e4e0064fd404af9bb1633be5c6349d0aecb081",
+    "4": "1c2cec10f3c4bdcf203f991bbb441494a3e51c995a873327bebe885acf74aacd",
+    "5": "364cc46970b5b2a886dc7a2643b543a0bc8a15dd9524670a4da2d6467ddd9fbf",
+    "6": "7bcb75f18b94af846f2f9990615d8a14d939ff421f053059f92b117a9bbb7fe7",
+    "7": "c782f31b52c2b4ca2a1dd02b7e87c1d7c7f4955350948291787390c0163d9004",
+    "8": "c032a152ee2d17ec02add1e21dadb1dda436e7547b675ceeaea9f85f05c097a8",
+    "9": "17665da065ebb536c137a7452d532ccd0307f9b09ac27b174efa69134b5969c3",
+    "10": "a6a5dd6532d66e91677f268c9334f222735251c52579021adf72a861e03ed803",
+    "11": "a1f942cd515531013cb2ed1edab49c675b3255ecc1aa8d284e77556a44a333c0",
+    "12": "12d93abfac2003be4c78bf79f2cdc200d82fff3cd2cc8f166332f2d72119ddf6",
+    "13": "cef19fd051237bacb9dbe289a0e6263c01c6082a1eb75150dab871d57a63c4f4",
+    "14": "86a532a2f80bf050306bdd8d5bde36ae8f6cf8921a843825f43dd035150527a4",
+    "15": "0e6fcb48b0e06ba549e54aeb7f0107736a568b8834876117c323304d88a8fbe0"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu vou te entregar uma aula rasa aqui sobre crenças,",
+      "explicacao": "A fonte diz que é a 'última aula oficial do nosso produto' e que a aula é rasa e será aprofundada ('que a gente vai aprofundar', 00:00:59–00:01:01). Não diz onde nem quando, como a unidade registra. Faixa 0–62 cobre o conteúdo. Marcar perecivel:true é conservador (estrutura do curso) e coerente."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é um processo de quebra de crenças erradas",
+      "explicacao": "Definições de crença disfuncional (vai contra a função da comunicação) e funcional (leva à decisão de compra) e a afirmação de que é manipulação 'literalmente' estão em 00:01:05–00:01:53, dentro da faixa 64–113. Atribuição ao professor mantida."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "basicamente, crenças são atalhos de decisão.",
+      "explicacao": "Definição e ressalva ('Existem várias formas de falar sobre isso') estão em 00:02:04–00:02:27, dentro da faixa 121–150. Condição registrada corretamente."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "conflito e atenção, mudança",
+      "explicacao": "Mecanismo (história → conflito → atenção/mudança → emoção → significado/moral → crença → decisões) está em 00:02:35–00:03:41, dentro da faixa. A transcrição da cadeia está degradada ('conflito e atenção, mudança'), e a unidade a resolve com verbos causais ('o conflito prende atenção e gera mudança'), interpretação plausível mas não literal. Sem efeito prático relevante."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "de que ela tem ou que agradar as pessoas, ou que ela não é boa na frente da câmera",
+      "explicacao": "Caso e faixa (224–328) conferem, e a unidade marca o exemplo como hipotético. Dois detalhes menores: (1) a fonte, em passagem degradada, fala em crença de que 'ela tem que agradar as pessoas'; a unidade escreve 'não agrada', o que muda o sentido; (2) o professor diz que a resposta 'potencialmente' vai ser não (00:04:36), e a unidade escreve 'a resposta é não' sem o advérbio. A condição de exemplo hipotético/'absurdo' cobre parte disso; o efeito prático é baixo."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "toda vez que eu levantar, eu vou olhar pra trás.",
+      "explicacao": "Todos os elementos do caso (chave esquecida no banco da igreja, casa trancada, pais ausentes, mãe brigou, sentimento, crença como rede neural que age no corpo, habilidade de modular a crença do público) estão em 00:05:41–00:07:28. O nome Paula está na fonte e a unidade sinaliza a incerteza da grafia em nota."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu preciso quebrar essa crença e construir uma nova.",
+      "explicacao": "Conteúdo confere. Dois detalhes menores: (1) a frase final da Lógica ('precisa ser quebrada e substituída por uma mais funcional') está em 00:08:35–00:08:43 (515–523 s), fora do fim=515; o essencial (crença disfuncional) está dentro da faixa e a unidade 9 cobre o trecho seguinte; (2) o professor hesita ('provavelmente', 'talvez ela vê', 00:07:50–00:07:56) sobre a origem da crença por comparação e vídeos que flopam, e a unidade afirma como fato. Um fim em ~523 resolveria o item 1."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque essa é uma história que prova",
+      "explicacao": "Números (200 seguidores, 10 mil seguidores, poucas semanas, vídeo de um milhão) e a citação do CEO do Instagram estão em 00:08:43–00:09:27, na faixa 523–566. A unidade os trata como caso, atribui a afirmação ao professor, usa condicional ('teriam', 'diria'), sinaliza a transcrição duvidosa e marca perecivel:true."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "se eu consigo fazer esse processo na cabeça da pessoa",
+      "explicacao": "Os passos (provar que a crença está errada, oferecer a crença funcional, prová-la, mencionar a própria trajetória e a oferta) estão em 00:08:43–00:10:49. Porém a ordem em 4 passos é reconstrução do professor narrando um único exemplo, e o professor não diz 'só então'. A única ordenação explícita está no exemplo da dieta (primeiro quebrar, depois construir, 00:12:29–00:12:44). A condição 'a sequência é a mesma para outros produtos' é inferência da unidade. O leitor pode tratar como sequência obrigatória o que é o método ilustrado pelo professor."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "São aquelas crenças que impedem o seu público de comprar",
+      "explicacao": "Recomendação de olhar as crenças disfuncionais na pesquisa 'com um pouco mais de carinho' e a pergunta orientadora estão em 00:10:52–00:11:24, na faixa 652–684. Referência ao processo de pesquisa de outra aula está em nota."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Só um exemplo idiota pra você entender",
+      "explicacao": "Situação, quebra do medo de saúde e o argumento dos ancestrais estão em 00:11:24–00:13:03, na faixa 684–783. O caráter ilustrativo do 'exemplo idiota' está em condicoes e a nota diz que a base não confirma as afirmações de saúde."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "provavelmente você não conseguiria quebrar",
+      "explicacao": "O corpo preserva o hedge ('provavelmente') e a condição no campo próprio. Dois detalhes menores: (1) o título 'Não tente quebrar crença muito enraizada; trabalhe as superáveis' é imperativo e mais categórico que a fonte: o professor só diz que provavelmente não se quebraria a crença da Hannah e que não venderia a dieta para ela, sem mandar não tentar; 'superáveis' é termo da unidade; (2) 'depois construa o porquê' está em 00:12:41–00:12:45 (761–765 s), pouco além do fim=760."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ela quer defender o nosso sistema de crenças.",
+      "explicacao": "Condicional ('se eu faço isso dentro do processo de venda'), a ideia de que a pessoa se convence, o 'código de defesa do cérebro' e a analogia da queimadura estão em 00:13:07–00:14:21, na faixa 787–861. Atribuição ao professor mantida."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pra criação de conteúdo, é normal que leve um tempo",
+      "explicacao": "Conceitos difíceis, não dar certo na primeira aplicação e o ciclo (aprender, ver outros aplicando, tentar, repetir algumas vezes) estão em 00:14:21–00:15:21, na faixa 861–922."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "dedicar um, dois, três, seis",
+      "explicacao": "Conteúdo e faixa (923–1000) conferem; as afirmações de valor são atribuídas ao professor. Menores: o título 'dedique de um a seis meses' condensa a enumeração 'um, dois, três, seis meses'; e o título afirma sem atribuição que 'os princípios valem em qualquer rede e na conversa', embora o corpo e a condição atribuam ao professor. Sem efeito na decisão."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 15 (discutível, menor): reúne duas orientações distintas em um `conceito` com `tarefas: []`, a universalidade dos princípios e a recomendação de dedicar meses à prática. Quem busca 'quanto tempo praticar' não chega a ela por tarefa nem por tipo. Classificação defensável, ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Conferi as 15 unidades contra a transcrição inteira (não há material de apoio na aula). Nenhuma é sem-lastro e nenhuma tem desvio material: números de caso (200 seguidores, 10 mil, vídeo de um milhão) estão como exemplo e perecíveis, e as afirmações do professor estão atribuídas. Achei só ajustes menores: em 5 e 7 o hedge do professor sumiu, em 9 a ordem em 4 passos é reconstrução de um exemplo, em 12 o título é mais categórico que o corpo, e em 7 e 12 o fim da faixa fica curto em poucos segundos. Percorri a fonte do início ao fim e não encontrei omissão nem perecível escondido."
+}

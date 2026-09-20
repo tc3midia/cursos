@@ -1,0 +1,118 @@
+{
+  "aula": "M01_A01",
+  "arquivo_sha256": "f030174cd767cd7693479c671f7f428700af6863eb6d9e2b047fc3b6330fb146",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "6618367e7dfd4aefdd1c64caf0eb6f659a947eef7c083e1be900e9f380d544d9",
+    "2": "7b8e1c52d058cc9be846b44ae173ef1227ac57289ea0170a098d42e6524a8cc7",
+    "3": "63978ffcf71df96c040935eb2ae51598521c87ad18a2c6bdee7c8778af3c8554",
+    "4": "342d8665bebb73f9ef7cb4c865bffb178f378cb0f6290f28235e4092649fd1be",
+    "5": "2e93df51742d766fc39ed59d51a3f02f817d8f6f0d0cbc76cc9f0e1d32a46d84",
+    "6": "9aba07bac36e57735d9ec89c3cebe6e7f4f7b8132ae357c7cfce5ef6184b10f5",
+    "7": "70cfcb544be36b2e191aee0e96909ff56d89b142ed84a300fe099e7424320fb7",
+    "8": "504bea05173c860032469c52200e50d98898e8c09d63fc4e2fdfed582f45c7a1"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "onde a gente pega os formatos que mais têm chance de trazer resultado",
+      "explicacao": "A lista de seis módulos, a ordem e o conteúdo de cada um batem com a fala (2:35–6:22) e com o material. A faixa 152–384 cobre tudo. Ajuste menor de atribuição: o corpo escreve \"os formatos com mais chance de resultado\" e \"roteiros que funcionam nas redes\" como descrição neutra, e a fonte diz que é a proposta dos professores (\"a gente pega…\", \"nossa metodologia… que realmente funcionam\"). O FORMATO pede que afirmação de resultado seja atribuída ao professor. Não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "ele tem algumas peculiaridades para alguns formatos específicos que a gente vai te mostrar",
+      "explicacao": "O conteúdo está na fonte e não há desvio de sentido: a regra de ver o módulo de gravação e edição antes da ordem (343–354 s), a divisão por formato e o exemplo do diálogo (354–379 s) estão dentro de 340–380. Mas a frase \"O módulo começa pelos princípios básicos e traz peculiaridades de formatos específicos\" está em 329,96–337,72 s, antes de `inicio`=340. A faixa deixa fora esse trecho que o corpo usa. Quem for conferir pela faixa não o encontra. O núcleo da unidade está dentro da faixa; a faixa deveria começar perto de 329."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai olhar para as coisas que funcionam, testar essas coisas que funcionam e aí você vai aprender mais rápido.",
+      "explicacao": "O sentido está fiel e atribuído (\"Segundo ele\"). Copiar roteiros validados, a objeção da contradição e \"a melhor forma de aprender é fazendo engenharia reversa\" estão em 176–217 s, dentro da faixa. Porém a frase que sustenta \"analisar o que funciona e testar… aprender mais rápido\" está em 217,96–224,94 s, depois de `fim`=218. Uma parte do corpo fica fora da faixa. Consequência pequena: quem confere pela faixa não encontra essa parte. Faixa deveria ir até cerca de 225."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E esse padrão, ele tem o visual, a forma como o vídeo é apresentado, gravado,",
+      "explicacao": "A definição (padrão de conteúdo que funciona, com visual e roteiro/estrutura de roteiro) bate com a fala em 236–248 s e está dentro de 236–251. Sem número, condição ou atribuição perdida."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Percebe como ele responde exatamente como a gente te ensina?",
+      "explicacao": "Fatos conferem: IA da plataforma, \"sabe tudo sobre as aulas\", estrelinha ao lado no modo de aulas, revisar, tirar dúvida, conferir entendimento, conversa como com os professores, resposta à pergunta \"o que é formato criativo?\". A faixa 386–478 cobre tudo. Ajuste menor: \"ele respondeu com a mesma definição das aulas\" é afirmação dos professores, apresentada como fato sem atribuição. A resposta real do Tutor em 7:38–7:52 é \"padrão de conteúdo que funciona constantemente… roteiro… e visual\". Perecível corretamente marcado."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai ter lá o esquema para copiar, colar os roteiros e ela te entregar ideias escritas para você utilizar.",
+      "explicacao": "Os três usos (formatos validados, revisão frase a frase pela metodologia FCC, análise de vídeo viral por engenharia reversa) e a condição de que o primeiro é ensinado no próximo módulo batem com a fala em 8:32–9:27, dentro de 478–572. Ajuste menor: o uso 1 diz \"colar o esquema de roteiro\", mas a fonte fala em \"esquema para copiar, colar os roteiros\", e em 2:56 diz que se colam \"roteiros já validados\" na IA. O corpo inverte o que se cola e destoa da U3. A fonte é vaga, então não há desvio material."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O material recomenda usar a IA para acelerar o aprendizado e a produção inicial, mantendo a prática de escrever e avaliar roteiros por conta própria.",
+      "explicacao": "A unidade reproduz o material sem acréscimo, atribui a recomendação ao material e registra em `nota` que a fala não a enuncia assim. Fonte só `material`, com `inicio` e `fim` nulos, como o FORMATO exige."
+    },
+    {
+      "numero": 8,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Além disso, eu vou, sem mais mistérios, eu vou te entregar logo o seu presente misterioso,",
+      "explicacao": "A faixa 41–54 cobre só a primeira missão (introdução aos módulos, clareza da jornada). \"Entregar as duas IAs\" começa em 54,6 s, e o adiamento do uso da SOFIA para o módulo de formatos validados está em 8:32–8:45. A frase \"não ensina o método em si nem o uso detalhado das IAs\" é inferência: a fonte nunca diz isso, apenas que a primeira missão é uma introdução e que na próxima aula entra o conhecimento (9:44–9:50). \"Uso detalhado das IAs… nos módulos seguintes\" vale claramente para a SOFIA (uso 1), não para o Tutor, que a aula demonstra. Consequência pequena, mas a faixa não sustenta o corpo."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 187.96,
+      "trecho_fonte": "A gente está te transformando num CDF, na pessoa que é nerd por opção.",
+      "descricao": "Nenhuma unidade define \"CDF\", o termo que os professores usam para o aluno do curso (\"nerd por opção\"). A definição só aparece no `contexto`. O termo também compõe o nome \"Tutor CDF\" (U5).",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que consulta a U5 ou outra unidade sem o contexto não sabe o que é CDF. Não muda nenhuma decisão de execução."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U5: o corpo usa \"Tutor CDF\" sem explicar CDF (apelido do aluno, definido só no contexto). O FORMATO pede jargão explicado na primeira ocorrência dentro da unidade. Menor.",
+    "U6: o corpo usa \"método FCC\" sem expandir o nome (só a U1 o expande). Menor.",
+    "U8: o corpo diz \"entregar as duas IAs\" sem nomear quais são (Tutor CDF e SOFIA). Sem a aula, quem consulta não sabe a que \"as duas IAs\" se refere. Menor.",
+    "U2: tema `direcao-e-gravacao` para uma orientação de navegação do curso (quando ver o módulo fora da ordem), que se encaixa em `curso-e-recursos` (estrutura do curso). Um agente que busque a estrutura do curso pode não achá-la. Classificação discutível entre dois valores defensáveis, ajuste menor.",
+    "U3: o tipo `regra` traz corpo narrativo (\"o professor esclarece… Segundo ele…\"), e não uma frase categórica. Classificação defensável; sem impacto no uso."
+  ],
+  "material": [
+    "O `contexto` grafa os professores como \"Hanna e Aleph (grafia da transcrição)\", mas o cabeçalho do material cita \"Hanah e Alef\" (campo `curso`). O FORMATO manda usar a grafia do material quando ele cita o nome, ou registrar a incerteza quando só a fala cita. O contexto escolheu o lado da fala e não registra a versão do material. Nenhum corpo de unidade usa os nomes, então o efeito é pequeno (menor).",
+    "A U1 declara `fala+material`, mas o material traz ênfases que o corpo não registra e a nota não menciona. Módulo 3: \"sem depender de copiar outros criadores\". Módulo 5: \"criação de desejo e conexão com uma oferta\". Módulo 4: \"elementos que tornam o conteúdo reconhecível\". Não há conflito com a fala. A nota trata só do módulo 2, e essa nota está correta: as duas descrições convivem."
+  ],
+  "resumo": "Conferidas as 8 unidades contra a fala e o material, e a fonte inteira varrida atrás de omissões. Não há sem-lastro nem desvio material de número, condição ou sentido; o conteúdo das unidades está na fonte e em geral bem atribuído. O problema principal é de faixa: as U2, U3 e U8 têm parte do conteúdo fora de `inicio`–`fim` (3 de 7 unidades com faixa, acima do limite de 10% da rubrica), todas com gravidade menor e núcleo dentro da faixa. Há ainda ajustes menores de atribuição (U1, U5), redação (U6), jargão não explicado, grafia dos nomes no contexto e uma omissão menor (definição de CDF)."
+}

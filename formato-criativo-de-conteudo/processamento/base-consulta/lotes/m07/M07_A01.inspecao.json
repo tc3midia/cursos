@@ -1,0 +1,565 @@
+{
+  "aula": "M07_A01",
+  "arquivo_sha256": "8c6409256d77a67a002f3ff4a3ead6a4e9e81b0b7e150313f94be6ed57aed23d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "hashes_unidades": {
+    "1": "d09d4d7f0cfcfd7dff7136bdccfd2ce4041385827a967ffad9d1064a83e1cd11",
+    "2": "3fd19e321c5f5888127a0f6eb3822c87811b84476b4cbdaab780fff370330934",
+    "3": "979e616f0c133988671161ee34522d3739e8583eb9661db6735eeabf17c9cb93",
+    "4": "7892b3b271a74d7500ff9e7f7b831621d45b78f6e1b304f5cdc6e884fafa8c8a",
+    "5": "5707e268040959c4894e6a2293d01a47fda0b0c4729ce03dce082da3c00e5356",
+    "6": "4d68419ab54454dfbdd3cbf91abc55f1e52e691a8d51cbe18f6d667c71080438",
+    "7": "35cf5ee6835c5eb3c09cb6e66db96bbf96b7ce9caa78f5dda45bddec4d28e725",
+    "8": "cf31fc864fa997d080320c144c7e41a31e0b758ba60482be62b57ef0366509fe",
+    "9": "147dd28ccdbe41f9dc5b30041f58a1a540aaf73a4ef133fabe115b31441d8054",
+    "10": "ec816daafe6fc0c16b8b5ec87ce7d284859017bd9610946b2772bca4b2693805",
+    "11": "35df0594d2fab20f70308e33c04c6419d4c14d38d297e1f900e52f456f557baf",
+    "12": "ed79f3b2313d633715d1a38e73bae83911d08116df2d9ac53ae9b22916c8231b",
+    "13": "8531ee919cfc65147b2ae9293e302e27e8d54e56d0042b67319f9511a4416ae5",
+    "14": "67492b7d8ba83ed5bb1a64f9f5dd90ccc778da2daaffecc351b2d7cc1b2a1646",
+    "15": "2da645e44d0be94c0aa88af9c6c6914dbc7cfa38bceb77e3cf85bd0a88da885f",
+    "16": "8ce779474d70367f0e7fbae485f4eef1709b43dfe164eaebdea06b8dbaebebe6",
+    "17": "641a2927a4ec478486ebfd7ff1c6d794974195c105fcffeb2e52248e7106e43c",
+    "18": "303e3aeaaba0e2a25cb67448d91ad66dd739a4eb6d8cd71e993284fdf2b185c4",
+    "19": "3291af23ab639502174bfaaa5f4f7bb04cc9bc0f61334786182f1ce4631dce2c",
+    "20": "58bc893b6296641bc3a51a1c72ce0cb1275055e87bb31ceffc4e4ef2af1907a7",
+    "21": "f41fa49333c2066950dbecc66ddb9611f9c4b48bc7508330aba932a949ff9579",
+    "22": "47bb601adfd89a97374168c073446b7f48d73128d0923f745f68a165c744910c",
+    "23": "9884c3dcba823a2d456a6404ad5f40be8c1d9661c1c91b9d7546dc1a11ba5502",
+    "24": "96650080bc46d9e7f1fa9b70407b17e496d41017536e2b3ad79891e83e6390a0",
+    "25": "cc52dbb6d0d781cd211095d750daf5ad14577fa4190aa99de269bd72d69db9a2",
+    "26": "e6613c271e452f3c6bf318edbb87f6dcf7133bc0a1002cdd569857a1d7aec452",
+    "27": "658f9732d2cca829777f5595fcea35d04a4bbdfee3d9bf707ee4015fde0f5b8e",
+    "28": "46270c4fda1215eb126078bdcde9a77456cbaa640cde1d7274354dec43e7cb35",
+    "29": "1ed0ced566dd9bf14dc3ae4e96f01d26cea4251a82348e54391b989d3bf9fcfa",
+    "30": "9caa5f0ad11da412dfec5211d6012741d76fea389be751882d99e757ab38622b",
+    "31": "dbb8cc5f775162f1149312849af824bf7f35d4d0fdba8167e77f47e89ec70197",
+    "32": "dfde18ded698afbf06e03ef56babf2cc8666dc19a7b04640d53807fdddd94baf",
+    "33": "935f91d566ca1ab2e982eeb4858cdac4e5c4bcde5b0c6877047b6a180f0131f8",
+    "34": "f4fe8b7f78fb31c17838fac34871bbaa9046725a7241f15f00662e3da211ffb0",
+    "35": "ad156b6525203f655390056c41619966ffb10dd17fcf1b45067f9021e6ac691e",
+    "36": "e218d7b73ecda2487f9b79bc1a51265a0d616d28345d3985ef8d7310c521da23",
+    "37": "b8da24a9761d310a15321ec3515ad465c09a8a2f4e55ab62c4a281b62c3aeafd",
+    "38": "9365b79e722b33d3638db73f330afd55785365c33cab1dc85f8c4811fcc4a800",
+    "39": "358735fabd877a4a062d33d6abd391810f2595cb9c7549a29831e5a18ef84486",
+    "40": "6c98e725b89c9e739c1a21fa61c499595951f8fb33be4b0b03346ee184e65ecb",
+    "41": "db1e62c97472028e8197795e4429384188e678b37c5cce032f37c818ba41e065",
+    "42": "91b037511558a407cf42c4ca7110e8d727d09daa788dd3508ac01e322642e2d4",
+    "43": "c0fbda9e1ffb9493ccf7686e567f0c61e92dbf9d4592d51c86afbcf2c3dfadf2",
+    "44": "7acaa87b3a0167618979925c622920c4412228f8befd8f6fc3bc6d548b6a2064",
+    "45": "00a3278d5ec90d42f63fe4e53561ec036d007c6a5250aa3cbd61833e9f500ee8",
+    "46": "0c0c0a41787d1b9d069f1306a6e8199a14ee4e9009a16e8d5ad7db9ae70ae158",
+    "47": "92ca104801553cc145014e3c4468924f6d74d202210495eab0bf560bc65df004",
+    "48": "07d62677554296863d4d129188e1153e62e8e9115b00dd3c04e9ac4a6acb2e10",
+    "49": "23e834a899ae508b796956118b332f715aca50cab81ef48d823c4777dbe8ef0c",
+    "50": "2f536116c67ebb4787ca3d16df44c5c5c9d28057bdea9fb59ec387f59f9c601f",
+    "51": "33565a0f4d601099b2e3eafe4bff89c52e4b34305e4cc444ca04850cab0857a7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas é realmente muito tranquilo chegar em 10, 15, 20 mil reais por mês, em alguns meses aí,",
+      "explicacao": "Os números (5 mil, 10/15/20 mil, \"em alguns meses\"), a condição (passo a passo da aula somado ao conteúdo do curso, 0:47–0:52) e a atribuição ao professor estão certos. O \"5 mil para não assustar\" está em 1:06–1:13. A evidência está dentro da faixa 33–84."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque o Bruno já chegou a faturar 70 mil reais por mês",
+      "explicacao": "70 mil por mês, \"mais de um ano\" com contratos fixos, só celular, iPhone SE no começo e troca de aparelho quando o faturamento permitiu: tudo confere (1:47–3:34). É tratado como exemplo, sem virar meta. Só um detalhe cosmético: inicio=107 corta por ~2 s a frase \"nosso sócio\", sem efeito no uso. A fala sobre \"mais de um ano\" é de Bruno, não dos \"professores\"; sem consequência."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "muita gente não se vê como empresa",
+      "explicacao": "O corpo diz \"O professor resume: é questão de organização e método\". A transcrição não tem rótulo de falante, mas o trecho 3:39–4:41 é a fala de Bruno (\"eu falava com a Flávia assim\", 4:05, que é a esposa dele). \"Então, foi, é tudo questão de organização e método / muita gente não se vê como empresa\" continua essa mesma fala, e o professor só retoma em \"Mas, então vamos lá\" (4:41). A atribuição está trocada. O conteúdo é fiel; o efeito é só de quem diz, então é menor."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O criador-estrategista é o profissional responsável",
+      "explicacao": "Definição, contraste com o social media (carrossel, direct, cronograma, funcionário do cliente) e pacote de oito vídeos com pesquisa, roteiro, gravação e entrega editada conferem com 5:00–6:14. O \"geralmente\" do pacote foi preservado."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que é, esse conteúdo vai estar conectado",
+      "explicacao": "As três habilidades (marca/autenticidade, linguagem da plataforma = formato criativo com a definição da fala, resultado financeiro) estão na ordem e com o sentido da fonte. A última frase do corpo (\"não é postar por postar\") está em 6:41–6:43, 1 a 3 s depois de fim=400. É um vazamento cosmético e o núcleo está dentro da faixa."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, existe uma demanda infinita e consciente.",
+      "explicacao": "Confere com 7:12–8:56: todo mundo precisa e sabe que precisa, a maioria não sabe como, e a vantagem de quem conhece formato criativo. Também confere que dá para ser pago enquanto aprende. As afirmações estão atribuídas ao professor."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ela começou há um ano e três meses, hoje ela faz mais de 20 mil reais por mês, ela já faz três ou quatro meses consecutivos mais de 20 mil reais por mês de faturamento como criador e estrategista.",
+      "explicacao": "Um ano e três meses, mais de 20 mil, três ou quatro meses seguidos e \"nunca viralizou\" (9:23) conferem. O caso é tratado como exemplo, atribuído ao professor e sem virar meta. As duas partes estão dentro da faixa 537–575."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "R$1.800 foi para R$2.500, R$3.350, R$3.800, R$4.250, R$5.800.",
+      "explicacao": "Cinco vídeos por semana caindo para dois, contrato mantido, oito por mês, a sequência de valores até 8.000 sem gravar e a lógica \"método que traz mais resultados\" conferem com 10:35–12:25. O corpo já avisa que os valores são do caso, não referência de preço."
+    },
+    {
+      "numero": 9,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Por exemplo, se você já é um social media",
+      "explicacao": "O campo condicoes diz \"Serve para quem ainda não tem clientes\", e a fonte não impõe isso. Em 17:43–17:59 o professor diz que o método da lista vale para todos e que só muda a forma de entrar em contato conforme o nível: quem já é social media com clientes contata de um jeito, o iniciante de outro. A unidade estreita a condição e pode fazer o agente não oferecer a lista a quem já atende. Os passos do corpo (percorrer contatos, listar 5/10/15/30, qualificar por afinidade e possibilidade de ficar) conferem. O passo 4 (\"a forma depende do seu nível\") está em 17:43–17:52, fora da faixa 779–916."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Já começa setando isso",
+      "explicacao": "O corpo confere (não trabalhar com pessoas piores, bom ambiente, aprender, ser prazeroso). A condição está enviesada: a fonte diz que a possibilidade de escolher aparece \"principalmente no segundo, terceiro mês\" e manda começar a pensar nisso já (\"Já começa setando isso\"). Em condicoes, \"Vale principalmente a partir do segundo ou terceiro mês\" sugere que o princípio só vale depois. O corpo (\"comece a definir isso desde cedo\") corrige em parte. O efeito é pequeno."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "assuntos naquela reunião que eu ia levar para o meu próximo",
+      "explicacao": "Imaginar-se conversando com o cliente, levar assuntos e objeções de reuniões, mesmo as que não fecharam, a reação dos empresários e o inimigo em comum \"post estático sem resultado\" conferem com 16:40–17:36. A condicoes já marca como relato de Bruno."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "ela vai mostrar o áudio pra vocês, mas o áudio que ela manda pro primeiro cliente dela, cara, é ridículo",
+      "explicacao": "Os passos (áudio ou texto, sem cobrar, entrega grátis, projeto por vídeo depois, portfólio com a marca dele) e a condição de iniciante conferem com 17:43–20:27. Há ambiguidade de redação no último parágrafo: \"o áudio da primeira cliente da Paula\" pode ser lido como áudio do cliente. Na fonte o áudio é o que a Paula manda ao primeiro cliente dela. Não muda a orientação (áudio não precisa ser bom), mas convém reescrever."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai duas, três vão te dar atenção",
+      "explicacao": "10 pessoas → duas ou três dão atenção; vídeo para três → pelo menos um fecha; \"praticamente infalível\" (20:29–20:46). O corpo e a nota já apresentam como estimativa informal do professor (\"sei lá\"), sem garantia."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí, conversou pessoalmente com o contrato fechado.",
+      "explicacao": "Começar pelo Instagram, marcar um café, ir ao escritório do cliente e não antecipar a intenção conferem, e a unidade marca como prática de Bruno. O fecho \"saía da reunião com o contrato fechado\" vem de uma frase degradada da transcrição (\"conversou pessoalmente com o contrato fechado\"). O corpo a lê como resultado habitual, e a nota não registra a degradação."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É você criar um conteúdo Com a intenção de fechar um cliente específico",
+      "explicacao": "Conteúdo para cliente específico, análise como jeito mais simples, networking com quem foi analisado, negócio pequeno e concorrentes, e análise que já coloca o plano na mesa conferem com 22:02–25:00. A condição \"praticamente infalível\" está atribuída ao professor. O corpo suaviza \"impossível não ver\" (24:14) para \"dificilmente deixa de ver\", o que é mais cauteloso e não prejudica."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Basicamente, isso trouxe um contrato de 6 mil reais.",
+      "explicacao": "O contrato de 6 mil, os cerca de 160 likes, o fato de não ter viralizado, o Collab aceito e a lógica do conteúdo dirigido ao cliente conferem. A fonte oscila de fato: 25:26–25:37 diz 4 mil, 5.400 e 6.400 antes de 28:15 dizer 6 mil. A nota da unidade registra a incerteza e a confiança é média, então a incerteza está preservada. O valor é tratado como caso."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "ela gera o contraste porque ele é sério e tudo mais",
+      "explicacao": "As quatro partes seguem a leitura do professor (28:43–29:44): falar o que o cliente quer ouvir, gerar valor com ideias, pitch quebrando objeção, oferta de fazer tudo, com a condição de conteúdo dirigido ao cliente e a nota de transcrição falha. Ressalva: o \"contraste\" que o professor cita vem do gancho cético do vídeo (\"É sério mesmo...?\") seguido de elogio, e o corpo atribui o contraste ao elogio de abertura. Esse gancho não está na estrutura (ver omissões). A trecho do pitch está degradada na fonte (\"é flor\", \"tudo separado\"), e a unidade interpreta com confiança média."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "conhecimento dessa estrutura jeito certo e jeito",
+      "explicacao": "O conteúdo central está na fonte: olhar os perfis de advogados, dentistas e lojas, ver o que não dá resultado, gravar jeito errado × jeito certo, falar do inimigo em comum, e a definição de posicionamento. Três ajustes menores. (1) A Pré-condição diz que o leitor 'conhece a estrutura jeito errado × jeito certo', mas Bruno diz que na época não conhecia a estrutura e fazia por instinto; a condição é invenção do extrator, e o termo não é explicado no corpo. (2) A `condicoes` limita a unidade a quem não tem acesso a reuniões, mas o passo 1 inclui reuniões. Na fonte, olhar os perfis é a alternativa para quem não tem reuniões. (3) A fonte é uma narrativa de Bruno, sem sequência de passos; a ordem numerada foi reconstruída. Efeito prático pequeno: o agente pode achar que precisa ter estudado a estrutura antes de aplicar."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "trazer um como eu faria, que também",
+      "explicacao": "Fiel. O professor diz que quem não tem case pode trazer um 'como eu faria', com efeito 'até parecido', e a unidade preserva a atribuição e o hedge. A faixa 2062–2076 cobre o trecho."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu fiz uma hamburgueria saída de 19 mil pra 40 mil reais em faturamento",
+      "explicacao": "Fiel. Cidade de 50 mil habitantes, descarte de influenciadores, pessoas anônimas com bom celular e sem pagamento, muitos vídeos ao mesmo tempo, e o lanche mais caro puxado. Os números 19→40 mil ficam atribuídos ao criador do vídeo e a unidade é `exemplo` perecível, não régua."
+    },
+    {
+      "numero": 21,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "nesse vídeo que ele trouxe, né?",
+      "explicacao": "As três observações (quebrar objeção falando o que o cliente quer ouvir, mostrar que sabe mais que o cliente, mostrar resultado) e a alternativa de mostrar que sabe com um bom roteiro estão na fonte. O professor as diz sobre aquele vídeo específico (o da hamburgueria), e a unidade as escreve como 'Nos vídeos que atraem clientes, o professor destaca...', sem dizer que partem de um vídeo. Isso generaliza um pouco, mas a atribuição ao professor se mantém e o efeito prático é pequeno."
+    },
+    {
+      "numero": 22,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a academia chegou a mais de mil",
+      "explicacao": "Fiel. Três linhas de conteúdo, alunos gravados com autorização e Collab, 500–600 alunos que passaram de mil, capacidade de no máximo uns 800 e perda de alunos até estabilizar. Também está fiel a gravação gratuita, com 4 vídeos por mês e até 8 gravados num dia. A opinião de Bruno sobre influenciadores 'manjados' fica atribuída a ele. Ajuste de classificação em `contrato`."
+    },
+    {
+      "numero": 23,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você grava o bastidor ali",
+      "explicacao": "Fiel. Gravar o bastidor de um cliente, mesmo o primeiro, e usar no feed; o vídeo de referência é de uma agência filmando um mês em um dia num pizza bar; as objeções quebradas são as que o professor cita. O número de likes do caso não foi promovido a régua."
+    },
+    {
+      "numero": 24,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pra quem não viu o vídeo, eu vou deixar os links na descrição da aula dentro aqui da plataforma, beleza?",
+      "explicacao": "Fiel. É `limite` sobre conteúdo visual que a transcrição não capta, como o FORMATO pede, e o link é tratado como perecível. Ajuste de redação em `contrato`."
+    },
+    {
+      "numero": 25,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "não, me lembra até de vendedor de loja",
+      "explicacao": "O conteúdo é fiel: o primeiro passo é ouvir, chegar falando o que vai entregar é falar de problema genérico, e a frase sobre fazer perguntas fica atribuída ao professor. A ressalva é a atribuição 'Bruno ilustra com o médico ... e com o vendedor de loja'. A transcrição não tem falantes. A história do sistema público e do médico parece de Bruno, mas o vendedor da loja da Vivo vem depois de 'não, me lembra até de...', é a mesma fala que pede 'coloca no chat', e em seguida o professor diz 'E aí, beleza, Bruno'. Indício de que o vendedor é do professor, não de Bruno. Efeito prático mínimo, a ilustração é secundária."
+    },
+    {
+      "numero": 26,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "tu vai perguntar também o que que ele quer, né,",
+      "explicacao": "Fiel. Os cinco passos batem com a fonte: pedir para falar do negócio; perguntar sobre quem cuidou das redes, deixar contar os gargalos e não falar mal de quem passou; perguntar o resultado desejado; colocar a visão adaptada, com a 'pesquisa de empatia'; e colocar-se à disposição para fazer até dar certo sem prometer virada no primeiro vídeo. A aula não tem ordem numerada, mas a sequência é coerente com o que se diz. A condição 'Método de Bruno' é aceitável."
+    },
+    {
+      "numero": 27,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vai marcar um dia de gravação",
+      "explicacao": "Fiel e completa: formato criativo como trabalho, pesquisa (negócio, clientes, referências), roteiros com base nela e aprovação, dia de gravação, edição, aprovação e ajustes, e a ressalva de que o primeiro vídeo pode não dar certo e se melhora a cada vídeo. A condição de 'escopo inicial que muda com o tempo' também está na fonte."
+    },
+    {
+      "numero": 28,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Cada um desses elementos da oferta, como um benefício associado aos problemas que ele apresentou.",
+      "explicacao": "Fiel. A regra e os dois exemplos (agência que perguntava o que gravar → roteiro 100% pronto e guia na gravação; pouca interação → pesquisa que entende o público) estão atribuídos ao professor. A frase final sobre pegar o negativo e mostrar que com você é diferente também está na fonte."
+    },
+    {
+      "numero": 29,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a partir do momento que você me contrata",
+      "explicacao": "Fiel. O temor do cliente, a exclusividade por nicho, o restaurante recorrente a 3.800 por mês, os 20 clientes de nichos diferentes e a lógica de facilitar o trabalho e prender o cliente conferem. Os valores ficam como caso (`exemplo`, perecível). Detalhe irrelevante: a fonte narra 'o cliente' no singular e a unidade diz 'clientes'."
+    },
+    {
+      "numero": 30,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "só que quando você vai vendendo um a um é muito mais fácil",
+      "explicacao": "A regra 'o grande lance das vendas é falar o que as pessoas querem ouvir' e a restrição da exclusividade a quem a valoriza estão fiéis. O desvio está na `condicoes`: 'Vale para venda um a um'. Na fonte, o princípio é geral, tanto que o professor o aplica à venda do próprio curso (onde 'a gente falou o que você queria ouvir'). Só diz que vender um a um é 'muito mais fácil' porque se vê o rosto da pessoa. A unidade transforma facilidade em limite de escopo, e o próprio corpo (exemplo do curso) contradiz a condição. Efeito: o agente pode deixar de aplicar o princípio em venda em escala, mas a tarefa da unidade é fechamento, então o impacto é pequeno."
+    },
+    {
+      "numero": 31,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "quanto eu cobro, quanto eu cobro, acabam não cobrando,",
+      "explicacao": "O núcleo do corpo (qualquer valor serve, de graça, 50, 100 ou 1.000 por vídeo, depende da confiança, 50 reais tudo bem) está dentro de 3327–3368. Mas a última parte do corpo ('O que importa é cobrar mais caro no próximo' e 'Muita gente fica no quanto cobrar e acaba não cobrando nem fazendo') está depois do `fim`: 'A única coisa que importa é' começa em 56:09 (≈3369 s), 'cobra mais caro no próximo' em ≈3371 s e 'acabam não cobrando' em ≈3381 s. Basta estender `fim` para ≈3388 (ou tirar essas frases, já que a 32 cobre 'cobre mais caro no próximo'). O conteúdo em si é fiel."
+    },
+    {
+      "numero": 32,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas nunca fecha o terceiro cliente",
+      "explicacao": "Fiel. O professor diz 'nunca fecha o terceiro cliente pelo mesmo valor dos dois anteriores', e os valores 800, mil, 1.200 e 1.400 estão marcados como exemplo dele, com a condição do pacote de oito vídeos e a nota. A régua é a regra dos três clientes, e os valores de ilustração não viram parâmetro."
+    },
+    {
+      "numero": 33,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Resultado não é viralização, não é grandes seguidores",
+      "explicacao": "Fiel. Sem resultado, cobrar o que as pessoas aceitam pagar e construir resultado; honestidade como valor entregue igual ao cobrado; resultado como vídeo bem feito com interação, variável por cidade e negócio; comparação com o estágio. A `condicoes` traz a pergunta que originou a resposta."
+    },
+    {
+      "numero": 34,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E ela cobrou 400 reais por quatro vídeos.",
+      "explicacao": "Fiel. Áudio ruim, primeiro contrato, quatro vídeos por 400 reais, cerca de dois dias de trabalho, seguintes de 'sei lá, 800' e 1.000, e 6.000 depois de um ano e três meses. Os valores estão como caso do professor, não como referência de preço."
+    },
+    {
+      "numero": 35,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "fechou duas empresas pra gente",
+      "explicacao": "O núcleo confere: primeiro contrato de R$1.500, iPhone SE, LED de quintal rebatido no teto, cliente que fechou duas empresas (R$3.000 no mês), e a sequência 12, ~35 e 70 mil com picos de 80 e 85. A unidade já sinaliza a linha do tempo confusa na nota. Detalhe menor: \"a esposa\" é inferência. A fala só diz \"a gente\" e cita \"a Flávia\" (e \"Flávio\" em outro ponto), e nunca diz explicitamente esposa. Não altera o uso da unidade."
+    },
+    {
+      "numero": 36,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você cria um planejamento sem deura",
+      "explicacao": "Bate com a fonte: um planejamento por cliente fechado, com pesquisa, ideias, descarregar e roteirizar até os oito vídeos, e oito vídeos gravados em um dia, às vezes dois. O nome do planejamento está degradado na transcrição (\"sem deura\") e a unidade não o inventa, o que é correto. Perecível marcado corretamente."
+    },
+    {
+      "numero": 37,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que faturava um milhão por ano",
+      "explicacao": "12 clientes só com ele e a parceira, editor perto de 15, três editores e um designer com 20, empresário e líder de equipe: tudo confere. Dois detalhes menores: (1) a fonte diz \"faturava um milhão por ano\" e, em outro ponto, \"70 é base, a gente fazia mais do que isso\"; a unidade escreve \"mais de um milhão\", o que é inferência sobre o valor mensal, não frase literal. (2) \"A esposa\" é inferência, pois a transcrição alterna Flávia/Flávio. Nenhum dos dois muda a decisão de quem consulta."
+    },
+    {
+      "numero": 38,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "o cliente só fechava se ele aceitasse",
+      "explicacao": "O conteúdo confere: dia e horário fixos, exemplo de terça às 15h, remarcação em imprevistos e 20 clientes gravando em dia fixo. Ajuste menor de atribuição: a fonte é o relato da prática de Bruno com a justificativa dele (\"o meu negócio ia desandar, não ia crescer\"). O corpo a escreve como imperativo (\"Só feche…\") e afirma \"Sem isso o negócio desanda\" sem atribuir. A condicoes (\"Prática de Bruno\") mitiga, mas o corpo isolado soa como lei universal."
+    },
+    {
+      "numero": 39,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a formação criador estrategista",
+      "explicacao": "É oferta comercial corretamente registrada como limite: foco no próximo ano, produto de Bruno, formação com estratégia de venda, de conteúdo, de lançamento e anúncio. Não inventa preço ou data e diz isso. Faixa e perecível corretos."
+    },
+    {
+      "numero": 40,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque não existe pessoas que tem essa habilidade",
+      "explicacao": "Confere: o mercado \"implora\", nomes de destaque pedem o profissional, a maioria das grandes empresas do mercado digital teria um aluno da formação, ausência de concorrência (\"mar azul\"). A unidade atribui ao professor e não confirma eficácia. Ela suaviza \"não existe\" para \"quase não existem\" e usa \"teria\" onde a fonte afirma \"tem\". A suavização é conservadora e não muda o uso."
+    },
+    {
+      "numero": 41,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tu pode ser pago para aprender e descobrir o que você quer fazer",
+      "explicacao": "Confere integralmente: profissão de transição para quem não sabe o que quer e para quem sabe mas ainda não gera resultado (vender curso online), com pagamento enquanto aprende. Condição preservada."
+    },
+    {
+      "numero": 42,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma oferta de valor resolve um desejo dos sonhos",
+      "explicacao": "As quatro características (desejo dos sonhos, crença de que pode alcançar, resultado rápido, pouco esforço) estão na ordem da fonte, e a unidade atribui as afirmações de vantagem ao professor. A observação sobre o social media também confere. A faixa inclui a frase sobre o curso (\"trabalhando menos\"), que a unidade não usa, sem prejuízo."
+    },
+    {
+      "numero": 43,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "dois bons vídeos por semana, esse é o mínimo",
+      "explicacao": "Número e condição corretos: dois bons vídeos por semana como mínimo para o cliente ter resultado e gostar do trabalho, com \"bons\" definido como bem feitos, editados e produzidos, e não virais. O trecho \"com o Nikon\" na transcrição está degradado e a unidade o ignora, corretamente."
+    },
+    {
+      "numero": 44,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "3, 4, 5, 6, 7, 15 mil reais",
+      "explicacao": "Confere: alunos que fazem de 3 a 15 mil por mês estão disponíveis para perguntas, há aulas semanais com quem tem resultado, e Bruno ensina edição e visão estratégica. A afirmação de ganhos de alunos vem como fala do professor, ainda que só implicitamente atribuída pelo \"O professor recomenda…\". A nota sobre dias e horários divergentes (quarta/sexta) é honesta."
+    },
+    {
+      "numero": 45,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Provavelmente eu vou deixar isso em aula separada",
+      "explicacao": "Confere: o Q&A com a Paula provavelmente fica em aula separada na plataforma. A unidade preserva o \"provavelmente\". Faixa correta e perecível marcado."
+    },
+    {
+      "numero": 46,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "esse negócio de preço é uma caminhada",
+      "explicacao": "Confere: geralmente por pacote de oito vídeos, mas o que mais funciona é fechar mensalidade, os últimos contratos de Bruno em 8 mil por 8 vídeos por mês, e a ressalva de que não é mil reais por vídeo porque se cobra expertise, leitura de mercado e tempo de caminhada. O número de caso fica como ilustração atribuída a Bruno, não como régua."
+    },
+    {
+      "numero": 47,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "ela fecha no mínimo 3 meses",
+      "explicacao": "Os três meses, a previsibilidade, a preferência de Bruno, a cláusula de auto-renovação e o ano com o cliente conferem. Ajuste menor: a fonte descreve a prática de outra pessoa (\"Maria Lini… fecha no mínimo 3 meses\") comentada como relevante, mais a preferência de Bruno. O corpo abre com um imperativo universal (\"Feche contratos de pelo menos três meses\") sem atribuir a primeira parte e sem condicoes. A nota registra a pessoa, mas o corpo só atribui a Bruno."
+    },
+    {
+      "numero": 48,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente nunca colocava gravação, porque o empresário",
+      "explicacao": "Rotina (segunda edição, terça gravação, quarta edição, quinta gravação, sexta edição), motivo de não gravar na segunda e ressalva sobre entregar algo no nível viável conferem. Está atribuída à prática de Bruno e condicionada a quem trabalha sozinho."
+    },
+    {
+      "numero": 49,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "a gente cobrou 8 mil reais",
+      "explicacao": "Conteúdo confere: cobrar mais em evento por causa da entrega em tempo real e do editor, 8 mil por 8 vídeos há alguns anos, e a recomendação geral para stories. Ajuste menor de atribuição: a fonte não identifica quem disse \"a gente cobrou 8 mil reais\". Há troca entre dois falantes (\"foi isso?\" / \"acho que foi na época\"), e só depois vem \"Sim, quando eu tava com os 18, 20 clientes\", que é claramente Bruno. A unidade e a nota afirmam que o caso é de Bruno, o que a fonte não prova. A unidade também omite \"bota um valor que você acha que vale a pena pra você, de acordo com o tempo que você vai dedicar\"."
+    },
+    {
+      "numero": 50,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não comece essa profissão sem ver as aulas do produto",
+      "explicacao": "Confere: material de organização entre as primeiras aulas, ver as aulas antes de começar, \"sabe mais do que 95% das pessoas\" (a fonte acrescenta \"do planeta\", exagero omitido sem efeito) e a planilha de planejamento. A afirmação dos 95% está atribuída (\"Diz que\"). Perecível marcado."
+    },
+    {
+      "numero": 51,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas é o processo utilizado com a SOFIA",
+      "explicacao": "Confere: roteiro foi o gargalo que impediu passar de 20 clientes, com edição, design e social media já resolvidos; recomenda a SOFIA; há processo específico; vários alunos viralizando vídeos com ela. Ajuste menor de faixa: fim=4863, mas a frase \"Mas é o processo utilizado com a SOFIA\", que sustenta \"o resultado vem do processo indicado\", vai de ~4862,7 a ~4866,2. Só o começo cabe na faixa. O conteúdo essencial está dentro dela, então não é faixa-errada."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 1573,
+      "trecho_fonte": "É sério mesmo que essa loja se diz o maior garden center do Brasil",
+      "descricao": "O vídeo de análise da Paula abre com um gancho cético (\"É sério mesmo... será que é tudo isso mesmo ou é só fama?\") e só depois vira elogio. O professor diz que isso gera o contraste (28:46). A estrutura da U17 começa direto no elogio e não registra o gancho de dúvida. O vídeo também fecha com uma pergunta ao público (\"qual dessas três estratégias você gostaria de usar na sua empresa?\"), que também não está preservada.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir a estrutura da U17 abre só com elogio e perde o contraste que o professor aponta como parte do que funcionou no vídeo. O impacto é moderado, porque a estrutura continua executável."
+    },
+    {
+      "inicio": 3878,
+      "trecho_fonte": "é como que eu faço para começar agora.",
+      "descricao": "Bruno reenquadra a dúvida de cobrar caro: a pergunta certa é como começar agora, e começar pode ser cobrir pelo menos os próprios custos e aprender com o corre. Ele ainda cita que, ao crescer, formou fila de espera de clientes. Nenhuma unidade guarda esse critério de começo (64:36–65:45). A U31 e a U33 cobrem só o valor do primeiro preço e a construção de resultado.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem perguntar como definir o começo, com medo de cobrar pouco, não encontra o critério de bastar cobrir os custos para começar e aprender."
+    },
+    {
+      "inicio": 4745,
+      "trecho_fonte": "Na comunidade tem curso de edição de vídeo? Cara, tem curso",
+      "descricao": "Em resposta a uma pergunta, o professor diz que há curso de todas as etapas do processo (edição de vídeo, gravação, iluminação), tanto na formação quanto no Formato Criativo (79:05–79:17). A U44 cita só que Bruno ensina edição e a visão estratégica, e a U50 fala das aulas do produto.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que receber \"onde aprendo a editar, gravar ou iluminar para atender clientes?\" não terá a informação de que o curso cobre essas etapas. É um recurso perecível do curso, mas é a resposta direta a uma pergunta."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U1: tipo `conceito` não corresponde ao conteúdo. A unidade registra uma promessa de faturamento do professor, e não uma definição ou distinção usada para pensar. O corpo e a condicoes também dependem de referências à aula (\"aplicando o que a aula traz\", \"o passo a passo da aula\"). Classificação discutível, ajuste menor.",
+    "U4: o corpo define a profissão como \"encontrar o formato criativo dos clientes\" sem explicar o termo, que só é definido na U5. Consultada sozinha, a U4 usa jargão do curso sem definição. Ajuste menor.",
+    "U15 e U17: \"formato de análise que o curso ensina\" (U15) e \"contraste\" (U17) são termos do curso usados sem explicação no corpo. A fonte descreve o formato de análise como analisar grandes criadores de conteúdo (22:37). Ajuste menor.",
+    "U12: a frase \"o áudio da primeira cliente da Paula\" é ambígua sobre quem mandou o áudio, e na fonte é a Paula quem manda o áudio ao primeiro cliente. Pede correção de redação. Ajuste menor.",
+    "U18: a Pré-condição usa 'a estrutura jeito errado × jeito certo' sem explicá-la, e a fonte diz que Bruno não a conhecia na época. Menor: tirar a exigência de conhecer a estrutura ou explicá-la em uma frase.",
+    "U22: tema `planejamento-de-conteudo` e tarefa `planejar-conteudo` não combinam com o caso, que mostra Collab com alunos como conteúdo de um cliente. A U20, com a mesma lógica (pessoas comuns em vez de influenciadores), está em `clientes-e-precificacao`. Classificação discutível, menor.",
+    "U24: título e corpo dependem de 'os vídeos de referência mostrados em tela' sem dizer quais são (vídeos de criadores que atraem clientes). Fora da aula, o leitor não sabe a que se refere. Menor: nomear no corpo o que os vídeos mostram.",
+    "Unidade 43 (menor): o corpo abre com \"Explica o pacote de oito vídeos por mês:\", verbo sem sujeito que narra o que o professor faz na aula em vez de dar a orientação. Lido sozinho, o agente não vê que os oito vídeos vêm de 2 por semana nem por que esse é o mínimo. Reescrever como afirmação direta resolve.",
+    "Unidade 50 (menor): \"o produto\" e \"material de organização\" ficam sem explicação no corpo. A fonte só permite dizer que produto é o curso Formato Criativo de Conteúdo (\"nosso produto… dentro do formato criativo de conteúdo\"); \"material de organização\" a fonte não define. Quem consulta sem a aula pode não saber a qual aulas o corpo se refere.",
+    "Unidade 36 (menor): o corpo diz \"o planejamento que o curso oferece\" sem nomear o recurso, porque o nome está degradado na transcrição (\"sem deura\"). O agente não consegue localizar o material. A nota já sinaliza a dúvida; vale manter a marcação de incerteza e evitar tratar \"descarrega\" como termo entendido (jargão sem explicação no corpo)."
+  ],
+  "material": [],
+  "resumo": "Bloco 1 (U1–U17): 15 unidades estão lastreadas e 2 têm desvio menor, ambos de baixo risco. Na U3 a conclusão \\\"organização e método\\\" é atribuída ao professor, mas é fala de Bruno. Na U9 a condicoes diz que a lista serve só a quem não tem clientes, e a fonte diz que vale para todos e que só muda a forma do contato. As demais têm ajustes menores de redação, condição ou faixa. Não há material de apoio e não achei perecível escondido nas unidades 1–17. Na busca pela fonte inteira registrei 3 omissões menores, sem parte essencial ausente. | Bloco 2 (unidades 18–34): 15 das 17 unidades estão fiéis à fonte, com números, condições e atribuições preservados. Uma unidade tem desvio menor: a U30 restringe a regra 'falar o que a pessoa quer ouvir' à venda um a um, quando a fonte a apresenta como geral. Uma tem faixa-errada menor: o fecho do corpo da U31 está depois do `fim`. As demais ressalvas são menores, entre elas uma atribuição incerta na U25 e a pré-condição inventada na U18. Sem material de apoio e sem perecibilidade omitida neste bloco. `omissoes` fica vazio, como o bloco pede. | Bloco 3 (unidades 35–51): as 17 unidades estão lastreadas na fala, sem desvio, sem-lastro ou faixa-errada, e não há material de apoio a conferir. Os apontamentos são menores: atribuição ou generalização nas unidades 38 e 47, atribuição incerta do caso de 8 mil na 49, \\\"esposa\\\" e \\\"mais de um milhão\\\" como inferências nas 35 e 37, e faixa da 51 curta em cerca de 3 s. Não achei perecível escondido em unidade marcada como não perecível. Por instrução do bloco, `omissoes` foi devolvido vazio, a busca fica com o bloco 1."
+}

@@ -1,0 +1,121 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "80fd8ae8ca7ad0aba334cc3b464ad818bed8b9e540feb4b125b9acbdd7a5fcab",
+  "inspecao_sha256": "080ad2795db3c59375ee66fe3771550ee1ce9706efdb0e97eb1c9ac390de72b4",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "47b64800d25672d5a2d73a9155324892c7557b4764b5b1f401484b6652ba5e5f",
+  "veredito": "falha",
+  "vetos": [
+    "contrato",
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Veto. O validador acusa dois erros de título fora de 1–80 caracteres, em U5 e U16. Contagem aproximada: 85 e 83 caracteres. A rubrica exige zero erros, e isso basta para o veredito `falha`. A correção é objetiva e o título não entra no hash, então a evidência das duas unidades se mantém. O inspetor listou em `contrato` a plataforma `instagram` de U12, U13, U15 e U17, mas isso é aplicabilidade e está julgado lá. A numeração de U21 e U22 fora da ordem da fonte não é erro de script. Fica como ajuste menor, sem renumerar.",
+  "fidelidade": "Veto, por quatro pontos locais. Números, condições e casos conferem nas 26 unidades, segundo o inspetor. Os números de caso estão em `exemplo` e marcados como perecíveis. A inspeção é integral e não tem citação não literal.\n\n1. **U22:** o título afirma \"comunidade paga\", sem fonte. A própria nota admite que a transcrição não diz isso. Nota e `confianca: media` não autorizam manter um erro conhecido.\n2. **U14:** o inspetor classificou como desvio e eu confirmo. Os passos 3 (\"Escreva as diferenças\") e 4 (\"Escolha as que vai corrigir\") não existem na fonte. O professor disse que ia melhorar as duas, então \"escolher\" muda o sentido. O tipo `procedimento` é defensável, porque U16 generaliza a comparação entre o vídeo que deu certo e o que não deu. Os passos inventados não são.\n3. **U3 e U23:** há divergência entre fala e material sem registro. A rubrica é categórica nesse ponto, e corrigir só a nota não altera o hash.\n   - U3: a fala diz \"nenhuma trend\" e o material diz \"não dependam apenas de uma tendência\".\n   - U23: o material manda melhorar um mecanismo por vez e o exercício pede um único mecanismo. Na fala, o professor corrige duas coisas de uma vez (~719 s). U5, passo 4, fala em aplicar \"essas melhorias\", no plural.\n4. **U13 e U15:** as notas dizem que o material traz \"Rodrigo Manga\" e \"Rodrigo Pantera\". O inspetor mostra que esses nomes só existem na fala. A nota, que deveria registrar a incerteza, registra uma certeza falsa.\n\nFaixa: o inspetor marcou `faixa-errada` em U17 e U18, 2 das 22 unidades com faixa (9,1%). Fica abaixo do limite de 10% e não veta. U12 e U22 têm uma frase fora da faixa, mas o núcleo está dentro, então sigo o veredito por unidade do inspetor.\n\nDois reparos ao inspetor sobre U22. Ele diz que a aluna que \"passa o ano\" está no corpo, mas ela está só na nota. Ele também diz que a unidade descarta o vínculo com Estudar, e o corpo abre com \"Dentro da etapa de estudar do método EVA\". O que falta é apenas o motivo.",
+  "cobertura": "Sem veto. O inspetor declara alcance integral e busca de omissões na fonte inteira, e não achou omissão relevante. As unidades cobrem:\n- o ciclo de hipótese e a régua das duas levas com seu procedimento;\n- as perguntas de análise e a decisão depois das levas;\n- o método EVA;\n- os três casos do formato de análise e o caso da aluna;\n- a expectativa de acerto;\n- o exercício e as listas do material.\n\nO convite à comunidade está registrado como `limite` (U22).",
+  "perecibilidade": "Sem veto. O inspetor não sinalizou nada. Conferi nas unidades: `ferramenta` (U21), convite à comunidade (U22), links (U25) e todos os exemplos com números de caso (U11, U12, U13, U15, U17, U19) têm `perecivel: true`. U9 e U20 trazem proporções ilustrativas do professor, que não são números de mercado. Um ponto de baixa relevância: U26 cita o \"espaço de discussão\" do curso com `perecivel: false`. O inspetor não apontou isso e não vira veto.",
+  "aplicabilidade": "Veto, por dois pontos.\n\n1. **U12, U13, U15 e U17 com `plataformas: [\"instagram\"]`.** A orientação que carregam não depende de recurso, métrica ou comportamento do Instagram. Elas tratam de lapidar por comparação, abrir com conflito, pesquisar a linguagem da comunidade e escolher um tema que importa. A taxonomia é explícita: onde o exemplo foi publicado não muda `geral`. U11 e U19, que são equivalentes, estão em `geral`, então nem coerência interna sustenta a escolha. A rubrica cita esse caso, plataforma específica para orientação geral.\n   - Um agente que filtra `lapidar-formato` em `geral` perde os casos centrais da aula.\n   - `cobertura.jsonl` passa a marcar `presente` para `instagram` em `escrever-gancho`, `pesquisar-publico` e `definir-tema-e-moral`, e o curso não cobre nada específico da rede nessas tarefas.\n2. **U25.** O título promete os links dos cinco vídeos e o corpo não traz nenhum endereço. Só a `evidencia` mostra um. O agente não tem o material, então a unidade não se sustenta sozinha e não permite executar `analisar-video-de-referencia`.\n\nO restante se sustenta:\n- os procedimentos começam com pré-condição;\n- as decisões começam com \"Se\" ou \"Quando\";\n- CDF é explicado no corpo de U10.\n\nFicam como ajustes menores:\n- \"figurante\" é explicado só por contraste;\n- \"pele emocional\", \"pesquisa de bolha\" e \"lista de formatos virais\" aparecem sem explicação;\n- U21 depende de \"abaixo da aula\";\n- U18 não registra em `condicoes` que a orientação vem do caso de uma aluna.",
+  "falhas": [
+    {
+      "id": "M03_A06-F1",
+      "unidades": [
+        5,
+        16
+      ],
+      "veto": "contrato",
+      "evidencia": "Validador: \"U005: título fora de 1–80 caracteres\" e \"U016: título fora de 1–80 caracteres\". Os títulos têm cerca de 85 e 83 caracteres.",
+      "impacto": "A rubrica exige zero erros de contrato. Com os dois erros, o arquivo não gera derivados válidos e não entra na base.",
+      "mudanca_minima": "Encurtar os dois títulos para 80 caracteres ou menos, sem mudar o sentido. Sugestões: \"Ciclo das duas levas: publicar três, analisar, ajustar e publicar mais três\" (75) e \"Clareza vem do volume de análise; sem clareza, publique assim mesmo\" (67). Não mexer em corpo nem em metadados. O título não entra no hash.",
+      "criterio_de_aceite": "`base_fcc.py` roda com zero erros em M03_A06. Os hashes de U5 e U16 ficam iguais aos da inspeção atual."
+    },
+    {
+      "id": "M03_A06-F2",
+      "unidades": [
+        22
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O título diz \"Convite à comunidade paga para análise de conteúdo\". O inspetor marcou `sem-lastro`, com trecho literal \"se você está na comunidade, entra na comunidade\". Nem a fala nem o material dizem que a comunidade é paga. A nota da própria unidade admite: \"A transcrição não deixa claro se a comunidade é um produto pago à parte\".",
+      "impacto": "O agente vai afirmar com confiança que a comunidade é um produto pago. Isso é uma afirmação comercial sem fonte. O título é o que aparece nos índices e no cabeçalho citável. Nota e `confianca: media` não autorizam manter um erro conhecido.",
+      "mudanca_minima": "Tirar \"paga\" do título, por exemplo \"Convite à comunidade dos professores para análise de conteúdo\". Manter a nota de incerteza. Não mexer no corpo por causa deste item.",
+      "criterio_de_aceite": "Título, corpo e `condicoes` de U22 não afirmam que a comunidade é paga nem dão qualquer outra natureza comercial ausente da fonte. A nota continua registrando a incerteza. Se só o título mudar, o hash de U22 fica igual."
+    },
+    {
+      "id": "M03_A06-F3",
+      "unidades": [
+        14
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor marcou `desvio`, com trecho literal \"Eu comparei ele, coloquei ele do lado\". A fonte narra o que o professor fez com o vídeo do prefeito: \"tá, essas são as hipóteses, vou melhorar essas duas\". Os passos 3 (\"Escreva as diferenças encontradas\") e 4 (\"Escolha as que vai corrigir\") não estão na fonte. O professor corrigiu as duas, não escolheu entre elas.",
+      "impacto": "Um agente executa procedimento passo a passo. Ele vai incorporar como método do curso duas ações que o curso não ensina. \"Escolher quais corrigir\" ainda muda o sentido do caso, em que as duas hipóteses foram aplicadas.",
+      "mudanca_minima": "Manter `procedimento`, porque U16 generaliza a comparação entre o vídeo que deu certo e o que não deu. Reescrever os passos só com o que a faixa sustenta: (1) colocar os dois vídeos lado a lado; (2) identificar o que o vídeo que funcionou tem e o outro não tem; (3) tratar as diferenças como hipóteses e melhorá-las no próximo vídeo. Registrar em `condicoes`, ou na frase final, que a sequência vem do caso narrado pelo professor (prefeito de Sorocaba × Jeanne Keller) e que ele não a enuncia como passo a passo. Incrementar `versao`.",
+      "criterio_de_aceite": "Nenhum passo de U14 contém ação que o inspetor não localize na fonte. \"Escreva\" e \"escolha as que vai corrigir\" saem, a menos que o redator apresente o trecho literal. A origem em caso narrado está explícita na unidade. A reinspeção focal marca U14 como `lastreada`. O validador segue sem erro: o corpo começa com `Pré-condição:` e tem pelo menos 2 passos."
+    },
+    {
+      "id": "M03_A06-F4",
+      "unidades": [
+        3,
+        23
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Campo `material` do inspetor. Em U3, a fala exige que o vídeo antigo não seja \"vídeo de nenhuma trend\" e o material diz \"que não dependam apenas de uma tendência\", que é menos restritivo. U3 tem `fonte: fala+material`, adota a fala e tem `nota: null`. Em U23, o material diz \"Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez\" e o exercício pede um único mecanismo entre as levas. Na fala, o professor corrige duas coisas de uma vez entre o vídeo do prefeito e o do Pantera (\"vou melhorar essas duas coisas\", ~719 s). U5, passo 4, fala em aplicar \"essas melhorias\". U23 tem `nota: null`.",
+      "impacto": "A rubrica trata como desvio a divergência entre fala e material resolvida em silêncio. Em U3, o agente aplica o critério mais restritivo sem saber que o material aceita vídeo que use tendência sem depender só dela. Em U23, o agente recebe \"um por vez\" como regra categórica, enquanto U15 e U5 mostram correção múltipla. Sem nota, ele não sabe que as duas versões coexistem e pode montar uma skill contraditória.",
+      "mudanca_minima": "Só `nota`, que não altera o hash.\n- U3: registrar as duas formulações do critério de trend, a da fala e a do material, sem escolher lado.\n- U23: registrar que o princípio \"um mecanismo por vez\" vem do material e que na fala o professor narra ter corrigido dois pontos de uma vez (caso prefeito → Pantera, U13 a U15), sem escolher lado.\n- Baixar `confianca` de U23 para `media` só se o redator, com a fonte, confirmar que a fala orienta corrigir vários de uma vez, e não apenas narra o caso.\n- Opcional: fazer remissão equivalente na nota de U15.",
+      "criterio_de_aceite": "U3 e U23 têm `nota` com as duas versões identificadas por origem, fala e material. O corpo não declara qual vence. O inspetor confirma que as formulações citadas nas notas existem na fonte. Se `confianca` de U23 mudar, a unidade passa por reinspeção focal. Caso contrário, os hashes de U3 e U23 ficam iguais."
+    },
+    {
+      "id": "M03_A06-F5",
+      "unidades": [
+        13,
+        15
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Campo `material` do inspetor. A nota de U13 diz que \"o material confirma que o vídeo é sobre o prefeito de Sorocaba, Rodrigo Manga\". O material só diz \"prefeito de Sorocaba\", e \"Rodrigo Manga\" aparece apenas na fala. A nota de U15 diz que \"Pantera\" e \"Rodrigo Pantera\" estão \"na fala e no material\". O material grafa só \"Pantera\", e \"Rodrigo Pantera\" só existe na fala.",
+      "impacto": "O FORMATO manda registrar incerteza em nota quando só a fala cita um nome. Essas notas afirmam uma confirmação do material que não existe. O agente, ou um revisor, passa a tratar como confirmados nomes próprios que vêm de uma transcrição sabidamente instável. A própria nota de U13 lista \"Prefeito Tocaba\" e \"Feito Trocava\". Isso é afirmação sem fonte sobre a procedência e engana quem for verificar.",
+      "mudanca_minima": "Só `nota`, que não altera o hash.\n- U13: dizer que o material confirma \"prefeito de Sorocaba\" e que o nome \"Rodrigo Manga\" aparece só na fala, no trecho do vídeo transcrito, com grafia não confirmada.\n- U15: dizer que o material grafa apenas \"Pantera\" e que \"Rodrigo Pantera\" vem só da fala.\n- O corpo de U15 pode manter \"Rodrigo Pantera\", desde que a nota deixe a origem clara.\n- Se U13 for reaberta pelo item F6, aproveitar para registrar na nota que \"forçado\" é leitura do trecho degradado \"meio arrasa\".",
+      "criterio_de_aceite": "As notas de U13 e U15 não atribuem ao material nenhum nome que o inspetor não encontre nele. A origem só na fala de \"Rodrigo Manga\" e de \"Rodrigo Pantera\" está registrada. O inspetor confirma as duas notas contra o material."
+    },
+    {
+      "id": "M03_A06-F6",
+      "unidades": [
+        12,
+        13,
+        15,
+        17
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "As quatro unidades têm `plataformas: [\"instagram\"]`. A taxonomia define `geral` como padrão e diz que \"menção de onde um exemplo foi publicado não muda isso\". `instagram` exige dependência de recurso, métrica ou comportamento da rede. A lógica desses casos é geral: validar hipótese de formato, abrir com conflito, pesquisar a linguagem da comunidade, linguagem familiar e tema que importa. U11 e U19, que são equivalentes, estão em `geral`. O inspetor apontou o mesmo, no campo `contrato`.",
+      "impacto": "- O agente que filtra `lapidar-formato`, `escrever-gancho` ou `analisar-video-de-referencia` em `geral` não encontra os três casos centrais da aula nem o caso da aluna.\n- `cobertura.jsonl` passa a marcar `presente` para `instagram` em `lapidar-formato`, `escrever-gancho`, `pesquisar-publico` e `definir-tema-e-moral`.\n- O agente conclui que o curso tem orientação específica de Instagram nessas tarefas, o que é falso.",
+      "mudanca_minima": "Trocar `plataformas` para `[\"geral\"]` em U12, U13, U15 e U17 e incrementar `versao`. U25 continua `instagram`, porque são links de Reels. O hash das quatro unidades muda de qualquer forma, então vale corrigir junto as faixas: U12, com a frase final da Lógica em 609–620 s; U17, com `inicio` perto de 978.",
+      "criterio_de_aceite": "U12, U13, U15 e U17 estão com `plataformas: [\"geral\"]`. Em `cobertura.jsonl`, nenhuma dessas quatro unidades aparece em linha de `instagram`. A reinspeção focal dessas unidades, cujo hash mudou, mantém o veredito `lastreada`."
+    },
+    {
+      "id": "M03_A06-F7",
+      "unidades": [
+        25
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "O título é \"Links dos cinco vídeos analisados na aula\", com tipo `fato-material`. O corpo só diz que \"o material lista os endereços\" e não traz nenhum. A `evidencia` mostra um único link, o de Jeanne Keller. O inspetor escreveu: \"O agente sem o material não consegue localizar os vídeos.\"",
+      "impacto": "O agente consulta a base sem o material. A unidade promete a informação e não a entrega, porque a referência ficou no material. Para `analisar-video-de-referencia`, isso impede executar: o agente não consegue indicar os vídeos que a aula usa como casos.",
+      "mudanca_minima": "Incluir no corpo os cinco endereços, cada um com seu rótulo: Jeanne Keller, prefeito de Sorocaba, Pantera e as duas versões do vídeo de Isa Franklin, a fria e a familiar e emocional. Copiar caractere a caractere do material, em até 8 linhas. Manter `perecivel: true` e a nota de que os destinos não foram verificados. Cuidar da regra de cópia bruta, que proíbe 25 palavras idênticas em sequência. Para isso, usar rótulos próprios e intercalar texto, se preciso. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo de U25 traz os cinco URLs. O inspetor confirma cada um, literal, contra o material. O validador segue com zero erros, inclusive na regra de cópia bruta e no limite de linhas. `perecivel: true` e a nota de destinos não verificados estão preservados."
+    }
+  ],
+  "ajustes_menores": [
+    "Faixas de U17 e U18, marcadas `faixa-errada` pelo inspetor. São 2 de 22 unidades com faixa (9,1%), abaixo do limite de 10%, e não vetam. Em U17, a Situação está em ~995–1007 s e a faixa começa em 1010, então `inicio` deve ir para perto de 978. Em U18, as imagens mentais e o exemplo do crossfit estão em ~1191–1200 s e a faixa termina em 1070. Pode-se estender `fim` ou mover a frase para U17, cuja faixa cobre o trecho. Vale fazer neste ciclo, porque U17 já perde o hash pelo item F6.",
+    "U12: a última frase da Lógica (\"escrever foi simples porque acompanhavam a criadora\") está em 609–620 s, fora da faixa 470–590. Pode-se estender `fim` ou mover a frase para U13. O núcleo está dentro da faixa.",
+    "U22: a frase \"recomenda que quem não participa passe a participar\" está em ~989–991 s, fora da faixa 356–400. O corpo também omite o motivo que a fonte dá para pedir análise ao time: \"porque aí você vai entendendo mais formas de melhorar\". O vínculo com a etapa Estudar do EVA está preservado no corpo, ao contrário do que o inspetor sugere.",
+    "U18: a orientação foi dada a uma aluna específica, no caso da U17. Falta registrar isso em `condicoes`. A generalização é plausível e o corpo já abre com a situação (\"Quando o vídeo sai travado\"), por isso não veta.",
+    "U13: \"o roteiro sai forçado\" é leitura do trecho degradado \"meio arrasa\". Registrar a incerteza na nota. A `confianca` já é `media`.",
+    "U2 (\"em vez de tentar acertar tudo de primeira\") e U10 (\"Essa leitura é o que sustenta o ciclo de lapidação\") são inferências do extrator que não mudam a orientação. Retirar quando as unidades forem tocadas.",
+    "U10: \"figurante\" é explicado só por contraste no corpo e na nota. Explicitar no corpo que é o termo do professor para o oposto do CDF.",
+    "U3: `condicoes` diz \"testar um formato validado\". A fonte fala em aprender \"como é que a gente valida um formato\". Ajustar a redação para não sugerir que só se testam formatos já validados.",
+    "U6: o corpo situa as perguntas \"ao revisar a primeira leva\". A fala as traz depois de \"Depois dessas duas levas\" e o material as põe entre as levas. Registrar a ambiguidade em nota.",
+    "U9: o título endurece o \"tipo 10 vezes\" aproximado da fala. Suavizar para \"cerca de dez vezes\". O corpo já apresenta os números como exemplo, então `regua` é defensável.",
+    "U21: o corpo depende de \"abaixo da aula\" e quase não tem orientação executável. Reescrever como localização do recurso: o link fica junto à aula e o uso é explicado no primeiro módulo.",
+    "Jargão sem explicação: \"pele emocional\" (U12), \"furar a bolha\" e \"pesquisa de bolha\" (U13, U15) e \"lista de formatos virais\" (U8). Explicar na primeira ocorrência. Se \"pele emocional\" for degradação de transcrição, registrar em nota. Aproveitar quando U12, U13 e U15 forem reabertas pelo item F6.",
+    "Numeração: U21 (~184 s) e U22 (~356 s) foram numeradas depois de U20 (~1232 s), fora da ordem de aparição. Não renumerar, porque `numero` nunca muda. Fica só o registro."
+  ],
+  "proximo": "1. Abrir o ciclo de correção. O arquivo não registra ciclo anterior, porque todas as unidades estão em `versao: 1` e não há `correcoes`. Conferir a contagem com a coordenação.\n2. O redator recebe só a lista F1 a F7.\n   - F1, F2, F4 e F5 mexem só em título e nota. Isso não altera o hash e preserva a evidência de U3, U5, U13 (só a nota), U16, U22 e U23.\n   - F3, F6 e F7 alteram o hash de U12, U13, U14, U15, U17 e U25.\n3. Rodar `base_fcc.py` e exigir zero erros. Atenção aos títulos e à regra de cópia bruta em U25.\n4. Fazer reinspeção focal com fonte nas unidades cujo hash mudou e nas notas e títulos alterados. O inspetor confirma, literal:\n   - os cinco URLs de U25;\n   - as formulações de fala e de material citadas nas notas de U3 e U23;\n   - a procedência dos nomes nas notas de U13 e U15.\n5. Os ajustes menores não abrem ciclo. Os de faixa (U12, U17, U18) e os de nota e jargão em U12, U13 e U15 convém aplicar agora, porque essas unidades já vão perder o hash pelo item F6. Qualquer outra unidade tocada por ajuste menor entra na reinspeção focal.\n6. O novo julgamento confere apenas a lista F1 a F7 e os efeitos das alterações."
+}

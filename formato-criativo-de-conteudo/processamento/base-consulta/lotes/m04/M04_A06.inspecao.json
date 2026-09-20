@@ -1,0 +1,119 @@
+{
+  "aula": "M04_A06",
+  "arquivo_sha256": "c68c994172c2432c2cb4cbc6e1921448450a81d2c104c9c44435481723862fa9",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "c588de34d87221a6cb38dfe98ba8b7d297d84e34866c699714488d372f6b2391",
+    "2": "13bf929b715fc8ba31b47df4147404dbe27ec063f4cac16c1bf6cf2987715447",
+    "3": "b1307d3a064e312b006dd3fea8b3283179bac957663e3397818242a3d56e1311",
+    "4": "e02148beb38f080867fead6608d74fa5c3af9191d3a53109860724f4736eb61a",
+    "5": "400848daddcc12ac48cdb99a80da35b99dc5a72e069483a95f5578d668391036",
+    "6": "c6c4f790f53f21cbbdb150825db21c49b806ab36fbb8babc53a3f8d455f4a19a",
+    "7": "ba4c3b3f35c6a997605a02385f82639326c8b38e8e7738e98aec58388f0f9a06"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não começa se apresentando, ninguém se importa com você",
+      "explicacao": "Os passos 1 a 3 batem com a fala (88–123 s). O quarto passo, jeito certo e resultado, está só no material, e a nota já registra isso. A âncora e o núcleo da unidade estão dentro da faixa 84–123. O exemplo de jeito errado (vozes da cabeça, copiar roteiro) está em 62–70 s, fora da faixa, mas também consta no material, então a fonte fala+material o cobre. Sem efeito no uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O gancho do seu vídeo precisa ser emocionalmente relevante pro seu público",
+      "explicacao": "O conteúdo está dentro de 92–102 s: gancho emocionalmente relevante, conflito como melhor forma e o exemplo dos mil vídeos. \"Segundo o professor\" atribui ao professor uma fala do roteiro do vídeo, dita pela criadora. É uma atribuição genérica aos autores do curso e não muda o uso. A unidade repete parte da unidade 1, o que é ajuste menor e não afeta a fidelidade."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "instagram que chama gancho visual e eu fico usando essas essas paradas",
+      "explicacao": "A definição, o exemplo das peças de quebra-cabeça, o \"espírito de quantidade\" e o critério da timeline estão na fonte e dentro de 256–299 s. \"Antes da fala\" vem do material. Desvio menor: a fonte diz \"uma pasta no meu instagram\", e a unidade escreveu \"pasta … no próprio perfil\", o que apaga que é recurso do Instagram. É detalhe lateral, sem efeito na orientação principal. Ver a nota em perecibilidade."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então tem a hora que ela sai daqui, tem a hora que ela sai daqui, tem a hora que ela tá na cara",
+      "explicacao": "A fala diz que o espaço grande de cenário foi deixado porque o vídeo é dinâmico, e que o vídeo \"fica brutalmente dinâmico\". A faixa 298–322 cobre isso. A leitura \"de um lado, de outro, perto da câmera\" é interpretação de dêiticos (\"sai daqui\", \"tá na cara\"), e a nota e a confiança média já a sinalizam. Não há número nem condição alterados. Ver classificação e autossuficiência em contrato."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "gestos amplos, intensidade na voz e algum exagero mantêm a presença, principalmente com poucos cortes ou efeitos",
+      "explicacao": "O corpo está fiel à fala (349–354 s: as expressões ajudam a reter). O problema está em `condicoes`: \"Vale para este formato dinâmico, com poucos cortes ou efeitos segundo o material\". O material diz \"principalmente com poucos cortes ou efeitos\", ou seja, uma ênfase, e a unidade a transformou em limite de aplicação. A fala, por sua vez, aplica a orientação a um vídeo descrito como \"brutalmente dinâmico\", com \"todas essas cenas\". A unidade junta as duas versões numa condição incoerente e deixa `nota` nula com `confianca` alta. Quem consultar pode concluir que a expressividade não vale para vídeo com muitos cortes, o que contraria o vídeo da aula. Correção mínima: registrar a diferença em `nota`, baixar a confiança e reescrever a condição sem transformar \"principalmente\" em restrição. A fala também descreve o que Hannah faz (\"ela pega a autenticidade dela … joga um pouquinho pra cima\"), e a unidade a transforma em imperativo. Isso é tolerável pelo apoio do material, desde que a condição seja corrigida."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A primeira coisa legal sobre esse vídeo é que ele é inspirado em um outro vídeo de nós que funcionou pra caramba",
+      "explicacao": "A regra (\"conteúdos seus que funcionaram, eles são ideias validadas … você pode se inspirar\") está em 245–254 s, dentro da faixa. O \"ajustando ao novo contexto\" vem do material. A frase sobre o vídeo inspirado em outro que funcionou está em 240–245 s, cinco segundos antes de `inicio` (245), e o corpo a usa. Ajuste menor: recuar `inicio` para cerca de 240. A âncora está na faixa, então não é faixa-errada."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Por isso lá no Trello do desafio eu deixei várias referências de vídeos que usam essa estrutura pra vocês",
+      "explicacao": "Fala em 129–135 s e material (referências no Trello do curso) sustentam o corpo. A exigência de comentar uma palavra-chave para ter acesso (134–138 s) fica na nota, com o alerta de que pode não valer para o aluno. `perecivel: true` está correto. Ver a divergência \"desafio\" × \"curso\" em material."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 188,
+      "trecho_fonte": "Pra dar uma quebra no vídeo",
+      "descricao": "A fala diz que a cena da pecinha caindo no personagem é gravada para dar uma quebra no vídeo, um \"momentinho de descompressão\" (transcrito \"descompação\"). É uma escolha de direção e edição: inserir um momento de alívio no meio do vídeo. Nenhuma unidade a preserva.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem reproduzir o vídeo não sabe que a cena da peça caindo tem a função de quebrar o ritmo. A perda não impede executar a estrutura de roteiro. O trecho é curto e a transcrição está levemente degradada."
+    },
+    {
+      "inicio": null,
+      "trecho_fonte": "Use a fórmula como base e adapte-a ao seu tom de voz e à sua experiência",
+      "descricao": "O material fecha com a orientação de tratar a estrutura como base e adaptá-la ao próprio tom de voz e à própria experiência, contando um problema real, os erros e a mudança do criador. A unidade 1 diz \"experiência real\", mas não traz a instrução de adaptar a fórmula ao seu tom e à sua história.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente pode entregar o molde como fórmula fechada, sem lembrar que o conteúdo do conflito, do erro e da virada deve vir da experiência real de quem grava. É lacuna de nuance, e a estrutura continua executável."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 3,
+      "problema": "O corpo cita uma \"pasta de ganchos visuais no próprio perfil\". A fonte diz \"pasta no meu instagram\", um recurso do Instagram (coleção/pasta salva), e a unidade está com `plataformas: [\"geral\"]` e `perecivel: false`. É um detalhe lateral do hábito do professor, não a orientação central. Se o juiz o considerar recurso de plataforma, precisa da marca `perecivel` e da plataforma. Se preferir manter a unidade geral, o trecho deve sair do corpo ou ser mantido como hábito pessoal, sem apagar a menção ao Instagram."
+    }
+  ],
+  "contrato": [
+    "Unidade 4: o corpo depende da aula. \"O vídeo\", \"a criadora\" e \"o professor\" não são identificados, e \"formato dinâmico\" não é explicado, embora a fonte só dê como sentido o espaço de cenário para variar a posição em cena. Sem a aula, o agente não sabe a que vídeo nem a que formato se refere. Além disso, `tipo: regra` descreve uma escolha de direção narrada em um vídeo específico, e a própria `condicoes` limita à aula. Como `exemplo` seria uma classificação defensável, isso é ajuste menor.",
+    "Unidade 5: \"este formato\" e \"este formato dinâmico\" remetem ao vídeo da aula sem dizer qual é. Ajuste menor de autossuficiência, a resolver junto com a correção da condição.",
+    "Unidades 3 e 6: expressões como \"No vídeo da aula\" e \"O vídeo da aula foi inspirado em outro dos professores\" pressupõem que o leitor viu a aula. A parte normativa das duas se sustenta sozinha, então é ajuste menor."
+  ],
+  "material": [
+    "Unidade 5: fala e material divergem, e a divergência ficou sem registro. A fala aplica a expressividade a um vídeo \"brutalmente dinâmico\", com \"todas essas cenas\". O material a recomenda \"principalmente com poucos cortes ou efeitos\". A unidade fundiu as duas versões em `condicoes` (\"formato dinâmico, com poucos cortes ou efeitos\"), com `nota: null` e `confianca: alta`. O esperado era registrar as duas versões em `nota`. Ver o desvio na unidade 5.",
+    "Unidade 7: a fala fala em \"Trello do desafio\" (o desafio Formato Criativo, com acesso por comentário) e o material em \"Trello do curso\". O corpo usa \"também\", tratando os dois como o mesmo lugar, e a nota só trata do acesso por comentário. Não se sabe se são o mesmo quadro, e isso pode levar o aluno ao lugar errado. Convém registrar a diferença de nomes em `nota`. É ajuste menor."
+  ],
+  "resumo": "As unidades 1, 2, 3, 4, 6 e 7 estão lastreadas na fala e no material, sem número inventado nem exemplo virado régua. A unidade 5 tem desvio material em `condicoes`, que transforma o \\\"principalmente com poucos cortes ou efeitos\\\" do material em limite de aplicação e não registra a divergência com a fala. A cobertura é boa: só há duas omissões menores (a cena de \\\"quebra\\\" no vídeo e a orientação do material de adaptar a fórmula ao próprio tom e à própria experiência). Há também um detalhe de perecibilidade na unidade 3 (a pasta no Instagram), ajustes menores de autossuficiência e uma faixa da unidade 6 que começa cinco segundos tarde."
+}

@@ -1,0 +1,167 @@
+{
+  "aula": "M02_A01",
+  "arquivo_sha256": "0cf1702c2be6090ffa125b181691a73adc544b4833e0546dc11f8cb4848b79b7",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "f60552cfd1e8cada0a9879ca7e802a5ed3174e2b1f382ae54a885047fa8f3725",
+    "2": "ff4a8254b5d0618ec6b7c78e9fe3c48cb11fad9e64e31f86ef4a0747557ca8cb",
+    "3": "6937ee6b682c4e4ebd37aac4ed1e3164bbb6a07665ff0abb426d38d7e56ec972",
+    "4": "f22ddb50d9d27ee714e7e57d058ce6709684eefb06da700cb98d4dbc2adfcbb9",
+    "5": "8ca6facd7f65779e8b161cd02ddd286da0a9f16d761b35080491783320dea303",
+    "6": "895c6ab492a64264cf51f1bdbf34f7a7f9c32eca2bb4096b5b6d5435c1f3f8dd",
+    "7": "2cb1778be56c136ad9505512c9203dc4afffec0284c0810bf91558c221edafca",
+    "8": "6d18995161ee95ac29873f486bfd22d1245579e1bb28dce5008da53240896cca",
+    "9": "85bc647de8ad6aea8bdb72bcb2e308f411600db80a4b34b3df6fb9970ddfa464",
+    "10": "8c8a7d773c13afd3418940267e3d5409414b372b88051345e26d5fe8dba27549",
+    "11": "ad04cbe67686aec28a70842784f4401dea8b5c04b0fba9980ed2c42eb1a295ea",
+    "12": "9dd8de88ee5c4637c194249d02b35143f7d97bc55b86128b643985f813c974ae"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Formatos criativos, como eu falei, tem muitos, mas os virais validados são aqueles que a nossa cabeça já tende a prestar mais atenção",
+      "explicacao": "A distinção entre criativo e viral validado está na fonte (1:09–1:32), incluindo o exemplo do diálogo. A nota sobre 'duas ranas' é adequada. Um desvio de redação: o corpo define o validado como o que 'já funciona nas redes', e essa ideia vem de 0:44–0:53 ('os formatos que mais funcionam nas redes sociais'), fora da faixa 60–100. 'Mais funcionam' virou 'já funcionam', o que enfraquece um pouco o sentido. Não muda o uso. 'Subconjunto' é inferência razoável, não literal."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tenha suas primeiras vitórias mais rápidas, tenha resultado mais rápido, aprenda com o que você tá fazendo,",
+      "explicacao": "Todo o conteúdo confere: público e algoritmo, caixinhas que funcionam, exemplo do experimento social, mais esforço só com formato criativo e condição do iniciante. Dois pontos menores. (1) A última frase do corpo ('tende a ter as primeiras vitórias e o resultado mais rápido') vem de 2:31.94–2:37.84 (151,9–157,8 s), quase toda fora de fim=152. (2) Na fonte é exortação ('Tenha suas primeiras vitórias mais rápidas'); no corpo virou tendência de resultado, sem atribuição no próprio texto. A atribuição existe só em condicoes ('segundo o professor'). Efeito baixo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e vai pro diálogo, agora você já vai começar",
+      "explicacao": "Confere com 2:40–2:58: quem gosta de diálogo começa por tela dividida, se motiva e migra, chegando mais preparado. A atribuição à professora é coerente com 'se você vira pra mim e fala, Hanna'. A faixa cobre o conteúdo. A condição no campo condicoes está correta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Nesse módulo, a gente tem essas duas aulas introdutórias, essa aqui e a outra aula para",
+      "explicacao": "Confere com 2:58–3:41: colocar em ação sem pensar muito, objetivo de resultado e aprendizado rápido, duas aulas introdutórias mais oito aulas de formato, e não é preciso ver todas. O objetivo é atribuído como 'declarado'. A faixa 161–221 é mais larga que o conteúdo (começa em ~178,7) mas o contém. Perecível true está correto (curso-e-recursos)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "assiste o primeiro minuto da aula, que no primeiro minuto",
+      "explicacao": "Confere com 3:41–4:04: o primeiro minuto de cada aula explica o funcionamento e o diferencial do formato, o que basta para decidir; se escolher, vê a aula até o final. 'Elementos que a gente acredita que podem fazer o vídeo funcionar mais rápido' virou 'segundo o curso, fazem o vídeo funcionar mais rápido', ainda atribuído ao curso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "em laranja são os formatos virais validados",
+      "explicacao": "Confere com 4:05–5:09: formatos de 1 a 8 em laranja, outros formatos para inspiração, duas abas, aba 'sobre o formato' com explicação e variações, link de roteiros para copiar e colar, referências em vários nichos e a crença de que 'não funciona no meu nicho'. O corpo lê 'aqui embaixo' como a aba de baixo. A fonte diz 'aqui embaixo tem duas coisas', então é uma leitura plausível, mas não literal. Perecível true e plataforma trello estão corretos."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você vai repetir sempre o mesmo formato",
+      "explicacao": "Confere com 5:13–6:14: curso de formatos, repetir o formato até validá-lo e só então ir para o próximo, referência não implica que o criador repita o formato, exemplo do nutricionista. O corpo diz 'o curso indica', em linha com 'a gente está te indicando'. A exceção (trocar se não gostou) está em outra unidade (9), não aqui. Ver os apontamentos de perecibilidade e contrato sobre 'as referências'."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Qual que eu sinto que é mais fácil para mim,",
+      "explicacao": "Critérios e recomendações conferem com 6:15–7:10: escolher entre os oito, primeira ideia, mais fácil/confortável, dúvida → tela dividida, tímido → narrado (não fala para a câmera, várias referências), sem timidez e com coragem de falar na rua → experimento social. A nota registra as duas versões (fala × material) sobre experimento social. Só 'pra caramba' (428,5–430,6 s) cai ~2 s fora da faixa, sem efeito."
+    },
+    {
+      "numero": 9,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "do jeito que a gente tá te falando, vai te trazer",
+      "explicacao": "A fonte diz 'é muito preferível que você execute porque toda execução, fazendo do jeito que a gente tá te falando, vai te trazer habilidade, conhecimento' (7:28–7:34). O corpo escreveu 'já que toda execução traz habilidade e conhecimento' e perdeu o qualificador 'fazendo do jeito que a gente tá te falando', generalizando para qualquer execução. O resto confere (figurante, CDF testa rápido, pode trocar nos dois casos, objetivo de dominar as habilidades, plus de resultado e motivação). A rubrica trata condição omitida como desvio. Efeito prático baixo: a decisão 'execute em vez de travar' não muda."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E usar a Sofia pra escrever o seu primeiro roteiro, já posta, rápido, pra melhorar no próximo.",
+      "explicacao": "Os três passos (escolher, SOFIA para o primeiro roteiro, postar rápido) conferem com 8:02–8:28, incluindo 'Sei lá, já começa' e 'quando chegar ao módulo de roteiro...'. Pontos menores. (1) A 'Pré-condição: ter visto a aula introdutória e conhecer os oito formatos' não está na fonte. A professora manda começar mesmo sem ter visto roteiro, então a pré-condição foi criada para cumprir o tipo. (2) 'A aula seguinte explica como usá-la para copiar e colar' vem de 8:56.32–9:06.58, fora de fim=509 e fora da faixa de qualquer outra unidade. (3) Falta o passo 2 do material (ver omissões). (4) 'Não espere execução perfeita' vem só do material, o que é coerente com fonte fala+material."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque todo novo post vai te dar feedback.",
+      "explicacao": "Confere com 8:28–8:56: no começo, postar o máximo possível ('bater ponto'), todo post dá feedback, o feedback é o aprendizado, sem postar não há como melhorar. A condição 'no começo' está em condicoes. A frase 'postar, testar rápido e melhorar' está na fonte."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tela Dividida e Tela Verde são apresentados como entradas mais simples; Conflito Situacional e Experimento Social exigem mais elaboração.",
+      "explicacao": "Confere literalmente com o passo 1 do material. A nota registra que a fala não repete a classificação e que recomenda experimento social a quem não tem timidez, então as duas versões estão preservadas. Fala e material não se contradizem: têm ênfases diferentes."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 30,
+      "trecho_fonte": "ele copia com a intenção de aprender, ele copia por engenharia reversa,",
+      "descricao": "A abertura da aula (0:00–1:00) diz que o CDF copia para aprender, por engenharia reversa e 'conectando os pontos'. Diz que o módulo mostra os formatos 'linha por linha, o que faz esse formato funcionar', e conclui: 'você vai copiar, mas você vai entender aquilo que você tá copiando'. O material reforça: 'copiar como artista' é observar estruturas, entender por que prendem atenção e produzir uma versão adequada ao próprio tema e público. Nenhuma unidade (nem a 4, sobre a estrutura do módulo) preserva essa premissa. Também falta a definição do CDF como quem copia com intenção de aprender.",
+      "gravidade": "material",
+      "efeito_pratico": "Um agente perguntado sobre o que significa 'copiar' um formato neste curso, ou como o CDF copia, não encontra resposta. Fica sem o princípio que separa copiar de imitar (entender o porquê de cada elemento, por engenharia reversa), que orienta o uso de referências e roteiros do módulo. Uma regra ou conceito curto resolve."
+    },
+    {
+      "inicio": null,
+      "trecho_fonte": "Estude as referências e a estrutura do formato escolhido.",
+      "descricao": "O 'Como começar' do material tem três passos: escolher, estudar as referências e a estrutura do formato escolhido, produzir e publicar. A unidade 10 (fonte fala+material) reproduz escolher, roteirizar com a SOFIA e postar, mas omite o passo 2 do material.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem segue a unidade 10 vai da escolha direto ao roteiro na SOFIA, sem a etapa de estudar as referências e a estrutura do formato. A fala do professor também não inclui essa etapa na missão, então a execução não fica impedida."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 7,
+      "problema": "O corpo trata das 'referências por nicho e por criador' e do exemplo do nutricionista no tela dividida. São as referências catalogadas no Trello do curso (recurso do curso), como diz a fonte em 5:26: 'Nas referências no Trello, você vai ver várias referências por nichos'. A unidade está com perecivel:false. A regra de repetir o formato até validá-lo é atemporal, mas o trecho sobre as referências depende de um recurso do curso que pode mudar. Marcar perecivel:true ou separar o trecho das referências."
+    }
+  ],
+  "contrato": [
+    "U7: 'as referências por nicho e por criador' aparecem sem dizer que são as referências do Trello do curso. Sem a aula ao lado, o agente não sabe a que 'referências' o texto se refere. Menor.",
+    "U9: usa 'CDF' sem explicar (jargão do curso). O vocabulário do FORMATO pede explicar na primeira ocorrência, só com o que a fonte diz. Nesta aula a fonte descreve o CDF como quem testa rápido e melhora, e como quem copia com intenção de aprender. O 'figurante' é explicado, o CDF não. Menor.",
+    "U4: 'esta e outra sobre como usar a IA' depende da aula, porque 'esta' só se resolve sabendo que se trata da aula Introdução (M02_A01). Menor.",
+    "U10: 'ter visto a aula introdutória' e 'a aula seguinte explica' são referências relativas à aula. A Pré-condição foi criada para cumprir o tipo e não existe na fonte, que manda começar mesmo sem ter visto roteiro. Menor."
+  ],
+  "material": [],
+  "resumo": "As 12 unidades estão em geral fiéis à fonte: nenhuma é sem-lastro e as faixas estão corretas, exceto duas frases que ficam poucos segundos fora (U2 e U10). Há um desvio menor na U9, em que 'fazendo do jeito que a gente tá te falando' sumiu da frase 'toda execução traz habilidade'. A omissão relevante é a abertura da aula (0:00–1:00), sobre copiar por engenharia reversa entendendo o que se copia, que nenhuma unidade preserva. Há ainda um perecível escondido na U7 (referências do Trello), a omissão menor do passo 2 do material na U10 e ajustes menores de contrato (referências à aula, CDF sem explicação, pré-condição inventada na U10). A divergência fala × material sobre a dificuldade dos formatos foi registrada em nota, em U8 e U12, sem escolher um lado."
+}

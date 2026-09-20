@@ -1,0 +1,133 @@
+{
+  "aula": "M04_A03",
+  "arquivo_sha256": "c8316bb6fb0f0608dba53c0b8b065cc4acaa6afc3ebecd7a416266e4c4daa9e6",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 5, 8]; as demais mantêm a evidência da inspeção integral do arquivo 143b13845c84, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    5,
+    8
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "772adb8560c0e9465baa74a9a4226ef477d641d5b86fb6cc416c603ab3593d4d",
+    "2": "fd819f71c89782895be6f8df3b0a6005104b7e964c6acc77a49ef83358a9fe94",
+    "3": "4bb7d03bf19ae4e40743b831556176612ebcad1028583cabcce3607c37521fdb",
+    "4": "dd60e2fc4121b5390862c7c07da806cec6a6245ee2e1640bc782ddc681ed3dac",
+    "5": "5d891fe1246089592246e26e4a82d0aaa499bd782e16735686a0349590020fa3",
+    "6": "99a90c946f8182b4a70074e7f803f0dcea99690a97305740648d910f346a3529",
+    "7": "5c0b87a21c4ce0f73f3ecfb3fb5508fdc4d5d71330e957335c9bcada2c82960f",
+    "8": "1d4eea65a07faa9ed408641c72fd4620b7461516ccb6178581806b8a15bfb238",
+    "9": "e62bab5b98123a7397e971be3466dfb6750172f1e026a7d7f391f8725e8e9ca9",
+    "10": "799ed7177ad7e294a56068a1b8af3097bc615c4475f345ae809fbf9cf571563a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É um vídeo narrado, onde eu, a pessoa que tá aparecendo, não abre a boca.",
+      "explicacao": "Definição, efeito de \"ouvir os pensamentos\", eficiência da expressão sobre a palavra, uso em só algumas partes do vídeo e a nota sobre o nome batizado pelo professor estão todos na fonte, dentro de 77–132 s. Sem número nem condição adulterados."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Isso é brutal, muda completamente a forma de interagir",
+      "explicacao": "F1 resolvida. A frase que o corpo atribui ao professor está em 00:03:00.960–00:03:04.320 (≈181–184,3 s) e agora cabe inteira na faixa 135–185. A evidência \"Então o movimento é tão longo quanto a frase\" (≈178–181 s) segue dentro da faixa. O começo do conteúdo, \"É não fazer as encenações meio que frase a frase\" (≈135,7 s), também está dentro, e o corpo não mudou (só a `versao`, agora 2). A alteração não criou problema novo: número, condição e atribuição continuam iguais aos da fonte. O corpo diz \"interagir com o vídeo\", e a fala só diz \"forma de interagir\". É um complemento de redação sem efeito no uso."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque a gente garante que nenhuma fala fica fora",
+      "explicacao": "Pré-condição (texto pronto), ordem áudio antes das cenas, cada pessoa gravando suas partes, e a razão (nenhuma fala fica fora; esquecer trecho ou perder o tom) batem com 194–232 s. A condição \"vídeo inteiro narrado\" foi preservada em `condicoes`."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É muito importante tu guiar o tom, o tom de voz e as palavras que são usadas na naturalidade, na forma de falar.",
+      "explicacao": "Orientação e ênfase do professor estão na fonte, dentro de 397–409 s. Não há número nem condição omitida."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, o microfone tá conectado no celular ali, e aí a minha voz vai guiar a edição também, facilita muito o processo.",
+      "explicacao": "F1 resolvida. O trecho que sustenta o microfone conectado ao celular e a voz guiando a edição está em 00:07:24.000–00:07:31.140 (444–451,14 s) e agora fica inteiro dentro da faixa 419–452. O `inicio` 419 segue coerente, pois a frase de abertura, \"Uma coisa interessante é que eu tô usando o microfone mesmo pra editar\", começa em ≈419,06 s. A evidência (≈436–441 s) está dentro da faixa. O corpo não mudou, e a `nota` continua registrando a diferença entre fala (a voz do professor marca o significado de cada expressão) e material (ajuda nas marcações e no tempo da edição). \"Sua voz fica registrada na captação\" é uma inferência direta de \"a minha voz vai guiar a edição\", sem efeito no uso. Nenhum problema novo."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Melhor que tenha alguma movimentação pra praticamente cada palavra.",
+      "explicacao": "\"Quanto mais movimento, melhor\" e \"movimentação pra praticamente cada palavra\" estão na fala (461–470 s). A frase sobre poucos gestos reduzirem o interesse visual vem do material (\"Poucos gestos ou nuances faciais reduzem o interesse visual\"), coerente com `fonte: fala+material`."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Esse formato é legal porque a gente vai começar ele com um conflito universal",
+      "explicacao": "A fala só diz que este vídeo começa com conflito universal e diálogo de casal. A forma de regra (\"Comece com conflito\") vem do passo 4 do material, e a `nota` registra isso, com `confianca` media. Por isso a fidelidade se sustenta. Ressalva: `condicoes` traz \"Exemplo da aula: diálogo de casal\" (isso é exemplo, não condição) e mistura o passo 5 do material (\"Varie ritmo e tom: pausas, expressões inesperadas, humor e ironia\"), que não trata do conflito de abertura. Ver `contrato`."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então você pode marcar aqui como comentário o tipo de expressão que você vai fazer",
+      "explicacao": "F2 resolvida. A fala (00:08:37.660–00:08:41.240) diz só \"marcar aqui como comentário\", sem nomear ferramenta. O material diz \"Marque no roteiro as emoções e expressões antes de gravar\" e também não nomeia aplicativo. Por isso `plataformas: [\"geral\"]` e `perecivel: false` estão corretos: não sobra tela, ferramenta nem recurso do curso na unidade. A `nota` agora só registra que nem fala nem material nomeiam a ferramenta e não afirma Google Docs, como pedia o critério (b). A faixa 508–534 cobre toda a recomendação (≈509,5–533,9 s) e a evidência (≈517,7 s) está dentro. O corpo, a condição e a atribuição não mudaram e continuam fiéis. `versao` = 2. A checagem (e), sobre a `cobertura.jsonl` depois do `--write`, é do script. No JSON, a unidade não tem mais `google-docs`."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aqui no nosso Trello eu deixei uma lista de",
+      "explicacao": "A lista de criadores que \"cresceram infinitamente depois de encontrar esse formato\" e o uso como inspiração ao gravar estão na fala (97–109 s). O material confirma a lista no Trello do curso. O resultado dos criadores está atribuído ao professor (\"segundo o professor\"). `perecivel: true` está correto."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você viu aí no vídeo que todas as frases que são ditas,",
+      "explicacao": "A fala só remete ao vídeo mostrado (\"você viu aí no vídeo\") e afirma que o movimento acompanha a frase. Nada do que a atriz faz em cena está descrito na transcrição no trecho 169–181 s, então o `limite` é fiel. Não inventa conteúdo."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U5: `plataformas: [\"outra\"]` sem ferramenta nomeada. A taxonomia define `outra` como \"outra ferramenta nomeada pela aula\", e a nota só diz \"microfone conectado ao celular, sem modelo citado\". A orientação é de equipamento genérico, então `geral` (com tipo `ferramenta` e `perecivel: true`, que já estão certos) seria a classificação fiel. Ajuste menor; classificação discutível entre dois valores.",
+    "U8: `plataformas: [\"google-docs\"]` não tem lastro. A fala diz só \"marcar aqui como comentário\" e o material não cita Google Docs. A própria `nota` admite que é inferência. A orientação vale para qualquer roteiro com comentários. Com essa marca, `cobertura.jsonl` mostraria as tarefas `planejar-conteudo` e `gravar-video` como cobertas para `google-docs`, o que a aula não afirma. Deveria ser `geral`.",
+    "U7: `condicoes` está mal usado. \"Exemplo da aula: diálogo de casal\" é exemplo, não condição. A orientação de humor, ironia, pausas e expressões inesperadas vem do passo 5 do material (\"Varie ritmo e tom\"), não trata de conflito de abertura e não aparece no corpo de nenhuma unidade. Quem consultar o corpo não a encontra, e quem ler a condição pode entender que ela restringe a abertura com conflito. Ajuste menor.",
+    "U10: o corpo depende da aula (\"o exemplo\", \"a atriz\", \"assistir ao vídeo\") sem dizer que se trata do vídeo de demonstração da aula e de quem aparece. É um `limite` e a função dele é justamente apontar isso, então o efeito é pequeno. Ajuste menor."
+  ],
+  "material": [
+    "U5 × material: o material coloca a sugestão do microfone dentro do passo 1, \"Grave todo o áudio\" (\"Alef sugere usar microfone diretamente no celular para ajudar nas marcações e no tempo da edição\"). Na fala, o microfone é usado na gravação das cenas, para a voz marcar o significado das expressões na edição. A unidade segue a fala. A `nota` afirma que o material \"só diz que ajuda nas marcações e no tempo da edição\" e não registra que o material o associa à gravação do áudio da narração. O leitor não fica sabendo que as duas fontes situam o uso do microfone em etapas diferentes. Ajuste menor: registrar as duas versões na `nota`."
+  ],
+  "resumo": "Conferência focal das unidades 2, 5 e 8: as três falhas listadas (F1 em U2 e U5, F2 em U8) foram resolvidas pelos critérios de aceite. Os trechos que sustentam U2 e U5 agora cabem inteiros nas faixas 135–185 e 419–452. U8 está como `geral` e `perecivel: false`, com a `nota` sem afirmar Google Docs. Corpos e sentidos intactos, `versao` incrementada nas três, sem problema novo e sem omissão decorrente das falhas. A taxa de `faixa-errada` do arquivo inteiro não foi remedida aqui; as duas unidades que estavam fora da faixa foram corrigidas, e as demais mantêm a evidência da inspeção anterior."
+}

@@ -1,0 +1,535 @@
+{
+  "aula": "M07_A02",
+  "arquivo_sha256": "88c6cf5badaf7238b8d02fd35b6371175b060f37019ab4a970328596fe2d82c3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 4, 19, 36, 37, 39, 40]; as demais mantêm a evidência da inspeção integral do arquivo ac436d984c4f, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    4,
+    19,
+    36,
+    37,
+    39,
+    40
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "hashes_unidades": {
+    "1": "b50b7075f44fec48bca304c5853d6f0b9e4699fe2b63e3e678c4b8469dad272d",
+    "2": "1feacc0525fa5820c1ac1f3459ddad792d4a255650665eb8fa9d7a067962e227",
+    "3": "50a97736af02d8aa8d17af72b712e0210b4318b3b6ab856f3ce77b93bbebd7e7",
+    "4": "70a67b892c67287615df537ef055cf2bc5ab1412198ece21560e4f23dcbf8ff5",
+    "5": "488fb8df9fd10119bae5de4c3dd5b8ec9a10500d21525aaeb7a21e097eb95e03",
+    "6": "8afe164f2b2d0b13290d0420cd3a8bc6a9a2210eeaa8631a71d85c87a3448c32",
+    "7": "c9c3a073695404f369d845c3875510ddc394cd16186855f6010d2b7dd8f0b68e",
+    "8": "23da48a4fbddddc366f00644abdeb8c79818f6b4549881011eeab55f346177d2",
+    "9": "68c78378e284abe633706e1d39c208b47b375b89da133a330dc05b5cfd91d597",
+    "10": "56cb6626bc9cdb3592be7640ca45e4133242eb983a58f9327fdec6c0c1f1962a",
+    "11": "325d989a9d2f86a507198fd2b6aae1ca09b6d4250db88f7bc4ac29f3e983d850",
+    "12": "8ff54e11c5cd6254c7ba04f6d80c43b96cf9f1a50bdcb0a5ce3074f5878546e5",
+    "13": "ebb4b3ef807e0ffbdd13fec767c19cf49c5955956676f7c681901b5969851daf",
+    "14": "f62d9a3b49a199a8a9147925f9b60e4b1b480cddaf9574dbb27219630c199b78",
+    "15": "2dd9cf88d55a43cf96d2a7067ae582e26331a24e299b3b526e55bb0619e63c95",
+    "16": "ee657c6e280078401f0f00c7fe805bf3b3360cc742004d8f41fa2cfe11571472",
+    "17": "d4d5ee87f9b6667e080dba1eb3e459b718173a8b7c4f0ee2b464e01bc52386ae",
+    "18": "60075fd58e8dc67741373787e86f92aede4ddbe789a78435baf17815d95a7903",
+    "19": "0f4428daec95c702bfcaeffe37677b804c6ac465749cbb70cef0e7184d70fd0c",
+    "20": "3e534bd74f98ff69f0610cc6774870244872296716c27ded8a4af63667dd835f",
+    "21": "d4d12fd509e4ae9e919ecf875d4ee5f8938c983d122a5f72f21f300b0b57e47f",
+    "22": "7fce0326032c9faf8b88fcdb9a7538f0a3acfae1bbd0f305ef3da9ab9aa74d84",
+    "23": "33cc640d84fdac2cc5411b45ebd13026acf6be48799c9868b2589aa474786e16",
+    "24": "830d8ce50af347b9785240ecfe874da2bbe618bbebb35b02e1059faf578d7d71",
+    "25": "15f62995e798cd29ee019a9099cf4cee33c48e923bc4d323f8735e1be125862b",
+    "26": "e7b368a0bb8e73e46cc8ea884464f7b10ee48874638433c2f9704c1e68989bb5",
+    "27": "45fa3607cf6ff7f9be0f8b3a44031fbbdc02907eee62e71fb710aba177fa8fbb",
+    "28": "b2a09d04a74893249ececfb057b557ed1081858c135d02e463fdc90e232d1d27",
+    "29": "0ffce9439c95352ca8da6c9228955df6b1e3a88ba6905d1f6c1f99ef2a3e3fb8",
+    "30": "d237d96879b3d408cb50d3b9882332071947d59d0747aa5963d513e2de0a139e",
+    "31": "91f3baaa3fda3561421f063cc201fa0d7873eeeb15c2900bd1b488879f4cf617",
+    "32": "39cba1fd997cd11709673456061d91a6e601b1a50d31abe2d309c9015e914f6b",
+    "33": "33f5f7465e4c2e038944d860adcab33d12eef27a9d332e1658c30f6f09b4c2c9",
+    "34": "96d87d8741bae2a9cc7967ecb35764a9e532258050f424d22a1f79485bf20ddd",
+    "35": "89edce00f455b95a0a9bcefa3341a1bda93d3aa21013e395bd45e3ceb9c1ccd3",
+    "36": "492cad96c3f2b912abe63f109321b47e5a0cc7de0845149cc65fbdbfa5615568",
+    "37": "3cdc74f75b08e64c999777d2b928fc242001b289ab7f1920450c29a88cc2ab4f",
+    "38": "01309600b927d4baf40fd7c8b6ebf71fd0f54668c36905d87c191ae11b476781",
+    "39": "0c90bd8b708a7b84792f15d5ddfaceaef6879d6071d1084195312d35c632ffa1",
+    "40": "628fee9f6ee2265ddb2667af52aea13f9e0f703bcbdc860e2e91a76c2d064eac",
+    "41": "5f69e6991047d5922b031612ccaca9582008a78926e0f6cfbad0d4772c948c7a",
+    "42": "4a562640ac741b036f3b61d591084cd85a8957a6c429e6b8fdcde8e63ededa5f",
+    "43": "d0996b353b255cf003fd15271d1022f03375271da8a0a732e1c7c089acb9a021",
+    "44": "973f11c6d63f309ce73adbab5de126489230f29186081685c61b1f3d0fc58e40",
+    "45": "506887f6e3c5499013b7926cd9298a565bc7a28f14f73043867f0b5831312ade",
+    "46": "e1035bec08cb9b288447c9e4b73ff5aaa4cae038172778ac8ae5f05ca1626864",
+    "47": "14bff5750148e3871b8202a1db6cde7df9d60e0da5015b3a752453f2ffc0f8a6"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí eu gosto sempre de partir da pesquisa, eu tenho as ideias a partir daquilo dali e aí eu vou pesquisando cada tema de cada vídeo individualmente",
+      "explicacao": "Os quatro passos (pesquisar cada tema, conversar com o ChatGPT, escolher a estrutura, mandar para a SOFIA) batem com a fala. Dois ajustes pequenos. (1) A pré-condição diz que 'você já tem ideias', mas na fonte as ideias saem da pesquisa ('partir da pesquisa, eu tenho as ideias a partir daquilo'). (2) 'Escrever como se fosse ele falando' vem de 00:07:07, fora da faixa 61–153. A professora também diz que mostrou 'os sete passos' em outra monitoria, e a unidade traz só quatro passos (ver omissões). Não muda a execução."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Dá para criar só com a Sofia.",
+      "explicacao": "O corpo reproduz a fonte: a SOFIA ajuda e dá para criar só com ela, mas sem entender princípios, estruturas e gatilhos o aluno não sabe avaliar o roteiro, e quem entende consegue um roteiro bem melhor. Faixa e evidência conferem."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Dois dias depois, eu prospecitei nosso primeiro cliente.",
+      "explicacao": "F5 resolvida. Na fonte, o \"dois dias depois\" vem logo depois da fala dos mentores durante o aviso de 30 dias. O corpo agora liga os dois dias a essa conversa e não ao pedido de demissão. Ele traz a orientação dos mentores de começar a produção e a situação dada por ela (\"acho que na última semana de trabalho\"). A `nota` registra a ambiguidade com o trecho literal \"Eu já estava acho que na última semana de trabalho\" e `confianca` é media. Os demais fatos conferem: não planejaram, aviso de 30 dias, sem filhos, na casa dos pais, contas a pagar, \"não aconselho\" e o ponto positivo de se dedicar mais. O corpo segue a ordem confusa da fonte (aviso, depois mentores dizendo \"pede demissão\") sem resolvê-la, o que é fiel. Não há problema novo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E ele atendia só um sábado",
+      "explicacao": "F4 resolvida. \"Colega\" saiu do corpo, que agora diz que a professora lembra, com ressalva (\"se não me engano\", \"acho\"), que Bruno conciliava e atendia só um sábado. As duas ressalvas estão na fonte. A `nota` identifica Bruno como o parceiro da professora (a aula o chama assim ao longo da sessão) e registra a incerteza. Os números conferem com a fonte: no máximo dois dias de gravação, quatro vídeos por dia e normalmente oito em um único dia. O corpo mantém a condição \"se for gravar quatro vídeos em cada dia\" ao citar os quatro por dia. O corpo começa com \"Se \". Não há problema novo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Está lá na, se eu não me engano, está no módulo de roteiros na primeira aula.",
+      "explicacao": "A localização e a ressalva ('se eu não me engano') estão preservadas. A nota e a confiança media são adequadas. A fonte não diz quem responde; a atribuição à professora é razoável e não muda o uso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Andrei, a pesquisa eu faço baseada naquela pesquisa de empatia que tem lá no Trello.",
+      "explicacao": "Confere: pesquisa de empatia do Trello, pesquisar o nicho da advogada, escrever 'como se fosse ela falando', pesquisa como sinônimo de ideias infinitas e base de toda criação. A fonte diz só 'lá no Trello'; 'quadro do curso' é inferência inofensiva. A nota sobre a aula de pesquisa que virá está correta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu sou muito responsável com isso e acredito que todo criador estrategista tem que ser.",
+      "explicacao": "Confere: entrega no mesmo dia mesmo à noite, possível cliente que passou por duas agências que não entregavam no prazo, prazo como diferencial. A frase 'todo criador estrategista deve ser' vem de 'acredito que... tem que ser', convicção da professora. Não fica como lei porque o corpo atribui o relato a ela."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, eu não sei a hora de parar, mas eu tento sempre tirar um tempo ali",
+      "explicacao": "O núcleo (tirar tempo para série, leitura e atividade física exercita a criatividade e ajuda no trabalho) está dentro da faixa e confere. A pergunta e a frase 'não sou a melhor pessoa para falar isso... começa a trabalhar às seis da manhã e vai parar à meia-noite' estão em 00:07:36–00:07:49, fora da faixa 528–553. Quem diz 'A Paula começa às seis...' é o outro professor, falando dela. É um ajuste de faixa e atribuição sem efeito no uso."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, eu não vou explicar muito sobre isso aqui agora,",
+      "explicacao": "A fonte diz 'não vou explicar muito sobre isso aqui agora'. O corpo diz 'não vai explicar isso nesta sessão', sem o 'muito'. O efeito é pequeno, porque a unidade avisa que a aula traz só relatos e práticas isoladas e, de fato, há trechos sobre fechamento na aula. O adiamento para a monitoria de quarta e o motivo estão corretos."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Que existem dois tipos de pessoas",
+      "explicacao": "Confere: quem queima os barcos e se joga pode ir; quem é mais conservador pode conciliar até a atividade virar principal. O resultado 'dá certo' fica atribuído aos professores. Atribuição imprecisa: 'Os professores dizem que existem dois tipos' vem de 'Porque eu acredito / Que existem dois tipos de pessoas', dito por um só professor. O 'conselho de largar tudo' vem do comentário do Vinícius ('queime os barcos, quebre as pontes'). Em 00:04:51 os mesmos professores dizem 'Não aconselho ninguém a fazer isso'. A tensão existe na própria fonte."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "No máximo, três dias",
+      "explicacao": "Os cinco passos conferem: folha A4 com clientes e entregas do mês, gravação marcada com antecedência, roteiros prontos para aprovação até três dias antes da gravação, dois vídeos por semana, check diário por urgência. A fonte hesita ('pelo menos... no máximo, três dias antes'), mas o sentido de prazo limite é preservado. Sobra só a omissão de Trello e Docs, registrada em omissões."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "você pode oferecer, perdão, a parte",
+      "explicacao": "Conteúdo confere. A fonte diz 'o caminho é um pouco parecido' e se corrige de 'você vai oferecer' para 'você pode oferecer, perdão, a parte dos roteiros'. O corpo e o título dizem 'é parecido' e 'você oferece / ofereça', virando instrução o que na fonte é possibilidade, e perdem o 'um pouco'. Efeito pequeno."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É muito comum que os seus clientes te indiquem.",
+      "explicacao": "Confere: lista, contato e vídeo de análise como outras formas; indicação por cliente que gosta do trabalho; conteúdo e bastidores mantêm você na mente das pessoas. A condição ('conforme você vai tendo o cliente') está em `condicoes`."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "ele já tem os clientes dele, mas ele entendeu que ele precisa se posicionar,",
+      "explicacao": "Situação, ocorrido e lógica conferem, e as incertezas de nome ficam na nota. O título afirma 'cliente indicado que só conversa à distância', e isso não está no corpo. A fonte diz só 'do cliente que eu não vou gravar com ele presencialmente' (00:13:47). O corpo também omite esse traço, que era a razão de a professora contar o caso. Efeito pequeno."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "é o dia uns 10 a 15 dias",
+      "explicacao": "Ordem do processo (reunião de pesquisa como primeiro passo, pesquisa externa, roteiros, gravação com orientação, entrega), 'não posso falar 20 ou 30 dias, depende' e dois vídeos por semana conferem. A nota cobre a leitura 'é o dia uns 10 a 15 dias'. O trecho 'em média ele ia uns 5 dias mais ou menos' também está degradado (sujeito 'ele ia') e a nota não o cobre. O corpo o atribui à professora sem ressalva. O corpo diz 'levam de 10 a 15 dias' como fato geral, e a fonte trata isso como o começo com cliente novo ('principalmente nesse início'). A condição está em `condicoes`."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Se for um vídeo mais complicado, às vezes é duas, três horas.",
+      "explicacao": "Confere: 2–3 horas para vídeo complicado, narrado em cerca de 1 hora (a professora), diálogo mais rápido (o parceiro), tela dividida mais demorada por separar takes. O corpo tira o 'às vezes'. São velocidades pessoais dos professores, e a fonte abre com 'edição é uma coisa muito particular'. A `condicoes` e a nota sobre 'digital dividido' cobrem isso. Restou a dúvida de tipar como régua (ver contrato)."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Às vezes o cliente tinha o mesmo celular que a gente Mas como é que a minha imagem não fez assim? Sim, configuração do celular",
+      "explicacao": "A fonte sustenta o iPhone 15 Pro Max, a ausência de objeção em fechamento e gravação, a pergunta sobre a câmera ao receber o vídeo (100% dos clientes) e a atribuição à configuração do celular. Na 'Lógica', 'e da produção, não de uma câmera profissional' é acréscimo do extrator: a fonte fala só em configuração do celular. Para quem consulta, a diferença é pequena, mas a frase parece ensino do curso e não tem lastro."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o pagamento, eu vou dar o exemplo desse último cliente que é a nova forma que eu estou fazendo",
+      "explicacao": "Os números (50-50, 50% no fechamento e 50% dez dias depois com data marcada, motivo 'depende 100% de mim', data fixa nos meses seguintes) batem com a fonte, e a unidade os atribui à professora. A professora apresenta a prática como 'o exemplo desse último cliente' e 'a nova forma que eu estou fazendo'. A condição da unidade diz 'clientes novos', uma leitura razoável, porque ela também diz que sempre fez 50-50 no primeiro pagamento. 'Agora cobra' no corpo é marcador temporal relativo à data da aula."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Talvez eu possa tirar um print de como está aí e mostrar para vocês.",
+      "explicacao": "F2 resolvida no essencial. O corpo não nega mais que a aula traga ajustes de gravação e cita 4K e 30 quadros por segundo, compatível com U21 e U24. \"Uma aluna\" saiu (\"Perguntados como configurar o iPhone\"). A hesitação está preservada: \"talvez\", \"o celular não está aqui agora\", e \"eu mando os prints aqui\" ou \"para a Marcela\" com \"não sei se ela consegue disponibilizar\". Dois pontos menores, sem efeito na decisão. (1) A fonte diz \"todo mundo tem que gravar em 4K\" (00:22:23), uma recomendação, e o corpo vira \"eles gravam em 4K\". Os 30 fps têm apoio em \"a gente grava 30fps\" (00:28:22). (2) O 4K e o 30 fps estão fora da faixa 1253–1277; a faixa cobre só a troca sobre o print. É referência cruzada correta a trechos cobertos por U21 e U24, mas a faixa não os alcança."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O que muda a qualidade do vídeo é a luz Se tiver com luz O iPhone 11 fica perfeito também",
+      "explicacao": "O corpo reproduz a fala: começaram com iPhone 11, 'dá pra ter qualidade sim', 'com luz o iPhone 11 fica perfeito' e 'não tinha luz, não tinha microfone'. A unidade atribui isso aos professores e mantém a condição de relato. 'Boa iluminação' para 'com luz' não muda o sentido."
+    },
+    {
+      "numero": 21,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí fica natural Porque quando vai pro Dizem que quando a gente exporta e vai pro Instagram, ele dá uma renderizada E ele fica em 1080",
+      "explicacao": "'Gravar em 4K' e 'dizem que' o Instagram renderiza e deixa em 1080, com perda de qualidade, estão fiéis, e o 'dizem que' foi preservado. 'E aí fica natural' é ambíguo na fonte e o trecho está mal transcrito. Pelo que segue ('vai perder um pouquinho de qualidade. Naturalmente mesmo'), 'natural' pode se referir à perda de qualidade. O corpo fixa a leitura 'assim a imagem fica natural', um benefício do 4K que a fonte não afirma com clareza. A nota não registra essa incerteza. O trecho responde a uma pergunta sobre exportar na qualidade, contexto que o corpo perde."
+    },
+    {
+      "numero": 22,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então você vai lá e apaga o cachê do CapCut",
+      "explicacao": "Conferido: iPhone 11 de 64 GB, cerca de 52 GB ocupados por aplicativos e 8 a 10 GB livres para edição. O cache do CapCut só aumenta e deve ser apagado. Depois de editar, o vídeo vai para o celular da Paula e é excluído, prioritariamente quando o cliente já postou, 'porque se o cliente já postou não tem mais responsabilidade'. Às vezes exclui o aplicativo. Condição e atribuição estão corretas, e 'cachê' está registrado em nota."
+    },
+    {
+      "numero": 23,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas enquanto não tem ainda para investir Faz o que tem O que está sob o seu alcance Sempre faz o que dá para fazer",
+      "explicacao": "O conteúdo é fiel. A fonte fala em 'investimento' logo depois de tratar do celular usado para edição, então 'equipamento' é inferência razoável e a condição da unidade a declara. Sem número nem plataforma, por isso 'perecivel: false' está correto."
+    },
+    {
+      "numero": 24,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "botar o primeiro em 4k no finalzinho já foi assim esse aqui também e o último da taxa de bits de então esse fica todo o do meio fica em 30 que a gente grava 30fps",
+      "explicacao": "A transcrição está fragmentada e a unidade admite isso, com confiança baixa e nota. O que é seguro na fonte: o primeiro item em 4K, o do meio conforme o gravado ('Então se você gravou em 30, deixa em 30'), 'a gente desativa aqui, ó, esse negocinho de IA' e a taxa de bits mencionada sem valor legível. 'Resolução' para 'o primeiro' e 'CapCut' para o aplicativo são inferências do contexto, e a nota informa isso. A unidade não inventa valor de taxa de bits."
+    },
+    {
+      "numero": 25,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente não vende nem viralização E nem venda A gente nunca promete que ele vai viralizar Ou que ele vai vender A gente explica que a venda é uma consequência De um bom conteúdo",
+      "explicacao": "Fiel à fonte: não vender nem prometer viralização ou venda, explicar que venda é consequência de bom conteúdo e de bom posicionamento, e que o entregue é posicionamento e a busca do formato criativo. A afirmação 'nenhum cliente reclamou' está atribuída à professora. A fonte diz 'a gente nunca promete', prática dos professores, e depois chama isso de princípio aprendido com os mentores. O corpo passa a imperativo, o que a fonte sustenta e a condição limita à pergunta original."
+    },
+    {
+      "numero": 26,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Literalmente, a responsabilidade de vender é do tráfego. Então, a gente até sempre pergunta Pra ele se ele tem alguém que faz tráfego pra ele E da equipe dele também, né?",
+      "explicacao": "Confere: responsabilidade de vender é do tráfego e da equipe ('quem vende é a equipe'), pergunta ao cliente sobre tráfego e equipe, a analogia da loja e da vitrine ('Não adianta você tacar tráfego se não tem nada lá dentro para comprar') e 'ninguém para atender'. A grafia 'construção à vitrine' está tratada em nota."
+    },
+    {
+      "numero": 27,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "só com 20% das casas feitas, ele bateu o recorde de vendas todas. Só com 20% das casas de obra",
+      "explicacao": "Fiel: construtora com Instagram do zero, 72 casas, casas de 100 mil para cima, recorde de vendas atribuído 'segundo eles', 10 milhões como estimativa 'por alto', 'um trocadinho', vídeos do próprio perfil e nenhum feito para tráfego. Um detalhe: a primeira ocorrência na fonte diz '20% das casas feitas', e o corpo escreve 'em obra'. A segunda ocorrência ('20% das casas de obra') é ambígua. 'Feitas' (concluídas) e 'em obra' (em construção) não são a mesma coisa. Sugere-se usar 'feitas'. Número de caso está corretamente em exemplo e marcado como perecível."
+    },
+    {
+      "numero": 28,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Quando o Aleph fala bem assim Cobra mais caro no próximo Essa é a filosofia, mas sempre melhora no próximo também",
+      "explicacao": "A filosofia, a atribuição a um mentor com nome incerto e a evolução de um mês para o outro estão na fonte. Dois excessos menores. (1) 'Cobrar mais caro no próximo cliente': a fonte diz só 'no próximo', sem dizer se é cliente, trabalho ou contrato. (2) 'O cliente é uma oportunidade de aprender' vem de 'a gente é pago para aprender' (por volta de 31:47–31:51), que fica antes de `inicio` (1925 s = 32:05) e é reformulado. Nenhum dos dois muda a decisão de quem consulta."
+    },
+    {
+      "numero": 29,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se a gente não está criando conteúdo para o cliente Ele também não vai estar Então é melhor ele estar sendo visto De uma forma estratégica De uma forma inteligente ali Mesmo que às vezes não tenha viralização que ele quer Do que ele não está aparecendo",
+      "explicacao": "Fiel. A fala é atribuída a uma mentora ('a Rana uma vez falou para a gente'), com nome incerto registrado em nota, e o contexto de insegurança está na condição."
+    },
+    {
+      "numero": 30,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Fechou com a gente, um, dois meses depois, a gente foi lá em uma gravação, uma funcionária dela pegou e falou, nossa, as nossas clientes, agora realmente estão entendendo o que a gente faz. Então agora os clientes estão mais qualificados.",
+      "explicacao": "O caso confere: solução financeira para pacotes de cirurgia, perfil que parecia de médica, a gafe 'você é médica de cirurgia?' com resposta 'Não', o comentário da funcionária um ou dois meses após fechar, 'ela teve o posicionamento como resultado' e a dificuldade de internalizar. A unidade atribui o aprendizado ao professor. A tarefa `quebrar-crencas` é discutível (ver contrato)."
+    },
+    {
+      "numero": 31,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu acho que a forma mais fácil de você trazer isso para o cliente é falando que existem inúmeros advogados da área dela, que é a familiarista. Ou ela decide ser só mais uma, ou ela decide se diferenciar no mercado.",
+      "explicacao": "O núcleo é fiel: perguntar por que acredita que precisa criar conteúdo, contrastar 'só mais uma' com se diferenciar, posicionar-se nas redes e ocupar espaço mental. Ajustes pequenos: (1) a fonte diz 'Eu acho que a forma mais fácil', opinião da professora, e o corpo vira imperativo ('use o argumento'), embora a condição registre o caso da advogada. (2) 'o cliente entende de imediato' é mais forte que 'o cliente superentende'. (3) 'cliente' passa a designar duas pessoas: na fonte, o espaço mental é na cabeça do cliente da advogada, mas no corpo parece o cliente do criador. Isso confunde quem lê sem a aula."
+    },
+    {
+      "numero": 32,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Qual que é a intenção desse evento de xadrez? É mostrar, às vezes, a interação das crianças? É mostrar como o xadrez pode ajudar elas no desenvolvimento intelectual, na inteligência?",
+      "explicacao": "Fiel: perguntar qual é a intenção do evento, decidir o que gravar a partir disso ('o que mostra que as crianças estão se desenvolvendo?') e, se couber, fazer vídeo narrado com muitos takes e bom roteiro. A condição ('não sei exatamente como vai ser esse evento') está preservada. Quem perguntou ('aluna') e quem falou não estão claros na transcrição, sem efeito no uso."
+    },
+    {
+      "numero": 33,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e, às vezes, um modelo de vídeo, não necessariamente você vai procurar naquele nicho.",
+      "explicacao": "A fonte diz que o modelo de vídeo pode vir de outro nicho, como um advogado, e ser usado no supermercado adaptando o conteúdo. Também diz que supermercado tem muito o que explorar porque todo mundo vai ao supermercado. A faixa 2348–2387 cobre o trecho. A unidade não traz número, só orientação, e não tem desvio."
+    },
+    {
+      "numero": 34,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Conforme você vai fazendo e você vai percebendo que você sabe minimamente o que você está fazendo,",
+      "explicacao": "Confiança que vem naturalmente com o trabalho e com os fechamentos, o áudio antigo sem roteiro nem gravação prévia e o 'caos é nosso amigo' estão na fonte, dentro da faixa. A transcrição não rotula quem fala em 00:39:59–00:40:28. A atribuição à professora é inferida, mas não muda o uso. Ver o apontamento de contrato sobre o 'primeiro áudio de fechamento'."
+    },
+    {
+      "numero": 35,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "uns sete, oito clientes.",
+      "explicacao": "O caso de fechar a agenda, reajustar o valor e conseguir atender 'uns sete, oito clientes' com o editor está na fonte, dentro da faixa. O número aparece como capacidade dos professores, em exemplo perecível, e não vira régua. A ressalva 'edição é o que leva mais tempo' está preservada."
+    },
+    {
+      "numero": 36,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "ela comentou sobre isso.",
+      "explicacao": "F6 resolvida. O corpo separa as reações: da dentista, só que ela \"comentou sobre isso\" quando conversaram; do cliente de plantas, que \"achou o máximo\" porque \"não tem quem faça isso lá para ele\" e o marketing dele não fazia. \"Ambos comentaram positivamente\" saiu. `condicoes` está `null`, e a localização virou facilitador atribuído aos professores (\"não custa nada ir gravar\"), como pede a fonte (\"Se a empresa é da sua cidade, Cara, não vai custar nada\"). O 90% dos textos e a fachada da clínica conferem. Ajuste menor: a frase \"mostra dedicação ao cliente antes mesmo de qualquer conversa\" se apoia em \"Sem nem falar comigo\" (00:44:15, dentro da faixa) e em \"O quão dedicado ele está para esse vídeo\" (00:44:17.9–00:44:20.9). `fim` = 2658 (00:44:18) corta essa segunda fala logo no começo; estender `fim` para cerca de 2661 fecha o ponto."
+    },
+    {
+      "numero": 37,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "mas você está se posicionando,",
+      "explicacao": "F3 resolvida. `tema` agora é `venda-no-conteudo`, sem `formato-*`, e as tarefas são `planejar-conteudo` e `vender-no-conteudo`, coerentes com o corpo. A `nota` que justificava o tema de formato saiu. O corpo é fiel: motivo de procurar a podóloga, contar caso sem expor cliente nem citar nome, vídeo satisfatório que pode viralizar mas \"não vai posicionar nada\", e diferencial. O corpo começa com \"Se \". Ajuste menor: o fecho \"quem se posiciona é procurado\" apresenta como fato geral o que a fonte dá como fala do professor sobre o caso da aluna (\"pode ser que o seu concorrente esteja fazendo esses videozinhos... mas você está se posicionando, é em você que ele vai\"). Não muda a decisão, mas o resultado não está atribuído ao professor."
+    },
+    {
+      "numero": 38,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, isso afasta esse cliente, porque eles já estão cansados de ver",
+      "explicacao": "'Métrica de vaidade', viralizar de forma intencional com vídeo de análise estratégico, 'sujar a base', 'palhaço... nem posiciona e nem gera venda' e clientes que não suportam esse tipo de vídeo estão na fonte, dentro da faixa. Parte da afirmação começa como 'muita gente fala', mas os professores a endossam e repetem em primeira pessoa. Ver o apontamento de contrato sobre 'sujar a base'."
+    },
+    {
+      "numero": 39,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O vídeo cumpriu o objetivo.",
+      "explicacao": "F7 resolvida. O corpo descreve o vídeo como a fonte: \"um vídeo deles, ligado ao último cliente que fecharam, do ramo de plantas\", e a `nota` leva a inferência sobre o vídeo de análise para o lugar certo, com `confianca` media. Os números conferem: 4 mil views por conta da collab, 600 a 800 sem ela, e fechou mesmo com pouco alcance. \"Nunca viralizou um vídeo\" está na fonte. A `Lógica` se limita a \"O vídeo cumpriu o objetivo\", que está dentro da faixa estendida (00:49:05.04, com `fim` em 00:49:06). Dois pontos menores. (1) Essa frase vem depois do conselho à aluna (\"Continua testando\", \"ganchos mais fortes\"), sem dizer a qual vídeo se refere; ligar ao vídeo de plantas e acrescentar \"mesmo sem viralizar\" é inferência razoável que a `nota` não marca. (2) A fonte diz \"Se ele não tivesse assistido o collab\", e o corpo diz \"sem a collab\", uma leitura simplificada de uma frase ambígua. Nenhum dos dois muda o uso."
+    },
+    {
+      "numero": 40,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mais, às vezes, polêmicas, se não for o seu",
+      "explicacao": "F1 resolvida. O corpo não impõe mais a condição \"se combinar com o seu estilo\". Recomenda testar formatos, temas mais relevantes, ganchos mais fortes e falar coisas às vezes mais polêmicas, e diz que a fala menciona o estilo mas o trecho está truncado e não deixa claro se é condição. A `nota` traz o trecho literal (\"mais, às vezes, polêmicas, se não for o seu\" / \"estilo ou não\") e as duas leituras. `confianca` é media e o corpo começa com \"Se \". O ponto sobre empresário confere (não interage em comentário, mandou mensagem no direct). A incerteza da fonte está preservada."
+    },
+    {
+      "numero": 41,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você não precisa ter vídeo viralizado para isso.",
+      "explicacao": "'Super vale a pena', o vídeo gratuito para 'essa moça' com no máximo 900 seguidores e a indicação de criar conteúdo mesmo sem prospect estão na fonte. O número de seguidores é atribuído à professora como caso dela, não como régua, e a unidade está marcada como perecível."
+    },
+    {
+      "numero": 42,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, o meu próprio perfil é o meu portfólio",
+      "explicacao": "'Exceto esse' (o cliente que pediu portfólio e depois disse ter percebido a evolução pelos vídeos), os clientes que maratonaram o perfil e contrataram, e 'criem conteúdo independente de estar viralizado' estão na fonte. 'Quase nenhum cliente pediu' equivale a 'todos, exceto esse'. A atribuição está preservada."
+    },
+    {
+      "numero": 43,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "IHC, jeito certo errado, vídeo de análise",
+      "explicacao": "O caso da advogada está na fonte. Mas o corpo inclui 'Os últimos vídeos feitos com ela foram 10 por 6 mil reais, com as estruturas do curso: IHC, jeito certo e errado, vídeo de análise e AIDA'. Essa parte fica em 00:51:37–00:51:46 (~3097–3106 s), fora ou no limite da faixa 3044–3098, e antes do início da unidade 44 (3107). Sem esse trecho a faixa apoia o caso, mas não a lista de estruturas nem o preço. Estender `fim` para cerca de 3107 resolve. O conteúdo em si é fiel."
+    },
+    {
+      "numero": 44,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, quando você chega e faz um formato de diálogo,",
+      "explicacao": "Cansaço do 'mais do mesmo' e de trend, o cliente em potencial que quer se diferenciar, diálogo, tela dividida e tela verde como diferenciais e 'se fosse para contratar mais do mesmo, ele contratava qualquer pessoa' estão na fonte, dentro da faixa. Está atribuído como relato dos professores."
+    },
+    {
+      "numero": 45,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se chega para vocês um cliente que está vindo com a dor muito forte",
+      "explicacao": "'Ele não é seu cliente', 'a gente não é salvador de ninguém' e o cliente ideal, cuja empresa já está bem mas entende que vai sumir se não se posicionar, estão na fonte, dentro da faixa. A unidade atribui o princípio aos professores nas `condicoes`. 'Tem clientes e fatura' vem do exemplo do cliente da Califórnia, logo depois do trecho, e não muda o sentido."
+    },
+    {
+      "numero": 46,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Em janeiro desse ano a gente cobrava 1.400 reais",
+      "explicacao": "Os valores 500 por 4 vídeos, 1.200, 1.400, 2.000, 2.500, 2.800, 5.000 por 8, 5.400 por 8, 6.500 por 12 e 1.400 por 8 em janeiro conferem com a fonte. A unidade trata tudo como caso dos professores, perecível, e não como referência. A `nota` registra a oscilação entre 5.000 e 5.400. A faixa 3254–3331 cobre o trecho."
+    },
+    {
+      "numero": 47,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não tem resultado quem não aplica.",
+      "explicacao": "'Só escutar não faz ter resultado', 'você é pago para aprender', 'melhor profissão para você começar no digital' e 'eu era personal' com o primeiro vídeo ruim estão na fonte. A unidade atribui o resultado aos professores nas `condicoes` e no corpo. A transcrição não rotula falantes, então 'a professora' em 'era personal' é inferido. Não muda o uso."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 71,
+      "trecho_fonte": "eu mostrei os sete passos que eu uso para escrever um roteiro.",
+      "descricao": "A professora diz que o método completo dela para escrever roteiro tem sete passos, mostrados na monitoria da semana anterior. A U1 traz só quatro passos e nenhuma unidade avisa que o método completo não está nesta aula.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente pode tratar os quatro passos da U1 como o método completo da professora e não saber que existe uma sequência de sete passos fora desta aula."
+    },
+    {
+      "inicio": 669,
+      "trecho_fonte": "Além de organizar as coisas no Trello, no Docs,",
+      "descricao": "Além do papel e do quadro, a professora organiza clientes e tarefas no Trello e no Google Docs (usa 'bastante o Docs'). A U11 diz só papel e quadro, com plataformas 'geral'.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem procurar como organizar rotina de clientes no Trello ou no Docs não encontra a menção, e a U11 parece exigir papel."
+    },
+    {
+      "inicio": 2774,
+      "trecho_fonte": "Olha, eu acho que o conteúdo dele tem que gerar identificação.",
+      "descricao": "Na resposta à podóloga (nicho de vídeos satisfatórios), um dos professores diz que o conteúdo dela tem que gerar identificação e que isso depende do nicho. Esse trecho fica entre as faixas da U37 e da U38 e nenhuma unidade o preserva.",
+      "gravidade": "menor",
+      "efeito_pratico": "A resposta situacional da U37 perde uma diretriz curta (gerar identificação), sem afetar a execução do resto."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U1: a tarefa `pesquisar-publico` é definida na taxonomia como levantamento de desejos, medos e crenças do público. A pesquisa do corpo é por tema de cada vídeo (redes sociais e ChatGPT). Quem consultar essa tarefa recebe um procedimento de outro tipo de pesquisa. Ajuste menor; a tarefa `escrever-roteiro` já cobre.",
+    "U9: limite sobre fechamento e contrato classificado em `curso-e-recursos` e sem tarefa. Quem consulta `fechar-e-precificar-servico` não encontra o aviso de que esta aula não traz o método completo de fechamento. Classificação discutível, ajuste menor.",
+    "U14: o título afirma 'só conversa à distância', e o corpo não diz isso. A fonte diz apenas que o cliente não será gravado presencialmente. O título promete mais do que o corpo entrega.",
+    "U15 e U16: tipo `regua` para tempos pessoais dos professores (edição de ~1 h e 2–3 h; pesquisa e roteiro em 10–15 dias; ~5 dias para entregar). A fonte diz 'depende muito' e são velocidades e prazos próprios. As `condicoes` ajudam, mas `exemplo` ou `regra` com atribuição seria mais seguro. Ajuste menor.",
+    "U4 e U8: sem problema de contrato próprio. Os desvios de atribuição e de faixa estão em `unidades`.",
+    "U30: a tarefa `quebrar-crencas` na taxonomia é 'substituir crença disfuncional por crença funcional por meio de história' no público. O caso é sobre a crença do próprio professor (posicionamento é o resultado). Um agente que busca como quebrar crenças do público pode cair aqui. Classificação discutível, ajuste menor. Alternativa: manter só `fechar-e-precificar-servico`.",
+    "U18: `tipo: regua` para a prática de pagamento da professora, que ela mesma introduz como 'o exemplo desse último cliente'. Está atribuída à professora no corpo e na condição. Um agente pode ler 50-50 e 10 dias como parâmetro do curso. Classificação entre valores defensáveis (regua, regra, exemplo). Ajuste menor.",
+    "U31: 'cliente' designa duas pessoas no mesmo parágrafo (o cliente do criador e o cliente da advogada). O trecho 'ocupando um espaço mental na cabeça do cliente para ser a opção quando precisarem dele' fica ambíguo para quem consulta sem a aula. Ajuste menor.",
+    "U19 x U21/U24: o corpo de U19 diz que a transcrição não traz nenhum ajuste de gravação do aparelho, mas a mesma aula dá 'gravar em 4K' (U21) e 'grava 30fps' (U24). Vale qualificar U19 (a configuração detalhada do iPhone não foi mostrada) para não contradizer as outras unidades.",
+    "U37 (menor/discutível): `tema` formato-analise e tarefa `escolher-formato` não correspondem ao que a unidade ensina. Ela trata de nicho dominado por vídeos satisfatórios, contar casos sem expor o cliente e diferencial e posicionamento. Não trata do Formato Análise nem de escolher formato, e a própria `nota` diz que não há formato específico do curso. Um agente que consulta formato-analise cai numa unidade que não é sobre isso, e o contrário. Um tema geral (por exemplo metodo-formato-criativo ou venda-no-conteudo) e tarefas mais adequadas evitam o desvio.",
+    "U34 (menor): o corpo cita 'o primeiro áudio de fechamento' sem explicar. É um áudio tocado na aula (WhatsApp, primeira cliente), que quem consulta a unidade sem a aula não conhece. Convém dizer o que é, ou trocar por 'no primeiro fechamento dela'.",
+    "U38 (menor): 'podem até sujar a base' é expressão opaca e não é explicada na unidade nem definida na fonte. Quem consulta sem a aula pode entender de várias formas. Explicar como a fonte usa, ou remover."
+  ],
+  "material": [],
+  "resumo": "Conferi só as sete unidades da lista (3, 4, 19, 36, 37, 39, 40) contra a transcrição, e as falhas F1 a F7 foram resolvidas pelos critérios de aceite. Nenhuma unidade tem desvio, sem-lastro ou faixa-errada, e as alterações não criaram problema material novo. Restam ajustes menores, sem efeito na decisão: U19 (4K dito como recomendação, e 4K e 30 fps fora da faixa), U36 (`fim` corta a fala sobre dedicação), U37 (resultado sem atribuição) e U39 (referente de \\\"O vídeo cumpriu o objetivo\\\" e a leitura de \\\"collab\\\"). Nenhuma das falhas era de cobertura, então não registro omissões nem perecibilidade nova; a aula não tem material de apoio."
+}

@@ -1,0 +1,122 @@
+{
+  "M02_A09": {
+    "estado": "erro de contrato residual",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02",
+    "erros": [
+      "M02_A09: contexto com marcador temporal ou timestamp"
+    ]
+  },
+  "M02_A01": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [
+        "omissão"
+      ],
+      "perecibilidade": [
+        7
+      ],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M02_A02": {
+    "estado": "inspecionada, fora do julgamento",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02",
+    "julgamento": null,
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    }
+  },
+  "M02_A03": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [
+        6,
+        8,
+        11
+      ],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M02_A04": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [
+        1
+      ],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M02_A05": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02",
+    "julgamento": "amostra",
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    },
+    "ciclos": 0
+  },
+  "M02_A06": {
+    "estado": "inspecionada, fora do julgamento",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02",
+    "julgamento": null,
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    }
+  },
+  "M02_A07": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1",
+    "julgamento": "conferência adicional",
+    "inspecao": {
+      "material": [
+        11,
+        "omissão"
+      ],
+      "perecibilidade": [
+        6
+      ],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M02_A08": {
+    "estado": "aprovada",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1",
+    "julgamento": "amostra",
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [
+        8
+      ],
+      "nao_literais": 0
+    },
+    "ciclos": 1
+  },
+  "M02_A10": {
+    "estado": "inspecionada, fora do julgamento",
+    "pasta": "/Users/wilianrafaelribeiro/cursos/formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02",
+    "julgamento": null,
+    "inspecao": {
+      "material": [],
+      "perecibilidade": [],
+      "nao_literais": 0
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "aula": "M02_A04",
+  "arquivo_sha256": "352809466d6ffbafc97896c78a9d6dcdc5fcf3c84aff1c763b80793a64ce3cd4",
+  "inspecao_sha256": "e311542dce99817647b978508a0258c913c07e70b7cca4eb4caa307ec9054b94",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os três itens que o inspetor pôs no campo `contrato` tratam de referências à aula (unidades 10, 13, 14 e 16) e da coerência entre nota, confiança e condições da unidade 13. Isso é aplicabilidade e fidelidade, não contrato de script, e foi tratado nessas áreas.",
+  "fidelidade": "Falha só na unidade 13. Das 20 unidades, 19 estão lastreadas com trecho literal, e `citacoes_nao_literais` está vazio. Nenhuma faixa está errada e não há sem-lastro. Os números dos casos conferem, e não há divergência entre fala e material.\n\nNa unidade 13 o inspetor marcou `desvio` e classificou a gravidade como menor. Divirjo da gravidade. A fonte só observa que o vídeo da aluna tem contraste na primeira frase. A unidade transforma isso em imperativo geral (\"Coloque um contraste logo na primeira frase do roteiro\"), com tipo `regra`, `confianca: alta` e `condicoes: null`. A própria `nota` admite que o professor \"não o enuncia como regra geral\".\n\nA rubrica lista caso apresentado como parâmetro geral entre as falhas materiais. Ela também manda falhar desvio comprovado, qualquer que seja a confiança ou a nota. Registrar a ressalva em `nota` não autoriza manter o erro conhecido.\n\nAs glosas e atribuições apontadas nas unidades 9, 12, 15 e 17 não mudam a decisão de quem consulta. Ficam como ajustes menores.",
+  "cobertura": "Passa. A inspeção declarou alcance integral e busca de omissões na fonte inteira. Os quatro elementos do formato estão nas unidades 2 a 5. Também estão o atalho do TikTok, o recurso do Trello, os três casos analisados, o limite de oferta, o tom de fofoca, a recomendação sobre IA e a execução que só o material traz.\n\nA única omissão localizada é a frase de abertura (\"baita formato para você começar e ter um alcance brutal de cara\"). É promessa de resultado em tom de chamada. Não é régua, passo nem condição que mude a execução. Fica como ajuste menor e não veta.",
+  "perecibilidade": "Falha na unidade 1. O corpo afirma que o efeito de tela verde está \"disponível no Instagram, no TikTok e no modo de edição de aplicativos de edição\". Isso é recurso de plataforma e de aplicativo. A unidade está marcada `plataformas: [geral]` e `perecivel: false`. É o caso de perecível escondido em unidade `geral`, que o script não pega, e a rubrica manda falhar.\n\nA `nota` diz que as redes são citadas \"apenas como lugares onde o efeito existe\". Essa frase confirma que o corpo afirma a disponibilidade. Não a torna durável.\n\nAs demais unidades com conteúdo perecível estão marcadas `true`. São as unidades 6, 7, 9, 12, 15, 16 e 19: TikTok, Trello, SOFIA, números de caso e oferta.",
+  "aplicabilidade": "Passa, com ajustes menores. `tipo`, `tema`, `tarefas` e `plataformas` levam o agente ao lugar certo. Nas unidades 2, 6, 11, 17 e 19, `condicoes` está preenchido onde o corpo é recomendação, opinião ou depende de situação. Os termos \"elementos viciantes\", \"olhar por trás da Matrix\", \"dar um 360\" e \"SOFIA\" estão explicados só com o que a fonte diz.\n\nSobraram referências à aula: \"nesse trecho\" e \"em outra unidade\" na 16, \"nos vídeos analisados\" na 10, \"Na aula, a aluna…\" na 14 e \"No vídeo analisado\" na 18. Em todas o corpo ainda se entende sozinho, e o uso não muda.\n\nO problema de aplicabilidade da unidade 13 (`condicoes: null` em afirmação que só vale para o caso) está absorvido na falha de fidelidade F2. Não abre veto próprio.",
+  "falhas": [
+    {
+      "id": "M02_A04-F1",
+      "unidades": [
+        1
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da unidade 1 diz: \"efeito de tela verde, disponível no Instagram, no TikTok e no modo de edição de aplicativos de edição\". A unidade está com `plataformas: [geral]` e `perecivel: false`. O inspetor confirma com trecho literal da fala (\"Tanto no Instagram, no TikTok, tem também nos aplicativos de edição\") e aponta o problema no campo `perecibilidade`. A `nota` da unidade reconhece que as redes são citadas como lugares onde o efeito existe.",
+      "impacto": "Um agente que filtra por `perecivel: false` trata a disponibilidade do efeito nessas redes e aplicativos como fato estável do curso. Vai repeti-la sem ressalva de data, embora recurso de plataforma mude.",
+      "mudanca_minima": "Marcar `perecivel: true` na unidade 1 e incrementar `versao`. Mantém `plataformas: [geral]`, porque a orientação não depende da rede. A alternativa é tirar do corpo a afirmação de disponibilidade nas redes e aplicativos nomeados, mantendo só a definição do formato. A primeira opção preserva o que a fonte diz.",
+      "criterio_de_aceite": "Uma das duas condições vale. A primeira: a unidade 1 tem `perecivel: true`. A segunda: o corpo da unidade 1 não afirma mais a disponibilidade do efeito em Instagram, TikTok ou aplicativos de edição. Em qualquer caso, `versao` é no mínimo 2 e o validador retorna zero erros."
+    },
+    {
+      "id": "M02_A04-F2",
+      "unidades": [
+        13
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor marcou `desvio` com trecho literal: \"então tem um contraste logo na primeira frase\". Segundo ele, o professor só observa que o vídeo da aluna tem contraste na primeira frase e que isso cria o \"vai e volta\". Ele não orienta a colocar contraste na primeira frase. A unidade é `regra`, abre com o imperativo geral \"Coloque um contraste logo na primeira frase do roteiro\" e tem `confianca: alta` e `condicoes: null`. A própria `nota` admite: \"não o enuncia como regra geral\". Rubrica: caso apresentado como parâmetro geral é falha material; desvio comprovado falha qualquer que seja a confiança ou a nota.",
+      "impacto": "Um agente que monta skill de gancho ou de revisão de roteiro codifica \"contraste na primeira frase\" como regra categórica do curso, com confiança alta. Pode até reprovar roteiros por isso. A fonte desta aula só sustenta uma observação sobre um caso. A observação já está preservada na Lógica da unidade 12.",
+      "mudanca_minima": "Opção A (recomendada): retirar a unidade 13, listar 13 em `retiradas` e registrar o motivo em `correcoes`. A Lógica da unidade 12 já diz que \"a primeira frase já traz contraste (5 km em pace de 9 contra uma maratona)\". Não é preciso alterar a 12.\n\nOpção B: manter a 13 e reescrever o corpo como observação atribuída ao professor sobre o vídeo da aluna. Exemplo: \"Na análise do vídeo da aluna, o professor destaca que a primeira frase já traz contraste… e que isso cria o vai e volta do roteiro\". O corpo fica sem imperativo geral. Preencher `condicoes` com algo como \"Observação do professor sobre um caso analisado; ele não a enuncia como regra geral\". Ajustar título e `versao`.",
+      "criterio_de_aceite": "Nenhuma unidade do arquivo apresenta \"contraste na primeira frase\" como imperativo ou regra geral do professor. Se a opção for A, `retiradas` contém 13, a unidade 12 continua com a observação do contraste e o validador retorna zero erros. Se a opção for B, o corpo da 13 atribui a observação ao caso da aluna, não tem imperativo genérico, tem `condicoes` preenchido e `versao` no mínimo 2, e o inspetor a reclassifica como `lastreada`."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 17: o corpo glosa \"exposed\" como \"revelação de algo escondido\", e a fonte não define o termo. Tirar o parêntese e deixar o termo como transcrito. Não muda o uso.",
+    "Unidade 12: o título diz \"famosa corredora\", e a fonte só diz que é alguém famoso que correu 5 km em pace de 9. O corpo está correto (\"pessoa famosa\"). Trocar o título para algo como \"caso da aluna que contou a corrida de uma famosa\". Título não entra no hash.",
+    "Unidade 15: \"segundo a professora\" tem atribuição incerta, porque quem comenta cita \"a Hanna\" na terceira pessoa. Trocar por \"segundo quem comenta o vídeo\" ou \"segundo os professores\". A nota já registra a incerteza.",
+    "Unidade 9: \"a revelação… surpreende\" generaliza a surpresa, que o professor declara como dele (\"pelo menos pra mim\"). Atribuir a surpresa ao professor.",
+    "Unidade 16: \"exibido nesse trecho\" e \"feita em outra unidade\" são referências que ficaram na aula. Identificar o vídeo como peça promocional das professoras em Tela Verde e citar a análise sem remeter a \"outra unidade\".",
+    "Unidades 10, 14 e 18: \"nos vídeos analisados\", \"Na aula, a aluna…\" e \"No vídeo analisado\" são referências soltas à aula. O corpo se sustenta, mas ganharia com uma descrição curta do caso no lugar da remissão.",
+    "Unidades 3 e 4: não dizem que são o segundo e o terceiro dos quatro elementos viciantes. As unidades 2 e 5 dizem a posição delas. Acrescentar a posição ajudaria o agente a reconstruir a lista fechada. O inspetor confirmou a enumeração na fonte.",
+    "Unidade 5: usa \"elemento viciante\" sem a explicação curta que a unidade 2 dá.",
+    "Omissão menor: a abertura apresenta o Tela Verde como \"baita formato para você começar\". Se for aproveitada, entra como indicação atribuída ao professor, sem a promessa de alcance. Não é exigida.",
+    "Unidade 11: `condicoes` remete ao \"vídeo da Lady Gaga\" sem descrevê-lo. Uma frase curta resolveria, por exemplo \"história de superação de uma famosa\"."
+  ],
+  "proximo": "O arquivo falha em duas unidades, a 1 e a 13. O redator corrige só F1 (unidade 1) e F2 (unidade 13). Todas as unidades estão em `versao: 1`, sem `correcoes`, então este é o ciclo 1 de 2.\n\nDepois da correção, o redator roda o validador. Em seguida vem a conferência focal do inspetor, restrita às unidades 1 e 13. A unidade 12 só entra se for alterada, o que a opção A não exige. As outras 18 unidades mantêm a evidência atual enquanto o hash não mudar.\n\nOs ajustes menores não entram no critério de aceite da próxima rodada. Se o redator aplicar algum que mexa no corpo (9, 15, 16, 17 e outros), o hash da unidade muda e ela entra na conferência focal. Os ajustes só de título, como o da 12, não mudam o hash. Não é preciso pedir prova adicional ao inspetor: os dois apontamentos que vetam têm trecho literal e são confirmados pelo próprio texto das unidades."
+}

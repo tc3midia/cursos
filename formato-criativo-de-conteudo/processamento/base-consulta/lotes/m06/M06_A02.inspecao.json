@@ -1,0 +1,211 @@
+{
+  "aula": "M06_A02",
+  "arquivo_sha256": "e9b71b27ed06ee66639b73ac970e8835e5a4d55f5920f883b6d20b931de89da1",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "hashes_unidades": {
+    "1": "dba425ea47cb779b12d46a7ff15409bd631232586f8e1fc0a83e105477613915",
+    "2": "d5f76b26681bae9bd0d7fad57ea34b1f154c2a2888731f7959831fd0cbc4a085",
+    "3": "a92752ca6eacdd5e5a24db637d7d3c97faf46fb23961835f864f760dfb6c440c",
+    "4": "7bd44604d60196b98f5b01b19cc1e5915508bb3743d1b83bb06fcd3c8bd017ca",
+    "5": "2923a6c981af2a9e32e90ffca28f6e8c94a6357eaa428678de692ed6be856346",
+    "6": "f2ce60258cda10aa8e65ad3af1c1bc231ee1fc424d1d48244dafe9d5820d9870",
+    "7": "0528504dfd203daae797987bb0197b001f5df2723b1cab2893430687c1d29d83",
+    "8": "790ca09ccc9caaca2701ecbf765ccb23ae2eeee8cf5d722b917cd6c54e11d928",
+    "9": "3a1f0f6837647fa04c74a8d5f603e4ac8fe7b29e79c4bba9fb0e11af60450d3e",
+    "10": "e529feaab189cfa52340e592f90b6de90da834d2724cb69cd97ca5b0cf441866",
+    "11": "47b70c575390ebf17bf9b96cd73b6b4e6c20c140ee79f7c8ddacaf5495365427",
+    "12": "5dd764e24991e6ac560b14f573cd6a5720e6aaf931c0eee8e33b978658bbc34d",
+    "13": "6f32a9a5e56f5b568c9c6d797b7e6af9615e3032f4c31cca42d3490f2433ca46",
+    "14": "1019576b4793e48f4dccbb5cd095337f64601b7f6c8a4cf59ec9c36d124108e3",
+    "15": "54d71d79f834df0d8de687c846e26a5da44a498ba35011c3a1849eef347a4286",
+    "16": "1401ed4758c16bc8e7f5329fa78b10a5081c57b46c0386009119207380c35396",
+    "17": "828e238acecb5ebbaa7129bbcb73928ea15df0cb361ac3b5e978f1259a9bde4a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "executa porque esse tipo de conteúdo que eu vou trazer aqui realmente ele funciona pra caramba",
+      "explicacao": "Todo o corpo tem lastro: insights, potencial de venda imediata, \"provavelmente não se encaixa com todos os nichos\", \"não tem problema\" sem conexão direta, e recomendação de executar porque \"funciona pra caramba\". A atribuição ao professor está correta. Ajuste de faixa: a frase da recomendação está no segmento que começa em ~80 s e vai até ~85,7 s, e `fim` é 81, então a justificativa fica quase toda fora da faixa. O segmento começa dentro da faixa, então não conto como faixa-errada. Sugiro `fim` ≈ 85. Sem efeito no conteúdo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "depoimento ele deve ser sobre a transformação e não sobre você",
+      "explicacao": "Corpo fiel: depoimento sobre transformação e resultado; elogio à simpatia e à qualidade das aulas \"não faz diferença nenhuma\"; os exemplos de resultado (postou e fechou cliente; poucos seguidores e muitas views) estão na fonte, sem os números do caso; \"tem que trazer depoimento de pessoas que tiveram resultado\". Ajuste de faixa: a última frase (\"Então tem que trazer depoimento de pessoas que tiveram resultado\") está no segmento 141,4–144,3 s, e `fim` é 142. A U3 começa em 144. Sugiro `fim` 144. O segmento começa dentro da faixa, então não é faixa-errada."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "isso vai ser chato, principalmente se for um vídeo.",
+      "explicacao": "Fiel: print ou vídeo do cliente é chato e ignorado; o depoimento criativo usa a história de transformação como insumo, com storytelling. Nuance sem efeito: o corpo diz \"principalmente no feed\", e a fonte diz \"principalmente se for um vídeo\" e depois afirma que não dá para postar vídeo de cliente no feed."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Então a ideia é que o vídeo em si seja um vídeo interessante para as pessoas verem na rede social.",
+      "explicacao": "A fonte diz isso ao descrever o depoimento criativo: em 3:22–3:42 o professor fala do formato Análise aplicado ao cliente e de só revelar no fim que o cliente aprendeu com ele, e o \"Então a ideia é…\" fecha essa explicação. A unidade generaliza para \"Vídeo de venda\" no título e \"O vídeo\" no corpo, sem `condicoes`. O professor não diz que todo vídeo de venda deixa o produto para o fim, e o \"produto em ação\" (U12–U14) mostra o produto do início. Quem consulta pode aplicar \"produto só no final\" a qualquer vídeo de venda, inclusive ao produto em ação. Correção mínima: restringir título, corpo e `condicoes` ao depoimento criativo (e às análises em que o professor mostra o padrão)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente tem um formato já, que é o formato análise, né?",
+      "explicacao": "Os fatos do caso conferem: resultado aplicando a metodologia, formato Análise aplicado ao cliente, abertura com o resultado, esforço sem retorno, imagens dele sofrendo, mais de um milhão num anúncio e mais ainda nos outros, revelação só no fim. Dois pontos menores. (1) \"a venda entra de forma leve no fim\" é acréscimo; a fonte só diz que o vídeo deve ser interessante e o produto entra no fim. (2) O corpo funde a descrição de 3:16–3:57 (primeiro vídeo, em formato Análise) com a de 4:13–4:57, dita depois do segundo vídeo. Em 3:06–3:11 o professor fala em \"dois exemplos… em formatos diferentes\". A transcrição não permite saber se são o mesmo rapaz. A nota da U15 registra essa dúvida, e a nota da U5 não. A confiança média e o número tratado como caso mitigam."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você pode fazer a análise dessa pessoa",
+      "explicacao": "Conceito e exemplo da harmonização facial conferem. O corpo diz \"analisar o resultado nela\", e a fonte diz só \"fazer a análise dessa pessoa\". Diferença sem efeito prático."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E esse vídeo bateu 32 mil likes",
+      "explicacao": "Corpo conforme a fonte: aluno de festas com poucos seguidores, análise da festa de aniversário com \"só um bolinho\", marca de festas no fim, 32 mil likes. O número está tratado como caso, com `perecivel: true` e nota. Ajuste menor: o título diz \"passou de 32 mil likes\", e a fonte diz \"bateu 32 mil likes\", sem \"passou de\". A \"Lógica\" (atrai atenção ao assunto do nicho) é inferência do extrator; o professor só diz que \"faz muito sentido\" esse tipo de análise."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você vende roupa, você pode analisar a roupa das pessoas",
+      "explicacao": "Roupa, social media e criador estrategista (perfil ou conteúdo específico) e \"funciona pra caramba\" conferem, com atribuição ao professor. \"Algo do seu produto\" é abstração razoável de \"utilizando daquilo que você faz\"."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não é todas as pessoas que conseguem fazer de acordo com o lixo ali",
+      "explicacao": "A orientação central confere: para trabalhar com uma pessoa específica, analisar alguém próximo ou com poucos seguidores; o famoso provavelmente nem vê e dificilmente contrata. Dois pontos menores. (1) A `condicoes` resolve com segurança um trecho degradado: \"nem todos conseguem fazer esse tipo de análise\" vem de \"…conseguem fazer de acordo com o lixo ali\" (provável \"nicho\", não confirmado). O sentido pode ser dependência de nicho, e não capacidade. A unidade tem `confianca: alta` e `nota: null`, o que não preserva a incerteza. Sugiro `confianca` média e `nota`. (2) A fonte diz \"Você consegue meio que fazer um vídeo para fechar o contrato\", e o corpo diz \"funciona como um vídeo para fechar contrato\": o \"meio que\" some e a afirmação fica sem atribuição ao professor."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E ele com certeza vai ver o seu vídeo",
+      "explicacao": "Exemplo hipotético (\"vamos supor\"), corretamente sinalizado em `condicoes`. Cadeia de argumentos e a Lógica dos concorrentes conferem. Diferenças pequenas: a fonte diz \"com certeza vai ver\", e o corpo diz \"provavelmente o verá\" (atenua). \"Top dentista da cidade\" virou \"dentista mais conhecido do lugar\", o que é interpretação de \"top\". Não muda a decisão."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você faz análise com essa visão de tipo, eu vou mostrar o meu trabalho para essa pessoa específica, isso pode dar muito certo.",
+      "explicacao": "Conferem: influenciadora menor, ainda sem parceria com festas, mostrar o trabalho a essa pessoa, efeito que \"resvala\" nos concorrentes e seguidores. Os números 100 mil e 50 mil aparecem só como ilustração (\"algo como\" no corpo e nota explícita). Não viram régua."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, o que é produto em ação? É você mostrar o seu produto na prática.",
+      "explicacao": "Definição, bastidores para o criador estrategista, produto físico no dia a dia do público e a pergunta \"como posso mostrar esse produto em ação\" conferem."
+    },
+    {
+      "numero": 13,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "A chance desse vídeo alcançar mais pessoas é muito grande",
+      "explicacao": "Na fonte (10:27–10:36), a frase é do professor e refere-se a um caso específico: \"Então quando eu faço um vídeo de aspirador de pó e eu conecto ali com um tema de relacionamento…\". A unidade a transforma em fato geral e sem atribuição: \"Ao conectar o produto a um tema assim… a chance de o vídeo alcançar mais pessoas é muito grande\". O professor também diz que o produto em ação \"geralmente vai funcionar\", e o corpo perde esse \"geralmente\". O FORMATO §3 exige atribuir ao professor as afirmações de resultado e não confirmar eficácia. Correção mínima: \"O professor diz que…\" e ancorar no exemplo aspirador + relacionamento, sem generalizar."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Já vi, por exemplo, pessoas que vendem produtos físicos vendendo um produto de limpeza, sei lá, um aspirador.",
+      "explicacao": "O caso confere: casal limpando a casa junto e mais rápido, em vez de só mostrar o aspirador. Ajustes menores. (1) A frase \"Já vi…\" (a `Situação`) está no segmento 586,7–594,4 s, e `inicio` é 594. O segmento termina dentro da faixa, então não é faixa-errada; sugiro `inicio` 586. (2) O professor apresenta o caso de forma frouxa (\"sei lá, um aspirador\", \"por exemplo\"). (3) A `Lógica` (\"aumenta a chance de alcançar mais pessoas\") é dita sem atribuição, o mesmo ponto da U13."
+    },
+    {
+      "numero": 15,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí, eu trouxe um exemplo aqui, dois exemplos na verdade",
+      "explicacao": "O corpo diz que o professor \"diz que são dois exemplos em formatos diferentes\". Essa fala está em 3:06–3:12 (186–192 s), fora da faixa 237–255 s. Também estão fora da faixa o primeiro \"Vou tocar só o início desse aqui\" (~3:12) e a fala anterior sobre o vídeo. O núcleo do limite, o \"Esse aqui… vou mostrar só o começo\" seguido de silêncio de 3:59 a 4:13, está dentro da faixa e é fiel. Conteúdo real, faixa curta: estender `inicio` para ~186 ou tirar essa frase do corpo. Isso é 1 faixa-errada em 17 unidades (~6%), abaixo do limite de 10%."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "presta rápido e melhora no próximo, não esqueça disso, presta rápido e melhora no próximo.",
+      "explicacao": "A lista de tipos, \"coloca em prática\" e \"mesmo sem certeza… não importa\" conferem, com atribuição ao professor. A transcrição diz \"presta rápido\", e o título afirma \"poste rápido\" (a nota admite que talvez seja \"posta\"), enquanto o corpo usa \"execute\". O título escolhe uma leitura que a fonte não confirma. Sugiro um título neutro, por exemplo \"execute rápido\". A lista de tipos omite a análise de famosos, o que é aceitável para um resumo do próprio professor."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Nas próximas aulas a gente vai começar a ir aprofundando nas estratégias de venda para o seu conteúdo.",
+      "explicacao": "Confere na íntegra. A faixa 685–692 cobre o fecho."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 61,
+      "trecho_fonte": "aplicar de fato em qualquer nicho aqui é uma idéia você já aplicar se não",
+      "descricao": "O professor contrapõe os insights desta aula, que podem não caber no nicho, ao resto do módulo, que segundo ele \"é baseado em princípios\" que se aplicam \"em qualquer nicho\" (56–67 s; parte da frase, \"de falar de forma\", está degradada, mas o sentido é legível). A U1 registra só o lado \"pode não caber\".",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta só a U1 pode concluir que a abordagem de venda do módulo não vale para todo nicho. O professor diz que o módulo inteiro é aplicável e que só estes exemplos podem não se encaixar."
+    },
+    {
+      "inicio": 80,
+      "trecho_fonte": "então vamos lá são quatro tipos de",
+      "descricao": "Nenhuma unidade diz que a aula traz quatro tipos de conteúdo nem os enumera. Fica implícito só em \"segundo tipo\" (U6) e \"quarto tipo\" (U12). Nenhuma unidade nomeia o terceiro tipo (análise da pessoa específica que se quer como cliente). A U16 lista três dos tipos.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta o mapa dos quatro tipos. O agente precisa reunir cinco ou seis unidades para reconstruir a lista e pode tomar as análises de famoso e de pessoa específica por um só tipo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U4: o corpo depende da aula em três pontos. \"O vídeo\" não diz de qual tipo de vídeo se trata, \"o protagonista\" não tem referente e \"No exemplo do professor\" remete a um caso que só a U5 descreve. Com título e corpo restritos ao depoimento criativo (ver desvio da U4), isso se resolve. Impacto médio para quem consulta a unidade sem a aula.",
+    "U13: o corpo abre com \"Esse tipo funciona mais conforme o contexto\" sem nomear o \"produto em ação\", que aparece só no título. `condicoes` traz uma referência de aula (\"O professor remete… ao módulo de roteiro\") e não uma condição de uso. Ajuste menor: nomear o tipo no corpo e mover a remissão para o corpo ou a nota.",
+    "U15: \"Nessa parte há um intervalo sem fala\" é uma referência posicional à aula, sem tempo nem contexto. Ajuste menor: dizer \"Entre a chamada do segundo vídeo e a retomada da explicação\", ou equivalente."
+  ],
+  "material": [],
+  "resumo": "As 17 unidades têm lastro na transcrição e não achei nenhuma sem-lastro. Não há material de apoio nesta aula, todas as unidades usam só a fala, e não achei perecível escondido em unidade marcada como geral. Há dois desvios, ambos menores: a U4 generaliza \\\"produto só no fim\\\" do depoimento criativo para todo \\\"vídeo de venda\\\", e a U13 apresenta como fato geral e sem atribuição uma frase do professor sobre um caso específico. A U15 é a única faixa-errada, cerca de 6% das unidades. As demais unidades têm só ajustes menores de faixa, título e hedge, e duas omissões menores; a correção dos dois desvios é localizada e barata."
+}

@@ -1,0 +1,225 @@
+{
+  "aula": "M02_A03",
+  "arquivo_sha256": "086fdbabd75408d5bfe6df4b7f194aef6717acdf34c82e52337bcfeba696c484",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [5, 6, 8, 11, 12]; as demais mantêm a evidência da inspeção integral do arquivo 9388bf78089a, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    5,
+    6,
+    8,
+    11,
+    12
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "hashes_unidades": {
+    "1": "5ff271a93b5fc4e07d16ddd7eae3d3cc47c3cd77e38d18959112da6ac7e6c122",
+    "2": "d96571182c093cc2df15adaf30924ec65b149867a19acb4be8fe81b31c15a3fd",
+    "3": "8f4d1849ccfe0b34de0f464118bc5d7f60c89d28b9b28139f12f22164633f669",
+    "4": "24637b07a2d5d268b1549fd34f50cfd1149a5f4e70ed84c41f348b9047c02644",
+    "5": "c3972f04802deac8d0e50a348be555a0d38a9a53bbca1659eeeda6dc68f2c6a5",
+    "6": "a404c56dd9af5d3f4def449064058f3d03f003659744202a7129621505752908",
+    "7": "225b1291facf630858b7585dd0137287ffb3643eeed55ccca2fbddedfd9c7cf3",
+    "8": "66ee3bbe1153b87c2d9df1cd98cc42354e8118f147b315ed85488ebd9f727b34",
+    "9": "f1dc4abdb7b3780c5b397de0522d9451d9cd13f58b1721c796e9c7edb4e2081d",
+    "10": "d65f3490d9d50b801e38843d7a875e4ef01bc25839729de88b582e111b11b74e",
+    "11": "921b6df2ac6d7bc46ecf4df9d3adb3db98a5ea3ddddda01b8b24f8cad8334675",
+    "12": "e1833881efb681a6e0ae2973a28534065ee43a3d1c76d8b0ec1aaadf2f1a5020",
+    "13": "8684a530e21d42930a54828809e40faa75c5c4a08d055842f91e34ff6f635394",
+    "14": "56bf0bff515a6083616a92809ed120d3b0b6722642bc34f705ffc416c555a27a",
+    "15": "677a33eb6648771027e6bc1a5c8a63f86dd5dd8cc2fd45c32adbf2b49d431bd4",
+    "16": "4e5add75377cc4b8ba0d1631ddc7bce1c7fa49b9249459545f2a92854fc868fe",
+    "17": "2e65fae2b7c8441c9b7e1783bc314f78c700004c2165199d09cf4b8e6a0d2fd8",
+    "18": "0f3223423a2ffd4c2d7dc714c30067d902cd51c89a33962beba9a1377672426b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Em cima tem alguma imagem, alguma coisa, e embaixo tem alguém falando, ou vice-versa, não importa.",
+      "explicacao": "A definição e a posição livre estão na fala. A imagem que ilustra, é analisada ou é narrada vem das variações (00:51–01:19) e do material. Como a fonte é fala+material, isso está coberto."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E a terceira forma é um pouco parecida com a primeira,",
+      "explicacao": "As três variações e a ordem batem com a fonte. A frase de que a terceira variação funciona muito está atribuída ao professor. A faixa 37–80 cobre o trecho."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então você tem que colocar uma imagem que é impactante",
+      "explicacao": "Os três elementos, a relevância emocional e a razão do alinhamento (menos esforço para entender) batem com a fala. A condição 'maioria dos que funcionam' está preservada. A divergência com o material sobre a imagem de abertura (impactante × identificação/curiosidade) só é registrada na U18; ver `material`."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Elas estão por nicho aqui.",
+      "explicacao": "Os nichos citados, o aluno de filosofia e a divisão em dois grupos (formato repetido × referência que funcionou sem ser formato) batem com 02:38–03:14. O Trello só é citado em 17:40, e a nota diz isso. O corpo não diz onde ficam as referências (ver `contrato`)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É que você aprenda a pensar mais ou menos assim nas coisas e aplica o mais rápido possível.",
+      "explicacao": "F1 resolvida. A faixa 219–521 cobre o vídeo (a partir de 219,7 s) e os quatro elementos: história de famoso (387–395 s), relevância emocional (404–411 s), contraste (415–455 s) e curiosidade aberta e fechada (463,9–492,6 s, com o trecho \"Tem mais um.\" logo antes). A Lógica está em 511–520,6 s, dentro de `fim` 521. \"Aplicar rápido nos próprios vídeos de análise\" se apoia em 456–461 s, também dentro. A evidência (445,7 s) segue na faixa. O corpo não afirma nada além da faixa. Diferença de redação sem efeito no uso: o corpo diz \"muita gente sente raiva\", e a fonte diz \"a maioria das pessoas ... vai sentir um pouco de raiva\". A ideia de \"vendas\" no quarto elemento é palavra do professor (\"começou a ter muitas vendas\") e está atribuída a ele. Não abre problema novo."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Muito do que fez funcionar nesse caso foi o efeito tela dividida e a imagem que ele escolheu pra ilustrar no início.",
+      "explicacao": "F6 resolvida: `perecivel: true`, com corpo e `condicoes` intactos. O conteúdo está dentro de 314–384 s: a condição \"você escolhe esse roteiro pra Sofia fazer pra você\" (314–324 s), a imagem entediante (350–367 s), \"não precisa ser polêmico\" nem usar a mulher-gato (371–377 s) e \"eu também tenho que usar uma imagem chocante\" (377–381 s). A condição da unidade vem da fonte e está atribuída como hipótese do professor (\"vamos supor\"). \"Sobretudo\" no corpo reforça um pouco o \"muito do que fez funcionar\" da fala, mas o sentido é o mesmo, e a fonte também diz que o roteiro em si \"não foi, ou pouco foi\" o motivo. O corpo mantém o princípio como ensino do professor, sem virar lei. Nenhum problema novo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na hora que ele entrega como, tem o efeito arra.",
+      "explicacao": "O par curiosidade no começo e efeito Ahá na entrega está fiel. A nota sobre a grafia 'arra' × 'Ahá' se sustenta (16:23 traz 'efeito Ahá'). 'De um jeito surpreendente' é um pequeno acréscimo de redação, sem efeito no uso."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque no módulo de roteiros a gente aprofunda nessas coisas.",
+      "explicacao": "F2 e F4 resolvidas. A faixa 499–524 cobre as três afirmações que restaram no corpo. A leitura opcional do roteiro e da análise frase a frase está em 499,0–510,8 s. O objetivo do módulo (não formar mestre de roteiros, mas ensinar a pensar assim e aplicar rápido) está em 511–520,6 s. O aprofundamento no módulo de roteiros está em 520,8–523,5 s, que é também a evidência. A frase sobre os elementos viciantes no módulo seguinte saiu do corpo. A informação continua em `condicoes` da U3 (faixa 81–145), e a fonte a dá em 85,7–91,3 s. `perecivel: true` está marcado. Nada do corpo fica fora da faixa."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Toda essa história, pelo que eu entendi, é uma história real",
+      "explicacao": "O caso, a imagem chocante, a familiaridade do pai e as imagens mentais estão fiéis a 08:55–11:39. O corpo dá o caso como real ('caso absurdo real') e diz que o professor 'ressalta que a história é real'. O professor a atribui com ressalva ('pelo que eu entendi'), e essa ressalva sumiu. Não muda o que a unidade ensina."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Cara, tem alguma coisa absurda que eu posso usar",
+      "explicacao": "A pergunta de procurar um fato absurdo para conectar ao que se vai falar está fiel. O corpo diz 'ideias de abertura', mas o professor diz só 'algumas ideias' (10:57). É um acréscimo pequeno, sem efeito relevante. Ver o tema em `contrato`."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se o que a gente está falando já te deu uma ideia, você pode pausar o vídeo e ir lá escrever a tua ideia e cair para dentro dela.",
+      "explicacao": "F5 resolvida pela opção (a): `perecivel: true`, o documento identificado como documento do curso com as explicações dos roteiros analisados, e \"pause a aula\" no lugar de \"pause o vídeo\". Tudo está dentro de 701–725 s. O documento e a explicação \"palavra por palavra\" estão em 701,8–710,7 s. \"Não precisa disso para começar\" está em 711–713,5 s. A orientação de escrever a ideia e executar está em 713,5–719,8 s. A justificativa (fazer o mais rápido possível para melhorar no próximo) está em 720,4–724,6 s. A orientação central e a justificativa seguem fiéis à fonte. \"Documento do curso\" é uma identificação razoável (a fala diz \"o documento\", e o material é um PDF do curso). Nenhum problema novo."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tipo, ele abriu a curiosidade e ela foi sanada com o efeito Ahá,",
+      "explicacao": "F3 resolvida: `fim` foi para 992. Dentro de 727–992 s estão a pergunta de abertura e a cena narrada (759–835 s). A moral de não confundir arrogância com confiança e o link da bio estão em 832–863 s. \"Conflito e mudança\" está em 885–899 s. O \"500 mil likes\", atribuído ao professor, está em 936–942 s. O começo de tensão e o fim de compreensão total estão em 965–973 s. O loop aberto (\"Isso é abrir um loop\") está em 978–979 s. O efeito Ahá está em 979–987,6 s. A evidência (759,9 s) segue na faixa. A frase \"não confunda arrogância com autoconfiança\" dita pelo professor (992,2 s) fica fora da faixa, mas o corpo se apoia na fala do próprio vídeo (832–835 s), que está dentro. \"Chega a ser humilhado\" é um pouco mais forte que o \"meio que sendo humilhado\" da fonte, sem efeito no uso. O número de caso está em `exemplo`, perecível, e não vira régua."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "entre aquilo que você está analisando, aquilo que faz parte ali do seu formato",
+      "explicacao": "A interseção entre o que se analisa, o formato e o produto, e a atribuição ao professor do alcance obtido pelo aluno, batem com 14:59–15:48. A condição (quem cria conteúdo para vender) está na fonte. O corpo passa 'essa forma de pensar vai te ajudar' para o imperativo, sem prejuízo."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a questão de seu roteiro precisa começar de um jeito e terminar de outro jeito.",
+      "explicacao": "O princípio, a tensão inicial, a mudança final e o loop fechado pelo efeito Ahá estão dentro de 949–992 e fiéis. A remissão ao 'módulo anterior' está na fonte. Há problemas de referência e classificação em `contrato`."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "No meu caso, no meu vídeo de análise, eu uso tela dividida, meu amigo, por dois segundos.",
+      "explicacao": "O uso do vídeo inteiro ou só de parte, o aluno que tira a tela dividida no fim e o 'dois ou três primeiros segundos' do professor batem com 16:40–17:30. A condição de que é preferência do professor está bem posta e o número está atribuído ao professor."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Lembra, né? Essa parte do texto aqui é o roteiro pra você copiar e colar lá na nossa inteligência artificial, junto com o roteiro que você escolheu como referência pra você.",
+      "explicacao": "Os passos (copiar o texto, copiar o roteiro de referência, trocar o nicho, colar na SOFIA ou no ChatGPT) e a condição (quem travou) batem com 03:22 e 17:55–18:41. A fonte diz só 'essa parte do texto' (em 03:22 chama de 'o roteiro pra você copiar e colar'). 'Texto de instrução' é caracterização do extrator, sem efeito prático."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pra você conseguir destravar e executar rápido",
+      "explicacao": "'Faça a sua ideia sem IA, use a SOFIA quando travar' e o reforço 'posta rápido / melhora no próximo / não fique em dúvida / executa o que você tem' batem com 18:31–18:51. Tem perecibilidade marcada corretamente."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Abra com uma imagem que gere identificação ou curiosidade.",
+      "explicacao": "Os quatro pontos do material estão corretos. A nota registra a diferença fala × material sobre a imagem de abertura (impactante/chocante × identificação/curiosidade), sem escolher um lado."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 875,
+      "trecho_fonte": "tem que ter os elementos em si",
+      "descricao": "Ao apresentar o vídeo do frango como exemplo da terceira variação (narrar o que passa na imagem), o professor diz que a imagem exibida precisa conter em si elementos como contraste, conflito e mudança para o vídeo ficar interessante (14:26–14:59). A U2 descreve a variação 3 sem essa exigência. A U12 cita contraste, conflito e mudança só como análise do caso, sem ligá-los à escolha da cena.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem escolher a variação 'narrar o que passa na imagem' não sabe que a cena mostrada precisa ter contraste, conflito ou mudança. Pode escolher uma cena neutra e narrá-la."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U4: o corpo não diz onde ficam os roteiros de referência (o quadro Trello do curso). Essa informação só aparece na `nota` e em `plataformas`. Um agente que leia só o corpo não sabe onde procurar. Ajuste menor.",
+    "U10, U13 e U14: o título começa com 'Tela Dividida:', mas o tema não é `formato-tela-dividida` (10: tema-e-moral-da-historia, 13: venda-no-conteudo, 14: gatilhos-de-atencao). Na U10 o corpo fala de 'vídeo de tela dividida', então o tema formato-* pareceria o certo. Na U14 o princípio é geral (começar de um jeito e terminar de outro), e o prefixo de formato no título induz a erro. Classificação discutível; ajuste menor.",
+    "U13, U14 e U15: o corpo cita 'o aluno', 'o vídeo do aluno' e 'o rapaz' sem dizer quem é. O caso só é apresentado na U12. Fora da aula essas unidades não se sustentam sozinhas. Situação parecida: U11 ('o documento', 'pause o vídeo', 'a análise'), U17 ('se a aula já deu uma ideia') e a numeração 'primeiro/segundo/terceiro vídeo analisado' nas U5, U9 e U12.",
+    "U16: o Pré-condição depende do quadro de referências do curso (Trello), mas `plataformas` lista só sofia e chatgpt. Discutível; ajuste menor.",
+    "`contexto`: diz que o aluno 'já conhece o conceito de contraste', mas o professor explica o contraste nesta aula ('pra você entender o que eu chamo de contraste'). Imprecisão menor no contexto."
+  ],
+  "material": [
+    "Fala × material sobre a imagem de abertura: a fala pede imagem 'impactante'/'chocante' (U3, U6); o material diz 'identificação ou curiosidade'. A U18 registra as duas versões em `nota`. A U3 cita o material como fonte (fala+material), segue só a fala e não tem nota sobre a divergência. A divergência está registrada uma vez no arquivo, mas a unidade que mais depende dela não a carrega. Ajuste menor.",
+    "U1 (fala+material): o corpo afirma 'a posição não importa', com base na fala ('ou vice-versa, não importa'). O material descreve o criador embaixo e a imagem em cima. As duas versões são compatíveis, mas a unidade não anota isso. Registro menor."
+  ],
+  "resumo": "Conferência focal das unidades 5, 6, 8, 11 e 12: as seis falhas da lista (F1 a F6) foram resolvidas pelo critério de aceite, e nenhuma alteração criou problema novo nessas unidades. Os corpos não mudaram, exceto na U8 (frase sobre elementos viciantes retirada, informação preservada na U3) e na U11 (documento identificado e \"pause a aula\"). As faixas passaram a cobrir todas as afirmações, então nenhuma das cinco é `faixa-errada`. As U6, U8, U11 e U12 estão com `perecivel: true`, e a U5 já estava. As demais unidades não foram reabertas, e não conferi a saída do validador."
+}

@@ -1,0 +1,118 @@
+{
+  "aula": "M06_A07",
+  "arquivo_sha256": "f56233effe71471b143d772ffa0666e225ed6917aadae74e558ac36a89dc49b3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "92f4e620bee53795c4801e4d256b13e80a624b51bfbe729b4f673ca14267d66d",
+    "2": "fc46fff42091a3f1299fdb9ef2c4ddfb0cd34a09a041ffa5727030ae0da19f8c",
+    "3": "94b4d8924a74d2e29bae3360127f732e3454e2a60532e94abdd1b43a105cb954",
+    "4": "195d95c8ad46f3c2a1ff2ed2ba254422c770262e32bbb6626592ca98ca724cf8",
+    "5": "7a8012b654de5405e958378cd99f7b1a28404e0a275511c5eef20614e8b44096",
+    "6": "d49a5437bbf7a82373b53a27add2c488161b02da3e9b5d26f8517a31996ecd21",
+    "7": "31ec5e604817964a04cbc9e1593f83c5fd51f0da323ab0db765eb4465c6ce8c6",
+    "8": "ad7fe846823bcf320fa4dab65180d15ed8d6521c953dc039b7980cb10f62d137",
+    "9": "e08006a5a9e960685d17995efdad63364da07f4f507a43f64690fbc998ae4681"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não precisa ter CTA",
+      "explicacao": "O conteúdo confere: vídeo sem CTA obrigatória, a CTA não é o que faz a pessoa agir, a opinião sobre o pedido de curtida no começo vale 'principalmente ali no Instagram' (condição preservada), e o professor não proíbe a CTA ('se você vai colocar CTA, faz de forma estratégica'). Dois pontos menores. (1) O corpo escreve 'CTA (chamada para ação)', mas a aula não desdobra a sigla e o FORMATO §2 proíbe desdobrar sigla. (2) A transcrição traz 'Não necessariamente / Ele precisa ter CTA', que é uma falha evidente do Whisper: os demais trechos ('você não precisa necessariamente fazer um CTA em todos os vídeos') confirmam a leitura da unidade. Não há `nota` sobre isso. Sem efeito no uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "literalmente, um anúncio que vendeu mais de um milhão de reais",
+      "explicacao": "Todos os relatos conferem: vídeos com muitas curtidas sem pedir curtida, vídeos que venderam sem pedir compra, mentoria vendida a quem viu um vídeo sem CTA, e anúncio de aluno de consultoria com mais de um milhão de reais sem CTA. A unidade atribui os números ao professor e não os transforma em régua. 'Bilhões de likes' é falha evidente da transcrição, e a unidade a trata como 'grande número'. A nota registra o nome de plataforma duvidoso ('LinkedIn da Bíblia'). A frase 'o que gera a compra é o conteúdo' extrapola um pouco 'não é o CTA que fazia a pessoa comprar' e 'o vídeo foi muito bom', mas não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "CTAs escondidas é como você, de forma sutil, faz a pessoa ter consciência de que existe um produto",
+      "explicacao": "A definição e os exemplos conferem ('os meus alunos sempre me mandam mensagem', 'os meus pacientes do consultório sempre me perguntam isso'). 'Um serviço' é a leitura do exemplo do consultório e não distorce a fonte. Faixa 148–243 contém a definição e os exemplos."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tipo, ah, eu falei um pouco sobre isso nesse outro vídeo aqui, que tá no meu perfil, que tá fixado no meu perfil.",
+      "explicacao": "As duas técnicas conferem ('Ao invés de falar, me segue, você pode simplesmente gerar valor para o perfil'; vídeo fixado com 'outro ponto de vista'). Três pontos menores. (1) A Pré-condição ('você tem outros vídeos e conteúdo de valor no perfil') é inferência do extrator: a fonte só diz 'se você já maratonou o perfil'. (2) A plataforma `instagram` vem de conhecimento externo, como a própria nota admite; neste trecho o professor só diz 'perfil' e 'fixado', sem nomear a rede (ver contrato). (3) A âncora da evidência termina em 00:05:20.900, 0,9 s depois de fim=320; o conteúdo é o mesmo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tem, sei lá, umas 15 mil pacientes",
+      "explicacao": "Conteúdo fiel: médica amiga dos professores, ~15 mil na lista de espera ('sei lá, umas 15 mil', preservado como aproximação), nunca fez CTA direta ('Ela nunca fez um CTA direto'), 50ª vez que fala do assunto, e o número está atribuído ao professor, não como meta. Único ponto: fim=432 corta o fecho do exemplo, que fica em 00:07:12.620–00:07:19.460 ('e eu resolvi o problema dela no consultório, sacou, sem falar, ah, eu toco no link também pra se tornar um paciente'). A afirmação 'sem pedir para marcar consulta' também está sustentada dentro da faixa em 00:05:46 e 00:05:52. Sem efeito no uso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Logo antes ou depois de fazer a CTA, o importante é que você agregue valor no teu CTA.",
+      "explicacao": "Confere: motivo em uma frase, para a pessoa e não para quem pede. A opinião sobre 'dá like para me ajudar' está atribuída ao professor ('Eu acho ridículo esse tipo de CTA'), com a razão dele. As condições (CTA direta, clássica, no final; feita muito em anúncios e extrapolável ao conteúdo) estão preservadas."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "são as pessoas que ativiram essa parábola",
+      "explicacao": "Os exemplos do evento com conteúdo só do curso pago e da análise de criador ('é uma pena que ele não ensina a criar conteúdo mas eu ensino') conferem. O ponto menor: 'pessoas que aplicaram uma aula gratuita' reconstrói uma passagem degradada ('ativiram essa parábola gratuita e já conseguiram ter resultado') e o corpo a afirma sem ressalva. A `nota` só fala de transcrição confusa em geral. A confiança baixa cobre parte do problema. O padrão (dar motivo na CTA) não muda."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "necessariamente fazer um CTA em todos os vídeos",
+      "explicacao": "O corpo confere: CTA escondida em todos os vídeos ('dá pra usar em todos os vídeos, a gente usa de uma forma ou de outra'); CTA normal não precisa estar em todo vídeo e, quando houver, leva um valor a mais antes. A `condicoes` reflete 'eu ainda acho que a gente poderia usar mais'. Ponto menor: o título diz 'direta só quando fizer sentido', mas o professor só diz que não precisa estar em todos os vídeos e não dá esse critério. O corpo não tem o problema."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "da minha de 15 anos que tá viralizando nas redes sociais vai subir isso nessa aula então eu vou",
+      "explicacao": "A promessa de subir um relato na aula e o contrato de seis mil ('mandou um pente um contrato de seis mil') existem na fonte, e o trecho está mesmo degradado e com deícticos ('esse cara aqui', 'isso aqui'). Pontos menores: 'relato de aluno' é inferência, porque a fonte diz 'da minha de 15 anos'. A ligação entre esse relato e o contrato é incerta: o 'cara' que ganhava 80 reais por mês pode ou não ser a mesma pessoa. A `nota` não registra essas incertezas. Sem orientação extraída do trecho, sem efeito material."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U4 (plataformas): `instagram` é inferência por conhecimento externo (a nota diz 'inferido do contexto'). No trecho o professor só fala 'perfil' e 'fixado no meu perfil', sem nomear a rede, e a orientação (citar em uma frase outro conteúdo do perfil) não depende de rede. Marcada só como instagram, a unidade some das consultas gerais de escrever-cta. Classificação discutível, gravidade menor.",
+    "U4 (tipo): `procedimento` numera como passos 1 e 2 duas alternativas excludentes ('Ou cite que você falou do tema em outro vídeo fixado'). Um agente pode entender que deve fazer as duas em sequência. Ajuste menor.",
+    "U1 (corpo): 'CTA (chamada para ação)' desdobra a sigla, que a aula não desdobra; o FORMATO §2 diz 'Nunca desdobrar sigla'. O mesmo desdobramento aparece no `contexto`. Menor.",
+    "U7 (tipo): `exemplo` com 'O que aconteceu' descreve fraseados hipotéticos do professor ('tipo, ah...'), não um caso narrado. 'Nas análises de criadores' e 'o criador analisado' dependem do curso (formato Análise) sem explicação na unidade. Discutível, menor.",
+    "U9 (corpo): 'No meio da aula' e 'Não há material de apoio no pacote' são metacomentários sobre a extração. O corpo não se sustenta sozinho para quem consulta a base sem a aula. O tipo `limite` é defensável (conteúdo visual que a transcrição não captura), mas o corpo deveria dizer o que a aula pretendia mostrar (CTA com valor sobre o que a pessoa encontra no link) sem referir a aula. Menor."
+  ],
+  "material": [],
+  "resumo": "As 9 unidades foram conferidas contra a transcrição inteira: nenhuma tem desvio, sem-lastro ou faixa-errada de gravidade material. Os números de caso (15 mil na lista de espera, mais de um milhão de reais) estão atribuídos ao professor e em `exemplo` perecível, e as preferências dele estão marcadas como preferências. Restam ajustes menores: sigla desdobrada em U1, plataforma `instagram` inferida em U4, reconstrução de trecho degradado em U7, título de U8 e inferências em U9. Percorri a fonte de ponta a ponta e não encontrei omissão que mude decisão ou execução. Não há material de apoio e nenhum perecível está sem marca."
+}

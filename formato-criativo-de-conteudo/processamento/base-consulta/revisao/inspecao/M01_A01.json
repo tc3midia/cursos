@@ -1,0 +1,124 @@
+{
+  "aula": "M01_A01",
+  "arquivo_sha256": "2af557a608553a92b35dfa79fcf642d261034efab5bb7fceb0e93c98255210da",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 3, 8]; as demais mantêm a evidência da inspeção integral do arquivo f11cd369cc47, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    3,
+    8
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "ec4d8fafe2926f302437ce4f651e67db6a267c2223d61af4c148ba728e0c7f43",
+    "2": "cd8f81b456ba278a148e6a59a11223962fbdcf1a1b9a30352883a039ec7f22ac",
+    "3": "65c811ac1b6d0351af645fac90079121acd22b1e964369ac2cbf712f7af85312",
+    "4": "342d8665bebb73f9ef7cb4c865bffb178f378cb0f6290f28235e4092649fd1be",
+    "5": "2e93df51742d766fc39ed59d51a3f02f817d8f6f0d0cbc76cc9f0e1d32a46d84",
+    "6": "9aba07bac36e57735d9ec89c3cebe6e7f4f7b8132ae357c7cfce5ef6184b10f5",
+    "7": "70cfcb544be36b2e191aee0e96909ff56d89b142ed84a300fe099e7424320fb7",
+    "8": "417d9a993a2ae812dc09ff97b8664d09fd2d68e0fa0430f463fa61b12fb6e938"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O primeiro módulo é esse aqui, que é o método FCC, o método Formato Criativo de Conteúdo.",
+      "explicacao": "Os seis módulos, a ordem e a função de cada um batem com a fala (00:02:35–00:06:19) e com o material. Nenhum número, condição ou atribuição foi alterado. A faixa 152–384 cobre toda a descrição dos módulos. A nota sobre o módulo 2 está correta: fala e material descrevem o mesmo módulo por ângulos diferentes, sem contradição. \"O padrão de roteiro é metade do formato criativo\" é redação: a fala só diz que o padrão tem dois componentes, visual e roteiro. Isso não muda o uso. A marca perecivel: true está correta, pois é estrutura do curso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ele começa com os princípios básicos que você precisa entender",
+      "explicacao": "F2 resolvida. A frase do corpo sobre \"princípios básicos\" e \"peculiaridades de formatos específicos\" está em 329,96–340,96 s, agora dentro da faixa 329–380 (`inicio` recuado de 340 para 329). O resto do corpo também está na faixa: \"você pode ver ele quando você for fazer o seu primeiro vídeo\" (343,4 s), \"vai lá no módulo de edição, entende como edita, faz o primeiro vídeo e aí depois você segue a ordem\" (349,1–354,1 s), \"ambos são pensados em formato\" (361,3 s) e o exemplo do formato de diálogo (368,6–379,2 s). O último trecho termina em 379,16 s, antes do `fim` 380. A `evidencia` é literal e cai em 343,4–347,2 s, dentro da faixa. O corpo não mudou e continua fiel: a condição (quem vai fazer o primeiro vídeo e não sabe gravar ou editar) está em `condicoes`. Não há problema novo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai olhar para as coisas que funcionam, testar essas coisas que funcionam e aí você vai aprender mais rápido.",
+      "explicacao": "F2 resolvida. Esse trecho termina em 224,94 s e o `fim` agora é 225 (antes 218), então a última frase do corpo (\"analisar o que funciona e testar… aprender mais rápido\") está na faixa 166–225. O começo do corpo também está na faixa: \"O segundo módulo é o módulo de formatos virais validados\" (166,7 s), \"você vai copiar roteiros já validados, colocar na inteligência artificial\" (176,9–183,2 s), \"Mas não parece contraditório\" (192,7 s), \"O lance é que a ideia é você fazer uma engenharia reversa logo no início\" (201,3–205,6 s). A `evidencia` é literal (208,5–211,5 s) e está dentro da faixa. O corpo não mudou e continua fiel. A paráfrase \"formar alguém que entende o que faz\" condensa \"nerd por opção\" e \"inteligência real melhor\" (187–217 s), sem efeito no uso. Não há nenhuma unidade `faixa-errada` neste arquivo. F3 resolvida: `perecivel` agora é true, e a marca corresponde ao conteúdo de recurso do curso presente na primeira frase do corpo (roteiros validados entregues em esquema de copia e cola para a IA, 169–183 s), o mesmo esquema que U1 e U6 já marcam como perecível. Como a unidade já está marcada, não há pendência de perecibilidade e a lista de `perecibilidade` fica vazia."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E esse padrão, ele tem o visual, a forma como o vídeo é apresentado, gravado,",
+      "explicacao": "A definição (padrão de conteúdo que funciona, com visual e roteiro/estrutura de roteiro) bate com a fala em 236–248 s e está dentro de 236–251. Sem número, condição ou atribuição perdida."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Percebe como ele responde exatamente como a gente te ensina?",
+      "explicacao": "Fatos conferem: IA da plataforma, \"sabe tudo sobre as aulas\", estrelinha ao lado no modo de aulas, revisar, tirar dúvida, conferir entendimento, conversa como com os professores, resposta à pergunta \"o que é formato criativo?\". A faixa 386–478 cobre tudo. Ajuste menor: \"ele respondeu com a mesma definição das aulas\" é afirmação dos professores, apresentada como fato sem atribuição. A resposta real do Tutor em 7:38–7:52 é \"padrão de conteúdo que funciona constantemente… roteiro… e visual\". Perecível corretamente marcado."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai ter lá o esquema para copiar, colar os roteiros e ela te entregar ideias escritas para você utilizar.",
+      "explicacao": "Os três usos (formatos validados, revisão frase a frase pela metodologia FCC, análise de vídeo viral por engenharia reversa) e a condição de que o primeiro é ensinado no próximo módulo batem com a fala em 8:32–9:27, dentro de 478–572. Ajuste menor: o uso 1 diz \"colar o esquema de roteiro\", mas a fonte fala em \"esquema para copiar, colar os roteiros\", e em 2:56 diz que se colam \"roteiros já validados\" na IA. O corpo inverte o que se cola e destoa da U3. A fonte é vaga, então não há desvio material."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O material recomenda usar a IA para acelerar o aprendizado e a produção inicial, mantendo a prática de escrever e avaliar roteiros por conta própria.",
+      "explicacao": "A unidade reproduz o material sem acréscimo, atribui a recomendação ao material e registra em `nota` que a fala não a enuncia assim. Fonte só `material`, com `inicio` e `fim` nulos, como o FORMATO exige."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A primeira delas você vai aprender no próximo módulo, que é o módulo de formatos validados.",
+      "explicacao": "F1 resolvida pelos critérios (a)–(f). O corpo não diz mais que a aula \"não ensina o método\" nem que o conteúdo vem \"nos módulos seguintes\". Cada afirmação está na faixa 41–590 s: as missões (\"E nessa primeira aula eu tenho algumas missões\", 41,2 s; módulos e \"clareza da jornada que você vai seguir\", 44,0–54,1 s); as duas IAs entregues (\"duas IAs, duas inteligências artificiais\", 62,9–68,8 s); o Tutor CDF (384,8 s); a SOFIA como \"a nossa IA roteirista\" (482,6–486,6 s); o adiamento do primeiro uso, restrito a ele (512,6–523,8 s); e \"vai colocar o pezinho na água\" (584,9–590,0 s). A `evidencia` é literal e está na faixa (41,2 s). Não há contradição com U1, que põe o Método FCC no módulo 1. Restam dois ajustes menores de redação, sem efeito na rota do agente e sem motivo para novo ciclo. (1) \"Só o primeiro fica adiado\" é mais largo que a fonte: sobre o terceiro uso a fonte também diz \"Você vai entender um pouco mais para que servem as análises\" (548,4 s) e \"você vai entendendo na prática como é que isso funciona\" (564,5 s). O que a fonte remete ao módulo de formatos validados é só o primeiro uso; \"só o primeiro é remetido ao módulo de formatos validados\" seria exato. (2) \"O conteúdo começa na aula seguinte\" lê como fato a metáfora \"na próxima aula… a gente vai colocar o pezinho na água com todo o nosso conhecimento\". A atribuição aos professores está preservada, mas esta aula também traz conteúdo (definição de formato criativo, usos das IAs), extraído em U4 a U6. Detalhe: a fala do pezinho termina em 590,04 s e o `fim` é 590. Só o final \"com todo o nosso conhecimento\" fica 0,04 s fora, e o corpo não o usa, então não é `faixa-errada`."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 187.96,
+      "trecho_fonte": "A gente está te transformando num CDF, na pessoa que é nerd por opção.",
+      "descricao": "Nenhuma unidade define \"CDF\", o termo que os professores usam para o aluno do curso (\"nerd por opção\"). A definição só aparece no `contexto`. O termo também compõe o nome \"Tutor CDF\" (U5).",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que consulta a U5 ou outra unidade sem o contexto não sabe o que é CDF. Não muda nenhuma decisão de execução."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U5: o corpo usa \"Tutor CDF\" sem explicar CDF (apelido do aluno, definido só no contexto). O FORMATO pede jargão explicado na primeira ocorrência dentro da unidade. Menor.",
+    "U6: o corpo usa \"método FCC\" sem expandir o nome (só a U1 o expande). Menor.",
+    "U8: o corpo diz \"entregar as duas IAs\" sem nomear quais são (Tutor CDF e SOFIA). Sem a aula, quem consulta não sabe a que \"as duas IAs\" se refere. Menor.",
+    "U2: tema `direcao-e-gravacao` para uma orientação de navegação do curso (quando ver o módulo fora da ordem), que se encaixa em `curso-e-recursos` (estrutura do curso). Um agente que busque a estrutura do curso pode não achá-la. Classificação discutível entre dois valores defensáveis, ajuste menor.",
+    "U3: o tipo `regra` traz corpo narrativo (\"o professor esclarece… Segundo ele…\"), e não uma frase categórica. Classificação defensável; sem impacto no uso.",
+    "Unidade 8 (menor): o corpo diz \"a aula\" e \"as duas IAs\" sem nomear a aula nem as IAs (Tutor CDF e SOFIA). O texto também só diz \"os módulos seguintes\" sem dizer quais. Sem a aula ao lado, o leitor não sabe a que se refere. Isso se resolve ao reescrever o corpo pelo desvio apontado."
+  ],
+  "material": [
+    "O `contexto` grafa os professores como \"Hanna e Aleph (grafia da transcrição)\", mas o cabeçalho do material cita \"Hanah e Alef\" (campo `curso`). O FORMATO manda usar a grafia do material quando ele cita o nome, ou registrar a incerteza quando só a fala cita. O contexto escolheu o lado da fala e não registra a versão do material. Nenhum corpo de unidade usa os nomes, então o efeito é pequeno (menor).",
+    "A U1 declara `fala+material`, mas o material traz ênfases que o corpo não registra e a nota não menciona. Módulo 3: \"sem depender de copiar outros criadores\". Módulo 5: \"criação de desejo e conexão com uma oferta\". Módulo 4: \"elementos que tornam o conteúdo reconhecível\". Não há conflito com a fala. A nota trata só do módulo 2, e essa nota está correta: as duas descrições convivem."
+  ],
+  "resumo": "Conferência focal de U2, U3 e U8: as três falhas (F1, F2, F3) estão resolvidas pelos critérios de aceite. U2 e U3 têm as faixas corrigidas, com a evidência literal dentro delas, e nenhuma unidade fica `faixa-errada`. U3 passou a `perecivel: true`, coerente com o conteúdo de recurso do curso; como a unidade já está marcada, a lista de `perecibilidade` fica vazia. U8 agora só afirma o que a fonte diz e não contradiz U1; restam duas imprecisões de redação de gravidade menor ('só o primeiro fica adiado' e 'o conteúdo começa na aula seguinte'), que não abrem ciclo. Nenhuma omissão decorre das falhas da lista, e as omissões da inspeção integral anterior não foram reabertas nem alteradas."
+}

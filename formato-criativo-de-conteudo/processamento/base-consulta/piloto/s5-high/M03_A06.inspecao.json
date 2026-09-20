@@ -1,0 +1,218 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "b63651477812ef24eb18f88bbf227b8bbc24103b383b2b55bfa9adaa6067b8b0",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "hashes_unidades": {
+    "1": "39856461772ecfd46c297d1226e186cd1fb6de1efee0832119b238456060af2d",
+    "2": "79e0af9227c6e5f4bc25603d972ffc47a2a94f6350b08219d0cffa9a29c09335",
+    "3": "64ccae40898afecb57faab835f54873e1226ff8fb7d751c408f7931436c5c113",
+    "4": "df9a8d1b59f15b3f357ca8a0a11965ef463ee7ab9841b4b0afffd185b805815d",
+    "5": "877d6da4e549056a4187e88ca5458fb7aae775ebefc0ca2abb12a773f9c8f46d",
+    "6": "babda5f3335db16183d993b99ac2aaaf312032545505aeb3c4b374a2cb62b082",
+    "7": "75bec877111fc4d4cff17b2290be3a8dd085e1359db6bcc94d1632614325e5de",
+    "8": "cb6203b394b45d45e75d990d8cbd1c95d563d07f75b2aea865549dab1d11dab4",
+    "9": "bdb16f45b85d35e320321b0361c005c23892304d28114ef754bc4ef2643c0c5e",
+    "10": "3e85ffdf996e82fbc05fb657d96ea645b95daaf3926db49231632753f07976cc",
+    "11": "ece1f4ac6a2350df9ab3aef60e24d411d96666352ae0da778c5d8f18eb3f7930",
+    "12": "196eff26d760b77a74f4a730761d4557db4c6874988cc5db1fc4cdc559d87728",
+    "13": "6703f7f663297b28d69b739dea1aaee9cbdd2f860672c658d1914c51e01f73af",
+    "14": "264b800be8df105d72a25de9c303ec355eb14b33941a25737c936f3fab8828e8",
+    "15": "fa73df00e427d1653c9398f17e7462f92b71b29e13721a7c5cb73f5e60c81f16",
+    "16": "c5f63b1bdc17c7fdd222037c19b2fc605ff2f4c0f1aead04f990c0a0a14e9c52",
+    "17": "92185350ee7f2b8f98876728dc568c9e2e46b45502a7eb72a3bf9e3b6341fdaf",
+    "18": "3f7cfb5aa92feadd2c2bcef6bf54ef718e586030c64c8997a072e4c5ea5abafd"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "São as aulas base de tudo que você precisa aplicar",
+      "explicacao": "O núcleo (próximas aulas são do professor; autenticidade com a Hanna no módulo seguinte; vendas encerra) está em 32–47 s. A frase 'aula de aprofundamento, depois das aulas-base' vem de 52–63 s, fora da faixa (fim=47). Sem efeito no uso; basta estender o fim."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Por isso que tem aquela ideia, testa rápido e melhora no próximo",
+      "explicacao": "Hipótese, postar, analisar, novas hipóteses e melhorar no próximo estão na fala. 'Não por abandono' não é dito na fala: vem do material ('Desaconselha abandonar o formato após uma única tentativa'), e a unidade declara fonte só 'fala'. Sem efeito prático."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Talvez isso funcione até mais do que os formatos validados",
+      "explicacao": "Passos, condição (não ser trend, ser do tipo que se quer repetir) e atribuição ao professor conferem com 105–165 s. O 'talvez' virou 'pode funcionar', que preserva o sentido."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não tem uma regra para isso, mas um jeito bom de você pensar é fazer duas levas de três vídeos.",
+      "explicacao": "Número e hedge do professor preservados. A frase final do corpo ('depois das duas levas você já tem noção') está em 251–257 s, fora da faixa 179–187. 'Seis vídeos' vem do material, que é prescritivo ('Produza seis vídeos'), enquanto a fala diz que não há regra; a nota está nula (ver campo material)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "cria três vídeos dentro do mesmo formato",
+      "explicacao": "Pré-condição (formato pensado e hipótese criada), Trello, três vídeos, postar, analisar (familiaridade, tema, moral) e segunda leva conferem com 187–257 s. O Trello é explicado dentro da unidade."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Será que a gravação pode ser mais dinâmica",
+      "explicacao": "As sete perguntas da fala (tema, conflito, contraste, curiosidade, linguagem familiar, cortes, gravação) estão na ordem dita em 258–289 s. Os acréscimos do material (descoberta, ritmo, energia, apresentação visual) estão marcados como do material e registrados em nota."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pô, eu troco de formato, vou tentar um diferente",
+      "explicacao": "Os três caminhos e as perguntas de afinidade conferem com 291–323 s; 'desempenho e afinidade' vem do material. Só falta 'acho que pode funcionar' entre as perguntas, o que não muda a decisão."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "método EVA, estudar, visualizar",
+      "explicacao": "Estudar (rever aulas, pedir análise ao time se estiver na comunidade) e Visualizar (lista de formatos virais, o que quem viralizou faz ou não faz) conferem com a fala. 'Aplicar: no seu nicho, a cada publicação' e a lista de visual e roteiro vêm do material, atribuídos a ele no corpo."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "os vídeos que você já fez, então, tipo",
+      "explicacao": "Os números 200→2 mil e 2 mil→20 mil são exemplos hipotéticos dados em 'então, tipo'; o professor não fixa 10× como critério. A unidade avisa isso em condicoes e nota, mas o corpo diz 'usa como referência' e o tipo é `regua`, o que pode levar a ler 10× como limiar. Ajuste menor: reescrever como exemplo/sinal."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Uma coisa que diferencia",
+      "explicacao": "A fala diz 'Uma coisa que diferencia o CDF do figurante', não 'o que diferencia'. O corpo torna a mentalidade fixa o único diferencial. O contraste figurante × CDF e as reações a um vídeo que deu errado conferem. Ajuste menor."
+    },
+    {
+      "numero": 11,
+      "veredito": "sem-lastro",
+      "gravidade": "menor",
+      "trecho_fonte": "E foi escrever de uma forma meio arrasa",
+      "explicacao": "A Lógica diz que o texto do prefeito 'saiu meio forçado'. A fonte tem 'meio arrasa', termo degradado (possivelmente 'rasa' ou 'arrastada'); 'forçado' aparece só no caso da aluna. A unidade escolheu uma leitura sem nota de incerteza. 'Um acerto vira formato só depois de hipóteses' também é conclusão do extrator, não frase do professor. Números (400 mil, mais de 1 milhão, 80 mil, 160 mil, 8 mil, comentário de 6 mil likes) e sequência conferem; o restante da unidade está lastreado."
+    },
+    {
+      "numero": 12,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "tá, essas são as hipóteses, vou melhorar essas duas",
+      "explicacao": "O professor diz 'essas duas' coisas: se comunicar mais com o público do criador e mudar o início. A unidade generaliza o caso dele em procedimento e escreve 'duas ou três hipóteses' e 'refaça só com elas', que a fonte não diz. O passo 3 manda conferir 'o ritmo do vídeo todo', mas a fala diz 'ao longo do vídeo' e lista história do criador, linguagem familiar e furar a bolha, sem falar de ritmo. Quem consultar terá um número e um critério de ritmo que o professor não deu, e um caso narrado como regra geral. Também não há nota sobre o conflito com o material ('um mecanismo por vez')."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu fiz uma pesquisa de bolha",
+      "explicacao": "Abrir olhando para cima, conflito com a comunidade, conflito universal, linguagem familiar e história do criador conferem com 741–778 s. A 'pesquisa de bolha melhor' é dita no passado, para o vídeo do Pantera; a unidade a apresenta como passo prévio habitual ('Faz antes'). A nota e a condição amenizam. Ajuste menor."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai sem clareza mesmo, deve estar rápido",
+      "explicacao": "Publicar sem clareza e melhorar no próximo, ganhar clareza analisando e revendo aulas, e 'provavelmente errou em várias coisas' conferem com 922–969 s, com atribuição ao professor."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ela não usou uma linguagem tão familiar",
+      "explicacao": "Números (cerca de 2 mil views, uns 200 likes, 8 mil likes, quase 2 mil seguidores), a sequência e as correções pedidas conferem com 971–1205 s. Isabela × Isa Franklin está em nota."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A cada 10 vídeos que eu faço de análise, 9 eu acerto.",
+      "explicacao": "Os números (9 em 10; no começo 1 em 3 e 3 em 10; depois 5 e 7 em 10) e a autocorreção 98% → 90% → 9 em 10 conferem, e a unidade avisa que não são meta. O tipo `exemplo` cobre também a projeção para o aluno, que não é caso narrado: classificação discutível."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez.",
+      "explicacao": "Todos os pontos estão no material (mecanismo por vez, potencial depende da aplicação e do encaixe formato × criador, desaconselha abandonar após uma tentativa ou publicar sem hipótese). A tensão com o caso do professor (duas mudanças de uma vez) não está registrada."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Registre no espaço de discussão qual aspecto será refinado e como aparecerá no próximo vídeo.",
+      "explicacao": "Exercício e condição (conteúdo antigo bem-sucedido como base) conferem com a seção 'Exercício' do material."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 742,
+      "trecho_fonte": "hoje né, olhando pra cima e tal",
+      "descricao": "O professor mostra como abre os vídeos de análise ('olhando pra cima e tal') e contrasta com o vídeo do prefeito, que não mostrava o rosto no começo. O essencial dessas aberturas está na imagem, que a transcrição não captura. Nenhuma unidade registra em `limite` o que ficou só no visual, como o FORMATO pede.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente lê 'abre olhando para cima' na U13 sem saber o que é a abertura, nem que a comparação depende de assistir aos vídeos. Não impede a lapidação em si."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U11, U12 e U13 usam 'furar a bolha' e 'pesquisa de bolha' sem explicar o termo; U13 usa 'olhando para cima' sem dizer o que é. Quem consulta a unidade sozinho não sabe o que fazer.",
+    "U3 usa 'formatos validados' e U8 usa 'lista de formatos virais' sem explicar o termo nem dizer onde está a lista. Ajuste menor.",
+    "U6, U8 e U17 falam em 'o material' sem dizer que é o material de apoio da aula; só U17 diz 'material de apoio'. Ajuste menor.",
+    "U9: tipo `regua` para números que o professor dá como exemplo hipotético; o corpo diz 'usa como referência' e não repete o aviso que está em condicoes/nota. Classificação discutível entre `regua` e `exemplo`/`decisao`.",
+    "U16: tipo `exemplo` mistura o caso da equipe (9 em 10) com projeção para o aluno (1 em 3, 3 em 10, 5 e 7 em 10). A classificação é discutível e o corpo já avisa que não são metas."
+  ],
+  "material": [
+    "Fala × material sobre mudar um ou vários elementos: no caso do Pantera o professor corrige duas coisas de uma vez (comunicar com o público do criador e mudar o início) e ainda faz uma pesquisa de bolha melhor; o material manda 'Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez'. A U17 registra o material como regra e as U11, U12 e U13 contam o caso do professor, mas nenhuma tem nota registrando a diferença. A U12 ainda transforma o caso em procedimento com 'duas ou três hipóteses'.",
+    "Fala × material sobre a quantidade de testes: a fala diz 'Não tem uma regra para isso... um jeito bom de você pensar é fazer duas levas de três vídeos'; o material prescreve 'Produza seis vídeos no mesmo formato, divididos em duas levas de três'. A U4 usa as duas fontes, guarda o hedge da fala e deixa `nota` nula, sem registrar a diferença de força entre as versões."
+  ],
+  "resumo": "O arquivo cobre bem a aula: as 18 unidades têm lastro na fala e no material, e os números dos casos (400 mil, 1 milhão, 160 mil, 8 mil likes, 9 em 10) conferem. Há um desvio material na U12, que inventa 'duas ou três hipóteses' e 'ritmo do vídeo todo' e transforma um caso narrado em procedimento geral. A U11 tem um detalhe sem lastro em trecho degradado ('meio forçado'). A tensão fala × material sobre mudar um mecanismo por vez não foi registrada em nota. Os demais achados são ajustes menores de faixa, atribuição e jargão."
+}

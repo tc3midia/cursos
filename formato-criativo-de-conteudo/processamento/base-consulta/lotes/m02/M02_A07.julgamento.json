@@ -1,0 +1,69 @@
+{
+  "aula": "M02_A07",
+  "arquivo_sha256": "708b2f4c6fb4576a641c6eb5e872b8a192b2db10b0796f1125472fe0d83b5bab",
+  "inspecao_sha256": "966401f610cadf88912ddebd6b3e4939cbebf9e88a609b964c481fedb2dd4459",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura",
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os itens que o inspetor pôs em `contrato` (tarefa da U3, prefixo da U13, faixa larga da U10) são de classificação e de faixa, não erros do script. Tratei-os em aplicabilidade e em ajustes menores.",
+  "fidelidade": "Falha por um desvio material, na U11. O inspetor traz trecho literal (\"e tem, em muitas vezes\") e localiza a sequência tema interessante → curiosidade → ponto de vista → conexão no final na análise do vídeo da moto (16:27–16:47). A unidade a publica como `regra` sobre \"os vídeos analisados\" e tira o qualificador de frequência, que é condição da fonte. Ressalva para a correção: o \"De novo, um tema interessante\" citado pelo inspetor e a própria U10 mostram que tema forte e conexão com a vida de quem assiste se repetem em mais de um vídeo. O erro está na sequência inteira apresentada como padrão e no \"em muitas vezes\" apagado, não em haver recorrência.\n\nAs outras 12 unidades estão lastreadas. Na U10 a fala é ambígua (\"não sei se foi assim mas poderia ter sido\" seguido de \"de fato…\"). A unidade preserva a incerteza com `confianca: media` e `nota`, então passa, com ajuste de redação.\n\nFaixas: U3 (frase final vem de ≈496–501 s), U7 (≈5 s curta) e U10 (larga, vai até 1000 quando o exemplo termina perto de 899). O inspetor classificou as três como `lastreada`, não `faixa-errada`: a âncora e o conteúdo essencial estão dentro da faixa e a U3 marca a frase como \"depois\". Mantenho como ajuste menor. O limite de 10% de `faixa-errada` não foi acionado.\n\nNão adoto o apontamento do inspetor contra `fonte: fala+material` na U3. \"Nada vem só do material\" não é o critério desse valor. A U1 mostra que o material também fala em conselho e desabafo, então o apoio duplo é plausível e o inspetor não provou o contrário.",
+  "cobertura": "Falha por uma omissão material. O inspetor localiza em 327 s, com trecho literal, o fluxo de uso da IA na página do formato: copiar o prompt do curso, juntar o roteiro de referência escolhido, informar o nicho, colar na IA e receber uma ideia de roteiro. A U6 guarda só a recomendação final, e a `nota` diz que o prompt \"não foi descrito\".\n\nO trecho é parcialmente degradado, mas o que o inspetor cita é legível. A exceção de trecho degradado não cobre a parte inteligível. Efeito prático: um agente que monta skill ou executa `roteirizar-com-ia` para o Cine fica sem os insumos do método (roteiro de referência + nicho + prompt da página). Ele recebe apenas \"use a IA junto com a sua ideia\", que não é executável. Falta a parte essencial de um procedimento.\n\nO inspetor declarou busca integral de omissões e não listou outras.",
+  "perecibilidade": "Falha na U6. Ela está `perecivel: false`, mas `condicoes` aponta para estrutura do curso (\"a aula de IA do curso explica o uso\") e o trecho trata do prompt da página do formato. `condicoes` é campo semântico e entra no hash. U9 (módulo de edição) e U12 (página do formato) seguem a convenção com `perecivel: true`. A U6 é o perecível escondido em unidade marcada `geral`.\n\nÉ o veto de menor peso dos três e se resolve junto com a F2. Ou a referência ao curso sai da U6 e vai para a unidade perecível do fluxo do prompt, ou a U6 passa a `perecivel: true`. As demais marcações conferem, inclusive as de U7, U9, U10 e U12.",
+  "aplicabilidade": "Passa, com ajustes menores. As unidades se sustentam sem a aula ao lado. \"CDFs\" está explicado no contexto, a U12 declara em `condicoes` a dependência da página do formato e a U5 preserva \"a grande maioria, não todos\".\n\nO ponto mais fraco é a tarefa `criar-elementos-de-repeticao` na U3. Tema, música e fala natural não são frases, gestos ou momentos fixos de assinatura. A marca polui o índice dessa tarefa e a `cobertura.jsonl`. Não veto porque `escrever-roteiro` ainda leva o agente à unidade pelo caminho certo, e o título deixa claro do que ela trata. É ruído de índice, não desvio de uso.\n\nNa U11, \"corte na tela\" é expressão que a unidade não explica. Na reescrita exigida pela F1, manter como a fonte diz ou explicar só com o que a fala disser, sem inventar.\n\nO procedimento da U12 apresenta como passo fixo o que a fala dá como sugestão (\"às vezes tentar você mesmo\"). É questão de tom, sem efeito na execução.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        11
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, U11, veredito desvio/material, trecho literal \"e tem, em muitas vezes\". Na fala, a sequência tema interessante → curiosidade → ponto de vista → conexão no final é a análise do vídeo da moto (\"De novo, um tema interessante… Traz uma curiosidade… Ele leva isso para a sua vida\", 16:27–16:47). Na síntese, o professor dá corte na tela e música como características do formato e diz que o roteiro conecta a ideia com a vida de quem assiste \"em muitas vezes\". A unidade escreve \"Nos vídeos analisados, o roteiro abre com… e, no final, conecta…\", em tipo `regra`, sem o qualificador.",
+      "impacto": "O agente que escreve ou revisa roteiro de Cine passa a tratar abertura com curiosidade + ponto de vista + fechamento conectando à vida do espectador como molde fixo do formato. Reprovaria ou reescreveria roteiros válidos que não seguem essa ordem, o que a fonte não autoriza.",
+      "mudanca_minima": "Reescrever só o corpo da U11. (a) Atribuir a sequência abertura → curiosidade → ponto de vista → conexão no final ao vídeo da moto. Pode dizer que o professor nota \"de novo\" um tema interessante. (b) Dizer que, segundo o professor, o roteiro do Cine em muitas vezes conecta a ideia com a vida de quem assiste. (c) Manter corte na tela e música como características do formato. Não acrescentar nada de fora da faixa 870–1040. Incrementar `versao`. Não é obrigatório trocar o `tipo`.",
+      "criterio_de_aceite": "O corpo da U11 traz o qualificador de frequência (\"muitas vezes\" ou equivalente não categórico) ligado à conexão com a vida de quem assiste. A sequência completa aparece atribuída ao vídeo da moto (ou a \"um dos vídeos\"), não a \"os vídeos analisados\" em geral. Não há afirmação nova sem lastro. O validador dá zero erros. O inspetor, em conferência focal, reclassifica a U11 como `lastreada`."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        6
+      ],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, `omissoes`, início 327 s, trecho literal \"Mas, basicamente, você vai copiar essa parte aqui, que é o prompt, e junto com o roteiro que você escolher,\". A fala descreve o fluxo: copiar o prompt da página do formato, juntar o roteiro de referência escolhido, colocar o nicho, colar na IA e receber uma ideia de roteiro. Também remete à aula de IA do curso. A U6 (faixa 326–383) só guarda a recomendação final, e a `nota` afirma que o prompt \"não foi descrito\". Nenhuma das 13 unidades contém o fluxo.",
+      "impacto": "O agente que consulta `roteirizar-com-ia` para o Cine não sabe que o método do curso combina prompt pronto + roteiro de referência + nicho. Fica com uma recomendação genérica, sem os insumos nem os passos para executar. Uma skill de roteirização construída sobre a base sairia sem a etapa central do módulo de copiar e colar.",
+      "mudanca_minima": "Criar unidade nova (número 14, sem renumerar; `retiradas` segue `[]`) do tipo `procedimento` ou `ferramenta`. Conteúdo: o fluxo que a fala legível sustenta (copiar o prompt da página do formato, juntar o roteiro de referência escolhido, informar o nicho, colar na IA, receber ideia de roteiro), na ordem da fonte. Campos: `tarefas` com `roteirizar-com-ia` e `usar-recursos-do-curso`, `perecivel: true`, `confianca: media`, `nota` registrando a degradação do trecho e que o texto do prompt não está na fonte. `plataformas` conforme a IA que a fala nomear, sem inventar nome. Na U6, corrigir a `nota` para não dizer que o fluxo não foi descrito. Alternativa aceita: incorporar o fluxo à própria U6, que então muda de tipo e passa a `perecivel: true`. Não extrair nada do trecho ilegível.",
+      "criterio_de_aceite": "Existe uma unidade viva que cita os quatro elementos do fluxo (prompt da página do formato, roteiro de referência escolhido, nicho, colar na IA). Ela tem âncora `evidencia` literal dentro de ≈326–383, `perecivel: true` e `nota` sobre a degradação. A `nota` da U6 não contradiz a unidade nova. O validador dá zero erros. O inspetor confirma o lastro da unidade nova e que nenhum passo veio de trecho degradado ou de conhecimento externo."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        6
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "Inspetor, `perecibilidade`, U6: `perecivel: false`, com `condicoes` = \"…a aula de IA do curso explica o uso\" e `nota` citando o prompt da página do formato. Visível nas próprias unidades. A rubrica (veto 4) e o FORMATO tratam recurso e estrutura do curso como perecíveis. U9 e U12, que apontam para módulo e página do curso, estão `perecivel: true`.",
+      "impacto": "Agente ou índice que filtra `perecivel: false` para montar orientação durável leva junto uma condição que depende de a aula de IA existir e estar onde está. A marca da U6 também fica incoerente com U9 e U12 dentro da mesma aula.",
+      "mudanca_minima": "Escolher uma opção. (a) Tirar de `condicoes` da U6 a referência à aula de IA do curso e levá-la para a unidade perecível criada na F2, mantendo a U6 `perecivel: false`, só com a recomendação geral. (b) Manter a referência e marcar a U6 `perecivel: true`. Incrementar `versao`.",
+      "criterio_de_aceite": "Nenhuma unidade com `perecivel: false` menciona, em `corpo` ou `condicoes`, aula, módulo, página, prompt ou outro recurso do curso. A remissão à aula de IA, se preservada, está em unidade `perecivel: true`. O validador dá zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U3: a tarefa `criar-elementos-de-repeticao` não corresponde ao conteúdo, pois tema, música e fala natural não são frases, gestos ou momentos fixos. Trocar por `escolher-formato` ou `editar-video`, ou só remover. É o ajuste menor mais útil, porque limpa o índice da tarefa e a `cobertura.jsonl`.",
+    "U3: a frase final (\"reforça depois…\") vem de ≈496–501 s, fora da faixa 100–132. Tirar a frase ou registrar a segunda faixa em `nota`. A ideia já está na Lógica da U7.",
+    "U3: `fonte: fala+material` foi questionado pelo inspetor sem prova suficiente. Manter, salvo se o redator verificar que o material não lista os três elementos.",
+    "U7: ampliar `fim` de 496 para ≈502, para cobrir a fala sobre a conexão entre clima da música e tema.",
+    "U10: no corpo, trocar \"o criador percebeu\" por formulação atribuída e hipotética (\"segundo o professor, o criador provavelmente percebeu…\"). A incerteza já está em `nota` e em `confianca: media`.",
+    "U10: reduzir `fim` de 1000 para ≈899, onde o exemplo do Cristiano Ronaldo termina. A faixa atual cobre o vídeo da moto e sobrepõe U11 e U12.",
+    "U12: a fala trata reescrever o roteiro como sugestão (\"às vezes tentar você mesmo\"). Pode-se marcar o passo 2 como opcional. \"Esses elementos\" é vago, mas a dependência da página do formato já está em `condicoes`.",
+    "U13: o título tem prefixo \"Cine:\" e o tema é o geral `lapidacao-de-formato`. Os dois valores são defensáveis. Alinhar tirando o prefixo ou usando `formato-cine`.",
+    "U1: a fala diz \"geralmente ele tem umas bordinhas\" e a unidade tira o \"geralmente\". \"Molduras\" é glosa do extrator. Não muda o uso. Opcional repor o \"geralmente\".",
+    "U4: a \"Pré-condição\" não está no material e existe por exigência do tipo `procedimento`. Sem ação.",
+    "Aviso ao redator: mexer em faixa, `condicoes`, `tarefas` ou corpo muda o hash e descarta a evidência de inspeção da unidade. Os ajustes de U3, U7 e U10 só valem a pena se essas unidades entrarem na mesma conferência focal da correção."
+  ],
+  "proximo": "Enviar ao redator de correções a lista F1–F3: a U11, a U6 e uma unidade nova, a 14.\n\nDepois, fazer conferência focal com inspetor e juiz sobre U6, U11 e U14, e sobre qualquer unidade cujo hash mude por ajuste menor. As unidades intactas preservam a evidência atual.\n\nPedido ao inspetor na conferência: citar literalmente o trecho legível do fluxo do prompt (≈327–383 s) que lastreia cada passo da U14. Confirmar também qual IA a fala nomeia, se nomeia alguma, para validar `plataformas`.\n\nNão sei em que ciclo este artefato está. O JSON recebido não traz `correcoes`, e a U4 já está em `versao` 2. A contagem do teto de dois ciclos fica com a coordenação."
+}

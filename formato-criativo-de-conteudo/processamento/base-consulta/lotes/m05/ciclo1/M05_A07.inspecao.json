@@ -1,0 +1,198 @@
+{
+  "aula": "M05_A07",
+  "arquivo_sha256": "4b55ee4526481d7c636c3bd4d3d70a52e9b035dc63b3d641d225debd291adc77",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [8]; as demais mantêm a evidência da inspeção integral do arquivo 3f6a7edaba07, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    8
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "hashes_unidades": {
+    "1": "d6633ff12dfdee07f32c2be28b93213925f0f27d48f42ec6f96c04b196e9058b",
+    "2": "c7752bcfcf8d40d281af921d5173e7cc482c9701fa74342b9c1b407b87cdbed0",
+    "3": "26005ea50799900007d8195c64538da1920504d94c944cba42146c48ac9f280f",
+    "4": "c39b34a02140ef2875054677c6ef464c7e851723731feb633c93df55acad6409",
+    "5": "0134d9fbfe960ab47f45e554212f43a1830383188b3d8ec0ea05c1ee812e023a",
+    "6": "2e60e34e95532f816a11c97b989ceb80df3d06d08a566f35aed5903b3898e425",
+    "7": "3e0cbe19332230d60b6734b3949dfdc911f0727550584f38f236772cfa8d0817",
+    "8": "6b7ec783713fcaa03eb56156a124055b1e62415e564838bdd8df8440787630ea",
+    "9": "ff0d9850256d332f497c360b1cab70ff19743849b4aebc4a6945d247a6b51626",
+    "10": "b2394efa24b8fbbb97ee4d986521059748fd51f7f90deab8f6e9c63a05768d83",
+    "11": "02465aadb00fd4cad4bbf50eca7b838bd469d0d3fb900272659a0f0bbaf32bc1",
+    "12": "ee3f96e18a04c8798f1f29bb9fe2b0f9e3e758ba8dc4c8620a0f9bf2c1e87748",
+    "13": "2934fc9f7c6001b88f55cfd6e6f593f69dc2dbd7392f8718591e0327626ea047",
+    "14": "02280cc30f5ba514cc7e331a660db649131b746af4e82be6114c497ba131ecbf",
+    "15": "03533ce666a85f84110eb03180c55853cf7790f017a5f676e4e61ff376cbb852",
+    "16": "da0e6bb161e98c24d61eedad7662b384cbd7a0f1bc49a6276b586c8b04985623"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Dessa vez a gente vai ver elementos visuais que se repetem nos formatos",
+      "explicacao": "O corpo está fiel à fonte: a definição vem de 25–43s e a distinção roteiro × visual de 43–67s. O problema é a faixa. A frase que dá o foco visual da unidade (\"aqui o foco é o que se repete na imagem\") está em 61,46–67,7s, e o fim marcado é 62. Só cerca de 0,5 s dela cai dentro da faixa. A evidência escolhida termina em 67,7s, depois do fim. Quem abrir a faixa 25–62 ouve \"É no roteiro\" e não chega ao trecho visual. Correção mínima: levar fim a cerca de 68. A lista \"reação, gesto, objeto, personagem ou combinação com música\" vem do material, e a fonte fala+material comporta isso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Um se repete no roteiro e outro se repete no visual.",
+      "explicacao": "A divisão do formato em roteiro e visual está em 245–261s. A ligação entre \"ah, vai cagar\" (roteiro) e a explosão (visual) está em 278–286s. Na transcrição a fala é \"A explosão é um momentinho do roteiro\", um deslize evidente, porque a frase seguinte diz que o outro elemento se repete no visual. A unidade lê corretamente como visual. Sem efeito prático."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Isso é um elemento fixo do meu roteiro",
+      "explicacao": "\"10 anos de casal em 10 dicas de relacionamento\", a série de 10 vídeos, \"É assim que você usa...\" e o fecho do outro criador estão em 157–237s. A lógica (fixo porque é verbalizado) também está na fonte. A redação \"uma frase sobre quem perguntar como você tem tanto conhecimento\" ficou truncada. A frase real é \"Se alguém perguntar como você tem tanto conhecimento\". O sentido se recupera e não muda o uso."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A toalha, o óculos escuro, faz parte da repetição visual.",
+      "explicacao": "Toalha e óculos escuro (291–301s) e explosão (278–286s) batem com a fonte, e a nota sobre nomes incertos está adequada. A frase \"O professor os usa para ilustrar o conceito, não como modelo obrigatório\" e o trecho \"ajudam a tornar o formato reconhecível\" são glosas que o professor não diz nessa passagem. Não alteram a orientação."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É perceber não, é criar.",
+      "explicacao": "\"Definir, criar, testar e lapidar os elementos visuais\" está em 304–320s. A fala é uma autocorreção categórica: o próximo passo \"é perceber\", e logo depois \"É perceber não, é criar\". A unidade suaviza para \"não é só perceber\". A segunda metade (\"não é preciso inventar tudo de uma vez; observe o que surge na produção\") vem do material, não da fala. Ver item em `material`."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O levantar e revelar é um momentinho do formato",
+      "explicacao": "\"Doce com que\" como elemento de roteiro, o levantar e revelar como momentinho, o estresse, o \"não vou fazer\" e a briga com o marido estão em 346–420s, todos apresentados pelo professor como fixos em todos os vídeos. A lógica final (\"reconhecível\", \"em sequência\") é glosa leve. A abertura \"Ai, quantas coisas pra comentar\" não foi incluída, o que não afeta o uso."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Sempre é essa mesma ceninha no final de todos os vídeos do Enquanto Isso Dentro do Corpo.",
+      "explicacao": "\"Você é quem?\" como elemento de roteiro (434–438s), a cena final com música que se repete (520–530s) e a justificativa \"não tem nenhum som, então não faz parte do elemento de roteiro\" (544–548s) estão na fonte. \"Formato de humor\" é leve interpretação. \"Sem fala\" é a leitura razoável de \"não tem nenhum som\", que convive com \"até a música se repete\". Nomes registrados em nota."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Sabe nos meus vídeos, quando eu tô aqui falando, aí de repente eu venho e faço assim, ó.",
+      "explicacao": "F1 resolvida pelos critérios (a) a (c). (a) O título não atribui abertura ao gesto do professor. (b) O corpo diz que o toque na tela acontece \"enquanto está falando, de repente\", o que bate com a fonte. Só o caso da cunhada usa \"começa todos os vídeos dela com o sinal 'ei'\", o que também bate com \"Todos os vídeos dela, ela começa assim, ó\" e \"Todos os vídeos dela, ela começa Com a mão assim\". O contraste \"Já a cunhada...\" deixa claro que abrir o vídeo com o gesto é só o caso dela. A tarefa `escrever-gancho` continua defensável, porque o corpo limita a abertura à cunhada. (c) A nova Lógica só usa o que a fonte diz: \"É um elemento visual, dessa vez De repetição De construção do formato criativo\" e \"Na comunidade surda, você usa pra chamar a atenção da pessoa. Como eles não falam\". A frase de que o professor acha o toque \"um jeito legal de chamar a atenção das pessoas\" está atribuída a ele e existe na fonte (\"Eu acho que é um jeito legal de chamar a atenção das pessoas\"). As frases sem lastro (\"vem da realidade do criador, o que o torna autêntico\" e \"no início de todo vídeo do formato\") saíram. A evidência é literal e está dentro da faixa 576–657, que cobre também o fecho em 00:10:57. A nota registra que o nome \"Karen\" é incerto e que os gestos só aparecem na imagem. Não vi problema novo. Um detalhe sem efeito no uso: o professor diz que o toque é elemento visual \"de certa forma\", e a unidade não traz essa ressalva."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa personagem é um momentinho visual do formato.",
+      "explicacao": "Quadro sobre coisas procrastinadas, \"um ano e meio\" apresentado como caso, personagem de óculos apática no início e no fim, ela mesma sem óculos no meio, música agitada, revelação das horas no final, título do quadro como elemento de roteiro: tudo está na fonte (661–854s). Sem número tratado como régua. Nota sobre áudio degradado adequada."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Teste, observa, analisa, cria teoria, testa mais.",
+      "explicacao": "Personagem de óculos escuro, microfone, roupão e voz apática, com dois aparecimentos por vídeo (933–937s e 1016–1019s), o aviso sobre nicho, a fala sobre \"persistir nos erros\", a leva de testes (1008s) e a lógica de lapidação (963–982s) conferem. A condição do formato não validado e a atribuição da explosão do formato de análise ao professor (861–880s) estão preservadas. \"Aviso de bula\" é glosa inofensiva. As \"cabecinhas voando\" do mesmo formato ficaram de fora (ver omissões)."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A partir de agora você vai começar a reparar nos vídeos que passam na sua timeline",
+      "explicacao": "O núcleo (reparar nos momentinhos de outros, lembrar meses depois e criar) está em 88–109s, dentro da faixa. \"Meses depois\" comprime \"3 meses, 4 meses, 6 meses, um ano\". A fonte apresenta a atenção aos vídeos como consequência da consciência (\"você vai começar a reparar\"), e a unidade a converte em instrução. A frase final (\"viu outra criadora e trouxe um momentinho para o seu vídeo\") e o título (\"Ativar o olhar do criador\") vêm de 1035–1039s, fora da faixa 88–109. O conteúdo existe na fonte, mas quem verificar só a faixa não o encontra. Correção mínima: ampliar a faixa ou retirar a frase."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não admito um aluno chegar para mim falando que travou",
+      "explicacao": "Não aceitar aluno travado, a aula como consciência, \"alguém pronto já vai começar a aplicar\" e \"3, 4, 6 meses, um ano\" estão em 67–116s. A preferência está atribuída ao professor e marcada como enfática em `condicoes`. Sem número nem condição adulterados."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "tudo bem, esquece o momentinho",
+      "explicacao": "A pergunta simulada do médico (1063–1074s), \"esquece o momentinho ou encontra um mais soft\", \"ler comentários\" e \"trazendo pro seu nicho\" (1085–1089s) conferem. A situação está em `condicoes`. O corpo transforma a situação do aluno, que tem as duas características juntas (não tem ideia e precisa de autoridade), em duas condições alternativas: \"não tem ideia de momentinho ou o nicho pede mais autoridade\". A fonte responde a uma pessoa que tem as duas. O `condicoes` contém o contexto e limita o alcance, então o efeito é pequeno."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "pode ter ideias novas usando a sua autenticidade pra criar os seus momentinhos",
+      "explicacao": "O motivo da posição no módulo de autenticidade está em 116–139s. A recomendação do material de adaptar falas e gestos à própria personalidade também confere. `perecivel: true` está correto por causa da estrutura do curso."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Cada publicação pode parecer um novo começo.",
+      "explicacao": "Objetivo (memorável, identidade, circulação) e problema (peça única, memória) conferem com o material. O material hedga (\"pode parecer\", \"dificulta\"), e o corpo afirma \"parece\" e \"tem dificuldade\". A atribuição ao material está presente. Sem efeito prático relevante."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Criar reações, gestos, objetos ou combinações de personagem e música que se repetem.",
+      "explicacao": "A lista de tipos de momentinho e as cinco citações do PDF (bordões com reação, objeto-marca, humor com música, gesto inicial, elementos visuais criativos) correspondem ao material."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 897,
+      "trecho_fonte": "Essas cabecinhas voando é um elemento visual de repetição.",
+      "descricao": "No formato em lapidação do professor, além da personagem de óculos, há as \"cabecinhas voando\" como outro momentinho visual fixo. A U10 só preserva a personagem.",
+      "gravidade": "menor",
+      "efeito_pratico": "O leitor fica sem um exemplo adicional de momentinho visual no formato do próprio professor. A orientação principal não se altera."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U11 e U12: o corpo diz \"A partir da aula, passe a reparar...\" (U11) e \"A aula serve para dar consciência...\" (U12). \"A aula\" fica sem referente para quem consulta a unidade sozinho. Basta trocar por \"esta orientação\" ou por uma descrição do conceito. Ajuste menor.",
+    "U4: \"a explosão após a fala fixa\" não diz qual é a fala fixa. A referência está na U2 (\"ah, vai cagar\") e depende de outra unidade ou da aula. Ajuste menor.",
+    "U1: o corpo diz \"que já foi visto no módulo de roteiro\", uma referência à estrutura do curso. A evidência \"Dessa vez a gente vai ver elementos visuais que se repetem nos formatos\" está em 61,46–67,7s e ultrapassa fim=62. O validador deve confirmar se aceita a âncora na fronteira da faixa."
+  ],
+  "material": [
+    "U5: a fala diz que o próximo passo não é perceber, é criar (\"É perceber não, é criar\"). O material recomenda o contrário no tom: \"Comece consciente deles; observe o que surge durante a produção\". A unidade concilia os dois sem nota, com \"não é só perceber... observe o que surge na produção\". A divergência é leve, porque os dois podem ser lidos como complementares, mas a unidade resolveu em silêncio e a fonte é `fala+material`. Registrar as duas versões em `nota` resolveria."
+  ],
+  "resumo": "Conferência focal da U8 (falha M05_A07-F1). A correção resolve os critérios (a), (b) e (c): o título e o corpo separam o toque do professor, que acontece no meio da fala, do sinal da cunhada, que abre o vídeo. A Lógica agora só usa o que a fonte sustenta. A U8 é `lastreada`, sem gravidade e sem problema novo. O critério (d) depende do script (`versao` 2 já aparece no pacote). Nenhuma omissão decorre da lista de falhas, e as demais unidades não foram reabertas."
+}

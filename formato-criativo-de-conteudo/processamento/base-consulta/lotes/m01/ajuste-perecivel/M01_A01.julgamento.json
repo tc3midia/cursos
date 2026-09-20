@@ -1,0 +1,66 @@
+{
+  "aula": "M01_A01",
+  "arquivo_sha256": "f11cd369cc47e82989dcb814ed14a39d773b1af07d630fdad98466173889cf14",
+  "inspecao_sha256": "a98dcd003f14c7da7880223a3c710d0d28e7a00c2c858e6d1fe40be5d75d42dd",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. O inspetor listou itens sob \"contrato\" que são de aplicabilidade ou classificação, não erros de script. Eles estão tratados nas áreas correspondentes.",
+  "fidelidade": "Falha por dois motivos.\n\n1. U8 tem desvio material comprovado, com trecho literal e nenhuma citação não literal. A fonte remete ao módulo de formatos validados só o primeiro uso da SOFIA. Ela diz que o conteúdo começa \"na próxima aula\". O corpo estende esse adiamento ao método inteiro e afirma que a aula \"não ensina o método\", sem trecho que sustente. A contradição aparece nas próprias unidades: U1 diz que o módulo 1 é o Método FCC, e U8 manda o método para \"os módulos seguintes, começando pelo de formatos validados\". A faixa 41–54 também não cobre o que o corpo afirma.\n\n2. U2 e U3 têm faixa-errada, o que dá 2 de 7 unidades com faixa (28,6%), acima do limite de 10% da rubrica. O conteúdo das duas é fiel e o inspetor classificou cada caso como menor. A regra dos 10% não depende da gravidade individual, e a correção é objetiva: mudar `inicio` de U2 e `fim` de U3.\n\nU1, U4, U5, U6 e U7 estão lastreadas, com ressalvas menores registradas à parte.",
+  "cobertura": "Passa. A única omissão localizada é a definição de CDF (\"nerd por opção\", 187,96 s), de gravidade menor. Ela não muda decisão nem execução, e o termo está no `contexto` e no vocabulário do FORMATO. A busca de omissões desta rodada foi focal. O inspetor declara que as omissões da inspeção integral estão acumuladas, o que basta para este veredito. Não há régua, passo ou condição essencial apontada como ausente.",
+  "perecibilidade": "Falha em U3, por julgamento direto sobre o texto da unidade. O inspetor não sinalizou nada e a lista dele veio vazia. O `alcance` dele não declara que a checagem de perecibilidade das unidades 3–7 foi acumulada da inspeção integral.\n\nO corpo de U3 abre descrevendo um recurso do curso: no módulo de formatos virais validados, o aluno copia roteiros já validados e os coloca na IA do curso. É o mesmo esquema de copia e cola que U1 e U6 descrevem com `perecivel: true`. O script não barrou U3 porque ela não tem tema `curso-e-recursos`, tarefa `usar-recursos-do-curso` nem plataforma específica. É o caso de perecível escondido em unidade `geral`.\n\nU1, U2, U5, U6 e U8 estão marcadas corretamente. U4 e U7 são duráveis, e `false` está certo nelas.",
+  "aplicabilidade": "Nenhum veto próprio. U1, U2, U4, U6 e U7 se sustentam sozinhas. `tipo`, `tema`, `tarefas` e `plataformas` levam o agente ao lugar certo ou ficam entre dois valores defensáveis, como o tema de U2 e o tipo de U3.\n\nU8 diz \"a aula\" e \"as duas IAs\" sem nomear nenhuma. O problema se resolve na reescrita exigida por F1 e entra no critério de aceite dela.\n\nU5 usa \"Tutor CDF\" sem explicar CDF. U3 diz \"nos formatos virais validados\" sem dizer que é um módulo do curso. Nenhum dos dois casos muda o uso, e ambos ficam como ajustes menores.",
+  "falhas": [
+    {
+      "id": "M01_A01-F1",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor apontou desvio material com dois trechos literais. O primeiro, em 512 s, adia só o primeiro dos três usos da SOFIA: \"A primeira delas você vai aprender no próximo módulo, que é o módulo de formatos validados.\" O segundo, em 584 s, é a despedida: \"Na próxima aula, já se prepara, porque a gente vai colocar o pezinho na água com todo o nosso conhecimento\". Ou seja, o conteúdo começa na aula seguinte, dentro do módulo 1. O corpo de U8 diz que a aula \"não ensina o método em si nem o uso detalhado das IAs; isso vem nos módulos seguintes, começando pelo de formatos validados\", e nenhum trecho da fonte sustenta isso. A contradição aparece nas próprias unidades: U1 define o módulo 1 como o Método FCC. A faixa 41–54 cobre só a abertura das missões. Ficam fora dela a entrega das duas IAs (54,6–68,8 s) e os dois remetimentos (512 s e 584 s).",
+      "impacto": "Um agente que consulte onde o método é ensinado é mandado ao módulo 2 e pula as aulas seguintes do módulo 1, que são o método. O agente também repete que a aula de abertura \"não ensina o método\", afirmação sem fonte. U4 extrai desta mesma aula a definição de formato criativo. Quem conferir o corpo pela faixa não encontra o que ele afirma.",
+      "mudanca_minima": "Reescrever o corpo de U8 só com o que a fonte diz:\n- A aula de boas-vindas do curso tem como missões apresentar os módulos, dar clareza da jornada e entregar as duas IAs, nomeadas: Tutor CDF e SOFIA.\n- Dos três usos da SOFIA, só o primeiro é remetido ao módulo de formatos validados.\n- O conteúdo começa na aula seguinte.\n\nRemover \"não ensina o método em si\", \"nem o uso detalhado das IAs\" e \"nos módulos seguintes, começando pelo de formatos validados\".\n\nAjustar `inicio` e `fim` para cobrir todos os trechos usados. Se o corpo mantiver os remetimentos de 512 s e 584 s, a faixa vai de 41 até o trecho da despedida, respeitando o fim da transcrição. Se o corpo se limitar às missões e à entrega das IAs, a faixa é 41–69.\n\nManter `evidencia` dentro da nova faixa e incrementar `versao`.",
+      "criterio_de_aceite": "(a) O corpo de U8 não afirma que o método ou o conteúdo do curso começa no módulo de formatos validados ou \"nos módulos seguintes\", nem que a aula \"não ensina o método\".\n(b) Se o adiamento ao módulo de formatos validados aparecer, está restrito ao primeiro uso da SOFIA.\n(c) O corpo nomeia Tutor CDF e SOFIA e identifica a aula como a de boas-vindas ou abertura do curso.\n(d) O inspetor confirma, com trecho literal, que cada afirmação do corpo está dentro de `inicio`–`fim`, e dá veredito `lastreada`.\n(e) Não há contradição com U1.\n(f) `versao` = 3 e o validador retorna zero erros."
+    },
+    {
+      "id": "M01_A01-F2",
+      "unidades": [
+        2,
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor deu `faixa-errada` às duas unidades, com trecho literal.\n- U2: a frase do corpo sobre \"princípios básicos\" e peculiaridades de formatos vem do trecho \"ele começa com os princípios básicos que você precisa entender\", em 329,96–337,72 s. O `inicio` da unidade é 340, depois desse trecho.\n- U3: a parte \"analisar o que funciona e testar… aprender mais rápido\" vem do trecho \"Você vai olhar para as coisas que funcionam, testar essas coisas que funcionam e aí você vai aprender mais rápido.\", em 217,96–224,94 s. O `fim` da unidade é 218, antes do fim desse trecho.\n\nSão 2 de 7 unidades com faixa (28,6%), acima do limite de 10% da rubrica. U7 tem faixa nula e não entra na conta. O conteúdo das duas unidades é fiel. O defeito é só de faixa.",
+      "impacto": "Quem verifica a unidade pela faixa, seja agente ou inspetor futuro, não encontra parte do corpo e pode tratá-la como sem lastro. Em quase um terço das unidades com faixa, ela não cobre o que a unidade afirma.",
+      "mudanca_minima": "U2: recuar `inicio` para 329. U3: avançar `fim` para 225. Não alterar o corpo. Incrementar `versao` nas duas.",
+      "criterio_de_aceite": "U2 tem `inicio` ≤ 329 e U3 tem `fim` ≥ 225. O inspetor reverifica as duas, cujos hashes mudam, confirma que nenhuma parte do corpo fica fora da faixa e dá veredito `lastreada`. O arquivo fica sem nenhuma unidade `faixa-errada`, portanto dentro do limite de 10%. O validador retorna zero erros e a `evidencia` continua dentro da faixa."
+    },
+    {
+      "id": "M01_A01-F3",
+      "unidades": [
+        3
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "Julgamento direto sobre a unidade. O inspetor não sinalizou, e a lista de perecibilidade veio vazia sem declarar acúmulo da inspeção integral.\n\nO corpo de U3 abre com \"Nos formatos virais validados, o aluno copia roteiros já validados e os coloca na IA\". A frase descreve o recurso do módulo 2 do curso: o esquema de copia e cola com a IA do curso. U1 e U6 descrevem o mesmo esquema com `perecivel: true`.\n\nU3 está com `perecivel: false` e `plataformas: [geral]`. O script não a barrou porque ela não tem tema `curso-e-recursos` nem tarefa `usar-recursos-do-curso`.",
+      "impacto": "O agente trata como orientação durável a descrição de um recurso do curso que pode mudar: os roteiros entregues para copiar e o uso da IA do curso. Se o curso mudar, o agente continua afirmando isso sem sinal de que precisa reconferir. Pela rubrica, recurso do curso sem `perecivel: true` é falha.",
+      "mudanca_minima": "Marcar `perecivel: true` em U3, na mesma edição de F2. O hash já muda por causa da faixa. Não é preciso dividir a unidade.",
+      "criterio_de_aceite": "U3 tem `perecivel: true`. O validador retorna zero erros. Na reverificação focal de U3, o inspetor registra em `perecibilidade` que a marca corresponde ao conteúdo de recurso do curso presente no corpo."
+    }
+  ],
+  "ajustes_menores": [
+    "Contexto: os professores aparecem como \"Hanna e Aleph (grafia da transcrição)\", e o material cita \"Hanah e Alef\". O FORMATO manda usar a grafia do material quando ele cita o nome. Sugestão: trocar para a grafia do material e registrar a da transcrição. Nenhum corpo de unidade usa os nomes e o contexto não entra em hash, então dá para corrigir na mesma edição sem custo.",
+    "U1: \"o padrão de roteiro é metade do formato criativo\" é glosa. A fala só diz que o padrão tem dois componentes, visual e roteiro. Preferível dizer \"um dos dois componentes\". Não muda o uso.",
+    "U1: a fonte é `fala+material`, mas a nota só trata do módulo 2. O material traz ênfases dos módulos 3 (\"sem depender de copiar outros criadores\"), 4 (\"elementos que tornam o conteúdo reconhecível\") e 5 (\"criação de desejo e conexão com uma oferta\") que o corpo não registra. Não há conflito com a fala. É detalhe complementar.",
+    "U2: o tema é `direcao-e-gravacao`, mas a orientação é de navegação do curso. A tarefa `usar-recursos-do-curso` já garante que o agente a encontre. A escolha fica entre dois valores defensáveis.",
+    "U3: o tipo é `regra`, mas o corpo é narrativo. \"Nos formatos virais validados\" não diz que se trata de um módulo do curso. Ao editar U3 por F2 e F3, vale escrever \"no módulo de formatos virais validados do curso\". Não nomear a IA além do que a fonte diz nesse trecho.",
+    "U5: \"ele respondeu com a mesma definição das aulas\" é afirmação dos professores apresentada como fato. A fonte diz \"Percebe como ele responde exatamente como a gente te ensina?\". Falta atribuir aos professores. Além disso, \"Tutor CDF\" aparece sem explicar CDF, o apelido do aluno do curso, que a fonte define como \"nerd por opção\".",
+    "U6: o uso 1 diz \"colar o esquema de roteiro\". A fonte fala em \"esquema para copiar, colar os roteiros\", e U3 diz que se colam roteiros já validados. A fonte é vaga, e o uso é ensinado em outro módulo, como o `condicoes` registra, então não muda a execução a partir desta unidade. Vale alinhar a redação com U3 quando a unidade for tocada. \"Método FCC\" aparece sem expansão do nome.",
+    "Omissão menor: nenhuma unidade define CDF. A definição está no contexto e no vocabulário do FORMATO e não muda decisão de execução."
+  ],
+  "proximo": "1. O redator corrige apenas F1 (U8), F2 (U2 e U3) e F3 (U3). Os ajustes menores são opcionais. O da grafia dos nomes no contexto pode entrar na mesma edição, porque não altera hash de unidade.\n\n2. A inspeção seguinte é focal nas unidades 2, 3 e 8, cujos hashes mudam. U1, U4, U5, U6 e U7 preservam a evidência anterior, desde que hash, fonte e rubrica continuem os mesmos.\n\n3. Pedido ao inspetor para a próxima rodada:\n- Declarar explicitamente se a perecibilidade das unidades 3–7 foi conferida já sob a regra de que recurso e estrutura do curso são perecíveis.\n- Manter declarada a busca de omissões acumulada.\nSem essas declarações, um futuro `passa` não se sustenta.\n\n4. A contagem de ciclos é da coordenação. O inspetor escreve que U8 \"continua\" com desvio material. Isso indica que o problema já existia em rodada anterior, embora a lista de falhas tenha chegado vazia. Se esta já for a segunda verificação do artefato, o caminho é intervenção localizada da coordenação sobre F1–F3 e uma única conferência focal final, não um novo ciclo automático. Se M01_A01 for referência ouro do piloto, a falha vai a Will e não entra na fila do redator."
+}

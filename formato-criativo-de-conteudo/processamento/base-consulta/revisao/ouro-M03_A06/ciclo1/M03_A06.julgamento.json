@@ -1,0 +1,80 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "442b4ca698824ca54328911c80c7a793afb48610a3c15e0bd0032fe5d368eccd",
+  "inspecao_sha256": "da8e14babafb7e2d08dfcbf9a3f121273bfae8cb3a18efbc8b78590d09879e61",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "95b74dac319cab12b5ca18215b17cef035179fe216a1572fcc18ac58fd56c901",
+  "veredito": "falha",
+  "vetos": [
+    "perecibilidade",
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. O inspetor pôs no campo `contrato` itens que são de aplicabilidade, classificação e confiança (unidades 8, 9, 10, 11, 12, 13 e 14). Nenhum deles é erro de script. Julguei cada um na área correspondente.",
+  "fidelidade": "Falha, em duas unidades, ambas com trecho literal e nenhuma em `citacoes_nao_literais`.\n\n**Unidade 12.** O inspetor classifica como `desvio`. Os passos 3 e 4 do procedimento (\"Comece pela abertura\", \"Depois olhe o que aparece ao longo do vídeo\") transformam em ordem prescrita a sequência em que o professor narrou os achados do caso (\"O começo é diferente\", depois \"Ao longo do vídeo tem um outro problema\"). A `condicoes` da própria unidade diz que esses itens são achados do caso, não checklist. O inspetor deu gravidade menor. A rubrica, porém, não condiciona o desvio comprovado à gravidade, e lista \"exemplo de caso apresentado como parâmetro geral\" como falha material. Além disso, o agente executa passo de `procedimento` ao pé da letra. Por isso mantenho como falha. A correção é local.\n\n**Unidade 3.** O inspetor deu `lastreada`, mas a evidência dele em `material` mostra divergência resolvida em silêncio. A fala diz \"não são vídeos de nenhuma trend\". O material diz \"que não dependam apenas de uma tendência\". A unidade adota só a versão mais dura, com `nota: null`. A rubrica define isso como desvio. A correção cabe em `nota` e não altera o hash.\n\n**Demais unidades.** Seguem lastreadas e sem número adulterado: os números das unidades 4, 9, 11, 15 e 16 conferem. A divergência entre um mecanismo por vez e duas mudanças está registrada nas duas versões, nas unidades 12 e 17.\n\n**Faixas.** O inspetor aponta vazamentos de faixa nas unidades 1, 2, 4 e 9, mas mantém todas como `lastreada`. As explicações dele mostram que o núcleo e a âncora de cada uma estão dentro da faixa. Só frases periféricas ficam de fora. Não conto nenhuma como `faixa-errada`, então o limite de 10% não é acionado. Viram ajustes menores.\n\n**Transcrição degradada.** As extrapolações da unidade 11 (\"meio forçado\", \"só depois\") e a frase degradada da unidade 14 com `confianca: alta` são ajustes menores. Na 14, o sentido é corroborado por outro trecho claro.",
+  "cobertura": "Passa. O inspetor declarou busca integral de omissões e achou uma só, de gravidade menor. É o erro visual do vídeo do prefeito de Sorocaba, que a fala menciona em 626 s e não descreve. A falta não muda decisão nem execução, porque o caso segue utilizável. Basta uma nota ou um `limite` dizendo que esse achado ficou só na imagem.\n\nAs réguas, os passos, as condições e os alertas da aula estão presentes: as duas levas de três vídeos, o EVA, a decisão pós-levas, a comparação lado a lado e a regra de um mecanismo por vez. A ausência de `limite` para o convite à comunidade paga é ajuste menor, pela própria rubrica.",
+  "perecibilidade": "Falha nas unidades 8 e 18. As duas dependem de recurso do curso e estão com `perecivel: false`.\n\n**Unidade 8.** Usa como passos de orientação a comunidade do curso com análise pelo time e a lista de formatos virais. Os trechos da fonte são \"se você está na comunidade, entra na comunidade\" e \"pede para o time dar uma analisada\".\n\n**Unidade 18.** Manda registrar no \"espaço de discussão\" do curso e já carrega a tarefa `usar-recursos-do-curso`.\n\nA rubrica é expressa: recurso do curso (comunidade, quadro, documento) sem a marca é falha. As unidades 5, 11, 15 e 16 estão marcadas corretamente. Não vi outro perecível escondido.",
+  "aplicabilidade": "Passa com ajustes menores. As unidades se sustentam sozinhas. `tipo`, `tema` e `tarefas` levam ao lugar certo. As `condicoes` estão preenchidas onde o corpo vale para um perfil (unidades 3, 7, 12 e 13). Procedimentos e estruturas têm as partes que a evidência mostra existirem.\n\nPontos que não mudam o uso:\n- \"Figurante\" aparece sem definição na unidade 10, e a frase sobre mentalidade fixa é ambígua. O restante do corpo desfaz a ambiguidade.\n- \"Furar a bolha\", \"pesquisa de bolha\" e \"conflito universal\" aparecem sem explicação nas unidades 11, 12 e 13. A 13 ao menos indica a função: \"para entender o público com profundidade\". Segundo o inspetor, a aula não define esses termos, então o remédio é uma nota, sem completar por conhecimento externo.\n- A unidade 9 como `regua` e a 13 como `regra` são classificações discutíveis entre valores defensáveis.\n- A unidade 8 poderia carregar `usar-recursos-do-curso`.\n\nA correção da unidade 12 (F3) deixa o procedimento com três passos. Ele continua executável.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        8
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo usa como passo de orientação 'se estiver na comunidade do curso, peça ao time uma análise do seu conteúdo' e 'analise a lista de formatos virais'. O inspetor lastreia com os trechos literais 'se você está na comunidade, entra na comunidade' e 'pede para o time dar uma analisada' (00:06:04). A unidade está com `perecivel: false`.",
+      "impacto": "O agente trata a comunidade com análise pelo time e a lista de formatos virais como recursos permanentes e os recomenda sem ressalva. Filtros e skills que separam o conteúdo perecível não alcançam esta unidade.",
+      "mudanca_minima": "Trocar `perecivel` para `true` na unidade 8 e incrementar `versao`. Não alterar corpo, faixa nem os demais metadados.",
+      "criterio_de_aceite": "A unidade 8 tem `perecivel: true` e `versao: 2`. Corpo, `inicio`/`fim`, `tipo`, `tema` e `fonte` são idênticos aos atuais. `base_fcc.py` retorna zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        18
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo manda 'Registre no espaço de discussão qual aspecto será refinado'. É recurso do curso (espaço de discussão ou comunidade), trecho literal do material confirmado pelo inspetor. A unidade carrega a tarefa `usar-recursos-do-curso` e está com `perecivel: false`.",
+      "impacto": "O agente instrui a registrar em um espaço do curso que pode não existir mais, ou ter mudado, sem sinal de que a orientação depende de recurso mutável.",
+      "mudanca_minima": "Trocar `perecivel` para `true` na unidade 18 e incrementar `versao`. Não alterar o corpo.",
+      "criterio_de_aceite": "A unidade 18 tem `perecivel: true` e `versao: 2`. Corpo e demais metadados são idênticos aos atuais. `base_fcc.py` retorna zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        12
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor classifica a unidade 12 como `desvio`, com o trecho literal 'Ao longo do vídeo tem um outro problema'. O professor narra os achados do caso na ordem começo → ao longo do vídeo ('O começo é diferente'). A unidade converte essa narração nos passos 3 ('Comece pela abertura, comparando como cada vídeo começa') e 4 ('Depois olhe o que aparece ao longo do vídeo e o que ficou de fora') do procedimento. A fala só sustenta os passos 1, 2 e 5. A `condicoes` da própria unidade diz que os itens são achados do caso, não checklist.",
+      "impacto": "O agente que montar uma skill de lapidação passa a prescrever 'comece pela abertura, depois o resto' como método do curso. O professor apenas relatou o que encontrou num caso do formato Análise. É caso apresentado como procedimento geral, e contradiz a condição da própria unidade.",
+      "mudanca_minima": "Remover os passos 3 e 4 da lista numerada e renumerar. Ficam três passos: colocar os dois vídeos lado a lado; ver o que tem no que funcionou e não tem no outro; tratar as diferenças como hipóteses para o vídeo seguinte. A abertura e o 'ao longo do vídeo' permanecem só no parágrafo de relato do caso, que já os contém, atribuídos ao professor. Manter `condicoes` e `nota`. Incrementar `versao`.",
+      "criterio_de_aceite": "Na unidade 12, nenhum passo numerado prescreve começar pela abertura nem ordem de análise do vídeo. As menções a abertura e a 'ao longo do vídeo' aparecem apenas no relato do caso do professor no formato Análise. O corpo começa com `Pré-condição:` e tem pelo menos 2 passos numerados. A `nota` com as duas versões (um mecanismo por vez × duas mudanças) está preservada. `versao: 3`. `base_fcc.py` retorna zero erros."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor registra, em `material`, dois trechos literais. A fala diz 'não são vídeos de nenhuma trend' (00:02:21–00:02:23). O material diz 'que não dependam apenas de uma tendência'. A unidade 3 adota só a versão da fala (`condicoes`: 'O vídeo não pode ser de trend'; passo 2: 'Descarte os que dependeram de trend') e tem `nota: null`. A rubrica define como desvio a divergência entre fala e material resolvida em silêncio.",
+      "impacto": "O agente manda descartar qualquer vídeo antigo que tenha usado trend, quando o material só exclui os que dependem apenas dela. Sem a nota, quem consulta não sabe que existem duas versões e pode eliminar justamente o vídeo que serviria de hipótese de formato.",
+      "mudanca_minima": "Preencher a `nota` da unidade 3 com as duas versões e dizer que a aula não indica qual prevalece: a fala diz que não são vídeos de nenhuma trend; o material diz que não dependam apenas de uma tendência. Não alterar o corpo nem escolher um lado. `nota` não entra no hash.",
+      "criterio_de_aceite": "A `nota` da unidade 3 contém as duas formulações (fala: nenhum vídeo de trend; material: que não dependam apenas de uma tendência) e declara que nenhuma é apresentada como prevalente. Corpo e `condicoes` não passam a afirmar algo que nenhuma das duas fontes diz. `base_fcc.py` retorna zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 1: a frase sobre 'aula de aprofundamento' vem de 52–63 s, fora da faixa 32–47. Estender `fim` para cerca de 64 s. A fala grafa 'Hanna' e o material grafa 'Hanah'; registrar em `nota`. Motivo: não muda a decisão de quem consulta.",
+    "Unidade 2: a pergunta 'e se der errado?' está em 70–72 s, antes da faixa. 'Não por abandono' vem do material, e a unidade declara `fonte: fala`. Ajustar `inicio` e `fonte`, ou cortar a expressão. O sentido é o do curso.",
+    "Unidade 4: a frase final ('depois das duas levas você já tem noção') está em 00:04:14–00:04:17, fora da faixa. O conteúdo já está nas unidades 5 e 7. Pode ser cortada.",
+    "Unidade 9: `regua` para números que a própria `nota` chama de ilustrativos. 'Usa como referência' endurece o 'tipo 10 vezes' da fala. A menção a estudar, visualizar e aplicar fica logo após o fim da faixa. É classificação discutível, e `condicoes` e `nota` já protegem o leitor.",
+    "Unidade 10: 'figurante' está sem definição. Reescrever para deixar claro que a mentalidade fixa é do figurante. Se a aula não define o termo, dizer isso em `nota`.",
+    "Unidades 11, 12 e 13: 'furar a bolha', 'pesquisa de bolha' e 'conflito universal' são jargão que a aula não define. Registrar em `nota` que a aula não define, sem completar por conhecimento externo.",
+    "Unidade 11: 'o texto saiu meio forçado' completa uma palavra degradada da transcrição ('meio arrasa'). Na Lógica, 'só depois' acrescenta uma exclusividade que o professor não afirma. Registrar a incerteza em `nota` e suavizar.",
+    "Unidade 11 ou novo `limite`: o professor menciona um erro visual no vídeo do prefeito de Sorocaba (626 s), mostrado só na imagem. Registrar que a transcrição não captura esse achado, para o caso não parecer completo.",
+    "Unidade 14: a frase-chave está degradada na transcrição ('deve estar rápido') e a unidade tem `confianca: alta` sem nota. Baixar para `media` e anotar. O sentido é corroborado por 'testa rápido e melhora no próximo'.",
+    "Aula: falta um `limite` de oferta para o convite à comunidade do curso (00:16:29). A unidade 8 poderia carregar a tarefa `usar-recursos-do-curso`.",
+    "Unidades 6 e 8: listam vários aspectos a melhorar sem remeter à regra de um mecanismo por vez do material. A informação está na unidade 17.",
+    "Unidade 13: `tipo: regra` para relato de prática do professor. Classificação discutível, e `condicoes` e `nota` já atribuem ao professor."
+  ],
+  "proximo": "**Correção localizada nas unidades 3, 8, 12 e 18, conforme F1–F4.**\n- F1 e F2 são troca de booleano.\n- F4 é só `nota`, e o hash não muda.\n- F3 é a remoção de dois passos do procedimento.\n- A aula não deve ser reextraída. As 14 unidades restantes preservam a evidência desta inspeção se o hash não mudar.\n\n**Conferência seguinte.** É focal: o inspetor verifica as unidades 8, 12 e 18 (hash novo) e a `nota` da 3 contra os critérios de aceite. Os ajustes menores não abrem ciclo. Cada ajuste aplicado que altere corpo, faixa, `confianca` ou `fonte` muda o hash, e a unidade alterada entra na conferência focal.\n\n**Teto de ciclos.** As unidades 5, 12 e 17 já estão em `versao: 2`, sinal de ciclo anterior. Se este for o segundo ciclo, é o teto da rubrica. Persistindo falha material depois dele, o caminho é a intervenção localizada da coordenação e a conferência focal final, sem nova rodada automática.\n\n**Observação para o papel do inspetor.** Na unidade 12, ele deu `desvio` com gravidade menor. Na unidade 3, deu `lastreada` tendo descrito divergência resolvida em silêncio. A rubrica trata os dois casos como falha de fidelidade. Convém alinhar o papel do inspetor à rubrica."
+}

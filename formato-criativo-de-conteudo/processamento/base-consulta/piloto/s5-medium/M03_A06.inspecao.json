@@ -1,0 +1,193 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "58ae92c58f18664270f161aebabd388b5d0e722935fda373c1dcf66633eb1dd1",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "b5bce5b29e252961cbe5b21a043fa777b4f099d60931bcec81b0f1d03f08c6d7",
+    "2": "51a731df0cdb79b993b319a8aa0541ae6070aa423165eab995c5980b42396c30",
+    "3": "1ccca264f8d5e5e0f17b3d51cbf0383a5441f8f29941e03c1b0153260543198b",
+    "4": "06ff83c68f8a0c0c88f737e9a84f4e0b2da43d0e73118d7ebcc29e6b66a69966",
+    "5": "523fbe29ccd2285b8847c48ca30cc7b27d42ec532c89dcef375969ffbe1733fe",
+    "6": "ccb789135a3a6f8abac6efd1000260c7e23df97f035067a2c2697499f14115d9",
+    "7": "fea7a0a4f1c8f5d575353147222f12ac7a4122b0235f3049314f6626570513a3",
+    "8": "c79415ae1f293c639d395490734b3e7572ea9ac1a9ce3a8dfa6397d27fb64a29",
+    "9": "bbdd118aae956beaa9d51184acce5189c36376303f5ca954a1e9b69327c55369",
+    "10": "b16bf9c0190d82dcc84d992667abaa5e4b7233776874280bccd7696e22663309",
+    "11": "f91027f6039600f37776c9b087d73b60d17b89c91da6c4f6b7089bb019c7dc36",
+    "12": "d7d9be8acfd106a0467afc655b584e9cda262cfbe1106fe0cac299089e95bc9c",
+    "13": "ae789631588af88a798488fa7140ff7fabf4bbbb4f8b8f7de700c233f7bc09f1",
+    "14": "6c5789d868c215505b3dbd2bc27126ef90c384f3890a20821964cb320ccb235b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Formato criativo é o método científico",
+      "explicacao": "A sequência hipótese, postar, analisar, novas hipóteses e melhorar no próximo está na fala (74–98 s). A ideia de não abandonar o formato após o primeiro vídeo ruim é implícita na pergunta da fala (\"Se eu postei o formato e deu errado, o que eu faço?\") e explícita só no material (\"Desaconselha abandonar o formato após uma única tentativa\"). Não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eles não são vídeos de nenhuma trend",
+      "explicacao": "Passos, condição (perfil antigo, sem trend, tipo de vídeo que se refaria) e a frase \"talvez funcione até mais que formatos validados\" estão na fala entre 105 e 165 s, com atribuição correta ao professor. \"Descarte os que dependeram de trend\" endurece um pouco o material (\"que não dependam apenas de uma tendência\"); ver campo material. O \"e teste\" do passo 4 é extensão coerente com a aula, não com esse trecho."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não tem uma regra para isso, mas um jeito bom de você pensar é fazer duas levas de três vídeos.",
+      "explicacao": "Duas levas de três, mesmo formato, análise entre as levas e \"noção\" ao final conferem com a fala (173–311 s). A condição \"não há regra fixa\" está preservada em `condicoes`. \"Seis no total\" vem do material. Ressalvas de classificação estão em `contrato`."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu posso gerar mais contraste",
+      "explicacao": "As seis perguntas (tema, conflito, contraste, curiosidade, linguagem familiar, visual/cortes/gravação) conferem com 258–285 s. Descoberta, ritmo, energia e \"um mecanismo por vez\" vêm do material e estão atribuídos a ele. Da lista de análise do material (seção EVA), faltam música, expressão e relevância emocional; ver omissões."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Pô, eu troco de formato, vou tentar um diferente",
+      "explicacao": "A fala dá três desfechos possíveis depois das duas levas (trocar de formato; \"eu vou tentar um pouco mais esse formato aqui\"; ou, se já deu resultado muito melhor que os outros, aprimorar) e não diz quando escolher os dois primeiros. A unidade inventa gatilhos: \"se o formato não dá sinal e você não se conecta com ele, teste outro\" (o \"e\" e o \"não dá sinal\" não estão na fonte) e \"se há potencial, faça mais uma rodada\" (\"potencial\" e \"uma rodada\" também não). Só o terceiro desfecho está fiel. O material apenas pede considerar desempenho e afinidade e fala em duas opções. Em uma unidade `decisao` isso muda a ação: quem consulta pode trocar de formato ou parar após uma leva extra por critério que o professor não deu. A unidade deveria dizer que ele lista as três saídas sem critério e que a decisão usa resultado e afinidade."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "já foi, tipo, 10 vezes melhor do que",
+      "explicacao": "A fala diz que um vídeo não viral mas \"tipo 10 vezes melhor\" que os anteriores \"já dá uns sinais\", com 200→2 mil e 2 mil→20 mil como ilustração. O corpo escreve \"em torno de dez vezes a sua média já sinaliza\", que lê como limiar, enquanto a `nota` diz que os números não são parâmetros. Não chega a régua porque a última frase atribui as contas ao professor. Convém reescrever como \"muito acima da sua média (o professor ilustra com cerca de 10×)\"."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "se você está na comunidade, entra na comunidade",
+      "explicacao": "Estudar, visualizar e aplicar conferem com a fala e o material. O ponto \"na comunidade, pedir ao time uma análise do seu conteúdo\" é convite da comunidade do curso: o FORMATO §3 manda registrar isso como `limite` de oferta e não como orientação. A unidade também não explica \"lista de formatos virais\", recurso do curso citado na fala. Ajuste menor."
+    },
+    {
+      "numero": 8,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "O figurante vai olhar para um conteúdo que deu errado",
+      "explicacao": "O conteúdo (figurante/mentalidade fixa e CDF) está em 00:06:36–00:06:57, ou seja, 396–418 s (figurante em 400,98–408,56 s; CDF em 408,98–417,66 s). A faixa declarada é 416–447 s: pega só os últimos ~2 s da fala do CDF e o resto é transição para os exemplos (\"Deixa eu achar o link…\", \"Isso aqui é um pouco de como a gente lapidou o formato de análise\"). O corpo é fiel à fala, mas quem seguir a faixa não encontra a fonte, e a `evidencia` (400,98 s) fica fora de `inicio`–`fim`. Faixa correta: cerca de 396–418."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu não começo mostrando a cara do prefeito Sorocaba",
+      "explicacao": "Números (400 mil, mais de 1 milhão, ~160 mil views, 6 mil likes no comentário), diagnóstico (abertura, conflito com a comunidade, história do criador, linguagem familiar) e a comparação conhecia Jeanne / não conhecia o prefeito conferem com 441–900 s, e os números estão tratados como de caso, com `nota` e `perecivel`. A faixa termina curta: \"Seis mil likes nesse comentário aqui\" está em 901,74–903,92 s e o trecho que sustenta a Lógica (\"eu quero que você entenda o processo de lapidação. Eu posto um vídeo…\") está em 908–922 s. A frase \"Acertar um vídeo não garante o próximo\" é inferência do extrator, coerente com 956–963 s, mas não dita ali. A transcrição do vídeo do prefeito está degradada (\"Feito Trocava\", \"meio arrasa\") e a unidade não se apoia nela. Sugestão: estender `fim` para ~925."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vai sem clareza mesmo, deve estar rápido",
+      "explicacao": "Mais análise gera mais clareza, e as fontes de clareza (vídeos virais, rever as aulas) conferem com 926–971 s, assim como \"se o seguinte não funcionou, provavelmente você errou em várias coisas\". A frase \"publique mesmo assim, rápido\" reconstrói uma linha mal transcrita (\"deve estar rápido\"); a leitura é coerente com \"testa rápido e melhora no próximo\" (94–97 s), mas `confianca: alta` e `nota: null` escondem a incerteza da transcrição."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "traz uma conversa de amigo",
+      "explicacao": "Números (~2 mil views e ~200 likes no refeito; 8 mil likes e quase 2 mil seguidores no lapidado), pedido da equipe e diagnóstico (travado, linguagem pouco familiar) conferem com 981–1205 s. \"Imagens mentais\" aparece na \"correção\" do corpo, mas foi observação posterior do professor (\"Ela cria imagens mentais\"), não parte do que se pediu à aluna. \"Sem apego ao tema\" é inferência a partir do contraste com o primeiro vídeo. A divergência de nome está na `nota`; ver campo material."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A cada 10 vídeos que eu faço de análise, 9 eu acerto.",
+      "explicacao": "98%/90%/9 em 10 e a progressão 1 de 3, 3 de 10, 5 de 10, 7 de 10 conferem com 1213–1247 s. A `nota` registra a oscilação de números e diz que não é meta. \"O esperado é\" é leitura firme de \"No começo vai ser o seguinte\"; a nota cobre."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolha um formato e faça as duas levas de três vídeos.",
+      "explicacao": "Passos, o registro \"no espaço de discussão\" e o princípio final conferem com a seção Exercício do material; a condição sobre conteúdo antigo está em `condicoes`. \"Espaço de discussão\" é recurso do curso sem descrição; ver `contrato`."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O próximo módulo, a Hanna vai trazer pra você",
+      "explicacao": "Ordem do restante do módulo e do curso (próximas aulas com o professor, autenticidade no módulo seguinte, vendas no fim) confere com 29–63 s. O título promete \"uso da comunidade\", que o corpo e a `nota` deixam de fora; ver `contrato`."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": null,
+      "trecho_fonte": "Analise o visual, incluindo cortes, imagens, música, energia e expressão.",
+      "descricao": "A seção EVA do material dá duas listas de análise: visual (cortes, imagens, música, energia, expressão) e roteiro (familiaridade, relevância emocional, conflito e mudança, curiosidade e descoberta, contraste, tema e moral). A unidade 4 só preserva a lista da seção de duas levas e não traz música, expressão nem relevância emocional.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem analisa uma leva com a unidade 4 não checa música, expressão nem relevância emocional, que o material manda avaliar. Não impede executar."
+    },
+    {
+      "inicio": 755.72,
+      "trecho_fonte": "eu uso palavras que a comunidade dele",
+      "descricao": "No vídeo do Pantera, o professor diz o que foi \"linguagem familiar\" e conflito com relevância emocional: contar a história do criador, usar as palavras que a comunidade dele usa sobre ele, gerar um conflito com relevância emocional para essa comunidade e abrir gerando conflito com a comunidade dele e conflito universal. A unidade 9 resume tudo como \"corrigiram a abertura, o conflito e a linguagem\".",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for lapidar um vídeo de análise sabe que precisa de linguagem familiar, mas não vê como o professor a aplicou. O padrão fica só no exemplo."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 7,
+      "problema": "Traz \"na comunidade, pedir ao time uma análise do seu conteúdo\", benefício/oferta da comunidade do curso, e cita a \"lista de formatos virais\", recurso do curso, sem `perecivel: true`. O FORMATO §3 trata comunidade como oferta (para `limite`, não orientação) e a rubrica exige `perecivel: true` para oferta e recurso de plataforma."
+    }
+  ],
+  "contrato": [
+    "Unidade 8: `evidencia` (\"O figurante vai olhar para um conteúdo que deu errado\") está em 400,98 s, fora da faixa 416–447; deve dar erro no validador. Corrigir a faixa para ~396–418.",
+    "Unidade 14: o título fala em \"uso da comunidade\", mas o corpo não trata disso e a `nota` diz que a comunidade não foi extraída como orientação. Título e conteúdo não correspondem.",
+    "Falta o `limite` de oferta exigido pelo FORMATO §3: a aula convida para a comunidade (\"comunidade, eu recomendo que você participe\", ~987 s; \"se você está na comunidade, entra na comunidade\", ~361 s), e nenhuma unidade registra isso como oferta. A rubrica trata como ajuste menor.",
+    "Unidade 3: `plataformas: [\"trello\"]` leva o agente a tratar como específico do Trello um parâmetro geral (duas levas de três); o Trello é só o meio de organizar. `geral` ou `geral`+`trello` descreveria melhor. Além disso, o corpo diz \"processo do Trello do curso\" sem dizer o que é (a fala: \"o lugar onde a gente organiza o nosso conteúdo\") nem onde está explicado (\"primeiro módulo do método\"), então o agente não sabe a que processo se refere. Classificação discutível, ajuste menor.",
+    "Unidade 13: \"espaço de discussão\" é recurso do curso e o corpo não diz qual; e `usar-recursos-do-curso` como tarefa é discutível para um exercício de duas levas. Unidade 4: `revisar-roteiro` é discutível, já que a análise é de vídeos já postados. Ambos ajuste menor.",
+    "Unidade 1: `fonte: fala`, mas o \"em vez de abandonar o formato quando o primeiro vídeo dá errado\" só é explícito no material; `fala+material` ou tirar a frase. Ajuste menor.",
+    "`contexto` diz que o público \"conhece\" o formato Análise, e a aula não afirma esse pré-requisito (pede só os elementos de roteiro e o Trello já vistos). \"Três casos\" seguido de uma lista de quatro nomes também confunde. Ajuste menor."
+  ],
+  "material": [
+    "Unidade 2 (fonte fala+material): a fala diz que os vídeos a aproveitar \"não são vídeos de nenhuma trend\"; o material diz que \"não dependam apenas de uma tendência\". A unidade escreve \"descarte os que dependeram de trend\" e a `condicoes` diz \"não deve ser de trend\", ficando com a versão mais rígida sem registrar a diferença. Efeito pequeno (menor).",
+    "Unidade 11: o título usa \"Isabela\" (fala), enquanto o material cita \"Isa Franklin\"; o FORMATO §3 manda usar a grafia do material quando ele cita o nome. A `nota` registra as duas versões, então não há resolução em silêncio. Ajuste menor no título.",
+    "Unidade 5: o material fala em duas opções (continuar refinando ou experimentar outro formato, considerando desempenho e afinidade) e a fala em três desfechos sem critério. A unidade os funde com gatilhos que nenhuma das duas fontes traz; ver o desvio na unidade 5."
+  ],
+  "resumo": "As 14 unidades foram conferidas contra fala e material, e a maioria está lastreada, com números, atribuições e condições fiéis. Há duas falhas materiais: a unidade 5 (decisão após duas levas) inventa os gatilhos para trocar ou insistir e o número \\\"mais uma rodada\\\"; a unidade 8 tem faixa errada (conteúdo em ~396–418 s, faixa declarada 416–447 s), o que também deixa a evidência fora da faixa. No resto há ajustes menores: comunidade tratada como orientação na unidade 7, `limite` de oferta ausente, unidade 9 com faixa curta, e duas omissões pequenas (listas de análise do material e como o Pantera aplicou a linguagem familiar). Busquei omissões percorrendo a transcrição inteira e o material, e não achei omissão material."
+}

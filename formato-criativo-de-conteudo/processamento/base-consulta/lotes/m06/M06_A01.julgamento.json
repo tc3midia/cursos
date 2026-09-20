@@ -1,0 +1,56 @@
+{
+  "aula": "M06_A01",
+  "arquivo_sha256": "837aaf7cb7616075067bbab5b0ea754a290afa87da313451d4c277e17831b893",
+  "inspecao_sha256": "45abeceab29434ba9c916db9aa1fd144a3cc3c64750f53b7a4bae38a82017ac3",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os três itens que o inspetor listou em `contrato` (tarefa da U2, plataformas da U5, referências à aula em U10 e U13) são na verdade de aplicabilidade e estão tratados lá.",
+  "fidelidade": "Falha, por dois desvios comprovados com trecho literal. `citacoes_nao_literais` veio vazio, então os trechos do inspetor valem como prova.\n\n- **U1:** o corpo diz que o módulo de venda \"apenas\" trata o mesmo conteúdo de forma mais direta. A fonte diz que alguns conceitos serão novos, e o próprio `contexto` do arquivo registra isso. A unidade contradiz a fonte e o contexto do mesmo arquivo. A frase também vem de ≈137–154 s, fora da faixa 41–76.\n- **U7:** a última frase apresenta alcance e conversão como resultado certo, na voz da base. A fonte diz \"as chances são que\".\n\nO inspetor graduou os dois como menores e, na U7, deixou a gravidade em aberto. Subo os dois para falha material pela rubrica: \"sentido adulterado\" e grau ou condição omitidos são falha material, qualquer que seja a confiança ou a nota. O FORMATO §3 exige que afirmação de resultado seja atribuída ao professor, e U2, U3 e U15 do mesmo arquivo cumprem isso. São erros que um agente repetiria com confiança. Cada um se corrige trocando uma frase.\n\nO restante passa:\n- 12 unidades estão lastreadas.\n- Não há sem-lastro, nem número de caso usado como régua. O \"quase 100%\" da U6 está atribuído ao professor e a um perfil.\n- A aula não tem material, logo não há divergência entre fala e material.\n- Há faixa errada em 1 de 15 unidades (U13), abaixo de 10%, o que não veta.\n- Os dois detalhes da U15 (\"compreendem\" lido como \"comprarem\" sem nota; \"de certa forma\" suprimido) não mudam a orientação e ficam como ajuste menor.\n- Não encontrei erro visível do inspetor: os tempos que ele cita batem com as faixas das unidades.",
+  "cobertura": "Passa. O inspetor declarou busca integral de omissões e localizou uma só: a leitura da sigla CDF em ≈756 s (\"CDF no estilo de criadores do futuro\"), dentro da faixa da U15. A falta dela não muda nenhuma decisão de venda no conteúdo nem impede executar o que a aula ensina. É ajuste menor nesta aula. O efeito relevante está no pacote compartilhado, porque o vocabulário do FORMATO afirma que a fonte não desdobra a sigla; isso vai para a coordenação em `proximo`. O fecho degradado da transcrição não conta como omissão.",
+  "perecibilidade": "Passa. O inspetor não apontou nada, e a leitura direta das unidades confirma:\n- As unidades com perfil nomeado, link, estrutura do curso ou comportamento de algoritmo (U1, U3, U5, U6, U9, U12, U13) têm `perecivel: true`.\n- As unidades marcadas `false` (U2, U4, U7, U8, U10, U11, U14, U15) não carregam tela, recurso, preço, data nem número de mercado.",
+  "aplicabilidade": "Passa, com ajustes menores.\n- Os tipos cumprem as regras: U8 começa com \"Quando\", U7 tem partes numeradas na ordem, e os exemplos têm as três marcas.\n- As `condicoes` estão preenchidas onde o corpo só vale como exceção ou postura do professor (U8, U15).\n- **U2:** a tarefa `quebrar-crencas` não descreve o conteúdo, mas a tarefa principal está certa. Além disso, a U14 já sustenta `quebrar-crencas` × `geral`, de modo que a cobertura não fica falseada.\n- **U5:** a escolha entre `plataformas` específicas e `geral` é defensável dos dois lados. A orientação geral continua alcançável por U6 e U8.\n- **U10 e U13:** \"Nesta aula\" (U10) e \"vídeo de exemplo\" (U13) são referências soltas. Elas não impedem o uso.\n- **U3:** o corpo fala em \"perfil citado\" e o nome não aparece nem em `nota`.\n\nNenhum desses pontos leva o agente ao lugar errado de forma que mude o uso.",
+  "falhas": [
+    {
+      "id": "M06_A01-F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Corpo da U1: \"O módulo de venda apenas trata isso de forma mais direta.\" Trecho literal do inspetor, em ≈2:17–2:34 (≈137–154 s), fora da faixa 41–76: \"mas alguns conceitos também vão ser novos conceitos.\" Segundo o inspetor, o professor diz que algumas coisas se repetem por outro ponto de vista e outras são novas. O `contexto` do próprio arquivo confirma: \"com alguns pontos repetidos por outro ângulo e alguns conceitos novos\". O \"apenas\" inverte o sentido da fonte e contradiz o contexto do arquivo.",
+      "impacto": "O agente que consulta a U1 conclui que o módulo de venda não traz nada além do que já foi ensinado (AIDA, crenças). Ele pode tratar as unidades do módulo como redundantes ao montar uma skill ou um mapa do curso. Além disso, a frase não pode ser verificada na faixa declarada.",
+      "mudanca_minima": "Apagar a última frase do corpo da U1, já que o `contexto` traz a versão correta. Se a redação preferir manter a menção ao módulo, reescrever sem \"apenas\", com as duas metades (pontos repetidos por outro ângulo e conceitos novos), e registrar em `nota` que esse trecho está em ≈137–154 s, fora da faixa. Incrementar `versao` e registrar em `correcoes`.",
+      "criterio_de_aceite": "O corpo da U1 não contém \"apenas\" nem afirma que o módulo se limita a tratar o mesmo conteúdo de forma mais direta. Se mencionar o módulo, traz as duas metades e a `nota` indica onde o trecho está na fonte. `versao` = 2. `base_fcc.py` retorna zero erros. O inspetor focal classifica a U1 como lastreada."
+    },
+    {
+      "id": "M06_A01-F2",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Corpo da U7, última frase: \"Como resultado, o mesmo conteúdo traz pessoas novas ao perfil e as converte para o produto.\" Trecho literal do inspetor: \"As chances são que esse conteúdo vai cumprir as duas funções\". A unidade tira o grau de probabilidade e apresenta alcance e conversão como efeito certo, na voz da base, sem atribuição na frase. O inspetor graduou como menor e deixou a decisão em aberto (\"se a coordenação entender que promessa de resultado sem hedge é material, a gravidade sobe\"). Ele notou que a fala seguinte do professor é assertiva, mas isso não apaga o grau que a fonte dá. O FORMATO §3 manda atribuir afirmação de resultado ao professor, e no mesmo arquivo U2 (\"aumentam as chances\"), U3 e U15 cumprem essa regra.",
+      "impacto": "O agente que usa a estrutura tema + moral para escrever roteiro ou skill vai repetir que ela traz público novo e converte, como efeito garantido. A base passaria a confirmar eficácia que a fonte dá como probabilidade e que o curso apenas afirma.",
+      "mudanca_minima": "Reescrever só a última frase do corpo, com atribuição e grau. Por exemplo: \"Segundo o professor, as chances são de que esse conteúdo cumpra as duas funções: trazer pessoas novas ao perfil e convertê-las para o produto.\" Não mexer nas partes 1 e 2. Incrementar `versao` e registrar em `correcoes`.",
+      "criterio_de_aceite": "A última frase da U7 atribui a afirmação ao professor e mantém o grau de probabilidade (\"as chances são\", \"tende a\" ou equivalente). Nenhuma frase da U7 apresenta alcance ou conversão como resultado certo na voz da base. As partes 1 (tema) e 2 (moral da história) ficam inalteradas. `versao` = 2. `base_fcc.py` retorna zero erros. O inspetor focal classifica a U7 como lastreada."
+    }
+  ],
+  "ajustes_menores": [
+    "U13 (faixa): a menção ao link do vídeo inteiro está em ≈600–605 s, antes do `inicio` 620. Recuar `inicio` para ≈600. É 1 faixa errada em 15 unidades, abaixo de 10%, e não veta.",
+    "U13 (aplicabilidade): \"vídeo de exemplo\" só se entende com a U12 ao lado. Identificar o vídeo no corpo: o vídeo do próprio professor sobre um criador conhecido, usado para ilustrar tema e moral da história.",
+    "U10: tirar \"Nesta aula\" do corpo. A definição se sustenta sem essa expressão.",
+    "U2: remover a tarefa `quebrar-crencas`. O conteúdo é mostrar crenças e gostos para gerar conexão, não substituir crença por história. `vender-no-conteudo` já cobre, e a U14 sustenta `quebrar-crencas` × `geral`.",
+    "U5: `plataformas` instagram/tiktok/youtube contra `geral` é classificação discutível entre dois valores defensáveis. Fica registrado, sem ação exigida.",
+    "U6: a frase categórica que sustenta o \"deve\" (\"você tem que fazer tudo isso dentro de um único conteúdo\") está em ≈384–387 s, fora da faixa 278–309. Registrar isso em `nota`. O sentido está lastreado.",
+    "U15: registrar em `nota` que a transcrição traz \"compreendem de você\" e que o corpo leu como \"comprarem\". Restaurar o atenuante \"de certa forma\" antes de \"é manipulação\".",
+    "U15 (leitura de CDF): registrar em `nota` que, em ≈756 s, o professor diz \"CDF no estilo de criadores do futuro\", como transcrito. `nota` não altera o hash.",
+    "U3: a `nota` diz que a grafia do nome do perfil é incerta, mas não traz o nome. Incluir o nome como transcrito, como a U6 faz.",
+    "U15: `condicoes` fala em \"quem chegou ao último módulo\". Na conferência focal, o inspetor confirma se a expressão é fala do professor. É só checagem; não abre ciclo.",
+    "Os ajustes que mexem em corpo, faixa ou tarefas (U2, U10, U13 e o corpo da U15) mudam o hash da unidade. Se forem aplicados neste ciclo, essas unidades entram na conferência focal. Os ajustes feitos só em `nota` não mudam o hash."
+  ],
+  "proximo": "O redator corrige só F1 (U1) e F2 (U7), incrementa `versao` e registra em `correcoes`. Depois roda `base_fcc.py`. Em seguida vem a inspeção focal de U1 e U7, mais qualquer unidade cujo hash mude por ajuste menor opcional. As demais unidades preservam a evidência atual.\n\nNão recebi o número da rodada. U5 e U12 estão em `versao` 2, o que indica correção anterior. Se este for o segundo ciclo, o que restar segue para a intervenção localizada e a conferência focal final, como manda a rubrica.\n\nPara a coordenação e Will, fora deste ciclo: o vocabulário do FORMATO §3 afirma que \"a fonte não desdobra a sigla\" CDF. O inspetor localizou em M06_A01, ≈756 s, a fala \"CDF no estilo de criadores do futuro\". É erro no pacote compartilhado, e o caminho é corrigir o pacote e identificar as aulas afetadas. Como a mudança altera o `contrato_sha256`, a decisão é da coordenação, não do redator. Isso não segura esta aula."
+}

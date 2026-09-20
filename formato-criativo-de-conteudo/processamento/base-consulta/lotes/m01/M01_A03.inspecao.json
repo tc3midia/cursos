@@ -1,0 +1,145 @@
+{
+  "aula": "M01_A03",
+  "arquivo_sha256": "6e57e6f3e2eb3499c219dafa3da88e83122b1ca79a548fd877993a5529309ebb",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "c6f4371107acdf16ce66018ff7dce676f0ee021fed797d5219a2e821b6055ea3",
+    "2": "d8eadadbfbdfa27c6415eeb120eec53e1bb67f8b41e24f99a9c1fbb87e1e387e",
+    "3": "d1ee45191964a8c40e7bcccd43224434056b926950919f4da98b37357b7904e0",
+    "4": "18fa1d467e2cdfd6ef8e558970a77a4994dbbe73450054dfe75ea41b299d226a",
+    "5": "bd5e91589512afbcb98f027a2ff77e8c04db8b2e12b5b0ce1f570f372ce7e875",
+    "6": "8140b8605000dbb670ea14190d867adb95af3bccf2f0e6cc2c04515bea72659a",
+    "7": "1773f9242249d0050a0c9abfa050227506fa0a3d231005deb88e0deafd303c27",
+    "8": "684d98e816ded89d914b301d8a9e17c7549d1d1c874ef16b01b4f84d25156ac4",
+    "9": "cdc47cb0d5e311a2016be4379a6c94f92e41f67b62e24838330237947e1f323d",
+    "10": "eb5f5077a87eaaa6820f1f4b67fb572e156903155ad4246f621de4461b597a4d",
+    "11": "001c3f4880027c48b87f0ff93767e54576304d31034db9d229d89b15b77ffceb"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "e a gente consegue produzir mais conteúdo com mais clareza.",
+      "explicacao": "O conteúdo tem lastro: WhatsApp e bloco de notas como erro, Trello e Notion como equivalentes, e Trello para quem nunca usou nenhum. A condição está preservada. Dois ajustes menores. (1) A frase sobre produzir mais conteúdo com mais clareza fica em 117,96–122,04 s e o `fim` é 118. A faixa deveria ir até cerca de 122. (2) O corpo escreve que 'as ideias acabam nunca sendo usadas' como consequência geral. Na fonte, 'eu nunca usava essas ideias' é o caso pessoal do professor. A frase seguinte do corpo atribui o caso a ele, então o efeito é pequeno."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai assistir todas as aulas com esse Trello aberto na guia ao lado.",
+      "explicacao": "Fiel à fonte. O compromisso vem dos professores, e pausar a aula para anotar a ideia na hora está em 00:01:01–00:01:10. A faixa 45–70 cobre o conteúdo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O link está aqui embaixo, as duas opções para o Notion ou para o Trello.",
+      "explicacao": "Os passos e a consequência de não copiar ('bloqueadinho') estão corretos e dentro da faixa. Um detalhe não está na fonte: o corpo diz que os links estão 'na descrição da aula'. A fala diz só 'aqui embaixo'. O corpo também aponta um link que o leitor não recebe, e isso o prende à aula. O efeito é pequeno."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Nessa aula, você só precisa entender o passo a passo do zero ao seis.",
+      "explicacao": "A fala numera de zero a seis: a tempestade é o passo zero e o professor situa o início da escrita no 'passo número 1'. O corpo, que diz 'segundo a fala', traz uma lista numerada de 1 a 6 em que a tempestade é o item 1 (rotulada 'passo zero') e 'Descarregar' é o item 2. Para caber em seis itens, junta 'Editar e postar' num só. Nem a fala nem o material fazem essa junção: o material separa Editar e Postar, e a fala fala em 'três vídeos prontos pra postar'. Quem consulta pode ler 'passo 1' como a tempestade e tomar editar e postar por uma única etapa. A `condicoes` e a `nota` registram a divergência de numeração e a admitem, então o dano é limitado. Mesmo assim, a numeração e a fusão do corpo não têm lastro na fala. Todos os passos e o conteúdo de cada um estão corretos."
+    },
+    {
+      "numero": 5,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "é uma das coisas que mais dá trabalho na hora",
+      "explicacao": "O núcleo (anotar sem julgamento, hábito, lista de dezenas de ideias) está em 172–213 s, dentro da faixa. A última frase do corpo ('ter a ideia é uma das partes mais trabalhosas... e ter ideias acumuladas facilita a criação') está em cerca de 410–420 s, muito fora de 172–240. Quem navega pela faixa não a encontra. Segunda observação menor: 'já existe uma lista de dezenas de ideias' aparece como resultado geral do hábito, mas na fonte é o caso pessoal do professor ('Quando eu sento... já tem uma lista de dezenas de ideias'). Não é régua, e o efeito é pequeno."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu vou seguir com as 3 de uma vez",
+      "explicacao": "Fiel: blocos de 3, 'nunca só um', motivo da energia, leva de testes do formato, e a condição de que é sugestão. A frase do corpo sobre os três vídeos avançarem juntos até ficarem prontos está em cerca de 274–281 s e o `fim` é 270. A faixa deveria ir até cerca de 281. O número 3 é recomendação do professor, não número de caso, então `regua` cabe."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "na hora de fazer as lapidações, a estrutura, porque a estrutura vai estar igual nos três vídeos.",
+      "explicacao": "O conteúdo é fiel ('Faça do mesmo formato os três vídeos'; 'a filosofia... é repetir o formato'). O `fim` de 447 corta a última oração (447,12–452,46 s). A faixa deveria ir até cerca de 453. Ajuste menor de faixa, sem efeito no sentido."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Esse é o ideal, porque aí você não gasta energia preparando o material para gravar, montando a sua iluminação.",
+      "explicacao": "Fiel, com a condição 'o ideal' preservada e a edição deixada para o módulo de edição. O exemplo da maquiagem foi simplificado sem mudar o sentido. A faixa 370–405 cobre o conteúdo."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você lembra os elementos que a gente falou na aula passada?",
+      "explicacao": "As perguntas-guia e a lista do material estão corretas. Um ajuste menor: o rótulo 'elementos de atenção' é do extrator. A fonte diz 'os elementos que a gente falou na aula passada', e o conteúdo dessa aula anterior não está no pacote. O corpo depende dessa aula anterior para dizer o que são os elementos, embora as perguntas-guia e o material ajudem a preencher."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tudo sobre formato você vai descobrir nas próximas aulas.",
+      "explicacao": "Os limites são fiéis: o passo zero ao seis, os elementos pessoais e a barra lateral no módulo de autenticidade, o pedido de não se preocupar e a edição no módulo de edição. Um detalhe: o corpo escreve 'como escolher formatos' como adiado, mas a fonte diz 'tudo sobre formato' nas próximas aulas. O material coloca 'escolha o formato' dentro do passo Estruturar, e a unidade não registra essa tensão. Efeito pequeno. A faixa 220–500 cobre o conteúdo até cerca de 3 s antes do fim da fala."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu quero que você baixe o Trello, se você ainda não tem, ou o Notion,",
+      "explicacao": "Fiel. Baixar no celular, deixar na barra de baixo, anotar agora sem se importar se a ideia é boa e criar o hábito estão na fala. A relevância emocional e a área de brainstorming vêm do material e estão atribuídas a ele. A divergência fala × material foi registrada em `nota`. A pré-condição 'já ter a cópia do quadro' vem do exercício do material, não desse trecho da fala, e não muda o uso."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [
+    {
+      "numero": 10,
+      "problema": "O corpo trata da barra lateral do quadro do curso (crenças, coisas do formato) e dos módulos de autenticidade e edição. É referência a recurso do curso (quadro) e à sua estrutura, mas a unidade está com `perecivel: false` e `plataformas: [geral]`. Caso discutível: a unidade só declara o que a aula não cobre e não ensina a usar a barra lateral."
+    }
+  ],
+  "contrato": [
+    "Unidade 3: o corpo diz 'na descrição da aula', que não está na fonte (a fala diz 'aqui embaixo'), e manda abrir um link que o leitor não recebe. Isso prende o corpo à aula. Ajuste menor.",
+    "Unidade 9: o corpo depende de 'os elementos de atenção vistos na aula anterior' sem defini-los. Só as perguntas-guia e a lista do material compensam em parte. Ajuste menor.",
+    "Unidade 6: 'esteira de planejamento' é jargão do curso e não é explicado no corpo. Ajuste menor.",
+    "Unidade 4: a lista numerada do corpo (itens 1–6, com o passo zero como item 1 e 'Editar e postar' fundidos) diverge da numeração de 0 a 6 da fala, que a própria `condicoes` cita. Detalhado no veredito de desvio."
+  ],
+  "material": [
+    "Unidade 9 (fala+material): a fala lista conflito, contraste, começo mais curioso e envolvimento. O material lista relevância emocional, linguagem familiar, conflito, contraste e moral clara. Curiosidade só aparece na fala; relevância emocional, linguagem familiar e moral clara só no material. O corpo traz as duas listas, então nada foi resolvido em silêncio, mas a `nota` está vazia e a `confianca` é alta. Ajuste menor.",
+    "Unidade 10 (fala): o material inclui 'escolha o formato' no passo Estruturar. A unidade diz que 'como escolher formatos' fica para depois, com base em 'tudo sobre formato... próximas aulas', da fala. As duas versões não estão registradas. Efeito pequeno.",
+    "Unidade 4: a divergência de numeração e de conteúdo dos passos (fala de 0 a 6 com 'descarregar'; material de 1 a 6 sem 'descarregar') está registrada em `nota` e `condicoes`, sem escolher lado. O ponto de atenção é só a fusão 'Editar e postar' no corpo, tratada no veredito."
+  ],
+  "resumo": "Conferi as 11 unidades contra a transcrição e o material, e percorri a fonte inteira do início ao fim buscando omissões. Não achei omissão relevante, unidade sem lastro nem número ou condição adulterados. Há um desvio de gravidade menor na unidade 4, cuja lista atribuída à fala renumera os passos e junta 'Editar e postar' sem apoio na fonte, e uma faixa-errada menor na unidade 5, com uma frase a cerca de 170 s da faixa. As unidades 1, 6 e 7 têm pequenos excessos de faixa, e há ajustes menores de contrato, de perecibilidade (unidade 10) e de registro de material. O arquivo é fiel no essencial e precisa de correções pontuais."
+}

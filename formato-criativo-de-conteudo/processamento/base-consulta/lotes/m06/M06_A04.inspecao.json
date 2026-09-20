@@ -1,0 +1,185 @@
+{
+  "aula": "M06_A04",
+  "arquivo_sha256": "c231795de91e0db1cd75b0e8d30251457b4ad5b04b769992ffc463b53188bbbf",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "hashes_unidades": {
+    "1": "ca6e4bb7e0103a71cab13961155192d1944b54f762da3386fe6adab49b0482e3",
+    "2": "5fab680271c0c34d81954b4d3adfef17a5f7475668bcbb693c8ee4f60d8e23a0",
+    "3": "37f6bbb73dad32963f26120d916f12b013f6e8a759f098841aef4e4812ca3fe4",
+    "4": "bcf2264b7502db6404d1f124bb2443d6784dc18f5530f190e2331a012b6a2815",
+    "5": "3566453320b790068a002eb0ce3e7f7b6f60816fda2ddef2bc1cf5c96ca66826",
+    "6": "275f10bbaff215d5a03b424284a9d6a34b5831a1df914d09a8691e07f50f6b7d",
+    "7": "35259112003c079e06d2f307e7bfa984ef06c49c1709f4b24d9794523eea32a5",
+    "8": "c7af3e964ad4d2003e0ed706434eeef6f434764f8f48780b44cf30c7f57a8d23",
+    "9": "359087afb253bd0e5016b07d39f7d8c5101917167c06c9a80540b9e5e6af61d2",
+    "10": "d0985efa151ac77f6735bcc2a617260094bc455fd8726e3eefa3df4758868c49",
+    "11": "944877122c4e9548b2447602272fccba4535f3bd1cd72b25afbb65d8a1f606f1",
+    "12": "e5565719e13100f0ecdebb96ad988317a1c6e20e1cf769e41b32ec2c9a277c45",
+    "13": "46547bd3ce323726bebe1c15f9717416eb06af7ada7e011f0551d70d166fff59",
+    "14": "77ee66df4e4e5cae414b323b77d2325700eb81ebcf88efb26c57164c91276394",
+    "15": "bffb669b21edcb2d21483a8e828ccae170d334aa71b9d869d01edf8ebbc8083c",
+    "16": "981a6205fc60eb69eb830e6a8ecbae9ade074bf60ec8a103f80d9502f005290c"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Gatilhos mentais são atalhos de decisão.",
+      "explicacao": "Definição, origem pré-histórica, \"sempre vão funcionar, independente da situação\" (atribuído ao professor), contraste com os gatilhos viciantes (atenção × decisão de compra) e a lista de cinco gatilhos batem com 00:00:51–00:01:38. Faixa 51–99 correta. A marca perecivel:true se justifica pela referência ao módulo de roteiro."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "provavelmente se ele for no",
+      "explicacao": "Conteúdo e faixa corretos (autoridade = percepção, não título nem o que se sabe). Diferença pequena: o professor monta o caso como hipótese (\"vamos supor\", \"provavelmente se ele for no aeroporto, as pessoas vão parar ele\"), e o corpo afirma como fato que o empreendedor \"é parado no aeroporto por fãs\". Não muda a orientação, porque é ilustração."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aquela pessoa que diz que vai fazer e vai na frente",
+      "explicacao": "\"Autor do ato\" aparece como etimologia citada pelo professor, com hedge no corpo. \"Ser a melhor pessoa naquilo\" e a ligação com o crescimento do próprio perfil estão na fonte, embora a transcrição seja picada nesse ponto; a nota já avisa. \"Não é a única forma\" também está na fonte."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma delas, uma outra forma de gerar autoridade é a partir de associação.",
+      "explicacao": "Associação com quem tem autoridade, o exemplo do escritório e a ideia de \"pegar emprestado\" a autoridade batem com 00:03:51–00:04:14. Faixa correta."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Metalinguagem é quando você fala enquanto você faz.",
+      "explicacao": "A definição, o \"gosto muito\" do professor e a demonstração (a menção a consultoria/anúncios do maior lançamento de alguém admirado, feita enquanto explica a associação) batem com 00:04:13–00:05:23. O corpo omite o nome próprio de propósito e a nota registra a grafia só-na-fala. O fim=322 corta cerca de 1 s da última frase (termina em 323,18), o que não tem efeito prático."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "os símbolos, os resultados",
+      "explicacao": "Símbolos, resultados e a forma de falar deles; lembrar ou mostrar no meio do conteúdo que já gerou resultado. Bate com 00:05:23–00:05:46."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e você olha um vídeo que ele tem muitos likes, as chances são",
+      "explicacao": "Definição de prova social, o exemplo dos dois restaurantes, likes no feed, Airbnb e iFood (generalizados como \"aplicativo\") e o atalho que poupa esforço mental estão todos na fonte. Faixa 348–431 correta."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A prova é quando você prova que aquilo que você está falando é verdade",
+      "explicacao": "Depoimento de aluno, pessoa famosa e foto como formas de prova, e o contraste prova social (muita gente fazendo) × prova (quem teve resultado), batem com 00:07:11–00:09:20. Dependência interna: o corpo fala \"No restaurante\" sem ter apresentado o cenário (ver `contrato`)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "requerem grandes provas",
+      "explicacao": "\"Grandes promessas requerem grandes provas\" e a prova \"na próxima linha ou nas próximas linhas\" batem com 00:07:42–00:08:03. A condição (algo que parece absurdo para muitos, mesmo sendo verdade) está na fonte e o corpo a preserva em `condicoes`."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o CEO do Instagram postou um vídeo declarando que o novo algoritmo agora, ele também vai deixar com que contas pequenas cresçam.",
+      "explicacao": "O caso do anúncio, a atribuição ao professor (\"teria postado\") e a lógica (figura de autoridade para comprovar) batem com 00:08:03–00:08:33. É exemplo, não régua, e está marcado como perecível."
+    },
+    {
+      "numero": 11,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente foi, a Hannah é fã de Linkin Park",
+      "explicacao": "O corpo diz que \"a esposa\" atualizou a página sem parar. A fonte só nomeia \"a Hannah\", que \"é fã de Linkin Park\", e não diz que é esposa dele. O vínculo é acrescentado sem lastro. Não muda a orientação, porque é detalhe do exemplo. O restante (definição de escassez, o ingresso comprado cedo, o contrafactual de deixar para o último momento) está na fonte. \"Posicionar o produto de modo que dê para dizer que é escasso\" é reconstruído de um trecho truncado (\"dessa forma\"), mas tem apoio em 00:10:44–00:10:50 (\"montar a sua oferta... que o produto é escasso\"). A unidade preserva isso com confianca media e nota."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E eu consigo um boom de vendas",
+      "explicacao": "Condição (lançamento de produto digital, mentir inverte o gatilho), o número 10 e a mentoria especial batem com 00:10:44–00:11:30. Ajuste menor: o corpo escreve \"o que gera um pico de vendas nas primeiras vagas\" como fato geral, mas a fonte é a fala do professor sobre o próprio caso (\"eu consigo um boom de vendas\"). A frase \"O exemplo do professor:\" antes cobre só em parte. O ideal é atribuir o resultado a ele. \"Os 10 primeiros a comprar\" é leitura natural de \"os 10 primeiros vão ganhar\"."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então a urgência é quando você coloca um tempo",
+      "explicacao": "Escassez por quantidade × urgência por tempo, o prazo com bônus e a ligação com a lógica dos lançamentos batem com 00:11:34–00:12:01."
+    },
+    {
+      "numero": 14,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "São dois gatilhos que você tem que usar de uma forma ou de outra",
+      "explicacao": "O corpo é fiel e a nota registra a ambiguidade. O título, porém, diz \"use ao menos um deles\", o que resolve a ambiguidade a favor do sentido mais fraco. O professor diz que são dois gatilhos que se tem que usar, \"de uma forma ou de outra\", e a leitura natural é usar os dois. Um agente que só veja o título ou o índice entenderá que basta um. O corpo não muda. Sugestão: título neutro, como \"Escassez e urgência: use os dois gatilhos, de uma forma ou de outra\"."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lembra, aplicar o método EVO",
+      "explicacao": "Estudar, visualizar sendo aplicado em outros conteúdos e aplicar batem com 00:12:09–00:12:30. O rótulo \"método EVO\" e a atribuição ao professor do resultado (dominar) e da aplicação natural nas conversas estão corretos. A fonte não desdobra a sigla e o corpo também não. Ressalva de jargão em `contrato`: \"olhar do criador\" aparece sem explicação."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aula. Na próxima a gente vai falar de níveis",
+      "explicacao": "O adiamento dos níveis de consciência para a aula seguinte e o comentário de que são muito relevantes para vender batem com 00:12:52–00:13:05. Faixa correta. O `limite` é adequado; a fonte não traz oferta comercial."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U15 (menor): o corpo usa \"olhar do criador\" no passo 2 sem explicação. A fonte diz que é algo que \"a gente chama de olhar do criador\", usado \"para cada vez mais entender como eles são aplicados\" (00:12:09–00:12:16). Um agente que leia a unidade sozinho não sabe o que é. Basta acrescentar essa frase, sem inventar definição. O método EVO não é definido pela fonte e a unidade não o define, o que está correto.",
+    "U8 (menor): o corpo termina com \"No restaurante, seria alguém que sai e diz...\", mas o cenário do restaurante só existe na U7 e na aula. Sozinha, a unidade tem uma referência solta. Basta uma cláusula que reintroduza o cenário (ex.: \"num restaurante desconhecido, seria...\")."
+  ],
+  "material": [],
+  "resumo": "Conferi as 16 unidades contra a transcrição inteira (855 s). Nenhuma tem número adulterado nem conteúdo sem lastro material, e as faixas e âncoras estão corretas. Registrei três ajustes menores: a U11 chama de \\\"esposa\\\" a Hannah, o que a fonte não diz; o título da U14 (\\\"ao menos um\\\") tende ao sentido mais fraco da fala; e a U12 não atribui ao professor o resultado \\\"pico de vendas\\\". Há também duas ressalvas de autossuficiência (U8, U15). Percorri a fonte do começo ao fim e não achei omissão material; o trecho truncado entre prova e escassez e a legenda fantasma não contam. A aula não tem material de apoio e a marcação de perecibilidade está coerente."
+}

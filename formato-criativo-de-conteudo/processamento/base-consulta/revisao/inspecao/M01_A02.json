@@ -1,0 +1,175 @@
+{
+  "aula": "M01_A02",
+  "arquivo_sha256": "687c9f18a4ff223dfb0c26a4f4552c7dd0eec0ccc1b5d24db464447b6d324ebe",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3]; as demais mantêm a evidência da inspeção integral do arquivo 015a410ff2a8, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "hashes_unidades": {
+    "1": "7c042b39ccb9ece8003094c73bf437ec030ff6dc6a5a951eeda0b635f8bef5f4",
+    "2": "cc90ed1f6b50b0fcbd178770001cf5a77b867a33000b89286cebcc7f7e791250",
+    "3": "14e771823e544fd8ff97818f98159ecd8a9e594223a06c2609eca73546cc0395",
+    "4": "44c059eb8748a7edc31edafbb7bbc450bf18ef6a96e38b44f4a0ffa636c30198",
+    "5": "28ae1bb80c3c12332a4dc6f7f8ef496c8db0a389b90119136e6e139daaa72a0c",
+    "6": "5a62c3cb449a61341106a27cadabae60a6d3ac7cd81f58a38afcef239e5f5b12",
+    "7": "7c39acec89d818a118450c598ef779a846a4a4886d4fe7445abac3650218eff7",
+    "8": "e8985a7fee734d34b84461b190aea8af6e0962a77554bfd5ac7c811f5628fae2",
+    "9": "eee440f2dd6a4b2d4c3d830020b2e4019057215545225719543205487300e5b9",
+    "10": "d4f95bb3d9d79c379e216289dab2bebf021d35cd2895acff330b6f41ec433355",
+    "11": "d0a62653a8c4ea34d7cd992a796bf63f5997e45ea95d34bacbdf3670ec0b0f0b",
+    "12": "43b421617cd02b9b4ecf1475584f793cc9b14bc63bc78362aef8963768e0b988",
+    "13": "d85febea36b5bd1eee8302b04d06a2335c96418724896559f1b8952b18213bf7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E isso, além de me custar 2 anos, me custou quase mil vídeos postados ignorados.",
+      "explicacao": "A afirmação central (funciona por um motivo, nunca por sorte), o relato das vozes da cabeça e o custo em vídeos estão na fonte, com atribuição ao professor. Ajuste menor: a unidade diz 'mais de dois anos', mas a fonte diz 'me custar 2 anos' e, em outro ponto, 'por mais de 2, os 2 primeiros anos', que é ambíguo na transcrição automática. O campo contexto da mesma aula diz 'cerca de dois anos'. O número não é tratado como parâmetro, então o efeito no uso é pequeno."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu fiz um único vídeo que em uma semana me trouxe 30 mil novos seguidores.",
+      "explicacao": "Faixa 68–102 s correta. Os números (quase mil vídeos, 30 mil seguidores, uma semana) batem com a fonte. O caso está como `exemplo`, com atribuição ('segundo ele'), marcado perecível e avisado de que não é meta. Não há desvio."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai deixar de ser um figurante e se tornar um CDF.",
+      "explicacao": "F1 resolvida. (a) O parêntese \"(o CDF, criador de conteúdo de formato)\" saiu do corpo e a sigla não é mais desdobrada. A nota também não desdobra: diz que a fonte não desdobra a sigla e que define o termo pela função e pela oposição a figurante. (b) O corpo explica CDF só pelo que a aula diz. \"Característica do CDF real\" e \"aquela pessoa que consegue olhar pros vídeos virais que passam na sua timeline e entender por que que os vídeos funcionaram\" estão em 115–131 s. \"Vai deixar de ser um figurante e se tornar um CDF\" está em ~140–143 s. (c) Todas as frases do corpo estão dentro de 115–171 s. A definição de olhar por trás da matrix está em ~148–153 s. O \"90%\" está em ~131–134 s e aparece atribuído ao professor. A frase final (\"o formato criativo daquele criador de conteúdo\") está em 167,7–171 s e agora cabe no `fim` 171. A `evidencia` (\"você vai parar de ver os vídeos como espectador de conteúdo pra olhar como criador de conteúdo\", ~134–140 s) continua dentro da faixa e tem 16 palavras. (d) `versao` 2. Não vi o resultado do `base_fcc.py` nem os hashes das outras 12 unidades, porque não vieram no pacote. Não apareceu problema novo na U3: números, atribuições e sentido batem com a fonte, não há cópia de 25 palavras e o corpo tem uma linha."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É você entender um padrão de conteúdo que funciona e repetir, não precisa ser criativo pra sempre.",
+      "explicacao": "Definição (padrão que funciona e se repete; visual mais roteiro) e a afirmação de que quem mais cresce encontra o formato e repete, atribuída ao professor, estão dentro da faixa 170–206 s e batem com a fonte."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se a linguagem é difícil, elas vão desconectar do seu conteúdo.",
+      "explicacao": "Emoção mais linguagem simples e familiar, a razão (mente preguiçosa, falta de repertório leva a pular o vídeo) e o 'fale a língua do seu público' estão na fonte, dentro da faixa."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Quando existe conflito, existe uma mudança,",
+      "explicacao": "Conflito leva a mudança, mudança desperta emoção e memorabilidade; o roteiro não pode ser 'flat' e deve ter altos e baixos e a ligação com a base de uma história. Tudo confere, dentro da faixa 264–320 s."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "os altos e baixos, os contrastes",
+      "explicacao": "O jeito errado (começa e termina igual, linha reta, sem contraste) e a observação de altos e baixos estão na fonte. O 'oscilar entre emoções' interpreta um desenho que a transcrição não captura ('o seu roteiro precisa fazer assim'). Essa limitação é declarada em `nota`, com `confianca` media, e o sentido é sustentado pelo 'altos e baixos, os contrastes' do próprio professor. Não há desvio."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "isso vai gerar um alívio, ou não, né?",
+      "explicacao": "Promessa no começo, efeito aha como recompensa e a definição de curiosidade batem com a fonte. Detalhe menor: na ilustração da mensagem do parceiro, o professor hesita ('gerar um alívio, ou não... pode gerar um alívio') e a unidade diz 'gera alívio'. É exemplo lateral, sem efeito na orientação."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "até a sala da sua casa",
+      "explicacao": "Preguiça mental, imagens mentais (situação, pessoa, ambiente, sensação) e a atribuição 'segundo ele' conferem. O exemplo do sofá está sem número. Nesse trecho o professor diz 'sofá até a sala da sua casa'; 'sofá até a porta' vem do vídeo analisado mais adiante (12:27). São a mesma cena e não há efeito no uso."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Por isso o vídeo teve 334 curtidas",
+      "explicacao": "334 curtidas e 55 mil likes conferem e vêm atribuídos ao professor; a pergunta da aluna na comunidade, o contraste negativo→positivo e o 'checklist' também batem. O caso está como `exemplo`, perecível, com aviso de que os números não são referência. A incerteza de nomes está em `nota`. A faixa (569–830 s) avança um pouco sobre o início do exercício (unit 11, a partir de 821 s), sem efeito."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai passando assim até você encontrar um vídeo que tem, sei lá, 40 mil likes",
+      "explicacao": "Os passos batem com a fala (achar vídeo viral, assistir inteiro, identificar pelo menos um elemento, entender o formato, postar nos comentários) e com o material (as quatro perguntas, o registro de padrões). A divergência 40 mil na fala e mais de 50 mil no material está registrada com as duas versões, sem escolher lado. Ver o apontamento de escopo (pelo menos um elemento × quatro perguntas) na seção material."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A descrição rejeita tratar crescimento como sorte ou apenas culpar o algoritmo.",
+      "explicacao": "Comparação positiva, observação lado a lado, teste das causas prováveis e o benefício de repetir um formato estão no material. `fonte: material` está correta."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e que a gente vai aprofundar todos eles no módulo de roteiro.",
+      "explicacao": "Faixa 601–617 s correta. A aula só introduz os elementos ('aqui a gente tá colocando o seu pezinho na água') e o aprofundamento fica para o módulo de roteiro. O trecho não é oferta comercial."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 784.84,
+      "trecho_fonte": "então tem contraste, ela faz você pensar que é negativo",
+      "descricao": "A explicação do que é o contraste de emoções na prática (o vídeo faz pensar que é negativo e depois faz entender que é positivo) só existe dentro do `exemplo` da unidade 10. O material acrescenta 'usar opostos para tornar a mudança mais perceptível'. A unidade 7, que trata do contraste como regra, só diz 'altos e baixos' e 'oscilar', porque o desenho não está na transcrição. Nenhuma unidade traz a definição de contraste como emoções opostas.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a regra de contraste (unit 7) por tarefa não recebe a noção de opostos (negativo→positivo) e precisaria achar a unidade de exemplo. Não impede executar, porque 'altos e baixos' está lá."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 1,
+      "problema": "O corpo traz números de caso pessoal do professor ('mais de dois anos', 'quase mil vídeos ignorados') e está com `perecivel: false`. Pela base, número de caso é perecível; a unidade 2, que narra o mesmo caso, está marcada `true`."
+    }
+  ],
+  "contrato": [
+    "Unidade 3: o jargão CDF é 'explicado' com uma expansão que a fonte não traz (ver o veredito sem-lastro). Além disso, o `fim` 160 corta a frase final do corpo, que está em 162–171 s.",
+    "Unidade 2: `tarefas` traz `analisar-video-de-referencia`, mas o conteúdo é a trajetória pessoal do professor (quase mil vídeos até um render 30 mil seguidores), não análise de vídeo de referência. A tarefa pode levar o agente a um caso pessoal quando ele busca método de análise. Ajuste menor: deixar `tarefas` vazio ou usar outra tarefa defensável.",
+    "Unidades 7 e 11: o campo `condicoes` é usado para a limitação da transcrição (unit 7) e para a divergência 40 mil × 50 mil (unit 11). Nenhum dos dois é condição de validade da orientação, e ambos já estão em `nota`. Ajuste menor.",
+    "Unidade 1: tipo `conceito` mistura a tese ('tem causa') com o relato pessoal com números, que se repete na unidade 2. Ajuste menor; o efeito prático é a perecibilidade apontada."
+  ],
+  "material": [
+    "Unidade 11: fala e material divergem no escopo do exercício, e a unidade só registra a divergência de curtidas. Na fala, o professor pede identificar 'pelo menos um dos elementos... não precisa ser todos não'. No material, o exercício pede analisar as quatro perguntas (conflito e mudança; emoção; curiosidade e descoberta; linguagem familiar e imagens mentais). A unidade encadeia 'pelo menos um elemento' (passo 3) e 'Pelo material, responda...' (passo 4) sem dizer se as quatro perguntas são obrigatórias. Convém registrar as duas versões em `nota`. Impacto menor: o agente pode exigir o que a fala dispensa.",
+    "Unidade 12 e uso do material em geral: o material (descrição em PDF) corresponde à aula e o uso está coerente. A divergência de curtidas (fala 40 mil, material mais de 50 mil) está bem registrada na unidade 11."
+  ],
+  "resumo": "Conferência focal só da U3. O desdobramento inventado da sigla CDF saiu do corpo, e o que resta de CDF e figurante corresponde ao que a aula diz. A frase final do corpo agora está dentro da faixa 115–171 s, e a evidência continua na faixa. Não há falha de cobertura na lista, então não registrei omissões. Não conferi o validador nem os hashes das outras 12 unidades, porque não vieram no pacote."
+}

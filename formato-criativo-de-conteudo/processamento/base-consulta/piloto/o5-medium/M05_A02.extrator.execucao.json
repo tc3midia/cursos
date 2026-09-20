@@ -1,0 +1,49 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "medium",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:12:30+00:00",
+  "fim": "2026-09-20T00:15:15+00:00",
+  "duracao_ms": 164119,
+  "duracao_api_ms": 164091,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 15949,
+    "cache_creation_input_tokens": 16251,
+    "cache_read_input_tokens": 13667
+  },
+  "thinking_tokens": 5448,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.5680785,
+  "sistema_sha256": "46d055edc03fd8f2396d0f36688cfeb90560cb17add0d13e1ee61d45366cd96e",
+  "pacote_sha256": "d82b7f95a559e9d36d7b5255320f9b8f41e81ae70c8acc94bf98661be8906a3d",
+  "aula": "M05_A02",
+  "rotulo": "piloto-o5-medium",
+  "palavras_fonte": 3923,
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/o5-medium/M05_A02.json",
+  "resultado_sha256": "45184827c2860404700c3e36fee6c66821f88193b845cb1361102c7013453e41",
+  "unidades": 26,
+  "validador": {
+    "erros": [
+      "M05_A02: U008: marcador temporal no corpo",
+      "M05_A02: U013: evidência não literal na transcrição",
+      "M05_A02: U014: evidência não literal na transcrição",
+      "M05_A02: U014: evidência fora da faixa",
+      "M05_A02: U018: evidência não literal na transcrição",
+      "M05_A02: U018: evidência fora da faixa",
+      "M05_A02: U024: evidência não literal na transcrição"
+    ],
+    "avisos": []
+  }
+}

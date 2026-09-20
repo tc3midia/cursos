@@ -1,0 +1,36 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T00:16:30+00:00",
+  "fim": "2026-09-20T00:23:47+00:00",
+  "duracao_ms": 435061,
+  "duracao_api_ms": 435033,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 46313,
+    "cache_creation_input_tokens": 41179,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 40516,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.62785,
+  "sistema_sha256": "59fabc5e7e783657ac7cc13d1092a4aacb28297364eb5d2ca169a51d2a43717f",
+  "pacote_sha256": "ce3808bd36c7224bf6a21231db0b28386e741ae894ac4f293d59afb4c9273ace",
+  "aula": "M03_A06",
+  "rotulo": "piloto-s5-medium",
+  "arquivo_sha256": "58ae92c58f18664270f161aebabd388b5d0e722935fda373c1dcf66633eb1dd1",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/piloto/s5-medium/M03_A06.inspecao.json",
+  "resultado_sha256": "778621a56c5ce8ebd1bfcce6f67a1f8d32b9c42453a37d66b65bc124292da54e"
+}

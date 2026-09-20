@@ -1,0 +1,37 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T04:52:51+00:00",
+  "fim": "2026-09-20T04:54:01+00:00",
+  "duracao_ms": 68440,
+  "duracao_api_ms": 68419,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 5929,
+    "cache_creation_input_tokens": 14399,
+    "cache_read_input_tokens": 14122
+  },
+  "thinking_tokens": 2767,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.5879805,
+  "sistema_sha256": "6fbcd305a280b2b74da5c138ff02513c5ea8520fda321689da3adaa38f2a89f2",
+  "pacote_sha256": "d5cd5640a206607666493edaa820cb44c7e28316bd1792021c496496fc36c829",
+  "aula": "M02_A09",
+  "rotulo": "lote-m02-ancora",
+  "arquivo_sha256": "43339c396bbcbd265103a8ab67027f214f8f20c6d4e46bbee3a6523d3255e4a0",
+  "inspecao_sha256": "6f6ff509cc6a78d9bc7ccbdbe12b926081d579e5894b3c303e2902f93c5e7eea",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m02/ciclo1-ancora/M02_A09.julgamento.json",
+  "resultado_sha256": "74bad20725d8b5094d5938582f379377a5b00ff7938b8c2201f9b8af95946ec9"
+}

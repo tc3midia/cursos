@@ -1,0 +1,196 @@
+{
+  "aula": "M05_A03",
+  "arquivo_sha256": "af498e0fe91100ac73a86612ca15fd8ffddf882f689d09da9e8bd15ed31a5dde",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "hashes_unidades": {
+    "1": "fca112262a9cd6db5ea743fa275bae31f0121430cbfc8e640383763f9b39877a",
+    "2": "7fd5abffe3bf306fa93247676b001a8f5253325fc7dbee071d5cbc77a6f4908d",
+    "3": "81b914fb2ea9503abbc279b0395ae985ece4669a571b7a9ed74b971af7655fe8",
+    "4": "f0ca931d5beea3c6dab60f8c78d7632c88da7616eb31e35548713a998a4115a8",
+    "5": "725b9cc014193e4169134fcd1d3bf8a029280adeaf947fa898f37a4ffb29b219",
+    "6": "048d6062ac168ac95e4ca040bb1509fd9443d6b263b99776d18865d4426db4c3",
+    "7": "ebacd20b3b79f1bb94b3168495931c703346d28927f8d1567dadef408fa8b08d",
+    "8": "81cc734f181f95c881d974951a4f3d00b4809f77ba8b45bdfea40ee5b95c0387",
+    "9": "f09bf2c5a81bad0e7675a190d6d2244bfe3ffcfe6b738ca60845b917404af1dd",
+    "10": "2d07f4a26c11e9ac5789fbe981c17752684a8761874370e5446affca02278c7f",
+    "11": "3d983cdb13c9e387d8e98916d7b9a6dfe21c4d7dfae11306687ff6a24dbdda7a",
+    "12": "1a4b5e1c2067d28baef560f5b6dab36e0ecd4bf0ccc4989fe64dd32c626dcf86",
+    "13": "0502412fb60a52a65d6f3f6f3d88b8d55a7012537bcacfe1be08ea75af7e3e89",
+    "14": "e6731d9f19d7544efe455b5eef723d9fcddbba8cb5887c79b934f1e829bdb7d2",
+    "15": "1f8912badf469a6a43e317c1ba82bfd8d2f6a95690d3a6a8715484ec8dbe6af1",
+    "16": "aba0495bec647b71e08e4689d3f9a6e83976cc0e0db6976eceb7f45891b2f880"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "São elementos da sua personalidade que você quer que as pessoas percebam.",
+      "explicacao": "A definição bate com a fala. O objetivo (identificar os traços e aprender a expressá-los) bate com a seção Objetivo do material."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vai fazendo as pessoas terem essa percepção de desleixo, de atraso, de irresponsabilidade?",
+      "explicacao": "O caso do disciplinado que faz piada de chegar atrasado está fiel: a repetição do comentário produz a percepção contrária. O exemplo fica atribuído à professora. Fica dentro da faixa 25–85 s."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "quatro palavras, quatro palavras que a sua audiência lembra quando olha pra você.",
+      "explicacao": "Os passos (caixinha no story, quatro palavras, conferir se a comunicação segue o caminho certo) estão na fala. A \"Pré-condição: ter audiência com acesso aos seus stories\" é só o andaime exigido pelo formato. A fala diz apenas \"a sua audiência\", então não há condição inventada que mude o uso."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "preciso inclusive refazer, é bom refazer a cada, sei lá, 4 meses mais ou menos para ver se sua comunicação está indo para o caminho certo.",
+      "explicacao": "O número (cerca de 4 meses) está correto e a aproximação foi preservada em `condicoes`, `nota` e `confianca` media. A frase de que a professora precisa refazer também está na fonte. A dependência de \"o exercício das quatro palavras\" está registrada em `contrato`."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Só que a gente pode ir intencionalmente mudando isso.",
+      "explicacao": "As quatro palavras, a origem de \"bem relacionada\" (amigos conhecidos) e a rejeição de \"fofa\" estão fiéis. \"Não era o que ela queria\" endurece o \"Não sei se eu quero ser percebida como fofa\", mas a fala também diz \"tinha uma que não estava\" alinhada. A frase que sustenta a parte \"dá para mudar de forma intencional\" da Lógica está em 185,3–189,6 s. Isso fica 0,3 s depois do `fim` 185. O corpo inteiro está lastreado. Só o `fim` deveria ir a ~190 s."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A segunda parte desse exercício, que é a mais importante",
+      "explicacao": "As quatro palavras, o documento e a pergunta \"como expressar na comunicação\" estão na fonte. A fala descreve duas partes (escolher + perguntar como expressar; depois escrever as formas de expressão). A unidade desdobra isso em três passos e chama o passo 3 de mais importante, o que equivale à \"segunda parte\" da fala. Sem efeito no uso. As palavras da professora (criativa, inteligente, criadora, competente) estão corretas."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu faço coisas que me percebam como tal",
+      "explicacao": "Conexões inéditas, símbolos (cores, roupas, músicas, transições) e o storytelling visual como formato criativo batem com a fala, e as ressalvas de `condicoes` e `nota` estão corretas. A frase final do corpo (\"quem quer ser percebido como criativo faz coisas que levam a essa percepção\") está em 373,9–379,4 s, depois do `fim` 373. O `fim` deveria ir a ~380 s. O material diz \"cor, roupa e estética\", sem música e transição, e a divergência não foi registrada (ver `material`)."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu trago livros para os meus formatos",
+      "explicacao": "Livros nos formatos, vídeos que citam livros, livros no cenário e incentivo ao estudo estão na fala. A associação a ser CDF (\"nerd por opção\") usa a definição do vocabulário do curso. O material confirma."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então quando eu falo, pelo exemplo, vou bater um milhão de seguidores até o final do ano e bato",
+      "explicacao": "A condição de cumprir a meta (\"e bato\", \"e realmente compro\") e a de contar histórias que a professora \"de fato criou\" estão na fonte. Os números das metas ficaram só na `nota`, como exemplos, e não viraram régua. Fica dentro da faixa."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então quando eu compartilho o efeito jornada, vai ter uma aula só sobre efeito jornada",
+      "explicacao": "O aviso de aula própria está correto. Duas imprecisões pequenas. O corpo diz \"o professor\", mas a professora é mulher no resto do arquivo. O corpo também glosa efeito jornada como \"o ato de compartilhar a jornada e as metas\", e a fala não define o termo. Só o contexto do trecho sugere isso, e a glosa não muda o uso."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu mostro bastidores e organizações da empresa",
+      "explicacao": "Cumprir compromissos, bastidores, processos e time organizados e resultados dos alunos (\"principalmente\") batem com a fala. O material cita também \"disciplina\" para esse traço, e isso não entrou (ver `material`)."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pega tudo como você quer ser percebido",
+      "explicacao": "As três linhas tênues (criativa/infantil, inteligente-CDF/arrogante, criadora/bruxona-mística) e o conselho de ter consciência estão na fala. Os acréscimos do material (gírias, maldição do conhecimento, pés no chão) estão marcados como do material e registrados em `nota`. A tarefa `revisar-roteiro` não tem apoio na aula (ver `contrato`)."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E eu comecei lá na aula anterior falando que pessoas já compraram o meu curso",
+      "explicacao": "O caso está atribuído (\"segundo ela\") e bate com a fala: mãe de gato, Katy Perry, mensagens de quem já acompanhava e virou aluno por ser Katy Cat. Não virou régua nem regra. A Lógica acrescenta \"mesmo sem relação com o produto\", que a professora não diz. É uma inferência inofensiva. A classificação de `tarefas` está registrada em `contrato`."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Por isso, você vai fazer uma lista.",
+      "explicacao": "As cinco listas (artistas, filmes/séries/diretores, criadores e livros, temas de estudo, uso nos vídeos) e a razão (personalidade, autenticidade, familiaridade, pontos de contato) batem com a fala. A \"Pré-condição: já ter definido como quer ser percebido\" não está na fonte, que só diz \"Por isso, você vai fazer uma lista\". É andaime de formato, sem efeito prático. A nota de grafia dos nomes está coerente com o material."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque as pessoas também se conectam com aquilo que elas têm em comum, que não gostam.",
+      "explicacao": "A razão e os exemplos (coco ralado, política) estão fiéis e atribuídos à professora. \"Delimita a identidade\" vem do material, que o corpo cobre com fonte `fala+material`."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Escreve lá como você quer ser percebido",
+      "explicacao": "Os quatro itens (como quer ser percebido, como não quer, o que gosta, o que não gosta) são a recapitulação final da professora, na ordem dela. O corpo diz \"deve ser preenchido nestas quatro partes\", o que soa como estrutura exaustiva do documento. A fala apenas lista o que escrever. O material lista cinco seções (inclui Percepção atual e as formas de expressão, que a professora chamou de \"a mais importante\"). Quem consultar só esta unidade pode deixar de fora a parte de formas de expressão, que está na unidade 6."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U12: a tarefa `revisar-roteiro` não tem apoio na aula. Ela não menciona roteiro nem revisão de roteiro nesse trecho; o exercício é sobre percepção de personalidade. Quem buscar `revisar-roteiro` cai numa unidade que não trata disso. Bastaria `definir-personalidade-e-voz` (ou `construir-marca-pessoal`).",
+    "U13: `tarefas` traz só `extrair-historias-pessoais`, mas a unidade trata de gostos pessoais que geram identificação (mãe de gato, Katy Perry), não de histórias do passado. Falta `definir-personalidade-e-voz` (ou `construir-marca-pessoal`). Quem buscar personalidade não encontra o caso, e quem buscar histórias do passado recebe um caso de gostos.",
+    "U14: `extrair-historias-pessoais` é discutível. A unidade lista gostos e desgostos, não histórias do passado (menor).",
+    "U4: o corpo manda \"repita o exercício das quatro palavras\" sem dizer o que é (caixinha de perguntas no story pedindo quatro palavras sobre como te percebem). Fora da aula, a unidade depende da U3 para ser entendida. Falta explicar o exercício ou citar a caixinha, ou marcar a plataforma `instagram` (menor).",
+    "U1: \"o objetivo do exercício da aula\" é referência à aula. Reescrever sem \"da aula\" resolve (menor).",
+    "U10: o corpo diz \"O professor avisa\", mas a professora é mulher no resto do arquivo (menor).",
+    "U16: \"deve ser preenchido nestas quatro partes\" apresenta a recapitulação da fala como estrutura fechada do documento. Melhor: \"a professora manda registrar no documento estes quatro itens\" (menor)."
+  ],
+  "material": [
+    "U16: a fala recapitula quatro itens no documento (como quer ser percebido, como não quer, o que gosta, o que não gosta). O material tem cinco seções: Percepção atual; Características que deseja expressar (com as formas de expressão); O que a característica não é; Referências pessoais; O que não gosta. A unidade usa só a versão da fala e não registra a diferença em `nota` (menor).",
+    "U7: a fala lista \"cores criativas, roupas criativas, músicas, transições\". O material diz \"cor, roupa e estética\". A unidade segue a fala, sem `nota` sobre a diferença. \"Estética\" não entrou (menor).",
+    "U11: o material inclui \"disciplina\" entre as expressões do traço Competente. Não aparece nessa parte da fala, e a unidade a deixou de fora sem registrar (menor).",
+    "U12: o acréscimo do material (gírias, maldição do conhecimento, pés no chão) está marcado no corpo e registrado em `nota`, sem divergência escondida.",
+    "U14: a grafia dos nomes (Gawx, Mari Kruger, Malcon Salsicha, Linkin Park) foi resolvida a favor do material e registrada em `nota`, conforme o FORMATO. A fala usa \"Link Park\" e também \"Linkin Park\". O corpo não cita nenhum nome, então não há efeito."
+  ],
+  "resumo": "Conferidas as 16 unidades contra a transcrição completa e o material. Nenhuma tem número, condição ou atribuição adulterados, e nenhuma é sem-lastro. Os casos narrados ficaram como exemplo, e as preferências e metas da professora ficaram atribuídas a ela. Só há ajustes menores. Nas U5 e U7 uma frase de fechamento cai logo depois do `fim` (U5 0,3 s, U7 cerca de 6 s); o corpo está lastreado e só o `fim` precisa ser estendido. A U16 apresenta a recapitulação da fala como estrutura fechada do documento. Os problemas de `tarefas` (U12, U13, U14) e a dependência de aula (U1, U4) estão em `contrato`. Percorri a fonte inteira e não achei omissão relevante nem perecível escondido em unidade `geral`."
+}

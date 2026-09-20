@@ -1,0 +1,103 @@
+{
+  "aula": "M02_A03",
+  "arquivo_sha256": "9388bf78089a85a2f14f5021e5ee521e49fecdbf0daef936d422961b5bdcf609",
+  "inspecao_sha256": "06f57c3a0785c83809e8ed87497ec32602825765e441d817311d77496c4d61f5",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador retornou zero erros e zero avisos. Os itens que o inspetor listou sob `contrato` não são erros de script: são referências soltas, título × tema e plataformas, e foram julgados em aplicabilidade.",
+  "fidelidade": "Falha só pela regra de faixa. O inspetor cobriu as 18 unidades com trecho literal e `citacoes_nao_literais` está vazio. Não há `sem-lastro` nem `desvio`. Há três `faixa-errada` (U5, U8, U12) em 17 unidades com faixa, o que dá 17,6%, acima do teto de 10%.\n\nAs próprias unidades corroboram o apontamento:\n- O \"quarto elemento\" da U5 cai na faixa da U7 (461–495), e a Lógica da U5 cai na faixa da U8 (511–524).\n- A Lógica da U12 cai na faixa da U14 (949–992).\n- A frase da U8 sobre os elementos viciantes cai na faixa da U3 (81–145).\n\nO conteúdo das três unidades é fiel. O defeito é só que a faixa não permite conferir parte do corpo.\n\nOs demais pontos são ajuste menor:\n- U9: sumiu a ressalva \"pelo que eu entendi\" sobre a história ser real. Isso não muda o que a unidade ensina.\n- U7, U10 e U16: têm pequenos acréscimos de redação.\n- U3: a divergência fala × material sobre a imagem de abertura está registrada na U18. As duas versões são compatíveis, como U6 e U9 mostram (choque junto com questionamento e familiaridade). Não houve resolução em silêncio no arquivo.",
+  "cobertura": "Sem veto. O inspetor declarou busca integral e achou uma omissão, em 875 s (\"tem que ter os elementos em si\"): na variação de narrar a cena, a imagem precisa conter contraste, conflito ou mudança.\n\nO efeito prático existe, mas é parcial:\n- A U2 já dá \"uma cena de conflito\" como exemplo da variação 3.\n- A U3 exige imagem impactante.\n- A U12 destaca contraste, conflito e mudança no caso.\n\nO agente não fica sem critério para escolher a cena. Mantenho a gravidade menor que o inspetor deu. Como a U12 será editada neste ciclo, recomendo incorporar a frase ali.",
+  "perecibilidade": "Falha em três unidades marcadas `geral` e `perecivel: false`:\n- **U8:** é inteira sobre estrutura do curso (o que fica para o módulo de roteiros, o que fica para o módulo seguinte, a leitura opcional da análise por frase). O FORMATO classifica estrutura e ordem do curso como perecível.\n- **U11:** manda ler as explicações por frase \"no documento\", que é um documento do curso.\n- **U6:** o campo `condicoes`, que entra no hash, prende a orientação a \"um roteiro de referência... para a SOFIA adaptar\". Isso envolve a biblioteca de referências e a IA do curso.\n\nÉ exatamente o perecível escondido em unidade `geral` que o script não pega.\n\nAs remissões de passagem a \"módulo seguinte\" na U3 e a \"módulo anterior\" na U14 não sustentam a orientação dessas unidades. Ficam como ajuste menor. U4, U5, U9, U12, U16 e U17 estão marcadas corretamente.",
+  "aplicabilidade": "Sem veto. Tipos, temas e tarefas levam o agente ao lugar certo.\n- **U16 (procedimento):** tem pré-condição e os quatro passos que o inspetor confirma na fonte.\n- **U13, U14 e U15:** as referências soltas (\"o aluno\", \"o vídeo do aluno\", \"o rapaz\") não mudam o uso. O princípio de cada unidade está enunciado por inteiro e é executável sem o caso. As frases sobre o aluno se entendem como \"um aluno do curso\". A U14 é a mais fraca das três, porque metade do corpo é o exemplo sem contexto. Ainda assim o exemplo não induz a erro.\n- **U11 (\"pause o vídeo\", \"o documento\"):** mesmo tipo de referência. Entra na edição já exigida por perecibilidade.\n- **Título \"Tela Dividida:\" com tema geral (U10, U13, U14):** classificação discutível entre dois valores defensáveis, ajuste menor pela rubrica.\n- **U4:** o corpo não diz onde ficam as referências, mas `plataformas: trello` e a `nota` dizem, e o agente recebe esses campos.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: a faixa é 219–456. O \"quarto elemento\" (curiosidade aberta e fechada) está em 463,9–493 s, com o trecho literal \"A curiosidade, porque no começo ele vem, foi assim que esse empresário mentiroso faturou bilhões.\" A frase de Lógica (\"não que se torne mestre de roteiro\") está em 511–520 s. As faixas da U7 (461–495) e da U8 (511–524) corroboram. Com U8 e U12, são 3 `faixa-errada` em 17 unidades com faixa (17,6%), acima de 10%.",
+      "impacto": "Quem usa `inicio`–`fim` para conferir ou citar a unidade não encontra na faixa o quarto elemento nem a Lógica. A unidade deixa de ser verificável nesses pontos.",
+      "mudanca_minima": "Estender `fim` da U5 para 520 ou mais, cobrindo o quarto elemento e a Lógica, sem mexer no corpo. Incrementar `versao`. Alternativa: tirar do corpo o quarto elemento e trocar a Lógica por uma que esteja dentro de 219–456. Só vale se a marca `Lógica:` continuar com conteúdo da faixa.",
+      "criterio_de_aceite": "O inspetor confirma que toda afirmação do corpo da U5 está entre `inicio` e `fim`. A `evidencia` continua dentro da faixa. O validador segue com zero erros. A U5 deixa de ser `faixa-errada`."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: a faixa é 511–524. \"No próximo módulo você vai aprender vários elementos viciantes\" está em 85–91 s. A leitura opcional do roteiro e da análise está em 499–504 s. Ambas ficam fora da faixa. A U8 é um `limite`, e o que ela adia é justamente o que precisa ser conferível.",
+      "impacto": "Duas das quatro afirmações do limite não podem ser conferidas pela faixa. O agente cita um adiamento para o módulo seguinte que a faixa indicada não contém.",
+      "mudanca_minima": "Mudar `inicio` para 499, o que passa a cobrir a leitura opcional. Retirar do corpo a frase sobre os elementos viciantes no módulo seguinte. Essa informação já está em `condicoes` da U3, cuja faixa 81–145 cobre 85–91 s. Incrementar `versao`. Alternativa: manter a frase numa unidade nova (número 19, tipo `limite`, faixa 85–91, `perecivel: true`), com registro em `correcoes`.",
+      "criterio_de_aceite": "O inspetor confirma que todas as afirmações do corpo da U8 estão dentro da nova faixa. A informação \"elementos viciantes ficam para o módulo seguinte\" continua em alguma unidade cuja faixa cobre 85–91 s. O validador segue com zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        12
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: a faixa é 727–948. \"Abre um loop de curiosidade\" está em cerca de 977 s. O efeito Ahá e o \"começo de tensão / fim de compreensão total\" estão em 967–987 s, com o trecho literal \"Tipo, ele abriu a curiosidade e ela foi sanada com o efeito Ahá,\". Só \"contraste, conflito e mudança\" (14:45–14:59) está dentro da faixa. A faixa da U14 (949–992) corrobora.",
+      "impacto": "A maior parte da Lógica do exemplo e o \"loop de curiosidade\" não podem ser conferidos na faixa declarada.",
+      "mudanca_minima": "Estender `fim` da U12 para 992, sem mexer no resto. Incrementar `versao`. Alternativa: retirar do corpo o loop de curiosidade, o efeito Ahá e o \"começo de tensão / fim de compreensão total\", que já estão na U14.",
+      "criterio_de_aceite": "O inspetor confirma que toda afirmação do corpo da U12 está entre `inicio` e `fim`. A `evidencia` fica dentro da faixa. O validador segue com zero erros. Depois de F1–F3, a taxa de `faixa-errada` do arquivo é de 10% ou menos."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        8
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da U8 diz o que fica para \"o módulo de roteiros\" e para \"o módulo seguinte\", e que ler roteiro e análise por frase é opcional. Pelo FORMATO, estrutura e ordem do curso são perecíveis. A unidade está com `perecivel: false`. O tema `estruturas-de-roteiro` não aciona a regra do script. O inspetor apontou o mesmo.",
+      "impacto": "Um agente que filtra `perecivel: false` para montar orientação estável recebe como permanente um mapa de módulos do curso. Esse mapa muda quando o curso é reorganizado.",
+      "mudanca_minima": "Marcar `perecivel: true` na U8 e incrementar `versao`. Pode ser a mesma edição de F2.",
+      "criterio_de_aceite": "A U8 tem `perecivel: true` e o validador segue com zero erros."
+    },
+    {
+      "id": "F5",
+      "unidades": [
+        11
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da U11 diz: \"As explicações por frase dos roteiros analisados podem ser lidas depois no documento\". Segundo o inspetor, é um documento do curso. A unidade está com `perecivel: false` e `plataformas: geral`.",
+      "impacto": "A unidade aponta para um recurso do curso que pode mudar ou sumir e se declara não perecível. O agente manda o usuário a \"o documento\" como se fosse estável. Além disso, fora da aula o agente não sabe que documento é.",
+      "mudanca_minima": "Opção (a): marcar `perecivel: true` e, na mesma edição, identificar \"o documento\" só com o que a fonte diz dele (documento do curso com os roteiros analisados) e trocar \"pause o vídeo\" por \"pause a aula\". Opção (b): tirar do corpo a menção ao documento e manter `perecivel: false`. A leitura opcional já está na U8. Em qualquer das duas, incrementar `versao`.",
+      "criterio_de_aceite": "Ou a U11 tem `perecivel: true` e o documento identificado como recurso do curso, ou o corpo não menciona nenhum documento ou recurso do curso. O inspetor confirma que a orientação central e a justificativa seguem fiéis a 701–725 s. Essa orientação é: escrever e executar a ideia sem esperar a análise completa. A justificativa é: fazer rápido para melhorar no próximo vídeo. O validador segue com zero erros."
+    },
+    {
+      "id": "F6",
+      "unidades": [
+        6
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O campo `condicoes` da U6 diz: \"Vale para quem escolhe um roteiro de referência, como o de Tommy Hilfiger, para a SOFIA adaptar\". O corpo abre com \"Ao adaptar um roteiro de referência\". A unidade depende da biblioteca de roteiros de referência e da IA do curso. Está com `perecivel: false` e `plataformas: geral`. O inspetor confirma que a condição vem da fonte.",
+      "impacto": "A situação de uso está presa a recursos do curso (SOFIA e roteiros de referência), e a unidade se declara estável. É o perecível escondido em unidade `geral` que o script não barra.",
+      "mudanca_minima": "Marcar `perecivel: true` na U6 e manter corpo e condição, que são fiéis. Incrementar `versao`. Alternativa: reescrever `condicoes` sem citar SOFIA nem a biblioteca do curso. Só vale se o inspetor confirmar que a fonte sustenta a condição generalizada.",
+      "criterio_de_aceite": "Ou a U6 tem `perecivel: true`, ou `condicoes` e corpo não citam recurso do curso e o inspetor confirma a fidelidade da nova condição. O validador segue com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U9: o corpo diz \"caso absurdo real\" e \"o professor ressalta que a história é real\". A fonte traz a ressalva \"pelo que eu entendi, é uma história real\". Repor a ressalva. Motivo de ser menor: não altera a orientação sobre imagem chocante, familiaridade e imagens mentais.",
+    "Omissão em 875 s (\"tem que ter os elementos em si\"): na variação de narrar a cena, a imagem precisa conter contraste, conflito ou mudança. Aproveitar a edição da U12 (F3) e acrescentar à Lógica uma frase atribuída ao professor. O trecho está dentro de 727–948. Motivo de ser menor: a U2 já cita \"cena de conflito\", a U3 exige imagem impactante e a U12 destaca os três elementos.",
+    "U3: a `nota` não menciona a diferença fala × material sobre a imagem de abertura (\"impactante\" × \"identificação ou curiosidade\"), embora `fonte` seja fala+material. Acrescentar uma frase na `nota` apontando a divergência registrada na U18. A `nota` não entra no hash, então a evidência não se perde.",
+    "U1: a `nota` poderia registrar que o material descreve o criador embaixo e a imagem em cima, enquanto a fala diz que a posição não importa. As versões são compatíveis.",
+    "U13, U14 e U15: \"o aluno\", \"o vídeo do aluno\" e \"o rapaz\" aparecem sem apresentação. Trocar por \"um aluno do curso, no vídeo do 'frango perfeito'\" ou equivalente. Motivo de ser menor: o princípio de cada unidade está completo e é executável sem o caso.",
+    "U10, U13 e U14: o título começa com \"Tela Dividida:\" e o tema não é `formato-tela-dividida`. Na U14 o princípio é geral, e tirar o prefixo seria o mais coerente. Na U10 o tema `formato-tela-dividida` é defensável. Classificação discutível, como a rubrica prevê.",
+    "U3 (`condicoes`) e U14 (corpo): há remissões de passagem a \"módulo seguinte\" e \"módulo anterior\" com `perecivel: false`. Não sustentam a orientação. Podem sair do texto em edição futura.",
+    "U4: o corpo não diz que as referências ficam no quadro Trello do curso. A informação está só em `plataformas` e `nota`. Acrescentar ao corpo ajudaria quem lê o derivado em Markdown.",
+    "U16: a pré-condição depende do quadro de referências do curso, e `plataformas` não lista `trello`. É discutível. \"Texto de instrução\" é caracterização do extrator; a fonte diz só \"essa parte do texto\".",
+    "U10: \"ideias de abertura\" restringe o \"algumas ideias\" da fonte. U7: \"de um jeito surpreendente\" é acréscimo de redação. Nenhum dos dois tem efeito no uso.",
+    "U5: a `nota` fala em \"nome do publicitário\" e \"valores citados\", que o corpo não traz. Alinhar a nota ao corpo.",
+    "U5, U9 e U12: \"primeiro/segundo/terceiro vídeo analisado\" é ordenação da aula, sem utilidade fora dela.",
+    "`contexto`: diz que o aluno \"já conhece o conceito de contraste\". Segundo o inspetor, o professor explica contraste nesta aula (\"pra você entender o que eu chamo de contraste\"). Corrigir a frase."
+  ],
+  "proximo": "Encaminhar ao redator de correções só a lista F1–F6, que abre o ciclo 1 de 2 deste artefato. As unidades afetadas são U5, U6, U8, U11 e U12. As outras 13 ficam intactas e preservam a evidência por hash. A U3 também preserva se só a `nota` for tocada.\n\nA conferência seguinte é focal:\n1. O inspetor confirma, com trecho e tempo, que cada afirmação do corpo de U5, U8 e U12 cai dentro da nova faixa e que a `evidencia` continua dentro dela.\n2. Confere `perecivel` em U6, U8 e U11.\n3. Confere a fidelidade da U11 se o corpo for editado, e a da frase nova na U12 se o ajuste da omissão for incorporado.\n4. O validador precisa seguir com zero erros e `versao` incrementada nas unidades alteradas.\n\nSe o redator criar a unidade 19 (alternativa de F2), registrar a correspondência em `correcoes`.\n\nOs ajustes menores não abrem ciclo. Os que tocam só `nota`, `titulo` ou `contexto` podem ser aplicados sem perder a evidência existente."
+}

@@ -1,0 +1,51 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T09:40:47+00:00",
+  "fim": "2026-09-20T09:46:33+00:00",
+  "duracao_ms": 345295,
+  "duracao_api_ms": 345257,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 36907,
+    "cache_creation_input_tokens": 70813,
+    "cache_read_input_tokens": 14646
+  },
+  "thinking_tokens": 32576,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.6552552,
+  "sistema_sha256": "3727a36fb10caa709cce683c763325b6c13c77325dab0d51739f435f2c84e012",
+  "pacote_sha256": "c16f4289875b0355edcb333153e6c2e213d0f938b86112b3b4f6d8f34e2e6206",
+  "aula": "M07_A02",
+  "rotulo": "lote-m07",
+  "bloco": "3/3",
+  "unidades_do_bloco": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ]
+}

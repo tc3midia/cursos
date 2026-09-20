@@ -1,0 +1,176 @@
+{
+  "aula": "M03_A08",
+  "arquivo_sha256": "bc4ab0c7626f0aed7deefc43f2faa0c0abd6d816276dc91da4dca838c3e3ae50",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "b4763bd7539134c3dc9189f069149510cb09155a415be9880f63696931907e11",
+    "2": "978956c337d52cd43c621545f76e2ec355bfbca0a158f166fe6413967c1f1e70",
+    "3": "beecf47062c771629540ef6307f4464bb3d0ec8053ab6d5e0741eab8fb554ec8",
+    "4": "9f275effc02a148056b3495ef783539a27ef92ca93bf539e68fbc095780d1396",
+    "5": "9e738c0991735173edaf0531dcb56e5e1ff617a7b3f275af7be3e41e343fbf18",
+    "6": "cd6bcf8c9a82dae36dc644d87d3a751a303653765d36a4261e23c2df0ef84ba2",
+    "7": "ce08e9fa717c0d57ccdde4582d042e0ee3a814ef08faa42bc03b4221a94a4f28",
+    "8": "32bcbfa5c99e2a16606ed124a33e2cfb73511bbc580f20859552f75b9069cf5e",
+    "9": "be950cc6f5574b698634fa95ad5db26db21bd60f33310c25097c373f50fdad74",
+    "10": "3fb326192d3201ea811011700aff57a31afb73f15772a5e99b7df8609bc80c4d",
+    "11": "a3f7eddedb259486186930811c766fcb5ccb6979c7bc80c5873f056e856e3a3f",
+    "12": "8774d79495f1e16141ba831e6ffc1275a81bc8a42cd4e4e331d2488fcbcb4c0a",
+    "13": "47b284f9b06afa654fddc234c291d8fa7c80e3685fe03327d4fca828b1374f78",
+    "14": "f334e42b3aea006f1ffe9ed6a9d08fd4608305ac78b48a692314ca91968118e8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Todas as estruturas que a gente vai trazer daqui para frente, elas seguem o AIDA",
+      "explicacao": "A definição do AIDA, a atribuição ao professor e a lista atenção, interesse, desejo e ação batem com 38.24–49.46 s. Ajuste menor: a última frase do corpo (o que muda é a forma específica de organizar para determinados formatos) vem de 'Mas, existe uma forma específica que a gente organiza estruturas para determinados formatos.', em 50.38–56.52 s, depois do fim declarado (49.46). A fonte fala em organizar 'estruturas', não 'essas etapas'. Sem efeito na decisão de quem consulta. Basta estender o fim até 56.52."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai funcionar. São estruturas validadas",
+      "explicacao": "Fiel à fonte. 'Vai funcionar' está atribuído ao professor. 'Vários vídeos virais do perfil deles', usar como estão, adaptar ou criar a própria e 'ter claro em qual momento vai cada coisa' estão todos entre 56.52 e 90.94 s. 'O essencial' reforça um pouco o 'ter claro ali', sem mudar o sentido."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ou que a gente criou do zero, ou que a gente adaptou de algo que a gente viu",
+      "explicacao": "A sequência olhar o conteúdo, identificar a estrutura, ver se adapta mudando 'uma coisa ou outra' e trazer para a criação está na fonte. Dois ajustes menores. (1) O último passo ('E a gente traz pra nossa criação de conteúdo') está em 129.58–133.76 s, logo depois do fim (129.58). (2) A fonte narra o que os professores fazem ('a gente olha pra um conteúdo'). O corpo chama isso de 'método de adaptação' e classifica como `regra`, sem dizer que é a prática deles. Não vira lei universal, mas convém atribuir aos professores."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, ó, conflito, jeito errado, descoberta, processo de virada, jeito certo e mudança.",
+      "explicacao": "Os cinco passos, a ordem e as funções batem com a fala (133.76–283.1 s) e com o material. A nota registra corretamente que a fala lista seis nomes, sendo descoberta e processo de virada o mesmo passo, e que o número de views está truncado. Ajuste menor: 'a estrutura que mais usam e que funciona bem' vem de 'Vou começar por uma que é a estrutura que a gente mais utiliza nesse momento, que funciona pra caramba', em cerca de 84.5–97.2 s, ou seja, bem antes do início declarado (133.76). O corpo também perde o 'nesse momento' do professor. Sugestão: recuar o início ou retirar a frase."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu gosto muito dessa",
+      "explicacao": "As duas definições (expectativa x realidade; desejo x obstáculo) e a equivalência entre elas estão em 2:26–2:57. A preferência do professor está atribuída como preferência. 'Geralmente universal' e 'abre o vídeo' vêm de 2:17.84–2:22.34, dentro da faixa."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ele vai tender a acreditar",
+      "explicacao": "Fiel: a intenção de gerar identificação, o 'eu faço errado também', a tendência de acreditar que o criador sabe o jeito certo e a aplicação de vários gatilhos estão em 179.86–216.44 s. A condição 'tende a' foi preservada. 'Credibilidade' no título é rótulo do extrator; o corpo diz apenas que ele tende a acreditar."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aconteceram na sua vida, na vida de alguém que você está contando essa história, do personagem da história.",
+      "explicacao": "A virada (o que descobriu ou as ações que passou a tomar) e a mudança (consequências positivas que aconteceram ou podem acontecer, para o público, o criador ou o personagem) batem com 220.42–273.76 s."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é começar o vídeo pelo conteúdo",
+      "explicacao": "O erro comum de começar pelo conteúdo está atribuído ao professor. A ordem 'chama atenção e gera interesse primeiro, depois o conteúdo, que gera desejo' está na fonte. Os parênteses '(conflito, jeito errado e virada)' são inferência do extrator a partir de 'olha quantas etapas a gente coloca antes de colocar o conteúdo'. É coerente com a estrutura e não muda a orientação."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele jogava na minha cara as coisas que eu fazia de errado",
+      "explicacao": "Episódio 4 da série, princípios de comunicação assertiva, timing e modo ataque/modo conversa conferem com 313.1–410.38 s, e o caso está corretamente como `exemplo`, perecível, sem número de caso virado régua. Ajustes menores. (1) 'Cada um acusando o outro e justificando os próprios erros': na fonte quem acusa é ele e quem justifica é a narradora. (2) 'A relação melhorar': a fonte diz só 'as coisas mudam na nossa relação'. (3) 'Pedem ao aluno que perceba a estrutura acontecendo' vem de 290.78–299.02 s, antes do início da faixa (313.1)."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Story telling é conflito e mudança",
+      "explicacao": "Fala (410.8–425.86 s) e material definem storytelling por conflito e mudança. A história completa (conflito, ações, mudança) está fiel, e `fala+material` é coerente."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então a gente tem um padrão específico para esse formato",
+      "explicacao": "O conteúdo está na fonte (7:17–7:39), mas o corpo suaviza dois pontos. (1) 'Cria o padrão de conteúdo que funciona' está sem atribuição, embora seja afirmação de resultado do professor; o resto da unidade atribui ('Os professores dizem'). (2) A fonte diz 'padrão específico para esse formato', o formato do exemplo, e o corpo generaliza para 'cada formato'. A ideia de estrutura por formato aparece em 50.38–56.52 s, então não é sem-lastro. Além disso, 'faz parte do nosso formato' está em 437.92–440.44 s, logo antes do início (440.44). Ajuste menor: atribuir aos professores e dizer 'o formato do exemplo'."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Primeiro começa, toda essa parte do Começou o Conflito",
+      "explicacao": "Há de fato um vazio na transcrição entre 4:59 e 5:13, antes de a fala do vídeo aparecer, e o professor só aponta ('toda essa parte', 'o elementozinho da série'). O `limite` está correto e dentro da faixa 299.02–325.66. 'Elemento visual' é leve inferência do extrator sobre o 'elementozinho da série'."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Afirmações diretas e ordens podem provocar resistência.",
+      "explicacao": "Objetivo, resistência a afirmações e ordens, alternativa de mostrar uma experiência e 'o resultado funciona como prova' estão no material, com atribuição ao material. Sem fala, `fonte: material` está correto."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolha um tema do seu nicho e escreva um roteiro curto com cinco partes: conflito, jeito errado, virada, jeito certo e mudança.",
+      "explicacao": "Paráfrase fiel do exercício do material, com as cinco partes na ordem do material."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 452,
+      "trecho_fonte": "Está lá no Destaque da Hanna",
+      "descricao": "Os professores dizem onde ver os outros vídeos do formato do exemplo ('Destaque da Hanna'). A U11 guarda que esses vídeos seguem a estrutura quase perfeitamente, mas não diz onde estão.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem quiser conferir os outros vídeos do formato não sabe onde procurar. Se for registrado, é ponteiro perecível e exigiria `perecivel: true`. Falta de baixo impacto, que não abre ciclo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U1: o corpo diz 'as estruturas que o curso traz a partir desta aula'. 'Esta aula' é referência que fica na aula; sem ela o agente não sabe a partir de onde vale. Menor.",
+    "U11: 'o formato do exemplo' e 'os outros vídeos' não dizem qual formato é (a série de dicas de relacionamento da U9), então a unidade não se sustenta sozinha. A tarefa `escolher-formato` também parece fora de lugar: a unidade trata de a estrutura de roteiro fazer parte do formato, não de decidir qual formato usar. Menor, classificação discutível.",
+    "U12: 'O vídeo de exemplo' e 'a partir de certo ponto' não nomeiam o vídeo (episódio 4 da série, U9); depende da aula ou da U9 para fazer sentido. Menor.",
+    "U13: a tarefa `quebrar-crencas` não corresponde ao material, que fala em convencer mostrando uma experiência em vez de afirmar ou ordenar, sem tratar de crenças. Pode levar o agente ao lugar errado. Menor.",
+    "Contexto: 'Assume que o aluno já viu ... o conceito de conflito' não se sustenta, porque a aula define conflito (2:26–2:57). 'A transcrição não captura o vídeo exibido' também não: a fala do vídeo aparece a partir de 5:13 e a U9 a usa. O que falta é o começo do vídeo e a parte visual. Menor."
+  ],
+  "material": [],
+  "resumo": "Todas as 14 unidades foram conferidas contra a transcrição e o material. Nenhuma tem `sem-lastro` nem `desvio` material: números, ordem das cinco partes, condições e atribuições estão fiéis, e a divergência de contagem entre fala e material (seis nomes na fala, cinco passos) está registrada na nota da U4. Restam ajustes menores: trechos de corpo logo fora da faixa (U1, U3, U4, U9, U11), atribuição e generalização suaves na U11 e na U3, referências que dependem da aula (U1, U11, U12), uma omissão menor (o 'Destaque da Hanna') e imprecisões no contexto. Nenhuma divergência fala × material ficou sem registro nem há perecibilidade escondida."
+}

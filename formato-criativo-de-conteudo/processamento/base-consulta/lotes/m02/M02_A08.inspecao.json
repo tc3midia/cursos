@@ -1,0 +1,152 @@
+{
+  "aula": "M02_A08",
+  "arquivo_sha256": "40649538fc7de0b8d94a5b2395767cc2ed85c1a2c0ebe6bc83f88724fd6f0fac",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "d0d369373dab9ce0dc4bd63a69198c447db3c3e787e9a7539837e8aee3fa33e2",
+    "2": "de7a39d4ce0c01c6d5a47aae6091f47c60c9b4bd83a655cf087d6b3169a2e785",
+    "3": "ad19367624a3a10ed39e998110d5d47abc2ffbf7ac172a9e7f6592c446d6e202",
+    "4": "f7e9c1aa366e2fbaf49e9108d2dfecc7b628a5dcf3788fa6d5785423331b3d81",
+    "5": "db52791300e2a23f08970d268e1dbd1685a423dc30d0e075fa024d9996db9a3e",
+    "6": "d40a662b5b3b054db2b702f85350ce16ad007b0a8d6d860810e684ee10501c03",
+    "7": "c139eda380ac013460086bc3c8e63b83cee07b83edf4e73aca585f1d28710c9d",
+    "8": "ddb7c5f1fa814acba9c897ec1cfe5ed6fbb294aa03886c33afc84da53c882f1e",
+    "9": "e5d70d275e6b9b606caf6366109a72af843a3198876e39ba841fbfe7e3030f52",
+    "10": "8179c12688eebb2477b593204a66bce81f8410312c3935e23867f6eef658c36a",
+    "11": "fcc4e8d109983ed9ffddfa1cd0997e09b4d661848a0c63ae699c209b0e20d328"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Elementos visuais que ajudam o público a escutar o seu roteiro que você tá falando",
+      "explicacao": "Definição, exemplo do coração rasgado e da tristeza, custo de trabalho e orgulho batem com 00:00:12–00:01:43. A fala diz 'dez vezes mais pra gravar' e a unidade escreve 'bem mais'. É hipérbole falada e a unidade não a promove a régua, então não muda o uso. Os objetos, gestos, cenas e textos vêm do material e são compatíveis com a fala."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o ritmo geralmente na edição, ele tem um ritmo mais acelerado na hora de você editar",
+      "explicacao": "Os três elementos e a ordem batem com a fala (00:01:49–00:02:08). A fala enquadra como elementos que 'geralmente' fazem o formato funcionar, e a unidade os apresenta sem esse 'geralmente'. Sem efeito prático. A faixa termina em 128 s e o terceiro ponto vai até ~128,9 s, diferença irrelevante."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai colar na Sofia e ela vai te dar uma ideia de roteiro.",
+      "explicacao": "Prompt junto com um dos três roteiros, colar na SOFIA e a saída de ideia de roteiro batem com a fala. A alternativa 'use a sua ideia' e a condição da aula de IA também batem. 'Cartão do formato' é paráfrase do 'botãozinho no Trello'. A lacuna entre 00:02:37 e 00:02:48 existe na transcrição, e a nota e a confiança media já a registram."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele começa falando de relacionamento, que é um tema relevante, e ele termina falando de storytelling.",
+      "explicacao": "Abre com relacionamento e fecha em storytelling e mudança. A caixinha com 16, o empurrão para 'expulsa de casa' e o livro batem com 00:05:32–00:05:59. A lógica atribuída ao professor também bate. A faixa 209–400 contém a evidência e o conteúdo. Incerteza de nomes está na nota."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Amiga, eu sei. Eu coloquei pra você comentar.",
+      "explicacao": "Livro mais vendido mostrado de propósito para gerar comentário, 'já fez isso várias vezes' e a vantagem de usar muitos objetos batem com 00:06:04–00:07:15. A orientação é do professor e vem apresentada como tal, sem número nem generalização indevida."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque eu defini que ele vai ser o meu formato",
+      "explicacao": "A lista de objetos comprados, o uso de objetos não físicos e 'nativo' batem com a fala. Dois pontos de fraseado. (1) A fala diz 'Você pode começar a comprar objetos estratégicos' para quem quiser se aperfeiçoar. A unidade escreve 'Se o formato virar o seu, vá comprando', que endurece a opção em imperativo e usa como gatilho o caso da professora ('defini que é o meu formato, logo investi'). A `condicoes` da unidade já diz que é o caso dela, o que atenua. (2) A unidade é `fala+material` mas não traz o critério 'uso recorrente' do material. Sem efeito material."
+    },
+    {
+      "numero": 7,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele faz isso, claramente, de forma intencional.",
+      "explicacao": "A faixa é 574–700 s. O terceiro ponto (caricato, 'brutalmente caricato', 'jeito estranho de falar') começa em 00:11:39.440 e vai a 00:11:51, e o 'intencional' está em 00:11:49–00:11:53 (709–713 s), fora da faixa. O 'quase 700 mil likes' que a nota e o corpo usam está em 00:12:32–00:12:41 (752–761 s), também fora. O conteúdo é fiel e o ponto 'caricato' já é coberto pela faixa da unidade 8 (698–806). Quem localizar a fonte pela faixa perde o terceiro ponto. É a única faixa-errada das 10 unidades com faixa."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele fala, tem que beber 50 litros de coca.",
+      "explicacao": "CDF × figurante, a reação de cada um, 'aprenda o princípio, vá um pouquinho' e o ritmo de fala marcante batem com a fala. A referência ao módulo de autenticidade também bate. O corpo diz '50 latas para ilustrar 50 litros'. A fala diz 'tem que beber 50 litros de coca. Ele põe 50 negócios de coca', e o vídeo mostrado diz '50 latas de coca'. A unidade junta as duas versões numa equivalência que a fonte não afirma e não registra em `nota`. É detalhe de exemplo, sem efeito na regra."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele criou cenas pra expressar aquilo que ele tá falando.",
+      "explicacao": "Fala alternada com cenas, fala à câmera com inserts e a ideia de mesclar com outros formatos ao dominar o formato batem com 00:15:08–00:15:41. A confirmação do material ('combinar com fala direta à câmera') existe. A faixa termina em 940 s e 'com outros formatos' vai a ~941,8 s, sem consequência."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "e aqui também tem referências",
+      "explicacao": "Roteiros analisados frase a frase e referências para inspiração batem com 00:15:41–00:15:53. Três ressalvas, todas de baixo efeito. (1) O título e `plataformas` dizem 'Trello', mas a fala não localiza a análise, como a própria nota admite. A incerteza está preservada com confiança media. (2) A fala é 'tem roteiros que o roteiro está analisado', e o corpo escreve 'os roteiros de referência da aula estão analisados', um pouco mais amplo, sobre trecho de transcrição truncado. (3) A faixa termina em 950 s, e 'referências para você se inspirar' vai de 949,4 a 953,5 s, quase toda fora."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "4. Comece com os itens disponíveis; adquira acessórios específicos quando houver uso recorrente.",
+      "explicacao": "Os cinco passos batem com 'Como aplicar' do material. No passo 4 a unidade escreve 'só adquira ... se for usá-los com frequência'. O material diz 'adquira ... quando houver uso recorrente', ou seja, indica quando comprar sem dizer que só se compra nessa hipótese. O 'só' torna a condição exclusiva. A pré-condição 'ter um roteiro em mente' é inferência de forma exigida pelo tipo e não aparece no material."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 495,
+      "trecho_fonte": "te faço convite pra ir no meu perfil buscar a série de casal.",
+      "descricao": "A professora recomenda estudar a 'série de casal' (nos destaques do perfil dela) como referência de storytelling visual com objetos não físicos. Nenhuma unidade registra essa indicação de estudo.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente não sabe que existe uma referência adicional indicada pela professora. É recurso perecível (destaque de perfil) e a transcrição ao redor está degradada ('Tem ele aí também, será? Não, aqui não'). Não impede executar."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 8,
+      "problema": "Marcada `perecivel: false`, mas `condicoes` remete ao 'módulo de autenticidade', que é estrutura do curso (lista de módulos), e o corpo traz números de um caso específico ('50 latas', '50 litros'). O FORMATO trata estrutura do curso e número de caso como perecíveis. Deveria ser `true`."
+    }
+  ],
+  "contrato": [
+    "Unidade 10: o corpo diz 'Os roteiros de referência da aula estão analisados', mas não diz onde estão nem quais são. Só o título cita o Trello, e a fala não confirma isso. Sem a aula ao lado, o agente não localiza o recurso. O tipo `conceito` também é discutível, porque a unidade é um ponteiro para recurso do curso, não uma definição. É ajuste menor.",
+    "Unidade 6: 'como no primeiro vídeo' e 'diferente do primeiro' remetem ao vídeo de referência mostrado na aula (unidade 4), que o corpo desta unidade não identifica. A lista logo depois (16, livro, empurrão) atenua. É ajuste menor.",
+    "Unidade 8: 'o nutricionista foi ao extremo (50 latas...)' depende do exemplo da unidade 7 e da aula. O corpo não diz que o vídeo é sobre Coca Zero nem o que são as 50 latas. Sem contexto, o exemplo fica opaco. É ajuste menor."
+  ],
+  "material": [
+    "Não há divergência fala × material que tenha sido resolvida em silêncio. Os dois se complementam sobre ritmo, correspondência imagem-fala, exagero e combinação com fala à câmera.",
+    "Único ponto de atenção: o passo 4 do material ('adquira acessórios específicos quando houver uso recorrente') aparece endurecido como 'só adquira ... se' na unidade 11. Já a unidade 6, marcada `fala+material`, não traz o critério 'uso recorrente'. Sem contradição entre as fontes, é só fidelidade de fraseado."
+  ],
+  "resumo": "Onze unidades conferidas contra fala e material. Todas têm lastro e nenhuma tem desvio material nem sem-lastro. Há uma faixa-errada menor (unidade 7, terceiro ponto e '700 mil likes' fora da faixa), uma perecibilidade a corrigir (unidade 8) e ajustes menores de fraseado e autonomia (unidades 6, 8, 10 e 11). Percorri a fonte inteira em busca de omissões e achei uma, menor: a indicação da 'série de casal' nos destaques do perfil."
+}

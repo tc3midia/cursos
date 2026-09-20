@@ -1,0 +1,68 @@
+{
+  "aula": "M05_A02",
+  "arquivo_sha256": "45184827c2860404700c3e36fee6c66821f88193b845cb1361102c7013453e41",
+  "inspecao_sha256": "9f2264737a1f580c119ed4d828026243d54e931b998f63bba5b160534dc459f9",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "47b64800d25672d5a2d73a9155324892c7557b4764b5b1f401484b6652ba5e5f",
+  "veredito": "falha",
+  "vetos": [
+    "contrato",
+    "fidelidade"
+  ],
+  "contrato": "Veto. O validador acusa dois erros, e a rubrica exige zero. O primeiro é \"U008: marcador temporal no corpo\". Ele se confirma nas próprias unidades: o corpo da U8 diz \"diz que hoje entende o rompimento como prova de amor\", e \"hoje\" é proibido pelo FORMATO. O segundo é \"U014: evidência fora da faixa\". O inspetor aponta a mesma causa: a frase âncora começa em 760,6 s e vai até cerca de 767 s, mas a faixa da U14 termina em 762. As duas correções são locais e objetivas. Não há avisos.",
+  "fidelidade": "Veto pela U14, com desvio material comprovado por trecho literal. Nenhum apontamento do inspetor está em citacoes_nao_literais. A fonte descreve e elogia o caso de um criador: \"no caso dele, ele conseguiu colocar exatamente dentro do formato dele\". A unidade converte isso em \"O melhor uso da crença é...\" e em preferência contra \"um vídeo avulso fora do seu padrão\". O desvio se confirma dentro do próprio arquivo:\n\n- A U6, lastreada, diz que cada elemento pode virar vídeo dedicado ou inserção.\n- A U12, lastreada, mostra um vídeo da professora fora do formato como exemplo válido.\n\nÉ ênfase de exemplo apresentada como lei, e a confiança alta não a salva.\n\nA U9 é faixa-errada menor: a razão do corpo está em cerca de 463–472 s, e a faixa termina em 455. Contando a U9 e a faixa da U14, são 2 de 24 unidades com faixa (8,3%), abaixo do limite de 10%. Não há veto por faixa.\n\nAs demais 24 unidades estão lastreadas. As ressalvas da U5, U12, U18, U20, U25 e U26 são menores: não mudam a decisão de quem consulta e estão em ajustes menores. As divergências entre fala e material aparecem em nota e não foram resolvidas em silêncio: 7 × 6 elementos, linguagem × descrentes, Wesley/Eslen, Grata/Gratta.\n\nDiscordo do inspetor em um ponto: ele pede que a frase do contexto sobre formato validado acompanhe a correção da U14. A frase fala em \"dentro do formato já validado ou no meio de vídeos comuns\". Isso é compatível com a U3 e a U6, que o próprio inspetor deu como lastreadas. Não exijo mudança no contexto.",
+  "cobertura": "Sem veto. O inspetor declara alcance integral e busca de omissões na fonte inteira, e a lista de omissões veio vazia. Os sete elementos têm definição própria (U4, U9/U10, U16, U18, U20, U21, U22). O uso do documento está na U3. As regras que mudam a ação estão na U6, U7 e U23. O limite sobre os vídeos exibidos em tela está na U24. Pelo contexto e pelas unidades, não há trecho de oferta comercial nesta aula, então não falta limite de oferta.",
+  "perecibilidade": "Sem veto. O inspetor não sinaliza pendência, e a leitura direta das unidades confirma:\n\n- U3, link e documento no Google Docs: perecível.\n- U5, preço do açaí e números de seguidores: perecível.\n- U13, faturamento e preço de vídeo: perecível.\n\nNenhuma outra unidade traz tela, preço, data, oferta ou número de mercado sem a marca.",
+  "aplicabilidade": "Sem veto. As unidades se sustentam sozinhas no que importa para decidir e executar.\n\n- **Jargão:** CDF é explicado na U17 e na U18.\n- **Condições:** estão preenchidas onde o corpo é situacional (U6, U7, U14).\n- **Procedimento:** a U3 tem pré-condição e passos.\n- **Estrutura:** a U2 tem as sete partes em ordem, cada uma com sua função.\n\nAs dependências que restam são menores e não mudam o uso:\n\n- A U4, a U9 e a U16 citam \"o documento do módulo\" sem dizer o que é. A orientação central de cada uma se entende sem isso.\n- A U20 remete ao \"vídeo da imaginação guiada\" sem descrevê-lo.\n- A U15 cita \"módulo anterior\".\n- A U13 usa \"neste mês\", dêitico da gravação.\n\nA U4 em `historias-e-jornada` ou `branding-primitivo` é classificação discutível entre dois valores defensáveis.\n\nO inspetor registrou as observações de referência cruzada no campo `contrato`. Elas são de aplicabilidade e foram tratadas assim.",
+  "falhas": [
+    {
+      "id": "M05_A02-F1",
+      "unidades": [
+        8
+      ],
+      "veto": "contrato",
+      "evidencia": "Validador: \"M05_A02: U008: marcador temporal no corpo\". O corpo da U8 contém \"diz que hoje entende o rompimento como prova de amor\". O FORMATO proíbe \"hoje\" no corpo [E].",
+      "impacto": "Erro de contrato impede a entrada do arquivo na base. Além disso, \"hoje\" no corpo prende a afirmação ao momento da gravação.",
+      "mudanca_minima": "Reescrever só o trecho, sem mudar o sentido. Exemplo: \"diz que passou a entender o rompimento como prova de amor\". Incrementar a versão da U8 para 2. Não mexer no resto do corpo.",
+      "criterio_de_aceite": "O validador não acusa mais \"marcador temporal no corpo\" na U008. O corpo não contém \"hoje\", \"atualmente\" nem \"neste momento\". A U8 está com versão 2. Na conferência focal, o inspetor mantém a U8 como lastreada."
+    },
+    {
+      "id": "M05_A02-F2",
+      "unidades": [
+        14
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor deu desvio material, com trecho literal \"no caso dele, ele conseguiu colocar exatamente dentro do formato dele\". A fala descreve e elogia o caso de um criador. Não diz que esse é \"o melhor uso\" nem que seja preferível a \"um vídeo avulso fora do seu padrão\". A professora afirma que se pode \"criar um vídeo só sobre isso\" (âncora da U6) e exibe como exemplo válido um vídeo dela fora do formato (U12). A contradição entre U14, U6 e U12 se vê nas próprias unidades.",
+      "impacto": "Um agente que consulta só a U14 conclui que vídeo dedicado a uma crença é uso inferior. Ele deixa de propor esse tipo de vídeo, contra o que a aula autoriza. O ranking passa como regra de confiança alta.",
+      "mudanca_minima": "Reescrever o corpo da U14 sem ranking e com atribuição. A professora destaca como acerto o caso de um criador que conseguiu colocar a crença exatamente dentro do formato que já tinha validado. É uma das duas possibilidades, sem excluir o vídeo dedicado. Remover \"O melhor uso\" e \"em vez de criar um vídeo avulso fora do seu padrão\". Ajustar o título se ele mantiver tom de preferência. Incrementar a versão. Alternativa aceitável: se o redator, com a fonte, constatar que sem o ranking não sobra nada além do que a U6 (regra) e a U15 (caso) já dizem, retirar a U14 e listar 14 em `retiradas`, com registro em `correcoes`.",
+      "criterio_de_aceite": "(a) O corpo da U14 não contém \"melhor uso\" nem comparação que rebaixe o vídeo dedicado. Ele é compatível com a U6 e a U12. A afirmação sobre o criador está atribuída à professora como destaque de caso. A U14 está com versão 2. Ou (b) a U14 não está entre as unidades, e 14 consta em `retiradas` e em `correcoes`. Nos dois casos, a conferência focal do inspetor não registra mais desvio na U14."
+    },
+    {
+      "id": "M05_A02-F3",
+      "unidades": [
+        14
+      ],
+      "veto": "contrato",
+      "evidencia": "Validador: \"M05_A02: U014: evidência fora da faixa\". O inspetor localiza a frase âncora começando em 760,6 s e terminando em cerca de 767 s. A faixa da U14 é 734–762. O comentário final da professora sobre o caso está em 922–935 s.",
+      "impacto": "Erro de contrato impede a entrada do arquivo na base. A faixa, como está, não leva quem audita ao trecho que sustenta a unidade.",
+      "mudanca_minima": "Se a U14 for mantida (F2, opção a): estender o fim para cobrir a âncora inteira (fim ≥ 767, por exemplo 768). Conferir o início contra o começo real do comentário sobre o criador. Não é preciso englobar 922–935, que já está na faixa da U15. Se a U14 for retirada (F2, opção b), esta falha se resolve junto.",
+      "criterio_de_aceite": "O validador não acusa mais \"evidência fora da faixa\" na U014 e o arquivo tem zero erros. Se a U14 for mantida, a âncora fica inteira dentro de inicio–fim e o inspetor confirma que a faixa cobre o conteúdo do corpo."
+    }
+  ],
+  "ajustes_menores": [
+    "U9 (faixa-errada menor): a razão do corpo (\"entrar inteiras... nos roteiros e vídeos\") está em cerca de 463–472 s, e a faixa termina em 455. Estender o fim para cerca de 472. Altera o hash. Motivo: não muda a decisão de quem lê, só a auditoria.",
+    "U5: a fala é ambígua sobre o vídeo do Pedro Sobral (\"E esse foi o vídeo do Pedro Sobral\" / \"Copiou o meu vídeo\"; o material diz \"Pedro Sobral copiando um vídeo\"). A unidade fixa uma leitura com confiança alta e sem nota. Registrar a ambiguidade em nota, o que não altera o hash. Vale também trocar, em \"Lógica\", a glosa \"não uma biografia completa\" por algo que a professora diz. Motivo: é detalhe de caso narrado e não muda a ação. Mas envolve terceiro nomeado, então a nota é recomendável.",
+    "U12: \"o parceiro dela\" e \"meia maratona\" (no título) não estão na fala, que diz \"ele\", \"a prova\" e \"21 quilômetros\". Trocar por termos da fonte. O título não altera o hash; o corpo altera. Motivo: sem efeito no uso.",
+    "U18: \"encerra os vídeos com 'este é o café com teu pai'\". A fala só diz que é linguagem do criador, sem posição no vídeo. Trocar por \"usa a frase\". Altera o hash. Motivo: detalhe de exemplo.",
+    "U20 (fala+material): o material lista como ritual \"imaginação e respiração 4×\"; a fala nomeia só as quatro respirações. Registrar as duas versões em nota, o que não altera o hash. A remissão ao \"vídeo da imaginação guiada antes da corrida\" depende da U12: explicar em uma oração ou retirar, o que altera o hash.",
+    "U25: a unidade diz que \"Quem não estuda não tem vez\" não aparece na fala, mas a fala traz a mesma crença com outras palavras (U15). Reformular para \"formulação que só o material traz\". Altera o hash.",
+    "U26: retirar da nota \"parece erro de montagem do PDF\". A fonte só mostra as duas versões, e a frase inclina para um lado. Não altera o hash.",
+    "U4, U9 e U16: \"documento do módulo\" aparece sem explicação. Acrescentar \"(Google Docs linkado na descrição da aula)\" na primeira ocorrência de cada corpo. Altera o hash. Motivo: a orientação central se entende sem isso.",
+    "U13: \"vão fazer 40 mil reais neste mês\" é dêitico da gravação. O validador não acusa. Reescrever como \"no mês em que a aula foi gravada\". Altera o hash.",
+    "U15: \"já citado no módulo anterior\" é referência interna ao curso, sem efeito no uso. Pode sair.",
+    "U4: o tema `historias-e-jornada` é defensável, mas a definição do primeiro elemento do Branding Primitivo também caberia em `branding-primitivo`. A classificação é discutível e não precisa de ação obrigatória."
+  ],
+  "proximo": "Enviar ao redator de correções só a lista F1–F3, que atinge a U8 e a U14. O arquivo não traz `correcoes`, e todas as unidades estão na versão 1. Tudo indica que este é o primeiro julgamento e que se abre o ciclo 1 de 2.\n\nOs ajustes menores não abrem ciclo. O redator pode aplicar no mesmo passe os que só mexem em nota ou título (U5, U12-título, U20-nota, U26), sem custo de reinspeção. Os que alteram corpo ou faixa (U4, U9, U12, U13, U16, U18, U20-corpo, U25) mudam o hash e obrigam a reinspecionar a unidade tocada. Fica a critério da coordenação.\n\nA conferência seguinte será focal:\n\n1. Validador com zero erros.\n2. Inspetor sobre a U8 e a U14 (ou sobre a retirada da U14 com 14 em `retiradas`).\n3. Inspetor sobre qualquer outra unidade cujo hash tenha mudado.\n\nAs demais unidades preservam a evidência atual. Não é preciso rever o `contexto`: a frase sobre formato validado é compatível com a U3 e a U6."
+}

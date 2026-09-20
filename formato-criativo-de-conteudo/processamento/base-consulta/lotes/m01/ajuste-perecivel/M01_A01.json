@@ -1,0 +1,216 @@
+{
+  "curso": "formato-criativo-de-conteudo",
+  "aula": "M01_A01",
+  "titulo": "Boas vindas",
+  "extraido_em": "2026-09-19",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é a abertura do curso Formato Criativo de Conteúdo (Módulo 01): boas-vindas, panorama dos módulos e apresentação das duas IAs do curso.",
+    "É dirigida a quem acabou de entrar no curso e não assume conhecimento prévio.",
+    "Os professores são Hanna e Aleph (grafia da transcrição), que se dirigem ao aluno como CDF, apelido do aluno do curso.",
+    "A aula apresenta a estrutura de seis módulos e os três usos da SOFIA, a IA roteirista, além do Tutor CDF.",
+    "O material de apoio resume a organização do curso e as ferramentas de estudo, com uma recomendação sobre o uso de IA.",
+    "O conteúdo de cada módulo, o funcionamento detalhado da SOFIA e o método em si ficam para as aulas seguintes."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Os seis módulos do curso e o que cada um entrega",
+      "tipo": "estrutura",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala+material",
+      "inicio": 152,
+      "fim": 384,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A fala descreve o módulo 2 como formatos em copia e cola para levar à IA; o material o descreve como observação e reprodução de estruturas por engenharia reversa. As duas descrições convivem sem conflito.",
+      "proposta_tag": null,
+      "corpo": "O curso tem seis módulos, nesta ordem:\n1. Método FCC (Formato Criativo de Conteúdo): a base e a filosofia de conteúdo, para saber onde se está pisando.\n2. Formatos virais validados: os formatos com mais chance de resultado, entregues em esquema de copia e cola, para aprender por engenharia reversa.\n3. Roteiro: a metodologia para escrever roteiros que funcionam nas redes; o padrão de roteiro é metade do formato criativo.\n4. Autenticidade: colocar identidade de marca e personalidade no que se cria, para gerar reconhecimento e fortalecer o formato.\n5. Vender sem ser chato: usar viralização e posicionamento de marca de forma estratégica para vender produtos, serviços ou ideias.\n6. Gravação e edição na prática: bastidores, equipamentos, posição da luz e edição, pensados por formato.",
+      "evidencia": "O primeiro módulo é esse aqui, que é o método FCC, o método Formato Criativo de Conteúdo.",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Módulo de gravação e edição pode ser visto antes da ordem",
+      "tipo": "decisao",
+      "tema": "direcao-e-gravacao",
+      "tarefas": [
+        "gravar-video",
+        "editar-video",
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 340,
+      "fim": 380,
+      "condicoes": "Vale para quem ainda não sabe gravar ou editar e vai fazer o primeiro vídeo.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Se você precisa gravar ou editar seu primeiro vídeo e não sabe como, vá ao módulo de gravação e edição antes de chegar a ele na sequência, faça o vídeo e depois retome a ordem dos módulos. O módulo começa pelos princípios básicos e traz peculiaridades de formatos específicos. Gravação e edição são ensinadas por formato: se o seu formato for diálogo, você vê as possibilidades de gravar e a melhor forma de editar esse formato.",
+      "evidencia": "você pode ver ele quando você for fazer o seu primeiro vídeo",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Formatos validados em copia e cola servem para aprender por engenharia reversa",
+      "tipo": "regra",
+      "tema": "engenharia-reversa",
+      "tarefas": [
+        "analisar-video-de-referencia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 166,
+      "fim": 218,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Nos formatos virais validados, o aluno copia roteiros já validados e os coloca na IA. O professor esclarece que isso não contradiz a proposta do curso de formar alguém que entende o que faz: o objetivo é fazer engenharia reversa logo no início. Segundo ele, analisar o que funciona e testar é a melhor forma de aprender e de aprender mais rápido.",
+      "evidencia": "a melhor forma de aprender é fazendo engenharia reversa",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Formato criativo: padrão de conteúdo com visual e roteiro",
+      "tipo": "conceito",
+      "tema": "metodo-formato-criativo",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 236,
+      "fim": 251,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Formato criativo é um padrão de conteúdo que funciona. Esse padrão tem dois componentes: o visual, que é a forma como o vídeo é apresentado e gravado, e o roteiro, que é a estrutura ou padrão de roteiro do vídeo.",
+      "evidencia": "formato criativo é sobre criar um padrão de conteúdo que funciona",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Tutor CDF: IA para revisar aulas e tirar dúvidas",
+      "tipo": "ferramenta",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "fonte": "fala+material",
+      "inicio": 386,
+      "fim": 478,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Ferramenta: Tutor CDF, a IA de conversa sobre as aulas, na plataforma do curso.",
+      "proposta_tag": null,
+      "corpo": "O Tutor CDF é uma IA da plataforma do curso que conhece todo o conteúdo das aulas. No modo de aulas ele fica ao lado, aberto pelo ícone de estrela. Serve para revisar aulas, tirar dúvidas e conferir se você entendeu certo, como uma conversa com os professores. Na demonstração, ao perguntar o que é formato criativo, ele respondeu com a mesma definição das aulas: padrão de conteúdo que funciona, combinando roteiro e visual.",
+      "evidencia": "Ele sabe tudo sobre as aulas",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "SOFIA: três usos na criação de roteiros",
+      "tipo": "estrutura",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia",
+        "revisar-roteiro",
+        "analisar-video-de-referencia"
+      ],
+      "plataformas": [
+        "sofia"
+      ],
+      "fonte": "fala+material",
+      "inicio": 478,
+      "fim": 572,
+      "condicoes": "O primeiro uso é ensinado no módulo de formatos validados; a aula só antecipa os três.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O material chama a SOFIA de assistente de roteiros.",
+      "proposta_tag": null,
+      "corpo": "A SOFIA é a IA roteirista do curso, baseada em todo o conhecimento dos professores. Três usos:\n1. Formatos validados: colar o esquema de roteiro e receber ideias já escritas para usar.\n2. Revisão: escrever o roteiro por conta própria, enviar à SOFIA e pedir análise frase a frase, com melhorias de acordo com a metodologia do método FCC.\n3. Análise: enviar o roteiro de um vídeo que viralizou e pedir os mecanismos que o fazem funcionar, como engenharia reversa.",
+      "evidencia": "A segunda forma é na revisão dos seus roteiros.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Material recomenda usar IA sem abandonar a prática própria",
+      "tipo": "fato-material",
+      "tema": "uso-de-ia-no-roteiro",
+      "tarefas": [
+        "roteirizar-com-ia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "material",
+      "inicio": null,
+      "fim": null,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Recomendação só do material de apoio; a fala não a enuncia assim.",
+      "proposta_tag": null,
+      "corpo": "O material de apoio recomenda usar a IA para acelerar o aprendizado e a produção inicial, mantendo o hábito de escrever e avaliar roteiros por conta própria.",
+      "evidencia": "mantendo a prática de escrever e avaliar roteiros por conta própria",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "A aula é introdução e não ensina o método",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 41,
+      "fim": 54,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula tem como missões apresentar os módulos, dar clareza da jornada e entregar as duas IAs. Ela não ensina o método em si nem o uso detalhado das IAs; isso vem nos módulos seguintes, começando pelo de formatos validados.",
+      "evidencia": "E nessa primeira aula eu tenho algumas missões.",
+      "versao": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "script",
+      "unidades": [
+        1,
+        2,
+        8
+      ],
+      "retiradas": [],
+      "observacoes": "Marcação determinística: estrutura e recurso do curso são perecíveis (decisão de Will em 19/09/2026). Só o campo perecivel mudou."
+    }
+  ]
+}

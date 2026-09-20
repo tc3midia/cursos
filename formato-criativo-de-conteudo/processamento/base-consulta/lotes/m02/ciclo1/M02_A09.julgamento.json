@@ -1,0 +1,42 @@
+{
+  "aula": "M02_A09",
+  "arquivo_sha256": "4b2e2ba520c410ff3177eb33f1ba0c9ea7804c21362b720a9115e0715d60d789",
+  "inspecao_sha256": "f16a653b7da676f91bb6f4c66ff6f8e6ef0c1ab354896ca6916fb1fb0a587ce5",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "b30bc5fefed76e3ccf3463a9e54fd5be977b015ce1879a3da8f25627fcd620f5",
+  "veredito": "falha",
+  "vetos": [
+    "contrato"
+  ],
+  "contrato": "Falha. O validador devolve 1 erro: \"U009: evidência não literal na transcrição\". Zero erros é obrigatório, e os critérios de aceite de F1 e F2 também o exigem.\n\nA causa aparece na própria evidência do inspetor. A `evidencia` da U9 é \"a primeira mulher que negou café de graça\". O trecho literal da fonte, conferido pelo executor (`citacoes_nao_literais` vazio), é \"...pensando na primeira mulher que negou café de graça\". A comparação é por sequência de palavras, e a palavra antes de \"primeira\" é \"na\", não \"a\".\n\nO inspetor afirmou que a `evidencia` é literal. Pelo critério do FORMATO não é, e o trecho que ele mesmo cita mostra isso. É erro mecânico, criado na troca de âncora do ciclo 1, e tem correção objetiva.",
+  "fidelidade": "Sem veto. F1 está resolvida no mérito.\n- U9: `lastreada`, com trecho literal. O corpo não atribui papel nem gênero a quem oferece o café. Declara que a transcrição não captura quem é quem na imagem. A `nota` registra \"Ele deu o nome pro café ali\" e o trecho sem fala. `confianca: media`, `versao: 2`.\n- U13: `lastreada`, com trecho literal. A afirmação está atribuída ao professor e não traz critério além da fala.\n\nEm unidades intactas restam dois pontos, que o inspetor classificou como menores e que não entraram na lista de falhas do julgamento anterior:\n- U8 afirma resultado sem atribuir ao professor.\n- U7 tem faixa que termina antes da pergunta citada. É 1 de 13 unidades (7,7%), abaixo dos 10%.\nNenhum muda a decisão de quem consulta. Ficam como ajustes menores.",
+  "cobertura": "Sem veto. F2 está resolvida no mérito. A U13 é unidade viva com tarefa `escolher-formato` e traz a condição de disposição no corpo e em `condicoes`, atribuída ao professor. Os números 1–12 não mudaram.\n\nO item em `omissoes` da inspeção (\"Nenhuma unidade preserva isso\") é resíduo do acúmulo da inspeção integral, e a U13 o contradiz de forma visível. O resumo do próprio inspetor confirma que não restou omissão. Não conto como omissão ativa.",
+  "perecibilidade": "Sem veto. O inspetor não sinalizou nada.\n- U5 (Trello do curso), U7 e U9 (números de likes de caso) estão com `perecivel: true`.\n- U13 é orientação de perfil sem elemento perecível, e `false` está correto.\n- Não há perecível escondido nas unidades alteradas.",
+  "aplicabilidade": "Sem veto nas unidades alteradas.\n- U9 se sustenta sozinha. Tem as três marcas de `exemplo`. Apresenta \"efeito ahá\" no contexto como a virada do vídeo. Diz com clareza o que a fonte não permite afirmar, e isso evita que o agente descreva o vídeo com papéis inventados.\n- U13 começa com \"Se \", tem `condicoes` preenchido e metadados coerentes (`escolher-formato`, `geral`). Deixa claro que é afirmação do professor, não garantia.\n\nAs classificações discutíveis das unidades intactas (tarefa da U11, título da U7) são ajuste menor.",
+  "falhas": [
+    {
+      "id": "M02_A09-F3",
+      "unidades": [
+        9
+      ],
+      "veto": "contrato",
+      "evidencia": "Validador: \"M02_A09: U009: evidência não literal na transcrição\".\n- `evidencia` da U9: \"a primeira mulher que negou café de graça\".\n- Trecho literal do inspetor, conferido pelo executor (`citacoes_nao_literais` vazio): \"eu ia ficar o vídeo inteiro pensando na primeira mulher que negou café de graça.\"\n- O histórico do ciclo 1 cita a mesma frase com \"na primeira mulher\".\n\nA comparação do FORMATO é por sequência de palavras. Na fonte, a palavra antes de \"primeira\" é \"na\". O \"a\" da âncora é pedaço de palavra, não palavra.\n\nO inspetor afirmou que a `evidencia` é literal. O trecho que ele próprio cita mostra que não é.",
+      "impacto": "O arquivo não passa no `base_fcc.py` e não entra na base.\n\nA âncora é o que permite ao script provar que a faixa aponta para o trecho certo. A U9 é justamente a unidade reescrita, e com a âncora quebrada fica sem essa verificação mecânica.\n\nF1 e F2 também dependem disso: o critério de aceite de ambas exige validador com zero erros.",
+      "mudanca_minima": "Alterar só o campo `evidencia` da U9 para uma sequência de palavras que exista na faixa 353,18–455,28. Duas opções:\n- \"primeira mulher que negou café de graça\" (retira o \"a\" inicial);\n- \"pensando na primeira mulher que negou café de graça\".\n\nNão tocar em corpo, faixa, `condicoes`, `confianca`, `nota` nem metadados. `evidencia` não entra no hash, então a evidência de inspeção da U9 é preservada. `versao` segue a convenção que o executor já aplicou a alterações fora do hash.",
+      "criterio_de_aceite": "- `base_fcc.py` devolve zero erros para M02_A09.\n- O hash da U9 é igual ao registrado na inspeção atual, o que prova que só a âncora mudou.\n- As unidades 1–8 e 10–13 ficam intactas, e `retiradas` continua `[]`.\n\nCumprido isso, fecham também as cláusulas \"validador dá zero erros\" de F1 e F2."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: a frase \"O conteúdo do vídeo nasce dessa interação com pessoas reais\" não está na fonte e destoa da variação montada (U9, U10). Retirar quando a unidade for tocada. Não muda a decisão, porque a variação montada está coberta.",
+    "U2: a glosa \"(a cena)\" para \"quadro\" não está na fonte, que não define o termo. Retirar a glosa. O título \"não usar IA\" é mais categórico que o \"não faz sentido\" da fala, mas o corpo preserva a formulação correta.",
+    "U6: \"Fazem esse tipo de vídeo com frequência e com CTA no final\" tem sujeito plural ambíguo. Na fonte é a criadora. Sem efeito na decisão.",
+    "U7: a faixa termina em 322,8 e a pergunta citada na Situação ocorre em ≈333,6–336,1. É `faixa-errada` em 1 de 13 unidades (7,7%), abaixo do limite de 10%. Estender `fim` ou registrar em `nota` quando a unidade for tocada.",
+    "U7: o título diz \"funciona em nicho grande\" e o corpo diz \"qualquer nicho\". A distinção grande × pequeno é da U8.",
+    "U8: \"funciona muito bem\" e \"o que também funciona\" estão sem atribuição. Na fonte é previsão do professor (\"vai funcionar super\"). Acrescentar \"segundo o professor\". É menor porque a escolha que a unidade orienta não muda: nicho grande vai direto, nicho pequeno usa ideia abrangente conectada depois.",
+    "U11: a tarefa `inserir-gatilhos-de-atencao` é discutível. O conteúdo é a qualidade da pergunta, e a classificação fica entre dois valores defensáveis.",
+    "Inspeção: o item de `omissoes` sobre disposição do criador é resíduo acumulado e diz \"Nenhuma unidade preserva isso\", o que a U13 contradiz. Na próxima emissão da inspeção, retirar o item ou marcá-lo como resolvido."
+  ],
+  "proximo": "1. Corrigir F3 como erro mecânico, do mesmo modo que os ajustes do ciclo 0.\n   - Trocar só a `evidencia` da U9 e rodar `base_fcc.py`.\n   - Com zero erros e hash da U9 inalterado, F1, F2 e F3 ficam fechadas. Não há nada material a reinspecionar na fonte.\n   - O `arquivo_sha256` muda. Para o `--reviews` aceitar, a inspeção precisa ser reemitida com a evidência preservada por hash, e o julgamento precisa ser atualizado.\n\n2. Se o validador continuar acusando a U9 depois da troca, a causa é outra (faixa ou grafia na transcrição).\n   - Peço ao executor as palavras exatas da transcrição, com marcação de tempo, em torno de \"negou café de graça\".\n   - Sem essa prova não decido nada além disso.\n\n3. A contagem de ciclos precisa de esclarecimento da coordenação.\n   - O cabeçalho desta conferência diz ciclo 3.\n   - `correcoes` registra um único ciclo de correção (ciclo 1, opus-5), além dos dois ajustes mecânicos do ciclo 0.\n   - As versões (U9 v2, U13 v1) são coerentes com um ciclo só.\n   - Se pela conta da coordenação o teto já foi atingido, o resíduo não é falha material persistente. É um erro mecânico de uma palavra, com correção objetiva e conferência por script, e não cabe `bloqueado`.\n   - Se a coordenação entender que não há mais chamada automática disponível, leva a Will apenas essa troca de âncora."
+}

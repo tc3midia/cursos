@@ -1,0 +1,36 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T01:16:12+00:00",
+  "fim": "2026-09-20T01:18:26+00:00",
+  "duracao_ms": 132917,
+  "duracao_api_ms": 132889,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 14122,
+    "cache_creation_input_tokens": 32663,
+    "cache_read_input_tokens": 14184
+  },
+  "thinking_tokens": 12369,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.2747128,
+  "sistema_sha256": "65d0466f3c21c4a1d4bb85172dd03f4ff7ff84cf4a64096ee0885791319f4f05",
+  "pacote_sha256": "e109adb289bcc06fd31125c4ae4d217b3e081a286659eff3e6bcb7e7710d15d5",
+  "aula": "M03_A06",
+  "rotulo": "ouro-M03_A06-ciclo2",
+  "arquivo_sha256": "841ab6db8697ea99c4d951d2f4da14e329d7172e8d072afc3b10940bf6d3159b",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/revisao/ouro-M03_A06/ciclo2/M03_A06.inspecao.json",
+  "resultado_sha256": "7e6d3d40bcbd0db432ecc609dab6c387cc00cabbe84934a4c6248ce10848d7f5"
+}

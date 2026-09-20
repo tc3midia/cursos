@@ -1,0 +1,294 @@
+{
+  "aula": "M03_A06",
+  "arquivo_sha256": "80fd8ae8ca7ad0aba334cc3b464ad818bed8b9e540feb4b125b9acbdd7a5fcab",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "hashes_unidades": {
+    "1": "6ec6e0b4286ed95c7aedfda6860bab33030d30386d48c83d88e10488a889efe7",
+    "2": "96755074322649886445ba21be83634e2f15110c26ba423532422bddc9a7aa5b",
+    "3": "6c08de406f6702c37d25ce8004be1245a342d734287d43c19568a7564a47c55b",
+    "4": "227fdc457528b9d4d2e8318d2f403517d7e4efd16247d7858bddc4c306ae696e",
+    "5": "c9ae49be2cfe82899f0f3d26e7cf42cab83b456be77cf0a3fa03b08ad3c61c5f",
+    "6": "b0283b242ed1e2072352b7b7e2029037a6b6094dc3e6e6f00e44fac7db0cfc85",
+    "7": "dd231ecfe29c369c3855b2628044c0b5d2087299cf1ba9fa5c165581fdeaeb34",
+    "8": "b7dde5f75325b3d56a5f94f3f8c91cd018551143c23047c3763bafaf6fea9f22",
+    "9": "05745155ab3b6dcd077f21cd83f0dd638f9e00812cf9c6b643a1cf065a674cc6",
+    "10": "b30cbe6c5e0d85df3e5727bba9d9a4dcaf242011f7369dd097bacc9311256721",
+    "11": "03ba0e0e6f2c5e93e812e4f566891baa21837a324269567bd18bc09ba4bb8fa8",
+    "12": "27f82f505fcb139e0ca31fbf44f0247e31f5733548ab76aca87029e3254e6a63",
+    "13": "66375e935a9ee54169cffb9aa9e0e026cc1e52c5edf3e600c4385b6ff234d656",
+    "14": "ac62ffc265e5adb70924a93425180c635cb2fafff431aaf3e55aa7f11b8214aa",
+    "15": "dbfb0df298d8cea215894e50d99fb9e26af9688fcf9fa6023199bfc86a8228d6",
+    "16": "8898d5130559fe05309a39d3847e7cbc41e240274506260132494c8115253107",
+    "17": "9c229f34fbcfe146086e93cbd3c1b72304859a33d443a96e5e1ae9f68606ed28",
+    "18": "9b048dae7963efc744c76a5d2b88bd8be43ee57b284c507e60e20b8a07cba886",
+    "19": "db7838aba99ffba41a1a13865fff924b557ce071eb5fca1b2ca05e649e5759f5",
+    "20": "91e574a5db68068951969012ca7b89c438d04d7d8630db470f1d36f4746966c8",
+    "21": "179669557cba8fbc9b5cf4e255a8b44d56b3b7711f74f6945321878c2403f285",
+    "22": "289f365da853b848778cc44e8c45922ed0ba6c1af3316229f9e0353316fd736b",
+    "23": "55231c599fd0bb27331f252335c849a8ce3bb5aca3e45ef2604f9a193098e814",
+    "24": "09546aa35209ddaa387198f7c96c7cf66a9a6ed14d0c1986172fdc1a13436011",
+    "25": "bacc7a593d173c951174d451039af7c3e89155d8779a19f1110f0a0bbda4607c",
+    "26": "bbc914c69a2253739b88ff4c2aa1d681fcd964f19be72321239d012c25b28aa4"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "São as aulas base de tudo que você precisa aplicar",
+      "explicacao": "A fonte diz que as aulas anteriores são a base, que as seguintes revisam e aprofundam, que o professor conduz o resto do módulo, que Hanna traz autenticidade no módulo seguinte e que o curso encerra com vendas. A unidade reproduz isso sem acrescentar nada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Por isso que tem aquela ideia, testa rápido e melhora no próximo",
+      "explicacao": "O ciclo hipótese, post, análise, nova hipótese confere. A fecha \"em vez de tentar acertar tudo de primeira\" não está na fonte. É um acréscimo que não muda a orientação."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vamos seguir nessa aula que a gente vai entender como é que a gente valida um formato",
+      "explicacao": "Os dois critérios (não ser trend e ser um vídeo que a pessoa faria de novo) e o \"Talvez isso funcione até mais\" conferem, com hedge preservado. Já em `condicoes` a unidade diz que quem não tem histórico \"segue o caminho normal de testar um formato validado\". A fonte diz que a aula vai ensinar \"como é que a gente valida um formato\", ou seja, as levas de teste. \"Testar um formato validado\" pode levar o agente a entender que só se testam formatos já validados. O efeito no uso é pequeno."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não tem uma regra para isso, mas um jeito bom de você pensar é fazer duas levas de três vídeos.",
+      "explicacao": "O número (2 levas de 3) confere. A ressalva \"não tem uma regra\" está em `condicoes`. A frase do material sobre não abandonar após uma única tentativa também confere."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "cria três vídeos dentro do mesmo formato",
+      "explicacao": "A sequência confere: criar e postar 3, olhar o resultado, analisar com os elementos de roteiro (familiaridade, tema, moral), pensar em melhorar, criar mais 3, ter uma noção do formato. A pré-condição (hipótese do formato, Trello) também tem apoio na fonte."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Será que a gravação pode ser mais dinâmica",
+      "explicacao": "As sete perguntas (tema, conflito, contraste, curiosidade, linguagem familiar, cortes, gravação) e o acréscimo do material (descoberta, ritmo, energia, apresentação visual) conferem. O corpo situa as perguntas em \"Ao revisar a primeira leva\". Na fala elas vêm logo depois de \"Depois dessas duas levas, você vai ter uma noção\", e o material põe as hipóteses entre as levas. A fonte é ambígua nesse ponto e a unidade escolheu o momento sem registrar."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Pô, eu troco de formato, vou tentar um diferente",
+      "explicacao": "As três saídas (trocar, insistir, aprimorar porque já deu resultado melhor) e os critérios de afinidade (gostou, acredita, acha um jeito de fazer, fácil ou complexo) conferem com a fala e com o material."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "método EVA, estudar, visualizar",
+      "explicacao": "Estudar (voltar à plataforma, ver mais aulas), Visualizar (lista de formatos virais, o que o criador viral faz ou não faz) e Aplicar conferem. Os detalhes de \"reconhecer o que falta\" e \"repetir a cada publicação\" vêm do material e estão corretos. A parte da comunidade está na unidade 22."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "já foi, tipo, 10 vezes melhor do que",
+      "explicacao": "Os números (200→2 mil, 2 mil→20 mil) conferem e o corpo os apresenta como exemplo. O título e o tipo `regua` endurecem o \"tipo 10 vezes\" da fala, que é aproximado, em algo próximo de um limiar (\"multiplica por dez... já é sinal\"). O corpo suaviza. O risco de virar parâmetro geral é pequeno, mas existe."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O figurante vai olhar para um conteúdo que deu errado e vai falar, ah, deu errado porque eu sou ruim e não consigo melhorar, tem mentalidade fixa.",
+      "explicacao": "O contraste figurante × CDF confere. A última frase (\"Essa leitura é o que sustenta o ciclo de lapidação\") é inferência do extrator e não está na fonte. \"Figurante\" não é explicado no corpo, só na nota. O `confianca: media` com nota sobre \"ZDF\" está adequado."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Muitos anos atrás, bateu uns 400 mil views",
+      "explicacao": "O caso confere: análise da Bettina, cerca de 400 mil views, foi ignorada, nunca repetida, e depois voltaram ao feed para ver o que tinha funcionado. O número aparece como caso, em `exemplo` e `perecivel: true`."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Era uma pessoa que a gente de fato acompanhava a Jenny Keller",
+      "explicacao": "Mais de 1 milhão de views, 80 mil likes, o conflito do despejo e os três elementos conferem. A última frase da Lógica (escrever foi simples porque acompanhavam a criadora e conheciam a história) está em 609–620 s, dentro da faixa da unidade 13 e fora desta (470–590). É um trecho de apoio, mas a faixa não o cobre."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E foi escrever de uma forma meio arrasa",
+      "explicacao": "Os números (8 mil likes, ~160 mil views) e os dois problemas (abertura sem a cara do prefeito nem conflito com a comunidade; falta de história, linguagem familiar e furar a bolha) conferem. A Lógica diz que \"o roteiro sai forçado\". A fonte diz \"meio arrasa\", trecho degradado de transcrição, e a unidade fixou \"forçado\" sem registrar a incerteza. Além disso, a nota atribui ao material o nome Rodrigo Manga (ver campo `material`)."
+    },
+    {
+      "numero": 14,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu comparei ele, coloquei ele do lado",
+      "explicacao": "O professor narra o que fez com o vídeo do prefeito: comparou ao de Jeanne Keller, viu as diferenças e disse \"tá, essas são as hipóteses, vou melhorar essas duas\". A unidade transforma a narrativa em `procedimento` prescritivo, com pré-condição própria. Ela também acrescenta \"Escreva as diferenças\" e \"Escolha as que vai corrigir\", que a fonte não diz. Os passos 1 e 2 têm lastro. É caso narrado virando método geral. O efeito é pequeno porque a ideia de comparar com o vídeo que funcionou está na aula. A correção é atribuir como prática do professor ou remover os passos inventados."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aqui no vídeo do Pantera, a gente começa o vídeo",
+      "explicacao": "A abertura padrão (olhar para cima, conflito universal, conflito com a comunidade), a história do Pantera, a linguagem da comunidade, a pesquisa de bolha e o comentário de 6 mil likes conferem. O corpo não inventa views. A nota erra ao dizer que o material grafa \"Rodrigo Pantera\" (ver campo `material`)."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai sem clareza mesmo, deve estar rápido",
+      "explicacao": "Confere: mais análise leva a mais clareza; sem clareza, publicar rápido e melhorar no próximo; a clareza vem de ver virais e rever aulas. \"Deve estar rápido\" é trecho de transcrição meio degradado, mas a leitura combina com \"testa rápido\"."
+    },
+    {
+      "numero": 17,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "assim no carro que tinha funcionado",
+      "explicacao": "O conteúdo confere (2 mil views, ~200 likes, primeiro vídeo emocional, o seguinte travado, correção, 8 mil likes e quase 2 mil seguidores). Mas a Situação inteira (vídeo no carro que funcionou, recomendação de refazer) está em ~995–1007 s. A faixa começa em 1010, então esse trecho fica fora, e a âncora de `evidencia` cruza o início da faixa (começa em ~1009 s). Corrigir `inicio` para ~978. A Lógica (\"quebra o resultado\") é leitura um pouco mais forte que a fala, mas é aceitável como extração."
+    },
+    {
+      "numero": 18,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "mentais. Faltava 15 minutos pra eu ir",
+      "explicacao": "A correção (linguagem de conversa de amigo, tema que importa, mais emoção) está em ~1042–1050 s, dentro da faixa 1036–1070. A segunda metade do corpo, as imagens mentais e o exemplo do crossfit, está em ~1191–1200 s, cerca de 2 minutos depois do fim da faixa. Quem for conferir 1036–1070 não acha essa parte. Aqui a orientação dada a uma aluna específica aparece como regra geral (\"Quando o vídeo sai travado...\"). É generalização plausível, mas não condicionada."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A cada 10 vídeos que eu faço de análise, 9 eu acerto.",
+      "explicacao": "Confere: pergunta a Aleph, \"Não\", hesitação 98% e 90%, depois 9 em 10, atribuída a terem lapidado o formato. A frase final (\"não é meta nem promessa\") é acréscimo cauteloso e coerente com o FORMATO."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai postar 10 vídeos e 3 vão dar certo",
+      "explicacao": "Os números (3→1, 10→3, depois 10→5 e 10→7) conferem e são atribuídos ao professor. \"Não como garantia\" é qualificador do extrator, que não muda o sentido."
+    },
+    {
+      "numero": 21,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vou pedir para o time deixar o Trello aqui embaixo também para você se relembrar",
+      "explicacao": "Confere: o Trello é onde o conteúdo é organizado, e a explicação de uso está no primeiro módulo do método. A fonte não dá mais detalhe. Ver ajuste de aplicabilidade em `contrato`."
+    },
+    {
+      "numero": 22,
+      "veredito": "sem-lastro",
+      "gravidade": "menor",
+      "trecho_fonte": "se você está na comunidade, entra na comunidade",
+      "explicacao": "O título afirma \"comunidade paga\", mas nem a fala nem o material dizem que ela é paga. A própria nota admite que a transcrição não deixa isso claro. Duas partes do corpo estão fora da faixa 356–400: \"recomenda que quem não participa passe a participar\" e a aluna que \"passa o ano\" na comunidade estão em ~989–991 s. A fonte enquadra o pedido de análise ao time como parte de Estudar, com o motivo \"porque aí você vai entendendo mais formas de melhorar\". A unidade descarta esse motivo ao tratá-lo só como oferta."
+    },
+    {
+      "numero": 23,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez.",
+      "explicacao": "Fiel ao material. O problema é a ausência de nota sobre a tensão com a fala, registrada no campo `material`."
+    },
+    {
+      "numero": 24,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Analise o visual, incluindo cortes, imagens, música, energia e expressão.",
+      "explicacao": "As duas listas (visual e roteiro) conferem com o material. Há sobreposição parcial com a unidade 6, sem conflito."
+    },
+    {
+      "numero": 25,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Jeanne Keller: https://www.instagram.com/reel/DFV8Je8ys5J/",
+      "explicacao": "A lista de cinco referências confere e o aviso de \"destinos não verificados\" foi preservado. O corpo, porém, não traz os endereços (ver `contrato`)."
+    },
+    {
+      "numero": 26,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Escolha um formato e faça as duas levas de três vídeos.",
+      "explicacao": "O exercício confere com o material: duas levas, um mecanismo entre elas, registro no espaço de discussão e uso de conteúdo antigo como base."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U12, U13, U15 e U17: `plataformas: [\"instagram\"]` em unidades cuja orientação não depende de recurso, métrica ou comportamento do Instagram. A taxonomia diz que a menção de onde um exemplo foi publicado não muda `geral`. As unidades equivalentes U11 e U19 estão em `geral`. Isso infla a cobertura tarefa×plataforma do Instagram e faz o agente que filtra por `geral` perder os casos. Só a U25, que lista links de Instagram, justifica `instagram`.",
+    "U14: `tipo: procedimento` com pré-condição e passos que vêm de um caso narrado (ver o veredito `desvio` na unidade). Cabe mudar o tipo ou atribuir o método ao professor.",
+    "U22: o título diz \"comunidade paga\" sem lastro. O tipo `limite` descarta como oferta um pedido que a fonte liga ao passo Estudar do EVA, com o motivo \"porque aí você vai entendendo mais formas de melhorar\".",
+    "U25: `fato-material` cujo corpo não traz os cinco endereços que dá como conteúdo. Só a `evidencia` mostra um deles. O agente sem o material não consegue localizar os vídeos. Ajuste menor a material, conforme a leitura do juiz.",
+    "U21: o corpo depende da aula (\"pede ao time que deixe o link do Trello abaixo da aula\") e não traz orientação executável além de o Trello ser onde o conteúdo se organiza. Ajuste menor.",
+    "U10: \"figurante\" não é explicado no corpo (só na nota), contra a regra de jargão explicado na primeira ocorrência.",
+    "Numeração: as unidades 21 (fala em ~184 s) e 22 (~356 s) foram numeradas depois da 20 (~1232 s). A regra pede numeração pela ordem de aparição na fonte na primeira extração. Não altera conteúdo nem identidade."
+  ],
+  "material": [
+    "U23 × fala (U13/U15): o material fecha com \"Aperfeiçoe um mecanismo por vez, sem tentar incorporar todos de uma só vez\" e o exercício manda selecionar um mecanismo entre as levas. Na própria aula, o professor corrige duas coisas de uma vez entre o vídeo do prefeito e o do Pantera (\"vou melhorar essas duas coisas\", ~719 s) e lista várias perguntas de melhoria. A U23 registra só a versão do material, sem `nota` com as duas versões, e a U15 descreve a correção dupla sem apontar o contraste. É divergência ou tensão fala×material não registrada. Se o juiz tratar como divergência, é desvio pelo critério de resolução em silêncio.",
+    "U13 (nota): diz que \"o material confirma que o vídeo é sobre o prefeito de Sorocaba, Rodrigo Manga\". O material só diz \"prefeito de Sorocaba\". O nome \"Rodrigo Manga\" aparece apenas no trecho do vídeo transcrito na fala. A nota atribui ao material algo que ele não traz.",
+    "U15 (nota): diz que \"Pantera\" e \"Rodrigo Pantera\" aparecem \"na fala e no material\". O material grafa só \"Pantera\". \"Rodrigo Pantera\" só existe na fala.",
+    "U3: a fala exige que o vídeo antigo \"não [seja] vídeo de nenhuma trend\", e o material diz \"que não dependam apenas de uma tendência\", que é menos restritivo. A unidade adota a versão da fala sem `nota`. Diferença pequena, sem efeito grande no uso."
+  ],
+  "resumo": "Conferi as 26 unidades contra a fala e o material e percorri a transcrição inteira à procura de omissões. Não encontrei omissão relevante nem número adulterado; os números de caso estão em `exemplo` e marcados como perecíveis. Os achados: U14 é caso narrado virado procedimento (desvio menor); a U22 chama a comunidade de \\\"paga\\\" sem lastro; U17 e U18 têm parte do conteúdo fora da faixa (U12 e U22 também têm uma frase fora, mas o núcleo está dentro). U12, U13, U15 e U17 usam `instagram` onde a taxonomia pede `geral`. A tensão fala×material sobre \\\"um mecanismo por vez\\\" (U23) não foi registrada, e as notas das U13 e U15 atribuem nomes ao material que ele não traz."
+}

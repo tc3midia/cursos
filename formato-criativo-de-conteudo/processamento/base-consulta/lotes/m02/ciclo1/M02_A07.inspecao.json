@@ -1,0 +1,180 @@
+{
+  "aula": "M02_A07",
+  "arquivo_sha256": "9eae2cfdca53fc08b210eda3936336debcb2e832dda69d018da862c8ce73540d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [6, 11, 14]; as demais mantêm a evidência da inspeção integral do arquivo 708b2f4c6fb4, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    6,
+    11,
+    14
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "908075e5562c85fef73b66013d9888414dbe448e0cb6d547cdd592091fdeb762",
+    "2": "76c4551866427563ca39bbd569c667daabd1326889e4653de6d17945f7a2438c",
+    "3": "905f0af4ad57e602d4b4823a97411dbef5725f7a35567be93da0a363f962c4f1",
+    "4": "ff708c4cd8505820fde3a6451cb286263c8da9c5fa83220321413991d71bb784",
+    "5": "c59760261b21317eec79925f6344d235b12ddfe2af020da35cada9e4ec0b666c",
+    "6": "7a94d21e73344c40db6a097b1520b632da70ea8f2b240bb62932e158e6a5ad19",
+    "7": "8dbde8a61fea42ffd0160f4ed7b1bc1b8c1d6b75f1ca612997f838996adcaff9",
+    "8": "2385709debf72f11c6ef3a2f134e7d2651adb79ba015224b14ded04d081d97f6",
+    "9": "22801d6e6e96debcdd98e883c72dd1c94b1c25abce995775e0f1ce6693749dde",
+    "10": "6151618c739fcea98bda0083c2e9d3c020565e1770137297af772cb69ea56a84",
+    "11": "e8b3ea236402b1da23ca8ce81f6f814101d4f49425d597e50da93a4ca10c2735",
+    "12": "9c4c92586cdabb42dbbe8846c0761e98abab9f6900273cd61b83dc8602c0b56e",
+    "13": "6017e5161e35bdfee86c12ef5baa425de46d47847dd3a27c1c68d7f7df40c3b8",
+    "14": "3b84ec1022563a8455b967bb57fa4dd783a084b4bd43291da921c19a91cc9009"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que é uma música conhecida, que é familiar para as pessoas e que desperta alguma emoção.",
+      "explicacao": "A definição confere com a fala (bordas, música conhecida, funciona bem, bom formato para começar) e com o material (textos ou legendas em tela; reflexão, conselho ou desabafo), e a unidade atribui cada parte à fonte certa. A fala diz \"geralmente ele tem umas bordinhas\" e a unidade tira o \"geralmente\", o que não muda o uso. \"Molduras\" é glosa da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você pode usar algumas imagens, ter essa bordinha com imagens um pouco meio que aleatórias,",
+      "explicacao": "As quatro variações (espécie de narrado, imagens meio aleatórias que passam emoção, letterings grandes, vídeo cru tipo gravação de Zoom ou de computador em baixa qualidade) estão na fala dentro da faixa 43–101. Nenhum número ou condição foi alterado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que traz o clima conectado com o tema, é muito importante essa conexão entre as duas",
+      "explicacao": "Os três elementos (tema emocionalmente relevante, música que dá clima e energia, fala natural como conselho a amigo ou desabafo) conferem com 100–132. A última frase do corpo (\"reforça depois que a conexão entre tema e clima da música é muito importante\") vem de 08:16–08:21 (≈496–501 s), fora da faixa 100–132, embora o corpo já a marque como \"depois\". O `fonte: fala+material` também não se sustenta: nada no corpo vem só do material. Como o conteúdo essencial está na faixa, tratei como ajuste menor. A correção é ampliar a faixa ou tirar a frase."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "5. Publique variações e observe quais escolhas sustentam o interesse.",
+      "explicacao": "Os cinco passos reproduzem a lista \"Construção\" do material, na mesma ordem e sem alterar sentido. O único acréscimo é a \"Pré-condição: ter definido que vai usar o formato Cine\", que não está no material. Ela é exigida pelo tipo `procedimento` e não muda a execução."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não todos, mas a grande maioria",
+      "explicacao": "A unidade preserva a ressalva (\"a grande maioria, não todos\"), a atribuição (\"o professor defende\", \"ele viu um humorista\") e o \"não é uma regra absoluta\". A anedota do humorista está como relato e não como parâmetro. A faixa 146–320 cobre o trecho."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vai na ideia que você teve, você não vai precisar da IA para te dar essa ideia",
+      "explicacao": "O corpo bate com a fala. A recomendação de usar a IA \"conectada com a sua inteligência real\" começa em 362,9 s (\"sempre que você use a inteligência artificial conectada com a sua inteligência real\"). A condição (ideia já formada a partir do vídeo mostrado), a dispensa da IA e a atribuição de \"a chance de funcionar é muito grande também\" ao professor estão em 368–382 s. A faixa 362–383 cobre esse conteúdo e a evidência literal está dentro dela. F3 resolvida: nem `corpo` nem `condicoes` mencionam aula, módulo, página ou prompt do curso, e a remissão à aula de IA saiu para a U14, que é `perecivel: true`. A `nota` atual não contradiz a U14 e não diz mais que o prompt não foi descrito. \"A referência\" no corpo é genérica, não aponta recurso do curso. Sem efeito no uso."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que traz o clima conectado com o tema, é muito importante essa conexão entre as duas",
+      "explicacao": "A Situação (pais: não dá para salvá-los nem mudar hábitos; o maior presente é amá-los como são) e o comentário sobre identificação e clima da música conferem com 6:28–8:08. Na Lógica, a parte \"música cujo clima combine com o tema\" está em 08:16.58–08:21.08 (≈496,6–501 s), e a faixa termina em 496. A faixa fica ≈5 s curta. Ajuste menor: ampliar `fim` para ≈502."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, use o formato pra se inspirar, mas sabendo que você pode colocar pitadas de outros formatos dentro, se você quiser.",
+      "explicacao": "Confere: inserts que dão aspecto de narrado, imagens da galeria e \"testar não traz problema\", tudo dentro de 506–562. A permissão está como permissão, sem virar obrigação."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lá tem músicas separadas por emoções",
+      "explicacao": "A unidade preserva o tom calmo da música, a existência de músicas agitadas e empolgantes e a correção de roteiro para edição, que está em `nota`. `perecivel: true` está correto por apontar para a estrutura do curso."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "foi assim mas poderia ter sido né E aí ele vai e transforma isso no roteiro como é que é Cristiano Ronaldo",
+      "explicacao": "A fala é ambígua: o professor diz \"não sei se foi assim mas poderia ter sido\" e depois \"de fato, ele estava vendo uma entrevista, percebeu o momento…\". O corpo afirma \"o criador percebeu\" como fato. A `nota` registra que a fala imagina o percurso do criador e `confianca` está em `media`, então a incerteza foi preservada. Ajuste menor: escrever no corpo \"segundo o professor, provavelmente\". A faixa 616–1000 também é larga: o exemplo do Cristiano Ronaldo termina perto de 899 s, e o restante cobre o vídeo da moto e sobrepõe as unidades 11 e 12."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e tem, em muitas vezes",
+      "explicacao": "F1 resolvida. A sequência tema interessante (\"De novo, um tema interessante\") → curiosidade (\"Traz uma curiosidade\", \"Você fica querendo saber onde ele quer chegar\") → ponto de vista (\"Ele traz o ponto de vista dele\") → conexão no fim (\"Ele leva isso para a sua vida\") está atribuída ao vídeo da moto, que é onde a fala a diz (16:27–16:47). A síntese do formato (\"Tem o corte na tela\", \"tem a musiquinha\", \"e tem, em muitas vezes\" o roteiro conectando com a vida de quem assiste) preserva o qualificador \"em muitas vezes\" e está atribuída ao professor. O fechamento \"Olhe bem para esses pontos\" corresponde a \"Olharia muito bem pra essas coisas na hora de executar esse formato\", um conselho brando que a unidade não endurece. Todo o conteúdo do corpo está em 987–1039 s, dentro da faixa 870–1040. A âncora `evidencia` é literal e está na faixa. Não há afirmação nova sem lastro."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "às vezes tentar você mesmo",
+      "explicacao": "Os passos (ler a análise frase a frase, reescrever um roteiro, conferir o próprio roteiro) conferem com 14:59–15:21. Na fala, reescrever é sugestão (\"às vezes tentar você mesmo\"), e o procedimento numerado a apresenta como passo fixo. Isso é só tom, sem efeito prático relevante."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Testa, testa rápido e melhora no próximo",
+      "explicacao": "Confere: aplicar, testar rápido, melhorar no seguinte, tolerar o não perfeito e a dúvida sobre o formato, \"é pra você começar\". Nenhum número ou condição foi alterado."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "você vai copiar essa parte aqui, que é o prompt, e junto com o roteiro que você escolher,",
+      "explicacao": "F2 resolvida: a unidade traz os quatro elementos do fluxo, na ordem da fala. São eles copiar o prompt (327–334 s), juntar o roteiro escolhido, colocar o nicho (\"vai colocar o seu nicho aqui\") e colar na IA (\"vai colar na IA\"). A remissão à aula de IA (\"Se você não viu, veja a aula que a gente ensina como usar a inteligência artificial\", 319,9–326,9 s) está em `condicoes` com o sentido da fonte. A `evidencia` é literal e está na faixa 319–340. `perecivel: true` está certo, e `plataformas: geral` também, porque a fala só diz \"na IA\". A `nota` declara a degradação e que o texto do prompt não está na fonte. Dois pontos menores, sem efeito na execução. (1) O passo 5 (\"uma ideia de roteiro\") se apoia na parte legível \"ela vai te dar uma ideia de\"; \"roteiro\" é a leitura da palavra garbled \"rotação\" (336–339 s). A `nota` e `confianca: media` já preservam essa incerteza, como a rubrica pede. (2) A pré-condição diz que a página traz \"os roteiros analisados\". Isso vem de 14:59 (\"esses roteiros eles são analisados frase a frase\") e \"página\" vem de \"aplicação do Cine\" (2:16), ambos fora da faixa. É coerente com a fonte e não interfere no procedimento. Nenhum passo veio do trecho ilegível (5:39–6:02) nem de conhecimento externo."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 327,
+      "trecho_fonte": "Mas, basicamente, você vai copiar essa parte aqui, que é o prompt, e junto com o roteiro que você escolher,",
+      "descricao": "A aula descreve o fluxo de uso da IA na página do formato: copiar o prompt do curso, juntá-lo ao roteiro de referência escolhido, colocar o nicho, colar na IA e receber uma ideia de roteiro. Também remete à aula de IA do curso para quem ainda não a viu. A unidade 6 guarda só a recomendação final (usar a IA junto com a própria ideia) e a nota diz que o prompt \"não foi descrito\". Nenhuma unidade preserva o fluxo, que a fala expõe apesar de degradada em \"ideia de rotação\".",
+      "gravidade": "material",
+      "efeito_pratico": "Um agente que consulte a base para roteirizar com IA no Cine não sabe que a página do formato traz um prompt pronto, nem que ele se combina com o roteiro de referência e com o nicho do aluno. Ele fica só com \"use a IA junto com sua ideia\", sem o passo de execução que dá sentido a um módulo de copiar e colar. A unidade nova seria perecível (prompt e página do curso)."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U3: a tarefa `criar-elementos-de-repeticao` não corresponde ao conteúdo. Tema, música e fala natural são elementos de sustentação do formato, não frases, gestos ou momentos fixos que se repetem. `escolher-formato` ou `editar-video` levam a um lugar mais adequado. `fonte: fala+material` também não tem base, porque nada no corpo vem só do material.",
+    "U13: o título começa com \"Cine:\" e o tema é `lapidacao-de-formato` (geral). O conselho na fala é genérico (\"Não tenho certeza se esse é o formato\"). Classificação discutível, ajuste menor: manter o tema geral e tirar o prefixo, ou ficar com o prefixo e o tema `formato-cine`.",
+    "U10: a faixa 616–1000 é muito larga para o exemplo do Cristiano Ronaldo, que termina perto de 899 s. Ela inclui o vídeo da moto e sobrepõe as faixas das unidades 11 e 12. Ajuste menor.",
+    "Ajuste menor, sem efeito no uso e sem abrir ciclo: o corpo da U11 aponta \"o vídeo da moto\" e cita \"de novo\" sem dizer o que é esse vídeo nem a que \"de novo\" se refere. A atribuição a esse vídeo é a que o critério de aceite da F1 pede e o que se ensina (tema/curiosidade, ponto de vista, conexão com a vida de quem assiste) se entende sem a aula.",
+    "Sem apontamento de contrato para a U6 e a U14. A U14 começa com `Pré-condição:`, tem 5 passos numerados e `perecivel: true`. A `nota` da U6 não contradiz a U14."
+  ],
+  "material": [],
+  "resumo": "Conferência focal das U6, U11 e U14: as três falhas do ciclo (F1, F2, F3) estão resolvidas pelos critérios de aceite. A U11 atribui a sequência ao vídeo da moto e mantém \\\"em muitas vezes\\\". A U14 preserva o fluxo prompt + roteiro escolhido + nicho + colar na IA, com evidência literal, `perecivel: true` e `nota` sobre a degradação. A U6 ficou só com a recomendação geral e sem referência a recurso do curso. Não sobrou omissão da F2 e não encontrei sem-lastro, desvio ou faixa-errada. Ficaram só observações menores (o \\\"roteiro\\\" lido de \\\"rotação\\\" no passo 5 da U14, e o \\\"vídeo da moto\\\" sem descrição na U11)."
+}

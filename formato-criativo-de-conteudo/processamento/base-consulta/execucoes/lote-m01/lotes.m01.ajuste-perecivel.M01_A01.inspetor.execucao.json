@@ -1,0 +1,36 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T02:26:07+00:00",
+  "fim": "2026-09-20T02:28:45+00:00",
+  "duracao_ms": 157083,
+  "duracao_api_ms": 157059,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 15487,
+    "cache_creation_input_tokens": 26251,
+    "cache_read_input_tokens": 916
+  },
+  "thinking_tokens": 13507,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.2600612,
+  "sistema_sha256": "3727a36fb10caa709cce683c763325b6c13c77325dab0d51739f435f2c84e012",
+  "pacote_sha256": "2ce013441c5d0bcc2a62e58250b65c875dda2aeecb7e92c685696c61cc833b93",
+  "aula": "M01_A01",
+  "rotulo": "lote-m01-ajuste",
+  "arquivo_sha256": "f11cd369cc47e82989dcb814ed14a39d773b1af07d630fdad98466173889cf14",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/m01/ajuste-perecivel/M01_A01.inspecao.json",
+  "resultado_sha256": "a98dcd003f14c7da7880223a3c710d0d28e7a00c2c858e6d1fe40be5d75d42dd"
+}
