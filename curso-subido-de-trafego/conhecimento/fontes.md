@@ -1,6 +1,6 @@
 # Fontes do Curso Subido
 
-As transcrições, legendas, segmentos e materiais de apoio estão nos oito módulos deste mesmo repositório. [Índice das fontes](../00%20-%20%C3%8Dndice%20geral.md) · [Manifesto](../manifest.jsonl).
+As transcrições, legendas, segmentos e materiais de apoio estão nos oito módulos deste mesmo repositório. [Índice das fontes](../transcricoes/00%20-%20%C3%8Dndice%20geral.md) · [Manifesto](../transcricoes/manifest.jsonl).
 
 - Origem: `tc3midia/curso-subido-trafego-transcricoes`, versão das fontes `f188775`.
 - Inventário: 133 aulas em oito módulos; cada linha do manifesto tem `id`, módulo, aula, duração e `saida_relativa`.

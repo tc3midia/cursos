@@ -22,7 +22,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 PROFILES = {
     'formato-criativo-de-conteudo': {
-        'base': 'aaff8b6daa998403849b9edf5393c023c30db8de',
+        'base': '42c88f61e5fe385bc2d190cc9a9c853addf3e653',  # fontes lidas em aaff8b6; 42c88f6 só moveu as aulas para transcricoes/ (22/09/2026)
         'aulas_por_grupo': {1: 6, 2: 10, 3: 11, 4: 10, 5: 7, 6: 8, 7: 2},
         # Materiais que não entram no pacote do extrator, com o motivo registrado.
         'materiais_ignorados': {
@@ -30,7 +30,7 @@ PROFILES = {
         },
     },
     'hardcopy-pro': {
-        'base': '7470ca05b1ba5a27a1081745df0d881b92aeaec6',
+        'base': '42c88f61e5fe385bc2d190cc9a9c853addf3e653',  # fontes lidas em 7470ca0; 42c88f6 só moveu as aulas para transcricoes/ (22/09/2026)
         # 18 grupos na ordem do manifesto; o grupo 2 inclui o material avulso como última aula.
         'aulas_por_grupo': {1: 9, 2: 12, 3: 6, 4: 7, 5: 5, 6: 12, 7: 13, 8: 10, 9: 7, 10: 7, 11: 6, 12: 6, 13: 6, 14: 6, 15: 5, 16: 9, 17: 5, 18: 8},
         'materiais_ignorados': {},
@@ -52,6 +52,7 @@ PROFILE = PROFILES[COURSE]
 CDIR = ROOT / COURSE
 KNOW = CDIR / 'conhecimento'
 PROC = CDIR / 'processamento' / 'base-consulta'
+SRC = CDIR / 'transcricoes'  # módulos do curso, um <aula>.md por aula, materiais, índice e manifesto (desde 22/09/2026)
 BASE = PROFILE['base']
 REPO = 'tc3midia/cursos'
 LESSONS_PER_MODULE = PROFILE['aulas_por_grupo']
@@ -138,7 +139,7 @@ def seconds(value):
 
 def inventory_hardcopy():
     """Manifesto sem número de aula: o grupo e a ordem vêm da posição no manifesto; o aula_id vem da pasta, que é estável."""
-    items = [json.loads(line) for line in (CDIR / 'manifest.jsonl').read_text().splitlines()]
+    items = [json.loads(line) for line in (SRC / 'manifest.jsonl').read_text().splitlines()]
     groups = list(dict.fromkeys(item['grupo'] for item in items))
     rows, order = [], defaultdict(int)
 
@@ -150,19 +151,18 @@ def inventory_hardcopy():
                 'titulo': title, 'pasta': folder, 'fonte_repo': REPO, 'fonte_commit': BASE, 'material_ignorado': None}
 
     for item in items:
-        source = CDIR / item['arquivo']
-        folder = source.parent
+        source = SRC / item['arquivo']
         text = source.read_text()
         segments = parse_segments(text)
         if not segments:
             raise ValueError(f'Fonte sem timestamps: {source}')
-        row = {**common(item['grupo'], folder.name, item['titulo']),
+        row = {**common(item['grupo'], source.stem, item['titulo']),
                'duracao_segundos': seconds(item['duracao_original']), 'fim_transcricao_segundos': max(s[1] for s in segments),
                'palavras_transcricao': len(text.split()), 'video_sha256': item['sha256'], 'video_bytes': item['tamanho_bytes'],
-               'fontes': source_files({'transcricao': source, 'legenda': folder / 'legenda.srt', 'segmentos': folder / 'segmentos.json'})}
+               'fontes': source_files({'transcricao': source})}
         rows.append((row, text, segments, None))
     for extra in PROFILE.get('materiais_avulsos', []):
-        path = CDIR / extra['arquivo']
+        path = SRC / extra['arquivo']
         row = {**common(extra['grupo'], extra['pasta'], extra['titulo']), 'duracao_segundos': 0, 'fim_transcricao_segundos': 0,
                'palavras_transcricao': 0, 'video_sha256': None, 'video_bytes': 0, 'fontes': source_files({'material': path})}
         rows.append((row, '', [], path.read_text()))
@@ -174,24 +174,23 @@ def inventory():
     if COURSE == 'hardcopy-pro':
         return inventory_hardcopy()
     rows = []
-    for line in (CDIR / 'manifest.jsonl').read_text().splitlines():
+    for line in (SRC / 'manifest.jsonl').read_text().splitlines():
         item = json.loads(line)
         module = int(re.search(r'Módulo (\d\d)', item['modulo']).group(1))
         lesson = f'M{module:02}_A{item["aula"]:02}'
-        source = CDIR / item['arquivo']
-        folder = source.parent
+        source = SRC / item['arquivo']
         text = source.read_text()
         segments = parse_segments(text)
         if not segments:
             raise ValueError(f'Fonte sem timestamps: {source}')
-        material = folder.parent / 'Materiais' / f'{folder.name}.md'
-        files = {'transcricao': source, 'legenda': folder / 'legenda.srt', 'segmentos': folder / 'segmentos.json'}
+        material = source.parent / 'Materiais' / source.name
+        files = {'transcricao': source}
         if material.exists():
             files['material'] = material
         row = {
             'curso': COURSE, 'aula': lesson, 'aula_id': sha(f'{COURSE}/{lesson}'.encode())[:16],
             'modulo': f'{module:02}', 'modulo_titulo': item['modulo'], 'ordem': item['aula'],
-            'titulo': item['titulo'], 'pasta': folder.name,
+            'titulo': item['titulo'], 'pasta': source.stem,
             'duracao_segundos': item['duracao_original_segundos'],
             'fim_transcricao_segundos': max(s[1] for s in segments),
             'palavras_transcricao': len(text.split()),
@@ -210,7 +209,7 @@ def inventory_errors(rows):
     count = defaultdict(int)
     for row, *_ in rows:
         count[int(row['modulo'])] += 1
-        if 'transcricao' in row['fontes'] and row['titulo'] != (CDIR / row['fontes']['transcricao']['caminho'].split('/', 1)[1]).read_text().splitlines()[0].removeprefix('# '):
+        if 'transcricao' in row['fontes'] and row['titulo'] != (ROOT / row['fontes']['transcricao']['caminho']).read_text().splitlines()[0].removeprefix('# '):
             errors.append(f'{row["aula"]}: título do manifesto difere do cabeçalho da transcrição')
     if dict(count) != LESSONS_PER_MODULE:
         errors.append(f'Contagem por módulo divergente: {dict(count)}')
@@ -416,11 +415,12 @@ def unit_md(row, u):
 
 
 def page_path(row):
-    """Caminho da página da aula dentro de `conhecimento/unidades/`. Curso espelhado: o mesmo caminho da pasta da fonte no curso."""
+    """Caminho da página da aula dentro de `conhecimento/unidades/`. Curso espelhado: o mesmo caminho da transcrição em `transcricoes/`; material avulso vira página com o nome da sua pasta."""
     if not PROFILE.get('espelha_curso'):
         return f'{row["aula"]}.md'
-    source = next(iter(row['fontes'].values()))['caminho']
-    return Path(source).parent.relative_to(COURSE).as_posix() + '.md'
+    kind, info = next(iter(row['fontes'].items()))
+    rel = Path(info['caminho']).relative_to(f'{COURSE}/transcricoes')
+    return rel.as_posix() if kind == 'transcricao' else rel.parent.as_posix() + '.md'
 
 
 def page_group(row):
@@ -429,13 +429,13 @@ def page_group(row):
 
 
 def lesson_md(row, data, status):
-    names = (['transcricao.md'] if 'transcricao' in row['fontes'] else []) + ([Path(row['fontes']['material']['caminho']).name] if 'material' in row['fontes'] and not row['material_ignorado'] else [])
+    names = [Path(info['caminho']).relative_to(f'{COURSE}/transcricoes').as_posix() for kind, info in row['fontes'].items() if kind != 'material' or not row['material_ignorado']]  # caminhos dentro de transcricoes/
     front = ['---', 'type: unidades-aula', f'status: {status}', f'title: {json.dumps(row["titulo"], ensure_ascii=False)}',
              f'curso: {COURSE}', *([f'trilha: {json.dumps(row["trilha"], ensure_ascii=False)}'] if 'trilha' in row else []),
              *([f'grupo: {json.dumps(page_group(row), ensure_ascii=False)}'] if PROFILE.get('espelha_curso') else []), f'modulo: "{row["modulo"]}"', f'ordem: {row["ordem"]}', f'aula: {row["aula"]}', f'aula_id: {row["aula_id"]}',
              'account_id: account.86ajrj8n9', f'fonte_repo: {REPO}', f'fonte_commit: {BASE[:7]}', 'fontes:', *[f'  - {n}' for n in names]]
     if row['material_ignorado']:
-        front += ['fontes_ignoradas:', f'  - {Path(row["fontes"]["material"]["caminho"]).name}: {json.dumps(row["material_ignorado"], ensure_ascii=False)}']
+        front += ['fontes_ignoradas:', f'  - {Path(row["fontes"]["material"]["caminho"]).relative_to(f"{COURSE}/transcricoes").as_posix()}: {json.dumps(row["material_ignorado"], ensure_ascii=False)}']
     front += [f'extraido_em: {data.get("extraido_em", "")}', f'gerado_por: {data.get("gerado_por", "")}',
               f'retiradas: {yaml_value([f"U:{row["aula_id"]}:{n:03}" for n in data.get("retiradas", [])])}', '---', '']
     body = [f'# {row["titulo"]}', '', '## Contexto da aula', '', *data['contexto'], '', '## Unidades', '']

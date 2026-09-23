@@ -1,4 +1,8 @@
-"""Valida o lote publicado de Hardcopy Pro contra o acervo local."""
+"""Valida o lote publicado de Hardcopy Pro contra o acervo local.
+
+Registro datado: vale para o layout até o commit 0f82fa8 (aula em pasta, com legenda.srt, segmentos.json e Metadados/).
+Desde 22/09/2026 o repositório guarda só a transcrição e os materiais, em transcricoes/; este script não roda no checkout atual.
+"""
 
 from __future__ import annotations
 

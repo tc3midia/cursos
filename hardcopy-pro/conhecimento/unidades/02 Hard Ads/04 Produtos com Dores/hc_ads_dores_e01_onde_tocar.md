@@ -11,9 +11,9 @@ aula: G06_A01
 aula_id: 4383d85d6cdf003d
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e01_onde_tocar.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

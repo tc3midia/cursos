@@ -11,9 +11,9 @@ aula: G12_A05
 aula_id: b337ecb123c0045d
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 04 Hard IA/02 Segunda Temporada/hc_ia_t2_a05_exemplo2_prompt.md
 extraido_em: 2026-09-22
 gerado_por: sonnet-5
 retiradas: []

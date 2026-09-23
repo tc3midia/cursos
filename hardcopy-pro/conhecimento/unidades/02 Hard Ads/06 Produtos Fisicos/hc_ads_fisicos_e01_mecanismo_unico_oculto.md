@@ -11,9 +11,9 @@ aula: G08_A01
 aula_id: 70a3877a39d953ef
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e01_mecanismo_unico_oculto.md
 extraido_em: 2026-09-22
 gerado_por: sonnet-5
 retiradas: []

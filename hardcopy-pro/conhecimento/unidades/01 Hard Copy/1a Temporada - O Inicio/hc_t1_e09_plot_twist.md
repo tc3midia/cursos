@@ -11,9 +11,9 @@ aula: G01_A09
 aula_id: f0a6b6c23f425af2
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 01 Hard Copy/1a Temporada - O Inicio/hc_t1_e09_plot_twist.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

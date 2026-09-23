@@ -11,9 +11,9 @@ aula: G04_A04
 aula_id: 9243b51c3f8e4821
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e04_concorrencia.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

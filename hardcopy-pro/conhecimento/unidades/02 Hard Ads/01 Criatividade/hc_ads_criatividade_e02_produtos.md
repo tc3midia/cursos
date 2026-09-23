@@ -11,9 +11,9 @@ aula: G03_A02
 aula_id: f7fc1444731f825b
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/01 Criatividade/hc_ads_criatividade_e02_produtos.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

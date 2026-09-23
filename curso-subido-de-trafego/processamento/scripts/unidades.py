@@ -93,7 +93,7 @@ def load_manifest(clone: Path | None = None) -> dict[str, dict]:
     """aula_id -> linha do manifest, acrescida de `modulo3`, `slug`, `pasta`."""
     clone = Path(clone or CLONE_DEFAULT)
     rows = {}
-    with open(clone / "manifest.jsonl", encoding="utf-8") as fh:
+    with open(clone / "transcricoes" / "manifest.jsonl", encoding="utf-8") as fh:
         for line in fh:
             if not line.strip():
                 continue
@@ -101,7 +101,7 @@ def load_manifest(clone: Path | None = None) -> dict[str, dict]:
             m = re.match(r"Módulo (\d{3})", row["modulo"])
             row["modulo3"] = m.group(1)
             row["slug"] = SLUG_OVERRIDES.get(row["id"], f"{row['modulo3']}-{slugify(row['aula'])}")
-            row["pasta"] = clone / row["saida_relativa"]
+            row["pasta"] = clone / "transcricoes" / row["saida_relativa"]  # chave da aula; a transcrição é <pasta>.md e os materiais ficam em <módulo>/Materiais/<aula>/ (desde 22/09/2026)
             rows[row["id"]] = row
     return rows
 
@@ -136,18 +136,27 @@ def pdftotext_disponivel() -> bool:
     return bool(PDFTOTEXT) and os.path.exists(PDFTOTEXT)
 
 
-def fontes_no_disco(row: dict) -> list[str]:
-    """Nomes de transcricao.md + PDFs + txt da pasta da aula (o que pode entrar em `fontes`)."""
+def arquivo_transcricao(row: dict) -> Path:
+    """Desde 22/09/2026 a transcrição é `transcricoes/<módulo>/<aula>.md`; `transcricao.md` continua sendo o nome lógico em `fontes`."""
+    return Path(str(row["pasta"]) + ".md")
+
+
+def pasta_materiais(row: dict) -> Path:
     pasta = Path(row["pasta"])
-    nomes = []
-    for p in sorted(pasta.iterdir()):
-        if p.name == "transcricao.md" or p.suffix.lower() in {".pdf", ".txt"}:
-            nomes.append(p.name)
+    return pasta.parent / "Materiais" / pasta.name
+
+
+def fontes_no_disco(row: dict) -> list[str]:
+    """Nome lógico transcricao.md + PDFs + txt da aula (o que pode entrar em `fontes`)."""
+    nomes = ["transcricao.md"] if arquivo_transcricao(row).is_file() else []
+    materiais = pasta_materiais(row)
+    if materiais.is_dir():
+        nomes += [p.name for p in sorted(materiais.iterdir()) if p.suffix.lower() in {".pdf", ".txt"}]
     return nomes
 
 
 def texto_fonte(row: dict, nome: str) -> str:
-    p = Path(row["pasta"]) / nome
+    p = arquivo_transcricao(row) if nome == "transcricao.md" else pasta_materiais(row) / nome
     if p.suffix.lower() == ".pdf":
         out = subprocess.run([PDFTOTEXT, "-layout", str(p), "-"], capture_output=True, text=True)
         return out.stdout

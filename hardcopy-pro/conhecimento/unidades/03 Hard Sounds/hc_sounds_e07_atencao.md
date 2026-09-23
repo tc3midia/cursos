@@ -11,9 +11,9 @@ aula: G10_A07
 aula_id: c279983ff9a4e601
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 03 Hard Sounds/hc_sounds_e07_atencao.md
 extraido_em: 2026-09-22
 gerado_por: sonnet-5
 retiradas: []

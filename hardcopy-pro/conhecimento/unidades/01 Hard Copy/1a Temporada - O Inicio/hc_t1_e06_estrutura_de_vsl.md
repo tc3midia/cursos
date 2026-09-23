@@ -11,9 +11,9 @@ aula: G01_A06
 aula_id: 0edf98f2cc7f0397
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 01 Hard Copy/1a Temporada - O Inicio/hc_t1_e06_estrutura_de_vsl.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

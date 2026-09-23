@@ -11,9 +11,9 @@ aula: G12_A03
 aula_id: 6468e9f8ca62fd0a
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 04 Hard IA/02 Segunda Temporada/hc_ia_t2_a03_exemplo1_edicao.md
 extraido_em: 2026-09-22
 gerado_por: sonnet-5
 retiradas: []

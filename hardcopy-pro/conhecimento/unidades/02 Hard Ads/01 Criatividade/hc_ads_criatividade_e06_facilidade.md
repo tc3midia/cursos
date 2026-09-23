@@ -11,9 +11,9 @@ aula: G03_A06
 aula_id: a380c8228fbf526c
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/01 Criatividade/hc_ads_criatividade_e06_facilidade.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

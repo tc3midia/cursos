@@ -4,7 +4,7 @@ Escrito em 20/09/2026 para a coordenação continuar em outra sessão; atualizad
 
 ## Onde está
 
-- Repositório `tc3midia/cursos`, clone em `~/cursos`, branch `task/hardcopy-pro-base-consulta`, criada de `task/formato-criativo-base-consulta` (`d0b1d05`). **Commits `fe5be93` e `684a085` enviados em 22/09/2026; branch ainda não integrada à `main`.** Fontes do curso no commit `7470ca0`.
+- Repositório `tc3midia/cursos`, clone em `~/cursos`, branch `task/hardcopy-pro-base-consulta`, criada de `task/formato-criativo-base-consulta` (`d0b1d05`). **Commits `fe5be93` e `684a085` enviados em 22/09/2026; branch ainda não integrada à `main`.** Fontes do curso lidas no commit `7470ca0`; desde 22/09/2026 o commit de referência é `42c88f6`, que só moveu as aulas para `transcricoes/` (um arquivo por aula, mesmo conteúdo).
 - Todo comando deste curso roda com `CURSO=hardcopy-pro` na frente, a partir de `~/cursos/processamento`. Sem a variável, os scripts atendem o Formato Criativo.
 - Tarefa no Jarvis 4: `projetos/tc3/frentes/cursos-base-de-conhecimento/tarefas/processar-hardcopy-pro.md`. Rota e calibrações do primeiro curso: `ferramentas/processamento-de-cursos/README.md`.
 

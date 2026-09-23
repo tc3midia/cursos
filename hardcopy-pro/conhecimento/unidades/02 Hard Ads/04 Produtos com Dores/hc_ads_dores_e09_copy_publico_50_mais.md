@@ -11,9 +11,9 @@ aula: G06_A09
 aula_id: ca13d38666564c07
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e09_copy_publico_50_mais.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

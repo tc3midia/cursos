@@ -21,20 +21,12 @@ Tráfego. Os vídeos originais não fazem parte deste repositório.
 
 ## Estrutura
 
-Cada aula possui uma pasta própria com:
+Desde 22/09/2026 o curso segue o desenho comum do repositório:
 
-- `transcricao.md`: texto organizado em parágrafos com timestamps
-- `segmentos.json`: saída estruturada, metadados e proveniência
-- `legenda.srt`: legenda compatível com players e editores
-- material de apoio da aula, quando existir (PDF e, em alguns casos, `.txt`)
+- `transcricoes/`: um arquivo `<aula>.md` por aula, dentro do módulo, com texto em parágrafos e timestamps; o material de apoio da aula (PDF e, em alguns casos, `.txt`) fica em `<módulo>/Materiais/<aula>/`; `00 - Índice geral.md` e `manifest.jsonl`, inventário verificável do lote.
+- `conhecimento/`, `processamento/` e `voz/`: como antes.
 
-Aulas sem arquivo extra são aulas para as quais não havia material para baixar. Os materiais
-não ficam numa pasta `Materiais/` paralela: ficam junto da transcrição da mesma aula.
-
-Arquivos na raiz:
-
-- `00 - Índice geral.md`: navegação por módulo e aula
-- `manifest.jsonl`: inventário verificável de todo o lote
+Aulas sem pasta em `Materiais/` são aulas para as quais não havia material para baixar. Legendas e segmentos brutos do Whisper saíram do repositório em 22/09/2026 e ficam no histórico até o commit `0f82fa8`; a conferência de fontes (`processamento/dados/fontes-originais.json`) passou a listar só transcrições, materiais e manifesto, com os mesmos hashes.
 
 ## Uso
 

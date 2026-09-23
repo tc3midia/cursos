@@ -11,9 +11,9 @@ aula: G02_A09
 aula_id: ae9a6366e03daade
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e07_pitch_de_vendas_cta.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

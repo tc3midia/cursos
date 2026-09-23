@@ -11,9 +11,9 @@ aula: G12_A06
 aula_id: 30b3e26c509cb284
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 04 Hard IA/02 Segunda Temporada/hc_ia_t2_a06_exemplo2_edicao.md
 extraido_em: 2026-09-22
 gerado_por: sonnet-5
 retiradas: []

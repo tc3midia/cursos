@@ -1,6 +1,6 @@
 {
   "fonte_repo": "tc3midia/cursos",
-  "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+  "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
   "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
   "aulas": [
     {
@@ -14,7 +14,7 @@
       "titulo": "Aula 1 Piloto",
       "pasta": "hc_t1_e01_piloto",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 248.0,
       "fim_transcricao_segundos": 253.98,
@@ -23,16 +23,8 @@
       "video_bytes": 38420614,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e01_piloto/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e01_piloto.md",
           "sha256": "8db4489ae3dfd17cdd250fa53c379f24e734263a1498f78e0ebc09ba1cb9be0f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e01_piloto/legenda.srt",
-          "sha256": "526797d6f70cbe62d5d68b8fc0cc44c1ae2e80736c673c7a9975f315f1fa0d8e"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e01_piloto/segmentos.json",
-          "sha256": "ec1fafed72c7ded8305d838a2b478759e81cc603224e52bf757b2894aa627e25"
         }
       }
     },
@@ -47,7 +39,7 @@
       "titulo": "Aula 2 Submundo ou Subnicho?",
       "pasta": "hc_t1_e02_submundo_ou_subnicho",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 304.0,
       "fim_transcricao_segundos": 335.3,
@@ -56,16 +48,8 @@
       "video_bytes": 67070459,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e02_submundo_ou_subnicho/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e02_submundo_ou_subnicho.md",
           "sha256": "dede95382386b8627b21b1bef81f7d8348fc4a854f8d62b7cedb535ade1e71ce"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e02_submundo_ou_subnicho/legenda.srt",
-          "sha256": "6e18247b153978f5f34e5350a3b8f1bb328aaf3ff4e1e6b13f296b8693da09fc"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e02_submundo_ou_subnicho/segmentos.json",
-          "sha256": "bbcca0100d68763cec66a181a48efddae2cfaa3a2901590dcb9ec05eedea33d0"
         }
       }
     },
@@ -80,7 +64,7 @@
       "titulo": "Episódio 03 Mecanismo Único, parte 01",
       "pasta": "hc_t1_e03_mecanismo_unico_parte_01",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 495.0,
       "fim_transcricao_segundos": 556.98,
@@ -89,16 +73,8 @@
       "video_bytes": 105252095,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e03_mecanismo_unico_parte_01/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e03_mecanismo_unico_parte_01.md",
           "sha256": "9f577948c0debb4ed8f99847b40a780b22ffa36fb72e3a977aea6021efa9b31a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e03_mecanismo_unico_parte_01/legenda.srt",
-          "sha256": "be7986d61ee10027bd444d0600ca2e04099e4dc94a227491311281667e84d6e5"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e03_mecanismo_unico_parte_01/segmentos.json",
-          "sha256": "93e405966c87bedd855fe9f52176529f21ce656478ef0a6dcc9a228232cb2429"
         }
       }
     },
@@ -113,7 +89,7 @@
       "titulo": "Episódio 04 Mecanismo Único, parte 02",
       "pasta": "hc_t1_e04_mecanismo_unico_parte_02",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 307.0,
       "fim_transcricao_segundos": 447.36,
@@ -122,16 +98,8 @@
       "video_bytes": 54985344,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e04_mecanismo_unico_parte_02/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e04_mecanismo_unico_parte_02.md",
           "sha256": "a4c3381b5c7a3589ca7883b617bd5b9d64475e33d7fd261c9b5196663c278525"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e04_mecanismo_unico_parte_02/legenda.srt",
-          "sha256": "6bd5fc63d6abf910cf8b75604af7d9782525ae1fe3e4bcddd6a3cf7432ddb998"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e04_mecanismo_unico_parte_02/segmentos.json",
-          "sha256": "6f2784641bf2d820530c294c11d5e6c2323cc599e8950ef6188ee9c4725a359d"
         }
       }
     },
@@ -146,7 +114,7 @@
       "titulo": "Episódio 05 Nível de Consciência do Lead",
       "pasta": "hc_t1_e05_nivel_de_consciencia_do_lead",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 612.0,
       "fim_transcricao_segundos": 673.18,
@@ -155,16 +123,8 @@
       "video_bytes": 108020047,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e05_nivel_de_consciencia_do_lead/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e05_nivel_de_consciencia_do_lead.md",
           "sha256": "8fc28a904301e62d5172ec6d8e67116431143324283fd3ace58bc1dde1d861e0"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e05_nivel_de_consciencia_do_lead/legenda.srt",
-          "sha256": "6fdb57b2706e1b98ae365d9d6e1a4d33279e5f9021c4d5dfc4faa6cf14c6fe47"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e05_nivel_de_consciencia_do_lead/segmentos.json",
-          "sha256": "a6b45f72a630d09b5fe5cea98fc2f8228304044cd2e5168b3c6cad3dbcfcd5bc"
         }
       }
     },
@@ -179,7 +139,7 @@
       "titulo": "Episódio 06 Estrutura de VSL",
       "pasta": "hc_t1_e06_estrutura_de_vsl",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 391.0,
       "fim_transcricao_segundos": 427.32,
@@ -188,16 +148,8 @@
       "video_bytes": 88730127,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e06_estrutura_de_vsl/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e06_estrutura_de_vsl.md",
           "sha256": "d082a7b4c0ca20f67138b7dc1620e52a9293ad492a40e668b1900c26d9fc9aef"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e06_estrutura_de_vsl/legenda.srt",
-          "sha256": "f7fdb798ef6fb0a74d3e14a6cb62537717d5562d4d0b32f9740d09630b84068f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e06_estrutura_de_vsl/segmentos.json",
-          "sha256": "07436b9b33a4df445341578c168321506c2e2b328f4c569063ff4b403318385a"
         }
       }
     },
@@ -212,7 +164,7 @@
       "titulo": "Episódio 07 Copy Para X1",
       "pasta": "hc_t1_e07_copy_para_x1",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 530.0,
       "fim_transcricao_segundos": 566.54,
@@ -221,16 +173,8 @@
       "video_bytes": 94723301,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e07_copy_para_x1/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e07_copy_para_x1.md",
           "sha256": "6a696c2562fc6caadf1db38f266595d389dca6d607f230cfd0aff8378c926036"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e07_copy_para_x1/legenda.srt",
-          "sha256": "2816beaa3d04ffc7e05b4da94789f96348a70cee943a2058d1d6eb5efe3ddadf"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e07_copy_para_x1/segmentos.json",
-          "sha256": "23f3feae005875d94926a1442d784f19bfff7e3078aaafa49b28bb94f7f7eba1"
         }
       }
     },
@@ -245,7 +189,7 @@
       "titulo": "Episódio 08 Página de Vendas",
       "pasta": "hc_t1_e08_pagina_de_vendas",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 322.0,
       "fim_transcricao_segundos": 355.8,
@@ -254,16 +198,8 @@
       "video_bytes": 61612950,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e08_pagina_de_vendas/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e08_pagina_de_vendas.md",
           "sha256": "1a0dac1f5fdd40284bb3e99fa289cbeda6c4b402f412514726c0744dd5eb7145"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e08_pagina_de_vendas/legenda.srt",
-          "sha256": "f90165a4cd5a3a71da562da715f9567c8fd62fa4043f20065fa366d31deb935d"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e08_pagina_de_vendas/segmentos.json",
-          "sha256": "c6bd95e100c6e73d09f6fb502ecca68ecc6381d7a99dc4dc10c65642c78050e2"
         }
       }
     },
@@ -278,7 +214,7 @@
       "titulo": "Episódio 09 Plot Twist",
       "pasta": "hc_t1_e09_plot_twist",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 176.0,
       "fim_transcricao_segundos": 221.64,
@@ -287,16 +223,8 @@
       "video_bytes": 34837594,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e09_plot_twist/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e09_plot_twist.md",
           "sha256": "8e0a8ee1687ca4b9a81501775a99dd13e808870f063598e1cab617f66caf4581"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e09_plot_twist/legenda.srt",
-          "sha256": "2e412d1c106c85d2c4fe074c8c7aedfd2775392109bff8b70d95ca0235d6ee11"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/1a Temporada - O Inicio/hc_t1_e09_plot_twist/segmentos.json",
-          "sha256": "4bd5a669a326d8bf7defb5738126c517f419a2021e667e7e9ac0d7e5e1797c07"
         }
       }
     },
@@ -311,7 +239,7 @@
       "titulo": "Episódio 01 Você está pronto?",
       "pasta": "hc_t2_e01_voce_esta_pronto",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 140.0,
       "fim_transcricao_segundos": 176.1,
@@ -320,16 +248,8 @@
       "video_bytes": 4189740,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e01_voce_esta_pronto/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e01_voce_esta_pronto.md",
           "sha256": "a6444b9c3b0f773200b97a8bc4579407e90c920c15f1d4d4ee55d82dac8811a6"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e01_voce_esta_pronto/legenda.srt",
-          "sha256": "9c02a6a7d4cfc8e09846fcbfed2ff574377b02aa6534b836260f2ff357382853"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e01_voce_esta_pronto/segmentos.json",
-          "sha256": "bd73c7e33df2acfdd8f512fba43497b0bb4edef35fc7591258eddc8de8652855"
         }
       }
     },
@@ -344,7 +264,7 @@
       "titulo": "Episódio 02 Parte 01 — O que não pode faltar",
       "pasta": "hc_t2_e02_parte_01_o_que_nao_pode_faltar",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 611.0,
       "fim_transcricao_segundos": 631.82,
@@ -353,16 +273,8 @@
       "video_bytes": 15507076,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_01_o_que_nao_pode_faltar/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_01_o_que_nao_pode_faltar.md",
           "sha256": "d7b68581b6fe99922e434eea8f2b09d5c04d9e06b796d98b3c5cbc3554cb5c86"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_01_o_que_nao_pode_faltar/legenda.srt",
-          "sha256": "33aa628845c1a1d703548ce94b19adb7b4e6bcb169279fd79e8dbd4e05231226"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_01_o_que_nao_pode_faltar/segmentos.json",
-          "sha256": "03ae9ad076af7a79d52ffd8dd22d7979ba30f09dcaec3114f2d0a2f1b2c35292"
         }
       }
     },
@@ -377,7 +289,7 @@
       "titulo": "Episódio 02 Parte 02 — O que não pode faltar",
       "pasta": "hc_t2_e02_parte_02_o_que_nao_pode_faltar",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 665.0,
       "fim_transcricao_segundos": 714.02,
@@ -386,16 +298,8 @@
       "video_bytes": 15331463,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_02_o_que_nao_pode_faltar/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_02_o_que_nao_pode_faltar.md",
           "sha256": "0cab5381b3dc7758d2b044e6ebe0543d3e55392737f5532c20a45ef8d4d69c56"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_02_o_que_nao_pode_faltar/legenda.srt",
-          "sha256": "3c7b331b48c3225ef7051f432844fabd0c8c82676c0febe5554c086de895ea61"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_02_o_que_nao_pode_faltar/segmentos.json",
-          "sha256": "f87a0b7db2e9c2503719ce07bbb7e957915387742a915367371af19e795a3234"
         }
       }
     },
@@ -410,7 +314,7 @@
       "titulo": "Episódio 02 Parte 03 — O que não pode faltar",
       "pasta": "hc_t2_e02_parte_03_o_que_nao_pode_faltar",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 917.0,
       "fim_transcricao_segundos": 972.26,
@@ -419,16 +323,8 @@
       "video_bytes": 21368280,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_03_o_que_nao_pode_faltar/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_03_o_que_nao_pode_faltar.md",
           "sha256": "4e8b95d945e68609f358b9afd9b3feeaaf8fe9c17248f96ac1fdf71aff1024a5"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_03_o_que_nao_pode_faltar/legenda.srt",
-          "sha256": "7770bdfb989a64cff7cf4a4749cd38963664d28b96183bcd854ebdd8697cc69f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_03_o_que_nao_pode_faltar/segmentos.json",
-          "sha256": "29d63f69e51368d963cacc369d7a859fa852f899b29e021a038ffec316977713"
         }
       }
     },
@@ -443,7 +339,7 @@
       "titulo": "Episódio 02 Parte 04 — O que não pode faltar",
       "pasta": "hc_t2_e02_parte_04_o_que_nao_pode_faltar",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 642.0,
       "fim_transcricao_segundos": 672.12,
@@ -452,16 +348,8 @@
       "video_bytes": 16826497,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_04_o_que_nao_pode_faltar/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_04_o_que_nao_pode_faltar.md",
           "sha256": "98e6e8fa379e6f2d6c650389419b6ddb1ac70fca0e7a8fee4c1b2451a87c4bf1"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_04_o_que_nao_pode_faltar/legenda.srt",
-          "sha256": "5991e03fcfcfcfbf030023fdad1c373d1d86c265cf0b31a2e9149ad076c47d4b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e02_parte_04_o_que_nao_pode_faltar/segmentos.json",
-          "sha256": "b98371ed37ca6a67d49c942246d096792019449a2da9872a8d88e7b72e47dc50"
         }
       }
     },
@@ -476,7 +364,7 @@
       "titulo": "Episódio 03 Kishu e suas bases",
       "pasta": "hc_t2_e03_kishu_e_suas_bases",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 273.0,
       "fim_transcricao_segundos": 312.18,
@@ -485,16 +373,8 @@
       "video_bytes": 10177836,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e03_kishu_e_suas_bases/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e03_kishu_e_suas_bases.md",
           "sha256": "332be23df76b137fe757ba6f32a33f7aa7ca1c7d9dd5f93a69bb016774f15b07"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e03_kishu_e_suas_bases/legenda.srt",
-          "sha256": "91c5d0a7b2abdc0ae96776c33ad64cd3af92ed36337141ab6610382f030a6497"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e03_kishu_e_suas_bases/segmentos.json",
-          "sha256": "6f1af00c408eb05071b351be99d8e57ab280b7dd82e2f203379b29e3d136723d"
         }
       }
     },
@@ -509,7 +389,7 @@
       "titulo": "Episódio 05 Desenvolvimento",
       "pasta": "hc_t2_e05_desenvolvimento",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 603.0,
       "fim_transcricao_segundos": 642.92,
@@ -518,16 +398,8 @@
       "video_bytes": 16401727,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e05_desenvolvimento/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e05_desenvolvimento.md",
           "sha256": "3fd5ae9d559a636f38266f6bb52d83e68c50e790d9dd86bc8e34d393289529d3"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e05_desenvolvimento/legenda.srt",
-          "sha256": "17939cdc1878472d6b07b7f71fe5a85d6f198a883fdb385004d2130721e8ec35"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e05_desenvolvimento/segmentos.json",
-          "sha256": "bb1fc87974e514360aa2472c371f79ec75b680f13c594a11484603c86ddac260"
         }
       }
     },
@@ -542,7 +414,7 @@
       "titulo": "Episódio 06 Plot Twist",
       "pasta": "hc_t2_e06_plot_twist",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 228.0,
       "fim_transcricao_segundos": 339.32,
@@ -551,16 +423,8 @@
       "video_bytes": 7630525,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e06_plot_twist/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e06_plot_twist.md",
           "sha256": "154c08ece5b4d0fda26ab62121b9347176aea7ee53535f1c7e868cbfdc479d24"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e06_plot_twist/legenda.srt",
-          "sha256": "c4b8d457eeee96c39d2f94fa500bcfcc70e24eb9c4cd6d653c09837668ae4a75"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e06_plot_twist/segmentos.json",
-          "sha256": "d9a35d33b1dacd01af8145ef3e3be0b007ab172e22356db9fa25e95a8510161a"
         }
       }
     },
@@ -575,7 +439,7 @@
       "titulo": "Episódio 07 Pitch de vendas (CTA)",
       "pasta": "hc_t2_e07_pitch_de_vendas_cta",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 734.0,
       "fim_transcricao_segundos": 800.92,
@@ -584,16 +448,8 @@
       "video_bytes": 21804287,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e07_pitch_de_vendas_cta/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e07_pitch_de_vendas_cta.md",
           "sha256": "553448c6334b9d8c9b378aec9ab9f65ff26efe8f0a74fd07a3e9fbdcb362d36d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e07_pitch_de_vendas_cta/legenda.srt",
-          "sha256": "f06b4cfa819a7e33a9f7d5da0b18fc61c4d351cd1959570d10c981f26f49f53f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e07_pitch_de_vendas_cta/segmentos.json",
-          "sha256": "a63cba6aafa726225a50ebcca3fa2965301b33ee6332bd66c50034264753cecb"
         }
       }
     },
@@ -608,7 +464,7 @@
       "titulo": "Episódio 08 Na prática",
       "pasta": "hc_t2_e08_na_pratica",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 696.0,
       "fim_transcricao_segundos": 736.14,
@@ -617,16 +473,8 @@
       "video_bytes": 18718009,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e08_na_pratica/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e08_na_pratica.md",
           "sha256": "034629b4ced8c91eb6e3e73a23f706f437bed9fe06cbda672e31ff66741bad33"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e08_na_pratica/legenda.srt",
-          "sha256": "7dd70a5c50184df7f38937c33db05f42b447695079324478e75210b22ef2c1cf"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e08_na_pratica/segmentos.json",
-          "sha256": "345b72d521c8fb0fc43def4a5e903283905e12e4dfd24cdc2658e5dedb073016"
         }
       }
     },
@@ -641,7 +489,7 @@
       "titulo": "Episódio 09 Análise de VSL",
       "pasta": "hc_t2_e09_analise_de_vsl",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 811.0,
       "fim_transcricao_segundos": 864.38,
@@ -650,16 +498,8 @@
       "video_bytes": 81424829,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e09_analise_de_vsl/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e09_analise_de_vsl.md",
           "sha256": "90aa32c03b792ef202ab9c6d15f1b2cfb92a3fa285c8e9c7018b80a213ee3435"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e09_analise_de_vsl/legenda.srt",
-          "sha256": "4dbf1bd5a4c9dba2db41212bc41b308593d65afde618c38fbc053f7e8d584be2"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/01 Hard Copy/2a Temporada - Kishotenketsu/hc_t2_e09_analise_de_vsl/segmentos.json",
-          "sha256": "415d1d9c654109f1146777698dbf2a526dd701777e719d8f7b96a9400d47a659"
         }
       }
     },
@@ -674,7 +514,7 @@
       "titulo": "Surpresa: estruturação de copy",
       "pasta": "hc_surpresa_estruturacao_de_copy",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 0,
       "fim_transcricao_segundos": 0,
@@ -683,7 +523,7 @@
       "video_bytes": 0,
       "fontes": {
         "material": {
-          "caminho": "hardcopy-pro/Materiais/01 Hard Copy/Surpresa/estruturacao_de_copy.md",
+          "caminho": "hardcopy-pro/transcricoes/Materiais/01 Hard Copy/Surpresa/estruturacao_de_copy.md",
           "sha256": "80917643e5826cfe8c5171aa37ea70e5b4989ebc8c59ca712470d58aa9a37c04"
         }
       }
@@ -699,7 +539,7 @@
       "titulo": "Episódio 1 - Liberte-se",
       "pasta": "hc_ads_criatividade_e01_liberte_se",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 235.0,
       "fim_transcricao_segundos": 305.5,
@@ -708,16 +548,8 @@
       "video_bytes": 50692930,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e01_liberte_se/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e01_liberte_se.md",
           "sha256": "09b5329fae2f408db628d3c7195cf17dcbe86049824edef8d57a8d38a5a0db80"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e01_liberte_se/legenda.srt",
-          "sha256": "ce3295549aa71ce981f9a0e7a504b127fdfa4037d79e3124793d427c7d5a4791"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e01_liberte_se/segmentos.json",
-          "sha256": "dca77c60b75243ca075306d4a58e59307b5ff1e9319ebb9f048f83196953657a"
         }
       }
     },
@@ -732,7 +564,7 @@
       "titulo": "Episódio 2 - Produtos",
       "pasta": "hc_ads_criatividade_e02_produtos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 499.0,
       "fim_transcricao_segundos": 543.94,
@@ -741,16 +573,8 @@
       "video_bytes": 117658474,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e02_produtos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e02_produtos.md",
           "sha256": "92a227473467bddaaae3e5f5f94bdc6d2c34b48ea1e924e17b32882bfa0368ec"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e02_produtos/legenda.srt",
-          "sha256": "f792d8ee3cf181069c3c1de419174b7e5850b9aa60cd20e30b09aeafcaf1700f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e02_produtos/segmentos.json",
-          "sha256": "a54abbec3ac9be8dc7e018bf5a23c57673c94a788c64546f4a973d9a39563bb8"
         }
       }
     },
@@ -765,7 +589,7 @@
       "titulo": "Episódio 3 - Inexistente",
       "pasta": "hc_ads_criatividade_e03_inexistente",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 290.0,
       "fim_transcricao_segundos": 364.12,
@@ -774,16 +598,8 @@
       "video_bytes": 61099322,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e03_inexistente/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e03_inexistente.md",
           "sha256": "2a66203f2da5bac01ddec30e58eec504f4f583375693f37b449b86330518b309"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e03_inexistente/legenda.srt",
-          "sha256": "e50b1a92120eecdd92789ef56becd08185bee3b1a79c58e0828e75cf9b8c3ac7"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e03_inexistente/segmentos.json",
-          "sha256": "c98e6fa1feee8e49f19512572f125cd7a20817fb49c0cd0cdf9b60e49539f89f"
         }
       }
     },
@@ -798,7 +614,7 @@
       "titulo": "Episódio 4 - A jogada de Mestre",
       "pasta": "hc_ads_criatividade_e04_a_jogada_de_mestre",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 371.0,
       "fim_transcricao_segundos": 394.16,
@@ -807,16 +623,8 @@
       "video_bytes": 80711651,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e04_a_jogada_de_mestre/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e04_a_jogada_de_mestre.md",
           "sha256": "1d7bd3fb365dd26cb8c35c0dac4b9731eec335efed11fdb1db1072801acabce0"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e04_a_jogada_de_mestre/legenda.srt",
-          "sha256": "e6097bb091481894be034c57d48ed66bb887d881759ddfb000c478413e359b03"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e04_a_jogada_de_mestre/segmentos.json",
-          "sha256": "340a2af0b0c074673b4bccde78a91738330f75e0e1f5d2967593a4bb5a94be6c"
         }
       }
     },
@@ -831,7 +639,7 @@
       "titulo": "Episódio 5 - Capacidade",
       "pasta": "hc_ads_criatividade_e05_capacidade",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 560.0,
       "fim_transcricao_segundos": 617.18,
@@ -840,16 +648,8 @@
       "video_bytes": 133813802,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e05_capacidade/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e05_capacidade.md",
           "sha256": "0e9273b9ddb5cc36938e24edd3e9c888c5691356d96a5e511826c52c2bb08b40"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e05_capacidade/legenda.srt",
-          "sha256": "3ba7bb08509323ba86feefd3733e2607d3b5ba719356ed04142b7ea4d54e18c7"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e05_capacidade/segmentos.json",
-          "sha256": "324d33ddde277f8b53e3f0757574fae961fb56cfe6a54fdb9fbb4414a2a9b6ee"
         }
       }
     },
@@ -864,7 +664,7 @@
       "titulo": "Episódio 6 - Facilidade",
       "pasta": "hc_ads_criatividade_e06_facilidade",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 136.0,
       "fim_transcricao_segundos": 223.24,
@@ -873,16 +673,8 @@
       "video_bytes": 22834078,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e06_facilidade/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e06_facilidade.md",
           "sha256": "6e90dbb088730b010e90c5e5eeb04811926c7de329aa3a7f5b1d01f127ce110b"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e06_facilidade/legenda.srt",
-          "sha256": "63979f66883f5fb3645727599a1e69393efd4a96590a6e67fbf945b704cbd650"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/01 Criatividade/hc_ads_criatividade_e06_facilidade/segmentos.json",
-          "sha256": "e64613b2b9b04cb249652136abad7443bb425d2527fd9be2a393b8d2a99aef72"
         }
       }
     },
@@ -897,7 +689,7 @@
       "titulo": "Episódio 1 - Mão na massa",
       "pasta": "hc_ads_roteirizacao_e01_mao_na_massa",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 183.0,
       "fim_transcricao_segundos": 228.94,
@@ -906,16 +698,8 @@
       "video_bytes": 5324982,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e01_mao_na_massa/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e01_mao_na_massa.md",
           "sha256": "779a25d7ddaf7c79f31b56e04f8a3d974095da789162ac83c3629943ce9a044a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e01_mao_na_massa/legenda.srt",
-          "sha256": "efc678ac68a72eca939260f98d8747861652d335e89f55b523e2ba5f1e68f441"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e01_mao_na_massa/segmentos.json",
-          "sha256": "b2750ed7d97843c894cda538186393fe81742ba64063227ff4d98cf510cce586"
         }
       }
     },
@@ -930,7 +714,7 @@
       "titulo": "Episódio 2 - kishotenketsu",
       "pasta": "hc_ads_roteirizacao_e02_kishotenketsu",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 241.0,
       "fim_transcricao_segundos": 293.26,
@@ -939,16 +723,8 @@
       "video_bytes": 7070017,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e02_kishotenketsu/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e02_kishotenketsu.md",
           "sha256": "1c9edc427a59752d1e706c1a2f3053a75eb0ca2f405a77a12485b7fe97df330a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e02_kishotenketsu/legenda.srt",
-          "sha256": "c00598b6e43adf63c37d55b3d3c6f0ef3f9f7a54303846d8bcf2bed656f9db19"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e02_kishotenketsu/segmentos.json",
-          "sha256": "48428219138dfdbac50860291fb5bec2cbdc5b0d0e85c70db8440451f7498df0"
         }
       }
     },
@@ -963,7 +739,7 @@
       "titulo": "Episódio 3 - Entenda Isso",
       "pasta": "hc_ads_roteirizacao_e03_entenda_isso",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 470.0,
       "fim_transcricao_segundos": 523.06,
@@ -972,16 +748,8 @@
       "video_bytes": 13258616,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e03_entenda_isso/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e03_entenda_isso.md",
           "sha256": "b5feefd91fae4cb88bbd54aa52f5f777f57c1841f452b0671fcb57f353354761"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e03_entenda_isso/legenda.srt",
-          "sha256": "848f4ef117983b2636ffa3dcd7fb0693b5daef1ef879a7a83a619f85dd614369"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e03_entenda_isso/segmentos.json",
-          "sha256": "2bda28c96b67fd733556a02eeffac6aef893c37c72a2fcdad7ff32bce38997f6"
         }
       }
     },
@@ -996,7 +764,7 @@
       "titulo": "Episódio 4 - Concorrência",
       "pasta": "hc_ads_roteirizacao_e04_concorrencia",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 684.0,
       "fim_transcricao_segundos": 765.24,
@@ -1005,16 +773,8 @@
       "video_bytes": 43146313,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e04_concorrencia/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e04_concorrencia.md",
           "sha256": "ec55f8caaa71db89778c4fa7bd2781f82d7584b3a511fbb866d75665059b358d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e04_concorrencia/legenda.srt",
-          "sha256": "cd5d2f900ca96903be6437d7779b65b2a29a897e131972f5aaea62069a052dbc"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e04_concorrencia/segmentos.json",
-          "sha256": "42513862d37c1fe9a2a29deda2aa74abdf420ee892677efb18c77c0c57fced82"
         }
       }
     },
@@ -1029,7 +789,7 @@
       "titulo": "Episódio 5 - Roterização",
       "pasta": "hc_ads_roteirizacao_e05_roterizacao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 421.0,
       "fim_transcricao_segundos": 510.76,
@@ -1038,16 +798,8 @@
       "video_bytes": 11419217,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e05_roterizacao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e05_roterizacao.md",
           "sha256": "87e73c1c6d21a39e44a24462346b969cd7b145ff3106fd7bcf582d51d4fc8cfc"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e05_roterizacao/legenda.srt",
-          "sha256": "68ef067d3898a8f8960b4fdb86c792ca17660c86c9aca1d0dd99f8eccebe5a29"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e05_roterizacao/segmentos.json",
-          "sha256": "3610aba28d20b8aefd4867cc2e59d440acfb712da6f8e608b16f96214175543c"
         }
       }
     },
@@ -1062,7 +814,7 @@
       "titulo": "Episódio 6 - Recapitulando",
       "pasta": "hc_ads_roteirizacao_e06_recapitulando",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 133.0,
       "fim_transcricao_segundos": 205.52,
@@ -1071,16 +823,8 @@
       "video_bytes": 4460097,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e06_recapitulando/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e06_recapitulando.md",
           "sha256": "dff4aa5e020f6e4e5ed0d7a849145f613985c79a456bfa3e6b6593f0f86dd496"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e06_recapitulando/legenda.srt",
-          "sha256": "99f382652da8ecf8df626c365f70c2982521402303969bc816f0e8143b6f61dd"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e06_recapitulando/segmentos.json",
-          "sha256": "89abc42bac143c69ee066f628ab1d7ae0687d52cad956b4ccf75a630d080e0de"
         }
       }
     },
@@ -1095,7 +839,7 @@
       "titulo": "Episódio 7 - Presta atenção",
       "pasta": "hc_ads_roteirizacao_e07_presta_atencao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 133.0,
       "fim_transcricao_segundos": 176.06,
@@ -1104,16 +848,8 @@
       "video_bytes": 4433195,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e07_presta_atencao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e07_presta_atencao.md",
           "sha256": "9ec1e232f418dee326b05d9d2dcdfb306ce86c44513b75ad7ff443a1263f1478"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e07_presta_atencao/legenda.srt",
-          "sha256": "c83c0ef6fba5d6397ccce05068d57151d6bb4d3e9a799015f401cc7dac34f454"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/02 Roteirizacao/hc_ads_roteirizacao_e07_presta_atencao/segmentos.json",
-          "sha256": "0a063e185e99456dc466aab190830a48c7a85fbea3d7aee1b24457ad565f94bc"
         }
       }
     },
@@ -1128,7 +864,7 @@
       "titulo": "Eposódio 1 - criando o primeiro ads",
       "pasta": "hc_ads_edicao_e01_criando_o_primeiro_ads",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 677.0,
       "fim_transcricao_segundos": 753.24,
@@ -1137,16 +873,8 @@
       "video_bytes": 26630704,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e01_criando_o_primeiro_ads/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/03 Edicao/hc_ads_edicao_e01_criando_o_primeiro_ads.md",
           "sha256": "092eec3a608fe0d9f60c8e91ffbea7284f9afa8be62038738b7019caf638041d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e01_criando_o_primeiro_ads/legenda.srt",
-          "sha256": "75c47f29344bcc560c417cdcd76d1d69088517b34b6aee84bd8605a5162251e5"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e01_criando_o_primeiro_ads/segmentos.json",
-          "sha256": "f07806c8efec1ca5070046101fb7c9bb57b79d8b619abd2f272e87617a56dcf5"
         }
       }
     },
@@ -1161,7 +889,7 @@
       "titulo": "Eposódio 2 - canva",
       "pasta": "hc_ads_edicao_e02_canva",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 2194.0,
       "fim_transcricao_segundos": 2263.38,
@@ -1170,16 +898,8 @@
       "video_bytes": 134750244,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e02_canva/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/03 Edicao/hc_ads_edicao_e02_canva.md",
           "sha256": "13c0625794dccd58146075a97bef94ca2a7d461a01e2c1900d5eb69019be439d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e02_canva/legenda.srt",
-          "sha256": "affcb0768ea526de09bc533d5a6781ca3423075a2b39ee2b8dccbd5e803c0a63"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e02_canva/segmentos.json",
-          "sha256": "b82c00e9a849677cff1bcb3d5190aecf5875488d5842624e0b06c1e26109891e"
         }
       }
     },
@@ -1194,7 +914,7 @@
       "titulo": "Eposódio 3 - vídeo",
       "pasta": "hc_ads_edicao_e03_video",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1213.0,
       "fim_transcricao_segundos": 1278.46,
@@ -1203,16 +923,8 @@
       "video_bytes": 67426385,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e03_video/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/03 Edicao/hc_ads_edicao_e03_video.md",
           "sha256": "4264c01a9f544080c5ce31698230e6f897dede5f378f06a2e70d9e5a0c0c7117"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e03_video/legenda.srt",
-          "sha256": "a0fd79a257f81e05842f372df532334a017e7c8967c60296af9d579d4a75450a"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e03_video/segmentos.json",
-          "sha256": "9f1ba603022abcd4cd90994d7fed9d7698c98f0c135fac34a6d6664aa8807036"
         }
       }
     },
@@ -1227,7 +939,7 @@
       "titulo": "Episódio 4 - Sentimentalismo",
       "pasta": "hc_ads_edicao_e04_sentimentalismo",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 438.0,
       "fim_transcricao_segundos": 540.96,
@@ -1236,16 +948,8 @@
       "video_bytes": 32171917,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e04_sentimentalismo/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/03 Edicao/hc_ads_edicao_e04_sentimentalismo.md",
           "sha256": "e2ea3c702d344962e0f1f96ad6d2debc526ab0b8a784f548ab73f1f24c597fe7"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e04_sentimentalismo/legenda.srt",
-          "sha256": "5fb763309528564aa609bd041becc8bdef7945d2cad3dd8908657c8c3ecf6c07"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e04_sentimentalismo/segmentos.json",
-          "sha256": "a2a2a1db2dc7d30b4edbe637573a914cde90ef1c61e859f2ed930a46c5e0e7c2"
         }
       }
     },
@@ -1260,7 +964,7 @@
       "titulo": "Eposódio 5 - preste atenção",
       "pasta": "hc_ads_edicao_e05_preste_atencao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 141.0,
       "fim_transcricao_segundos": 263.8,
@@ -1269,16 +973,8 @@
       "video_bytes": 10240071,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e05_preste_atencao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/03 Edicao/hc_ads_edicao_e05_preste_atencao.md",
           "sha256": "8343ff7e69ae9b787ddc4cb427413712692c2d7ac52d1720c73535b3841596f1"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e05_preste_atencao/legenda.srt",
-          "sha256": "02d6b3e5250c27f27384b20e5637023324fdf7d310b93601852c6c3024b30157"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/03 Edicao/hc_ads_edicao_e05_preste_atencao/segmentos.json",
-          "sha256": "111f75cf3bb678f72b4dde9e6b3d178fb41afc7feb7d667327dd244679796c6a"
         }
       }
     },
@@ -1293,7 +989,7 @@
       "titulo": "Episódio 1 - Onde tocar",
       "pasta": "hc_ads_dores_e01_onde_tocar",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 587.0,
       "fim_transcricao_segundos": 696.22,
@@ -1302,16 +998,8 @@
       "video_bytes": 44538981,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e01_onde_tocar/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e01_onde_tocar.md",
           "sha256": "bc5132e6af18259a03ba0c8eba242a31f75eeb765fc9ab01165a2f740456acac"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e01_onde_tocar/legenda.srt",
-          "sha256": "18e5885d97b0582a50f3539030645a345c4f73b38943f49211550666bf670b4b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e01_onde_tocar/segmentos.json",
-          "sha256": "c85f8430fba6fbed96acc40f746130c462131b5188cd1a527304123c26f0f538"
         }
       }
     },
@@ -1326,7 +1014,7 @@
       "titulo": "Episódio 2 - Como Começar",
       "pasta": "hc_ads_dores_e02_como_comecar",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 485.0,
       "fim_transcricao_segundos": 583.18,
@@ -1335,16 +1023,8 @@
       "video_bytes": 11999271,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e02_como_comecar/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e02_como_comecar.md",
           "sha256": "ce6de571a8ede47ee9496a87187d6251821f88642184e042701ee78cba8444e2"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e02_como_comecar/legenda.srt",
-          "sha256": "e98555e66834019d4ad9cc7add2bbd796f799acb82b766f9c7332092305fb085"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e02_como_comecar/segmentos.json",
-          "sha256": "b59c5dd160398de34fe28002504e0f861ab1f1e4aa616ba2427c131b81eba160"
         }
       }
     },
@@ -1359,7 +1039,7 @@
       "titulo": "Episódio 3 - Copy Emagrecimento",
       "pasta": "hc_ads_dores_e03_copy_emagrecimento",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 499.0,
       "fim_transcricao_segundos": 564.78,
@@ -1368,16 +1048,8 @@
       "video_bytes": 14532195,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e03_copy_emagrecimento/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e03_copy_emagrecimento.md",
           "sha256": "07e797d6c549b9ef78c67ab8e5a530c1ef5c686fe9c590fec4ecd07982a32123"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e03_copy_emagrecimento/legenda.srt",
-          "sha256": "b0e2b221b0cc8ec6bd3ef695570fa26577c7543009bb2fe533e325b8b01fb6fa"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e03_copy_emagrecimento/segmentos.json",
-          "sha256": "50429d5e64c3d0d876dc17a308a83a531c16b87f47402613127876669794126a"
         }
       }
     },
@@ -1392,7 +1064,7 @@
       "titulo": "Episódio 4 - Canva Emagrecimento",
       "pasta": "hc_ads_dores_e04_canva_emagrecimento",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1351.0,
       "fim_transcricao_segundos": 1460.06,
@@ -1401,16 +1073,8 @@
       "video_bytes": 87392673,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e04_canva_emagrecimento/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e04_canva_emagrecimento.md",
           "sha256": "c0f39c0404cf46dec24b4283ed283fb8de92075436a4e8a39f5a554a1f17769c"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e04_canva_emagrecimento/legenda.srt",
-          "sha256": "9f2b40593977318075f3b358f99996031e1aa244ae21b149c1b28af02321f5ec"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e04_canva_emagrecimento/segmentos.json",
-          "sha256": "c5d4e92d186616fb887c5ca86a9eedf64d282333d4c8ed6eb7c31039d9d5a3e6"
         }
       }
     },
@@ -1425,7 +1089,7 @@
       "titulo": "Episódio 5 - CapCut Emagrecimento",
       "pasta": "hc_ads_dores_e05_capcut_emagrecimento",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1028.0,
       "fim_transcricao_segundos": 1094.74,
@@ -1434,16 +1098,8 @@
       "video_bytes": 63941008,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e05_capcut_emagrecimento/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e05_capcut_emagrecimento.md",
           "sha256": "f6d39f6059c7a45973f92765c3a21301f7d23dc31d95e7d2eb3220db26a5567e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e05_capcut_emagrecimento/legenda.srt",
-          "sha256": "c84ed2a4301f5c79f03dff1f85b72369da91d3d3de769c0f5f2fa2c46fbcad27"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e05_capcut_emagrecimento/segmentos.json",
-          "sha256": "83ddef5faf004b0ae0ccf9022a545e1c82d2ff5ba0a850cc8271632f33d17d92"
         }
       }
     },
@@ -1458,7 +1114,7 @@
       "titulo": "Episódio 6 - Copy Cabelo",
       "pasta": "hc_ads_dores_e06_copy_cabelo",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 500.0,
       "fim_transcricao_segundos": 549.2,
@@ -1467,16 +1123,8 @@
       "video_bytes": 15365137,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e06_copy_cabelo/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e06_copy_cabelo.md",
           "sha256": "2570be0032382b4ef336a1372c4eeec8c63e97e655b8ce628f475e8d013d5158"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e06_copy_cabelo/legenda.srt",
-          "sha256": "c7452a2f3e2cae5ad65e00d7a0d5d3c488cb91f5647e97517d820a5ea5be4eb4"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e06_copy_cabelo/segmentos.json",
-          "sha256": "2b78b76c2f12f77cf11a5743cce074225fa6581e9c50d4cfb41e8977d5379e4a"
         }
       }
     },
@@ -1491,7 +1139,7 @@
       "titulo": "Episódio 7 - Canva Cabelo",
       "pasta": "hc_ads_dores_e07_canva_cabelo",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1216.0,
       "fim_transcricao_segundos": 1261.22,
@@ -1500,16 +1148,8 @@
       "video_bytes": 87517689,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e07_canva_cabelo/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e07_canva_cabelo.md",
           "sha256": "644ffd2fe04f04ec3a0be740bae50559ed37d046e3f756b76f9e123b4d6b39b5"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e07_canva_cabelo/legenda.srt",
-          "sha256": "13faceb292d49391b1b63614b77f0d5f7a2588ed757ab70f14f34114a235095b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e07_canva_cabelo/segmentos.json",
-          "sha256": "a1c19ce56902b83d8e55cce9bc6867bd20ccf4a1b70b5eaae2a49d311cbaabfb"
         }
       }
     },
@@ -1524,7 +1164,7 @@
       "titulo": "Episódio 8 - CapCut Cabelo",
       "pasta": "hc_ads_dores_e08_capcut_cabelo",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 853.0,
       "fim_transcricao_segundos": 887.46,
@@ -1533,16 +1173,8 @@
       "video_bytes": 61421180,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e08_capcut_cabelo/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e08_capcut_cabelo.md",
           "sha256": "91863808ecda698ebbc53574e9467948ffa733fb677c99dc9125f8f7339f19bf"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e08_capcut_cabelo/legenda.srt",
-          "sha256": "7c305be9ad34ba9f723520067bf8a30bc5f16ec58c0aaa447d5f727291f9e712"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e08_capcut_cabelo/segmentos.json",
-          "sha256": "46bfa8a3d08e88af3db23cdfe8d9591b217ebdecea213118649ad14bf2c3d823"
         }
       }
     },
@@ -1557,7 +1189,7 @@
       "titulo": "Episódio 9 - Copy Público 50+",
       "pasta": "hc_ads_dores_e09_copy_publico_50_mais",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 860.0,
       "fim_transcricao_segundos": 1126.08,
@@ -1566,16 +1198,8 @@
       "video_bytes": 26015336,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e09_copy_publico_50_mais/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e09_copy_publico_50_mais.md",
           "sha256": "2004546b5fffe14c0e19cde3b6548d9feb458424a442dd9ab37799045c21b60a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e09_copy_publico_50_mais/legenda.srt",
-          "sha256": "18562678d35e7b50ed8c5b0e88999dae1346d2e110fa381b71bba491645a3207"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e09_copy_publico_50_mais/segmentos.json",
-          "sha256": "bd711a2ecc78e6f7bb3bdf0258b249c4f75f365fef1bbe507610780a4117071c"
         }
       }
     },
@@ -1590,7 +1214,7 @@
       "titulo": "Episódio 10 - Canva Público 50+",
       "pasta": "hc_ads_dores_e10_canva_publico_50_mais",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1011.0,
       "fim_transcricao_segundos": 1060.24,
@@ -1599,16 +1223,8 @@
       "video_bytes": 73833686,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e10_canva_publico_50_mais/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e10_canva_publico_50_mais.md",
           "sha256": "fcb91699745e8d731750412c7e79699c48de575c6152aaadea5c23c686cad7bc"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e10_canva_publico_50_mais/legenda.srt",
-          "sha256": "76f5ca7e0d4b7a46b79a753002564ed3720a9f2545da466030d81b10a6575b54"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e10_canva_publico_50_mais/segmentos.json",
-          "sha256": "2a6625da876139de56ce873d904693e67bce375b8d57ba5e2c69d6dc96da747c"
         }
       }
     },
@@ -1623,7 +1239,7 @@
       "titulo": "Episódio 11 - CapCut Público 50+",
       "pasta": "hc_ads_dores_e11_capcut_publico_50_mais",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1546.0,
       "fim_transcricao_segundos": 1619.66,
@@ -1632,16 +1248,8 @@
       "video_bytes": 106282195,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e11_capcut_publico_50_mais/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e11_capcut_publico_50_mais.md",
           "sha256": "13401259b6612b27dd366aa1de66e1448511cd311ad442627ae08c4bedd5e763"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e11_capcut_publico_50_mais/legenda.srt",
-          "sha256": "32a408fcd05e01cb6b54ab67f7b4d3aff9786dd7cc51cd5dd75639229ff3c30c"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e11_capcut_publico_50_mais/segmentos.json",
-          "sha256": "30ea1f670c9b0291c3a79f1293bd5130501d33683b545b7f56dd6d5250098b3c"
         }
       }
     },
@@ -1656,7 +1264,7 @@
       "titulo": "Episódio 12 - Vem Aqui Rapidinho",
       "pasta": "hc_ads_dores_e12_vem_aqui_rapidinho",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 117.0,
       "fim_transcricao_segundos": 174.98,
@@ -1665,16 +1273,8 @@
       "video_bytes": 5965460,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e12_vem_aqui_rapidinho/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e12_vem_aqui_rapidinho.md",
           "sha256": "9c0fd99bef413cdcfa8aebeaf9c6dc0675330985d7fa6b45ee29d66f27e0931f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e12_vem_aqui_rapidinho/legenda.srt",
-          "sha256": "49191f8eec1abae81ede0a0282145cfc9b95320cb8bb0058598841d5b5930f62"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e12_vem_aqui_rapidinho/segmentos.json",
-          "sha256": "6ba1e7030a0c6970ee5df4572ebd66ce2afcb9c9302e7fc944c2a9b0c6484a25"
         }
       }
     },
@@ -1689,7 +1289,7 @@
       "titulo": "Episódio 1 - Tem ferida?",
       "pasta": "hc_ads_locais_e01_tem_ferida",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1252.0,
       "fim_transcricao_segundos": 1323.84,
@@ -1698,16 +1298,8 @@
       "video_bytes": 85642708,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e01_tem_ferida/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e01_tem_ferida.md",
           "sha256": "88e8d4cf93495efd8563a8e8ddd109a7d4f47e63f17232e76b3f12803c833ded"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e01_tem_ferida/legenda.srt",
-          "sha256": "0c6df32dbaad83fe3710f8e32eabf0e15ffd8d05829cb1f009d430e6271d12ce"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e01_tem_ferida/segmentos.json",
-          "sha256": "ca9785b90a81f7b602602425b3b3f8f4d5cf8f65660606092a78a9ed956d634c"
         }
       }
     },
@@ -1722,7 +1314,7 @@
       "titulo": "Episódio 2 - Início",
       "pasta": "hc_ads_locais_e02_inicio",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 302.0,
       "fim_transcricao_segundos": 356.02,
@@ -1731,16 +1323,8 @@
       "video_bytes": 10150790,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e02_inicio/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e02_inicio.md",
           "sha256": "560e254475ed524246b0c4d6570c8e4d031630c11a8305803ad0b76bb3c8268e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e02_inicio/legenda.srt",
-          "sha256": "ed2bd4114e225b2be459cba7a8f780ddf41094616246e3a79629c285d5e4780a"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e02_inicio/segmentos.json",
-          "sha256": "e155d1adb4de155b36dacd05f31111e9a0d21581aeba469c0824aaa0a5bc50c2"
         }
       }
     },
@@ -1755,7 +1339,7 @@
       "titulo": "Episódio 3 - Conexão",
       "pasta": "hc_ads_locais_e03_conexao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 153.0,
       "fim_transcricao_segundos": 227.1,
@@ -1764,16 +1348,8 @@
       "video_bytes": 4556530,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e03_conexao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e03_conexao.md",
           "sha256": "6a2c78c6f788e367bab49555ca6bb846a2d4cbba080292f3691ab8cc4ebfd0e0"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e03_conexao/legenda.srt",
-          "sha256": "ec5ad8b91af5244268d10e65b23f3c1eb03a1c5fcedbdc36f8d90f12d81cc206"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e03_conexao/segmentos.json",
-          "sha256": "f865546af2613466fbd631edff2cad7066aa327b6aafba98b552057dcd571fce"
         }
       }
     },
@@ -1788,7 +1364,7 @@
       "titulo": "Episódio 4 - Sapatos",
       "pasta": "hc_ads_locais_e04_sapatos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 967.0,
       "fim_transcricao_segundos": 1040.5,
@@ -1797,16 +1373,8 @@
       "video_bytes": 37322575,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e04_sapatos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e04_sapatos.md",
           "sha256": "fe967e518c02861e01baa65bd9c4d9bcd3a3f647c37f73f3d7ad3c448593048f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e04_sapatos/legenda.srt",
-          "sha256": "4a88620f6a062b1d8d7c33fafabab3e038e181c0b2969e3c3fe3e2004f4beb6e"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e04_sapatos/segmentos.json",
-          "sha256": "c099554ab9e5f27d2509c889b9165556e7d18b0f2335f1981a3cc27db882948a"
         }
       }
     },
@@ -1821,7 +1389,7 @@
       "titulo": "Episódio 5 - Canva (Sapatos)",
       "pasta": "hc_ads_locais_e05_canva_sapatos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 891.0,
       "fim_transcricao_segundos": 912.66,
@@ -1830,16 +1398,8 @@
       "video_bytes": 62435065,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e05_canva_sapatos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e05_canva_sapatos.md",
           "sha256": "e3c7db3d4c75b4b3a922add61bb34ff18a09436ba5bfb08eabb149a01f381286"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e05_canva_sapatos/legenda.srt",
-          "sha256": "0046acb9f2e54efec828d7c7d71219e918265bfe4cff9594ff0c5becd2032141"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e05_canva_sapatos/segmentos.json",
-          "sha256": "e09ffe06a9336d4b48cc4355114d2a1dd008da561db0eed9aca5bd2bda74e737"
         }
       }
     },
@@ -1854,7 +1414,7 @@
       "titulo": "Episódio 6 - CapCut (Sapatos)",
       "pasta": "hc_ads_locais_e06_capcut_sapatos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 702.0,
       "fim_transcricao_segundos": 781.96,
@@ -1863,16 +1423,8 @@
       "video_bytes": 47540046,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e06_capcut_sapatos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e06_capcut_sapatos.md",
           "sha256": "c302e7d2662abed42ec09d07e71262ccb8e02c1ec53b0dcb40a51a9ad23b5965"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e06_capcut_sapatos/legenda.srt",
-          "sha256": "e5acc932f44ffe8fa494ff655bd2116568e5abab04cc073fe19638ac6ed7131f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e06_capcut_sapatos/segmentos.json",
-          "sha256": "eb9413373ec9fdfbe105e2cf3bf6ed27325144af97a050cb43e23b78261a3722"
         }
       }
     },
@@ -1887,7 +1439,7 @@
       "titulo": "Episódio 7 - Carros",
       "pasta": "hc_ads_locais_e07_carros",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1557.0,
       "fim_transcricao_segundos": 1635.44,
@@ -1896,16 +1448,8 @@
       "video_bytes": 67793418,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e07_carros/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e07_carros.md",
           "sha256": "188151942d63922aa336f7464eeb4b097c72b10e738ecb14f7d9a6f9025a71ed"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e07_carros/legenda.srt",
-          "sha256": "3faaaf1bf3872610306ec3f028d529cffaa45fdd793a58f616520a1dd056d675"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e07_carros/segmentos.json",
-          "sha256": "7263048867a3c72fad5786890e97793f005954e444e74fc3e11a32456bec869d"
         }
       }
     },
@@ -1920,7 +1464,7 @@
       "titulo": "Episódio 8 - Canva (Carros)",
       "pasta": "hc_ads_locais_e08_canva_carros",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1723.0,
       "fim_transcricao_segundos": 1767.86,
@@ -1929,16 +1473,8 @@
       "video_bytes": 116957807,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e08_canva_carros/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e08_canva_carros.md",
           "sha256": "e91be041627f19286c7a391bbc02ba423de7cc3f71da125cf94279f813567d88"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e08_canva_carros/legenda.srt",
-          "sha256": "8844fa5be951772a9bc28e9ac2f26db0d071e64b7efb5e904a8b3375b10f8538"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e08_canva_carros/segmentos.json",
-          "sha256": "6c5991c26c630cc59c8473503679ab639231844e6dee42ce82ece0aaa5f50745"
         }
       }
     },
@@ -1953,7 +1489,7 @@
       "titulo": "Episódio 9 - CapCut (Carros)",
       "pasta": "hc_ads_locais_e09_capcut_carros",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1164.0,
       "fim_transcricao_segundos": 1201.96,
@@ -1962,16 +1498,8 @@
       "video_bytes": 77658178,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e09_capcut_carros/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e09_capcut_carros.md",
           "sha256": "28e25d0d9a49dbe03299c370671888aa1339ea3a969c0198da209d010c1cd9d5"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e09_capcut_carros/legenda.srt",
-          "sha256": "39037faa14980ac65c7d4fc03a00633551db020157b26db7040d23032ba1f0eb"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e09_capcut_carros/segmentos.json",
-          "sha256": "3af2a27f1c697b3d4283f8c809491c42b8691918bb43b6c1de17b4c33defc9bf"
         }
       }
     },
@@ -1986,7 +1514,7 @@
       "titulo": "Episódio 10 - Serviços",
       "pasta": "hc_ads_locais_e10_servicos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 396.0,
       "fim_transcricao_segundos": 450.22,
@@ -1995,16 +1523,8 @@
       "video_bytes": 11386678,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e10_servicos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e10_servicos.md",
           "sha256": "aeb8b3bb4f156c5ac85e90dc68f96f96854926be15678f1f2be1a75362edd606"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e10_servicos/legenda.srt",
-          "sha256": "009c4ed4e0bf79b607971656368dd811d5d49e9ff42d8914bb592a132e0fd286"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e10_servicos/segmentos.json",
-          "sha256": "46623aa0e2ec275d7df7d6455b603ce85e7637cc5f41bd3b0f9e5b3c7fce3bcb"
         }
       }
     },
@@ -2019,7 +1539,7 @@
       "titulo": "Episódio 11 - Canva (Serviços)",
       "pasta": "hc_ads_locais_e11_canva_servicos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 975.0,
       "fim_transcricao_segundos": 1029.76,
@@ -2028,16 +1548,8 @@
       "video_bytes": 58500419,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e11_canva_servicos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e11_canva_servicos.md",
           "sha256": "adb7045a8b0a62fdae4ace858d3be0a583c6d4585b97031464df2c9b07952bbb"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e11_canva_servicos/legenda.srt",
-          "sha256": "3f93a2ebb289c10e2758a2d7b72f84b1f6538895c0f0963f4aa6b0a9531c81c5"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e11_canva_servicos/segmentos.json",
-          "sha256": "b5fce396bb3eff7464822c1672fd8d4f33d7ea9b6426d19cb35e93a018dda98c"
         }
       }
     },
@@ -2052,7 +1564,7 @@
       "titulo": "Episódio 12 - CapCut (Serviços)",
       "pasta": "hc_ads_locais_e12_capcut_servicos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 703.0,
       "fim_transcricao_segundos": 753.56,
@@ -2061,16 +1573,8 @@
       "video_bytes": 44105742,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e12_capcut_servicos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e12_capcut_servicos.md",
           "sha256": "f509aaf324eab6c56379d0a3444941221a3d8ea6edfc6e1581e83de5a80f3f78"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e12_capcut_servicos/legenda.srt",
-          "sha256": "c5b03e9bc66ec8c626442c9433d9c31a5bd6c7827bab5690cb6d26f6d82bcef1"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e12_capcut_servicos/segmentos.json",
-          "sha256": "3cfdc2ce69508104485a06155bc6d5ae15646c60ee3a5c191cecccaadefb4189"
         }
       }
     },
@@ -2085,7 +1589,7 @@
       "titulo": "Episódio 13 - Olha isso...",
       "pasta": "hc_ads_locais_e13_olha_isso",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 73.0,
       "fim_transcricao_segundos": 147.62,
@@ -2094,16 +1598,8 @@
       "video_bytes": 2610020,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e13_olha_isso/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e13_olha_isso.md",
           "sha256": "b8a8f055bd15484eca333111b8b107a7ace6e732a2ca16a764725a0a143659aa"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e13_olha_isso/legenda.srt",
-          "sha256": "953e4e4dcd09e44821d45d5f199df80e2aa7041620747ed5292f4a12c65e995f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/05 Negocios Locais/hc_ads_locais_e13_olha_isso/segmentos.json",
-          "sha256": "cd849f6183c3e3ab27378c34e83f02af55507a2ec4d7dfb740aeaa427210fece"
         }
       }
     },
@@ -2118,7 +1614,7 @@
       "titulo": "Episódio 1 - Mecanismo único oculto",
       "pasta": "hc_ads_fisicos_e01_mecanismo_unico_oculto",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1202.0,
       "fim_transcricao_segundos": 1276.76,
@@ -2127,16 +1623,8 @@
       "video_bytes": 75362328,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e01_mecanismo_unico_oculto/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e01_mecanismo_unico_oculto.md",
           "sha256": "d3456bfe78cdd871745f791a866a7bb90eef50511c3ee92d95f65799f94c60c2"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e01_mecanismo_unico_oculto/legenda.srt",
-          "sha256": "07fd27434098673f58fd60b6dff77ebb8b267fbdafee9d416e522640ce949693"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e01_mecanismo_unico_oculto/segmentos.json",
-          "sha256": "a688ccd7210ed7563a75e9ba39d37e825877fcdc3c0b3a9d95a340c4e9aaebf0"
         }
       }
     },
@@ -2151,7 +1639,7 @@
       "titulo": "Episódio 2 - Encapsulado",
       "pasta": "hc_ads_fisicos_e02_encapsulado",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 469.0,
       "fim_transcricao_segundos": 518.7,
@@ -2160,16 +1648,8 @@
       "video_bytes": 14400975,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e02_encapsulado/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e02_encapsulado.md",
           "sha256": "e3a4766f33760211e6b00ed1101d430cb290f806bc2dfda715a18694c0bb723e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e02_encapsulado/legenda.srt",
-          "sha256": "71aa072f819aeccc4d2fb4623857e38edeac7032c36e36536ea4db64a0223e60"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e02_encapsulado/segmentos.json",
-          "sha256": "9babab7a4b6549c68360f03aec69fdcecc52decb81cad27f61543103bff88e8b"
         }
       }
     },
@@ -2184,7 +1664,7 @@
       "titulo": "Episódio 3 - Canva",
       "pasta": "hc_ads_fisicos_e03_canva",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1048.0,
       "fim_transcricao_segundos": 1100.28,
@@ -2193,16 +1673,8 @@
       "video_bytes": 72025775,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e03_canva/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e03_canva.md",
           "sha256": "4e15222485695418d145c6f530dea7fc51c9042db76006193861218a9bb53dc2"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e03_canva/legenda.srt",
-          "sha256": "5b513d5cb26a4800f7610b3c7d116b72a37bde8730c3b096cf81bf0ba3255657"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e03_canva/segmentos.json",
-          "sha256": "45f5133112968e5e37df58977657244157862c48e9d9b6403abde34b2d09ca52"
         }
       }
     },
@@ -2217,7 +1689,7 @@
       "titulo": "Episódio 4 - CapCut",
       "pasta": "hc_ads_fisicos_e04_capcut",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 712.0,
       "fim_transcricao_segundos": 780.06,
@@ -2226,16 +1698,8 @@
       "video_bytes": 49031163,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e04_capcut/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e04_capcut.md",
           "sha256": "46283029d87a9285c70839291e0ca219abec5b2fae7cadf40f18db17611c206a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e04_capcut/legenda.srt",
-          "sha256": "9bace307bd043a8bba91fd613000e8207e1f61f0c7f29c2427e559eaad7c9783"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e04_capcut/segmentos.json",
-          "sha256": "2e0656b7354dae8088cf6aa7a98f2f270d790e408bbe5028a81a310b95bfacd6"
         }
       }
     },
@@ -2250,7 +1714,7 @@
       "titulo": "Episódio 5 - Abajur",
       "pasta": "hc_ads_fisicos_e05_abajur",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1361.0,
       "fim_transcricao_segundos": 1394.54,
@@ -2259,16 +1723,8 @@
       "video_bytes": 84168213,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e05_abajur/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e05_abajur.md",
           "sha256": "c05ecd0f6817c7f890180e69e900d2e00ecaac816bbe1fcd6adb4df9878abc1e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e05_abajur/legenda.srt",
-          "sha256": "c1e41c0c1bc113aeef7b53fbda2cdd533fad478be33a0950ba8e466c70db791d"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e05_abajur/segmentos.json",
-          "sha256": "46807db2209db6e19347c6b0c85fc048553a3d495c9504e730f90c008897e1ff"
         }
       }
     },
@@ -2283,7 +1739,7 @@
       "titulo": "Episódio 6 - CapCut",
       "pasta": "hc_ads_fisicos_e06_capcut",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 312.0,
       "fim_transcricao_segundos": 390.2,
@@ -2292,16 +1748,8 @@
       "video_bytes": 15181721,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e06_capcut/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e06_capcut.md",
           "sha256": "9e12f8b5f9e77c8aebc40430c1945ccb1eb3acacdac1bf643a52017c46e4b07b"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e06_capcut/legenda.srt",
-          "sha256": "6a92ee1cec62bd3808dd8ea40e70786a127305aad6a9680f6efda54a5fead273"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e06_capcut/segmentos.json",
-          "sha256": "2b8c3f0f33e7e0fa1a8c1e124a0ce2cf4f111c4cdf3cd990d3b189c76b143fa2"
         }
       }
     },
@@ -2316,7 +1764,7 @@
       "titulo": "Episódio 7 - Petshop",
       "pasta": "hc_ads_fisicos_e07_petshop",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 722.0,
       "fim_transcricao_segundos": 792.7,
@@ -2325,16 +1773,8 @@
       "video_bytes": 23804404,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e07_petshop/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e07_petshop.md",
           "sha256": "97e1af47044ed0c371dc537da69041519fb47e405d2500db3b52ff1fd2c9039f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e07_petshop/legenda.srt",
-          "sha256": "0e5509d5dbec1775639259e5f61d23a911d5aa0185ba187a43ffe8a023df3e82"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e07_petshop/segmentos.json",
-          "sha256": "ad881b1fd49ea97646c842e59ea72043bf2d4803653f69ee1228d45840b6643c"
         }
       }
     },
@@ -2349,7 +1789,7 @@
       "titulo": "Episódio 8 - Canva",
       "pasta": "hc_ads_fisicos_e08_canva",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 715.0,
       "fim_transcricao_segundos": 759.22,
@@ -2358,16 +1798,8 @@
       "video_bytes": 51350337,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e08_canva/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e08_canva.md",
           "sha256": "363ae1d362ab90b030cdc1154cb623298e60d0760c0d4313e08a48fb2552ca75"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e08_canva/legenda.srt",
-          "sha256": "0a0060e6cb18250c1fa86d6a5c35d0365d9cfc8c38f527b677714a94e5336ede"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e08_canva/segmentos.json",
-          "sha256": "e83901026108c53f307be74e2ffdfec29bd1fdabdba2a887a84f7f4ce3bdd0eb"
         }
       }
     },
@@ -2382,7 +1814,7 @@
       "titulo": "Episódio 9 - CapCut",
       "pasta": "hc_ads_fisicos_e09_capcut",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 645.0,
       "fim_transcricao_segundos": 724.6,
@@ -2391,16 +1823,8 @@
       "video_bytes": 37484324,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e09_capcut/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e09_capcut.md",
           "sha256": "9caa47684ace6da83248b7929d97b04a07dca9204e2835c9a480b84f4383853d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e09_capcut/legenda.srt",
-          "sha256": "a21131ee6fed9a67e44ddcf819359095267ba3e7200680de78eb4b12995172b5"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e09_capcut/segmentos.json",
-          "sha256": "8ce9c290abbca4dc4299346aa184a9de06602f22c3ec1b0f0d2aa153bfe7c814"
         }
       }
     },
@@ -2415,7 +1839,7 @@
       "titulo": "Será que você precisa disso?",
       "pasta": "hc_ads_fisicos_e10_sera_que_voce_precisa_disso",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 361.0,
       "fim_transcricao_segundos": 390.28,
@@ -2424,16 +1848,8 @@
       "video_bytes": 38187507,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e10_sera_que_voce_precisa_disso/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e10_sera_que_voce_precisa_disso.md",
           "sha256": "e87c3a5d45198f12f28e8c551e00db8981290d71b77a4583ea05484f38777776"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e10_sera_que_voce_precisa_disso/legenda.srt",
-          "sha256": "5f8491a8533e31f43dbc94de973ab0398047d0f8d7ecb7fc609849d3d423c26b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/06 Produtos Fisicos/hc_ads_fisicos_e10_sera_que_voce_precisa_disso/segmentos.json",
-          "sha256": "41ea8ec70c8b1317be5bb2ac088819ba252f338b948a13d94e4490ebf34104dc"
         }
       }
     },
@@ -2448,7 +1864,7 @@
       "titulo": "Aula 1 - Bem Vindo",
       "pasta": "hc_ads_recap_a01_bem_vindo",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 135.0,
       "fim_transcricao_segundos": 189.22,
@@ -2457,16 +1873,8 @@
       "video_bytes": 25502369,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a01_bem_vindo/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a01_bem_vindo.md",
           "sha256": "0a784897a6d2749c246f226a7219fe119b5121e0e4d0c34416f2b6a771088b36"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a01_bem_vindo/legenda.srt",
-          "sha256": "8c8a990dac2227c1dca64b8563f941a7282867a3c551f3907f9a2107bde23858"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a01_bem_vindo/segmentos.json",
-          "sha256": "10e463c39fd2ba2eddac0323d1de416b1a5ef9053e4e525f9f5c6e8af68683f2"
         }
       }
     },
@@ -2481,7 +1889,7 @@
       "titulo": "Aula 2 - Copy e Introdução",
       "pasta": "hc_ads_recap_a02_copy_e_introducao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 377.0,
       "fim_transcricao_segundos": 452.42,
@@ -2490,16 +1898,8 @@
       "video_bytes": 9973758,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a02_copy_e_introducao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a02_copy_e_introducao.md",
           "sha256": "ba8e9cb7d41840c8cddc7086973f7cb70eab88c05d87690e4688c96926e24fa4"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a02_copy_e_introducao/legenda.srt",
-          "sha256": "326ceca67da61d87405d1d22ae8d02b823b9383bb3573010ad4087c6707066bf"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a02_copy_e_introducao/segmentos.json",
-          "sha256": "dd4ef53ccf33e009229656aaeec95cc15ecc53ca972e8b52506acf8d18b93c81"
         }
       }
     },
@@ -2514,7 +1914,7 @@
       "titulo": "Aula 3 - Ferramentas",
       "pasta": "hc_ads_recap_a03_ferramentas",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 258.0,
       "fim_transcricao_segundos": 348.3,
@@ -2523,16 +1923,8 @@
       "video_bytes": 17641025,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a03_ferramentas/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a03_ferramentas.md",
           "sha256": "26beca0a15b8372112d5e271f2ca25bfdaa8f5461fc3ef75b9944bb58f629631"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a03_ferramentas/legenda.srt",
-          "sha256": "353adffc48fe7c3c95d6dcf3fe0c55e5e3511801f69af189c79a35f9e1c1276e"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a03_ferramentas/segmentos.json",
-          "sha256": "28b41e9e35d5adf819b6fb8625183d41d2b65ab876eaa1f2bc84ec7f3f4d923d"
         }
       }
     },
@@ -2547,7 +1939,7 @@
       "titulo": "Aula 4 - ElevenLabs",
       "pasta": "hc_ads_recap_a04_elevenlabs",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 218.0,
       "fim_transcricao_segundos": 283.34,
@@ -2556,16 +1948,8 @@
       "video_bytes": 11947494,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a04_elevenlabs/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a04_elevenlabs.md",
           "sha256": "f5311a796ccb9082e5d652b92f9bdafc49ac11280c27d4739234fafd8b0f7494"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a04_elevenlabs/legenda.srt",
-          "sha256": "a9ad3391b1852ce8abbeb3ad0f6648a04269986dc1cce6a12a8cc55a067a95dd"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a04_elevenlabs/segmentos.json",
-          "sha256": "5223f854b950543793eae8e74dd8e9286bf97ac83d94b81630181a1395ec6f9e"
         }
       }
     },
@@ -2580,7 +1964,7 @@
       "titulo": "Aula 5 - Canva",
       "pasta": "hc_ads_recap_a05_canva",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 2099.0,
       "fim_transcricao_segundos": 2174.5,
@@ -2589,16 +1973,8 @@
       "video_bytes": 110287835,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a05_canva/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a05_canva.md",
           "sha256": "fe31668e727fd4b93a9e88b47ea5b61fbc8b6d7530a512321d2d2546c8aa070f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a05_canva/legenda.srt",
-          "sha256": "b03b962b2b1a0a882b4f1b340e4cbb04b89d3e550be8f9e1bcb6d913de808093"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a05_canva/segmentos.json",
-          "sha256": "d2cfe9f9d386fc7de301b30a2151f56ab90145284db48e03ca4d6a0aea18d5fb"
         }
       }
     },
@@ -2613,7 +1989,7 @@
       "titulo": "Aula 6 - CapCut",
       "pasta": "hc_ads_recap_a06_capcut",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1451.0,
       "fim_transcricao_segundos": 1554.54,
@@ -2622,16 +1998,8 @@
       "video_bytes": 78426274,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a06_capcut/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a06_capcut.md",
           "sha256": "84336cc866d1a8230064904f56f864b17fc69b25d0e083d0146e7cd177c154ac"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a06_capcut/legenda.srt",
-          "sha256": "da9d816268505710022749d252906bfeb2cbd24aacc404efe3a8324eb0794475"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a06_capcut/segmentos.json",
-          "sha256": "79aa61848c689853b3d3fc437272d04ac4faed2dd2411309fec5808c8743a9e3"
         }
       }
     },
@@ -2646,7 +2014,7 @@
       "titulo": "Aula 7 - Imagens",
       "pasta": "hc_ads_recap_a07_imagens",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 585.0,
       "fim_transcricao_segundos": 654.52,
@@ -2655,16 +2023,8 @@
       "video_bytes": 38322697,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a07_imagens/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/02 Hard Ads/07 Recapitulando/hc_ads_recap_a07_imagens.md",
           "sha256": "9dccabe3016b6d743af40d4e17389e7ef2795108c350f1eced340199ffe2a9cb"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a07_imagens/legenda.srt",
-          "sha256": "4042e7eec93460abb066c37144a5c5be5c43fec0c2d4d0684a23c3577ef788bc"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/02 Hard Ads/07 Recapitulando/hc_ads_recap_a07_imagens/segmentos.json",
-          "sha256": "5706f89ce9fc1e4ea7bcb80da6ae0a1d1a7626faeeb2b5b66a3819bddc73078e"
         }
       }
     },
@@ -2679,7 +2039,7 @@
       "titulo": "Episódio 1 - Vamos?",
       "pasta": "hc_sounds_e01_vamos",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 338.0,
       "fim_transcricao_segundos": 438.46,
@@ -2688,16 +2048,8 @@
       "video_bytes": 8376285,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e01_vamos/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e01_vamos.md",
           "sha256": "30fa32e15441b4a04da9d6a1d0c3e14d61435a0fd62f97e59628cba9b06bce96"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e01_vamos/legenda.srt",
-          "sha256": "fa6ef4332c5c8df4782ac9e965a7f2383fe7ec1e0d093b0eb7353ba1030d2d6b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e01_vamos/segmentos.json",
-          "sha256": "473d23a9d303a2e1951d1a0e6d46d15ab2ef4fd7c4b39489e910adbeddfc5a18"
         }
       }
     },
@@ -2712,7 +2064,7 @@
       "titulo": "Episódio 2 - Faz Diferença?",
       "pasta": "hc_sounds_e02_faz_diferenca",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 315.0,
       "fim_transcricao_segundos": 369.76,
@@ -2721,16 +2073,8 @@
       "video_bytes": 64915081,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e02_faz_diferenca/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e02_faz_diferenca.md",
           "sha256": "badc64499df17194ae5db27ea78f57bf83d68186ef20409bee54d7e82058374e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e02_faz_diferenca/legenda.srt",
-          "sha256": "788bcb37cf4c1aebfd1f82b141f6d25b5f09d8d2256d972fdd411fcb1b729bd3"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e02_faz_diferenca/segmentos.json",
-          "sha256": "83d99c022ac0c7edde85dd95418f062bd9b5e2ffe2400c48d60ee7827994df30"
         }
       }
     },
@@ -2745,7 +2089,7 @@
       "titulo": "Episódio 3 - O que Queremos Ouvir",
       "pasta": "hc_sounds_e03_o_que_queremos_ouvir",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 131.0,
       "fim_transcricao_segundos": 167.82,
@@ -2754,16 +2098,8 @@
       "video_bytes": 8591336,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e03_o_que_queremos_ouvir/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e03_o_que_queremos_ouvir.md",
           "sha256": "5f3ca13643f17e680fcc17a9795b0248db889ce98604b5efffc723ee196203dd"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e03_o_que_queremos_ouvir/legenda.srt",
-          "sha256": "04e67f6cb3af789ff2ec36a2ac0b894bbbc0d2b88dfb74da5ca98e67d83fd7cb"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e03_o_que_queremos_ouvir/segmentos.json",
-          "sha256": "1b55f3c2379513bb5d3a263abd49f43c6c7436914b0d65e2ee08a2a17a7a2791"
         }
       }
     },
@@ -2778,7 +2114,7 @@
       "titulo": "Episódio 4 - Silêncio!",
       "pasta": "hc_sounds_e04_silencio",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 188.0,
       "fim_transcricao_segundos": 229.6,
@@ -2787,16 +2123,8 @@
       "video_bytes": 10959859,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e04_silencio/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e04_silencio.md",
           "sha256": "3c19139337eb4f7463b954e56f5f76423d3f838696410a7f6dff47223d298c80"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e04_silencio/legenda.srt",
-          "sha256": "3a5f0bf572ed83868cad0631d58582da50c2f479ff80630e4b79fffb9775fa85"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e04_silencio/segmentos.json",
-          "sha256": "e0ed0eb2358b1cae58e240b5dfc98824b63289df5d805532cb48c56ad082f536"
         }
       }
     },
@@ -2811,7 +2139,7 @@
       "titulo": "Episódio 5 - Na prática (Parte 1)",
       "pasta": "hc_sounds_e05_na_pratica_parte_1",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 275.0,
       "fim_transcricao_segundos": 338.4,
@@ -2820,16 +2148,8 @@
       "video_bytes": 16242767,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e05_na_pratica_parte_1/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e05_na_pratica_parte_1.md",
           "sha256": "c76110247c6ef1100c31e24c89a689cfb5fe7e4b22c892037b9b720c64585927"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e05_na_pratica_parte_1/legenda.srt",
-          "sha256": "c858e3d67b6390bcdf9f6c596312677b9d345dce79b81cf0ce6cd38182309cd1"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e05_na_pratica_parte_1/segmentos.json",
-          "sha256": "759f19c11c39a66fb9700a106a84df74d0080883d98934652c691eaed01636ae"
         }
       }
     },
@@ -2844,7 +2164,7 @@
       "titulo": "Episódio 6 - Na prática (Parte 2)",
       "pasta": "hc_sounds_e06_na_pratica_parte_2",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1444.0,
       "fim_transcricao_segundos": 1522.4,
@@ -2853,16 +2173,8 @@
       "video_bytes": 83720963,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e06_na_pratica_parte_2/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e06_na_pratica_parte_2.md",
           "sha256": "3af2e19d30c8c6568312006873a4d8ac2ffcd7d64fcd8d6ca63a691fa94b906a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e06_na_pratica_parte_2/legenda.srt",
-          "sha256": "81483e2923708fbfe12407ce8848dab6885976fd3025cdf5b7be6e00097a99ec"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e06_na_pratica_parte_2/segmentos.json",
-          "sha256": "e41ed4aa04b7258b6b5bf37dc37d06a5bbd706c4c74b2d2173d02df69b70e9a2"
         }
       }
     },
@@ -2877,7 +2189,7 @@
       "titulo": "Episódio 7 - Atenção!",
       "pasta": "hc_sounds_e07_atencao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 802.0,
       "fim_transcricao_segundos": 852.74,
@@ -2886,16 +2198,8 @@
       "video_bytes": 47320495,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e07_atencao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/03 Hard Sounds/hc_sounds_e07_atencao.md",
           "sha256": "56bfce13f3fc7fa15c6e9b6c935f03a69488eb8770479aea45441827d8e6f64f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e07_atencao/legenda.srt",
-          "sha256": "2e8ce7115c43a012e3e0563f4956127d9fd267df2b4a482a73c1fb66d5f19740"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/03 Hard Sounds/hc_sounds_e07_atencao/segmentos.json",
-          "sha256": "dc7ffbb3f4946d16128de4cc5f2b54ec720e7ccffdaee5ed3e9008278bbc2f3d"
         }
       }
     },
@@ -2910,7 +2214,7 @@
       "titulo": "Aula 1 - O Agente Pessoal de IA: O Começo de Tudo",
       "pasta": "hc_ia_t1_a01_agente_pessoal",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 224.0,
       "fim_transcricao_segundos": 285.66,
@@ -2919,16 +2223,8 @@
       "video_bytes": 6984185,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a01_agente_pessoal/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a01_agente_pessoal.md",
           "sha256": "f9716f362f4649a06c5f99aff699cd678213a0d82e06d45d9241fe152cbd0619"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a01_agente_pessoal/legenda.srt",
-          "sha256": "fe2bdf7b5d003fae51f9284e20a13fe78ac3f698dca54b550da6bbac2cbf86c1"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a01_agente_pessoal/segmentos.json",
-          "sha256": "b9105ed18758a7325d8df05b75d6cd77982195fa25199c6bb925b850f78019cd"
         }
       }
     },
@@ -2943,7 +2239,7 @@
       "titulo": "Aula 2 - A Nova Era da Escrita: Copywriting com Inteligência Artificial",
       "pasta": "hc_ia_t1_a02_nova_era_escrita",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 786.0,
       "fim_transcricao_segundos": 866.12,
@@ -2952,16 +2248,8 @@
       "video_bytes": 65343517,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a02_nova_era_escrita/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a02_nova_era_escrita.md",
           "sha256": "101af604a8fa0b876d7c0cdba1e9d93d7df52734ebd04117bc30f8eca07626a8"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a02_nova_era_escrita/legenda.srt",
-          "sha256": "98a1a705fe31ff8a8dc8fa8de6407f6e01efdd5c035816421c445497c2e2a5f2"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a02_nova_era_escrita/segmentos.json",
-          "sha256": "e61ce99eb2cf55782836c2f9b70f48f75f1761166bfafda5084c87af9d3ff104"
         }
       }
     },
@@ -2976,7 +2264,7 @@
       "titulo": "Aula 3 - Como Escrever Anúncios Que Vendem com IA (Sem Parecer Genérico)",
       "pasta": "hc_ia_t1_a03_anuncios_com_ia",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1445.0,
       "fim_transcricao_segundos": 1500.28,
@@ -2985,16 +2273,8 @@
       "video_bytes": 59045352,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a03_anuncios_com_ia/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a03_anuncios_com_ia.md",
           "sha256": "4338bf44b6981e87ac8bb92926e6ea4807b66473fe8d23a2f2c7c858d1c27ded"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a03_anuncios_com_ia/legenda.srt",
-          "sha256": "09ff86c4fa0e0a9f7fee14b0db0c458a16a1f839cbb76ac46d7fc28080cbfebb"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a03_anuncios_com_ia/segmentos.json",
-          "sha256": "8d6bcc5a326c337648ab3ba923cba752d681884f48f1378c704fb68ef87cd493"
         }
       }
     },
@@ -3009,7 +2289,7 @@
       "titulo": "Aula 4 - Hooks Validados: Como Criar Aberturas de Anúncios Impossíveis de Ignorar",
       "pasta": "hc_ia_t1_a04_hooks_validados",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 567.0,
       "fim_transcricao_segundos": 650.22,
@@ -3018,16 +2298,8 @@
       "video_bytes": 22915258,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a04_hooks_validados/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a04_hooks_validados.md",
           "sha256": "b59050f2339204d46d549136f314a2090431183397410ad10249414201b4f174"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a04_hooks_validados/legenda.srt",
-          "sha256": "3de00600f8a548ed24ba707195ae80e3e6e4220beb7823784a8582d43b0cb0a8"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a04_hooks_validados/segmentos.json",
-          "sha256": "46026c8ffc99a017d85442eb9c736ccfe132f22ab54c028629a9627d505c5944"
         }
       }
     },
@@ -3042,7 +2314,7 @@
       "titulo": "Aula 5 - Headlines e Subheads de Impacto: A Arquitetura da Atenção",
       "pasta": "hc_ia_t1_a05_headlines_subheads",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 790.0,
       "fim_transcricao_segundos": 855.22,
@@ -3051,16 +2323,8 @@
       "video_bytes": 31196370,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a05_headlines_subheads/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a05_headlines_subheads.md",
           "sha256": "4ce772afc441b12959c90371b42153b68f9c331f41de74aa3cbfeea6607483b9"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a05_headlines_subheads/legenda.srt",
-          "sha256": "2f30e76800ed9600d44afa9cf060021fb5d257acef2d248f1e34acdd249b451a"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a05_headlines_subheads/segmentos.json",
-          "sha256": "b075b351f4a87e389639421661644dc8928673e9d496111303ac89174d798faf"
         }
       }
     },
@@ -3075,7 +2339,7 @@
       "titulo": "Aula 6 - Vem cá",
       "pasta": "hc_ia_t1_a06_vem_ca",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 173.0,
       "fim_transcricao_segundos": 235.76,
@@ -3084,16 +2348,8 @@
       "video_bytes": 5247545,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a06_vem_ca/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a06_vem_ca.md",
           "sha256": "ef091f9c939c0b55de7d13c5accc5742c39db4ae01deebb1228814b3ef64b1de"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a06_vem_ca/legenda.srt",
-          "sha256": "10244d630468ff152eaed906765874ac10c02c354375ad693a67012230e365ca"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/01 Primeira Temporada/hc_ia_t1_a06_vem_ca/segmentos.json",
-          "sha256": "c4b14005ad2772f56f241fba144cfc872d9fd122685cb15bf9f08e34a956ee80"
         }
       }
     },
@@ -3108,7 +2364,7 @@
       "titulo": "Aula 01 - Exemplo 1 - Copy com IA",
       "pasta": "hc_ia_t2_a01_exemplo1_copy",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 992.0,
       "fim_transcricao_segundos": 1030.2,
@@ -3117,16 +2373,8 @@
       "video_bytes": 34444188,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a01_exemplo1_copy/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a01_exemplo1_copy.md",
           "sha256": "db57c12866cc7e10a8bd11f9f2cd6737f813704d4c0a64d8aac808e5d8cd9e75"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a01_exemplo1_copy/legenda.srt",
-          "sha256": "d22bcc003a631eb6cfe0c9a11594bce0723e2ebcdd36101b135e181f6976cd64"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a01_exemplo1_copy/segmentos.json",
-          "sha256": "9cfedd5afe0704e158d2238853c86b18bb0f5ed7b30f6a56e0afc11b2f377e2b"
         }
       }
     },
@@ -3141,7 +2389,7 @@
       "titulo": "Aula 02 - Exemplo 1 - Prompt",
       "pasta": "hc_ia_t2_a02_exemplo1_prompt",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1502.0,
       "fim_transcricao_segundos": 1524.02,
@@ -3150,16 +2398,8 @@
       "video_bytes": 84095132,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a02_exemplo1_prompt/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a02_exemplo1_prompt.md",
           "sha256": "14d4d38f6eb18c21637a42014651882628999cccc5a6f1b17def71a37ee0d9f4"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a02_exemplo1_prompt/legenda.srt",
-          "sha256": "a19918e9e711f34d317d8d4769d55527427fbcaf503a01b1882a35b6319c0b5d"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a02_exemplo1_prompt/segmentos.json",
-          "sha256": "5d6794b60383b57534d7ffdbff3aaa40e124cd83b91402bece80ece0664b3b29"
         }
       }
     },
@@ -3174,7 +2414,7 @@
       "titulo": "Aula 03 - Exemplo 1 - Edição",
       "pasta": "hc_ia_t2_a03_exemplo1_edicao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 2070.0,
       "fim_transcricao_segundos": 2128.96,
@@ -3183,16 +2423,8 @@
       "video_bytes": 165724007,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a03_exemplo1_edicao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a03_exemplo1_edicao.md",
           "sha256": "197f7d473760a33b2f0e7e8f343ff5246962c225ac023e029224486a77d9cf7a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a03_exemplo1_edicao/legenda.srt",
-          "sha256": "310a0068ef693b34984e77b8ea352785cdd9d03a1e70bf0fab09e9a6b2233ec2"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a03_exemplo1_edicao/segmentos.json",
-          "sha256": "c81017daee7d19b569e978e876aa4d2e1009783bdad9c83e258ed34613824258"
         }
       }
     },
@@ -3207,7 +2439,7 @@
       "titulo": "Aula 04 - Exemplo 2 - Copy com IA",
       "pasta": "hc_ia_t2_a04_exemplo2_copy",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 885.0,
       "fim_transcricao_segundos": 928.9,
@@ -3216,16 +2448,8 @@
       "video_bytes": 41170281,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a04_exemplo2_copy/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a04_exemplo2_copy.md",
           "sha256": "83de2b6968c52c556eef5147a4d7a533de222122fdc4f23f3fa0dffb3e8ce68a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a04_exemplo2_copy/legenda.srt",
-          "sha256": "b132e209b4116b25b6aa7150e794808762a360742f5ca8c23cb3840623eff7dd"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a04_exemplo2_copy/segmentos.json",
-          "sha256": "2236f7cd5d3e432523d5c44cf86942ab37bd561df06cfcb6ce9454a67c3cf380"
         }
       }
     },
@@ -3240,7 +2464,7 @@
       "titulo": "Aula 05 - Exemplo 2 - Prompt",
       "pasta": "hc_ia_t2_a05_exemplo2_prompt",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 2109.0,
       "fim_transcricao_segundos": 2153.7,
@@ -3249,16 +2473,8 @@
       "video_bytes": 141445937,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a05_exemplo2_prompt/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a05_exemplo2_prompt.md",
           "sha256": "6302ed9bc639bb20a505d2e63d8c7312cf79c114a76a1c83f863e4bb2fce6fe8"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a05_exemplo2_prompt/legenda.srt",
-          "sha256": "2ea7f24a50ca2c4f98be37bbda902b90bd2dbd0ff4e03aeaf138055f2adae5f8"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a05_exemplo2_prompt/segmentos.json",
-          "sha256": "d20c8874e7db6e77c39aa86023820509f5c83c7a3b60cdff24fa7c89042e1e16"
         }
       }
     },
@@ -3273,7 +2489,7 @@
       "titulo": "Aula 06 - Exemplo 2 - Edição",
       "pasta": "hc_ia_t2_a06_exemplo2_edicao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1389.0,
       "fim_transcricao_segundos": 1439.74,
@@ -3282,16 +2498,8 @@
       "video_bytes": 119634342,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a06_exemplo2_edicao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a06_exemplo2_edicao.md",
           "sha256": "806bcf29dd4cbcba220047b6f0bfddbe283432d4f1b69b6f5b0bfae326a98e7a"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a06_exemplo2_edicao/legenda.srt",
-          "sha256": "9afa692e91506de6a088f1db21871f1bd7338851589d64acd2f341e5e5900982"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/04 Hard IA/02 Segunda Temporada/hc_ia_t2_a06_exemplo2_edicao/segmentos.json",
-          "sha256": "6e8453a99ba5842863c6ac6e6d513df0d04315b8cf99a7fbed4ab468a77ec473"
         }
       }
     },
@@ -3306,7 +2514,7 @@
       "titulo": "Aula 1 - Apresentação",
       "pasta": "hc_100k_t1_a01_apresentacao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 276.0,
       "fim_transcricao_segundos": 320.48,
@@ -3315,16 +2523,8 @@
       "video_bytes": 15437529,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a01_apresentacao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/01 Criacao/hc_100k_t1_a01_apresentacao.md",
           "sha256": "0d56c644db742c25d6b6b67f6dd5b964473a306f9a96a078a35249199051e4fc"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a01_apresentacao/legenda.srt",
-          "sha256": "727554534d4ea64a09ec605cab1f70b8eb224560ac02ef16927cc7fc8370723f"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a01_apresentacao/segmentos.json",
-          "sha256": "213a3e9679cbc77014ea98abbd489824e06557f25554d1714175f37145f871f7"
         }
       }
     },
@@ -3339,7 +2539,7 @@
       "titulo": "Aula 2 - A grande ideia",
       "pasta": "hc_100k_t1_a02_grande_ideia",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 543.0,
       "fim_transcricao_segundos": 611.02,
@@ -3348,16 +2548,8 @@
       "video_bytes": 32013777,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a02_grande_ideia/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/01 Criacao/hc_100k_t1_a02_grande_ideia.md",
           "sha256": "c2c269215f9bc8e07656654b7803b9b7bc267e6e67c179f93935dcdf29e76716"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a02_grande_ideia/legenda.srt",
-          "sha256": "23e890445d3e8f4c7c615917e3dcffa2b0b1cc6aa3eb2fd4da01a651d30c22b9"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a02_grande_ideia/segmentos.json",
-          "sha256": "6bc760545849b43e694b508fc1eb9dcbd8a0c1bfc161afd9c9dd4c21a0f83cc1"
         }
       }
     },
@@ -3372,7 +2564,7 @@
       "titulo": "Aula 3 - Plataformas de vendas e recebimentos",
       "pasta": "hc_100k_t1_a03_plataformas",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 329.0,
       "fim_transcricao_segundos": 412.16,
@@ -3381,16 +2573,8 @@
       "video_bytes": 13812253,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a03_plataformas/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/01 Criacao/hc_100k_t1_a03_plataformas.md",
           "sha256": "2f18ed4c5ee0317eab8ec4151d1c6a953608be3e5db18962f6a614a27e0a3ab3"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a03_plataformas/legenda.srt",
-          "sha256": "0ee7b7855a3c38abea0c7c290a563fc5b91be4a1e76864e8c5eff94849f22527"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a03_plataformas/segmentos.json",
-          "sha256": "95df42e7ae3fa099b79f01beaa814459d96798a650bac687be3543b769970fa9"
         }
       }
     },
@@ -3405,7 +2589,7 @@
       "titulo": "Aula 4 - Como vamos fazer isso?",
       "pasta": "hc_100k_t1_a04_como_fazer",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 239.0,
       "fim_transcricao_segundos": 337.84,
@@ -3414,16 +2598,8 @@
       "video_bytes": 14765168,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a04_como_fazer/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/01 Criacao/hc_100k_t1_a04_como_fazer.md",
           "sha256": "bb81a7f11a83c96a5e356954d7a4d492aeec1785bf4fdfa294d46d140aa1491e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a04_como_fazer/legenda.srt",
-          "sha256": "f9a7ea2b02e3be10bacbae66a606c13ac401a929b2a1d5892db7035d81363530"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a04_como_fazer/segmentos.json",
-          "sha256": "0c990ec7b6d3c26181db2ad3442e3e641a6a7c117fbedb0327245055e4e4ba44"
         }
       }
     },
@@ -3438,7 +2614,7 @@
       "titulo": "Aula 5 - Presta Atenção!",
       "pasta": "hc_100k_t1_a05_presta_atencao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 145.0,
       "fim_transcricao_segundos": 235.78,
@@ -3447,16 +2623,8 @@
       "video_bytes": 4967566,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a05_presta_atencao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/01 Criacao/hc_100k_t1_a05_presta_atencao.md",
           "sha256": "f8e5b5c9b2d5f95839e902d890e7c2671e92c9d046e40f8b9d13c7400cd12c5f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a05_presta_atencao/legenda.srt",
-          "sha256": "67a679dedfeeabca21b48c77079ba597d550aa4850ba3a663fdbc758ef2a80fb"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a05_presta_atencao/segmentos.json",
-          "sha256": "80ecb6871e7c9282359bf7bb31ce42d1b5cf1de742720bb5ebafc87153263410"
         }
       }
     },
@@ -3471,7 +2639,7 @@
       "titulo": "Aula 6 - Vamos ao que interessa",
       "pasta": "hc_100k_t1_a06_vamos_ao_que_interessa",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 64.0,
       "fim_transcricao_segundos": 115.8,
@@ -3480,16 +2648,8 @@
       "video_bytes": 2931196,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a06_vamos_ao_que_interessa/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/01 Criacao/hc_100k_t1_a06_vamos_ao_que_interessa.md",
           "sha256": "979951c346797dd7cbbb4a91cd96e1dc9d5a470df544e66b68c50ec8a498959d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a06_vamos_ao_que_interessa/legenda.srt",
-          "sha256": "a3280e8ee1a840d20b29cd0a1d252074305c14e41e8abd8b80cf10cd2a0b6239"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/01 Criacao/hc_100k_t1_a06_vamos_ao_que_interessa/segmentos.json",
-          "sha256": "b8dfd3f404b0db88eb952e915d229f61ea427e65d19fee65f75e737d6ccc60c7"
         }
       }
     },
@@ -3504,7 +2664,7 @@
       "titulo": "Aula 1 - O que é copy e o que significa?",
       "pasta": "hc_100k_t2_a01_o_que_e_copy",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 209.0,
       "fim_transcricao_segundos": 254.8,
@@ -3513,16 +2673,8 @@
       "video_bytes": 6293774,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a01_o_que_e_copy/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/02 Copy/hc_100k_t2_a01_o_que_e_copy.md",
           "sha256": "347c310ad382499386b0a0847cd3283f914c424f12c551e4a9813a2ba5bfc673"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a01_o_que_e_copy/legenda.srt",
-          "sha256": "66d5ac52f173fca85e90139b7ea2e43df3c0e060ddc993beddf337c5fab8e5f6"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a01_o_que_e_copy/segmentos.json",
-          "sha256": "f5b7b414d4e05e73257949ba62d7840dac0918cfad65c4835586a699f6c77825"
         }
       }
     },
@@ -3537,7 +2689,7 @@
       "titulo": "Aula 2 - Estrutura de uma boa copy",
       "pasta": "hc_100k_t2_a02_estrutura_copy",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 248.0,
       "fim_transcricao_segundos": 298.32,
@@ -3546,16 +2698,8 @@
       "video_bytes": 11689561,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a02_estrutura_copy/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/02 Copy/hc_100k_t2_a02_estrutura_copy.md",
           "sha256": "ee1d51e62c5a37c3329e6f4f3b454daace70888d73e9b66e1eb3b25a81ec7701"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a02_estrutura_copy/legenda.srt",
-          "sha256": "a9d9e3c42e9be15410dc27da6248e0cffc3848ce2d80e9896cc1f885350239be"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a02_estrutura_copy/segmentos.json",
-          "sha256": "3e0ab18d5625322d2a4820c392702c498484c4ce4be6bb84574c614b30896af3"
         }
       }
     },
@@ -3570,7 +2714,7 @@
       "titulo": "Aula 3 - Criando uma dor e a solução",
       "pasta": "hc_100k_t2_a03_criando_dor_solucao",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 822.0,
       "fim_transcricao_segundos": 855.96,
@@ -3579,16 +2723,8 @@
       "video_bytes": 48227629,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a03_criando_dor_solucao/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/02 Copy/hc_100k_t2_a03_criando_dor_solucao.md",
           "sha256": "e7c5725e874e4fa9c799bec9499a01352ff84966bd020e1b40f1d1321be05335"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a03_criando_dor_solucao/legenda.srt",
-          "sha256": "95e86896dee28072665b928d80be649b90747acde7f68ab5305a4a84812d553d"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a03_criando_dor_solucao/segmentos.json",
-          "sha256": "ecf6b8bfa5b15966f33214f9cdab058ac1063c220e2ed18c48ad6c37a9de728d"
         }
       }
     },
@@ -3603,7 +2739,7 @@
       "titulo": "Aula 4 - Parte 1 Criando do zero",
       "pasta": "hc_100k_t2_a04_criando_do_zero_parte1",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 6264.0,
       "fim_transcricao_segundos": 6334.52,
@@ -3612,16 +2748,8 @@
       "video_bytes": 300511826,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a04_criando_do_zero_parte1/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/02 Copy/hc_100k_t2_a04_criando_do_zero_parte1.md",
           "sha256": "68aa5817c05aec3418f8dc12110bcc2c7df156492cf1d1cc5daaf4d5562ae6c6"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a04_criando_do_zero_parte1/legenda.srt",
-          "sha256": "78139dcdd7fca36e13402ca186ed00f470f8b0b6c7167d389fca802c91414d76"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a04_criando_do_zero_parte1/segmentos.json",
-          "sha256": "a727d302a8755486a7ff745fe5076164822c8946424f6267786b2a9e69d57aa7"
         }
       }
     },
@@ -3636,7 +2764,7 @@
       "titulo": "Aula 4 - Parte 2 Criando do zero",
       "pasta": "hc_100k_t2_a05_criando_do_zero_parte2",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1308.0,
       "fim_transcricao_segundos": 1392.96,
@@ -3645,16 +2773,8 @@
       "video_bytes": 55221609,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a05_criando_do_zero_parte2/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/02 Copy/hc_100k_t2_a05_criando_do_zero_parte2.md",
           "sha256": "a862bed65a4eb68a62740da5d5828b1c060a0a44cff4ce0cf16d4f101d1566c7"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a05_criando_do_zero_parte2/legenda.srt",
-          "sha256": "10c9d26e2d600adf0d5b8744dd337444601feb3d1d6c1de34a50d58f1a2360bb"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a05_criando_do_zero_parte2/segmentos.json",
-          "sha256": "cc7863da30b413aa580ef2d3a735b68ca9afe83b25fc7b2589f838c158f5fe62"
         }
       }
     },
@@ -3669,7 +2789,7 @@
       "titulo": "Aula 5 - Copy para os anúncios",
       "pasta": "hc_100k_t2_a06_copy_para_anuncios",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1359.0,
       "fim_transcricao_segundos": 1404.9,
@@ -3678,16 +2798,8 @@
       "video_bytes": 50240277,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a06_copy_para_anuncios/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/02 Copy/hc_100k_t2_a06_copy_para_anuncios.md",
           "sha256": "9b3d8edbcafb4dc6bf87953036edb9f4642565e141307d66fe80d5c9c7a8effc"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a06_copy_para_anuncios/legenda.srt",
-          "sha256": "81141461b6c1747918156acefa1969227d2342e5ae0f75fa69684a46f4ac247a"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/02 Copy/hc_100k_t2_a06_copy_para_anuncios/segmentos.json",
-          "sha256": "261a01272d9a32e37ba061b8bb33993a98e8cc51d7409e7f554b501b5b324964"
         }
       }
     },
@@ -3702,7 +2814,7 @@
       "titulo": "Aula 1 - Vem aqui…",
       "pasta": "hc_100k_t3_a01_vem_aqui",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 81.0,
       "fim_transcricao_segundos": 147.06,
@@ -3711,16 +2823,8 @@
       "video_bytes": 4120450,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a01_vem_aqui/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a01_vem_aqui.md",
           "sha256": "b066eb26f4465011da814c06957ba28aa65d13877f57912e0870dd8d784264cb"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a01_vem_aqui/legenda.srt",
-          "sha256": "567ed3744c1c39c936f33a1e969fd89e2c361a8262a5b3d619894ad3f3c238a3"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a01_vem_aqui/segmentos.json",
-          "sha256": "2901656af61a777313ddfb75d756b71eaeb43a396a2377e7fbd8fb7ce0a36e2f"
         }
       }
     },
@@ -3735,7 +2839,7 @@
       "titulo": "Aula 2 - Entonação e voz",
       "pasta": "hc_100k_t3_a02_entonacao_e_voz",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1402.0,
       "fim_transcricao_segundos": 1471.86,
@@ -3744,16 +2848,8 @@
       "video_bytes": 116416249,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a02_entonacao_e_voz/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a02_entonacao_e_voz.md",
           "sha256": "6938920df40a34fb8dcaa418623b5e612749925f0b69fd0535c23834230bcc65"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a02_entonacao_e_voz/legenda.srt",
-          "sha256": "927ad2c8b9f0cd3d4edfa337f2fc93347dc9cbdecbb0844e35e908b18edcd905"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a02_entonacao_e_voz/segmentos.json",
-          "sha256": "aa2e56cd76f7373f435737239f8d91ad67cf59a5036ed5a5f0dfabe02f3ee4c5"
         }
       }
     },
@@ -3768,7 +2864,7 @@
       "titulo": "Aula 3 - Deixando o áudio pronto",
       "pasta": "hc_100k_t3_a03_deixando_audio_pronto",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 925.0,
       "fim_transcricao_segundos": 977.06,
@@ -3777,16 +2873,8 @@
       "video_bytes": 50304112,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a03_deixando_audio_pronto/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a03_deixando_audio_pronto.md",
           "sha256": "474184b58f5528a62297135eb99b0efa777a733bc041a42fff216c3dcbe606f0"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a03_deixando_audio_pronto/legenda.srt",
-          "sha256": "5a13ca268c4d755b68ed5243d0466cf6df689750d8698c3395180c1931a75f53"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a03_deixando_audio_pronto/segmentos.json",
-          "sha256": "2b2bcb9b138094affbc30595a8f5866a70edb5a6cd32d7a8b38fba99ce35b267"
         }
       }
     },
@@ -3801,7 +2889,7 @@
       "titulo": "Aula 4 - Procurando o humano perfeito",
       "pasta": "hc_100k_t3_a04_procurando_humano_perfeito",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 544.0,
       "fim_transcricao_segundos": 602.18,
@@ -3810,16 +2898,8 @@
       "video_bytes": 40373556,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a04_procurando_humano_perfeito/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a04_procurando_humano_perfeito.md",
           "sha256": "c6ce6a07b0a039c06334e1e9432975b23551a15fd15c904b7da80092350be2cb"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a04_procurando_humano_perfeito/legenda.srt",
-          "sha256": "cacc437cf453ca5b2268fb42246f4b69b50c72581f9fb800c8994e6f51e7fdec"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a04_procurando_humano_perfeito/segmentos.json",
-          "sha256": "f420d1b1ca29c51f63d915bd0175a1db5ad2fa04b1b62f1e27c1df5a484db048"
         }
       }
     },
@@ -3834,7 +2914,7 @@
       "titulo": "Aula 5 - Olha isso",
       "pasta": "hc_100k_t3_a05_olha_isso",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 114.0,
       "fim_transcricao_segundos": 142.14,
@@ -3843,16 +2923,8 @@
       "video_bytes": 6731171,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a05_olha_isso/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a05_olha_isso.md",
           "sha256": "99df60783c076daeb5fea8791e01c8ec836e92e6d6f10fbbee146bc27fae1434"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a05_olha_isso/legenda.srt",
-          "sha256": "89a373a2f41af028e838418c147bec7d9efb541cbf3f81f0ac151bd15baeecd0"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/03 Inteligencia Artificial/hc_100k_t3_a05_olha_isso/segmentos.json",
-          "sha256": "ccd1479566f3295290ca6c91b63095be947439ae5d77fc8eff23c36a8b532434"
         }
       }
     },
@@ -3867,7 +2939,7 @@
       "titulo": "Aula 1 - Canva",
       "pasta": "hc_100k_t4_a01_canva",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 153.0,
       "fim_transcricao_segundos": 189.96,
@@ -3876,16 +2948,8 @@
       "video_bytes": 13275865,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a01_canva/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a01_canva.md",
           "sha256": "4d32732ed7e71a6947e8c73ad7826a6b1969f01b64676fd99ba208dbb5e4e252"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a01_canva/legenda.srt",
-          "sha256": "052a005e2297478c4acd5c9ba3c24c4f02bfa58dbe2db6773ab1402774018749"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a01_canva/segmentos.json",
-          "sha256": "3db5fcf5f1f98d02ee511301a28e9ff0d72e453f3d1f648a9f1c272a73ac6024"
         }
       }
     },
@@ -3900,7 +2964,7 @@
       "titulo": "Aula 2 - Áudio pronto",
       "pasta": "hc_100k_t4_a02_audio_pronto",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 4645.0,
       "fim_transcricao_segundos": 4703.82,
@@ -3909,16 +2973,8 @@
       "video_bytes": 395742593,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a02_audio_pronto/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a02_audio_pronto.md",
           "sha256": "6b644b0a9c30a5948483cc8a473a8e037ea45262026f54c6efb09484a2bea2df"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a02_audio_pronto/legenda.srt",
-          "sha256": "0e3df0bb5ff2d1e2c8b14f59858bf92ec2e8760c775597c36107f3a522785ee1"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a02_audio_pronto/segmentos.json",
-          "sha256": "42e0847b2bb423adf8bb0933fac01e5f584930041334f3766fc8b97c395ebc8a"
         }
       }
     },
@@ -3933,7 +2989,7 @@
       "titulo": "Aula 3 - Mão na massa",
       "pasta": "hc_100k_t4_a03_mao_na_massa",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 2884.0,
       "fim_transcricao_segundos": 2945.6,
@@ -3942,16 +2998,8 @@
       "video_bytes": 244296974,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a03_mao_na_massa/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a03_mao_na_massa.md",
           "sha256": "92ad73de05cd3a1f9f6184f582942702bde653ca2178c4c1e87795e0d7946217"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a03_mao_na_massa/legenda.srt",
-          "sha256": "1b89883a27db0ebb4985a3df5be7f4db3161192a9b0a3f833a6daf35462b98d6"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a03_mao_na_massa/segmentos.json",
-          "sha256": "a6b31056a71a3dcc7129ceba12d177e005e4c635ce7183f094c0f3ec1bb75890"
         }
       }
     },
@@ -3966,7 +3014,7 @@
       "titulo": "Aula 4 - Anúncios",
       "pasta": "hc_100k_t4_a04_anuncios",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 906.0,
       "fim_transcricao_segundos": 967.04,
@@ -3975,16 +3023,8 @@
       "video_bytes": 42540064,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a04_anuncios/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a04_anuncios.md",
           "sha256": "84aca49d3e2a18fe2c79d66dbf0539cdc7423092def15ec00d553440bd8c7a78"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a04_anuncios/legenda.srt",
-          "sha256": "5f1812fa7db4037845a6451dcda4a090636ba5d96b42484ee3bf2e0479650aae"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a04_anuncios/segmentos.json",
-          "sha256": "542a7eb96a84a1c24017deaa37629b176a2c49efb0c80c84410e3dd6288e255b"
         }
       }
     },
@@ -3999,7 +3039,7 @@
       "titulo": "Aula 5 - Edição Anúncio 01",
       "pasta": "hc_100k_t4_a05_edicao_anuncio_01",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1053.0,
       "fim_transcricao_segundos": 1111.4,
@@ -4008,16 +3048,8 @@
       "video_bytes": 76480529,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a05_edicao_anuncio_01/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a05_edicao_anuncio_01.md",
           "sha256": "d29fca12f892961a62ab43d604d417b30724b34bda7c6c154b64317ff11f2aa3"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a05_edicao_anuncio_01/legenda.srt",
-          "sha256": "44011f2e9f398577e68e96cb06e0842ebffac08ea08f61516b6843e183464b1a"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a05_edicao_anuncio_01/segmentos.json",
-          "sha256": "16015070eef24abc19156ed7375e1e1e9d5744144c12844c3f4355633813567e"
         }
       }
     },
@@ -4032,7 +3064,7 @@
       "titulo": "Aula 6 - Som e sentimentalismo, Anúncio 01",
       "pasta": "hc_100k_t4_a06_som_sentimentalismo_anuncio_01",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 626.0,
       "fim_transcricao_segundos": 642.12,
@@ -4041,16 +3073,8 @@
       "video_bytes": 46771788,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a06_som_sentimentalismo_anuncio_01/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a06_som_sentimentalismo_anuncio_01.md",
           "sha256": "1d00f54a55c1b8eebb12a07a0f3b80e42e809cc602a8c2b06f6c93c2fbf9756e"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a06_som_sentimentalismo_anuncio_01/legenda.srt",
-          "sha256": "45f5baacd7d8acd8bffc55b381f57d4dfcd934756293bdfcb308210737dad4e5"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a06_som_sentimentalismo_anuncio_01/segmentos.json",
-          "sha256": "c48396a491a7ba56097d1f8a2617b05b893b30c5c8d4f1c3d3ddc7109fd9f597"
         }
       }
     },
@@ -4065,7 +3089,7 @@
       "titulo": "Aula 7 - Edição Anúncio 02",
       "pasta": "hc_100k_t4_a07_edicao_anuncio_02",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1393.0,
       "fim_transcricao_segundos": 1405.36,
@@ -4074,16 +3098,8 @@
       "video_bytes": 90419333,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a07_edicao_anuncio_02/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a07_edicao_anuncio_02.md",
           "sha256": "3290eb974fe6eee15a5ba5cbecad2acba9f9b9137a499de585948f93fb0a0c8d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a07_edicao_anuncio_02/legenda.srt",
-          "sha256": "ff23978e39d41f95045fdbd689b9644fd10ffb2b69aeee75cb253bc410d66200"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a07_edicao_anuncio_02/segmentos.json",
-          "sha256": "a04a2d88207b1ee51b074f889c0f3fb028d0f89f56e685157ab8947ff345ee23"
         }
       }
     },
@@ -4098,7 +3114,7 @@
       "titulo": "Aula 8 - Som e sentimentalismo, Anúncio 02",
       "pasta": "hc_100k_t4_a08_som_sentimentalismo_anuncio_02",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1389.0,
       "fim_transcricao_segundos": 1417.5,
@@ -4107,16 +3123,8 @@
       "video_bytes": 94256397,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a08_som_sentimentalismo_anuncio_02/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a08_som_sentimentalismo_anuncio_02.md",
           "sha256": "6d3f656eae6fb36f247ef155127c096fdbdc8ac8a0d2e4807db3ca37b3b25633"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a08_som_sentimentalismo_anuncio_02/legenda.srt",
-          "sha256": "7329439cb1f9056cc8a67fa287342f760c5d37b928cefe48fbf7f95a56065d5b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a08_som_sentimentalismo_anuncio_02/segmentos.json",
-          "sha256": "8df9ff715ed23f0b6b086a0023eafc4ff72d7fabc0e09afc7a9413b90a203e0e"
         }
       }
     },
@@ -4131,7 +3139,7 @@
       "titulo": "Aula 9 - Hora de fazer $$$",
       "pasta": "hc_100k_t4_a09_hora_de_fazer_dinheiro",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 64.0,
       "fim_transcricao_segundos": 111.28,
@@ -4140,16 +3148,8 @@
       "video_bytes": 2237623,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a09_hora_de_fazer_dinheiro/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/04 Edicao/hc_100k_t4_a09_hora_de_fazer_dinheiro.md",
           "sha256": "c773b3cce89f3018102e0ff9308f707203f757c54c2c46c36cded440f67ed7ad"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a09_hora_de_fazer_dinheiro/legenda.srt",
-          "sha256": "11b69133324388c225170d3075cdd423899e8781d3405d84e6260cd57338575d"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/04 Edicao/hc_100k_t4_a09_hora_de_fazer_dinheiro/segmentos.json",
-          "sha256": "52081c3ad9aa433ee0085b6c90dee56dd55c58d9cebc68cf4627c3ee96c7a7bf"
         }
       }
     },
@@ -4164,7 +3164,7 @@
       "titulo": "Aula 1 - Domínio",
       "pasta": "hc_100k_t5_a01_dominio",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 195.0,
       "fim_transcricao_segundos": 258.58,
@@ -4173,16 +3173,8 @@
       "video_bytes": 10961057,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a01_dominio/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/05 Estrutura/hc_100k_t5_a01_dominio.md",
           "sha256": "fd00a7f9eed65f205830c9e3dfee334ad3d41fbb64a381867af7a68971c0df2b"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a01_dominio/legenda.srt",
-          "sha256": "a01856fbd41cfa84b569d4d18e04f4e232060df810e9dba07d66f0d3eed55639"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a01_dominio/segmentos.json",
-          "sha256": "fadee86e0423d90d1a6cf31d78f07a342ebe7103b0866aa85266c01b51f2de2d"
         }
       }
     },
@@ -4197,7 +3189,7 @@
       "titulo": "Aula 2 - Hospedagem",
       "pasta": "hc_100k_t5_a02_hospedagem",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 296.0,
       "fim_transcricao_segundos": 376.72,
@@ -4206,16 +3198,8 @@
       "video_bytes": 15841903,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a02_hospedagem/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/05 Estrutura/hc_100k_t5_a02_hospedagem.md",
           "sha256": "698780f36d2eade1b3a8261972c40e64d1876e93d9eaddc7e1ab5a60bf2fe9ae"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a02_hospedagem/legenda.srt",
-          "sha256": "f255372d7d6ed215387960656f333e5619b4dda87c291feee144b2d782f869ce"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a02_hospedagem/segmentos.json",
-          "sha256": "09bbc1a3afded7526bf7fb13125beecb308e456d013d1bd6cebb7f87d3228d8a"
         }
       }
     },
@@ -4230,7 +3214,7 @@
       "titulo": "Aula 3 - Página de Vendas",
       "pasta": "hc_100k_t5_a03_pagina_de_vendas",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1174.0,
       "fim_transcricao_segundos": 1233.62,
@@ -4239,16 +3223,8 @@
       "video_bytes": 75354991,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a03_pagina_de_vendas/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/05 Estrutura/hc_100k_t5_a03_pagina_de_vendas.md",
           "sha256": "75f3f91370943202861d7fed68f43e30a53148ecacce11793cf01bdc0f855d59"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a03_pagina_de_vendas/legenda.srt",
-          "sha256": "0e700972e2adffc42afaad5e4946b737026e8977735ff8134849f2cb850c3c35"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a03_pagina_de_vendas/segmentos.json",
-          "sha256": "fbcc691247da19271c01a8e5327d183da70624387690ea8705dd2b9e86738e0f"
         }
       }
     },
@@ -4263,7 +3239,7 @@
       "titulo": "Aula 4 - Produto na Kiwify",
       "pasta": "hc_100k_t5_a04_produto_na_kiwify",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 339.0,
       "fim_transcricao_segundos": 402.14,
@@ -4272,16 +3248,8 @@
       "video_bytes": 20809094,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a04_produto_na_kiwify/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/05 Estrutura/hc_100k_t5_a04_produto_na_kiwify.md",
           "sha256": "689f1850d76a189f64f81322496997c23a91bf2f90e3a0744a51772348e29f56"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a04_produto_na_kiwify/legenda.srt",
-          "sha256": "91e7699e13671a4c2301aa37193da5f0784a99993d738e14f726426691c851e9"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a04_produto_na_kiwify/segmentos.json",
-          "sha256": "ab6ff6c9d3f1dd69386f21c587dce2284eac52c50112b024e0f3553b80362834"
         }
       }
     },
@@ -4296,7 +3264,7 @@
       "titulo": "Aula 5 - Área de membros",
       "pasta": "hc_100k_t5_a05_area_de_membros",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 303.0,
       "fim_transcricao_segundos": 393.98,
@@ -4305,16 +3273,8 @@
       "video_bytes": 20768801,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a05_area_de_membros/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/05 Estrutura/hc_100k_t5_a05_area_de_membros.md",
           "sha256": "c8d0a19e315c7c20dcc24943eec131fd79d0e56f9a8a9b73cbdb534045f6806f"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a05_area_de_membros/legenda.srt",
-          "sha256": "6c471dbca0450b5b7c577c201886b162908b93c1f9c167aa79c9883eca244437"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/05 Estrutura/hc_100k_t5_a05_area_de_membros/segmentos.json",
-          "sha256": "80bcf885a614cac1382a82bcbcf71f837e525e3aac9feecfde6fa0cd33847d42"
         }
       }
     },
@@ -4329,7 +3289,7 @@
       "titulo": "Aula 01 - Estrutura",
       "pasta": "hc_100k_t6_a01_estrutura",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1434.0,
       "fim_transcricao_segundos": 1493.7,
@@ -4338,16 +3298,8 @@
       "video_bytes": 83481744,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a01_estrutura/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a01_estrutura.md",
           "sha256": "3c1ee1918a18a6f9cff2b8349eb2fd498bf16e74068122c3c815111a5e66d4e3"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a01_estrutura/legenda.srt",
-          "sha256": "bff4adccf807e9ca64fad4a8b53fc18b9283cd4c58d994060935946fc858ce08"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a01_estrutura/segmentos.json",
-          "sha256": "9a1edac4b66e3abfeb22934df1111f62584165dcb6bc5ba5f19a4bcf33d0fb8f"
         }
       }
     },
@@ -4362,7 +3314,7 @@
       "titulo": "Aula 02.1 - Landing Page",
       "pasta": "hc_100k_t6_a02_landing_page",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 706.0,
       "fim_transcricao_segundos": 738.14,
@@ -4371,16 +3323,8 @@
       "video_bytes": 42243782,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a02_landing_page/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a02_landing_page.md",
           "sha256": "bf476e9544d087970f7134c1897edb89c434a49af9f1163838c5bf775474b0cb"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a02_landing_page/legenda.srt",
-          "sha256": "54de07ed9668711cf569e29c9bb8b4ba4c3f9a495deea79857afd3cd40fef4a6"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a02_landing_page/segmentos.json",
-          "sha256": "d5a7ec73c4736c31a283992cacfb4b68d601de73d7e1ca1610e09f910c6e14ce"
         }
       }
     },
@@ -4395,7 +3339,7 @@
       "titulo": "Aula 02.2 - Instagram",
       "pasta": "hc_100k_t6_a03_instagram",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 60.0,
       "fim_transcricao_segundos": 119.4,
@@ -4404,16 +3348,8 @@
       "video_bytes": 4071139,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a03_instagram/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a03_instagram.md",
           "sha256": "679b97cfd914620d04770c707077b05abf43f6278a46d100a3cf8f093240f4a9"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a03_instagram/legenda.srt",
-          "sha256": "48f1eac3158b647be208b624a7f2eb4a57988ab461cd160824cd8832b0f34f6b"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a03_instagram/segmentos.json",
-          "sha256": "056b05421b8464f7ee9c52a6c44c7b950e8ce6f3c4fa7f469297a2dbb9ca9e99"
         }
       }
     },
@@ -4428,7 +3364,7 @@
       "titulo": "Aula 03 - Teste de ADS",
       "pasta": "hc_100k_t6_a04_teste_de_ads",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 2159.0,
       "fim_transcricao_segundos": 2197.7,
@@ -4437,16 +3373,8 @@
       "video_bytes": 164365184,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a04_teste_de_ads/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a04_teste_de_ads.md",
           "sha256": "afad3d8d91ebcead3e93c643b7707d33d713db338c8c647fa41bdb7d59984a8d"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a04_teste_de_ads/legenda.srt",
-          "sha256": "285d7bbfe74164a19a8e319ba9550659152e103862eba37420936aacfd2f45b1"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a04_teste_de_ads/segmentos.json",
-          "sha256": "4b0d77bef186af1b3dc78c1a99f06fc856f2c4a3d86f84280296b48f3562ba41"
         }
       }
     },
@@ -4461,7 +3389,7 @@
       "titulo": "Aula 04 - Análise - PARTE 1",
       "pasta": "hc_100k_t6_a05_analise_parte_1",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1279.0,
       "fim_transcricao_segundos": 1301.98,
@@ -4470,16 +3398,8 @@
       "video_bytes": 104704917,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a05_analise_parte_1/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a05_analise_parte_1.md",
           "sha256": "840ff92556fe9377814d9aa916c27b72cea3ec8df6b8bf095ff41b34fed8c059"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a05_analise_parte_1/legenda.srt",
-          "sha256": "d17f31987926d0af5ec09c5eb601c6d9ccfdc32cb56a097a60f6152be2e7dfb1"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a05_analise_parte_1/segmentos.json",
-          "sha256": "f2dfd64fafab45227cee548af9be37687f580cf33a59487292429ba53a19ed41"
         }
       }
     },
@@ -4494,7 +3414,7 @@
       "titulo": "Aula 05 - Análise - PARTE 2",
       "pasta": "hc_100k_t6_a06_analise_parte_2",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 399.0,
       "fim_transcricao_segundos": 457.92,
@@ -4503,16 +3423,8 @@
       "video_bytes": 31455465,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a06_analise_parte_2/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a06_analise_parte_2.md",
           "sha256": "e04b07cccd125eb0d40a108cd3f3b942f5b391eb805f1238ba92896e1dccf5fb"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a06_analise_parte_2/legenda.srt",
-          "sha256": "740df3434c7e8414191ad627b3e1e2d731bfd0762d129bbd0c9d663777e567b4"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a06_analise_parte_2/segmentos.json",
-          "sha256": "2d1f17945bc20aa791512d6cb6e9f2f80b6565cf37df30e1471cb7eb9dec2d87"
         }
       }
     },
@@ -4527,7 +3439,7 @@
       "titulo": "Aula 06 - Pré-Escala",
       "pasta": "hc_100k_t6_a07_pre_escala",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1021.0,
       "fim_transcricao_segundos": 1077.02,
@@ -4536,16 +3448,8 @@
       "video_bytes": 79925809,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a07_pre_escala/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a07_pre_escala.md",
           "sha256": "6a8058fcdf5fe0d3a01f3960518326fc7b186238020ab205220e54450497e2ee"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a07_pre_escala/legenda.srt",
-          "sha256": "4daa7b8f059f3e7aba8a604bc184fd8474b62f83934c511ff18e6e5253fbd5e6"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a07_pre_escala/segmentos.json",
-          "sha256": "fab4a61560811417b8f8e50e4d3a2a414c2893fcb6b95fd78f961bffad974e7f"
         }
       }
     },
@@ -4560,7 +3464,7 @@
       "titulo": "Aula 07 - Escala",
       "pasta": "hc_100k_t6_a08_escala",
       "fonte_repo": "tc3midia/cursos",
-      "fonte_commit": "7470ca05b1ba5a27a1081745df0d881b92aeaec6",
+      "fonte_commit": "42c88f61e5fe385bc2d190cc9a9c853addf3e653",
       "material_ignorado": null,
       "duracao_segundos": 1370.0,
       "fim_transcricao_segundos": 1428.94,
@@ -4569,16 +3473,8 @@
       "video_bytes": 107611455,
       "fontes": {
         "transcricao": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a08_escala/transcricao.md",
+          "caminho": "hardcopy-pro/transcricoes/05 0 a 100K/06 Escala/hc_100k_t6_a08_escala.md",
           "sha256": "e88dada0d67092c48180b555ed5c23396b5ea242146dedff647816f7e67c32ae"
-        },
-        "legenda": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a08_escala/legenda.srt",
-          "sha256": "be315033516b28f49735fbe39558a025f0f15176f6e5bdb5ff6bcf52f7a2e6c0"
-        },
-        "segmentos": {
-          "caminho": "hardcopy-pro/05 0 a 100K/06 Escala/hc_100k_t6_a08_escala/segmentos.json",
-          "sha256": "51959b0883511ba801a725263db7cc83ee8f74c3e5e1135f42c92dbdd8fd56ac"
         }
       }
     }

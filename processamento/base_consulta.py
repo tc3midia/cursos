@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import quote, unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = '2130e27fa65c9930a8ef1710bb75ad8fe06233c5'
+BASE = '42c88f61e5fe385bc2d190cc9a9c853addf3e653'  # fontes lidas em 2130e27; 42c88f6 só moveu as aulas para transcricoes/ (22/09/2026)
 COURSES = {'mac-3': 15, 'analises-extraordinarias': 16}
 TYPES = set('conceito regra regua procedimento decisao exemplo alerta-ui limite'.split())
 THEMES = set('fundamentos gestao-de-risco alavancagem entradas-e-saidas indicadores suporte-e-resistencia planejamento gestao-emocional plataformas ecossistema'.split())
@@ -38,9 +38,9 @@ def dump(value):
 
 def inventory(course):
     rows = []
-    for source in sorted((ROOT/course).glob('Módulo */*/transcricao.md')):
+    for source in sorted((ROOT/course/'transcricoes').glob('Módulo */*.md')):
         text = source.read_text()
-        lesson = re.match(r'M\d\d_A\d\d', source.parent.name).group()
+        lesson = re.match(r'M\d\d_A\d\d', source.stem).group()
         spans = list(STAMP.finditer(text))
         segments = [(seconds(m[1]), seconds(m[2]), text[m.end():spans[i+1].start() if i+1 < len(spans) else len(text)]) for i,m in enumerate(spans)]
         if not segments:

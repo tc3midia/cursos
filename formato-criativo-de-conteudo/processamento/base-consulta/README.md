@@ -6,7 +6,7 @@ Finalidade: tornar o curso consultável por agentes, como matéria-prima para sk
 
 ## Fontes
 
-- Repositório `tc3midia/cursos`, commit de referência `aaff8b6daa998403849b9edf5393c023c30db8de`.
+- Repositório `tc3midia/cursos`, commit de referência `aaff8b6daa998403849b9edf5393c023c30db8de`. Desde 22/09/2026 a referência é `42c88f61e5fe385bc2d190cc9a9c853addf3e653`, que só moveu as aulas para `transcricoes/` (um arquivo por aula, mesmo conteúdo); legenda e segmentos saíram do repositório e deixaram de ser conferidos.
 - 54 aulas, 7 módulos (6, 10, 11, 10, 7, 8, 2), 160.297 palavras de transcrição. 43 aulas com material de apoio utilizável.
 - `python3 processamento/base_fcc.py --inventory` confere contagem, títulos e compara cada transcrição, legenda, segmentos e material com o objeto Git do commit de referência. Em 19/09/2026: zero divergências. Os hashes ficam em `conhecimento/manifest.json` quando a base é gerada.
 

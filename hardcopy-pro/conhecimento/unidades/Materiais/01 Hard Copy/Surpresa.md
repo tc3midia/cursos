@@ -11,9 +11,9 @@ aula: G02_A12
 aula_id: 3b0e651bd0084368
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - estruturacao_de_copy.md
+  - Materiais/01 Hard Copy/Surpresa/estruturacao_de_copy.md
 extraido_em: 2026-09-20
 gerado_por: sonnet-5
 retiradas: []

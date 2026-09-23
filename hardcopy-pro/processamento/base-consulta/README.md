@@ -6,7 +6,7 @@ Finalidade: tornar o curso consultável por agentes, como matéria-prima para sk
 
 ## Fontes
 
-- Repositório `tc3midia/cursos`, fontes no commit `7470ca0`. Branch de trabalho `task/hardcopy-pro-base-consulta`, sem commit.
+- Repositório `tc3midia/cursos`, fontes lidas no commit `7470ca0`; desde 22/09/2026 o commit de referência é `42c88f6`, que só moveu as aulas para `transcricoes/` (um arquivo por aula, mesmo conteúdo; legenda e segmentos saíram do repositório e deixaram de ser conferidos). Branch de trabalho `task/hardcopy-pro-base-consulta`, enviada.
 - 138 aulas gravadas e 1 material avulso ("Surpresa", código `G02_A12`), 5 trilhas, 18 grupos, 271.924 palavras de transcrição.
 - `CURSO=hardcopy-pro python3 base_fcc.py --inventory`, em 21/09/2026, depois da publicação do lote 1: 139 entradas, zero erros, nenhuma fonte alterada. Os avisos do inventário são a cauda da transcrição depois da duração do manifesto, registrada no PLANO.
 

@@ -11,9 +11,9 @@ aula: G05_A04
 aula_id: 83593d82ceed787d
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/03 Edicao/hc_ads_edicao_e04_sentimentalismo.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

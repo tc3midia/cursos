@@ -11,9 +11,9 @@ aula: G06_A06
 aula_id: 802d8ddeca47d94c
 account_id: account.86ajrj8n9
 fonte_repo: tc3midia/cursos
-fonte_commit: 7470ca0
+fonte_commit: 42c88f6
 fontes:
-  - transcricao.md
+  - 02 Hard Ads/04 Produtos com Dores/hc_ads_dores_e06_copy_cabelo.md
 extraido_em: 2026-09-21
 gerado_por: sonnet-5
 retiradas: []

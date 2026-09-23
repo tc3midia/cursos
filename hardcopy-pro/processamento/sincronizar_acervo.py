@@ -5,7 +5,6 @@ from __future__ import annotations
 import json
 import re
 import shutil
-from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -13,6 +12,7 @@ from transcrever import OUTPUT, SOURCE, SETTINGS, raw_path
 
 
 REPO = Path(__file__).resolve().parents[1]
+TRANSCRICOES = REPO / "transcricoes"  # desde 22/09/2026: um <aula>.md por aula; legenda, segmentos e metadados ficam só no acervo local. Rodar de novo reescreve o cabeçalho das transcrições e o README do curso.
 DRIVE = "https://drive.google.com/drive/folders/1VmaxCRxWBsvGZ2xVyzc0WxQCfBlPM6js"
 PLANNED_LESSONS = 138
 
@@ -92,15 +92,14 @@ def main() -> None:
         metadata = item["meta"]
         title = metadata["titulo"]
         group = relative.parent
-        lesson_dir = REPO / group / video.stem
-        lesson_dir.mkdir(parents=True, exist_ok=True)
+        page_path = TRANSCRICOES / group / f"{video.stem}.md"
+        page_path.parent.mkdir(parents=True, exist_ok=True)
         lines = [f"# {title}", "",
                  "Transcrição automática por Whisper `large-v3-turbo` em GPU, em português. Não revisada integralmente contra o áudio.",
-                 "Artefatos inequívocos de silêncio (pontuação solta ou uma palavra repetida) foram omitidos do texto e da legenda; os segmentos brutos permanecem no JSON.",
+                 "Artefatos inequívocos de silêncio (pontuação solta ou uma palavra repetida) foram omitidos do texto; os segmentos brutos do Whisper ficam no acervo local, fora do repositório.",
                  f"Grupo: {group.as_posix()}. [Acervo no Drive]({DRIVE}).",
                  f"Vídeo: `{video.name}`. Duração original: {metadata['duracao_original']}. SHA-256: `{raw['source_sha256']}`.",
-                 "A gravação ocorreu em 2×. Os tempos abaixo seguem a aula original; a legenda SRT segue o vídeo gravado.", ""]
-        captions = []
+                 "A gravação ocorreu em 2×. Os tempos abaixo seguem a aula original.", ""]
         omitted_artifacts = 0
         trimmed_prefixes = 0
         for segment in raw["segments"]:
@@ -113,23 +112,11 @@ def main() -> None:
             content, trimmed = trim_repetition_prefix(content)
             trimmed_prefixes += int(trimmed)
             lines.extend([f"[{stamp(segment['start'])}–{stamp(segment['end'])}] {content}", ""])
-            captions.extend([str(len(captions) // 4 + 1),
-                             f"{stamp(segment['start'] / 2, srt=True)} --> {stamp(segment['end'] / 2, srt=True)}",
-                             content, ""])
-        write(lesson_dir / "transcricao.md", "\n".join(lines).rstrip() + "\n")
-        write(lesson_dir / "legenda.srt", "\n".join(captions).rstrip() + "\n")
-        raw["video_recording_relative_path"] = relative.as_posix()
-        raw["source_lesson_duration"] = metadata["duracao_original"]
-        raw["readable_artifacts_omitted"] = omitted_artifacts
-        raw["readable_repetition_prefixes_trimmed"] = trimmed_prefixes
-        write(lesson_dir / "segmentos.json", json.dumps(raw, ensure_ascii=False, indent=2) + "\n")
-        metadata_dir = REPO / group / "Metadados"
-        metadata_dir.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(video.with_suffix(".json"), metadata_dir / (video.stem + ".json"))
+        write(page_path, "\n".join(lines).rstrip() + "\n")
         if group != previous_group:
             index.extend([f"## {group.as_posix()}", ""])
             previous_group = group
-        target = (lesson_dir / "transcricao.md").relative_to(REPO).as_posix()
+        target = page_path.relative_to(TRANSCRICOES).as_posix()
         index.append(f"- [{title}]({quote(target, safe='/')})")
         manifest.append({"grupo": group.as_posix(), "titulo": title, "video": relative.as_posix(),
                          "arquivo": target, "origem": metadata["origem"],
@@ -139,23 +126,18 @@ def main() -> None:
     for support in SOURCE.rglob("*.md"):
         if support.name == "_README.md" or any(part.startswith("_") for part in support.relative_to(SOURCE).parts):
             continue
-        target = REPO / "Materiais" / support.relative_to(SOURCE)
+        target = TRANSCRICOES / "Materiais" / support.relative_to(SOURCE)
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(support, target)
-    write(REPO / "00 - Índice geral.md", "\n".join(index).rstrip() + "\n")
-    write(REPO / "manifest.jsonl", "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in manifest))
-    write(REPO / "status.json", json.dumps({"videos_complete": len(items), "videos_total_selection": len(items),
-                                          "model": SETTINGS["model"], "errors": [],
-                                          "selection_partial_course": partial,
-                                          "synced_at_utc": datetime.now(timezone.utc).isoformat()},
-                                         ensure_ascii=False, indent=2) + "\n")
+    write(TRANSCRICOES / "00 - Índice geral.md", "\n".join(index).rstrip() + "\n")
+    write(TRANSCRICOES / "manifest.jsonl", "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in manifest))
     coverage = ("O módulo 0 a 100K ainda não foi gravado por inteiro; o curso publicado aqui é uma seleção parcial. "
                 if partial else "As 138 aulas previstas no índice local estão gravadas e transcritas. ")
     write(REPO / "README.md", "# Hardcopy Pro — transcrições\n\n"
-          f"[Índice das {len(items)} aulas disponíveis](00%20-%20%C3%8Dndice%20geral.md) · [manifesto](manifest.jsonl) · [vídeos no Drive]({DRIVE})\n\n"
-          "As transcrições, legendas SRT, segmentos JSON e metadados foram gerados das gravações completas existentes em 19/09/2026. "
+          f"[Índice das {len(items)} aulas disponíveis](transcricoes/00%20-%20%C3%8Dndice%20geral.md) · [manifesto](transcricoes/manifest.jsonl) · [vídeos no Drive]({DRIVE})\n\n"
+          "As transcrições foram geradas das gravações completas existentes em 19/09/2026, uma por aula em `transcricoes/`, nas pastas de trilha e grupo do curso; o material avulso fica em `transcricoes/Materiais/`. "
           + coverage +
-          "Os textos automáticos não tiveram revisão integral contra o áudio. Artefatos inequívocos de silêncio foram omitidos do texto e da legenda; os segmentos brutos permanecem nos JSONs. "
+          "Os textos automáticos não tiveram revisão integral contra o áudio; artefatos inequívocos de silêncio foram omitidos do texto. "
           "Os vídeos aguardam revisão audiovisual integral.\n")
     print(json.dumps({"videos": len(items), "manifest": len(manifest)}, ensure_ascii=False))
 

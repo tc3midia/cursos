@@ -39,8 +39,8 @@ class Inventario(unittest.TestCase):
         self.assertEqual(paths['G10_A03'], '03 Hard Sounds/hc_sounds_e03_o_que_queremos_ouvir.md')
         self.assertEqual(paths['G02_A12'], 'Materiais/01 Hard Copy/Surpresa.md')
         for row, _, _, _ in self.rows:
-            folder = self.base.CDIR / self.base.page_path(row)[:-3]
-            self.assertTrue(folder.is_dir(), folder)
+            page = self.base.SRC / self.base.page_path(row)
+            self.assertTrue(page.is_file() or page.with_name(page.stem).is_dir(), page)
 
     def test_aula_id_vem_da_pasta(self):
         row = next(r[0] for r in self.rows if r[0]['pasta'] == 'hc_t1_e01_piloto')
