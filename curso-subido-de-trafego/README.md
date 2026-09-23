@@ -7,7 +7,7 @@ Tráfego. Os vídeos originais não fazem parte deste repositório.
 
 | Preciso de… | Abro |
 |---|---|
-| Aulas originais e materiais de apoio | [Índice das fontes](00%20-%20%C3%8Dndice%20geral.md) |
+| Aulas originais e materiais de apoio | [Índice das fontes](transcricoes/00%20-%20%C3%8Dndice%20geral.md) |
 | Orientações já extraídas | [Conhecimento](conhecimento/README.md): 133 aulas, 2.829 unidades e índices por tema |
 | Jeito de comunicar do professor, adaptado para um gestor | [Voz textual](voz/README.md): guia, evidências e exemplos para avaliar |
 | Método, scripts e revisão | [Processamento](processamento/README.md) |
