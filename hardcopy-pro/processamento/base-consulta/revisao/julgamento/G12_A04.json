@@ -1,0 +1,27 @@
+{
+  "aula": "G12_A04",
+  "arquivo_sha256": "24ee6343aa5c661f703a2414963a3a2056f90e88ae7a08161ba376d106c70ee3",
+  "inspecao_sha256": "eeed3ef753e8e0306e317923f11bbf69abf4e3d739dd4c64edec59551454251f",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Inspetor confirma na conferência focal que U10 respeita a numeração sequencial após o maior número existente (9), tem tipo `regra` compatível com o corpo (frase categórica) e faixa dentro dos limites da transcrição. Retiradas vazias, nenhuma renumeração. Passa.",
+  "fidelidade": "U4 e U5 não foram alteradas (hashes preservados; inspetor reconferiu as faixas 281–328 e 329–711 e as mantém `lastreada` sem problema novo). U10 é `lastreada` com trecho literal dentro de 352–374 e com a grafia da transcrição; a única ressalva é a terceira linha do corpo remeter à cena de silêncio e vozes que a fonte traz em ~386–489s, fora do `fim`=374 — não é número, condição ou sentido diferente da fonte (a cena existe e está registrada em U5), e mesmo contada como faixa imprecisa seria 1 de 10 unidades, dentro do teto de 10%. Apontamentos acumulados sobre unidades intactas (U1 frase final apoiada em ~128s fora da faixa; U6 detalhe \"entre aspas\" importado de 718–756s; U7 passo 5 interpretado de frase ambígua sem nota) são de gravidade menor, não alteram decisão de uso e já haviam sido tratados como ajustes no julgamento anterior. Nenhum sem-lastro material, nenhuma copy de exemplo tratada como fato (U5 e U8 seguem com `condicoes` de copy fictícia). Passa.",
+  "cobertura": "F1 resolvida: U10 registra (a) a rejeição da abertura genérica de pergunta de dor (\"se você sente que não consegue dormir e fica o dia inteiro cansado\") e (b) o critério de abrir mostrando o que só quem tem a condição passa e sente; o inspetor localiza ambas na fonte dentro da faixa (355–364 e 369–373) com trechos literais. A lista `omissoes` do inspetor ainda carrega a omissão 2 como material dizendo que \"nenhuma unidade registra\" a ressalva — contradição visível com a própria U10 e com o veredito do inspetor sobre ela e com o resumo; trato como acúmulo não atualizado, não como omissão persistente. Omissão 1 (193s, \"pegar a parte mais chocante\") permanece menor, como já avaliado. Passa.",
+  "perecibilidade": "Inspetor não sinaliza nada. U10 com `perecivel: false` está correta: orientação de escrita de gancho, sem tela, ferramenta, preço, política ou recurso do curso. Unidades com `chatgpt` (6, 7, 8) e o `limite` sobre a aula seguinte (9) seguem marcadas `true`. Passa.",
+  "aplicabilidade": "U10 se sustenta sozinha: `condicoes` fixa o nicho de dor (insônia como exemplo), o corpo enuncia a abertura rejeitada e o critério positivo sem depender da aula, e a menção \"no exemplo de insônia da aula\" vem acompanhada do que ela significa (cena de silêncio com vozes em vez de lista de sintomas). Tipo `regra`, tema `anuncio-produto-com-dor` (prevalência de tema de nicho de anúncio, defensável ao lado de `abertura-e-gancho`), tarefa `escrever-gancho-de-anuncio` e plataforma `geral` levam o agente ao lugar certo. Nenhuma referência residual à tela ou ao vídeo. Passa.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U10: a terceira linha do corpo descreve a cena de silêncio com milhares de vozes, que a fonte traz em ~386–489s, fora do `fim`=374; ajustar `fim` para cobrir a cena ou remover a frase ilustrativa (a cena já está em U5). Inspetor, unidade 10, gravidade menor.",
+    "U6: o detalhe 'entre aspas' vem de 718–756s (faixa de U7), não de 424–438s; remover a expressão de U6 ou ampliar a faixa. Não muda o uso porque a prática está lastreada em U5 e U7. Inspetor, unidade 6, desvio de gravidade menor.",
+    "U7: o passo 5 ('trate como texto do anúncio tudo o que estiver entre aspas') interpreta a frase ambígua 'coloque tudo o que eu pedi dentro das aspas'; acrescentar `nota` registrando a leitura alternativa (o professor põe o texto entre aspas ao montar o prompt) e baixar `confianca` para `media`. Inspetor, unidade 7, gravidade menor.",
+    "U1: a frase final ('a considera limitada para reduzir ainda mais o custo e aumentar a conversão') apoia-se em 'eu quero preço e conversão' (~128s), fora do `fim`=87; ampliar `fim` até ~146 ou retirar a frase. Inspetor, unidade 1, gravidade menor.",
+    "U2: tema discutível entre `estrutura-de-anuncio` e `metricas-e-diagnostico`; ambos defensáveis, manter como está. Inspetor, contrato.",
+    "Omissão 1 (193s, 'Normalmente eu pego a parte mais chocante'): dica de selecionar o trecho mais impactante do material bruto para os 3 segundos iniciais; complemento opcional a U4, sem efeito na decisão. Inspetor, omissão 1, gravidade menor.",
+    "Arquivo de inspeção: a lista `omissoes` acumulada ainda traz a omissão 2 como material embora U10 a cubra e o próprio inspetor a dê por resolvida no veredito de U10 e no resumo; retirar da lista para não confundir a próxima conferência."
+  ],
+  "proximo": "Aprovar e mudar o status da aula para `revisado`. Atualizar o arquivo de inspeção retirando a omissão 2 da lista acumulada, que está resolvida por U10. Os ajustes menores (U10 fim ou terceira linha; U6 'entre aspas'; U7 nota e confianca media; U1 fim) podem ser aplicados em manutenção, com incremento de `versao` e reconferência por script, sem abrir novo ciclo."
+}

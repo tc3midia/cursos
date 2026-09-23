@@ -1,0 +1,38 @@
+{
+  "aula": "G10_A05",
+  "arquivo_sha256": "10fa1e7bff715ad570b979d25890768a8570e986bb5192ecee32e2072d2eff68",
+  "inspecao_sha256": "971a867404b7b738ac47da824b011cf7c9280d14601f92f9ed6f20149e9df3d9",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral das seis unidades, nenhuma citação em citacoes_nao_literais. U1, U4 e U6 lastreadas sem ressalva. U5 é desvio material: a fonte apresenta o trecho sem som antes do botão como um dos cinco pontos marcados na demonstração sobre um vídeo de exemplo (\"Todas as partes que vamos calar a boca… Cinco partes\"), e a âncora da própria unidade (\"Você vê que aqui não tem som\") é dêitica à tela; a unidade converte isso em regra geral no imperativo (\"deixe um trecho totalmente sem som\"), quando U4 já preserva o mesmo ponto com condicoes de demonstração. É exemplo de caso apresentado como parâmetro geral. As afirmações \"faz a pessoa se arrepiar\" e \"feito só na edição\" em U5 não têm trecho literal apontado pelo inspetor. U3 introduz \"mecanismo\" sem base no trecho (fonte diz \"este nome\"); não inverte a ação, menor. U2 mantém confianca alta sobre trecho mal transcrito (\"colocar em cima da sua cópia e no seu som\") sem nota; a orientação central está lastreada em \"Embasado no que você tá vendendo\", menor. Falha.",
+  "cobertura": "Inspetor declara busca de omissões na fonte inteira, do card inicial ao resíduo final (\"E aí\" repetido, corretamente ignorado), e não localiza conteúdo didático fora das seis unidades. Técnica, critério de escolha dos pontos, demonstração e limite do que ficou na tela estão presentes. Passa.",
+  "perecibilidade": "Nada apontado pelo inspetor. Conferi as unidades geral com perecivel false (1, 2, 5): orientação sem tela, menu, ferramenta ou recurso do curso. U4 e U6 (atalho Ctrl B, timeline do editor, próxima aula) e U3 (produto do próprio professor) estão marcadas true. Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula ao lado. \"Calar a boca\" é explicado dentro de U1 e U2; U4 usa o termo sem glosa, mas o corpo deixa inferir que se trata de pontos de corte de som (menor). U6 é um limite bem escrito para aula de tela: diz que o editor não é nomeado e que cor e edição final ficam para a Parte 2. Tema plot-twist e tarefa escrever-desenvolvimento-e-plot-twist em U3 são discutíveis (inspetor sugere que o trecho serve ao critério de corte de som), mas a orientação é sobre quando revelar o nome do método, o que cabe em plot-twist; classificação entre dois valores defensáveis, sem mudança obrigatória. Passa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal: \"a gente marcou no nosso vídeo, Todas as partes que vamos calar a boca... Dá uma, duas, três, quatro, Cinco partes\" — o silêncio antes do botão é um dos cinco cortes marcados na demonstração sobre o vídeo de exemplo, não regra enunciada para toda VSL. A âncora da unidade (\"Você vê que aqui não tem som\") aponta para a tela. U4 já registra esse mesmo ponto com condicoes de demonstração; U5 o repete como regra geral no imperativo (\"deixe um trecho totalmente sem som de trilha\"). Não há trecho literal apontado para \"faz a pessoa se arrepiar\" nem para \"feito só na edição\".",
+      "impacto": "Agente que consulta U5 para sonorizar-video passa a tratar silêncio total antes de todo botão de CTA como passo obrigatório em qualquer VSL, decisão de produção que a fonte só mostra como escolha feita naquele vídeo de exemplo.",
+      "mudanca_minima": "Retirar a unidade 5 (remover do arquivo e listar 5 em retiradas), já que U4 preserva o ponto com a condição correta. Alternativa: reescrever U5 atribuída à demonstração, sem imperativo geral, com condicoes dizendo que é um dos cinco pontos marcados no vídeo de exemplo, removendo ou lastreando com trecho literal as afirmações \"faz a pessoa se arrepiar\" e \"feito só na edição\"; incrementar versao.",
+      "criterio_de_aceite": "Arquivo sem a unidade 5 e retiradas contendo 5, com validador em zero erros; ou, se mantida, corpo sem prescrição geral (sem \"deixe\"/\"faça\" aplicado a toda VSL), condicoes preenchido com a condição de demonstração, versao 2, e inspeção focal confirmando trecho literal na faixa 246–262 para qualquer afirmação causal que permaneça."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: rebaixar confianca para media e adicionar nota registrando que o trecho \"colocar em cima da sua cópia e no seu som\" está mal transcrito e que \"releia a copy e reescute o áudio\" é leitura interpretativa; a orientação central (\"Embasado no que você tá vendendo\", procurar os trechos que dão arrepio) fica como está.",
+    "U3 e contexto (3ª frase): trocar \"mecanismo\" por \"nome do método\" ou \"nome do produto\" no título e no fecho do corpo; a fonte diz \"este nome\", e \"mecanismo\" remete a mecanismo único (G01_A03), conceito distinto. Opcional: título atribuído ao professor (\"O professor não revela…\") em vez de imperativo universal, alinhando ao corpo, que já atribui.",
+    "U3: tema plot-twist e tarefa escrever-desenvolvimento-e-plot-twist são discutíveis frente a som-e-sentimentalismo/sonorizar-video; considero plot-twist defensável. Sem mudança obrigatória.",
+    "U4: glosar \"calar a boca\" na primeira ocorrência (\"os pontos de calar a boca — cortar a trilha e deixar só a voz\") para a unidade não depender de U1."
+  ],
+  "proximo": "Redator aplica F1 (retirar U5 ou reescrevê-la como demonstração) e, na mesma passada, os ajustes menores, sem abrir ciclo por eles. Conferência seguinte: inspeção focal sobre U5 (ou sobre retiradas) e sobre as unidades cujo hash mudar (2, 3, 4 se os ajustes forem aplicados); U1 e U6 preservam evidência com hash intacto. Se U5 for mantida com a afirmação \\\"faz a pessoa se arrepiar\\\" ou \\\"feito só na edição\\\", o inspetor apresenta trecho literal da faixa 246–262 que as sustente; sem isso, a unidade não passa. Ciclo 1 de 2."
+}

@@ -1,0 +1,28 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "26b8bf6b64972ac65f10d094c04a907f4e89bbd1240d7308af2de9d91552a5b6",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": [],
+  "unidades_verificadas": [],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "7ee66df9154ab41d9514bb5220adadf5d25c43532f5e5963bcee56939c4a6d1c",
+    "2": "85764a2348a7a2374fa510a2ea8dc1eb5866ed429b549c57f0ba925b57763127",
+    "3": "84dcef46a3f234ef283535fa07a695956cd21ee37ffb1679819f8e54d170da01",
+    "4": "e42a47e5d14bd4e2a50e36a38c905cc865a3f2b0aa78d9e31b359d5c122b356e"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A falha G08_A06-F1 não afeta nenhuma unidade (campo \"unidades\" da falha vazio); ela dizia respeito só à frase 5 do `contexto`, que nos ciclos 1 e 2 continuava generalizando a estimativa do abajur fictício (\"Light Touch\") como faixa de preço de referência de mercado para dropshipping/e-commerce, apesar de a fonte (\"Então esse produto aqui provavelmente / Ele está saindo aí a R$ 79 / Você vai vender a R$ 169 / R$ 189\") ser estimativa avulsa sobre o caso do exemplo. No ciclo 3, a coordenação gravou diretamente no JSON a frase mandada pelo juiz: \"Dá uma estimativa de compra e venda para o abajur do exemplo, em drop e e-commerce, sem apresentar os valores como parâmetro de mercado.\" Conferido no arquivo entregue, a frase 5 do `contexto` está exatamente com esse texto, sem a palavra \"referência\" e sem citar R$ 79/169/189 como faixa; o `contexto` mantém 7 frases (dentro de 3–8) e nenhum marcador temporal. As unidades 1–4 permanecem como ficaram após o ciclo 1 (fim, tipo, condições e versão inalterados nesta rodada), consistente com \"hashes das unidades 1–4 inalterados\". O critério de aceite de G08_A06-F1 está satisfeito e a correção não introduziu problema novo."
+}

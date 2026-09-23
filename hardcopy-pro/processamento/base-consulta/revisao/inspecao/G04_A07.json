@@ -1,0 +1,77 @@
+{
+  "aula": "G04_A07",
+  "arquivo_sha256": "35c61c9201e5e4db66fb3b7ae88df500edd1face3b6ff7d53254dc6f7be450bb",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2]; as demais mantêm a evidência da inspeção integral do arquivo b33c2bac2b95, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "bb2408ac790b7574f1e9681dac14dc458a4e96d344309a306df57403bfcafabc",
+    "2": "d8d1c773fb81b2da03354bd77e39af14852a015b9944e0bd8252e478be0e2e53",
+    "3": "63244f7f3c302bd175c67a44d0ee948550541dd39fca70ebacf0d6f4fb92c68a",
+    "4": "953df8348c10cb5f4c086e7e033f596c6a57f40cec7d507ef63fde4bb60de334"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Depois assista a essa aula",
+      "explicacao": "A sequência criatividade, depois esta aula, depois edição está na fala (00:59–01:03), e a faixa 53.1–65.1 cobre o trecho, incluindo \"Eu não fiz nada à toa aqui\". Diferença menor: o corpo troca \"essa aula\" por \"a temporada de roteirização em que a aula está\". O rótulo \"roteirização\" vem do nome do grupo, não da fala. A nota registra essa interpretação e a confiança é media, então o caso é de ambiguidade preservada. Sem efeito prático relevante. O corpo também fala em \"segunda temporada\" sem dizer que ela corresponde à edição."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Essa e a criatividade são as mais importantes",
+      "explicacao": "F1 resolvida. O corpo separa as duas falas como a fonte as traz. (a) \"A temporada mais importante desse treinamento / É essa que você está vendo agora / A primeira temporada / Essa e a criatividade são as mais importantes / O resto, eu diria / Que você consegue delegar\": o corpo atribui \"mais importantes\" só à temporada em curso e à criatividade, e diz que o resto é delegável. (b) \"A primeira e a segunda temporada / Você não delega / Você faz\": o corpo põe essa frase à parte e diz que a fala não identifica a segunda temporada, o que preserva a ambiguidade. A `nota` descreve a tensão entre as duas falas, a `confianca` é `media` e a `versao` é 2. A fusão que fazia da segunda temporada uma das \"mais importantes\" sumiu. As demais frases conferem: \"Assista todas as aulas / E aí quando chegar na segunda temporada / Você vai estar com a mente aberta / Você já vai saber como faz um enredo\" (atribuída ao professor com \"Diz também que\"), e \"Porque esse é o 8020, fechou?\" (125.48–127.30), sem detalhe de conta. F2 resolvida: `fim` 127.3 cobre a frase do 8020 e todo o conteúdo do corpo (o trecho mais cedo usado, \"Assista todas as aulas\", começa em 91.32) está dentro de 78.78–127.3; a `evidencia` (124.16–125.38) também. Não há `faixa-errada`. Dois pontos menores, sem efeito no uso e sem reabrir a F1. Primeiro, o corpo liga \"quem vai sentir o próprio produto\" a \"Copy e criatividade\", mas na fonte essa razão vem logo depois de \"A primeira e a segunda temporada / Você não delega / Você faz\", e o 8020 é a razão dita após \"Quando a gente fala de copy e criatividade / A gente não delega\". As duas falas estão no corpo e o professor trata os dois blocos como não delegáveis. Segundo, `inicio` 78.78 cai dentro da anedota do High Ticket (78.48–81.34) e é cerca de 13 s mais cedo que o necessário; a justificativa do ciclo 1 para mantê-lo (a frase da mente aberta em 94.40) não exige isso. A faixa é ampla demais, mas o conteúdo está dentro dela."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na próxima temporada, vamos mostrar toda a base que eu utilizo na edição.",
+      "explicacao": "A faixa 36.14–52.58 coincide com os três segmentos do trecho. O corpo preserva o adiamento da base de edição e a reedição do texto em outro formato, com o propósito declarado (\"para você entender como criamos o nosso anúncio, a nossa edição\"). \"Esta aula não ensina edição\" é inferência direta do adiamento e não distorce a fonte."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não tem aulas aqui te mostrando e te passando nenhum swap, nenhum notion",
+      "explicacao": "Suporte 24 horas, \"swap\"/\"notion\" como transcritos e \"abrir a sua mente\" estão na fonte e dentro da faixa. \"Swap\" e \"notion\" ficaram entre aspas e com nota, como o FORMATO pede. Menores: a frase \"A parada e a pegada é te ensinar\" começa em 150.04, exatamente no fim da faixa, então a parte \"a proposta é ensinar\" fica no limite (a fala \"abrir a sua mente\" sustenta o resto). O corpo omite que o suporte é para dúvidas (\"qualquer dúvida\", 132.46–135.04, fora da faixa) e que o aluno deve entrar em contato (\"Então entre em contato lá\"), sem efeito prático relevante."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 152.1,
+      "trecho_fonte": "Então faça igual algumas pessoas fazem quando eu falo de copy e de criatividade",
+      "descricao": "O professor dá uma orientação de como assistir às aulas de copy e criatividade: fechar os olhos e imaginar enquanto ele fala. Diz que muita gente faz isso e assim consegue absorver tudo o que ele oferece (152.1–164.9). Nenhuma unidade preserva essa dica. A alegação de resultado deveria vir atribuída ao professor.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente perguntado sobre como assimilar as aulas de copy e criatividade não terá a recomendação do professor. Não muda a execução técnica de nenhum procedimento."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U2 (numero 2): tema `criatividade-e-angulo` (\"achar ângulo novo a partir do que já existe, modelar sem copiar\") e tarefa `roteirizar-anuncio` não descrevem o conteúdo, que é uma regra de divisão de trabalho (o que delegar e o que não). Um agente que busca ângulo ou roteiro encontra uma unidade sobre delegação; quem busca a orientação sobre delegar dificilmente a acha ali. Classificação discutível, `curso-e-recursos` seria mais próximo. Ajuste menor.",
+    "U3 (numero 3): o corpo diz \"o texto trabalhado\" e \"a próxima temporada\" sem dizer qual texto nem qual temporada. O \"texto\" era o que aparecia na tela (\"este texto aqui\"). Quem consulta sem a aula não sabe a que se refere. Ajuste menor: nomear o objeto ou registrar que o texto ficou só na aula.",
+    "U4 (numero 4): \"swap\" não é reconhecível e não está na tabela de grafias; o FORMATO manda `confianca: baixa` para termo não identificado mantido entre aspas. A unidade usa `media`. Ajuste menor.",
+    "U1 (numero 1): as `condicoes` trazem \"na época da gravação\" (marcador temporal fora do corpo). Sem efeito de contrato, só observação."
+  ],
+  "material": [],
+  "resumo": "Conferência focal da U2: F1 (fusão das duas falas sobre importância e delegação) e F2 (faixa que não cobria o 8020) estão resolvidas pelos critérios de aceite. O corpo agora separa as duas falas, a `nota` registra a tensão, a `confianca` é `media`, a `versao` é 2 e o `fim` é 127.3. A alteração não criou desvio nem `sem-lastro`. Registro dois ajustes menores: a razão \\\"sentir o produto\\\" ligada a copy e criatividade, e o `inicio` 78.78 mais cedo que o necessário. Nenhuma omissão decorre das falhas da lista."
+}

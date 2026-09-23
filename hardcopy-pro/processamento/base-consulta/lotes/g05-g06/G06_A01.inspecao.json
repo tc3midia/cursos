@@ -1,0 +1,162 @@
+{
+  "aula": "G06_A01",
+  "arquivo_sha256": "14c6e5e60b0e9f4ab1e0e6e9970ac9f5ddd2a423a1d31eff5a4731b8d67bd22b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "hashes_unidades": {
+    "1": "a3713d587b1e4e5c6bd0f58f85587da852faafebb675136a8f4713f49281cf7d",
+    "2": "b7a50c15af0409c8e2a2c565d8c6bfee5157a50d5adfc87c6975c9abc91a50d0",
+    "3": "c04b2f758360038adfeb99976d93575bf512c93a2206a3c2153351abeba01086",
+    "4": "3b44442c2008b4cd8ef23dddc3bea71980a91cca96fcaf71bfa74a944bced079",
+    "5": "1827b0e9a1c08a0d7b9af3046e9fd5de3a98f98ef05865fc3a5f01f340343474",
+    "6": "946170d074f10499d413fb1fc7599311d4c9a794342096f66003d672238eb752",
+    "7": "18b44d244d215b0dfaee39d584116a05d1d599f44ab6c29b10b1438e5c3dd250",
+    "8": "61877202e45029f61072310f9abca46f56a8b47594574d28faad659460c2b30f",
+    "9": "5bc03e107f81a60f4c24db4710c5a27eea6f229c009b3ab46b293cfc57844883",
+    "10": "dbfb274e9b24e1891061f7f3fcd0155f3ae34b2dfe246a1d11828aac3884c3db",
+    "11": "8e3a854ff9879de77dfce00819dafcb8a9231f7f13d35f10f99bca14496ac487",
+    "12": "b4ceb75ae8ed14371f3d142bfd181ae7b46c2233b1f09c4ba0559f4c964b225d",
+    "13": "f291f44ba6edff0e724897811692c70e757cfaa71e07bbfaadddedb35ec812da"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Nas próximas aulas a gente vai ver como a gente vai começar esse almoço",
+      "explicacao": "Lastro confirmado: temporada para produtos com dores, foco desta aula em onde tocar e em prender a atenção do lead, e exemplos futuros de emagrecimento, cabelo, acima de 50 e renda extra. A fonte diz 'começar esse almoço' (palavra deformada). A unidade lê como 'começar o anúncio' sem nota, com confiança alta. A leitura é plausível e não muda o uso. Faixa correta."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E pra você entender que um anúncio perfeito não interessa o que você tá vendendo, você",
+      "explicacao": "'Qualquer forma, qualquer formato, qualquer produto e qualquer nicho' está na fala logo em seguida. O elo com produtos com dores vem do 'pra você entender' que abre a frase. Atribuição ao professor preservada. Faixa correta."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "a pessoa é tão ruim que até a pessoa mesmo tem vergonha e seja também disse, então olha só,",
+      "explicacao": "Anúncio ruim, bom ou perfeito que toca em algo no público, incluindo a vergonha alheia, está na fonte. 'Seja outro sentimento' interpreta a palavra deformada 'disse' sem nota. O fecho 'Por isso o ponto central da aula é decidir conscientemente onde tocar' é elo do extrator: a 'jogada de mestre' só aparece por volta de 310 s e 'conscientemente' não está na fala. A 'pergunta de análise' se refere a um anúncio desenhado no quadro. Não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "e aí cara, para você acertar no anúncio desse aqui, demanda grana mais importante",
+      "explicacao": "Definição de mostrativo, delimitação de público, CPC caro e CTR pequeno, conversão boa em WhatsApp, 'quando você acerta, dá tudo certo', demora e 'descartamos' estão na fonte. A preferência está atribuída ao professor em `condicoes`. 'Exige mais dinheiro' interpreta o trecho truncado 'demanda grana mais importante' e é afirmado sem nota, com confiança alta. Efeito prático pequeno."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Do mesmo jeito que você faria com esse daqui",
+      "explicacao": "Reels com antes e depois, desenvolvimento e camada de ação forte; usos (DSL, vendas, WhatsApp, Instagram, engajamento); 'muito bem feito'; história, trabalho e call to action; 'questão de percepção' — tudo está na fala. A ressalva foi preservada. Três ajustes: (1) 'como no anúncio mostrativo' vem de 'esse daqui', referente mostrado no quadro, e o corpo usa o termo sem defini-lo (só a U4 o define); (2) 'e do que se quer com ele' está em ~301–303 s, logo depois do `fim` 300; (3) a nota sobre DSL→VSL está correta."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "tudo isso depende de onde você vai jogar",
+      "explicacao": "'Jogada de mestre' é saber onde tocar e o que passar ao lead, e depende de para onde o lead é jogado, com o exemplo de emagrecimento enviado à VSL. 'Leite' foi lido como 'lead', com `nota` e `confianca: media`, o que é adequado. Faixa correta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ou seja, ele é extremamente linchado",
+      "explicacao": "Definição de VSL Express, CPC já caro, ir direto na dor e 'meio por cento de conversão' estão na fonte, e a `condicoes` diz que o número não é régua. Dois pontos: (1) 'o público está muito exposto' é a interpretação do extrator para 'linchado', palavra deformada da fonte, sem nota; (2) 'a VSL padrão então não sustenta' é elo do extrator. A razão que a fala dá para a jornada do herói ir mal é 'muito lenga lenga, a pessoa já sabe o que vai acontecer' (U8). 'Evite' é a conclusão do extrator ('aí nós temos um problema'). O resultado prático não muda."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Não adianta correr isso aqui, tá bom?",
+      "explicacao": "A fonte diz 'Não adianta correr isso aqui'. A unidade escreve 'isso não adianta contornar', que é outro sentido, adivinhado a partir de uma frase deformada ('correr' provavelmente é 'rodar'), sem `nota`. Quem consulta pode concluir que a previsibilidade da jornada do herói não tem remédio; a fonte não diz isso, e a aula segue apontando outros formatos de VSL (U9). O restante — 'não é ruim, é muito boa, difícil de acertar', a analogia com filmes, 'lenga lenga' e o lead que já sabe — está fiel e atribuído como opinião."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Quando você faz isso, aqui tudo vai depender",
+      "explicacao": "Os formatos noticiário, surpresa e intenção, 'fica maravilhoso' e 'precisa de uma boa estrutura' estão na fonte, e a nota admite a interpretação. Ressalvas: a fonte diz 'tudo vai depender' (de quê, não fica claro), e a unidade não diz que esses formatos são a alternativa à VSL Express para o anúncio direto de dor. 'Se o destino não sustenta' é leitura do extrator para 'boa estrutura', cuja referência é ambígua. A `nota` e a confiança media cobrem a incerteza."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você compete com players aí que tem dinheiro pra gastar a granel",
+      "explicacao": "'40/30 centavos de CPC... surreal... no Brasil', 'leilão muito alto' e 'nicho extremamente competitivo' estão na fonte. 'Concorrentes de muito dinheiro' vem da fala sobre o mercado de marketing digital do próprio professor (~498–502 s, fora da faixa 466–492); a unidade o generaliza para o leilão em geral. A nota chama o 'R$152,00' de 'ininteligível', mas ele está escrito na transcrição e é só implausível (provável erro de transcrição). Não extraí-lo é defensável."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então você precisa de 20 centavos 15 centavos de 15 por cento tá porque realmente a gente mostrou",
+      "explicacao": "Caso próprio, mercado competitivo, números sem métrica clara, 'mostrou algo diferente' e 'não focou na venda e sim no resultado' estão na fonte. O tipo é `exemplo`, com `nota` e `confianca: baixa`. A unidade não transforma os números em régua e diz que a métrica é incerta. 'Rádio Cop' → Hard Copy está marcado como hipótese. 'O anúncio funcionou' é atribuído ao professor ('segundo ele')."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "não adianta, você tem que estudar",
+      "explicacao": "'Bom anúncio, resultado barato, não adianta jogar pra uma página/VSL ruim; tem que estudar primeiro' está na fonte. A unidade acrescenta 'como fazer a parte de venda antes de rodar', que a fala não diz: 'estudar primeiro' vem colado à oferta do Hard Copy ('E aí entra o Rádio Copy em ação'), logo após a negação de 'venda casada'. A regra é uma afirmação do professor, sem condição de que está ligada ao pitch. Baixo efeito."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não essas conversinhas fiadas de ficar em Clickbank Estados Unidos, forma alguma",
+      "explicacao": "Oferta corretamente isolada como `limite`: 'barato pelo que oferece', 'não interessa o nível de consciência' e o contraste movido a dor × necessidade/interesse/surpresa. 'Em vez de copiar modelos' de plataformas de afiliação é paráfrase livre de 'conversinhas fiadas de ficar em Clickbank'. A `nota` diz que a transcrição só grafa 'Rádio Copy/Cop', mas a fala tem 'no hard copy' literal (~561–569 s), o que reforça a hipótese. 'Produto irmão' vem do FORMATO, não da fala. Nada disso muda o uso."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [
+    {
+      "numero": 5,
+      "problema": "Discutível, ajuste menor. A unidade descreve o formato Reels (recurso de plataforma) e afirma que ele 'funciona para campanhas de WhatsApp, Instagram e engajamento', mas está com `perecivel: false` e `plataformas: [geral]`. Se o juiz entender que o formato de anúncio e os tipos de campanha dependem de plataforma, deve ser `perecivel: true`, com plataforma coerente."
+    }
+  ],
+  "contrato": [
+    "U5: o corpo diz 'como no anúncio mostrativo' sem definir o termo, que só é explicado na U4. Sozinha, a unidade depende de outra. A comparação se apoia em 'esse daqui', referente do quadro branco. Ajuste menor.",
+    "U3 ('o ponto central da aula') e U2 ('A temporada usa...'): o corpo remete à aula e à temporada como referência que ficou fora da unidade. Ajuste menor de aplicabilidade.",
+    "U9: a tarefa `estruturar-vsl` promete a quem consulta a distribuição de atos e a dimensão das partes da VSL, mas a fonte só cita os nomes dos formatos (noticiário, surpresa, intenção). O corpo também não diz que esses formatos são a alternativa à VSL Express (U7). Classificação discutível, ajuste menor.",
+    "U13: a `nota` afirma que a transcrição só grafa 'Rádio Copy' e 'Rádio Cop', mas a fala tem 'no hard copy' literal por volta de 561–569 s. Imprecisão de nota, menor."
+  ],
+  "material": [],
+  "resumo": "As 13 unidades foram conferidas contra a fonte, e as evidências, as faixas e os números (30–40 centavos de CPC, meio por cento de conversão, 20/15 centavos e 15 por cento) estão fiéis, sem copy de exemplo tratada como fato. Um desvio menor na U8: 'não adianta correr isso aqui' virou 'não adianta contornar', sem nota. Os demais ajustes são menores: interpretação de palavras deformadas sem nota ('almoço', 'linchado', 'disse'), U5 talvez perecível, referências que dependem de outras unidades ou da aula, e nota imprecisa na U13. Percorri a transcrição inteira à procura de omissões e não encontrei nenhuma que muda a decisão; não há material de apoio nesta aula."
+}

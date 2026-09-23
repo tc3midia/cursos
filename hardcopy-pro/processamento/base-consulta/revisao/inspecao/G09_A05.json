@@ -1,0 +1,301 @@
+{
+  "aula": "G09_A05",
+  "arquivo_sha256": "06d56ef8a46fdb245b08aea75625a932851c66c6ca459802653c8dadd7b1ec7c",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 12, 19, 20, 22]; as demais mantêm a evidência da inspeção integral do arquivo daf153fab5ce, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    12,
+    19,
+    20,
+    22
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "hashes_unidades": {
+    "1": "70700ba352d72cdc4b49ddc4405f77a8eaf25ef9f2275526a3a85a64e928931f",
+    "2": "5b5d8faf519fa0b32fd13a5f838438c347a3803abd55dbcbf9a9140f5fc11c28",
+    "3": "4a2c5675ba9ac89e18d6e4f62cbd983d95872e288ced0b79b0713dea3f16c126",
+    "4": "ec92a15a5659b51877b67d1fb6fc3295c3fa57a8c720126e6a2c8d4599ca9d45",
+    "5": "11774c3528b50bbe1b108d83905c415cad14bc17f5fe58708b7545bbab503136",
+    "6": "15ac6a145be2e019f8c74cd7cabce6fe2978a742830cc822a5e86b8587946f8d",
+    "7": "fe533c59d89e807a6242a4cd5461630c797a0062076cb93aae2d96dc08ed060c",
+    "8": "a2e81872d17d8b2a1fee56702d17787c4a652fb9af16be2815bc39e3cc695589",
+    "9": "e5b5ca814d062ad54e32c6479e8a1151566047f81998934c014fe2aab7dc51a7",
+    "10": "1595ace29731da7ad0ca682b14603d66eb6f74c16d92a0f554fa9a955a23b43a",
+    "11": "3cb5d12a0d2a129d5ae4bd715350f96df08a2e48b240fc5c9c133234929a6595",
+    "12": "b40469a0f89ffb5c389bdb7bf2772259fb8b475d4e64efd5e5e9f19020ba3ccb",
+    "13": "0db6f12bc162cf36a6a7cd7a658b064b1dd00a638a009ee600d9a767ff5e3961",
+    "14": "1b82291d6c905b309775f82fff0c21a38983bc38d35882b6734a3cafe00463c2",
+    "15": "e5e5b77957747690cdf82c6c3eecfd466518a7b254fdff432af89145d9b7e5d2",
+    "16": "7e1000207020f76e65e76bc4b282f8b1e1dc8b6de53de9670ef572edbe8e778d",
+    "17": "09c400acf1d0ea7d4281654e09415867f34f98461342353a0fe5d42ab01ee742",
+    "18": "c85238941ea0b5cb48826787b8cb03b17142e168c7ae5430f357746ff9348688",
+    "19": "dc68a1f0625958b2ba078d1820b8d0cf3cd41899caddd3918d36db77e52266be",
+    "20": "6e7d0729fadcfcec9ad293297b8a290b73a075227337ed86dcad1935a4e23866",
+    "21": "c9114c5fa4ac85e157a2d128a5fede6bd21e6b49060c3a2361b485940af7d206",
+    "22": "9f26a1830d51adc2f566e92bdcdb60f5a7bbfbf670d5c975807f6092fadd7aac"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tudo por conta de uma única coisa Fonte Ou seja, a fonte é muito importante",
+      "explicacao": "A fala confirma que a fonte é decisiva para o que o texto/VSL transmite (curiosidade, dúvida, afirmação, inimigo, pedido de ajuda antes do CTA) e que uma fonte mal escolhida soa amadora, enquanto uma fonte bem escolhida começa a transmitir confiança, exatamente como o professor demonstra comparando as duas fontes. Sem divergência de sentido, número ou condição."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos vir aqui, ó, em design E vamos escrever Emagrecimento",
+      "explicacao": "Os quatro passos do procedimento (buscar em Design pelo nicho, observar os templates, abrir alguns para comparar fontes, aplicar a fonte escolhida ao próprio texto) seguem exatamente a sequência narrada com o exemplo 'emagrecimento'. Sem divergência."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o preto fecha muito o criativo e é perigoso",
+      "explicacao": "Unidade não foi alterada neste ciclo (mantida de propósito pela correção). Corpo e evidência seguem lastreados no trecho 168–209 (preto fecha o criativo/é perigoso; Subway verde, McDonald's amarelo). A falha de cobertura F03 (condição 'não é uma cor fixa para todo produto' podendo sugerir cor fixa por produto, sem indicar troca por quadro) foi resolvida por outra via — criação da unidade 22, que cobre explicitamente a troca de cor por sentimento ao longo do vídeo — então a unidade 3, isolada, deixa de ser motivo de veto de cobertura."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o que eu indico aqui no máximo são duas linhas",
+      "explicacao": "O limite de duas linhas por quadro e a justificativa de que o excesso de informação cansa o lead e o afasta do vídeo correspondem exatamente à fala e à demonstração (testar um bloco maior, ver o problema, reduzir a duas linhas)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se a gente colocasse fontes cursivas igual essa daqui, provavelmente não iria dar esse resultado",
+      "explicacao": "A recomendação de evitar fonte cursiva e imagem 'engraçadinha' (mulher com o dedinho na boca) quando o objetivo é confiança corresponde à demonstração e à fala do professor. Sem divergência."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se clicarmos em duplicar vai aparecer a mesma fonte com o mesmo tamanho e o mesmo motion",
+      "explicacao": "O conceito de 'páginas' no Canva e a recomendação de duplicar em vez de adicionar página em branco (para preservar fonte, tamanho e motion) correspondem à fala. A faixa é bem ampla e abrange outras demonstrações intermediárias não citadas nesta unidade, mas isso não contradiz o que o corpo afirma."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente faz um destaque, aumentamos a fonte colocamos a fonte maior para dar um impacto",
+      "explicacao": "A sequência de ações (aumentar fonte, trocar para a cor alternativa, remover o efeito de contorno e deixar cor sólida) ao destacar a palavra 'emagrecer' corresponde à fala; a generalização para qualquer palavra-chave isolada é consistente com o padrão repetido depois em outros quadros (remédios, pior, acontecer) e com a regra explícita posterior 'a palavra sozinho você tem que destacá-la'. Observação: o corpo usa o termo 'cor alternativa' sem defini-lo — ver apontamento em contrato."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "esse frame que a gente vai colocar lá vai demorar no máximo um segundo então vai baratinar a cabeça da pessoa",
+      "explicacao": "A recomendação de não usar emoji em quadros muito curtos (cerca de um segundo) e a justificativa de que isso confunde quem assiste correspondem literalmente à fala. Observação: o corpo começa com 'Quando um quadro...', formato que a taxonomia associa ao tipo `decisao`; está classificado como `regra` — classificação discutível, ver contrato."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Quando a gente coloca pessoas correndo em um corredor qual que é a primeira coisa que a pessoa vai pensar",
+      "explicacao": "A orientação de buscar por termos ligados ao sentimento em vez do termo literal e genérico corresponde à sequência mostrada: a busca literal por 'hospital' trouxe uma imagem clichê de mãozinha, rejeitada pelo professor; testando termos relacionados (derrame, infarto, UTI, emergência) ele chega a um vídeo de pessoas correndo em corredor, que transmite urgência. Sem divergência de sentido."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "qual é a maior indústria farmacêutica do Brasil? Neoquímica, CIMED, EMS, Euroforma e Axé.",
+      "explicacao": "A técnica (buscar logo de indústria farmacêutica real, remover fundo, colorir, desfocar, posicionar junto ao elemento que representa o 'inimigo', ajustar contraste/brilho) e o racional de que o logo pouco visível sugere autoridade sobre o assunto vendido correspondem à fala, inclusive a objeção de que 'ninguém consegue ver' e a resposta de que pessoas já reconheceram a referência. Gravidade menor porque a ordem exata de empilhamento das camadas ('pega a posição e joga para o fundo de Neo Química') é ambígua na fala e a unidade resolve isso em silêncio, sem nota específica sobre esse ponto (a nota existente cobre apenas a grafia incerta dos nomes das indústrias, não essa ambiguidade); quem seguir a unidade pode inverter a ordem de camadas sem perceber a incerteza da fonte."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A melhor sensação de humildade ou qualquer geração de sentimento vem através do olhar",
+      "explicacao": "A ideia de que o contato visual direto com a câmera gera o sentimento pretendido (aqui, humildade, com a foto da senhora de idade) corresponde exatamente à fala. Sem divergência."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É um mistério, mas essa seta eu já testei várias vezes e ela não dá bloqueio",
+      "explicacao": "F04 resolvida: `fim` foi estendido de 1753 para 1771, e o trecho 'essa seta eu já testei várias vezes e ela não dá bloqueio' (~1762,98–1770,04) agora cabe dentro da faixa 1745–1771; a evidência é literal e a nota de contorno de política permanece correta. Ponto residual menor, não coberto pela correção: a frase do corpo 'como a indicação de tocar no link abaixo' remete ao texto 'Tocando no link abaixo'/'Colocar link abaixo', que aparece em ~1727–1743, antes do `inicio` declarado (1745) — um detalhe contextual fora da faixa, sem alterar o núcleo da orientação (a seta e o risco de bloqueio) nem impedir o uso da unidade."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "já que o verde realmente faz esse tipo de sentimento na pessoa e eu prefiro colocar verde",
+      "explicacao": "A fala, dentro da faixa 1786–1794s, é preservada corretamente como preferência pessoal do professor ('eu prefiro colocar verde... porque sempre dá certo'), sem ser promovida a regra universal ou dado de mercado. Condição registrando que é preferência do professor está correta."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não coloquem animações que vão deixar o seu criativo abaianado",
+      "explicacao": "Dentro da faixa 1813–1830s, a fala orienta a evitar animação 'abaianada' e o próprio professor define o termo ('jeito que nós mineiros chamamos as coisas de colorida demais, frufru demais'). A unidade usa exatamente essa definição dada pela fonte, sem inventar sentido."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "vamos vir aí compartilhar, baixar, vídeo MP4, que já vai ficar pré-moldado como vídeo MP4, todas as páginas, e vamos vir em baixar",
+      "explicacao": "A sequência compartilhar → baixar → escolher vídeo MP4 → confirmar baixar está corretamente dentro da faixa 1972–1991s. A fala também menciona 'todas as páginas' como parte do fluxo, e o procedimento não transforma isso em passo explícito; falta pontual que não muda o resultado nem impede executar."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu vou encerrar essa aula pra ir pra próxima, pra o CapCut",
+      "explicacao": "Dentro da faixa 1991–2126s, o professor anuncia o encerramento para a aula de CapCut logo no início do trecho e repete isso no fechamento ('Até a próxima aula com o CapCut'), confirmando a delimitação de escopo que a unidade descreve."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a VSL da Hard Copy foi 100% assim, dessa forma que eu estou mostrando para você, eu criei a VSL que tem 70% de conversão hoje",
+      "explicacao": "Dentro da faixa 2000–2029s, o caso é do próprio produto do professor (Hard Copy), corretamente tratado como exemplo perecível com condição amarrando o número ao caso específico, e não como régua de mercado, conforme a fidelidade exige para números de caso."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "isso daqui, pra você que tá começando agora e não tem caixa, é incrível por ser simples, fácil e demorado",
+      "explicacao": "Dentro da faixa 2038–2051s, a fala confirma o trade-off apresentado (método simples e barato, mas demorado, indicado para quem não tem orçamento). A classificação como 'decisao' é defensável mas discutível frente a 'regra', já que o conteúdo é mais uma reflexão de trade-off do que uma escolha condicionada estrita; isso não chega a mudar o uso."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ou seja, é um anúncio Totalmente black Que vai rodar no Facebook De uma forma tranquila",
+      "explicacao": "F01 e F02 resolvidas: o corpo agora atribui ao professor a autoclassificação 'totalmente black' (retirou a frase sem lastro 'dentro das regras da plataforma') e a `nota` passou a começar exatamente por 'Contorna política de plataforma ou direito de terceiros:', no mesmo padrão das unidades 12 e 20. Evidência e faixa (2076–2100) cobrem literalmente 'é um anúncio Totalmente black Que vai rodar no Facebook De uma forma tranquila' (até 2096,58). Ressalva menor: a frase final do corpo — 'na explicação dele o que faz o anúncio passar é a ausência desses três elementos, e não o conteúdo do que se promete' — é uma inferência do extrator; a fonte, neste trecho específico, não afirma explicitamente que o conteúdo da promessa é irrelevante para a aprovação. Não inverte nem contradiz o que o professor diz, mas extrapola levemente além do texto."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Até porque ele não vai abrir o seu vídeo E o mais legal de tudo isso É que não tem nenhuma palavra lá escrito Nada em relação A promessa ou a premissa Que você está fazendo",
+      "explicacao": "F05 resolvida: `fim` foi estendido de 2111 para 2122, cobrindo todo o trecho 'E o mais legal de tudo isso [...] a promessa ou a premissa que você está fazendo' (até 2121,58). O corpo foi corretamente dividido em duas afirmações sem nexo causal artificial: (1) tirar título/subtítulo/comentários faz o Facebook tratar o anúncio como vídeo comum e não bloquear/abrir; (2) 'à parte disso', não há palavra escrita sobre promessa/premissa. Essa leitura é defensável pela própria fonte, que introduz o segundo ponto com 'E o mais legal de tudo isso' após já ter fechado o raciocínio anterior com 'até porque ele não vai abrir o seu vídeo' — não há conectivo causal explícito ligando os dois. A `nota` registra essa leitura, satisfazendo o critério de aceite."
+    },
+    {
+      "numero": 21,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aumentamos ela aqui colocamos ela um pouquinho embaixo e centralizamos ela colocamos a posição dela para trás",
+      "explicacao": "Dentro da faixa 506–516s, a fala é genérica ('aumentamos', 'colocamos embaixo', 'centralizamos'), sem valores ou coordenadas exatas. A unidade registra corretamente, como limite, que posição exata e ajustes finos desse tipo só aparecem na imagem, conforme a regra de aula de tela."
+    },
+    {
+      "numero": 22,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não se apegue ao preto, ao branco, ao amarelo, ao azul, ao rosa, nada disso. Como queremos que o início seja impactante, vamos mudar a cor de acordo com o sentimento que vamos inserir",
+      "explicacao": "Unidade nova criada para resolver F03. Faixa 244–264 cobre integralmente o trecho 244,56–263,18 ('Não se apegue ao preto...' e 'Como queremos que o início seja impactante, vamos mudar a cor de acordo com o sentimento que vamos inserir'); evidência literal e dentro da faixa. O corpo preserva fielmente as duas frases e acrescenta uma linha de aplicação prática ('escolher a cor de fundo e a cor de destaque de cada parte conforme o que a fala daquele trecho transmite') que é síntese razoável do restante da aula (preto na abertura, vermelho na acusação, azul na cena da polícia, verde no CTA), sem introduzir número, condição ou exemplo específico não dito. Satisfaz o critério de aceite: existe agora unidade dizendo explicitamente que a cor muda ao longo do vídeo conforme o sentimento de cada trecho."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 244,
+      "trecho_fonte": "Não se apegue ao preto, ao branco, ao amarelo, ao azul, ao rosa, nada disso. Como queremos que o início seja impactante, vamos mudar a cor de acordo com o sentimento que vamos inserir, tá bom?",
+      "descricao": "Nenhuma unidade preserva a orientação de não fixar uma única cor de fundo por produto/nicho, mas sim trocar a cor de fundo ao longo da própria VSL conforme o sentimento de cada trecho (a aula demonstra isso usando preto na abertura, outra cor para 'abertura', vermelho para acusação, azul combinando com a cena da polícia, verde no CTA).",
+      "gravidade": "material",
+      "efeito_pratico": "Quem seguir apenas a unidade 3 (cor conforme o nicho) vai entender que deve escolher uma cor fixa por produto e usá-la em todo o criativo, sem saber que o professor recomenda explicitamente variar a cor a cada quadro/sentimento da VSL — o que é central para reproduzir o efeito visual demonstrado ao longo de toda a aula."
+    },
+    {
+      "inicio": 423,
+      "trecho_fonte": "Como que eu vou criar uma cor alternativa para um produto? Qualquer cor Qualquer cor que você colocar aqui vai ficar bom de acordo com o motion que você vai colocar aqui agora",
+      "descricao": "A fonte define o conceito de 'cor alternativa' (uma segunda cor de destaque para palavras-chave, escolhida livremente e reaproveitada), mas nenhuma unidade do arquivo registra essa definição, embora o termo seja usado nas unidades 7 e 10.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que consulte a unidade 7 ou 10 isoladamente não entende o que é 'cor alternativa definida para o produto', pois o termo aparece sem explicação em qualquer unidade da base."
+    },
+    {
+      "inicio": 321,
+      "trecho_fonte": "clica nessa setinha de espaçamento vem Se você quiser chegar um pouquinho mais perto, fica ótimo, tá? Não chega muito, senão vai ficar feio.",
+      "descricao": "Nenhuma unidade registra a dica de ajustar o espaçamento entre linhas do texto (aproximar um pouco as linhas fica bom, aproximar demais fica feio), ensinada logo após a regra de duas linhas.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta um ajuste fino de formatação de texto que o professor descreve como diferença entre trabalho amador e profissional; sem ele, o quadro pode ficar com espaçamento inadequado entre as linhas."
+    },
+    {
+      "inicio": 831,
+      "trecho_fonte": "porque a polícia tem um azul aqui, tá vendo? então se a gente mudar a cor para azul",
+      "descricao": "Nenhuma unidade preserva a técnica de ajustar a cor de destaque para combinar com a cor predominante do elemento visual (vídeo/imagem) escolhido, em vez de manter sempre a cor alternativa padrão.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta um recurso de coesão visual explicitamente ensinado (combinar a cor do texto com a cor da cena de fundo), que ajuda a integrar texto e imagem no criativo."
+    },
+    {
+      "inicio": 1075,
+      "trecho_fonte": "Vamos clicar em editar vídeo, ajustar E vamos aumentar o contraste Aumentou o contraste Diminuímos o brilho Pra ficar algo mais Escuro, mais Sabe? Mais terror",
+      "descricao": "Nenhuma unidade registra a técnica de aumentar contraste e diminuir brilho de um clipe de banco de imagens para deixá-lo com tom mais sombrio quando o clipe originalmente não transmite o clima necessário.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta uma ferramenta de ajuste (contraste/brilho) para adaptar o tom de um vídeo de banco de imagens que não tem o clima desejado, deixando incompleta a instrução de como conseguir que o elemento visual 'transmita sentimento'."
+    },
+    {
+      "inicio": 1921,
+      "trecho_fonte": "Essa mulher eu não vou colocar nada Porque ela já é um vídeo, já está animado",
+      "descricao": "Nenhuma unidade registra a regra de não aplicar animação de entrada/saída sobre elementos que já são vídeo (pois já estão inerentemente animados), reservando a animação para texto e imagens estáticas.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem essa regra, um agente pode aplicar animações redundantes sobre vídeos já animados, contrariando a prática explícita do professor na etapa de animação do criativo."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 22,
+      "problema": "Marcada `perecivel: false`, mas trata do mesmo tipo de orientação de design visual (escolha de cor de fundo/texto do criativo) que as unidades irmãs desta aula — 3, 4, 5, 7, 11, 13, 14, todas com tema `direcao-e-arte-e-texto-na-tela` e plataforma `geral` — marcam `perecivel: true`. Não há critério explícito na unidade que justifique tratá-la de forma diferente das demais 'regras' de direção de arte da mesma aula; a inconsistência fica para o juiz decidir se a 22 deveria ser `true` (para manter o padrão adotado no restante da aula) ou se as irmãs é que estão superclassificadas."
+    }
+  ],
+  "contrato": [
+    "Unidade 7 usa o termo 'cor alternativa' ('troque para a cor alternativa definida para o produto') sem defini-lo na própria unidade nem em nenhuma outra do arquivo; a mesma dependência afeta a unidade 10. Jargão do curso não explicado na primeira ocorrência (ver FORMATO §3 e omissão registrada sobre o conceito de 'cor alternativa').",
+    "Unidade 8: o corpo começa literalmente com 'Quando um quadro do criativo vai ficar na tela...', formato que a taxonomia associa ao tipo `decisao` ('corpo começa com Se ou Quando'); está classificada como `regra`. Classificação discutível entre dois valores defensáveis (ajuste menor).",
+    "Unidade 10: tema classificado como `direcao-de-arte-e-texto-na-tela`, mas o conteúdo tem componente relevante de uso de marca/logo real de terceiros e já carrega nota de contorno de política/direito de terceiros; `politicas-e-bloqueios` (tema usado nas unidades 12 e 20 para conteúdo semelhante) também seria defensável. Classificação discutível (ajuste menor).",
+    "Unidade 18 (tipo `decisao`): cumpre a exigência formal de começar com 'Se', mas o conteúdo é mais uma reflexão de trade-off (custo baixo vs. tempo alto) do que uma escolha condicionada estrita no sentido de `decisao`; classificação discutível entre `decisao` e `regra`, mas não leva a lugar claramente errado — ajuste menor."
+  ],
+  "material": [],
+  "resumo": "A conferência focal confirma que as cinco falhas do ciclo 1 foram corrigidas dentro do critério de aceite: a unidade 19 agora preserva a autoclassificação do professor ('totalmente black') e traz a nota de contorno de política no padrão das unidades 12 e 20; as unidades 12 e 20 tiveram a faixa estendida para cobrir integralmente o trecho que sustenta o corpo, e a 20 separa corretamente o ponto sobre ausência de promessa escrita como observação à parte; a omissão sobre a cor mudar por sentimento ao longo do vídeo foi coberta pela nova unidade 22, sem reabrir a unidade 3. Restam apenas ressalvas menores: um detalhe fora de faixa na unidade 12 ('tocando no link abaixo'), uma frase levemente inferencial na unidade 19, e uma inconsistência de perecibilidade na unidade 22 (`false` destoando do padrão `true` das unidades irmãs de direção de arte). Nenhum desses pontos residuais compromete o uso das unidades nem justifica novo veto material."
+}

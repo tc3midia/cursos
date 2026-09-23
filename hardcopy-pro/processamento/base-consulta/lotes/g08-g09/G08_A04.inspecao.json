@@ -1,0 +1,109 @@
+{
+  "aula": "G08_A04",
+  "arquivo_sha256": "5c23ca54da37321152b654c4f4b8c2bfb930135eb9847aeede6e0109a53606a1",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "1772dd64679e4804f99e2dd155b90c28ac2ddb7708b3026977a072eafc191a5f",
+    "2": "95e11ffd7e92441337b542a40c1e3eab95ecd2b8db74623a1ee1e1fad90f3a79",
+    "3": "12aaf49311d23d547b52d94c3ebbdea6175c9f7be3a878e5ae89b8f85247e42d",
+    "4": "d48e090b6d35164540f53a04fac7b2116acffdb8b22c5de26478b160a4734318",
+    "5": "f8822e9147a2b91adb7166f78643fb2d055b7177cc4933773b897e8060bfad81",
+    "6": "21aa6d928e3f38aa9222cbdbd2f99db8a8057aa65410f1f739a0f6b200158755",
+    "7": "f101ec85a011d4463a978e92ab0eb3e531d451e05866afe40623d8a79ddf33b8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente não precisa tratar o áudio, remover ruído, nem nada disso, porque é o MEI-A, né?",
+      "explicacao": "A regra (áudio do ElevenLabs não precisa de tratamento/remoção de ruído) está dita quase literalmente. O trecho 'porque é o MEI-A' é de fato confuso na transcrição; a unidade tratou isso com confiança média e nota explicando a incerteza, o que é adequado. A comparação com 'gravação real que pode trazer ruído de fundo' é uma extrapolação leve do extrator para dar contexto, mas não distorce o sentido da regra."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Um suspense, olha só",
+      "explicacao": "A fala confirma que o professor aplica trilha de suspense e, depois, uma música 'de fé'/motivação, mas em nenhum ponto do trecho 349–526s ele diz que a trilha de suspense fica 'antes da revelação do produto' nem que a música de fé fica 'perto do fechamento com convite para a ação' — é o extrator apontando a timeline da edição sem que a fala nomeie essa correlação com a estrutura narrativa da copy. É uma inferência plausível pela ordem de edição, mas não confirmada pela fala nesse ponto; quem consulta pode achar que o professor associou explicitamente a trilha a essas fases da copy, quando ele só mostra a edição sequencialmente apontando para a tela."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aqui a gente vai remover o sono novamente para a pessoa prestar atenção no que a gente está falando, tá?",
+      "explicacao": "A transcrição usa 'remover o sono', quase certamente erro do reconhecimento automático de fala para 'remover o som/silêncio' (contaminado pela palavra 'sono', tema central da copy sendo editada). A leitura da unidade ('remover trechos de silêncio') é razoável e consistente com a definição dada no início da aula ('tirar as partes brancas do áudio'), mas a unidade declara confiança alta e não registra nota sobre essa ambiguidade de transcrição, como a rubrica pede para fonte mal transcrita."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aqui a gente vai colocar micro-ondas",
+      "explicacao": "A unidade, do tipo limite, descreve corretamente que boa parte da edição fica só na imagem (menus, filtros, transições) e cita como exemplo o efeito sonoro nomeado apenas como 'micro-ondas', que está de fato na fala dentro da faixa indicada. Resultado esperado para aula de tela."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Vai procurar escuro aqui",
+      "explicacao": "A aplicação do efeito escuro/vermelho e da transição está bem lastreada na fala (482–501s). Mas, como na unidade 2, a atribuição 'antes da revelação do produto' (presente já no título) não é dita pelo professor nesse trecho; ele apenas mostra a ação de tela sem relacioná-la a um momento específico da narrativa do anúncio. É inferência do extrator apresentada como se fosse parte da orientação."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Perfeito. Vamos deixar até aqui nos 46 segundos e olha só, um anúncio de 46 segundos, muito rapidinho, muito bem feito.",
+      "explicacao": "Número de caso (46 segundos de um anúncio específico) corretamente tratado como exemplo perecível, com condição explicitando que não é régua geral de duração. Consistente com a regra de que número de caso não vira régua."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Criamos um produto em cima do encapsulado, que não mostra nenhum encapsulado aqui e mostra o que tem dentro do encapsulado. Isso é o mecanismo único oculto.",
+      "explicacao": "A regra reproduz fielmente a ação (mostrar o conteúdo/benefício em vez da embalagem) e a atribui ao professor como técnica para produto saturado, com condição adequada e sem virar lei universal. A definição de 'mecanismo único oculto' usada no corpo é a mesma do vocabulário do curso, corretamente atribuída a outra aula."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 369.2,
+      "trecho_fonte": "eu vou aumentar um pouquinho o volume da voz dela tá",
+      "descricao": "Ao mixar a trilha sonora com a locução, o professor sobe o volume da voz em relação à música; nenhuma unidade registra esse ajuste.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta as unidades de sonorização desta aula não fica sabendo que, ao adicionar trilha, o professor recomenda reforçar o volume da narração para que ela não fique abafada pela música."
+    },
+    {
+      "inicio": 571.6,
+      "trecho_fonte": "Agora vamos caçar o plot dessa melodia",
+      "descricao": "O professor busca o 'plot' (parte mais marcante) da música escolhida para posicioná-la estrategicamente no anúncio, técnica ligada ao conceito de vocabulário do curso 'plot da música'; não há unidade que registre essa aplicação nesta aula.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que consulte as unidades de sonorização desta aula não saberá que ela também demonstra, na prática, a técnica de localizar o trecho mais impactante da trilha antes de posicioná-la no anúncio."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidades 2 e 5 classificam a plataforma como 'capcut'; como a orientação de fundo (trilha por clima, filtro de cor por sentimento) é conceitual e não exclusiva do CapCut, 'geral' com o nome da ferramenta em nota também seria defensável — classificação discutível entre dois valores, portanto ajuste menor, não erro de contrato."
+  ],
+  "material": [],
+  "resumo": "Das 7 unidades, todas têm faixa `inicio`–`fim` conferida e batendo exatamente com segmentos da transcrição (sem faixa-errada) e evidência literal dentro da faixa. Cinco estão bem lastreadas; duas (2 e 5) cometem desvio de gravidade menor ao atribuir à trilha sonora e ao filtro visual uma posição narrativa ('antes da revelação do produto') que a fala não confirma nesse trecho, apenas mostra edição sequencial em tela. A unidade 3 é uma leitura razoável de um trecho de transcrição provavelmente corrompido ('remover o sono'), mas sem registrar essa incerteza em nota/confiança. Duas omissões de gravidade menor foram localizadas (ajuste de volume da voz e técnica de 'caçar o plot da música'); não há material de apoio nesta aula e nenhum problema de perecibilidade escondida."
+}

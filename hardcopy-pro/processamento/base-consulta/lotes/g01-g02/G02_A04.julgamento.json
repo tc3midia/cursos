@@ -1,0 +1,63 @@
+{
+  "aula": "G02_A04",
+  "arquivo_sha256": "9df199d72a3af3ba04cbe31c0565717cdb61b97c0085063a327831c511010079",
+  "inspecao_sha256": "dbfa22891097b86c84f4f0cf7ac9363cbd0605fe7a5c2da744d531bf262e3e2b",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então não há veto. Os pontos que o inspetor listou em `contrato` (sentido de \"lead\", glosas, classificação das unidades 8 e 11, frase do `contexto`) não são regra [E]. Ficam registrados como ajustes menores.",
+  "fidelidade": "Veto. A inspeção foi integral, não tem citação não literal e não aponta nenhum sem-lastro, mas mostra três desvios com trecho literal da fonte.\n\n- **Unidade 3:** o \"90% e 100%\" pertence ao caso narrado das páginas sobre um político. O corpo o apresenta como comportamento geral das páginas de fofoca, e ainda troca \"e\" por \"a\". A rubrica nomeia esse padrão como desvio: número de caso narrado apresentado como regra geral.\n- **Unidade 1:** a fonte hesita (\"se bem que pode, né?\") e, segundo o inspetor, promete uma explicação que não vem nesta parte. O corpo fecha a exceção. As `condicoes` acrescentam \"e forte\" e \"ou só faz de outro modo\", que a fonte não diz. A unidade está com `confianca: alta` e sem `nota`. Fonte ambígua só passa quando a unidade preserva a incerteza com `confianca` adequada e `nota`, e isso não aconteceu.\n- **Unidade 8:** a fonte diz \"de todos esses daqui\" e o corpo diz \"de todos os tipos\". Neste arquivo, \"tipos\" são absurdo, dor, medo e curiosidade. A promessa \"você vende\" aparece como fato, sem atribuição ao professor.\n\nO inspetor graduou os três como menores. Discordo da graduação. As consequências que ele próprio descreve são: citar 90–100% como fato, tratar a exceção como regra fechada e pôr a amnésia acima de dor e medo. As três mudam o que o agente afirma ou decide. A rubrica também manda reprovar desvio comprovado contra fonte clara, qualquer que seja a `confianca` ou a `nota`.\n\nA unidade 10 é faixa-errada, mas é 1 de 11 unidades (9%), abaixo do limiar de 10%, e não veta. As unidades 2, 4, 5, 6, 7, 9 e 11 estão lastreadas. Na 11, a ressalva \"eu não usaria\" foi preservada. A inferência na 6 (\"só é ligada ao emagrecimento depois\") não tem efeito prático e fica como ajuste menor.",
+  "cobertura": "Sem veto. O inspetor declara alcance integral, com busca de omissões na fonte inteira, e não lista nenhuma. As cinco variações do absurdo estão presentes: prisão, advogado, sexo sujo, amnésia e amputação. Também estão a distinção entre mentira e história, a regra do problema semelhante e a preferência entre os tipos. A definição dos quatro tipos de abertura não está nesta aula. A `nota` da unidade 11 já avisa isso, e um `limite` seria melhoria opcional, não omissão.",
+  "perecibilidade": "Sem veto. Não há tela, ferramenta, preço, recurso do curso nem número de mercado. Todas as unidades são `geral`, e o inspetor não sinalizou item perecível. Os números de emagrecimento da unidade 4 são exemplos de mentira e estão tratados assim.",
+  "aplicabilidade": "Sem veto próprio. `tipo`, `tema`, `tarefas` e `plataformas` levam o agente ao lugar certo: abertura de VSL, e `etica-e-promessa` nas unidades 3 e 4. Os exemplos trazem a condição de nicho e de história inventada.\n\nPontos que não mudam o uso e ficam como ajustes menores:\n\n- **Unidade 8:** não diz que amnésia é uma das variações do absurdo, e as `condicoes` podem ser lidas como restrição ao nicho. A correção da falha F3 resolve o primeiro ponto.\n- **Unidade 11:** é `decisao` sem condição real e depende das partes anteriores para dor e medo. A `nota` admite isso, e a `confianca` é `media`.\n- **Unidades 5 e 8:** usam \"lead\" sem dizer o sentido.\n- **Unidade 1:** remete a \"os exemplos da aula\".\n\nO inspetor errou de forma visível em um ponto: acusa \"lead\" sem sentido também nas unidades 6 e 10, mas a palavra não aparece no corpo delas. Isso não afeta a decisão.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal da fonte: \"Pra qualquer coisinha que ele fizesse, eles aumentavam em 90% e 100% daquele problema e depois amenizava um pouquinho\". É o caso narrado de páginas sobre um político, que o professor dá só como exemplo. Segundo o inspetor, a generalização da fonte sobre páginas de fofoca não traz número. O corpo afirma, em unidade `regra`: \"Páginas de fofoca inflam um problema em 90% a 100% e depois o amenizam\". Isso é número de caso narrado apresentado como padrão geral, e \"e\" virou \"a\".",
+      "impacto": "O agente pode citar 90–100% como dado sobre como páginas de fofoca operam, ou usá-lo em conteúdo, quando a fonte só o diz dentro de um exemplo. A base publicaria uma estatística que o professor nunca generalizou.",
+      "mudanca_minima": "Reescrever a primeira frase do corpo. A opção mais simples é tirar o número (páginas de fofoca aumentam um problema e depois o amenizam). A alternativa é manter o número preso ao caso narrado e atribuído ao professor, como ele diz (\"90% e 100%\"), deixando claro que é exemplo. Manter a recusa do professor, a atribuição de preferência e a `nota`. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 3 não tem frase que afirme 90%/100% como comportamento geral de páginas de fofoca. Se o número ficar, está explicitamente dentro do exemplo narrado, atribuído ao professor e na forma \"90% e 100%\". A recusa (\"não faria\", \"um pouco sujo\") e a marca de preferência pessoal continuam. `versao` = 2. O validador retorna zero erros. O inspetor dá a unidade como lastreada."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal da fonte: \"Você não pode aplicar uma... se bem que pode, né? Mas, enfim, você não pode aplicar um absurdo ou então algo tão forte quanto isso que eu vou falar agora em um produto que ensina inglês.\" O inspetor relata que o professor diz em seguida \"Não faz sentido\" e depois \"Faz sentido, porém. Você vai entender aqui\", sem explicar nesta parte. O corpo fecha a exceção: \"nestes não se aplica um absurdo tão forte\". As `condicoes` acrescentam \"dor específica e forte\" e \"ou só faz de outro modo\", que a fonte não diz. A unidade tem `confianca: alta` e `nota: null`, então a hesitação não foi preservada.",
+      "impacto": "Quem consulta para produto de dor leve (curso de inglês, bolo de pote) recebe uma regra fechada de que o absurdo forte não se aplica, ou a ideia de um \"outro modo\" que o professor não descreve. A fonte deixa a exceção em aberto e não a resolve. Isso muda a decisão de usar ou não a abertura.",
+      "mudanca_minima": "No corpo, atribuir a restrição ao professor e registrar que ele hesita (\"se bem que pode\") e que diz que faria sentido, sem explicar nesta parte. Nas `condicoes`, retirar \"e forte\" e \"ou só faz de outro modo\". Preencher `nota` dizendo que a fonte é hesitante e que a explicação prometida não está nesta aula. Ajustar `confianca` para `media`. Incrementar `versao`.",
+      "criterio_de_aceite": "As `condicoes` da unidade 1 não contêm \"forte\" como qualificador da dor nem \"de outro modo\". O corpo ou a `nota` registram a hesitação do professor e que a exceção não é explicada nesta parte. `confianca` não é `alta` e `nota` está preenchida. `versao` = 2. O validador retorna zero erros. O inspetor confirma que nenhuma afirmação nova ficou sem lastro."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal da fonte: \"Para mim, é o ponto mais forte que tem de todos esses daqui, é a amnésia.\" O inspetor lê \"esses daqui\" como a lista das variações do absurdo (prisão, advogado, sexo sujo, amnésia, amputação). O corpo diz \"o ponto mais forte de todos os tipos\". Neste mesmo arquivo, \"tipos\" são absurdo, dor, medo e curiosidade (unidade 11 e `contexto`). Além disso, a fonte traz \"Se você mostrar para o seu lead o problema que ele não sabia que tinha, você vende\", que é promessa de resultado do professor. O corpo a escreve sem atribuição: \"Se você mostra ao lead esse problema, ele compra\".",
+      "impacto": "O agente pode pôr a amnésia acima de dor e medo na escolha de abertura, comparação que a fonte não faz. Pode também repetir como fato da base uma promessa de venda que é afirmação do professor. O FORMATO pede que afirmação de resultado seja atribuída ao professor.",
+      "mudanca_minima": "Trocar \"de todos os tipos\" pelo escopo da fonte: o mais forte, para o professor, entre as variações do absurdo listadas na aula. Aproveitar para dizer que a amnésia é uma dessas variações. Atribuir a promessa ao professor (\"o professor afirma que...\"). Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 8 não contém \"todos os tipos\" nem formulação que estenda a comparação a dor, medo ou curiosidade. A frase sobre vender ou comprar está atribuída ao professor. `versao` = 2. O validador retorna zero erros. O inspetor dá a unidade como lastreada."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 10 (faixa-errada, 1 de 11 unidades, abaixo do limiar de 10%): a frase final do corpo sobre o subnicho e os dois perfis está em 876,98–883,04, fora do `fim` 877. Corrigir `fim` para 883. É correção mecânica e pode ir no mesmo ciclo. O hash da unidade muda, então ela entra na conferência focal.",
+    "Unidades 5 e 8: dizer qual sentido de \"lead\" vale. Na 5 parece ser o início da VSL; na 8, o prospect. Na 5, acrescentar `nota` dizendo que a transcrição grafa \"Lidy\". O inspetor citou também as unidades 6 e 10, mas \"lead\" não aparece no corpo delas.",
+    "Unidade 6: \"a causa real só é ligada ao emagrecimento depois\" é inferência do extrator. A fonte só diz que o advogado não sabe que o corpo é a causa e que isso chama a atenção do subnicho. Reescrever sem o \"depois\".",
+    "Unidade 8: as `condicoes` \"Exemplo dado no nicho de emagrecimento\" podem ser lidas como restrição ao nicho, o que a fonte não faz. Reescrever dizendo que só o exemplo é do nicho, ou deixar `null`. A escolha de `regra` para uma unidade que também define \"amnésia\" é discutível.",
+    "Unidade 11: `decisao` sem condição real, que registra só uma preferência. Classificação discutível. É opcional criar um `limite` dizendo que a definição dos quatro tipos de abertura (dor, medo, curiosidade) não está nesta aula.",
+    "`contexto`, 4ª frase: a fonte só deixa para a próxima aula o fechamento de \"o que não pode faltar\". A explicação de personagens e roteiro é prometida sem indicar quando. Separar as duas coisas.",
+    "Glosas: \"mecanismo único\" (unidade 9) pode receber a definição do vocabulário do FORMATO. \"Subnicho\" (unidades 6 e 10) fica sem definição, como o FORMATO manda. Na unidade 1, \"os exemplos da aula\" e \"Ele mostra a aplicação...\" são referências leves à aula e podem ser reescritas para a unidade se sustentar sozinha."
+  ],
+  "proximo": "Este julgamento abre o ciclo 1 de 2.\n\n1. O redator corrige só as unidades 1, 3 e 8, conforme F1–F3, com `versao` +1. Os ajustes menores são opcionais. O principal é o `fim` da unidade 10, de 877 para 883.\n2. O validador roda de novo.\n3. O inspetor faz a conferência focal das unidades cujo hash mudou: 1, 3 e 8, mais a 10 e outras que forem tocadas pelos ajustes. As demais preservam a evidência atual.\n\nNa conferência, o inspetor deve trazer como `trecho_fonte` literal dois trechos que nesta rodada vieram só dentro da explicação:\n\n- a fala \"Faz sentido, porém. Você vai entender aqui\" (unidade 1);\n- a generalização sem número sobre páginas de fofoca, em torno de 2:23–2:36 (unidade 3)."
+}

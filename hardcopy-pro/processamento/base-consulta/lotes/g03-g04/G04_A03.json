@@ -1,0 +1,378 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G04_A03",
+  "titulo": "Episódio 3 - Entenda Isso",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula da trilha Hard Ads, grupo de roteirização, em que o professor monta na prática um anúncio em vídeo de cerca de 40 segundos para um produto inventado chamado Menticaps (emagrecimento), comentando cada trecho.",
+    "O anúncio serve de demonstração da estrutura em atos aplicada a anúncio: abertura desconectada do produto, conexão sutil, plot twist, verdade absoluta, CTA oculto e fecho.",
+    "Assume que o aluno já conhece os termos plot twist, verdade absoluta e CTA de aulas anteriores; a aula não os redefine por completo.",
+    "Tudo o que está dentro da copy do Menticaps (números, alegações, promessas) é texto fictício e não vira dado de mercado.",
+    "O começo da gravação tem trecho sem conteúdo aproveitável e o fecho traz resíduo de silêncio; a aula parece continuar um bloco anterior sobre a base da construção.",
+    "Deixa para a aula seguinte o que não se pode fazer em anúncio, e remete a uma aula de criatividade do professor para o exercício de imaginar o próprio produto."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Introdução do anúncio começa por algo diferente do produto",
+      "tipo": "regra",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "escrever-gancho-de-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 40,
+      "fim": 68,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A introdução do anúncio serve para chamar a atenção e impressionar o lead a ponto de ele continuar assistindo até o trecho em que aparece o convite para tocar em \"Saiba mais\". Por isso a introdução começa sempre com algo totalmente diferente do que será vendido. O professor manda não abrir o anúncio vendendo o produto, porque muita gente já faz isso.",
+      "evidencia": "Totalmente diferente daquilo que vamos vender",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Anúncio de exemplo em sete blocos, do início ao fecho",
+      "tipo": "estrutura",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "estruturar-vsl"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 40,
+      "fim": 333,
+      "condicoes": "Sequência tirada de um anúncio de exemplo de cerca de 40 segundos, do produto inventado Menticaps; é demonstração do professor, não molde obrigatório.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A ordem foi reconstruída a partir dos comentários do professor sobre o exemplo; ele não a enumera.",
+      "proposta_tag": null,
+      "corpo": "1. Introdução sobre um tema diferente do produto, que prende a atenção e faz o lead querer saber mais.\n2. Entrega do que a abertura prometeu e, em seguida, conexão sutil com o produto, sem o lead perceber.\n3. Gatilhos fortes já no começo (no exemplo, a luta para emagrecer e o antes e depois).\n4. Plot twist: virada inesperada em relação ao que a abertura sugeria.\n5. Verdade absoluta ligada ao produto.\n6. Primeiro CTA oculto e apresentação do produto, por volta de 30 segundos de anúncio.\n7. Fecho que responde ao início e várias frases de chamada para tocar em \"Saiba mais\".",
+      "evidencia": "Agora apresentamos o nosso produto bem aqui",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Entregar o que a abertura prometeu e só então conectar ao produto",
+      "tipo": "regra",
+      "tema": "desenvolvimento-e-conexao",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-desenvolvimento-e-plot-twist"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 103,
+      "fim": 126,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O assunto que abriu o anúncio precisa ser passado para o início sem quebra de expectativa: o lead viu o vídeo e quer saber mais sobre aquilo, então o anúncio entrega isso primeiro. Depois faz a conexão com o produto, de modo sutil, para que a pessoa nem perceba que a conexão está sendo feita.",
+      "evidencia": "Para não ter quebra de expectativa",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Exemplo: dois gatilhos fortes na abertura do anúncio de emagrecimento",
+      "tipo": "exemplo",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "escrever-gancho-de-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 125,
+      "fim": 145,
+      "condicoes": "Copy de exemplo do produto inventado Menticaps; os números e a alegação de resultado pertencem ao texto fictício.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor escreve uma abertura de anúncio de emagrecimento com relato de quem sempre lutou para emagrecer e depois perdeu peso.\nO que aconteceu: ele aponta dois gatilhos fortes na frase: a luta para emagrecer, que todo mundo sabe que não é fácil, e o antes e depois.\nLógica: a abertura reúne dois gatilhos de uma vez e ainda não fala do produto. O resultado dito na frase é da copy fictícia, não dado de mercado.",
+      "evidencia": "A gente tem dois gatilhos fortes aqui",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Antes e depois maquiado para não ser bloqueado pelo Facebook",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio",
+        "escrever-gancho-de-anuncio"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 143,
+      "fim": 165,
+      "condicoes": "Segundo o professor, vale para anúncio com antes e depois na rede dele (Facebook); ele fala do critério de bloqueio como observação própria.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contorna política de plataforma ou direito de terceiros: o professor ensina a maquiar o antes e depois para evitar a moderação. Ele fala em Facebook; a plataforma foi mapeada como Meta Ads.",
+      "proposta_tag": null,
+      "corpo": "O professor diz que o Facebook bloqueia quando o antes e depois é muito escancarado. Quando o antes e depois é maquiado, ele afirma que não bloqueia. Para ele, isso permite usar o antes e depois, que chama de mecanismo mais poderoso de venda, dentro do anúncio. A aula não detalha como maquiar; só mostra a abertura do exemplo como caso.",
+      "evidencia": "Quando você consegue maquiar aquilo, ele não bloqueia, senhores, olha que maravilha.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Plot twist do anúncio: invalidar o que já vende e falar de foco",
+      "tipo": "exemplo",
+      "tema": "plot-twist",
+      "tarefas": [
+        "escrever-desenvolvimento-e-plot-twist"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 164,
+      "fim": 190,
+      "condicoes": "Copy de exemplo do Menticaps, anúncio de emagrecimento; a afirmação sobre o que o público precisa é do texto fictício.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O trecho da transcrição sobre \"JET\" ficou ambíguo e não foi usado.",
+      "proposta_tag": null,
+      "corpo": "Situação: no anúncio de exemplo, depois de abrir com um tema e o antes e depois, o professor vira a mensagem.\nO que aconteceu: o texto diz que o que a pessoa precisa não é de um método milagroso e sim de foco, invalidando processos que já vendem no mercado. O professor explica que é plot twist porque o lead não imaginaria falar de foco a partir daquela abertura.\nLógica: o plot twist é algo que a pessoa não esperava e prepara a chegada do produto.",
+      "evidencia": "ou seja, invalidamos alguns processos que já vendem no mercado",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Verdade absoluta ligada ao produto no anúncio de exemplo",
+      "tipo": "exemplo",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "escrever-desenvolvimento-e-plot-twist",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 189,
+      "fim": 236,
+      "condicoes": "Copy de exemplo do Menticaps; a afirmação sobre ansiedade e comida pertence à copy fictícia e o professor diz que não é psicólogo, terapeuta nem nutricionista.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: no meio do anúncio de emagrecimento, o professor precisa levar o lead para perto do produto.\nO que aconteceu: ele fala de comer em excesso e chega à ansiedade como causa provável, e chama isso de verdade absoluta, inquestionável, colocada em cima de um produto.\nLógica: a verdade absoluta dá credibilidade ao que vem depois e prepara a apresentação do produto.",
+      "evidencia": "Ou seja, uma verdade absoluta Inquestionável",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "CTA oculto e produto apresentado após 30 segundos no exemplo",
+      "tipo": "exemplo",
+      "tema": "pitch-e-cta",
+      "tarefas": [
+        "escrever-pitch-e-cta",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 236,
+      "fim": 253,
+      "condicoes": "Copy de exemplo do Menticaps; o tempo de 30 segundos e a alegação de cápsula única são do exemplo fictício, não recomendação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o anúncio de exemplo tem cerca de 40 segundos e já passou pela verdade absoluta.\nO que aconteceu: aparece o primeiro CTA oculto, que a pessoa deixa passar sem notar, ligado à apresentação do produto, dita depois de 30 segundos de anúncio.\nLógica: o produto entra só depois de a atenção estar ganha, dentro de uma frase que parece continuar o raciocínio.",
+      "evidencia": "Olha só, depois de 30 segundos de anúncio",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Fecho espelha a abertura: mente aberta no início, boca fechada no fim",
+      "tipo": "conceito",
+      "tema": "abertura-e-gancho",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 254,
+      "fim": 273,
+      "condicoes": "Frase do anúncio de exemplo; o professor a chama de gancho.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A transcrição desta passagem está confusa quanto ao que exatamente o professor marca como gancho.",
+      "proposta_tag": null,
+      "corpo": "No anúncio de exemplo o professor destaca um gancho ligando início e final: abrir a sua mente no começo e fechar a sua boca no fim. A conclusão que ele tira é que o começo e o final do anúncio se respondem.",
+      "evidencia": "Abrir a sua mente, o início, e fechar a sua boca, o final.",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Várias frases de chamada \"Toque em Saiba mais\" no fecho",
+      "tipo": "exemplo",
+      "tema": "pitch-e-cta",
+      "tarefas": [
+        "escrever-pitch-e-cta",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 272,
+      "fim": 322,
+      "condicoes": "Frases do anúncio de exemplo do Menticaps, produto inventado; alegações como ser o primeiro vídeo do Brasil pertencem à copy fictícia.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor precisa encerrar o anúncio e leva o lead a tocar em \"Saiba mais\".\nO que aconteceu: ele dita várias versões da chamada, todas prometendo um vídeo que muda a mente sobre alimentação e emagrecimento; e diz que há vários \"Toque em Saiba mais\" possíveis.\nLógica: o fecho pode ser variado sem mudar a função, que é mandar o lead ao vídeo seguinte.",
+      "evidencia": "Tem vários Toques Saiba Mais aqui Que você pode fazer, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Assistir a aula de criatividade antes de aplicar ao seu produto",
+      "tipo": "regra",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 322,
+      "fim": 346,
+      "condicoes": "Depende de existir a aula de criatividade citada, sem localização informada.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor recomenda assistir à aula de criatividade dele, porque, a partir dela, o aluno imagina o seu próprio produto sendo vendido e faz os exercícios, como ele fez com o Menticaps, para melhorar.",
+      "evidencia": "A minha aula de criatividade",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Qualidade e cuidado antes de velocidade e volume de testes",
+      "tipo": "regra",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 346,
+      "fim": 387,
+      "condicoes": "Preferência do professor, baseada em experiência própria; o número de minutos do exemplo tem versões diferentes na aula.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O professor diz 45 minutos para escrever o anúncio de 40 segundos e, perto do fim, fala em 40 minutos. As duas versões ficam registradas.",
+      "proposta_tag": null,
+      "corpo": "O professor diz ter levado cerca de 45 minutos para escrever um anúncio de 40 segundos, para mostrar que trabalho bem feito não é questão de velocidade, ao contrário do que dizem vários players. Para ele, quanto mais bem feito o trabalho, e mais você o encara como o último da vida, mais rápido se chega ao resultado. Manda esquecer a conversa de que testar mais produtos é sempre melhor.",
+      "evidencia": "Quanto mais bem feito o trabalho que você vai fazer e botar na sua",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Foco na mudança, não só no dinheiro; vender algo de que se orgulhe",
+      "tipo": "regra",
+      "tema": "etica-e-promessa",
+      "tarefas": [
+        "montar-oferta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 386,
+      "fim": 428,
+      "condicoes": "Opinião do professor, dada em tom de conselho pessoal, sobre a moda de low ticket com back-end grande.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor reconhece que a moda é vender low ticket com back-end grande e que muita gente ganha dinheiro assim, mas diz que o foco não é o dinheiro e sim a mudança. Recomenda dar um objetivo ao dinheiro, e aponta que vender algo que não dá orgulho faz a pessoa não saber o que dizer quando precisa falar do que vende.",
+      "evidencia": "é que o foco não é o dinheiro, é a mudança, tá?",
+      "versao": 2
+    },
+    {
+      "numero": 14,
+      "titulo": "Dedicar ao seu anúncio o mesmo tempo que o exemplo levou",
+      "tipo": "regra",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 428,
+      "fim": 470,
+      "condicoes": "Preferência do professor; o tempo é o que ele gastou no exemplo.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Divergência: antes ele diz 45 minutos; aqui, 40 minutos.",
+      "proposta_tag": null,
+      "corpo": "O professor pede para fazer o trabalho como se fosse a última vez e imaginar que ele vai dar certo. Diz que dá o melhor em cada exemplo para o aluno dar o melhor no produto dele. Como demorou cerca de 40 minutos para criar o anúncio de ensino, o mínimo é o aluno gastar o mesmo tempo no anúncio dele.",
+      "evidencia": "Então, se eu demorei 40 minutos para criar um anúncio",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "O que não pode fazer em anúncio fica para a próxima aula",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 478,
+      "fim": 484,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Esta aula só demonstra a construção do anúncio de exemplo. As restrições do que não se pode fazer em anúncio são anunciadas para a aula seguinte e não são tratadas aqui.",
+      "evidencia": "O que você não pode fazer no anúncio",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        13
+      ],
+      "retiradas": [],
+      "observacoes": "C1: a unidade 13 é do tipo regra e estava com tarefas vazias, o que só é permitido em conceito e limite. Preenchi só `tarefas` com `montar-oferta`, porque o trecho trata do que vender (low ticket com back-end grande, vender algo de que se orgulhe). A taxonomia não tem tarefa de ética, e essa foi a mais próxima. Corpo, faixa (386–428), evidência, condições e os demais campos ficaram como estavam. Reli a fonte: \"é que o foco não é o dinheiro, é a mudança, tá?\" está em 00:06:36–00:06:38, dentro da faixa."
+    }
+  ]
+}

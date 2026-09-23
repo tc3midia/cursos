@@ -1,0 +1,84 @@
+{
+  "aula": "G10_A05",
+  "arquivo_sha256": "a9404c724be08005016eb3ddf1c3c49d0223a65bc432e41b9ad695682eaa13b8",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [5]; as demais mantêm a evidência da inspeção integral do arquivo 10fa1e7bff71, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "fdbe8bf68a55ebc3454b64a8e4c06033ff4e98b7343773d4cf30413951d6c3b6",
+    "2": "18edd369f05855d77f4e816a0634a2efb9dfeb62c09481bd50189272fb3afe39",
+    "3": "f773445a7b9ab4e9314e4e59f1075fd755eacc8edf73c30e5841e23c81aa9d44",
+    "4": "ee3a68a9efd54af114a4564a166629bf70304b7d705d7100ba30b0f9806d8dd2",
+    "6": "0731363e92fe0bf557e3c619e52ff93c2c2f61462c2aa0b97368a8738c1922c1"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e a única coisa que sai é a sua voz ou a voz da IA.",
+      "explicacao": "O corpo reproduz fielmente a técnica: no ponto importante, cortar a trilha e deixar só a voz/voz da IA, prendendo a atenção até o clique no botão ('toca na porra do botão'). Não há número, condição ou atribuição alterada que mude o uso da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A melhor forma de você ver isso é você colocar em cima da sua cópia e no seu som",
+      "explicacao": "Esse trecho da transcrição está mal formado/ambíguo (não fica claro o que significa 'colocar em cima da sua cópia e no seu som'). O corpo interpreta como 'releia a copy e reescute o áudio da VSL', leitura plausível mas não certa, e a unidade não registra essa incerteza: mantém confianca 'alta' sem nota, quando o esperado pela regra de fonte ambígua é confianca mais baixa com nota explicando a dúvida. Não muda a orientação prática central (procurar os trechos que arrepiam), por isso o efeito é menor."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque eu quero que a pessoa se impressione quando ela ouvir este nome.",
+      "explicacao": "A fonte fala em não revelar o nome do produto/método ('este nome', referindo-se a 'Kim Shu Den Kits'/Kishotenketsu e a 'formato coreano de vendas') para causar impacto. O fechamento do corpo ('em vez de entregar o mecanismo cedo demais') e o título introduzem a palavra 'mecanismo', termo que o vocabulário do curso reserva para 'mecanismo único' (o diferencial do produto, definido em G01_A03), conceito distinto de 'nome do método/produto'. Isso pode levar quem consulta a confundir os dois conceitos. Não muda a ação central ensinada (não revelar cedo), por isso é ajuste menor."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Dá uma, duas, três, quatro",
+      "explicacao": "A sequência narrada bate com a fonte: corte após a frase sobre 'terra de verdades' (2:38-2:40), corte na virada para 'como se vende através da verdade' (3:17-3:18), cortes ao redor de 'sem prometer carro... mansão ou essas balelas' na parte da oferta (3:33-3:39, com o Ctrl B repetido), e o trecho sem som antes do botão (4:09-4:13). O total de cinco pontos confere com 'Dá uma, duas, três, quatro, Cinco partes'. A nota sobre a repetição do comando Ctrl B é justificada, pois a fonte de fato repete a leitura de forma ambígua."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente marcou no nosso vídeo",
+      "explicacao": "F1 foi resolvida pela via primária indicada na mudança mínima: a unidade 5 foi retirada do arquivo (não consta mais na lista de unidades) em vez de reescrita. Confirmo na fonte que o corte de silêncio antes do botão de chamada para ação é apresentado apenas como um dos cinco pontos marcados 'no nosso vídeo' de exemplo ('Então olha só, a gente marcou no nosso vídeo, Todas as partes que vamos calar a boca ... Dá uma, duas, três, quatro, Cinco partes'), e não como regra geral para toda VSL — a generalização no imperativo que a unidade 5 continha ('deixe um trecho totalmente sem som') de fato não tinha lastro como prescrição universal. Como U4 já preserva esse mesmo ponto sob condição de demonstração sobre vídeo de exemplo, a retirada não deixa conteúdo essencial órfão. Registro ainda, para o histórico, que a ressalva do executor ao laudo original procede: as frases 'Essa parte aqui', 'É só uma edição' (00:04:14.900–00:04:19.020) e 'Para a pessoa se arrepiar' (00:04:20.020–00:04:21.080) são citações literais existentes na transcrição, dentro da faixa da unidade retirada — o apontamento anterior de que não havia trecho literal para essas afirmações estava incorreto, embora isso não mude o resultado (o defeito determinante era a generalização, não a ausência de lastro para essas frases). Nenhum problema novo foi criado pela retirada."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente vai dar cor pra essa parada aqui",
+      "explicacao": "Reflete corretamente que a marcação foi feita na timeline com Ctrl B sem a fala nomear o editor, e que aplicar cor às marcações e finalizar a edição de áudio ficam para a próxima aula, como a fonte diz logo em seguida ('E vai fazer, De fato, essa edição')."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: a classificação tema 'plot-twist' / tarefa 'escrever-desenvolvimento-e-plot-twist' é defensável mas discutível — o trecho, nesta aula de Hard Sounds sobre 'calar a boca', serve como exemplo do critério 'embasado no que você tá vendendo' para escolher pontos de corte de áudio, não como instrução de escrita de roteiro de VSL. Um agente buscando como escrever a revelação (plot twist) de uma VSL pode estranhar encontrar aqui uma unidade sobre por que o professor não cita o nome do próprio método nos anúncios. Classificação discutível entre dois valores defensáveis, portanto ajuste menor, não extravio grave."
+  ],
+  "material": [],
+  "resumo": "Nesta conferência focal, a única falha em pauta (F1, sobre a unidade 5) foi resolvida pela via primária: a unidade 5 foi retirada do arquivo, eliminando a generalização indevida do corte de silêncio antes do CTA como regra para qualquer VSL. O mecanismo geral permanece em U1 e o exemplo específico, com a condição correta de demonstração, permanece em U4, de modo que nenhum conteúdo essencial ficou órfão. Confirma-se também, para registro, que a ressalva do executor ao laudo anterior procede: as frases citadas ('Essa parte aqui', 'É só uma edição', 'Para a pessoa se arrepiar') existem literalmente na transcrição dentro da faixa da unidade retirada. Nenhum problema novo foi introduzido pela correção; as demais unidades do arquivo não foram reabertas nesta rodada."
+}

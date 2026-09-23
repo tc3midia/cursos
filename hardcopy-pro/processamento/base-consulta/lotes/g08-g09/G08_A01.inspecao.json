@@ -1,0 +1,184 @@
+{
+  "aula": "G08_A01",
+  "arquivo_sha256": "aceba8890c54fa32cd3be4ed99cd62ccdf89653f35955f163fbf77be83c95e96",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "hashes_unidades": {
+    "1": "79062afc1729ebde1f7b613cad7a7ac3142395c9543be6133bba899d71e42bf4",
+    "2": "62cf57aba7f1d5c21ee251f0b6ccc2aba8cb07da0abd77f1cbc67674ca014fe3",
+    "3": "5db65ab18538bd0464839516a10238a662a2fa6d024208a7e149055d87a96fb0",
+    "4": "ff68bfa9f259496747511eee190f442f30a6e9841a25b8826b118429e0d316ed",
+    "5": "0c52e1b5fd15c739142f3efb101b715236a47ea2125efa66ba358d8f69c38e45",
+    "6": "6db506cdd1be86185faf057d694f184fc0bfa5f6a836a7630dd3a23c874f70eb",
+    "7": "dffc2fafef04f236ae81a906adf3cddc5718d9ae4a442f0bae541c4a82414460",
+    "8": "7c3c0b250d932e1a83445dff7de43f9b0bc054320a0e6fc896493ddbf6289b5f",
+    "9": "ab88e39b5f0e796ac0ae0b08702e35273af53d0ab6d486dcc4b372f2c6301f88",
+    "10": "f0af1b08468ee897530ce5773d8882767b6a8f1f9c7556a6c80ebac24c8e0f7f",
+    "11": "6c0957099828e8819edf8fdf3004239618b5e4df41320673b962677484e47c35",
+    "12": "5b26244b958a21cb7cb52d9d25b7f7f6ab0cf1e5e0a4988822316c5bf3526e3b",
+    "13": "cbf16eee5487a04d44df15d8ef9b93e59fbe9ef279524d0bbd64cbf1aaab638b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Abajur, porra, o que a gente vai fazer no abajur? É encapsulado, beleza, encapsulado dá pra gente brincar e pet shop, tá bom?",
+      "explicacao": "O trecho confirma exatamente os três produtos citados (abajur, encapsulado, pet shop) e que a aula segue só com o encapsulado. Corpo e faixa batem com a fonte."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que existe algo diferente que o mercado inteiro não tá vendendo tá isso eu chamo de mecanismo único oculto tá bom",
+      "explicacao": "Definição do conceito confere literalmente com a fonte, dentro da faixa declarada."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "para chamar a atenção tá para chamar a atenção de quem quer e quem não quer engajar com o seu conteúdo",
+      "explicacao": "A regra sobre atrair quem quer e quem não quer, e o efeito de barateamento por engajamento ('o Facebook entende que ele é um bom anúncio e ele entrega mais fácil, mais rápido, mais barato'), estão lastreados dentro da faixa."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o cara tá pegando CPM de 40, de 30 reais",
+      "explicacao": "Números de CPM (150-180 vs 30-40) e ROI (3-4) conferem com a fala; a unidade corretamente trata como caso de 'parceiros' do professor, marcado como exemplo perecível e não como régua de mercado, evitando o desvio de transformar número de caso em regra geral."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O mecanismo único oculto faz total diferença quando você está em um nicho totalmente saturado",
+      "explicacao": "Regra confere com a fonte e a condição (nicho saturado, exemplo emagrecimento) está preservada em 'condicoes'."
+    },
+    {
+      "numero": 6,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Então não espere que eu vou acertar aqui de primeira E que eu vou conseguir te entregar tudo mastigado Não, o negócio não é esse",
+      "explicacao": "Cada passo do procedimento (abrir página, buscar composição no Google, colar no ChatGPT, isolar componente, checar se o benefício já é usado, descartar e testar outro) está de fato dito na fala. Mas a unidade omite duas condições que a fonte impõe explicitamente sobre essa mesma demonstração: (1) o professor avisa, logo depois de descartar o cromo, que 'essa aula é pra te fazer pensar', que ele 'nem sabe que produto que é esse' e que está literalmente improvisando ao vivo, sem fórmula pronta ('não fórmula pronta igual os outros players fazem') — isso é uma ressalva sobre a própria técnica que a unidade, ao apresentar 6 passos numerados como procedimento fechado, não preserva; (2) ao avaliar os benefícios do cromo, o professor descarta 'aumento da massa magra' não por já ser usado pelo mercado, mas porque não é o que o público-alvo quer ('a pessoa acima do peso está cagando para esse aqui, ela quer perder peso') — um segundo critério de escolha (o benefício precisa interessar ao público) que a unidade não lista entre seus passos. O efeito prático: quem seguir só a unidade pode tratar o método como algoritmo garantido e escolher um benefício inédito mas irrelevante para o público, contrariando o que o professor de fato ensina."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu não consigo usar ele para criar copy tá eu não uso ele para isso",
+      "explicacao": "A preferência do professor (não usar ChatGPT para redigir a copy final, só como apoio de pesquisa) está corretamente atribuída a ele e não vira regra universal."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "na próxima aula a gente já vai em cima da cópia deste exemplo aqui",
+      "explicacao": "Confirma que o roteiro final do anúncio com o mecanismo achado fica para a aula seguinte, não sendo mostrado nesta aula."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o meu top afiliado hoje não usa meus criativos e não usa minha",
+      "explicacao": "O relato sobre o top afiliado usar só o checkout do produtor e ter criativos e estrutura próprios confere com a fala; a conclusão sobre sair da caixa também está na fonte logo em seguida."
+    },
+    {
+      "numero": 10,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Foco no produto, foco na oferta, no desconto, no preço, você vai pegar só gente ruim de pagar",
+      "explicacao": "A primeira parte do corpo (não mostrar o produto do início ao meio do anúncio) está bem lastreada. Mas a frase final do corpo ('Focar o anúncio no produto, na oferta, no desconto e no preço tende a atrair leads desqualificados') cita um trecho que, na fonte, é dito no contexto da crítica ao foco de uma página de vendas ('Foco no produto, tá. É errado, erro. Por isso que eu falo, nunca use em páginas de vendas dos outros... Olha só esse aqui, eu vou te mostrar uma coisa da hard copy'), não especificamente do roteiro do anúncio. A unidade funde os dois contextos (anúncio e página) sob a palavra 'anúncio', o que pode levar quem consulta a aplicar a régua de leads desqualificados só ao criativo, quando a fonte fala dela ao apresentar sua própria página de vendas como contraponto."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "nunca use em páginas de vendas dos outros",
+      "explicacao": "A regra e a ressalva de que isso vale mesmo para página de produtor renomado e que já vendeu muito conferem com a fala."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é um por cento de conversão tá bom a cada cem pessoas uma pessoa",
+      "explicacao": "A frase da fonte é confusa ('meio por cento... não tá maravilhoso tá maravilhoso'), mas a unidade preserva essa ambiguidade com confianca 'media' e nota explicando a dificuldade de transcrição, o que é o tratamento esperado para fonte mal transcrita."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Descubra a rotina que emagreceu mais de 25 mil pessoas",
+      "explicacao": "Os 8 blocos da estrutura (headline, tópicos de sintoma, elefante na sala + feedbacks, disrupção da concorrência, história em formato de mensagem, benefícios extras, feedbacks, preço) aparecem nessa ordem na fala, com a identificação por hipótese do produto 'Hard Copy' devidamente marcada em nota."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 639,
+      "trecho_fonte": "Então se você acha que essa aula vai ser uma aula de solução Não, essa aula é pra te fazer pensar",
+      "descricao": "O professor avisa explicitamente que a busca do mecanismo único oculto demonstrada não é uma fórmula pronta nem garantida: ele diz que nem sabe qual produto é, que está estudando ao vivo e que não espera acertar de primeira. Nenhuma unidade preserva esse aviso.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem só consultar a unidade 6 (procedimento numerado) pode aplicar os 6 passos esperando encontrar garantidamente um mecanismo único oculto, quando o próprio professor diz que é tentativa e erro sem fórmula garantida, mudando a expectativa correta de uso da técnica."
+    },
+    {
+      "inicio": 557,
+      "trecho_fonte": "Só que como a gente quer vender para pessoas acima do peso A pessoa acima do peso está cagando para esse aqui Ela quer perder peso",
+      "descricao": "Ao avaliar os benefícios do cromo, o professor descarta 'aumento da massa magra' não porque o mercado já usa esse argumento, mas porque não é o que o público-alvo (pessoas acima do peso) quer. Esse segundo critério de escolha do mecanismo único oculto (precisa interessar ao desejo do público, além de ser inédito no mercado) não está em nenhuma unidade.",
+      "gravidade": "material",
+      "efeito_pratico": "Sem esse critério, quem seguir o procedimento da unidade 6 pode escolher um benefício inédito mas irrelevante para o público-alvo, resultando em um mecanismo único oculto sem apelo de venda."
+    },
+    {
+      "inicio": 743,
+      "trecho_fonte": "Você sempre vai focar no produto Isso é normal do ser humano",
+      "descricao": "O professor explica que o foco natural no produto vem do formato narrativo da jornada do herói, usado há milhares de anos pela mente humana para contar qualquer história. Essa explicação do porquê do erro comum não está preservada em nenhuma unidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem essa explicação, a orientação de não focar no produto (unidades 9 e 10) fica sem o contexto de por que esse erro é tão recorrente; não muda a execução da técnica, só o entendimento do porquê."
+    },
+    {
+      "inicio": 473,
+      "trecho_fonte": "Isso aqui eu ensino no hardcop Eu mostro no hardcop",
+      "descricao": "O professor menciona que ensina o aprofundamento desse método dentro de outro produto do curso (Hard Copy) e adverte que quem não comprou esse produto não deveria 'vir pegar de passagem'. Esse trecho de oferta/cross-sell não tem um `limite` correspondente em nenhuma unidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem um limite registrando isso, o agente não sinaliza que parte do método é aprofundada em outro produto pago do curso; efeito prático é baixo, apenas informativo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 6 (numero 6) é tipada como `procedimento` com 6 passos numerados, mas a fonte apresenta essa sequência como uma demonstração exploratória de caso único ('eu tô pegando esse produto agora, eu nem sei que produto que é esse... não fórmula pronta'), não como um algoritmo validado. Isso pode levar um agente a tratar como procedimento replicável e garantido algo que a fonte trata como estudo de caso não garantido; ver apontamento de fidelidade na unidade 6.",
+    "Unidade 1 usa tema `curso-e-recursos` para descrever o escopo da temporada (abajur/encapsulado/pet shop); é uma classificação defensável mas discutível frente a um tema mais ligado ao conteúdo da própria aula — sinalizado para o juiz avaliar como possível ajuste menor de aplicabilidade."
+  ],
+  "material": [],
+  "resumo": "O arquivo tem 13 unidades bem ancoradas na fala em sua maioria, com citações literais corretas e boa separação entre exemplo/caso (CPM de parceiros, régua de conversão) e conceito geral. O problema mais sério está na unidade 6: um procedimento numerado de 6 passos para achar o mecanismo único oculto que suprime a ressalva explícita do professor de que aquilo é uma demonstração exploratória sem fórmula garantida, e omite um critério de decisão (o benefício precisa interessar ao público-alvo, não só ser inédito no mercado) — ambos elevados a omissão material também. A unidade 10 mistura, de forma mais branda, um trecho sobre foco de página de vendas com a orientação sobre o roteiro do anúncio. Há ainda duas omissões menores: a explicação do professor sobre por que iniciantes focam no produto (jornada do herói) e a falta de um `limite` para o trecho de oferta cruzada com o produto Hard Copy. Nenhuma unidade usa resíduo de silêncio, copy fictícia como fato, ou grafia deformada indevidamente; perecibilidade e uso de material não apresentaram falhas."
+}

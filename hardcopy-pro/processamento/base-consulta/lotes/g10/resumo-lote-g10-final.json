@@ -1,0 +1,96 @@
+{
+ "G10_A04": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10/ciclo1",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [],
+   "perecibilidade": [],
+   "nao_literais": 0
+  },
+  "ciclos": 1
+ },
+ "G10_A01": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [],
+   "perecibilidade": [],
+   "nao_literais": 1
+  },
+  "ciclos": 0
+ },
+ "G10_A02": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10/ciclo1",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [
+    2,
+    3,
+    5
+   ],
+   "perecibilidade": [],
+   "nao_literais": 0
+  },
+  "ciclos": 1
+ },
+ "G10_A03": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10/ciclo1",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [
+    "faixa-errada 1/3"
+   ],
+   "perecibilidade": [],
+   "nao_literais": 0
+  },
+  "ciclos": 1
+ },
+ "G10_A05": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10/ciclo1",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [
+    3,
+    5
+   ],
+   "perecibilidade": [],
+   "nao_literais": 0
+  },
+  "ciclos": 1
+ },
+ "G10_A06": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10/ciclo1",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [
+    8,
+    13,
+    14
+   ],
+   "perecibilidade": [],
+   "nao_literais": 0
+  },
+  "ciclos": 1
+ },
+ "G10_A07": {
+  "estado": "aprovada",
+  "pasta": "/Users/wilianrafaelribeiro/cursos/hardcopy-pro/processamento/base-consulta/lotes/g10/ciclo1",
+  "julgamento": "amostra",
+  "inspecao": {
+   "material": [
+    1
+   ],
+   "perecibilidade": [
+    3
+   ],
+   "nao_literais": 0
+  },
+  "ciclos": 1
+ }
+}

@@ -1,0 +1,41 @@
+{
+  "aula": "G08_A04",
+  "arquivo_sha256": "5c23ca54da37321152b654c4f4b8c2bfb930135eb9847aeede6e0109a53606a1",
+  "inspecao_sha256": "7e838d81b7125d5f0082e5751ab311a0a6c6adabac32192d7066c1f73734b042",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador `base_fcc.py` com zero erros e zero avisos. Passa. O apontamento do inspetor em `contrato` (capcut × geral nas unidades 2 e 5) não é erro de contrato; é classificação discutível, registrada em ajustes menores.",
+  "fidelidade": "Inspeção integral (7/7), `citacoes_nao_literais` vazio, nenhuma `faixa-errada`. Unidades 1, 4, 6 e 7 lastreadas com trecho literal; na 1 há extrapolação leve (\"diferente de uma gravação real\") que não muda a regra. Unidade 3: leitura correta de trecho mal transcrito (\"remover o sono\"), corroborada pela definição dada no início da aula (\"tirar as partes brancas\"), mas sem `nota` e com `confianca: alta` — ajuste menor, porque a regra em si tem lastro em outra passagem da mesma aula. Unidades 2 e 5: FALHA. O inspetor comprova, com trecho literal, que a fala confirma o que foi aplicado (trilha de suspense e depois música \"de fé\"; efeito escuro com tom vermelho e transição), mas em nenhum ponto das faixas diz que isso fica \"antes da revelação do produto\" nem \"perto do fechamento com o convite para a ação\". Essa correlação entre recurso de edição e ato narrativo é a `Lógica` das duas unidades e está no título da 5, apresentada sem `nota` de inferência. O inspetor classificou como menor; elevo a material: afirmação sem fonte é material pela rubrica, e em aula de tela o que veio da timeline e não da fala é exatamente o que o FORMATO §3 manda não extrair como lastreado. Não encontrei copy de exemplo tratada como fato (o 46 s está como exemplo), resíduo de silêncio, termo deformado promovido a nome (\"MEI-A\" ficou em nota como hipótese) nem ressalva suprimida.",
+  "cobertura": "O inspetor declarou busca de omissões na fonte inteira e localizou duas, ambas comentários de execução em tela: \"aumentar um pouquinho o volume da voz\" (369 s) e \"caçar o plot dessa melodia\" (571 s). Nenhuma é régua, passo essencial de procedimento, condição ou alerta; a segunda é aplicação de técnica definida em G09_A06. Não mudam a decisão de quem consulta — ajustes menores, aproveitáveis na reescrita da unidade 2. O `limite` (U4) cobre o que ficou só na imagem, resultado esperado para aula de tela. Passa.",
+  "perecibilidade": "Unidades 1–5 presas a ElevenLabs/CapCut com `perecivel: true`; unidade 6 (número de caso, 46 s) como `exemplo` perecível; unidade 7 conceitual, `geral`, sem marca — correto. Inspetor não encontrou perecível escondido. Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: jargão explicado na primeira ocorrência (\"partes brancas\" = trechos de silêncio; \"mecanismo único oculto\" com a definição do vocabulário), `condicoes` preenchidas onde a orientação é de caso (2, 5, 6) ou de perfil (7). Duas ressalvas: \"no mesmo trecho de tensão do anúncio de exemplo\" (U5) depende da U2 e deve ser reescrito para se sustentar sozinho — incluído na mudança mínima de F1; `plataformas: capcut` nas unidades 2 e 5 é discutível frente a `geral` com CapCut em nota (a taxonomia diz que menção de onde o exemplo rodou não muda `geral`), classificação entre dois valores defensáveis — ajuste menor. Nenhuma técnica de contorno de política nesta aula. Passa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        2,
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal e dentro das faixas: U2 (349–526 s), \"Um suspense, olha só\" — a fala confirma trilha de suspense e depois música 'de fé', mas não diz que o suspense fica \"antes da revelação do produto\" nem que a música de fé fica \"perto do fechamento com o convite para a ação\"; U5 (482–501 s), \"Vai procurar escuro aqui\" — efeito escuro/vermelho e transição lastreados, mas \"antes da revelação do produto\" (título e Situação) não é dito. O inspetor identifica a correlação como inferência do extrator pela ordem da edição. As unidades a apresentam com `confianca: alta` (U2) e `media` (U5) sem `nota` sinalizando inferência.",
+      "impacto": "A parte reutilizável de um `exemplo` é a `Lógica`. Nas duas unidades ela atribui ao professor uma correlação entre recurso de edição e ato narrativo (\"a trilha muda de acordo com a fase da narrativa… sensação positiva antes do CTA\"; \"preparando o momento da revelação\") que a fala não enuncia. Um agente vai citar G08_A04 como lugar onde o professor ensina a casar trilha e filtro com a fase do anúncio, quando a aula só mostra edição sequencial em tela. Afirmação sem fonte é material pela rubrica; em aula de tela, conteúdo lido da timeline e não da fala é o que o FORMATO §3 manda não extrair.",
+      "mudanca_minima": "Reescrever `O que aconteceu` e `Lógica` das unidades 2 e 5 (e o título da 5) só com o que a fala diz: aplicou trilha de suspense/terror e depois música que chama de 'de fé'; aplicou efeito 'escuro' com tom vermelho e uma transição. Retirar \"sobre a parte de tensão\", \"antes da revelação do produto\", \"perto do fechamento com o convite para a ação\", \"sensação positiva antes do CTA\" e \"preparando o momento da revelação\" — ou mantê-los explicitamente como inferência pela ordem da edição, em `nota`, com `confianca: media`. Na U5, trocar \"no mesmo trecho de tensão\" por descrição que se sustente sem a U2. Incrementar `versao` das duas.",
+      "criterio_de_aceite": "Inspetor reconfere as unidades 2 e 5 e devolve `lastreada` com `trecho_fonte` literal para cada afirmação de corpo e título; qualquer posição narrativa que permaneça está em `nota` marcada como inferência e a unidade tem `confianca` no máximo `media`; a U5 não referencia outra unidade; validador com zero erros; `versao` incrementada nas duas."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: \"diferente de uma gravação real que pode trazer ruído de fundo\" é extrapolação leve do extrator (inspetor); cortar ou reduzir ao que a fala diz.",
+    "U3: registrar em `nota` que a transcrição diz \"remover o sono\" no trecho 395–404 s, lido como remoção de silêncio pela definição dada no início da aula (\"tirar as partes brancas do áudio\"); considerar `confianca: media`. Não muda a orientação.",
+    "U2 e U5: `plataformas: capcut` × `geral` com CapCut em `nota` — classificação discutível; decidir na reescrita de F1 (a taxonomia diz que menção de onde o exemplo rodou não muda `geral`).",
+    "Omissão menor (369 s): ao adicionar trilha, o professor sobe um pouco o volume da voz — pode entrar em `O que aconteceu` da U2 na reescrita.",
+    "Omissão menor (571 s): \"caçar o plot dessa melodia\" — aplicação da técnica 'plot da música' (definida em G09_A06); pode entrar na U2 ou no contexto.",
+    "U7: \"ou o benefício interno\" e \"embalagem\" não estão no trecho citado (\"não mostra nenhum encapsulado… mostra o que tem dentro do encapsulado\"); alinhar o corpo à fala para não ampliar a regra."
+  ],
+  "proximo": "Redator corrige F1 nas unidades 2 e 5 (ciclo 1 de 2), aproveitando a reescrita para os ajustes menores relacionados (volume da voz, plot da melodia, plataforma). Inspetor reconfere só 2 e 5, com `trecho_fonte` por afirmação de corpo e título. Validador com zero erros. Juiz confere a lista F1 e os efeitos da alteração. Unidades 1, 3, 4, 6 e 7 preservam a evidência se o hash não mudar; ajustes menores nelas são opcionais e não abrem ciclo."
+}

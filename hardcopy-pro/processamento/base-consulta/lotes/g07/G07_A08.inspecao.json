@@ -1,0 +1,111 @@
+{
+  "aula": "G07_A08",
+  "arquivo_sha256": "3499ce32831e785657c9f00d6feb0a31ca144b69ecedf4801e59b6b85186c1ce",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "2fab06499e981d51af0a9b11572224d972880efea24d9db95b4e715ceb9fce6d",
+    "2": "dfdaa61806737acf627de438e80259e12f7a6329d0a83101f1afbe4eaa982b3c",
+    "3": "727c0e894ab798a3a4b18fab8e70c4f1b4461f9d90c8b9fe2ec65642bd032900",
+    "4": "cbd0b0d8d1459e57f8d39feeb2a83d8fad5ae97c0842a86f0bb6952b5cd99303",
+    "5": "de45ea56a4a5cd61948d8adb0801d6d8eeaf1f2f7bdaff51120f808d4862e479",
+    "6": "10fe82e521fa714eb574a1ee5c3bc8aee1acc692f8c0bc66a7377ef9e60de079",
+    "7": "88b71f6072223d03e758174ba2c0229aafff0ba4dc00c80af61867985bf2f099"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não faz sentido você colocar uma Porsche aqui. Você vende uma Porsche? Você coloca. Se você não vende, você não coloca.",
+      "explicacao": "A unidade reproduz fielmente a regra (usar carro compatível com o nicho real da loja, não o mais bonito da busca) e preserva a condição de exceção dada pelo professor (se a loja realmente vende aquele modelo, pode usar). Nenhum número, condição ou sentido foi alterado."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai pegar e vai gravar os seus carros Não faz sentido você colocar aqui O carro dos outros Pelo amor de Deus",
+      "explicacao": "A orientação de gravar os próprios carros em vez de usar fotos/vídeos de terceiros está bem sustentada, e a condição de que a busca/baixa feita na aula é só demonstração didática (\"este vídeo é de fins para aprendizado\") foi preservada, coerente com a exigência de manter ressalvas do professor sobre a própria prática."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vai vir em SnapTik, tá, download,",
+      "explicacao": "Descreve corretamente o uso do SnapTik para baixar um vídeo de terceiro publicado no TikTok, preserva o desconforto do professor logo depois (\"não acredito que eu fiz isso... não me senti um bosta agora\") e traz perecivel:true com a nota obrigatória iniciada por 'Contorna política de plataforma ou direito de terceiros:', como exige o formato para esse tipo de técnica."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então quanto mais escuro você deixar uma parte triste Melhor, tá? Que aí vai transmitir realmente isso",
+      "explicacao": "O princípio geral (cena mais escura transmite mais tristeza, por analogia com cinema) está bem sustentado pela fala. Já a lista específica de ajustes citada no corpo ('ajuste contraste, sombras e saturação') se apoia em um trecho de transcrição parcialmente degradado - 'aumentar um pouquinho contraste diminuir o [tá], sombras, surgir, deixa assim, vibração e X processo, deixa assim, o que que eu tô fazendo isso?' - que não permite confirmar com certeza quais controles e em que direção foram usados. A confiança 'alta' é otimista para esse detalhe técnico específico; a regra central não muda, mas o passo técnico exato é menos certo do que a unidade sugere."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "duplica uma decepção por causa uma decepção por causa da sua escolha de um carro mais barato com IPVA pago e tanque cheio aqui a gente vai colocar somente uma foto tá somente uma imagem que vai falar mais do que a própria o próprio texto",
+      "explicacao": "Na fonte, a cena 'uma única imagem/vídeo de carro estragado, sem texto, para gerar medo' ocorre uma única vez, entre aproximadamente 00:12:35 e 00:13:18 (com a busca de imagem 'carro, carro, usado, velho... a pessoa pode ficar com medo' logo depois, e o download/edição do vídeo do carro quebrado em seguida) - ou seja, DEPOIS do bloco de orgulho da família (que termina por volta de 00:12:18) e pouco antes da vinheta e do CTA finais. Não há, na fonte, uma cena separada de 'imagem de medo sem texto' logo após a diferenciação da concorrência, onde a unidade colocou o passo 4. A unidade duplicou esse mesmo evento como passo 4 (fora de ordem) e passo 8 (posição real), inflando a estrutura para 9 partes quando a sequência real tem 8. Um agente que seguir esse roteiro como ordem de produção montaria a cena de medo duas vezes e na posição errada, o que muda a sequência do anúncio ensinada na aula."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Claro, eu posso meter a vinheta no cap cut Pode Tem diferença nenhuma, aí é contigo",
+      "explicacao": "Reproduz fielmente a fala: a vinheta pode ser aplicada tanto no Canva quanto no CapCut, sem diferença, a critério de quem edita."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mostra a camada, joga para trás e exclua o bandinho. Beleza.",
+      "explicacao": "O limite descreve corretamente que boa parte da montagem fina no Canva (camadas, cores, sombras, mockups, posições) só é nomeada de forma genérica na fala ('mostra a camada', 'joga para trás', 'exclua o bandinho') e não pode ser reconstituída sem a imagem, cumprindo a exigência de registrar isso como limite em vez de inventar passos."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 484,
+      "trecho_fonte": "aí você coloca a cor da sua empresa aqui, olha só, como aqui é verde, a gente vai colocar o verde também, tá bom?",
+      "descricao": "A aula ensina duas orientações de identidade visual que nenhuma unidade preserva: colocar a foto/logo da própria empresa no fundo do anúncio ('Aqui você coloca a foto da sua empresa... a marca da sua empresa, você coloca bem aqui no fundo') e usar a cor da própria marca como cor de destaque do criativo (no exemplo, verde, por ser a cor da empresa fictícia).",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades extraídas não fica sabendo que o anúncio deve levar o logo/foto e a cor da marca do próprio negócio, podendo montar um criativo sem identidade visual coerente com a empresa anunciante."
+    },
+    {
+      "inicio": 474,
+      "trecho_fonte": "aqui a gente pega uma tarja, pra gente não ter problema, preto, tá?",
+      "descricao": "Ao usar uma foto de estoque genérica de 'loja de carro' (não a do cliente real, e logo após dizer que não quer denegrir nenhuma loja de carro real), o professor cobre parte da imagem com uma tarja preta 'pra gente não ter problema'. Nenhuma unidade registra essa prática de ocultar elemento identificável de terceiro na imagem do criativo.",
+      "gravidade": "material",
+      "efeito_pratico": "Sem esse registro, quem usa uma foto de estoque que mostra um negócio real e identificável no criativo não é avisado de que deve cobrir/ocultar essa identificação para reduzir risco de direito de imagem ou problema com terceiros - exatamente o tipo de cuidado que a rubrica pede para vir com aviso de contorno de política/direito de terceiros."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "A numeração das unidades não segue estritamente a ordem cronológica de aparição na fonte exigida pelo FORMATO (seção 4): a unidade 5 começa em 167s e a unidade 7 em 23s - ambas anteriores às unidades 3 (800s), 4 (868s) e 6 (937s) - mas receberam números maiores que essas. Vale conferir por script/coordenação se a convenção adotada (unidades amplas de síntese numeradas por ordem de extração, não de início) é aceitável ou exige renumeração."
+  ],
+  "material": [
+    "Aula sem material de apoio (<material_ausente/> no cabeçalho); todas as unidades usam fonte: fala, não há versão em material para divergir, então não há apontamento de divergência fala/material a registrar nesta aula."
+  ],
+  "resumo": "A extração cobre com fidelidade as regras centrais da aula - escolher carro compatível com o nicho, gravar material próprio em vez de usar imagens/vídeos de terceiros, o aviso de política/direito de terceiros ao usar o SnapTik, a dica de colorização para transmitir tristeza e a equivalência Canva/CapCut para a vinheta - todas bem lastreadas na fala. A unidade 5 (estrutura do anúncio) tem um desvio material: duplica a cena de 'imagem de medo sem texto' em duas posições do roteiro (passo 4 e passo 8), quando na fonte ela ocorre uma única vez, perto do fechamento, depois do bloco de orgulho, o que muda a ordem real que um agente replicaria. Duas orientações dadas em fala não foram preservadas por nenhuma unidade: usar o logo/cor da própria marca no criativo, e cobrir com tarja preta elementos identificáveis de terceiros em fotos de estoque genéricas. Por fim, a numeração das unidades não segue estritamente a ordem cronológica de aparição na fonte, o que vale checar contra a regra de identidade do FORMATO."
+}

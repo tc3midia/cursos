@@ -1,0 +1,27 @@
+{
+  "aula": "G07_A03",
+  "arquivo_sha256": "1efdecf326d8b515c19bba77aa4ecef0f586d9180c0e179a4a9d4379e425df36",
+  "inspecao_sha256": "c8d5b5ffd9c4a71050193a773b18eee213123a191f4fb1249e22491c9e591734",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Nada a corrigir.",
+  "fidelidade": "Inspeção integral (5/5), todos os trechos literais, nenhuma citação não literal. Três unidades lastreadas (2, 3, 4); unidade 3 preserva a ressalva \"eu não faria dessa forma\" e a atribui como preferência, como a rubrica exige. Os dois \"desvios\" apontados são menores e concordo com a gravidade: na unidade 1 o corpo está lastreado e o problema fica só na `nota`, que fixa uma leitura de fala ambígua (\"você vai entender o porquê, tá, na próxima aula e na aula 8 que a gente fala sobre carro\") — não altera número, condição nem sentido da orientação; na unidade 5 o corpo omite \"aula 5\" da fonte, o que é perda de detalhe, não adulteração, e não muda decisão de quem consulta. Sem sem-lastro, sem faixa-errada. A extrapolação da unidade 4 (\"em qualquer lugar que o lead procure...\") está coberta por \"nos serviços é a mesma coisa\" na fala. O termo \"copa dos sapatos\" foi tratado com `nota` e `confianca: media`, sem virar nome.",
+  "cobertura": "Inspetor percorreu a fonte inteira (abertura, quatro blocos, fechamento) e não localizou omissão. As unidades cobrem o que a aula ensina: sapato exige muito material visual por atender dor e desejo; carro seminovo e serviço vendem por autoridade/confiança; ressalva sobre estender garantia; o que fica adiado. Testemunho pessoal sobre a temporada e resíduo \"E aí\" corretamente fora; não contam como omissão.",
+  "perecibilidade": "Nenhum perecível escondido: todas as unidades já estão `perecivel: true`, e as que citam estrutura do curso (1, 4, 5) precisam mesmo da marca. Unidades 2 e 3 parecem marcadas sem conteúdo perecível aparente (sobre-marcação), o que não é veto — registrado como ajuste menor.",
+  "aplicabilidade": "As cinco unidades se sustentam sem a aula: condições preenchidas com o nicho (sapato, seminovo, serviço), jargão \"lead\" explicado na unidade 4, referências a \"episódios seguintes\" funcionam como limite e não impedem o uso. Tema `anuncio-negocio-local` e plataforma `geral` corretos em 1–4. Duas classificações discutíveis, ambas entre valores defensáveis: tarefa `analisar-concorrencia` na unidade 2 (o uso prático é fundamentar roteiro com autoridade; a orientação executável está alcançável pelas unidades 3 e 4 sob `roteirizar-anuncio`) e tema `curso-e-recursos` na unidade 5. Nenhuma leva o agente a lugar errado de forma que mude o uso.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U1 `nota`: registrar a ambiguidade da fala em vez de afirmar que a aula de carro retoma o motivo das imagens de sapato — p.ex. \"A fala diz 'você vai entender o porquê, tá, na próxima aula e na aula 8 que a gente fala sobre carro'; a leitura mais provável é que o motivo vem na próxima aula e a aula 8 trata de carro/autoridade\".",
+    "U5 corpo: acrescentar a referência da fonte, p.ex. \"o professor adia para a 'aula 5' (numeração dele) da mesma série\", para não perder o ponteiro que a fala dá.",
+    "U2 tarefas: `analisar-concorrencia` não corresponde a auditar anúncio de concorrente; trocar ou complementar por `roteirizar-anuncio` (classificação discutível, dois valores defensáveis).",
+    "U5 tema: `curso-e-recursos` e `anuncio-negocio-local` são ambos defensáveis para um `limite` de adiamento; manter ou trocar sem abrir ciclo (se trocar, `perecivel` continua `true` por citar estrutura do curso).",
+    "U2 e U3 `perecivel: true` sem conteúdo perecível aparente (sem recurso do curso, plataforma, preço, data ou número de mercado); considerar `false`. Não é veto — a rubrica só barra a marca ausente.",
+    "U4 corpo: a frase \"em qualquer lugar que o lead procure, ele já encontra a opção que quer\" é extrapolação do trecho de carro autorizada por \"nos serviços é a mesma coisa\"; opcionalmente atribuir (\"o professor equipara ao caso do carro\").",
+    "U3 título é categórico (\"Não estender garantia...\"); corpo e condições já atribuem como preferência, então basta, mas um título como \"Professor prefere confiança a estender garantia do seminovo\" evitaria leitura de regra universal por quem só lê o índice."
+  ],
+  "proximo": "Aprovar e mudar `status` da aula para `revisado`. Ajustes menores podem ser aplicados numa passagem editorial única, sem nova rodada de inspeção; nenhum pedido de prova pendente. Nenhuma causa material aqui exige ampliação focal a outras aulas."
+}

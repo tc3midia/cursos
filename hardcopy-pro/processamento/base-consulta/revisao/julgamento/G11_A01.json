@@ -1,0 +1,23 @@
+{
+  "aula": "G11_A01",
+  "arquivo_sha256": "8020a71a429f6ac9ca53872d48134482c6797c0eb616de915058985030cbc8f3",
+  "inspecao_sha256": "8837be11b6db1a6e98b15731af2f2def00a905a90358f111c4b469e173e3dddb",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Aula de abertura com 3 unidades está dentro do esperado para aula sem conteúdo técnico próprio (abaixo da faixa 3–60 não disparou aviso).",
+  "fidelidade": "Inspeção integral, 3/3 unidades `lastreadas`, nenhuma citação não literal. U1 é o `limite` que o FORMATO pede para aula de abertura/trailer, com os tópicos anunciados conferidos um a um pelo inspetor contra trechos da fala. U2 preserva a ressalva (\"normalmente\" → \"tende a\") e atribui ao professor, sem promover a lei. U3 preserva a condição (iniciante do zero) em `condicoes`; \"Rádio Copy\" segue a tabela de grafias e \"Rádio Sound\", que não consta na tabela, é identificado por hipótese com `nota` explicando a grafia da fonte e `confianca: media`, como o FORMATO exige. Faixa da U1 (0–241) para antes do resíduo \"E aí\"; nenhuma unidade usa resíduo como fonte. Não há copy de exemplo tratada como fato, passo de tela inventado nem ressalva suprimida.",
+  "cobertura": "Inspetor declarou busca de omissões na fonte inteira e localizou uma só, de gravidade menor: a fala diz que o agente virtual da aula 2 será ensinado sobre a empresa do próprio aluno (\"A gente vai ensinar ele a aprender sobre a sua empresa\"), e U1 registra apenas que foi alimentado com material do professor. Não demonstro efeito prático que mude decisão: a aula é trailer, a orientação real sobre o agente fica em G11_A02, e quem consulta U1 já é remetido para lá. Fica como ajuste menor. O restante da aula é boas-vindas e panorama, corretamente absorvido pelo `limite`.",
+  "perecibilidade": "Todas as unidades com `perecivel: true`: U1 e U3 por tema `curso-e-recursos` (estrutura e ordem das trilhas do curso), U2 por plataforma `chatgpt`. Inspetor não sinalizou perecível escondido, e não vejo nenhum nas unidades.",
+  "aplicabilidade": "U1 se sustenta como descrição do que a aula é e do que remete às aulas seguintes, que é a função do `limite`. U2 entrega uma orientação utilizável sozinha (jogar ideia crua no ChatGPT tende a dar resposta genérica; o curso propõe outro caminho) e é honesta sobre o caminho ficar nas aulas seguintes, sem depender de \"como eu mostrei\"; a tarefa `refinar-saida-de-ia` é defensável, embora `criar-prompt-ou-agente` também fosse, o que é discutível e menor. U3 tem `condicoes` preenchido para o perfil (iniciante do zero), tema e tarefa levam ao lugar certo, e \"antes desta aula\" é inerente a uma unidade sobre ordem das trilhas. Nenhuma unidade depende de referência que ficou na aula de forma que mude o uso.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Contexto, frase 6: remover a menção ao resíduo de silêncio. O FORMATO §3 diz explicitamente para não mencionar resíduo no contexto, e a frase não descreve o que a aula é, para quem, o que assume nem o que deixa para depois. Não muda decisão de quem consulta.",
+    "U1: acrescentar, na frase sobre o agente virtual da aula 2, que a aula seguinte também vai ensiná-lo a aprender sobre a empresa do próprio aluno (trecho do inspetor em ~220s: \"A gente vai ensinar ele a aprender sobre a sua empresa\"). Omissão menor num trailer; o conteúdo operacional fica em G11_A02. Se aplicado, incrementar `versao`.",
+    "U2: tarefa `refinar-saida-de-ia` é defensável, mas a orientação fala do que se dá de entrada ao ChatGPT (não jogar a ideia crua), o que também cabe em `criar-prompt-ou-agente`. Classificação discutível entre dois valores; opcional adicionar a segunda tarefa."
+  ],
+  "proximo": "Aprovar e mudar `status` da aula para `revisado`. Os três ajustes menores podem ser aplicados numa passagem editorial sem abrir ciclo; se aplicados, incrementar `versao` das unidades tocadas e reconferir por script (`--check` e `--reviews`), sem nova inspeção."
+}

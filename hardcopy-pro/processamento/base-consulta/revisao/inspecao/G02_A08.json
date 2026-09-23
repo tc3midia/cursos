@@ -1,0 +1,82 @@
+{
+  "aula": "G02_A08",
+  "arquivo_sha256": "9c9892de6f6b00965a90a92ebcf3ff67f7d580fa0ff555145563638b965a6f1f",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "70cb19316614112be62c0055f50ae3b69ffb539dc2f3c481ad32f8ce3aa75051",
+    "2": "11f48891b27209603fb71b20cc7909bb6cc41bae036d8c948f405204df073b4d",
+    "3": "bea4d11be4cc29db4dbe6d5f8c3832b5e37257fda553f0de089a5c04432569dd",
+    "4": "324ad8a519f82d7506657a170b65d6dcdbfe5c85ae14a1a6206edc09aec1ce26",
+    "5": "9d5398b071005869b607ca8686c9e670bbc897b3ad6ee07b7bd3a7a066a7617a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque eu vou colocar na prática uma VSL inteira",
+      "explicacao": "O núcleo bate com a fonte: a aula é didática, a VSL inteira será posta em prática e depois comentada parte por parte, e no final o aluno faz a sua. Ajuste menor: a frase \"o exemplo aplicado fica em outra aula do curso\" é inferência. A fonte diz só \"depois vamos comentar cada parte dessa VSL\" e, no fecho, \"até a próxima aula com o pitch de vendas\". Ela não diz em qual aula a VSL aparece. O efeito prático é pequeno, mas um agente pode tratar como fato a localização do exemplo. \"Cada parte desse mecanismo\" foi lido como mecanismo do plot twist, o que é plausível pelo título da aula."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Depois fazemos a junção da história em cima da quebra de contexto",
+      "explicacao": "Os quatro movimentos e a ordem seguem a fala de 1:38 a 1:58. \"Base narrativa ou expert\" e \"junção da história em cima da quebra de contexto\" foram preservados como ditos. A divergência entre \"três fatores\" e os quatro movimentos foi registrada em `nota`, sem reconciliar. A definição inicial (\"algo que o lead não esperava acontecer\") não está nesta aula. Ela vem do vocabulário do FORMATO (G02_A06), que a unidade pode usar, então não é sem-lastro. Ajuste menor: a última frase do corpo (\"Depois disso vem o pitch de vendas, tratado em aula seguinte\") está apoiada em falas de 3:36 a 4:05, fora da faixa 72–119. O restante da unidade está dentro da faixa."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Depois você vai juntar a dor semelhante com o seu mecanismo único",
+      "explicacao": "Corpo fiel: falar da dor semelhante retém a atenção e cria conexão (\"Até lá você está conseguindo reter a atenção dele e fazer a conexão com ele\"). Depois vem a junção da história, em que \"a história vai a partir de agora para o mecanismo único\". A definição de mecanismo único vem do vocabulário do FORMATO (G01_A03). A faixa 121–167 cobre o conteúdo (2:01 a 2:27)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai fazer a quebra do contexto para ela de fato entender que aquilo é o problema dela",
+      "explicacao": "Confere: \"são duas dores\", quebra de contexto para o lead entender que aquilo é o problema dele, só então entra o mecanismo único. As reações ilustrativas (ansiedade por estar acima do peso; marido que não elogia porque ela não elogia) estão na fala de 2:54 a 3:03. A `condicoes` diz corretamente que são ilustrações, não depoimentos. A faixa 147–184 cobre tudo. A fonte diz \"jogou para o mecanismo único\" e depois \"para aí sim entrar o mecanismo único\", e o corpo reproduz as duas coisas sem reconciliar. É ambiguidade da própria fonte, registrada em `contrato` como ajuste menor."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Como não temos avaliações e feedbacks aqui",
+      "explicacao": "Confere: explicar e quebrar a objeção através do mecanismo único; \"nada adianta você dar uma ideia se a ideia não for executada\"; \"não adianta falar aqui e não explicar como que vai ser\". A `condicoes` preserva a atribuição e não inventa posição sobre prova social. Ajustes menores: (a) \"a VSL do exemplo\" interpreta o \"aqui\" da fala; (b) \"é a explicação que carrega esse papel\" é síntese do \"O que nós vamos fazer? Explicar da melhor forma possível\"; (c) a última frase do corpo (\"Só então se passa ao pitch de vendas\") corresponde a \"Para aí sim, irmos para o pitch de vendas\", que começa em 216,46 s, logo depois do `fim` 216. Nenhum desses pontos muda a orientação."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [
+    {
+      "numero": 2,
+      "problema": "Ponto marginal, a critério do juiz. A última frase do corpo (\"Depois disso vem o pitch de vendas, tratado em aula seguinte\") depende da ordem das aulas do curso, isto é, da estrutura do curso. A unidade 1 tem referência do mesmo tipo (\"outra aula do curso\") e foi marcada `perecivel: true`; a unidade 2 está `false`. O conteúdo principal (a sequência dos movimentos) não é perecível. A inconsistência se resolve retirando a frase ou marcando o campo."
+    }
+  ],
+  "contrato": [
+    "Unidade 2, `nota`: diz que a fala sobre \"três fatores\" e \"a enciclopédia\" está \"truncada na transcrição\". A fonte mostra outra causa: o professor diz \"Então eu deixei isso aqui para vocês verem e tentarem entender um pouquinho melhor, mas eu resumi aqui onde eu utilizo dessa forma\". Ou seja, o material dos três fatores estava na tela e não foi falado. Nenhuma unidade (por exemplo um `limite`) registra que os três fatores ficaram só na imagem. Quem consulta pode achar que a transcrição está degradada, quando o conteúdo simplesmente não foi dito. Ajuste menor: corrigir a `nota` ou acrescentar um `limite`.",
+    "Unidade 1, corpo: \"esta aula\" e \"outra aula do curso\" não dizem qual aula. Para um agente que consulta sem a aula, a referência fica solta. Ajuste menor: nomear a aula ou tornar a frase autocontida.",
+    "Unidade 4: a fonte diz que a dor foi \"jogada\" para o mecanismo único e depois que a quebra de contexto vem \"para aí sim entrar o mecanismo único\". A unidade reproduz as duas coisas com `confianca: alta` e sem `nota`. Como a ambiguidade é da fonte, o esperado seria uma `nota` (ajuste menor).",
+    "`contexto`, terceira frase: \"Assume que o aluno já conhece mecanismo único, lead e a estrutura de quatro atos vista nas aulas anteriores\". Nenhum trecho desta aula diz isso; é inferência do extrator (ajuste menor)."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira, do começo ao fim, e cada uma das 5 unidades. Todas estão lastreadas na fala. Não achei número adulterado, condição perdida, conteúdo externo, nem copy de exemplo tratada como fato. Não há omissão relevante: o que ficou de fora é fala de abertura, fecho, repetição e resíduo de legenda. As pendências são ajustes menores: a `nota` da unidade 2 atribui a falta dos \"três fatores\" a truncamento da transcrição, mas a causa é que estavam na tela; \"outra aula do curso\" na unidade 1 é inferência; o campo `perecivel` da unidade 2 não segue o critério da unidade 1; e há duas frases um pouco fora da faixa. Não há material de apoio nesta aula."
+}

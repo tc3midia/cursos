@@ -1,0 +1,27 @@
+{
+  "aula": "G10_A06",
+  "arquivo_sha256": "771375bb11a894c68c5e1b1641a2641c6a721c5d8bea88365a549932e2843ea7",
+  "inspecao_sha256": "aa8338d1e41cc318360e954ce663310b3d05070ed6653587cbd5c817ac1e15fa",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. U13 v2 tem 5 linhas, tipo regra sem número no corpo, grafia adotada (ChatGPT) no corpo e grafias da transcrição só na nota, onde são permitidas. Hashes das outras 14 unidades conferidos como inalterados pelo inspetor.",
+  "fidelidade": "F1 cumpre cada item do critério: o inspetor confirma com trecho literal (\"Peguem o meu ensinamento E passem esse aprendizado Para aquilo que vocês estão tentando construir Não faça algo Mais do mesmo e somente para copiar\") que título e corpo de U13 expressam o escopo da fonte — anúncios e VSLs baseados nos do professor, não só efeitos e músicas — sem estreitar nem ampliar; a evidência \"hoje tem muito anúncio e muita BSL baseada na minha\" (~1120,9 s) está dentro de 1116–1188; \"ROD 1 ROD 0.8\" foi para a nota como ilustração do professor, lido como ROI pela tabela, sem virar régua; a atribuição ao professor está preservada. O inspetor declara não ter achado problema novo na unidade corrigida. Os desvios menores de U8 (exceção \"nós não vamos calar a boca\" dentro da demonstração) e U14 (três elementos, não duas camadas) são evidência preservada da inspeção anterior, sem hash alterado, e seguem como ajustes menores — não se reabre o resto. Única ressalva na alteração: a nota de U13 afirma que a transcrição grafa 'RedCop' para Hard Copy, termo que nem os trechos do inspetor nem o histórico de correção localizam na faixa; nota não entra no hash nem muda a orientação, então é ajuste menor, não veto.",
+  "cobertura": "Inspeção integral anterior com busca de omissões declarada, mantida por hash. A omissão apontada em 1177 s está superada: U13 v2 incorpora a observação de que jogar a copy no ChatGPT, resumir e editar entrega só o resultado normal — a entrada do inspetor (\"a unidade 13 sequer cobre\") é resíduo da rodada 1, contrariado pelo próprio veredito focal dele. As omissões de 518 s (transição que o lead sente sem perceber) e 636 s (efeito na passagem entre quadro de letra e quadro de vídeo) são refinamentos de sonorização; quem tem U8, U9 e U14 decide e executa sem elas. Não veta.",
+  "perecibilidade": "Inspetor não lista pendência. U13 permanece perecivel false e plataforma geral: ChatGPT aparece como ilustração de como se copia, não como dependência da orientação, e o \"2024\" da fala ficou fora do corpo como datação de discurso. Defensável.",
+  "aplicabilidade": "U13 se sustenta sem a aula: diz quem é \"ele\", o que era copiado (efeitos, músicas, anúncio, VSL) e qual é a saída (ensinamento + essência própria no projeto de cada um); tema criatividade-e-angulo bate com \"modelar sem copiar\"; condicoes null cabe a uma orientação geral. A tarefa gerar-variacoes-de-criativo é discutível (roteirizar-anuncio ou estruturar-vsl caberiam igualmente) — classificação entre valores defensáveis, ajuste menor. Observação sobre a evidência do inspetor: o campo `contrato` ainda traz o apontamento da rodada 1 sobre U13 (\"corpo redigido como se o alerta valesse só para efeitos sonoros e músicas\"), já resolvido e contradito pelo veredito focal lastreada; não pesa contra o arquivo.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U13 nota: conferir se 'RedCop' ocorre na faixa 1116–1188; se não ocorrer, retirar a menção a 'RedCop' para Hard Copy da nota (não entra no hash, não muda a orientação).",
+    "U13 tarefas: gerar-variacoes-de-criativo é discutível; roteirizar-anuncio ou estruturar-vsl são igualmente defensáveis para uma ressalva contra copiar anúncio e VSL. Mudar só se houver ciclo editorial por outro motivo.",
+    "U8 (carregado da rodada 1): o corpo diz 'silencie completamente' como regra fixa; a fala, na mesma faixa, mostra o professor decidindo não calar a boca numa parte marcada ('nós não vamos calar a boca'). Registrar em nota que a demonstração tem exceção e que o professor escolhe onde calar.",
+    "U14 (carregado da rodada 1): a fala centraliza a transição entre três elementos ('entre a música do Pink Floyd o modificador e ele'); o corpo simplifica para duas camadas. Trocar por 'entre as camadas que ela liga' ou registrar o terceiro elemento em nota.",
+    "Omissão 518 s (carregada): princípio da transição que o lead não percebe mas sente pode virar frase complementar em U8 ou U14.",
+    "Omissão 636 s (carregada): posicionar efeito sonoro na passagem entre quadro de texto e quadro de vídeo pode virar unidade curta de regra em som-e-sentimentalismo.",
+    "Inspeção: remover as entradas acumuladas sobre U13 no campo `contrato` e a omissão de 1177 s, ambas superadas pela correção e pelo veredito focal, para a próxima leitura da inspeção não as tomar como pendência."
+  ],
+  "proximo": "Marcar a aula como revisada e publicar. Nenhuma prova adicional é necessária para o veredito. Se o executor tiver acesso barato à fonte, confirmar a presença de 'RedCop' na faixa de U13 e limpar a nota caso não exista; e atualizar o arquivo de inspeção retirando os apontamentos residuais sobre U13. Os demais ajustes menores ficam registrados e não abrem ciclo."
+}

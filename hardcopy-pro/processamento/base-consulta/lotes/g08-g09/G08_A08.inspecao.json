@@ -1,0 +1,84 @@
+{
+  "aula": "G08_A08",
+  "arquivo_sha256": "3161589d5b1e5a64cd6f790f50cc33668bb35a5d34a9fb6dc330ad8c0d827387",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "1c30161f7cbfd39ddc7222dce7d1e3812d88e75b3912e22344aa540813aad04e",
+    "2": "3482c111e4a038d7b634f8a521b5d1cb13c35edb606be0693487a2b8ab087138",
+    "3": "1bfe4b8ef427259a9245cc27349d0e08d0d7647ad2bb93f27a9cc00ade357af2",
+    "4": "e3a51a3606167cb09bc903be623394ceb529c627af359bba37bc6074f74c864f",
+    "5": "359eb0bd6c461ad8b362bf073310edf15afe476c61c10a5eeeca4d6b33e99661",
+    "6": "581c845f8512b276c3dfe200d95c7231dd70210570aa55cc3379bfcf9867c3a8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Olha só, é o seguinte, é bem pesado né Ver um bichinho desse aqui sofrendo desse jeito muito mas é realmente isso que a gente quer transmitir tá mostrar algo totalmente diferente",
+      "explicacao": "A citação usada pela própria unidade ('a gente não vai pegar imagens pesadas... porque senão Facebook vai dar bloqueiozinho', ~0:53-1:10) é literal para aquele instante. Mas é a mesma imagem de cachorro maltratado que, minutos depois na mesma demonstração (~3:35-3:52, trecho_fonte acima), o professor chama de 'bem pesada' e defende usar justamente para escancarar mais do que o mercado mostra (ver unidade 3). A unidade apresenta 'evitar imagens pesadas para não levar bloqueio' como regra limpa e sem condição, sem nota nem confiança rebaixada reconhecendo que o próprio professor, na prática, escolhe e elogia uma imagem que ele mesmo chama de pesada. Quem seguir só esta unidade não sabe que o critério de 'pesado' oscila dentro da própria aula, para a mesma peça."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mostrar e fazer a pessoa sentir algo no nosso anúncio Essa é a base",
+      "explicacao": "Citação literal, corpo fiel à instrução de abrir o anúncio provocando dó ('mexe muito com o ser humano... olha que dó do bichinho... essa é a base'). O acréscimo 'antes de qualquer solução aparecer' é inferência razoável e consistente com o restante da aula (a solução só aparece bem depois, por volta de 9:53), sem alterar o sentido do trecho citado."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "e é que a gente não vai pegar imagens pesadas tá a gente vai pegar imagens assim porque senão Facebook provavelmente vai dar um bloqueiozinho",
+      "explicacao": "A citação usada pela própria unidade ('é bem pesado... mostrar algo totalmente diferente que o mercado... escancarar, se diferenciar', ~3:35-3:52) é literal. Mas é a mesma imagem de cachorro maltratado que, cerca de três minutos antes (trecho_fonte acima, ~0:53-1:10), o próprio professor disse que 'não vai pegar' por ser 'imagem pesada', justamente para evitar bloqueio do Facebook. A unidade generaliza 'escolher imagem mais pesada que o mercado costuma mostrar' como regra sem registrar essa ressalva anterior sobre risco de bloqueio com imagens pesadas. Quem usar esta unidade isoladamente para montar um criativo pode elevar o nível gráfico da imagem sem saber do alerta de moderação feito sobre o mesmo tipo de imagem, na mesma aula."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente quer mostrar pra pessoa a dor",
+      "explicacao": "As quatro partes batem com a sequência realmente mostrada: dor em vermelho (~0:45-1:26: 'cachorros maltratados'), virada para 'pet shop de coração'/'é o mínimo'/'é uma obrigação' (~3:52-6:08), felicidade com 'banho e tosa' e 'no dia a dia com o seu pet' (~7:42-9:53), fechamento com 'toque em saiba mais'/'descubra agora' e seta (~9:53-10:30). É fiel ao que foi dito. A ressalva é que a fonte demonstra essa sequência uma única vez, ao vivo, para este anúncio específico de pet shop; o professor não afirma que este é o molde a repetir sempre. 'condicoes' atenua isso ao registrar que é exemplo do nicho, mas o tipo 'estrutura' e o título ('Estrutura do anúncio de pet shop') podem ser lidos como um padrão fixo mais do que a fonte garante — por isso gravidade menor, não material."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Esse vídeo, ele vai transmitir dois sentimentos muito fortes Que é a Dó",
+      "explicacao": "Citação literal. O professor fala de 'esse vídeo' — a peça específica que está montando — não de uma regra geral para qualquer anúncio de pet shop ou de dor. A unidade virou 'regra' com 'condicoes: null', enquanto as unidades irmãs desta mesma aula (2, 3, 4) preservam o enquadramento de exemplo/nicho em 'condicoes'. Sem essa condição, um agente pode tratar 'dó + curiosidade' como fórmula obrigatória para qualquer anúncio, quando a fonte só descreve o resultado pretendido para esta peça em particular."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aí a gente duplica isso aqui e desce",
+      "explicacao": "Citação literal de um dos vários comandos genéricos usados na edição. O limite descreve corretamente que grande parte da edição no Canva (duplicar elementos, cor conforme fundo, mexer em camadas, buscar imagem por palavra-chave como 'cachorro machucado' e 'cachorro feliz') só se entende vendo a tela, o que bate com a transcrição nesse intervalo. Um pequeno trecho final de edição (~11:36-12:07: 'mesclar', 'subir', 'colocar um teclado') fica fora da faixa 100-660 marcada, mas é do mesmo tipo de conteúdo apenas-tela já coberto pela lógica do limite; não muda a leitura nem justifica reclassificação."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [
+    "Esta aula não tem material de apoio (material_ausente); não há divergência fala-material a registrar para nenhuma das seis unidades."
+  ],
+  "resumo": "Das seis unidades desta aula (montagem ao vivo de um anúncio de pet shop no Canva), quatro estão bem lastreadas, incluindo o `limite` que corretamente isola o conteúdo que só se entende vendo a tela. O problema central é que as unidades 1 e 3 tratam como regras limpas e isoladas duas falas do professor sobre a mesma imagem de cachorro maltratado que se contradizem: primeiro ele diz que não vai usar \"imagens pesadas\" para evitar bloqueio do Facebook, e minutos depois, falando da mesma imagem, chama-a de \"bem pesada\" e defende usá-la justamente por ser mais forte que o mercado costuma mostrar — nenhuma das duas registra essa tensão com nota ou confiança rebaixada. A unidade 5 generaliza levemente uma fala do professor sobre \"esse vídeo\" específico sem preservar essa condição, diferente das unidades irmãs da mesma aula. Não há material de apoio nesta aula, nenhum passo de tela virou procedimento indevidamente, e não foram localizadas omissões de conteúdo didático fora do que já está sinalizado nos desvios."
+}

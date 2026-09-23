@@ -1,0 +1,61 @@
+{
+  "aula": "G05_A04",
+  "arquivo_sha256": "9376b5852046ebd118f9c293291763ce27236cacd4a36cd333eb2fbba0068606",
+  "inspecao_sha256": "7f805f7b7b4703d769d4a2c95b09e70f1f200b2922e872631d78f2f5d294afce",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então o contrato passa. Os três apontamentos que o inspetor listou em `contrato` não são de contrato. O tipo da unidade 3 e a referência ao \"anúncio de exemplo\" são questões de aplicabilidade e ficam como ajuste menor. A interpretação de \"Desforcido\" na unidade 6 é questão de fidelidade e entra em F3.",
+  "fidelidade": "Falha. A inspeção é integral, tem trecho literal em todas as unidades e nenhuma citação marcada como não literal. As unidades 1 e 5 estão lastreadas. Divirjo do inspetor na gravidade das unidades 3, 4 e 6. O efeito que ele mesmo descreve nas três é mudança no que o agente faz, e esse é o teste de falha material da rubrica.\n\n- **Unidade 3:** o corpo impõe, em imperativo de `regra`, uma condição que a fala não tem (\"só entregue a música completa no final\"). A montagem a contradiz: a música volta no meio (\"E voltamos com a parte do Queen\") e o trecho final tem a voz removida. As `condicoes` atenuam a generalização, mas não a exclusividade inventada.\n- **Unidade 4:** o corpo atribui ao professor uma finalidade (pico da música coincidindo com a fala) que a aula não enuncia. A parte à qual ele junta o plot ficou só na tela. A `nota` garante o contrário do que o corpo faz.\n- **Unidade 6:** o corpo afirma a posição do clique, que a fala não diz. Também resolve em silêncio a palavra duvidosa \"Desforcido\" como \"desforçada, sem tanta força\", sem `nota`. O título da própria unidade diz \"épico distorcido\", o que mostra a inconsistência interna.\n\nA unidade 2 fica como ajuste menor: a estrutura de cinco partes e a âncora estão na faixa, e só a frase de razão vem de cerca de 220 s. O inspetor não a classificou como `faixa-errada` e eu também não. Nenhum resíduo de silêncio foi usado como fonte: a unidade 1 começa depois dele.",
+  "cobertura": "Passa. É aula de tela de 1.098 palavras com seis unidades e um `limite` bem escrito, que é o resultado esperado. A única omissão localizada é o objetivo de abrir com \"algo totalmente diferente\" do que o mercado já viu, por volta de 55 s. Ela não impede aplicar a sequência da unidade 2 e fica como ajuste menor.",
+  "perecibilidade": "Passa. As unidades 5 e 6 (`ferramenta`, editor não nomeado) têm `perecivel: true`. As unidades 1 a 4 não trazem tela, menu, preço nem recurso de curso escondido em `geral`. Fica uma pendência de prova em `proximo`, sobre música comercial de terceiros, que pode alterar este ponto.",
+  "aplicabilidade": "Sem veto. As unidades se sustentam sozinhas. O `limite` da unidade 1 diz o que ficou na imagem, e as `condicoes` de 2, 3, 5 e 6 situam o caso.\n\nNa unidade 3, a referência a \"o anúncio de exemplo\" é coberta pelo essencial que está em `condicoes`. O tipo `regra` contra `conceito` ou `exemplo` é discutível entre valores defensáveis. Os dois pontos são ajuste menor.\n\nNão vetei por técnica de contorno. O inspetor declara não ter achado contorno declarado na aula, e a `nota` da unidade 5 registra que a fala não dá o motivo de tirar a voz do cantor. As unidades 2 e 3 orientam abrir o anúncio com música comercial famosa, então pedi prova literal em `proximo` em vez de decidir por palpite.",
+  "falhas": [
+    {
+      "id": "G05_A04-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita o trecho literal \"E aí no final você entrega o que ela quer\". A fala diz que a pessoa reconhece a música no início (\"ela já sabe o que é o Queen\") e no final recebe o que quer, ouvir a música. \"Só\" e \"completa\" não estão na fonte. A montagem contradiz a exclusividade: em 4:19, \"E voltamos com a parte do Queen\" (a música volta no meio). Antes da música final, \"Mas a música, ela não pode ter a voz do Fred Mercury\" (o trecho final tem a voz removida, logo não é a música completa). Nenhuma citação do inspetor está marcada como não literal.",
+      "impacto": "A unidade é `regra` em imperativo. Um agente que sonoriza um anúncio vai segurar a música conhecida até o fim e entregá-la inteira. O professor não impôs essa restrição e o próprio exemplo não a cumpre. O erro seria repetido como orientação do curso.",
+      "mudanca_minima": "Reescrever a abertura do corpo sem \"só\", sem \"completa\" e sem imperativo de exclusividade. O texto deve dizer que o espectador reconhece a música conhecida logo no início e que, no final, junto da solução, recebe o que quer, que é ouvir a música. Manter a atribuição ao professor e ao anúncio de exemplo. Incrementar `versao`. Trocar o `tipo` é opcional e não faz parte desta falha.",
+      "criterio_de_aceite": "O corpo da unidade 3 não contém \"só entregue\", \"completa\" nem formulação equivalente que restrinja a música ao final. Nada no corpo contradiz o retorno da música no meio do anúncio. A atribuição ao professor e ao exemplo está mantida. O inspetor marca a unidade como `lastreada`. O validador retorna zero erros."
+    },
+    {
+      "id": "G05_A04-F2",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita o trecho literal \"Com essa parte, olha como que fica\". A fala define a parte laranja como \"o plot da música\", \"onde começa o boom da música\", e diz que ele a junta \"com essa parte\" sem dizer qual, porque estava na tela. A finalidade que o corpo afirma (destacar a parte do anúncio para o pico coincidir com o momento da fala) não é enunciada na aula. \"Ponto de maior impacto\" é glosa sem base nesta aula. A `nota` afirma que \"o corpo só registra o que a fala diz\", o que não é verdade para a segunda frase.",
+      "impacto": "O agente passa a tratar como técnica do curso a sincronização do pico da música com a fala, e a aplica ao sonorizar. A `nota` desarma a desconfiança de quem consulta, porque garante lastro que o corpo não tem. É conteúdo de tela preenchido por inferência.",
+      "mudanca_minima": "Manter a definição lastreada: o plot da música é o trecho onde começa o boom dela. Retirar \"o ponto de maior impacto\". Substituir a segunda frase por algo como: o professor junta esse trecho a uma parte do anúncio que só aparece na tela, e a fala não diz qual nem com que finalidade. Ajustar a `nota` para ficar coerente com o novo corpo. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 4 não afirma finalidade (destacar, coincidir o pico com a fala) nem contém \"ponto de maior impacto\". O corpo diz que a parte do anúncio à qual o plot é juntado ficou só na tela. A `nota` não afirma nada que o corpo contrarie. O inspetor marca a unidade como `lastreada`. O validador retorna zero erros."
+    },
+    {
+      "id": "G05_A04-F3",
+      "unidades": [
+        6
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita o trecho literal \"Bem aqui a gente coloca o clique novamente\". Ele aponta três problemas:\n(a) A fala não diz onde o clique entra. \"Sob a fala nas trocas de trecho\" e \"nas transições\" interpretam \"Bem embaixo\" e \"aqui\", que são gestos de tela.\n(b) A transcrição traz \"Desforcido\", palavra duvidosa. O corpo a resolve em silêncio como \"desforçada, sem tanta força\", sem `nota`. O título da mesma unidade diz \"épico distorcido\" e a ferramenta usada é o modificador de voz com distorção, o que mostra que a leitura do corpo não é a única possível.\n(c) O professor diz \"esse épico\" sem dizer que é música.\nFonte mal transcrita só passa quando a unidade preserva a incerteza em `nota`, e aqui não preserva.",
+      "impacto": "O agente reproduz a colocação do clique nas trocas de trecho como se o professor a tivesse ensinado. Também passa a usar distorção com a finalidade de enfraquecer a música épica. Essa finalidade vem de uma palavra ilegível da transcrição, não da aula.",
+      "mudanca_minima": "Aplicar as correções abaixo e incrementar `versao`.\n(a) Dizer só que o professor coloca um efeito sonoro de clique e o coloca novamente mais adiante, com as posições só na tela. Retirar \"sob a fala nas trocas de trecho\" e \"nas transições\".\n(b) Retirar \"desforçada, sem tanta força\". Descrever a ação que a fala nomeia (modificador de voz com distorção sobre \"esse épico\", e diminuir um pouco o volume, que ele diz talvez nem precisar). Registrar em `nota` que a transcrição grafa \"Desforcido\" e que a leitura é incerta. Se o termo for mantido no corpo, colocá-lo entre aspas com `confianca: baixa`.\n(c) Usar \"o épico\" como o professor diz, sem afirmar que é música.",
+      "criterio_de_aceite": "O corpo da unidade 6 não afirma a posição do clique além do que a fala nomeia. O corpo não contém \"desforçada\" nem \"sem tanta força\" como afirmação. A `nota` registra a grafia \"Desforcido\" e a incerteza. Título e corpo estão coerentes entre si. O corpo não chama de \"música\" o que a fala chama de \"esse épico\". O inspetor marca a unidade como `lastreada`. O validador retorna zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: a última linha do corpo (razão do suspense) vem de cerca de 220–225 s, fora da faixa 399–455. \"Antes de entregar a resposta\" não está na fala, que diz só \"a gente tá desafiando a pessoa\". Sugestão: cortar esse complemento ou retirar a linha. Não tratei como `faixa-errada` porque a estrutura e a âncora estão dentro da faixa. Não muda a sequência.",
+    "Unidade 2: a glosa \"(a fala que dá sentido à abertura)\" e \"banda de rock\" em `condicoes` são acréscimos. O professor só diz \"Queen\". Não mudam o uso.",
+    "Unidade 2, omissão menor: a razão da abertura (mostrar algo totalmente diferente do que o mercado já viu, por volta de 55 s) poderia entrar na parte 1. Não impede aplicar a sequência.",
+    "Unidade 3: `tipo: regra` contra `conceito` ou `exemplo` é classificação discutível entre valores defensáveis. \"O anúncio de exemplo\" só é descrito de forma indireta em `condicoes`. O título afirma \"prende o espectador\" sem atribuir ao professor.",
+    "Aplicar qualquer ajuste na unidade 2 muda o hash dela e exige nova conferência dessa unidade. Sem ajuste, a evidência atual é preservada."
+  ],
+  "proximo": "1. Ciclo de correção 1 de 2. O redator corrige só as unidades 3, 4 e 6 conforme F1, F2 e F3, incrementa `versao` e registra em `correcoes`. As unidades 1, 2 e 5 permanecem intactas e preservam a evidência.\n\n2. Na conferência seguinte, o inspetor reconfere as unidades 3, 4 e 6 contra a fala e os efeitos da alteração.\n\n3. Pedidos de prova ao inspetor, na mesma conferência:\n   - Trazer o trecho literal em torno de \"Desforcido\" (algumas palavras antes e depois), para a `nota` da unidade 6 não depender de palpite.\n   - Dizer, com trecho literal, se a fala liga o uso da música do Queen ou a remoção da voz do cantor a direito autoral, detecção ou moderação.\n     - Se ligar, as unidades 2, 3 e 5 passam a exigir `nota` iniciada por \"Contorna política de plataforma ou direito de terceiros:\", e as unidades 2 e 3 passam a exigir `perecivel: true`.\n     - Se a fala não tocar no assunto, nada se acrescenta, e não se completa com conhecimento externo."
+}

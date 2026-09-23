@@ -1,0 +1,51 @@
+{
+  "aula": "G10_A02",
+  "arquivo_sha256": "65ea416b8c7c19499045bb0569dbe95565d6f0f516777ebd00651769b3183c95",
+  "inspecao_sha256": "707ba87a82dccd24718eeeb38ae9f5b33878886268611fb93597f71d01e3e74d",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Numeração 1..7 sem furo, retiradas vazias, tipos com regras formais atendidas (decisão começa com \"Se\", limites sem tarefa, unidades com plataforma/tema perecível marcadas true). Nada a corrigir.",
+  "fidelidade": "Inspeção integral, 7/7 unidades, nenhuma citação não literal. U1, U4, U6 e U7 lastreadas com trecho literal. U2: desvio material comprovado — o corpo afirma que contexto e texto \"sozinhos, cada um rende menos resultado\", mas o inspetor cita literalmente \"E qualquer bosta que você falar Você vende\" (contexto sozinho vende) e a própria U3 do arquivo diz o mesmo; a simetria é invenção do extrator. U3 e U5: desvios menores — nome de exemplo (\"Pablo Massal\" na transcrição) e termo \"beat de vendas\" foram normalizados por hipótese sem nota nem rebaixamento de confiança; não mudam a orientação, ficam como ajustes. Não há copy de exemplo tratada como fato, resíduo de silêncio, passo inventado nem ressalva suprimida.",
+  "cobertura": "Inspetor declarou busca de omissões na fonte inteira e não localizou nenhuma. O trecho promocional inicial tem seu `limite` (U1) e o adiamento do procedimento de download tem o seu (U6). O núcleo didático (contexto × texto, construir contexto por edição e áudio, casar trilha com momento, risco de direito autoral) está representado. Sem veto.",
+  "perecibilidade": "Nada perecível escondido em unidade `geral`: U1 (oferta), U5 (referência a música/tendência), U6 e U7 (política de plataforma) estão com `perecivel: true`. U2 está marcada `true` sem elemento perecível visível no corpo — marcação a mais não veta, fica como ajuste menor.",
+  "aplicabilidade": "Corpos se sustentam sem a aula: jargão (contexto, texto, pitch) explicado na própria unidade, sem \"como eu mostrei\". Falha em U7: `plataformas: [\"youtube\"]` para regra cujo trecho sobre bloqueio de anúncio a fonte dá de forma genérica (\"em plataformas elas bloqueiam o anúncio\"); só o corte de monetização é do YouTube, como a própria `nota` da unidade reconhece. Em `cobertura.jsonl` a tarefa `revisar-risco-de-bloqueio` fica `ausente` em `geral`, e o agente, que não preenche lacuna sozinho, responderia que o curso não cobre o risco. U6 não precisa da nota \"Contorna política…\": é `limite` que só adia o procedimento; a exigência recai sobre a unidade que registrar a técnica, na aula seguinte. Demais `tipo`, `tema` e `tarefas` coerentes.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Corpo da U2: \"sozinhos, cada um rende menos resultado\". Inspetor, trecho literal da fonte: \"E qualquer bosta que você falar Você vende\" (quem tem contexto vende com qualquer texto). A U3 do mesmo arquivo corrobora: \"praticamente qualquer coisa que ela fale tende a vender\".",
+      "impacto": "Agente que consulta a regra para diagnosticar copy conclui que autoridade sozinha também rende pouco e sempre precisa ser combinada com texto forte — o contrário do que o professor diz. Arquivo fica internamente contraditório (U2 × U3).",
+      "mudanca_minima": "Reescrever a segunda frase do corpo da U2: manter que o professor chama o contexto de inimigo do texto e que copy forte sem contexto vende pouco; retirar a afirmação de que cada um sozinho rende menos; se quiser registrar a combinação, atribuí-la ao professor como em U4 (edição + áudio + copy leva à excelência). Incrementar `versao`.",
+      "criterio_de_aceite": "Corpo da U2 não afirma nem sugere que contexto sozinho rende menos resultado; é coerente com U3; inspetor reclassifica U2 como `lastreada`; validador zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        7
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Inspetor, trecho literal: \"Porque em plataformas elas bloqueiam o anúncio e em monetização, no qual muita gente trabalha hoje, como canal Dark, YouTube, eles cortam a monetização do seu vídeo.\" A `nota` da própria U7 admite que o bloqueio de anúncio é dito genericamente. `plataformas` traz só `youtube`.",
+      "impacto": "Em `cobertura.jsonl`, `revisar-risco-de-bloqueio × geral` (e qualquer plataforma que não YouTube) aparece `ausente`; o agente que revisa um criativo para outra rede não encontra o único alerta da aula sobre bloqueio por música com direito autoral e responde que o curso não cobre.",
+      "mudanca_minima": "Incluir `geral` em `plataformas` da U7 (mantendo `youtube` pela parte de monetização e `perecivel: true`). Se o validador não aceitar `geral` junto de plataforma específica, dividir: retirar a 7, criar U8 (bloqueio de anúncio por direito autoral, `geral`, `perecivel: true`) e U9 (corte de monetização em canal do YouTube, `youtube`), registrando a correspondência em `correcoes`. Incrementar `versao`.",
+      "criterio_de_aceite": "`cobertura.jsonl` lista a unidade sob `revisar-risco-de-bloqueio × geral`; a parte de monetização continua indexada em `youtube`; validador zero erros; inspetor confirma que a divisão ou a lista de plataformas não alterou o conteúdo lastreado."
+    }
+  ],
+  "ajustes_menores": [
+    "U3: a transcrição grafa \"Pablo Massal\"; a identificação como Pablo Marçal é hipótese por conhecimento externo. Acrescentar `nota` dizendo como a fonte grafou e que a identificação é hipótese; é nome de exemplo, não muda a orientação.",
+    "U5: a fonte diz \"beat de vendas\"; o corpo trocou por \"pitch de vendas\" sem nota. Manter \"beat de vendas\" entre aspas ou acrescentar `nota` registrando a grafia da fonte e a leitura como pitch, com `confianca: media`. A regra (casar clima do áudio com o momento) não muda.",
+    "U2: `perecivel: true` sem elemento perecível no corpo (regra geral sobre contexto × texto). Mudar para `false` ao corrigir F1, salvo motivo registrado.",
+    "U4: \"a própria cópia (o texto)\" — usar \"copy\", termo do curso. E a fonte diz \"a única forma\"; o corpo suavizou para \"a forma\"; restaurar o categórico do professor mantém o tom da fala.",
+    "U6: decisão registrada — não é exigida a nota \"Contorna política…\" porque a unidade é `limite` e não registra técnica; a exigência vale para a aula seguinte, que ensinar o procedimento."
+  ],
+  "proximo": "Ciclo de correção 1 de 2. Redator aplica F1 (U2) e F2 (U7); pode aplicar os ajustes menores no mesmo passe, sem abrir rodada por eles. Depois: rodar o validador (zero erros) e `--write`/`--check` para conferir `cobertura.jsonl` em `revisar-risco-de-bloqueio × geral`; inspeção focal só nas unidades cujo hash mudou (U2, U7 e as que receberem ajuste), preservando a evidência das intactas; novo julgamento confere F1 e F2 pelos critérios de aceite. Ao inspecionar a aula seguinte da trilha Hard Sounds (download de músicas), verificar a nota \\\"Contorna política de plataforma ou direito de terceiros:\\\" e `perecivel: true` na unidade que registrar a técnica, conforme anunciado em U6."
+}

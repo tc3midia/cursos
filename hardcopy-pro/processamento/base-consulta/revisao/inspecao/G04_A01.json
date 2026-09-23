@@ -1,0 +1,87 @@
+{
+  "aula": "G04_A01",
+  "arquivo_sha256": "46f73e17db2698e18b5f6ed60e8435abeb52c1ffee857b09041a5f64fe803a75",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 2, 4]; as demais mantêm a evidência da inspeção integral do arquivo 51f957cb6162, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    2,
+    4
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "1322731b989d5a8800cfa2f849bf380f3ea735ecdb282baa432d65dea3900e60",
+    "2": "3596e809bc5518ccd528f174dc4fd1260140d97acdf020bce868f5d085b3a9ed",
+    "3": "e95e1fee80531f6ebab9aae16f0328df13e76075db4f6c73053a6c88b24ee6e4",
+    "4": "1a7446175fc1ff34c7a58e7aa26c14dca285efce2da471df5fab53817b8e3790"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela tá fazendo o seu produto de uma forma totalmente diferente do mercado.",
+      "explicacao": "F1 resolvida. A frase final do corpo (\"fazer o produto de modo totalmente diferente do mercado\") está em 100,70–103,84 s e agora cabe na faixa 42,12–104. As outras afirmações também estão dentro dela: \"A temporada anterior é chamada de criatividade\" (42,12 s); pular a temporada e ir direto para a roteirização (45,24 s) ou para a edição \"que ele se sente um caro e criativo\" (49,86 s); \"Vai lá, assiste as aulas\" (72,18 s); \"eu mostrei de uma forma prática, clara e simples\" (94,90 s). A `evidencia` (45,24–49,86 s) continua dentro da faixa e o corpo não mudou. Ressalva sem efeito no uso: \"tudo que eu faço pra criar os meus anúncios\" (57,48 s) vale para o treinamento em geral e o corpo o atribui à temporada de criatividade. \"ela vai abrir a sua mente\" no feminino e \"Eu coloquei lá... que é a criatividade\" sustentam essa leitura. A unidade não gerou problema novo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E como ele sente que aquilo é pra ele",
+      "explicacao": "F2 resolvida. O corpo agora só traz o que está em 105–135 s. Promessa de explicar a roteirização dos próprios anúncios: \"Essa temporada, eu vou te explicar toda a roteirização de tudo que eu faço\" (105,06 s). Alta retenção: \"Para os meus anúncios ter uma alta retenção\" (109,50 s), atribuída ao professor por \"Segundo o professor\" e pela `nota`. Construção da história: \"Embasado na construção da história\" (116,68 s). Conexão como \"o mais importante\" (118,73 s, \"E o mais importante, a conexão\"). O público sentir que o anúncio é para ele e que vai virar o jogo dele: 123,52–129,86 s. Saíram do corpo as duas afirmações que estavam fora da faixa (\"se replica\" e \"mostra como faz / como o aluno fará\"). A `evidencia` está em 105,06–109,50 s, dentro da faixa. A `nota` cobre o risco de o resultado parecer confirmado pela base. O corpo omite \"E, de fato, muda\" (129,86 s), o que não inverte nada, porque o corpo apresenta \"vai virar o jogo\" como o que a pessoa sente."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu explico muito isso lá no hardcopy",
+      "explicacao": "A menção ao Hard Copy como lugar onde ele explica o formato de enredo e a frase sobre precisar de uma VSL estão na fonte, dentro da faixa 149–172 s. Duas ressalvas de redação. \"Em detalhe\" amplia \"explico muito\". A frase sobre a VSL (\"Se você não entrou no hardcopy e está precisando fazer uma VSL... um vídeo de vendas\") fica inacabada na transcrição e é seguida de \"puxando o gancho aqui para vender o meu produto de forma alguma\", então \"ensina a fazer uma VSL\" e \"é remetido\" são inferência. Não muda o uso, porque a unidade é um `limite` de oferta, sem orientação. A `nota` de hipótese e a grafia adotada estão corretas."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que você viu antes de comprar o meu produto",
+      "explicacao": "Unidade nova, criada na correção de F2. Todas as afirmações estão dentro de 174,16–195.82 s. O anúncio trabalhado é \"o anúncio que você viu antes de comprar o meu produto\" (174,16–177,92 s). Nas outras temporadas ele explica \"toda a roteirização para os outros nichos que a gente vai fazer juntos, esse tipo de anúncio\" (180,08–188,08 s). \"Essa aula eu vou te mostrar como que eu faço\" (189,68 s) e \"nas próximas aulas eu vou te mostrar como você vai fazer\" (192,14–195,82 s) fecham o corpo. A `evidencia` está dentro da faixa. Observação de borda, sem efeito no uso: \"Dessa temporada, nessa roteirização\" ocupa 172,14–174,16 s e termina no `inicio`. É a mesma frase que continua em \"Deste anúncio, que foi o anúncio\", e o núcleo do corpo (qual anúncio) está dentro da faixa. Não vi `faixa-errada`. A frase \"se replica para qualquer situação\" não foi reaproveitada, então não há afirmação sem lastro."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 138,
+      "trecho_fonte": "Eu sou totalmente contra",
+      "descricao": "O professor diz que não compartilha nem posta prints de resultado (Facebook Ads, Kiwify) e que é totalmente contra vender um sonho para a pessoa, porque ele vende um processo. É uma posição dele sobre promessa e prova de resultado, do tema `etica-e-promessa`. Nenhuma unidade a preserva.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar a base sobre promessa de resultado ou uso de prints de faturamento não encontra o posicionamento do professor. Não impede executar nada nesta aula, que não é técnica."
+    },
+    {
+      "inicio": 175.94,
+      "trecho_fonte": "Que você viu antes de comprar o meu produto",
+      "descricao": "Perto do fim, o professor diz que a temporada vai trabalhar a roteirização de um anúncio específico, o que o aluno viu antes de comprar o produto dele. Ele diz também que as próximas aulas mostrarão como o aluno fará. As unidades falam da promessa da temporada em geral, mas não registram que o caso trabalhado é esse anúncio.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar não sabe que os exemplos da temporada partem de um único anúncio real do professor, o que ajuda a localizar o material nas aulas seguintes. A falta não muda nenhuma decisão de aplicação."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: o corpo depende de referência que ficou na aula (\"Nesta aula ele mostra como faz, e nas próximas...\"). Um agente que consulta sem a aula não sabe a qual aula nem a quais \"próximas\" a frase se refere. Ajuste menor.",
+    "Unidade 2: o `tipo` `conceito` descreve a promessa de conteúdo da temporada, não define nem distingue um conceito do curso. Um `limite` ou uma descrição de estrutura do curso serviria melhor. Classificação discutível entre dois valores defensáveis, ajuste menor.",
+    "Unidade 1: `condicoes` (\"Vale para o aluno que segue as temporadas do curso na ordem\") não tem lastro na fonte e contradiz o alvo da fala, que é quem pula a temporada. Deve ser removida ou reformulada, por exemplo para quem está prestes a pular a temporada de criatividade.",
+    "Unidades 1 e 2: `faixa` (`inicio`/`fim`) não cobre todo o conteúdo do corpo; ver os vereditos `faixa-errada`. Com 2 de 3 unidades em `faixa-errada`, a regra de mais de 10% da rubrica é atingida.",
+    "Unidade 4 (nova), ajuste menor que não abre ciclo: o corpo usa \"nesta temporada\", \"nesta aula\" e \"nas próximas aulas\", e \"o produto\" sem dono (a fonte diz \"o meu produto\"). Quem consulta a unidade sem a aula não sabe a que aula ou produto o texto se refere. A `condicoes` ou o título poderiam nomear a temporada de roteirização do Hard Ads e o produto do professor. A unidade 2 tem só o \"esta temporada\", com o título dizendo \"temporada de roteirização\". Classificação (`conceito`, `curso-e-recursos`, `perecivel: true`) e demais campos corretos nas unidades 1, 2 e 4."
+  ],
+  "material": [],
+  "resumo": "As duas falhas do ciclo foram resolvidas. Na unidade 1, o `fim` passou a 104 s e cobre a frase sobre fazer o produto diferente do mercado (100,70–103,84 s). Na unidade 2 ficaram só as afirmações de 105–135 s, e o conteúdo do fim da aula foi para a unidade 4, com faixa 174,16–195,82 s e evidência dentro dela. Todas as afirmações das unidades 1, 2 e 4 têm trecho literal dentro da faixa, nenhuma é `faixa-errada` e não apareceu `desvio` nem `sem-lastro`. Não há omissão decorrente da correção: a frase \\\"replicado para qualquer situação ou ocasião\\\" saiu do corpo, mas é promessa do professor sem orientação aplicável. Resta só um ajuste menor de autossuficiência da unidade 4, em `contrato`."
+}

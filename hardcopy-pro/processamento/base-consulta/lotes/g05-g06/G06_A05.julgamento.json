@@ -1,0 +1,68 @@
+{
+  "aula": "G06_A05",
+  "arquivo_sha256": "75e5a354c205bcd676cd8bf925efac78d5016acf95ddafe64d94728ffeb170b4",
+  "inspecao_sha256": "735ded5dc99dd0aa1852c8f11ed144aeddc8ee7803520625cb697835a365fed6",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os três itens que o inspetor pôs em `contrato` são de classificação, confiança e redação do contexto: tipo da unidade 2, confiança da unidade 10 e \"várias escolhas\" no contexto. Nenhum é erro de script e todos ficam como ajuste menor.",
+  "fidelidade": "Falha, por três causas, todas locais.\n\n1. **Faixa errada acima do limite da rubrica.** O inspetor classificou as unidades 1 e 6 como `faixa-errada`, com trecho literal e marcação de tempo. São 2 de 11 unidades com faixa (18%). A rubrica veta acima de 10% e esse limiar não depende de gravidade. O inspetor ainda tratou como \"detalhe sem efeito\" duas bordas da mesma causa: unidade 8, frase final em 633,84 contra `fim` 632; unidade 9, frase em 667,28 contra `fim` 667. Pelo critério que ele aplicou às unidades 1 e 6, essas duas também têm frase do corpo fora da faixa. Entram na mesma correção.\n\n2. **Unidade 8 inventa definição para \"plot da música\".** O corpo escreve \"o trecho que o professor quer aproveitar\". A aula não define o termo. O vocabulário do FORMATO traz a definição de `G09_A06`: \"A parte mais importante da música\". O FORMATO proíbe explicação inventada para termo do vocabulário. O critério de escolha do trecho passa de \"parte mais importante\" para \"o que se quer aproveitar\".\n\n3. **O limite (unidade 11) afirma algo falso sobre a fonte.** Diz que a fala não nomeia as músicas e efeitos usados. O inspetor mostra, com trecho literal, que a fala nomeia \"Shape of My Heart\". Também nomeia modificador de voz, distorção, fade, isolamento vocal/remover voz e Ctrl B. As unidades 7 e 9 do próprio arquivo citam esses recursos.\n\nO que passa: não há copy de exemplo tratada como fato (os 20 quilos ficaram de fora). Não há passo de tela inventado. Não há resíduo de silêncio usado como fonte. A ressalva didática da unidade 2 foi preservada, com a incerteza registrada. As unidades 2, 4, 5, 7, 9 e 10 estão lastreadas, com acréscimos menores registrados à parte. `citacoes_nao_literais` veio vazio, então os apontamentos valem por inteiro.",
+  "cobertura": "Passa. O inspetor declarou busca integral e localizou duas omissões, ambas menores. A primeira é a fase de cortes do vídeo com Ctrl B, entre 103 e 155 s, em que a fala quase não dá critério de corte. A segunda é a tentativa de piano ou \"coisa mais triste\" para o momento de impacto, em 681 s; a fala é ambígua, porque a faixa foi retirada logo depois e o limite já menciona a busca por sons tristes. Nenhuma muda a decisão nem impede executar. A reescrita do limite (F3) pode absorvê-las sem custo, e isso não condiciona o aceite. O baixo número de unidades é o esperado em aula de tela.",
+  "perecibilidade": "Passa. O inspetor não fez apontamento de perecibilidade. Todas as unidades presas a CapCut, ElevenLabs ou Meta têm `perecivel: true`. As unidades 4, 5 e 6 estão como `geral` com `perecivel: false` e trazem orientação de som sem tela, preço nem recurso de plataforma. A unidade 4 tem uma pendência, que depende de prova pedida em `proximo`: a aula usa uma música comercial como exemplo.",
+  "aplicabilidade": "Passa, com ressalvas menores. As unidades se sustentam sem a aula ao lado: o exemplo da narradora é explicado em `condicoes` nas unidades 3, 6 e 10. A unidade 10 traz a nota de contorno de política no formato exigido, com `perecivel: true`. A unidade 2 também traz a nota e avisa no corpo para não tratar a técnica como recomendação. O tipo `regra` da unidade 2 é discutível, porque o corpo narra um caso e nega a recomendação. O título e o corpo protegem o uso, então fica como ajuste menor. O jargão \"plot da música\" mal explicado na unidade 8 já está no veto de fidelidade (F2).",
+  "falhas": [
+    {
+      "id": "G06_A05-F1",
+      "unidades": [
+        1,
+        6,
+        8,
+        9
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Os trechos e marcações de tempo são os que o inspetor cita. Unidade 1: o passo 4 (\"A gente vai selecionar isso aqui tudo e vai aumentar um pouquinho o volume, tá bom?\") é dito em 88,16–91,6 e o `fim` declarado é 85,66. Unidade 6: a última frase do corpo vem de \"Porque já mudou o conceito aqui da conversa\", em 497,82–508,04, e o `fim` declarado é 482. São 2 de 11 unidades com faixa (18%), acima do limite de 10% da rubrica. Mesma causa nas bordas que o inspetor relevou. Unidade 8: \"Não, ficou bom.\" em 633,84, com `fim` 632. Unidade 9: a frase \"muito de impacto\" começa em 667,28, com `fim` 667.",
+      "impacto": "`inicio` e `fim` são o caminho de auditoria da unidade, e a próxima inspeção confere a âncora dentro da faixa. Com o corpo afirmando coisas ditas fora da faixa, quem verifica não encontra o lastro onde a unidade diz que está. O veto é mecânico: a rubrica barra acima de 10%, qualquer que seja a gravidade individual.",
+      "mudanca_minima": "Ajustar só o `fim`, sem reescrever corpo. Unidade 1 para ≈91,6. Unidade 6 para ≈508. Unidade 8 para o término de \"Não, ficou bom.\" (≈634 ou o fim real da frase). Unidade 9 para o término da frase iniciada em 667,28. Incrementar `versao` nas quatro. Se o redator preferir, nas unidades 8 e 9 pode remover a frase final do corpo em vez de estender a faixa.",
+      "criterio_de_aceite": "Na conferência focal, o inspetor classifica as unidades 1, 6, 8 e 9 sem `faixa-errada`, com toda frase do corpo lastreada dentro de `inicio`–`fim`. O total de `faixa-errada` no arquivo fica em 10% ou menos. O validador segue com zero erros (`fim` ≤ fim da transcrição + 2, âncora dentro da faixa)."
+    },
+    {
+      "id": "G06_A05-F2",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O passo 1 do corpo explica \"plot da música\" como \"o trecho que o professor quer aproveitar\". Segundo o inspetor, a aula não define o termo; a fonte diz só \"Achar o plot nessa música / E já unificar aqui\". O vocabulário do FORMATO traz a definição de `G09_A06`: \"A parte mais importante da música\". O FORMATO manda usar essa definição ou a da própria aula e proíbe explicação inventada.",
+      "impacto": "O agente que sonoriza um vídeo por essa unidade escolhe o trecho por conveniência (\"o que se quer aproveitar\"). O critério do curso é outro: a parte mais importante da música. A definição inventada contradiz a de `G09_A06` dentro da mesma base.",
+      "mudanca_minima": "No passo 1, trocar a explicação pela do vocabulário: o plot da música é, no curso, a parte mais importante da música. Alternativa: deixar o termo sem explicação. Não acrescentar critério que a fala não dá. Incrementar `versao`.",
+      "criterio_de_aceite": "A expressão \"o trecho que o professor quer aproveitar\", ou equivalente inventado, sai do corpo da unidade 8. Se o termo for explicado, a explicação é a do vocabulário do FORMATO (`G09_A06`). O inspetor marca a unidade 8 como `lastreada`."
+    },
+    {
+      "id": "G06_A05-F3",
+      "unidades": [
+        11
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo do limite afirma: \"A fala não nomeia botões, menus, animações escolhidas, valores de volume nem as músicas e efeitos usados, exceto a busca por sons tristes e o efeito de clique de micro-ondas\". O inspetor cita, dentro da faixa 155–960: \"Eu peguei uma música que eu gosto muito, que é a Shape of My Heart.\" (397,6). Registra também que a fala nomeia \"modificador de voz\", \"distorção\", \"isolamento vocal, remover voz\", \"fade\" e Ctrl B. As unidades 7 e 9 do mesmo arquivo citam esses recursos.",
+      "impacto": "O limite é a unidade que diz ao agente o que ele não vai encontrar nesta aula. Com a afirmação falsa, o agente responde com confiança que o curso não nomeou música nem efeito nesta edição e deixa de procurar as unidades 4, 7 e 9. O limite fica em contradição com o resto do arquivo.",
+      "mudanca_minima": "Reescrever só a frase da enumeração. Separar o que a fala nomeia: a música da abertura, os recursos modificador de voz com distorção, fade, isolamento vocal/remover voz, o atalho Ctrl B, a busca por sons tristes e o efeito de clique de micro-ondas. Separar o que ela não nomeia: caminho de menus e botões, animações escolhidas, valores de volume, demais faixas e efeitos. Manter o resto do corpo. Incrementar `versao`. Opcional, sem condicionar o aceite: recuar `inicio` para ≈104 e dizer em uma frase que a fase de cortes do vídeo com Ctrl B ficou só na tela; mencionar a tentativa de piano.",
+      "criterio_de_aceite": "O corpo da unidade 11 não afirma mais que a fala deixa de nomear músicas, efeitos ou recursos. Toda exceção ou enumeração que ele trouxer é coerente com as unidades 4, 7 e 9 e confirmada pelo inspetor com trecho literal. O inspetor marca a unidade 11 como `lastreada`. O corpo continua com 1–8 linhas e o validador segue com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 3: a frase \"Ele pergunta se o público lembra dessa primeira aparição\" atribui ao público do anúncio uma fala dirigida aos alunos (\"Não sei se vocês lembram, tá?\"). O efeito é pequeno, porque a técnica de ligar o final ao início já pressupõe a lembrança. Remover ou trocar por \"pergunta aos alunos\". Não condiciona o aceite.",
+    "Unidade 2: tipo `regra` para um corpo que narra um caso e nega a recomendação. `exemplo` ou `limite` seriam mais coerentes, mas é discutível entre valores defensáveis. \"Antes dos efeitos\" inverte a ordem: o inspetor mostra que cobrir os rostos ocorre já na etapa de efeitos. \"Sem intenção de vender\" vem de fala degradada, e a nota já cobre isso.",
+    "Unidade 10: `confianca: media` com o termo duvidoso \"uma regra do meu produto\" mantido sem interpretação. Pelo FORMATO, o coerente é `baixa`. O corpo troca \"Facebook\" por \"a plataforma\" e a nota fala em \"moderação da Meta\"; a fala só diz \"não iria identificar\".",
+    "Unidade 1: \"Não aplique\" é mais forte que \"a gente não precisa colocar\". \"Áudio de voz gerada\" amplia o que a fonte diz só do ElevenLabs. As condições mantêm o ElevenLabs, então o efeito é baixo.",
+    "Unidade 4: \"para não competir com a voz\" é razão que a fonte não dá; ela só diz que a música está muito alta. A nota já avisa que a música é comercial e que o trecho não discute direitos autorais. Convém dizer na nota que a decisão de usar música comercial é de quem consulta.",
+    "Unidade 5: a fonte trata o \"boom\" como a própria música escolhida para a tensão. O corpo o separa como efeito sonoro de impacto.",
+    "Unidade 9: a condição \"voz cantada que atrapalharia a locução\" e o termo \"instrumental\" são inferência. O professor não diz por que remove a voz.",
+    "Contexto: \"várias escolhas, como cobrir rostos, foram feitas só porque o vídeo é didático\" generaliza. A fonte só liga o didático a tampar os rostos.",
+    "Omissões menores, fora do que F3 já trata: a fase de cortes do vídeo com Ctrl B (103–155 s) e a tentativa de piano ou \"coisa mais triste\" para o momento de impacto (681 s). A faixa foi retirada logo depois, sem explicação."
+  ],
+  "proximo": "Abrir ciclo de correção sobre F1, F2 e F3, sem reextrair a aula. Todas as unidades estão em `versao` 1 e o arquivo não tem `correcoes`, então deve ser o primeiro ciclo.\n\n- **O que o redator altera.** `fim` das unidades 1, 6, 8 e 9; o passo 1 da unidade 8; a frase de enumeração da unidade 11.\n- **O que o redator não altera.** As unidades 2, 3, 4, 5, 7 e 10 ficam intactas e preservam a evidência de inspeção pelo hash, salvo se ele optar por aplicar ajustes menores.\n- **Conferência seguinte.** Focal, nas unidades 1, 6, 8, 9 e 11, pelos critérios de aceite da lista, mais o validador com zero erros.\n- **Prova pedida ao inspetor na mesma conferência, sem abrir apontamento novo.** Ele deve confirmar, com trecho literal, se a fala liga o uso de só o início da música comercial (\"Shape of My Heart\") a evitar detecção de direito autoral, na faixa 396–436 ou em outro ponto da aula.\n  - Se ligar, a unidade 4 precisa da nota \"Contorna política de plataforma ou direito de terceiros:\" e de `perecivel: true`.\n  - Se não ligar, como a nota atual da unidade afirma, a unidade 4 fica como está, com o ajuste menor registrado."
+}

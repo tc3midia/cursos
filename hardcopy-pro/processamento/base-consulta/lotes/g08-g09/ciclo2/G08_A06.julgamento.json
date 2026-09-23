@@ -1,0 +1,31 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "075bfe5c9cf7a631d439d4284a886c837d3ab45cca1cd799faf774d9d700db87",
+  "inspecao_sha256": "05c4ba7266a00f1f3543a15d364d3315fd9b1eb296d1ee0247787b5254aff115",
+  "rodada": 3,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. O defeito residual não é de script: o contrato do `contexto` só cobre contagem de frases e marcadores temporais, não o sentido. O inspetor registrou F1 no campo `contrato` do laudo, mas o veto continua sendo fidelidade (caso do exemplo apresentado como parâmetro geral). Registro à parte: o laudo declara `alcance: integral` com `unidades_verificadas` vazia e resumo dizendo que só F1 foi conferida; a inconsistência não muda a decisão porque nenhuma unidade foi alterada e a evidência anterior está preservada por hash.",
+  "fidelidade": "G08_A06-F1 não resolvida. Verificação direta no arquivo entregue: a frase 5 do `contexto` é idêntica à versão reprovada nas conferências 1 e 2 (\"Dá uma faixa de preço de referência para um produto físico de dropshipping/e-commerce, comprado por cerca de R$ 79 e revendido entre R$ 169 e R$ 189.\"). O inspetor confirma. A unidade 3 (corrigida no ciclo 1, `condicoes`) diz que os mesmos valores \"não são parâmetro testado nem faixa de referência de mercado para produto físico\"; o contexto da mesma aula afirma o contrário. O redator do ciclo 2 entregou texto substituto literal e declarou que seu contrato de saída não transporta `contexto`; o executor não aplicou. Unidades 1–4 sem alteração, hashes inalterados, evidência da inspeção anterior preservada; nenhuma reabertura.",
+  "cobertura": "Sem alteração neste ciclo. Nenhuma omissão listada pelo inspetor; evidência anterior preservada. Aula de tela com um `limite` (unidade 2) dizendo o que ficou só na imagem é o resultado esperado.",
+  "perecibilidade": "Sem alteração. Unidades 1–3 com `perecivel: true` (referência a temporadas do curso, CapCut, preço); unidade 4 é orientação geral sem tela nem número de mercado, `false` correto. Nada perecível escondido em unidade `geral`.",
+  "aplicabilidade": "Julgamento direto sobre as unidades: as quatro se sustentam sem a aula ao lado; tipos, temas e tarefas levam ao lugar certo; unidade 2 é `limite` bem escrito para aula de tela; unidade 3 carrega em `condicoes` a ressalva de copy/caso fictício. Nenhuma unidade mudou neste ciclo, então não há falha nova. A contradição entre `## Contexto da aula` e a unidade 3 afeta quem lê a página, mas já está contada em F1.",
+  "falhas": [
+    {
+      "id": "G08_A06-F1",
+      "unidades": [],
+      "veto": "fidelidade",
+      "evidencia": "Visível no arquivo entregue, campo `contexto`, frase 5, idêntica à reprovada nos ciclos 1 e 2: \"Dá uma faixa de preço de referência para um produto físico de dropshipping/e-commerce, comprado por cerca de R$ 79 e revendido entre R$ 169 e R$ 189.\" Inspetor confirma no campo `contrato` que a mudança não foi aplicada. Fonte já lastreada nos dois ciclos: \"Então esse produto aqui provavelmente / Ele está saindo aí a R$ 79 / Você vai vender a R$ 169 / R$ 189\", estimativa sobre o abajur fictício do exemplo. A unidade 3, `condicoes`, já diz que os valores \"não são parâmetro testado nem faixa de referência de mercado para produto físico\". O redator do ciclo 2 entregou o texto substituto literal e registrou que o `contexto` está fora do seu contrato de saída; o executor não gravou a substituição.",
+      "impacto": "Agente que consulte a página da aula recebe em `## Contexto da aula` os valores de um produto inventado como faixa de referência de mercado para dropshipping/e-commerce, exatamente a generalização vetada, em contradição com a unidade 3 do mesmo arquivo. Muda a decisão de precificação de quem consulta e mina a confiança na unidade corrigida. Nenhuma unidade precisa mudar; o defeito está só no campo `contexto`.",
+      "mudanca_minima": "Substituir literalmente a frase 5 do `contexto` em `conhecimento/dados/G08_A06.json` pelo texto já entregue no ciclo 2: \"Dá uma estimativa de compra e venda para o abajur do exemplo, em drop e e-commerce, sem apresentar os valores como parâmetro de mercado.\" Aplicação direta pela coordenação no JSON (o contrato de saída do redator não transporta `contexto`). Não tocar unidades, não incrementar `versao` de unidade, não alterar as outras seis frases do contexto.",
+      "criterio_de_aceite": "Nenhuma frase do `contexto` contém 'referência' nem apresenta R$ 79 / R$ 169 / R$ 189 como faixa ou parâmetro geral; se citar os valores, nomeia-os como estimativa para o abajur do exemplo. `contexto` continua com 3–8 frases, sem marcador temporal. Hashes das unidades 1–4 inalterados. Validador com zero erros. Inspetor confirma na conferência focal final, com o trecho da frase nova, que o contexto não generaliza mais o caso."
+    }
+  ],
+  "ajustes_menores": [],
+  "proximo": "Teto de dois ciclos atingido: não abrir ciclo 3 nem nova chamada automática ao redator. Caminho da rubrica: (1) intervenção localizada da coordenação sobre a lista residual — gravar no JSON a frase substituta literal de F1, conferir que as outras seis frases do contexto não repetem a generalização, rodar o validador; a coordenação não rebaixa a gravidade do que ela mesma corrigir. (2) Uma única conferência focal final, com inspetor e juiz, restrita a F1 e ao critério de aceite acima, com hashes das unidades 1–4 conferidos. (3) Se a frase persistir, veredito `bloqueado` e o item vai a Will. Causa de execução a registrar fora deste artefato: a correção de `contexto` depende de passo manual do executor porque o pacote do redator só transporta unidades, e esse passo falhou duas vezes; corrigir o pacote/pipeline para que alteração de `contexto` seja aplicável e verificar se outras aulas do lote têm correção de `contexto` pendente e não aplicada."
+}

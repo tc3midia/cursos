@@ -1,0 +1,68 @@
+{
+  "aula": "G02_A10",
+  "arquivo_sha256": "084199b23ff4670b69ae4e12900129ceca0a1ae00238882455b611c82913d2d3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "fb37a7c416c89cbade5482ef6765010ecb82f26f34e647610955b03a604f70af",
+    "2": "e6557376e3ce527ac98f81f915ecae47e67e8ef66ad19de2c036aad6679a16fa",
+    "3": "c1eaa8862a96305a0c8197694b93f5fcf82a4bd7993ce366f634dac10a117631",
+    "4": "80ebd05531988aedb6b9d6e54e4446ba5e573b6ce4c75e9c2a901cb98b0e8612"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa VSL nunca foi lançada, ela nunca foi testada, mas eu criei ela com base que se eu tivesse que criar uma VSL para esse tipo de produto, eu iria colocar esse tipo de VSL para rodar.",
+      "explicacao": "Corpo fiel à fonte: VSL criada para o treinamento, nunca lançada nem testada, montada como a que o professor rodaria para esse tipo de produto. A frase \"não há resultado de campanha que a valide\" só tira a consequência de \"nunca foi testada\". Faixa 0–43 cobre o trecho (27,2–43,1 s). Os problemas de classificação (tema e tarefa) e de referência solta ficam em `contrato`."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Lembrando que essa VSL eu coloquei ali no Rodem Bump, ou seja, no Checkout você tem a opção de comprar essa VSL, tá?",
+      "explicacao": "O conteúdo central está na fonte: o documento não fica disponível no treinamento, só como order bump, o professor explica comentando, recomenda ter o documento como base e diz que cada parte está bem explicada nele. A evidência (98,9–102,5 s) e a faixa 80–115 estão certas. Dois acréscimos sem base na fonte, ambos sem efeito na decisão: (1) o corpo glosa order bump como \"uma oferta extra na hora da compra\", e a fonte só diz que no checkout há a opção de comprar a VSL; (2) `condicoes` diz que o professor \"pode ter mudado a disponibilidade depois\", especulação que a aula não faz. Nenhum dos dois inverte ou altera a orientação. A grafia \"Rodem Bump\"/\"ordem Bump\" está tratada na `nota`, com `confianca` media."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na próxima aula eu vou mostrar cada etapa dessa VSL",
+      "explicacao": "A fonte diz que a explicação de cada etapa fica para a próxima aula e que hoje é um comentado dela (115,2–122 s). O corpo preserva isso. \"Não define os atos\" é consequência do que a aula de fato traz: a transcrição não menciona atos. Faixa correta. Ressalva de autossuficiência em `contrato`."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Foi isso. Na próxima aula, a gente vai falar cada parte e cada etapa dessa VSL. Um forte abraço.",
+      "explicacao": "Conferi a sequência frase a frase contra a leitura (123,8–704,1 s): história da faxineira e da filha, denúncia, busca e apreensão, culpa da mãe, exame que não confirma o abuso, versão do marido, divórcio, guarda e depressão, revelação de Sofia como psiquiatra e neurocientista, crítica aos cursinhos de 30 dias, definição de neurociência, sessões e terapia de uma hora, preço e botão verde, história de novo, pergunta sobre métodos, valor da consulta, última chance, despedida. Tudo bate e a ordem está certa. Nenhum número da copy (preço, 1.500 casais, valor da consulta, 30 dias) aparece como régua ou fato: `condicoes` diz que é copy de exemplo de produto fictício. O professor não comenta nem rotula as partes, e o corpo e a `nota` dizem isso. Sem sequência de 25 palavras copiada. Faixa e evidência corretas. Ressalva de classificação (tema e tarefas) em `contrato`."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U1: tema `curso-e-recursos` e tarefa `usar-recursos-do-curso` levam o agente a procurar recurso do curso, mas o conteúdo é o aviso de que a VSL de exemplo nunca foi lançada nem testada. Seria mais defensável `analisar-vsl-pronta` ou tarefas vazias. Além disso, \"esse tipo de produto\" e \"a VSL mostrada na aula\" são referências soltas: sem a aula ao lado, a unidade não diz de que VSL nem de que produto fala (recuperação de casamento aparece só na U4 e no contexto). Ajuste menor.",
+    "U2: `condicoes` traz \"na época da gravação\" e \"o professor pode ter mudado a disponibilidade depois\", que a fonte não diz. A condição real é só que a oferta é do curso e perecível. Ajuste menor.",
+    "U3: o corpo usa \"os atos\" sem explicar o termo e manda \"consultar a aula posterior\" sem identificar qual. A fonte também não a nomeia, então só dá para dizer \"a aula seguinte da temporada\". Ajuste menor de autossuficiência.",
+    "U4: tema `kishotenketsu` e tarefa `estruturar-vsl` apontam para uma unidade que, segundo a própria `nota`, não mapeia atos nem estrutura. Quem consulta \"estruturar VSL\" cai em um resumo sem estrutura. O aviso na `nota` e nas `condicoes` reduz o dano. Classificação discutível, ajuste menor.",
+    "Contexto: \"Assume que o aluno já conhece a estrutura em quatro atos do Kishotenketsu, vista nas aulas anteriores\" não tem base na transcrição desta aula, que não menciona Kishotenketsu, atos nem aulas anteriores. A frase vem do nome da pasta do módulo. Ajuste menor: reformular ou retirar."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira, do começo ao fim, e conferi as 4 unidades contra os trechos: todas lastreadas, com faixas e evidências corretas e sem número, condição ou atribuição adulterados. A copy de exemplo (preços, 1.500 casais, valor da consulta, 30 dias) não vira régua nem fato; ficou como `exemplo` com `condicoes` que a declaram copy fictícia. Não encontrei omissão: o professor quase não comenta durante a leitura e adia a análise para a aula seguinte, e isso está nos limites U1–U3. Perecibilidade está correta em todas. Há só ajustes menores: uma glosa de order bump e uma condição especulativa na U2, tema e tarefa discutíveis na U1 e na U4, referências soltas na U1 e na U3, e uma frase do contexto sem base na fonte."
+}

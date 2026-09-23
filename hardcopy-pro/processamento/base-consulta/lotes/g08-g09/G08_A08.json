@@ -1,0 +1,160 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G08_A08",
+  "titulo": "Episódio 8 - Canva",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é uma gravação de tela em que o professor monta, ao vivo no Canva, um anúncio para um pet shop, dentro do módulo de produtos físicos da trilha Hard Ads.",
+    "Ele assume que o espectador já conhece a estrutura de anúncio em quatro atos do curso e foca na execução visual: escolha de imagem, cor do texto e sequência de telas.",
+    "A aula mostra a lógica de abrir o anúncio com a dor (cachorro maltratado), virar para o cuidado de um pet shop \"de coração\" e fechar com um convite a saber mais, buscando provocar dó e curiosidade no espectador.",
+    "Também aparece uma ressalva sobre não usar imagens pesadas demais para não sofrer bloqueio da Meta, mesmo defendendo mostrar algo mais forte do que o mercado costuma mostrar nesse tipo de anúncio.",
+    "Boa parte do tempo é o professor duplicando elementos, ajustando cor e buscando imagens por palavra-chave dentro do Canva, com comandos genéricos que só fazem sentido olhando a tela.",
+    "A aula termina anunciando que a animação da peça continua na aula seguinte, dentro do CapCut, o que fica fora deste material."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Evitar imagens pesadas demais em anúncio de dor para não levar bloqueio",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 53,
+      "fim": 70,
+      "condicoes": "Vale para anúncios que exploram a dor de um nicho (no exemplo, maus-tratos a animais em anúncio de pet shop).",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao montar um anúncio que explora a dor do público (no exemplo, maus-tratos a animais para um pet shop), o professor evita escolher imagens pesadas demais. A razão dada é que uma imagem muito forte tende a levar o anúncio a ser bloqueado pela moderação do Facebook.",
+      "evidencia": "a gente não vai pegar imagens pesadas tá a gente vai pegar imagens assim porque senão Facebook provavelmente vai dar um bloqueiozinho",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Abrir anúncio de pet shop mostrando a dor para o espectador sentir algo",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "escrever-gancho-de-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 69,
+      "fim": 87,
+      "condicoes": "Exemplo construído ao vivo para um anúncio de pet shop (produto físico); ilustra a abertura pela dor antes de apresentar a solução.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na abertura do anúncio de pet shop, o professor escolhe cenas que mexem com o espectador, como um cachorro maltratado, para gerar dó. Ele chama isso de base do anúncio: mostrar algo e fazer a pessoa sentir alguma coisa antes de qualquer solução aparecer.",
+      "evidencia": "Mostrar e fazer a pessoa sentir algo no nosso anúncio Essa é a base",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Escolher imagem mais pesada que o mercado costuma mostrar para diferenciar",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "montar-criativo-visual",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 215,
+      "fim": 233,
+      "condicoes": "Ressalva do próprio professor: a imagem do animal sofrendo é pesada de assistir, mas é escolha deliberada para diferenciar do que o mercado costuma mostrar nesse tipo de anúncio.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor reconhece que é pesado ver o animal sofrendo daquele jeito na imagem escolhida, mas defende que é justamente isso que ele quer transmitir: mostrar algo totalmente diferente do que o mercado está acostumado a mostrar, escancarando mais para se diferenciar.",
+      "evidencia": "Ver um bichinho desse aqui sofrendo desse jeito muito mas é realmente isso que a gente quer transmitir tá mostrar algo totalmente diferente",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Estrutura do anúncio de pet shop: dor, virada, benefício e CTA",
+      "tipo": "estrutura",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-gancho-de-anuncio",
+        "escrever-pitch-e-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 631,
+      "condicoes": "Estrutura demonstrada como exemplo de anúncio para pet shop, um produto físico saturado; a sequência de ângulos serve de modelo para esse tipo de negócio.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Abre mostrando a dor: cenas de cachorros maltratados e o texto \"cachorros maltratados\" em vermelho, para o espectador sentir o problema.\n2. Vira o ângulo para o cuidado: mostra que, num pet shop \"de coração\", o cão será bem cuidado, tratando esse cuidado básico como \"o mínimo\" e \"uma obrigação\" do pet shop, não como diferencial.\n3. Mostra o benefício e a felicidade: cachorro feliz, menção a banho e tosa e a ajuda no dia a dia com o pet, em contraste com a cena de dor inicial.\n4. Fecha com CTA: texto convidando a tocar em \"saiba mais\" e \"descubra agora o que eu preparei para você\", com uma seta apontando o botão.",
+      "evidencia": "A gente quer mostrar pra pessoa a dor",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Anúncio de pet shop deve transmitir dó e curiosidade",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 673,
+      "fim": 684,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao fechar a montagem do anúncio de pet shop, o professor resume a intenção da peça: ela deve transmitir dois sentimentos fortes no espectador, a dó (pelo animal maltratado) e a curiosidade (pelo que vem a seguir).",
+      "evidencia": "Esse vídeo, ele vai transmitir dois sentimentos muito fortes Que é a Dó",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Grande parte da montagem no Canva só se entende vendo a tela",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 100,
+      "fim": 660,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte da aula é o professor editando o anúncio dentro do Canva olhando a tela: duplicando elementos, ajustando a cor do texto conforme o fundo, reposicionando camadas e buscando imagens por palavra-chave (como \"cachorro machucado\" e \"cachorro feliz\"). A fala usa comandos genéricos como \"aqui a gente vai colocar\" e \"duplica isso aqui e desce\", sem nomear menu, botão ou valor específico, então esses passos de edição não viram procedimento: só se entendem olhando a imagem.",
+      "evidencia": "Aí a gente duplica isso aqui e desce",
+      "versao": 1
+    }
+  ]
+}

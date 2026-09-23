@@ -1,0 +1,51 @@
+{
+  "aula": "G07_A05",
+  "arquivo_sha256": "6cfa374ac9b64240bb60d2d7c5b984908468c6cb7428bed469148b7925d88cd0",
+  "inspecao_sha256": "69d20b5e59207035cce5f0eb1a1f3e8990e9d3b4c594e188ae2cfc3d415b2751",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa. A observação do inspetor sobre a tarefa da unidade 5 não é erro de contrato (o enum aceita o valor); é classificação discutível e vai para ajustes menores.",
+  "fidelidade": "Inspeção integral (9/9 unidades, busca de omissões declarada, citacoes_nao_literais vazia). Oito unidades lastreadas. A unidade 8 é desvio comprovado: o trecho literal \"Porque eu gosto de criar duas variantes exatamente iguais com as vozes diferentes\" é preferência declarada do professor, e o corpo diz \"crie duas variantes...\", sem atribuição. O erro é visível nas próprias unidades: a `evidencia` da 8 começa por \"eu gosto de\", enquanto a unidade 4, na mesma aula, faz a atribuição corretamente (\"o professor prefere\"). A rubrica é explícita: preferência apresentada como lei = desvio ⇒ falha, independente de confiança. As três observações menores do inspetor (2: contraste de brilho fundido ao sombreado; 4: faixa pode terminar antes da âncora; 7: ordem dos passos invertida) não mudam sentido nem execução e ficam como ajustes. Nenhum resíduo de silêncio usado como fonte, nenhum termo deformado, nenhuma copy de exemplo tratada como fato; a ressalva de plágio (unidade 1) e o disclaimer (unidade 5) estão preservados.",
+  "cobertura": "Duas omissões localizadas com trecho literal. A do branco para \"transparecer seriedade\" (57s) é racional pontual de cor; não muda decisão nem impede executar: ajuste menor. A da vinheta (~290s, \"Aí tem um hackzinho aqui que eu gosto muito de fazer\") veta: o inspetor descreve técnica nomeada com ações que a fala nomeia (buscar o elemento \"Vinheta\", ajustar brilho, girar 90 graus), do mesmo grau de concretude das unidades 2 e 6 que foram extraídas. Efeito prático: a aula existe para ensinar a montagem no Canva; um agente que consulte montar-criativo-visual × canva reproduz o acabamento sem a única técnica de pós-produção que o professor recomenda por nome, e o `limite` (unidade 9, faixa 40–136s) não cobre esse trecho, então o agente não tem como saber que falta algo. Ressalva: o trecho literal prova a localização e a recomendação, não a grafia exata de cada passo; por isso o critério de aceite exige que a nova unidade ancore na fala que nomeia o elemento e a rotação, e prevê o `limite` como saída se a fala não os nomear. Sem outras omissões: testemunho, aviso de vínculo e trecho de tela vago não contam.",
+  "perecibilidade": "Todas as nove unidades marcadas `perecivel: true`, coerente com Canva, TikTok, SnapTik e ElevenLabs. A unidade 5 (`geral`) está marcada por excesso, o que não reprova. Inspetor não sinalizou nada. Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: SnapTik, ElevenLabs e \"festival de marionete\" vêm explicados no corpo; a 3 traz a nota de contorno com o prefixo exigido; a 4 registra a preferência em `condicoes`; o procedimento da 7 tem pré-condição e passos que o inspetor confirma na fala. Sem veto. Pontos discutíveis, todos entre valores defensáveis: unidade 5 é disclaimer, não orientação de montagem (tipo `regra` e tarefa montar-criativo-visual forçados; caberia `limite`); unidade 3 tem `condicoes` descrevendo contexto do episódio em vez de condição, e tema `anuncio-negocio-local` para uma decisão que não depende do nicho; unidade 9 diz \"grande parte deste episódio\" com faixa de apenas 40–136s.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: \"Porque eu gosto de criar duas variantes exatamente iguais com as vozes diferentes\". A própria `evidencia` da unidade 8 é \"eu gosto de criar duas variantes exatamente iguais com as vozes diferentes\", e o corpo diz \"crie duas variantes do mesmo roteiro com vozes diferentes\", sem atribuir ao professor. Contraste com a unidade 4 da mesma aula, que escreve \"o professor prefere\".",
+      "impacto": "Um agente que monte fluxo de locução no ElevenLabs a partir da base trata a geração de duas variantes como passo obrigatório do curso, quando a fonte registra hábito pessoal do professor motivado por não querer arriscar numa única voz.",
+      "mudanca_minima": "Reescrever o corpo da unidade 8 atribuindo a orientação como preferência do professor (ex.: \"O professor costuma gerar duas variantes do mesmo roteiro com vozes diferentes, por exemplo uma voz mais velha e uma mais jovem, porque não quer se comprometer com uma única escolha de início\"), mantendo tipo `regra` (preferência atribuída como preferência) ou trocando por `conceito` se o redator preferir; incrementar `versao` para 2. Não tocar em faixa, tema, tarefas nem plataformas.",
+      "criterio_de_aceite": "Corpo da unidade 8 sem imperativo dirigido ao leitor (\"crie\", \"gere\") e com atribuição explícita ao professor como preferência; a razão (\"não arriscar numa única escolha\") preservada; `versao` = 2; inspetor reconfere e marca `lastreada` com gravidade nenhuma ou menor; validador zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [],
+      "veto": "cobertura",
+      "evidencia": "Inspetor localiza em ~290s (04:52–05:19) o trecho literal \"Aí tem um hackzinho aqui que eu gosto muito de fazer\" e descreve a técnica: buscar o elemento \"Vinheta\" no Canva, ajustar brilho e girar 90 graus para criar moldura escura nas bordas. Nenhuma unidade cobre o trecho e o `limite` (unidade 9) só abrange 40–136s.",
+      "impacto": "A aula tem como objeto a montagem do anúncio no Canva. Um agente que consulte montar-criativo-visual × canva reproduz o acabamento sem a única técnica de pós-produção que o professor recomenda nominalmente, e não há `limite` que avise da lacuna; a cobertura declarada fica silenciosamente incompleta.",
+      "mudanca_minima": "Criar a unidade 10 (não renumerar), tipo `procedimento` (Pré-condição + passos numerados) ou `regra`, tema `direcao-de-arte-e-texto-na-tela`, tarefas [`montar-criativo-visual`], plataformas [`canva`], `perecivel: true`, faixa em torno de 290–320s, com apenas os passos que a fala nomeia (elemento \"Vinheta\", ajuste de brilho, rotação de 90 graus) e a atribuição como técnica que o professor gosta de usar. Se, ao ler a fonte, o redator constatar que a fala não nomeia o elemento nem a rotação e só diz \"aqui/assim\", em vez de criar a unidade 10 ele amplia a unidade 9: estende a faixa para cobrir o trecho e acrescenta ao corpo que o efeito de vinheta ficou só na tela.",
+      "criterio_de_aceite": "Ou (a) existe unidade 10 com `evidencia` literal dentro da faixa declarada contendo a menção à vinheta, cada passo numerado corresponde a uma ação nomeada na fala (inspetor confirma `lastreada`, sem passo de tela inventado), e o validador não acusa erro; ou (b) a unidade 9 tem faixa que inclui ~290–320s e corpo que nomeia a técnica de vinheta como conteúdo que ficou na imagem, com `versao` incrementada e inspetor confirmando que a fala de fato não descreve os passos. Em qualquer dos dois, a próxima inspeção declara a omissão fechada."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: a fala trata o ajuste de contraste/brilho como passo seguinte e distinto do sombreado; o corpo funde os dois (\"o sombreado fica visível e melhora o contraste\"). Separar em duas frases ou cortar a parte do contraste.",
+    "U4: o bloco da transcrição com a âncora vai de 239,98s a 258,16s e `fim` é 240; estender `fim` para ~258 para garantir que a evidência caia dentro da faixa.",
+    "U7: na fala a escolha da voz (~728s) vem antes de entrar em settings (~739s) e escolher o modelo (~741s); reordenar os passos para a ordem da fonte.",
+    "U5: disclaimer de não vínculo não é orientação de montagem; tipo `regra` e tarefa `montar-criativo-visual` são forçados. Sugestão: tipo `limite`, tarefas [], ou retirar (o conteúdo já está no contexto). Discutível, não veta.",
+    "U3: `condicoes` descreve o contexto do episódio, não uma condição de validade; trocar por null. Tema `anuncio-negocio-local` é discutível para uma decisão que não depende do nicho (cabe `direcao-de-arte-e-texto-na-tela`).",
+    "U9: corpo diz \"grande parte deste episódio\" mas a faixa é 40–136s; ampliar a faixa ou restringir a frase ao trecho. Se F2 cair na alternativa (b), isso se resolve junto.",
+    "Omissão em 57s (\"transparecer um pouquinho mais de seriedade\"): racional de usar texto branco para seriedade. Pode entrar como frase na U2 ou como `regra` curta atribuída ao professor; não obrigatório."
+  ],
+  "proximo": "Ciclo de correção 1: redator aplica F1 (reescrever U8 com atribuição) e F2 (criar U10 com os passos da vinheta que a fala nomeia, ou ampliar U9 se a fala não os nomear), incorporando os ajustes menores que couberem sem abrir frente nova. Inspetor reconfere U8, U10 (ou U9) e, se alterada, U2/U4/U7; unidades intactas preservam evidência pelo hash. Validador antes do julgamento. Rodada 2 checa só esta lista e os efeitos das alterações. Registro para a coordenação do lote: a causa de F1 (preferência do professor virando imperativo) é padrão candidato a repetição; se outra aula do lote reprovar pela mesma causa, cabe a ampliação focal prevista na rubrica."
+}

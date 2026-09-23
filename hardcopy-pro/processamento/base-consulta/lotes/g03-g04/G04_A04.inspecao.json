@@ -1,0 +1,125 @@
+{
+  "aula": "G04_A04",
+  "arquivo_sha256": "fe98a5726457f0384dd3161c90e94d46d2e8d43b0aeccfd0f657c53395499e85",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "4fe329ea9061a657ef0940bb59f5d04b7e4e450cacc4467833decde5a3c6f5d3",
+    "2": "f39f748b638ea7cea209e3eb3f07470dfb4d409231bab2596096ba74abffecd0",
+    "3": "153abdbdbbf0eb45db9eabaad3d24db60ca568f6bd6fc77229d755e8bb3f8f88",
+    "4": "f0cdf49a153aa4a4582575b5e4392d3fcf00fb7aa66283a1e1d6c17b33635586",
+    "5": "7a651fbd8e7e52a9dc71783b2f553190e7a16e1efd178eec476236e5d70c0715",
+    "6": "ad3f2d6b79b7354b3ee829e15bef30202f92cbca659f19e69c31d1143c08f122",
+    "7": "8a5fef4819a5f2534cae310b5ae825d92121f06fc6c30bbff90f785b6f4eb9e5",
+    "8": "8aeafe424d195438a5d80d828ab19ec02e9db626d32388c4a288125273befd42",
+    "9": "485495f72390ce2fa366a1a0b356d40a4f602fc3a66b4015b731c0f83e5c3d07"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Bom, esse anúncio aqui funciona muito bem pra pessoas acima de 50 anos.",
+      "explicacao": "O corpo acompanha a fala: o anúncio focado no produto performa, rende clique bom quando se acerta, demora a acertar, e o lead chega de mente fechada porque já sabe que vão vender e a venda não é camuflada. A condição de público acima de 50 anos está em `condicoes`. A evidência está em 82–86 s, dentro da faixa 58–103. Sem número ou atribuição adulterados."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele vai pegar a pessoa que vale na academia",
+      "explicacao": "A fonte diz que a apresentação do produto \"não vai pegar topo de funil\" e \"não vai pegar a pessoa que tem um nível de consciência alta\". O público que ela pega vem numa frase truncada (\"a pessoa que vale na academia\"), depois de \"mostrar para o cliente aquilo que ele quer\". O corpo troca isso por \"pega quem já está pronto para comprar aquilo\", que a fala não diz. Alguém pronto para comprar tem consciência alta, o que contradiz o \"não vai pegar consciência alta\" da própria unidade. A fonte também é suspeita: \"consciência alta\" pode ser erro de transcrição, e a `nota` só avisa que o trecho é confuso. Consequência: o agente pode concluir que anúncio de apresentação serve para fundo de funil. Correção mínima: manter só o que a fala diz (não pega topo de funil nem consciência alta; apresentação ≠ contexto) e registrar na `nota` a frase truncada e a dúvida sobre \"alta\". O preço de 29 reais ficou só na `nota`, corretamente."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele tem um contexto ao favor dele.",
+      "explicacao": "O sentido está correto: ele vende pela autoridade (contexto), não tem o texto, abre já vendendo o produto (\"Ou seja, ele já começa a vender o produto\"), e o professor é contra isso porque \"não dá surpresa\" nem \"mexe com a pessoa lá no fundo\". A promessa de resultado é descrição do anúncio, não fato. Dois ajustes menores. (1) \"Médico\" é inferência: a fala diz \"doutor\", \"uma autoridade\" e \"um monte de letras\". (2) O título \"Contexto a favor não basta\" é mais forte que a fala. O professor diz que ele \"tá escalando muito bem\" e que só \"nada melhor do que melhorar\". O corpo, com \"decola mais\", está fiel."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Enfim, é, leve sim, pague três",
+      "explicacao": "\"Não pode focar em preço\" e a segunda parte (responder à pergunta do espelho em vez de só perguntar) estão na fala e na faixa. A fonte diz \"leve sim, pague três\", que é trecho degradado. O corpo reconstrói como \"leve mais, pague menos\", e a `nota` só avisa que a segunda parte é aproximada, não a primeira. Sem efeito na regra, mas é reconstrução sem sinalização. \"Responder\" é a leitura da fala \"você tem que responder isso pra ela\"."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tá saturado de gente ruim, fraca",
+      "explicacao": "A afirmação de que o nicho não está saturado, e sim saturado de quem repete a mesma coisa, está atribuída ao professor e com condição. Os números de anúncios (60, 3, 142) ficaram fora do corpo, como deve ser. Ajustes menores: (1) a fala diz \"todos esses anúncios aqui tem somente um anúncio rodando\", e o corpo suaviza para \"a maioria\" e \"poucos fazem teste\"; (2) a frase \"tá muito fácil de entrar\" termina em cerca de 464 s, e a faixa fecha em 463; (3) a tarefa `pesquisar-publico-e-subnicho` não corresponde ao conteúdo, que trata de saturação e concorrência (ver `contrato`)."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, não veja esse vídeo e não fica gravando telinha",
+      "explicacao": "O núcleo está fiel e dentro da faixa: nunca entrar na Biblioteca de Anúncios, \"nem pra você dar uma olhadinha\", fechar a mente, \"você vai bater a cabeça\", \"deixa elas pagarem\". A preferência aparece como do professor em `condicoes`. Problema: o pedido de não gravar a tela vem de 115–121 s, fora da faixa 465–530. Quem verificar o corpo pela faixa não acha essa frase. Correção mínima: retirar a frase ou ampliar a faixa. A tarefa `criar-prompt-ou-agente` é errada e a `nota` manda ignorá-la (ver `contrato`)."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Sempre crie um gancho, faça a conexão com aquele produto",
+      "explicacao": "Fiel: nunca vender o produto no início, criar gancho, conectar com o produto e levar a pessoa a querer tocar em saiba mais. A faixa 530–580 é mais larga que o conteúdo, que termina em cerca de 550 s, mas contém tudo. Sem desvio."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Funciona bem, mas não funciona mais igual antes",
+      "explicacao": "Apresentado como exemplo, com condição de que é observação do professor. A abertura por história desconectada está na fala, para os dois players citados. Ajuste menor: \"funciona bem, mas não funciona mais igual antes\" e \"ele já sabe\" foram ditos sobre um só player, e o corpo passa a valer para \"esses players\". A mudança de \"hoje\" contra \"antes\" também se perdeu. Não muda a orientação."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então pode fazer tranquilo, pode rasgar dinheiro lá",
+      "explicacao": "O corpo atribui ao professor e chama de ironia, o que está certo. Ajustes menores: (1) o título afirma como fato \"quem abre vendendo joga dinheiro fora\", e o professor diz em 1:11 que esses anúncios \"performam muito bem e performam até hoje\"; (2) \"o que consideram certo\" não está na fala (\"trabalhando duro e fazendo o nosso melhor\"). A unidade repete a regra da unidade 7 e não traz nada novo."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 420,
+      "trecho_fonte": "Tá, Zenon, ele quase acertou",
+      "descricao": "O professor analisa um anúncio que abriu com algo diferente e depois vendeu o produto direto: \"quase acertou\", mas \"ele não fez o desenvolvimento\". Segundo ele, com contexto a favor, colocar o texto faz decolar. Nenhuma unidade preserva esse diagnóstico de abertura diferente sem desenvolvimento.",
+      "gravidade": "menor",
+      "efeito_pratico": "Ao diagnosticar um anúncio com gancho diferente que pula para a venda, o agente não encontra que a base classifica isso como quase certo, faltando o desenvolvimento antes do produto. A unidade 7 diz só \"faça a conexão\", sem apontar essa falha."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 6: a tarefa `criar-prompt-ou-agente` não tem relação com o conteúdo (pesquisa de concorrência na Biblioteca de Anúncios), e a `nota` manda o leitor ignorá-la. É erro conhecido mantido no metadado e leva o agente à tarefa errada; deve ser removida. A `nota` não deve carregar essa instrução.",
+    "Unidade 5: a tarefa `pesquisar-publico-e-subnicho` (levantar dor, linguagem e subnicho) não corresponde ao conteúdo, que é a afirmação de que o nicho não está saturado, e a fala não ensina a pesquisar subnicho. Classificação discutível, ajuste menor.",
+    "A aula é de tela: o professor navega na Biblioteca de Anúncios e comenta anúncios que a transcrição não mostra. Não há unidade `limite` dizendo isso, e o `contexto` não substitui o `limite` exigido pelo FORMATO. Ajuste menor: falta um `limite` avisando que o conteúdo dos anúncios analisados (imagem e texto de cada um) ficou só na tela.",
+    "Unidade 4: tipo `regra` com corpo que narra a cena de concorrente (\"Ao ver anúncio de concorrente com oferta do tipo leve mais, pague menos...\"). Sem a aula, o leitor pode não saber se \"não focar em preço\" vale sempre ou só para esse caso. A fala é categórica, então o corpo poderia enunciar a regra primeiro e o caso depois."
+  ],
+  "material": [],
+  "resumo": "O arquivo está em bom estado: sete unidades lastreadas sem defeito material e nenhum número de copy de exemplo tratado como régua. O problema mais relevante é a unidade 2, que troca uma frase truncada da fonte por \\\"pega quem já está pronto para comprar\\\", afirmação que a fala não faz e que contradiz \\\"consciência alta\\\". Há ainda a tarefa errada da unidade 6 (com `nota` mandando ignorá-la), uma frase da unidade 6 vinda de fora da faixa, a falta de `limite` para o conteúdo de tela e uma omissão menor (o diagnóstico \\\"quase acertou, faltou desenvolvimento\\\"). Não há perecível escondido, e o material está ausente."
+}

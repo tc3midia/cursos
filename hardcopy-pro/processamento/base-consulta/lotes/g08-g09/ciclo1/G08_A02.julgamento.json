@@ -1,0 +1,37 @@
+{
+  "aula": "G08_A02",
+  "arquivo_sha256": "3aef8979a41bce166f4579120487e6d4901c7fc79617666bcadde4e7c544cb21",
+  "inspecao_sha256": "19c89239d8c3b3933dc57cd2c27db82036e03b8d34d4a0016304f459dbd66965",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. `versao` incrementada nas unidades alteradas (U1→2, U2→3, U3→2, U4→1); U4 numerada após a maior existente, sem retirada nem renumeração; título da U2 dentro de 80 caracteres. Os dois itens em `contrato` da inspeção são acumulados da rodada anterior e contradizem as unidades atuais: a U2 já explica \"mecanismo único oculto\" no próprio corpo e a U3 não contém mais \"deste episódio\". Erro visível do inspetor; não contam.",
+  "fidelidade": "F1 e F2 resolvidos pelo critério: inspetor confirma, com trecho literal e timestamps, que todo o corpo da U1 cabe em 215–322 (originalidade dita em 311,7–321,5s) e que a U2 se limita ao trecho claro (\"em momento algum a gente falou de prometer nada pra pessoa\"), com `confianca: media` e `nota` registrando \"perda não, perda não é perda\". U4 lastreada com evidência literal dentro de 243–258. A correção de F4 introduziu problema novo: a descrição das três partes (gancho informativo desconectado, ponte para o mecanismo único oculto, CTA de exclusividade), agora no corpo da U3, é dita em ~215–244s; dentro de 357–406 o professor só diz \"faz um anúncio desse aqui\". Apontamento com trecho literal, sem citação não literal, e é o mesmo critério aplicado a F1 nesta aula. 1 de 4 unidades com faixa (25%) acima do teto de 10% ⇒ veto. Nenhum desvio, sem-lastro, copy de exemplo promovida a fato, termo deformado ou ressalva suprimida; a explicação de \"mecanismo único oculto\" usa a definição do vocabulário (G08_A01), como o FORMATO permite.",
+  "cobertura": "F3 resolvido pela U4, que preserva a objeção (afiliados vendendo o mesmo produto, lead pode reconhecê-lo) e a justificativa (compra por impulso, sem checar), atribuídas ao professor. A primeira `omissao` da inspeção é a mesma de F3, acumulada, e está coberta. A segunda (professor menciona ter checado a propriedade da espirulina e a dosagem de 200mg/dia \"no chat APT\" antes de montar o gancho) é menor: a U3 já manda \"estudar o produto\" e a U2 condiciona a técnica à propriedade real; faltar a menção ao ChatGPT não muda a decisão nem impede executar. Registrada como ajuste menor. Fechamento motivacional e montagem visual adiada para a aula seguinte não são omissão.",
+  "perecibilidade": "Inspetor sem apontamento. Conferido nas quatro unidades: U1 e U3 já `perecivel: true`; U2 e U4 trazem raciocínio do professor sem tela, recurso, preço, data ou número de mercado no corpo; o caso \"50 reais / 10 reais\" fica só em `nota` da U3, marcada `true`. Nada perecível escondido em `geral`.",
+  "aplicabilidade": "F4 resolvido: a U3 nomeia as três partes da estrutura, não cita episódio, aula ou vídeo e executa-se sem a U1. U1 (`estrutura` com três partes numeradas na ordem da fonte, `condicoes` com o perfil de produto e destino), U2 (`condicoes` com a exigência de propriedade real, termo explicado no corpo, alegação atribuída ao professor) e U4 (`decisao` iniciando com \"Quando\", objeção e resposta completas, \"chamada de exclusividade\" explicada no corpo) se sustentam sozinhas; tipos, temas e tarefas levam ao lugar certo. Único ponto: `condicoes` da U4 diz \"levantada na própria aula\", referência de proveniência que não impede o uso — ajuste menor.",
+  "falhas": [
+    {
+      "id": "F5",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal 'Faz um anúncio desse aqui E bota junto do lado dos seus anúncios de jornada do herói E três atos Pra ver o estrago que vai dar' (dentro de 357–406), localiza a descrição das três partes do anúncio (gancho informativo desconectado, ponte para o mecanismo único oculto, CTA de exclusividade) — acrescentada ao corpo da U3 pela correção de F4 — em ~215–244s (00:03:35–00:04:03), fora da faixa declarada. Nada em `citacoes_nao_literais`. Mesmo critério aplicado a F1 nesta aula (toda afirmação do corpo dentro da faixa). 1 de 4 unidades com faixa = 25% > 10%.",
+      "impacto": "Quem auditar a U3 pelo locator declarado não encontra a parte do corpo que descreve a estrutura a testar; a faixa deixa de cobrir a fonte de um terço do corpo e qualquer reinspeção integral voltaria a marcar faixa-errada. Não altera a orientação em si (o conteúdo das três partes é lastreado na mesma aula), mas impede verificar no ponto indicado.",
+      "mudanca_minima": "Ampliar `inicio` da U3 de 357 para 215 (faixa 215–406), mantendo `fim`, `evidencia` e corpo como estão; a `evidencia` continua dentro da faixa. Incrementar `versao` para 3. Não retirar a descrição inline, porque isso reabriria F4.",
+      "criterio_de_aceite": "Inspetor confirma que toda afirmação do corpo da U3, inclusive as três partes, está entre `inicio` e `fim` e que `evidencia` segue dentro da faixa; 0 de 4 unidades com faixa marcadas `faixa-errada`; validador com zero erros; hashes de U1, U2 e U4 inalterados."
+    }
+  ],
+  "ajustes_menores": [
+    "U1 ou U3 (opcional, sem ciclo): registrar que o professor diz ter checado fatos reais do produto (propriedade desintoxicante da espirulina, 200mg/dia) 'no chat APT' antes de montar o gancho — em `nota`, com o nome ChatGPT grafado pela tabela e `plataformas` mantida em `geral`, já que é menção de como o exemplo foi feito. A U3 já cobre com 'estudar o produto'.",
+    "U4 `condicoes`: trocar 'levantada na própria aula' por formulação sem referência à aula, por exemplo 'objeção que o professor encena ao apresentar o anúncio de exemplo de encapsulado que leva a página de vendas'. Não muda o uso.",
+    "Opcional: unidade `limite` dizendo que a montagem visual do anúncio (Canva) fica para a aula seguinte, hoje registrada só no `contexto`. Não é omissão."
+  ],
+  "proximo": "Redator aplica F5: só `inicio` da U3 → 215 e `versao` → 3; nenhuma outra unidade tocada. Inspeção focal na U3 conferindo que todas as afirmações do corpo, inclusive as três partes, caem na faixa e que `evidencia` continua dentro; hashes de U1, U2 e U4 preservados. Inspetor deve remover de `contrato` e `omissoes` os itens acumulados que já não correspondem às unidades atuais (U2 explica o termo; U3 não cita episódio; objeção dos afiliados coberta pela U4), para não confundir a conferência seguinte. Se este era o segundo ciclo, a mudança é de um campo e cabe na intervenção localizada da coordenação com a conferência focal única."
+}

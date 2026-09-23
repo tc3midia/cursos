@@ -1,0 +1,22 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "26b8bf6b64972ac65f10d094c04a907f4e89bbd1240d7308af2de9d91552a5b6",
+  "inspecao_sha256": "336cafc3c7ff48e7ad7498e30dbd98a8cbe4c3bb10ebdac3e52fca7a0a684fe9",
+  "rodada": 4,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. `contexto` com 7 frases (dentro de 3–8), sem \"hoje\"/\"atualmente\"/\"neste momento\". Nenhuma unidade alterada, nenhuma `versao` incrementada nesta rodada, coerente com o registro do ciclo 3 (\"sem tocar unidade nem versao\").",
+  "fidelidade": "G08_A06-F1 resolvida. A frase 5 do `contexto` está literalmente com o texto ditado no ciclo 2 e não contém \"referência\" nem apresenta R$ 79/169/189 como faixa ou parâmetro; nomeia o caso como estimativa para o abajur do exemplo, em consonância com a unidade 3 (`exemplo`, `condicoes` negando parâmetro de mercado, `nota` preservando o \"provavelmente\"). O inspetor sustenta a conferência com trecho literal da fonte (\"Então esse produto aqui provavelmente / Ele está saindo aí a R$ 79 / Você vai vender a R$ 169 / R$ 189\") e com o trecho da frase nova; `citacoes_nao_literais` vazio. Unidades 1–4 intactas desde o ciclo 1, evidência de fidelidade preservada pelo hash. As outras seis frases do contexto não generalizam valores do exemplo; a frase 4 atribui ao professor o argumento sobre a Insider (\"para argumentar\"), sem número.",
+  "cobertura": "Inspetor declara alcance integral com busca de omissões e não lista nenhuma. Nada mudou nas unidades nesta rodada; a alteração no `contexto` não retira nem esconde orientação. Aula de tela com quatro unidades e um `limite` que diz o que ficou só na imagem é o resultado esperado pela rubrica.",
+  "perecibilidade": "Nada sinalizado pelo inspetor. Unidade 1 marcada perecível pela referência à estrutura das outras temporadas do curso; unidade 2 (`capcut`) e unidade 3 (preço) perecíveis por obrigação; unidade 4 é orientação geral sem tela, preço ou recurso do curso, `perecivel: false` correto. Nenhum perecível escondido em unidade `geral`.",
+  "aplicabilidade": "As quatro unidades se sustentam sem a aula ao lado. Unidade 1 descreve os dois blocos com função e som de cada um; unidade 2 é um `limite` bem escrito, com `nota` explicando que o CapCut vem só do título; unidade 3 é `exemplo` com `condicoes` que impede leitura como régua; unidade 4 é regra geral com exemplos nomeados (Red Bull, Coca-Cola) que não dependem da aula. Tipos, temas, tarefas e plataformas levam o agente ao lugar certo. A frase \"segue o mesmo processo usado nas outras temporadas do curso\" na unidade 1 é referência ao curso que o agente não pode seguir, mas não muda o uso porque a estrutura está inteira no corpo; fica como ajuste menor.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Unidade 1, última linha do corpo e trecho final de `condicoes`: a referência 'mesma estrutura/processo usado nas outras temporadas do curso' não é seguível por quem consulta sem a aula; pode ser removida ou reduzida a 'muda só o sentimentalismo, que deve espelhar o benefício central do produto' numa revisão editorial futura. Não muda a decisão nem impede executar.",
+    "Inspeção do ciclo 3 entregou `unidades_verificadas` e `hashes_unidades` vazios, com a confirmação (inclusive a de hashes inalterados) só no campo `resumo`. Aceito porque a rodada não tocou unidade e o hash é conferido pelo `--reviews`, mas o laudo de inspeção deveria preencher os campos estruturados mesmo em conferência focal."
+  ],
+  "proximo": "Fechar G08_A06-F1 como resolvida na conferência focal final (ciclo 3, intervenção da coordenação autorizada por Will em 22/09/2026) e promover a aula a `status: revisado`; não há item pendente para Will nem nova chamada automática. Registrar no lote a causa de processo que consumiu os dois ciclos: o contrato de saída do redator não transporta `contexto`, e o executor não aplicou o texto que o redator entregou em observações nos ciclos 1 e 2. Se outra aula do lote tiver falha só de `contexto`, esperar a mesma perda de ciclo; recomendo à coordenação incluir `contexto` no contrato de saída do redator (ou aplicar diretamente correções de contexto ditadas pelo juiz) antes de abrir novos ciclos em outras aulas."
+}

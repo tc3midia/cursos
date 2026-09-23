@@ -1,0 +1,117 @@
+{
+  "aula": "G07_A09",
+  "arquivo_sha256": "5eb9b45892f94968c45d4832c226859a283cb01d81e145f4a546a1533a47f0e0",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "be1cecac3a287e806846434e28f93f267ee8824d7da70c16e11caed7a6037d8f",
+    "2": "96becb6d5eb14b6ac4e07e4f8f69cc6ab7188f7ae5c1b621150d751315f436d5",
+    "3": "e1f519564f3055c59f36d521245157883a3a85bb14f9efc08fdd7686904f82f6",
+    "4": "f086f28b2cd31f866cfa974b971e5f9346986eac2fbfef7cce39a30b8ce232af",
+    "5": "c117e92a416aadc7d84dcc0e406c7fe883f11ce5c558f3c158e23e67ac69a3fb",
+    "6": "423ea6ed52aefcf18a3e57174278d8ed47deb338f70e75d859763ab237806c11",
+    "7": "5ffa8a5552cbefe3e3cd1cf555cb49491dba2fb63dfba28afe00f6c2934d5939",
+    "8": "10bae67e375ebe8b34a222d92164cba1d452e3bd95de08b8ec82af3a403555cb"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você mostrou de onde você é aqui Você mostrou a sua autoridade",
+      "explicacao": "O passo 5 ('Tacada de mestre: feche mostrando a origem e a autoridade local...') se apoia em fala que ocorre em 00:03:29–00:03:33 (≈209–213s), fora do fim declarado (197s). O restante da estrutura (passos 1–4) está bem lastreado dentro de 30–197s, e a compressão de seis momentos da fala (confiança/gancho, nicho, honestidade, prova, invalidação de mercado, tacada de mestre) em cinco passos é uma síntese razoável, não uma adulteração de sentido. O único problema real é o limite de faixa: quem for conferir a fonte do passo 5 não encontra o trecho dentro do intervalo indicado."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Esse cara já chega na loja sabendo Que ele vai perder",
+      "explicacao": "Os dois perfis de comprador (quem troca por 'o carro dos sonhos' e resiste a perder x quem já troca por algo melhor e aceita perder) e o exemplo de 78 mil/82 mil batem com a fala entre 219–317s. A frase final sobre autoridade atrair clientes de maior nível financeiro também está sustentada (219,4s em diante), mesmo que a menção literal a 'autoridade' apareça poucos segundos antes do início declarado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente não vai precisar remover nada dela",
+      "explicacao": "A identificação da ferramenta como ElevenLabs segue a tabela de grafias (Eleven Leves) sem exigir nota, e a orientação de não cortar a voz por ela já ser rápida está dentro da faixa 334–340s."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Novamente cortamos o áudio Porque a tensão total nessa parte",
+      "explicacao": "A técnica (cortar a música nos momentos de maior tensão da fala) está corretamente descrita, mas o nome 'calar a boca' nunca aparece nesta transcrição — essa denominação vem do vocabulário de G09_A06, citado na tabela do FORMATO. Ao escrever 'O curso chama essa técnica de calar a boca', a unidade atribui a esta aula um jargão que ela não usa, dando a entender que o termo foi dito aqui."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Não encaixou Vamos pegar o inicio da música então",
+      "explicacao": "O corpo apresenta como regra fixa 'use o plot (pico) da música, e não o início'. Mas na mesma demonstração, poucos segundos depois do fim declarado (818s), o professor testa exatamente o plot escolhido em 807–818s, ele 'não encaixou', e ele recorre a 'pegar o início da música', que 'quase encaixou'. A fonte mostra um processo de tentativa e ajuste no mesmo trecho de música, não uma regra absoluta contra usar o início. Quem seguir a unidade como regra fixa pode descartar por princípio a opção que, no próprio exemplo da aula, foi a que funcionou."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque é diferente um do outro, não fica repetitivo",
+      "explicacao": "A ideia de não repetir o mesmo efeito de distorção de voz duas vezes, mantendo uma parte com a voz original para não ficar repetitivo, está dita literalmente dentro da faixa 621–696s, ainda que o intervalo comprima também outras ações de edição intermediárias não citadas no corpo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que o áudio vai ser uma coisa irrecusável daqui a 6, 7 meses no mercado brasileiro",
+      "explicacao": "A comparação entre investir em áudio trabalhado versus um avatar de IA de um famoso, e a previsão de mercado, estão dentro da faixa 1076–1109s e corretamente atribuídas ao professor como opinião/previsão, com nota que impede tratar isso como fato confirmado pela base."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aqui a gente vai colocar uns efeitinhos pra ficar",
+      "explicacao": "Unidade 'limite' coerente com o padrão de aula de tela: sinaliza corretamente que boa parte da edição fina não é capturável pela fala, com evidência dentro da faixa declarada."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 418,
+      "trecho_fonte": "Sem ficar colocando muita flor E muita coisa aqui Pra não ficar um negócio feio",
+      "descricao": "Ao animar o texto na tela 'daquele jeito que a gente faz', o professor recomenda não exagerar em elementos decorativos ('flor') para não deixar o resultado visualmente poluído. Nenhuma unidade preserva esse princípio de moderação na animação/decoração de texto.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem usar a base para montar animações de texto no CapCut não é avisado para evitar excesso de elementos decorativos, podendo produzir exatamente o resultado 'feio' que o professor diz querer evitar."
+    },
+    {
+      "inicio": 771,
+      "trecho_fonte": "E aqui agora a gente mexe um suspense de novo, porque ficou pesado aqui o clima.",
+      "descricao": "Orientação de alternar de volta para música de suspense quando o clima da narração/trilha fica pesado demais, para equilibrar o tom emocional do anúncio. Não vira unidade em nenhum ponto da base.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem monta a trilha sonora sem essa orientação pode manter um clima emocional pesado por tempo excessivo no anúncio, sem saber que o professor recomenda alternar para suspense para aliviar a tensão sonora."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A aula G07_A09 é majoritariamente uma demonstração de tela no CapCut editando um anúncio de loja de carros; as 8 unidades cobrem de forma geralmente fiel a estrutura do anúncio, o perfil psicológico do comprador e técnicas de locução/som com IA. Dois problemas de fidelidade se destacam: a unidade 5 vira regra fixa ('use o pico da música, não o início') algo que a própria fonte mostra como tentativa e erro, já que o professor testa o pico, não encaixa, e usa o início — desvio material; a unidade 4 atribui a esta aula o termo 'calar a boca', que não aparece nesta transcrição (vem de outra aula) — desvio menor. A unidade 1 tem parte do corpo (detalhe da 'tacada de mestre') sustentada por fala que cai pouco depois do fim declarado — faixa-errada menor. Há também duas orientações menores sobre moderação visual de texto animado e alternância de trilha que nenhuma unidade preserva."
+}

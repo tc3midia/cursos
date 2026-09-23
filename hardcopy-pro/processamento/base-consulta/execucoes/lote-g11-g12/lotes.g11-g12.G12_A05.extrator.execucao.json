@@ -1,0 +1,54 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T16:38:10+00:00",
+  "fim": "2026-09-22T16:45:48+00:00",
+  "duracao_ms": 455022,
+  "duracao_api_ms": 454993,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 49464,
+    "cache_creation_input_tokens": 12790,
+    "cache_read_input_tokens": 21280
+  },
+  "thinking_tokens": 42948,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.55006,
+  "esperas_por_limite": [],
+  "sistema_sha256": "73be75ee2ffb57d1a1fa7f2572421f2cfde0eac577fd21da717fd22fcc60dd6f",
+  "pacote_sha256": "b47af3fce508f9d76e05e2027c897ec14f2093f2e776845624919f0db33c4416",
+  "aula": "G12_A05",
+  "rotulo": "lote-g11-g12",
+  "palavras_fonte": 3259,
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g11-g12/G12_A05.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "2a341dc432d57fed2a4fa699168592f475ddb71cfae2ae3257a1fb4949ae039e",
+  "unidades": 15,
+  "validador": {
+    "erros": [
+      "G12_A05: contexto com grafia deformada \"VO3\"",
+      "G12_A05: U001: grafia deformada \"VO3\" em titulo; usar a grafia adotada do FORMATO",
+      "G12_A05: U001: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO",
+      "G12_A05: U003: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO",
+      "G12_A05: U003: evidência não literal na transcrição",
+      "G12_A05: U004: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO",
+      "G12_A05: U005: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO",
+      "G12_A05: U007: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO"
+    ],
+    "avisos": []
+  }
+}

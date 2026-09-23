@@ -1,0 +1,127 @@
+{
+  "aula": "G02_A05",
+  "arquivo_sha256": "6a9cb4e103446c751e1efe45a3a707bcd6ebba49e12b39d51808fd934706a3f2",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "24d2296504061bc291401e8ca0c204434cfccc88c6911057ed73818465222230",
+    "2": "e18bd92a9b4347c00a5a0e94d0ef9bab1da7229376c202f0df8a9df6a8a027cb",
+    "3": "451c99477d22d37ae91ff6cf7ece4e46469a118cc9f01c67cf49b85ba4b0733e",
+    "4": "be428b114303db0aa833050ecc8c347cfa21a969087deb8c763675a4ba2b0f9c",
+    "5": "7527500786e2e601ffd9f324fe5a7221c1c8114cae0983c7ea493f1fd9b2ca4b",
+    "6": "c350ae30cb477b34f60c54c06900049754822d56d75460bf84dffe50bb75bcca",
+    "7": "521d262aeec818bb3875d4c963bde65772b367d259c002ed958f17df74b757bd",
+    "8": "e65f258398c0492670b1cf07384e0050178ca58bb1edac144c4609d6383640a5",
+    "9": "45669d4dd1afd3cb5760b0eb7f6ffb77a9a2440c0bdacce5c074dfb44a433818",
+    "10": "2f13ddf20df62b5cf0e8cecc7682841721be254a13256e5a86a482c883e80959"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, isso aqui é uma obrigação? Não",
+      "explicacao": "Conteúdo, faixa (33–92) e evidência conferem: só narrador e protagonista na VSL comum, doramas com personagens 100% trabalhados, e \"não é obrigação\". Ajuste menor: a fala tem ruído em volta. Logo antes diz \"Você precisa de personagens, tá bom?\", e logo depois \"Isso aqui eu preciso fazer\", que pode ser \"não preciso\" mal transcrito. A unidade escolhe o lado \"não obrigatório\" em silêncio, com confiança alta e sem nota sobre a ambiguidade. O lado escolhido tem apoio na pergunta \"é uma obrigação? Não\". Ideal: nota registrando as duas frases e confiança media."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "simplesmente são para criar um formato de novela e storytelling mais interessante na sua VSL.",
+      "explicacao": "A faixa é 91–181, mas a última frase do corpo (NPCs dão formato de novela e storytelling mais interessante) está em 188–196 s. \"O foco é 100% na pessoa que tem aquela dor\" começa em 180 s e termina em ~183 s, passando do fim. Entre 181 e 197 nenhuma unidade cobre. O restante (60%, 20% ambíguo, NPCs com participações rápidas, definição de NPC) está dentro da faixa e fiel. A ambiguidade \"O protagonista é 20%\" está preservada com nota, confiança media e \"pelo que se entende da fala\", o que é adequado. Efeito prático: quem for conferir pela faixa não encontra a frase final. Corrigir estendendo o fim para ~197."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você só precisa trabalhar um pouquinho melhor neles",
+      "explicacao": "Exemplo fiel (mãe do filho preso como protagonista, dor/perda de peso como antagonista, filho e delegacia como NPCs), atribuído ao exemplo do professor e sem número tratado como regra. Ajuste menor de faixa: a cláusula final da Lógica (\"trabalhar um pouquinho melhor neles\") está em 150,0–152,6 s e o fim é 150; são ~2,6 s fora, o resto está dentro. Estender o fim para ~153."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela não vai esperar que você venda algo no final pra ela",
+      "explicacao": "Fiel e atribuída (\"Segundo o professor\", \"Ele afirma\"). A condicoes deixa claro que a base não confirma eficácia nem originalidade. Faixa 197–231 cobre o trecho. Não vi número ou condição alterados."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Onde vai ter a oferta de construção.",
+      "explicacao": "A ordem roteiro → embasamento da história → plot twist com mecanismo único está na fala. O passo 4, \"oferta de construção\", vem na fala como \"Onde você vai colocar o seu mecanismo único (...) Onde vai ter a oferta de construção\": o \"onde\" liga a oferta ao mesmo momento do plot twist/mecanismo único, sem dizer \"depois\". A unidade a lista como quarta etapa sequencial, com confiança alta e sem nota. A leitura é plausível, mas a fonte é ambígua. A ambiguidade poderia ser preservada com nota e confiança media. Definição de mecanismo único vem do vocabulário do FORMATO."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Na segunda parte você vai receber todo o bônus da PLR,",
+      "explicacao": "Pacote (produto base, bônus de receita de 30 dias tipo PLR, aulas rápidas de exercício, bônus 3 incrível) confere, e o 99 reais está atribuído ao exemplo. Dois ajustes menores. (1) A última frase, \"na fala de venda diz que é incluído\", não está nesta aula; vem do vocabulário do FORMATO (G02_A09). Nesta aula a própria fala de venda lida diz \"todo o bônus da PLR\" e \"3 bônus incríveis\". (2) A fala diz \"Normalmente esse bônus vale o produto inteiro\"; a unidade escreve \"vale o produto inteiro\" sem o \"normalmente\". O efeito no uso é pequeno."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Quando você dizer isso pra ela na VSL, ela vai olhar e vai falar, realmente vale a pena, eu vou comprar agora, tá muito barato.",
+      "explicacao": "Exemplos de bônus (live, consultoria grátis, grupo de WhatsApp), contato direto com o expert, projetos e Airbnb com 15/30/60 min conferem com a fala. Ajuste menor: a última frase, \"O efeito esperado é o lead achar que vale a pena e que está barato\", é resultado da reação do lead e não está atribuída ao professor, ao contrário das frases anteriores (\"O professor diz…\"). Ideal: \"Segundo o professor, o lead vai achar…\"."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não, você vai falar com ela que o valor é 12 vezes de R$9,90,",
+      "explicacao": "Copy de exemplo tratada como exemplo, com condicoes dizendo que preço, garantia e credenciais são do texto fictício e não são fato nem régua. O corpo não repete números da copy. A sequência de entregas (mecanismo único, receitas com o que se tem em casa, exercício em casa, live por peso e altura, garantia sustentada pela experiência do autor fictício) confere com 7:47–9:24. A nota sobre a mistura de versões (\"vamos esquecer a palhaçada de quanto vale\" e 99 reais/7 dias, depois \"Não\" e 12 parcelas) é honesta e a confiança media é adequada."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que você não precisa falar de garantia",
+      "explicacao": "Dispensar garantia, valor e feedbacks quando a oferta tem os 3 bônus está na fala e a reação do lead é atribuída (\"Segundo ele\"). É tratada como preferência do professor em condicoes. A nota registra a tensão com a garantia citada na copy lida, e a confiança media cobre isso. A fala diz \"3 bônus incríveis\" e a unidade diz \"o último é incrível\"; a leitura é coerente com \"o bônus 3 sempre tem que ser o incrível\" e não muda o uso."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai ver uma VSL que eu vou criar",
+      "explicacao": "Limite correto: registra a promessa de VSL nas próximas aulas e a oferta do próprio curso (treinamento, bônus, aulas do método em outra temporada, WhatsApp pessoal para correção), e diz que não é orientação. perecivel true é adequado. A frase final do professor sobre \"vender sem conversa virada\" foi corretamente deixada de fora como promessa/oferta. Ajuste de redação (\"esse molde\") está em contrato."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 5 (menor): \"Depois do lead\" usa \"lead\" no sentido de início da VSL, sem explicar. Nas unidades 7 e 9 \"lead\" é o espectador/prospect. O FORMATO manda dizer qual sentido vale em cada unidade. Quem consulta a 5 sozinho pode ler \"lead\" como o prospect.",
+    "Unidade 10 (menor): \"aplicando esse molde\" e \"segue a mesma lógica\" dependem da aula, porque não dizem qual molde nem qual lógica (personagens, plot twist com mecanismo único, oferta de três bônus). Sozinha, a unidade fica vaga sobre o que a aula adia.",
+    "Contexto (menor): diz que a aula \"pressupõe que o aluno já conhece o lead, o plot twist e o mecanismo único, apresentados em aulas anteriores\". A fonte só diz que o lead foi fechado antes. Sobre mecanismo único o professor diz \"vou sugerir aqui para você agora\". Não há evidência de que plot twist e mecanismo único tenham sido apresentados antes.",
+    "Unidade 4 (sem apontamento): tema objecoes-e-credibilidade é defensável e não abre apontamento."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira (0–672 s) contra as 10 unidades. Nenhuma é sem-lastro ou desvio material, e não há material de apoio. A copy de exemplo (unidade 8) está tratada como exemplo e sem números virando régua. Apontei uma faixa-errada menor (unidade 2, frase dos NPCs fora da faixa) e ajustes menores nas unidades 1, 3, 5, 6 e 7 (ambiguidade não registrada, faixa curta, atribuição, sentido de \\\"incluído\\\") e em contrato (sentido de \\\"lead\\\", referência de aula). Procurei omissões em toda a fonte e não achei nenhuma que mude a decisão ou a execução, e nenhuma perecibilidade sem marca."
+}

@@ -1,0 +1,49 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T12:06:43+00:00",
+  "fim": "2026-09-22T12:10:39+00:00",
+  "duracao_ms": 234318,
+  "duracao_api_ms": 234291,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 25355,
+    "cache_creation_input_tokens": 5399,
+    "cache_read_input_tokens": 21280
+  },
+  "thinking_tokens": 22560,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.279406,
+  "esperas_por_limite": [],
+  "sistema_sha256": "73be75ee2ffb57d1a1fa7f2572421f2cfde0eac577fd21da717fd22fcc60dd6f",
+  "pacote_sha256": "68b0b8051e5b2b2920d335b928269f89e4d64f12ac30e7af0521bda85f279e94",
+  "aula": "G08_A10",
+  "rotulo": "lote-g08-g09",
+  "palavras_fonte": 1079,
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g08-g09/G08_A10.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "ff454f7ad49df3be21e5b7356ad5fce935aa2c911783cd154adb6c40a02006e1",
+  "unidades": 5,
+  "validador": {
+    "erros": [
+      "G08_A10: contexto com grafia deformada \"Rádio Cop\"",
+      "G08_A10: U002: grafia deformada \"Rádio Cop\" em corpo; usar a grafia adotada do FORMATO",
+      "G08_A10: U004: título fora de 1–80 caracteres"
+    ],
+    "avisos": []
+  }
+}

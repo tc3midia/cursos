@@ -1,0 +1,90 @@
+{
+  "aula": "G09_A03",
+  "arquivo_sha256": "82d6d3e529535e7c957aae31d0ec1f912d6bcc0230d5c2ddcf0e191ed8c6703a",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "ac5bb79972a52738c80297ffc911e07c7b27d0a13a0a8c8d76c68148a6635927",
+    "2": "f50758a70ead8e6c0216d84402e6c7c650e4135ea06ab83e5545bdeeb8812fdc",
+    "3": "523e359d2860d9431cebcecf8426a7869d0a0b81721b92fd9e43e0c8c3c0aa4b",
+    "4": "aad6b2a7f3f320f47b1f358d55edfdb446a31d15a270d41cd93b4101e7e41dca",
+    "5": "3270f7f9c03a04c64a90947bbe11e96b149dee8a7e31796dcf7f93e72b8a780f",
+    "6": "5716f32ce01cbb22aee3efac1a63500b31d02c65dc51bdedb5b2662b12b1fed8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos colocar o Canva para criar o que está no esboço",
+      "explicacao": "A ordem e a função de cada ferramenta (Canva para criar, ElevenLabs para locução, CapCut para editar) correspondem exatamente ao que o professor descreve dentro da faixa 79.5–112.62 ('Eleven Labs, vamos utilizar para a locução'; 'E o CapCut vamos utilizá-lo para a edição'; 'E depois vamos editar a criação junto com a locução'). Sem diferença de número, condição ou sentido."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lembrando que o formato que eu vou ensinar a fazer a edição, ele vale para VSLs e criativos.",
+      "explicacao": "A abrangência declarada (VSL e criativo, tráfego orgânico e pago) reproduz fielmente a fala, sem generalizar além do que o professor diz nem omitir parte da frase."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "caso alguém queira colocar uma voz que não seja da própria pessoa",
+      "explicacao": "A condicionalidade do uso do ElevenLabs (alternativa à gravação com a própria voz, que o próprio professor diz fazer às vezes) está preservada com fidelidade, incluindo a atribuição ao professor de alternar entre as duas opções."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Largura 1920 Por altura 1080",
+      "explicacao": "As três dimensões citadas (post 1080x1080, stories 1080x1920 via preset ou tamanho personalizado, VSL/YouTube 1920x1080 por inversão dos valores) e a lógica de que o preset e a configuração manual dão o mesmo resultado batem com a fala dentro da faixa declarada."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Colocamos o texto aqui e ele vai literalmente falar aquilo que a gente escreveu",
+      "explicacao": "Descrição fiel do uso básico do ElevenLabs (digitar texto e a ferramenta gera a fala lendo esse texto), sem acréscimo de passos não ditos."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e também essa não é a ideia do treinamento",
+      "explicacao": "Reflete fielmente a declaração do professor de não aprofundar a configuração de dimensões por ser simples e fora do foco do treinamento, e de adiar a demonstração prática do Canva e do CapCut para a próxima aula, ambos ditos dentro da faixa declarada."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 30,
+      "trecho_fonte": "Como eu prometi, são somente duas ferramentas que utilizamos, tá? Tem uma a mais, que é o Eleven Labs, caso alguém queira colocar uma voz que não seja da própria pessoa.",
+      "descricao": "A fala abre a aula enquadrando o processo como 'somente duas ferramentas' (implicitamente Canva e CapCut, para criação e edição), com o ElevenLabs sendo 'uma a mais' só para quem quiser voz diferente da própria. Nenhuma unidade preserva essa moldura de duas ferramentas essenciais mais uma opcional; a unidade 1 passa direto a apresentar Canva, ElevenLabs e CapCut como os três passos fixos e ordenados do processo, e a unidade 3 registra a condicionalidade do ElevenLabs isoladamente, sem conectar com a frase inicial de 'duas ferramentas prometidas'.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar só a unidade 1 pode entender que usar o ElevenLabs é etapa obrigatória da sequência ensinada, quando a fala inicial sugere que ele é um extra condicional; o dado prático (gravar com a própria voz é alternativa válida) ainda está preservado na unidade 3, o que limita o efeito a uma questão de enquadramento, não de execução."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "As seis unidades desta aula curta são fiéis à fala, com faixas de tempo alinhadas com precisão aos trechos citados (limites de início/fim batem exatamente com fronteiras de segmentos da transcrição) e perecibilidade corretamente marcada em todos os casos que envolvem Canva, ElevenLabs ou CapCut. Não há sem-lastro, desvio ou faixa-errada; nenhuma unidade se apoia em resíduo de silêncio (as legendas de silêncio no fim da transcrição foram corretamente ignoradas). A única lacuna encontrada é de gravidade menor: a fala abre dizendo que usará 'somente duas ferramentas', com o ElevenLabs sendo 'uma a mais' condicional, e nenhuma unidade preserva essa moldura, embora a unidade 3 já registre separadamente a alternativa de gravar com a própria voz. Não há problemas de contrato, de perecibilidade nem de material (a aula não tem material de apoio, e nenhuma unidade usa `fonte: material`)."
+}

@@ -1,0 +1,25 @@
+{
+  "aula": "G09_A04",
+  "arquivo_sha256": "8520f9103fc483ae73e4b1a69b6bb9e25e832c62ff06612b8a221c667b1260c0",
+  "inspecao_sha256": "ac696c1d4b3dc6881a93f58dc19ddc6fe34e85f559c5f0c9e065f53be6198213",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Quatro unidades, dentro da faixa esperada; procedimento com Pré-condição e seis passos numerados; regua com número; limites com tarefas vazias; confianca baixa acompanhada de nota na unidade 3. Nada a corrigir.",
+  "fidelidade": "Inspeção cobre as 4 unidades, sem citações não literais. U1, U2 e U4 lastreadas com trecho literal; os três números da U2 (10 mil, 5 mil, 100 mil) e a condição do cancelamento batem com a fala, e os dados pessoais ficam atribuídos ao professor. U3 tem desvio de gravidade menor comprovado: o corpo diz que o professor localiza os botões dizendo 'aqui' e 'no canto', mas 'no canto' foi dito em 109–111s sobre o menu Voices, fora da faixa 177–213s. A conclusão da unidade (rótulo dos botões só existe na tela) permanece correta, então não muda a decisão de quem consulta: ajuste menor, não veto. Em U1, o passo 6 chama de 'botão de confirmação' o que a fala chama de 'botão preto' e o passo 4 traz uma razão ('formatos voltados a outros idiomas') que o inspetor não cita; nenhum dos dois altera a ação (usar Multilingual 1 ou 2, gerar, baixar), e a U3 já registra como limite o que a fala não nomeia. Copy de exemplo (remédio de emagrecer) não foi tratada como fato. Resíduos de silêncio excluídos.",
+  "cobertura": "Inspetor declara leitura integral e não localiza omissão. O conteúdo didático da aula (trocar voz, escolher pelo efeito emocional, ativar modelo multilíngue, gerar e baixar; limite do plano gratuito; fecho sobre Canva/CapCut/som) está nas unidades. Aula de tela com poucas unidades e um limite bem escrito para os botões que só aparecem na imagem é o resultado esperado pela rubrica.",
+  "perecibilidade": "Todas as unidades com perecivel: true, coerente com plataforma ElevenLabs, plano gratuito/pago e estrutura do curso. Nenhum perecível escondido em unidade geral: a U4 é geral por tratar da sequência das aulas, e já está marcada como perecível.",
+  "aplicabilidade": "U1 se sustenta sozinha: pré-condição explícita, passos executáveis, tipo/tema/tarefa/plataforma corretos. U2 como regua é defensável (ferramenta também seria); classificação discutível, ajuste menor no máximo. U3 e U4 cumprem o papel de limite sem depender da aula. Dois detalhes de redação não mudam o uso: 'lead' na U1 sem dizer o sentido (o contexto deixa claro que é o prospect) e o rótulo 'botão de confirmação' que a fala não dá.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U3: remover 'no canto' do corpo (\"além de dizer 'aqui' e 'no canto'\"). Inspetor comprova que a expressão foi dita em 109–111s sobre o menu Voices, não na faixa 177–213s. Manter só 'aqui'.",
+    "U1, passo 6: 'botão de confirmação' é função que a fala não nomeia; a fonte diz 'botão preto'. Trocar por 'o botão que o professor aponta na tela (a fala o chama só de \"botão preto\")' e cortar 'automaticamente' se a fala não disser isso. Evita contradizer a própria U3, que registra que a função desse botão não é nomeada.",
+    "U1, passo 4: a razão 'que são formatos voltados a outros idiomas' não aparece nas citações do inspetor. Manter só se for frase do professor; caso contrário reduzir a 'o professor manda evitar os modelos Eleven English e Eleven Turbo'.",
+    "U1, passo 2: dizer o sentido de 'lead' na primeira ocorrência ('no lead, o prospect') ou usar 'no público', conforme o vocabulário do FORMATO que pede indicar qual sentido vale.",
+    "U2: tipo regua e ferramenta são ambos defensáveis para o limite de caracteres do plano gratuito; manter como está. Opcional: o uso pessoal de 5 mil caracteres é testemunho e pode ser cortado sem perda."
+  ],
+  "proximo": "Publicar G09_A04 como revisado. Os ajustes menores podem ser aplicados em passagem editorial futura sem abrir ciclo; ao aplicá-los, incrementar versao das unidades tocadas, rodar base_fcc.py e, se o corpo da U1 mudar, refazer a conferência de lastro só dessa unidade (o hash muda). Nenhuma prova adicional é necessária para este veredito."
+}

@@ -1,0 +1,75 @@
+{
+  "aula": "G07_A03",
+  "arquivo_sha256": "1efdecf326d8b515c19bba77aa4ecef0f586d9180c0e179a4a9d4379e425df36",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "4bff2f3e1efecaf2b5848bd63d7f4cd3fe00be544685a6e10aadf11c6c5efd83",
+    "2": "b0e09665435e9509057b716c4b13c3aef25537e4b91f7f27569fee9a223dfe54",
+    "3": "f74f19448595f473abc24ed11d5db1746437554bb1aea6f71b1e1ffeee786908",
+    "4": "8cc7783898ea8b97e292b1a66f9423c310e5fc74b8ff56486d8f117b928e327f",
+    "5": "d8e59e814aa7b3efc4e60b5f639fbfa08da1b10ffbf44f822778e32538b09b60"
+  },
+  "citacoes_nao_literais": [],
+  "contrato": [
+    "Unidade 2 (tipo \"conceito\") traz a tarefa \"analisar-concorrencia\", mas o corpo não orienta auditoria de anúncio/VSL de concorrente — é uma explicação de mercado (por que carros seminovos são intercambiáveis entre lojas) que sustenta a escolha de autoridade no roteiro do anúncio. \"roteirizar-anuncio\" (tarefa já usada nas unidades 3 e 4 para conteúdo irmão) ou tipo \"regra\" descreveriam melhor o uso. Classificação discutível, mas pode levar o agente a procurar por \"analisar concorrência\" e não encontrar orientação de auditoria.",
+    "Unidade 5 usa tema \"curso-e-recursos\" para uma referência a episódio futuro sobre a copy de sapatos. Como o assunto de fundo é copy de anúncio para negócio local (sapatos), tema \"anuncio-negocio-local\" seria mais direto para quem busca por assunto em vez de por estrutura do curso. Classificação defensável dos dois lados (ajuste menor)."
+  ],
+  "material": [],
+  "omissoes": [],
+  "perecibilidade": [],
+  "resumo": "Aula curta (~2min30 de conteúdo didático) que contrapõe sapatos (precisa de muitas imagens, por atender dor e desejo) com carro seminovo e prestação de serviço (produto/serviço similar entre concorrentes, então quem decide a venda é autoridade/confiança). As cinco unidades são no geral bem lastreadas na fala, sem sem-lastro, sem faixa-errada e sem problema de perecibilidade (todas já corretamente marcadas perecivel:true); não há material de apoio nesta aula. Encontrei dois desvios menores de atribuição/precisão: a nota da unidade 1 atribui à \"aula 8\" a explicação do motivo do volume de imagens de sapato, quando a fala (ambígua, sem pontuação) trata a aula 8 como a aula que fala sobre carro/autoridade, não como continuação da explicação sobre sapatos; e a unidade 5 troca a referência específica \"aula 5\" por \"um episódio seguinte\", perdendo precisão sobre onde a copy de sapatos será tratada. Percorri a transcrição inteira do início ao fim (abertura, os quatro blocos de conteúdo e o fechamento pessoal) e não localizei conteúdo didático substantivo fora das unidades; o trecho de testemunho pessoal do professor sobre a temporada e o resíduo final (\"E aí\") foram corretamente deixados de fora.",
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "você vai entender o porquê, tá, na próxima aula e na aula 8 que a gente fala sobre carro, a gente tem que mostrar a autoridade, porque",
+      "explicacao": "O corpo e a condição sobre sapatos (dois perfis de comprador, necessidade de muitas imagens) estão bem lastreados. O problema está na nota, que afirma com confiança alta que o professor 'promete detalhar melhor o motivo desse volume de imagens... inclusive no episódio sobre anúncios de carro'. A fala é um trecho corrido sem pontuação clara: 'você vai entender o porquê, tá, na próxima aula e na aula 8 que a gente fala sobre carro, a gente tem que mostrar a autoridade'. A leitura mais provável é que 'entender o porquê' das fotos de sapato vem na PRÓXIMA aula, enquanto a aula 8 é apresentada como a aula que fala de CARRO (autoridade), um tópico diferente — não uma continuação da explicação sobre imagens de sapato. A nota trata essa leitura ambígua como fato certo em vez de registrar a incerteza (com confiança mais baixa), o que pode levar quem consulta a procurar a explicação sobre fotos de sapato na aula errada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a única diferença é a confiança as pessoas compram hoje um carro no semi novo por conta da confiança",
+      "explicacao": "O corpo reproduz fielmente a lógica da fonte: mesmo carro (exemplo do Palio LX 1.0 2008 com 100 mil km) aparece em lojas diferentes, a diferenciação de produto é praticamente nula e o fator decisivo é a confiança, motivada por preço e receio de problema de manutenção no carro usado. Nenhum número, condição ou atribuição foi alterado; o exemplo do Palio é preservado como ilustração, não como regra."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas eu não faria dessa forma tá eu iria diretamente na confiança tá bom em cima então muita autoridade em cima desses anúncios aí você esquece um pouco carro e mostra autoridade",
+      "explicacao": "A unidade preserva corretamente a ressalva pessoal do professor ('eu não faria dessa forma') como preferência dele, e não como lei universal, contrastando-a com a prática de outras empresas de estender a garantia para um ou dois anos. A recomendação de priorizar autoridade sobre carro está corretamente atribuída e sem alteração de número ou condição."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "nos serviços é a mesma coisa autoridade mostrar para o seu lead seu futuro lead o empreendedor que você é uma pessoa é a rada de serviço ou seja você não tem tempo você é uma pessoa que tem resultados e Acima de tudo, é uma pessoa que traz resultados",
+      "explicacao": "O corpo generaliza a frase 'nos serviços é a mesma coisa' (equiparando à lógica do carro) para afirmar explicitamente que 'em qualquer lugar que o lead procure, ele já encontra a opção que quer' — frase que a fonte só formula literalmente para carro ('todo lugar que a pessoa vai tem um carro que ela quer'), não a repete nesses termos para serviço. É uma extrapolação razoável, autorizada pelo próprio 'é a mesma coisa' do professor, mas não é citação direta para serviços; o efeito prático é pequeno porque a conclusão central (autoridade decide a venda) está de fato afirmada na fala."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Na aula 5, a gente já vai direto para a copa dos sapatos",
+      "explicacao": "O corpo substitui a referência numérica específica da fonte ('Na aula 5') por 'um episódio seguinte da mesma série', perdendo a precisão de qual episódio tratará da copy de sapatos. Quem consulta a unidade sabe que o conteúdo foi adiado, mas não sabe que é especificamente a aula 5, o que dificulta localizar o episódio certo dentro da série. O tratamento cauteloso da grafia 'copa dos sapatos' (possível erro de transcrição para 'copy', termo fora da tabela de grafias do curso) está bem sinalizado em nota, evitando reproduzir o termo incerto no corpo."
+    }
+  ]
+}

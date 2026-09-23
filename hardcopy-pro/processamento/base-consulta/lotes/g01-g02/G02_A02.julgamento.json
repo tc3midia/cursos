@@ -1,0 +1,66 @@
+{
+  "aula": "G02_A02",
+  "arquivo_sha256": "8ef5ea27e031527624f203ee05abea1b18f5f63300c210a5b50c016baae60119",
+  "inspecao_sha256": "8945c1b9a21c31ae263655a0e377c14f610670b227638f17e2bd2ecc4e315410",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "perecibilidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos. Sem veto. Os quatro itens que o inspetor listou em `contrato` tratam de classificação e de jargão. Julguei-os em aplicabilidade.",
+  "fidelidade": "Veto por duas causas.\n\n1. Faixa errada nas unidades 2 e 3, isto é, 2 de 11 (18%), acima do teto de 10% da rubrica. Os dois apontamentos trazem trecho literal e tempos. Nenhum está em `citacoes_nao_literais`.\n   - Na unidade 2, metade do corpo está entre 177,56 e 193,56 s, e o `fim` é 180.\n   - Na unidade 3, a frase que sustenta o título e a Situação está entre 74,48 e 78,94 s, e o `inicio` é 78,9. A diferença é de poucos segundos, mas a frase fica de fato fora da faixa.\n   - A regra da rubrica não tem gradação de gravidade. A correção é mecânica e não mexe no corpo.\n\n2. Na unidade 10, um trecho mal transcrito foi resolvido em silêncio, com `confianca: alta`, e o sentido mudou.\n   - A fonte literal traz o contraste \"não é a pessoa / E sim o que as pessoas vão achar\". O corpo virou soma: \"além da frustração com o outro, pesa…\".\n   - O inspetor classificou como lastreada, com gravidade menor. Discordo da gravidade. Sentido adulterado é falha material pela rubrica. Fonte mal transcrita só passa quando a unidade preserva a incerteza com `nota` e confiança adequada, e esta não preserva.\n\nO restante está lastreado. Não há sem-lastro, copy de exemplo tratada como fato, resíduo de silêncio nem grafia deformada. As ressalvas do professor estão preservadas: a da unidade 7 (\"não estudei muito\") e a das unidades 6 e 8 (\"não se apegue ao nicho\").\n\nAs inferências do extrator nas linhas de Lógica (unidades 3, 5, 6 e 10) e o \"cerca de 90%\" da unidade 5 ficam como ajuste menor.",
+  "cobertura": "O inspetor declara alcance integral e busca de omissões na transcrição inteira, que tem cerca de 1.500 palavras. Não achou nenhuma. As 11 unidades cobrem:\n- a régua de tempo;\n- o sentido de lead;\n- os quatro tipos de início;\n- os quatro exemplos de dor;\n- a jogada dor → mecanismo único;\n- o `limite` com o documento prometido e as partes seguintes.\n\nSem veto.",
+  "perecibilidade": "Veto na unidade 6. A unidade está com `perecivel: false`, mas carrega uma observação sobre o estado do mercado, e essa observação é a própria justificativa da escolha:\n- o corpo diz que o professor nunca viu essa dor \"em nenhuma VSL\";\n- a Lógica diz que a dor é escolhida \"por ser ainda pouco usada\".\n\nIsso equivale ao \"0% utilizam\" da unidade 5, que o mesmo arquivo marca como perecível e situa \"na época da gravação\". É perecível escondido em unidade marcada `geral`.\n\nAs unidades 3, 5, 9 e 11 estão marcadas corretamente. Nas demais não vi tela, preço, recurso nem número de mercado sem a marca.",
+  "aplicabilidade": "Sem veto. As unidades se sustentam sozinhas:\n- os exemplos têm Situação, O que aconteceu e Lógica, com o nicho e o perfil em `condicoes`;\n- a unidade 1 deixa claro que os 2 minutos são teto, não mínimo;\n- a unidade 11 é um `limite` bem escrito, com `curso-e-recursos` e `perecivel: true`.\n\nOs pontos abaixo são discutíveis, mas não levam o agente ao lugar errado. Ficam como ajuste menor:\n- Unidade 4 como `estrutura`, quando a fonte dá alternativas. O corpo já diz \"escolhidos conforme o produto\".\n- A tarefa `gerar-variacoes-de-criativo` na unidade 3.\n- A unidade 5 como `conceito`.\n- As unidades 6, 7, 8 e 10 usam \"lead\", \"mecanismo único\" e \"plot twist\" sem explicar. Tema, tarefa e contexto da frase já indicam que se trata de abertura.\n- A unidade 9 é uma regra categórica sem o escopo de lead por dor em `condicoes`. O próprio corpo fala em \"dor semelhante\", e a fonte liga a jogada à primeira temporada. Não há prova de que a fonte restrinja o alcance, então fica como ajuste menor.\n\nNenhuma técnica da aula contorna política de plataforma.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        2,
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Unidade 2: a segunda frase do corpo (pegar na dor para a pessoa dar uma chance e continuar assistindo) está em 177,56–193,56 s. O trecho literal \"Fala, poxa, eu vou dar uma chance\" está em 187,2–191,74 s, e o `fim` é 180. Unidade 3: a frase \"Esse início é o que define se a VSL é boa ou não.\" está em 74,48–78,94 s, e o `inicio` é 78,9. Essa frase sustenta o título e a Situação. São 2 de 11 unidades com faixa errada (18%), acima dos 10% da rubrica.",
+      "impacto": "A faixa é o caminho de verificação para o agente, para a página derivada (hh:mm:ss) e para a próxima inspeção. Quem conferir pela faixa não encontra metade do corpo da unidade 2 nem a afirmação que dá título à unidade 3.",
+      "mudanca_minima": "Unidade 2: `fim` ≈ 194. Unidade 3: `inicio` ≈ 74,4. Incrementar `versao` nas duas. Não alterar o corpo.",
+      "criterio_de_aceite": "Unidade 2 com `fim` ≥ 193,6. Unidade 3 com `inicio` ≤ 74,5. Corpo das duas inalterado e `versao` incrementada. `base_fcc.py` com zero erros. O inspetor reclassifica as duas como lastreadas na faixa, o que leva a taxa de faixa errada do arquivo a 0 de 11."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        10
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"O que não te frustra mais não é a pessoa / E sim o que as pessoas vão achar\". O corpo diz \"além da frustração com o outro, pesa o que os demais vão achar\", com `confianca: alta` e `nota: null`. A construção \"não é… e sim\" da fonte é um contraste, e a unidade a transformou em soma. O começo da frase está mal transcrito (\"não te frustra mais\") e a unidade não registra a incerteza.",
+      "impacto": "Quem escreve um lead de dor de traição a partir da unidade escolhe a alavanca emocional errada. A fala aponta o julgamento dos outros como a frustração principal, não a pessoa que trai. A unidade divide o peso entre os dois e afirma isso com confiança alta, sem avisar que o trecho é duvidoso.",
+      "mudanca_minima": "Reescrever só essa frase do corpo para o contraste que a fonte dá. Segundo o professor, o que mais frustra não é a pessoa, e sim o que os outros vão achar. Preencher `nota` com a forma como a transcrição grafou o trecho e a leitura adotada. Baixar para `confianca: media`. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo não contém mais a leitura aditiva (\"além da frustração com o outro\"). A frase expressa o contraste entre a pessoa e a opinião dos outros, atribuído ao professor. `nota` não é nula e cita a grafia da transcrição. `confianca` é `media`. O inspetor confirma que a leitura é compatível com o trecho na faixa 497,3–570. O validador retorna zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        6
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "Trecho literal do inspetor: \"Eu nunca vi utilizando em nenhuma VSL\". O corpo diz \"O professor diz nunca ter visto essa dor em nenhuma VSL\" e a Lógica diz \"a dor é escolhida por ser ainda pouco usada\". A unidade está com `perecivel: false`. A unidade 5 do mesmo arquivo marca observação equivalente (\"0% utilizam\") como perecível e a situa na época da gravação. O inspetor nota que \"pouco usada\" como motivo da escolha é inferência do extrator.",
+      "impacto": "Um agente que trata `perecivel: false` como orientação durável lê \"ainda pouco usada\" como o estado do mercado de quando consulta. Ele escolhe o ângulo por achar que não está saturado, quando isso era uma observação pessoal do professor na data da gravação.",
+      "mudanca_minima": "Marcar `perecivel: true`. Acrescentar a `condicoes` que \"nunca vi em nenhuma VSL\" é observação do professor na época da gravação. Na Lógica, trocar \"por ser ainda pouco usada\" por uma atribuição: o professor diz nunca tê-la visto em VSL. Incrementar `versao`.",
+      "criterio_de_aceite": "Unidade 6 com `perecivel: true`. `condicoes` situa a observação de mercado como do professor e da época da gravação. A Lógica não afirma estado de mercado sem atribuição. O corpo não usa marcador temporal proibido. O validador retorna zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 9: registrar em `condicoes` que a jogada aparece no desenvolvimento do lead por dor e que a aula lista outros três tipos de início (unidade 4). A classificação do tema, entre `desenvolvimento-e-conexao` e `abertura-e-gancho`, é discutível.",
+    "Unidade 4: `tipo: estrutura` para alternativas que a fonte dá com \"ou… ou\". `conceito` seria mais fiel. A lista numerada sugere uma sequência que a fonte não dá, mas o corpo já diz que os tipos são escolhidos conforme o produto.",
+    "Unidade 5: tirar \"cerca de\", porque a fonte diz 90% sem aproximação. A frase final (\"serve para ver quais tipos estavam saturados…\") é inferência do extrator. O tipo `conceito` é discutível.",
+    "Unidade 3: a tarefa `gerar-variacoes-de-criativo` é discutível para reescrita de lead de VSL. Trocar \"conversão atual\" por uma formulação situada na gravação. A Lógica (\"onde vale testar e iterar\") é inferência do extrator.",
+    "Unidades 6, 8 e 10: dizer que \"lead\" ali é o início da VSL.",
+    "Unidades 6 e 7: explicar \"mecanismo único\" e \"plot twist\" na primeira ocorrência, com as definições do vocabulário do FORMATO.",
+    "Unidade 7: \"se não emagrecer, não cabe no vestido\" está entre aspas, mas é paráfrase. Tirar as aspas.",
+    "Unidade 10: a Lógica final (\"o produto entra como saída para o medo de ser traído\") é inferência do extrator. Atribuir ao professor ou suavizar ao corrigir a F2."
+  ],
+  "proximo": "1. Enviar ao redator de correções a lista F1–F3, que afeta as unidades 2, 3, 6 e 10. São correções locais: duas faixas, uma frase com `nota` e `confianca`, e uma marca `perecivel` com `condicoes` e Lógica.\n2. Depois, fazer conferência focal só nessas quatro unidades, porque o hash delas muda.\n3. As unidades 1, 4, 5, 7, 8, 9 e 11 preservam a evidência se não forem tocadas.\n4. Se o redator aproveitar a passada para aplicar ajustes menores, as unidades alteradas entram na conferência focal. Os ajustes menores não são critério de aceite.\n5. Não há motivo para reextrair a aula. O conteúdo é fiel e a cobertura está completa."
+}

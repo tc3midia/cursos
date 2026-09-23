@@ -1,0 +1,342 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G11_A03",
+  "titulo": "Aula 3 - Como Escrever Anúncios Que Vendem com IA (Sem Parecer Genérico)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é a terceira da trilha Hard IA (Primeira Temporada) do curso Hardcopy Pro e ensina a usar inteligência artificial para melhorar e variar anúncios que o aluno já sabe estruturar, e não a escrever copy de anúncio do zero.",
+    "Ela pressupõe que o aluno já fez o treinamento Hard Ads, incluído no Hardcopy Pro, e já tem um mecanismo único definido para o produto que quer anunciar.",
+    "O professor demonstra ao vivo, usando um agente de inteligência artificial montado sobre o ChatGPT em aula anterior do curso, como pedir, avaliar e corrigir repetidamente um anúncio fictício de um produto de emagrecimento inventado para ilustrar o processo.",
+    "Ele insiste que a IA deve funcionar como extensão da criatividade do aluno, nunca como substituta dela, e mostra como gerar três variações de anúncio com papéis diferentes para um mesmo teste.",
+    "A aula não repete como montar o agente de IA usado como exemplo nem ensina copywriting de anúncio do zero, e deixa para a aula seguinte o detalhamento de como escrever a abertura das variações, no que o professor chama de teste de hook."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Esta aula não ensina copy de anúncio do zero",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 25,
+      "fim": 126,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor avisa que esta aula não ensina a escrever copy de anúncio do zero. Segundo ele, isso é ensinado no treinamento Hard Ads, incluído para quem comprou o Hardcopy Pro, que cobre copy de anúncio para vários nichos (do emagrecimento ao cabelo) com exemplos e variações prontas. Quem ainda não sabe montar hook, variação e os atos de um anúncio deve assistir ao Hard Ads antes de seguir para o conteúdo desta aula, que é só sobre usar inteligência artificial para melhorar anúncios já pensados.",
+      "evidencia": "nessa aula eu não vou te ensinar como criar cópia de anúncio",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Estrutura de um anúncio: gancho, desenvolvimento conectado e CTA com dúvida",
+      "tipo": "estrutura",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-gancho-de-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 136,
+      "fim": 181,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Gancho: crie um bom início nos três primeiros segundos do anúncio, pelo menos.\n2. Desenvolvimento: conecte esse início ao produto contando uma história totalmente diferente do que você quer vender e só depois ligando-a ao produto.\n3. CTA: feche com um convite que coloque dúvidas na cabeça da pessoa, para que ela toque em 'Saiba mais' e vá resolver essas dúvidas em seguida.",
+      "evidencia": "eu preciso ter um bom gancho no início, nos três primeiros segundos",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Agente de IA para anúncios foi criado em aula anterior",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 248,
+      "fim": 263,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Os anúncios de exemplo desta aula são gerados dentro de um agente de inteligência artificial, chamado pelo professor de 'Hard Copy Criação de Ads', montado sobre o ChatGPT em uma aula anterior do curso. Esta aula pressupõe esse agente já configurado e não repete o processo de criação dele.",
+      "evidencia": "aquele agente virtual que a gente criou na aula passada",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Refine o anúncio gerado pela IA linha por linha",
+      "tipo": "procedimento",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente",
+        "refinar-saida-de-ia"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 273,
+      "fim": 369,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: você já pediu para a IA (no exemplo, um agente sobre o ChatGPT) escrever um anúncio completo a partir do seu tema e mecanismo único.\n1. Leia o resultado frase por frase, avaliando separadamente o gancho, o desenvolvimento e o CTA.\n2. Marque o que está fraco, genérico ou cheio de enrolação, em vez de aceitar a primeira versão.\n3. Devolva à IA um apontamento específico do que corrigir, junto com um exemplo do padrão de frase que você quer.\n4. Peça uma nova versão e repita a avaliação, porque a primeira geração normalmente entrega um início e um CTA fracos.",
+      "evidencia": "a gente briga literalmente com o chat de PT",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Não mencione o nome do produto no anúncio",
+      "tipo": "regra",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 487,
+      "fim": 500,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Os anúncios do professor não citam o nome do produto ou do mecanismo (no exemplo da aula, um nome como 'Neuro Slim Protocolo'). Em vez disso, o anúncio menciona o que o lead quer, isto é, o desejo ou o resultado que a pessoa busca, deixando o nome do produto para depois, fora do próprio anúncio.",
+      "evidencia": "meus anúncios não mencionam nome de produto",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Teste o mesmo prompt em aba anônima para comparar com o agente treinado",
+      "tipo": "procedimento",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente",
+        "diagnosticar-copy-ou-anuncio"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 536,
+      "fim": 566,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: você tem um agente de IA já treinado para criar anúncios e quer conferir se ele entrega algo melhor do que a ferramenta comum.\n1. Copie o mesmo prompt usado no agente treinado.\n2. Abra uma aba anônima do navegador e acesse o ChatGPT sem histórico nem treinamento prévio.\n3. Cole o mesmo prompt e compare o resultado bruto com o que o agente treinado entregou.\nNo exemplo da aula, a versão sem treino saiu mais fraca e mais genérica, o que o professor usa para reforçar a importância de treinar o agente.",
+      "evidencia": "pega esse prompt aqui e joga numa guia compartilhada, numa guia anônima",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Teste pelo menos 3 anúncios por tema",
+      "tipo": "regua",
+      "tema": "teste-de-criativos",
+      "tarefas": [
+        "subir-campanha-de-teste",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 722,
+      "fim": 730,
+      "condicoes": "Descrito pelo professor como prática das operações do próprio Hard Copy ('aqui nas operações da hardcopy'), não apresentado como número fixo de mercado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao testar um novo tema ou mecanismo único em anúncio, monte pelo menos 3 variações de anúncio antes de decidir qual funciona melhor, em vez de subir só uma versão.",
+      "evidencia": "a gente faz um teste de pelo menos 3 anúncios",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Deixe a pergunta do anúncio em aberto até o final",
+      "tipo": "regra",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-gancho-de-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 940,
+      "fim": 954,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao construir uma afirmação de abertura que gera uma pergunta na cabeça do lead, não deixe a IA responder essa pergunta no meio do anúncio. Instrua-a a deixar a resposta em aberto até o final, para que a curiosidade sustente a atenção da pessoa até o fim do vídeo.",
+      "evidencia": "eu preciso que ela fique em aberto até o final do anúncio",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Quando a IA repete o mesmo erro, edite o texto na mão",
+      "tipo": "decisao",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "refinar-saida-de-ia"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 961,
+      "fim": 986,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando você já pediu a correção de forma explícita e a IA insiste no mesmo erro (no exemplo da aula, continuava revelando uma resposta que deveria ficar em aberto), pare de insistir só pelo prompt. Copie o texto gerado, cole em outro lugar e reescreva à mão a parte problemática, seguindo o resto da copy normalmente.",
+      "evidencia": "a gente vai jogar pra cá, vai dar um CTRL V",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Três papéis diferentes para os anúncios de um mesmo teste",
+      "tipo": "estrutura",
+      "tema": "teste-de-criativos",
+      "tarefas": [
+        "gerar-variacoes-de-criativo",
+        "subir-campanha-de-teste"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1207,
+      "fim": 1257,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Um anúncio de narrativa, contando uma história conectada ao mecanismo único do produto.\n2. Um segundo anúncio com foco maior no próprio mecanismo único, mostrando mais diretamente o que está acontecendo.\n3. Um terceiro anúncio em formato de convite, mais formal, no padrão comum do mercado.\nA ideia de rodar os três juntos não é escolher de antemão qual formato é o melhor, mas testar e comparar o resultado de cada um.",
+      "evidencia": "um anúncio de narrativa outro anúncio de mecanismo único",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Peça à IA para escrever como uma autoridade em primeira pessoa",
+      "tipo": "regra",
+      "tema": "objecoes-e-credibilidade",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "criar-prompt-ou-agente"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 1323,
+      "fim": 1352,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao pedir uma versão mais formal do anúncio, peça para a IA escrever em primeira pessoa como se fosse uma autoridade (no exemplo da aula, um médico) explicando o problema diretamente para o lead, e peça para enxugar o texto. Isso aproxima o anúncio da linguagem de autoridade e deixa o texto mais curto e direto.",
+      "evidencia": "como se um médico estivesse explicando para a sua paciente",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "IA é extensão da criatividade, não substituta dela",
+      "tipo": "regra",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente",
+        "refinar-saida-de-ia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1353,
+      "fim": 1401,
+      "condicoes": "Vale para a capacidade da inteligência artificial na época da gravação, segundo o próprio professor.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Junte sua criatividade com a inteligência artificial; nunca deixe que ela crie o anúncio inteiro sozinha. Toda a base que a IA usa para gerar um bom anúncio é a ideia que a própria pessoa entregou a ela antes; segundo o professor, a IA ainda não tem, por conta própria, a capacidade de criar uma ideia tão boa quanto a de quem já domina o processo criativo do anúncio.",
+      "evidencia": "de maneira alguma você faça com que a inteligência artificial faça tudo pra você",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Esta aula não ensina a escrever a abertura das variações",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1444,
+      "fim": 1453,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor declara que esta aula não mostra como escrever a abertura (o gancho) das variações de anúncio feitas a partir de um anúncio já validado; isso, segundo ele, fica para a próxima aula do curso.",
+      "evidencia": "na próxima aula eu vou te mostrar como que você vai criar a abertura desses anúncios",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Teste de hook: variações sobre um anúncio já validado",
+      "tipo": "conceito",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1453,
+      "fim": 1467,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Depois que um anúncio já foi validado, criar novas versões variando o início dele é o que o professor chama de teste de hook: pegar um anúncio que já funciona e testar diferentes aberturas mantendo o restante da estrutura.",
+      "evidencia": "chamamos isso de teste de hook",
+      "versao": 1
+    }
+  ]
+}

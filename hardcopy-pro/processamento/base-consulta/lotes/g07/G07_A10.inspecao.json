@@ -1,0 +1,65 @@
+{
+  "aula": "G07_A10",
+  "arquivo_sha256": "9deb3d2206b80a8cea97a1e229501951b4fadf1ef2a19e38a81b903770c9270a",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "27c4df2781e0a1f9f45eb8c4943a9ca21724dbadf71a36594687b7ae31ba3b1d",
+    "2": "a65d6d23a201db0fe5c75fd0a60fda5ea3aa3d26d4d952632685a4596720e7d7",
+    "3": "00ebc6e0d6a4e14da99bb04e5335360e1a6f0a2f26a72e6c70c214f69c532fb7",
+    "4": "766c432626e9dac05b3df57ff8d7410863e6f151bce84604d1d9bb921afd688d"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tiramos o elefante da sala e damos um exemplo daquilo que ele está passando",
+      "explicacao": "A sequência elefante-na-sala → verdade-absoluta → curiosidade → CTA está na ordem da fonte e majoritariamente dentro da faixa 88.92–196.68 (verdade absoluta em 'E aí ele vai te dar crédito em todo o final do seu criativo'; curiosidade em 'Ou seja, curiosidade O cara vai querer saber o que está acontecendo aqui'; CTA em 'Toca em Saiba Mais e veja a melhor forma para inserir a sua empresa no mercado digital'; condição de nicho saturado em 'Se o seu nicho for saturado', todos dentro da faixa). Porém dois trechos usados na unidade vêm de antes do inicio declarado: a generalização em 'condicoes' ('a estrutura vale para qualquer prestador de serviço a empresas, como social media') reproduz 'Não interessa se você é social media, gestor de tráfego, se você presta serviço pra empresa, não importa, não importa', que fica em 0:34–0:42; e o detalhe do corpo sobre 'ligações repetidas de gestores de tráfego' reproduz 'Cada vez que um lojista recebe uma ligação de um gestor de tráfego que pegou o número dele no Google', em 0:56–1:07. Ambos ficam fora de 88.92–196.68. O conteúdo em si é fiel (a fonte realmente diz isso), mas a âncora temporal está errada para essas duas partes — efeito prático baixo, pois não muda a orientação, só a rastreabilidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uns 60 segundos, 91 palavras",
+      "explicacao": "Os números batem com a fonte ('esse anúncio vai ter mais ou menos uns 40 segundos... Uns 60 segundos, 91 palavras'), corretamente tipados como exemplo/número de caso, perecível, sem virar régua geral de duração ou contagem de palavras. A faixa 157.86–175.4 cobre integralmente a conta comentada. O amarre com 'nicho saturado' citado na 'lógica' aparece poucos segundos após o fim declarado ('Se o seu nicho for saturado', em ~178.9s), mas essa condição já está coberta e corretamente ancorada na Unidade 1, então não há perda nem distorção de conteúdo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que vai tirar sua empresa de mil seguidores E 100 mil seguidores até o final do ano",
+      "explicacao": "Todo o diálogo ilustrativo usado (concorrente/'menina' cobrando R$1.200 — confirmado depois em 'Porque ela menina é 1.200 reais e tá me cobrando 5 mil'; oferta fraca de R$400 com bônus de 30 fotos, vídeos e trends; posicionamento forte cobrando R$5.000 prometendo levar de mil a 100 mil seguidores; e a orientação de deixar o cliente fechar com o concorrente barato e voltar depois para 'consertar a cagada dela') está dentro da faixa 203.04–294.94, na ordem da fonte, corretamente tipado exemplo/perecível, sem virar régua de preço de mercado. Não há número, condição ou atribuição adulterada."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "sempre vai ganhar o melhor argumento",
+      "explicacao": "A afirmação de que, numa negociação, vence quem tem o melhor argumento — independente de verdade, mentira, caráter do vendedor ou domínio real do assunto — está corretamente atribuída ao professor e dentro da faixa 297.58–343.36. A referência a eventos no Brasil sem nomeá-los também está preservada fielmente ('a gente viu isso em várias coisas que aconteceram no Brasil, não vou citar o que é'). Não há desvio de sentido nem generalização indevida além do que o próprio professor afirma."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: a tarefa 'roteirizar-anuncio' encaixa mal no conteúdo, que é sobre posicionamento e negociação de preço de oferta (bônus barato vs. entrega estratégica com preço maior), não sobre redigir um anúncio. 'montar-oferta' ('Compor entregáveis, camadas de oferta e complementos') descreve melhor o conteúdo e evitaria levar um agente que busca técnica de escrita de anúncio a um lugar sem essa orientação.",
+    "Unidade 4: o tipo 'conceito' é discutível para uma afirmação categórica do professor ('quem tem o melhor argumento vence, seja mentira ou verdade'), que se encaixa melhor em 'regra' (orientação categórica sem número obrigatório). Não há tarefa correspondente a negociação no enum de tarefas, o que pode explicar a escolha de 'conceito' (único tipo, junto com 'limite', que permite tarefas vazias); classificação discutível entre dois valores defensáveis, não um erro claro."
+  ],
+  "material": [],
+  "resumo": "As quatro unidades desta aula estão bem lastreadas na fala, com números, condições e atribuições corretos; não há sem-lastro nem desvio material, e a copy de exemplo lida na aula (CTA 'Toca em Saiba Mais') não é tratada como fato de mercado. A Unidade 1 preserva fielmente a estrutura elefante-na-sala/verdade-absoluta/curiosidade/CTA, mas duas frases usadas nela (a generalização para 'qualquer prestador de serviço' e o detalhe das 'ligações repetidas') vêm de segundos antes do inicio declarado (faixa levemente errada, gravidade menor). Há duas classificações discutíveis, sem afetar fidelidade: a tarefa da Unidade 3 ('roteirizar-anuncio') descreve mal um conteúdo de negociação/posicionamento de oferta, e o tipo 'conceito' da Unidade 4 é uma escolha forçada pela falta de tarefa de negociação no enum. Não foi encontrada omissão de conteúdo essencial: o restante da aula (testemunho pessoal, promessas motivacionais de fechar clientes, gancho para a aula seguinte no Canva, e os resíduos \"Copywriting. Hard Sounds.\" e \"E aí\" em loop) corretamente não virou unidade."
+}

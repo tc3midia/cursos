@@ -1,0 +1,23 @@
+{
+  "aula": "G09_A02",
+  "arquivo_sha256": "dbd30407d4b6ff3d2d23bebb1e99ebf13bb30349294c802548e7c238820f71f3",
+  "inspecao_sha256": "647551ffc37b81f899b2b65e444dc13d6fae21faeb2136354491103ae95b2aee",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Os dois itens que o inspetor listou em `contrato` não são erros de script: (a) título da U1 sem sujeito explícito é redação; (b) a ordem dos números (U3 agora começa em 38 s, antes de U1 em 76 s) é consequência da correção de faixa e não se corrige — o FORMATO fixa que `numero` nunca é renumerado e que a ordem de apresentação é independente da identidade. `inicio: 38 < fim: 345 ≤ 452 + 2` continua válido.",
+  "fidelidade": "6/6 unidades `lastreadas`, nenhuma citação em `citacoes_nao_literais`. G09_A02-F1 resolvida pelo critério de aceite: o inspetor reconferiu a U3 item a item com trecho literal e tempo dentro da nova faixa — condição de nicho (38,5–43,1 s; 47,3–51,4 s), produto fictício (~55–58 s e ~118 s), parte 1 (58,7–63,4 s), parte 2 (166,7–182,9 s), parte 3 (186,9 s; 214 s; 327–330,9 s), parte 4 (219,8–226,2 s; 340,6–344,6 s); a `evidencia` (334–344,6 s) permanece dentro da faixa; corpo e `evidencia` intactos, `versao` 2. 0 de 6 unidades com faixa em `faixa-errada`. As unidades intactas preservam a evidência da inspeção integral, com hash conferido como inalterado.",
+  "cobertura": "O inspetor mantém uma omissão marcada como material (284 s, \"movimento de pessoas\" e o contraste com o inimigo genérico das VSLs). Ela já constava da inspeção integral e não foi consolidada como falha no julgamento anterior; não a reabro, e julgo que não veta: a U3, parte 3, já traz a orientação acionável (\"apontar um inimigo em comum ligado ao que já foi introduzido no criativo, para que o público se identifique\"). O contraste com o erro dos copywriters e o efeito de \"movimento de pessoas\" são argumento e comentário lateral — sem eles, quem consulta ainda decide e executa da mesma forma. Fica como ajuste menor.",
+  "perecibilidade": "Inspetor não aponta pendência. U1, U2, U4 e U6 marcadas `true` (alegações de mercado/CTR/ROI e recurso do curso); U3 e U5 são orientação geral sem tela, preço, recurso ou número de mercado, e a marca `false` está correta. A correção não tocou nesse campo.",
+  "aplicabilidade": "A alteração de `inicio` não muda o uso da U3: o corpo se sustenta sozinho, `condicoes` preenchido com o nicho de demonstração e a alegação de validade geral atribuída ao professor, `tipo: estrutura` com as quatro partes que a evidência do inspetor mostra existirem na fonte, `tarefas` e `tema` coerentes. Nas demais unidades, o \"outro formato\" não nomeado fica sinalizado em `nota` (U1, U2) em vez de completado por conhecimento externo, e a ressalva \"não vou testar\" está preservada na U4. Nada depende de referência que ficou na aula.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U1 — título 'Só usa a estrutura do Kishotenketsu nos criativos de anúncio' sem sujeito; o corpo atribui ao professor, então não vira lei universal, mas o título pode induzir agente que navegue só por títulos. Sugestão: 'O professor só usa a estrutura do Kishotenketsu nos criativos de anúncio'. Título não entra no hash; não abre ciclo.",
+    "U3, parte 3 — o professor contrasta o inimigo introduzido pelo próprio criativo com o inimigo genérico e desconectado que 'esses copywriters' colocam na VSL, e diz que isso cria um 'movimento de pessoas' (inspetor situa em 284 s em diante). É razão e comparação, não muda a execução; se o arquivo for tocado por outro motivo, cabe uma frase de 'porque…' na parte 3 ou uma `conceito` curta. Não abre ciclo.",
+    "Ordem dos números versus ordem de aparição (U3 começa antes de U1 e U2 após a correção): não corrigir — `numero` é identidade e nunca é renumerado; registro só para que ninguém abra correção por isso."
+  ],
+  "proximo": "Falha G09_A02-F1 resolvida no ciclo 1 de 2; nenhuma falha residual. Aula pode passar a `status: revisado` e entrar na base. Regerar derivados com `base_fcc.py --write` e conferir com `--check`; a inspeção da U3 é a focal desta rodada (hash da unidade mudou porque `inicio` entra no hash), as demais preservam a inspeção integral. Nenhuma nova chamada de inspeção ou correção é necessária; os ajustes menores só se aplicam se o arquivo for reaberto por outro motivo."
+}

@@ -1,0 +1,183 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A08",
+  "titulo": "Episódio 8 - Canva (Carros)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é o Episódio 8 da trilha Hard Ads, no grupo de negócios locais, e mostra o professor montando ao vivo, dentro do Canva, um anúncio de exemplo para uma loja fictícia de carros usados/seminovos.",
+    "O público-alvo é quem já está familiarizado com a estrutura de anúncio do curso e quer ver a aplicação prática da montagem visual (texto na tela, cor, imagens, mockups) para o nicho de venda de carro local.",
+    "A aula assume que o espectador já sabe escolher fonte, cor e conceito de anúncio de outras aulas do curso, e foca em decisões específicas desse exemplo: seleção de imagens de carro compatíveis com o nicho, montagem do banco próprio de fotos/vídeos, e uso de contraste de cor para reforçar emoção.",
+    "Grande parte da aula é gravação de tela com o professor apontando elementos do Canva sem nomear cada clique, então boa parte da montagem fina não pode ser reconstituída só pela fala.",
+    "A segunda metade da aula se afasta do conteúdo técnico e vira um relato pessoal longo do professor sobre a própria trajetória, sem instrução direta de copy, anúncio ou operação.",
+    "A aula deixa para a próxima aula da mesma sequência a finalização do mesmo anúncio em CapCut."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Escolher carro do anúncio conforme o nicho real da loja, não o mais bonito",
+      "tipo": "regra",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual",
+        "definir-publico-do-anuncio"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 60,
+      "fim": 99,
+      "condicoes": "Vale para anúncio de loja de carros populares ou seminovos; não se aplica quando a loja realmente vende os veículos de luxo que aparecem na busca.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao escolher fotos de carros dentro do Canva pela busca por 'carro', evite usar veículos de luxo ou de marcas que a loja anunciada não vende, mesmo que apareçam resultados bonitos como Mustang ou Mercedes.\nO público de um anúncio de negócio local de carros normalmente busca um veículo compatível com a própria realidade financeira, não um carro de luxo.\nRegra prática: se a loja vende aquele modelo, ele pode entrar no criativo; se não vende, não entra.\nO critério de escolha da imagem é a realidade e o nicho real daquele cliente, não a beleza da foto encontrada na busca.",
+      "evidencia": "Não faz sentido você colocar uma Porsche aqui.",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Gravar os próprios carros, não usar fotos e vídeos de outras lojas",
+      "tipo": "regra",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 99,
+      "fim": 222,
+      "condicoes": "Ressalva do próprio professor: a busca e o download de imagens de carros de terceiros feitos na aula são só para fins didáticos; ele diz explicitamente que o aluno não deve repetir essa prática no anúncio real.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao montar o banco de imagens e vídeos de carros para o anúncio, não baixe fotos ou vídeos de carros de outras pessoas ou de outras lojas encontrados na internet.\nO professor demonstra como buscar e baixar esse tipo de material só para fins de ensino, deixando explícito que o aluno não deve repetir essa prática.\nA orientação correta é gravar os próprios carros da empresa, criando aos poucos um estoque próprio de fotos e vídeos daquele negócio.\nEle reforça que não faz sentido usar carro ou imagem de terceiros dentro do anúncio.",
+      "evidencia": "Não faz sentido você colocar aqui o carro dos outros, pelo amor de Deus",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "SnapTik baixa vídeo de terceiro no TikTok só para exemplo da aula",
+      "tipo": "ferramenta",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok",
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 800,
+      "fim": 895,
+      "condicoes": "Demonstração feita só para fins de exemplo da aula; o professor não recomenda essa prática no anúncio real, coerente com a orientação de gravar material próprio.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Contorna política de plataforma ou direito de terceiros: o professor baixa, com a ferramenta SnapTik, um vídeo publicado por terceiro no TikTok para reaproveitar como material do anúncio de exemplo. Plataforma 'outra' = SnapTik, ferramenta de download de vídeos do TikTok.",
+      "proposta_tag": null,
+      "corpo": "Para conseguir a imagem de um carro que aparenta ter dado problema, o professor mostra a ferramenta de download SnapTik, usada para baixar um vídeo de terceiro publicado no TikTok.\nEle baixa esse vídeo só para compor o exemplo de anúncio construído na aula.\nLogo depois demonstra desconforto com a própria atitude, comentando que baixar conteúdo de outra pessoa não é algo do qual se orgulha.\nEssa demonstração reforça a mesma orientação de gravar o próprio material em vez de usar vídeo de terceiros.",
+      "evidencia": "a gente vai vir em SnapTik, tá, download",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Escurecer e dessaturar a cena para transmitir tristeza no anúncio",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "editar-video",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 868,
+      "fim": 931,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao editar um trecho de vídeo para transmitir decepção ou tristeza dentro de um anúncio, ajuste contraste, sombras e saturação para deixar a cena mais escura e menos colorida.\nO professor compara essa prática com filmagem de cinema: cenas de tensão costumam usar luz azulada, e cenas de romance ou declaração usam tons rosa e amarelo.\nRegra que ele tira disso: quanto mais escura a parte triste do vídeo, melhor ela transmite esse sentimento ao espectador.\nEle reconhece que não é especialista em correção de cor, mas diz gostar de aplicar esse ajuste porque funciona como diferencial e passa a impressão de que quem fez o anúncio entende do assunto.",
+      "evidencia": "quanto mais escuro você deixar uma parte triste, melhor",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Estrutura do anúncio de carro: medo do carro barato até o CTA",
+      "tipo": "estrutura",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 167,
+      "fim": 972,
+      "condicoes": "Roteiro construído como exemplo fictício para uma loja de carros do nicho de seminovos/populares (referência visual de loja usada na tela); textos, cores e valores citados são ilustrativos do professor, não dados de mercado.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Abertura negativa: mostra o problema de comprar um carro barato, ilustrado com a imagem de um modelo popular associado a essa ideia.\n2. Diferenciação da concorrência: destaca que as demais lojas da cidade só falam de preço, usando cor de destaque para separar o que, segundo o anúncio, realmente pesa na decisão de compra.\n3. Reforço de confiança: associa a cor verde a uma mensagem sobre a confiança que o cliente teria na loja, ilustrada com imagem de aperto de mão.\n4. Bloco de medo: usa uma única imagem de um carro em mau estado, sem texto, para deixar o espectador sentir por conta própria o risco de escolher um carro mais barato.\n5. Lista de custos ocultos: usa mockups de documento para citar itens como IPVA, taxas, parcelamento e gasto com combustível do carro velho.\n6. Bloco de benefício emocional: promete a sensação de paz e tranquilidade ao comprar o carro certo, com imagem de céu ao fundo.\n7. Bloco de orgulho: associa a compra do carro certo ao orgulho da família, com foto de família e tom de pôr do sol.\n8. Reforço final da decepção pela escolha de um carro mais barato antes do fechamento.\n9. Chamada para ação: convida a tocar em 'saiba mais', fechando com a frase sobre a melhor forma de comprar um carro.",
+      "evidencia": "todas as lojas da cidade focam no preço",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Vinheta pode ser aplicada no Canva ou no CapCut, tanto faz",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva",
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 937,
+      "fim": 947,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O efeito de vinheta aplicado ao vídeo do anúncio pode ser adicionado tanto dentro do Canva quanto depois no CapCut.\nO professor diz que não faz diferença qual das duas ferramentas é usada para esse efeito, ficando a critério de quem edita.",
+      "evidencia": "eu posso meter a vinheta no cap cut",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Montagem detalhada do anúncio no Canva ficou só na tela",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 23,
+      "fim": 972,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Boa parte desta aula é uma gravação de tela do professor montando o anúncio dentro do Canva: posicionamento de camadas, escolha exata de cores, tamanhos, sombras, mockups e efeitos.\nA fala nomeia a ação de forma genérica ('mostra a camada', 'joga para trás', 'exclui o bandinho'), mas não descreve com precisão suficiente cliques, menus, valores de cor ou posições para reconstituir o passo a passo sem a imagem.\nEste registro deixa claro que os detalhes finos de montagem visual desta aula não estão capturados na base e não devem ser inventados.",
+      "evidencia": "mostra a camada, joga para trás e exclua o bandinho",
+      "versao": 1
+    }
+  ]
+}

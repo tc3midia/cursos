@@ -1,0 +1,79 @@
+{
+  "aula": "G08_A05",
+  "arquivo_sha256": "ab5ba2c1fd0ce1ce2b529338f9bf591a0aa0b65364b31cc36737e4ac4d59dec8",
+  "inspecao_sha256": "fade0662391cdbc9e50e40b27f931e0ee7b702c81a67367a33e467a934654a16",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "d8b5e6e0a4ef70fa984e2a9c27838557f86eda9017a7e29d3accdeecd9353333",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. O que o inspetor listou no campo `contrato` (tema de U6, tipo de U2, U5, U7 e U9, referências à aula em U1 e U6) não é erro de script. São questões de classificação e de aplicabilidade, e foram julgadas nessa área.",
+  "fidelidade": "Falha. A inspeção foi integral, não há citações não literais e todos os apontamentos trazem trecho da fonte. Não encontrei erro do inspetor visível nas unidades: as expressões que ele cita estão de fato nos corpos.\n\n1. **Faixa-errada (U1 e U7).** São 2 das 11 unidades com faixa, ou 18%, acima do teto de 10% da rubrica. Em U1, as duas últimas frases vêm de 67–78 s e o `fim` é 56. Em U7, a última frase vem de 1011–1025 s e o `fim` é 1005. A gravidade individual é menor, mas a regra é agregada e não cabe rebaixar.\n2. **U2 (estrutura).** A unidade diz que o professor \"mostra as partes\" e lista cinco partes nomeadas. O inspetor mostra que a fala só marca a história desconectada e a chamada \"veja na prática\". O resumo do professor tem três movimentos. \"Dor\", \"Promessa\" e \"Chamada final\" são rótulos do extrator. Trato como desvio material: numa `estrutura`, as partes nomeadas são o que o agente replica.\n3. **U6 (`condicoes`).** A frase \"Com o produto em mãos, valem as imagens do próprio produto\" não tem lastro na fala e está atribuída ao curso.\n\nNão há copy de exemplo tratada como fato: U1 e U2 atribuem as alegações de sono à copy e ao professor. Não há resíduo de silêncio nem termo deformado. U10 preserva a incerteza do trecho degradado com `nota` e `confianca: media`. U3, U4 e U11 estão lastreadas.",
+  "cobertura": "Passa. O inspetor declara busca de omissões na fonte inteira e não localizou nenhuma que mude o uso. É aula de tela com 2377 palavras. Dez unidades e um `limite` (U11), que diz o que ficou só na imagem e o que vai para a aula do CapCut, são o resultado esperado.",
+  "perecibilidade": "Passa. O inspetor não sinalizou nada e a leitura direta confirma. Todas as unidades de Canva, ElevenLabs, TikTok e SnapTik estão com `perecivel: true`. U2, U3 e U4 (`geral`, `perecivel: false`) não carregam tela, preço, recurso de plataforma nem número de mercado. A menção à Shopee em U4 é perfil de público, não recurso. U1 está marcada `true` sem necessidade clara, e excesso de marca não veta. U6 traz `perecivel: true` e a `nota` de contorno com o prefixo exigido.",
+  "aplicabilidade": "Falha em um ponto. U6 tem tema `variacoes-e-criativo-estatico`, que a taxonomia define como variação de hook sobre criativo validado, versão em imagem e teste A/B. O corpo trata de conseguir vídeo do produto no TikTok via SnapTik e tirar a voz. O tema não é defensável e leva ao lugar errado quem consulta por tema. O inspetor chegou à mesma conclusão.\n\nO resto se sustenta sozinho. As unidades de tela têm `condicoes` e `nota` dizendo que são escolhas do professor para este criativo. U6 traz o aviso de contorno de direito de terceiros. U11 é um `limite` bem escrito. O tipo `regra` em U5, U7 e U9 e as referências \"nesta temporada\" (U1) e \"a mesma jogada dos outros episódios\" (U6) são ajustes menores.",
+  "falhas": [
+    {
+      "id": "G08_A05-F1",
+      "unidades": [
+        1,
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "U1 tem `fim` 56, mas as duas últimas frases do corpo (a luz do abajur ajuda a dormir; o professor pesquisou e diz que faz sentido) vêm de 67–78 s. Trecho do inspetor: \"esse abajur, a luz dele vai ajudar a pessoa a dormir. Mas Cleve, você é meninista, lorota,\". U7 tem `fim` 1005, mas a última frase (\"o vídeo volta a mostrar o abajur\") vem de 1011–1025 s. Trecho do inspetor: \"e a gente volta de novo com abajur tá\". São 2 de 11 unidades com faixa, ou 18%, acima do teto de 10% para `faixa-errada`.",
+      "impacto": "Quem confere ou cita a unidade pela faixa (inspetor, script, agente que aponta o trecho da aula) não encontra o lastro de parte do corpo. Essa parte fica sem como ser verificada na faixa declarada.",
+      "mudanca_minima": "U1: estender `fim` para cerca de 79 s, ou retirar do corpo as duas frases finais. U7: estender `fim` para cerca de 1025 s, ou retirar a frase final. Incrementar `versao` nas duas. Manter a `evidencia` dentro da nova faixa.",
+      "criterio_de_aceite": "Na reinspeção focal, U1 e U7 saem `lastreada`, com toda frase do corpo localizada entre `inicio` e `fim`. Nenhuma unidade da aula fica `faixa-errada`, ou no máximo 1 de 11. O validador continua com zero erros."
+    },
+    {
+      "id": "G08_A05-F2",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo diz que o professor \"mostra as partes\" da copy e lista cinco partes nomeadas: História, Dor, Conexão, Promessa, Chamada final. O inspetor, com trecho literal (\"história totalmente desconectada do produto logo após conectamos essa história com o produto e\"), mostra que a fala só marca a história desconectada e a chamada \"veja na prática\". O resumo do professor tem três movimentos: história desconectada, conexão com o produto, produto oferecido como solução. \"Dor\", \"Promessa\" e \"Chamada final\" são rótulos do extrator. Na copy lida, \"a iluminação pode mudar muito a qualidade do meu sono\" virou \"muda\", sem o \"pode\". A cláusula final do resumo (\"oferecemos o produto como uma solução\") está em 141,14–148 s, depois do `fim` 141.",
+      "impacto": "A unidade é `estrutura` com a tarefa `roteirizar-anuncio`. O agente vai tomar o molde de cinco partes nomeadas como esqueleto de anúncio ensinado pelo curso e replicá-lo em skills e roteiros. A fonte ensina três movimentos e não nomeia as outras partes.",
+      "mudanca_minima": "Reescrever a abertura e a lista para que as partes numeradas sejam os três movimentos que o professor enuncia. A chamada \"veja na prática\" entra como o fecho que ele marca. O conteúdo da copy de exemplo (demora para adormecer, relaxar antes de dormir) entra só como ilustração de cada movimento, sem rótulo atribuído ao professor. Restaurar o \"pode\" na alegação sobre iluminação, se a frase ficar. Estender `fim` para cerca de 148 s. Alternativa aceitável: converter para `exemplo` com `Situação:`, `O que aconteceu:` e `Lógica:`, em que a Lógica é o resumo de três movimentos. Manter a `condicoes` de copy de exemplo. Incrementar `versao`.",
+      "criterio_de_aceite": "Nenhuma parte numerada tem nome que a fala não usa, ou a unidade passa a ser `exemplo`. O texto separa o que o professor afirma do que é descrição da copy de exemplo. A alegação sobre sono não fica mais categórica do que na copy. A faixa cobre a cláusula \"oferecemos o produto como uma solução\". A reinspeção devolve `lastreada`. O validador continua com zero erros."
+    },
+    {
+      "id": "G08_A05-F3",
+      "unidades": [
+        6
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "O tema de U6 é `variacoes-e-criativo-estatico`, que a taxonomia define como \"Variação de hook sobre criativo validado, versão em imagem, teste A/B de criativos\". O corpo é o procedimento para obter vídeo do produto no TikTok, baixar com o SnapTik, inserir no criativo e tirar a voz. O inspetor registra que não se trata de classificação discutível entre dois valores defensáveis. A leitura direta da unidade confirma.",
+      "impacto": "O índice do tema leva quem procura variações de criativo a uma unidade de outro assunto. Quem procura, por tema, como montar o visual de um anúncio de produto físico sem ter imagens próprias não encontra esta unidade.",
+      "mudanca_minima": "Trocar `tema` por um valor que descreva o conteúdo: `anuncio-produto-fisico`, `edicao-de-video` ou `direcao-de-arte-e-texto-na-tela`. Qualquer um dos três é defensável. Incrementar `versao`.",
+      "criterio_de_aceite": "O `tema` de U6 não é `variacoes-e-criativo-estatico` e está entre os valores defensáveis indicados. `perecivel: true` está mantido. A `nota` continua com o prefixo \"Contorna política de plataforma ou direito de terceiros:\". O validador continua com zero erros."
+    },
+    {
+      "id": "G08_A05-F4",
+      "unidades": [
+        6
+      ],
+      "veto": "fidelidade",
+      "evidencia": "`condicoes` afirma: \"Com o produto em mãos, valem as imagens do próprio produto\". O inspetor, com trecho literal (\"pegar qualquer uma do camba mas para você entender e pegar a base tá abaixo\"), mostra que o professor só diz que não tem foto do abajur. Ele pega uma imagem do Canva para o aluno entender a base e vai ao TikTok porque o Canva tinha poucas opções. A frase é conclusão do extrator atribuída ao curso. O título diz \"sem voz nem texto\", mas a fala só remove a voz. O professor reclama do texto que o TikTok põe nos vídeos e não diz que o remove.",
+      "impacto": "`condicoes` orienta quando aplicar a técnica. O agente repetiria como orientação do professor uma recomendação que ele não deu. O título promete remoção de texto, que o procedimento não contém.",
+      "mudanca_minima": "Apagar de `condicoes` a frase \"Com o produto em mãos, valem as imagens do próprio produto\". Corrigir o título para não dizer \"nem texto\", por exemplo: \"Vídeos do produto baixados do TikTok via SnapTik, com a voz removida\". Fazer na mesma edição de F3.",
+      "criterio_de_aceite": "`condicoes` de U6 só contém o que a fala diz: o professor não tem foto própria do abajur e faz assim para o aluno entender a base. O título não menciona remoção de texto. A reinspeção de U6 devolve `lastreada`."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: em `condicoes`, \"já vendido por muita gente\" não está na fala, que diz só \"produtos normais\". \"Nesta temporada\" é referência do curso. Dá para ajustar na mesma edição de F1.",
+    "U1: `perecivel: true` numa unidade `conceito` e `geral` sem item perecível evidente. Excesso de marca não é veto.",
+    "U2: \"a narradora\" é dedução do extrator. Resolver junto com F2.",
+    "U6: \"a mesma jogada dos outros episódios\", no passo 1, depende da aula. Retirar na mesma edição de F3 e F4.",
+    "U5, U7 e U9: o tipo `regra` foi usado para narração de escolhas do professor neste criativo. A `condicoes` já atribui a ele. A classificação é discutível e não precisa mudar neste ciclo.",
+    "U5: há duas inferências. A fala diz \"negócio mais pesadinho\" e o corpo lê como tom mais pesado na frase do problema. A fala diz \"contrastezinho\" sem dizer onde, e o corpo o põe \"no texto\". A `nota` e a `confianca: media` cobrem. Não editar, para preservar a evidência.",
+    "U7: \"testa fundo preto, decide pelo branco\" é ambíguo na fala, que não deixa claro se preto e branco são do texto ou do fundo. A `nota` e a `confianca: media` cobrem.",
+    "U8: o corpo fala em \"quadro de felicidade\" e a `condicoes` em \"quadro da paz\". Na fala, o quadro é \"pra se sentir em paz\" e \"Felicidade\" é só o termo de busca. O gatilho imediato da troca pelo olhar (\"eu não encontrei nada\") ficou de fora. Fica registrado, sem edição neste ciclo.",
+    "U9: \"a que ele diz que sempre usa\" reformula \"que tanto amamos\". A fala não diz \"sempre\". Fica registrado.",
+    "U10: \"modelo multilingual\" e \"regenera até ouvir o resultado que julga bom\" vão além da fala degradada (\"colocar a linha leve em multilingual\"; \"vamos regenerar aqui pra ver\"). O filtro de idade não entrou no corpo. A `nota` e a `confianca: media` preservam a incerteza. Fica registrado."
+  ],
+  "proximo": "O redator corrige só F1 a F4, que afetam U1, U2, U6 e U7. Pode aproveitar a mesma edição para os ajustes menores dessas quatro unidades.\n\nNão editar U3, U4, U5, U8, U9, U10 nem U11. Os hashes delas ficam intactos e a evidência da inspeção atual é preservada.\n\nDepois da correção, rodar o validador e fazer reinspeção focal das quatro unidades alteradas, conferindo os critérios de aceite da lista. Não é preciso nova busca de omissões.\n\nU2 já está na versão 2. A coordenação deve confirmar em que ciclo o artefato está antes de contar este como o próximo."
+}

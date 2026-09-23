@@ -1,0 +1,282 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G08_A05",
+  "titulo": "Episódio 5 - Abajur",
+  "extraido_em": "2026-09-20",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de tela do módulo de produtos físicos da trilha Hard Ads. O professor monta, do início ao fim, um criativo em vídeo para um abajur (produto de exemplo, chamado na copy de Light Touch), usando Canva e ElevenLabs.",
+    "A aula parte da ideia de mecanismo único oculto aplicado a um produto comum: o abajur é vendido como ajuda para dormir, não como objeto de decoração.",
+    "Assume que o aluno já viu os episódios anteriores da mesma série, cujo processo de montagem o professor diz repetir, e que conhece a estrutura de anúncio com história desconectada do produto.",
+    "Boa parte do conteúdo ficou só na imagem: cliques, buscas de elementos e posicionamentos no Canva. Entram só as orientações que a fala descreve por si.",
+    "A colorização e a finalização do vídeo ficam para a aula seguinte, que usa o CapCut. A copy lida na aula é texto de exemplo, não dado de mercado."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Mecanismo único oculto: benefício do produto que a pessoa não conhece",
+      "tipo": "conceito",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 56,
+      "condicoes": "Vale para produto físico comum e já vendido por muita gente; a aula o apresenta como o assunto central da temporada de produtos físicos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para diferenciar um anúncio de produto comum, como os vendidos no Mercado Livre, o professor manda procurar no próprio produto um benefício que a pessoa não sabe que ele tem. Esse é o mecanismo único oculto, que ele usa nesta temporada para provar que dá para vender qualquer coisa de um jeito diferente. No exemplo, o benefício escolhido para o abajur é que a luz dele ajuda a pessoa a dormir. O professor diz que pesquisou o assunto e que a ideia faz sentido.",
+      "evidencia": "com certeza tem algum benefício nele que pode beneficiar a pessoa e a pessoa não sabe disso",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Esqueleto do anúncio do abajur: história solta, conexão e produto como solução",
+      "tipo": "estrutura",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 61,
+      "fim": 141,
+      "condicoes": "A copy do abajur Light Touch é texto de exemplo do professor. As alegações sobre sono e iluminação pertencem a essa copy e não são dado de mercado.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "O professor afirma ter pesquisado a relação entre luz e sono, mas a fonte não traz dados.",
+      "proposta_tag": null,
+      "corpo": "O professor lê a copy pronta do abajur e mostra as partes dela:\n1. História totalmente desconectada do produto: o desejo de chegar do trabalho e encontrar a casa limpa e ter um bom sono.\n2. Dor: o ambiente pouco acolhedor faz a pessoa demorar para adormecer.\n3. Conexão: a narradora entende que a iluminação muda a qualidade do sono. O produto entra aqui, como solução, com a cor quente ideal.\n4. Promessa: em pouco tempo a pessoa relaxa e fica preparada para uma noite de sono perfeita.\n5. Chamada final: saiba mais e veja na prática.\nO resumo dele é começar com uma história sem relação com o produto, conectá-la ao produto e oferecê-lo como solução.",
+      "evidencia": "então olha só começamos com uma história",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Chamada \"veja na prática\" leva a vídeo curto ou landing page",
+      "tipo": "regra",
+      "tema": "pitch-e-cta",
+      "tarefas": [
+        "escrever-pitch-e-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 116,
+      "fim": 134,
+      "condicoes": "Preferência do professor para este anúncio de produto físico.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor fecha o anúncio com uma chamada do tipo \"saiba mais e veja na prática\". Ele escolhe \"veja na prática\" porque o destino pode ser um vídeo curto mostrando o produto, de 2 a 3 minutos, ou uma landing page.",
+      "evidencia": "você pode colocar um vídeo mostrando o produto um videozinho ali de 2, 3 minutos",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Vale para qualquer produto físico: estudar o produto atrás do mecanismo oculto",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "definir-mecanismo-unico"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 141,
+      "fim": 184,
+      "condicoes": "O professor fala a quem vende produto físico em dropshipping, e-commerce ou marketplace como a Shopee.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A afirmação de que ninguém vendeu sono por meio de uma luz é do professor, sem verificação na fonte.",
+      "proposta_tag": null,
+      "corpo": "Todo produto físico pode ser apresentado de forma diferente. Para isso, estude o produto e tente entender qual mecanismo oculto ele tem. O professor usa o abajur para mostrar isso. Segundo ele, vender sono por meio de luz é algo que ninguém fez, ou seja, cria-se algo que nunca existiu no mercado.",
+      "evidencia": "Estudando ele, tentando entender qual que é o mecanismo oculto que ele tem aqui",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Visuais e cores do começo do criativo: sossego, dramatização em vermelho",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 193,
+      "fim": 553,
+      "condicoes": "Parte do criativo que ainda não fala do produto (história desconectada). Escolhas do professor para este abajur.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Aula de tela: só ficou o que a fala descreve. Posições, tamanhos e cliques exatos não estão na transcrição.",
+      "proposta_tag": null,
+      "corpo": "Na parte da história, o professor escolhe no banco de vídeos do Canva clipes que transmitam o sentimento da frase, como escritório e iluminação de quarto. O sentimento buscado é sossego, paz e tranquilidade. Só depois disso o produto é vendido.\nO fundo ganha uma cor diferente, o verde, com um pequeno contraste no texto.\nNa frase do problema ele quer dramatização e usa um tom mais pesado, em vermelho, com ícones como ampulheta e despertador. A cor do ícone e a do texto ao lado são igualadas para o quadro ficar uniforme.",
+      "evidencia": "Sossego, paz, tranquilidade, e aí depois a gente vende o nosso produto, você vai entender.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Vídeos do produto baixados do TikTok via SnapTik, sem voz nem texto",
+      "tipo": "procedimento",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok",
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 553,
+      "fim": 653,
+      "condicoes": "O professor faz isso porque não tem foto própria do abajur; é para o aluno entender a base do processo. Com o produto em mãos, valem as imagens do próprio produto.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contorna política de plataforma ou direito de terceiros: usa vídeos de terceiros baixados do TikTok. Ferramenta SnapTik, grafia da transcrição. A fala não fala de autorização.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: o criativo precisa de imagens do produto e o editor não tem fotos ou vídeos dele.\n1. Mostre várias imagens do produto, a mesma jogada dos outros episódios. As opções de abajur no Canva eram poucas.\n2. Busque no TikTok um vídeo de abajur de quarto.\n3. Baixe em HD com o SnapTik.\n4. Coloque o vídeo no criativo e organize-o.\n5. Tire a voz que vem no vídeo original.\nO professor reclama que o TikTok põe texto por cima e por baixo do vídeo, o que atrapalha.",
+      "evidencia": "eu vou pegar no tiktok mesmo",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Cores do trecho do produto seguem o abajur e a sensação de calor",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 659,
+      "fim": 1005,
+      "condicoes": "Escolhas do professor para este abajur; a fala não dá valores exatos de cor.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Aula de tela: as cores exatas e os efeitos ficaram na imagem.",
+      "proposta_tag": null,
+      "corpo": "No trecho em que o produto aparece, o professor puxa as cores do texto e dos ícones para o que quer transmitir.\nO nome do produto usa a cor do fundo do abajur, um branco meio gelo.\nNa frase da cor quente, testa fundo preto, decide pelo branco e põe uma sombra bem leve. A palavra \"ajudar\" fica na mesma cor, mais escura.\nNo ícone de sono, aumenta o brilho e muda a cor para ficar mais quente. Os elementos ficam na cor do fundo para o quadro ficar uniforme.\nAo fim, as partes duplicadas repetem o padrão e o vídeo volta a mostrar o abajur.",
+      "evidencia": "a gente vai colocar na cor do fundo do abajur ali ó, um branco meio gelo",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Professor evita imagens de pessoas sempre felizes por falta de credibilidade",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 796,
+      "fim": 874,
+      "condicoes": "Preferência pessoal do professor, não lei; dita ao buscar imagem para o quadro da paz.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao procurar imagem para o quadro de felicidade, o professor desiste de bancos de imagens de pessoas rindo o tempo todo. Diz que não gosta delas, que acha que essas pessoas não são confiáveis e que gente real tem dias diferentes. Em vez disso, escolhe imagens de um olhar.",
+      "evidencia": "Eu não acho que elas são confiáveis",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Animação do texto: teclado nas partes grandes, variação nas pequenas, seta final",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1055,
+      "fim": 1144,
+      "condicoes": "Preferência do professor para este criativo; aula de tela.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala não nomeia as animações das partes pequenas.",
+      "proposta_tag": null,
+      "corpo": "Com o desenho pronto, o professor anima o texto. Nas partes grandes de texto usa a animação de teclado. Nas partes pequenas mescla animações variadas. No final aparece uma seta, a que ele diz que sempre usa, também com animação.",
+      "evidencia": "As partes grandes a gente coloca teclado",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Locução calma no ElevenLabs para a copy do abajur",
+      "tipo": "ferramenta",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 1145,
+      "fim": 1373,
+      "condicoes": "Voz escolhida para combinar com um anúncio sobre sono; aula de tela.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A frase \"não tem nenhum número\" é lida como: o texto não tem números para ajustar. A fala sobre o modelo e a idade está degradada e a interpretação é incerta.",
+      "proposta_tag": null,
+      "corpo": "Com o vídeo pronto, o professor leva o texto ao ElevenLabs. Como o texto não tem número a ajustar, vai direto para a voz.\nO critério é uma voz calma e tranquila, coerente com sono. As vozes iniciais não serviram, então ele vai à biblioteca de vozes, filtra por feminina e, sem fixar a categoria, escolhe uma voz doce.\nUsa o modelo multilingual e regenera a fala até ouvir o resultado que julga bom.",
+      "evidencia": "Então a gente já joga direto e uma voz bem calma",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Aula de tela: cliques do Canva ficam fora e a cor final vem no CapCut",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "canva",
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 184,
+      "fim": 1385,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte da aula é o professor clicando no Canva, buscando elementos e ajustando cores, sem descrever cada passo. A transcrição não captura essas telas: posições, buscas e ajustes visuais ficaram só na imagem. O professor avisa que a colorização do vídeo fica para a aula seguinte, feita no CapCut.",
+      "evidencia": "Então, vamos dar cor para essa parada na próxima aula no CapCut",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        2
+      ],
+      "retiradas": [],
+      "observacoes": "C1: a evidência anterior (\"logo após conectamos essa história com o produto e oferecemos o produto como uma solução\") ia de 00:02:14 a 00:02:28 (134,7–148,3 s) e passava do fim da faixa (141). Troquei só a evidência por um trecho literal dentro da faixa 61–141: \"então olha só começamos com uma história\", em 00:02:08–00:02:14 (128–134,7 s). Corpo, faixa e demais campos ficaram como estavam."
+    }
+  ]
+}

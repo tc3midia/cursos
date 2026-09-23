@@ -1,0 +1,75 @@
+{
+  "aula": "G04_A07",
+  "arquivo_sha256": "b33c2bac2b959b2d38502cb1f33fe8c71faaa791e7ecd60a9ab57e5b058c846e",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "bb2408ac790b7574f1e9681dac14dc458a4e96d344309a306df57403bfcafabc",
+    "2": "6a3d01c944a70445ad31610a9824b6df4b4d62a308c30495153b7f825eab801b",
+    "3": "63244f7f3c302bd175c67a44d0ee948550541dd39fca70ebacf0d6f4fb92c68a",
+    "4": "953df8348c10cb5f4c086e7e033f596c6a57f40cec7d507ef63fde4bb60de334"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Depois assista a essa aula",
+      "explicacao": "A sequência criatividade, depois esta aula, depois edição está na fala (00:59–01:03), e a faixa 53.1–65.1 cobre o trecho, incluindo \"Eu não fiz nada à toa aqui\". Diferença menor: o corpo troca \"essa aula\" por \"a temporada de roteirização em que a aula está\". O rótulo \"roteirização\" vem do nome do grupo, não da fala. A nota registra essa interpretação e a confiança é media, então o caso é de ambiguidade preservada. Sem efeito prático relevante. O corpo também fala em \"segunda temporada\" sem dizer que ela corresponde à edição."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Essa e a criatividade são as mais importantes",
+      "explicacao": "O corpo diz que \"a primeira e a segunda temporada, junto com a parte de criatividade, são as mais importantes\". Na fonte, as mais importantes são a temporada atual (\"A primeira temporada\") e a criatividade: \"Essa e a criatividade são as mais importantes. O resto, eu diria, que você consegue delegar\". A segunda temporada só aparece em outra fala, sobre delegar: \"A primeira e a segunda temporada Você não delega\". A fonte é ambígua ou contraditória nesse ponto. A unidade a resolve em silêncio, fundindo as duas falas, com confianca alta e nota nula. Nas unidades 1 e 3 a segunda temporada é a edição, então quem consulta pode concluir que a edição está entre as mais importantes e não delegáveis, o que colide com \"O resto ... você consegue delegar\". Outros pontos: (a) \"quem faz o produto é quem sente o produto\" não é a fala, que diz \"você que vai sentir o seu produto / você que vai fazer o seu melhor nele\", dirigida ao aluno; (b) o corpo cita o 8020 (\"Porque esse é o 8020, fechou?\", 125.48–127.30), que fica fora da faixa: fim=125.38 corta antes dele. Isso seria faixa-errada parcial, absorvida pelo desvio."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na próxima temporada, vamos mostrar toda a base que eu utilizo na edição.",
+      "explicacao": "A faixa 36.14–52.58 coincide com os três segmentos do trecho. O corpo preserva o adiamento da base de edição e a reedição do texto em outro formato, com o propósito declarado (\"para você entender como criamos o nosso anúncio, a nossa edição\"). \"Esta aula não ensina edição\" é inferência direta do adiamento e não distorce a fonte."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não tem aulas aqui te mostrando e te passando nenhum swap, nenhum notion",
+      "explicacao": "Suporte 24 horas, \"swap\"/\"notion\" como transcritos e \"abrir a sua mente\" estão na fonte e dentro da faixa. \"Swap\" e \"notion\" ficaram entre aspas e com nota, como o FORMATO pede. Menores: a frase \"A parada e a pegada é te ensinar\" começa em 150.04, exatamente no fim da faixa, então a parte \"a proposta é ensinar\" fica no limite (a fala \"abrir a sua mente\" sustenta o resto). O corpo omite que o suporte é para dúvidas (\"qualquer dúvida\", 132.46–135.04, fora da faixa) e que o aluno deve entrar em contato (\"Então entre em contato lá\"), sem efeito prático relevante."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 152.1,
+      "trecho_fonte": "Então faça igual algumas pessoas fazem quando eu falo de copy e de criatividade",
+      "descricao": "O professor dá uma orientação de como assistir às aulas de copy e criatividade: fechar os olhos e imaginar enquanto ele fala. Diz que muita gente faz isso e assim consegue absorver tudo o que ele oferece (152.1–164.9). Nenhuma unidade preserva essa dica. A alegação de resultado deveria vir atribuída ao professor.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente perguntado sobre como assimilar as aulas de copy e criatividade não terá a recomendação do professor. Não muda a execução técnica de nenhum procedimento."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U2 (numero 2): tema `criatividade-e-angulo` (\"achar ângulo novo a partir do que já existe, modelar sem copiar\") e tarefa `roteirizar-anuncio` não descrevem o conteúdo, que é uma regra de divisão de trabalho (o que delegar e o que não). Um agente que busca ângulo ou roteiro encontra uma unidade sobre delegação; quem busca a orientação sobre delegar dificilmente a acha ali. Classificação discutível, `curso-e-recursos` seria mais próximo. Ajuste menor.",
+    "U3 (numero 3): o corpo diz \"o texto trabalhado\" e \"a próxima temporada\" sem dizer qual texto nem qual temporada. O \"texto\" era o que aparecia na tela (\"este texto aqui\"). Quem consulta sem a aula não sabe a que se refere. Ajuste menor: nomear o objeto ou registrar que o texto ficou só na aula.",
+    "U4 (numero 4): \"swap\" não é reconhecível e não está na tabela de grafias; o FORMATO manda `confianca: baixa` para termo não identificado mantido entre aspas. A unidade usa `media`. Ajuste menor.",
+    "U1 (numero 1): as `condicoes` trazem \"na época da gravação\" (marcador temporal fora do corpo). Sem efeito de contrato, só observação."
+  ],
+  "material": [],
+  "resumo": "Quatro unidades conferidas contra a transcrição; não há material de apoio na aula. As unidades 1, 3 e 4 estão lastreadas, com ajustes menores de redação, faixa e classificação. A unidade 2 tem desvio material: funde \\\"mais importantes\\\" (temporada atual e criatividade) com \\\"não delega\\\" (primeira e segunda temporada), sem registrar a ambiguidade da fonte, e cita o 8020 fora da faixa. Há uma omissão menor (dica de estudo \\\"fecha os olhos, imagine\\\") e nenhum problema de perecibilidade."
+}

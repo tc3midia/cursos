@@ -1,0 +1,51 @@
+{
+  "aula": "G11_A05",
+  "arquivo_sha256": "95266f9b24b5d819f10566ea5841ad3197022f5811e4e43d7aeefd9e30e1daf6",
+  "inspecao_sha256": "f96335e8934f4b6755f11dd27e7463f0af1a20ef4c85c135f9041096c0f2bc96",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. A observação do inspetor sobre a evidência da unidade 3 atravessar o fim declarado (577,1–584,14s vs. fim 580) não é erro de contrato: o FORMATO permite a âncora atravessar marcações vizinhas e o script aceitou. Fica como ajuste menor a resolver na mesma edição da unidade 3.",
+  "fidelidade": "Dez de doze unidades lastreadas com trecho literal e dentro da faixa. Unidade 3: desvio comprovado de sequência — o pedido de tom \"terror + mecanismo único\" (trecho literal, 158–173s) vem antes de \"dessas dez, a gente sobrou duas\" (257–264s), ou seja, pertence à primeira rodada, mas a unidade o coloca como passo 2 da rodada de refinamento (faixa 264–580s). Em `procedimento` a ordem é o conteúdo; e o passo não é verificável dentro da faixa da própria unidade. Unidade 7: o corpo acrescenta \"abaixo disso, a headline provavelmente está fraca\", afirmação que o inspetor não encontrou na fala. O inspetor classificou como menor; decido como material porque é afirmação sem fonte atribuída ao professor, numa `regua` com tarefa `ler-metricas-e-decidir`, exatamente o tipo de regra de diagnóstico que um agente vai repetir com confiança. Copy de exemplo (unidade 11) e cálculo hipotético (unidade 6) corretamente em `exemplo` com condição; VTURB nomeado pela fala, sem hipótese; nenhum resíduo de silêncio, ressalva suprimida ou passo de tela inventado apontado.",
+  "cobertura": "Inspeção integral com busca de omissões declarada. Duas omissões, ambas menores. A de ~392s (\"junto com a sua criatividade também. Não se apegue só a IA\") tem trecho literal, mas a ideia está preservada na unidade 12 e no contexto; sua falta não muda a decisão. A de ~224s está em `citacoes_nao_literais` e fica na fronteira com construção de autoridade; não sustenta veto. Réguas, passos e regras que a evidência mostra existirem estão cobertos; o `limite` da unidade 4 registra o que ficou na tela.",
+  "perecibilidade": "Inspetor não apontou perecível escondido em unidade `geral`. Unidades presas à demonstração em chat de IA (1, 3, 12), o cálculo com preço hipotético (6), a régua de mercado (7), a ferramenta (9) e a copy de exemplo (11) estão com `perecivel: true`. Regras e conceito (2, 5, 8, 10) e o limite (4) em `false`, coerente com o conteúdo.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: pré-condições e passos são descritos, o produto de exemplo está nomeado nas condições, e o jargão (playrate, sub-headline, CTA de play) é explicado ou é de uso direto. `plataformas: geral` com `nota` sobre a ferramenta de IA não nomeada é a classificação correta pela taxonomia. Tipos e tarefas levam ao lugar certo; `ler-metricas-e-decidir` nas unidades 5–7 é adequado. Sem veto. O problema de sequência da unidade 3 é julgado em fidelidade, não aqui.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3,
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: \"Vamos juntar um pouco de terror com um mecanismo único\" em 158–173s, antes de \"dessas dez, a gente sobrou duas\" (257–264s). A unidade 3 (faixa 264–580s) apresenta esse pedido como passo 2 da rodada de refinamento, depois de colar as duas melhores headlines. O passo, portanto, vem de fala anterior à faixa da unidade e em ordem diferente da fonte.",
+      "impacto": "Agente que construir uma skill a partir da unidade 3 vai prescrever o pedido de tom (terror + mecanismo único) só depois da seleção das duas melhores, invertendo a sequência demonstrada; e o passo não pode ser conferido dentro da faixa declarada, o que impede verificar. Em `procedimento` a ordem dos passos é o próprio conteúdo.",
+      "mudanca_minima": "Na unidade 3, retirar do passo 2 a menção a 'terror unido ao mecanismo único', mantendo apenas pedidos de tom que a fala faz dentro de 264–580s (inspetor confirma se 'ato de conhecimento' está nessa faixa; se não estiver, retirar também). Se o pedido de tom for passo da primeira rodada, acrescentá-lo à unidade 1 como passo entre 'peça várias variações' e 'leia e filtre' (faixa 64–264 já cobre 158–173s). Incrementar `versao` das unidades alteradas.",
+      "criterio_de_aceite": "Inspetor confirma, com trecho literal e segundo, que cada passo numerado das unidades 1 e 3 está dentro da faixa declarada da própria unidade e na ordem em que ocorre na fonte; nenhum passo da unidade 3 depende de fala anterior a 264s."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: \"Se o seu play rate estiver em 60%, que é o básico do mercado\" (496–506s). O corpo acrescenta \"Abaixo disso, a headline provavelmente está fraca; o objetivo ao escrever a headline é superar esse piso\", que o inspetor identifica como implicação não dita. O inspetor graduou como menor; o juiz trata como material por ser afirmação sem fonte atribuída ao professor em unidade de decisão.",
+      "impacto": "A unidade é `regua` com tarefa `ler-metricas-e-decidir`. Um agente que a consulte vai diagnosticar 'playrate abaixo de 60% ⇒ headline fraca' como regra do curso, quando a fonte só fixa 60% como básico do mercado e mostra 80% como cenário melhor. É regra de diagnóstico inventada, repetida com confiança.",
+      "mudanca_minima": "Remover a frase 'Abaixo disso, a headline provavelmente está fraca; o objetivo ao escrever a headline é superar esse piso'. Manter apenas o que a fala sustenta: 60% como básico do mercado e, se quiser contraste, que o professor usa 80% no cálculo como cenário melhor (já lastreado na unidade 6). Incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor confirma que cada frase do corpo da unidade 7 tem correspondência literal ou paráfrase direta na faixa 496–506s (ou faixa ajustada), sem inferência de diagnóstico que a fala não faz."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 3: a evidência 'eu quero mais variações e não explicações por favor' está no segmento 577,1–584,14s e o fim é 580s. O script aceita, mas na mesma edição de F1 ajustar `fim` para cobrir o segmento inteiro (≥585) ou trocar a evidência por trecho claramente interno à faixa (inspetor sugere 'de novo eu acho que ele não entendeu, tá?', ~325s).",
+    "Omissão ~392–398s ('dar várias variações junto com a sua criatividade também. Não se apegue só a IA'): complemento útil; pode entrar como passo na unidade 3 ou frase na unidade 12. Não veta porque a unidade 12 e o contexto já carregam a orientação de não depender só da IA.",
+    "Omissão ~224s (critério de descarte 'já vi coisa assim'): trecho em `citacoes_nao_literais` e na fronteira com construção de autoridade. Opcional; só incluir se o inspetor confirmar trecho literal e o critério for transferível.",
+    "Unidade 9: 'teste de lead' usa um termo que o curso emprega em dois sentidos (prospect / início da VSL). A unidade lê como teste de variação de headline, o que o inspetor confirmou pelo contexto; convém uma `nota` registrando essa leitura e a grafia da fala, eventualmente com `confianca: media`, para o consultor saber que é interpretação do trecho.",
+    "Unidade 5: 'descreve a headline como uma das métricas mais importantes' reproduz a fala, mas headline não é métrica; redação pode dizer 'trata a headline como um dos fatores mais importantes, porque impacta o playrate', sem mudar o sentido."
+  ],
+  "proximo": "Enviar F1 e F2 ao redator de correções (rodada 1 de 2). Depois da edição, inspeção focal das unidades 1, 3 e 7 (hashes alterados) verificando os critérios de aceite: posição do pedido de tom em relação a 'dessas dez, a gente sobrou duas', presença ou não de 'ato de conhecimento' dentro de 264–580s, e ausência de inferência não dita na unidade 7. Unidades 2, 4–6 e 8–12 preservam a evidência se o hash não mudar. Ajustes menores podem ser aplicados na mesma edição sem abrir ciclo."
+}

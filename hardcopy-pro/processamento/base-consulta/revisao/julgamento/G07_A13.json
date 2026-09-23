@@ -1,0 +1,22 @@
+{
+  "aula": "G07_A13",
+  "arquivo_sha256": "6e8b2da16677352b59f9598c33e1dae4aa1941be319916338e28488d338c923a",
+  "inspecao_sha256": "8527924dbe899f56866b2f34193510a1ab441e68677f529d717f9723757b8af5",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros. Único aviso é \"1 unidades, fora da faixa 3–60\", que é o resultado esperado para aula sem conteúdo didático (rubrica: \"Aula sem conteúdo didático com uma unidade limite passa\"). Não veta.",
+  "fidelidade": "Unidade 1 lastreada pelo inspetor com trecho literal (\"Então eu te espero ansiosamente na quinta temporada desse treinamento\"), sem entrada em citacoes_nao_literais. O inspetor confirma: recapitulação das temporadas anteriores (emagrecimento, cabelo, 50+, sapato/carro/serviço), anúncio da quinta temporada sobre mecanismo único oculto em produto físico com os exemplos exatos (abajur, encapsulado, produtos para pet shop, preservando a autocorreção de \"cachorro\"), convite independente de nicho e o motivo \"porque esse curso não foi barato\". Faixa 30–94.38 exclui os resíduos de silêncio (\"Copywriting. Hard Sounds.\" no início e \"E aí\" no fim), que também não aparecem no contexto nem na evidência. O parêntese \"(negócios locais)\" não é literal da fala, mas é etiqueta do próprio módulo da aula, sem efeito na decisão de quem consulta: não é sem-lastro material.",
+  "cobertura": "Inspeção integral, com busca de omissões declarada na fonte inteira (314 palavras) e lista vazia. A aula é recado e convite; não há régua, passo, condição ou alerta a preservar. A unidade limite diz o que a aula é e o que ela adia para a temporada seguinte, que é o que a base precisa para não procurar aqui conteúdo que não existe.",
+  "perecibilidade": "Unidade marcada perecivel: true, obrigatório pelo tema curso-e-recursos e coerente com recado sobre estrutura e temporadas do curso. Inspetor não sinalizou perecível escondido; não há tela, ferramenta, preço ou data no corpo.",
+  "aplicabilidade": "A unidade se sustenta sozinha: um agente que a consulte sem a aula entende que a gravação não ensina nada, sabe o que foi recapitulado e o que a próxima temporada promete. Tipo limite, tema curso-e-recursos, tarefas vazias e plataforma geral levam o agente ao lugar certo. Sem referência a \"esse vídeo\" ou jargão que dependa da aula; \"mecanismo único oculto\" aparece só como nome do que será ensinado depois, não como orientação. Condições nulas são corretas, pois não há orientação condicionada.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Unidade 1, corpo: o parêntese \"(negócios locais)\" após \"sapato, carro e serviço\" não vem da fala nessa faixa (inspetor confirma); é etiqueta do módulo, inofensiva. Se houver outra edição no arquivo, pode ser removido para manter o corpo estritamente no que a fala diz. Não muda o uso.",
+    "Contexto, frase 4: \"está prestes a entrar na trilha sobre produto físico\" usa \"trilha\", que neste curso nomeia as cinco trilhas (Hard Copy, Hard Ads, Hard Sounds, Hard IA, 0 a 100K); a fonte fala em \"quinta temporada\". Trocar por \"temporada\" evita confundir com a trilha do front matter. Redação; não abre ciclo."
+  ],
+  "proximo": "Aprovar e marcar a aula como `revisado`. Nenhuma correção obrigatória; os dois ajustes menores podem ser aplicados de carona na próxima edição do arquivo, com incremento de `versao` se o corpo mudar."
+}

@@ -1,0 +1,25 @@
+{
+  "aula": "G07_A02",
+  "arquivo_sha256": "ed526d8a9bb117663c5616006e2d633c59965bf6c9851101a33be8d7e7e2c47b",
+  "inspecao_sha256": "1c9ebbb2d96d261a9dbf9a38e79eef1051bf60269747f1356ffa43861733b857",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Sete unidades, contexto com 7 frases, sem furo de numeração, evidências dentro das faixas. Nada a corrigir.",
+  "fidelidade": "Inspeção integral, 7/7 unidades verificadas, nenhuma citação não literal. Seis unidades lastreadas com trecho literal. U2 recebeu `desvio` de gravidade menor: o corpo acrescenta a gradação \"quanto mais ele vê o produto, mais fácil fica decidir a compra\" a uma fala que só diz \"compra um produto físico com os olhos\". O próprio inspetor classifica como extrapolação plausível sobre trecho fragmentado; a unidade já traz `confianca: media` e `nota` sobre a fragmentação, e a orientação prática (priorizar vídeo do produto) está lastreada na U5. Não é número, condição nem sentido invertido, e a fonte não é clara — fica como ajuste menor, não como veto. Regras próprias do curso: a copy do anúncio Sport Prime (55% de desconto, indicação médica, TV) entrou como `exemplo` com `condicoes` dizendo que os dados pertencem ao anúncio, não ao curso — correto; a ressalva do professor de que produto digital também vende bem foi preservada na U3; o inspetor confirma que os resíduos de silêncio do fecho não foram usados; nenhum termo deformado promovido a nome.",
+  "cobertura": "Inspetor declarou busca de omissões na fonte inteira e não listou nenhuma. Os dois adiamentos da aula (encapsulado para a quinta temporada, conexão história-produto para a próxima aula) estão registrados como `limite` (U4, U6), então quem consulta sabe o que a aula não cobre. A recomendação central para anúncio de produto físico (vários vídeos, melhor ângulo, foco no produto, CTA) e os três exemplos que a sequência vai usar estão presentes.",
+  "perecibilidade": "Inspetor não sinalizou nada. U1 (anúncio específico de marca), U4, U6 e U7 (estrutura e sequência do curso) estão com `perecivel: true`. U2, U3 e U5 são orientação geral sem tela, recurso ou número de mercado; `false` está correto. Nada escondido em unidade `geral`.",
+  "aplicabilidade": "As unidades se sustentam sem a aula ao lado. Restam referências residuais ao fluxo da aula que não impedem o uso: \"a abordagem que ele detalha em seguida\" (U1, Lógica) e \"a próxima aula trata de como conectar isso a uma história\" dentro de `condicoes` da U5. Classificação: U7 está como `estrutura`, mas não é molde para preencher com conteúdo novo — é a lista dos três exemplos que a sequência do curso usa, com o motivo de cada escolha; `limite` ou `conceito` cabe melhor e a tarefa `roteirizar-anuncio` é forçada. O título deixa claro o que a unidade é, então o agente não é levado a usá-la como esqueleto de anúncio; é ajuste menor, não veto. U5 como `estrutura` versus `regra` é discutível entre valores defensáveis. `condicoes` preenchido onde o corpo só vale para um perfil (U1, U3, U5). Jargão explicado na unidade (CTA, encapsulado).",
+  "falhas": [],
+  "ajustes_menores": [
+    "U2: retirar do corpo a gradação \"quanto mais ele vê o produto, mais fácil fica decidir a compra\" ou marcá-la em `nota` como inferência do extrator; a fonte só diz que o produto físico se compra com os olhos (inspetor, desvio menor, trecho literal).",
+    "U7: tipo `estrutura` não corresponde a molde com partes para preencher; a unidade descreve quais exemplos a sequência do curso usa e por quê. Reclassificar como `limite` (ou `conceito`) e reconsiderar a tarefa `roteirizar-anuncio`, que não é atendida pelo corpo.",
+    "U5: `condicoes` contém referência ao fluxo do curso (\"a próxima aula trata de como conectar isso a uma história\"); mover para `nota` ou remover, já que a U6 registra esse adiamento. Tipo `estrutura` × `regra` é discutível; ambos defensáveis.",
+    "U1: em Lógica, \"a abordagem que ele detalha em seguida\" é referência ao fluxo da aula; pode virar \"a abordagem de mostrar o produto em muitos vídeos, com foco no produto e CTA\" para a unidade não depender da sequência.",
+    "Tema inconsistente para a mesma ideia de produto físico: U2 e U5 em `anuncio-negocio-local`, U3 em `anuncio-produto-fisico`. Os dois são defensáveis pelo grupo da aula; só registrar para uniformizar se houver passagem editorial."
+  ],
+  "proximo": "Marcar a aula como `revisado` e publicar. Os ajustes menores podem ser aplicados em passagem editorial sem abrir ciclo; se aplicados, incrementar `versao` das unidades tocadas (2, 5, 7 e eventualmente 1), reconferir o hash e rodar o validador. Nenhum pedido de prova adicional ao inspetor."
+}

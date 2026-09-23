@@ -1,0 +1,25 @@
+{
+  "aula": "G07_A09",
+  "arquivo_sha256": "8f1e759c8ed3764d4472d48e5e81ee2b9067eab2d287fa0a7cceb30c0ffbae5d",
+  "inspecao_sha256": "0a3b5a49555ef8a9cbf1dc06a0870ab9964edb754433668f2a63209bc8ca6172",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos no arquivo corrigido. `versao` de U1 e U5 foi a 2, como exigido pela mudança de `fim` (U1) e de corpo, tipo, faixa e evidência (U5). Sem retiradas nem unidades novas; numeração 1..8 íntegra.",
+  "fidelidade": "F2 (U1) resolvida: `fim` passou de 197 para 215 e o trecho literal do passo 5 (\"Você mostrou de onde você é aqui Você mostrou a sua autoridade\", ≈209–213s) está dentro da faixa; o inspetor reconferiu os passos 1–4 na mesma faixa e reclassificou U1 como lastreada. Nenhuma unidade permanece faixa-errada (0/8). F1 (U5) resolvida: título e corpo deixaram de excluir o início da música, registram o processo da fonte (plot → início → junção) e atribuem o resultado à demonstração da aula; a faixa 807–874 contém \"Não encaixou Vamos pegar o inicio da música então\", citado literalmente (citacoes_nao_literais vazio); \"fade in\" foi retirado porque a fala nomeia só \"fade out\". O inspetor não itemiza \"extraia o áudio da faixa\" na sequência que descreve, mas lastreou o corpo inteiro e o redator declarou ter mantido só passos nomeados pela fala; não há evidência de passo de tela inventado. Permanece em U4 (hash intacto) o desvio menor já conhecido: \"O curso chama essa técnica de 'calar a boca'\" usa nome de G09_A06 que esta transcrição não diz; a técnica em si está correta e a frase não muda a ação, fica como ajuste menor.",
+  "cobertura": "As duas omissões listadas são as acumuladas da inspeção integral, ambas menores: moderação de elementos decorativos na animação de texto (418s) e voltar à música de suspense quando o clima fica pesado (771s). São comentários laterais de uma demonstração de tela, sem régua, condição ou alerta que mude a decisão de quem consulta; não vetam. A estrutura do anúncio, os dois perfis de comprador, a voz de IA, o corte de música na tensão, o encaixe do plot e o efeito de distorção estão preservados. U8 (`limite`) registra o que ficou só na imagem, como a rubrica pede para aula de tela. O anúncio da próxima aula está no contexto e não é omissão.",
+  "perecibilidade": "Sem pendência do inspetor e coerente na leitura direta: U3 (elevenlabs), U5/U6/U8 (capcut) e U7 (previsão de mercado com prazo) marcadas `true`; U2 `true` por trazer preços e modelos de exemplo; U1 e U4 são princípios gerais em `geral` e ficam `false`. A menção à FIPE em U1 é referência dita pelo professor dentro de uma estrutura geral, não recurso de plataforma.",
+  "aplicabilidade": "U1 se sustenta sozinha: cinco partes nomeadas com função, `condicoes` diz o nicho e o nome do molde, sem referência à aula. U5 começa com \"Quando \", descreve o que fazer, o que testar depois e como fechar, e separa a orientação do resultado da demonstração; `capcut` em `plataformas` e tema/tarefa corretos. Tipo `decisao` é defensável (`procedimento` também seria), o que é ajuste menor no máximo, não falha. Nenhuma das duas unidades depende de \"esse vídeo\" ou de jargão sem explicação.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U4: a frase \"O curso chama essa técnica de 'calar a boca'\" usa nome que vem de G09_A06, não desta transcrição; reformular para deixar claro que o nome é do vocabulário do curso em outra aula (ou mover para `nota`), sem mudar a orientação.",
+    "U2: o inspetor observa que a menção literal a 'autoridade' aparece poucos segundos antes de `inicio: 219`; recuar `inicio` alguns segundos melhoraria a âncora, sem efeito na orientação.",
+    "U5: `confianca: media` sem `nota` é permitido pelo contrato; uma nota curta dizendo que é aula de tela e que a sequência de cliques não foi capturada ajudaria quem consulta a entender o rebaixamento.",
+    "Omissão menor (418s): recomendação de não exagerar em elementos decorativos ('flor') ao animar texto no CapCut; poderia entrar como linha em unidade de direção de arte, se houver passagem editorial.",
+    "Omissão menor (771s): voltar à música de suspense quando o clima da trilha fica pesado; comentário da demonstração, pode enriquecer U4 ou U5 numa passagem editorial."
+  ],
+  "proximo": "Marcar G07_A09 como `revisado` e publicar na base. Os ajustes menores não abrem ciclo; se forem aplicados numa passagem editorial futura, só as unidades tocadas mudam de hash e pedem reconferência pontual."
+}

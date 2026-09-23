@@ -1,0 +1,30 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "075bfe5c9cf7a631d439d4284a886c837d3ab45cca1cd799faf774d9d700db87",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": [],
+  "unidades_verificadas": [],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "7ee66df9154ab41d9514bb5220adadf5d25c43532f5e5963bcee56939c4a6d1c",
+    "2": "85764a2348a7a2374fa510a2ea8dc1eb5866ed429b549c57f0ba925b57763127",
+    "3": "84dcef46a3f234ef283535fa07a695956cd21ee37ffb1679819f8e54d170da01",
+    "4": "e42a47e5d14bd4e2a50e36a38c905cc865a3f2b0aa78d9e31b359d5c122b356e"
+  },
+  "citacoes_nao_literais": [],
+  "contrato": [
+    "G08_A06-F1 não foi resolvida: o campo `contexto` do arquivo entregue para esta conferência mantém, na frase 5, o texto \"Dá uma faixa de preço de referência para um produto físico de dropshipping/e-commerce, comprado por cerca de R$ 79 e revendido entre R$ 169 e R$ 189.\" — exatamente o texto que os ciclos 1 e 2 identificaram como a generalização vetada (valores de um produto fictício do exemplo tratados como faixa de referência de mercado) e mandaram substituir. A mudança mínima registrada nas observações de ambos os ciclos (trocar por frase que não usa 'referência' nem apresenta R$ 79/R$ 169/R$ 189 como parâmetro geral, nomeando o caso como estimativa sobre o abajur do exemplo) não foi aplicada ao arquivo. Isso mantém a contradição direta com `condicoes` da unidade 3, corrigida no ciclo 1, que já afirma explicitamente que os mesmos valores 'não são parâmetro testado nem faixa de referência de mercado para produto físico'. Nenhuma unidade precisa mudar (conforme já estabelecido nos dois ciclos anteriores e confirmado por hashes inalterados de 1-4); o defeito é exclusivamente de execução da correção no campo `contexto`, e persiste após o teto de dois ciclos de correção previsto na rubrica."
+  ],
+  "material": [],
+  "omissoes": [],
+  "perecibilidade": [],
+  "resumo": "Esta conferência focal verificou apenas a falha G08_A06-F1, cujo escopo (lista de unidades vazia) restringe a correção ao campo `contexto` da aula, sem tocar nenhuma unidade. Comparando o critério de aceite com o arquivo entregue, a frase 5 do `contexto` continua idêntica à versão reprovada nos ciclos 1 e 2: ainda apresenta os valores do abajur fictício do exemplo (R$ 79/R$ 169/R$ 189) como 'faixa de preço de referência' para dropshipping/e-commerce, em contradição com `condicoes` da unidade 3. As instruções de mudança mínima registradas em ambos os ciclos anteriores não foram aplicadas pelo executor. Nenhuma unidade foi alterada ou precisa ser reaberta nesta rodada; o problema é de aplicação da correção, não de diagnóstico, e a falha permanece material e não resolvida após o teto de dois ciclos.",
+  "unidades": []
+}

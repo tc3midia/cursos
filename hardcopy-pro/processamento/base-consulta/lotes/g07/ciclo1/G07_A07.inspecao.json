@@ -1,0 +1,153 @@
+{
+  "aula": "G07_A07",
+  "arquivo_sha256": "cb09cd9ce323f013de8ceed00d55ce72a0b5043aa63927caf3a6414fa2ee0ff2",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 3, 6, 9, 10]; as demais mantêm a evidência da inspeção integral do arquivo 2abc4d374dfa, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    3,
+    6,
+    9,
+    10
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "65295b90b2110dc268de891a535249f205dc3bf0ed1ccef82cbb5497b3502f6d",
+    "2": "1b46a3dc0b750536a65a02ba90878de17078293d4e21f19f439bd329c5cf0d04",
+    "3": "73ee10a89eea4ae680775ea6c550ef61671d4951eec18cf9583af998fbebe434",
+    "4": "9f5e55a426150a1ca84161b24fc7608753c9e731d0c747e258ed64ced6c786a5",
+    "5": "3f1a040a1d13bc3a4cbf6cc100d8f8024dad2c1b83f3c20c0fd74198f07de404",
+    "6": "92dd084b1125732592849bc8c4a36620f023a3e459ae034f3b6c4872ddfd9433",
+    "7": "e1c02d2320ea7442e0f6f2a0de9ad69700304582c9f0593ea4e7d9a6df1219ac",
+    "8": "05c671dcf87782be4057299c10e3b9974766b376cce90bf40e21cf3b9fe6a42f",
+    "9": "fdb5cff77edc59cee0e4fb315e6b4acecbbe6596ee138734a2b6b6733b22e220",
+    "10": "47fb7700407146db78c37770ba3378a39bb894d04ca9869c80c93c0290328069"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vai ignorar tudo isso daqui e vai pegar somente isso só a confiança porque quanto mais alto é o produto mas você precisa de confiança",
+      "explicacao": "O corpo resume corretamente a lista de argumentos padrão (preço, garantia, laudo cautelar, tanque cheio, IPVA, parcelamento) e a recomendação de ignorá-los em favor da confiança, e reproduz fielmente a régua 'quanto mais alto o produto, mais precisa de confiança' como afirmação do próprio professor (que ele estende a mentorias). A omissão do item 'cheque tudo/cheque duro' e da condição 'sem entrada' dentro da enumeração não altera a decisão ensinada (ignorar tudo e focar em confiança)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "quanto mais carro tiver mais carro vou vender, realmente isso é uma verdade, mas quanto maior for o giro também mais você vende bem",
+      "explicacao": "F01 resolvida para U2: a frase sobre giro (\"quanto maior for o giro também mais você vende bem\") está em [00:06:42.740–00:06:47.160] ≈ 402,7–407,16s, agora coberta pelo novo fim=408 (era 401). Toda frase do corpo tem fala dentro de 364–408. Corpo também corrigido: já não trata giro como 'ajudando mais' que estoque, e sim como fator somado, batendo com 'realmente isso é uma verdade, mas...'. Evidência (385–390s) segue dentro da faixa. Nenhum problema novo introduzido."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então lojista, lembre-se, quando você for criar um anúncio, quando você for criar algo pra sua empresa, foque nisso daqui, se o seu produto e o seu preço for alto, foque nisso daqui",
+      "explicacao": "F01 resolvida: a frase de remarketing foi retirada do corpo de U3 e virou U10 (920–945s); sem ela, todas as frases restantes do corpo (gancho ~505–521s e 729–740s; invalidação ~521–550s; conexão emocional ~552–620s; medo ~686–709s; CTA ~729–753s) ficam dentro de 496–794, incluindo a evidência (505–521s). F02 resolvida: a nova condicoes ('o professor generaliza para outros negócios de preço alto o foco em confiança, não este roteiro de cinco partes') bate com o trecho citado, em [00:25:14.520–00:25:28.520], onde o professor generaliza apenas 'foque nisso' (confiança), nunca as cinco partes do roteiro. Não há atribuição indevida remanescente."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aqui chamamos de gancho, tá bom?",
+      "explicacao": "A definição de gancho como a frase de abertura do anúncio corresponde exatamente ao trecho da fonte e à definição-padrão do vocabulário do curso para esta aula. A caracterização adicional ('criar tensão ou curiosidade e prender a atenção') é inferida do exemplo imediatamente anterior na mesma aula, sem contradizer a fonte."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas é igual uma roda de ferro demora para rodar mas aí ela vai rodar de forma automática com tempo",
+      "explicacao": "Todos os elementos do corpo (metáfora da roda de ferro, confiança superando qualquer persuasão a longo prazo mesmo fora do nicho de carros, leitura sobre desgaste de promessas de mercado, e autoridade/nome sustentando vendas de grandes players) aparecem dentro da faixa declarada (957–1142s), na ordem em que a fonte apresenta. A marcação de confiança 'media' com nota é adequada, pois o conteúdo mistura princípio do professor com leitura de mercado sem dado citado."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque esse aqui é o melhor treinamento de VSL na minha opinião atualmente",
+      "explicacao": "F01 resolvida: o fim foi estendido de 1195 para 1288 (≥1277, conforme mudança mínima), passando a cobrir a recomendação de compra do treinamento, presente em [00:21:13.880–00:21:25.600] ≈1273,88–1285,6s, dentro de 1143–1288. Resíduo trivial: o segmento final 'Do que o mercado inteiro está fazendo' [00:21:27.840–00:21:29.240] ultrapassa o fim declarado em ~1,2s, mas essa cauda não altera o sentido já capturado na frase anterior ('criar algo totalmente novo e diferente'), então não há efeito prático de verificação. Corpo sem 'hoje'/'atualmente', com a avaliação atribuída ao professor ('na opinião dele'), como pedido."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "mas aí o cara tá com uma base enorme de clientes insatisfeitos",
+      "explicacao": "A fonte diz que, ao vender por promessa sem entrega, o vendedor precisa trocar de nicho/produto quando a oferta anterior se esgota (3, 6, 9 meses) E, além disso, fica com uma base cada vez maior de clientes insatisfeitos ('o cara tá com uma base enorme de clientes insatisfeitos'). O corpo da unidade substitui essa consequência por 'obriga o vendedor a trocar de produto ou de nicho e recomeçar com uma base nova', omitindo o dano de reputação/confiança acumulado, que é o ponto central do alerta do professor sobre por que essa estratégia falha no longo prazo. Isso muda o que o leitor entende como consequência prática de usar só promessa."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "quanto mais ordem bump você tem mais em dúvida a pessoa vai ter de comprar",
+      "explicacao": "O corpo reproduz corretamente a recomendação de um único order bump, o exemplo do funil com cinco, o mecanismo de dúvida reduzindo conversão, e a atribuição da conclusão a contatos de mercado do professor (não a dado publicado), tudo dentro da faixa declarada (1374–1414s)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se o seu produto e o seu preço for alto, foque nisso daqui, se você tem uma loja de 1,99 e não consegue",
+      "explicacao": "F03 resolvida: o tema foi trocado de 'criatividade-e-angulo' para 'objecoes-e-credibilidade', que na taxonomia cobre explicitamente 'confiança como eixo da venda' — exatamente o assunto da decisão em [00:25:14.520–00:25:45.160] (foco em confiança vs. loja de ticket baixo que não sustenta esse discurso). Corpo, inicio/fim (1514–1545) e evidência não foram alterados e continuam batendo com a fonte, sem novo problema introduzido pela troca de tema."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se você mostrar isso daqui para o seu cliente várias e várias e várias vezes chamamos de remarketing o seu cliente vai ver para entender que não interessa qual é a empresa ou a loja que tem o mesmo carro que o seu ele vai comprar com você",
+      "explicacao": "Unidade nova criada para resolver F01 (frase de remarketing extraída de U3, que estava fora de sua faixa declarada). Todo o corpo está lastreado dentro de 920–945s: 'mostre o mesmo anúncio... chama de remarketing' em [00:15:12.960–00:15:27.780] (≈918–925s, praticamente coincidente com o inicio=920) e 'o cliente passa a entender que compra com você mesmo que outra loja tenha o mesmo carro' em [00:15:27.780–00:15:35.400] (≈928–935s). 'Isso daqui/isso aqui' é rastreável a 'seu anúncio', citado na linha imediatamente anterior. Evidência (918–925s) dentro da faixa. Observação leve, não bloqueante: a tarefa 'definir-publico-do-anuncio' é uma classificação defensável mas discutível para 'repetir exposição ao mesmo cliente'; não há tarefa mais específica de remarketing no enum, então trata-se de ajuste menor de classificação, não de falha de lastro."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 185,
+      "trecho_fonte": "tem também, né, o seguro, o veículo, onde o dono também ganha uma pequena parte mensal daquela cota ali, uma cota mensal, enfim, as possibilidades de venda de carro são muitas, tá?",
+      "descricao": "Além dos argumentos padrão listados na Unidade 1 (preço, garantia, laudo cautelar, tanque cheio, IPVA, parcelamento), a fonte descreve que lojas de seminovos também vendem consórcio (dono ganha uma pequena comissão) e seguro do veículo (dono ganha uma cota mensal) como fontes extras de receita/argumento. Nenhuma unidade preserva essa parte.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem usa a Unidade 1 para mapear o que a loja tipicamente oferece (antes de decidir descartar tudo isso em favor da confiança) não fica sabendo que comissão de consórcio e cota de seguro também fazem parte desse conjunto de táticas comerciais comuns do nicho."
+    },
+    {
+      "inicio": 347,
+      "trecho_fonte": "Então você tem que olhar muito a realidade dessas pessoas antes de se comparar com elas",
+      "descricao": "Ao narrar os casos de Thiago TK e Felipe Fera vendendo carro na internet, o professor alerta que a realidade dessas pessoas (oportunidade e viralização pontuais) é diferente da de um lojista comum, recomendando cautela antes de se comparar com elas. Nenhuma unidade preserva esse alerta.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base pode tomar exemplos de sucesso viral como parâmetro replicável para o próprio negócio, sem o alerta do professor de que a situação desses casos não é comparável à de um lojista comum."
+    },
+    {
+      "inicio": 1057,
+      "trecho_fonte": "promessa é comprovação e validação e CTA não tem erro não tem erro tem erro sim",
+      "descricao": "O professor nomeia uma fórmula de anúncio comum no mercado (promessa, comprovação, validação, CTA) e explica que ela falha quando quem a usa não tem autoridade construída, pois o público hoje não acredita mais nesse tipo de discurso vindo de quem não é uma grande autoridade. A Unidade 5 preserva a conclusão geral sobre autoridade, mas nenhuma unidade nomeia essa fórmula específica nem a conecta ao motivo do fracasso.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for diagnosticar por que um anúncio construído nessa fórmula padrão não converte perde a referência nomeada pelo professor, ficando só com a conclusão genérica sobre autoridade já coberta pela Unidade 5."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tarefa 'pesquisar-publico-e-subnicho' não corresponde ao conteúdo, que trata da dinâmica de estoque/giro de vendas de uma loja de seminovos, não de pesquisa de dor/linguagem de público. Um agente buscando 'como pesquisar meu público' seria levado a uma unidade sem relação com essa tarefa.",
+    "Unidade 9: tema 'criatividade-e-angulo' (achar ângulo novo a partir do que já existe) não descreve bem o conteúdo, que é uma decisão sobre focar em confiança versus aceitar cliente de ticket baixo conforme o preço do produto; temas como 'anuncio-negocio-local' ou 'objecoes-e-credibilidade' descrevem melhor o conteúdo e evitariam levar o agente ao lugar errado."
+  ],
+  "material": [],
+  "resumo": "Conferência focal das unidades 2, 3, 6, 9 e 10 do arquivo G07_A07 confirma que as três falhas do ciclo 1 (F01 faixa-errada em U2/U3/U6, F02 generalização indevida do roteiro em U3, F03 tema incompatível em U9) foram corrigidas conforme o critério de aceite de cada uma, sem introduzir desvio, sem-lastro ou faixa-errada novos. A unidade nova U10, criada para acomodar a frase de remarketing retirada de U3, está integralmente lastreada em 920–945s. Único ponto residual é um transbordo trivial de ~1,2s no fim de U6, sem efeito prático, e uma classificação de tarefa discutível (não bloqueante) em U10. Nenhuma omissão, problema de perecibilidade, de contrato ou de material foi encontrado no escopo desta conferência."
+}

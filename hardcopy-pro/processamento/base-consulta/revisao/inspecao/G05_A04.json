@@ -1,0 +1,98 @@
+{
+  "aula": "G05_A04",
+  "arquivo_sha256": "8b298718949209dde9178fdeb523218f79c42b911dcc72b6facc8d9e94892eee",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 4, 6]; as demais mantêm a evidência da inspeção integral do arquivo 9376b5852046, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    4,
+    6
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "a55a255ea7ef97c23062b48b4825b2fb000c817ee594cf2038aab7a363915c96",
+    "2": "89d0083e707a6d09db15bb329d9a5ad22021400fa30092a1c1619f2d414b6098",
+    "3": "805238ae6c981faa3ae50e594303c30ab3ce9d2e6cb3559fdbc1db278774771c",
+    "4": "d913231a4ef03ebba9652f7e3964d82d8637e50bda82ae2ebd15627189987f08",
+    "5": "915aad61afb5e3cc23033114db47fea56a49aaed052c9e98b5566ed6c5e2abdd",
+    "6": "3aeffb183cd8e8cc2a2baff6483007df5f78a3ed5b5117d2f05a0d4a3778685a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Fiquei muito triste com isso, mas eu já consegui resolver, coloquei a minha voz aqui e coloquei o vídeo",
+      "explicacao": "A fala de 30 a 50 s diz que a aula não foi gravada, que ele colocou a própria voz sobre o vídeo e que vai refazer a parte de som. A unidade preserva isso. A faixa começa em 30 s e deixa de fora o resíduo \"Copyright Australian Broadcasting Corporation\" de 0 a 30 s. Dizer que os cortes, o encaixe e os volumes ficaram só na tela é inferência coerente com aula de tela e cumpre a exigência de `limite`. Não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque a gente tá desafiando a pessoa, mas de nada adianta, olha só.",
+      "explicacao": "As cinco partes conferem com o fecho, dentro da faixa 399–455 s: energia \"para chamar a atenção\", \"explicamos essa energia\", suspense \"na dor que o cliente sente\", \"mais suspense ainda\" e \"finalizamos com a solução, com a música\". A última linha do corpo (o suspense é usado porque o anúncio desafia a pessoa) vem de 3:40–3:45 (cerca de 220–225 s), fora da faixa. Além disso, \"antes de entregar a resposta\" não está na fonte, que diz só \"desafiando a pessoa, mas de nada adianta\". Também são acréscimos a glosa \"(a fala que dá sentido à abertura)\" e \"banda de rock\" em `condicoes`, porque o professor só diz \"Queen\". Efeito: quem consulta recebe uma razão do suspense um pouco mais elaborada que a da fonte. A estrutura em si não muda."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E aí no final você entrega o que ela quer",
+      "explicacao": "F1 resolvida. O corpo não traz \"só\", \"completa\" nem outra restrição da música ao final. Diz apenas que o espectador reconhece a música no início e que, no final, junto da solução, recebe o que queria, que é ouvir a música. Isso bate com \"No início ela assimila a música do Queen, ela já sabe o que é o Queen\", com \"E aí finalizamos com a solução, com a música\" e com \"Que é ouvir a música dele\". Nada no corpo contradiz o retorno da música no meio (\"E voltamos com a parte do Queen\") nem a voz removida (\"Mas a música, ela não pode ter a voz do Fred Mercury\"). O sucesso segue atribuído ao professor (\"Por isso que faz tanto sucesso\"), e `condicoes` mantém a atribuição ao anúncio de exemplo. A faixa 437–466 cobre \"E aí finalizamos com a solução\" (07:17) até \"faz tanto sucesso\" (07:44–07:46), e a evidência está dentro dela. A abertura imperativa \"Use no anúncio uma música que o público já reconheça\" é leitura da lição do professor. Fica coberta por `condicoes` e por \"Segundo o professor\", e não muda a decisão de quem consulta. Nenhum problema novo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Laranja, ela é o plot da música",
+      "explicacao": "F2 resolvida. O corpo mantém só a definição que a fonte dá (\"Ela é onde começa o boom da música\"). A glosa \"ponto de maior impacto\" saiu, e o corpo não afirma finalidade (destacar, coincidir o pico com a fala). A segunda frase diz que a parte do anúncio à qual o trecho é juntado só aparece na tela e que a fala não diz qual é nem para quê. Isso corresponde ao que a fonte traz: \"Então, se a gente juntar ela\" / \"Com essa parte, olha como que fica\". A `nota` (trecho marcado em laranja na tela, parte do anúncio não nomeada) não afirma nada que o corpo contrarie. A faixa 138–148 (02:18–02:28) contém a evidência e as falas que sustentam o corpo. Nenhum problema novo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas a música, ela não pode ter a voz do Fred Mercury",
+      "explicacao": "Confere com 4:59–5:09 (\"vamos clicar em isolamento vocal e vai remover a voz só dessa parte\") e com 6:11–6:23 (\"vai refazer o isolamento de novo\", \"Dá um fade in no início\"). Está dentro da faixa 299–384 s. A `nota` e as `condicoes` registram corretamente que o editor não é nomeado e que a fonte não dá o motivo de remover a voz. Está com `perecivel: true` e `plataformas: geral`, o que é coerente com a ferramenta não nomeada."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Como que a gente faz isso? Modificador de voz",
+      "explicacao": "F3 resolvida nos três pontos. (a) O corpo diz só que o professor coloca um efeito sonoro de clique e o coloca de novo mais adiante, com as posições na tela. Isso bate com \"Um clique\", \"E colocamos o clique, tá?\" e \"Bem aqui a gente coloca o clique novamente\". \"Sob a fala nas trocas de trecho\" e \"nas transições\" saíram. (b) \"Desforçada\" e \"sem tanta força\" saíram. O corpo descreve só o que a fala nomeia: modificador de voz, \"Distorção\", \"Diminui o volume dele\", \"Não tanto\" e \"Acho que nem precisa diminuir\". A `nota` registra a grafia \"Desforcido\" e a dúvida, e o termo não foi mantido no corpo. `confianca: media` é aceitável. (c) O corpo usa \"esse épico\" como o professor diz, sem chamá-lo de música. A faixa 86–293 cobre clique, distorção e fade, e a evidência está dentro dela. Ajuste menor, que não abre ciclo: o título \"fade no início de um efeito\" pode ser lido como fade aplicado no começo. A fonte diz que ele pega só o início do efeito e faz o fade no final dele (\"E coloca só o início dele\" / \"Vamos freidar aqui no final\"), como o corpo diz corretamente. O corpo também lê \"freidar\" como fade, o que é plausível pelo \"fade in\" da mesma aula, mas a `nota` não registra isso. Esse trecho já existia e a falha não o questionava. Nenhum efeito prático para quem consulta."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 54.92,
+      "trecho_fonte": "Primeiro, a gente quer mostrar algo totalmente diferente",
+      "descricao": "O professor abre com o objetivo do primeiro bloco: mostrar algo totalmente diferente do que o mercado já viu, e por isso começa com uma música diferente, com energia, força e vontade. A `estrutura` da unidade 2 traz \"começar com energia\", mas não essa razão nem a ideia de diferenciação em relação ao mercado.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta sabe que a abertura tem energia e música conhecida, mas não sabe que o professor a escolhe também para diferenciar o anúncio do que o mercado já viu. Isso não impede aplicar a sequência."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: `tipo: regra` com imperativo categórico, mas as `condicoes` e a última frase dizem que é só a explicação do professor para o anúncio de exemplo. O conteúdo é mais próximo de `conceito` ou `exemplo`. É classificação discutível entre valores defensáveis, e portanto ajuste menor.",
+    "Unidade 3: o corpo depende de \"o anúncio de exemplo\", que só é descrito de forma indireta em `condicoes` (música famosa e fala de jornada). Quem consulta sem a aula não vê qual anúncio é. O efeito é pequeno, porque as `condicoes` dão o essencial.",
+    "Unidade 6: \"Desforcido\" foi interpretado como \"desforçado, sem tanta força\" sem `nota` sobre a dúvida de transcrição. Falta a `nota` e `confianca` já está `media`; é ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Conferência focal das unidades 3, 4 e 6: as três falhas (F1, F2, F3) foram resolvidas pelos critérios de aceite, e as três unidades saem `lastreadas`. Nas unidades 3 e 4, os acréscimos sem base na fonte saíram, e as atribuições e a incerteza sobre a parte que só aparece na tela foram preservadas. Na unidade 6, a posição do clique, a leitura de \\\"Desforcido\\\" e a chamada de \\\"esse épico\\\" de música saíram do corpo. Resta um ajuste menor no título da unidade 6, sem efeito no uso. Nenhuma omissão nova, nenhum problema de perecibilidade ou de contrato nessas unidades, e sem material de apoio nesta aula."
+}

@@ -1,0 +1,76 @@
+{
+  "aula": "G08_A05",
+  "arquivo_sha256": "a8cf227b7012330a655969fbffcad8fa7d19e3cab654844d06a28bda9fdd1530",
+  "inspecao_sha256": "386b19cbc2e1a96c703abf7ac7309e1fe9c7c97b08ae294b53f418746f3ca1a2",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "d8b5e6e0a4ef70fa984e2a9c27838557f86eda9017a7e29d3accdeecd9353333",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. O inspetor pôs o caso \"Cetix\" (U10) na seção de contrato. O script não barrou esse termo, que não está na tabela de grafias, então o julgo em fidelidade, como termo deformado promovido a nome. Os outros dois itens dessa seção, o tipo `regra` nas U5, U7 e U9 e a palavra \"finalização\" no contexto, são ajustes menores.",
+  "fidelidade": "Falha. Há quatro unidades com defeito material. O inspetor deu trecho literal para cada uma e `citacoes_nao_literais` está vazio.\n- U3: a fala sugere (\"você pode colocar... um videozinho ali de 2, 3 minutos, você pode colocar uma landing page\"). A unidade transforma isso em \"deve ter\", com tipo `regua`, e ainda generaliza o fecho da copy de exemplo para todo anúncio de produto físico. É desvio de sentido e de condição.\n- U6: o procedimento tem passos de tela que a fala não nomeia: Compartilhar e copiar link, colar o link, opção sem marca d'água, aba Uploads, arrastar e zerar o volume. É o caso \"passo de tela inventado\" da rubrica.\n- U10: \"Cetix\" virou \"painel de ajuste da voz\", sem aspas, sem `nota` e com `confianca: alta`. \"A versão mais rápida do modelo\" é conhecimento externo.\n- U12: \"abaixo de 3000 K\", melatonina, luz branca e azulada e \"temperatura de cor\" não existem na aula. A âncora da unidade é uma frase de dentro da copy de exemplo. A unidade completa com conhecimento externo e apresenta copy de exemplo como fato, com `confianca: alta` e `perecivel: false`.\nA U8 tem desvio que o inspetor classificou como menor. Mantenho essa gravidade porque `condicoes` já marca a fala como preferência pessoal. As U1, U2, U4, U5, U7, U9 e U11 estão lastreadas. As ressalvas das U5, U7 e U9 são menores e já estão cobertas por `nota` e `confianca: media`.\nObservação sobre a inspeção: o resumo fala em 4 lastreadas com ajuste menor, mas os vereditos mostram 3 (U5, U7 e U9). Isso não afeta a decisão.",
+  "cobertura": "Passa. O inspetor declarou alcance integral e busca de omissões na fonte inteira. A única omissão é o filtro de idade na biblioteca de vozes (\"a idade é menor\"). É detalhe de tela e não muda a decisão de quem consulta. É aula de tela com `limite` bem escrito (U11), e ter poucas unidades nesse caso é o resultado esperado.",
+  "perecibilidade": "Passa. O inspetor não achou perecível escondido, e minha leitura das unidades marcadas `geral` confirma isso. As U2, U3 e U4 só citam landing page, marketplace e a chamada da copy como contexto de exemplo. Nada ali é recurso de plataforma. A U6 contorna direito de terceiros e está com `perecivel: true`. A U12 tem `perecivel: false`, mas o defeito dela é de fidelidade e a correção é retirá-la.",
+  "aplicabilidade": "Não abro veto próprio de aplicabilidade. A `nota` da U6 começa pelo aviso obrigatório de contorno de política ou direito de terceiros, e a unidade tem `perecivel: true`. As demais unidades se sustentam sozinhas e estão com `condicoes` preenchidas onde o corpo só vale para este criativo.\nRegistro quatro pontos discutíveis, todos menores:\n- As U5, U7 e U9 estão tipadas como `regra`, mas narram escolhas do professor para este criativo.\n- A U3 tem tema `pitch-e-cta`, mas o assunto é o destino do tráfego.\n- A U6 remete a \"outros episódios\".\n- A U8 fala em \"quadro da paz\" em `condicoes` e em \"quadro de felicidade\" no corpo.\nOs problemas de uso das U3, U6, U10 e U12 vêm da fidelidade e estão tratados nas falhas.",
+  "falhas": [
+    {
+      "id": "G08_A05-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal citado pelo inspetor: \"colocar um vídeo mostrando o produto um videozinho ali de 2, 3 minutos você pode colocar uma landing\". A fala é uma sugestão opcional com duas alternativas em pé de igualdade. A unidade escreve \"O vídeo de destino deve ter de 2 a 3 minutos\", põe a faixa no título como parâmetro e usa tipo `regua`. Ela também afirma que \"o anúncio de produto físico fecha com\" a chamada, o que generaliza o fecho da copy de exemplo do abajur. `condicoes` está `null`.",
+      "impacto": "O agente que consultar vai impor 2 a 3 minutos como duração obrigatória do vídeo de destino. Vai também tratar o fecho \"saiba mais e veja na prática\" como padrão de todo anúncio de produto físico. O professor não disse nenhuma das duas coisas.",
+      "mudanca_minima": "Reescrever título e corpo no modo da fala. O professor sugere que o destino do anúncio pode ser um vídeo mostrando o produto, de uns 2 a 3 minutos, ou uma landing page. A chamada \"saiba mais e veja na prática\" é a da copy de exemplo do abajur. Tirar \"deve\" e a generalização do fecho. Trocar o tipo: `decisao` (\"Quando o anúncio de produto físico manda para 'saiba mais', o professor sugere...\") ou `exemplo`. Se o tipo continuar `regua`, título e corpo precisam dizer que a duração é sugestão opcional. Preencher `condicoes` com o contexto: sugestão feita ao comentar a copy de exemplo do abajur. Ao reclassificar, avaliar tema `formato-de-venda` e tarefa `escolher-formato-de-venda`. Incrementar `versao`.",
+      "criterio_de_aceite": "(a) Nem o título nem o corpo contêm \"deve\" ou construção de obrigação sobre a duração. (b) Vídeo de 2 a 3 minutos e landing page aparecem como alternativas opcionais atribuídas ao professor. (c) O corpo não diz que todo anúncio de produto físico fecha com aquela chamada. (d) `condicoes` não é `null` e situa a sugestão no exemplo do abajur. (e) O inspetor reclassifica a U3 como `lastreada`. (f) O validador continua com zero erros."
+    },
+    {
+      "id": "G08_A05-F2",
+      "unidades": [
+        6
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita \"SnapTik, faz download, download HD\". Segundo ele, a fala só sustenta o seguinte: o professor não tem foto do abajur, há poucas opções no Canva, ele busca \"abajur de quarto\" no TikTok, usa o SnapTik, faz download HD, diz \"tirar a voz dessa mulher\", \"baixou aqui, a gente vai colocar o abajur no nosso vídeo\", \"vamos deixar ele mais organizadinho\" e reclama do texto do TikTok. Os passos 3 a 6 da unidade acrescentam \"toque em Compartilhar e copie o link\", \"cole o link no SnapTik\", \"na opção sem marca d'água\", \"pela aba Uploads\", \"arraste para a página\" e \"zerando o volume do clipe\". Nada disso está na transcrição.",
+      "impacto": "É um `procedimento` que um agente vai executar ou transformar em skill. Ele reproduziria botões, opções e uma forma de silenciar o áudio que o professor não ensinou, como se fossem do curso. Sendo tela perecível, o erro se propaga com falsa autoridade.",
+      "mudanca_minima": "Manter a pré-condição e reduzir os passos ao que a fala nomeia. (1) Buscar no TikTok um vídeo de \"abajur de quarto\", porque o Canva tinha poucas opções. (2) Baixar o vídeo pelo SnapTik, na opção de download HD. (3) Colocar o vídeo baixado no criativo e organizá-lo. (4) Tirar a voz que vem no vídeo original, sem dizer como. Acrescentar à `nota`, depois do aviso de contorno já existente, que a forma de copiar o link, enviar o arquivo ao Canva e silenciar o áudio ficou só na tela. Incrementar `versao`.",
+      "criterio_de_aceite": "(a) O corpo não contém \"Compartilhar\", \"copie o link\", \"cole o link\", \"marca d'água\", \"Uploads\", \"arraste\" nem \"zerando o volume\". (b) O corpo continua começando por `Pré-condição:` e tem pelo menos 2 passos numerados. (c) A `nota` continua começando por \"Contorna política de plataforma ou direito de terceiros:\" e `perecivel` continua `true`. (d) O inspetor reclassifica a U6 como `lastreada`. (e) O validador continua com zero erros."
+    },
+    {
+      "id": "G08_A05-F3",
+      "unidades": [
+        10
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita \"Colocar a linha leve em multilingual\" e \"Vamos vir em Cetix\". A unidade escreve \"abre o Cetix, o painel de ajuste da voz\". O termo está fora da tabela de grafias e ganhou uma função que a fala não dá. Está sem aspas, sem `nota` sobre ele e com `confianca: alta`. A unidade também escreve \"a versão mais rápida do modelo\", que é conhecimento externo. \"Regenera a fala até ouvir o resultado que julga bom\" extrapola uma única regeneração seguida de elogio.",
+      "impacto": "O agente receberia o nome de um painel do ElevenLabs e a caracterização de um modelo que a aula não dá. Ao montar um passo a passo de locução, mandaria procurar um menu que pode não existir e escolheria o modelo por um critério (velocidade) que o professor não mencionou.",
+      "mudanca_minima": "Opção A: manter \"Cetix\" como transcrito, entre aspas e sem atribuir função (por exemplo, o professor entra em \"Cetix\"). Nesse caso a `nota` diz que a fonte grafa assim e que o termo não foi identificado, e a unidade vai para `confianca: baixa`. Opção B: tirar do corpo o passo \"Cetix\" e registrar na `nota` que o ajuste feito ali ficou só na tela. Nesse caso `confianca` fica no máximo `media`, porque a `nota` já guarda uma leitura interpretativa sobre \"não tem nenhum número\". Nas duas opções: relatar \"coloca a linha leve em multilingual\" como dito e sem glosa, remover \"a versão mais rápida do modelo\", e trocar \"regenera até...\" por regenera a fala e aprova a voz. Incrementar `versao`.",
+      "criterio_de_aceite": "(a) O corpo não contém \"painel de ajuste da voz\" nem \"versão mais rápida\". (b) Se \"Cetix\" aparecer, está entre aspas e sem função atribuída, a `nota` diz que o termo não foi identificado e `confianca` é `baixa`. Se não aparecer, `confianca` não é `alta`. (c) A regeneração é descrita sem \"até\". (d) O inspetor reclassifica a U10 como `lastreada`. (e) O validador continua com zero erros."
+    },
+    {
+      "id": "G08_A05-F4",
+      "unidades": [
+        12
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor afirma que nada na aula fala de \"temperatura de cor\", \"abaixo de 3000 K\", melatonina ou luz branca e azulada. A fonte só tem uma frase da copy de exemplo (\"ele tem a cor quente ideal para ajudar o seu subconsciente a se sentir em paz\") e o comentário \"eu pesquisei sobre isso e realmente faz sentido\". A `evidencia` da própria unidade é essa frase da copy. A unidade está tipada como `conceito`, com `confianca: alta`, `perecivel: false` e sem `condicoes`.",
+      "impacto": "O agente repetiria com confiança uma alegação de saúde, com número e mecanismo fisiológico, como se fosse ensinamento do curso. Poderia levá-la para copy real de produto. É completar com conhecimento externo e tratar copy de exemplo como fato ao mesmo tempo.",
+      "mudanca_minima": "Retirar a unidade 12 e listar o número em `retiradas`. O conteúdo que tem lastro já está em outras unidades: a copy alega que a cor quente ajuda a relaxar (U2, com `condicoes` de copy de exemplo), e o professor diz ter pesquisado e achado que faz sentido (U1 e `nota` da U2). Não é preciso reescrever.",
+      "criterio_de_aceite": "(a) O número 12 consta em `retiradas` e não há unidade viva com esse número. (b) Nenhuma unidade do arquivo contém \"3000\", \"melatonina\", \"temperatura de cor\" nem \"luz branca e azulada\". (c) O validador continua com zero erros, com presentes ∪ retiradas = 1..12."
+    }
+  ],
+  "ajustes_menores": [
+    "U8: o título e o corpo dizem que o professor desistiu das imagens de gente feliz \"por falta de credibilidade\". Segundo o inspetor, o motivo dado na fala é \"Eu não encontrei nada, então eu vou colocar o olhar\". A fala sobre gente sempre feliz é um comentário à parte. Sugestão: separar as duas coisas, isto é, o comentário pessoal de um lado e a troca de busca por falta de resultado do outro. Alinhar também \"quadro da paz\" (em `condicoes`) com \"quadro de felicidade\" (no corpo). A gravidade fica menor porque `condicoes` já marca preferência pessoal.",
+    "U10: incluir o filtro de idade da biblioteca de vozes (\"a idade é menor\"). Aproveitar a correção da F3, que já abre a unidade.",
+    "U3: tema `pitch-e-cta` é defensável, mas o assunto é o destino do tráfego. Avaliar `formato-de-venda` e `escolher-formato-de-venda` junto com a F1.",
+    "U6: \"a mesma jogada dos outros episódios\" depende do curso e o Canva aparece no corpo sem estar em `plataformas`. Avaliar ao reescrever pela F2.",
+    "U9: a unidade escreve \"a que ele diz que sempre usa\", mas a fala diz só \"que tanto amamos\". O exagero é pequeno.",
+    "U5: \"um pequeno contraste no texto\" e \"verde\" no fundo são leituras de fala ambígua sem a imagem. A `nota` e `confianca: media` já cobrem.",
+    "U7: \"testa fundo preto, decide pelo branco\" fixa algo que a fala não identifica. A `nota` e `confianca: media` já cobrem.",
+    "U5, U7 e U9: o tipo `regra` é discutível para uma narrativa de escolhas deste criativo. `exemplo` seria a alternativa. `condicoes` já limita o alcance.",
+    "Contexto: tirar \"e a finalização\". A fala só diz que vai \"dar cor\" na próxima aula no CapCut, e o professor declara a montagem pronta."
+  ],
+  "proximo": "Enviar ao redator de correções somente as falhas F1 a F4, que cobrem as U3, U6, U10 e U12. A próxima conferência se limita a essas quatro unidades e ao efeito de retirar a U12 (`retiradas` e a numeração 1..12). As U1, U2, U4, U5, U7, U8, U9 e U11 preservam a evidência atual enquanto o hash de cada uma não mudar.\nOs ajustes menores das U5, U7, U8 e U9 mudam o corpo. Quem mexer nelas perde o hash inspecionado e precisa reinspecionar a unidade alterada. Eles são opcionais e não abrem ciclo.\nO arquivo que recebi não traz `correcoes`, então não sei em que ciclo está este artefato. Se este já era o segundo ciclo, a lista residual segue para a intervenção localizada da coordenação e para a conferência focal final, não para uma nova rodada automática.\nA causa \"passo de tela inventado ou completado com conhecimento externo em aula de tela\" aparece aqui nas U6, U10 e U12. Se ela for confirmada em outra aula, vale a ampliação focal prevista na rubrica."
+}

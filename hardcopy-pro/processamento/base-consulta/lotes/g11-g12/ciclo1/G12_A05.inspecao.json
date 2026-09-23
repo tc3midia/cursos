@@ -1,0 +1,188 @@
+{
+  "aula": "G12_A05",
+  "arquivo_sha256": "0d769c2718d2a8f38d7ba7266e951da1e145863ad28bf9cb571afee228dbee50",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [8]; as demais mantêm a evidência da inspeção integral do arquivo ccb47cc5415b, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    8
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "6bb574e579795d04b26f84a5317c2bcda1a9334dc7d3e4a10fa3aaa22075f279",
+    "2": "55992abf0014fc4c3c9f9b8e617ee3515e8686978f4bceda155fdb910a7a5a6c",
+    "3": "9573b188b68314575016a524f5e07780cf6edca61a7db26adcf60bc7ebdb3dce",
+    "4": "11cb7ace18a76f430324e9e0aaee5c7cbcb2bd63b6c7294eb504a85f51817fb4",
+    "5": "c9baacc6bfe91f226761ffa702cbbef6135f5a6b4c5681b6a9ff995bbe50f857",
+    "6": "f2eaa535680393d6beee83787b208e75ed3f6c47f6cab0ca4f81c10f1e1615a9",
+    "7": "62b5559c09e364e8ceb1f019c8946440ffb36cd49629f7ff46167013177921be",
+    "8": "518a0bcbb668b737addc0b7845b7874c2540c54e2c1cde892841d4a9ddc4371b",
+    "9": "e1dc2372976079a302f2647ce37b4870e832709ce50b7172fb40fc0556e70c98",
+    "10": "f5ba28a8b8eecfb27107ef29ce899204eed92f9143cc0496e86246cf4313d46b",
+    "11": "1869277867d915268f92ed37994fab49c34b8e40486a4fd17f38b81f156e4812",
+    "12": "ad15a88390decc6e44216ab4ed60e9a318373b5042acb48483c9eb1dacb2a973",
+    "13": "358997b91b4ab8db9705582193ae805a710acf712a982849ae092ffd9c2cc297",
+    "14": "c2cd927ffa9dad79843a636f15c35a110accb445aeb97e4cae8924720d9e9775",
+    "15": "50aa41f91a8624d02eff36e7f61bc880a95299065d7c71152ebe78b69f735694"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos pegar um VO3 quality 100 créditos",
+      "explicacao": "A fala confirma exatamente o número e o contexto (modo 'quality' do VO3/Veo 3 custa 100 créditos ao abrir o projeto). A grafia 'VO3' é tratada como hipótese para Veo 3 com nota e confiança 'media', conforme exigido pela tabela de grafias. Nenhuma diferença de número, condição ou sentido em relação à fala."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque senão ele vai criar um anúncio",
+      "explicacao": "A fala mostra o professor se corrigindo ao ditar o prompt: ele evita pedir 'criar um anúncio diferente' porque isso faria a IA gerar um anúncio junto com o prompt ('Isso é uma merda'). A unidade preserva corretamente essa ressalva/autocorreção como parte da orientação, sem inverter o sentido. A incerteza sobre a ferramenta de texto usada ('3 Google Prompt') é registrada com plataforma 'geral' e nota, adequado dado que a fonte não permite identificação segura."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "com a cabeça em um travesseiro branco, uma mulher de 48 anos, cabelos longos, morena, olhos pretos",
+      "explicacao": "Todos os cinco elementos listados (personagem, cenário, tom, direção de tempo/atuação, fala) aparecem na fala dentro da faixa citada. A única diferença é de ordem: na fonte o cenário (mulher deitada, travesseiro) vem antes da descrição física da personagem, enquanto a unidade lista personagem antes de cenário. Isso não muda a execução (é uma lista de partes a compor, não uma sequência obrigatória), por isso o efeito é apenas de redação, não de conteúdo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "passa o promo ultra realista com o máximo de informações possíveis em inglês, porém a mulher falando em português, português Brasil",
+      "explicacao": "Paráfrase fiel da instrução final de escrever o prompt em inglês, com máximo detalhe, mas pedindo a fala em português do Brasil. Nenhum número, condição ou sentido alterado."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos baixar ele aqui 720p tá bom ele vai fazer o download e a gente nomeia ele como parte um aqui",
+      "explicacao": "Os dois passos do procedimento (baixar em 720p; nomear com numeração sequencial de parte) correspondem exatamente ao que a fala descreve nesse ponto da aula."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "prompt é a mesma coisa que copy, é muito, muito parte de uma só coisa que você está criando, não tem como você generalizar um prompt para uma copy",
+      "explicacao": "A regra e a crítica a 'cursinhos' que prometem 'mil prompts prontos' são preservadas com o mesmo sentido e sem virar lei além do que o professor afirma. Corpo é paráfrase, não cópia bruta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Agora o médico que ela criou está na foto na cima de todos os detalhes possíveis para ela fazer o mesmo médico",
+      "explicacao": "A técnica de usar print do personagem já gerado como referência de imagem, incluindo o caso de esquecer a imagem e ainda assim a IA reconhecer o personagem por causa da sessão anterior, e o envio de print para a conversa de texto, estão todos na fala dentro da faixa citada."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Beleza, a segunda voz já foi",
+      "explicacao": "A falha G12_A05-F01 foi resolvida no essencial: os passos 1-2 agora descrevem corretamente poucas tomadas contínuas com várias frases emendadas (não mais 'uma frase curta por vez' / 'uma tomada separada para cada frase'), o número de tomadas (três) está atribuído ao que o professor fez ('a gente já fez a primeira', 'a segunda voz já foi', 'E agora eu vou fazer uma terceira', 'vamos pegar as 3 vozes aqui'), a evidência é literal e cai dentro da faixa, e os passos 3-4 (baixar volume, dividir/acelerar, distorcer a reconhecível, duplicar e salvar como 'voz, barulho') têm trecho correspondente dentro da faixa estendida 847–1118 ('essa aqui a gente vai deixar ela mais baixa', 'Coloca aqui, velocidade, a gente divide', 'A gente vai colocar uma distorção', 'Duplicamos aqui e duplicamos', 'vamos salvar em áudio'). Persiste, porém, um desvio menor introduzido pela própria correção: o passo 2 diz 'Em cada tomada, encadeie... que representem cobranças e pensamentos... no formato amanhã você tem que..., fechando com as perguntas de angústia', generalizando para as três tomadas um padrão de conteúdo que a fonte só mostra de fato na primeira. Da segunda tomada só se sabe 'a segunda voz já foi' (sem conteúdo transcrito); da terceira só há o anúncio 'E agora eu vou fazer uma terceira' seguido de um comentário do professor sobre parecer 'idiota', não do texto da tomada em si. É extensão do caso da tomada 1 para 'cada tomada' sem confirmação na fonte. O efeito prático é baixo: a técnica central (poucas tomadas contínuas com várias frases curtas) permanece correta e executável, e a unidade já marca em `condicoes` que é demonstração de um anúncio específico, então quem consultar não é levado a um erro de execução, só a uma expectativa de conteúdo um pouco além do que a fonte garante."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "dá pra IA fazer isso? Dá, mas cara, olha o tanto que isso ia demandar trabalho, token",
+      "explicacao": "A recomendação de avaliar custo/trabalho (token) antes de delegar tarefas simples à IA está fielmente preservada, sem virar regra além do que a fala diz."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que é algo que não dá pra lembrar, que é a minha voz, né? Porque muita gente conhece ela",
+      "explicacao": "A condição (distorcer a própria voz quando ela é reconhecível) e o contexto (uma gravação específica do anúncio, feita no CapCut) batem com a fala; a unidade delimita corretamente a condição em vez de transformar em regra universal."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Esse anúncio não vai dar para a gente fazer texto para fala no Eleven Labs, ela tá falando muito baixo, ela tá dando muita emoção, então temos que continuar essa emoção",
+      "explicacao": "A decisão de preferir Voice Changer sobre a própria gravação, em vez de texto-para-fala, para preservar a emoção de uma fala sussurrada, está corretamente atribuída e contextualizada."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então aqui a gente vai dar um CTRL B e a gente vai criar Clip Composta agora",
+      "explicacao": "O limite descreve corretamente que a montagem fina no CapCut (clipe composto, cortes exatos, sincronização) é majoritariamente apontada na tela sem detalhamento verbal suficiente para reconstruir cada clique, o que é consistente com o trecho e com boa parte da faixa 1440–1833."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Confere se a voz casou com o rosto dele",
+      "explicacao": "O fluxo de exportar áudio por personagem, aplicar Voice Changer, trazer de volta e sincronizar com o rosto, e reajustar o tempo se necessário ('a gente vai chegar um pouquinho pra frente'), corresponde à sequência de ações narrada na fala dentro da faixa citada."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se essa do grandpa daqui é boa do vovô né",
+      "explicacao": "A escolha do preset de voz 'grandpa' para o personagem médico mais velho está corretamente registrada, com nota citando o nome do preset."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "na próxima aula a gente vai juntar todas essas peças aqui junto com o Canva",
+      "explicacao": "O limite reflete fielmente o fechamento da aula: partes de IA prontas, Canva e trilha sonora ficando para a aula seguinte."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 487,
+      "trecho_fonte": "onde a câmera sai do rosto da mulher e vai para o médico e o médico anda e a câmera o segue focando em seu rosto e ele diz",
+      "descricao": "A fonte ensina uma técnica de continuidade para introduzir um segundo personagem dentro da mesma geração/prompt, sem cortar para um clipe novo: descrever no prompt que a câmera sai do rosto de um personagem e vai para o outro que 'chega do nada' ('e do nada chega um médico com seus 55 anos'), com a câmera seguindo o novo personagem. Nenhuma das 15 unidades preserva essa técnica de transição por movimento de câmera dentro de uma mesma cena gerada.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar só as unidades vai saber compor um prompt para uma cena isolada (unidade 3) e manter a aparência do personagem entre clipes separados via print (unidade 7), mas não vai saber que é possível introduzir um novo personagem dentro do mesmo prompt/clipe usando direção de câmera, uma alternativa mais econômica a gerar um clipe extra só para apresentar o personagem."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Nenhum erro de contrato (cópia bruta, tipo incompatível com o conteúdo, ou classificação que levaria a um lugar errado) foi encontrado nas 15 unidades.",
+    "Ponto discutível, não bloqueante: a unidade 7 descreve uma técnica de referência de imagem para prompt mas não inclui a tarefa 'criar-prompt-ou-agente' junto de 'gerar-video-com-ia'; é classificação defensável (ajuste menor), não erro de contrato.",
+    "Todas as unidades citam 'aula' ou faixa de forma autoexplicativa; nenhuma unidade depende de uma referência que só existe fora do corpo (tipo 'esse vídeo' sem explicação) de forma que a torne incompreensível sozinha."
+  ],
+  "material": [
+    "Esta aula não possui material de apoio (material_ausente); não há, portanto, divergência entre fala e material a registrar nem uso indevido de material fora do escopo da aula."
+  ],
+  "resumo": "Nesta conferência focal, restrita à unidade 8, a correção do ciclo 1 resolveu o núcleo da falha G12_A05-F01: os passos 1-2 agora refletem poucas tomadas contínuas com várias frases emendadas, o número de três tomadas é atribuído ao professor, e todos os passos (1-4) têm trecho correspondente dentro da faixa 847-1118, com evidência literal e faixa coerente. Persiste um desvio de gravidade menor, provavelmente introduzido nesta própria correção: o passo 2 generaliza para 'cada tomada' um padrão de conteúdo ('amanhã você tem que...', fechando com perguntas de angústia) que a fonte só confirma na primeira tomada, já que a segunda e a terceira aparecem só como menção, sem conteúdo transcrito equivalente. Esse desvio não compromete a técnica central nem a executabilidade da unidade. Nenhuma outra unidade da lista foi reaberta, e não há problema de cobertura, perecibilidade, contrato ou material decorrente das falhas conferidas nesta rodada."
+}

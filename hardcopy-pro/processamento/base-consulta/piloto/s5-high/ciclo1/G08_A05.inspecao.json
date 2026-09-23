@@ -1,0 +1,144 @@
+{
+  "aula": "G08_A05",
+  "arquivo_sha256": "959543ca76a6c13f7186f30b5ec998668321a50b5d58026181ad34ed422f3862",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 2, 6, 7]; as demais mantêm a evidência da inspeção integral do arquivo ab5ba2c1fd0c, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    2,
+    6,
+    7
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "797190d883ba396e2d0fdfa4c429267a022ad60ae43d196fafc796cf383f665e",
+    "2": "423c64d6cf79cfac4612cb8f005843964db4e9842d8da82cb1f114115f6c458a",
+    "3": "b0bae6ca276fc1a7555f6ecdbf3feef29e1ba8a9d37447f9dc2c1160dfccbf49",
+    "4": "576d8333e2af668957a45d9225774a546ed6f0265623934cff97f9c51ef6d3cd",
+    "5": "f1b0acf8b539da3863bfb27fb4ec325ef98dc828115390d05abe30d185950431",
+    "6": "0e1763549aa49233098b7b43d3462318f5a47f5b1692500c0936820830d47c07",
+    "7": "199d57694d386c8e96250a477c439ea2ae16642cbb10396af5ed01c7b92ab3e3",
+    "8": "5d89a96c287ecb0a9109abc75f8f11e7e42bce34c4ee0fbcc952f03bbcde5c6d",
+    "9": "98d052d54b1bafe37e639dd343d03bfef86cae5b5493958022a2f5f8a4a41480",
+    "10": "9bf79420b4e3b7dc1a75d089e159bf36137cf82d8536d4a42d049350b6ec32b7",
+    "11": "9599afc0706cc266f505bb097948ec8291a575cfd7d7e9b4566b1673acdc91b7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "esse abajur, a luz dele vai ajudar a pessoa a dormir.",
+      "explicacao": "F1 resolvida. As frases finais do corpo (a luz ajuda a dormir; o professor pesquisou e diz que faz sentido) estão em 67,10–73,14 s e 73,42–78,22 s. `fim` 79 cobre as duas. A evidência (37,68–49,92 s) segue dentro da faixa 30–79. Resíduo menor, sem efeito na decisão: `condicoes` diz \"já vendido por muita gente\", e a fala só diz \"produtos normais\" e \"vender qualquer coisa\". O primeiro segmento (30 s) começa no meio da frase (\"do mercado livre se diferenciar através de um anúncio\"). \"Como os vendidos no Mercado Livre\" é leitura de um fragmento, e o corpo a apresenta como exemplo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "oferecemos o produto como uma solução entende",
+      "explicacao": "F2 resolvida. As três partes numeradas usam os nomes que o professor enuncia: história totalmente desconectada do produto, conexão da história com o produto, produto oferecido como solução. \"Dor\", \"Promessa\" e \"Chamada final\" saíram. O corpo separa o que o professor afirma do que é descrição da copy (\"na copy\", \"segundo a copy\"). Restaurou o \"pode\" em \"a iluminação pode mudar muito a qualidade do sono\". `fim` 149 cobre a cláusula final (141,14–148,34 s), e a evidência (134,66–148,34 s) está dentro da faixa. `condicoes` mantém a marca de copy de exemplo. Resíduos menores, sem novo ciclo: (a) o corpo escreve \"o ambiente pouco acolhedor que faz a pessoa demorar\", e a copy diz \"o ambiente parece pouco acolhedor e você acaba demorando\", o que tira o \"parece\" e deixa o nexo mais categórico. (b) \"tocar em saiba mais\" vem de 996–1005 s (\"toca em saiba mais e veja na prática\"). Dentro da faixa a fonte traz \"alguém saiba mais e veja na prática\", degradado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "colocar um vídeo mostrando o produto um videozinho ali de 2, 3 minutos você pode colocar uma landing",
+      "explicacao": "O corpo bate com a fala: \"veja na prática\" foi escolhido porque o destino pode ser um vídeo curto de 2 a 3 minutos ou uma landing page. A preferência está atribuída ao professor e a faixa cobre o trecho."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Estudando ele, tentando entender qual que é o mecanismo oculto que ele tem aqui, tá bom?",
+      "explicacao": "Bate com a fala: dropshipping, e-commerce e Shopee estão em `condicoes`, e a afirmação de que ninguém vendeu sono por meio de uma luz está atribuída ao professor, com `nota`. A faixa cobre o trecho."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "e vou colocar aqui de vermelho",
+      "explicacao": "O essencial está na fala: clipes que transmitam o sentimento (\"Sossego, paz, tranquilidade, e aí depois a gente vende o nosso produto\"), dramatização, vermelho, ícones de ampulheta e despertador com cores igualadas. A unidade tem duas inferências. A fala diz \"vamos colocar um negócio mais pesadinho aqui\" e \"vou colocar aqui de vermelho\", sem dizer o que é o \"negócio\"; o corpo traduz isso como \"tom mais pesado, em vermelho\" na frase do problema. A fala também diz \"a gente vai dar um contrastezinho\" sem dizer onde; o corpo põe o contraste \"no texto\". A `nota` avisa que posições e cliques não estão na transcrição e a `confianca` é media, então o efeito é pequeno."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "pegar qualquer uma do camba mas para você entender e pegar a base",
+      "explicacao": "F3 e F4 resolvidas. O `tema` agora é `anuncio-produto-fisico`, entre os três valores indicados como defensáveis, e cabe na taxonomia (abajur está nos exemplos). `perecivel: true` e as plataformas `tiktok` e `outra` estão mantidos. A `nota` continua com o prefixo \"Contorna política de plataforma ou direito de terceiros:\". O título saiu de \"nem texto\". `condicoes` só diz que o professor não tem foto própria do abajur e que é para o aluno entender a base, o que a fala sustenta (\"como eu não tenho foto de abajur vou pegar qualquer uma do camba mas para você entender e pegar a base\"). Os cinco passos (TikTok, abajur de quarto, SnapTik em HD, colocar o vídeo e organizar, tirar a voz) estão na fala em 578–645 s. A reclamação sobre o texto do TikTok segue como reclamação, sem passo de remoção. `fim` 653 pega o fecho \"isso atrapalha tanto\" (termina em 653,02 s). Sem apontamento de fidelidade novo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "e a gente volta de novo com abajur tá",
+      "explicacao": "F1 resolvida. A última frase do corpo (o vídeo volta a mostrar o abajur) está em 1011,54–1025,28 s, e `fim` 1026 a cobre. A evidência (659,02–666,22 s) segue na faixa. Toda frase do corpo fica entre 659 e 1026 s. Resíduos menores, sem novo ciclo: (a) \"testa fundo preto, decide pelo branco e põe uma sombra bem leve\" fixa o alvo da cor. A fala diz \"vou colocar no preto\", \"efeitos nenhum\", \"vou colocar esse aqui no branco\" e \"se eu colocar um sombreado aqui\", sem dizer se preto e branco são do fundo ou do texto. A `nota` cobre só \"cores exatas e efeitos\" e não essa ambiguidade. (b) \"Os elementos ficam na cor do fundo\" generaliza \"E aqui a gente coloca da cor do fundo\", que se refere a um elemento."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu não encontrei nada, então eu vou colocar o olhar",
+      "explicacao": "A preferência pessoal está bem atribuída: \"eu não gosto de felicidade\", \"eu não acho que elas são confiáveis\", \"Ser humano\". A `condicoes` diz que não é lei. O corpo chama o quadro de \"quadro de felicidade\", mas a `condicoes` diz \"quadro da paz\". Na fala, o quadro é \"pra se sentir em paz\" e \"Felicidade\" é só o termo de busca. O gatilho imediato da troca por \"o olhar\" é \"eu não encontrei nada\", e o corpo só dá a antipatia como motivo. Pequeno, sem efeito na execução."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E colocamos a nossa maravilhosa seta que tanto amamos, tá?",
+      "explicacao": "Bate com a fala: teclado nas partes grandes, variação nas pequenas, seta com animação. \"A que ele diz que sempre usa\" é reformulação de \"que tanto amamos\"; \"sempre\" não é dito. A `nota` avisa que as animações das partes pequenas não são nomeadas."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Colocar a linha leve em multilingual",
+      "explicacao": "Bate com a fala nos pontos principais: ElevenLabs, voz calma e tranquila, biblioteca, filtro feminino, categoria aberta, voz doce, regenerar. A unidade tem três imprecisões, todas em trecho degradado. O corpo diz \"modelo multilingual\", mas a fala diz \"colocar a linha leve em multilingual\", sem dizer que é o modelo. Diz \"regenera até ouvir o resultado que julga bom\", mas a fala é só \"vamos regenerar aqui pra ver\". E não menciona o filtro de idade, \"vamos colocar que a idade é menor\", embora a `nota` diga que a fala sobre idade está degradada. \"Como o texto não tem número a ajustar\" é interpretação de \"Não tem nenhum número\"; a `nota` avisa disso e a `confianca` é media."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, vamos dar cor para essa parada na próxima aula no CapCut",
+      "explicacao": "Cumpre o papel de `limite` de aula de tela: diz que cliques, buscas e ajustes do Canva ficaram só na imagem e registra que o professor deixa \"dar cor\" para a aula seguinte, no CapCut. A faixa cobre o trecho."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U6: o tema `variacoes-e-criativo-estatico` (variação de hook sobre criativo validado, versão em imagem, teste A/B) não corresponde ao conteúdo, que é como obter vídeo do produto no TikTok para montar o criativo. Quem procurar variações vai cair numa unidade de outro assunto. `edicao-de-video` ou `direcao-de-arte-e-texto-na-tela` estão mais perto. Não é um caso de classificação discutível entre dois valores defensáveis.",
+    "U5, U7 e U9: o tipo `regra` (frase categórica) não corresponde ao corpo, que narra o que o professor fez neste vídeo (cores, ícones, animações). A `condicoes` atribui como escolha dele, então não vira lei. Classificação discutível, ajuste menor.",
+    "U2: o tipo `estrutura` (molde de partes nomeadas) para uma leitura de copy de exemplo, com rótulos que o professor não usa. A FORMATO manda copy de exemplo entrar como `exemplo`. Discutível, ajuste menor (ver o desvio de U2).",
+    "U1 (\"nesta temporada\") e U6 (\"a mesma jogada dos outros episódios\") dependem de referência que ficou na aula para serem entendidas. Ajuste menor de aplicabilidade.",
+    "U1 (menor): o corpo diz \"que ele usa nesta temporada\", referência à estrutura do curso que quem consulta sem a aula não resolve. A unidade já está com `perecivel: true`. Não altera a orientação.",
+    "U6 (menor): o passo 1 diz \"a mesma jogada dos outros episódios\", referência à série. O passo continua executável com \"Mostre várias imagens do produto\". Não altera a orientação."
+  ],
+  "material": [],
+  "resumo": "As quatro falhas da lista (F1 em U1 e U7, F2 em U2, F3 e F4 em U6) estão resolvidas pelos critérios de aceite. U1, U2, U6 e U7 saem `lastreada`, sem `faixa-errada`, e as evidências estão dentro das faixas novas. A reescrita de U2 e a troca de `tema` e `condicoes` em U6 não criaram desvio, sem-lastro nem perecibilidade omitida. Sobram só ajustes menores registrados, sem efeito na decisão de quem consulta. Nenhuma omissão decorre dessas falhas, e não há material de apoio nesta aula."
+}

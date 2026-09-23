@@ -1,0 +1,21 @@
+{
+  "aula": "G09_A01",
+  "arquivo_sha256": "3511be956e8da6abebf87d3bb8e53fd2277ac6877bebc852960d4372b65cf97a",
+  "inspecao_sha256": "f6d5cf5e8c79b7fcd40b234effd487fa2f66a663776462d45b97d7036b567360",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros. O único aviso (1 unidade, fora da faixa 3–60) é o resultado esperado para aula de boas-vindas sem conteúdo didático, que a rubrica manda resolver com uma unidade `limite`. `versao` = 2 conforme o critério de aceite; hash alterado pela mudança de corpo e refletido na inspeção focal.",
+  "fidelidade": "F1 resolvida. O corpo nomeia \"página validada\" e \"produto validado\" como condições distintas, ao lado das demais que a fala impõe (ter comprado o Hard Copy, saber criar copy, VSL e página de vendas não ruins), na ordem em que o trecho citado no histórico de correções as apresenta. O inspetor reconferiu a unidade 1 contra o trecho literal \"você precisa de uma página validada e de um produto validado\" (50,74–74,64s, dentro da faixa 38–153), marcou `lastreada` e não há citação não literal. A nova âncora é mais pertinente que a anterior, que apontava para outra linha do corpo. Grafias \"Hard Copy\" e \"VSL\" seguem a tabela adotada e, pelo trecho citado, a fonte aqui as grafa sem deformação, então não há hipótese a registrar em `nota`. Nenhum desvio ou sem-lastro introduzido pela correção; a menção ao reembolso e a recomendação de começar com algo surpreendente já constavam da versão anterior e não foram reabertas.",
+  "cobertura": "Aula sem conteúdo didático: uma unidade `limite` que diz o que a aula é, o que o professor exige antes de aplicar o módulo e o que fica para as aulas seguintes. Inspetor declara omissões vazias e o escopo focal cobre a única unidade do arquivo, portanto a cobertura da inspeção é integral. Nada que mude decisão ou execução ficou de fora.",
+  "perecibilidade": "`perecivel: true`, obrigatório pelo tema `curso-e-recursos` e coerente com o conteúdo (módulo do curso, produto irmão como pré-requisito, política de reembolso). Sem perecível escondido em unidade `geral`.",
+  "aplicabilidade": "A unidade se sustenta sozinha: diz o que a aula é, para quem, quais condições o professor impõe antes de aplicar o módulo Hard Ads e o que adia para as aulas seguintes, sem depender de referência que ficou no vídeo. `tipo: limite`, `tema: curso-e-recursos`, `tarefas: []` e `plataformas: [geral]` levam o agente ao lugar certo. `condicoes: null` é adequado porque a unidade descreve a aula, não é orientação condicionada a perfil.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Unidade 1, linha 2: \"já ter comprado o Hard Copy\" — a versão anterior dizia \"treinamento Hard Copy\". Para quem consulta sem a aula, \"o treinamento Hard Copy\" deixa claro que é o produto irmão exigido como pré-requisito, sem acrescentar nada além do que a fonte diz. Redação; não abre ciclo."
+  ],
+  "proximo": "Nenhuma falha pendente. Ciclo 1 encerrado com F1 resolvida pelo critério de aceite e sem problema novo na unidade alterada. A aula pode passar a `revisado` e entrar na base; o ajuste menor pode ser aplicado em qualquer passagem editorial futura, sem reabrir inspeção."
+}

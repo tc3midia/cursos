@@ -1,0 +1,47 @@
+{
+  "aula": "G01_A09",
+  "arquivo_sha256": "f5cb4b7278ba0c2fa95df2de85afb2590f8edae3dd8468fcb9ccf80b99ebf750",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 2]; as demais mantêm a evidência da inspeção integral do arquivo 391b5f4b3247, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    2
+  ],
+  "unidades_verificadas": [
+    1,
+    2
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2
+  ],
+  "hashes_unidades": {
+    "1": "f8ad510973f502c33fcf7ceb5238d92e6eeef6aae66cd09b7d7b2b8546ffa919",
+    "2": "67dc7d481a0f2b45103b53142155f9742925ce0fd9561879713b3dee82574555"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "que você nunca imaginou que iria aprender. E o terceiro, que é o plot twist, que tá sendo",
+      "explicacao": "F1 resolvida: a frase do foco do curso (carta de vendas persuasiva, lead implorar para comprar) ocorre entre 164,56 s e 178,58 s, e a faixa agora vai de 128 a 179. Todo o corpo cabe dentro dela. A evidência (148,92–160,64 s) também cabe. F2 resolvida: `tipo` agora é `exemplo` e o corpo tem `Situação:`, `O que aconteceu:` e `Lógica:`. O título não tem mais \"atos\". O corpo não associa os três pontos a Ki, Sho ou Ketsu e não os apresenta como molde. A Lógica diz só o que a fala diz: a temporada é apresentada como feita com o método, e o plot twist ocorre no próprio episódio. A ressalva de que só o terceiro ponto é nomeado pela fala está no corpo e na `nota`. A `condicoes` está correta: os nomes Ki, Sho, Ten e Ketsu não aparecem no episódio. \"Kinshu\" na fonte está tratado como Kishotenketsu, conforme a tabela de grafias, com `nota`. \"Primeiro episódio\", \"passou dados e conhecimento que o aluno não imaginava\" e \"virar o jogo, não só conhecimento a mais\" batem com a fala. Nenhum problema novo. O `inicio` 128 cai no fim do segmento \"aqui vai\" (126,88–128,92 s), imediatamente antes de \"um resumo de tudo que eu usei\", então não conta como faixa errada. A frase \"VSL que o trouxe até ali\" junta \"VSL que criei\" (fala do 3º ponto) com \"a VSL que te trouxe aqui\" (abertura). É leitura razoável e não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu resolvi não limitar por tempo esse tipo de conteúdo, porque eu acredito e eu tenho certeza que você aprendeu algo com esse tipo de conteúdo que eu te passei agora",
+      "explicacao": "F3 resolvida: o corpo atribui \"não limitar por tempo\" ao conteúdo já entregue na temporada, e a frase vem antes da descrição do próximo módulo. É o referente da fonte (\"esse tipo de conteúdo que eu te passei agora\"). Nenhuma frase liga a ausência de limite de tempo ao próximo módulo, então quem consultar não conclui que a criação da VSL não tem limite de duração. O ajuste de `fim` de 90 para 94 põe \"E na última aula, vamos revisar ela juntos\" (90,10–93,64 s) dentro da faixa. Não há faixa errada: o começo (0 s) e o resto do corpo estão entre 0 e 94 s. \"Arroz com feijão\", \"principais conceitos para aplicar o Kensho na VSL\" (grafia tratada como Kishotenketsu, com `nota`), \"explicar cada passo, cada etapa\" e \"melhor forma de criar essa VSL\" batem com a fala. A evidência (54,58–66,38 s) está na faixa. `perecivel: true` está correto para tema `curso-e-recursos`. Nenhum problema novo."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1: `tipo: estrutura` com `tarefas: [estruturar-vsl]` e o título \"exemplo dos atos do Kishotenketsu\" classificam mal o conteúdo. A fonte é um resumo da própria temporada (\"aqui vai um resumo de tudo que eu usei nessa temporada\"), em três pontos: primeiro episódio, segundo, terceiro. Só o terceiro recebe nome de ato (\"plot twist\"). Não há molde para preencher, o ato final não é citado e a fala não usa a palavra \"atos\", como a própria `nota` admite. Um agente que buscar `estruturar-vsl` recebe um esqueleto de três partes, sem Ki, Sho, Ten e Ketsu, e pode usá-lo para montar a VSL. O tipo mais fiel seria `exemplo` (Situação/O que aconteceu/Lógica) ou `conceito`, com `tarefas` sem `estruturar-vsl`. O título também deveria evitar \"atos\". Classificação que leva ao lugar errado, ajuste a critério do juiz."
+  ],
+  "material": [],
+  "resumo": "As três falhas da lista (F1, F2, F3) estão resolvidas pelos critérios de aceite. As unidades 1 e 2 ficam `lastreadas`, sem `faixa-errada`, e a alteração não criou problema novo em nenhuma delas. Como a lista não trazia falha de cobertura, não há omissão a registrar. Li a fonte inteira: fora as unidades só há motivação pessoal, reembolso e o resíduo \\\"Legenda Adriana Zanotto\\\", que não contam como omissão. Não há material nesta aula. Perecibilidade e contrato não têm apontamento."
+}

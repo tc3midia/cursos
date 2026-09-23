@@ -1,0 +1,101 @@
+{
+  "aula": "G08_A07",
+  "arquivo_sha256": "7b0dda57a35c96e09b5d9a1235a3b06cc7f1e63c57e78088923260401f5584f0",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 7]; as demais mantêm a evidência da inspeção integral do arquivo ed2090c4c372, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    7
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "77fd07d10ce037bf553830c15d9f3881dd8e2c920ce99f8de93386cf9a1ca717",
+    "2": "849125d06b2b109a7ed772af280ebe7ff4d5690335355e4f23dce5b7445afff9",
+    "3": "e3ae0031b79fc1ecf4fa28eb2c1c860bdca4dac782d70e65e12673d0fca4c89e",
+    "4": "5bade7768ee496cfa7ae1bfbc30665c323d83dca0f3a278c2e54909c909c4fbf",
+    "5": "92f08b3a1c6c4aa44e90f3ea4a128aebe52f146044aec019a342649a433c85de",
+    "6": "6e84e562a9fa4c41b5f201a9e0d0ab78065d4667cf59dd913083a56a503ba0e4",
+    "7": "bbb4f17ef289b8962ed00335364ef7a9e5daf6e7285bd5c8754a169fd1442cf7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É a mesma coisa que você chegar no hospital e falar",
+      "explicacao": "O corpo reflete bem a fala: cuidar do animal é 'a base, é o básico' de um pet shop, e a comparação com pedir bom cuidado num hospital ilustra que é obrigação, não diferencial. Dois pontos menores, sem efeito prático: (a) o tipo 'conceito' é discutível — o conteúdo funciona mais como uma 'regra' de análise de mercado do que como uma definição estruturante; (b) a frase final do corpo ('é o ponto de partida para construir um anúncio com um ângulo diferente') generaliza um pouco além do que essa faixa diz explicitamente, embora seja coerente com o resto da aula."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você não está vendendo para o cachorro, meu amigo, não está vendendo para o cachorro, o cachorro é um ser irracional",
+      "explicacao": "A unidade preserva corretamente a regra de vender para quem decide/cuida (dono, pai), a generalização explícita do próprio professor para pet shop, produto infantil e produto para autismo, o exemplo da arminha de água, e a ressalva de que ele discorda que o cão seja totalmente irracional, mesmo afirmando que só o ser humano é racional biologicamente. Paráfrase fiel, sem números ou condições alterados."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se você criar um anúncio desse, né, com um botão de WhatsApp, provavelmente você vai ter muito retorno, retorno muito legal em cima disso por conta da curiosidade",
+      "explicacao": "F2 foi resolvida: `plataformas` passou de ['whatsapp'] para ['geral'] e o corpo permaneceu com o mesmo conteúdo, citando o botão de WhatsApp só como exemplo de call-to-action dentro da estrutura de 4 passos (invalidar mercado, verdade absoluta, curiosidade, preço), consistente com a regra da taxonomia de que 'menção de onde um exemplo rodou não muda' a classificação para geral. `versao` foi incrementada para 2 e `perecivel` passou a false, o que a mudança mínima explicitamente permitia ('pode ficar true ou passar a false; não é critério'); não há na unidade preço, data, oferta do curso ou recurso de plataforma que exigisse true. `condicoes` e demais campos não foram tocados e continuam corretos (a sequência de 4 passos é atribuída ao exemplo de pet shop, não generalizada como regra de mercado). Não identifico problema novo decorrente da alteração; a unidade está lastreada na faixa 437–564."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Toque em Saiba Mais",
+      "explicacao": "O exemplo resume fielmente o roteiro fictício escrito ao vivo (crítica ao mercado que só promete cuidado, frase 'algo inimaginável', convite a clicar em 'Saiba Mais' sem revelar a oferta). 'condicoes' deixa claro que é copy de exemplo de um pet shop inventado, evitando que os elementos da copy virem regra, regua ou dado de mercado, como a rubrica exige."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai comprar 140 e vai dar algum presentinho, alguma coisinha que vai ajudar o cara.",
+      "explicacao": "A fala literalmente diz 'você vai comprar 140'; a unidade interpreta como 'cobrar 140' e registra isso em nota — leitura razoável dado o contexto ('vamos colocar que você cobra 100 reais... você vai comprar 140'). Porém a 'confianca' ficou em 'alta', quando essa correção de uma provável falha de transcrição pediria no máximo 'media'. O corpo também acrescenta 'que ajude o cliente no dia a dia com o pet', detalhe que nesta faixa específica não é dito (vem da copy da unidade 4). Nenhum dos dois pontos muda o uso do exemplo, que já é tratado corretamente como hipotético, não como preço de mercado."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É assim que funciona a mente do ser humano",
+      "explicacao": "A definição de 'verdade absoluta' e o mecanismo de crédito para o que vem depois dela no anúncio batem com a fala e com a definição de origem desta mesma aula (G08_A07) usada no vocabulário do curso."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma voz realmente pra esse tipo de nicho, que é o nicho de pai de pet.",
+      "explicacao": "F1 e F3 foram resolvidas juntas pela reescrita do corpo. F1: a frase sobre o modelo 'Elevem multilingual' (dita em ~00:11:23, fora de 560–578) saiu do corpo e da nota; agora toda afirmação do corpo tem trecho dentro da faixa declarada — 'Vamos colocar no Eleven Labs já' em ~560,56–563,66 sustenta a ferramenta, e 'Uma vozinha doce, leve, suave. Uma voz realmente pra esse tipo de nicho, que é o nicho de pai de pet.' em ~569,34–577,10 sustenta o tom e o público, ambos dentro de 560–578. Não há mais faixa-errada em U7. F3: o corpo deixou de depender de 'reaproveitar a voz do último anúncio' (referência que só existe na aula, sem identificação) e passou a orientar diretamente a escolha de tom (doce, leve, suave) para o público que o professor chama de 'pai de pet', no ElevenLabs; a menção ao reaproveitamento foi realocada para `nota`, como contexto, e não integra mais a instrução. A unidade se sustenta sozinha sem a aula ao lado. A elevação de `confianca` para alta é compatível com a tabela de grafias: 'ElevenLabs' não está listada como identificação por hipótese ('Procedimento descrito bate com a ferramenta', diferente das entradas marcadas 'Hipótese'), e a fala já diz 'Eleven Labs', forma mapeada diretamente. Não identifico problema novo decorrente da alteração."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3 (estrutura de anúncio) está com 'plataformas: [\"whatsapp\"]', mas a fala trata o WhatsApp só como exemplo de canal para o botão de CTA dentro de uma estrutura de anúncio geral ('com um botão de WhatsApp, provavelmente você vai ter muito retorno... por conta da curiosidade'). Rotular a unidade como específica de WhatsApp pode levar um agente que busca orientação geral de estrutura de anúncio (Meta Ads, Instagram, TikTok etc.) a não encontrá-la ou a descartá-la por julgar que só vale para WhatsApp — a estrutura (invalidar mercado, verdade absoluta, curiosidade, preço) não depende dessa plataforma.",
+    "Unidade 7 não se sustenta sozinha na parte central da instrução: 'reaproveitar no ElevenLabs a mesma voz usada num anúncio anterior' (evidência: 'eu quero colocar aquela voz que a gente colocou no último anúncio, porque aquela voz é muito gostosa') remete a um anúncio de aula anterior que a fala não identifica além de descrevê-la como 'doce, leve, suave'. Um agente sem a aula não consegue de fato 'reaproveitar' voz nenhuma, só aplicar a descrição qualitativa do tom.",
+    "Unidade 1 está tipada como 'conceito', mas o conteúdo (reconhecer que uma prática do nicho é obrigação básica, não diferencial, para construir ângulo de anúncio) se encaixa igual ou melhor em 'regra'; classificação discutível entre dois valores defensáveis, sem efeito prático isolado."
+  ],
+  "material": [
+    "Esta aula (G08_A07) não tem material de apoio (material_ausente); todas as unidades corretamente usam fonte: 'fala'. Não há divergência fala×material a registrar nesta aula, nem uso indevido de material que não corresponda à aula."
+  ],
+  "resumo": "Conferência focal restrita às unidades 3 e 7 do arquivo G08_A07 (episódio 7 - Petshop), verificando se as três falhas do ciclo 1 (F1 faixa-errada em U7, F2 aplicabilidade de plataforma em U3, F3 aplicabilidade por dependência de referência em U7) foram resolvidas. As três correções seguiram a mudança mínima recomendada: U3 passou a `plataformas: ['geral']` mantendo o WhatsApp só como exemplo de CTA e o corpo do procedimento intacto; U7 removeu do corpo e da nota a afirmação sobre o modelo de voz que ficava fora da faixa, e reescreveu a instrução para não depender mais de identificar o anúncio anterior, ficando com orientação de tom de voz autossuficiente e integralmente lastreada dentro de 560–578. Não identifiquei problema novo decorrente das alterações, nem pendência de cobertura, perecibilidade, contrato ou material nessas duas unidades. As demais unidades do arquivo não foram reabertas, conforme o escopo desta conferência."
+}

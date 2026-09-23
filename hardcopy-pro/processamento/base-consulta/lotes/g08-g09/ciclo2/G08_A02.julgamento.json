@@ -1,0 +1,24 @@
+{
+  "aula": "G08_A02",
+  "arquivo_sha256": "65777193dd22c73b642335f4c5476ee29f44055c771784af076a25118baaa0d5",
+  "inspecao_sha256": "ddba5c4202c0e968a9cbcafc242b705a6d78fb0104f945adb866301348bfc160",
+  "rodada": 3,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Só `inicio` da U3 mudou (357→215); `versao` da U3 em 3 conforme pedido; numeração 1–4 sem furo, `retiradas: []`.",
+  "fidelidade": "4/4 unidades `lastreada`, 0 `faixa-errada`, nada em `citacoes_nao_literais`. F5 resolvida pelo critério de aceite: o inspetor localiza, com marcações de tempo, as três partes do anúncio (215,96–241,74s), o \"estuda o produto\" (~379s), a `evidencia` (384,5–392,5s) e o caso dos 50/10 reais (398–403s), tudo dentro de 215–406. U1, U2 e U4 preservam a evidência da inspeção integral por hash inalterado. Nenhuma copy de exemplo promovida a fato: números e alegações de exclusividade aparecem atribuídos ao professor ou marcados como exemplo; o caso dos 50/10 reais fica em `nota` e não em corpo de `regua`.",
+  "cobertura": "A omissão material apontada em 252s (objeção dos vários afiliados + resposta \"anúncio de impulso\") está coberta pela U4 — o item na lista do inspetor é resíduo acumulado da rodada anterior, não omissão viva. Resta só a omissão menor da checagem de fato do produto \"no chat\" (ChatGPT) antes do gancho; o efeito prático já está preservado por U2 (\"o produto realmente tem aquela propriedade\") e U3 (\"estudar o produto\"), então não muda a decisão de quem consulta. Discurso motivacional do fechamento e testemunho de resultados de alunos não contam como omissão.",
+  "perecibilidade": "Inspetor não aponta nada. U1 e U3 estão `perecivel: true` pelas afirmações de originalidade/mercado (formato \"não existe entre os concorrentes\"; resultados relatados de alunos); U2 e U4 são `geral` sem tela, recurso, preço ou número de mercado. Nada de perecível escondido em unidade `geral`.",
+  "aplicabilidade": "Cada unidade se lê sem a aula ao lado. U1: `estrutura` com três partes numeradas na ordem da fonte e `condicoes` restringindo a produto físico saturado indo para página de vendas. U2: define \"mecanismo único oculto\" no próprio corpo com a definição da fonte (G08_A01) — a nota de contrato do inspetor sobre isso está desatualizada. U3: descreve as três partes inline, sem \"episódio/aula/vídeo\", executável sem a U1 — a segunda nota de contrato do inspetor também está desatualizada. U4: `decisao` começando com \"Quando\", com objeção e justificativa no corpo. Tipos, temas, tarefas e plataformas levam o agente ao lugar certo.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Inspeção: as listas acumuladas de `omissoes` (item em 252s) e `contrato` (notas sobre U2 e U3) estão desatualizadas em relação às unidades atuais — a omissão está coberta pela U4 e ambas as notas de contrato foram resolvidas no ciclo 1. Limpar o registro para não confundir uma conferência futura; não é defeito das unidades.",
+    "Omissão menor (inspetor, 286s, 'que eu olhei no chat APT'): o professor narra ter conferido no ChatGPT a propriedade real e a dosagem do produto antes de escrever o gancho. Opcional acrescentar à U3, junto de 'estudar o produto', que o professor cita ter conferido a propriedade real do produto (nome da ferramenta em `nota`, plataformas continuam `geral` por ser menção de exemplo). Não muda a decisão: U2 e U3 já exigem que a propriedade seja real.",
+    "U4 `condicoes`: 'objeção levantada na própria aula' referencia a aula; preferível 'objeção comum: vários afiliados vendem o mesmo produto e o lead pode reconhecê-lo'. O corpo já contém a objeção, então não afeta o uso.",
+    "U2 `tipo`: `regra` é defensável (postura do professor sobre promessa e mentira), mas `conceito` também seria; classificação discutível entre dois valores, sem efeito material."
+  ],
+  "proximo": "Encerrar os ciclos deste artefato e promover a aula a `status: revisado`. Nenhum pedido de prova pendente. Na gravação, purgar da inspeção os itens acumulados já resolvidos (omissão em 252s e as duas notas de contrato) para que o registro reflita o estado atual das unidades."
+}

@@ -1,0 +1,248 @@
+{
+  "aula": "G09_A06",
+  "arquivo_sha256": "e2b9c8de61c57c2d0b0c74d5ecd5b8b8710da66f512ff2d5ada6db14ec2d8b80",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "hashes_unidades": {
+    "1": "16950fec2e5ddb4cc1697f26079d4bed4b7ff7922a95c31a34669039d2a76225",
+    "2": "b56cac2a376fc452352c849de4ff96c6cd43c8c5905e5bd3189b11f6107283ab",
+    "3": "e688549c490fe7162a1a80daf1fe1ab228430c0eb4bef1066b6143ef6361b1da",
+    "4": "7a736bb232ed1477854dd21154df8fdd630a045575e17e1dc50d9df3235eff88",
+    "5": "20b6f90f9a2b81f998bde31abf6955d0a0cecb74c729b3b835d716dcb40d89cc",
+    "6": "0e630633b707463cb82c86cd40029b7eade668a79ec181ab71e44bb224d2f681",
+    "7": "d3fd2825842f5abc262c8506e2f2bf9e8dd230fe2df539bb1131abbaff4b74dd",
+    "8": "4604b00871a096ef35a6a8ca86176ba7d8c7d2fab12de6a742c340deca904c76",
+    "9": "26777e7eb2e6d5e588b4f9ca158473ca5e529b9bf528a091f4f0f0146498ac8e",
+    "10": "bd378be250541ad2bec6c496d814c2387f9d33f5f9b86b4fa847d62fc0169c15",
+    "11": "85b3b19e83e93783dffb0dfbb4b50770a16c745c7499fe7105fdb93e54ce91bb",
+    "12": "3fcea116a5f6a9e01eeea30956859497479c304eb68872534f4dd915f19b4a1f",
+    "13": "00a705ab7fa2296d751245ece93e9218b1a5bb9dc4642d4b32e39fee84f4083f",
+    "14": "073465825f956d847b45f7a3703d68abef919d82fde4c87b6885d24eaad4244e",
+    "15": "93089493cdaf8f7c54b80d111a9ce79c536bb312732aa34ecb713eb1ab9375c2",
+    "16": "8a4767366fd34b0d6266c5f5827d26c91a694e7a2b162d6a58a6d36f3fe8073b",
+    "17": "cdd08a0e0e66e8a540478a65376876f3bde7eb266dca8b7696c6b4473e7ef9aa",
+    "18": "b56c6e4ac9890c5bff4512b1e70d3fc1f3c71f4b8107b96cb8d70447ad523151",
+    "19": "a87f06d83d906011614688941e9155f87f2c58d4ba15bfd501a80db2126f6686",
+    "20": "d9b398f565cc54ccc78c679b26ff4da54fe45b39fce08d21702d608e3ef064e1"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma música base, algo que vai fazer a pessoa arrepiar.",
+      "explicacao": "O corpo preserva fielmente a escolha da música por idade do lead (25 a 45 anos) e por tom triste/arrepiante, com a justificativa dada na fala ('não tem anúncios com essas músicas'). A condição registra corretamente que 'November Rain' e a faixa etária são o exemplo demonstrado, evitando virar parâmetro universal."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos vir no Save from Mad",
+      "explicacao": "O procedimento de busca, colagem do link, seleção de áudio MP4A, guia extra e demora no download seguem a ordem e o conteúdo da fala. A nota trata corretamente a grafia hipotética (SaveFrom) e o contorno de direito autoral, com perecivel:true."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas eu indico 100% o computador por ser mais simples,",
+      "explicacao": "A preferência do professor pelo CapCut no computador, com os motivos citados (mais simples, rápido, tranquilo para áudio e texto), está preservada sem virar regra universal."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É o Eleven Labs quando ele passa de uma frase",
+      "explicacao": "O procedimento de identificar partes brancas, cortar e colar os pedaços de áudio, unificar em clipe composto e aumentar volume reflete a demonstração da fala passo a passo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que é o tamanho padrão dos esforços.",
+      "explicacao": "A fala diz literalmente 'tamanho padrão dos esforços', um trecho provavelmente degradado da transcrição; a unidade substitui por 'criativos' sem nota reconhecendo a estranheza do termo. Os valores numéricos (9x16, 1x1, 16x9) e a condicionalidade ('caso apareça diferente') estão corretos, então o efeito prático é pequeno."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A jogada aqui é toda vez que a mulher falar aquilo que estamos vendo,",
+      "explicacao": "O procedimento de cortar e sincronizar o vídeo a cada fala da narração corresponde à técnica demonstrada."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que é a linha que usamos de referência",
+      "explicacao": "O ajuste de velocidade até a linha de referência, com o valor de exemplo 1,3x citado em condicoes como variável (não fixo), reflete a fala."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A parte mais importante da música, tá?",
+      "explicacao": "A definição de 'plot da música' e o procedimento de localizar, marcar e posicionar esse trecho depois da fala, deletando o restante, correspondem à demonstração e à justificativa dada (conexão emocional)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu chamo isso de calar a boca",
+      "explicacao": "O termo e a regra de tirar a música nas partes que se quer destacar estão fiéis à fala, e a condição cita corretamente o exemplo específico do anúncio (parte vermelha, 'emagrecer', rosto da senhora)."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que está prestes a chegar, que é a música",
+      "explicacao": "O uso do efeito de clique antes da música/transição e a justificativa de preparar o ouvinte batem com a fala."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas o nome da música é isso",
+      "explicacao": "A técnica de usar só o início da faixa 'Epic Metro Art' como efeito e a incerteza do próprio professor sobre encontrá-la estão preservadas na nota."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E tem muita coisa pro aqui também",
+      "explicacao": "O trecho 'tem muita coisa pro aqui também' é ambíguo/mal transcrito (possivelmente 'pago'); a unidade afirma com confiança alta e sem nota que a transição está ligada a um recurso pago do CapCut a R$30/mês. A leitura é plausível dado o contexto seguinte ('não tem dinheiro pra comprar o CapCut... 30 reais por mês'), mas a incerteza não foi sinalizada. A ressalva do professor ('eu não gosto dela') está corretamente preservada."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "animação, combinação",
+      "explicacao": "O uso de Animação > Combinação com zoom para cortes longos, com o exemplo da cena de hospital, corresponde à fala."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e aumentar o contraste e colocar uma",
+      "explicacao": "Os passos de ajuste personalizado (contraste, brilho, vinheta) e o motivo ('clima mais macabro') seguem a demonstração."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas vamos colocar o preto e branco",
+      "explicacao": "A aplicação do filtro preto e branco e a redução da força do filtro correspondem à fala."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A parte da música ficou ruim",
+      "explicacao": "A regra de rever o anúncio pronto e trocar o trecho de música que não funcionou reflete exatamente a demonstração desse momento da aula."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Começamos pelo Canva",
+      "explicacao": "A sequência Canva > ElevenLabs > CapCut é dita explicitamente nessa faixa; a descrição do papel de cada ferramenta é inferida de outros trechos da própria aula (ex.: locução do Eleven Labs citada na unidade 4), não é conhecimento externo."
+    },
+    {
+      "numero": 18,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ele vai criar dois arquivos",
+      "explicacao": "O procedimento de exportação (nome, local, capa, áudio separado, resolução) segue passo a passo a fala."
+    },
+    {
+      "numero": 19,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A edição, locução, trilha sonora",
+      "explicacao": "As resoluções (1920x1080 para VSL, 1080x1920 para o anúncio) e a afirmação de que o processo é idêntico nos dois formatos batem com a fala."
+    },
+    {
+      "numero": 20,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos dar zoom na timeline, tá vendo?",
+      "explicacao": "O limite descreve corretamente a natureza de demonstração de tela da aula e a impossibilidade de reconstruir todos os cliques apenas pela transcrição, sem inventar conteúdo que só existe na imagem."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 763,
+      "trecho_fonte": "Olha só, vai aparecer várias músicas",
+      "descricao": "Nenhuma unidade registra a técnica de buscar música por palavra-chave de sentimento (o professor digita 'Terror' e depois 'suspense') na biblioteca de áudio do CapCut para achar faixas complementares à trilha principal.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for montar uma trilha com mais de um sentimento não sabe que pode pesquisar por emoção na biblioteca do CapCut para achar opções prontas, tendo que descobrir isso por conta própria."
+    },
+    {
+      "inicio": 852,
+      "trecho_fonte": "É a parte onde a música começa baixinha e vai aumentando.",
+      "descricao": "A definição de 'fade' e o procedimento de reduzir o volume no ponto de corte e aplicar um fade pequeno para conectar a música principal ('plot') à música de conexão seguinte não aparecem em nenhuma unidade, embora sejam usados duas vezes na aula (na montagem inicial e na correção da trilha).",
+      "gravidade": "material",
+      "efeito_pratico": "Sem essa etapa, quem seguir apenas as unidades 8 e 16 sabe posicionar e trocar trechos de música, mas não sabe como suavizar a transição entre duas faixas coladas, podendo entregar um anúncio com corte de áudio abrupto."
+    },
+    {
+      "inicio": 519,
+      "trecho_fonte": "A gente localiza ele aqui na frente",
+      "descricao": "Para um clipe de vídeo genérico sem fala diretamente associada (o exemplo das 'pessoas correndo'), a aula ensina uma técnica diferente do procedimento padrão de corte por fala: localizar antes o próximo ponto de corte mais à frente na timeline. Nenhuma unidade registra essa exceção ao procedimento de corte sincronizado descrito na unidade 6.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem seguir só o procedimento geral de cortar a cada fala (unidade 6) não sabe o que fazer diante de um trecho de vídeo sem narração direta associada, podendo cortar no lugar errado por falta desse passo de localizar o próximo marco antes de definir o tamanho do trecho atual."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1 (tipo regra) narra uma escolha pontual do professor (lead de 25-45 anos, música 'November Rain') mais como caso demonstrado do que como orientação categórica; classificação entre 'regra' e 'exemplo' é discutível, ainda que a condição já sinalize o caráter de exemplo — ajuste menor, não afeta a fidelidade do conteúdo.",
+    "Unidade 10 (tipo regra) descreve um caminho de menu específico do CapCut ('Áudio > Efeitos sonoros'); a classificação entre 'regra' e 'ferramenta' é discutível, mas ambas exigem perecivel:true, já presente.",
+    "Unidade 12 (tipo regra) cita um recurso pago do CapCut (~R$30/mês) e um menu específico ('Vídeo > Animação'); a classificação entre 'regra' e 'ferramenta' é discutível, sem efeito na fidelidade."
+  ],
+  "material": [],
+  "resumo": "A extração de G09_A06 está bem lastreada: as 20 unidades correspondem, passo a passo, à demonstração de edição no CapCut (remoção de silêncio, corte sincronizado, velocidade, plot da música, calar a boca, efeitos, cor/filtro, animação e exportação), com evidências literais dentro das faixas informadas e nenhuma unidade sem-lastro, em faixa errada ou com desvio material de número/condição. Há duas unidades (5 e 12) com pequenas ambiguidades de transcrição resolvidas sem nota de incerteza, e três classificações de tipo discutíveis (1, 10, 12) registradas como observações de contrato. A cobertura tem duas lacunas relevantes não capturadas por nenhuma unidade — a técnica de fade para conectar duas faixas de música e o procedimento de localizar o próximo ponto de corte em clipes sem fala associada — além de uma lacuna menor sobre busca de música por sentimento na biblioteca do CapCut; nenhuma unidade depende de material (a aula não tem material de apoio) e não há problema de perecibilidade a apontar."
+}

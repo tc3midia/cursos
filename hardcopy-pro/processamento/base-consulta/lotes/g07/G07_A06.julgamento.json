@@ -1,0 +1,49 @@
+{
+  "aula": "G07_A06",
+  "arquivo_sha256": "5bb068e7796deb6874ba1e12016e8d24b485ecb444600ec58f29145e7e73905e",
+  "inspecao_sha256": "2c75b61e1757c678cda42fea9cf376896c0978886fcefb371ff449d069cd4717",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "U1, U2 e U5 lastreadas com trecho literal dentro da faixa; o \"sempre\" citado pelo inspetor sustenta U2 como regra e não como preferência; a generalização de U5 para produto físico está na fala (\"Produto físico é isso aqui\"). U3 é sem-lastro material: a fala nomeia o atalho (\"dar um ctrl b aqui e fazer [...] vamos remover o iniciozinho dessa música\") mas nunca explica o que ele faz; o corpo afirma como comportamento geral que \"CTRL+B divide (corta) o clipe de áudio ou vídeo no ponto do cursor\", o que só vem da imagem ou de conhecimento externo, e essa afirmação é o conteúdo inteiro de uma unidade `ferramenta`. U4 lastreada com acréscimos menores de moldura narrativa. Veto.",
+  "cobertura": "Inspetor buscou omissões na fonte inteira e não achou nenhuma. Aula de tela com `limite` (U1) descrevendo o que ficou só na imagem é o resultado esperado. Passa.",
+  "perecibilidade": "Unidades de CapCut (U1, U3, U4) marcadas `true`; U2 é regra geral de direção de arte, `false` correto. U5 está `true` só por arrastar `elevenlabs` em `plataformas` (ver F2); não há perecível escondido em unidade `geral`. Passa.",
+  "aplicabilidade": "U5 lista `plataformas: [\"geral\", \"elevenlabs\"]` quando a única menção a ElevenLabs é onde a locução do exemplo foi gerada; a taxonomia diz que menção de onde um exemplo rodou não muda `geral`. Isso gera `presente` falso em cobertura.jsonl para roteirizar-anuncio × elevenlabs, leva quem busca ElevenLabs a uma unidade sem conteúdo sobre a ferramenta e marca como perecível uma estrutura que não é. Veto. U4 entre `estrutura` e `exemplo` é classificação discutível com `condicoes` já restringindo ao anúncio de exemplo: ajuste menor. U1, U2 e U3 se sustentam sozinhas.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor (trecho literal, não listado em citacoes_nao_literais): \"a gente vai dar um CTRL B aqui e fazer, tá, isso aqui, vamos remover o iniciozinho dessa música aqui, aumentar um pouquinho o volume\". Em nenhum ponto da faixa 383–396 a fala descreve o que o atalho faz. O corpo afirma: \"o atalho CTRL+B divide (corta) o clipe de áudio ou vídeo no ponto do cursor\", e o título generaliza \"corta um trecho de clipe de áudio ou vídeo\". Regra de aula de tela: só entra o que a fala descreve; completar com estado de plataforma é sem-lastro.",
+      "impacto": "Um agente recebe, como ensinado pelo curso, o comportamento exato de um atalho do CapCut que a aula não afirma. Numa unidade `ferramenta`, essa afirmação é o conteúdo inteiro; se estiver imprecisa ou mudar, a base atesta algo sem fonte.",
+      "mudanca_minima": "Reescrever título e corpo com o que a fala sustenta: para remover o começo de uma trilha no CapCut, o professor dá CTRL+B na faixa, remove o trecho inicial, aumenta um pouco o volume e aplica distorção (se lastreado). Retirar do corpo e do título a afirmação geral de que CTRL+B divide o clipe no ponto do cursor. Se o extrator quiser preservar essa leitura, só em `nota`, marcada como inferência da imagem não confirmada pela fala, com `confianca: media`. Incrementar `versao`.",
+      "criterio_de_aceite": "Corpo e título de U3 não contêm afirmação sobre o mecanismo do CTRL+B além da ação narrada (remover início da trilha); qualquer inferência aparece só em `nota` e sinalizada como não confirmada pela fala; `evidencia` continua dentro da faixa; reinspeção classifica U3 como `lastreada`; validador com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        5
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "`plataformas: [\"geral\", \"elevenlabs\"]`. A única referência à ferramenta no corpo é \"no anúncio de exemplo, gerada com ElevenLabs\"; a `nota` diz \"O professor cita que a locução do anúncio de exemplo foi gerada com ElevenLabs\". Inspetor confirma que o conteúdo é a estrutura do anúncio e sua generalização para produto físico, sem orientação sobre ElevenLabs. Taxonomia, `geral`: \"menção de onde um exemplo rodou não muda isso\".",
+      "impacto": "cobertura.jsonl passa a registrar `presente` para roteirizar-anuncio × elevenlabs, e o agente consulta essa tabela antes de responder; quem busca orientação sobre ElevenLabs é levado a uma unidade que não ensina nada da ferramenta; a estrutura geral fica `perecivel: true` só por causa da tag, e pode ser descontada como orientação datada.",
+      "mudanca_minima": "`plataformas` → `[\"geral\"]`; `perecivel` → `false`; manter o nome ElevenLabs em `nota` e, se quiser, no corpo como menção de exemplo. Incrementar `versao`.",
+      "criterio_de_aceite": "U5 com `plataformas` igual a `[\"geral\"]`, `perecivel: false`, `nota` preservando a menção a ElevenLabs; validador com zero erros; cobertura.jsonl sem esta unidade em qualquer linha de `elevenlabs`."
+    }
+  ],
+  "ajustes_menores": [
+    "U4 — classificação discutível entre `estrutura` e `exemplo`: o inspetor mostra que o professor não enuncia ordem geral de efeitos, só decide a sonorização daquele anúncio. Reclassificar como `exemplo` (Situação/O que aconteceu/Lógica) ou deixar título e `condicoes` explícitos de que é a sonorização escolhida para o anúncio de exemplo, não uma ordem fixa a reproduzir.",
+    "U4 — moldura narrativa acrescentada (\"no momento em que a neta se assusta ao ver a avó com o calçado novo\", \"numa virada da história\", \"junto da chamada de ação final\") é inferência do extrator a partir do roteiro ouvido na aula, segundo o inspetor. Manter só o que o roteiro lastreia ou registrar em `nota` como inferência. A ordem pela linha do tempo do anúncio (Glory por último) é aceitável porque o próprio professor diz que deixa a música para o final.",
+    "U5 — tema `anuncio-negocio-local` vs `anuncio-produto-fisico`: o professor generaliza para produto físico e a aula está no grupo de negócios locais; os dois são defensáveis, não abre ciclo."
+  ],
+  "proximo": "Redator aplica F1 e F2 (ciclo de correção 1 de 2). Reinspeção só de U3 e U5, cujos hashes mudam; U1, U2 e U4 preservam a evidência se hash, fonte e rubrica continuarem iguais. Rodar validador e novo julgamento conferindo os dois critérios de aceite e os efeitos colaterais da alteração (cobertura.jsonl sem U5 em `elevenlabs`). Ajustes menores de U4 e U5 podem ser feitos na mesma passagem, sem abrir ciclo."
+}

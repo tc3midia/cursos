@@ -1,0 +1,23 @@
+{
+  "aula": "G07_A06",
+  "arquivo_sha256": "1e583746dfa337b1a946008574951aab77963ada5073b475dab50f18847f0c05",
+  "inspecao_sha256": "3941616536abf04b7e1b3af1a5969ebffaf49be839e6a09da901db4513589dad",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. O único item que o inspetor registrou em `contrato` (U4, estrutura × exemplo) não é questão de script nem de campo: é classificação discutível, arquivada no campo errado; tratado abaixo como ajuste menor. Numeração sem furo (1–5, `retiradas` vazio), `versao` incrementada em U3 (2) e U5 (3) conforme o histórico de correções.",
+  "fidelidade": "F1 resolvida. Título (\"Tirar o início de uma trilha no CapCut com CTRL+B\") e corpo de U3 registram só a sequência narrada (CTRL+B na faixa, remover o comecinho da música, aumentar o volume, modificar para distorção); a leitura de que o atalho divide o clipe no ponto do cursor ficou isolada em `nota`, marcada como inferência da imagem não confirmada pela fala, com `confianca: media`. O inspetor confere com trecho literal contíguo da faixa 381–396, não listado em `citacoes_nao_literais`, e classifica `lastreada` sem gravidade. U5 continua fiel à fala e na ordem da fonte, `lastreada`. U1, U2 e U4 mantêm a evidência da inspeção integral (hash inalterado); U4 tem gravidade menor já conhecida da rodada anterior (molduras narrativas inferidas do roteiro), que não muda a decisão de quem consulta e está coberta por `condicoes` e `confianca: media`.",
+  "cobertura": "Inspetor declara omissões acumuladas: nenhuma. Aula de tela com cinco unidades e um `limite` (U1) bem escrito dizendo o que ficou só na imagem é o resultado esperado pela rubrica, não omissão. Nada a exigir.",
+  "perecibilidade": "Inspetor sem apontamentos. U5 passou a `plataformas: [\"geral\"]` e `perecivel: false`, coerente com a taxonomia (\"menção de onde um exemplo rodou não muda isso\"); a menção a ElevenLabs no passo 4 é menção de exemplo, autorizada na mudança mínima de F2, e não orientação de ferramenta. U1, U3 e U4 (CapCut) e U3 (`ferramenta`) estão com `perecivel: true`; U2 (regra geral de animação) corretamente `geral`/`false`.",
+  "aplicabilidade": "F2 resolvida: U5 deixa de levar o agente à plataforma errada e, por construção (só `geral` em `plataformas`), sai de qualquer linha de `elevenlabs` em cobertura.jsonl. As cinco unidades se sustentam sem a aula ao lado: U1 explica a limitação da tela; U2 é regra autocontida; U3 diz plataforma, ponto de partida (música já na linha do tempo) e a ação, com a incerteza declarada em `nota`; U4 e U5 trazem `condicoes` que restringem ao anúncio de exemplo e, em U5, explicitam a generalização que o professor faz. Nenhuma referência dêitica à aula no corpo.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Contexto (4ª frase) ainda descreve o CTRL+B como \"atalho de corte de clipe de áudio\", leitura que a correção de F1 tirou do corpo de U3 e isolou em `nota`. Harmonizar na próxima edição (por exemplo, \"uso do atalho CTRL+B numa faixa de música\"). Não muda decisão de quem consulta; não abre ciclo.",
+    "U4: classificação `estrutura` × `exemplo` é discutível entre dois valores defensáveis (rubrica: ajuste menor); `condicoes` já restringe ao anúncio de exemplo da aula e `confianca: media` com `nota` sinalizam a incerteza. As molduras narrativas (\"no momento em que a neta se assusta…\", \"numa virada da história\", \"junto da chamada de ação final\") são inferência do roteiro, de gravidade menor segundo o inspetor; se houver edição futura, reduzir ao que a fala afirma. Unidade intacta, fora do escopo focal; o inspetor arquivou este ponto em `contrato`, campo indevido.",
+    "U5: tema `anuncio-negocio-local` é defensável pelo grupo da aula e pelo exemplo (loja de calçados); o trecho literal (\"Produto físico é isso aqui\") também sustentaria `anuncio-produto-fisico`. `condicoes` já registra a generalização para produto físico. Sem ação necessária."
+  ],
+  "proximo": "Aprovar: status da aula → `revisado`. Rodar `base_fcc.py --write` e `--check` para regenerar os derivados e confirmar por script que `cobertura.jsonl` e `unidades.jsonl` não listam a unidade 005 em nenhuma linha de `elevenlabs` (último item do critério de F2, satisfeito por construção). Os ajustes menores ficam registrados para edição futura, sem novo ciclo."
+}

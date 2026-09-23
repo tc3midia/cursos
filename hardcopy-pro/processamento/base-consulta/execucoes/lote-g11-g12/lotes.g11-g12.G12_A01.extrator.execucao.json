@@ -1,0 +1,49 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T16:30:30+00:00",
+  "fim": "2026-09-22T16:38:06+00:00",
+  "duracao_ms": 454115,
+  "duracao_api_ms": 454081,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 47530,
+    "cache_creation_input_tokens": 8337,
+    "cache_read_input_tokens": 21280
+  },
+  "thinking_tokens": 42607,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.512908,
+  "esperas_por_limite": [],
+  "sistema_sha256": "73be75ee2ffb57d1a1fa7f2572421f2cfde0eac577fd21da717fd22fcc60dd6f",
+  "pacote_sha256": "c49c41c873799e83553cf9821e9431c396d13ecff2c7dc2b384be78173f22c53",
+  "aula": "G12_A01",
+  "rotulo": "lote-g11-g12",
+  "palavras_fonte": 1954,
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g11-g12/G12_A01.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "a94ab9debccd1e94c71ef70d021df45e67b07226e7722d4c0f1aced00b6a0227",
+  "unidades": 10,
+  "validador": {
+    "erros": [
+      "G12_A01: U001: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO",
+      "G12_A01: U004: grafia deformada \"VO3\" em corpo; usar a grafia adotada do FORMATO",
+      "G12_A01: U009: grafia deformada \"DSL\" em corpo; usar a grafia adotada do FORMATO"
+    ],
+    "avisos": []
+  }
+}

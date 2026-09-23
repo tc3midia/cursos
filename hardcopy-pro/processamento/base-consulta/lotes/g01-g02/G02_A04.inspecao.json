@@ -1,0 +1,137 @@
+{
+  "aula": "G02_A04",
+  "arquivo_sha256": "9df199d72a3af3ba04cbe31c0565717cdb61b97c0085063a327831c511010079",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "c1a72c252191b518b2d60b8b19791b19cf46431574743573cb34667c9c6ff5ae",
+    "2": "f338cc1ade42121cd7e96518e1e0460315b4ddf09e56d94fc04e191ea63d52d6",
+    "3": "910d9f1a6efc6e449439a2b871545f8dd22391789eb15d27385f4b64bc6b8d03",
+    "4": "812bba28786e13df9081e03c08ce6418d142d31c35b15635e1c4b0346a46446d",
+    "5": "8208ccdb4640a9cda06be8cf4d03b5dc5d88b1bf8a158ed591d86cdaaf999145",
+    "6": "6eec74bfcf83e7bc6941f615276c02e9d8426fece60592c236414566ced4ffb9",
+    "7": "7cf46ca82fb72a459c3444842fffd09a7a4b1e3403332bb02508f0cdca826371",
+    "8": "c41ed8005908f91ed203867c42d97300270735e8931e72dfac1c51313d216f57",
+    "9": "88754ce44bace2adf95a855b763d419a5ed9f874a464bce079680b9c2f4f3e65",
+    "10": "9a9ed511017fd1e649a89f1f7fe2d5a507cdf93465e8bb267146522b9e21efdb",
+    "11": "b394964f8439d5a46fa699b33d39349b06449628587f4496d0d44abcab1944cf"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Você não pode aplicar uma... se bem que pode, né? Mas, enfim, você não pode aplicar um absurdo ou então algo tão forte quanto isso que eu vou falar agora em um produto que ensina inglês.",
+      "explicacao": "A definição e a indicação para dor específica estão na fonte. O corpo, porém, fecha a exceção: \"nestes não se aplica um absurdo tão forte\". O professor hesita (\"se bem que pode, né?\"), diz \"Não faz sentido\", depois \"Faz sentido, porém. Você vai entender aqui, tá?\" e não explica nesta parte. As `condicoes` acrescentam \"ou só faz de outro modo\" e \"dor específica e forte\". A fonte não diz nenhuma das duas coisas. Consequência: o agente pode tratar como regra fechada que produto de dor leve não usa absurdo, quando a fonte deixa uma exceção em aberto e não a resolve. Ajuste: preservar a hesitação e registrar que a explicação não vem aqui."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eles criam um alvoroço inteiro no início para, no meio, eles diminuíram um pouco o clímax para depois explicar tudo e está tudo certo.",
+      "explicacao": "O corpo confere: notícia ruim como principal atributo, padrão de jornais, TV e fofoca, atenção para ver o desfecho, final feliz ou tudo dar errado, e a própria VSL do professor (6 anos, 3 sem resultado) como exemplo de identificação ou medo. A faixa 124–265 cobre o conteúdo."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Pra qualquer coisinha que ele fizesse, eles aumentavam em 90% e 100% daquele problema e depois amenizava um pouquinho",
+      "explicacao": "O \"90% e 100%\" vem do caso narrado das páginas de fofoca sobre o Bolsonaro, que o professor dá só como exemplo (\"Eu só estou dando um exemplo pra você entender\"). A generalização da fonte (2:23–2:36) não traz número. O corpo transforma isso em afirmação geral: \"Páginas de fofoca inflam um problema em 90% a 100%\". É número de caso apresentado como padrão geral. Consequência: quem consulta pode citar 90–100% como fato sobre como essas páginas operam. Gravidade menor porque o número não serve de parâmetro de decisão e a unidade registra a recusa do professor. A atribuição da preferência (\"Eu acho isso um pouco sujo\", \"Se eu fosse dono de páginas de fofocas... Não\") está preservada. O parêntese sobre \"verdade absoluta\" segue o vocabulário do FORMATO, não esta aula. Ajuste: tirar o número ou marcá-lo como fala do exemplo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E a diferença principal em uma mentira é quando você promete algo para uma pessoa que ela não vai ter aquele resultado.",
+      "explicacao": "Definição de mentira, os dois exemplos (20 quilos em 10 dias, 15 quilos em 5 dias), a definição de história como o que alavanca oferta verdadeira e o \"não tem nada a ver com mentira\" estão na fonte. Os números são exemplos de mentira, não régua, e o corpo os trata assim."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Imagina você começar em uma VSL onde o Lidy seria uma mãe que o seu filho foi preso",
+      "explicacao": "Conferem: filho preso por tráfico, 8 anos, visita e comida como confortos, novelas mexicanas, \"aquilo que o seu público vê também\" e a promessa de explicar personagens depois. A condição \"história inventada para ilustrar\" é coerente com o \"Imagina\" da fala. Ponto de contrato (ver `contrato`): \"lead\" aparece sem indicar o sentido."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ele sabe disso, mas ele não sabe que o problema da falta de vendas é de fato o seu corpo.",
+      "explicacao": "Números (15ª tentativa, 10 anos, 180 quilos), serviço público e a alegação sobre pessoas acima do peso conferem. A alegação está atribuída (\"O professor diz\") e a `nota` registra o \"já foi provado e constatado\". A frase \"a causa real só é ligada ao emagrecimento depois\" é inferência do extrator. A fonte só diz que o advogado não sabe que o corpo é a causa e que isso chamaria atenção do subnicho. Não diz quando a ligação é feita. Sem efeito na execução."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa pessoa não recebia oral por conta que o seu parceiro não tinha coragem de fazer isso,",
+      "explicacao": "Mau odor, desodorante sem efeito, 120 quilos, vergonha e evitar relacionamentos, as duas entradas (quem engorda e teme, quem já tem a dor), o problema semelhante \"o sexo, não o sujo\" e o plot twist ao vender o produto conferem com a fonte. A faixa 510–628 cobre o trecho."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Para mim, é o ponto mais forte que tem de todos esses daqui, é a amnésia.",
+      "explicacao": "Dois desvios pequenos. (1) Escopo: \"todos esses daqui\" aponta para a lista das cinco variações do absurdo (prisão, advogado, sexo sujo, amnésia, amputação). O corpo amplia para \"o ponto mais forte de todos os tipos\", e a própria unidade 11 usa \"tipos\" para absurdo, dor, medo e curiosidade. Quem consulta pode entender que amnésia vale mais que dor ou medo. (2) Atribuição: \"Se você mostrar para o seu lead o problema que ele não sabia que tinha, você vende\" é promessa de resultado do professor. O corpo a escreve sem atribuição: \"Se você mostra ao lead esse problema, ele compra\". O restante (não conhecer o problema mesmo vendo no espelho, estudar o lead, exemplo do emagrecimento) confere. O trecho \"Você não pode tocar no problema que é o que você está vendendo\" fica na unidade 9."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não se esqueça disso, sempre venda no início do vídeo um problema semelhante, nunca o problema que você está vendendo, senão vamos começar de novo com aquela porcaria de jornada do herói, onde você vai começar já falando seu mecanismo único, não vai ter graça nenhuma e ninguém vai comprar, fechou?",
+      "explicacao": "Regra, consequência (jornada do herói descartada pelo professor) e a faixa 740–771 conferem. \"Ninguém vai comprar\" é a fala do professor, e o corpo o mantém junto do descarte dele."
+    },
+    {
+      "numero": 10,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Quando você acerta o subnicho público, você vai conseguir pegar essas duas pessoas, tá bom?",
+      "explicacao": "Quase todo o conteúdo (senhor idoso, filha, perda de perna e sanidade, trajetória, \"duas coisas\") está em 771–877. A frase final do corpo (\"Com o subnicho certo... se pegam os dois perfis\") está em 876,98–883,04, fora do `fim` 877. A unidade 11 só começa em 883. Quem abrir a faixa da unidade 10 não escuta essa frase. Correção: `fim` de 877 para 883. É 1 de 11 unidades, abaixo do limiar de 10%."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Curiosidade, como eu te disse, foi só para você saber que existe mais",
+      "explicacao": "Preferência por absurdo, dor e medo, curiosidade como \"mais do mesmo\", \"Eu não usaria\" (ressalva preservada) e o \"eu não sei qual é o subnicho\" estão na fonte, atribuídos ao professor e com `condicoes`. A leitura de que são quatro tipos de abertura é inferida e a `nota` avisa que os tipos vêm de partes anteriores. Ver `contrato` sobre tipo e autonomia."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidades 5, 6, 8 e 10: \"lead\" aparece sem indicar o sentido. O FORMATO pede que a unidade diga qual sentido vale (o prospect ou o início da VSL). Na unidade 5 a fonte diz \"o Lidy seria uma mãe\", grafia que não está na tabela, e o corpo escreve \"aproxima o lead do público\", ambíguo. \"Mecanismo único\" (unidade 9) e \"subnicho\" (unidades 6 e 10) também ficam sem glosa. Ajuste menor.",
+    "Unidade 8: `regra` que também define \"amnésia\", com `condicoes` \"Exemplo dado no nicho de emagrecimento\" sobre uma orientação geral. A condição pode ser lida como restrição ao nicho, o que a fonte não faz. Classificação discutível, ajuste menor.",
+    "Unidade 11: `decisao` que só registra preferência pessoal, sem condição real. Classificação discutível, ajuste menor. A unidade também não se sustenta sem as partes anteriores: não explica o que são dor e medo como aberturas, e a fonte tampouco explica aqui. A `nota` admite isso; seria útil um `limite` dizendo que a definição dos quatro tipos não está nesta aula.",
+    "`contexto`: diz que a aula deixa \"para a aula seguinte\" a explicação de construção de personagens e roteiro. A fonte diz \"eu vou explicar para vocês como que funcionam os personagens\" sem indicar quando. Só o fechamento de \"o que não pode faltar\" é dito para a próxima aula (\"TA 2.3\"). Pode mandar o agente ao lugar errado. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira e conferi as 11 unidades. Não há sem-lastro, cópia de copy de exemplo, ressalva suprimida ou item perecível, e a aula não tem material de apoio. Há três desvios menores: a unidade 1 endurece a exceção hesitada pelo professor, a 3 leva o \\\"90% e 100%\\\" de um caso narrado para uma afirmação geral, e a 8 alarga o escopo do \\\"mais forte\\\" e tira a atribuição da promessa de venda. A unidade 10 tem `fim` 877 mas a frase final está em 883, o que dá uma faixa-errada menor. Não encontrei omissão que mude a execução."
+}

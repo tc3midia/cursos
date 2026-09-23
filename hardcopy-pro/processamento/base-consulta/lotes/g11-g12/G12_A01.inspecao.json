@@ -1,0 +1,148 @@
+{
+  "aula": "G12_A01",
+  "arquivo_sha256": "71b2bea990385ce6e183f343d23536713364518ef5e72d1025ff4f724829ff2e",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "c366abaec2ed8395c5fa1bbdcf506bf3645d06a29b6f6ceaf066c42ac655abff",
+    "2": "a6d4a62100059c9131b7172672abe70929be5579c57c2f42157f9cd43844c469",
+    "3": "2bce389500fbc2ecc669c07a1935e15e4cc77e115318dfd735e5eaf239f2c270",
+    "4": "404a5e574163795c71595e350eb96c49e3a3a8534d1a4f9ca2a8780f13e9f27a",
+    "5": "07ea93b6f33990a6f4554c1427981bc3dec2f112894a4bc61ae3c317d60a47b4",
+    "6": "04ec079029cbbf850255b4ef3caf1475440d5bd739028dfc5de21daf458ec200",
+    "7": "6f9f15a2ff80875fd637ba8c1057153a92ab10e63b51ad6778e9691f9ed4eb3c",
+    "8": "cbcab8d3db1b7f9a0e57b740b843f920ad505da424c4d9a51f0442adcf58b122",
+    "9": "4f8ee5766eafa33390738fad3d0c325619264ae32dafb4a228cccc4e2817704b",
+    "10": "f3693baacaa5fbd340b7cd6299b2aaece59ca295327261e18793d80fee0ec0ee"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não adianta nada você aprender a usar o VO3, você aprender a usar o chat aqui depois.",
+      "explicacao": "O corpo está bem sustentado pela fala (dominar a copy antes das ferramentas de vídeo/IA). Porém a nota trata 'chat aqui' como grafia deformada de ChatGPT, forma que não consta na tabela de grafias (que lista apenas 'chat GPT, chat de PT, chat EPT, chat IPT, chat APT'); é identificação por hipótese adicional não documentada oficialmente, o que pediria uma nota reconhecendo essa divergência da tabela, não apenas afirmar a grafia como se fosse catalogada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, o topo vai comprar os meus cursos e o meio e o fundo vai me contratar.",
+      "explicacao": "Corpo fiel ao modelo descrito pelo professor (vender curso ao topo de funil e ser contratado por leads mais avançados), com a condição corretamente atribuída ao modelo de oferta do próprio professor, sem generalizar como regra de mercado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Achar que um CDR e um CPC, todo mundo sabe. Ninguém sabe.",
+      "explicacao": "A orientação central (não tratar jargão técnico do nicho como óbvio para público leigo) está fielmente preservada; a unidade evitou decifrar siglas pouco claras da transcrição (CDR, IC, CBN), generalizando-as com cautela em vez de inventar identificação."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "e lá no final desse almoço, desse vídeo aqui, é eles perdendo a casa, triste pra cá, né?",
+      "explicacao": "O corpo afirma que a história 'termina com a família perdendo a casa', mas essa fala ocorre por volta de 00:07:24 (~444s), fora da faixa inicio-fim declarada (275–428s). Além disso, a fonte nomeia explicitamente 'o Lula' como a figura pública usada ('Eu vou começar com o Lula falando'), e a unidade generaliza isso para 'o presidente em exercício na época da gravação', perdendo a atribuição nominal presente na fala."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e aí aqui a gente coloca um pedaço do vídeo,",
+      "explicacao": "O limite descreve corretamente que o passo de montagem (inserir o trecho de vídeo) é apenas apontado na tela, sem detalhamento verbal suficiente para reconstrução; fiel ao que a fala permite reconstruir."
+    },
+    {
+      "numero": 6,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí quando ela perceber, ela já está na minha BSC.",
+      "explicacao": "O corpo traduz silenciosamente 'BSC' para 'VSL' ('já deve estar dentro da VSL'), mas 'BSC' não é uma das grafias catalogadas para VSL (a tabela lista BSL, PSL, DSL). A identificação deveria vir com nota explicando a hipótese e confiança no máximo 'media', não 'alta' sem nota, conforme a regra de identificação por hipótese."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "verdade absoluta, não importa se a pessoa é de esquerda ou de direita, todo mundo hoje é em prol da família",
+      "explicacao": "O corpo aplica corretamente a definição de 'verdade absoluta' do vocabulário do curso e preserva a lógica do professor, sem promover o número '0,001%' citado na fala a estatística de mercado (ele é omitido/generalizado como 'exceção rara', evitando virar dado de mercado)."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Por que que eu tô colocando a cabelha de quatro letras e colocando cópia, porque pra essas pessoas essas pessoas não sabem o que é cópia",
+      "explicacao": "Diante de um trecho de transcrição fragmentado e sem descrição verbal do texto final do botão, a unidade optou corretamente por registrar um limite em vez de inventar o conteúdo que só está na tela."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Várias pessoas aqui achando que isso era uma pessoa de verdade e comentando um monte de coisa.",
+      "explicacao": "O exemplo preserva a condição de que é um caso específico do próprio anúncio do professor, não estatística de mercado, e a nota alerta corretamente que o efeito depende do público não perceber que é publicidade."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "na próxima aula a gente vai dar vida para esse kit, eu vou estar te mostrando como que a gente vai editar cada passo disso, então a gente vai pro VEO3 na próxima aula",
+      "explicacao": "O limite delimita corretamente o escopo da aula (só roteiro/copy), remetendo a edição com Veo 3 para a aula seguinte, fiel à fala de encerramento."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 67,
+      "trecho_fonte": "sempre quando você cria anúncios, você percebe muitas oportunidades em cima de reels, em cima de notícias.",
+      "descricao": "A fonte ensina que o ponto de partida para achar o gancho do anúncio é observar reels e notícias virais em busca de oportunidades. Nenhuma unidade preserva essa orientação de pesquisa de gancho.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta a base não sabe qual é a fonte recomendada para encontrar o 'algo viral' que dá origem ao gancho do anúncio, perdendo o primeiro passo do método demonstrado na própria aula."
+    },
+    {
+      "inicio": 113,
+      "trecho_fonte": "A gente mostra que tem como ela reverter isso, mas só que a gente dá um tapa na cara dela.",
+      "descricao": "A fonte descreve um padrão de três movimentos no gancho emocional do anúncio: gerar dó/identificação com a vítima, mostrar que existe solução/reversão e então confrontar ('dar um tapa na cara') antes de seguir para a venda. Nenhuma unidade preserva essa estrutura.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem tenta replicar a técnica de gancho emocional do curso não sabe que, depois de gerar empatia, o professor recomenda mostrar esperança de reversão e em seguida confrontar o espectador, perdendo uma etapa intermediária do roteiro que a própria aula demonstra."
+    },
+    {
+      "inicio": 261,
+      "trecho_fonte": "A gente trabalha mesmo em cima desse acordo, junto com o chat do IT.",
+      "descricao": "A fonte diz que, para adequar a linguagem ao público leigo (tema da unidade 3), o processo prático é escrever um esboço e submetê-lo ao ChatGPT para revisão. Nenhuma unidade registra esse passo de usar o ChatGPT como parte do método.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem segue a orientação de evitar jargão técnico (unidade 3) não sabe que o professor indica usar o ChatGPT como ferramenta de revisão do esboço, perdendo um passo concreto do processo com IA — justamente o assunto anunciado no título da aula."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U3 (tema 'publico-e-segmentacao'): o conteúdo trata do nível de conhecimento técnico do público, encaixando-se melhor no tema 'nivel-de-consciencia' ('quanto o público já sabe do problema e da solução') do que em segmentação de funil por topo/meio/fundo; classificação defensável, mas discutível.",
+    "U5 (tema 'video-e-avatar-com-ia'): o passo descrito é inserir um trecho de vídeo real já existente na edição, não geração de vídeo/avatar por IA; o tema 'edicao-de-video' descreveria melhor o conteúdo.",
+    "U7 (tipo 'conceito'): o corpo prescreve uma ação ('Antes do pitch, insira uma verdade absoluta...'), o que se aproxima mais do tipo 'regra' do que de uma definição/distinção pura; classificação discutível entre os dois tipos."
+  ],
+  "material": [],
+  "resumo": "As 10 unidades de G12_A01 estão majoritariamente bem lastreadas na fala, com boas práticas próprias do curso (copy de exemplo marcada com condição de ficção, notas de contorno de política nas unidades 4 e 9, uso cauteloso diante de trechos degradados nas unidades 5 e 8). Dois desvios menores de fidelidade aparecem: a unidade 4 estende sua alegação ('perdendo a casa' e a atribuição ao presidente) para além da faixa inicio-fim declarada e perde a nomeação real ('Lula') presente na fala; a unidade 6 traduz silenciosamente a grafia não catalogada 'BSC' para 'VSL' sem nota nem confiança rebaixada. A cobertura da aula deixa de fora três trechos didáticos relevantes do início/meio: a busca de ganchos em reels/notícias virais, a estrutura emocional de três movimentos (dó, solução, confronto) e o uso do ChatGPT para revisar o esboço da copy destinada a público leigo. Todas as unidades já estão marcadas como perecíveis, e não há material de apoio nesta aula para conferir divergências."
+}

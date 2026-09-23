@@ -1,0 +1,93 @@
+{
+  "aula": "G08_A09",
+  "arquivo_sha256": "bbe3d337c04cf2494bac79dee21c695e0a3e5746a49d253564cb82797c615741",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "19b355e6f486ea23f7098547e037837294f663c026514ddcea263d39a2de0c73",
+    "2": "b2d42393751f8afd005dcd6069cff47dfb631da922fbd4ff5f77bf0cccae8674",
+    "3": "8819a8ad4d113da408726c250b67d6ba63f7b8c29150a1a12f14cb5f3d485fc2",
+    "4": "a5625f212def2ccccbfd8907820a12a42576ad512f6a8e8bd1166baff610e873",
+    "5": "adb5a52275fa84c0123644329c0ab2f74e9f6dc676f9be0c331fc0e653fefc6e"
+  },
+  "citacoes_nao_literais": [
+    "Agora vamos colocar um somzinho aqui só pra pessoa acordar diminuiu o volume dele, que esse som é alto"
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos primeiramente fazer o básico que é tirar as partes em branco do áudio tá então cortamos as partes agora a gente vai aumentar o volume como sempre",
+      "explicacao": "Os dois passos (cortar silêncio e depois subir volume) e a moldura de que isso é 'o básico' feito antes da sonorização batem literalmente com a fala, dentro da faixa 30–48s declarada. Não há número, condição ou sentido alterado."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente vai marcar o primeiro ponto aqui e no segundo a gente já vai diminuir o volume porque a música está muito alta e essa parte aqui está muito baixa",
+      "explicacao": "A técnica de marcar dois pontos e reduzir o volume da música no segundo, motivada pela música estar alta demais sobre a narração, está na fala dentro de 492,42–501,3s. A nota já assinala corretamente que o menu exato do CapCut não é descrito (por isso confiança media); não há desvio de número, condição ou sentido."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "e olha só, começamos com tensão, com medo, mostrando cachorro machucado, cachorro com dor",
+      "explicacao": "Só a parte inicial do corpo (tristeza no início; 'terror' como abrir o jogo mostrando o problema) está dentro da faixa declarada 223,48–280,82s ([00:03:43.480]–[00:04:40.820]). Os outros dois detalhes usados para ilustrar as partes 2 e 3 vêm de trechos bem fora dessa faixa: 'pra gente ir com a música rap [...] uma música mais feliz' está em [00:06:16.900]–[00:06:20.820] (373–381s), e 'mostrando cachorro machucado, cachorro com dor' está em [00:09:47.400]–[00:10:01.620] (587–601s), quase seis minutos depois do fim declarado. O conteúdo existe na fonte, mas fora de inicio–fim; quem confere a faixa citada não encontra esses dois detalhes."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Agora vamos colocar um somzinho aqui só pra pessoa acordar diminuiu o volume dele, que esse som é alto",
+      "explicacao": "A fala descreve uma ação pontual sobre um efeito sonoro específico deste anúncio ('esse som é alto', referindo-se a este efeito), sem generalizar para outros efeitos. A unidade transforma isso em regra categórica ('esse tipo de efeito costuma vir com o volume alto'), generalização que a fonte não afirma — um caso único apresentado como padrão geral. Quem consulta pode passar a assumir, sem checar, que todo efeito de 'acordar atenção' vem alto, quando a fonte só mostrou isso uma vez."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Chegamos na hora que a gente vai dar cor para essa gracinha aqui, esse anúncio maravilhoso.",
+      "explicacao": "O limite descreve corretamente que cor, transições e escolha de música ficam majoritariamente na tela. Mas dizer que isso ocorre 'sem nomear valores, faixas ou configurações' não é inteiramente exato: em [00:10:51.240] o professor nomeia especificamente 'Transição de brilho' como a transição usada. É imprecisão pontual que não muda o essencial do limite (a maior parte de fato não é nomeada), por isso o ajuste é menor."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 440.62,
+      "trecho_fonte": "E caça o plot Dessa música aqui",
+      "descricao": "Ao cortar a música para a virada do anúncio, o professor instrui a localizar o 'plot' (o trecho de maior impacto) da faixa antes de posicioná-la, retomando o termo do curso 'plot da música'. Nenhuma unidade preserva essa orientação, embora seja falada e não dependa da imagem para ser entendida.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem sonoriza sem essa dica pode cortar ou posicionar qualquer trecho da música, em vez de buscar deliberadamente o ponto de maior impacto da faixa, perdendo uma técnica específica de sonorização ensinada na aula."
+    },
+    {
+      "inicio": 651.24,
+      "trecho_fonte": "Transição de brilho",
+      "descricao": "O professor nomeia a transição específica usada para diferenciar dois cortes do anúncio ('Transição de brilho', no CapCut). Nenhuma unidade registra esse nome, embora seja um detalhe dito em voz, não só visual.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base não fica sabendo qual transição concreta o professor usa para dar uma pequena diferença entre cortes, ficando só com a informação genérica de que 'há transições', sem o nome aplicável dentro do CapCut."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "A unidade 4 está tipada como `regra` (orientação categórica), mas a fala de origem descreve um caso único ('esse som é alto', sobre um efeito específico deste anúncio), não uma orientação categórica do professor. É o mesmo problema já registrado como desvio de fidelidade; taxonomicamente o conteúdo se encaixaria melhor como `exemplo` (caso pontual), o que também evitaria que um agente leia isso como regra geral."
+  ],
+  "material": [
+    "Esta aula (G08_A09) não tem material de apoio (marcação material_ausente); todas as unidades usam fonte: fala, então não há divergência fala×material a registrar nesta inspeção."
+  ],
+  "resumo": "Das 5 unidades, 3 estão bem lastreadas na fala (unidades 1 e 2 sem ressalvas; a 5 com um ajuste menor de precisão). A unidade 3 mistura, sem atualizar a faixa declarada, detalhes de trechos bem posteriores (a busca por música 'rap' e a descrição 'cachorro machucado, com dor') ao intervalo 223,48–280,82s que cita, configurando faixa-errada de gravidade material. A unidade 4 generaliza uma observação pontual sobre um único efeito sonoro deste anúncio em regra categórica, o que é desvio material. Foram encontradas duas omissões pontuais de gravidade menor (a dica de localizar o 'plot' da música e o nome da 'Transição de brilho'); não há problema de perecibilidade escondido nem de material de apoio, já que esta aula não possui material."
+}

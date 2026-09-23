@@ -1,0 +1,95 @@
+{
+  "aula": "G10_A02",
+  "arquivo_sha256": "65ea416b8c7c19499045bb0569dbe95565d6f0f516777ebd00651769b3183c95",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "e4c4806fb1143da52b46274ed34a9c7ded761da91477b22d0aebda480febb4bc",
+    "2": "9925099b6027242746e500cb9323236f4469d2002ab178139363d181c017cb2e",
+    "3": "291ae278bbf02391ecaed8ba683a8762570265c147f8f19384dc88198816e780",
+    "4": "ae5dc683eb9e83056fe088188fd43c99040086ead7e43c9a5aba71665ac24958",
+    "5": "077ea02e14521929c63c3cf06e45663473f68e60d1ce21f2bbaffb59acf2d72c",
+    "6": "20dfd4923bf06f1baf00b4b35e082cc796a0aeb15ffadfbefc56c1bef236e938",
+    "7": "d47fda8ad32e3a7308e11af31b6bd74cf463a464514928afc09dc318799e1c23"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "chegou a hora de mostrar pra eles como se vende através da verdade",
+      "explicacao": "O corpo descreve corretamente o trecho inicial (00:30-01:35) como um anúncio do próprio professor convidando a clicar em 'saiba mais' para outro vídeo, prometendo vender 'sem prometer carro, mansão e essas balelas' e baseado em 'falta de promessa e superação de expectativa'. Classificação como limite/oferta está de acordo com a regra do curso para trechos promocionais; não há conteúdo didático da aula sendo perdido aqui."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "E qualquer bosta que você falar Você vende",
+      "explicacao": "O corpo generaliza que contexto e texto são 'forças opostas' e que 'sozinhos, cada um rende menos resultado'. A fala não sustenta isso para o lado do contexto: logo em seguida (segmento citado) o professor diz que quem já tem contexto (autoridade) 'mete a cara numa VSL e qualquer bosta que você falar, você vende' — ou seja, contexto sozinho já é suficiente, não 'rende menos resultado'. A unidade só tem lastro para a afirmação de que copy forte sem contexto vende mal; a simetria inventada ('cada um rende menos') contradiz o restante da própria aula (ver também unidade 3) e pode levar quem consulta a subestimar o poder do contexto isolado, achando que sempre precisa combinar bom texto com contexto."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Então se a gente pegar o Thiago Finch, Pablo Massal",
+      "explicacao": "A transcrição registra o nome do exemplo como 'Pablo Massal', não 'Pablo Marçal' como está no corpo. Esse nome não consta na tabela de grafias do curso e não é claramente identificável só pela fonte; pela regra do FORMATO para termos não tabelados, deveria ter ficado citado como transcrito, entre aspas, com nota e confiança baixa, em vez de corrigido silenciosamente com confiança alta. O restante da definição de 'contexto' e do exemplo (Thiago Finch, texto antes do contexto) está fiel à fala."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A única forma de você ter o contexto É fazendo uma boa edição",
+      "explicacao": "O corpo reflete fielmente a fala: para quem começa sem contexto, a saída é boa edição e bom sistema de áudio, e o professor cita edição + áudio + cópia como seu maior contexto atual, chegando à excelência ao juntar os três. A condição ('quem está começando, sem contexto') está preservada."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "No momento em que está falando Sobre o beat de vendas",
+      "explicacao": "O corpo traduz 'beat de vendas' como 'pitch de vendas', mas a fala usa literalmente 'beat de vendas', termo que não está na tabela de grafias do curso e não é claramente equivalente ao 'pitch' definido em outra aula (G02_A09). Deveria ter ficado citado como transcrito, com nota e confiança baixa, em vez de substituído por um conceito já definido no curso, que pode não ser o mesmo. O restante da regra (não usar áudio triste em momento que pede clima diferente, exemplo de 'Happy Nation') está fiel à fala."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na próxima aula eu vou te mostrar Como que você vai baixar essas músicas",
+      "explicacao": "O corpo reflete corretamente que o professor adia para a próxima aula o passo a passo de baixar músicas sem problema de direito autoral, e a unidade está corretamente classificada como limite. Ver observação em 'contrato' sobre a ausência de nota de contorno de política."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque em plataformas elas bloqueiam o anúncio e em monetização, no qual muita gente trabalha hoje, como canal Dark, YouTube, eles cortam a monetização do seu vídeo.",
+      "explicacao": "O conteúdo do corpo corresponde à fala: risco de bloqueio de anúncio e de corte de monetização (citando canal 'Dark' no YouTube). A questão de classificação de plataforma (marcada só como youtube) está registrada em 'contrato', não afeta a fidelidade do conteúdo em si."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 7 (regra sobre bloqueio por direito autoral) tem plataformas: ['youtube'], mas a própria nota da unidade reconhece que a fala menciona genericamente bloqueio de anúncio em 'plataformas' sem nomear qual, e só especifica YouTube para o corte de monetização ('Porque em plataformas elas bloqueiam o anúncio e em monetização, no qual muita gente trabalha hoje, como canal Dark, YouTube, eles cortam a monetização do seu vídeo.'). Classificar a unidade inteira só como youtube pode levar um agente que busca risco de bloqueio de anúncio em outras plataformas (ex.: meta-ads, geral) a não encontrar essa unidade, mesmo a parte sobre bloqueio de anúncio não sendo específica de YouTube.",
+    "Unidade 6 anuncia que a próxima aula vai ensinar a baixar músicas 'sem pegar copyright' — mesmo padrão do que a regra do curso chama de técnica de contorno de detecção de direito autoral, que exigiria nota começando por 'Contorna política de plataforma ou direito de terceiros:'. A unidade não tem essa nota (nota: null). Como o procedimento em si fica para a próxima aula (fora desta fonte), fica em aberto se a exigência já vale para esta unidade de limite ou só na aula que efetivamente ensinar o passo a passo; registro para decisão do juiz."
+  ],
+  "material": [],
+  "resumo": "A aula G10_A02 (sem material de apoio) tem 7 unidades cobrindo bem o conteúdo sobre contexto x texto, como construir contexto via edição/áudio, casar clima sonoro com o momento da VSL e risco de direito autoral; não foram encontradas omissões relevantes nem problemas de perecibilidade ou de material. A unidade 2 comete um desvio material ao generalizar que contexto sozinho também 'rende menos resultado', contradizendo a própria aula, que diz que contexto forte vende 'qualquer bosta'. As unidades 3 e 5 trocam termos não tabelados (nome de exemplo 'Pablo Massal'→'Marçal' e 'beat de vendas'→'pitch de vendas') sem nota nem confiança baixa, desvios menores. A unidade 7 está classificada só como plataforma youtube quando parte do conteúdo (bloqueio de anúncio) é dita de forma genérica sobre 'plataformas', o que pode desviar buscas de um agente; e a unidade 6 anuncia uma técnica de contorno de direito autoral sem a nota padrão exigida pelo curso."
+}

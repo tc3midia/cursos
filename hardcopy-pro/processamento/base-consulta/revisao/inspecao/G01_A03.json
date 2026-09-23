@@ -1,0 +1,151 @@
+{
+  "aula": "G01_A03",
+  "arquivo_sha256": "99cf356baa3dc00e6f44e1bfdf5560070ddd2b980414d7fe2a7f053abc0f450b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [7]; as demais mantêm a evidência da inspeção integral do arquivo e38766aeac5f, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    7
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "998dc936d0984a38cc2b5556b68ea7eaaa206665a5310df2aa807cac6c48ed3c",
+    "2": "7eae25dedc046da1fd9968f12e52fd3482de0cf9083d27ec246a09911c67b3f6",
+    "3": "9951515d6b41c6fd31cb23d02ec735c550d034cbe0abf0ce68a2869895b03bc4",
+    "4": "65fb7be8f8988e8b2c5139d003205e9e044ac6be29350a1324191b3a020229a3",
+    "5": "5734960bd902e1c4b11c1a1ed58101e8e6b6ed9ba2bb1a7cac7e67cbbb489ddf",
+    "6": "7c49bdb139efb142a7646cf60aefbc348cfed8aed20dcb4ac5adc9cca3bb794d",
+    "7": "d28e4c01544b056beeaf9188450b99915788ede7c1a876097ce632f7fb202523",
+    "8": "17b65a693ca176d7551ede42f2870f69e5cea3b1efe39afd658ff5af30601572",
+    "9": "76413356734834abadd082640d7224516aefb1b56b9cbdca6033a0c8df89ed55",
+    "10": "e382665467e4c5663840864575c1196e8dba443084cb5e3e905587c9c4671f5c"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é basicamente o diferencial que o seu produto tem",
+      "explicacao": "A definição bate com a fala (34–41s), está atribuída ao professor e está dentro da faixa. Não há número nem condição omitida."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Já existem vários outros produtos e métodos que as pessoas já estão cansadas de ouvir isso.",
+      "explicacao": "O exemplo do emagrecimento (\"traguem gordura até ela emagrecer\") está ancorado como exemplo básico, e a razão (já existem produtos e o público cansou de ouvir) está na fonte. \"Consumir\" para \"traguem\" é paráfrase aceitável e o verbo da transcrição parece degradado. A generalização \"diferencial já conhecido não serve\" segue o raciocínio do professor e a condição de exemplo foi preservada. Sem efeito prático."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu vou aprovar a sua revisão",
+      "explicacao": "O trecho é fragmentado e ambíguo; a unidade o preserva com `nota` e `confianca: media`, o que a rubrica aceita. A grafia \"clickbait\" está registrada na nota. Dois detalhes ficam de fora: na fala o professor diz que aprovaria a revisão e mesmo assim a copy não vende (a unidade só diz \"mandar para revisão\"), e o exemplo da capsaicina não aparece. Quem consulta não perde a orientação. O título \"Reformular concorrente é a base\" reproduz o \"A base hoje ... é essa\" do professor, mas ele o cita antes de um \"Porém\" e só depois passa à pesquisa da dor do subnicho (unidade 5), que é a resposta real de como achar mecanismo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você perde todo o seu investimento",
+      "explicacao": "A afirmação sobre errar \"uma vírgula ou um mecanismo único\" está correta e atribuída. A segunda frase do corpo (\"deve ser bem embasado no que se quer vender\") vem de uma pergunta retórica do professor, \"Então como que você vai encontrar um bom mecanismo único embasado no que você quer vender?\", em 138–142s, fora do `fim`=137. Ela foi convertida em regra com \"Por isso\". A leitura é razoável e não muda o uso, mas a faixa termina antes do fecho da frase."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então vamos para de fato a parte onde vamos usar a inteligência artificial a nosso favor.",
+      "explicacao": "Os passos 1 a 4 estão na fala: pergunta da dor, comentários em YouTube/Instagram/TikTok, comentários copiados para o script, dores listadas. Três ressalvas menores. (a) A fala enquadra o script como uso de IA, mas o corpo diz só \"script\" e a nota afirma que não fica claro se é prompt de ChatGPT; a fonte não nomeia a ferramenta, mas deixa claro que é IA. (b) Os exemplos entre parênteses no passo 1 (autoestima, problema físico, medo de julgamento) são do caso da academia e aparecem como se fossem gerais. (c) O `fim`=277 corta o segmento 276,56–283,42, onde está \"ele vai te passar todas as dores\" (passo 4). A frase final \"A pesquisa a fundo do problema é a base do mecanismo\" é síntese da unidade e não citação."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A copy hoje, ela é 90% estudo e 10% estratégia",
+      "explicacao": "O número está atribuído ao professor. Os 100 ou 200 reais por dia são o que ele diz que o aluno impaciente espera, e a unidade os preserva assim, em `condicoes`. A faixa 191–225 cobre o conteúdo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e vender algo que nunca foi visto na vida dela.",
+      "explicacao": "A falha F1 está resolvida. A última frase da `Lógica:` agora diz que, segundo o professor, a pessoa já está acostumada a receber receitas e dicas para ir à academia. Isso bate com \"ela está acostumada em receber receitas, em receber\" e \"dicas para ir para a academia\" (294–309s). O que \"nunca foi visto\" passa a ser o processo vendido, como em 361–369s: \"você vai vender o processo para ela e vender algo que nunca foi visto na vida dela\". A inversão sumiu. Dicas aparecem como o já conhecido e a novidade fica no processo, coerente com as unidades 2 e 8. A `fim` foi de 347 para 369, o que cobre 361–369s; o segmento vai até 369,48s, mas só perde a fração final do ponto. A `evidencia` (\"acostumada em receber receitas, em receber dicas para ir para a academia\", 12 palavras) é literal, atravessa duas marcações vizinhas e fica em 294–309s, dentro de 236–369. `versao` = 2 e a entrada do ciclo 1 consta no histórico de correções. O restante do exemplo continua conferindo com a fonte: causas, promessa de ir à academia e não de emagrecer, método lançado depois por e-mail marketing ou upsell, e gratidão. Duas leituras de redação, sem efeito no uso: o \"por isso\" liga as duas ideias sem que o professor o diga, e \"precisa ser\" endurece um pouco o \"vai vender algo que nunca foi visto\". Nada disso muda a decisão de quem consulta. A alteração não criou problema novo: não há cópia bruta, grafia deformada, marcador temporal nem número de caso como régua, e o tipo `exemplo` traz as três marcas exigidas."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O sonho só ensinamos depois que a gente realiza ele",
+      "explicacao": "Os três exemplos (rica/copy, emagrecer/academia, aumento/destaque no trabalho) e a ressalva de que são só ilustrativos estão preservados. A faixa 420–456 cobre o conteúdo."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu pensando que esse vídeo iria me falar sobre eu ir para lá 30 minutos por dia",
+      "explicacao": "O susto e a admiração, \"nunca pensei dessa forma\" e a mentalidade como causa estão na fala. Duas glosas fora da fonte. A fala diz que a pessoa esperava dicas de quanto tempo treinar (30 ou 10 minutos por dia, uma caminhadinha), e o corpo troca isso por \"não a falta de tempo de treino\". Depois, \"conseguir o que quer\" completa uma frase que a transcrição deixa cortada em \"conseguir fazer aqui\". Não muda a orientação. Há também um erro de concordância em \"mecanismo únicos\"."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então esse é o poder do Mecanismo Único que eu quero passar para você e vai ter uma parte 2 desse vídeo que você vai ver logo em seguida para você entender melhor.",
+      "explicacao": "A existência da parte 2 está na fala. O professor diz \"para você entender melhor\". A unidade acrescenta que \"o que não foi tratado aqui deve ser buscado nela\", o que a fonte não afirma. É inferência pequena e sem efeito prático."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 376,
+      "trecho_fonte": "Porque a margem de erro para isso é praticamente nula.",
+      "descricao": "O professor afirma que a margem de erro é praticamente nula, mas ressalva que não é zero: \"Tem como dar errado e tem como dar muito errado. Mas as chances caem quando você faz um trabalho bem feito.\" Nenhuma unidade preserva essa ressalva.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta fica sem o limite que o professor põe à própria promessa: o método reduz o risco de dar errado, não o elimina. Nenhuma unidade promete resultado, então a falta não gera afirmação falsa."
+    },
+    {
+      "inicio": 364,
+      "trecho_fonte": "e vender algo que nunca foi visto na vida dela.",
+      "descricao": "O critério de que o processo/mecanismo vendido deve ser algo que a pessoa nunca viu na vida não está preservado. A unidade 7 tenta e o inverte. As unidades 1 e 2 cobrem só \"não ser diferencial já batido\".",
+      "gravidade": "menor",
+      "efeito_pratico": "Corrigir a frase da unidade 7 já resolve. Sem isso, o critério de novidade do mecanismo fica sem apoio nas unidades."
+    },
+    {
+      "inicio": 225,
+      "trecho_fonte": "Então vamos para de fato a parte onde vamos usar a inteligência artificial a nosso favor.",
+      "descricao": "Nenhuma unidade diz que o \"script\" deixado abaixo da aula é usado como IA sobre os comentários. A nota da unidade 5 afirma só dúvida sobre ser prompt de ChatGPT.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente não sabe que o passo 3 do procedimento é uso de IA. Ele também não sabe que o conteúdo do script, recurso do curso, não está na transcrição."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "contexto, 6ª frase: \"O trecho final da gravação é só resíduo de silêncio e não entra na extração.\" O FORMATO (seção 3) manda não mencionar resíduo de silêncio no contexto. A frase deve sair.",
+    "contexto, 4ª frase: diz que o subnicho foi achado e validado \"na aula anterior\". A fonte diz \"na aula 1, procuramos o sub-nicho\" (07:00–07:05), e esta é o Episódio 03. A atribuição à \"aula anterior\" não tem lastro exato. Menor.",
+    "Unidade 3: `plataformas: [plataformas-de-venda]`. A orientação (pesquisar concorrentes e não copiar mecanismo pronto) não depende de plataforma, e o ClickBank aparece só como ponto de partida citado. Pela taxonomia, `geral` é o padrão quando a menção é só onde o exemplo rodou. Discutível entre dois valores; menor.",
+    "Unidade 10: `limite` sobre a estrutura do curso (parte 2), `tema: mecanismo-unico`, `perecivel: true`. O assunto é a estrutura do curso, e o tema `curso-e-recursos` levaria o agente ao lugar certo. Discutível; menor."
+  ],
+  "material": [],
+  "resumo": "Conferência focal da unidade 7 contra a fonte, nos trechos de 294–309s e 361–369s. A falha G01_A03-F1 está resolvida pelo critério de aceite: o corpo não associa mais dicas de treino a \\\"algo que nunca viu\\\", a novidade é atribuída ao processo vendido, `fim` = 369, `versao` = 2 e há entrada em `correcoes`. Não achei problema novo na unidade. Não há omissão decorrente da falha; a omissão menor do \\\"nunca visto\\\", que o critério mencionava, foi fechada pela nova frase da `Lógica:`. A validação de `base_fcc.py` (critério 4) não é medida por mim."
+}

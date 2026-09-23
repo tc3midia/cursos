@@ -1,0 +1,92 @@
+{
+  "aula": "G07_A02",
+  "arquivo_sha256": "ed526d8a9bb117663c5616006e2d633c59965bf6c9851101a33be8d7e7e2c47b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "b62d6ef0b56a152fa64e4c5654b931d70cc98957e1b5bcd557bc85bafc25745c",
+    "2": "e0f17f4f70ee577263ae8ada10f8f822034e50347ea43c9154d0e5cb66d51165",
+    "3": "b75c7d605c484eeb78bc8cd4fccbf9d07416dded3f18479ddcc3c6075672b55a",
+    "4": "1a176b7cfe577c7f50821c04aad8e0159c779b018c32115f24d7cc62d6b5a4fe",
+    "5": "3013bc86a54b93aa43fe8d3007b4e0c0eb7e375c590c3a41c191183ba85d7e10",
+    "6": "38a7f499357a33194993953ef486d6651e482af32213048a24a068f49499c5f8",
+    "7": "75464a22bc41658914a58417bec3fc992218f819fdb6bcf703d42a1f8cc14c6a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "cara isso era muito bom em 2015 12 10 né hoje a conversa muda hoje o negócio não é esse tá bom",
+      "explicacao": "O corpo reproduz fielmente o anúncio de exemplo (Sport Prime, sapato ortopédico, indicação médica/TV, 55% de desconto) e a reação irônica do professor ('bonitinho', 'era bom em 2015'). O tratamento como `exemplo` com `condicoes` avisando que números/alegações pertencem ao anúncio de exemplo está correto e evita transformar a copy em dado de mercado."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Você compra um produto físico com os olhos",
+      "explicacao": "A fonte só diz que o produto físico 'se compra com os olhos'. O corpo acrescenta uma relação causal não dita: 'quanto mais ele vê o produto, mais fácil fica decidir a compra'. É uma extrapolação plausível, mas não expressa pelo professor nesse trecho nem sinalizada como inferência (a `nota` só menciona fragmentação da fala, não essa adição). Quem consulta pode achar que o professor quantificou a relação exposição-decisão, o que não está na fala."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O produto físico É mais fácil de vender do que o digital",
+      "explicacao": "Corpo preserva o motivo único (adaptação histórica à compra física, do escambo ao dinheiro), o exemplo do encapsulado (uso diário, experiência de receber em casa) e a ressalva sobre o produto digital também vender bem. Atribuição ao professor está clara ('O professor afirma'), sem virar lei universal."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que é o tema da quinta temporada",
+      "explicacao": "Registra corretamente, como `limite` perecível, que o desenvolvimento do encapsulado fica para a quinta temporada, sem se apropriar do conteúdo futuro."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vídeos desse produto Vídeos e vídeos e vídeos Vários vídeos",
+      "explicacao": "Os quatro passos (muitos vídeos, melhor angulação, foco no produto mais que nos benefícios, CTA final) correspondem, na ordem, ao que a fala descreve ('mostrar a melhor angulação', 'esqueço um pouco em relação aos benefícios [...] e foco no produto', 'um belo CTA')."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vou te falar isso na próxima aula",
+      "explicacao": "Reflete corretamente o adiamento da explicação de conexão/desenvolvimento com história (com ou sem história) para a aula seguinte."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o primeiro exemplo, sapatos",
+      "explicacao": "Os três motivos (sapatos sem diferenciação real, carros seminovos como compra difícil, gestão de tráfego como serviço mais próximo do público do curso) batem com a fala, incluindo a lista de profissões alternativas (social media, publicidade, fotografia)."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Das 7 unidades, 6 estão bem lastreadas na fala, com números, condições e atribuições ao professor preservados (inclusive o tratamento correto do anúncio Sport Prime como copy de exemplo, não como dado de mercado). A unidade 2 tem um desvio menor: acrescenta uma relação causal ('quanto mais vê, mais fácil decide') não dita na fala fragmentada da fonte. Não foram localizadas omissões materiais ao percorrer a transcrição inteira, nem problemas de perecibilidade, contrato ou material (esta aula não tem material de apoio). Os trechos de silêncio no fim (legenda, 'Obrigado') não foram usados como fonte por nenhuma unidade."
+}

@@ -1,0 +1,38 @@
+{
+  "aula": "G09_A03",
+  "arquivo_sha256": "82d6d3e529535e7c957aae31d0ec1f912d6bcc0230d5c2ddcf0e191ed8c6703a",
+  "inspecao_sha256": "be2f7ed8d786b1cacaeb1f5c892f58658f1703235a960485b40e09c96cb31962",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Nada a corrigir.",
+  "fidelidade": "Inspeção integral, 6/6 unidades lastreadas com trecho literal, nenhuma citação não literal, nenhum resíduo de silêncio usado como fonte. Um desvio material na unidade 1: a fonte, em trecho literal localizado pelo inspetor (~30s), enquadra o processo como \"somente duas ferramentas\" com o ElevenLabs como \"uma a mais, caso alguém queira colocar uma voz que não seja da própria pessoa\"; a unidade 1 apresenta o ElevenLabs como passo fixo, fecha com \"Essas são as três ferramentas do processo, usadas nessa ordem\" e deixa `condicoes` vazio. Condição que a fonte impõe e a unidade omite, com sentido invertido no enquadramento. O inspetor classificou como omissão menor por a unidade 3 preservar a alternativa; o juiz eleva a gravidade porque a unidade 1 é o molde do processo e é consultada sozinha. Unidades 2 a 6 sem diferença de número, condição ou sentido.",
+  "cobertura": "Adequada para aula introdutória de 777 palavras: ordem das ferramentas, escopo de aplicação, alternativa de voz própria, dimensões por formato no Canva, uso básico do ElevenLabs e um `limite` dizendo o que ficou para a aula seguinte. A única lacuna localizada pelo inspetor (moldura \"duas ferramentas + uma opcional\") é tratada como desvio da unidade 1 em F1, não como unidade nova.",
+  "perecibilidade": "Todas as unidades presas a Canva, ElevenLabs ou CapCut estão com `perecivel: true`. A unidade 2 (`geral`, `perecivel: false`) é uma declaração de escopo sem tela, menu, preço ou recurso de plataforma; a marcação é legítima. Nenhum perecível escondido.",
+  "aplicabilidade": "Unidades 3, 4, 5 e 6 se sustentam sozinhas com tipo, tema, tarefas e plataformas coerentes. Unidade 1: o passo 2 só vale se o usuário quiser voz que não seja a própria e `condicoes` está vazio; a mesma correção de F1 resolve. Unidade 2: \"o formato de edição ensinado nesta aula\" é referência que fica na aula (e a demonstração é adiada para a aula seguinte, segundo a unidade 6); o referente é recuperável pelo restante da frase, então fica como ajuste menor. Tipo `estrutura` na unidade 1 e `regra` na unidade 3 são classificações discutíveis entre valores defensáveis; não vetam.",
+  "falhas": [
+    {
+      "id": "G09_A03-F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal da fonte (inspetor, ~30s, confirmado como literal): \"Como eu prometi, são somente duas ferramentas que utilizamos, tá? Tem uma a mais, que é o Eleven Labs, caso alguém queira colocar uma voz que não seja da própria pessoa.\" Unidade 1: passo \"2. ElevenLabs: usado para fazer a locução daquilo que foi criado no Canva\" sem condição, linha final \"Essas são as três ferramentas do processo, usadas nessa ordem\", `condicoes: null`, título \"Ordem das três ferramentas\".",
+      "impacto": "Agente que consulta a unidade 1 como molde do processo responde que o ElevenLabs é etapa obrigatória e que o processo tem três ferramentas fixas; o professor diz que são duas (Canva e CapCut) e que o ElevenLabs é extra condicionado a querer voz que não seja a própria. O agente recomendaria uma ferramenta a mais que a fonte declara dispensável.",
+      "mudanca_minima": "Na unidade 1: reescrever o passo do ElevenLabs como opcional (só se quiser voz que não seja a própria; caso contrário a locução é gravada com a própria voz); substituir a linha final pelo enquadramento do professor (duas ferramentas, Canva e CapCut, mais o ElevenLabs como extra); preencher `condicoes` com essa condição; ajustar o título; se a evidência do enquadramento for usada, estender `inicio` para cobrir o trecho de ~30s; incrementar `versao`. Opcional: alinhar a frase 2 do contexto ao mesmo enquadramento.",
+      "criterio_de_aceite": "A unidade 1 diz explicitamente que o professor apresenta duas ferramentas (Canva e CapCut) e o ElevenLabs como extra condicionado a querer voz que não seja a própria; `condicoes` não nulo com essa condição; nenhuma linha apresenta o ElevenLabs como passo obrigatório nem fala em \"três ferramentas do processo\"; `versao` incrementada; inspetor confirma contra o trecho literal de ~30s; validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: trocar \"O formato de edição ensinado nesta aula\" por referente que se sustente sozinho (o fluxo criação no Canva → locução → edição no CapCut); a fonte diz \"que eu vou ensinar\" e a unidade 6 registra que a demonstração fica para a aula seguinte.",
+    "Unidade 1: tipo `estrutura` é discutível para uma sequência de ferramentas (cabe também `procedimento` ou `conceito`); classificação entre valores defensáveis, não abre ciclo.",
+    "Unidade 3: tipo `regra` para uma declaração de alternativa (voz própria ou sintética) é discutível; `decisao` ou `conceito` seriam igualmente defensáveis.",
+    "Contexto, frase 2: pode registrar o enquadramento \"duas ferramentas mais o ElevenLabs opcional\" junto com a correção de F1; não é unidade e não veta."
+  ],
+  "proximo": "Enviar G09_A03-F1 ao redator de correções (ciclo 1 de 2). Após a correção: rodar o validador, inspetor reconfere só a unidade 1 contra o trecho literal de ~30s e a faixa ajustada, e o juiz confere a lista de falhas e os efeitos da alteração na rodada 2. As demais unidades mantêm a evidência se o hash, a fonte e a rubrica continuarem os mesmos."
+}

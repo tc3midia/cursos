@@ -1,0 +1,50 @@
+{
+  "aula": "G08_A03",
+  "arquivo_sha256": "827ccf5690072f3943a5784e3817bdae092a79e8580ae621ea6b966ffd3982c8",
+  "inspecao_sha256": "f6b0f9efcc9a5b65fe85ded1e4103874114175d2db19374b32b6a512e256c452",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "aplicabilidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral (7/7 unidades verificadas, busca de omissões declarada), todas `lastreada`, sem desvio, sem-lastro ou faixa-errada. Os dois itens em `citacoes_nao_literais` (unidades 4 e 6) são trechos explicativos do inspetor, não acusações; as âncoras `evidencia` dessas unidades passaram no script e o inspetor as confirma. Ressalvas do professor preservadas (unidade 4 mantém que ele \"não sabe explicar o motivo\"; unidade 2 atribui a preferência ao professor, com `confianca: media` e `nota` sobre a ambiguidade de tela). Nenhuma copy de exemplo tratada como fato, nenhum passo de tela inventado. Passa.",
+  "cobertura": "Única omissão apontada (animação feita dentro do Canva, ~13:27, \"agora a gente vai animar, como a gente sempre faz\") é de gravidade menor e está parcialmente coberta pela unidade 6, que já registra \"pequenas animações (motion)\" no Canva — o inspetor erra ao afirmar que nenhuma unidade registra isso. O efeito prático fica restrito a uma leitura possível da unidade 7; não muda decisão nem impede executar. Aula de tela com cinco orientações autossuficientes e dois `limite` é o resultado esperado. Passa.",
+  "perecibilidade": "Unidades presas a plataforma (meta-ads, elevenlabs, canva), a política de moderação, a direito de terceiros ou a estrutura do curso estão com `perecivel: true`. Unidade 4 (`geral`, `false`) é orientação de direção de arte sem tela nem plataforma. Inspetor não sinalizou perecível escondido. Passa.",
+  "aplicabilidade": "Falha. Unidades 1 e 2 ensinam técnica que contorna direito de terceiros (usar imagem de pessoa sem direitos ocultando o rosto \"para não ter problema\") e política de plataforma (suavizar a edição do \"antes\" para o Facebook não bloquear — o exemplo literal de \"camuflar antes e depois para passar na moderação\" do FORMATO §3). Nenhuma traz a `nota` começando por \"Contorna política de plataforma ou direito de terceiros:\"; quem consulta não é avisado de que a decisão de aplicar é dele. Fora isso, as sete unidades se sustentam sem a aula ao lado; `tipo`, `tarefas` e `plataformas` levam ao lugar certo. O `tema` da unidade 2 é discutível entre dois valores defensáveis (ajuste menor).",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        1
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Trecho literal do inspetor (faixa 97–107): \"eu vou pegar essa jovem aqui eu vou tirar o rosto dela tá porque a gente não tem direito autoral nela muito menos a gente quer ter problema com isso\". A unidade está com `nota: null`, embora o próprio extrator a tenha posto em `politicas-e-bloqueios` / `revisar-risco-de-bloqueio` e com `perecivel: true`. A técnica usa imagem de terceiro sem direitos e oculta o rosto para evitar consequência — contorno de direito de terceiros (RUBRICA, Próprio deste curso; FORMATO §3).",
+      "impacto": "Um agente que consulta a unidade recebe como regra de montagem uma prática de uso de imagem sem licença com ocultação do rosto, sem o aviso de que ela contorna direito de terceiros e de que a decisão de risco é de quem aplica; pode incorporá-la a uma skill como prática segura.",
+      "mudanca_minima": "Preencher `nota` começando exatamente por \"Contorna política de plataforma ou direito de terceiros:\" seguido de uma frase dizendo que a técnica usa imagem de pessoa sem direito autoral/de imagem ocultando o rosto para evitar problema, e que a decisão de aplicar é de quem consulta. Incrementar `versao` para 2. Corpo, faixa, `evidencia`, `tema`, `tarefas` e `perecivel` permanecem.",
+      "criterio_de_aceite": "`nota` não nula e iniciada pela string exata \"Contorna política de plataforma ou direito de terceiros:\"; `perecivel: true` mantido; `versao` = 2; corpo e `evidencia` idênticos aos atuais; validador com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        2
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Trecho literal do inspetor (faixa 112–129): \"e se a gente aumentar assim o Facebook da bloqueio viu eu esqueci eu sempre esqueço o Facebook é cansado com emagrecimento, então vamos deixar assim\". A `nota` atual só trata da ambiguidade de qual ajuste de edição estava em jogo; não avisa que a orientação existe para passar na moderação da Meta. O FORMATO §3 nomeia \"camuflar antes e depois para passar na moderação\" como exemplo de técnica que contorna política de plataforma e exige a `nota` com prefixo fixo.",
+      "impacto": "Um agente montando criativo de emagrecimento lê a suavização da edição como cuidado de direção de arte, não como técnica para não ser bloqueado pela moderação da Meta; aplica sem saber que a decisão de risco (política de plataforma) é dele.",
+      "mudanca_minima": "Prefixar a `nota` existente com \"Contorna política de plataforma ou direito de terceiros:\" e uma frase dizendo que a edição do 'antes' é suavizada para o anúncio não ser bloqueado pelo Facebook no nicho de emagrecimento, e que a decisão de aplicar é de quem consulta; manter o restante da nota atual (ambiguidade do ajuste). Incrementar `versao` para 2. Recomenda-se fazer na mesma passada o ajuste menor 1 (tema).",
+      "criterio_de_aceite": "`nota` iniciada pela string exata \"Contorna política de plataforma ou direito de terceiros:\" e ainda contendo a ressalva sobre a ambiguidade do ajuste de edição; `perecivel: true` e `plataformas: [\"meta-ads\"]` mantidos; `versao` = 2; corpo e `evidencia` idênticos aos atuais; validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2 — `tema`: `anuncio-produto-com-dor` → `politicas-e-bloqueios`. Discutível entre dois valores defensáveis (a orientação só vale para emagrecimento, mas o assunto é passar na moderação e o FORMATO §3 indica `politicas-e-bloqueios` para contorno). O nicho já está em `condicoes`. Se feito, o hash da unidade muda e o inspetor reconfere só ela.",
+    "Unidade 7 — corpo: \"a montagem final, com animação, fica para a aula seguinte\" pode sugerir que nenhuma animação ocorre nesta aula; a fala (~13:27, \"agora a gente vai animar, como a gente sempre faz\") e a própria unidade 6 registram motion aplicado no Canva. Reescrever como \"a montagem final em outra ferramenta fica para a aula seguinte, além do motion já aplicado no Canva\". Não muda decisão. Registro: o inspetor afirmou que nenhuma unidade menciona a animação no Canva; a unidade 6 menciona.",
+    "Unidade 3 — `perecivel: true` com `plataformas: geral` e tema `subtexto-e-curiosidade`, sem tela, plataforma ou política nomeada no corpo. Ou justificar em `nota` o vínculo com moderação de antes/depois (se a fala o sustentar) ou baixar para `false`. Excesso de perecível não veta.",
+    "Unidade 2 — corpo: \"percebe que fez isso ... e volta atrás\" versus trecho \"se a gente aumentar assim ... então vamos deixar assim\" (o professor desiste de aumentar, não necessariamente desfaz). A orientação registrada (não intensificar) é a mesma; redação pode ficar mais próxima da fala.",
+    "Contexto — frase 5 afirma que o episódio seguinte é \"mencionado como sendo no CapCut\"; nenhuma unidade nem trecho do inspetor sustenta que a fala nomeie CapCut. Confirmar ou remover (ver `proximo`)."
+  ],
+  "proximo": "Ciclo 1 de 2. Redator aplica F1 e F2 (só `nota` e `versao`; corpo e faixa intactos — `nota` não entra no hash, então a evidência do inspetor se preserva se o tema não mudar). Se aplicar o ajuste menor 1, o hash da unidade 2 muda e a conferência seguinte reconfere só essa unidade. Conferência seguinte checa a lista F1–F2 e os efeitos da alteração; não busca perfeição editorial no resto. Pedido de prova ao inspetor, sem abrir ciclo: confirmar se a fala nomeia CapCut como ferramenta da próxima aula (o contexto afirma isso sem lastro visível); se não nomeia, remover do contexto na mesma passada. Coordenação: a ausência da nota de contorno é causa material; se aparecer em segunda aula do lote (música fatiada, antes/depois, vídeo sintético), dispara a ampliação focal para duas aulas adicionais prevista na rubrica antes de fechar o lote."
+}

@@ -1,0 +1,45 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T13:54:51+00:00",
+  "fim": "2026-09-22T14:27:10+00:00",
+  "duracao_ms": 130943,
+  "duracao_api_ms": 128844,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 10583,
+    "cache_creation_input_tokens": 14681,
+    "cache_read_input_tokens": 20631
+  },
+  "thinking_tokens": 7688,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.82794775,
+  "esperas_por_limite": [
+    {
+      "em": "2026-09-22T13:54:55+00:00",
+      "status": 429,
+      "mensagem": "You're out of usage credits. Switch to another model, or manage usage credits at claude.ai/settings/usage?from=cc_cli_limit_message, to continue.",
+      "espera_segundos": 1800
+    }
+  ],
+  "sistema_sha256": "bbc7db308415de1b3832395c0a6e77edd6940385a74f02c6018c50e894a46b8c",
+  "pacote_sha256": "bfee5e0903826f345504baf477919e3d80ee927546abf503d401957f0177fea3",
+  "aula": "G08_A01",
+  "rotulo": "lote-g08-g09-ciclo1",
+  "arquivo_sha256": "c321b9b981eecc361edc184cc4b17aa2ccdff084933a72178c42d2fde864597c",
+  "inspecao_sha256": "43277f9aae3d93fbb1a75abaa6b90984bc499e7ab50214404cff15a91fded8b8",
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g08-g09/ciclo1/G08_A01.julgamento.json",
+  "resultado_sha256": "d42294ad7818349708d9aeb9af0c804425c28adeddeebb01f4205f4f163e2b23"
+}

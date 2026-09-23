@@ -1,0 +1,53 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T12:53:16+00:00",
+  "fim": "2026-09-22T13:14:05+00:00",
+  "duracao_ms": 1246671,
+  "duracao_api_ms": 1246565,
+  "consumo": {
+    "input_tokens": 6,
+    "output_tokens": 151498,
+    "cache_creation_input_tokens": 111535,
+    "cache_read_input_tokens": 65388
+  },
+  "thinking_tokens": 142848,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 1.9742096,
+  "esperas_por_limite": [],
+  "sistema_sha256": "c38da934e999177ce624fc070dc25b23095d2dd5b0f0af5a40434028118cceba",
+  "pacote_sha256": "678a941cfc3d97d77db719487292a8755831e2b9b38f67242d6c67ef7de26d31",
+  "aula": "G09_A05",
+  "rotulo": "lote-g08-g09",
+  "bloco": "1/2",
+  "unidades_do_bloco": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "blocos": 2,
+  "agregado_de_blocos": true,
+  "arquivo_sha256": "daf153fab5cee3073b34b4f8d63e4cf2d19f9202de155dfeb66ecf74b8aead6e",
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g08-g09/G09_A05.inspecao.json",
+  "resultado_sha256": "28116962eb14e3d33e586a75aecd2255464d802a138a09d8721bc17e8347f006"
+}

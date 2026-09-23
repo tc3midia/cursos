@@ -1,0 +1,44 @@
+{
+  "aula": "G06_A10",
+  "arquivo_sha256": "ad5d98b8694cfc5d42d228d90f65cf8fe4c2ea549b6b9229f601324b9a398098",
+  "inspecao_sha256": "06f6c878f59c16653d15e498f9ec7b6422b06f2e13f3784b8e094122fa55b947",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os três itens que o inspetor pôs sob `contrato` não são erros de script: tratam do texto do `contexto`, do tipo da unidade 6 e da plataforma das unidades 2, 4 e 8. Tratei-os em fidelidade e aplicabilidade, como ajustes menores.",
+  "fidelidade": "Falha por uma unidade. A unidade 7 atribui à chamada \"toque em saiba mais\" o efeito de piscar e pulsar devagar. O inspetor mostra com trechos literais e marcações de tempo que esse efeito é do ícone de batimento cardíaco. \"E a gente põe um batimento cardíaco\" é seguido de \"piscar / piscar mais rápido / pulsar devagarzinho / show de bola\", e só depois entra a chamada, sem menção a efeito. Nenhuma citação do inspetor consta em `citacoes_nao_literais`. É sentido diferente de fonte clara, dentro de uma parte numerada que o agente executaria. É desvio material, e `confianca: media` não o cobre. As unidades 1, 2, 3, 4, 5, 6, 8 e 9 estão lastreadas. Os problemas de faixa nas unidades 3, 4, 7 e 8, o tom condicional narrado como busca feita na unidade 5 e a observação agregada na unidade 8 são menores. O inspetor não classificou nenhuma unidade como `faixa-errada`, e as diferenças não mudam o uso. A palavra \"articulações\" e a suposição sobre o aluno no `contexto` não têm lastro. Elas não mudam a decisão de quem consulta e ficam como ajuste menor.",
+  "cobertura": "Passa. A inspeção é integral e declara ter buscado omissões. A única omissão localizada é a segunda aplicação de subtexto (trocar \"as dores estavam mais fortes\" por \"latejar\", com imagem pulsando). É exemplo complementar ao que a unidade 3 já traz e não impede executar. A unidade 9 é um `limite` bem escrito. Ela diz o que ficou só na tela (gradiente, opacidade, camadas, animações, layout) e o que a aula adia para o CapCut. Nove unidades em uma aula de tela é o resultado esperado.",
+  "perecibilidade": "Passa. Todas as unidades ligadas a Canva, banco de imagens e bloqueio estão com `perecivel: true`. A única `perecivel: false` é a unidade 1, orientação ética sem tela, preço nem recurso de plataforma. Não achei perecível escondido em unidade `geral`. A unidade 6 não é técnica de contorno de política. É um julgamento do professor sobre uma imagem, com a ressalva registrada, e não precisa do aviso em `nota`.",
+  "aplicabilidade": "Passa, com ressalvas menores. As unidades se sustentam sozinhas. O subtexto é explicado na unidade 3 com a definição do vocabulário. As preferências estão atribuídas ao professor. `condicoes` está preenchido onde o corpo vale só para o criativo ou o público da aula. Há duas classificações discutíveis. A unidade 6 é `regra`, mas o corpo é julgamento de um caso. As unidades 2, 3 e 4 têm só `canva`, embora a orientação não dependa da ferramenta. O corpo e as condições já dizem o alcance real, então nenhuma leva o agente a agir errado, e ficam como ajuste menor. O defeito da unidade 7 é de fidelidade e não foi vetado de novo aqui.",
+  "falhas": [
+    {
+      "id": "G06_A10-F1",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo da unidade 7, parte 1, diz que a chamada fica \"com o texto piscando e pulsando devagar\". O inspetor cita literalmente \"E a gente põe um batimento cardíaco\" (00:14:27–00:14:30), seguido de \"Beleza, piscar / Piscar mais rápido / Pulsar devagarzinho / Show de bola\" (00:14:36.860–00:14:43.460). Só então vem \"Toca em saiba mais e veja o vídeo\", sem menção a efeito. No fim, \"animar tudo... No normal\" (00:15:37) também não fala em piscar ou pulsar a chamada. O efeito é do ícone de coração e foi dito antes do `inicio` 883 da unidade. Nenhuma citação do inspetor está em `citacoes_nao_literais`.",
+      "impacto": "O agente que montar o fecho de um criativo por esta `estrutura` aplicará piscar e pulsar ao texto da chamada e dirá que é o que o curso ensina. A fonte não atribui nenhum efeito à chamada, e o professor pede animação \"no normal\", sem exagero. A unidade 8 do mesmo arquivo diz que esses efeitos ficam para palavras e ícones de ênfase, então as duas unidades dão instruções diferentes.",
+      "mudanca_minima": "Na parte 1 do corpo da unidade 7, retirar o trecho \"com o texto piscando e pulsando devagar\". Não atribuir nenhum efeito de animação à chamada. Não levar o efeito do coração para esta unidade, porque a unidade 8 já o registra como efeito de ênfase. Manter a chamada no final \"para dar um gás\", a seta e a cor branca da seta, que o inspetor deu como lastreados. Incrementar `versao` para 2 e registrar a correção em `correcoes`.",
+      "criterio_de_aceite": "(a) O corpo da unidade 7 não contém \"piscando\", \"pulsando\" nem outro efeito de animação atribuído à chamada \"toque em saiba mais\". (b) `versao` da unidade 7 é 2. (c) `base_fcc.py` devolve zero erros no arquivo. (d) A reinspeção da unidade 7 devolve `lastreada`, sem afirmação sobre a chamada que falte na fonte."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 7, faixa: \"seta apontando para baixo\" vem de \"Setinha para baixo\" (cerca de 1007s), fora de 883–936. Dentro da faixa a fala só diz \"seta lá embaixo\". Na mesma edição da falha F1, escrever \"uma seta lá embaixo\" ou estender `fim` até cobrir 1007s. Sozinho não sustenta veto.",
+    "`contexto`: cortar \"e nas articulações\", porque a fonte fala em dores, pernas, varizes e pernas inchadas. Cortar ou suavizar a frase de que a aula \"assume que o aluno já conhece o Canva e a lógica de subtexto vista em outras aulas\", que a fala não diz. Não altera o hash de nenhuma unidade.",
+    "Unidade 3, faixa: \"Que seja de uma forma solene\" está em 460–462,5s, logo após `fim` 460. Estender `fim` para cerca de 463.",
+    "Unidade 4, faixa: \"Isso aqui tá muito mentira\" está em cerca de 462s, fora de 492–503. Ampliar `inicio` ou retirar esse detalhe do corpo.",
+    "Unidade 2, faixa: \"vermelho com letras brancas\" aparece em 00:06:43 e 00:10:45, fora de 238–337. É detalhe de exemplo e a orientação não muda.",
+    "Unidade 5: a fala é condicional (\"se a gente escrever que é a perna inchada\") e o corpo narra como busca feita. A `Lógica` (\"vale testar palavras próximas\") é inferência do extrator, não fala do professor. Nenhum dos dois pontos muda a decisão de quem consulta.",
+    "Unidade 8: a frase sobre reservar piscar, pulsar e girar para palavras ou ícones de ênfase junta momentos fora da faixa 937–947 (00:04:29, 00:10:23, 00:14:36). O professor não a enuncia como regra. O corpo a apresenta como observação sobre a aula, o que é aceitável.",
+    "Unidade 6: `tipo: regra` para um julgamento do professor sobre uma imagem específica, sem critério geral. `exemplo` descreveria melhor. O corpo e `condicoes` já dizem que é caso e não garantia, por isso é classificação discutível.",
+    "Unidades 2, 3 e 4: `plataformas: [canva]` para orientações que não dependem da ferramenta (cor inversa para destaque, subtexto na imagem, imagem mais verdadeira). Acrescentar `geral` ajudaria o agente a encontrá-las em consulta que não cita Canva. A unidade 8 (\"no normal\") fica defensável como `canva`. A mudança altera o hash e exigiria reinspecionar essas unidades, por isso não a exijo neste ciclo.",
+    "Omissão menor: a segunda aplicação de subtexto (00:10:00–00:10:45), em que o professor troca \"as dores estavam mais fortes\" por \"latejar\" com imagem que pisca e pulsa. É exemplo complementar à unidade 3. Pode entrar como linha adicional ou unidade `exemplo` numa revisão futura."
+  ],
+  "proximo": "Enviar ao redator de correções só a falha G06_A10-F1, da unidade 7. Todas as unidades estão em `versao` 1 e não há `correcoes`, então este é o primeiro ciclo do artefato. Na mesma edição, o redator pode ajustar a redação da seta na unidade 7 e cortar \\\"e nas articulações\\\" e a suposição sobre o aluno no `contexto`. O `contexto` não entra no hash de nenhuma unidade.\\n\\nDepois da correção, rodar o validador e reinspecionar só a unidade 7, a única cujo hash muda. As unidades 1, 2, 3, 4, 5, 6, 8 e 9 conservam a evidência atual enquanto hash, fonte e rubrica forem os mesmos. A conferência seguinte verifica os critérios (a) a (d) da F1. Os ajustes menores não reabrem ciclo."
+}

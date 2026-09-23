@@ -1,0 +1,85 @@
+{
+  "aula": "G06_A02",
+  "arquivo_sha256": "78d1b495309d1adb22cb81946e15f62bd99cc0e3e6937641c3e9a5f2b9f2d564",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "a1804a0aafc73f948716f10761c6f3059d01d0f695b004a0ce55bdac42d662df",
+    "2": "780ac44d1094154b5baa86b83e831be1ed9d428f1b60aac8af4a577d9dcda8ca",
+    "3": "5572daa67633655d1a466a8a640c59dadca2b77b7acebb554c570cee9e39fbc3",
+    "4": "409136316d7ae5ca831209f38119410caa7bd169921afe7d228dc9f7f8b421f3",
+    "5": "0246daba83f8382b12fdda78a12a2639722e80ad8a592fe8866c0461656833f0",
+    "6": "11b8d594d201f28e467c79f10648e3262176daf1c11a4d18fa840b676815477b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O melhor padrão que você pode fazer é criar, modelar aquilo que você tem em sua mente, em sua criatividade.",
+      "explicacao": "O conteúdo está na faixa 48–167 (0:48 a 2:47). Os pontos conferidos batem com a fonte: contra motion, scripts e templates; quem vende página pronta abriu a filiação e ficou 2, 3 anos rodando; o mercado e a mente das pessoas mudaram; quem compra só troca palavras; o professor mostra para o aluno criar o próprio. A preferência aparece como posição do professor, com 'Argumento:' e 'O professor diz', e não como lei. Ficaram de fora a promessa de faturar 'centenas de milhares' ou 'milhões' e o VSL de exemplo. Nenhum dos dois muda o uso da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "E oferecer ele de uma forma inconsciente",
+      "explicacao": "O corpo está fiel à fala, mas a faixa 175–210 (2:55 a 3:30) só cobre o passo 1 (história diferente, não começar vendendo, girafa). O passo 2 (desenvolver e unificar: 3:27–3:46) e o passo 3 (oferecer de forma inconsciente, que termina em 3:49, ou 229 s) ficam fora ou passam do fim. A faixa deveria ir até cerca de 229. Quem for conferir a unidade pela faixa não encontra o passo 3. Essa unidade e a 6 somam 2 de 6 (33%) faixa-errada, acima do limite de 10% da rubrica."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Todo mundo aplicou, tentou, saturou o MacDent",
+      "explicacao": "A definição de subtexto e o treinamento prometido estão na faixa 210–383 e batem com a fonte. Há dois pontos de redação. (1) 'quem estuda os mesmos autores acaba saturando o mesmo método': a fonte diz 'saturou o MacDent', palavra degradada (provavelmente 'mercado'). A unidade resolveu o termo sem registrar a incerteza na nota e com confianca alta. (2) 'e não só os americanos de copy' sugere que o professor também estuda os americanos. Na fonte ele diz que seus estudos são embasados em roteiristas e resumos de filme, e critica quem estuda os americanos. Nenhum dos dois muda a definição de subtexto, então é ajuste menor. A nota já registra corretamente PSL como grafia de VSL."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "De atenção e de dopamina rápida",
+      "explicacao": "Faixa 383–423 correta. A fonte apresenta a arma de Chekhov como 'aliado muito forte de atenção e de dopamina rápida' do subtexto, com o exemplo da câmera que fixa numa roupa que depois se mostra necessária, e diz que 'nada aparece por acaso'. A nota e a confianca media descrevem bem o limite: o professor não aplica ao anúncio."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "aí na sua versão você explica",
+      "explicacao": "Faixa 423–498 correta. A regra 'nunca mostre que 2 mais 2 é 4, mostre só o 2 mais 2', a dúvida no anúncio, o clique em 'saiba mais' e a perda de alcance por responder demais estão na fonte. A unidade escreve 'a explicação vem na versão de destino', mas a fonte diz apenas 'na sua versão você explica'. 'Versão de destino' é leitura do extrator, plausível e sem efeito relevante no uso. A atribuição à Pixar está em `condicoes`, que não é campo de atribuição (ver `contrato`)."
+    },
+    {
+      "numero": 6,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, na próxima aula a gente já vai com um exemplo claro",
+      "explicacao": "O título e a primeira frase do corpo (exemplo claro de copy para emagrecimento na aula seguinte) vêm de 8:19–8:28 (499–508 s). A faixa 29–48 só cobre a quarta temporada com negócios locais e os 'vários nichos' para modelar. O conteúdo existe na fonte e está fiel, mas fora da faixa. Quem verificar a unidade pela faixa não encontra o assunto do título. A faixa deveria incluir 499–511 ou a unidade deveria ser dividida."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto: a frase 'o fecho da transcrição traz apenas resíduo sem conteúdo' menciona o resíduo de silêncio (\"Legenda Adriana Zanotto\", \"E aí\"). O FORMATO manda não mencionar resíduo no contexto. Correção objetiva: retirar a frase. Erro mecânico ou menor, sem efeito na fidelidade.",
+    "Unidade 5: `condicoes` traz \"O professor atribui a frase a alguém que trabalhava na Pixar\". Isso é atribuição, não condição de uso, e não aparece no corpo. Se a atribuição importa, deve ir para o corpo; caso contrário `condicoes` fica null. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira, sem material de apoio, e conferi as 6 unidades. Não achei omissão relevante nem perecível escondido. Nenhuma unidade tem desvio ou trecho sem lastro; o conteúdo dos corpos está na fonte, com dois pontos de redação menores nas unidades 3 e 5. Duas de seis unidades (2 e 6, ou 33%) têm a faixa `inicio`–`fim` errada: a 2 corta os passos 2 e 3 do esqueleto, e a 6 tem o assunto do título em 499–508 s, longe da faixa 29–48. Isso passa do limite de 10% da rubrica. Há ainda dois ajustes de contrato, sobre o contexto e sobre `condicoes` da unidade 5."
+}

@@ -1,0 +1,364 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G06_A11",
+  "titulo": "Episódio 11 - CapCut Público 50+",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de tela do grupo Produtos com Dores (trilha Hard Ads): o professor edita no CapCut um anúncio em vídeo voltado ao público 50+, com locução gerada no ElevenLabs, e narra as decisões de corte, animação e música.",
+    "O texto do anúncio (mãe de 60 anos, filha que mora perto, pernas inchadas) é copy de exemplo e não é fonte de fato nem de orientação.",
+    "A parte de sonorização é a mais falada: escolha de música conhecida do público, plot da música, volume, efeitos e troca de música conforme o sentimento muda.",
+    "Boa parte dos cliques, menus, efeitos e valores ficou só na imagem; a base registra o que a fala descreve sem a tela.",
+    "Assume que o aluno já viu as aulas anteriores de edição e de sonorização, citadas de passagem, como o efeito de choque já explicado.",
+    "No fecho, o professor dá a orientação ética sobre vender para esse público: vender a verdade e escolher outro produto se não souber entregar o que promete."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Música sem alto e baixo nem plot definido não é boa para cortar",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 493,
+      "fim": 509,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Uma música sem congruência, sem alto e baixo e sem plot definido (a parte de maior destaque da música) é difícil de cortar e encaixar no vídeo. O professor apresenta isso como o problema da faixa que ele testou no anúncio 50+: sem um pico claro, não há onde fazer o ponto alto da música coincidir com o ponto alto do anúncio.",
+      "evidencia": "ela não deu um plot definido no seu toque a gente não consegue cortar ela muito bem",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Volume da música: subir para identificar, baixar, subir no plot",
+      "tipo": "procedimento",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 529,
+      "fim": 559,
+      "condicoes": "Descrito sobre uma música de fundo já colocada na linha do tempo; o professor testou e nessa faixa o resultado não ficou bom, o que o levou a trocar o trecho.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala não nomeia o aplicativo; a identificação como CapCut vem do título da aula. Os pontos exatos de volume ficaram na tela.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: música já posicionada sob a locução.\n1. Selecione a música, dê play e ajuste o volume aumentando e diminuindo conforme o ponto do vídeo em que se quer cada efeito.\n2. Suba o volume no início para o público identificar a música; o professor diz que a pessoa reconhece que a música é de gente mais velha.\n3. Abaixe o volume logo depois, para a fala aparecer.\n4. Suba ao máximo no plot da música, para dar destaque ao ponto forte do anúncio.\nO professor testa e o resultado não ficou bom, por isso volta e refaz.",
+      "evidencia": "E a gente aumenta, diminui de acordo com onde queremos o vídeo, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Quando a música não casa, procure outra parte dela",
+      "tipo": "decisao",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 684,
+      "fim": 727,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a música não casa com a fala do anúncio mesmo depois de ajustar volume, o professor diz que insistir não adianta. Nesse caso, mantenha a mesma música mas procure outro trecho dela cujo plot caia onde está a parte mais importante do texto. Depois posicione o plot nessa parte, baixe o que vem antes com fade out e ajuste o volume ao redor.",
+      "evidencia": "Vamos procurar outra parte da música que case",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Escolher trecho da música pela letra e pelo sentido",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1248,
+      "fim": 1279,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao usar música com letra, confira o que o trecho diz, porque a letra muda o entendimento do anúncio. O professor descarta a parte com a ideia de que tudo passa e escolhe o começo da faixa, cuja letra fala de amor e combina com o clima do anúncio.",
+      "evidencia": "Dá outro entendimento da parada, entende?",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Música conhecida do público 50+ ajuda a segurar até o final",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1281,
+      "fim": 1293,
+      "condicoes": "Anúncio para público 50+; a preferência é do professor e a música do exemplo é dele.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No anúncio para público 50+, o professor prefere música muito conhecida entre essas pessoas, porque o intuito é deixá-las assistindo até o final. Ele diz que por isso fica muito bom usá-la.",
+      "evidencia": "Porque ela é muito conhecida entre eles, entende?",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Música triste no trecho de solidão e corte quando o sentimento muda",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 864,
+      "fim": 890,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Coloque música triste, com piano, no trecho do anúncio que fala da solidão dos filhos ausentes, e aumente um pouco o volume, porque piano é baixo. Corte a música exatamente onde o sentimento da fala muda, porque a emoção do trecho seguinte é outra.",
+      "evidencia": "Cancelamos a música aqui, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Música épica fora de hora muda a conversa; use efeito e som de coração",
+      "tipo": "exemplo",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 904,
+      "fim": 1000,
+      "condicoes": "Anúncio de exemplo do professor, público 50+; a copy é de exemplo.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: no trecho em que a personagem diz que foi épica ao criar os filhos, o professor pôs uma música épica sobre o plot.\nO que aconteceu: ele avalia que a conversa mudou totalmente e que faltava congruência com o restante. Ele tentou emendar o início da música com um efeito sonoro e distorcer, e depois trocou por um som de coração batendo no trecho seguinte.\nLógica: música forte demais no momento errado quebra o sentimento construído; é preciso manter a congruência com o que a fala está dizendo.",
+      "evidencia": "De deixar a congruência desse épico",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Tensão com coração batendo e cliques antes da revelação",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 996,
+      "fim": 1066,
+      "condicoes": "Trecho de tensão antes da solução, no anúncio de exemplo.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para criar tensão no trecho em que a personagem percebe as dores, o professor usa o som de coração batendo, com cliques sincronizados às batidas. Duplique o áudio e ajuste até o batimento ficar no lugar certo, e aumente o volume porque, baixo, ele passa despercebido.",
+      "evidencia": "vamos colocar aqui e olha, olha a tensão que dá",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Fim da tensão: clique de transição, música da solução e corte antes do CTA",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1164,
+      "fim": 1233,
+      "condicoes": "Descrito no anúncio de exemplo; a trilha específica usada é escolha do professor.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a tensão acaba e a fala passa para a solução, coloque um clique de transição e uma música de virada, que o professor chama de hora da ressurreição, com volume baixo por já ser alta. Retire a música antes de pedir o toque em Saiba Mais, para o texto seguir como continuação do plot.",
+      "evidencia": "Acabou a tensão e veio para a solução",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Dividir e ajustar velocidade para o vídeo bater com a fala",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 135,
+      "fim": 224,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala não nomeia o aplicativo; a identificação como CapCut vem do título. Valores de velocidade ficaram na tela.",
+      "proposta_tag": null,
+      "corpo": "Quando o vídeo passa do ponto do texto, divida o clipe com Ctrl B no ponto, deixe o marcador ali e diminua a velocidade do trecho até bater com a fala. Quando quiser uma cena, como a de amassar, com transição forte, divida antes e depois dela e acelere esse trecho, aumentando ainda mais se preciso. O professor chama isso de boa saída.",
+      "evidencia": "Quando você quer muito uma transição assim, isso aqui é uma boa saída, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Animação de combinação só em texto maior; fade na continuação",
+      "tipo": "ferramenta",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual",
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 234,
+      "fim": 317,
+      "condicoes": "Preferência do professor.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala não nomeia o aplicativo; a identificação como CapCut vem do título. Nomes exatos dos efeitos ficaram na tela.",
+      "proposta_tag": null,
+      "corpo": "Use animação de combinação no momento certo, normalmente quando o texto na tela é maior. Onde o texto é continuação do anterior, não coloque animação de entrada; use fade de entrada e saída. O professor avisa que a combinação depende de saber usar.",
+      "evidencia": "Normalmente o momento correto de uma combinação",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Zoom no texto final do chamado para clicar",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1351,
+      "fim": 1383,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "baixa",
+      "nota": "Efeito e ajustes ditos de modo truncado, com transcrição degradada; nomes de efeito e valores não são confiáveis.",
+      "proposta_tag": null,
+      "corpo": "No fecho do anúncio, o professor aplica um efeito popular de zoom para o texto do chamado aparecer com destaque. Ajusta força, tamanho e velocidade; cita velocidade 100 e depois reduz. Os valores exatos ficaram na tela.",
+      "evidencia": "Valor, filtros, força e tamanho e velocidade, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Nicho de dor no público 50+: varizes, artrite e artrose vendem, mas com verdade",
+      "tipo": "regra",
+      "tema": "anuncio-produto-com-dor",
+      "tarefas": [
+        "definir-publico-do-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1487,
+      "fim": 1509,
+      "condicoes": "Público 50+; afirmação de mercado do professor.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Transcrição truncada; a associação de varizes e artrite/artrose a esse público é interpretação da fala.",
+      "proposta_tag": null,
+      "corpo": "O professor cita inchaço das varizes e artrite/artrose como dores frequentes nesse público e diz que se vende muito bem nesse nicho, que é mais simples de vender. A ressalva dele é que é preciso vender a verdade.",
+      "evidencia": "Vende muito bem em cima desse nicho",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Não vender mentira ao público 50+",
+      "tipo": "regra",
+      "tema": "etica-e-promessa",
+      "tarefas": [
+        "definir-publico-do-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1508,
+      "fim": 1558,
+      "condicoes": "Público mais velho e em nichos de dor.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor manda vender a verdade a esse público, porque ele não merece levar golpe, e cita como exemplo de vítimas quem cai em promessas de cura. Se você não sabe como entregar o que promete, ele diz para partir para outro produto, como curso de violão, de flauta ou de lavar louça, que ensine algo e mude a vida da pessoa.",
+      "evidencia": "Porém você tem que vender a verdade",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "A aula é de tela: cliques, efeitos e valores não estão na transcrição",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 1546,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula é a edição em tela de um anúncio de exemplo para público 50+. A transcrição não captura nomes exatos de efeitos, posições, valores de volume e velocidade, nem a linha do tempo. O texto lido do anúncio é copy de exemplo e não serve como fato. O início continua a edição de uma aula anterior, com trecho da locução gerada no ElevenLabs.",
+      "evidencia": "aqui não tem mistério né gente aqui",
+      "versao": 1
+    }
+  ]
+}

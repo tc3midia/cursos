@@ -1,0 +1,180 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G08_A04",
+  "titulo": "Episódio 4 - CapCut",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é a quarta de uma sequência sobre anúncios de produtos físicos saturados, dentro do módulo de Produtos Físicos, e mostra o professor editando ao vivo, no CapCut, um anúncio de exemplo de um encapsulado sobre sono, energia e inchaço.",
+    "O conteúdo assume que a copy desse anúncio de exemplo já foi escrita em aula anterior e que quem assiste já conhece o conceito de mecanismo único oculto.",
+    "Grande parte da aula é demonstração de tela — o professor aponta para menus e efeitos do CapCut sem nomeá-los sempre — então boa parte dos cliques específicos não pode ser reconstruída só pela fala.",
+    "As unidades extraídas cobrem tratamento de áudio gerado por ElevenLabs, remoção de silêncio, escolha de trilha sonora e filtro visual por sentimento, e o uso do mecanismo único oculto em produto saturado.",
+    "A aula não detalha nomes exatos de menus, efeitos e recursos do CapCut nem lista opções de configuração passo a passo — isso ficou só na imagem.",
+    "O fechamento aponta para outra aula da mesma sequência, sobre um produto físico diferente, sem detalhar seu conteúdo."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Áudio do ElevenLabs não precisa de tratamento de ruído",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao",
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 39.98,
+      "fim": 52.36,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala fica pouco clara ao dar a razão ('porque é o MEI-A, né'), possivelmente querendo dizer que o áudio é gerado por IA; o sentido geral da orientação (áudio já vem limpo) é consistente com o restante da fala.",
+      "proposta_tag": null,
+      "corpo": "Ao usar o ElevenLabs (ferramenta de geração de voz por IA) para a locução de um anúncio, não é necessário tratar o áudio nem remover ruído antes de editar. Segundo o professor, o áudio gerado já vem limpo, sem nada atrapalhando, diferente de uma gravação real que pode trazer ruído de fundo.",
+      "evidencia": "a gente não precisa tratar o áudio, remover ruído, nem nada disso",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Trilha sonora acompanha a virada de clima do anúncio",
+      "tipo": "exemplo",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 349.02,
+      "fim": 525.78,
+      "condicoes": "Demonstração sobre um anúncio de exemplo (encapsulado fictício de espirulina, sobre sono, energia e inchaço); não apresentada como regra fixa para todo anúncio.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor sonoriza, no CapCut (ferramenta de edição de vídeo), um anúncio de exemplo sobre um encapsulado.\nO que aconteceu: ele aplica uma trilha de suspense/terror sobre a parte de tensão, antes da revelação do produto, e depois, perto do fechamento com o convite para a ação, troca para uma música que chama de música 'de fé', com clima de motivação.\nLógica: a trilha muda de acordo com a fase da narrativa — tensão para preparar a revelação, motivação perto do convite final — buscando deixar o espectador com uma sensação positiva antes do CTA.",
+      "evidencia": "Vamos colocar um terrorzinho, claro",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Remover silêncio da locução mantém a atenção no que é dito",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 395.26,
+      "fim": 404.38,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Remover os trechos de silêncio ('partes brancas') da locução é uma ação repetida ao longo da edição de um anúncio no CapCut (ferramenta de edição de vídeo), feita mais de uma vez conforme o professor revisa o áudio. A razão dada é manter a atenção do espectador no que está sendo falado, sem pausas vazias.",
+      "evidencia": "para a pessoa prestar atenção no que a gente está falando",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Edição deste anúncio no CapCut ficou dependente da imagem",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 425.26,
+      "fim": 449.24,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Boa parte desta aula mostra o professor editando um anúncio no CapCut apontando para a tela ('aqui', 'esse daqui', 'olha só') sem nomear os menus, botões ou efeitos específicos usados. A escolha exata de filtros, transições e efeitos sonoros (por exemplo, um som descrito só como 'microondas') e a navegação pelos menus do CapCut ficaram só na imagem e não podem ser reconstruídas apenas pela fala.",
+      "evidencia": "Aqui a gente remove de novo",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Filtro escuro e vermelho reforça suspense antes da revelação",
+      "tipo": "exemplo",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 482.76,
+      "fim": 500.78,
+      "condicoes": "Demonstração sobre o mesmo anúncio de exemplo (encapsulado fictício); não apresentada como regra fixa para todo anúncio de suspense.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala nomeia o efeito como 'escuro' com tom 'vermelho' e uma transição, sem dizer o nome exato do recurso do CapCut nem sua localização no menu, o que ficou só na imagem.",
+      "proposta_tag": null,
+      "corpo": "Situação: no mesmo trecho de tensão do anúncio de exemplo sobre o encapsulado, antes da revelação do produto.\nO que aconteceu: o professor aplica, no CapCut, um efeito escuro com tom avermelhado e uma transição sobre a cena.\nLógica: a cor escura e avermelhada reforça visualmente o clima de suspense já criado pela trilha sonora, preparando o momento da revelação do produto.",
+      "evidencia": "Vai procurar escuro aqui",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Anúncio de exemplo do encapsulado fechou com 46 segundos",
+      "tipo": "exemplo",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 647.5,
+      "fim": 659.02,
+      "condicoes": "Refere-se a um anúncio de exemplo específico (encapsulado fictício de espirulina), não a uma régua geral de duração de anúncio de produto físico.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor finaliza a edição de um anúncio de exemplo sobre um encapsulado, tratando de sono, energia e inchaço.\nO que aconteceu: o anúncio ficou com 46 segundos de duração total.\nLógica: ele elogia esse tempo como rápido e bem feito, sem apresentar 46 segundos como duração obrigatória para outros anúncios de produto físico.",
+      "evidencia": "um anúncio de 46 segundos, muito rapidinho, muito bem feito",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Mecanismo único oculto em produto saturado: mostrar o conteúdo",
+      "tipo": "regra",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 710.3,
+      "fim": 725.74,
+      "condicoes": "Vale para produtos físicos saturados, como o encapsulado usado de exemplo nesta aula.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Em anúncio de produto físico saturado, como um encapsulado, aplicar o mecanismo único oculto — descrito em outra aula do curso como algo que o mercado inteiro não está vendendo — mostrando o que o produto contém ou o benefício interno, em vez de mostrar a embalagem ou o próprio encapsulado. O professor apresenta essa escolha, no anúncio editado nesta aula, como a técnica usada para vender produtos saturados.",
+      "evidencia": "Isso é o mecanismo único oculto.",
+      "versao": 1
+    }
+  ]
+}

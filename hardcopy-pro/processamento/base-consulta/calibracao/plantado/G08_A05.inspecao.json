@@ -1,0 +1,154 @@
+{
+  "aula": "G08_A05",
+  "arquivo_sha256": "a8cf227b7012330a655969fbffcad8fa7d19e3cab654844d06a28bda9fdd1530",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "797190d883ba396e2d0fdfa4c429267a022ad60ae43d196fafc796cf383f665e",
+    "2": "423c64d6cf79cfac4612cb8f005843964db4e9842d8da82cb1f114115f6c458a",
+    "3": "e5f92927405b646359467d3f3feca356642357998d33d27c009c6b68fffb7547",
+    "4": "576d8333e2af668957a45d9225774a546ed6f0265623934cff97f9c51ef6d3cd",
+    "5": "f1b0acf8b539da3863bfb27fb4ec325ef98dc828115390d05abe30d185950431",
+    "6": "569611a83f40dd703544772172a144aa6c454595f88a40009383dfd9387dd2f2",
+    "7": "199d57694d386c8e96250a477c439ea2ae16642cbb10396af5ed01c7b92ab3e3",
+    "8": "5d89a96c287ecb0a9109abc75f8f11e7e42bce34c4ee0fbcc952f03bbcde5c6d",
+    "9": "98d052d54b1bafe37e639dd343d03bfef86cae5b5493958022a2f5f8a4a41480",
+    "10": "52d62addb86024af303a8f814dd08dbefd199c207c06b699cf8574a59467882b",
+    "11": "9599afc0706cc266f505bb097948ec8291a575cfd7d7e9b4566b1673acdc91b7",
+    "12": "0013a3ec6d194193e4558a468e0ce33bce7dd8765787402cd05d0d5c1aa096f0"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "cima desse produto com certeza tem algum benefício nele que pode beneficiar a pessoa e a pessoa não",
+      "explicacao": "O corpo bate com a fonte: benefício do produto que a pessoa não conhece, uso do termo \"mecanismo único oculto\" em produtos normais, exemplo do abajur ajudando a dormir e a pesquisa do professor, tudo atribuído a ele. A faixa 30–79 cobre esses pontos. Não há número nem condição adulterados. \"Já vendido por muita gente\" em `condicoes` é leve extensão de \"produtos normais\", sem efeito no uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "história totalmente desconectada do produto logo após conectamos essa história com o produto e",
+      "explicacao": "As três partes (história desconectada, conexão, produto como solução) vêm da fala em 134–148 s, com o conteúdo da copy lido em 78–116 s. O que é alegação sobre sono e luz está marcado como copy de exemplo em `condicoes` e atribuído \"segundo a copy\". O corpo não copia 25 palavras. A `nota` sobre a pesquisa sem dados é correta."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "colocar um vídeo mostrando o produto um videozinho ali de 2, 3 minutos você pode colocar uma landing",
+      "explicacao": "A fonte é uma sugestão opcional, \"você pode colocar um vídeo... um videozinho ali de 2, 3 minutos, você pode colocar uma landing page\". É o destino que o professor usou neste anúncio. A unidade escreve \"O vídeo de destino deve ter de 2 a 3 minutos\", o título trata a faixa como parâmetro, e o tipo é `regua`. Ela também diz que \"o anúncio de produto físico fecha com\" essa chamada, o que generaliza o exemplo de uma copy. Quem consulta receberia uma duração obrigatória que o professor não impôs. O fecho \"ou a uma landing page\" preserva a alternativa só em parte."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Estudando ele, tentando entender qual que é o mecanismo oculto que ele tem aqui, tá bom?",
+      "explicacao": "Corpo e condição (dropshipping, e-commerce, Shopee) estão na fala em 141–184 s. A afirmação de que ninguém vendeu sono por luz aparece atribuída a ele (\"Segundo ele\") e a `nota` registra que não é verificada. Sem número ou condição alterados."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Sossego, paz, tranquilidade, e aí depois a gente vende o nosso produto, você vai entender.",
+      "explicacao": "Escritório, iluminação de quarto, sossego/paz/tranquilidade, vermelho para a dramatização, ampulheta, despertador e cores igualadas estão na fala. A unidade diz \"um pequeno contraste no texto\", mas a fala só diz \"aqui a gente vai dar um contrastezinho\" (4:38–4:45), sem dizer onde. O \"verde\" também vem de \"pode ser do fundo aqui ó esse verde\", ambíguo sem a imagem. O efeito é pequeno, porque a `nota` já avisa que posições e cliques ficaram só na tela."
+    },
+    {
+      "numero": 6,
+      "veredito": "sem-lastro",
+      "gravidade": "material",
+      "trecho_fonte": "SnapTik, faz download, download HD",
+      "explicacao": "Só estes pontos estão na fala: não tem foto de abajur, poucas opções no Canva, buscar \"abajur de quarto\" no TikTok, SnapTik, download HD, \"tirar a voz dessa mulher\" e a reclamação do texto do TikTok. Os passos 3, 4, 5 e 6 acrescentam detalhes que a transcrição não traz: \"toque em Compartilhar e copie o link\"; \"cole o link no SnapTik\" e \"sem marca d'água\"; \"aba Uploads\" e \"arraste para a página\"; \"zerando o volume do clipe\". A fala só diz \"baixou aqui, a gente vai colocar o abajur no nosso vídeo\" e \"vamos deixar ele mais organizadinho\". São passos de tela inventados dentro de um `procedimento`. Quem seguir a unidade executará etapas e opções que o professor não descreveu. A `nota` de contorno de política está correta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Light touch, a gente vai colocar na cor do fundo do abajur ali ó, um branco meio gelo, tá vendo?",
+      "explicacao": "Branco meio gelo, sombra leve, \"ajudar\" na mesma cor mais escura, brilho e cor mais quente no ícone de sono, tudo uniforme e volta ao abajur: tudo isso vem da fala. Um ponto é interpretação: a fala diz \"A gente vai colocar a cor dele no fundo... Vou colocar no preto... Eu acho que eu vou colocar esse aqui no branco\" sem dizer o que é preto ou branco. A unidade fixa \"testa fundo preto, decide pelo branco\". A `nota` e a `confianca` media cobrem a incerteza."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu não encontrei nada, então eu vou colocar o olhar",
+      "explicacao": "O professor diz que não gosta de felicidade e não confia em pessoas sempre felizes, mas isso é um desabafo geral sobre gente. Ao buscar \"felicidade\" e \"equipe de gente feliz\", o motivo que ele dá para trocar de busca é que não achou nada. A unidade transforma isso num critério de escolha de imagem (\"desiste de bancos de imagens de pessoas rindo... por falta de credibilidade\", no título) e liga uma coisa à outra. A causa que a fonte dá é a busca sem resultado. `condicoes` já marca como preferência pessoal, o que limita o dano."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E colocamos a nossa maravilhosa seta que tanto amamos, tá?",
+      "explicacao": "Teclado nas partes grandes, variação nas pequenas e seta animada estão na fala em 1060–1141 s. A unidade escreve \"a que ele diz que sempre usa\", mas a fala diz só \"que tanto amamos\". O exagero é pequeno e não muda o uso."
+    },
+    {
+      "numero": 10,
+      "veredito": "sem-lastro",
+      "gravidade": "material",
+      "trecho_fonte": "Colocar a linha leve em multilingual",
+      "explicacao": "O que a fala sustenta é: texto sem número, jogar direto, voz calma e tranquila, biblioteca, filtro feminino, voz doce e regenerar. Três pontos não estão na fonte. (1) \"Cetix, o painel de ajuste da voz\": a fala diz só \"Vamos vir em Cetix\". O termo não está na tabela de grafias, foi promovido a nome de painel sem aspas, sem `nota` e com `confianca: alta`. (2) \"a versão mais rápida do modelo\": a fala diz só \"colocar a linha leve em multilingual\". A parte da \"mais rápida\" é conhecimento externo. (3) \"até ouvir o resultado que julga bom\": a fala mostra uma regeneração e o elogio à voz. Além disso, a unidade omite o filtro de idade (\"vamos colocar que a idade é menor\"). Quem consulta receberia um nome de painel e uma descrição de modelo que a aula não dá."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, vamos dar cor para essa parada na próxima aula no CapCut",
+      "explicacao": "O `limite` descreve corretamente uma aula de tela, com cliques e ajustes só na imagem, e o aviso da aula seguinte no CapCut. \"Colorização\" é leitura razoável de \"dar cor para essa parada\". Sem número ou condição alterados."
+    },
+    {
+      "numero": 12,
+      "veredito": "sem-lastro",
+      "gravidade": "material",
+      "trecho_fonte": "que eu descobri ele tem a cor quente ideal para ajudar o seu subconsciente a",
+      "explicacao": "Nada na aula fala de \"temperatura de cor\", \"abaixo de 3000 K\", melatonina ou luz branca/azulada. A fala tem só a frase da copy de exemplo (\"a cor quente ideal para ajudar o seu subconsciente a se sentir em paz\") e o comentário \"eu pesquisei sobre isso e realmente faz sentido\". O número e o mecanismo fisiológico vêm de conhecimento externo e aparecem como fato, com `perecivel: false` e `confianca: alta`. Quem consulta receberia uma alegação de saúde e um número que o curso não ensina. Isso também trata a copy de exemplo como fato."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 1225,
+      "trecho_fonte": "E vamos colocar que a idade é menor e a categoria",
+      "descricao": "Ao filtrar a biblioteca de vozes, o professor marca feminino e também um filtro de idade (\"a idade é menor\"). Depois deixa a categoria aberta. A unidade 10 lista só o filtro feminino e a categoria aberta.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem repetir a busca de voz não sabe que houve um filtro de idade. É detalhe de tela, com efeito pequeno na decisão."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 10: \"Cetix\" é termo não identificado. Pela tabela de grafias ele deveria ficar como transcrito, entre aspas, com `nota` e `confianca: baixa`. A unidade o promove a \"painel de ajuste da voz\" sem aspas, sem `nota` e com `confianca: alta`. A `nota` da unidade trata só da frase \"não tem nenhum número\", que é interpretação do editor, e a `confianca` alta não a reflete.",
+    "Unidades 5, 7 e 9 (menor, discutível): estão tipadas como `regra`, mas o corpo narra a sequência de escolhas de visual e animação deste abajur. Não é orientação categórica. `condicoes` já registra que são escolhas do professor para este criativo, então o efeito no uso é pequeno.",
+    "Contexto (menor): diz que \"a colorização e a finalização do vídeo ficam para a aula seguinte\". A fala diz só \"vamos dar cor para essa parada na próxima aula no CapCut\". \"Finalização\" não está na fonte, e o professor diz \"finalizamos essa parte\" e \"está pronto\" ao fim da montagem no Canva."
+  ],
+  "material": [],
+  "resumo": "São 12 unidades: 7 lastreadas (4 com ajuste menor), 2 desvios (a 3, material; a 8, menor) e 3 sem-lastro material (6, 10 e 12). A 6 tem passos de tela inventados (Compartilhar/copiar link, sem marca d'água, aba Uploads, zerar volume). A 10 dá nome e função a \\\"Cetix\\\" e chama a linha leve de \\\"versão mais rápida\\\". A 12 traz \\\"3000 K\\\" e melatonina, que não estão na aula. A 3 transforma a sugestão \\\"pode colocar... 2, 3 minutos\\\" em \\\"deve ter\\\". Percorri a transcrição inteira: só uma omissão menor (filtro de idade da voz), e não há material de apoio nem perecibilidade escondida."
+}

@@ -1,0 +1,54 @@
+{
+  "aula": "G01_A01",
+  "arquivo_sha256": "5e27e7e7c74b958dd1f98133825cb35243d98bb72784351f5c7c4ec80e54c268",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "372e7947765135e3bbfb700e5290ec715f3b276c0e71b91e3f9280b21505f5ae",
+    "2": "52a4a4fd80b2f93e2c14efcee24948be75dcbbf1fc25c890b7e1f12fbbf62f70",
+    "3": "09bfa5065143ed60612ede97c6333df92261a3ea04581e71b79d70da253ab1dd"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu duvido muito que você vai fazer isso",
+      "explicacao": "O último parágrafo do corpo diz que o professor \"pede que o aluno não peça reembolso nem assista às aulas correndo\". A fonte não traz pedido. Ele descreve o comportamento habitual (pedir reembolso, dar um despertão, assistir tudo rápido \"igual todos fazem\") e diz que duvida que o aluno vá fazer isso, porque o nível de consciência dele é maior que o dos outros 90% do mercado. O sentido passou de \"duvido que você faça\" (aposta e elogio) para instrução de conduta. Também \"um nível de conhecimento um pouco maior\" virou \"um nível de conhecimento maior\", sem o \"um pouco\". O resto confere. A divisão em duas temporadas, a primeira sem o formato e a segunda com o formato aplicado ao produto do aluno, está lastreada nos trechos 00:01:03–00:01:23 e 00:03:23–00:03:43. A atribuição \"nas palavras dele\" para \"formato coreano\" está correta. Efeito prático baixo, porque o trecho é retórico de abertura e não muda a execução de copy. Quem consultar a unidade lê como regra de conduta o que era provocação."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "como que você vai encontrar um mecanismo único",
+      "explicacao": "O conteúdo confere com 00:01:48–00:02:12: o módulo piloto ensina a achar um mecanismo único e a se afiliar a um produto que \"pode ser até genérico, um produto muito vendido\", para vender de forma diferente do mercado. A definição \"diferencial do produto em relação aos demais do mercado\" não está nesta aula. Vem do vocabulário do FORMATO (G01_A03), e o contrato permite usá-la. A faixa 108–132 cobre o conteúdo e a evidência está dentro dela. A unidade só anuncia o que o módulo vai ensinar e não traz método. Isso é ponto de classificação, registrado em `contrato`."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Provavelmente em breve eu vou colocar a dissertação e a correção de uma VSL em upsell",
+      "explicacao": "O corpo confere com 00:02:12–00:03:54. O botão de suporte é atendido pelo próprio professor (\"sou eu que estou atrás dele\"). A meta declarada é dissertar a VSL ou a copy. O botão fica aberto por enquanto e vai virar upsell de dissertação e correção. O trecho está marcado como oferta sem conteúdo didático, com `perecivel: true` e `tarefas` vazio, como o contrato pede para `limite`. A evidência \"use o botão de suporte\" está na faixa."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tema `mecanismo-unico` e tarefa `definir-mecanismo-unico` levam o agente a uma unidade que só anuncia o que o módulo piloto vai ensinar. Ela não traz método para achar o mecanismo único. Quem consultar \"como definir mecanismo único\" cai aqui e não encontra procedimento. O corpo também depende da referência \"módulo piloto\", sem dizer que o ensino fica para as aulas seguintes. Classificação discutível entre dois valores defensáveis (por exemplo `curso-e-recursos` / `usar-recursos-do-curso`, ou nota deixando claro que é só anúncio). Ajuste menor, não abre ciclo."
+  ],
+  "material": [],
+  "resumo": "As três unidades têm lastro na transcrição, com faixas e evidências dentro do intervalo. Não achei sem-lastro, faixa-errada, cópia bruta, grafia deformada no corpo nem perecível sem marca. Há um desvio menor na unidade 1: o \\\"eu duvido muito que você vai fazer isso\\\" do professor virou pedido de conduta, e \\\"um pouco maior\\\" virou \\\"maior\\\". Na unidade 2 há uma classificação discutível de tema e tarefa (ajuste menor). Percorri a fonte inteira e não achei omissão didática, porque o resto é oferta, testemunho e abertura retórica. A aula não tem material de apoio."
+}

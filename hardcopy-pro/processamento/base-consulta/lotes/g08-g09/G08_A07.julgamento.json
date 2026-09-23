@@ -1,0 +1,60 @@
+{
+  "aula": "G08_A07",
+  "arquivo_sha256": "ed2090c4c3729a970335e3a3fa32c625665719ab6fe74c8b5a3cd5e6d850c970",
+  "inspecao_sha256": "6ee3e45f6315d3b7483b1a7ac64b8e4865f908ccea71064b6e356f3922c97baf",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Validador base_fcc.py com zero erros e zero avisos. Passa.",
+  "fidelidade": "Seis das sete unidades lastreadas pelo inspetor com trecho literal, nenhuma citação em citacoes_nao_literais. As regras próprias do curso estão respeitadas: U4 e U5 tratam copy e números hipotéticos como `exemplo` com `condicoes`; U2 preserva a ressalva do professor sobre o cão não ser totalmente irracional; \"Elevem multilingual\" fica entre aspas com nota e confianca media; nenhum resíduo de silêncio usado. Falha em U7: o inspetor localiza a fala \"Elevem multilingual\" em ~682s (00:11:22), fora da faixa 560–578 declarada, e afirma que dentro da faixa só há a escolha da voz doce/leve/suave e a menção ao ElevenLabs. Uma faixa-errada em sete unidades com faixa é 14%, acima do teto de 10% da rubrica, e o inspetor a classifica como material porque a afirmação do corpo não pode ser conferida na faixa indicada. Veto comprovado. U5 tem confianca alta apesar de corrigir uma provável falha de transcrição (\"comprar 140\" lida como \"cobrar 140\") — a nota existe, a leitura é plausível pelo contexto (\"você cobra 100 reais\"), o uso não muda; fica como ajuste menor.",
+  "cobertura": "Inspeção declarada integral (todas as unidades, busca de omissões na fonte inteira, inclusive trechos de silêncio/loop e digressão pessoal, corretamente excluídos). Nenhuma omissão listada. As réguas, partes e condições que a evidência mostra (obrigação × diferencial, vender para quem decide, sequência do anúncio, verdade absoluta, exemplo de preço) estão nas unidades. Passa.",
+  "perecibilidade": "Inspetor não sinaliza nada. Conferi as unidades `geral` com perecivel false (U1, U2, U6): são conceito e regra sem tela, recurso, preço ou plataforma. U3, U4, U5 e U7 estão marcadas true. Passa.",
+  "aplicabilidade": "Duas falhas. U3: `plataformas: [\"whatsapp\"]` para uma estrutura de anúncio (invalidar mercado, verdade absoluta, curiosidade, preço) que o próprio corpo apresenta com o WhatsApp como exemplo de botão (\"por exemplo clicando em um botão de WhatsApp\") e que a fala citada pelo inspetor trata da mesma forma; a taxonomia diz que menção de onde um exemplo rodou não tira a unidade de `geral`, e cobertura.jsonl é consultada por tarefa × plataforma, então a estrutura some para quem busca roteirizar-anuncio em geral ou meta-ads e aparece falsamente como específica de WhatsApp. U7: a instrução central do corpo é \"reaproveitar no ElevenLabs a mesma voz usada num anúncio anterior\", referência que ficou na aula e que a fala não resolve (a própria condicoes admite \"sem detalhar qual\"); um agente não consegue executar o verbo principal da orientação, só o tom descrito. Os demais metadados levam ao lugar certo: U2 em publico-e-segmentacao (vender para quem decide a compra é a definição do tema), U6 em subtexto-e-curiosidade (verdade absoluta), U3/U4 em anuncio-produto-fisico (pet shop consta na definição). U1 conceito × regra é classificação discutível, ajuste menor.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal 'Elevem multilingual' localizado em ~682s (00:11:22); a unidade declara fim=578 e o corpo afirma 'A seleção é feita no que a fala nomeia como modelo \"Elevem multilingual\"'. Dentro de 560–578 há só a voz doce/leve/suave e a menção a Eleven Labs, sem nome de modelo. Faixa-errada em 1 de 7 unidades com faixa (14% > 10%).",
+      "impacto": "Quem consulta ou audita a unidade não encontra na faixa declarada a afirmação sobre o modelo; a unidade sustenta um dado que não pode ser verificado pela própria âncora temporal, e a base passa a conter uma faixa que não cobre o que o corpo diz.",
+      "mudanca_minima": "Uma de duas: (a) estender `fim` até cobrir a fala 'Elevem multilingual' (~682s, por exemplo fim=690), desde que o trecho intermediário seja só a seleção de voz no ElevenLabs e nada dele precise entrar no corpo; ou (b) retirar do corpo e da nota a frase sobre o modelo, mantendo a faixa 560–578. Em qualquer caso, incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor reconfere U7 e marca `lastreada`: toda afirmação do corpo tem trecho dentro de inicio–fim; se a opção (a) foi usada, o trecho 'Elevem multilingual' está dentro da nova faixa e continua entre aspas com nota; validador com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        3
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Inspetor, trecho literal: 'se você criar um anúncio desse, né, com um botão de WhatsApp, provavelmente você vai ter muito retorno... por conta da curiosidade'. O próprio corpo da unidade escreve 'por exemplo clicando em um botão de WhatsApp'. Taxonomia, `geral`: 'menção de onde um exemplo rodou não muda isso'; `whatsapp` é definido como canal de venda um a um ou de disparo, o que a estrutura não é.",
+      "impacto": "cobertura.jsonl indexa a unidade em roteirizar-anuncio × whatsapp e escrever-gancho-de-anuncio × whatsapp. Um agente que monta anúncio de pet shop ou produto físico para geral ou meta-ads não encontra a estrutura; quem a encontra em whatsapp a lê como específica desse canal. Direciona a consulta ao lugar errado.",
+      "mudanca_minima": "Trocar `plataformas` para [\"geral\"], mantendo no corpo o botão de WhatsApp como exemplo de CTA. Reavaliar `perecivel` (pode ficar true ou passar a false; não é critério). Incrementar `versao`.",
+      "criterio_de_aceite": "U3 com `plataformas` igual a [\"geral\"], corpo inalterado no conteúdo (o WhatsApp permanece como exemplo), versao incrementada, validador com zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        7
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Inspetor: a orientação 'reaproveitar no ElevenLabs a mesma voz usada num anúncio anterior' vem de 'eu quero colocar aquela voz que a gente colocou no último anúncio, porque aquela voz é muito gostosa', e a fala não identifica esse anúncio além de 'doce, leve, suave'. A própria `condicoes` da unidade reconhece 'sem detalhar qual'.",
+      "impacto": "O verbo principal da orientação depende de uma referência que ficou na aula; um agente sem a aula não consegue reaproveitar voz nenhuma. A parte executável (escolher tom doce, leve e suave para o público 'pai de pet') fica subordinada a uma instrução que não se sustenta sozinha.",
+      "mudanca_minima": "Reescrever o corpo para que a orientação seja a escolha do tom: no ElevenLabs, escolher para o público que o professor chama de 'pai de pet' uma voz doce, leve e suave, atribuída como preferência do professor. A menção de que ele reaproveita a voz de um anúncio anterior sai da instrução e, se ficar, vai para `nota` ou `condicoes` como contexto, não como passo. Incrementar `versao`.",
+      "criterio_de_aceite": "Corpo de U7 sem instrução que dependa de identificar anúncio ou aula anterior; a orientação acionável (tom da voz para o público 'pai de pet', no ElevenLabs) está completa na própria unidade; inspetor marca `lastreada`."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: `tipo` conceito × regra é classificação discutível entre dois valores defensáveis (inspetor e juiz concordam); manter ou trocar para regra sem abrir ciclo. A frase final ('ponto de partida para construir um anúncio com um ângulo diferente') generaliza um pouco além da faixa, mas é coerente com a aula e não muda o uso.",
+    "U5: baixar `confianca` para media, porque a unidade corrige uma provável falha de transcrição ('comprar 140' lida como 'cobrar 140'); a nota já existe e a leitura é plausível pelo contexto. Opcionalmente reduzir 'que ajude o cliente no dia a dia com o pet' ao que a faixa diz ('alguma coisinha que vai ajudar o cara').",
+    "Aula: o contexto diz que boa parte da manipulação de tela (seleção da voz no ElevenLabs) não é descrita pela fala e que a edição visual fica para outra aula. Considerar uma unidade `limite` dizendo isso, para que a lacuna seja consultável fora do contexto. Não é omissão: o essencial didático está em fala e nas unidades."
+  ],
+  "proximo": "Encaminhar F1–F3 ao redator (ciclo 1 de 2). Após a correção: inspetor reconfere apenas U3 e U7 (hashes mudam), confirmando para U7 que cada afirmação do corpo está dentro da faixa final (ou que a frase do modelo foi retirada) e que a orientação não depende de anúncio anterior; para U3, que `plataformas` passou a geral. Juiz verifica os três critérios de aceite e os ajustes menores, se aplicados. Unidades 1, 2, 4, 5 e 6 preservam a evidência se o hash não mudar."
+}

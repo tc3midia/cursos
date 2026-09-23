@@ -1,0 +1,64 @@
+{
+  "aula": "G10_A04",
+  "arquivo_sha256": "416a19bd830d92ed1f5aefc7aff4f111ce5f6e72eb99365f6983274c76722ed5",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1]; as demais mantêm a evidência da inspeção integral do arquivo 6067981664b1, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "c3152c00172bcf36b4322aeecccf9260aa28b54ac71d59716349388089666f77",
+    "2": "738b404cdd7245e95076bd1c74f72f2c560551042eca64531b1797fd5bf4c056",
+    "3": "6006275f879cfce3c0150fd75bb786fe399da06057ee1f8bdcd910e6d9c6284c",
+    "4": "58b37eef9214855f3f10f17cd83329aa44f9601355bd72e3e2685f08303ab51b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Um é 9x16 e o outro é 16x9",
+      "explicacao": "A falha F1 foi corrigida dentro do critério de aceite: confianca caiu para 'media'; a nota agora cita literalmente 'Um é 9x16 e o outro é 16x9' e 'Um tem 30 segundos, o outro tem 20, 30 minutos' e declara explicitamente que a atribuição criativo/VSL segue só a ordem de menção e o apontamento de tela, não uma afirmação verbal do professor. Conferi na fonte: em nenhum dos trechos entre 117 e 146s ('Quanto faz o criativo quanto a VSL... A única coisa que muda é a proporção. Um é 9x16 e o outro é 16x9... E o tempo... Um tem 30 segundos, o outro tem 20, 30 minutos... Mas a parte teórica e o aprendizado aqui é a mesma coisa') a fala nomeia qual proporção ou duração pertence a qual formato — a distinção é sempre por 'olha só' apontando a tela, confirmando a incerteza que a nota agora registra. O corpo foi reescrito para tratar a proporção e a duração do mesmo jeito, como inferência por ordem de citação ('Pela ordem em que cita os formatos, o criativo ficaria com 9x16...'), sem apresentar o mapeamento como algo que o professor afirmou em voz. fim passou de 140 para 146, cobrindo a frase final sobre a parte teórica ser igual, que estava fora da faixa anterior. versao foi incrementada para 2. Nenhum problema novo de fidelidade, número, condição ou faixa foi introduzido pela correção. Resta um resíduo editorial menor, sem lastro direto na fala: a frase 'confirme antes de exportar', inserida como conselho prático a quem consulta a unidade, não corresponde a nada que o professor diga — não é uma afirmação de fato, mas é conteúdo acrescentado pelo extrator; como não atribui a fala ao professor nem afeta os números ou a ambiguidade registrada, trata-se de ajuste menor, não de veto novo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu explico em um outro treinamento que eu tenho, que é somente sobre criativos",
+      "explicacao": "A unidade reproduz fielmente que as guias de áudio, texto, sticker, efeitos, transições e filtros do CapCut são explicadas em outro treinamento do professor, e que esta aula cobre só a parte de áudio. Classificação como 'limite' e menção ao produto irmão como oferta (não como orientação) seguem a regra do curso para esse tipo de trecho. Faixa (92–107) bate com o segmento (92.34–106.44)."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa mídia é onde guardamos os nossos conteúdos",
+      "explicacao": "A unidade descreve corretamente, sem inventar passo de clique, a área de 'mídia' do CapCut usada para thumbnail e áudio, e registra como 'limite' que a edição completa (áudio + vídeo) fica para a aula seguinte — o que bate com 'Então na próxima aula eu vou estar te mostrando... toda a edição embasada no áudio junto com o cap cut e o vídeo'. Não há passo de procedimento inventado a partir da imagem. Faixa (150–175) cobre integralmente o trecho usado (150.1–174.48)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tem a malandragem De ficar cortando as músicas E fazer todo o sistema Para que o seu lead Sinta alguma coisa com isso E que você não tome ban",
+      "explicacao": "A unidade reflete com fidelidade que usar a música comercial (o professor cita o exemplo do Pink Floyd) sem tratamento leva a tomar ban, e que a 'malandragem' de cortar a música ao longo do vídeo evita o bloqueio e ainda gera conexão emocional com o lead. Corretamente marcada como técnica que contorna política/direito de terceiros, com 'perecivel: true' e 'nota' no formato exigido, e com 'confianca: media' justificada pelo fato de o próprio professor adiar os detalhes para a aula seguinte. Faixa (174–200) cobre o trecho relevante (174.48–199.8)."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Conferência focal restrita à unidade 1 (falha F1, veto de fidelidade). A correção do ciclo 1 atende ao critério de aceite: confianca baixada para media, nota citando os trechos literais e declarando que o mapeamento proporção/duração por formato é inferência por ordem de menção (não afirmação verbal do professor), fim estendido para 146 cobrindo a frase sobre a parte teórica ser igual, e versao incrementada. Não encontrei problema novo introduzido pela correção; resta apenas um acréscimo editorial menor ('confirme antes de exportar') sem lastro direto na fala, mas sem impacto material. Unidade 1 passa a lastreada, gravidade menor; demais unidades não foram reabertas conforme escopo desta conferência."
+}

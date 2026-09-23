@@ -1,0 +1,25 @@
+{
+  "aula": "G11_A06",
+  "arquivo_sha256": "8effc54c44e0d1ee4e2f47f4fbc5025a2e1ff28475e4b77d366469e45c339fae",
+  "inspecao_sha256": "39665f8f80153310cc8218905e446a1e7b738c8399931520daedf60350fd9865",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Zero erros no validador. Único aviso é a contagem de 2 unidades fora da faixa 3–60, esperado para aula de encerramento sem conteúdo técnico; a rubrica prevê que aula assim passe com um `limite` bem escrito mais o pouco que houver de orientação.",
+  "fidelidade": "Inspeção integral, as duas unidades `lastreadas`, cada uma com `trecho_fonte` literal e nenhuma em `citacoes_nao_literais`. Unidade 1 resume a oferta (agente de prompt já criado, anúncio do zero, Canva/corte de imagens, consistência de avatar com ElevenLabs/Canva/CapCut, promoção de Hard Copy, Hard Ads e 0 a 100K) sem transformar trecho degradado (\"Expert… tá essa parte aqui esse\") em passo. Unidade 2 preserva a formulação categórica da fala (\"nunca utilize…\"), não inventa número nem condição e atribui ao professor a alegação sobre os próprios cursos em vez de universalizá-la. Resíduos de abertura (\"Hard Sounds.\") e fecho (\"E aí\") não foram usados como fonte nem citados no contexto. Nenhuma copy de exemplo tratada como fato, nenhum termo deformado promovido a nome, nenhuma ressalva suprimida.",
+  "cobertura": "Inspetor declarou busca de omissões na fonte inteira e não encontrou nenhuma. O único conteúdo prescritivo da aula (IA é meio, não fim; passar a saída por si mesmo) está na unidade 2; o resto é oferta e construção de autoridade, coberto pelo `limite` da unidade 1 e dispensado pela rubrica. Nada que falte para decidir ou executar.",
+  "perecibilidade": "Unidade 1 (oferta, temporadas, trilhas pagas, ferramentas prometidas) está com `perecivel: true` e tema `curso-e-recursos`, como exige o contrato. Unidade 2 é princípio geral sobre uso de IA, sem tela, menu, prompt, ferramenta ou recurso do curso; `geral` com `perecivel: false` está correto. A menção aos \"cursos dele\" na última frase é atribuição de autoridade, não ponteiro para recurso, e não exige a marca.",
+  "aplicabilidade": "Ambas se sustentam sem a aula ao lado: nenhuma referência a \"esse vídeo\" ou \"como mostrei\", nenhum jargão sem explicação. Unidade 2: `regra` com corpo categórico, tema `ia-para-copy-e-prompts` e tarefa `refinar-saida-de-ia` coerentes com \"iterar a saída da IA\"; `condicoes: null` correto porque a orientação não é restrita a perfil. Unidade 1: `limite` com `tarefas: []` (não entra em cobertura.jsonl); as plataformas canva/elevenlabs/capcut registram o que a próxima temporada promete e são defensáveis, embora `geral` também fosse — classificação discutível, ajuste menor. O `limite` diz \"sem conteúdo didático próprio\" enquanto a unidade 2 nasce dentro da mesma faixa; é imprecisão de redação que não muda o uso.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U1 (corpo): 'sem conteúdo didático próprio' contradiz a existência da unidade 2, extraída de dentro da faixa 29.98–189.82 do próprio limite. Sugestão: 'quase sem conteúdo didático: o único princípio está na unidade 2' ou similar. Não muda decisão de quem consulta.",
+    "U1 (plataformas): canva/elevenlabs/capcut num `limite` sem tarefa é defensável (documenta o que a temporada seguinte promete cobrir), mas `geral` também seria, já que a unidade não é orientação para essas ferramentas. Classificação discutível entre dois valores; não abre ciclo.",
+    "U1 (corpo) e contexto: 'Zero a 100k' vs nome da trilha no FORMATO '0 a 100K'. Uniformizar a grafia da trilha para facilitar busca.",
+    "U2 (corpo): a última frase ('em nenhum dos cursos dele a IA aparece à frente do criador… primeiro vem a árvore, depois o fruto') é construção de autoridade já atribuída; pode ficar ou sair sem efeito na orientação.",
+    "Validador: aviso de 2 unidades fora de 3–60 é o resultado esperado para aula de encerramento; não requer ação."
+  ],
+  "proximo": "Aprovar e marcar `status: revisado`. Nenhum pedido de prova pendente. Os ajustes menores podem ser aplicados em passagem editorial futura sem nova inspeção, desde que o hash das unidades seja recalculado se o corpo mudar."
+}

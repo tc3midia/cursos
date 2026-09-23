@@ -1,0 +1,74 @@
+{
+  "aula": "G08_A02",
+  "arquivo_sha256": "ae443004303b0898505ce2ad9e05352c628413f4e3db33a7a5ec4cc34b124df2",
+  "inspecao_sha256": "9f1371c9b0927b7d18afe2b388dc7c31b1ed5bcedb5817d74226d42e53c3f65b",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. Validador com zero erros e zero avisos. Os dois apontamentos que o inspetor colocou em `contrato` (jargão sem explicação na U2, referência a 'este episódio' na U3) não são regras de script; foram tratados em aplicabilidade.",
+  "fidelidade": "Falha. U1: faixa-errada comprovada com trecho literal — a frase final do corpo ('não existe entre os concorrentes, que focam só no produto') vem de ~311–320s, fora de 215–244; 1 de 3 unidades com faixa (33%) supera o teto de 10%. U2: a generalização 'usar uma palavra ligada a resultado na chamada final não conta como prometer' apoia-se em trecho mal transcrito ('perda não, perda não é perda'), com `confianca: alta` e sem `nota`; a rubrica só admite fonte ambígua quando a unidade preserva a incerteza. A segunda metade de U2 ('não é mentira porque o produto tem isso') e a U3 estão lastreadas. Alegação de originalidade (U1) e números de caso (U3) ficaram corretamente atribuídos ao professor em `nota`, sem virar régua ou fato de mercado.",
+  "cobertura": "Falha por uma omissão material localizada com trecho literal (~252s): logo após o CTA 'único produto do Brasil', o professor encena a objeção de que o lead pode já conhecer o produto por outros afiliados e responde que o anúncio é de impulso — a pessoa compra sem parar para checar. É a condição que sustenta o CTA de exclusividade justamente no cenário para o qual a estrutura da U1 é vendida (produto saturado) e restringe onde o formato se aplica. A segunda omissão (checagem dos fatos do produto no ChatGPT, dita dentro da leitura da copy) é menção lateral: ajuste menor. Discurso motivacional do fechamento não é omissão.",
+  "perecibilidade": "Passa. Inspetor não sinalizou nada e não há perecível escondido em unidade `geral`. U1 e U3 estão marcadas `true` por cautela (alegação de mercado; números de caso em nota); U2 é regra sem elemento perecível.",
+  "aplicabilidade": "Falha em U3: 'montar um anúncio seguindo a estrutura informativa deste episódio' é referência à aula. Consultada pelo índice de `subir-campanha-de-teste`, sem a U1 ao lado, a unidade manda testar uma estrutura que não descreve; o agente não consegue executar. U1 se sustenta sozinha: explica mecanismo único oculto com a definição da fonte, `condicoes` preenchidas, três partes numeradas. U2 se sustenta com folga menor: 'o anúncio de exemplo' e 'mecanismo único oculto' são parcialmente ancorados por `condicoes` e pela frase final ('de uma forma que o mercado geral não usa'); ajuste menor. Temas e tarefas levam ao lugar certo; U3 `teste-de-criativos` × `variacoes-e-criativo-estatico` é discutível entre dois valores defensáveis.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, com trecho literal 'Não existe anúncio dessa forma aqui Nesse formato Pra jogar pra uma página de vendas Num produto encapsulado Não existe Todos focam no produto', localiza a frase final do corpo em ~311–320s; a unidade declara inicio=215, fim=244. Faixa-errada em 1 de 3 unidades com faixa (33%), acima do teto de 10% da rubrica.",
+      "impacto": "Quem verificar a unidade pela faixa declarada não encontra a afirmação de originalidade; a âncora de inspeção deixa de cobrir o corpo inteiro e parte da unidade fica sem como ser conferida.",
+      "mudanca_minima": "Ou ampliar `fim` para ≥ 320 (mantendo `evidencia` dentro da faixa; isso também passa a cobrir os ~252s usados em F3), ou retirar a frase final do corpo, deixando a alegação de originalidade só em `nota`, onde já está. Incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor confirma que toda afirmação do corpo da U1 está entre `inicio` e `fim` e que `evidencia` continua dentro da faixa; validador com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: 'perda não, perda não é perda em momento algum a gente falou de prometer nada pra pessoa'. A primeira parte é trecho sem sentido gramatical claro; a unidade constrói sobre ele a regra 'usar uma palavra ligada a resultado na chamada final não conta como prometer aquele resultado, porque em nenhum momento o anúncio afirma isso de forma explícita', com `confianca: alta` e `nota: null`. A fonte só sustenta com clareza que 'em momento algum falamos de prometer nada'.",
+      "impacto": "Agente que consulte `etica-e-promessa` adota com confiança alta uma regra sobre o que pode escrever no CTA (palavra de resultado ≠ promessa) cuja sustentação é um trecho mal transcrito; a rubrica só admite fonte ambígua quando a unidade preserva a incerteza com confiança adequada e nota.",
+      "mudanca_minima": "Reescrever a primeira metade do corpo para o que a fonte diz com clareza (o professor sustenta que o anúncio de exemplo em momento algum promete algo ao lead), sem a generalização sobre 'palavra ligada a resultado' e sem o acréscimo 'de forma explícita' — ou mantendo-a explicitamente como leitura de trecho mal transcrito. Baixar `confianca` para `media` (ou `baixa`) e preencher `nota` registrando o trecho 'perda não, perda não é perda' como mal transcrito. Manter a segunda metade (mecanismo único oculto não é mentira porque o produto tem a propriedade). Incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor confirma que o corpo da U2 não afirma além do trecho claro da fonte; `nota` cita o trecho ambíguo; `confianca` ≤ `media`; a parte sobre o mecanismo único oculto permanece lastreada."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        1
+      ],
+      "veto": "cobertura",
+      "evidencia": "Omissão localizada pelo inspetor com trecho literal em ~252s: 'Esse anúncio aqui é de impulso, normalmente a pessoa já compra sem pensar, é assim que funciona.', dita logo após a leitura do CTA 'único produto do Brasil que contém a espirulina', em resposta à objeção encenada de que existem afiliados vendendo o mesmo produto e o lead pode reconhecê-lo. Nenhuma unidade preserva a objeção nem a resposta.",
+      "impacto": "A estrutura da U1 é para produto saturado, onde o lead já viu o produto em anúncios de outros afiliados. Sem a resposta do professor, o agente não sabe se o CTA de exclusividade se mantém nesse caso nem que a justificativa dele é compra por impulso — condição que restringe o formato a compra sem checagem e muda a decisão de usar ou não o CTA de exclusividade.",
+      "mudanca_minima": "Acrescentar uma linha à U1 (com a faixa ampliada de F1 cobrindo ~252s) ou criar unidade 4 (`fonte: fala`, faixa em torno de 245–260, `evidencia` literal do trecho) dizendo: à objeção de que o lead pode já conhecer o produto por outros afiliados, o professor responde que esse anúncio é de impulso — a pessoa compra sem parar para checar a alegação de exclusividade. Atribuído ao professor; sem completar com juízo externo. Incrementar `versao` da unidade alterada.",
+      "criterio_de_aceite": "Existe unidade (U1 ampliada ou U4) contendo a objeção (afiliados vendendo o mesmo produto / lead pode reconhecê-lo) e a justificativa (compra por impulso, sem checar), dentro da própria faixa, com `evidencia` literal; inspetor marca `lastreada`."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        3
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Corpo da U3: 'montar um anúncio seguindo a estrutura informativa deste episódio para o mesmo produto'. O inspetor também aponta que, sem a U1, quem consulta não sabe qual estrutura testar. 'Anúncio informativo' não consta do vocabulário do curso.",
+      "impacto": "Consultada pelo índice de `subir-campanha-de-teste` ou `roteirizar-anuncio`, sem a U1 ao lado, a unidade manda testar uma estrutura que não descreve; o agente não consegue executar a comparação recomendada.",
+      "mudanca_minima": "Substituir 'a estrutura informativa deste episódio' por descrição inline das três partes: gancho informativo desconectado do produto, ponte para o mecanismo único oculto (o diferencial que o mercado inteiro não está vendendo) e CTA de exclusividade. Incrementar `versao`.",
+      "criterio_de_aceite": "Corpo da U3 não contém referência a episódio, aula ou vídeo e nomeia as três partes da estrutura; lê-se e executa-se sem a U1."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: explicar 'mecanismo único oculto' na primeira ocorrência com a definição da fonte (G08_A01: o que o mercado inteiro não está vendendo) e ancorar 'o anúncio de exemplo' (encapsulado de espirulina que abre com informação e fecha com CTA de exclusividade). Pode ir junto com F2.",
+    "U1 (`nota` ou linha): o professor diz que checou a propriedade do produto e a dose de 200 mg/dia no ChatGPT antes de escrever o gancho (~286s, 'que eu olhei no chat APT'). Menção lateral dentro da leitura da copy; se for para o corpo, `plataformas` precisa incluir `chatgpt`.",
+    "U3: `perecivel: true` sem elemento perecível no corpo (os números de caso estão em `nota`) — pode ser `false`. Tema `teste-de-criativos` × `variacoes-e-criativo-estatico` (teste A/B de criativos): ambos defensáveis.",
+    "U1: a frase final do corpo repete o que já está em `nota`; se F1 for resolvida retirando-a, a nota cobre sozinha.",
+    "U2: tipo `regra` com corpo em forma de defesa do professor ('O professor defende que...'); aceitável, `conceito` também seria defensável."
+  ],
+  "proximo": "Ciclo 1 de 2. Redator aplica F1–F4 nas unidades 1, 2 e 3 (e cria U4 se optar por esse caminho em F3), incrementa `versao` das alteradas e roda base_fcc.py. Inspetor reconfere com fonte só as unidades alteradas: faixa da U1 cobre todo o corpo e a evidência; corpo e nota da U2 contra o trecho claro; passagem de ~252s com trecho literal e timing confirmados; U3 sem referência à aula. Juiz confere a lista F1–F4 e os efeitos das alterações. Ajustes menores podem entrar na mesma correção sem abrir ciclo."
+}

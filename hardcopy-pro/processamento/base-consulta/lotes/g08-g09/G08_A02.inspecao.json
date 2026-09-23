@@ -1,0 +1,70 @@
+{
+  "aula": "G08_A02",
+  "arquivo_sha256": "ae443004303b0898505ce2ad9e05352c628413f4e3db33a7a5ec4cc34b124df2",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "89fb0c72d893624fdecba85588bd74b969e506a50dd984bea104bf169c4e838c",
+    "2": "41eac87ecad30e73b8f4430b099bd372cf086a6a32db232254efe19cba511564",
+    "3": "23edf3dab9402d870d69a438e851dbad8f8eec34d78216d40e2e90fbbd3e4436"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "Não existe anúncio dessa forma aqui Nesse formato Pra jogar pra uma página de vendas Num produto encapsulado Não existe Todos focam no produto",
+      "explicacao": "Os passos 1 (gancho informativo), 2 (ponte para o mecanismo único oculto) e 3 (CTA de exclusividade) do corpo são ditos dentro da faixa declarada (215–244s, por volta de 03:35–04:04). Mas a última frase do corpo ('esse formato... não existe entre os concorrentes... focam só no produto') vem de um trecho da fala em torno de 05:11–05:20 (311–320s), bem depois do fim=244 declarado, com quase 70s de conteúdo intermediário (releitura da copy e comentário 'maravilhoso, lindo esse') entre o fim da faixa e essa frase. Quem tentar verificar essa afirmação ouvindo só 215–244s não vai encontrá-la, o que prejudica a verificação da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "perda não, perda não é perda em momento algum a gente falou de prometer nada pra pessoa",
+      "explicacao": "A frase-fonte que sustenta a ideia de que 'usar uma palavra ligada a resultado não conta como prometer' é 'perda não, perda não é perda', um trecho de transcrição confuso, sem sentido gramatical claro em português. A unidade constrói a partir dele uma justificativa específica e categórica ('porque em nenhum momento o anúncio afirma isso de forma explícita'), com confianca: alta e sem nota alertando a ambiguidade da fonte — quando a regra pede confianca adequada e nota nesse caso. A segunda parte do corpo, sobre o mecanismo único oculto não ser mentira porque o produto realmente tem a propriedade, está bem sustentada por um trecho claro logo depois ('e não é uma mentira até porque o produto tem isso')."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "bota junto do lado dos seus anúncios de jornada do herói e três atos pra ver o estrago que vai dar",
+      "explicacao": "O conteúdo (montar o anúncio informativo e publicar lado a lado com os formatos de jornada do herói e três atos) está bem sustentado pela fala entre 357–406s, e os números de caso (vários alunos, R$50 x R$10) foram corretamente deixados fora do corpo e tratados como exemplo não verificável em nota, sem virar régua. O ponto fraco é que o corpo cita 'a estrutura informativa deste episódio' sem descrevê-la; quem consultar só a unidade 3, sem a unidade 1, não sabe qual estrutura deve testar."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 252,
+      "trecho_fonte": "Esse anúncio aqui é de impulso, normalmente a pessoa já compra sem pensar, é assim que funciona.",
+      "descricao": "Logo após ler o CTA de exclusividade ('único produto do Brasil que contém a espirulina'), o professor encena uma objeção (existem afiliados vendendo o mesmo produto, que a pessoa já pode reconhecer) e responde que a alegação de exclusividade funciona mesmo assim porque esse tipo de anúncio gera compra por impulso, sem a pessoa parar para checar a alegação. Nenhuma unidade preserva essa objeção nem a justificativa do professor.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem seguir a unidade 1 sem essa informação pode achar que a alegação 'único produto do Brasil' precisa ser literalmente exata, ou não vai entender por que o professor considera a técnica válida mesmo havendo outros afiliados vendendo o mesmo produto — perdendo o motivo real (compra por impulso) que ele dá para sustentar o uso da alegação de exclusividade."
+    },
+    {
+      "inicio": 286,
+      "trecho_fonte": "Com apenas 200mg por dia, que eu olhei no chat APT,",
+      "descricao": "O professor menciona duas vezes (no início e perto do fim da leitura da copy) que pesquisou fatos reais do produto — a propriedade desintoxicante da espirulina e a dosagem de 200mg/dia — 'no chat' / 'no chat APT' (ChatGPT), antes de montar o gancho informativo do anúncio de exemplo. Nenhuma unidade registra essa etapa de checagem de fatos.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem quiser aplicar a estrutura da unidade 1 não sabe que o professor recomenda, na prática, checar uma informação real do produto (por exemplo, via ChatGPT) antes de escrever o gancho — que é justamente o que sustenta a afirmação da unidade 2 de que o anúncio 'não mente'."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2 usa o termo 'mecanismo único oculto' como se já estivesse definido, sem explicá-lo dentro do próprio corpo (a definição só aparece na unidade 1); um agente que consultar só a unidade 2 não sabe o que é esse mecanismo.",
+    "Unidade 3 recomenda testar 'a estrutura informativa deste episódio' sem descrever no próprio corpo em que ela consiste, dependendo da unidade 1 para ser entendida isoladamente."
+  ],
+  "material": [],
+  "resumo": "As três unidades de G08_A02 capturam bem o essencial da estrutura de anúncio informativo (gancho, mecanismo único oculto, CTA de exclusividade) e tratam corretamente a alegação de originalidade e os números de caso como opinião/exemplo do professor, não como fato de mercado, evitando corretamente réguas indevidas. A unidade 1 tem um problema de faixa-errada: a frase final do corpo, sobre a inexistência do formato entre concorrentes, vem de um trecho da fala (~05:11–05:20) bem fora do inicio–fim declarado (215–244s). A unidade 2 apoia uma explicação causal específica num trecho de transcrição ambíguo ('perda não, perda não é perda') sem nota nem confianca reduzida, e as unidades 2 e 3 dependem de termos/estruturas só definidos na unidade 1. Faltam ainda duas passagens da fala: a justificativa de que a alegação de exclusividade do CTA funciona por se tratar de anúncio de impulso, mesmo havendo afiliados vendendo o mesmo produto, e a menção de que o professor pesquisou fatos reais do produto no ChatGPT antes de escrever o gancho."
+}

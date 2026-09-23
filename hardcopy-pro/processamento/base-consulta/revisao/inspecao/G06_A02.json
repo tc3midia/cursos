@@ -1,0 +1,88 @@
+{
+  "aula": "G06_A02",
+  "arquivo_sha256": "40774f6700e395872fad3b37471c372467953ad1699336afde202843475d7a1b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 6]; as demais mantêm a evidência da inspeção integral do arquivo 78d1b495309d, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    6
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "a1804a0aafc73f948716f10761c6f3059d01d0f695b004a0ce55bdac42d662df",
+    "2": "40d9632180860b471aa075f101157a6e81f0846ef6ea88dab0841645f9791634",
+    "3": "5572daa67633655d1a466a8a640c59dadca2b77b7acebb554c570cee9e39fbc3",
+    "4": "409136316d7ae5ca831209f38119410caa7bd169921afe7d228dc9f7f8b421f3",
+    "5": "0246daba83f8382b12fdda78a12a2639722e80ad8a592fe8866c0461656833f0",
+    "6": "fdf63565b8266737524fadbd453fe60595ddc22bbfedfe80758d6d8524887eb7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O melhor padrão que você pode fazer é criar, modelar aquilo que você tem em sua mente, em sua criatividade.",
+      "explicacao": "O conteúdo está na faixa 48–167 (0:48 a 2:47). Os pontos conferidos batem com a fonte: contra motion, scripts e templates; quem vende página pronta abriu a filiação e ficou 2, 3 anos rodando; o mercado e a mente das pessoas mudaram; quem compra só troca palavras; o professor mostra para o aluno criar o próprio. A preferência aparece como posição do professor, com 'Argumento:' e 'O professor diz', e não como lei. Ficaram de fora a promessa de faturar 'centenas de milhares' ou 'milhões' e o VSL de exemplo. Nenhum dos dois muda o uso da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E oferecer ele de uma forma inconsciente",
+      "explicacao": "F2 resolvida. O passo 3 (oferta inconsciente) está em 00:03:46.480–00:03:49.100 (226–229 s) e cabe na faixa 175–230. O passo 1 está em 176–191 s, a ressalva da girafa em 197–203 s e o passo 2 em 208–226 s. A evidência (\"Todo anúncio meu, o início, eu chamo a atenção com uma história diferente do que vamos vender, certo?\", 176–181 s) também está dentro da faixa. O corpo não mudou e continua fiel à fala. A imperativa \"nunca comece vendendo...\" vem de \"Eu nunca começo vendendo o meu produto\" e \"Eu nunca falo que eu sou um copywriter\", e o campo `condicoes` já marca que é o padrão pessoal do professor. Nenhum problema novo. A sobreposição com a unidade 3 (a partir de 210 s) não é defeito."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Todo mundo aplicou, tentou, saturou o MacDent",
+      "explicacao": "A definição de subtexto e o treinamento prometido estão na faixa 210–383 e batem com a fonte. Há dois pontos de redação. (1) 'quem estuda os mesmos autores acaba saturando o mesmo método': a fonte diz 'saturou o MacDent', palavra degradada (provavelmente 'mercado'). A unidade resolveu o termo sem registrar a incerteza na nota e com confianca alta. (2) 'e não só os americanos de copy' sugere que o professor também estuda os americanos. Na fonte ele diz que seus estudos são embasados em roteiristas e resumos de filme, e critica quem estuda os americanos. Nenhum dos dois muda a definição de subtexto, então é ajuste menor. A nota já registra corretamente PSL como grafia de VSL."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "De atenção e de dopamina rápida",
+      "explicacao": "Faixa 383–423 correta. A fonte apresenta a arma de Chekhov como 'aliado muito forte de atenção e de dopamina rápida' do subtexto, com o exemplo da câmera que fixa numa roupa que depois se mostra necessária, e diz que 'nada aparece por acaso'. A nota e a confianca media descrevem bem o limite: o professor não aplica ao anúncio."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "aí na sua versão você explica",
+      "explicacao": "Faixa 423–498 correta. A regra 'nunca mostre que 2 mais 2 é 4, mostre só o 2 mais 2', a dúvida no anúncio, o clique em 'saiba mais' e a perda de alcance por responder demais estão na fonte. A unidade escreve 'a explicação vem na versão de destino', mas a fonte diz apenas 'na sua versão você explica'. 'Versão de destino' é leitura do extrator, plausível e sem efeito relevante no uso. A atribuição à Pixar está em `condicoes`, que não é campo de atribuição (ver `contrato`)."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, na próxima aula a gente já vai com um exemplo claro",
+      "explicacao": "F1 resolvida. A faixa passou a 499–511 s. O adiamento está em 00:08:19.320–00:08:28.820 (499–509 s): \"Então, na próxima aula a gente já vai com um exemplo claro\" e, mais adiante, \"A copy para o emagrecimento\". A evidência é literal e cai dentro da faixa, e todo o corpo se localiza nela. A frase sobre a quarta temporada e os vários nichos saiu do corpo, e a `nota` não a cita mais. A faixa fica abaixo do fim da transcrição (583 s). `perecivel: true` e `curso-e-recursos` seguem coerentes com a regra do script. Nenhum problema novo. \"A aula não traz o exemplo prático\" é constatação sobre a própria aula, compatível com o adiamento que o professor faz."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto: a frase 'o fecho da transcrição traz apenas resíduo sem conteúdo' menciona o resíduo de silêncio (\"Legenda Adriana Zanotto\", \"E aí\"). O FORMATO manda não mencionar resíduo no contexto. Correção objetiva: retirar a frase. Erro mecânico ou menor, sem efeito na fidelidade.",
+    "Unidade 5: `condicoes` traz \"O professor atribui a frase a alguém que trabalhava na Pixar\". Isso é atribuição, não condição de uso, e não aparece no corpo. Se a atribuição importa, deve ir para o corpo; caso contrário `condicoes` fica null. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Conferência focal das unidades 2 e 6. As duas falhas (F1 e F2) foram resolvidas pelo critério de aceite. Na unidade 2, o passo 3 agora está dentro da faixa 175–230, com o corpo intacto. Na unidade 6, a faixa 499–511 contém o adiamento do exemplo de emagrecimento e a evidência literal, e o trecho da quarta temporada saiu do corpo e da nota. Nenhuma das duas unidades ganhou problema novo. Não há omissão decorrente das falhas: a menção à quarta temporada é estrutura do curso e já consta no contexto."
+}

@@ -1,0 +1,174 @@
+{
+  "aula": "G12_A06",
+  "arquivo_sha256": "18bd154aa072c935645c9b5a1016906802e09a6fef4fe5f8abebe7ac6ec23e14",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "96418f0d147732c1c1a93850ea7755858c93a81c55d12c1326bf4925549cf0ab",
+    "2": "1b764332ef82e1179bd4767536c0400a2b016969ac26671722d94cd19852e953",
+    "3": "2d66647868da9ac0f6766f187e3d6e1c11c986deb377e1975be0561a20b7f3b8",
+    "4": "da0ee512fe837e5091284707d6f8ccee0f654d69cf00bb4c6aca7172d8eae45f",
+    "5": "dcfb5dca302e0c65aa0e2ab3ce500d02cf5bf38c8b0b97bb5e5d9ef4c17ef817",
+    "6": "44f89cc9948400e4117f8588e2a24aba14ffddac6e148d738a479e62f0bf3b70",
+    "7": "10973511c3d55d9c110a2cc72aea436d93072a1150d2176345ad95a7db3711d3",
+    "8": "73609979ded5bc8695dfcf205da8266d2f729aebe37377b6478ed07cd54510a8",
+    "9": "f00f7fe0fafd93cdf3748ec92362336596c6899a017f9dfe6c5dea3c16bcced6",
+    "10": "4e3745a4ce1812599e68ef875275f764d2b3ace6a76357ba0c5a17c8c17a3e2c",
+    "11": "ee597ccc28a238ce21a314d17b625504c6da9fe86cc0e0188d382cb26bc7c4bf",
+    "12": "5141a8d1f0777b61e22e7144b497d66ee15c615d8ddb8bfd1d8a28209c520e77",
+    "13": "cc60919c2ed8643ed8058168e3c8bb893568e7ac82df23c26c84c1aa6c59143f",
+    "14": "d67bdbf965b623bef5352942ce78fdcc310a3bd03631cfab51d1067c4f34a1ff"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "como sempre, extrai o áudio de tudo e bota em um lugar padrão",
+      "explicacao": "O corpo (extrair áudio de cada clipe, colocar em faixa padrão, ajustar encaixe) corresponde ao que a fala descreve na faixa citada; nenhuma condição relevante foi alterada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "gente vai deixar ele bem escuro, ó pretos, maravilha",
+      "explicacao": "A busca por clipe pela palavra do problema e o escurecimento estão na fala. A frase do corpo 'para criar um clima negativo antes de qualquer menção ao produto' é uma inferência da unidade: a fala imediatamente anterior a esse trecho ('Porque a ideia é no início inicialmente...') está cortada/incompleta, então essa justificativa não está explicitamente dita, só é plausível pelo contexto visual (fundo preto, letra de terror). Não muda a ação recomendada, só acrescenta uma razão que a fonte não confirma com clareza."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Não, aqui já é um homem, aqui já não pode.",
+      "explicacao": "A fala documenta uma decisão pontual de continuidade visual dentro deste anúncio específico: como a pessoa já escolhida antes era uma mulher ('uma mulherzinha aqui'), um clipe com homem é descartado nesse momento. A fala não enuncia nenhuma regra geral nem explica o motivo (não diz 'porque tem que bater com o gênero da narração/avatar'). A unidade transforma esse caso pontual em regra categórica ('use... o mesmo gênero da voz que narra... um clipe com um homem não serve e deve ser descartado'), apresentando um caso narrado como parâmetro geral de edição — exatamente o padrão de falha material descrito na rubrica."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aqui a gente coloca uma letra de terror, com um fundo bem preto, tá bom?",
+      "explicacao": "Fonte de terror sobre fundo preto e busca por clipes com palavras temáticas ('almas', 'fantasmas') batem com a fala dentro da faixa citada."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Essa letra eu quero que ela venha aparecendo devagarzinho, então desembaçar",
+      "explicacao": "Texto sincronizado, camada escura/avermelhada e efeito de desembaçar com aumento de velocidade estão na fala. A frase final do corpo, 'até o resultado parecer natural', não é dita; a fala só reage com 'Tá vendo que sensação gostosa'. É uma pequena adição de critério de parada que a fonte não fornece, sem mudar a técnica em si."
+    },
+    {
+      "numero": 6,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "O que a gente faz? Proporção, 9 por 16, tá?",
+      "explicacao": "Os passos 1 e 2 (deletar sobra, mover para faixa principal) são descritos como hábito repetido ('sempre jogando para a faixa principal quando finalizar'). Já o ajuste de proporção 9:16 aparece uma única vez na fala, como configuração do projeto, não como algo dito para repetir a cada clipe. Ao incluir esse ajuste como passo 3 de um procedimento com pré-condição 'um clipe já cortado e ajustado', a unidade sugere que a proporção deve ser reconfigurada a cada clipe finalizado, o que a fonte não afirma."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "uma ilustração daquilo que o médico tá falando, simplesmente isso",
+      "explicacao": "A instrução de sobrepor clipes curtos (cérebro, sistema nervoso) ilustrando literalmente a fala do médico está na fonte, dentro da faixa citada."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vai ter que pegar duplicar tudo criar um clipe com o rosto aqui",
+      "explicacao": "A unidade, corretamente classificada como 'limite', reflete a confusão real do trecho ('não entendi', 'vamos dar o nosso melhor aqui'), consistente com a regra de aula de tela para conteúdo que não se reconstrói sem a imagem."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e o médico vai chegar como se ele fosse a solução desse problema então todo barulho vai acabar",
+      "explicacao": "Corte do barulho de fundo na chegada da figura de solução corresponde exatamente ao que a fala diz."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "embaixo pegar o efeito que eu gosto que é este daqui ó eu compro B",
+      "explicacao": "O termo 'eu compro B' não corresponde a nada reconhecível na tabela de grafias nem no vocabulário do curso; tratar como trecho não identificável, com confiança baixa e nota, segue exatamente a regra do FORMATO para esses casos."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Agora vem uma música mais comercial, uma música de anúncio, tá bom?",
+      "explicacao": "A troca por música mais comercial/'Epic Motivação, Solução de Problemas' na transição e o aumento do volume das vozes estão na fala. O corpo chama o que existia antes de 'trilha de tensão', mas a fonte, neste ponto, só fala em 'barulhos'/efeitos sonoros, não em uma trilha musical de tensão; é uma nomeação um pouco mais forte do que o que a fala confirma, sem mudar a orientação prática."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "legendas automáticas, excluir legendas atuais e gerar, geramos a",
+      "explicacao": "Excluir legendas atuais, gerar novamente e usar exibição palavra por palavra estão na fala dentro da faixa citada."
+    },
+    {
+      "numero": 13,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "ficou ótimo, um amarelinho assim, um negrito, e aqui a gente vem colocar um teclado",
+      "explicacao": "Formatação do CTA (centralizado, maiúsculo, amarelo, negrito, loop) e o ícone de teclado estão na fala. A frase entre parênteses do corpo, 'já que o convite era para tocar em um botão', é uma justificativa inventada pela unidade para o ícone escolhido; a fala não relaciona o teclado a 'tocar em botão' nem dá nenhum motivo para a escolha desse ícone."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente fez um início totalmente diferente tá mostrando mesmo que que é insônia e no final a gente",
+      "explicacao": "A descrição do anúncio como abertura desconectada do produto, com revelação/venda só no final, corresponde ao que o professor diz ao revisar o resultado."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 558.96,
+      "trecho_fonte": "Mascara, adiciona máscara, película",
+      "descricao": "Entre aproximadamente 09:19 e 09:32 (e repetido depois, por volta de 12:05-12:10 e 14:10-14:30), a fala nomeia com clareza uma técnica recorrente para desfocar/mascarar uma região do vídeo: recortar a área (ex.: rosto), adicionar máscara, aplicar 'película' e suavizar/desfocar ('Mascara, adiciona máscara, película', 'E suaviza', 'Suavizou', '...desfocar'; depois 'Mascara novamente, película aumenta', 'básico, tela, desfocar'). Nenhuma unidade preserva esses passos nomeados; a única unidade que toca nesse trecho de tempo (U8) é do tipo 'limite' e cobre só a parte posterior e mais confusa, sobre duplicar clipes para lidar com vários vídeos.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta a base buscando como desfocar/mascarar um elemento (ex.: rosto) em um clipe no Canva não encontra o passo a passo, porque a única unidade próxima a esse trecho descarta o conteúdo como confuso demais para extrair, quando a fonte nomeia a técnica de forma clara e a repete várias vezes ao longo da aula."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U10 é classificada como tipo 'limite', mas a fala descreve uma ação real e executável (escolher, entre os efeitos sonoros favoritos salvos no Canva, um som para o momento em que a solução chega); só o nome do efeito específico ('eu compro B') é ilegível. Enquadrar a unidade inteira como 'limite' pode sugerir ao agente que não há nada de acionável nesse trecho, quando a orientação de buscar nos efeitos favoritos existe e poderia constar como 'regra' ou 'ferramenta', com o nome do efeito entre aspas e nota/confiança baixa só para essa parte não identificável."
+  ],
+  "material": [
+    "Esta aula não tem material de apoio (material_ausente); todas as 14 unidades usam fonte 'fala', o que é coerente com essa ausência, então não há divergência entre fala e material a registrar nesta aula."
+  ],
+  "resumo": "A extração desta aula de tela (edição no Canva de um anúncio fictício de insônia) está majoritariamente bem lastreada, com uso correto do tipo 'limite' para os trechos mais confusos da edição e tratamento adequado de um termo não identificável (U10). Foram encontrados um desvio material (U3, que transforma uma decisão pontual de continuidade visual num único anúncio em regra geral de casting) e alguns desvios/ajustes menores (U6, U11, U13 e leves inferências em U2/U5). Há uma omissão material: a técnica de mascarar/desfocar uma região do vídeo (recortar, máscara, película, suavizar/desfocar), nomeada com clareza e repetida três vezes na aula, não está preservada em nenhuma unidade. Não há problemas de perecibilidade, de faixa (`faixa-errada`), de grafia deformada ou de material de apoio, já que a aula não possui material."
+}

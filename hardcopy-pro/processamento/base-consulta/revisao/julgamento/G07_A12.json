@@ -1,0 +1,28 @@
+{
+  "aula": "G07_A12",
+  "arquivo_sha256": "9cff559ca036fff684dc0fa7b9514277f2acfe3049c7b0865d481feaac8b4410",
+  "inspecao_sha256": "350c2f46debf2a95fae92796df3613d2ab27d68ed80aded2ba892adf0b501b8a",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "base_fcc.py: 0 erros, 0 avisos. Inspetor sem apontamento de contrato. Confiança baixa em U11 vem com nota; todas as unidades presas a CapCut/Canva estão perecivel: true.",
+  "fidelidade": "Inspeção integral (11/11), citacoes_nao_literais vazio. Nenhum sem-lastro; nenhum desvio material. U2 (desvio, menor): o limite afirma que a transcrição não registra 'ferramenta, menu ou valores', mas a fala nomeia o menu Transformar ('a gente vai vir aqui ó transformar... criar aqui um pininho'); só o controle e os valores ficaram na tela. Não muda decisão nem permite executar o zoom de qualquer forma, logo ajuste menor. U7 (desvio, menor): a glosa 'já convenceu e o argumento avança' estica a expressão coloquial 'o pau já tá entrando... o bicho tá pegando', que a própria unidade preserva entre aspas; a orientação prática (trilha épico-motivacional no ponto de virada) permanece. U1 e U6 (lastreadas, menor) transformam ação pontual da demonstração em regra de fluxo sem inverter o sentido. Sem copy tratada como fato, sem resíduo de silêncio, sem termo deformado, sem ressalva suprimida (U7 mantém 'não gostei desse épico não'). Passos de U3, U5, U10 e U11 têm menu ou atalho nomeado na fala segundo o inspetor; U11 mantém o nome ininteligível fora do corpo com nota e confiança baixa, como a rubrica pede.",
+  "cobertura": "Três omissões localizadas com trecho literal (efeito de vento com ajuste de velocidade e volume ~362s; escolha de 'uma parte boa' da faixa antes do corte ~500s; sincronizar entrada de elemento com a palavra 'a forma' ~626s). Nenhuma é régua, condição, alerta ou parte essencial cuja falta impeça executar o que as unidades ensinam; são variações do trabalho de sonorização e timing. O inspetor as classifica como menores e concordo. Aula de tela com limite (U2) e contexto que declara o que ficou só na imagem.",
+  "perecibilidade": "Sem falha. As sinalizações em U7 e U9 apontam 'possível dependência' do mecanismo de busca por categoria na biblioteca do editor, mas o corpo dessas unidades registra o princípio (estilo de trilha no ponto de virada; som distorcido como ênfase), não a busca; pela taxonomia, o local onde o exemplo rodou não retira `geral`. Tudo que é tela (U2, U3, U4, U5, U10, U11) está marcado capcut/canva e perecivel: true; U5 e U3 seguem o padrão correto.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: jargão explicado na unidade (calar a boca em U8), procedimentos com pré-condição e passos que a fala nomeia, condições preenchidas onde o corpo descreve a demonstração (U4, U7, U9). Sem referência a 'esse vídeo' ou 'como mostrei'. Classificações discutíveis entre valores defensáveis: U3 (direcao-de-arte × edicao-de-video; montar-criativo-visual × editar-video), U6 e U7 (`regra` × `decisao`/`exemplo`). U5 não define o que é o 'separador' (clipe? efeito sobre a transição?), limitação da fala que a unidade não pode suprir.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U1: reescrever o imperativo 'remova primeiro... antes de seguir para os demais ajustes' como ordem observada na demonstração; a fala mostra um corte pontual ('essa parte aqui que ficou muito longa'), não uma regra de sequência.",
+    "U2: trocar 'não registra qual ferramenta, menu ou valores' por 'a fala nomeia o menu Transformar; o controle (\"pino\") e os valores ficaram na tela'.",
+    "U6: alinhar a ordem com a fala (o professor reduz a voz, insere o clique e então percebe que ficou baixo); o corpo hoje inverte a relação.",
+    "U7: substituir a glosa 'já convenceu e o argumento avança' por leitura mais próxima da expressão ('o argumento bate forte e a tensão sobe'), mantendo a citação literal; ou baixar confiança para media. Tipo `decisao` seria defensável.",
+    "U7 e U9: opcional, nota registrando que trilha e efeito foram escolhidos por categoria/palavra-chave na biblioteca do CapCut ('épico, motivacional', 'distorção').",
+    "U10: confirmar se o objeto cortado com Ctrl B é efeito sonoro ou trecho de música (a omissão ~500s fala em 'uma parte boa dela' da faixa); se for música, ajustar título, pré-condição e última linha, e opcionalmente acrescentar 'escolher a parte boa da faixa' como pré-condição.",
+    "Omissões menores opcionais: efeito sonoro temático (vento) com ajuste de velocidade e volume (~362s) e sincronizar a entrada de elemento gráfico com uma palavra exata da narração (~626s) cabem como `regra` curta em som-e-sentimentalismo e edicao-de-video.",
+    "U3: tema e tarefa discutíveis entre direcao-de-arte-e-texto-na-tela/montar-criativo-visual e edicao-de-video/editar-video; qualquer dos dois é defensável."
+  ],
+  "proximo": "Publicar a aula como `revisado`. Os ajustes menores podem ser aplicados em passagem editorial sem abrir ciclo, incrementando `versao` nas unidades tocadas (U1, U2, U6, U7, U10) e revalidando por script. Nenhum pedido de prova pendente; a única verificação sugerida (objeto de U10: efeito ou música) não é material."
+}

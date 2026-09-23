@@ -1,0 +1,48 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T14:38:31+00:00",
+  "fim": "2026-09-20T14:39:54+00:00",
+  "duracao_ms": 82447,
+  "duracao_api_ms": 80553,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 8143,
+    "cache_creation_input_tokens": 35144,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 4177,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.555025,
+  "esperas_por_limite": [],
+  "sistema_sha256": "e485ac51a2f2f778d584ab091800feed1146f7b5edd5fdfa9f59048b48291795",
+  "pacote_sha256": "87326bb56bc0b04b2a26c8b2348c5ffb251b7566724c9b0962916ac97bf98253",
+  "aula": "G08_A05",
+  "rotulo": "piloto-hc-ciclo1",
+  "ciclo": 1,
+  "arquivo_anterior_sha256": "ab5ba2c1fd0ce1ce2b529338f9bf591a0aa0b65364b31cc36737e4ac4d59dec8",
+  "destino": "hardcopy-pro/processamento/base-consulta/piloto/s5-high/ciclo1/G08_A05.json",
+  "resultado_sha256": "959543ca76a6c13f7186f30b5ec998668321a50b5d58026181ad34ed422f3862",
+  "unidades_alteradas": [
+    1,
+    2,
+    6,
+    7
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

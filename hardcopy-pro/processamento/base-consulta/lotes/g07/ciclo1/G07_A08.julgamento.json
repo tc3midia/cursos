@@ -1,0 +1,25 @@
+{
+  "aula": "G07_A08",
+  "arquivo_sha256": "b9a01236ede497f9ac0034018396ec60aa564fde744b000a2e8647505c65c3e9",
+  "inspecao_sha256": "456ec37039926acb1592c3f52f672644aef34b9ed6bdf0b3943c17d52435242f",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. A observação do inspetor sobre numeração não cronológica (U5 em 167s e U7 em 23s com números maiores que U3/U4/U6) não é acionável: o contrato é medido pelo script, que passou, e o FORMATO §4 proíbe renumerar; a identidade do `numero` é fixa desde a primeira extração.",
+  "fidelidade": "F1 resolvida. Inspetor reconferiu a U5 do zero com timestamp por parte e trecho literal: 8 partes na ordem da fonte (abertura ~167s → concorrência ~278s → confiança ~386s → custos ocultos ~513s → paz ~589s → orgulho ~690s → decepção com imagem única sem texto ~755–931s → CTA ~937–972s); a cena de medo aparece uma única vez, no passo 7, e nenhum evento é descrito duas vezes. Acréscimos da correção (verde = cor da própria empresa em ~484–503s; laudo, IPVA do ano seguinte, taxas, 3x e gasolina; \"mostrar para quem se ama\") estão dentro da faixa 167–972 e lastreados. Evidência de U5 (\"todas as lojas da cidade focam no preço\", ~278s) continua dentro da faixa. Unidades 1–4, 6 e 7 intactas por hash, evidência preservada; o apontamento menor em U4 (controles de cor apoiados em trecho degradado) permanece ajuste menor, não muda a regra central.",
+  "cobertura": "As partes essenciais da estrutura do anúncio estão preservadas na U5 com função por parte. Omissão 1 do inspetor (logo/foto da empresa no fundo e cor da marca como destaque) ficou parcialmente coberta pela correção (passo 3 de U5: marca, fachada e verde como cor da própria empresa); o que resta é menor. Omissão 2 (tarja preta sobre foto de estoque em ~474s): o inspetor grava como material, mas julgo menor — é cuidado do professor com foto de estoque de loja real dentro do exemplo didático; para o anúncio real a base já orienta usar foto, fachada e marca do próprio negócio (U2, U5 passo 3), então o efeito prático descrito pressupõe conduta que as unidades já desaconselham. Não muda a decisão de quem consulta.",
+  "perecibilidade": "Todas as sete unidades com `perecivel: true` (plataformas canva/capcut/tiktok/outra). U3 traz a nota exigida começando por \"Contorna política de plataforma ou direito de terceiros:\". Inspetor sem apontamento de perecível escondido.",
+  "aplicabilidade": "U5 se sustenta sozinha: 8 partes nomeadas com função, `condicoes` deixa claro que é copy de exemplo com textos, cores e valores ilustrativos, e o passo 3 evita promover a cor do exemplo a regra ao dizer que o verde é a cor da própria empresa no exemplo. Tema `anuncio-negocio-local`, tarefas `roteirizar-anuncio`/`montar-criativo-visual` e plataforma `canva` levam o agente ao lugar certo. A menção a \"referência visual de loja usada na tela\" em `condicoes` descreve a natureza do exemplo, não cria dependência da imagem. U7 (`limite`) registra corretamente o que ficou só na tela. Nenhuma unidade alterada depende de referência que ficou na aula.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U4: `confianca: alta` é otimista para o detalhe 'contraste, sombras e saturação', apoiado em trecho degradado da transcrição (inspetor, trecho literal). Opção futura: baixar para `media` com `nota` sobre a degradação, ou reduzir o corpo à regra central (cena mais escura = mais tristeza). Não muda a decisão; hash intacto, não reabrir agora.",
+    "Omissão 1 do inspetor (~484s): orientação de pôr a foto/logo da própria empresa no fundo e usar a cor da marca como destaque. Já parcialmente coberta pela U5 passo 3 após a correção; se um passe editorial quiser, pode virar uma `regra` curta em `direcao-de-arte-e-texto-na-tela`. Menor.",
+    "Omissão 2 do inspetor (~474s, tarja preta sobre foto de estoque 'pra gente não ter problema'): registrar, se desejado, uma frase em U7 (limite) ou em U2 dizendo que no exemplo o professor cobriu parte de uma foto de estoque de loja real por cuidado com terceiros; a orientação para o anúncio real continua sendo usar material da própria empresa. Divirjo da gravidade 'material' do inspetor pelo motivo dado em cobertura. Não abre ciclo.",
+    "Nota de contrato sobre numeração não cronológica: sem ação — validador zero erros e renumeração é proibida pelo FORMATO §4.",
+    "Aplicar qualquer ajuste acima muda o hash de U2/U4/U7 e exigirá reinspeção focal dessas unidades; preferível acumular para um passe editorial consolidado em vez de tocar agora."
+  ],
+  "proximo": "Aprovada no ciclo 1 sem falha residual. Promover o status da aula para `revisado` e gravar o julgamento com `arquivo_sha256` e `inspecao_sha256` atuais. Nenhuma nova chamada de correção. Os ajustes menores ficam registrados para um passe editorial posterior, fora do teto de ciclos; se forem aplicados, reinspecionar só as unidades cujo hash mudar. Nenhuma prova adicional pendente."
+}

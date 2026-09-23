@@ -1,0 +1,89 @@
+{
+  "aula": "G03_A04",
+  "arquivo_sha256": "ee8226a12e424671df8c5a24cd69b8e9a23bcf6781340bd6e743428357fceaba",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3]; as demais mantêm a evidência da inspeção integral do arquivo 2491d67fbcba, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "cad6f71f81010b3e1406e5c1a183b3186e104c5b0f7bc7388e35ebaef1557e41",
+    "2": "1e6ae4d967c72e4d71973d95975a5c760250d78f0fe684300deb53f4a7be1a58",
+    "3": "e4dbadb69dbebe9ff4cb6509d5f47e01cd3d0f515b379cdcd2dc907af105235e",
+    "4": "a5080511e5b954798d8242cb944a6c83e1356d6319101684b7ba4d0daad6f75c",
+    "5": "41fecb9904f226c18706cb62ec656841b52b94a473cffc17716ea58a5d5d724e",
+    "6": "b0f862d06f57d1341662cda70112a920a661824be12ae1d94adbbf2e5d8e23b7"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "e tempo é experiência",
+      "explicacao": "A definição (fracasso + tempo = experiência) e a promessa de que, com tempo grande, vêm o sucesso e a capacidade estão na fonte, atribuídas ao professor e com o 'normalmente' preservado como 'costumam'. A última frase do corpo (\"É a base da ideia de que o aluno precisa viver as coisas para enxergar o que os outros não veem\") é ligação da unidade, não fala do trecho 0–41 s. A fonte diz \"você pode começar a olhar as coisas de uma forma totalmente diferente\", e a expressão \"o que os outros não veem\" não aparece em lugar nenhum. Sem consequência prática relevante."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você não sente na pele aquilo que o seu lead está sentindo",
+      "explicacao": "O ônibus mesmo tendo carro, a ressalva de que a lembrança não devolve a sensação original e a consequência para quem é magro e vende emagrecimento estão todos entre 41 e 106 s. Só ficaram de fora 'pastelaria' e 'psicólogo', que são exemplos laterais. \"Não acha ângulo\" resume a fala \"eu não consigo encontrar nada aqui\", sem mudar o sentido."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e é o melhor método, beleza, pode ir, pode ir, aí daqui a dois meses você volta nesse treinamento",
+      "explicacao": "F1 resolvida. O `condicoes` atual (\"A quem insistir, ele diz que pode ir e que volte dali a dois meses para rever o treinamento\") segue a ordem da fonte: liberar a tentativa (\"pode ir, pode ir\"), depois \"daqui a dois meses você volta nesse treinamento\" e revê as aulas. Não há mais pré-requisito invertido, e `condicoes` e `corpo` dizem a mesma coisa. O `corpo` está igual ao anterior. Ele mantém a ressalva \"eu não indico\", atribui ao professor a fala dos grandes players e diz que é preferência dele. `versao` = 2. A evidência (\"E você quer vender um produto de emagrecer / Eu não indico\", 00:02:14.600–00:02:15.440) está na fonte e dentro da faixa 106–166. Não achei problema novo. Ponto sem efeito no uso: o corpo diz \"em cerca de dois meses\" e a fonte diz \"daqui a dois meses\". O \"porque vai queimar dinheiro\" fica entre os itens da lista de aulas a rever e o `nota` já assume a leitura como interpretação. O fato de o campo `versao` estar em 2 não prova o registro em `correcoes`, e eu não conferi hash nem script. O histórico de correções traz esse registro."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O cara que já está há 6, 7 anos",
+      "explicacao": "Os dois perfis (o iniciante que acha que sabe tudo depois de uma semana e o veterano de 6 ou 7 anos que não é fisgado por qualquer promessa) estão na fonte, com a atribuição ao público que o professor vende. Duas ressalvas: o título fala em \"o erro de cada\", mas a fonte trata o veterano como um público difícil de fisgar, e não como quem erra; o `tema` `publico-e-segmentacao` foge da definição da taxonomia (funil, público por classe, quem decide a compra). Nenhuma das duas altera o conteúdo do corpo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu tenho certeza que existe algo que você pode vender",
+      "explicacao": "Estão na fonte: a crítica a \"olhar o mundo fingindo\", a exigência de passar por experiências, o produto do professor atribuído às experiências dele, academia, computador e jogos, e o conselho de pegar algo de que se gosta em vez de forçar a criatividade. O professor afirma com certeza (\"eu tenho certeza que existe algo\") que há algo a vender ligado ao que o aluno ama. O corpo diz \"provavelmente há algo\", e o \"provavelmente\" da fonte se refere a marcas que surgiram e a algo de que um game precisa. A afirmação também não fica atribuída ao professor. É uma suavização inofensiva. \"Ou faz\" em \"gosta ou faz\" é acréscimo leve. A fonte não menciona `definir-mecanismo-unico` (ver contrato)."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "mas tem uma série na Netflix do Spotify, onde mostra o criador do Spotify criando a Spotify",
+      "explicacao": "O caso (site gratuito e bagunçado, oportunidade de transformar as músicas em uma boa experiência, \"não precisou pensar muito\", \"só experienciou algo que ele utilizava\") e a volta ao exemplo do peso na academia estão na fonte, com a `nota` e a `condicao` corretas para o caso narrado. A faixa está torta nas bordas. A apresentação da série e do \"Pilot Bay\" fica em 305–321 s, antes do `inicio` 320, e o \"Pilot Bay\" é o que a `nota` cita. O fim em 383 corta \"Que na próxima aula a gente vai conversar sobre ela\" (383,6–386,7 s), que sustenta a última frase do corpo. O conteúdo central está dentro da faixa e a evidência também. Sugestão: `inicio` ≈ 305 e `fim` ≈ 387."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U3: `condicoes` (\"deve antes rever o treinamento\") contradiz o `corpo` e a fonte quanto à ordem. Mudança mínima: \"quem insistir em ir mesmo assim deve voltar depois de cerca de dois meses e rever o treinamento\".",
+    "U5 e U6: a tarefa `definir-mecanismo-unico` é discutível. A aula não diz \"mecanismo único\" em nenhum ponto e trata de achar ideia de produto a partir da experiência vivida. Um agente que consulte essa tarefa vai chegar a unidades que não falam do conceito. Ajuste menor: classificação entre valores defensáveis.",
+    "U4: `tema` `publico-e-segmentacao` foge da definição da taxonomia. A unidade descreve dois perfis do público do professor, e não segmentação de funil. Ajuste menor: classificação discutível.",
+    "U6 e contexto: \"tema da aula seguinte\" e \"Deixa para a aula seguinte...\" dependem da ordem do curso, e o agente que consulta sem a aula não sabe qual é a seguinte. A `capacidade` também fica sem explicação, mas a fonte não a define e o FORMATO proíbe inventar definição. Ajuste menor: trocar por \"tema que o professor deixa para a próxima aula, sem defini-lo aqui\"."
+  ],
+  "material": [],
+  "resumo": "Só a U3 foi reaberta. A falha F1 está resolvida: `condicoes` agora segue a ordem da fonte (ir → dois meses → voltar e rever) e concorda com o corpo, que ficou inalterado. Não há problema novo em U3 nem omissão decorrente da lista. Não conferi validador nem hashes das demais unidades, que o pacote não traz."
+}

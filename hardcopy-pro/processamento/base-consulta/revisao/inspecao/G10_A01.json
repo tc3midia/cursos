@@ -1,0 +1,95 @@
+{
+  "aula": "G10_A01",
+  "arquivo_sha256": "f51ac45df80c20fb4869a1fc27af6e1c0943b8dd50609db257f4ef17ee76dfe2",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "e9b4cee40f6ca592349c15d5b1ead26f311a53e1ac3d1db12f329beb6f3d246e",
+    "2": "0b0c8373c2a5a80211376d1a2c11cb0694102d206458463ae6a49b4972d28163",
+    "3": "7c8cfb0858198c9cf6848715396383111f594119a13fedfee3873330046ec09b",
+    "4": "3928b08262529bb180a60c554893a7e34006e87e13f688d102ea9a14aab373b7",
+    "5": "61290ce5df17a7a4eeffd3570641f5b55aca742ca0bc1aae25ae32c6af25c604",
+    "6": "510bb7cac3741a1df586c43f66a12bcaacb8f3f94cd3a740a6067c4f3199c9e4"
+  },
+  "citacoes_nao_literais": [
+    "E o que eu te prometi na minha VSL? Que não iria ter o senhorzinho cap cut e nenhum tipo de editor nesse tipo de som. [...] Eu vou esquecer um pouco o que eu prometi na VSL e eu vou fazer exatamente do mesmo jeito que eu faço para criar minhas VSLs e para colocar som nos meus anúncios, tá bom?"
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Primeiro eu queria te agradecer por você ter adquirido o Copsonde.",
+      "explicacao": "O corpo resume corretamente o conteúdo comercial da aula (agradecimento, mudança de upsell para produto de front mais caro, atualização semanal, Order Bump pago), todos presentes na fala. A grafia 'Copsonde' e o tratamento como termo não identificado (confianca baixa + nota) seguem exatamente a lista de termos não identificados da taxonomia para esta aula (G10_A01). Ressalva: a faixa declarada (30–360) cobre quase toda a aula e se sobrepõe às faixas mais específicas das unidades 2–6, o que não é erro, mas torna a faixa pouco precisa para localizar só o trecho comercial."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas o produto de front ele consiste basicamente em você pegar um grupo de pessoas Jogar ele para um determinado local e vender mais produtos para esse tipo de pessoas",
+      "explicacao": "A definição de 'produto de front' reproduz fielmente a fala, sem números ou condições alterados. O par tema/tarefa (oferta-e-entregaveis / montar-oferta) é um encaixe um pouco forçado, já que o trecho fala de funil de vendas e não de composição de entregáveis, mas não há tema mais específico no enum; classificação discutível, não erro claro."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você criar esse tipo de anúncio hoje, você não vai vender fácil Você pode até vender, mas o seu ROI vai ser baixo",
+      "explicacao": "A regra sobre ROI baixo em anúncios 'wiki-hall'/'impactantes' está corretamente atribuída ('segundo ele'). O termo 'wiki-hall' não consta na tabela de grafias do curso e foi tratado como transcrito, entre aspas, com nota e confiança baixa, exatamente como o FORMATO pede para termos não reconhecíveis. A ligação entre 'sem o trabalho de som que ele ensina' e o ROI baixo é uma inferência de contexto razoável (o trecho anterior fala do sistema de sentimentalismo que ele promete mostrar), não uma invenção."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "esse treinamento, ele é basicamente os 80% do meu vídeo, 80% do meu VSL e dos meus anúncios vem através do som.",
+      "explicacao": "O número 80% e a atribuição ao professor ('O professor afirma que...') estão preservados. Nota: a fonte diz 'do meu vídeo... do meu VSL... dos meus anúncios' (resultado dele mesmo) e o corpo generaliza para 'de uma VSL ou de um anúncio'; a atribuição explícita ao professor no corpo atenua o risco, então não considero isso um desvio comprovado, mas é um ponto de atenção para quem revisar redação."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A única diferença do anúncio para a VSL é que a VSL é 15, 20 minutos e o anúncio é 40, 50 segundos",
+      "explicacao": "Os números de duração (15–20 min para VSL, 40–50 seg para anúncio) e a conclusão de que a técnica de som é a mesma para os dois formatos, com o anúncio sendo mais didático, batem com a fala. Faixa (282–302) cobre exatamente esse trecho."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não uso muito esses efeitos sonoros aqui Eu uso mais no CapCut Porém, sempre vai ter aquela hora Que eu vejo que está faltando alguma coisa Eu não acho no CapCut E eu encontro aqui na barra de pesquisa",
+      "explicacao": "A preferência do professor pelos efeitos do CapCut e o uso do pacote pago (Order Bump) só quando falta algo no CapCut estão corretamente descritos, com a condição preservada. A nota que identifica o pacote como recurso do curso (Order Bump) e não ferramenta externa é coerente com o trecho anterior da mesma aula ('Quem conseguiu pegar o Ordem Bump... São os efeitos sonoros')."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 95,
+      "trecho_fonte": "E o que eu te prometi na minha VSL? Que não iria ter o senhorzinho cap cut e nenhum tipo de editor nesse tipo de som. [...] Eu vou esquecer um pouco o que eu prometi na VSL e eu vou fazer exatamente do mesmo jeito que eu faço para criar minhas VSLs e para colocar som nos meus anúncios, tá bom?",
+      "descricao": "A fala revela que a VSL de vendas do produto prometeu não usar CapCut nem nenhum editor nesse tipo de trabalho de som, mas o professor diz explicitamente que vai 'esquecer um pouco' essa promessa e ensinar do jeito que ele normalmente faz. Nenhuma unidade registra essa mudança de posicionamento em relação ao que foi vendido.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta só as unidades não sabe que o método do módulo já nasce divergindo da promessa comercial (evitar CapCut/editor); isso é relevante porque a unidade 6 mostra o próprio professor usando efeitos do CapCut, o que faz mais sentido lido junto com essa ressalva."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tema `oferta-e-entregaveis` e tarefa `montar-oferta` são um encaixe discutível para a definição geral de 'produto de front' (conceito de funil de vendas, não de composição de entregáveis); não há tema mais específico no enum do curso, então não considero erro claro, só um ponto a revisar.",
+    "Unidade 1: faixa `inicio`–`fim` (30–360) cobre quase toda a aula e se sobrepõe às faixas mais específicas das unidades 2 a 6; não viola a regra de faixa (o conteúdo citado está dentro do intervalo), mas é uma faixa pouco precisa para um `limite` sobre oferta comercial."
+  ],
+  "material": [],
+  "resumo": "A extração de 6 unidades desta aula de abertura, curta e majoritariamente comercial, está bem lastreada na transcrição: números (80%, duração de VSL/anúncio), condições e atribuições ao professor conferem com a fala, e os termos deformados ou não identificados ('Copsonde', 'wiki-hall') foram tratados conforme as regras de grafia e confiança do curso. Não encontrei nenhum `sem-lastro`, `desvio` comprovado ou `faixa-errada`, nem falha de perecibilidade ou de material (não há material nesta aula). Os pontos de atenção são menores: a faixa muito ampla da unidade 1, a classificação discutível de tema/tarefa da unidade 2, e uma omissão de gravidade menor sobre o professor reverter, na própria aula, uma promessa feita na VSL de vendas quanto a não usar CapCut/editor."
+}

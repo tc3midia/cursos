@@ -1,0 +1,28 @@
+{
+  "aula": "G12_A03",
+  "arquivo_sha256": "ebf70b15a69d28770e276e33a437b8678e50ad29abef7a97de10c4dd22450060",
+  "inspecao_sha256": "546616b83dcb684cc31cebf78b0fb9f5b54db91fe9d9f7c0f66621d034850fd8",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral (4/4 unidades, busca de omissões declarada, nenhuma citação não literal). Todas lastreadas. U1: caracterização da aula sustentada pela fala; só falta registrar que uma etapa é finalizada no Canva (menor). U2: núcleo técnico (separar vocal de 'áudio normal' no CapCut para não deixar a pessoa falando) lastreado em 287–321 s; a frase de justificativa está em 277–287 s, logo antes do `inicio`, e 'sem perder o som ambiente' é inferência de redação, não fala literal — o inspetor classificou como menor e concordo: a orientação prática não muda. U3: SnapTik tratado como hipótese, com nota e confiança média, como o FORMATO exige. U4: os quatro passos batem, em ordem, com a fala citada ('Texto, legendas automáticas, português e brasil excluir legendas atuais e gerar' / 'a gente seleciona a maior'); o motivo degradado está preservado como incerto em nota; 'a melhor opção' exagera levemente 'uma das melhores' (menor); a frase 'gera a legenda para manter a atenção da pessoa no vídeo e no texto' não tem trecho citado pelo inspetor — pedido de prova em `proximo`, sem efeito na execução. Sem copy de exemplo tratada como fato, sem passo de tela inventado, sem resíduo de silêncio usado como fonte (o contexto apenas o menciona, contra o FORMATO §3 — menor), sem termo deformado promovido a nome, sem ressalva suprimida. Passa.",
+  "cobertura": "Duas omissões apontadas, ambas menores pelo inspetor, e concordo. (1) Canva: a fala só diz 'Vamos lá para o Canva, e a gente já finaliza essa parte, Canva é um minuto ali' — o que é feito lá ficou na tela; não há ação descritível, logo não é omissão de procedimento, só falta de menção no `limite`. (2) Transição 'flashzinha' com velocidade reduzida: preferência de estilo dita apontando para a tela ('essa aqui ó'); comentário lateral que não muda decisão nem impede executar. Aula de tela com poucas unidades e `limite` que diz o que ficou na imagem é o resultado esperado. Passa.",
+  "perecibilidade": "Todas as unidades com `perecivel: true` (ferramenta/tela do CapCut e ferramenta externa). Inspetor não encontrou perecível escondido. Passa.",
+  "aplicabilidade": "Cada unidade se lê sem a aula: U1 é `limite` que nomeia a ferramenta, o que ficou na tela e o que está em unidades à parte; U2 e U3 são `ferramenta` com tema e tarefa coerentes (`edicao-de-video` / `editar-video`); U4 é `procedimento` com pré-condição e só os passos que a fala nomeia. Sem referência pendente ao vídeo, sem jargão inexplicado, `condicoes` nulas corretas. Discutíveis, sem mudar o uso: `canva` em `plataformas` de U1 e `capcut` como destino em U3. Passa.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U2: ajustar `inicio` para 277 para cobrir a frase de justificativa citada pelo inspetor em 277–287 s ('A gente vai retirar o áudio aqui agora... não pode deixar ele falando'); incrementar `versao` e rodar o validador.",
+    "U2 e contexto[4]: trocar 'sem perder o som ambiente' por formulação com as palavras da fonte (a faixa vocal fica separada do 'áudio normal'); conferir 'reaproveita só a faixa que precisa' contra 'então a gente uniu aqui' e, se a fonte for ambígua sobre o que se faz após a separação, dizer isso no corpo ou na nota.",
+    "U4: 'que o professor trata como a melhor opção' → 'que o professor trata como uma das melhores', conforme a fala citada ('essa daqui é uma das melhores').",
+    "U4: a frase 'Ele diz que gera a legenda para manter a atenção da pessoa no vídeo e no texto' precisa de trecho literal na faixa 1260–1317; se não houver, remover a frase e manter só a nota sobre o motivo degradado.",
+    "contexto[3]: remover a menção a 'longos trechos de repetição de silêncio' (FORMATO §3: resíduo de silêncio não se menciona no contexto); basta dizer que a fala é majoritariamente apontamento de tela.",
+    "U1 e contexto[1]: registrar que uma etapa de cerca de um minuto é finalizada no Canva ('Vamos lá para o Canva, e a gente já finaliza essa parte'), sem descrever o que foi feito lá porque ficou na tela; opcionalmente acrescentar `canva` em `plataformas` de U1.",
+    "Opcional: registrar a preferência do professor pela transição 'flash' com velocidade um pouco reduzida (501 s) como preferência, em U1 ou em unidade própria com `confianca: baixa` por depender da tela; não obrigatório.",
+    "U3: o corpo repete a grafia da transcrição ('Snap, Tiki'); o FORMATO pede grafia adotada no corpo (SnapTik) e a grafia da fonte na nota, que já a traz. `plataformas` poderia incluir `capcut` como destino — classificação discutível."
+  ],
+  "proximo": "Aprovar e marcar a aula como `revisado`. Antes de publicar, pedir ao inspetor (ou ao redator com fonte) o trecho literal que sustenta 'gera a legenda para manter a atenção da pessoa no vídeo e no texto' em U4 (faixa 1260–1317); sem trecho, aplicar o ajuste menor correspondente. Aplicar os demais ajustes menores localmente, sem abrir ciclo; após mudar `inicio` de U2 e qualquer corpo, incrementar `versao`, rodar `base_fcc.py` e registrar que as unidades alteradas perdem a evidência de inspeção anterior (hash novo)."
+}

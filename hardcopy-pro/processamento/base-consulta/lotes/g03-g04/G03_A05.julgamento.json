@@ -1,0 +1,51 @@
+{
+  "aula": "G03_A05",
+  "arquivo_sha256": "f321cfc9d5ed877784e13317f334a8b2ca4eef95e27fad25302dcbaca97a0d82",
+  "inspecao_sha256": "89fac0b2b18b9d93324cf2eb75ee0f4c14cd408d0b4fbf9549560201b7ddccdc",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos. Não há veto de contrato.",
+  "fidelidade": "Veto. A inspeção foi integral: cobriu as 3 unidades, declarou busca de omissões e não tem citação não literal.\n\n**Unidade 2 — desvio material.** A frase que define \"elefante na sala\" é \"dizer ao lead de frente aquilo que ele já está pensando\". O inspetor mostra com trecho literal que a fala diz outra coisa: \"Você já atirar pra pessoa / Que você quer mostrar pra ela / Pra ela ativar o modo dela / De sair / Do modo jacaré dela\". \"De frente\" e \"o que ele já está pensando\" não estão na fonte. Vêm do sentido corrente do termo, ou seja, de conhecimento externo. O trecho é mal transcrito, e a rubrica só tolera fonte ambígua quando a unidade preserva a incerteza com `nota` e `confianca` adequada. Aqui a unidade resolveu a ambiguidade em silêncio, com `confianca: alta` e `nota: null`. O vocabulário do FORMATO corrobora o inspetor: desta aula ele só registra \"hoje chamamos no marketing de elefante na sala\" e o modo jacaré como estado defensivo, sem essa definição. O resto da unidade 2 confere: o elefante que não sai da cabeça, o modo jacaré, o desarme e a entrada no emocional.\n\n**Unidade 1 — faixa errada.** O conteúdo tem lastro. A frase dos \"7 dias\" está em 36–44 s, antes de `inicio` = 50. O fecho \"que não existia\" vai até cerca de 154 s, depois de `fim` = 148. É 1 de 3 unidades com faixa, 33%, acima do limite de 10% da rubrica. Isso veta mesmo com a gravidade individual \"menor\" que o inspetor atribuiu. A perda do \"normalmente\" e a troca de \"a melhor forma\" por imperativo são ajustes menores, porque a afirmação segue atribuída ao professor.\n\n**Unidade 3 — lastreada.** Os números 3 e 150 estão marcados como ilustração, a regra de ignorar críticas está condicionada a teste aprovado e ROI, e a faixa cobre o conteúdo.",
+  "cobertura": "Sem veto. O inspetor localizou uma única omissão, dita duas vezes na fonte (160 s e cerca de 343 s): com a capacidade de criar ofertas, o gargalo deixa de ser a criatividade e passa a ser expandir e delegar. O próprio inspetor a classifica como menor. A fonte não explica como delegar, então a falta não muda decisão nem impede executar. Fica como ajuste menor. Testemunho pessoal e motivação fora das unidades não contam como omissão neste curso.",
+  "perecibilidade": "Sem veto. Nenhuma unidade traz tela, ferramenta, preço, data, oferta, recurso do curso ou número de mercado. Os números 3, 150 e \"7 dias\" são ilustração da fala e estão tratados assim. `perecivel: false` é coerente nas três.",
+  "aplicabilidade": "Sem veto. As três unidades se sustentam sem a aula ao lado.\n\n- **Unidade 1:** explica o exemplo do peso de academia e define mecanismo único com a definição do vocabulário. O par de tema `criatividade-e-angulo` com tarefa `definir-mecanismo-unico` é defensável.\n- **Unidade 2:** `conceito` sem tarefa é válido, e o tema `objecoes-e-credibilidade` é o correto. \"O cara vai vender um treino no final\" é resíduo de exemplo da aula sem contexto, mas não impede o uso. O problema dessa unidade é de fidelidade, não de aplicabilidade.\n- **Unidade 3:** `condicoes` restringe a regra a oferta já validada, mas o corpo também traz \"em dúvida, teste\", que vale antes da validação. Não muda o uso e fica como ajuste menor.",
+  "falhas": [
+    {
+      "id": "G03_A05-F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O corpo define elefante na sala como \"dizer ao lead de frente aquilo que ele já está pensando\". O trecho literal do inspetor (00:05:11–00:05:24) é: \"Que esse elefante significa / Você já atirar pra pessoa / Que você quer mostrar pra ela / Pra ela ativar o modo dela / De sair / Do modo jacaré dela\". A fonte não diz \"de frente\" nem \"o que ele já está pensando\". O trecho é mal transcrito e a unidade o resolveu em silêncio, com `confianca: alta` e `nota: null`. É desvio de sentido, completado com o significado corrente do termo.",
+      "impacto": "É a definição central da unidade. Um agente que consultar a base vai aplicar \"elefante na sala\" como verbalizar a objeção que o lead já tem. A aula diz jogar logo para a pessoa o que você quer mostrar a ela, para tirá-la do modo jacaré. O agente repetiria com confiança alta uma definição que o curso não dá.",
+      "mudanca_minima": "Reescrever só a frase de definição para o que a fala sustenta. Segundo o professor, o elefante significa já atirar para a pessoa o que você quer mostrar a ela, para que ela saia do modo jacaré. Remover \"de frente\" e \"aquilo que ele já está pensando\", sem importar o sentido corrente do termo. Preencher `nota` dizendo que a transcrição desse trecho está fragmentada e que a definição foi reconstruída a partir dela. Baixar `confianca` para `media`. Incrementar `versao` para 2. Manter o restante do corpo, que o inspetor confirmou.",
+      "criterio_de_aceite": "(a) O corpo da unidade 2 não contém \"de frente\" nem a ideia de \"o que o lead já está pensando\" como definição do termo. (b) A definição corresponde ao trecho 00:05:11–00:05:24 e o inspetor a marca como `lastreada`. (c) `nota` não nula registra a degradação da transcrição. (d) `confianca` é `media` ou `baixa`. (e) `versao` = 2. (f) O validador retorna zero erros, sem sequência de 25 palavras copiada."
+    },
+    {
+      "id": "G03_A05-F2",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor marca `faixa-errada` com o trecho literal \"incrível em 7 dias, até porque\" em 00:00:36–00:00:44, antes de `inicio` = 50. O fecho \"que não existia\" vai de 148 s a cerca de 154 s, depois de `fim` = 148. É 1 de 3 unidades com faixa, 33%, acima do limite de 10% da rubrica.",
+      "impacto": "Quem conferir a unidade pela faixa 50–148 não encontra duas afirmações do corpo: a dos 7 dias e o fecho da oferta criada \"a partir do que não existia\". Isso impede verificar a unidade contra a fonte e enfraquece a âncora para inspeções futuras.",
+      "mudanca_minima": "Ajustar `inicio` e `fim` para cobrir todo o conteúdo do corpo, cerca de 32 a 155 s segundo o inspetor. Alternativa equivalente: retirar do corpo a frase dos 7 dias, que já está no `contexto`, e estender só o `fim` para cerca de 155 s. Nos dois casos, manter a `evidencia` dentro da nova faixa e incrementar `versao` para 2. Já que a unidade será tocada, é desejável restituir o \"normalmente\" da fala (\"normalmente, nesse ponto, você encontra um mecanismo único\"), mas isso não é critério de aceite.",
+      "criterio_de_aceite": "(a) Toda afirmação do corpo da unidade 1 está dentro de `inicio`–`fim`, e o inspetor a marca como `lastreada`, sem `faixa-errada`. (b) A `evidencia` continua literal e dentro da faixa. (c) `versao` = 2. (d) O validador retorna zero erros, com `fim` ≤ fim da transcrição + 2."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 1: a fala diz \"normalmente... você encontra um mecanismo único\" e \"a melhor forma\". O corpo virou imperativo e perdeu o \"normalmente\". A afirmação está atribuída ao professor, então não muda a decisão de quem consulta. Convém restituir ao tocar a unidade.",
+    "Unidade 1: a última frase, sobre o objetivo do módulo e os 7 dias, fala do curso e não da regra de criar oferta. Já está no `contexto` e pode sair do corpo.",
+    "Unidade 2: \"o cara vai vender um treino no final\" é resíduo do exemplo da aula. Convém marcar como exemplo da fala, sem inventar o nicho.",
+    "Unidade 3: `condicoes` limita a regra a oferta já validada, mas o corpo também traz \"em dúvida, teste\", que vale antes da validação. Basta ajustar a redação de `condicoes` para cobrir só a parte de ignorar críticas. Não muda o uso.",
+    "Omissão menor (160 s e cerca de 343 s): o professor diz que, com a capacidade de criar ofertas, o gargalo deixa de ser a criatividade e passa a ser expandir e delegar as ideias. A fonte não detalha como delegar. Pode virar unidade `conceito` curta, com número novo (4), ou frase no `contexto`. Não é critério de aceite.",
+    "`contexto`: o inspetor aponta que \"encerramento do módulo\" e \"produto digital\" não estão na fonte, e que a aula termina com \"até a próxima\". Convém retirar ou reescrever esses dois pontos sem afirmar o que a fala não diz."
+  ],
+  "proximo": "Enviar ao redator de correções as falhas G03_A05-F1 (unidade 2) e G03_A05-F2 (unidade 1), com os ajustes menores aplicáveis de passagem. Este é o ciclo 1 dos 2 do artefato. Depois, fazer conferência focal só das unidades 1 e 2, cujo hash vai mudar. O inspetor deve confirmar a definição da unidade 2 contra 00:05:11–00:05:24 e a nova faixa da unidade 1. A unidade 3 preserva a evidência atual se o hash ficar intacto. Rodar o validador de novo após a correção."
+}

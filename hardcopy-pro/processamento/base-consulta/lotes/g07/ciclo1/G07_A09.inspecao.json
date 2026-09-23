@@ -1,0 +1,120 @@
+{
+  "aula": "G07_A09",
+  "arquivo_sha256": "8f1e759c8ed3764d4472d48e5e81ee2b9067eab2d287fa0a7cceb30c0ffbae5d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 5]; as demais mantêm a evidência da inspeção integral do arquivo 5eb9b45892f9, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "61516b6ce65b3976309c505bd4b3eb7a6cb77183952b55452ca6f83697d0a0aa",
+    "2": "96becb6d5eb14b6ac4e07e4f8f69cc6ab7188f7ae5c1b621150d751315f436d5",
+    "3": "e1f519564f3055c59f36d521245157883a3a85bb14f9efc08fdd7686904f82f6",
+    "4": "f086f28b2cd31f866cfa974b971e5f9346986eac2fbfef7cce39a30b8ce232af",
+    "5": "a12333c58702f3606d43fca7efd0b470de50eb9ddf54f615a0425de5a3f65f3b",
+    "6": "423ea6ed52aefcf18a3e57174278d8ed47deb338f70e75d859763ab237806c11",
+    "7": "5ffa8a5552cbefe3e3cd1cf555cb49491dba2fb63dfba28afe00f6c2934d5939",
+    "8": "10bae67e375ebe8b34a222d92164cba1d452e3bd95de08b8ec82af3a403555cb"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você mostrou de onde você é aqui Você mostrou a sua autoridade",
+      "explicacao": "F2 resolvida: o `fim` foi estendido de 197 para 215, e o trecho que sustenta o passo 5 ('Tacada de mestre: feche mostrando a origem e a autoridade local...'), que fica em ≈209,3–213,3s, agora cai dentro da faixa 30–215. Conferi também os demais passos (1 a 4) contra a fonte dentro dessa mesma faixa — gancho/confiança (~149–156s), nicho (~79–80s e ~153–156s), honestidade/depoimentos reais (~91–103s e ~169–175s), invalidação da FIPE e 'sem dor de cabeça' (~183–196s) — todos permanecem dentro de 30–215. Não sobrou conteúdo do passo 5 fora da faixa e não foi criado problema novo pela extensão (que só mexeu no campo `fim`, sem alterar corpo nem evidência). Com isso, nenhuma unidade da aula permanece `faixa-errada` (0/8, abaixo do teto de 10%). Reclassifico U1 como lastreada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Esse cara já chega na loja sabendo Que ele vai perder",
+      "explicacao": "Os dois perfis de comprador (quem troca por 'o carro dos sonhos' e resiste a perder x quem já troca por algo melhor e aceita perder) e o exemplo de 78 mil/82 mil batem com a fala entre 219–317s. A frase final sobre autoridade atrair clientes de maior nível financeiro também está sustentada (219,4s em diante), mesmo que a menção literal a 'autoridade' apareça poucos segundos antes do início declarado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente não vai precisar remover nada dela",
+      "explicacao": "A identificação da ferramenta como ElevenLabs segue a tabela de grafias (Eleven Leves) sem exigir nota, e a orientação de não cortar a voz por ela já ser rápida está dentro da faixa 334–340s."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Novamente cortamos o áudio Porque a tensão total nessa parte",
+      "explicacao": "A técnica (cortar a música nos momentos de maior tensão da fala) está corretamente descrita, mas o nome 'calar a boca' nunca aparece nesta transcrição — essa denominação vem do vocabulário de G09_A06, citado na tabela do FORMATO. Ao escrever 'O curso chama essa técnica de calar a boca', a unidade atribui a esta aula um jargão que ela não usa, dando a entender que o termo foi dito aqui."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não encaixou Vamos pegar o inicio da música então",
+      "explicacao": "F1 resolvida: título e corpo deixaram de excluir categoricamente o início da música ('e não o início' foi removido) e agora descrevem o processo real da fonte — tentar primeiro o plot (pico) alinhado à fala; se não encaixar, testar o início da faixa, ajustando volume e fade out; se faltar pouco, juntar com a pinça/junção — atribuindo explicitamente à demonstração da aula que 'o plot não encaixou, o início quase encaixou e o professor fechou o encaixe juntando os trechos'. Isso bate com a sequência da fonte entre 807 e 874s: 'pega o plot dela' (~812–815s) → fade out/ouvir (~830–843s) → 'Não encaixou. Vamos pegar o inicio da música então' (~842–848s) → fade out/aumentar volume (~848–860s) → 'Quase encaixou' (~855–860s) → junta/pinça/junção (~860–873s). O tipo foi corretamente trocado para `decisao` (corpo começa com 'Quando '), a `evidencia` e o `trecho_fonte` citados existem literalmente na fonte (grafia 'inicio' sem acento, como transcrito) e caem dentro da faixa 807–874. Não identifiquei problema novo introduzido pela correção. Reclassifico U5 como lastreada."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque é diferente um do outro, não fica repetitivo",
+      "explicacao": "A ideia de não repetir o mesmo efeito de distorção de voz duas vezes, mantendo uma parte com a voz original para não ficar repetitivo, está dita literalmente dentro da faixa 621–696s, ainda que o intervalo comprima também outras ações de edição intermediárias não citadas no corpo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que o áudio vai ser uma coisa irrecusável daqui a 6, 7 meses no mercado brasileiro",
+      "explicacao": "A comparação entre investir em áudio trabalhado versus um avatar de IA de um famoso, e a previsão de mercado, estão dentro da faixa 1076–1109s e corretamente atribuídas ao professor como opinião/previsão, com nota que impede tratar isso como fato confirmado pela base."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aqui a gente vai colocar uns efeitinhos pra ficar",
+      "explicacao": "Unidade 'limite' coerente com o padrão de aula de tela: sinaliza corretamente que boa parte da edição fina não é capturável pela fala, com evidência dentro da faixa declarada."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 418,
+      "trecho_fonte": "Sem ficar colocando muita flor E muita coisa aqui Pra não ficar um negócio feio",
+      "descricao": "Ao animar o texto na tela 'daquele jeito que a gente faz', o professor recomenda não exagerar em elementos decorativos ('flor') para não deixar o resultado visualmente poluído. Nenhuma unidade preserva esse princípio de moderação na animação/decoração de texto.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem usar a base para montar animações de texto no CapCut não é avisado para evitar excesso de elementos decorativos, podendo produzir exatamente o resultado 'feio' que o professor diz querer evitar."
+    },
+    {
+      "inicio": 771,
+      "trecho_fonte": "E aqui agora a gente mexe um suspense de novo, porque ficou pesado aqui o clima.",
+      "descricao": "Orientação de alternar de volta para música de suspense quando o clima da narração/trilha fica pesado demais, para equilibrar o tom emocional do anúncio. Não vira unidade em nenhum ponto da base.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem monta a trilha sonora sem essa orientação pode manter um clima emocional pesado por tempo excessivo no anúncio, sem saber que o professor recomenda alternar para suspense para aliviar a tensão sonora."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Conferência focal restrita às unidades 1 e 5. F2 (U1): o `fim` foi estendido de 197 para 215, trazendo para dentro da faixa o trecho que sustenta o passo 5 da estrutura ('Você mostrou de onde você é aqui... autoridade'); os demais passos seguem lastreados na mesma faixa, e nenhuma unidade da aula permanece `faixa-errada`. F1 (U5): título e corpo deixaram de tratar o início da música como opção descartada, passaram a registrar o processo de tentativa e ajuste (plot → início → junção) da demonstração da aula, com `fim` estendido para 874 cobrindo a citação usada como evidência, e o tipo foi corrigido para `decisao`. Ambas as correções atendem ao critério de aceite indicado, sem introduzir problema novo nas duas unidades revisadas; reclassifico U1 e U5 como `lastreada`, gravidade `nenhuma`. Não há omissão de cobertura, nem novo apontamento de perecibilidade, contrato ou material decorrente destas duas falhas."
+}

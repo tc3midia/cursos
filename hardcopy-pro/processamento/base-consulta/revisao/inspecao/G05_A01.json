@@ -1,0 +1,155 @@
+{
+  "aula": "G05_A01",
+  "arquivo_sha256": "b7b1281c3845034a39d0810f941173d5dfae7d68600a61dbc23b304d81d93b7d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [4, 5, 9, 10]; as demais mantêm a evidência da inspeção integral do arquivo ba10b46df6b9, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    4,
+    5,
+    9,
+    10
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "cf92851e8b42e09a73dcb1a0dd16f0fca76c5c13198726de473a0e2771ab215d",
+    "2": "31e327a4397ba0cbca66f799b524f5df764bd6cce81584fada08ff22080d9d76",
+    "3": "d4d69bdd4e0c4275e960772ed154e2a3bb4051041c0b8b465f108097c9511f18",
+    "4": "a657284e111347b6d89e72b09a8d4e2c4df1ba417d6ca24d341b1b316887af9c",
+    "5": "b4510f43d7df334a7debdbebf1cfe09713a8030d909814d3e135c46b40650bd5",
+    "6": "a62dd9c546ac13827f63fcbd9e45865de8b2a66e69b728046d43bc57dc5995ae",
+    "7": "63840e1500cd516c5e8a281564b6086218f439cc2d3ef78526a87f21c1641bb0",
+    "8": "c85c5e0cc752b4df2d868738bf4487397cb0a547c9caebdc91f316712474684e",
+    "9": "16b11580dab6df408ee2965c87e63a4aa1b7446aa7063a3544d00c1c443fadde",
+    "10": "b982677c8889bfa2f6e279fbd245684c7fba05a96b4bb8335af0ad46f51d24fc",
+    "11": "49ead9279abac7f21d75e2a66e61ea660069487eb6d15df5a503a94596c57e61",
+    "12": "2465b18dfd2bc0f08465b8d3bf86b8024aa89ed69b6306f26162c79767ab7edc"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, basicamente, você pensar fora da caixa é você analisar aquilo que as pessoas não estão vendo e que está na cara delas.",
+      "explicacao": "A definição de \"pensar fora da caixa\" bate com a fala (01:38–01:48). O apoio do corpo (\"ninguém pergunta como ele chegou àquela situação\") vem de \"Ninguém viu o porquê que ele chegou nessa situação\", dito por volta de 01:21–01:23. Isso fica uns 15 s antes de `inicio` 98. O núcleo está dentro da faixa, então não é faixa-errada. Quem for verificar a faixa não encontra essa parte. O enquadramento \"Para achar o ângulo de um anúncio\" é do extrator, não da fala. O trecho é uma definição, mais próxima de conceito do que de regra."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mostrar pra pessoa o que ele perdeu com isso",
+      "explicacao": "O caso narrado confere: vídeo visto na internet, comentários de apoio, mostrar o que ele perdeu, transformar em copy para o nicho, vender no final. É exemplo, com condição de caso. Falhas pequenas. (a) O corpo diz que o professor \"admite que ainda não sabia como executar e que faria a copy junto\". Isso está em \"Eu sei como que eu vou fazer isso? Não\" e \"Mas vamos fazer juntos essa cópia\" (02:14–02:18), depois de `fim` 132. (b) \"Vídeo viral\" e \"acima do peso\" não são ditos nesse trecho; \"acima do peso\" vem da copy escrita depois. (c) \"Não é um sentimento de esperança, sabe?\" é pergunta retórica ambígua. Ler como \"passa esperança\" é razoável, mas é leitura. (d) A \"Lógica\" (aproveitar o sentimento que o vídeo já gera) é inferência do extrator."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "No digital isso, no digital chamamos isso de jornada e não importa se você não é uma autoridade",
+      "explicacao": "A versão final da copy (07:10–07:51) confere: pergunta de abertura, esqueceu o processo, indisciplinado, acima do peso, visto como vencedor, jornada, autoridade, conexão emocional, virada \"de nada vale\", copy em vez de marketing digital, percepção de vendas vai mudar. A condição de copy de exemplo está presente e nada da copy virou régua ou fato. Nota e confiança estão adequadas à reescrita e ao nome do produto ilegível. Detalhe menor: \"história desconectada do produto\" é vocabulário do extrator; a aula diz só \"conexão\" e \"junção\". A frase \"muito bem pensada\" está em 04:15–04:19, dentro da faixa."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não gosto de repetir palavras certo, tá?",
+      "explicacao": "F2 resolvida: `tarefas` agora é só [\"roteirizar-anuncio\"], sem `refinar-saida-de-ia`, e `versao` é 2. A aula não menciona IA em ponto nenhum. O corpo atribui a preferência ao professor (\"gosto próprio\") e a `condicoes` diz que não é regra universal. Isso bate com a fala: \"Eu não gosto de repetir palavras certo, tá?\", \"Eu acho que fica uma coisa meio porca\", \"Não sei porquê\". A faixa 324–332 cobre o trecho e a evidência está dentro dela. Uma imprecisão sem efeito no uso: a `nota` diz que a frase do motivo está truncada, mas a transcrição está inteira e o professor diz \"Não sei porquê\". Nenhum problema novo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O que eu quis fazer com esse produto, com esse anúncio",
+      "explicacao": "F1 resolvida. `tipo` agora é `exemplo` com `Situação:`, `O que aconteceu:` e `Lógica:`. O corpo não tem imperativo geral nem o critério \"palavras que todos entendam\". Tudo está atribuído ao professor e a este anúncio, e a `condicoes` diz que é copy de exemplo e escolha deste anúncio, sem contradizer o corpo. Os quatro elementos da fala estão presentes: \"Eu não quis conversar com o copywriter\", \"Eu não quis conversar com o marqueteiro digital\", \"Eu quis abrir o meu público E conversar com todos\", e \"Por isso eu coloquei a palavra marketing digital / Por isso que eu denominei ela como copy\". `versao` é 2. A faixa 471–490 cobre o bloco (471,96–488,52) e a evidência é literal e está dentro dela. Ajuste menor sem efeito no uso: o corpo diz que ele \"denominou a solução de copy\". A fonte diz \"denominei ela como copy\", com referente ambíguo, e a palavra \"solução\" é interpretação do extrator."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tá bom? Vamos pintar de vermelho? Show!",
+      "explicacao": "As quatro partes conferem em ordem e função: introdução para chamar a atenção com a pergunta e 5 s do senhor na academia; desenvolvimento como conexão; plot com a apresentação do produto; conclusão Ketsu CTA com nome do produto e percepção de vendas. Três desvios pequenos. (a) \"Pinta cada parte de uma cor\": a fala só diz \"Vamos pintar de vermelho\" (introdução). As outras cores só existiriam na imagem. (b) Os rótulos Ki, Sho e Ten não aparecem na aula, que só diz \"Ketsu CTA\". Vêm do vocabulário do curso. A nota \"a transcrição deforma o nome dos atos\" não corresponde à fonte. (c) \"Para não se perder na hora de editar\" liga o motivo (08:24–08:32, \"quando chegar na hora eu não ficar totalmente bagunçado\") ao ato de pintar, mas na fala ele se refere a colocar o trecho de 5 s. Não muda a estrutura."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "então ele vai demorar ali em média 22 segundos essa parte",
+      "explicacao": "Ferramenta, valores e resultado batem com a fala: Invertexto, 30 palavras, 110 palavras por minuto, 20 a 22 s, cerca de 25 com os 5 s do vídeo, \"dá pra segurar\". A conta do professor é de fato inconsistente (30 palavras a 110 por minuto dariam cerca de 16 s). A unidade registra isso na `nota` e na `condicoes` e atribui a estimativa a ele (\"estima\"). Aceitável. Ressalva menor: o corpo apresenta 110 palavras/min e 20–22 s lado a lado, sem avisar que não fecham. A `nota` é a única proteção. Quem lê só o corpo pode tomar o 20–22 s como resultado da régua de 110."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É a junção desta história",
+      "explicacao": "A fala diz \"Aqui é o desenvolvimento… A conexão\", \"Entregamos aquilo que o nosso lead queria. Logo após, fazemos a junção\" e \"É a junção desta história Com o meu produto\". O corpo confere, incluindo a sequência entregar o que o lead queria e só depois juntar. Detalhe sem efeito: \"queria ouvir\" (a fala diz só \"queria\"). Repete o item 2 da unidade 6. A dependência de \"o homem visto como vencedor\" está em `contrato`."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A pessoa nunca iria imaginar que ao ver o vídeo desse rapaz",
+      "explicacao": "F3 resolvida para a 9. A `Situação` agora se sustenta sozinha: anúncio em vídeo de um produto de copy do professor, montado sobre um vídeo da internet de um homem acima do peso que se esforça para treinar, com comentários de apoio e respeito. Isso está na fala (\"Eu vou criar uma copy\", \"esse anúncio\", \"esse senhor aqui, esse rapaz aqui\", \"apoiando o máximo respeito\", \"Hoje ele está acima do peso\", \"senhor na academia\"). O corpo não usa \"da aula\" ou \"na aula\" como identificação. O plot e a apresentação do produto batem com 00:10:32–00:10:54 (\"ela não queria imaginar que a gente iria vender um produto de copy pra ela\", \"aqui já é a apresentação do produto\"). A `condicoes` identifica a copy como copy de exemplo. A faixa 632–655 cobre o plot e a evidência é literal e está dentro dela. O contexto do caso vem de trechos anteriores, como pedia a correção, e não configura faixa-errada. `versao` é 2. Nenhum problema novo."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, eu quero que ele saiba mais, a sua percepção de vendas vai mudar.",
+      "explicacao": "F3 resolvida para a 10. A `Situação` identifica o caso, sem depender de \"da aula\". \"Ketsu CTA\" está explicado só com a fonte (\"fazer a conclusão que é o Ketsu CTA\"; \"chamada de ação Para o nosso produto\"; \"Mas tem que conectar tudo isso\"), sem desdobrar a sigla. A ideia retomada aparece por extenso: muitos chamam de marketing digital, ele prefere chamar de copy. A `nota` traz a informação em si, sem remeter a outra unidade. A `condicoes` identifica copy de exemplo. A faixa 656–675 e a evidência \"Ou seja, um super gancho.\" são válidas. `versao` é 2. Ajustes menores sem efeito no uso: (a) \"fala pela primeira vez o nome do produto\" interpreta a fala \"o primeiro ato de falar o nome do nosso produto\", que está truncada; (b) a fonte diz \"eu quero que ele saiba mais\", e a `Lógica` reescreve como \"leva o espectador a querer saber mais\"; (c) a `nota` diz que as duas grafias do nome aparecem \"no mesmo trecho\", mas estão em duas leituras da copy (00:06:56 e 00:07:48), fora da faixa da unidade."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E coloquei esse aqui em baixo aqui para a gente pegar a base",
+      "explicacao": "Limite correto para aula de tela: a fala confirma vídeo-base, documento com base e numeração \"no final\", e cores. A unidade diz que só a orientação falada vale. O tema `curso-e-recursos` está em `contrato`."
+    },
+    {
+      "numero": 12,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Até porque tem outras temporadas também",
+      "explicacao": "O corpo tem duas afirmações fora de `inicio`–`fim` (686–697). (a) \"Outras temporadas repetem o exercício de criar uma copy do zero\" está em 02:20–02:25 (140–146 s), dentro de uma passagem com \"onde eu vou estar fazendo a mesma coisa\" e \"criando uma cópia do zero\", cerca de 9 min antes da faixa. (b) A frase-evidência \"Que essa temporada vai ser focada 100% na edição.\" está em 11:23.54–11:26.40 (683,5–686,4 s), antes de `inicio`. Só \"não tem mistério para criar isso\" e \"Na próxima aula a gente já vai para o Canva\" estão na faixa. Leve extrapolação: \"a montagem do criativo fica para as aulas seguintes\" vira inferência. A fala diz só \"na próxima aula a gente já vai para o Canva\". Correção mínima: começar a faixa em cerca de 683 e tirar ou ancorar a frase sobre outras temporadas."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4: a tarefa `refinar-saida-de-ia` (\"Corrigir e iterar o que a IA devolveu\") não corresponde à aula, que não usa IA. Leva o agente ao lugar errado. O `tema` `abertura-e-gancho` também é discutível: a preferência é dita ao reescrever a conexão e a jornada (05:24–05:40), não a abertura. Prefiro remover a tarefa e rever o tema.",
+    "Unidade 12: a `evidencia` \"Que essa temporada vai ser focada 100% na edição.\" está em 683,5–686,4 s, antes de `inicio` 686. A regra exige âncora dentro da faixa. O script pode barrar ou aceitar por sobreposição de 0,4 s. Corrigir junto com a faixa.",
+    "Unidades 9 e 10 não se sustentam sem a aula. A 9 fala de \"a copy da aula\" e de \"o homem que se esforça\" sem dizer quem é. A 10 usa \"copy escrita na aula\", \"Ketsu CTA\", \"a frase de que prefere chamar de copy\" e \"super gancho\" sem explicação, e cita o \"nome do produto\" sem dizer o produto. Nas duas, a `Situação:` não dá o contexto necessário, pois depende das unidades 2 e 3. Incluir na própria unidade quem é o homem e o que a copy vende.",
+    "Unidades 6 e 8: \"o homem\", \"o vídeo dele\" e \"o homem visto como vencedor\" dependem do caso da unidade 2 e não são explicados. \"Lead\" (nas unidades 6, 7 e 8) e \"CTA\" (unidades 6 e 10) aparecem sem definição, e a fonte dá uma: \"chamada de ação para o nosso produto\". O FORMATO manda explicar o jargão na primeira ocorrência dentro da unidade. Menor.",
+    "Unidade 11: o tema `curso-e-recursos` (estrutura do curso, produtos irmãos, documentos) não descreve o que a unidade diz, que é o que ficou só na tela do exemplo. Um agente que procura recurso do curso cai aqui. Um tema de conteúdo (`estrutura-de-anuncio`) serve melhor, mas isso mudaria `perecivel` de obrigatório para opcional. Classificação discutível, menor.",
+    "Unidades 1 e 8: `tipo` `regra` para o que é definição do professor (\"pensar fora da caixa é…\", \"desenvolvimento é a junção…\"). `conceito` seria mais próximo. Discutível, menor.",
+    "Unidade 6: a tarefa `estruturar-vsl` (\"distribuir a VSL nos quatro atos\") não corresponde a uma copy de anúncio em vídeo. A aula não fala de VSL. `roteirizar-anuncio` já cobre. Discutível, menor."
+  ],
+  "material": [],
+  "resumo": "Conferência focal das unidades 4, 5, 9 e 10: as falhas F1, F2 e F3 foram resolvidas pelos critérios de aceite, e as quatro unidades ficam `lastreadas`, com faixas e evidências literais válidas. Não há desvio, sem-lastro nem faixa-errada, nem problema novo criado pelas alterações. Ficam só ajustes menores de redação e de `nota`, sem efeito no uso, nas unidades 4, 5 e 10. Não há omissão decorrente das falhas da lista, e as demais unidades não foram reabertas."
+}

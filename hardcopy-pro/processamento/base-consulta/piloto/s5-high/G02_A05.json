@@ -1,0 +1,260 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G02_A05",
+  "titulo": "Episódio 02 Parte 04 — O que não pode faltar",
+  "extraido_em": "2026-09-20",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é a quarta parte do segundo episódio da temporada de Kishotenketsu e trata do que não pode faltar no corpo da VSL depois do lead, já fechado nas aulas anteriores.",
+    "O professor cobre dois blocos: a construção do roteiro com personagens (protagonista, antagonista e NPC) e a oferta de construção que vem depois do plot twist com o mecanismo único.",
+    "A maior parte da segunda metade é uma copy de exemplo de produto de emagrecimento, lida como demonstração; preço, credenciais e promessas ditos ali pertencem à copy fictícia.",
+    "A aula pressupõe que o aluno já conhece o lead, o plot twist e o mecanismo único, apresentados em aulas anteriores.",
+    "Fica para as próximas aulas a VSL completa que o professor promete criar aplicando esse molde.",
+    "O fecho inclui menção à VSL de venda do próprio curso e a um contato pessoal por WhatsApp, tratados aqui como oferta e limite, não como orientação."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "VSL de Kishotenketsu usa mais personagens que a VSL comum",
+      "tipo": "regra",
+      "tema": "personagens-e-roteiro",
+      "tarefas": [
+        "construir-personagens",
+        "estruturar-vsl"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 33,
+      "fim": 92,
+      "condicoes": "Uso de mais personagens é opcional segundo o professor, que diz que não é obrigação.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A transcrição grafa o método como \"Kinshu\".",
+      "proposta_tag": null,
+      "corpo": "Ao criar uma VSL na base do Kishotenketsu, o professor recomenda trabalhar personagens. Segundo ele, a VSL comum, que usa a jornada do herói junto com feedbacks, urgência e escassez, usa só narrador e protagonista. No Kishotenketsu ele propõe ir além e trabalhar os personagens por completo, como fazem os doramas. Ele diz que não é obrigatório, mas que, feito bem, vende bem.",
+      "evidencia": "utilizam somente o narrador e o protagonista.",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Divisão do tempo entre protagonista, antagonista e NPCs",
+      "tipo": "regua",
+      "tema": "personagens-e-roteiro",
+      "tarefas": [
+        "construir-personagens",
+        "estruturar-vsl"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 91,
+      "fim": 181,
+      "condicoes": "Referência do professor para VSL construída com personagens.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala dá 60% ao protagonista e depois diz \"O protagonista é 20%\"; pelo contexto (antagonista descrito logo antes) parece ser o antagonista, mas a transcrição não confirma.",
+      "proposta_tag": null,
+      "corpo": "O protagonista ocupa 60% do tempo da VSL e é quem sustenta o roteiro, colocado nos holofotes de quem assiste. O antagonista, normalmente a dor ou uma pessoa que desfavorece o protagonista, fica com 20%, pelo que se entende da fala. Os NPCs (pessoas que estão ali para fazer a mudança de roteiro) têm só participações rápidas. O foco é 100% na pessoa que tem a dor, para depois entrar na dor dela. Os NPCs servem para dar formato de novela e um storytelling mais interessante.",
+      "evidencia": "O protagonista é 60% do tempo da VSL, tá bom?",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Exemplo de personagens: a mãe do filho preso",
+      "tipo": "exemplo",
+      "tema": "personagens-e-roteiro",
+      "tarefas": [
+        "construir-personagens"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 108,
+      "fim": 150,
+      "condicoes": "Exemplo dado pelo professor para VSL num produto de perda de peso, em formato que ele chama de absurdo.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala sobre o \"formato de absurdo\" é breve; o professor diz que nesse formato os personagens já vêm quase prontos.",
+      "proposta_tag": null,
+      "corpo": "Situação: VSL de perda de peso escrita no formato de absurdo, em que o roteiro já traz os personagens embutidos.\nO que aconteceu: o professor define o protagonista como a mãe do filho que está preso e o antagonista como a dor dela, a perda de peso. Os NPCs, que fazem a mudança de roteiro, são o filho dela e a delegacia de polícia.\nLógica: quando o formato é bem usado, os personagens surgem sozinhos e só precisam ser trabalhados um pouco melhor.",
+      "evidencia": "O protagonista seria a mãe do filho que está preso",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Por que a estrutura com personagens desarma a expectativa de venda",
+      "tipo": "conceito",
+      "tema": "objecoes-e-credibilidade",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 197,
+      "fim": 231,
+      "condicoes": "Afirmação do professor; a base não confirma eficácia nem que o formato não exista no Brasil.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, quando a pessoa vê essa construção de roteiro com personagens, entende que aquilo não é um produto tentando lhe vender algo no final. Ela passa a esperar o fechamento da história e não a venda. Ele afirma que esse formato não existe no Brasil e que usa isso há bastante tempo.",
+      "evidencia": "Ela não vai esperar que você venda algo no final pra ela",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Sequência do corpo da VSL: roteiro, história, plot twist e oferta",
+      "tipo": "estrutura",
+      "tema": "kishotenketsu",
+      "tarefas": [
+        "estruturar-vsl"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 231,
+      "fim": 272,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A transcrição grafa o método como \"Kinshu\".",
+      "proposta_tag": null,
+      "corpo": "Depois do lead, a VSL segue esta ordem:\n1. Construção do roteiro, com os personagens.\n2. Embasamento da história, que define de onde ela começa e para onde vai.\n3. Plot twist com o mecanismo único (diferencial do produto em relação aos outros do mercado).\n4. Oferta de construção, onde entram o valor do produto e os bônus.",
+      "evidencia": "para depois termos um plot twist com um mecanismo único.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Oferta de construção: produto base mais três bônus",
+      "tipo": "estrutura",
+      "tema": "oferta-e-entregaveis",
+      "tarefas": [
+        "montar-oferta",
+        "escrever-pitch-e-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 257,
+      "fim": 380,
+      "condicoes": "Exemplo dado para produto de aulas e de emagrecimento; o preço de 99 reais é do exemplo, não recomendação.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na oferta que vem depois do mecanismo único, o professor monta o pacote assim:\n1. Produto base: as aulas do método vendido, com o valor dele (no exemplo, 99 reais).\n2. Bônus 1: no exemplo de emagrecimento, uma receita de 30 dias, algo do tipo PLR.\n3. Bônus 2: aulas bem rápidas para se exercitar em casa.\n4. Bônus 3: sempre o incrível, aquele que vale o produto inteiro, sem o qual a VSL não entrega o senso de urgência.\nO professor usa \"bônus\" como termo didático; na fala de venda diz que é incluído.",
+      "evidencia": "Você vai dar um bônus para a pessoa.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "O bônus incrível: contato direto com o expert",
+      "tipo": "regra",
+      "tema": "oferta-e-entregaveis",
+      "tarefas": [
+        "montar-oferta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 322,
+      "fim": 428,
+      "condicoes": "Quando quem vende é o expert do produto, o contato pessoal é o bônus indicado; os tempos de live são exemplos do professor.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O bônus incrível deve ser algo surreal, como uma live dizendo à pessoa exatamente o que fazer, uma consultoria grátis ou um grupo de WhatsApp. O professor diz que essa é a parte mais importante da oferta. Se o vendedor é o expert do produto, deve dar ao lead a chance de conversar com ele e de apresentar seus projetos, porque foi nele que o lead depositou a confiança. Num produto de renda extra com Airbnb, por exemplo, ele sugere 15 minutos, 30 minutos ou 1 hora de live para o lead colocar em prática. O efeito esperado é o lead achar que vale a pena e que está barato.",
+      "evidencia": "Se você vende um produto onde você é o expert, dê a possibilidade do lead conversar com você nessa parte.",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Copy de exemplo de emagrecimento com bônus incrível",
+      "tipo": "exemplo",
+      "tema": "pitch-e-cta",
+      "tarefas": [
+        "escrever-pitch-e-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 428,
+      "fim": 566,
+      "condicoes": "Copy de exemplo de produto de emagrecimento; preço, parcelas, garantia e credenciais citados pertencem ao texto fictício e não são fato nem régua.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala mistura uma versão que o professor descarta (valor cheio, 99 reais e 7 dias de garantia) e a que ele apresenta como a certa (12 parcelas); a divisão não é totalmente clara na transcrição.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor lê uma fala de oferta para um produto de emagrecimento, depois do plot twist.\nO que aconteceu: ele descarta a discussão de quanto o produto vale e apresenta o preço parcelado em vez de cheio. Depois entrega em sequência o treinamento do mecanismo único, o bônus de receitas com ingredientes caseiros, as aulas de exercício em casa e, por último, a live personalizada por peso e altura, com garantia de emagrecer sustentada pela experiência do autor fictício.\nLógica: a ordem vai do produto base ao bônus mais valioso, deixando o incrível para o fim. Os números e credenciais citados são da copy de exemplo.",
+      "evidencia": "Não, você vai falar com ela que o valor é 12 vezes de R$9,90,",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Com o bônus incrível, dispensar garantia, valor e feedbacks",
+      "tipo": "regra",
+      "tema": "oferta-e-entregaveis",
+      "tarefas": [
+        "escrever-pitch-e-cta",
+        "definir-preco-e-garantia"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 570,
+      "fim": 597,
+      "condicoes": "Preferência do professor, válida quando a oferta traz os três bônus com o último realmente incrível.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala anterior cita garantia de 7 dias e o valor de venda; a leitura aqui é a do fecho, que dispensa esses elementos quando o bônus incrível existe.",
+      "proposta_tag": null,
+      "corpo": "Quando a oferta tem os três bônus e o último é incrível, o professor diz que não é preciso falar de garantia, de quanto o produto vale nem de feedbacks. Segundo ele, ao chegar nessa parte o lead se arrepia, conclui que se não emagrecer com essa pessoa não emagrece mais e compra.",
+      "evidencia": "Você não precisa de feedbacks",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Aula adia a VSL completa e cita a oferta do próprio curso",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 599,
+      "fim": 651,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor promete que, nas próximas aulas, vai criar uma VSL aplicando esse molde. Diz também que a VSL que vendeu o curso segue a mesma lógica: treinamento como produto, bônus, aulas do Kishotenketsu em outra temporada e uma conexão direta pelo WhatsApp pessoal dele para corrigir a VSL do aluno. Esse trecho é oferta e demonstração do próprio produto; a aula não o desenvolve como orientação.",
+      "evidencia": "Você vai ver uma VSL que eu vou criar",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        1
+      ],
+      "retiradas": [],
+      "observacoes": "C1: o corpo da U001 tinha \"de hoje\" (\"a VSL comum de hoje\"), termo proibido pelo contrato como marcador temporal. Na fonte a fala é \"Normalmente uma VSL normal hoje\", uma marca de tempo da fala. Retirei \"de hoje\" do corpo. Não mudei mais nada: título, tipo, tema, tarefas, faixa 33–92, condições, nota e evidência (\"utilizam somente o narrador e o protagonista.\", a 00:00:59–00:01:04, dentro da faixa) ficaram iguais. O schema desta entrega não aceita o campo `versao`, então o executor deve incrementá-lo."
+    }
+  ]
+}

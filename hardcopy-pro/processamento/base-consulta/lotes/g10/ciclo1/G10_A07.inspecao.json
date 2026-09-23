@@ -1,0 +1,147 @@
+{
+  "aula": "G10_A07",
+  "arquivo_sha256": "aaad3d66d290ce669e8232296339e7082019ea2a9bf95ba917a40a0b46a06059",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 2]; as demais mantêm a evidência da inspeção integral do arquivo bc708c1b153b, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    2
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "fa18de02348a401b1966d799048b6f148f6f28e478f74b6ee257103b068997a3",
+    "2": "ce2acb8f559001f8a73f428edff9ffa0e11529a20cd0363ff5eea55f2eb7444b",
+    "3": "a585657464818335c46eee7eb6781d9074495497b3fdae0142a64404becf9a3b",
+    "4": "274ca03dda16e4556f3528ca33243bfc7a8c0a0a6da0155d7ce67e9400ddcea6",
+    "5": "403997edf1eb824bf2b05fc470ae569a162403656fa6d9ced17c50ad90bd6710",
+    "6": "6dfb0ab0f71442eed88fbb24af47969f0711b9af178eeed4326b9b4e7885c7b2",
+    "7": "c8809188770d31109aa9c711a7e1fcadc76ff20e2ef1d21634cf2be630d877c8",
+    "8": "da356ca0e7e0d5cd8c0e79dfab9180fcc620f561dd5a8784109ade3250373f23",
+    "9": "5ac27d5a6a256c5bfbd9c2204c6769b31d6f8a5a8932a292f62760cdd2f029d6"
+  },
+  "citacoes_nao_literais": [],
+  "contrato": [
+    "Falta uma unidade tipo `limite` dedicada a 'conteúdo que só existe na tela', como o FORMATO pede para aula de tela ('registrar um limite dizendo o que a transcrição não captura'); a aula só cobre isso no campo `contexto` (item 4), que não é citável como unidade pelo agente.",
+    "Unidade 2 mistura, em `plataformas`, tiktok/youtube/instagram (citadas só como conselho lateral de conteúdo orgânico) com um corpo que é uma regra geral de estratégia de anúncios pagos; um agente filtrando por essas plataformas pode ser levado a um lugar que não entrega o que procura."
+  ],
+  "material": [
+    "Esta aula não tem material de apoio (`material_ausente`); todas as unidades usam corretamente `fonte: fala`, sem uso indevido de `fonte: material`. Não há divergência fala×material a registrar para G10_A07."
+  ],
+  "omissoes": [
+    {
+      "inicio": 170,
+      "trecho_fonte": "a gente vai começar com um boom, com algum estouro",
+      "descricao": "O professor instrui iniciar o trecho/vídeo com um som de impacto ('boom'/estouro) logo na abertura, uma dica pontual de sonorização coerente com o tema do episódio ('Atenção!'). Nenhuma das nove unidades preserva essa orientação.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades não saberá que o professor recomenda abrir a peça com um som de impacto para prender a atenção logo no início."
+    },
+    {
+      "inicio": 537,
+      "trecho_fonte": "a gente vai colocar essa parte mais alta na parte mais importante dessa parte aqui",
+      "descricao": "O professor ensina a alinhar o trecho mais intenso/alto da faixa musical com o momento mais importante do vídeo — técnica distinta da precisão de encaixe de 0,2 segundo já registrada na unidade 6 (que trata do ponto de entrada, não da intensidade da música). Nenhuma unidade preserva esse princípio.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir as unidades pode encaixar a música no tempo certo mas sem casar a parte mais intensa da faixa com o clímax do conteúdo do vídeo, perdendo parte do efeito pretendido."
+    },
+    {
+      "inicio": 602,
+      "trecho_fonte": "aqui é muito importante você diminuir o som",
+      "descricao": "O professor marca explicitamente como 'muito importante' diminuir o volume da música em certos pontos do vídeo, além do fade já demonstrado. Nenhuma unidade generaliza essa ênfase sobre redução de volume.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir as unidades pode não perceber que o próprio professor destaca a redução de volume em pontos-chave como algo relevante, mesmo que o exato onde/quando dependa de contexto visual não recuperável só pela fala."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 3,
+      "problema": "perecivel:false, mas o corpo cita efeitos sonoros nomeados da biblioteca do CapCut ('clique de câmera', 'payment', 'microondas') — recurso de plataforma que pode ser renomeado ou removido; deveria ser perecivel:true mesmo com plataformas marcada como 'geral', pois o princípio geral está amarrado a recursos específicos de uma ferramenta."
+    }
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu só pego o seu projeto se eu colocar o sentimentalismo no seu produto",
+      "explicacao": "F1 resolvida pelo critério de aceite: a glosa '(uso emocional do som)' foi removida do corpo; nem corpo, nem título ('Sentimentalismo no som como diferencial que o professor vende'), nem nota definem ou parafraseiam 'sentimentalismo', termo que a fonte usa sem definir (bate com o vocabulário do FORMATO: 'sentimentalismo... não definir por conta própria'). O corpo mantém apenas o relato — só assume o projeto se colocar sentimentalismo, senão o cliente 'voltaria a ter' ROI 2, 1 ou 1,5 — atribuído ao professor e a clientes dele, com tipo 'exemplo', perecível e nota deixando claro que os números não são dado de mercado confirmado. Não há desvio nem problema novo: nenhum número de caso virou regra geral, nenhuma definição foi inventada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Isso daqui é a base",
+      "explicacao": "F2 resolvida pelo critério de aceite: `plataformas` passou para ['geral'], `condicoes` para null e `perecivel` para false, alinhado à fonte ('Isso daqui é a base' / 'É criativo e lead'), que não nomeia rede nenhuma ao enunciar a regra. O conselho lateral sobre fazer orgânico em TikTok, YouTube, Instagram e Reels — que na fonte aparece separado, como recomendação para quem ainda não tem essa base, sem dizer 'na edição' nem nada equivalente — foi preservado fielmente em `nota` de U2, uma das duas alternativas explicitamente permitidas pela mudança mínima (não era obrigatório criar unidade nova). Não ficou plataforma específica misturada com 'geral', e a regra não perdeu conteúdo nem ganhou desvio novo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "vamos colocar de novo payment",
+      "explicacao": "Os três efeitos citados (câmera, payment, microondas) estão de fato na fala dentro da faixa 234–482. Duas ressalvas: (1) a fonte só diz 'vamos colocar de novo payment' / 'escreve payment', sem explicar a função do efeito; a descrição do corpo como 'som de notificação/pagamento' é uma inferência do extrator a partir do nome buscado na biblioteca do CapCut, não algo dito na fala; (2) a faixa 234–482 é muito ampla (quase 4 minutos) e sobrepõe integralmente o conteúdo específico de outras quatro unidades (4, 5, 6), o que dificulta verificar qual trecho exato sustenta cada frase do corpo desta unidade."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aqui eu queria transmitir medo, aqui eu queria transmitir raiva e aqui eu queria transmitir a solução, isso não dá pra mudar",
+      "explicacao": "O corpo reflete fielmente a fala: a trilha deve seguir a emoção que a copy já determina em cada ponto, com medo/raiva/solução citados como exemplo desta VSL específica ('essa copy'), não como regra fixa de toda copy — a unidade preserva isso corretamente ao usar 'por exemplo'. Sem desvio de sentido."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e se você estiver fazendo igual eu, conteúdo dark sem aparecer, um take para o outro você tem essa transição, então você pode remover o auto sem problema nenhum",
+      "explicacao": "O corpo preserva corretamente a condição dupla da fonte (vale para rosto aparecendo e para conteúdo 'dark' sem aparecer) e a lógica de que o corte de fala já serve de transição. O trecho ambíguo sobre 'grandes players... depoimentos falsos' foi corretamente deixado de fora e sinalizado em nota, em vez de forçado no corpo — tratamento adequado de fala degradada."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é por causa de 0.2 segundos a gente consegue trazer um sentimento diferente nessa música",
+      "explicacao": "A unidade reproduz fielmente o relato do professor sobre reposicionar o 'plot' da música e atribuir a mudança de sentimento ao deslocamento de 0,2 segundo, exatamente como ele afirma. Uso do termo 'plot' consistente com a definição de 'plot da música' do vocabulário do curso. Classificação como exemplo perecível está correta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não dá pra eu compartilhar ela pra vocês porque o CapCut é meio limitado com isso",
+      "explicacao": "A restrição de compartilhamento da faixa é fielmente registrada, com condição corretamente marcada como incerta ('o professor não especifica quais nem a regra exata'). Não se trata de técnica de contorno de política — é uma limitação de licenciamento da própria ferramenta, então a exigência de nota 'Contorna política...' não se aplica aqui."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Perante sprays do mercado olhando para você como um vídeo de som de notificação.",
+      "explicacao": "Classificação correta como limite por trecho degradado da transcrição; a unidade não tenta extrair orientação de um trecho incompreensível, apenas o sinaliza, dentro da faixa correta (764–774)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu mudo o som de fundo dele com várias músicas diferentes, a música que mais performar foi a melhor música",
+      "explicacao": "O corpo reproduz corretamente o método descrito: variar apenas a trilha sobre um criativo já validado e usar a performance para decidir a melhor. Atribuição à prática pessoal do professor ('hoje na minha operação eu faço literalmente isso') está preservada implicitamente e não é apresentada como regra de mercado."
+    }
+  ],
+  "resumo": "Nesta conferência focal, as duas falhas apontadas foram corrigidas dentro do critério de aceite: em U1 a glosa inventada para 'sentimentalismo' foi removida, restando o termo indefinido e o relato do professor sobre ROI de clientes marcado como exemplo perecível, sem virar regra de mercado. Em U2 as plataformas específicas (tiktok/youtube/instagram) foram trocadas por 'geral', condição e perecibilidade ajustadas, e o conselho lateral sobre conteúdo orgânico foi preservado fielmente em nota, opção permitida pela lista de falhas. Nenhuma das duas correções introduziu desvio, sem-lastro ou problema de perecibilidade/contrato novo. As unidades 3–9 não foram reabertas, conforme instruído."
+}

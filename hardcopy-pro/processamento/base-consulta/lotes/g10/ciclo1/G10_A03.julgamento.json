@@ -1,0 +1,19 @@
+{
+  "aula": "G10_A03",
+  "arquivo_sha256": "e4539564fd47d4658d59ea0aa4b42495996725a4ed0c91dc4d93e95270f86d8f",
+  "inspecao_sha256": "6e7c5bd2a6d84519298b55a92afaf1cb5b4a6875f791d26d57faab624c477ad7",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos após a correção. `versao` da unidade 2 está em 2, como exigia o critério de aceite; o histórico de `correcoes` registra o ciclo 1 com a unidade alterada e a justificativa. Nada a apontar.",
+  "fidelidade": "F1 resolvida pelo critério de aceite. O inspetor reconferiu a unidade 2 com a fonte, citou trecho literal (\"é só pra não deixar a voz no ar, né? Igual as pessoas falam.\", não listado em `citacoes_nao_literais`) e atestou, oração por oração, que todo o corpo tem lastro dentro da nova faixa 73.82–135.82, com a `evidencia` ainda dentro dela (131.98–135.82). Reclassificação de `faixa-errada` para `lastreada`; proporção de faixa errada cai para 0 de 3. A correção foi só de `inicio`, sem tocar corpo ou metadados semânticos, então não há sentido novo a conferir. A sobreposição com a faixa da unidade 1 (30–109.66) não é proibida pelo FORMATO e não altera o que cada unidade afirma. Unidades 1 e 3 intactas, hash conferido, evidência anterior (`lastreada`) preservada.",
+  "cobertura": "Inspeção declara `omissoes: []` no acumulado da inspeção integral. Aula curta e só teórica; a unidade 3 (`limite`) registra que a demonstração dos cortes e a construção do sentimentalismo ficam para o episódio seguinte, o que é o resultado esperado. Nada a apontar.",
+  "perecibilidade": "Unidade 1 `perecivel: true` (plataforma `meta-ads` e contorno de política); unidade 3 `perecivel: true` (referência à estrutura do curso); unidade 2 `geral` e não perecível, coerente com orientação de som que não depende de rede nem ferramenta. A alteração de faixa não muda nada aqui.",
+  "aplicabilidade": "O corpo da unidade 2 não mudou e se sustenta sozinho: a condição (\"sempre que uma música for usada no vídeo\") está explícita no próprio corpo, o sentido de \"lead\" (prospect) fica evidente pela ligação com a compra, e não há referência que dependa da aula. Unidade 1 traz a `nota` de contorno no formato exigido, tema `politicas-e-bloqueios` e plataforma `meta-ads` coerentes com a menção explícita ao Facebook. Unidade 3 é `limite` claro sobre o que a aula não cobre. Nenhuma alteração criou problema novo.",
+  "falhas": [],
+  "ajustes_menores": [],
+  "proximo": "Nenhuma pendência. Gravar o julgamento com veredito `passa`, promover o status da aula a `revisado` e seguir para a próxima aula do lote."
+}

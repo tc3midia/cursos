@@ -1,0 +1,98 @@
+{
+  "aula": "G10_A02",
+  "arquivo_sha256": "e77efac0f694f82bb1c3e7e06d90d3be11cfacccf760c34ebba7f8f7c49b6c68",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 7]; as demais mantêm a evidência da inspeção integral do arquivo 65ea416b8c7c, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    7
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "e4c4806fb1143da52b46274ed34a9c7ded761da91477b22d0aebda480febb4bc",
+    "2": "35977a26d6fcdba2e71594fe65685ceea58c795e821a5a8153e54be064264a83",
+    "3": "291ae278bbf02391ecaed8ba683a8762570265c147f8f19384dc88198816e780",
+    "4": "ae5dc683eb9e83056fe088188fd43c99040086ead7e43c9a5aba71665ac24958",
+    "5": "077ea02e14521929c63c3cf06e45663473f68e60d1ce21f2bbaffb59acf2d72c",
+    "6": "20dfd4923bf06f1baf00b4b35e082cc796a0aeb15ffadfbefc56c1bef236e938",
+    "7": "4612d96096004122651343cbfda638ca911e4b71fbfae8a4709bd27213096bfd"
+  },
+  "citacoes_nao_literais": [],
+  "contrato": [
+    "Unidade 7 (regra sobre bloqueio por direito autoral) tem plataformas: ['youtube'], mas a própria nota da unidade reconhece que a fala menciona genericamente bloqueio de anúncio em 'plataformas' sem nomear qual, e só especifica YouTube para o corte de monetização ('Porque em plataformas elas bloqueiam o anúncio e em monetização, no qual muita gente trabalha hoje, como canal Dark, YouTube, eles cortam a monetização do seu vídeo.'). Classificar a unidade inteira só como youtube pode levar um agente que busca risco de bloqueio de anúncio em outras plataformas (ex.: meta-ads, geral) a não encontrar essa unidade, mesmo a parte sobre bloqueio de anúncio não sendo específica de YouTube.",
+    "Unidade 6 anuncia que a próxima aula vai ensinar a baixar músicas 'sem pegar copyright' — mesmo padrão do que a regra do curso chama de técnica de contorno de detecção de direito autoral, que exigiria nota começando por 'Contorna política de plataforma ou direito de terceiros:'. A unidade não tem essa nota (nota: null). Como o procedimento em si fica para a próxima aula (fora desta fonte), fica em aberto se a exigência já vale para esta unidade de limite ou só na aula que efetivamente ensinar o passo a passo; registro para decisão do juiz."
+  ],
+  "material": [],
+  "omissoes": [],
+  "perecibilidade": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "chegou a hora de mostrar pra eles como se vende através da verdade",
+      "explicacao": "O corpo descreve corretamente o trecho inicial (00:30-01:35) como um anúncio do próprio professor convidando a clicar em 'saiba mais' para outro vídeo, prometendo vender 'sem prometer carro, mansão e essas balelas' e baseado em 'falta de promessa e superação de expectativa'. Classificação como limite/oferta está de acordo com a regra do curso para trechos promocionais; não há conteúdo didático da aula sendo perdido aqui."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque tem uma coisa chamada contexto E ela é inimiga do texto E quando os dois se juntam Ficam maravilhosos E dá uma persuasão enorme",
+      "explicacao": "A correção do ciclo 1 removeu a frase sem lastro ('sozinhos, cada um rende menos resultado') e passou a registrar exatamente o que a fala diz: o professor chama o contexto de inimigo do texto e afirma que, quando os dois se juntam, ficam maravilhosos e dão uma persuasão enorme. Isso elimina a contradição com a U3 (que registra que quem tem contexto vende com 'qualquer bosta que fale'): a U2 agora só sustenta que copy forte sem contexto tende a vender pouco (lastreado em 'você ter uma copy muito forte... Provavelmente você não vai conseguir vender ele bem'), sem insinuar que contexto isolado também renderia pouco. Faixa (108–146), evidência e condições permanecem coerentes com a fonte; nenhum problema novo foi introduzido pela edição."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Então se a gente pegar o Thiago Finch, Pablo Massal",
+      "explicacao": "A transcrição registra o nome do exemplo como 'Pablo Massal', não 'Pablo Marçal' como está no corpo. Esse nome não consta na tabela de grafias do curso e não é claramente identificável só pela fonte; pela regra do FORMATO para termos não tabelados, deveria ter ficado citado como transcrito, entre aspas, com nota e confiança baixa, em vez de corrigido silenciosamente com confiança alta. O restante da definição de 'contexto' e do exemplo (Thiago Finch, texto antes do contexto) está fiel à fala."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A única forma de você ter o contexto É fazendo uma boa edição",
+      "explicacao": "O corpo reflete fielmente a fala: para quem começa sem contexto, a saída é boa edição e bom sistema de áudio, e o professor cita edição + áudio + cópia como seu maior contexto atual, chegando à excelência ao juntar os três. A condição ('quem está começando, sem contexto') está preservada."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "No momento em que está falando Sobre o beat de vendas",
+      "explicacao": "O corpo traduz 'beat de vendas' como 'pitch de vendas', mas a fala usa literalmente 'beat de vendas', termo que não está na tabela de grafias do curso e não é claramente equivalente ao 'pitch' definido em outra aula (G02_A09). Deveria ter ficado citado como transcrito, com nota e confiança baixa, em vez de substituído por um conceito já definido no curso, que pode não ser o mesmo. O restante da regra (não usar áudio triste em momento que pede clima diferente, exemplo de 'Happy Nation') está fiel à fala."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na próxima aula eu vou te mostrar Como que você vai baixar essas músicas",
+      "explicacao": "O corpo reflete corretamente que o professor adia para a próxima aula o passo a passo de baixar músicas sem problema de direito autoral, e a unidade está corretamente classificada como limite. Ver observação em 'contrato' sobre a ausência de nota de contorno de política."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque em plataformas elas bloqueiam o anúncio e em monetização, no qual muita gente trabalha hoje, como canal Dark, YouTube, eles cortam a monetização do seu vídeo.",
+      "explicacao": "A correção acrescentou 'geral' à lista de plataformas mantendo 'youtube', o que reflete com fidelidade a fonte: o bloqueio de anúncio é dito de forma genérica ('em plataformas elas bloqueiam o anúncio', sem nomear qual rede), enquanto o corte de monetização é atribuído especificamente a canal do tipo 'Dark' no YouTube — a própria `nota` da unidade já registrava essa distinção. Isso resolve a lacuna de cobertura de F2: a unidade volta a aparecer em revisar-risco-de-bloqueio × geral sem deixar de aparecer em × youtube. Não há regra no FORMATO proibindo combinar 'geral' com uma plataforma específica na mesma unidade (a exigência é só ≥1 valor do enum e `perecivel: true` quando há plataforma além de `geral`, já satisfeito); corpo, faixa e evidência não mudaram além desse ajuste, então nenhum conteúdo lastreado foi alterado."
+    }
+  ],
+  "resumo": "As duas falhas da rodada anterior foram corrigidas dentro do critério de aceite: a U2 deixou de sugerir que contexto sozinho rende menos resultado, ficando coerente com a U3, e a U7 passou a listar 'geral' junto de 'youtube', restaurando a cobertura de revisar-risco-de-bloqueio para plataformas genéricas sem perder a referência específica ao YouTube. As duas unidades revisadas ficam lastreadas na fonte, sem gravidade residual, sem violação de contrato e sem nova lacuna de perecibilidade ou de cobertura decorrente da correção. As demais unidades do arquivo não foram reabertas, conforme o escopo desta conferência focal."
+}

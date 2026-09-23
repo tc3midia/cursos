@@ -1,0 +1,65 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "a16910b3b5efec6f31214fcfe52e1a7c10ba5f4e9fac008094266e8ec8559d16",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "ba1f39e20e65b98af76dc0ed9db06db401ce3e4b8680adb18e5994f26ff65961",
+    "2": "85764a2348a7a2374fa510a2ea8dc1eb5866ed429b549c57f0ba925b57763127",
+    "3": "4b1b73fad89722437ede0b554dc71154ecf7bdafcaac4e2c334c3669e632b8d2",
+    "4": "e42a47e5d14bd4e2a50e36a38c905cc865a3f2b0aa78d9e31b359d5c122b356e"
+  },
+  "citacoes_nao_literais": [],
+  "contrato": [
+    "Unidade 3 está tipada como `regua`, mas o número (compra a R$79, venda a R$169–189) é dado pelo professor com 'provavelmente' sobre 'esse produto aqui' — o exemplo específico do abajur 'Light Touch' usado no módulo —, não como parâmetro validado de mercado para dropshipping em geral. Isso é caso de exemplo apresentado como régua (ver apontamento em `unidades`); o tipo correto seria `exemplo`, com `condicoes` marcando que é uma estimativa de caso único. Manter como `regua` pode levar um agente que busca parâmetros de precificação de dropshipping a tratar uma estimativa avulsa como referência testada.",
+    "Unidade 2 marca `plataformas: [\"capcut\"]` (e por consequência `perecivel: true`) tendo como única base o título do episódio ('Episódio 6 - CapCut') e o nome do arquivo de vídeo; a fala não nomeia CapCut nem nenhuma outra ferramenta de edição em nenhum momento da transcrição. A `nota` da unidade admite isso, mas um agente que consultar `cobertura.jsonl` por tarefa=editar-video × plataforma=capcut encontrará esta unidade e pode esperar conteúdo real de CapCut, quando na verdade ela só registra a ausência de qualquer passo de ferramenta na fala."
+  ],
+  "material": [],
+  "omissoes": [],
+  "perecibilidade": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "uma música um pouco mais pesada E com sons bem fortes também, igual esse clique",
+      "explicacao": "O núcleo do corpo (bloco de drama com suspense/medo/terror seguido de bloco de calmaria quando o produto aparece) está corretamente lastreado em 00:00:29.980–00:01:09.840, dentro da faixa declarada (inicio=30, fim=70). Porém o corpo também afirma que o bloco de drama usa 'música mais pesada e efeitos sonoros fortes (como um som de clique)' e que o bloco de calmaria 'corta os efeitos fortes e a música pesada' — esse detalhe específico só aparece depois, quando o professor comenta o anúncio já exibido, em 00:02:25.820–00:02:39.320 (~146–159s), fora da faixa 30–70 declarada pela unidade. Quem conferir a fonte no intervalo indicado não encontrará essa parte do corpo, embora o conteúdo exista mais adiante na aula. Recomenda-se ajustar `fim` para cobrir esse trecho ou remover o detalhe específico do 'clique' do corpo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Olha só, eu fiz aqui nesse início toda a parte de drama aqui e aqui eu já comecei uma coisa mais leve, mais tranquila, mais calma, por quê?",
+      "explicacao": "O corpo descreve com precisão que a fala, nesse intervalo (00:01:10.560–00:01:39.180), só mostra o professor apontando para uma edição já pronta ('eu fiz aqui', 'olha como que ficou') sem nomear nenhum programa, menu ou comando, o que é fiel ao trecho. A ressalva é a `plataforma: capcut` e a identificação da ferramenta: a fala nunca cita CapCut nem nenhuma variante deformada do nome (não há 'cap cut' nem 'TapCut' na transcrição desta aula); a única base para CapCut é o título do episódio e o nome do arquivo de vídeo, fora do que a fala e o material dizem. A `nota` registra isso corretamente, o que evita um `sem-lastro`, mas a classificação de plataforma depende de uma fonte que não é a fala/material transcritos."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Ele está saindo aí a R$ 79 Você vai vender a R$ 169 R$ 189 Com a página de vendas bem feita",
+      "explicacao": "Os números em si (R$79 de compra, R$169–189 de venda) estão citados corretamente, mas o professor os dá como estimativa ('esse produto aqui provavelmente') para um único produto de exemplo — o abajur fictício ('Light Touch') usado no anúncio que acabou de comentar —, não como parâmetro geral de mercado para produtos físicos de dropshipping. A unidade generaliza isso em `tipo: regua` e em `condicoes` ('Vale para produto físico vendido por dropshipping/e-commerce'), transformando um número de caso único, dito com incerteza, em régua de mercado. Pelo FORMATO, 'número de caso... é exemplo, perecível, nunca regua'; e pela rubrica, 'número de caso narrado apresentado como regua ou como regra geral = desvio'. Efeito prático: quem consultar essa unidade pode tratar essa faixa de compra/venda como testada e replicável para qualquer produto de dropshipping, quando é uma estimativa avulsa sobre um único exemplo didático."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A Red Bull não mostra o seu energético Ela mostra a experiência Ela mostra a energia Do que você vai ter tomando o Red Bull",
+      "explicacao": "O corpo reproduz fielmente os exemplos de Red Bull (mostra a experiência/esporte, não o energético) e Coca-Cola (raramente mostra o produto, mostra felicidade e família), presentes entre 00:03:25.900 e 00:04:17.500, e a aplicação da mesma lógica ao anúncio do abajur ('ele não sabia que precisava de um abajur até ele ver esse vídeo'), em 00:04:24.120–00:04:31.840. Não há número de caso, condição ou atribuição alterada; a generalização como `regra` é adequada porque o professor apresenta isso como princípio, não como resultado de um teste específico."
+    }
+  ],
+  "resumo": "O arquivo tem quatro unidades, três delas bem lastreadas na fala e uma com desvio material: a unidade 3 transforma uma estimativa de preço dada com incerteza para um único produto de exemplo (o abajur fictício 'Light Touch') em régua geral de mercado para dropshipping, o que a rubrica trata explicitamente como desvio. A unidade 1 tem um problema menor de faixa: parte do corpo (o detalhe do efeito sonoro de 'clique') vem de um trecho da fala situado bem depois do `fim` declarado. A unidade 2 é fiel ao que falta na fala, mas sua identificação de plataforma como CapCut depende só do título do episódio, não da transcrição, o que é sinalizado em `nota` mas vale registro em contrato. A unidade 4 está integralmente lastreada, sem problema de fidelidade, gravidade ou perecibilidade; não foram encontradas omissões adicionais além do já apontado na unidade 1."
+}

@@ -1,0 +1,61 @@
+{
+  "aula": "G01_A09",
+  "arquivo_sha256": "391b5f4b32472b2b8c78c80a65c458ff7eeac039e0263831fc93fde09859151e",
+  "inspecao_sha256": "6d88ee6a55c6756a9068c87b72303082a6d32815934c41c801f769197c786050",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador terminou com zero erros. O aviso de 2 unidades fora da faixa 3–60 é esperado para um episódio de encerramento de 549 palavras sem técnica nova e não pesa. O inspetor registrou a classificação da unidade 1 no campo `contrato`, mas o ponto é de aplicabilidade e foi julgado lá.",
+  "fidelidade": "Falha, por dois pontos, ambos com trecho literal e nenhum listado em `citacoes_nao_literais`.\n(1) Unidade 1, `faixa-errada`. O conteúdo tem lastro, mas a frase final do corpo (o foco do curso é a carta de vendas persuasiva) está na fonte entre 164,56 s e 178,58 s, e `fim` é 163. São 1 de 2 unidades com faixa, ou 50%, acima do teto de 10%. A rubrica conta por unidade e não abre exceção para arquivo pequeno. Eu não rebaixo a régua. A correção é mecânica.\n(2) Unidade 2, `desvio` de sentido com fonte clara. Na fala, \"não limitar por tempo\" se refere ao \"tipo de conteúdo que eu te passei agora\", isto é, à temporada já assistida. No corpo, a frase vem logo depois da descrição do próximo módulo, e \"esse conteúdo\" passa a apontar para ele. O efeito prático é pequeno, mas é uma afirmação sobre o curso que a fonte não faz, e a rubrica não autoriza manter desvio conhecido. Entra na lista porque custa uma frase.\nO restante das duas unidades está lastreado, segundo o inspetor. A troca de \"era\" por \"é\" na frase do foco é ajuste menor.",
+  "cobertura": "Passa. O inspetor declara alcance integral e busca de omissões na fonte inteira, e não achou nenhuma. Motivação pessoal, reembolso e alegação de originalidade ficaram de fora, o que a rubrica não conta como omissão. O anúncio da próxima temporada tem o `limite` correspondente (unidade 2).",
+  "perecibilidade": "Passa. As duas unidades tratam da estrutura do curso e das temporadas e estão com `perecivel: true`. O inspetor não achou perecível escondido.",
+  "aplicabilidade": "Falha na unidade 1. `tipo: estrutura` com tarefa `estruturar-vsl` e o título \"atos do Kishotenketsu\" apresentam como molde o que a fonte dá como recapitulação da temporada (\"aqui vai um resumo de tudo que eu usei nessa temporada\"). São três pontos, só o terceiro nomeado pela fala, e o quarto ato não aparece, como a própria `nota` admite. Pela taxonomia, `estrutura` é molde com partes fixas e nomeadas para preencher com conteúdo novo, e aqui não há molde. Por isso a classificação não é defensável entre dois valores.\nO efeito é o seguinte. No índice de `estruturar-vsl`, agrupado por tipo, a unidade aparece ao lado da estrutura real de quatro atos como um esqueleto de três partes sem Ketsu. Um agente que monta skill de VSL pode adotá-lo ou registrar duas estruturas conflitantes. O corpo e a `nota` atenuam o risco, mas tipo e tarefa são o que leva o agente até ali.\nA unidade 2 se sustenta sozinha. `limite`, `curso-e-recursos` e `usar-recursos-do-curso` estão corretos.",
+  "falhas": [
+    {
+      "id": "G01_A09-F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, `faixa-errada` com trecho literal na fronteira: \"um conhecimento a mais. Que o foco\". A frase \"Que o foco desse curso era de fato você conseguir escrever uma carta de vendas persuasiva ao ponto do seu lead implorar pra te comprar\" ocorre entre 164,56 s e 178,58 s. A unidade tem `inicio: 128` e `fim: 163`. São 1 de 2 unidades com faixa (50%), acima do teto de 10% da rubrica.",
+      "impacto": "Quem confere a unidade pela faixa, seja agente, inspetor ou script de auditoria, não encontra a última frase do corpo dentro de `inicio`–`fim`. Parte da unidade fica inverificável no intervalo citado.",
+      "mudanca_minima": "Estender `fim` da unidade 1 para cobrir a frase, cerca de 179, respeitando o limite de fim da transcrição + 2. A alternativa é retirar do corpo a frase sobre o foco do curso. Incrementar `versao`.",
+      "criterio_de_aceite": "Todo o conteúdo do corpo da unidade 1 está dentro de `inicio`–`fim`: ou `fim` ≥ 179, ou a frase do foco do curso não consta mais no corpo. A evidência continua dentro da faixa. O validador termina com zero erros. O inspetor marca a unidade 1 sem `faixa-errada`."
+    },
+    {
+      "id": "G01_A09-F2",
+      "unidades": [
+        1
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "A unidade tem `tipo: estrutura`, `tarefas: [estruturar-vsl]` e o título \"A própria temporada como exemplo dos atos do Kishotenketsu\". O inspetor cita a fonte: \"aqui vai um resumo de tudo que eu usei nessa temporada\". São três pontos (primeiro episódio, segundo, terceiro) e só o terceiro é chamado de plot twist. A `nota` da própria unidade admite que a correspondência com Ki e Sho não é dita e que o Ketsu não é mencionado. A taxonomia define `estrutura` como molde com partes fixas e nomeadas para preencher com conteúdo novo.",
+      "impacto": "Um agente que consulta `estruturar-vsl` por tipo recebe como estrutura um esqueleto de três movimentos sem o quarto ato. Pode usá-lo para montar a VSL ou tratá-lo como versão concorrente dos quatro atos do Kishotenketsu.",
+      "mudanca_minima": "Reclassificar a unidade 1 como `exemplo`, com corpo em `Situação:` / `O que aconteceu:` / `Lógica:`. A Lógica só pode dizer o que a fala diz: o professor apresenta a temporada como feita com o método, e o plot twist acontece no próprio episódio. Não atribuir Ki, Sho e Ketsu aos pontos. Alternativa: `conceito` com `tarefas: []`. Tirar \"atos\" do título. Se ficar `exemplo`, a tarefa pode continuar `estruturar-vsl` ou passar a `escrever-desenvolvimento-e-plot-twist`, as duas defensáveis. Incrementar `versao`.",
+      "criterio_de_aceite": "`tipo` da unidade 1 é diferente de `estrutura`. O corpo cumpre a regra do tipo novo. O corpo não apresenta os três pontos como molde nem como os atos do método, e mantém a ressalva de que só o terceiro é nomeado pela fala. O título não tem \"atos\". O validador termina com zero erros."
+    },
+    {
+      "id": "G01_A09-F3",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, `desvio` com trecho literal: \"Eu resolvi não limitar por tempo esse tipo de conteúdo, porque eu acredito e eu tenho certeza que você aprendeu algo com esse tipo de conteúdo que eu te passei agora\". Na fonte, o referente é o conteúdo já entregue na temporada. No corpo, \"Ele diz não limitar esse conteúdo por tempo\" fecha a descrição do próximo módulo e passa a se referir a ele.",
+      "impacto": "Um agente que responde sobre o curso pode afirmar que a próxima temporada, ou a criação da VSL, não tem limite de tempo, o que a fonte não diz. O impacto é pequeno e não muda execução, mas é um erro conhecido em unidade sobre recurso do curso.",
+      "mudanca_minima": "Reescrever a última frase da unidade 2 atribuindo \"não limitar por tempo\" ao conteúdo da temporada já assistida, ou retirar a frase. Incrementar `versao`.",
+      "criterio_de_aceite": "No corpo da unidade 2, nenhuma frase atribui \"não limitar por tempo\" ao próximo módulo. Ou a frase se refere explicitamente ao conteúdo já passado na 1ª temporada, ou foi retirada. O inspetor marca a unidade 2 como `lastreada`."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 1: a fonte diz \"o foco desse curso era\" e o corpo diz \"é\". Se a frase for mantida em F1, acompanhar o tempo verbal da fala.",
+    "Aviso do validador (2 unidades, fora de 3–60): é o resultado esperado para episódio de encerramento sem técnica nova. Não exige ação.",
+    "O inspetor registrou a classificação da unidade 1 no campo `contrato`. O ponto é de aplicabilidade e o registro não afeta a decisão.",
+    "Unidade 2: \"não é ensinada nesta aula\" pode virar \"não é ensinada neste episódio nem na 1ª temporada\", para ficar claro sem a aula ao lado. É opcional."
+  ],
+  "proximo": "Este é o ciclo 1 de 2. O redator corrige só F1, F2 e F3, nas unidades 1 e 2, com `versao` 2 nas duas e registro em `correcoes`, sem reextrair a aula. Depois roda `base_fcc.py` e confirma zero erros. Como o hash das duas unidades muda, o inspetor refaz a conferência com fonte nas duas, contra os critérios de aceite acima. Ele confere em especial se a Lógica do novo `exemplo`, ou o texto do `conceito`, não acrescenta correspondência com Ki, Sho e Ketsu que a fala não faz. Não é preciso nova busca de omissões, porque a fonte e a rubrica não mudaram."
+}

@@ -1,0 +1,51 @@
+{
+  "aula": "G08_A09",
+  "arquivo_sha256": "bbe3d337c04cf2494bac79dee21c695e0a3e5746a49d253564cb82797c615741",
+  "inspecao_sha256": "c1804e8d752929f225d4cc3de5c5443942762d50d87d1bf0b96dd14761fe76d2",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos: passa. O item que o inspetor listou em `contrato` (tipo da unidade 4) não é erro de script — o validador aceitou o arquivo; é questão de fidelidade e de classificação, tratada em F2.",
+  "fidelidade": "Inspeção integral (5/5) com trechos literais e tempos. Unidade 3: faixa-errada comprovada — dois detalhes do corpo ('cachorro machucado, com dor', 587–601s; rap como música feliz, 373–381s) estão fora de 223,48–280,82s; só 'tristeza no início' e 'terror'/abrir o jogo estão dentro. 1 de 5 unidades com faixa = 20% > 10% ⇒ veto. Unidade 4: desvio de sentido — fala pontual ('esse som é alto', sobre este efeito) virou padrão ('esse tipo de efeito costuma vir alto') no título e no corpo. A citação do inspetor está em `citacoes_nao_literais`, o que reduz seu peso; mas a primeira metade é a própria `evidencia` da unidade (validada por script), a generalização é visível no texto da unidade, e a leitura do inspetor é específica. Entra como F2 com critério que o corretor, que tem a fonte, resolve, e com pedido de trecho literal na reinspeção. Unidades 1, 2 e 5 lastreadas. Nenhum caso de copy de exemplo tratada como fato, passo de tela inventado, resíduo de silêncio, termo deformado ou ressalva suprimida.",
+  "cobertura": "Passa. Duas omissões localizadas pelo inspetor, ambas menores: 'E caça o plot Dessa música aqui' (440,62s) é refinamento de técnica que não impede executar o arco sonoro da unidade 3 e usa termo definido em G09_A06; 'Transição de brilho' (651,24s) é detalhe perecível de tela. O que a fala descreve de réguas, passos e alertas está preservado; cor, transições e faixas que ficaram na imagem estão cobertas pelo `limite` (unidade 5), que é o resultado correto para aula de tela.",
+  "perecibilidade": "Passa. Nada escondido em unidade `geral`: 1 (cortar silêncio/subir volume), 3 (arco emocional da trilha) e 4 (efeito sonoro) não dependem de ferramenta; 2 e 5 estão em `capcut` com `perecivel: true`. Inspetor não sinalizou nada e não vejo perecível disfarçado.",
+  "aplicabilidade": "Passa. As unidades se sustentam sem a aula: jargão ('terror') explicado na própria unidade, pré-condições presentes nos procedimentos, tipos, temas e tarefas coerentes com o conteúdo. Ressalvas menores, sem mudar o uso: unidade 3 com `condicoes` vazio embora o arco triste→terror→feliz siga o roteiro deste anúncio (problema→solução) — a última linha do corpo já enuncia a lógica geral; unidade 4 diz 'num ponto específico' sem poder dizer qual (ficou na tela); `nota` da unidade 2 nomeia 'automação/keyframe' por hipótese do extrator sem marcá-la como hipótese.",
+  "falhas": [
+    {
+      "id": "G08_A09-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal (fora de citacoes_nao_literais): 'e olha só, começamos com tensão, com medo, mostrando cachorro machucado, cachorro com dor' em 587–601s; 'pra gente ir com a música rap [...] uma música mais feliz' em 373–381s. Faixa declarada da unidade: 223,48–280,82s. Dentro dela o inspetor confirma só 'tristeza no início' e 'terror' como abrir o jogo mostrando o problema. Faixa-errada em 1 de 5 unidades com faixa (20%) > 10%.",
+      "impacto": "Quem confere a unidade pela faixa citada não encontra os detalhes das partes 2 e 3 (animal machucado e com dor; rap como música feliz). A âncora de inspeção deixa de servir e a evidência da unidade não pode ser preservada com segurança em rodadas futuras.",
+      "mudanca_minima": "Opção A (preferida, mantém a faixa precisa): retirar do corpo os dois detalhes vindos de fora da faixa — '— no exemplo, um animal machucado e com dor' e '(o professor testa um rap)' — mantendo as três partes do arco e a linha de lógica final, que o inspetor confirma dentro de 223,48–280,82s. Opção B: manter o corpo e ampliar `fim` até cobrir 601,62s, conferindo que a `evidencia` continua dentro. Em ambas, `versao: 2`.",
+      "criterio_de_aceite": "Reinspeção da unidade 3 com veredito `lastreada`: cada frase do corpo tem trecho literal dentro de inicio–fim; `evidencia` dentro da faixa; validador com zero erros."
+    },
+    {
+      "id": "G08_A09-F2",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: a fala diz 'esse som é alto' sobre o efeito específico deste anúncio, sem generalizar; a unidade escreve 'O professor observa que esse tipo de efeito costuma vir com o volume alto' e intitula 'Efeito sonoro de despertar atenção costuma vir alto demais'. Peso da prova: a primeira metade da citação ('Agora vamos colocar um somzinho aqui só pra pessoa acordar') é a própria `evidencia` da unidade, validada por script; a segunda metade ('diminuiu o volume dele, que esse som é alto') consta em citacoes_nao_literais, provavelmente por emenda de dois trechos — não contígua, mas específica e verificável pelo corretor na faixa 577,7–587,4s.",
+      "impacto": "Agente que consulta passa a assumir que efeito de 'acordar' vem sempre alto e a reduzir volume por padrão, regra que o curso não afirma; observação de um caso publicada como regra categórica.",
+      "mudanca_minima": "Reescrever título e segunda frase sem generalizar, p.ex. título 'Efeito sonoro curto para despertar atenção; conferir o volume ao inserir' e corpo '...Nesse anúncio, o efeito inserido estava alto e o professor reduziu o volume logo depois'. Manter `regra` só se a primeira frase for orientação dada pelo professor; se a fala for apenas ação pontual da edição, retipar como `exemplo` (Situação/O que aconteceu/Lógica). Se o corretor encontrar na fala, em 577,7–587,4s, generalização literal ('esses sons costumam vir altos' ou equivalente), manter o texto e registrar o trecho em `correcoes`. `versao: 2`.",
+      "criterio_de_aceite": "Reinspeção da unidade 4 `lastreada` com `trecho_fonte` literal (fora de citacoes_nao_literais) cobrindo a frase sobre reduzir o volume; corpo e título sem afirmação de padrão ('costuma', 'esse tipo de efeito') que o trecho não sustente; validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U5: 'sem nomear valores, faixas ou configurações' é impreciso — o professor nomeia 'Transição de brilho' (651,24s, trecho literal do inspetor). Trocar por 'quase sem nomear' ou registrar a exceção. Não muda o essencial do limite.",
+    "U3: preencher `condicoes` com o perfil de roteiro que o arco acompanha (anúncio que vai de um problema a uma solução; exemplo da aula: pet shop, animal machucado), porque o arco triste→terror→feliz é o deste roteiro e a orientação geral é 'seguir o movimento emocional do roteiro'. Pode ir na mesma edição de F1.",
+    "U2 `nota`: 'corresponde ao recurso de automação/keyframe de volume do CapCut' é identificação por hipótese do extrator, não algo dito na fala; marcar como hipótese ('provavelmente') ou retirar o nome do recurso, mantendo `confianca: media`. O corpo não inventa passo de tela, por isso não é veto.",
+    "U4: 'num ponto específico do anúncio' — a fala só diz 'aqui'; ao reescrever (F2), dizer que o ponto de inserção ficou na tela.",
+    "Omissão menor (inspetor, 440,62s: 'E caça o plot Dessa música aqui'): opcional acrescentar à parte 3 da unidade 3, ou em unidade nova (número 6), a instrução de localizar o plot da música (parte mais importante da faixa, definição de G09_A06) antes de posicioná-la na virada. Não abre ciclo.",
+    "Omissão menor (inspetor, 651,24s: 'Transição de brilho'): opcional registrar o nome da transição usada, em unidade nova perecível/capcut ou na unidade 5. Não abre ciclo."
+  ],
+  "proximo": "Ciclo 1 de 2. Redator corrige F1 e F2 (os ajustes menores podem ir na mesma passada, sem ampliar escopo). Reinspeção focal nas unidades 3 e 4: para a 3, confirmar trecho literal de cada frase dentro da faixa final; para a 4, trazer trecho literal e contíguo (ou dois trechos separados, cada um com marcação de tempo) da frase sobre reduzir o volume e 'esse som é alto' dentro de 577,7–587,4s — isso fecha a incerteza deixada pela citação não literal. Unidades 1, 2 e 5 preservam a evidência se o hash não mudar. O julgamento seguinte confere só esta lista e os efeitos das alterações."
+}

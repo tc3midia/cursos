@@ -1,0 +1,98 @@
+{
+  "aula": "G04_A05",
+  "arquivo_sha256": "d4dfbcfc986cded141eb03b4674746f62e70f26e9ef5c22cafb970cf23e0306f",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "866844d7ca8e33f2ff69e379ff9573c5c26b50aea77f354ad8503d6829f986c4",
+    "2": "013f13a7a5cb1e9aeb871fc69c39fa3e35e697a45a74d770c84a4121e2572519",
+    "3": "8049182d2ef87d29f7f3b778dad926de2ce37acbfc5749728ea498cebc63794c",
+    "4": "8c56359215f784c44388f9e8beb1a758ef42e910b35a8f80bcba4c9a2781a796",
+    "5": "771bc442b2f53b09ab3276a184cf4b573aaf711c8cba1317bbe86f38cdfee6c2",
+    "6": "2e8d50ad99b2277849dbb30cb56d83fe0cbba341b810c1abcf463f8f4f17bfd0",
+    "7": "e2b5ab054108d52b29a0a626bb7a4ce8123122e201047cef2c6dd17e541bf507"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não faça isso com a pessoa que está comprando",
+      "explicacao": "O conteúdo está na fonte: 'Não venda mentiras na internet', o exemplo de emagrecer 20 quilos em 30 dias e o 'não faça isso' dirigido a quem vende e a quem compra. O exemplo aparece como o que evitar e não como régua. Só a menção à pessoa que compra começa em 00:02:54.34 (174,3 s), poucos décimos depois do fim da faixa (174). A evidência e o núcleo da regra ficam dentro da faixa. Efeito prático nulo. A tarefa `roteirizar-anuncio` é discutível, porque o professor diz na mesma aula que ela não tem a ver com anúncios (ver contrato)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Como que você vai fazer isso se você vende uma mentira, uma má experiência pra uma pessoa que não consegue ter o resultado naquele primeiro produto, naquela primeira conexão sua?",
+      "explicacao": "A definição de back-end (vender vários produtos diferentes ao mesmo cliente), a atribuição de que a maioria dos produtos digitais e físicos se consolida por ele e o ponto sobre operações brasileiras que perdem dinheiro no front para formar lista estão na fala. A afirmação sobre as operações vem atribuída ao professor e a nota diz que não foi verificada. A faixa 174–215 cobre o trecho (a última frase termina em 215,6). A conclusão de que a venda seguinte 'fica inviável' é a pergunta retórica do professor em forma afirmativa, sem mudar o sentido."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Essa é a jogada, esse é o jogo",
+      "explicacao": "Os números (nutricionista 'uns 15 mil reais', back-end 'por 97') e a sequência do caso estão na fonte, dentro da faixa 219–259. O tipo `exemplo`, `perecivel: true` e `confianca: baixa` com nota são adequados a um trecho confuso ('a pessoa levou o encapsulado hoje, de mentalidade'). Dois pontos menores: (a) 'Os valores são ilustrativos, não preço nem meta recomendados' e 'exemplo hipotético' são glosas do extrator. O professor não diz isso e fecha o trecho com 'Essa é a jogada, esse é o jogo'. A cautela é coerente com a rubrica, que proíbe número de caso virar régua, mas não é fala dele. (b) A 'Lógica' ('pensar no cliente ao longo do tempo') é síntese, não citação. Consequência baixa: ninguém vai usar 97 ou 15 mil como parâmetro, e o professor não os dá como parâmetro."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Bom, se você fazer isso no emagrecimento, dificilmente você vai ter o mesmo retorno que você vai ter no nicho de marketing digital.",
+      "explicacao": "Todas as afirmações estão na fonte e vêm atribuídas ('Segundo o professor', 'Ele diz'): o digital é o nicho que mais lucra em back-end, o público vê tudo como conhecimento agregável, o retorno em emagrecimento é menor, o digital é o mais difícil de entrar pelo nível de sofisticação do público, e entrar de forma correta e honesta funciona mas não é fácil. A faixa 260–356 cobre o trecho. A unidade não repete o 'sempre vai ser o digital' nem o 'um dos únicos do Brasil', o que é neutro. O tema `oferta-e-entregaveis` é discutível, mas defensável."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Contanto que você pense no produto para a pessoa",
+      "explicacao": "Confere com a fonte: o cliente sente o intuito e o 'porquê' pelo produto e pela VSL, ter Porsche, Ferrari ou mansão não é problema desde que o produto seja pensado para a pessoa e esses bens sejam consequência, e nada disso vale se vende mentira ou só foca em ganhar dinheiro. Tudo está atribuído ao professor. Faixa 362–428 correta. A tarefa `roteirizar-anuncio` é discutível (ver contrato)."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Essa aula de abrindo o jogo pra você que não tem nada a ver com anúncios.",
+      "explicacao": "A afirmação central está na fala e dentro da faixa 358–364. Três pontos menores: (a) 'Não traz técnica de roteiro, estrutura de VSL nem de anúncio' é conclusão do extrator sobre a aula inteira, não frase do professor, embora a leitura completa não mostre nenhum conteúdo desse tipo. (b) 'Apesar do título' também é do extrator; o professor não comenta o título. (c) A explicação da conexão ('intuito e honestidade aparecem no produto e na VSL') está a partir de 00:06:04.1 (364,1 s), logo depois do fim da faixa. Sem efeito prático relevante."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas não vai ter muita coisa nessa segunda temporada não",
+      "explicacao": "O professor diz só que 'não vai ter muita coisa nessa segunda temporada'. A unidade escreve que ela 'terá pouco conteúdo teórico' e atribui isso a ele. O qualificador 'teórico' não existe na fonte e estreita o sentido. O resto confere: próxima aula é recapitulação, a segunda temporada é a de edição e 'a mais pedida', e nela ele mostra como cria os próprios anúncios. A faixa 428–450 está correta. Como a unidade é aviso de estrutura do curso e nenhuma decisão depende dessa palavra, o efeito prático é nulo. Ainda assim, é atribuição ao professor de algo que ele não disse."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "O `contexto` (3ª frase) diz que a abertura e o fim da transcrição 'têm resíduo de silêncio, ignorado'. O FORMATO, seção 3, manda não mencionar resíduo de silêncio no contexto. É correção objetiva: remover a menção.",
+    "Unidade 6 (`limite`): o corpo e o título dependem da aula ('esta aula', 'apesar do título', 'abrir o jogo'). Quem consulta sem a aula ao lado não sabe de que aula ou título se trata. O `tema` `etica-e-promessa` para um `limite` sobre o alcance da aula é discutível (`curso-e-recursos` também seria defensável). Ajuste menor.",
+    "Unidade 7 (`limite`): 'a próxima aula' e 'esta segunda temporada' são referências relativas à posição da aula. Sem a aula, o agente não sabe qual é a próxima. Ajuste menor.",
+    "Unidades 1 e 5: `tarefas: [roteirizar-anuncio]` é discutível. A unidade 6 diz que a aula não trata de anúncios, e as regras das unidades 1 e 5 são éticas e de mentalidade de produto. Como `regra` exige tarefa, a escolha é defensável, mas pode levar quem busca `roteirizar-anuncio` a orientações sem técnica de roteiro. Ajuste menor (classificação discutível entre valores defensáveis).",
+    "Unidade 3: `condicoes` traz 'a transcrição deste trecho está truncada', que é dúvida de transcrição e caberia só em `nota`. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira e conferi as sete unidades contra a fala; a aula não tem material. Nenhuma unidade está sem lastro, não há número de caso virado régua e a ressalva 'Essa é a jogada' não foi invertida. O único desvio é menor: a unidade 7 atribui ao professor 'conteúdo teórico', que ele não diz. Não encontrei omissão: o que ficou de fora é testemunho, motivação e repetição. O erro de contrato objetivo é o contexto mencionar resíduo de silêncio. Os demais apontamentos são ajustes menores de faixa, referências relativas à aula e classificação."
+}

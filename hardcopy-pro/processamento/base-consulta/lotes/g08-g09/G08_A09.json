@@ -1,0 +1,132 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G08_A09",
+  "titulo": "Episódio 9 - CapCut",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula (G08_A09) fica no grupo Produtos Físicos da trilha Hard Ads e mostra o professor editando ao vivo, no CapCut, um anúncio já roteirizado de um pet shop sobre um serviço de banho e tosa.",
+    "Pressupõe que o corte de vídeo e o roteiro do anúncio já estão prontos; o trabalho da aula é a camada seguinte: correção de cor, limpeza de áudio e sonorização.",
+    "Grande parte da aula é o professor apontando a tela com \"aqui\" e \"isso aqui\", então boa parte dos ajustes de cor, das transições e da escolha exata das faixas de música testadas não pode ser reconstruída só pela fala.",
+    "O conteúdo falado mais aproveitável cobre a ordem básica de tratamento de áudio (cortar silêncio, subir volume), uma técnica de equilibrar volume entre música e narração, um arco sonoro para o anúncio (tristeza no início, \"terror\" mostrando o problema, depois solução feliz) e o uso de um efeito sonoro para prender a atenção.",
+    "A aula termina com o professor revisando o anúncio finalizado e anunciando, sem detalhar, um comunicado importante para a aula seguinte, o que não é conteúdo didático.",
+    "Não cobre cadastro de conta, configuração de pixel, publicação do anúncio nem leitura de métricas."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Cortar silêncio e subir volume como primeiro tratamento de áudio",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 48,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: anúncio com o vídeo já cortado, antes de entrar no trabalho de trilha e efeitos sonoros.\n1. Corte as partes em branco (silêncio) do áudio original.\n2. Aumente o volume do trecho de áudio que restou.\nO professor trata isso como o básico do tratamento de som, feito antes da sonorização propriamente dita.",
+      "evidencia": "vamos primeiramente fazer o básico que é tirar as partes em branco do áudio",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Marcar dois pontos de volume para equilibrar música e narração",
+      "tipo": "procedimento",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 492.42,
+      "fim": 501.3,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A técnica descrita ('marcar o primeiro ponto... e no segundo diminuir o volume') corresponde ao recurso de automação/keyframe de volume do CapCut; a transcrição não detalha o menu exato usado na tela, por isso a confiança fica em media.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: trilha sonora e narração já posicionadas na linha do tempo, com um trecho em que a música fica mais alta que a voz.\n1. Marque um primeiro ponto na linha de volume da música, antes do trecho em que ela abafa a narração.\n2. Marque um segundo ponto logo depois e reduza o volume da música nesse intervalo.\nO professor faz esse ajuste porque, no trecho analisado, a música estava muito alta e a parte da narração ficou muito baixa.",
+      "evidencia": "A gente vai marcar o primeiro ponto aqui e no segundo a gente já vai diminuir o volume",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Arco sonoro do anúncio: tristeza, terror e solução feliz",
+      "tipo": "estrutura",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 223.48,
+      "fim": 280.82,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Na abertura do anúncio, use uma trilha com tom triste, para puxar esse sentimento no espectador.\n2. Na parte que mostra o problema, chamada pelo professor de \"terror\", a música abre o jogo e evidencia o que está acontecendo — no exemplo, um animal machucado e com dor.\n3. Na virada para a solução, troque para uma música mais feliz, mais \"happy\" (o professor testa um rap), acompanhando a mudança de humor do roteiro.\nA lógica é fazer a trilha sonora seguir o mesmo movimento emocional que o roteiro do anúncio já percorre.",
+      "evidencia": "Essa parte aqui a gente vai começar com uma tristeza no início e depois a gente vai com a solução do problema",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Efeito sonoro de despertar atenção costuma vir alto demais",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 577.7,
+      "fim": 587.4,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Adicione um efeito sonoro curto para despertar a atenção de quem está assistindo, num ponto específico do anúncio. O professor observa que esse tipo de efeito costuma vir com o volume alto, então ele reduz o volume do efeito logo depois de inseri-lo.",
+      "evidencia": "Agora vamos colocar um somzinho aqui só pra pessoa acordar",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Cor, transições e faixas exatas ficam só na tela do CapCut",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 25,
+      "fim": 30,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula é majoritariamente prática: o professor testa cor, transições e trechos de música diretamente na tela do CapCut, apontando com \"aqui\" e \"isso aqui\" sem nomear valores, faixas ou configurações. A transcrição não permite reconstruir os ajustes exatos de cor, os nomes das transições usadas, as músicas testadas nem os valores de volume aplicados em cada ponto; esses detalhes existem só na gravação de tela.",
+      "evidencia": "Chegamos na hora que a gente vai dar cor para essa gracinha aqui, esse anúncio maravilhoso.",
+      "versao": 1
+    }
+  ]
+}

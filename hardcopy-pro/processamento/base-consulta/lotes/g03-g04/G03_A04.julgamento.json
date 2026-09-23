@@ -1,0 +1,42 @@
+{
+  "aula": "G03_A04",
+  "arquivo_sha256": "2491d67fbcbafe89b48159711af90dacb5f5df8d889d57a6d386985cd4ec89df",
+  "inspecao_sha256": "7ee0fe0f82b71e6e45fae3ad0eac035a7fc5d92ed8758bd1af16b953de77936c",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os quatro itens que o inspetor pôs no campo `contrato` não são erros de script. O de U3 é fidelidade e vai como F1. Os de U4, U5 e U6 são classificação e referência à ordem do curso, tratados em aplicabilidade como ajustes menores.",
+  "fidelidade": "Falha, por U3. O inspetor traz trecho literal da fonte, que não consta em `citacoes_nao_literais`: \"pode ir, pode ir, aí daqui a dois meses você volta nesse treinamento\". O campo `condicoes` de U3 diz que quem insistir \"deve antes rever o treinamento\". Isso inverte a ordem da fonte e contradiz o `corpo` da própria unidade.\n\nO inspetor graduou como menor. Eu gradúo como material por três motivos:\n- A rubrica manda reprovar desvio comprovado de condição contra fonte clara, qualquer que seja a `confianca` ou a `nota`.\n- Condição adulterada está na lista de falha material.\n- `condicoes` é o campo que diz ao agente quando a orientação vale. Do jeito que está, a previsão de fracasso do professor (\"vai, vai queimar dinheiro e voltar\") vira pré-requisito habilitador (\"reveja antes e pode ir\").\n\nA `nota` de U3 fala de trecho parcialmente confuso. Neste ponto, porém, a fonte é clara, e o corpo da unidade a leu certo.\n\nU1, U2, U4, U5 e U6 estão lastreadas. Os desvios de redação sem efeito prático ficam nos ajustes menores: a frase de ligação sem fonte em U1, o \"provavelmente\" em U5 e o título de U4.\n\nU6 não é `faixa-errada`. A âncora e as três marcas do exemplo estão dentro de 320–383 s. Ficaram de fora cerca de 15 s de apresentação da série e cerca de 4 s do fecho. Registro como ajuste menor, de acordo com o veredito `lastreada` do inspetor.",
+  "cobertura": "Passa. O inspetor declara alcance integral (0–394 s) e busca de omissões na fonte inteira, e não encontrou nenhuma. O que ficou de fora é exemplo lateral (pastelaria, psicólogo) e uma frase de efeito (\"aí a gente pode conversar\"). Nenhum dos dois muda a ação. Seis unidades para 1.186 palavras de fonte é proporcional.",
+  "perecibilidade": "Passa. Não há perecível escondido em unidade `geral`. U3 cita produtos irmãos do curso e está com `perecivel: true`. A menção à série e ao Spotify em U6 é caso narrado, não recurso de plataforma. A referência à \"aula seguinte\" em U6 é estrutura do curso em dose mínima e vai como ajuste menor de redação.",
+  "aplicabilidade": "Passa, com ressalvas menores. As unidades se entendem sem a aula ao lado.\n\nA contradição interna de U3 entre `condicoes` e `corpo` também atrapalha o uso. A causa é de fidelidade e está em F1, por isso não abro segundo veto.\n\nAs classificações discutíveis são ajuste menor, porque ficam entre valores defensáveis:\n- `definir-mecanismo-unico` em U5 e U6. A aula não usa o termo, mas \"algo que ninguém vende\" é vizinho do mecanismo único oculto. U5 também se acha por `pesquisar-publico-e-subnicho`.\n- `publico-e-segmentacao` em U4.\n\n\"Capacidade\" aparece sem definição. Isso está correto: a fonte não define o termo e o FORMATO proíbe inventar definição.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"e é o melhor método, beleza, pode ir, pode ir, aí daqui a dois meses você volta nesse treinamento\". O campo `condicoes` de U3 diz \"quem insistir deve antes rever o treinamento\". A fonte libera a tentativa e põe a revisão depois, dali a dois meses. O `corpo` da mesma unidade diz \"volte em cerca de dois meses e reveja\", então a unidade se contradiz.",
+      "impacto": "O agente que filtra ou decide por `condicoes` orienta o perfil que insiste a rever o treinamento antes e, feito isso, seguir. Isso transforma a previsão de fracasso do professor em pré-requisito que habilita a venda, e o professor não diz isso. Como corpo e condição divergem, o agente também não tem como saber qual dos dois vale.",
+      "mudanca_minima": "Reescrever só o campo `condicoes` de U3 na ordem da fonte. Sugestão: \"Preferência do professor, não lei. A quem insistir, ele diz que pode ir e que volte dali a dois meses para rever o treinamento.\" Não mexer no corpo. Incrementar `versao` para 2 e registrar a alteração em `correcoes`.",
+      "criterio_de_aceite": "(a) `condicoes` de U3 não põe a revisão do treinamento antes da tentativa e traz a ordem ir → dois meses → voltar e rever, coerente com o corpo e com o trecho citado. (b) O corpo de U3 fica inalterado e `versao` = 2. (c) `base_fcc.py` com zero erros. (d) Os hashes de U1, U2, U4, U5 e U6 ficam inalterados, salvo ajuste menor aplicado de propósito e declarado em `correcoes`."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: a última frase do corpo (\"É a base da ideia de que... enxergar o que os outros não veem\") é ligação do extrator. A expressão não existe na fonte, que diz \"olhar as coisas de uma forma totalmente diferente\". Trocar pela formulação da fonte ou retirar. O mesmo eco aparece na segunda frase do `contexto`. Não tem efeito prático.",
+    "U3: o título em primeira pessoa (\"Não indico...\") pode ser lido como recomendação da base. Preferir \"Professor não indica vender emagrecimento sem ter vivido o problema\". O título não entra no hash.",
+    "U3 e contexto: \"Hard Copy\" é identificação por hipótese na tabela de grafias. Se a transcrição desta aula grafou o nome deformado, a `nota` deve dizer como a fonte grafou. A orientação não depende de qual produto é.",
+    "U4: o título fala em \"o erro de cada\", mas a fonte trata o veterano como público difícil de fisgar, não como quem erra. Sugestão: \"Dois perfis do público de marketing digital segundo o professor\". O tema `publico-e-segmentacao` é discutível frente à definição da taxonomia. Como fica entre valores defensáveis, não veta.",
+    "U5: \"provavelmente há algo\" suaviza o \"eu tenho certeza que existe algo\" do professor e deixa a afirmação sem atribuição. Preferir \"o professor diz ter certeza de que há algo...\". \"Ou faz\" é acréscimo leve.",
+    "U5 e U6: a tarefa `definir-mecanismo-unico` é discutível, porque a aula não fala em mecanismo único. Não veta, por ser valor defensável. Vale avaliar `proposta_tag` de tarefa para achar ideia de produto ou ângulo, se outras aulas do grupo Criatividade tiverem o mesmo problema.",
+    "U6: a faixa está torta nas bordas. A apresentação da série e do \"Pilot Bay\" fica em 305–321 s, e a frase sobre a próxima aula em 383,6–386,7 s. Sugestão do inspetor: `inicio` ≈ 305 e `fim` ≈ 387. Se for aplicado, o hash de U6 muda e a unidade entra na conferência focal.",
+    "U6 e contexto: \"tema da aula seguinte\" depende da ordem do curso. Preferir \"tema que o professor deixa para a próxima aula, sem defini-lo aqui\"."
+  ],
+  "proximo": "Enviar F1 ao redator de correções. É o ciclo 1 de 2, só em U3, no campo `condicoes`. Depois, fazer conferência focal do inspetor em U3 contra o trecho 106–166 s e rodar o validador.\n\nNa mesma passada, pedir ao inspetor que informe como a transcrição grafa o nome do produto irmão em U3. Se a grafia estiver deformada, completar a `nota`.\n\nA evidência de U1, U2, U4, U5 e U6 fica preservada enquanto os hashes não mudarem. Se o redator aplicar o ajuste de faixa de U6, ou qualquer ajuste menor que mude hash, declarar em `correcoes` e incluir a unidade na conferência.\n\nSem outro achado material, a aula passa na próxima rodada."
+}

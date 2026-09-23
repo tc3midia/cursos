@@ -1,0 +1,157 @@
+{
+  "aula": "G06_A05",
+  "arquivo_sha256": "37d03d3cf906e8307dc4b29312634d3421f322a13318e6b56cf66b0eb21a0e1e",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 6, 8, 9, 11]; as demais mantêm a evidência da inspeção integral do arquivo 75e5a354c205, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    6,
+    8,
+    9,
+    11
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "3e5d1b39e1dcc7015ef3c44cbdaa22d70f74d2e68115684372c3241e1f33ca00",
+    "2": "89a688a9e9fd4c731e31921673f2933836a367c5d35b407bec94cb428b36135c",
+    "3": "b3654585c673e64f5dd85d63348ad93a6ad5ebf7ca89a2a5911ff30f6b871ea6",
+    "4": "b35b8ed0aa6b20a8200569086e9b652eb63ce45e62cf4817703d6ca09b4b354b",
+    "5": "f8aae0a93f3c85cea95ce1591ecb8a39dd356dc3b5eb75ecf1eabe177a458342",
+    "6": "df12aec9d6e5920601f1722508efbf0ce1bf87c6e7cba121ac668a48445c0205",
+    "7": "15fd5f0bbdd0e8aa860dd2f7de098f9bcf7292896a7e9c7b0305195619ada59b",
+    "8": "d466f790e59bcf7f8e0abbfe2dc819e3512c9c2c10a8bcf0430d7b0dcb555680",
+    "9": "5b97efd8f29516a9f5d2db9cb960ef140b779ee4d18164ebc241ee361fc52459",
+    "10": "3ecc46233c69c33368660087ac21c87d0aaabb4923b8fab661493a4aa190e5d2",
+    "11": "8df3499eeeff0ea898d5c90d3ffa1aa1a540376339aedc2d5784e487a26a530c"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente vai selecionar isso aqui tudo e vai aumentar um pouquinho o volume, tá bom?",
+      "explicacao": "F1 resolvida. O passo 4 (selecionar tudo e subir um pouco o volume) está dito em 88,16–91,6, e o `fim` agora é 91,6, então a frase está dentro da faixa. Os demais passos também estão na faixa 29,98–91,6: não precisar de isolamento focal nem de redução de ruído (34,6–38,42), o zoom, o Ctrl B seguido de juntar, e repetir até acabar com o espaço (81,3–85,66). A âncora da `evidencia` (38,42–41,26) está dentro da faixa. Não vi problema novo. Ajuste menor, sem efeito no procedimento: o corpo escreve 'isolamento focal' como está na transcrição (34,6), sem aspas e sem nota. A mesma aula diz 'isolamento vocal' em 659,88, e as unidades 9 e 11 usam esse termo. Quem consulta pode não ligar os dois nomes."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "pra gente não ter problema de copyright, tá?",
+      "explicacao": "O conteúdo está na faixa. Cobrir os rostos por causa do copyright, a justificativa de vídeo didático e a dúvida sobre \"Lógico que não\" estão preservados, com nota de contorno e perecivel true. Dois pontos menores. (a) \"Antes dos efeitos\": o professor diz \"Perfeito, agora vamos para os efeitos aqui,\" e cobrir o rosto entra nessa etapa. (b) O corpo afirma \"sem intenção de vender\", mas a fala está degradada (\"não tem influído nenhum de vender e sentir e ensinar\"). A nota da unidade avisa da truncagem, então o risco é baixo."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Não sei se vocês lembram, tá?",
+      "explicacao": "O corpo diz \"Ele pergunta se o público lembra dessa primeira aparição\", o que soa como o público do anúncio. Na fonte o professor fala com os alunos da aula: \"Não sei se vocês lembram, tá? / Vou relembrar vocês agora aqui, ó.\" Não é técnica de lembrança do espectador do anúncio. O resto está lastreado: preto e branco \"para fazer a conexão com o início\", \"o que ela era\" e \"o que ela superou\". Leitura provável do agente: a unidade pede uma memória do espectador que a aula não pede. O efeito é pequeno."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aqui o intuito é só mostrar o iniciozinho da música",
+      "explicacao": "Usar só o início da música para a pessoa reconhecer está lastreado (\"opa, eu conheço essa música, entende?\"), e a faixa 396–436 cobre. Acréscimo menor: \"depois de baixar o volume para não competir com a voz\". A fonte só diz \"Tá muito alta a música, vamos diminuir um pouquinho o volume dela\", sem a razão. Sem efeito prático relevante. A condição \"música que o público reconheça\" decorre do objetivo declarado."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você começa com uma música diferente",
+      "explicacao": "Lastreada na faixa 439–456: trocar de música para a parte de tensão, com efeito \"muito, muito bom\". Nuance menor: a fonte diz \"Vamos pegar uma música que vai dar um boom pra começar na parte de tensão\", ou seja, o \"boom\" é a música escolhida. O corpo separa \"efeito sonoro de impacto ('boom')\" de \"uma música diferente\". Sem mudança de decisão."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porque já mudou o conceito aqui da conversa",
+      "explicacao": "F1 resolvida. A última frase do corpo (voltar com a música porque o conceito da conversa mudou) está em 497,82–508,04: 'Aí a gente agora volta com a música de novo' em 497,82–504,94 e 'Porque já mudou o conceito aqui da conversa' em 504,94–508,04. O `fim` agora é 508,04, então o trecho está dentro da faixa. O restante do corpo tem lastro dentro de 465–508,04: 'O silêncio, porque' (470,22), 'Essa parte é uma hora onde a pessoa vai pensar' (471,7), 'Ela vai ficar pensativa' (474,62) e 'Entende o lado dele e tal' (477,88). A âncora da `evidencia` está dentro da faixa. Não vi problema novo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ficou melhor, encaixou melhor, né?",
+      "explicacao": "Distorção no modificador de voz (\"não ficou legal, não é?\"), depois fade (\"encaixou melhor\"), dentro de 508–540. A unidade evita virar regra e diz que foi juízo de ouvido em um trecho."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Achar o plot nessa música",
+      "explicacao": "F1 resolvida: 'Não, ficou bom.' está em 633,84–634,44 e o `fim` agora é 634,44, então o fechamento do corpo (conferiu de ouvido e ficou bom) está dentro da faixa. F2 resolvida: 'o trecho que o professor quer aproveitar' saiu do passo 1. O corpo diz agora que o plot é, no curso, 'a parte mais importante da música', que é a definição do vocabulário do FORMATO (`G09_A06`). O FORMATO autoriza usá-la. A nota diz que esta aula não define o termo e que a definição vem de outra aula; isso está correto, porque a fala só diz 'Achar o plot nessa música' (582,6) e 'Encontramos o plot aqui' (596,18). Os demais passos têm lastro na faixa: 'A gente deleta o restante aqui / E coloca bem aqui' (592,34–594,04); 'Aqui a gente aumenta o volume dela / E a gente joga até / Onde a gente quer' (psss 反 607,1–611,18); 'Vamos dar um control B aqui agora' e 'aqui a gente vai diminuir o volume' (624,24–628,38). Não vi problema novo."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Aqui essa parte vai ser uma parte muito de impacto, tá?",
+      "explicacao": "F1 resolvida. A frase 'muito de impacto' começa em 667,28 e vai até 677,7. O `fim` agora é 677,7, então o trecho está dentro da faixa. Os passos têm lastro na faixa 635–677,7: 'Remover a voz desse jovem rapaz aqui' (636,54); 'Acho que começaria a ver boa aqui, ó' (646,44); 'vamos dar um control B aqui' (658,7); 'Tem isolamento vocal, remover voz.' (659,88); 'E aí vai ficar só o som, tá?' (662,36). Não vi problema novo. Ajuste menor: `condicoes` diz que a voz 'atrapalharia a locução' e é 'voz cantada'. O professor não dá esse motivo e não diz 'cantada'; ele só diz que vai remover a voz e que fica só o som. Isso não muda a execução do procedimento."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "De uma forma que o nosso querido Facebook não iria identificar",
+      "explicacao": "Ordem e conteúdo conferem: história diferente do que vende, depois antes e depois, e \"finalizaria com uma regra do meu produto\". O termo duvidoso foi preservado sem interpretação. O aviso de contorno e perecivel true estão corretos. Pontos menores: o corpo troca \"Facebook\" por \"a plataforma\", a nota fala em \"moderação da Meta\" (a fala só diz \"não iria identificar\"), e \"A história vira ponte…\" é síntese da unidade sobre o texto de exemplo. As alegações de peso do exemplo (20 quilos) não viraram régua."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu peguei uma música que eu gosto muito, que é a Shape of My Heart.",
+      "explicacao": "F3 resolvida. O corpo deixou de dizer que a fala não nomeia música, efeito ou recurso. Agora separa o que a fala nomeia do que ela não nomeia. Cada item da enumeração está na faixa 155–960 e coerente com as unidades 4, 7 e 9. Shape of My Heart: 'Eu peguei uma música que eu gosto muito, que é a Shape of My Heart.' (397,6). Modificador de voz e distorção: 'Modificador de voz' (515,88) e 'E colocar uma distorção' (518,58). Fade: 'porque a gente pode tentar um fade' (531,44). Isolamento vocal: 'Tem isolamento vocal, remover voz.' (659,88). Ctrl B: 'Novamente, CTRL B' (784,84). Piano e suspense: 'Vamos colocar um piano aqui' (681,24) e 'Suspense' (692,36). Sons tristes: 'Isso, vamos colocar sad' (702,48). Clique de micro-ondas: 'um efeito, um efeitozinho, um clique, um micro-ondas' (556,68). Sobre o que a fala não nomeia: a única animação citada é a que ele recusa ('não vamos colocar a animação baiana', 170,06), o que é coerente com 'animações escolhidas'. O trecho degradado de animação (173–268) e o ajuste fino de volume mostrado na tela (900–919) estão dentro da faixa. Detalhe sem efeito no uso: a nota diz que o professor não tem certeza de 'como se escreve' o nome da música. A fala é 'Não sei se é assim que fala' (402,42), ou seja, dúvida de pronúncia."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 103.92,
+      "trecho_fonte": "a gente começa a brincadeira que a gente sempre faz.",
+      "descricao": "Antes da fase de animação, o professor corta o vídeo com Ctrl B em vários pontos da fala (\"Já percebeu quantos homens...\", \"Ctrl-B.\", \"Ctrl-B de novo.\") e encerra com \"Maravilha, encerramos aqui os cortes\" (155.54). A unidade 1 cobre só os silêncios do áudio e o limite (unidade 11) começa em 155. A fase de cortes sincronizados com a fala não aparece em nenhuma unidade, nem como limite.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta não sabe que houve uma etapa de cortes do vídeo no ritmo da fala nem que ela foi mostrada só na tela. O efeito é pequeno, porque a fala quase não explica critério nem posição dos cortes."
+    },
+    {
+      "inicio": 681.24,
+      "trecho_fonte": "Uma coisa mais triste, entende?",
+      "descricao": "Depois de remover a voz, na parte que ele chama de \"muito de impacto\", o professor escolhe um piano (\"Vamos colocar um piano aqui / Uma coisa mais triste, entende?\"). Pesquisa \"piano\", \"suspense\", \"sad\" e diz \"Isso fica muito bom\". Em seguida retira a faixa, sem dizer por quê. Nenhuma unidade registra qual clima de trilha ele buscou para o momento de impacto. O limite (11) só menciona a busca por sons tristes.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta a única orientação da aula que liga um momento do anúncio a um clima de trilha (impacto → piano/algo mais triste). Ela é ambígua, porque a faixa foi retirada logo depois, o que explica não passar de menor."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tipo `regra` (frase categórica) não corresponde ao corpo. O corpo narra o que o professor fez no exemplo e manda \"não trate a técnica como recomendação\", o que é ressalva de caso, mais próximo de `exemplo` ou `limite`. Discutível entre dois valores defensáveis, portanto ajuste menor.",
+    "Unidade 10: o terceiro item da `estrutura` fica sem função (\"uma regra do meu produto\", não interpretado) e a `confianca` está `media`. O termo é duvidoso e só está com `nota`. Coerente com o FORMATO seria `confianca: baixa`. Menor.",
+    "Contexto: \"várias escolhas, como cobrir rostos, foram feitas só porque o vídeo é didático\". A fonte só liga o \"didático\" ao ato de tampar os rostos (\"A gente está fazendo isso simplesmente por fins de idade\" e \"esse aqui é um vídeo didático\"). \"Várias escolhas\" generaliza. Menor."
+  ],
+  "material": [],
+  "resumo": "As falhas F1, F2 e F3 estão resolvidas nas unidades 1, 6, 8, 9 e 11. Os quatro `fim` ajustados (91,6; 508,04; 634,44; 677,7) cobrem as frases que o corpo usa, então nenhuma das cinco é `faixa-errada`. O termo 'plot da música' na unidade 8 agora segue a definição do FORMATO, e o limite da unidade 11 foi conferido item a item com trecho literal. Ficam dois ajustes menores, sem efeito na execução e sem abrir ciclo: 'isolamento focal' na unidade 1, e o motivo e o adjetivo em `condicoes` da unidade 9 que a fala não dá. Não encontrei omissão decorrente das falhas da lista, nem problema de perecibilidade ou de contrato nas unidades conferidas. Como o pacote não tem material de apoio, `material` fica vazio."
+}

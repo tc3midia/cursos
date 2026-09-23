@@ -1,0 +1,97 @@
+{
+  "aula": "G07_A11",
+  "arquivo_sha256": "8d3114c5e624e83910c7e2860217aa5a1e1c1e0d14958d9cc87e24262481a24c",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "4b6f9209c5f6c8539f4f312e2679092b963f49de1887671ace4fadfdaf1c7605",
+    "2": "965a9178e079da9b7c3792c19867eaf9527f66f73050be2a13d8469a4f400a55",
+    "3": "293fffd2a94b18689b4583a2b6845bfcd213031af6f69f578720cf55109be01a",
+    "4": "213f37ed8767aba5cc0637cc676231fdf1ec8e4ddd936707a3c014be0bb1aec8",
+    "5": "64d61f52e850a1b6fd89543202f0fbedd9140891aa4eb2a87b1cbfe5aded7b1a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Fazendo o X-Process aqui",
+      "explicacao": "Os passos 1 (diminuir brilho/saturação/calidez) e 3 (ajustar sombra) batem com a fala entre 02:51 e 03:56. O passo 2 (aplicar X-Process 'na imagem' para reforçar o contraste) usa como base a fala 'Fazendo o X-Process aqui' (07:36), que vem logo depois de o professor inserir um elemento diferente ('E vamos colocar este jovem subindo em cima da lua', 07:09) — não necessariamente a mesma foto de fundo tratada no passo 1. A unidade generaliza um padrão (ajuste de cor → X-Process → sombra) que de fato se repete em outras imagens da aula (09:16–09:32 e 12:37–12:47), e a nota já avisa que é uma síntese repetida entre fotos diferentes, o que reduz o efeito prático da imprecisão. Também se perde o detalhe de que a sombra é ampliada segurando CTRL e arrastando o mouse ('Segura o CTRL escuro do mouse e aumenta ela', 03:37), reduzido no corpo a 'ajuste a sombra'."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "todos os elementos presentes em uma história devem ser necessários e elementos irrelevantes devem ser removidos",
+      "explicacao": "A definição da arma de Chekhov e a ligação com '2 mais 2 é melhor que 4' batem literalmente com a fala entre 04:37 e 05:32, inclusive o exemplo do filme que foca numa caixa sem explicação. A grafia adotada 'Chekhov' é usada corretamente no corpo (a transcrição grafa 'Tchekhov'). Não há número, condição ou sentido alterado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu não te prometo o resultado, uma verdade absoluta, olha só, eu não te prometo o resultado",
+      "explicacao": "O conteúdo citado (a frase 'eu não te prometo o resultado' nomeada como verdade absoluta, e a promessa de ir 'além de uma gestão de tráfego') está dentro da faixa 385–860s: aparece em 06:25–06:50 e, na versão final lida, em 13:43–14:20. Mas a faixa declarada (quase 8 minutos) também cobre trechos sem relação com o corpo da unidade (moeda, vídeo do jovem subindo na lua, engrenagem, seta 'saiba mais', vídeo de autoridade, camadas), que não são resumidos por nenhuma outra unidade. Isso não é 'faixa-errada' — o trecho citado está dentro do intervalo — mas a amplitude dificulta localizar exatamente onde a citação ocorre."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "sempre que você for no Eleven Labs, você coloca os números no formato de palavras",
+      "explicacao": "A regra de escrever números por extenso no ElevenLabs bate exatamente com a fala em 14:47–15:05, inclusive o exemplo dos números 20 e 500 citados na sequência. Grafia 'Eleven Labs' preservada em evidencia conforme a transcrição, e 'ElevenLabs' usado no corpo/plataforma conforme a grafia adotada. Ver observação de classificação em 'contrato'."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "olha só que coisa linda que ficou isso aqui",
+      "explicacao": "A caracterização da aula como majoritariamente demonstração de tela no Canva, guiada por apontamentos como 'olha só' e 'vamos colocar aqui', é fiel ao conteúdo entre 00:30 e 17:09. A ressalva de que a transcrição não permite reconstruir o anúncio completo nem os valores exatos de cor/posição é verdadeira e consistente com a regra de aula de tela do FORMATO."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 217,
+      "trecho_fonte": "Segura o CTRL escuro do mouse e aumenta ela",
+      "descricao": "Ao aumentar a sombra atrás do texto no Canva, a fala indica segurar CTRL enquanto se arrasta o mouse (para redimensionar a partir do centro); nenhuma unidade preserva esse detalhe de atalho, a unidade 1 resume o passo apenas como 'ajuste a sombra'.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir o procedimento sem esse atalho pode redimensionar a sombra de forma diferente da demonstrada, mesmo cumprindo os outros passos corretamente."
+    },
+    {
+      "inicio": 332,
+      "trecho_fonte": "Se a gente vir aqui em o hardcopy, ó, em hardcopy barra hards, tem a regrinha aqui, ó, 2 mais 2 é muito melhor do que 4, né?",
+      "descricao": "O professor menciona que a regra '2 mais 2 é melhor que 4' está registrada numa página/recurso do curso ('hardcopy barra hards'). Nenhuma unidade registra a existência desse recurso do curso.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base não sabe que existe esse recurso adicional do curso para revisitar a regra, embora o conceito em si já esteja preservado na unidade 2."
+    },
+    {
+      "inicio": 60,
+      "trecho_fonte": "A gente quer transmitir para a pessoa cansaço, chatice.",
+      "descricao": "Antes de escolher cada imagem do criativo, o professor define explicitamente que sentimento quer transmitir (ex.: 'cansaço, chatice', depois 'algo surreal', etc.) e só então busca uma imagem que corresponda a esse sentimento; esse passo de 'definir a emoção-alvo antes de escolher a imagem' não é descrito em nenhuma unidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem só ler a unidade sobre ajuste de cor não sabe que a escolha da imagem, antes dos ajustes técnicos, segue o critério de bater com uma emoção definida previamente, podendo escolher imagens aleatórias e perder a coerência emocional do criativo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4: tipo 'regra' é uma classificação discutível — trata-se de orientação presa à configuração de uma ferramenta específica (ElevenLabs), o que se encaixaria melhor em 'ferramenta'. Não chega a direcionar o agente ao lugar errado, pois plataforma (elevenlabs) e perecivel (true) já estão corretos; ajuste menor.",
+    "Unidade 3: faixa declarada (385–860s, quase 8 minutos) é bem mais ampla que o necessário para localizar a citação usada no corpo, cobrindo vários trechos de edição visual não resumidos pela unidade. Não é faixa-errada, mas dificulta a auditoria pontual do trecho."
+  ],
+  "material": [],
+  "resumo": "As 5 unidades desta aula (G07_A11) estão lastreadas na fala, sem sem-lastro nem desvio material, e a perecibilidade está corretamente marcada em todas (true nas de tela/exemplo/ferramenta, false no conceito). Os problemas encontrados são pontuais: a unidade 1 generaliza um padrão de edição repetido entre imagens diferentes sem prejuízo relevante, a unidade 3 usa uma faixa de tempo desnecessariamente ampla, e três detalhes secundários da fala (atalho de CTRL na sombra, referência ao recurso 'hardcopy barra hards', e o critério de escolher imagem pela emoção-alvo) não foram preservados em nenhuma unidade. Nenhum desses pontos parece impedir a execução ou mudar a decisão de quem consulta, dado que a aula já é adequadamente sinalizada como majoritariamente dependente de tela (unidade 5)."
+}

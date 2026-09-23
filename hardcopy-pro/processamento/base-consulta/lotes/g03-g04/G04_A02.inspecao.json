@@ -1,0 +1,95 @@
+{
+  "aula": "G04_A02",
+  "arquivo_sha256": "07f0f4061b891c5148728a509309748f7dde84e7c6df5bf311a32f0e89161177",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "20e4c1e37de45569086b85946eb44feb8fb370f6cb5756a035b50a60f5016025",
+    "2": "1009ccc859dc8d5c13503149ce1c2c9a29446d84621dad01371f3f9fa220321d",
+    "3": "e272a1cce28c051fc36e11e28a5936ff88107406c536fe2aa21b40d72b2fff67",
+    "4": "d3d321950d4f6202790820c0057856b8473c0585a7952fe2cd3a744171ddd3b4",
+    "5": "b79d1b4aa1d62b04c4ac0569f3980c8ca74018e96389fa41d96a07220ec41f89",
+    "6": "172cd28a4a671c622d1edeca38ff331f01130592ff3bc2380200c4bdd33ee971",
+    "7": "0c055ed2c67941e7eaa1f3feae66a64a8267e3dd8e0d0db8e1f5086ae8f1b399"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "nada mais é do que um formato narrativo",
+      "explicacao": "A fala (0:00–0:59) diz que ele sempre usa o formato ao criar anúncio ou VSL, que é narrativo, focado na história e não no conflito, que a história é toda desenvolvida para o lead engajar e sentir a necessidade de comprar, e que se divide em quatro atos. O corpo reproduz isso sem número, condição ou atribuição alterados. A nota declara a grafia deformada e a hipótese, e a confiança media é adequada. Detalhe de contrato: o corpo usa \"lead\" sem dizer o sentido (ver contrato)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas totalmente ineficaz quando o assunto é vender um produto na internet",
+      "explicacao": "A fonte diz que a jornada do herói é a maior concorrente, que é muito eficaz para contar histórias e totalmente ineficaz para vender produto que milhares de pessoas já vendem, o que gera saturação, e que as quatro sílabas diferenciam do mercado. O corpo atribui a posição ao professor e mantém a condição (produto saturado) em `condicoes`. A faixa 60–121 cobre o conteúdo; falta só o \"tá bom?\" final, que termina em ~121,8 s."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "A base de você criar um bom anúncio",
+      "explicacao": "O núcleo (Ki, Sho, Ten, Ketsu, 137–151 s) está dentro da faixa e é fiel: \"O show a gente vai desenvolver essa história com base no nosso produto\", \"vamos fazer o plot, que é a reviravolta\", \"Fazer a conclusão\". A nota registra a truncagem do Ten e do Ketsu. Mas a última linha do corpo (base do storytelling = história diferente do produto, conectada de forma inteligente) vem de 2:30.96–2:46.2 (~151–166 s), depois de fim=151. Quem consultar a faixa não encontra essa frase. Correção mínima: estender `fim` para ~167 s."
+    },
+    {
+      "numero": 4,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "quando você entende que o início é uma desconexão do seu produto,",
+      "explicacao": "A regra dos 30 segundos está dentro da faixa (2:48.06–2:54.48, ~168–174 s) e é fiel. A terceira frase do corpo (\"a venda fica mais simples\") vem de 3:01.3–3:09.0 (~181–189 s), depois do fim=174 e dentro da faixa da unidade 5. Os primeiros ~17 s da faixa (151–168) são de outro assunto, já usado na unidade 3. Ajustes de redação: \"o foco é só chamar a atenção\" acrescenta \"só\", que a fonte não diz (\"o foco é chamar a atenção\"); `condicoes` está null para uma orientação que o professor dá dentro do método dele. Sem efeito material no uso."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "criamos algo que faz com que a maioria das pessoas que vê esse anúncio",
+      "explicacao": "O caso é fiel: pergunta de abertura, objetivo de atrair o máximo de gente para a página de vendas, medo de falhar, quem cresce teme perder o que construiu, e ~35 s de conexão até o produto (\"uns 35 segundos\"). O número fica como caso, não como régua, e a condição está em `condicoes`. Dois excessos de redação sem efeito na decisão. Em `Lógica`, \"captura o público inteiro\" é mais forte que a fonte, que diz \"a maioria das pessoas\" e \"o máximo de pessoas possíveis\"; o `O que aconteceu` da própria unidade já diz \"a maioria\". E \"funciona nos anúncios dele\" vem de \"se você acompanha a gente no Instagram, você sabe que isso realmente funciona\" (240.4–244.5 s, 0,4 s depois de fim=240), que não cita \"anúncios\"; a atribuição ao professor está correta."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "só para dar uma recapitulada daquilo que eu já expliquei no Rádio Copy",
+      "explicacao": "A fonte (121.9–131.1 s) diz que é recapitulação do que já explicou no \"Rádio Copy\", que quem já é aluno não precisa perder tempo e que quem não é entende o que vai ser feito. O corpo reproduz isso; a hipótese Hard Copy tem nota e confiança media. A última frase (\"O aprofundamento dos atos não é dado nesta aula\") é inferência do professor ter dito \"recapitulada\"; a fonte não a diz. Sem efeito prático relevante."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu nunca vou te vender e nunca você vai ver um anúncio meu com essa palavrinha aqui",
+      "explicacao": "O corpo preserva o que a fonte diz (nunca anúncio com \"essa palavrinha\", \"Esse é o meu plot twist\", não quer vender aquilo que a pessoa precisa se impressionar para comprar, próxima aula ensina a discernir e fazer um bom anúncio a partir de uma base) e avisa que a palavra ficou na tela e que o raciocínio está truncado. Confiança baixa com nota, como a rubrica prevê. O resíduo \"Obrigado.\" (4:51) não foi usado."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2 (menor): o corpo diz \"as quatro sílabas do Kishotenketsu\", eco de \"essas quatro sílabas aqui\" da fala, que apontava para a tela. A unidade não diz que são Ki, Sho, Ten, Ketsu. Quem lê sem a aula não sabe a que se refere. Corrigir dizendo \"os quatro atos\", ou explicando a expressão.",
+    "Unidade 1 (menor): o corpo usa \"lead\" sem dizer o sentido. O FORMATO pede que a unidade diga qual sentido vale; aqui é o prospect que assiste ao anúncio. Sem efeito no uso."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira (não há material) e conferi as sete unidades. Não há sem-lastro, número adulterado, copy de exemplo tratada como fato, resíduo de silêncio usado como fonte, omissão que mude a decisão nem perecível sem marca. O defeito real é de faixa: as unidades 3 e 4 têm uma frase do corpo fora de `inicio`–`fim` (2 de 7 unidades, acima de 10%), embora o núcleo de cada uma esteja dentro. Os demais apontamentos são ajustes menores de redação e de explicação de jargão (unidades 1, 2, 4, 5 e 6), corrigíveis sem reextração."
+}

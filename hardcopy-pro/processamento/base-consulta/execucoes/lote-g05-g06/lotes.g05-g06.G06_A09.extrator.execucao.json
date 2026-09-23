@@ -1,0 +1,45 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-21T15:32:10+00:00",
+  "fim": "2026-09-21T15:33:47+00:00",
+  "duracao_ms": 95968,
+  "duracao_api_ms": 95931,
+  "consumo": {
+    "input_tokens": 4,
+    "output_tokens": 9895,
+    "cache_creation_input_tokens": 16785,
+    "cache_read_input_tokens": 54606
+  },
+  "thinking_tokens": 3079,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.1770192,
+  "esperas_por_limite": [],
+  "sistema_sha256": "73be75ee2ffb57d1a1fa7f2572421f2cfde0eac577fd21da717fd22fcc60dd6f",
+  "pacote_sha256": "0e08cbac62c2bea487ae72175205dfad397be9f2c2d2158ed0996ed28d8669ac",
+  "aula": "G06_A09",
+  "rotulo": "lote-g05-g06",
+  "palavras_fonte": 2570,
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g05-g06/G06_A09.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "730a0f98060c468a3fc54917c0e7de02511c084d216c64db6d72a838faeb0d5f",
+  "unidades": 8,
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

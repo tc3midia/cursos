@@ -1,0 +1,187 @@
+{
+  "aula": "G12_A02",
+  "arquivo_sha256": "75a9a0ef371362c77043d74b7a68fd694fb024101d49bf0202ca09818948e6c9",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "7fc2236bcd43de1747beee76d90dbf4c2921af5072d7c74464ab5221834b3031",
+    "2": "f9a18f80553f730bb0e59ba5ac48c5a771298617dbc4e75219adba839696bac2",
+    "3": "b453f809e0c4248b0036dbc771add2e0840c4dfcb9c5c7e52c728e0d980d494e",
+    "4": "59fac859dd87960af967cc96be5811798d25d4ce61ea834699b081df338f44d0",
+    "5": "0a51c5b1c3adeb567ad5c21be21ce004bfcf906b9acac185ca0b95038fdda601",
+    "6": "df53f397bd314d6667a3ffecd4e4d2e2cc09d05be34892a8f05dedbc05542131",
+    "7": "05c80c36691815d388df680bb0a34f988ad5eb5308f24317972d81131a28da4a",
+    "8": "35ea26c033be2645f608883187d29dc024761e092cf45c704457cbefc28b9cf6",
+    "9": "924dca2322c9610027614d171a8d7d5c64b3b2c325338a8b77e57c1bfb16d159",
+    "10": "694889c9b1cf2aeadf6de23d58c5220249b4b8a67cc2d4692e867fca2c38e99d",
+    "11": "408f6022cde84a1b858901bf944a70fabdea3cb46b2cfdafb1a5dc10968298ed",
+    "12": "1eaa048563727cbfbcdfd4c18389d5409784d9356305a4d5295b1de8e35b2a72",
+    "13": "43de2c91968398846aeef0b7a098bac0e7667c005b5ba2ca049e4a1650cc59b2",
+    "14": "9275241fe7b526c32c488fd3968c8ae7bd68789323bbbfc12a2d7e9982beb5e8",
+    "15": "0666f2cc26c3e0c3d02c5cdfdc4b2934e3207db3e4e3a7f1578f67ef3776f938"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "manda ele corrigir, somente, o encaixe narrativo junto com vírgulas, pontos, etc, tá?",
+      "explicacao": "A fonte confirma o pedido de ajustar só o encaixe narrativo/pontuação mantendo a ideia ('Se mantém o anúncio com a mesma ideia, a gente vai dar uma melhorada nesse aqui'), consistente com o corpo da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "nunca faça uma copy 100% criada por IA, não adianta, não presta.",
+      "explicacao": "O corpo reflete fielmente a regra, a ressalva de que a IA é extensão do trabalho ('A IA é uma extensão do seu trabalho') e a atribuição da ideia ao professor ('a ideia foi minha')."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela não consegue sustentar o mesmo rosto da pessoa.",
+      "explicacao": "O corpo e a lista de detalhes (cabelo, olho, boca, roupa, cenário) batem com a fala; a identificação da ferramenta como Veo 3 é tratada como hipótese com nota e confiança média, como exigido."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "essa mulher, esta mulher tem o cabelo curto dos ombros, o olhar confiante, boa dicção",
+      "explicacao": "Todo o conteúdo dos 4 itens está na fala, mas a fonte dita primeiro o cenário/personagem ('mulher de branco em um programa de TV estilo morning show'), depois a descrição física, e só depois a roupa ('Ela está usando uma roupa social... não é uma roupa branca'); a unidade reagrupou em 'descrição física' (item 2) antes de 'cenário e vestuário' (item 3), invertendo parcialmente a ordem da fonte. Tipo estrutura pede partes na ordem da fonte; o conteúdo não muda, mas a ordem sim."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não fica com essa conversinha de ficar pegando prompt na internet e achar que você vai ser pronto, não, faça o seu dessa forma aqui",
+      "explicacao": "O corpo reflete fielmente a regra de não usar prompt pronto e criar o próprio."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se você colocar a quadra vai gastar 400 créditos",
+      "explicacao": "Número e condição batem com a fala ('você vai fazer somente um resultado por cada VO3'); nota e confiança média são adequadas à hipótese sobre o nome da ferramenta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "a mesma mulher é cenário e porém agora ela dizendo e agora colocamos aqui mais uma parte do vídeo",
+      "explicacao": "Os passos 1–3 do procedimento (print, levar para a ferramenta, pedir mesma mulher/cenário com novo texto) batem com a fala nesta faixa; o passo 4 ('confira se a aparência se manteve igual à do clipe anterior') não é dito literalmente neste trecho — é uma inferência lógica da extração, não uma instrução explícita do professor na faixa 597–671."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos printar aqui, aperta link no seu teclado, jogamos aqui para o Google Chat",
+      "explicacao": "O limite descreve corretamente a ambiguidade de navegação de tela nesse trecho (destino exato do print não é claro), compatível com a nota da unidade 7."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "um sentimento de esperança que ele vai criar agora, como a gente mandou",
+      "explicacao": "O corpo reflete fielmente a instrução de descrever o sentimento desejado e a justificativa ('senão ele não vai entregar o que a gente quer')."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "selecionamos todos eles, botão esquerdo do mouse, extrair áudio, vamos deletar aqui e vamos salvar.",
+      "explicacao": "O procedimento (selecionar, extrair áudio, deletar, duplicar, exportar) bate com a sequência narrada nesta faixa."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vem em, no mais em, tá, é instant voice clone",
+      "explicacao": "Os passos batem com a fala, com nota adequada sobre a ordem confusa de download/upload e sobre a grafia deformada da ferramenta ('LevelLabs', 'Eleven Lex')."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "confere se está no Eleven 3 aqui, Alfa, clica aqui e se tem uma nova atualização da Eleven 3",
+      "explicacao": "O corpo reflete fielmente a instrução, com confiança média e nota adequadas à incerteza sobre o nome exato do modelo."
+    },
+    {
+      "numero": 13,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aqui a gente coloca no linguagem.gays, aqui a gente coloca masculino, e na idade a gente coloca mais velho, ele é mais velho.",
+      "explicacao": "O passo do procedimento sobre selecionar gênero masculino e idade mais avançada para a voz clonada (citado no corpo como 'selecionando gênero e faixa etária compatíveis com a pessoa real') só aparece por volta de 00:21:24–00:21:42 (~1284–1303s), fora da faixa declarada (inicio 1102, fim 1257). O restante do procedimento está corretamente dentro da faixa; falta estender o fim em cerca de 45s."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Como a gente fazia antigamente. No próprio áudio mesmo, tá?",
+      "explicacao": "O corpo reflete fielmente a decisão de gravar e imitar com a própria voz quando a clonagem falha repetidamente."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então eu vou encerrar na próxima aula. Vou te mostrar como que você vai fazer para juntar tudo isso e fazer uma edição de foto.",
+      "explicacao": "O limite reflete fielmente o encerramento da aula sem a montagem final, deixada para a aula seguinte."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 539,
+      "trecho_fonte": "vamos vir na ferramenta do flow do vo3 tá, e a gente vai iniciar um novo projeto",
+      "descricao": "Falta o passo, dito na fala, de abrir a ferramenta 'Flow' do Veo 3 e iniciar um novo projeto depois de copiar o prompt gerado no chat e antes de colá-lo no campo de texto-para-vídeo.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir apenas as unidades sobre escrever o prompt e colar/gerar no Veo 3 não fica sabendo que precisa primeiro abrir a ferramenta 'Flow' e criar um novo projeto; pode não achar onde colar o prompt."
+    },
+    {
+      "inicio": 706,
+      "trecho_fonte": "você vai olhar se ele tá falando em Brasil, tá? Em brasileiro, e aí a gente vai copiar esse prompt",
+      "descricao": "Falta a instrução de conferir se o prompt gerado pelo assistente de IA especifica que a personagem fala em português do Brasil antes de usá-lo para gerar o vídeo.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem essa checagem, quem seguir o procedimento pode colar e gerar um prompt que não especifica claramente a variante 'português do Brasil', arriscando um vídeo com sotaque ou variante de português diferente do pretendido, sem saber que deveria revisar isso antes de gerar."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A extração da aula G12_A02 está majoritariamente bem lastreada: as 15 unidades refletem com fidelidade a fala, com hedges adequados para nomes de ferramenta transcritos por hipótese (Veo 3, ElevenLabs) e para a ambiguidade sobre a voz de terceiro usada no exemplo político (unidade 13, com nota de contorno de política corretamente presente). Encontrei duas omissões pontuais de passos ditos na fala (abrir a ferramenta Flow do Veo 3 antes de colar o prompt; checar se o prompt especifica português do Brasil) e uma unidade com parte do conteúdo fora da faixa declarada (unidade 13, seleção de gênero/idade da voz ocorre depois do fim informado). A unidade 7 tem um passo de conferência que não está dito literalmente na faixa citada. Não há material de apoio nesta aula, então não há divergências fala×material, e a perecibilidade está corretamente marcada como true em todas as unidades."
+}

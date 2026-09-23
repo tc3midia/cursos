@@ -1,0 +1,174 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G08_A08",
+  "titulo": "Episódio 8 - Canva",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é uma gravação de tela em que o professor monta, ao vivo no Canva, um anúncio para um pet shop, dentro do módulo de produtos físicos da trilha Hard Ads.",
+    "Ele assume que o espectador já conhece a estrutura de anúncio em quatro atos do curso e foca na execução visual: escolha de imagem, cor do texto e sequência de telas.",
+    "A aula mostra a lógica de abrir o anúncio com a dor (cachorro maltratado), virar para o cuidado de um pet shop \"de coração\" e fechar com um convite a saber mais, buscando provocar dó e curiosidade no espectador.",
+    "Também aparece uma ressalva sobre não usar imagens pesadas demais para não sofrer bloqueio da Meta, mesmo defendendo mostrar algo mais forte do que o mercado costuma mostrar nesse tipo de anúncio.",
+    "Boa parte do tempo é o professor duplicando elementos, ajustando cor e buscando imagens por palavra-chave dentro do Canva, com comandos genéricos que só fazem sentido olhando a tela.",
+    "A aula termina anunciando que a animação da peça continua na aula seguinte, dentro do CapCut, o que fica fora deste material."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Imagem de dor forte, mas abaixo do que a moderação bloqueia",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 53,
+      "fim": 70,
+      "condicoes": "Vale para anúncios que exploram a dor de um nicho (no exemplo, maus-tratos a animais em anúncio de pet shop).",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O limiar não é dito em palavras: o professor aponta a tela (\"a gente vai pegar imagens assim\"), por isso a confiança é media. Os dois trechos que compõem a orientação: ~0:53–1:10 \"a gente não vai pegar imagens pesadas tá a gente vai pegar imagens assim porque senão Facebook provavelmente vai dar um bloqueiozinho\"; ~3:35–3:52 \"é bem pesado né Ver um bichinho desse aqui sofrendo desse jeito muito mas é realmente isso que a gente quer transmitir\". A fonte diz \"imagens pesadas\", não \"pesadas demais\"; a gradação entre as duas falas é leitura da base, não termo do professor.",
+      "proposta_tag": null,
+      "corpo": "Ao montar anúncio que explora a dor do público (no exemplo, maus-tratos a animais num anúncio de pet shop), não escolha imagem pesada a ponto de a moderação barrar: o professor diz que, se pegar esse tipo de imagem, o Facebook provavelmente dá um bloqueio na conta.\nO limite não é mostrar sofrimento. Na mesma montagem ele escolhe a cena do cão maltratado, comenta que é bem pesado ver o bichinho sofrendo daquele jeito e mantém a imagem no anúncio.\nO que ele evita é o grau de imagem que a moderação bloqueia, não a cena de dor em si.",
+      "evidencia": "a gente não vai pegar imagens pesadas tá a gente vai pegar imagens assim porque senão Facebook provavelmente vai dar um bloqueiozinho",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Abrir anúncio de pet shop mostrando a dor para o espectador sentir algo",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "escrever-gancho-de-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 69,
+      "fim": 87,
+      "condicoes": "Exemplo construído ao vivo para um anúncio de pet shop (produto físico); ilustra a abertura pela dor antes de apresentar a solução.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na abertura do anúncio de pet shop, o professor escolhe cenas que mexem com o espectador, como um cachorro maltratado, para gerar dó. Ele chama isso de base do anúncio: mostrar algo e fazer a pessoa sentir alguma coisa antes de qualquer solução aparecer.",
+      "evidencia": "Mostrar e fazer a pessoa sentir algo no nosso anúncio Essa é a base",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Escancarar mais que o mercado, sem passar do que a moderação bloqueia",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "montar-criativo-visual",
+        "roteirizar-anuncio",
+        "revisar-risco-de-bloqueio"
+      ],
+      "plataformas": [
+        "geral",
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 215,
+      "fim": 233,
+      "condicoes": "Ressalva do próprio professor: a imagem do animal sofrendo é pesada de assistir, e a escolha é deliberada para diferenciar do que o mercado costuma mostrar nesse tipo de anúncio; ainda assim ele a mantém abaixo do nível que, segundo ele, faz o Facebook bloquear.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O limiar não é dito em palavras: o professor aponta a tela (\"a gente vai pegar imagens assim\"), por isso a confiança é media. Os dois trechos que compõem a orientação: ~0:53–1:10 \"a gente não vai pegar imagens pesadas tá a gente vai pegar imagens assim porque senão Facebook provavelmente vai dar um bloqueiozinho\"; ~3:35–3:52 \"é bem pesado né Ver um bichinho desse aqui sofrendo desse jeito muito mas é realmente isso que a gente quer transmitir\".",
+      "proposta_tag": null,
+      "corpo": "O professor reconhece que é bem pesado ver o animal sofrendo na imagem que escolheu, mas mantém a escolha: quer transmitir exatamente isso e mostrar algo totalmente diferente do que o mercado está acostumado a ver, escancarando para se diferenciar.\nEsse escancarar tem teto. Na mesma montagem ele descarta imagens pesadas que, segundo ele, fariam o Facebook bloquear o anúncio, e fica com uma imagem abaixo desse nível.\nA orientação é de duas metades: mais forte do que o mercado mostra, e ainda assim abaixo do que a moderação barra.",
+      "evidencia": "Ver um bichinho desse aqui sofrendo desse jeito muito mas é realmente isso que a gente quer transmitir tá mostrar algo totalmente diferente",
+      "versao": 2
+    },
+    {
+      "numero": 4,
+      "titulo": "Estrutura do anúncio de pet shop: dor, virada, benefício e CTA",
+      "tipo": "estrutura",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-gancho-de-anuncio",
+        "escrever-pitch-e-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 631,
+      "condicoes": "Estrutura demonstrada como exemplo de anúncio para pet shop, um produto físico saturado; a sequência de ângulos serve de modelo para esse tipo de negócio.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Abre mostrando a dor: cenas de cachorros maltratados e o texto \"cachorros maltratados\" em vermelho, para o espectador sentir o problema.\n2. Vira o ângulo para o cuidado: mostra que, num pet shop \"de coração\", o cão será bem cuidado, tratando esse cuidado básico como \"o mínimo\" e \"uma obrigação\" do pet shop, não como diferencial.\n3. Mostra o benefício e a felicidade: cachorro feliz, menção a banho e tosa e a ajuda no dia a dia com o pet, em contraste com a cena de dor inicial.\n4. Fecha com CTA: texto convidando a tocar em \"saiba mais\" e \"descubra agora o que eu preparei para você\", com uma seta apontando o botão.",
+      "evidencia": "A gente quer mostrar pra pessoa a dor",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Anúncio de pet shop deve transmitir dó e curiosidade",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 673,
+      "fim": 684,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao fechar a montagem do anúncio de pet shop, o professor resume a intenção da peça: ela deve transmitir dois sentimentos fortes no espectador, a dó (pelo animal maltratado) e a curiosidade (pelo que vem a seguir).",
+      "evidencia": "Esse vídeo, ele vai transmitir dois sentimentos muito fortes Que é a Dó",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Grande parte da montagem no Canva só se entende vendo a tela",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 100,
+      "fim": 660,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte da aula é o professor editando o anúncio dentro do Canva olhando a tela: duplicando elementos, ajustando a cor do texto conforme o fundo, reposicionando camadas e buscando imagens por palavra-chave (como \"cachorro machucado\" e \"cachorro feliz\"). A fala usa comandos genéricos como \"aqui a gente vai colocar\" e \"duplica isso aqui e desce\", sem nomear menu, botão ou valor específico, então esses passos de edição não viram procedimento: só se entendem olhando a imagem.",
+      "evidencia": "Aí a gente duplica isso aqui e desce",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1,
+        3
+      ],
+      "retiradas": [],
+      "observacoes": "G08_A08-F1 — corrigida no lugar (não usei a alternativa de retirar 1 e 3 e fundir, para não perder os dois pontos de indexação que o próprio juiz apontou como úteis: politicas-e-bloqueios/revisar-risco-de-bloqueio e anuncio-produto-fisico/montar-criativo-visual).\n\nU1: removi \"demais\" do corpo e do título, porque a fonte diz só \"a gente não vai pegar imagens pesadas\"; a gradação passou para a nota. Acrescentei a segunda metade: na mesma montagem ele escolhe a cena do cão maltratado e comenta \"é bem pesado né / Ver um bichinho desse aqui sofrendo desse jeito\", mantendo a imagem — ou seja, o que ele evita é o grau que a moderação barra, não a cena de sofrimento. `confianca` de alta para media e `nota` preenchida com os dois trechos literais e as posições (~0:53–1:10 e ~3:35–3:52), registrando que o limiar é dado apontando a tela (\"a gente vai pegar imagens assim\"), sem critério verbal.\n\nU3: acrescentei o teto ao corpo (na mesma montagem ele descarta a imagem pesada que, segundo ele, faria o Facebook bloquear, e pega uma abaixo desse nível), ajustei `condicoes` no mesmo sentido, e repeti a mesma `nota` com os dois trechos. `confianca` para media.\n\nDecorrências da correção em U3, além da mudança mínima: como o corpo passou a trazer moderação de plataforma, incluí `meta-ads` nas plataformas, marquei `perecivel: true` (regra [E]: plataforma além de `geral` ⇒ true; política de plataforma ⇒ true) e acrescentei a tarefa `revisar-risco-de-bloqueio`, para quem audita risco chegar também nesta metade. Título de U3 reescrito para não prometer só \"mais pesada\".\n\nFaixas: mantive 53–70 em U1 e 215–233 em U3, cada uma cobrindo sua própria `evidencia`, que é o que o contrato exige; o trecho da outra metade fica citado na `nota` com a posição, porque uma faixa 53–233 cobriria dez minutos de montagem alheia à orientação.\n\n`versao`: não há campo de versão no formato de saída desta etapa; as duas unidades tiveram corpo e metadado semântico alterados, então o incremento (1 → 2) cabe ao executor ao gravar, e o hash de ambas muda, o que já as devolve à inspeção.\n\nNenhuma unidade nova: o teto de moderação e o \"escancarar\" já cabem em U1 e U3, e os títulos das demais (002, 004, 005, 006) tratam de abertura, estrutura, sentimentos e limite de tela."
+    }
+  ]
+}

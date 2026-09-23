@@ -1,0 +1,26 @@
+{
+  "aula": "G01_A08",
+  "arquivo_sha256": "5d8f7b962f78f77b47bcaa135fdce973c8b9890149ac58cfc5b897297af8f621",
+  "inspecao_sha256": "e6f466938bd247bb7aecc01087ebe00a1863d10c3f6d9170a169a5afb18210bd",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "O validador retornou zero erros e zero avisos. Um ponto que o script não barra fica como ajuste menor: a unidade 1 usa a grafia adotada \"order bump\", que a tabela do FORMATO marca como hipótese, e a `nota` não diz como a fonte grafou (\"ordem bump\", segundo o inspetor).",
+  "fidelidade": "O inspetor cobriu as seis unidades, com trecho literal em todas e nenhuma citação não literal. Todas saíram `lastreada`; não há `desvio`, `sem-lastro` nem `faixa-errada`.\n- **Unidade 1:** a ressalva do professor (\"não indico nem aconselho\", \"não sei se é a melhor opção\") está no corpo. A preferência por página de vendas aparece como preferência dele, no título e nas condições.\n- **Unidades 1 e 4:** os preços e os 20–30 quilos ficaram como exemplo, com o nicho em `condicoes`. Nenhum virou régua.\n- **Unidade 5:** o trecho comprimido da transcrição está registrado com `confianca: media` e `nota`.\n- **Unidade 3:** a frase final liga o problema ao mecanismo único, mas se apoia em fala de 152–155 s, cerca de 6 s depois do `fim` (146). O inspetor classifica como gravidade menor e eu concordo. O núcleo e a âncora estão na faixa, a ligação é leitura razoável da fala, e a definição de mecanismo único é a do vocabulário do FORMATO. A orientação de quem consulta não muda. Por isso não conto como `faixa-errada`.\n- **Erro do inspetor:** não encontrei nenhum visível nas próprias unidades.",
+  "cobertura": "O inspetor declara busca de omissões na fonte inteira (1004 palavras) e não encontrou nenhuma. As unidades preservam:\n- a estrutura de quatro blocos, na ordem;\n- o critério de escolha do problema;\n- as duas naturezas de consequência e qual o professor aconselha;\n- a posição da invalidação;\n- o escopo de produtos.\nA unidade 5 declara que a aula não detalha como escrever a invalidação. A unidade 6 declara que a página de exemplo ficou no link, fora da fala. Nada indica parte essencial ausente.",
+  "perecibilidade": "Sem falha.\n- **Unidade 1:** tem preços e está `perecivel: true`.\n- **Unidade 6:** tem link e recurso do curso e está `perecivel: true`.\n- **Unidades 2 a 5:** são orientação de copy, sem tela, preço, data nem número de mercado, então `false` está certo. Os 20–30 quilos da unidade 4 são exemplo de nicho, não número de mercado.\nO inspetor não sinalizou perecível escondido, e eu também não vejo nenhum.",
+  "aplicabilidade": "As seis unidades se sustentam sem a aula ao lado.\n- **Unidade 2:** é `estrutura` com as quatro partes numeradas, na ordem, cada uma com sua função. O escopo está em `condicoes`, e o corpo avisa que PLR não foi definido.\n- **Unidade 4:** \"reciprocidade\" é inteligível pela própria frase.\n- **Unidade 6:** é um `limite` bem escrito, que diz o que ficou no link e o que foi adiado.\n- **Classificação:** tipos, temas e tarefas levam ao lugar certo. São discutíveis, mas defensáveis, a tarefa `pesquisar-publico-e-subnicho` na unidade 3 e o tema `pagina-de-vendas` (em vez de `curso-e-recursos`) na unidade 6.\n- **Sobreposição:** a unidade 5 repete os blocos 3 e 4 da unidade 2. Isso é redundância, não erro que mude o uso.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Unidade 3: a frase final (\"O professor liga esse tipo de problema ao mecanismo único…\") se apoia em fala de 152–155 s, fora da faixa 96–146. Estender `fim` até cerca de 165 s ou retirar a frase. Não muda a orientação.",
+    "Unidade 1: \"order bump\" é identificação marcada como hipótese na tabela do FORMATO. Acrescentar à `nota` que a fonte grafa \"ordem bump\". A orientação não depende do termo.",
+    "Unidade 1: em `condicoes`, \"na faixa de R$29, R$49, R$39\" sugere um intervalo. São preços de exemplo, e a `nota` já diz isso. Trocar por \"com preços de exemplo como…\".",
+    "Unidade 3: `condicoes` (\"O exemplo usado é emagrecimento\") descreve o exemplo, não uma condição de validade. Poderia ser `null`. A tarefa `pesquisar-publico-e-subnicho` é discutível, mas defensável.",
+    "Unidade 5: repete os blocos 3 e 4 da unidade 2. O que ela acrescenta é só o aviso de que a aula não detalha a invalidação. Pode ficar como está.",
+    "Unidade 4: a redação do título está truncada (\"…e que ela desconhece\"). Sugestão: \"Consequência: a de não resolver o problema, e uma que ela desconhece\"."
+  ],
+  "proximo": "Promover G01_A08 a `revisado`. Os ajustes menores não abrem ciclo.\nSe a coordenação decidir aplicá-los:\n- mexer em `fim`, `condicoes` ou corpo muda o hash da unidade e o sha do arquivo;\n- isso invalida esta inspeção e este julgamento no `--reviews`;\n- nesse caso, aplicar tudo de uma vez e reconferir só as unidades 1 e 3.\nNão peço prova adicional ao inspetor."
+}

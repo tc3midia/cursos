@@ -1,0 +1,53 @@
+{
+  "aula": "G12_A06",
+  "arquivo_sha256": "18bd154aa072c935645c9b5a1016906802e09a6fef4fe5f8abebe7ac6ec23e14",
+  "inspecao_sha256": "525c6fa7c3717f366aa2ba4f1fde2410556a7551f4b198bea1fac4edf1e26113",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. O item que o inspetor registrou em 'contrato' (tipo de U10) é discussão de classificação, não erro de contrato; vai para ajustes menores.",
+  "fidelidade": "Inspeção integral (14/14) sem citações não literais. Um desvio material: U3 transforma uma decisão pontual de continuidade dentro do exemplo (a pessoa já escolhida era mulher, então clipe com homem é descartado) em regra categórica com confianca alta e acrescenta uma razão que a fonte não dá (combinar com o gênero da locução ou do avatar). Caso narrado apresentado como parâmetro geral, com lastro inventado. U6 e U13 são desvios menores (posição do 9:16 como passo por clipe; justificativa inventada para o ícone de teclado). U2, U5 e U11 estão lastreadas com acréscimos pequenos que não mudam a ação. U8 e U10 aplicam corretamente as regras de aula de tela e de termo não identificado.",
+  "cobertura": "Omissão localizada pelo inspetor com trechos literais em três pontos (~558.96 'Mascara, adiciona máscara, película' / 'E suaviza'; ~725 'Mascara novamente, película aumenta'; ~850 'básico, tela, desfocar'): a sequência recortar área → adicionar máscara → película → suavizar/desfocar é nomeada pela fala e repetida. U8 é um limite que começa em 589, depois da primeira ocorrência, e declara a sequência irreconstruível; a própria nota de U8 admite que máscara e desfoque são mencionados diversas vezes. Efeito prático: agente consultando editar-video×canva para mascarar ou desfocar uma região recebe 'ficou na tela' quando a fonte nomeia a técnica, e tende a responder 'não coberto' ou completar por conhecimento externo. O limite de aula de tela vale quando o essencial fica na imagem, não quando a fala nomeia os passos. O inspetor não errou de forma visível: U8 menciona os termos, mas não os preserva como passos. Falha.",
+  "perecibilidade": "Nada sinalizado pelo inspetor. Todas as unidades presas ao Canva estão com perecivel true; U3 e U14 são as únicas 'geral' e de fato não dependem de ferramenta (escolha de clipe em banco; estrutura do anúncio). Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: jargão explicado no corpo, exemplos marcados como 'no exemplo', tipo/tema/tarefas coerentes. Três pontos menores que não mudam o uso: U2 abre com 'Para abrir um anúncio de um nicho de dor' mas deixa condicoes null (o corpo carrega a condição); U10 como limite é defensável, mas a orientação de escolher entre efeitos favoritos salvos também caberia em ferramenta; U13 usa condicoes como nota sobre copy de exemplo. Passa.",
+  "falhas": [
+    {
+      "id": "G12_A06-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal na faixa 161.74–169.74: 'Não, aqui já é um homem, aqui já não pode.', precedido por 'uma mulherzinha aqui' (pessoa já escolhida). A fala não enuncia regra nem motivo; a unidade afirma 'use uma pessoa do mesmo gênero da voz que narra ou do avatar do anúncio' como regra categórica, com confianca alta.",
+      "impacto": "Agente aplica e cita como regra do curso um critério de casting (gênero do clipe = gênero da locução/avatar) que a fonte não ensina; descarta clipes válidos ou atribui ao professor uma orientação que ele não deu.",
+      "mudanca_minima": "Reescrever U3 como o que a fonte mostra: no exemplo, o professor descarta um clipe com homem porque a pessoa já escolhida para representar quem sofre o problema era uma mulher (continuidade entre os clipes). Retirar a ligação com o gênero da locução/avatar. Tipo 'exemplo' (Situação/O que aconteceu/Lógica) ou 'regra' atribuída como preferência ('no exemplo, o professor mantém...'), confianca no máximo media. Incrementar versao.",
+      "criterio_de_aceite": "O corpo de U3 não menciona gênero da locução nem do avatar, salvo se o inspetor apresentar trecho literal que o diga; a unidade é 'exemplo' ou 'regra' atribuída ao professor com marca de exemplo; confianca ≤ media; o inspetor reconfere como lastreada com trecho literal."
+    },
+    {
+      "id": "G12_A06-F2",
+      "unidades": [
+        8
+      ],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, omissão com trecho literal em 558.96 'Mascara, adiciona máscara, película' e 'E suaviza' / 'Suavizou' / 'desfocar'; repetida em ~725–730 'Mascara novamente, película aumenta' e ~850–870 'básico, tela, desfocar'. U8 (limite, 589–796.1) começa depois da primeira ocorrência e declara que o passo a passo não se reconstrói; a nota de U8 admite que máscara e suavizar/desfocar são mencionados 'diversas vezes'.",
+      "impacto": "Quem consulta editar-video em canva para mascarar ou desfocar uma região (por exemplo, o rosto) não encontra os passos que a fala nomeia e recebe um limite dizendo que ficou na tela; o agente responde 'não coberto' ou completa por conhecimento externo, quando a fonte nomeia a sequência e a repete três vezes.",
+      "mudanca_minima": "Criar unidade nova (número 15) do tipo 'procedimento' ou 'ferramenta', plataforma canva, perecivel true, com só os passos que a fala nomeia (recortar a área, adicionar máscara, película, suavizar/desfocar), sem passo, menu ou valor que a fala não diga, faixa começando na primeira ocorrência (~558.96), nota dizendo que o propósito e o caminho exato dos menus ficam na tela, confianca media ou baixa. Ajustar U8 para cobrir só a parte de duplicar clipes e não afirmar que máscara/desfoque são irreconstruíveis. Se o redator, com a fonte, demonstrar que os termos nomeados não formam sequência executável, registrar em 'correcoes' os trechos e o motivo, e reescrever U8 começando em ~558.96 listando os termos que a fala nomeia.",
+      "criterio_de_aceite": "Existe unidade cobrindo a técnica a partir de ~558.96 cujos passos são exatamente os nomeados pela fala, cada um lastreado pelo inspetor com trecho literal, sem passo inventado; U8 não contradiz essa unidade. Alternativa aceita só com registro em 'correcoes' dos trechos que mostram a sequência não executável e U8 reescrita começando na primeira ocorrência e nomeando os termos da fala, confirmada pelo inspetor."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: preencher condicoes com a situação que o corpo já declara (abertura de anúncio de nicho de dor, antes da menção ao produto); suavizar ou retirar 'para criar um clima negativo antes de qualquer menção ao produto', que o inspetor mostra não estar dito com clareza (fala anterior cortada).",
+    "U5: retirar 'até o resultado parecer natural'; a fala não dá critério de parada, só reage ao efeito.",
+    "U6: o ajuste de proporção 9 por 16 aparece uma vez como configuração do projeto, não como passo por clipe; tirar o passo 3 do procedimento (manter os passos 1 e 2) e registrar o 9:16 em unidade própria ou em nota, para não sugerir reconfiguração a cada clipe.",
+    "U10: classificação discutível entre 'limite' e 'ferramenta'; a orientação de escolher entre os efeitos sonoros favoritos salvos no Canva é acionável, e o nome ilegível ('eu compro B') pode ficar entre aspas com nota e confianca baixa dentro de uma unidade 'ferramenta'. Não abre ciclo.",
+    "U11: trocar 'trilha de tensão' por 'efeitos de barulho', que é o que a fonte chama o que vinha antes da música comercial.",
+    "U13: retirar 'já que o convite era para tocar em um botão' (motivo inventado para o ícone); mover a observação sobre copy de exemplo de condicoes para nota, já que não é condição de aplicação.",
+    "Inspetor: o apontamento sobre U10 foi registrado em 'contrato', mas é classificação; o validador está limpo."
+  ],
+  "proximo": "Ciclo de correção 1 de 2: enviar ao redator a lista F1 e F2 com os ajustes menores anexos. O redator tem a fonte e decide o caminho de F2 (extrair os passos nomeados ou provar em 'correcoes' que não são executáveis). Reinspeção focal em U3, na unidade nova e em U8, com trecho literal por passo; hashes das demais unidades intactas preservam a evidência atual. Se o redator escolher a alternativa de F2, o inspetor confirma que a fala não vai além dos termos nomeados antes de nova rodada de julgamento."
+}

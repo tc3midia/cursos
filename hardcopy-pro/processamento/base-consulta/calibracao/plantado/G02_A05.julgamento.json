@@ -1,0 +1,85 @@
+{
+  "aula": "G02_A05",
+  "arquivo_sha256": "8e0466b6ee186fa5b54085a3a998d24ceb01866823a72afcc72fd678eb5d5799",
+  "inspecao_sha256": "97cef01e595ba9c3a13314d22dc45e62f0e0dd44d1e3708ed17203edb69f6bd9",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "d8b5e6e0a4ef70fa984e2a9c27838557f86eda9017a7e29d3accdeecd9353333",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura",
+    "perecibilidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os três itens que o inspetor pôs no campo `contrato` não são erros de script: são um jargão sem explicação (U3), uma inconsistência entre U6, U8 e U9, e um tema discutível (U4). Trato cada um na área própria.",
+  "fidelidade": "Falha. Há três desvios materiais, cada um com trecho literal da fonte, e `citacoes_nao_literais` está vazio.\n- **U2:** o corpo e a nota dizem 70% para o protagonista. A fonte diz 60% duas vezes, e a nota ainda afirma que \"a fala dá 70%\".\n- **U7:** a unidade tira a condição \"se você vende um produto onde você é o expert\" e escreve \"Qualquer que seja o produto\". Também troca exemplos abertos de bônus (\"algo surreal, como… ou enfim\") por \"deve ser sempre o contato direto\".\n- **U9:** copy de exemplo tratada como fato. A unidade é `regua` com 12x de R$ 9,90, 99 reais e garantia de 7 dias. O fecho da aula manda não falar de garantia, então o sentido está invertido. As próprias unidades confirmam o erro: a nota da U8 diz que o professor descarta a versão com 99 reais e 7 dias, e a condição da U6 diz que o 99 é do exemplo.\n\nA faixa errada da U2 é 1 em 10 unidades, no limite de 10% e não acima dele, então não veta sozinha; a correção vai junto na F1. As unidades 1, 3, 4, 5, 8 e 10 estão lastreadas. A U6 está lastreada com um ajuste menor. Não achei erro do inspetor visível nas unidades: nenhuma delas contém o fecho que ele aponta como omitido.",
+  "cobertura": "Falha. O inspetor declarou busca integral de omissões. Ele localiza em ~573–585s, com trecho literal, o fecho da demonstração: com os três bônus fechando no incrível, o professor diz que não é preciso falar de garantia, de quanto vale o produto nem usar feedbacks.\n\nIsso é uma restrição que muda a ação. Um agente que escreve o pitch por esta base acrescentaria garantia, ancoragem de valor e depoimentos, justamente o que a aula manda cortar. As faixas da U8 (até 566) e da U9 (até 475) terminam antes do trecho, e nenhuma unidade o contém. A U9 ainda afirma o contrário sobre a garantia.\n\nNão conto como omissão a oferta do próprio curso, que tem `limite` na U10.",
+  "perecibilidade": "Falha. A U6 traz o preço de 99 reais no corpo e nas condições com `perecivel: false`. A rubrica é categórica sobre preço sem a marca. O extrator marcou `true` na U8 e na U9, que trazem os mesmos valores, então o arquivo também fica inconsistente.\n\nO inspetor apontou o problema na seção de perecibilidade, mas chamou de ajuste menor no resumo. Não acompanho esse rebaixamento. A correção é objetiva e a unidade já seria editada pelo ajuste menor da frase final. As demais unidades não escondem perecível: U8, U9 e U10 já estão com `true`.",
+  "aplicabilidade": "Não há veto independente, mas a área tem problemas que saem junto com as falhas de fidelidade.\n- **U7:** `condicoes: null` num corpo que só vale para quem é o expert do produto. É o mesmo defeito da F2.\n- **U9:** o tipo `regua` com tarefa `definir-preco-e-garantia` leva o agente a tratar número de copy fictícia como parâmetro de preço. É o mesmo defeito da F3.\n- **U3:** usa \"formato de absurdo\" sem explicação. O inspetor diz que a fonte também não define o termo, e o exemplo de personagens continua utilizável sem ele. Fica como ajuste menor.\n\nAs unidades 1, 4, 5, 6, 8 e 10 se sustentam sozinhas. Elas explicam NPC, mecanismo único e lead na primeira ocorrência e atribuem as afirmações ao professor. Os temas e tarefas são defensáveis.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita literalmente \"O protagonista é 60% do tempo da VSL, tá bom?\" (00:01:31) e aponta uma segunda ocorrência em 00:02:38 (\"Por que o protagonista é 60% do tempo\"). O corpo da U2 diz 70%, e a nota afirma \"A fala dá 70% ao protagonista\". A faixa 91–181 também termina antes de dois trechos que o corpo usa: \"para depois entrarmos na dor\" (~180–185s) e os NPCs para \"formato de novela e storytelling\" (188–196s).",
+      "impacto": "O número de uma `regua` está adulterado. O agente que dimensionar a VSL por esta unidade vai dar 70% do tempo ao protagonista, e a nota, que deveria sinalizar a dúvida, reforça o número errado. A faixa curta impede verificar na fonte duas afirmações do corpo.",
+      "mudanca_minima": "Trocar 70% por 60% no corpo. Reescrever o início da nota para dizer que a fala dá 60% ao protagonista, mantendo o registro da ambiguidade de \"O protagonista é 20%\". Manter `confianca: media`. Estender `fim` para ~197 para cobrir os dois trechos finais. Incrementar `versao`.",
+      "criterio_de_aceite": "(1) A string \"70%\" não aparece no corpo nem na nota da U2, e o corpo diz 60% para o protagonista. (2) A nota continua registrando a ambiguidade dos 20%. (3) O inspetor confirma que \"para depois entrarmos na dor\" e o trecho do formato de novela estão dentro de `inicio`–`fim`. (4) `versao` ≥ 2 e o validador dá zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita literalmente \"Se você vende um produto onde você é o expert, dê a possibilidade do lead conversar com você nessa parte.\" A U7 diz \"Qualquer que seja o produto\" e tem `condicoes: null`. Segundo o inspetor, a fonte descreve o bônus incrível como \"algo surreal, como uma live..., ou então uma consultoria grátis..., ou então um grupo de WhatsApp, ou enfim\", ou seja, exemplos abertos. O que a fonte afirma de categórico é que o bônus 3 sempre tem que ser o incrível. O corpo transforma isso em \"deve ser sempre o contato direto com quem vende\".",
+      "impacto": "A unidade suprime uma condição e promove exemplos a regra universal. O agente que montar oferta para afiliado, produto físico ou vendedor que não é o expert vai receber \"contato direto com o vendedor\" como obrigação. Também vai descartar outros formatos de bônus incrível que a fonte deixa em aberto. Com `condicoes` vazio, o defeito ainda atinge a aplicabilidade.",
+      "mudanca_minima": "Reescrever o corpo com estes pontos. (a) O bônus 3, aquele que vale o produto inteiro, tem que ser sempre o incrível, \"algo surreal\" nas palavras do professor. (b) Live, consultoria grátis e grupo de WhatsApp entram como exemplos abertos. (c) A conversa direta com quem vende vale quando quem vende é o expert do produto. Retirar \"Qualquer que seja o produto\". Preencher `condicoes` com o perfil (produto em que quem vende é o expert). Ajustar o título para não afirmar que o bônus incrível é o contato direto. Manter os números do Airbnb como exemplo e a atribuição do efeito ao professor. Incrementar `versao`.",
+      "criterio_de_aceite": "(1) `condicoes` não é nulo e traz a condição do expert. (2) O corpo não contém \"Qualquer que seja o produto\" nem afirma que o bônus incrível deve ser sempre contato direto. (3) Live, consultoria e grupo de WhatsApp aparecem como exemplos. (4) O corpo diz o que é o bônus incrível (o terceiro, que vale o produto inteiro), sem depender da U6. (5) O inspetor marca a U7 como lastreada contra o trecho citado. (6) `versao` ≥ 2 e o validador dá zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        9
+      ],
+      "veto": "fidelidade",
+      "evidencia": "A U9 é `regua` e traz três números: \"12 vezes de R$ 9,90 para um produto de 99 reais\" e \"A garantia de referência é de 7 dias\". Segundo o inspetor, cada número tem outra origem na fonte. O 99 vem de um caso hipotético (\"Vamos supor que você está vendendo aulas... 99 reais\"). O 12x de R$ 9,90 é fala da copy lida. Os 7 dias estão na versão que o professor corrige com \"Não, você vai falar com ela...\" e depois nega no fecho, com o trecho literal \"Que você não precisa falar de garantia\" (~573–585s). A fonte não liga o 12x de 9,90 ao 99: 12 × 9,90 dá 118,80. As próprias unidades confirmam o erro: a nota da U8 diz que o professor descarta a versão com valor cheio, 99 reais e 7 dias, e a condição da U6 diz que o 99 \"é do exemplo, não recomendação\".",
+      "impacto": "É copy de exemplo tratada como fato, com o sentido invertido na garantia. O agente que consultar `definir-preco-e-garantia` vai receber preço, parcelamento e garantia de 7 dias como parâmetro do curso. Esses números são de texto fictício, e a aula conclui que não é preciso falar de garantia. A base também fica contraditória entre U6, U8 e U9.",
+      "mudanca_minima": "Há dois caminhos.\n- **Preferencial:** reescrever a U9 como `regra` (`versao` 2) sobre como tratar preço, valor e garantia na fala de oferta. No molde com três bônus fechando no incrível, o professor dispensa a comparação de \"quanto vale\" e vai direto ao preço parcelado. Tirar a garantia de 7 dias como referência e a relação com 99 reais. Se o 12x de R$ 9,90 ficar, entra só como ilustração da copy de exemplo, com isso dito em `condicoes` e `perecivel: true`. Se a divisão entre instrução e copy continuar incerta, usar `confianca: media` com nota.\n- **Alternativo:** retirar a U9 (acrescentar 9 em `retiradas` e registrar em `correcoes`), porque a U8 já cobre a copy como `exemplo`.",
+      "criterio_de_aceite": "(1) Nenhuma unidade do arquivo de tipo `regua`, `regra` ou `conceito` apresenta 12x de R$ 9,90, 99 reais ou 7 dias como referência. A U9 deixou de ser `regua` ou está em `retiradas`. (2) Nenhum corpo afirma garantia de referência de 7 dias nem liga o 12x de 9,90 a um produto de 99. (3) Número de copy que permanecer está marcado como copy de exemplo em `condicoes`, com `perecivel: true`. (4) U6, U8 e a U9 (ou a unidade que a substituir) não se contradizem sobre o que o professor descarta. (5) O inspetor confirma o lastro com trecho literal. (6) O validador dá zero erros, inclusive na reconciliação de `numero` e `retiradas`."
+    },
+    {
+      "id": "F4",
+      "unidades": [
+        8,
+        9
+      ],
+      "veto": "cobertura",
+      "evidencia": "Omissão localizada pelo inspetor em ~573,5s, com o trecho literal \"Que você não precisa falar de garantia\". Com os três bônus, o professor diz que não é preciso falar de garantia, de quanto vale o produto nem usar feedbacks. A pessoa chega nessa parte, conclui que não emagrece com outra pessoa e compra. As faixas da U8 (fim 566) e da U9 (fim 475) terminam antes do trecho, e nenhuma unidade o contém.",
+      "impacto": "É uma restrição que muda a ação. O agente que redigir ou revisar o pitch por esta base não vai saber que, neste molde de oferta, garantia, justificativa de valor e depoimentos são dispensados. Vai acrescentar à VSL o que o professor manda cortar.",
+      "mudanca_minima": "Registrar o fecho em uma unidade. Pode ser a própria reescrita da U9 prevista na F3, com a faixa estendida para cobrir ~573–585s. Pode ser também uma unidade nova, número 11, tipo `regra`, tema `pitch-e-cta` ou `preco-e-garantia`, tarefa `escrever-pitch-e-cta`. O corpo diz que, segundo o professor, a oferta montada com os três bônus fechando no incrível dispensa três coisas: falar de garantia, falar de quanto vale o produto e usar feedbacks. Inclui a razão que ele dá. `condicoes` amarra a orientação a esse molde de oferta e registra que a eficácia é afirmação do professor. Não completar com conhecimento externo sobre garantia.",
+      "criterio_de_aceite": "(1) Existe uma unidade cuja faixa cobre ~573–585s e cuja `evidencia` é literal desse trecho. (2) O corpo lista os três itens dispensados (garantia, quanto vale, feedbacks), atribuídos ao professor. (3) `condicoes` traz a condição dos três bônus com o incrível. (4) O inspetor a marca como lastreada e não relista a omissão. (5) O validador dá zero erros."
+    },
+    {
+      "id": "F5",
+      "unidades": [
+        6
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da U6 traz \"(no exemplo, 99 reais)\" e `condicoes` traz \"o preço de 99 reais é do exemplo\", com `perecivel: false`. O inspetor apontou o problema na seção de perecibilidade. No mesmo arquivo, a U8 e a U9 trazem os mesmos valores com `perecivel: true`.",
+      "impacto": "Um preço está em unidade marcada como não perecível. O agente que filtrar por `perecivel: false` para montar oferta vai receber um valor em reais como conteúdo estável. O arquivo também trata o mesmo número de dois jeitos.",
+      "mudanca_minima": "Marcar `perecivel: true` na U6. A alternativa é tirar o valor de 99 reais do corpo e de `condicoes` e manter `perecivel: false`. Incrementar `versao`.",
+      "criterio_de_aceite": "Vale uma das duas saídas: a U6 está com `perecivel: true`, ou não contém preço no corpo nem em `condicoes`. Em qualquer caso, `versao` ≥ 2 e o validador dá zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U6: a frase final \"na fala de venda diz que é incluído\" vem do vocabulário de outra aula (G02_A09). Nesta aula, a própria copy diz \"bônus da PLR\". Retirar a frase ou atribuí-la à outra aula. Convém fazer na mesma edição da F5, mas não é critério de aceite.",
+    "U3: \"formato de absurdo\" aparece sem explicação, e a fonte também não define o termo. Manter entre aspas e dizer na nota que a aula não o define, sem inventar definição.",
+    "U3: `fim`=150 corta a última frase da Lógica, que começa em ~150,02s. Estender alguns segundos se a unidade for tocada. Sozinho, não justifica edição.",
+    "U4: o tema `objecoes-e-credibilidade` é defensável. `personagens-e-roteiro` também caberia, junto das U1–U3. É classificação discutível e não exige mudança."
+  ],
+  "proximo": "Encaminhar as falhas F1 a F5 ao redator de correções. Ele toca só as unidades 2, 6, 7 e 9, e a 11 se for criada. F3 e F4 podem ser resolvidas por uma única reescrita da U9 com a faixa estendida até o fecho.\n\nDepois, rodar o validador e uma conferência focal do inspetor sobre essas unidades, com três verificações contra a fonte:\n- o 60% da U2 e a nova faixa;\n- a condição do expert e os exemplos abertos na U7;\n- o fecho de ~573–585s, incluindo a fronteira entre instrução do professor e copy lida no trecho 428–475, que a nota da U8 diz não ser clara.\n\nAs unidades 1, 3, 4, 5, 8 e 10 mantêm a evidência atual se o hash não mudar.\n\nA coordenação deve conferir em que ciclo este artefato está. A U1 já está em `versao` 2 e o arquivo não traz `correcoes`, o que indica correção anterior sem registro. O teto de dois ciclos conta a partir da primeira correção."
+}

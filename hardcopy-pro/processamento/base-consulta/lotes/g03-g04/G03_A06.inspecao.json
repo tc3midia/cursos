@@ -1,0 +1,35 @@
+{
+  "aula": "G03_A06",
+  "arquivo_sha256": "75163f7eb3568f14598e28f7ac1773b8833158514ffee54a7b92215170e26e80",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1
+  ],
+  "unidades_no_arquivo": [
+    1
+  ],
+  "hashes_unidades": {
+    "1": "379e2cf1f1756d925ac7579147ee32cfe1f32eefb5d3afd5f896deb24f6c79e9"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É muito mais fácil você pegar algo hoje que já existe e que é uma merda",
+      "explicacao": "O conteúdo está na fonte e não há número, condição ou sentido trocado. Confere: criatividade não se compra nem se implanta e se molda com o tempo (00:29–00:40). Não dá para criar do zero, e Tesla pegou uma base (00:41–01:05). Reformular algo existente é mais fácil do que criar algo absurdo, que pode custar anos (01:16–01:41). A frase \"uma vez por semana\" e \"em um mês\" vem com \"eu acho\", e a unidade atribui isso ao professor e diz que não é resultado comprovado. Dois pontos menores. (1) `fim: 216` estica a faixa para dentro do resíduo de silêncio: o conteúdo didático termina em cerca de 116 s, o agradecimento em cerca de 145 s, e \"Legenda Adriana Zanotto\" e \"E aí\" ocupam 163–223 s. Não é faixa-errada, porque o conteúdo e a evidência (cerca de 84 s) estão dentro da faixa. Mas a faixa cobre mais de 70 s sem fonte. (2) A fonte diz \"vesse esse treinamento\", palavra degradada que pode ser \"visse\" ou \"revisse\". A unidade fixa \"reveja\". Não muda a ação de quem consulta."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1: a tarefa `gerar-variacoes-de-criativo` não corresponde ao conteúdo. A taxonomia a define como \"Produzir variações de hook, som ou imagem sobre um criativo\", e a aula não fala de variar criativo, só de mentalidade (reformular o que já existe em vez de criar do zero). Quem buscar essa tarefa recebe uma unidade sem técnica de variação. Nenhuma tarefa do enum se ajusta bem, então `conceito` com `tarefas: []` seria mais fiel. A classificação é discutível entre valores defensáveis, portanto ajuste menor.",
+    "Contexto: três afirmações não têm lastro na fonte. \"O professor fala ao aluno de tráfego e copy\": a aula fala em \"criatividade\" e \"treinamento\" e não cita tráfego nem copy. \"A aula assume que o aluno assistiu aos episódios anteriores\": nada na fala diz isso. \"Deixa o método de achar ângulos a partir do que já existe para outros episódios\": a fala não remete a outro episódio. A fonte só sustenta que é o fecho (agradecimento, \"até a próxima\") e que a ideia central é reformular o que já existe. O contexto deve ser reescrito só com o que a fonte diz. Ajuste menor, porque o contexto não é unidade consultável."
+  ],
+  "material": [],
+  "resumo": "A única unidade está lastreada na fala. Os números (\\\"uma vez por semana\\\", \\\"em um mês\\\") estão corretos e atribuídos ao professor como expectativa dele. Os apontamentos são todos menores: a faixa `fim: 216` invade o resíduo de silêncio, a tarefa `gerar-variacoes-de-criativo` não combina com uma aula de mentalidade, e o contexto acrescenta o que a fonte não diz (público de tráfego e copy, episódios anteriores, método deixado para outros episódios). Não há omissões, perecibilidade nem material a registrar."
+}

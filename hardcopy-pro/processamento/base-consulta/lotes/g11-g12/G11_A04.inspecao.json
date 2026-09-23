@@ -1,0 +1,124 @@
+{
+  "aula": "G11_A04",
+  "arquivo_sha256": "d40aac8380ffab5bd301eb43022bb8124c47cf12ea80aba04dc1872ee15e315b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "b83f40d5cce56486b2bffb9bb1a26e89fd6d347b5ed427c9b2f88ed56775de9e",
+    "2": "f72256f213262131451ef2062cae0807a54d9e8e52478f500cf04800dc71dafa",
+    "3": "cd0b3554beb8b76b208943efa10b8c863db129ee6089aae1cc068548ed4ee7fa",
+    "4": "2c90c2511b0294341df7255530c2a639d3e04f78eb242acf249c764cc25cb1c5",
+    "5": "2b54c2b4a93bab35d7f3a589df67e235e46c6650f2953728301a82ba5e5aa76c",
+    "6": "26ace3e606fb39d1a9ccaa4b18f802250b8d63c77bd4de2ab9053c591b320f08",
+    "7": "4215fbccd2a681b53b743b57bb9f9fdeae5066a4f68d245dfd05f069fa2d627b",
+    "8": "8bf5041b41090f6d896fa86f140b0cc6924eb76258851974525b68cc8bdbe839",
+    "9": "85b469a348e059d91c4df62afab7488c310ddbd1b83c7844e81a90c8341dace6",
+    "10": "a07bfb33084d71415045c64857e338110f83dd2a4786517a90ace4837e4328ab"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "porque ela não necessita necessariamente criatividade e é bem rápido é bem simples a gente vai fazer uma variação de hooks para um criativo validado",
+      "explicacao": "O corpo acrescenta 'ao contrário de criar um anúncio do zero', um contraste que a fala não faz nesse trecho; o professor só diz que a tarefa é rápida, simples e não exige necessariamente criatividade. É conteúdo plausível, mas que a aula não afirma; não muda a orientação central da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o hook é o início do anúncio",
+      "explicacao": "A definição de hook (início do anúncio) e lead (equivalente na VSL, termo usado por quem tem mais tempo de mercado), além da observação de que há quem chame o início da VSL de hook também, estão fielmente preservadas dentro da faixa 73–110s."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente precisa ter primeiramente a nossa ia muito bem alimentada e muito bem estudada com o nosso conhecimento geral junto com ela nunca vamos deixar ela fazer tudo sozinha porque ela ainda não chegou nesse ponto",
+      "explicacao": "A unidade reproduz corretamente a recomendação de alimentar bem a IA antes de usá-la e a ressalva de nunca deixá-la decidir sozinha, com a justificativa dada pelo professor, dentro da faixa 113–130s."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos copiar todo o anúncio e vamos jogar em um chat que já esteja trabalhado com isso",
+      "explicacao": "Os passos (copiar o anúncio, colar no chat já treinado avisando que foi validado e pedindo variações com base no que funcionou, e a observação de que demora/travamento do chat é sinal de boa alimentação, não erro) batem com a fala entre 140–205s. A identificação da ferramenta como 'chatgpt' vem com nota e confiança média, como exige o processo para hipótese; ver ressalva sobre a força dessa evidência em 'contrato'."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "aqui vai algumas variações de hooks então ele já deixou pronto",
+      "explicacao": "A unidade atribui ao professor a análise de que o hook funcionou por 'começo direto, prova prática, chamada pra assistir, ênfase na VSL como espetáculo' ('o professor analisou o que fazia o hook original funcionar'). Na fala, esse texto é a resposta gerada pelo próprio chat de IA (após o prompt colado), que o professor apenas lê em voz alta: 'então ele já deixou pronto' retoma 'o chat' mencionado antes ('como eu já tenho um chat...'), não o professor. A inversão de autoria muda o sentido de quem produziu a análise apresentada como critério de bom hook."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "com base nas três variações acima me dê várias opções de hooks ainda melhores",
+      "explicacao": "O procedimento de selecionar as três melhores variações recebidas e pedir ao chat opções ainda melhores com base nelas está corretamente lastreado na fala, dentro da faixa 314–337s."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "coloca aqui agora para ficar bem organizado variação 1 negrito",
+      "explicacao": "O passo 2 do corpo afirma 'Destaque o hook em negrito', mas na fala 'Negrito' aparece logo após o professor digitar o rótulo 'Variação 1' ('coloca aqui agora para ficar bem organizado, Variação 1, Negrito, e aqui a gente separa por páginas'), indicando que o negrito é aplicado ao rótulo da variação, não ao texto do hook. O restante do procedimento (separar hook do resto do anúncio, organizar em páginas por variação) está lastreado."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "sempre que você validar um anúncio faça isso que cara a assertividade de anúncios vai aumentar e muito",
+      "explicacao": "A recomendação de repetir o processo a cada novo anúncio validado, e a ideia de que até um hook já bem-sucedido pode ser trocado de novo ('retroalimentada'), estão fielmente preservadas dentro da faixa 543–563s."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "tenta pegar o melhor anúncio da sua operação e faz isso para ver o que acontece",
+      "explicacao": "A orientação para operação pequena ou sem margem de lucro aplicar a técnica no melhor anúncio disponível está corretamente lastreada na fala, dentro da faixa 563–573s."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "como que eu faço headlines e sub-headlines de impacto",
+      "explicacao": "O limite descreve corretamente que a próxima aula tratará de headlines e sub-headlines de impacto com apoio de IA, sem desenvolver esse conteúdo aqui, conforme a fala entre 575–585s."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidades 4 e 6 classificam plataforma como 'chatgpt', mas a fala usa só a palavra genérica 'chat' ('vamos jogar em um chat que já esteja trabalhado com isso'; 'como eu já tenho um chat que eu alimento ele todos os dias'), sem nenhuma das deformações de ChatGPT listadas na tabela de grafias (chat GPT, chat de PT etc.). A identificação vem com nota e confiança média, cumprindo a regra de hipótese, mas a evidência é fraca porque não há deformação alguma a apontar — é uma inferência pelo padrão do curso. Vale checagem do juiz sobre se 'geral' (com nota) não seria mais fiel, já que a técnica descrita (colar texto, pedir variações) não depende de recurso específico do ChatGPT."
+  ],
+  "material": [],
+  "resumo": "A extração cobre com boa fidelidade o fluxo cronológico da aula (alimentar a IA, copiar o anúncio validado, gerar e selecionar variações de hook, montar os anúncios finais, repetir o processo, e a prévia da próxima aula), sem omissões materiais localizadas. Duas unidades têm desvio de atribuição: a unidade 5 credita ao professor uma análise que a fala mostra ser gerada pelo próprio chat de IA ('ele já deixou pronto'), e a unidade 7 atribui ao hook uma formatação em negrito que na fala é aplicada ao rótulo 'Variação 1'. A unidade 1 acrescenta um contraste não dito pela fala. Não há material de apoio nesta aula (fonte só fala), e a classificação de plataforma 'chatgpt' nas unidades 4 e 6, embora hedged com nota e confiança média, repousa em evidência fraca (a fala só diz 'chat', sem deformação reconhecível), o que merece atenção do juiz."
+}

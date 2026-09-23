@@ -1,0 +1,53 @@
+{
+  "aula": "G04_A07",
+  "arquivo_sha256": "b33c2bac2b959b2d38502cb1f33fe8c71faaa791e7ecd60a9ab57e5b058c846e",
+  "inspecao_sha256": "264f9f95279ad835ca8673ada0281f642beb3d1f4e4bad38e7844676b72ce6cf",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então não há veto de contrato. Há três observações menores, registradas em ajustes. A primeira é a confiança da U4, que está em `media` e o FORMATO pede `baixa` para termo não identificado. A segunda é a menção a resíduo de silêncio no `contexto`. A terceira é o marcador temporal nas `condicoes` da U1.",
+  "fidelidade": "O veto de fidelidade se aplica por causa da U2. As unidades 1, 3 e 4 estão lastreadas com trecho literal, e nenhuma citação do inspetor foi marcada como não literal.\n\nA U2 tem desvio material, comprovado por dois trechos literais. A fonte diz \"Essa e a criatividade são as mais importantes. O resto, eu diria, que você consegue delegar\". Em outra fala, diz \"A primeira e a segunda temporada Você não delega\". O corpo funde as duas e afirma que \"a primeira e a segunda temporada, junto com a parte de criatividade, são as mais importantes\". Isso foi feito com `confianca: alta` e `nota: null`, ou seja, a tensão da fonte foi resolvida em silêncio, e a rubrica trata isso como desvio, qualquer que seja a confiança.\n\nA evidência disponível não determina a que \"segunda temporada\" se refere. Pode ser a de edição, como as U1 e U3 levam a crer, ou outra. Por isso a unidade precisa preservar a incerteza, e não escolher um lado.\n\nNa mesma unidade, o corpo cita o 8020, que está em 125.48–127.30. A faixa termina em 125.38, antes desse trecho, então ele fica fora dela.\n\nA justificativa também foi reescrita como máxima geral (\"quem faz o produto é quem sente o produto\"). Na fonte ela é dirigida ao aluno (\"você que vai sentir o seu produto\").",
+  "cobertura": "Não há veto de cobertura. A inspeção foi integral e declarou ter buscado omissões. A única omissão localizada é a dica de estudo de fechar os olhos e imaginar enquanto o professor fala de copy e criatividade (152.1–164.9). É dica de como assistir ao curso. Não muda nenhuma decisão de copy ou anúncio, nem a execução de procedimento algum, e por isso fica como ajuste menor. A aula é um recado de fecho, e uma aula desse tipo com poucas unidades e limites é o resultado esperado.",
+  "perecibilidade": "Não há veto de perecibilidade. As quatro unidades têm `perecivel: true`. As três de `curso-e-recursos` cumprem a exigência do contrato. O suporte 24 horas e a ordem das temporadas estão marcados. O inspetor não apontou perecível escondido.",
+  "aplicabilidade": "Não há veto de aplicabilidade. As unidades se entendem sem a aula ao lado, no nível que um recado de fecho permite.\n\nNa U2, o tema é `criatividade-e-angulo` e a tarefa é `roteirizar-anuncio`, mas o conteúdo é uma regra de divisão de trabalho. A taxonomia não tem tema nem tarefa de delegação, e o tipo `regra` exige ao menos uma tarefa. É classificação discutível entre valores defensáveis, portanto ajuste menor.\n\nNa U3, \"o texto trabalhado\" aponta para algo que ficou na tela. Como a unidade é um `limite` e o adiamento da edição se entende sem isso, fica como ajuste menor.\n\nNa U1, \"segunda temporada\" aparece sem dizer qual é. Fica como ajuste menor, e convém harmonizar com a correção da U2.",
+  "falhas": [
+    {
+      "id": "G04_A07-F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor traz dois trechos literais. O primeiro é \"Essa e a criatividade são as mais importantes. O resto, eu diria, que você consegue delegar\". O segundo, em outra fala, é \"A primeira e a segunda temporada Você não delega\". O corpo afirma que \"a primeira e a segunda temporada do treinamento, junto com a parte de criatividade, são as mais importantes\". Isso funde as duas falas, com `confianca: alta` e `nota: null`. O corpo também diz \"quem faz o produto é quem sente o produto\". A fala é dirigida ao aluno: \"você que vai sentir o seu produto / você que vai fazer o seu melhor nele\".",
+      "impacto": "A unidade existe para dizer o que é prioritário e o que se delega. Como está, o agente conclui com confiança alta que a segunda temporada está entre as mais importantes e não é delegável. Pelas U1 e U3, essa temporada seria a de edição. Isso colide com \"o resto você consegue delegar\" e a fonte não afirma. O agente repetiria uma regra de delegação que o professor não disse dessa forma.",
+      "mudanca_minima": "Reescrever o corpo da U2 separando as duas afirmações como a fala as traz. (a) As mais importantes são a temporada em curso (\"essa\") e a criatividade, e o resto da operação pode ser delegado. (b) Em outra frase, o professor diz que a primeira e a segunda temporada não se delegam. Não identificar qual é a \"segunda temporada\" além do que a fala diz. Registrar em `nota` a tensão entre \"o resto você consegue delegar\" e \"a primeira e a segunda temporada você não delega\". Baixar `confianca` para `media`. Devolver a justificativa ao aluno (é ele quem vai sentir o próprio produto e fazer o melhor nele). Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da U2 não atribui \"mais importantes\" à segunda temporada. A frase sobre não delegar a primeira e a segunda temporada aparece separada, sem que o corpo diga qual é a segunda temporada. A `nota` não é nula e descreve a tensão entre as duas falas. A `confianca` é `media` ou `baixa`. A `versao` é 2. A reinspeção focal da U2 devolve `lastreada`."
+    },
+    {
+      "id": "G04_A07-F2",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor localiza \"Porque esse é o 8020, fechou?\" em 125.48–127.30. A faixa da U2 termina em `fim: 125.38`. O corpo cita o 8020 como justificativa.",
+      "impacto": "Quem confere a unidade pela faixa não encontra o trecho que sustenta uma frase do corpo. Em um arquivo de 4 unidades com faixa, isso dá 25% de faixa-errada, acima do teto de 10% da rubrica.",
+      "mudanca_minima": "Estender o `fim` da U2 para cobrir a frase do 8020 (pelo menos 127.30). Como alternativa, retirar a menção ao 8020 do corpo. A correção pode ser feita na mesma edição da F1.",
+      "criterio_de_aceite": "O `fim` da U2 é pelo menos 127.30, ou o corpo não menciona o 8020. O validador continua com zero erros. O inspetor confirma que todo o conteúdo do corpo está dentro de `inicio`–`fim`."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: o tema `criatividade-e-angulo` e a tarefa `roteirizar-anuncio` não descrevem uma regra de delegação. A taxonomia não tem tema nem tarefa exata para isso. Vale considerar `curso-e-recursos` com `usar-recursos-do-curso` para a parte de prioridade das temporadas, ou registrar uma `proposta_tag`. A classificação é discutível e não abre ciclo.",
+    "U4: \"swap\" é um termo não identificado mantido entre aspas e com nota. Para esse caso o FORMATO pede `confianca: baixa`, e a unidade usa `media`. A mudança altera o hash, e por isso a U4 precisaria de reconferência.",
+    "U4: a frase \"A parada e a pegada é te ensinar\" começa em 150.04, exatamente no `fim` da faixa. Convém estender o `fim` alguns segundos. O corpo também pode dizer que o suporte é para dúvidas e que o aluno deve entrar em contato (132.46–135.04), o que pede recuar o `inicio`.",
+    "U3: \"o texto trabalhado\" se refere a um texto que estava na tela (\"este texto aqui\"). Convém dizer que o texto ficou só na imagem, ou nomear o objeto.",
+    "U1: o corpo fala em \"segunda temporada\" sem dizer a qual se refere. Convém harmonizar com a redação corrigida da U2, sem identificar além do que a fala diz.",
+    "U1: as `condicoes` trazem \"na época da gravação\". É um marcador temporal fora do corpo e não gera erro de script. Registro apenas como observação.",
+    "Contexto: a última frase menciona resíduo de silêncio na transcrição, e o FORMATO manda não mencioná-lo no contexto. Convém remover a frase. O contexto não entra no hash das unidades.",
+    "Omissão menor: a dica de estudo em 152.1–164.9. O professor sugere fechar os olhos e imaginar enquanto ele fala de copy e criatividade. Pode entrar como uma frase na U1 ou como unidade nova (número 5). A alegação de que assim se absorve tudo deve vir atribuída ao professor. A falta não muda nenhuma decisão de trabalho."
+  ],
+  "proximo": "Este é o ciclo de correção 1 de 2. O redator corrige só a U2, atendendo F1 e F2 na mesma edição, e passa a `versao` para 2. A reinspeção é focal na U2, com a fonte. As U1, U3 e U4 preservam a evidência enquanto o hash não mudar.\n\nSe o redator aplicar os ajustes menores que mudam o hash (`confianca` e faixa da U4, corpo da U3 ou da U1), essas unidades entram na reconferência. Esses ajustes são opcionais e, sozinhos, não abrem ciclo.\n\nNa reinspeção da U2, peço ao inspetor que transcreva literalmente o entorno de \"A primeira e a segunda temporada Você não delega\". Isso permite confirmar se a fala indica a qual segunda temporada o professor se refere. Se não indicar, a unidade mantém a incerteza em `nota`."
+}

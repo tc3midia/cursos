@@ -1,0 +1,49 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G09_A01",
+  "titulo": "Aula 1 - Bem Vindo",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula abre o módulo Hard Ads (treinamento de criativos) do curso Hardcopy Pro, dentro do bloco de recapitulação, com um vídeo de boas-vindas do professor.",
+    "É dirigida a quem já está inscrito no curso e assume que o aluno tem ou terá acesso ao treinamento Hard Copy, com copy, VSL e página de vendas já validadas, antes de aplicar o módulo de criativos.",
+    "Não traz nenhuma técnica de anúncio, criativo ou copy: é discurso de gestão de expectativa, prevenção de pedido de reembolso e promoção do próprio módulo.",
+    "Deixa qualquer conteúdo prático de criativos e anúncios para as aulas seguintes, a partir da aula 2."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Boas-vindas ao módulo Hard Ads sem conteúdo didático de criativos",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 38,
+      "fim": 153,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Esta aula é a abertura do módulo Hard Ads (treinamento de criativos) do curso Hardcopy Pro, dentro do bloco de recapitulação, e não ensina nenhuma técnica de anúncio, criativo ou copy.\nO professor condiciona o proveito do módulo a já ter comprado o Hard Copy, a saber criar copy e a não estar com a VSL nem a página de vendas ruins, e diz que é preciso ter uma página validada e um produto validado; usa esse argumento para antecipar e desencorajar pedido de reembolso.\nPromete que o conteúdo será diferente do que o mercado já viu e recomenda começar o produto com algo surpreendente em vez do formato padronizado que o mercado usa, sem detalhar como fazer isso nesta aula.\nO conteúdo prático de criativos e anúncios fica para as aulas seguintes, a partir da aula 2.",
+      "evidencia": "você precisa de uma página validada e de um produto validado",
+      "versao": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1
+      ],
+      "retiradas": [],
+      "observacoes": "F1 — acatada. Voltei à fonte (50.74–74.64s): \"se você não comprou o hard copy, se você não sabe criar copy ou se a sua VSL estiver ruim, sua página de vendas ruim, não adianta esse treinamento\" e \"porém você precisa de uma página validada e de um produto validado\". A segunda linha do corpo foi reescrita na ordem em que a fala apresenta as condições: ter comprado o Hard Copy, saber criar copy, não estar com VSL nem página de vendas ruins, e ter uma página validada e um produto validado. \"produto validado\" aparece nomeado e distinto de \"página validada\", e não foi explicado além do que a aula diz (a aula não define o termo). A menção ao reembolso foi preservada. Grafia adotada mantida no corpo: Hard Copy, VSL.\n\nAlém da mudança mínima, troquei a `evidencia` de \"Comece o seu produto com algo surpreendente\" para \"você precisa de uma página validada e de um produto validado\", trecho literal da transcrição e dentro da faixa 38–153, porque o critério de aceite manda reconferir a unidade justamente contra 50.74–74.64s e a âncora anterior apontava para outra linha do corpo. `evidencia` não entra no hash, então isso não afeta o hash exigido pelo critério. Nenhum outro campo mudou: tipo, tema, tarefas, plataformas, fonte, faixa, condições, perecibilidade, confiança, nota e proposta_tag seguem iguais.\n\n`versao` deve passar de 1 para 2 na gravação do arquivo (o campo não faz parte do formato de saída deste papel). O hash muda porque o corpo mudou."
+    }
+  ]
+}

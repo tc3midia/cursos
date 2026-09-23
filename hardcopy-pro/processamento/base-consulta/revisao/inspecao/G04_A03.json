@@ -1,0 +1,192 @@
+{
+  "aula": "G04_A03",
+  "arquivo_sha256": "4ebc669b10792ebe145922cacf99cd0d071d4937a22b11346e83c700f54781c8",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 4, 5]; as demais mantêm a evidência da inspeção integral do arquivo 82cf40a696c3, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    4,
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "80a25dc918eb59755a7155f808b64ef6fb806e041304fc6a9ceb5822bbd9089a",
+    "2": "8dc38c6fc8706dc2be9064ca2f1c005b0a9fb9a7c28fb04460899458db3e02c5",
+    "3": "b5880bb697e27caf26c5f9c1ef25ab0eb3ecdf0cbbc9e6fe07ee1cdda91ea03f",
+    "4": "39308728d3e33720e62dd3277f4557b1107f3904f1ac257fe322e5c7c55b4405",
+    "5": "fad25e33b5bf18a537d38bfe380599b9fb9aa31819e0f931f115b59b93a5c655",
+    "6": "7c2ffc071090a8fa056301d1cbc10f4379690d73fd595438416c8e2b21235793",
+    "7": "d76d0084ce8a3c8e4da38da9585f3e177b78958bb4dee999ce2e3b7e9927c8dc",
+    "8": "0bde595c64df36d3582434e596a443166f070a71f9bc40bb3b729adc59eb89cc",
+    "9": "9f2af2aa34b47d31aab61b859dad29a4fedf9d8c21149198d169ec26f949d254",
+    "10": "757797f56e23011cd294243c763cc79ac50eef97a44a67f919f2ba6153c7d2fb",
+    "11": "2ce7c6525ecb8bef419e8a266da54a2aeafb5940cbeebeb713aa5c932153f92f",
+    "12": "26760eede3fba6d3d30923dd0ff65a3b5091d268336e3a09feba9c5c5b4b9111",
+    "13": "ffd59a6ea585a19a7d5b587e12638b9c26d5553c21c5a429af86bb7b17c0ef52",
+    "14": "d3112c90d5bdc141e35db655a131cc9a42209b09b2dae586de4afcf97d4fd5ad",
+    "15": "3d541f7b864000f8644651a1de43e043c9c8eef14ae9431c1ae9967651c5948b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Totalmente diferente daquilo que vamos vender",
+      "explicacao": "A fonte diz que a introdução chama atenção, faz o lead se impressionar e assistir, e que se começa sempre por algo diferente do que se vende. O professor manda não abrir vendendo o produto porque tem muita gente já fazendo isso. A unidade preserva tudo isso. O 'Por isso' causal entre as duas ideias é ligação do extrator, sem efeito no uso. Falta só a caracterização da abertura como dúvida ou questão que faz o lead pensar (ver omissões)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que você tá fazendo uma conexão Com o seu produto Sempre foi uma luta pra emagrecer",
+      "explicacao": "O item 3 não traz mais \"já no começo\" e diz \"Gatilhos fortes dentro da conexão (no exemplo, a luta para emagrecer e o antes e depois)\". Isso confere com a fonte. A frase dos gatilhos (02:05–02:22) vem depois dos comentários sobre a abertura desconectada (01:01–01:29), a entrega (01:48–01:52) e a conexão sutil (01:55–02:05). O trecho citado mostra a frase logo depois do comentário da conexão. A fonte não rotula a frase com o nome de um ato, e a `nota` da unidade já diz que a ordem foi reconstruída, com `confianca: media`. Os outros seis itens seguem a sequência da fonte: verdade absoluta (03:19–03:52), CTA oculto e produto (03:59–04:12), fecho \"Abrir a sua mente, o início, e fechar a sua boca, o final\" (04:28–04:32) e chamadas \"Toque em Saiba Mais\" (04:32–05:20). A âncora, a faixa 40–333 e a `nota` de reconstrução se mantêm. Diferença sem efeito no uso: o item 6 diz \"por volta de 30 segundos\" e a fonte diz \"depois de 30 segundos de anúncio\". A `condicoes` já deixa claro que o tempo é do exemplo. Não há problema novo criado pela alteração."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Para não ter quebra de expectativa",
+      "explicacao": "Bate com a sequência da fonte: o assunto passa para o início sem quebra de expectativa, o lead viu o vídeo e quer saber mais, o anúncio entrega isso e depois faz a conexão com o produto sem ele perceber. A faixa 103–126 cobre o conteúdo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que você tá fazendo uma conexão Com o seu produto Sempre foi uma luta pra emagrecer",
+      "explicacao": "A falha F1 está resolvida. Título, Situação e Lógica não chamam mais a frase de abertura nem de gancho. Dizem que ela vem depois da abertura desconectada (a pergunta \"O quão alto você saia se soubesse / Que não iria falhar\" e \"Seu maior inimigo é a sua mente\") e dentro da conexão sutil. O tema é `desenvolvimento-e-conexao`. As tarefas são `roteirizar-anuncio` e `escrever-desenvolvimento-e-plot-twist`, sem `escrever-gancho-de-anuncio`. A sequência na fonte sustenta o novo posicionamento: \"E aí depois você faz a conexão com o seu produto / Sem ele perceber\" (01:52–01:56), \"fica muito sutil / A pessoa nem percebe\" (01:58–02:02) e só então \"Sempre foi uma luta pra emagrecer / E hoje, depois de perder mais de 25 quilos\", com \"A gente tem dois gatilhos fortes aqui\" (02:13–02:15). Os dois gatilhos citados no corpo (\"A luta pra emagrecer / Que todo mundo sabe que não é fácil\" e \"o gatilho de antes e depois\") estão na fala. A evidência fica dentro da faixa 115–142. A `confianca: media` e a `nota` preservam a incerteza sobre o rótulo do ato, e a copy fictícia está sinalizada em `condicoes` (\"Menticaps é o nome imaginário que eu criei dentro da minha cabeça.\"). A Situação diz \"depois da conexão sutil\" e o título e a Lógica dizem \"na conexão\". As duas leituras são compatíveis com a sequência da fonte e não mudam o uso. Não há problema novo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Quando você consegue maquiar aquilo, ele não bloqueia, senhores, olha que maravilha.",
+      "explicacao": "A falha F1 está resolvida. O corpo agora diz \"só mostra a frase do exemplo como caso\", sem \"abertura do exemplo\". As tarefas são `revisar-risco-de-bloqueio` e `roteirizar-anuncio`, sem `escrever-gancho-de-anuncio`. A nota começa com \"Contorna política de plataforma ou direito de terceiros:\" e `perecivel: true` permanece, como pede o critério de aceite. O conteúdo confere com a fonte, e a atribuição ao professor está preservada. A fonte diz: \"O que o Facebook bloqueia é quando o antes e depois é muito escancarado, é muito escrachado, aí ele bloqueia.\" e \"O mecanismo mais poderoso de venda que é o antes e depois, você vai conseguir fazer através desse anúncio\". A faixa 143–165 cobre a passagem (02:23–02:44). Ajuste menor, já existente antes desta alteração e sem efeito no uso: a `condicoes` diz que o professor fala \"como observação própria\" e cita \"a rede dele\". A fonte apresenta a afirmação como fato e não a rotula como observação dele. Isso não muda a orientação nem abre ciclo."
+    },
+    {
+      "numero": 6,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu te digo que o que você precisa não é de JET, é o método milagroso, ou seja, invalidamos alguns processos que já vendem no mercado.",
+      "explicacao": "O texto transcrito afirma 'é o método milagroso'. A unidade escreve o oposto: 'o que a pessoa precisa não é de um método milagroso e sim de foco'. O trecho é ambíguo por causa de 'JET', e a nota diz que ele 'não foi usado', mas a unidade escolhe em silêncio uma polaridade que contraria a frase literal. A ambiguidade devia ser preservada. O plot twist para 'foco' e a explicação do professor sobre por que é plot twist estão corretos ('A pessoa não imaginaria que você iria falar sobre foco'). Na Lógica, 'prepara a chegada do produto' não é dito nesta aula. O efeito prático é pequeno porque o trecho é copy de exemplo, então a gravidade é menor."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Uma verdade em cima de um produto",
+      "explicacao": "Fiel quanto ao que a fonte diz: comer em excesso, 'provavelmente é ansiedade', 'uma verdade absoluta, inquestionável, uma verdade em cima de um produto'. A condição de copy de exemplo está correta, incluindo a fala de que ele não é psicólogo, terapeuta nem nutricionista. Na Lógica, 'dá credibilidade ao que vem depois' não é dito nesta aula, e a Situação 'precisa levar o lead para perto do produto' também não. São acréscimos do extrator, sem efeito na decisão."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ou seja, a pessoa passa por esse CTA despercebido",
+      "explicacao": "Bate com a fonte: primeiro CTA oculto, que passa despercebido, 'depois de 30 segundos de anúncio', produto apresentado ali. O anúncio de cerca de 40 segundos está dito em outro ponto. O tempo e a alegação de cápsula única ficam como do exemplo. Na Lógica, 'só depois de a atenção estar ganha' e 'dentro de uma frase que parece continuar o raciocínio' são inferências do extrator, e o professor só diz que o CTA passa despercebido."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Abrir a sua mente, o início, e fechar a sua boca, o final.",
+      "explicacao": "O professor marca 'gancho' e conclui que 'abrir a sua mente' é o início e 'fechar a sua boca' é o final. A unidade preserva isso e limita ao exemplo. 'Se respondem' e o título 'Fecho espelha a abertura' são leitura do extrator e viram princípio geral, o que a fonte não diz. A nota registra que a passagem é confusa, e a confiança média é adequada. Ver o apontamento de tipo em contrato."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Toque em Saiba Mais e descubra o poder do Menticaps no seu corpo, tá?",
+      "explicacao": "Fiel: o professor dita várias versões da chamada e diz 'Tem vários Toques Saiba Mais aqui que você pode fazer'. A condição de copy fictícia cobre 'primeiro vídeo do Brasil'. O corpo diz que 'todas' prometem um vídeo que muda a mente, mas a primeira versão promete 'o poder do Menticaps no seu corpo', sem mencionar vídeo. A Lógica 'mandar o lead ao vídeo seguinte' também é inferência. Sem efeito na decisão."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, é muito interessante você assistir",
+      "explicacao": "O professor diz que é muito interessante assistir à aula de criatividade dele, porque a partir dela o aluno imagina o próprio produto e faz os exercícios. O título diz 'antes de aplicar ao seu produto', e a fonte não impõe ordem: é recomendação, não pré-requisito. O corpo, sim, está fiel."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "45 minutos só para escrever um anúncio",
+      "explicacao": "Fiel: 45 minutos para 40 segundos, trabalho bem feito não é velocidade, 'último trabalho da vida' leva mais rápido ao resultado, esquecer a 'conversa fiada' de testar mais produtos. Está atribuído ao professor e à experiência própria, e a divergência 45 versus 40 minutos está registrada na nota. A frase 'Quanto mais você testa, mais rápido...' é o que ele atribui a 'vários players', e a unidade não a toma como orientação dele. O tema é discutível (ver contrato)."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é que o foco não é o dinheiro,",
+      "explicacao": "Fiel: a moda é low ticket com back-end enorme, muita gente ganha com isso, o foco é a mudança, dar objetivo ao dinheiro, e vender algo que não orgulha faz a pessoa não saber o que falar. A opinião está atribuída ao professor. A tarefa montar-oferta é discutível (ver contrato)."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, se eu demorei 40 minutos para criar um anúncio",
+      "explicacao": "Fiel: fazer como se fosse a última vez, imaginar que vai dar certo, o professor dá o melhor em cada exemplo, e 'o mínimo' é o aluno gastar o mesmo tempo. Está como preferência do professor, e a divergência 45 versus 40 está na nota."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O que você não pode fazer no anúncio",
+      "explicacao": "A próxima aula trata do que não se pode fazer no anúncio, e a unidade registra isso como limite. O professor hesita antes ('Peraí, eu não sei o que é a próxima aula'), sem efeito. O trecho sobre bloqueio de antes e depois desta aula está na unidade 5, e 'não são tratadas aqui' deve ser lido como o conjunto de restrições."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 71,
+      "trecho_fonte": "Uma questão, fazer o seu link pensar",
+      "descricao": "Ao descrever a introdução, o professor diz que ela é uma dúvida, uma questão, algo que faz o lead pensar, e só depois vem a conexão com o produto. No exemplo, a abertura é a pergunta 'O quão alto você saia se soubesse que não iria falhar'. As unidades 1 e 2 dizem só que a abertura é 'algo diferente do produto' que 'prende a atenção', e a unidade 3 cobre a conexão. Nenhuma preserva a caracterização da abertura como dúvida ou pergunta que faz o lead pensar.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for escrever a abertura sabe que não deve vender o produto, mas não sabe que o professor a constrói como dúvida ou pergunta que faz o lead pensar. Precisa inventar o formato da abertura sem apoio na base."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto (frases 4 e 3): o FORMATO §3 manda não mencionar resíduo de silêncio no contexto, e a frase 4 fala em 'trecho sem conteúdo aproveitável' e 'resíduo de silêncio'. A frase 3 diz que a aula 'assume que o aluno já conhece plot twist, verdade absoluta e CTA de aulas anteriores', e nada na fonte diz isso. Ajuste menor: tirar as duas menções.",
+    "Unidade 2: a tarefa estruturar-vsl aponta para VSL, e a aula trata de anúncio em vídeo. O lugar certo é roteirizar-anuncio, que já está na lista. O título 'sete blocos' apresenta como contagem do professor uma enumeração reconstruída, e a nota já avisa que ele não enumera. Ajuste menor.",
+    "Unidade 9: tipo conceito, tarefas vazias e título 'Fecho espelha a abertura' tratam como princípio uma linha do anúncio de exemplo (abrir a mente / fechar a boca). A fonte o apresenta como caso do exemplo, então o tipo mais aderente é exemplo. Classificação discutível, ajuste menor.",
+    "Unidade 4: tema abertura-e-gancho e tarefa escrever-gancho-de-anuncio derivam da leitura registrada no desvio dessa unidade (a frase dos gatilhos é conexão, não gancho de abertura).",
+    "Unidades 12 e 14: tema criatividade-e-angulo (achar ângulo novo) não corresponde ao conteúdo, que é qualidade e tempo dedicados ao anúncio. Unidade 13: a tarefa montar-oferta não corresponde à orientação sobre foco na mudança e orgulho do que se vende. Dois valores defensáveis, ajuste menor.",
+    "Unidade 2 (ajuste menor, já existia antes desta alteração e é discutível): a tarefa `estruturar-vsl` está definida na taxonomia como distribuir a VSL nos quatro atos. A unidade trata de um anúncio de cerca de 40 segundos, e a aula não o chama de VSL. `roteirizar-anuncio` já cobre o caso. Quem consultar `estruturar-vsl` recebe uma estrutura de anúncio, embora a `condicoes` diga que é demonstração de anúncio. Não abre ciclo.",
+    "As unidades 2, 4 e 5 cumprem as regras de tipo (estrutura numerada, exemplo com Situação, O que aconteceu e Lógica, regra) e a marca `perecivel: true`. Não encontrei nelas cópia bruta nem grafia deformada no corpo."
+  ],
+  "material": [],
+  "resumo": "A conferência focal cobre as unidades 2, 4 e 5. A falha F1 (frase dos gatilhos tratada como abertura ou gancho) está resolvida nas três unidades, e o trecho literal da sequência (\\\"Com o seu produto Sempre foi uma luta pra emagrecer\\\") sustenta a nova posição. As alterações não criaram problema novo de fidelidade. Restam só ajustes menores sem efeito no uso: a tarefa `estruturar-vsl` na unidade 2, um qualificador na `condicoes` da unidade 5 e a redação \\\"depois da / na conexão\\\" na unidade 4. Não há omissão decorrente de F1: a abertura correta do exemplo já está nas unidades 1 e 3, e o fecho na 9."
+}

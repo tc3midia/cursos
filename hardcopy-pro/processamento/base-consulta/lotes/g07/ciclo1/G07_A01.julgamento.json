@@ -1,0 +1,27 @@
+{
+  "aula": "G07_A01",
+  "arquivo_sha256": "b0ce99b221f1d31231263c2772a90ee501fa749acea857d66025865d4a3ab3af",
+  "inspecao_sha256": "d4b593a749841265129c6c9a19956c291b9df474e9fd06bf1882e8954622aa0f",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. A entrada acumulada em `contrato` da inspeção (\"Unidade 8: tipo 'regua'...\") é resíduo da inspeção integral anterior e contradiz o arquivo atual, em que a unidade 8 é `exemplo`; o próprio inspetor reconhece a correção no laudo da unidade. Não há problema de contrato.",
+  "fidelidade": "F1 sanada: o valor de R$10–15 mil em 1–2 anos aparece só na unidade 8, agora `exemplo`, com `condicoes` dizendo que é projeção do caso hipotético e com a frase final da Lógica reforçando que não é parâmetro do curso. Inspetor confirma `lastreada`, gravidade nenhuma, trecho literal dentro de 814–856 e ressalva do professor sobre o gestor preservada. O detalhe acrescentado (\"gente que sabe o que é Facebook, Meta, pixel, clique e CPM\") não foi citado literalmente pelo inspetor, mas ele declara não ter encontrado problema novo na unidade, o detalhe vai na mesma direção da ressalva e não muda decisão; aceito. Unidade 6 (`desvio` menor por resolver em silêncio a ambiguidade \"todas / a maioria / 10%\") é apontamento da rodada anterior, dentro de um `exemplo` de números inventados, sem efeito em decisão; fica como ajuste menor, não reaberto.",
+  "cobertura": "As três omissões listadas pelo inspetor já foram pesadas na rodada anterior e não sustentam veto: (a) o argumento \"só um bloqueio de conta tira o CRM\" é justificativa, não régua, passo ou condição que mude a ação — a unidade 3 já fixa o CRM como base primordial; (b) o \"80-20\" não consta do trecho literal citado (\"Isso não se vende, isso não se compra\"), então vale menos e, mesmo existindo, é hierarquização retórica sem efeito em execução; (c) \"fica milionário em um ano\" é promessa de resultado e motivação, que a rubrica exclui de omissão. Nada essencial para decidir ou executar ficou de fora.",
+  "perecibilidade": "Inspetor não sinaliza nada. Unidade 8 mantém `perecivel: true` (números e prazo de projeção). Unidades com plataforma específica (4, 5, 9) e as que citam recurso do curso (12) estão marcadas. Sem falha.",
+  "aplicabilidade": "Unidade 8 se sustenta sozinha: a Situação nomeia a loja de sapatos hipotética e o corpo não depende de \"como mostrei\". Tema `escala-e-orcamento` e tarefa `escalar-campanha` são defensáveis (reinvestir verba em tráfego), embora `crm-e-pos-venda`/`planejar-pos-venda-local` também coubessem, por ser parte da mesma estratégia de negócio local — classificação discutível entre dois valores, ajuste menor. Demais unidades não foram reabertas.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U8: tema/tarefa discutíveis — `crm-e-pos-venda` + `planejar-pos-venda-local` seriam igualmente defensáveis, já que a unidade é etapa da estratégia de negócio local e não técnica de pré-escala/duplicação; pode ficar como está.",
+    "U6: acrescentar `nota` registrando que a fala oscila entre 'todas', 'a maioria' e '10%' e que 'já comprou com você' pode significar 'já era cliente' e não 'recomprou'; opcionalmente `confianca: media`. Não muda decisão: é simulação com números inventados.",
+    "U4: o detalhe 'em áudio, vídeo ou mensagem de texto' é sustentado por fala em ~607s, fora do `fim: 591`; estender `fim` para cobrir o trecho (~611) ou remover o detalhe.",
+    "U9: no passo 4, reescrever para que 'R$400 a R$500 mil por mês' seja a projeção do professor para quem chega a esse nível, e não um gatilho de faturamento para expandir a marketplaces; mesma cautela com 'marca de 20 mil leads' no passo 1.",
+    "U1: o inspetor nota que o corpo funde a afirmação sobre anúncios locais com a anedota dos comerciais de TV da infância; separar em uma frase de contexto histórico. Editorial.",
+    "Omissões do inspetor (argumento do bloqueio de conta, '80-20', 'milionário em um ano'): conteúdo complementar/motivacional; se algum dia entrar, vai como `regra` ou `exemplo` atribuído ao professor, nunca como fato. Não abre ciclo.",
+    "Inspeção: limpar a entrada acumulada em `contrato` sobre a unidade 8 ser `regua`, para que o laudo não contradiga o arquivo atual."
+  ],
+  "proximo": "Marcar a aula como `revisado` e gravar o julgamento com o hash atual do arquivo. Nenhum ciclo novo. Se a coordenação optar por aplicar os ajustes menores (U4 faixa, U6 nota, U9 passo 4), fazê-lo em passagem editorial única, rodar o validador e registrar em `correcoes`; hash das unidades tocadas mudará e exigirá conferência focal por script e inspetor apenas nelas."
+}

@@ -1,0 +1,199 @@
+{
+  "aula": "G06_A11",
+  "arquivo_sha256": "8efdb5f508f53e0b6ad86f8e86bf0ca320d62dcd8a860384106d5865fdbf1a6d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "3df575190d0ff05739e268d5afa2503ad1c94c976c99e7c4e742a62ba4f29c26",
+    "2": "45c3bddde586347d8cbb98d2a1453f27e69fb5556166d7ec9b1a3f6243975be0",
+    "3": "0c9cfd94aa4fbaa1c52a5e89c903be5b18472e555001633e69d6a0d16e316c3d",
+    "4": "ad1e3f2566e8f468336c471cdb12514ac6668831868ab87e60fc044f98825eda",
+    "5": "bc564c1a7311edb5df423f6d0190f051c5227ee522ce7ab82fd4b67a1c733960",
+    "6": "e8c5a145d7103004203f3f6603588d04278d7a03204742977a8a55eb647c94e0",
+    "7": "a5158b3e1a1ffe87fe37941aae84eb26fdb9bad851e2a9b7983228e983301c9d",
+    "8": "88370b5bc6151b783153d747e8a7ae84166a12b6c180713d5d07f67f38a93143",
+    "9": "0c70b2f7f3cfb7ed2c302dd2102f0465a332ba6fb07650fc00fd7b7865f9ac72",
+    "10": "7ea537764e58f02949a9cce9a4892df7a42d9979aad36398acd9d589c29f15b3",
+    "11": "6480132749a8d98576959ed9f5bfda855ce79f173af7e83058c0bfef6f7440e8",
+    "12": "9352fab090247b0bd5073489d21b79cc9ee1c8e4c5fc2d846c84b8dd44adbf97",
+    "13": "cdb2da19aedd1215e3ab0e7ce41ebd88fe90a7013addd9beed0d776b6c399a29",
+    "14": "4e425ba98c966b7491b4eaddf60f13d887c5b01bc4332ec4a5533ccc04b8b9c8",
+    "15": "6cf4d4928442521583586adca335d88a828aba8b7e723ae60bf60d0ea6fb5eff"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "essa música ela não tem congruência tá ela não tem um alto e",
+      "explicacao": "A fala diz isso de uma faixa específica (\"essa música\", a do Nelson Ned) e continua \"baixo ela não deu um plot definido no seu toque a gente não consegue cortar ela muito bem\". O título e a primeira frase do corpo generalizam para qualquer música, mas a segunda frase ancora no caso, o que preserva o essencial. A inferência final (\"não há onde fazer o ponto alto da música coincidir com o ponto alto do anúncio\") é do extrator; o professor não a diz nesse ponto. Consequência pequena: o agente pode ler como regra do curso o que é diagnóstico de uma faixa."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "porque ela vai identificar que ela é uma pessoa mais velha",
+      "explicacao": "A sequência subir, baixar e subir ao máximo no plot está na fala, na mesma ordem (08:49–09:10). Três diferenças: (a) \"para a fala aparecer\" e \"destaque ao ponto forte do anúncio\" não são ditos; a fala só dá \"pra pessoa identificar a música\" e \"pra dar o plot\". (b) A frase \"ela vai identificar que ela é uma pessoa mais velha\" é ambígua; o corpo a lê como \"a música é de gente mais velha\" sem nota. (c) A frase final e a condição (\"o resultado não ficou bom\") vêm de 09:30 (\"não ficou boa essa parte\"), depois do fim 559 (09:19). Não muda a execução."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E quando não casa assim, velho, nem adianta.",
+      "explicacao": "Decisão, manutenção da mesma música e busca de outro trecho estão na fala (\"com essa mesma música\", \"Vamos procurar outra parte da música que case\", \"O plot dela é bem aqui\"). \"baixe o que vem antes\" é interpretação: a fala diz só \"A gente diminui isso aqui. Dá um fade out\". Faixa curta: o fade out está em 12:09–12:10 (fim da unidade é 727 = 12:07) e a redução de volume em 12:26. O núcleo da decisão está dentro da faixa; o fim deveria ir a cerca de 747."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então eu vou colocar mais o início dela aqui, ó",
+      "explicacao": "Descarte de \"tudo passa\" (\"Dá outro entendimento da parada\") e escolha do início da faixa, cuja letra \"tá falando de amor\", estão na fonte. \"combina com o clima do anúncio\" é acréscimo; o professor só diz \"fica muito bom\". A regra geral \"confira a letra\" decorre de um único caso, mas o corpo o descreve como ação do professor. Sem efeito na decisão de quem consulta."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E o intuito dessa música também é deixar o público até o final",
+      "explicacao": "Preferência atribuída ao professor, com condição de público 50+ e música do exemplo. A razão (\"muito conhecida entre eles\") está dita e o corpo não vira lei. O título usa \"ajuda a segurar\", mais assertivo que o corpo, mas sem efeito prático."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Aumentamos um pouco o volume, que piano é baixo",
+      "explicacao": "Música triste, aumento de volume por causa do piano e corte onde muda o sentimento (\"Cancelamos a música aqui... aqui o sentimento já vai mudar\") estão na fala. \"solidão dos filhos ausentes\" é leitura do extrator; a fala não usa a palavra e o trecho lido é a mãe dizendo que os filhos estão sem tempo. \"exatamente\" também é acréscimo. O corpo é uma regra imperativa tirada de um único momento do anúncio de exemplo e `condicoes` está vazio (ver contrato)."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ela foi épica nessa época, né?",
+      "explicacao": "A sequência (épica sobre o plot, \"mudou totalmente a conversa\", emenda com efeito sonoro, \"Vamos distorcer\", troca por \"Coração Batendo\") está na fonte. Erro de atribuição: o corpo diz que \"a personagem diz que foi épica\"; quem diz é o professor, sobre ela. A Lógica (\"forte demais no momento errado quebra o sentimento\") é síntese do extrator; a fala diz \"mudou tudo\" e \"encontrar uma forma de deixar a congruência desse épico com algo mais trabalhado\". Copy de exemplo está sinalizada em `condicoes`."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Bem aqui a gente vai e coloca outro clique, tá?",
+      "explicacao": "Coração batendo, duplicar, acertar o batimento e aumentar o volume porque \"passa despercebido\" estão na fala. \"cliques sincronizados às batidas\" não é dito; a fala só diz \"coloca outro clique\" e \"Ctrl C, Ctrl V já vai aparecer no lugar certo\". Não muda o uso. A camada extra de tensão (\"Vamos colocar um suspense\", em 18:25) não está na unidade (ver omissões)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E já vai continuar ela com o plot aqui",
+      "explicacao": "Clique de transição (\"Transição em transição\"), \"hora da ressurreição\", volume baixo por já ser alta e \"Tiramos a música\" antes do \"Toque em Saiba Mais\" estão na fonte. O fim do corpo (\"para o texto seguir como continuação do plot\") resolve em silêncio uma frase ambígua: \"E já vai continuar ela com o plot aqui\" pode indicar que a música (\"ela\") volta com o plot no CTA. O professor diz logo depois \"agora a gente vai encontrar a parte que queremos da música\". Sem `nota` sobre a ambiguidade."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ctrl B, chega até o ponto aqui, ó",
+      "explicacao": "A fala diz só \"Ctrl B\"; \"dividir o clipe\" vem do conhecimento do extrator, não da fonte. \"deixa o pino\", \"diminui a velocidade até bater\" e a aceleração da cena de amassar entre dois Ctrl B estão na fala. \"transição forte\" é acréscimo; a fonte diz \"quando você quer muito uma transição assim\". Há `nota` sobre o aplicativo. Sem efeito na execução."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Aqui não, porque aqui é uma continuação.",
+      "explicacao": "Combinação em texto maior (\"Normalmente o momento correto de uma combinação... sempre é um texto maior\"), fade na continuação e \"Tem que saber usar\" estão na fala. O título diz \"só em texto maior\", mais forte que o \"normalmente\" da fonte e do corpo. \"fade de entrada e saída\" é leitura de \"um fade... e outro fade\"; a fala não diz entrada e saída. Preferência atribuída em `condicoes`."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ó, velocidade 100.",
+      "explicacao": "Efeito popular de zoom, ajuste de força, tamanho e velocidade, \"velocidade 100\" e a redução (\"Menos\") estão na fala, que é degradada. Há `nota`, `confianca` baixa e o corpo diz que os valores ficaram na tela."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Diminuir o inchaço das varizes",
+      "explicacao": "\"Vende muito bem em cima desse nicho\", \"nicho mais simples de vender\" e a ressalva \"vender a verdade\" estão na fonte e atribuídos ao professor. A ligação de varizes e artrite/artrose ao público 50+ é interpretação de fala truncada, já declarada na `nota`. `perecivel: true` está correto."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Nenhuma outra merece tomar um golpe",
+      "explicacao": "Vender a verdade, vítimas de \"cura\", \"parte pra outra\" e os exemplos de curso de violão, flauta e lavar louça estão na fonte. `condicoes` e título restringem ao público mais velho e a nichos de dor, mas o professor amplia: \"uma pessoa dessa não merece. Nenhuma outra merece tomar um golpe\". A restrição reduz o alcance da orientação."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a locução dele no Eleven Lapse e agora só a gente tirar as partes aqui que estão em branco né",
+      "explicacao": "Limite correto para aula de tela: diz o que a transcrição não captura e que a copy é exemplo, e não usa o resíduo do início (\"Copywriting. Hard Sounds.\"). \"continua a edição de uma aula anterior\" é inferência razoável do início in medias res (a fala já parte de uma locução pronta). ElevenLabs na grafia adotada."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 756,
+      "trecho_fonte": "Vamos dar um fade in aqui",
+      "descricao": "Ao entrar o trecho de música escolhido, o professor põe fade in \"só para não ficar feio\" e depois descreve o hábito de cortar a faixa, fazer fade no início, fade out no fim e usar fade menor (13:33–13:55). A U3 só registra o fade out.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir a U3 aplica só o fade out e a música entra seca no trecho novo. A perda é de acabamento, sem alterar a decisão."
+    },
+    {
+      "inicio": 1388,
+      "trecho_fonte": "Eu não faço muito isso, mas eu quero te ensinar",
+      "descricao": "No fecho, depois do zoom, o professor coloca uma transição e ressalva que não faz isso com frequência e que só ensina para mostrar que fica bom. A U12 termina no zoom (fim 1383) e a ressalva não aparece em nenhuma unidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente não sabe que a transição final foi demonstração pontual, não hábito do professor. A fala não nomeia a transição; o essencial ficou na tela."
+    },
+    {
+      "inicio": 1236,
+      "trecho_fonte": "Beleza, agora a gente vai encontrar a parte que queremos da música, tá?",
+      "descricao": "Depois de tirar a música antes do \"Toque em Saiba Mais\", o professor busca o trecho da música (início, letra de amor) para o fecho. A U9 manda retirar a música antes do CTA. As U4 e U5 escolhem trecho e razão (público até o final), mas nenhuma diz que essa faixa entra sob o chamado final.",
+      "gravidade": "menor",
+      "efeito_pratico": "Lidas em conjunto, as unidades deixam a impressão de que o CTA fica sem música. A fala mostra o contrário: o professor retoma a faixa conhecida no chamado. Isso pode levar a montar o fecho sem a música escolhida."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "U6: `condicoes` está nulo, mas o corpo é uma regra imperativa que só se apoia num momento do anúncio de exemplo (mãe dizendo que os filhos estão sem tempo). As U7, U8 e U9 têm a condição de anúncio de exemplo; a U6 deveria ter. Ajuste menor.",
+    "U9: a frase ambígua da fonte (\"E já vai continuar ela com o plot aqui\") foi resolvida sem `nota`; um agente pode entender que a música não volta no CTA. Ajuste menor: `nota` ou reescrita neutra.",
+    "U1: `tipo: regra` para um diagnóstico da faixa que o professor testou (\"essa música\"). Classificação discutível entre `regra` com condição e `exemplo`; ajuste menor.",
+    "U13 e U14: `tarefas` definir-publico-do-anuncio e `plataformas: geral` são defensáveis. As duas unidades repetem o \"vender a verdade\"; sem efeito no uso."
+  ],
+  "material": [],
+  "resumo": "As 15 unidades têm lastro na fala: não encontrei sem-lastro, número adulterado, copy de exemplo tratada como fato nem ressalva do professor suprimida. Os desvios são acréscimos e atribuições pequenas (U2, U4, U6, U7, U8, U10, U11), duas generalizações de caso (U1, U6), uma ambiguidade resolvida em silêncio (U9) e faixas curtas nas U2 e U3, sem chegar a faixa-errada. Há três omissões menores (fade in, transição final com ressalva, música do fecho sob o CTA). Não há material de apoio nem pendência de perecibilidade."
+}

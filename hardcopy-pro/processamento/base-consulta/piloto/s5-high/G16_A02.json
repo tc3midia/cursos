@@ -1,0 +1,392 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G16_A02",
+  "titulo": "Aula 2 - Áudio pronto",
+  "extraido_em": "2026-09-20",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é a primeira parte da fase de som na edição de uma VSL, gravada em tela no CapCut, dentro da trilha 0 a 100K. O professor trabalha sobre uma VSL de exemplo que já tem imagem e legenda pronta e escolhe músicas e efeitos trecho a trecho.",
+    "Ela assume que o aluno já editou o vídeo e a legenda e sabe operar o CapCut de modo básico. O aluno é quem quer fazer o mesmo acabamento sonoro numa VSL própria.",
+    "O núcleo é a lógica da trilha: cada parte do vídeo ganha uma música pelo sentimento que se quer provocar, com silêncios de ênfase, efeitos sincronizados e transições suaves entre músicas.",
+    "Grande parte é demonstração na tela: as faixas escolhidas, os pontos exatos de corte e os cliques ficaram só na imagem, e um trecho do meio da transcrição está degradado.",
+    "O texto da VSL de exemplo (percentuais, valores, citações) pertence à copy ilustrativa e não é dado de mercado. A aula termina na metade do anúncio em áudio, e o restante fica para uma segunda parte."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Arquivo pesado trava no CapCut e isso é aceito",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video",
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 51,
+      "fim": 81,
+      "condicoes": "Vale para o projeto de exemplo da aula, com edição, legenda e camadas já acumuladas; o professor cita cerca de 3 GB de documento.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na etapa de som, o projeto já vem carregado de edição e fica muito pesado, então o CapCut trava algumas vezes e a etapa demora mais. O professor trata a travada como normal e sem problema, desde que o trabalho consiga ser feito.",
+      "evidencia": "E não tem problema travar Contanto que a gente consiga fazer, tá tudo certo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Uma música só na VSL inteira não transmite a emoção certa",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 93,
+      "fim": 147,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Não deixe a VSL com uma única trilha do começo ao fim: cada parte do vídeo transmite um sentimento diferente à pessoa. Antes de escolher música, defina qual sentimento se quer colocar na mente do espectador em cada trecho e escolha a trilha a partir disso. O professor testou uma só música sob a história inicial e disse que faltou a emoção pretendida; na parte dos ratos ele quer terror, para a pessoa pensar e refletir.",
+      "evidencia": "Cada parte, vamos ver qual sentimento Vamos querer colocar na mente da pessoa",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Mapa de sentimentos por trecho na abertura da VSL de exemplo",
+      "tipo": "exemplo",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 148,
+      "fim": 823,
+      "condicoes": "Exemplo de uma VSL do próprio professor sobre Edward Bernays; as escolhas são as dele para esse roteiro, não uma tabela universal.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor sonoriza o início de uma VSL que conta a história de Bernays e dos ratos da ilha, depois apresenta Bernays como aquele que uniu psicanálise e venda.\nO que aconteceu: na abertura ele quer tensão e o espectador energizado, então usa suspense. No trecho dos ratos se devorando entra terror pesado. Quando os ratos são soltos, coloca música triste. Na virada sobre Bernays usa algo épico. Na parte que apresenta a solução, ele recusa o terror e busca uma música que faça a pessoa se sentir bem.\nLógica: a música acompanha o sentimento que o trecho deve provocar. Terror onde a intenção é pensar e refletir e emoção positiva onde o trecho é resolução, para o espectador não sentir algo diferente do esperado.",
+      "evidencia": "Eu não posso tratar essa parte aqui como um terror",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "CapCut: biblioteca de áudios gratuita e favoritos",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 168,
+      "fim": 197,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na aba de áudios do CapCut há muitas músicas e efeitos que o professor diz poderem ser usados de graça. Ao achar uma faixa de que gosta, ele clica na estrela e ela vai para a área de favoritos, onde ficam suas músicas preferidas. A biblioteca traz também sons do TikTok, porque, segundo ele, o CapCut foi criado pela ByteDance, criadora do TikTok.",
+      "evidencia": "Tem várias músicas que você pode usar Totalmente de graça",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Baixe a música para não atrapalhar a voz",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 245,
+      "fim": 250,
+      "condicoes": "Vale também para efeitos sonoros: o professor baixa o volume de efeito que fica alto demais.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A regra aparece em várias demonstrações; a âncora é a primeira em que o professor explica o motivo.",
+      "proposta_tag": null,
+      "corpo": "Reduza o volume da música ou do efeito quando ele passa por cima da fala, para não atrapalhar a voz do narrador. Ao longo da aula o professor repete o ajuste sempre que uma faixa fica alta demais.",
+      "evidencia": "Pra não atrapalhar a voz dele, ó",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Encaixe o plot da música para trocar de faixa sem ficar feio",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 256,
+      "fim": 302,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A aula usa \"plot\" para o ponto forte da música sem redefinir o termo aqui; a definição do curso é a parte mais importante da música.",
+      "proposta_tag": null,
+      "corpo": "Ao colocar uma segunda música sobre a primeira, posicione o plot da nova faixa, que é a parte mais importante dela, no ponto onde a troca acontece. Assim o salto de uma música para outra não fica feio. O professor mostra isso encaixando o plot da faixa nova no momento certo da fala.",
+      "evidencia": "a gente vai colocar o plot dela bem aqui, porque aí a gente consegue pular de uma música para outra sem ficar feio",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "CapCut: cortar a música com Ctrl B e baixar volume por keyframe",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 316,
+      "fim": 334,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O passo a passo ficou em boa parte na tela; só entra o que a fala nomeia. Ao longo da aula o professor também usa fade in e fade out para entrar e sair de faixas.",
+      "proposta_tag": null,
+      "corpo": "Para encerrar uma música num ponto, o professor divide a faixa na linha do tempo com Ctrl B e remove o que sobra. Para baixar o volume só num trecho, usa o keyframe de transformar e abaixa o nível ali. Ele usa também fade in e fade out para a música entrar e sair sem corte seco.",
+      "evidencia": "Aqui a gente vai dar um CTRL B de novo e vai encerrar a música",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Deixe trechos em silêncio para dar ênfase",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 322,
+      "fim": 553,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Encerre a música em alguns momentos-chave para o espectador prestar atenção no que acontece. O professor faz isso quando quer que a pessoa entenda o que está sendo dito e o considera muito importante. Ele volta com a trilha depois, geralmente com um novo sentimento.",
+      "evidencia": "É muito importante a gente deixar algumas partes sem música Pra pessoa prestar atenção no que que tá acontecendo no vídeo",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "CapCut: buscar música pelo nome do sentimento",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 376,
+      "fim": 382,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Outros termos buscados na aula (cinematic, epic, sexy, antigas flashbacks) aparecem com o mesmo uso, mas em trechos separados.",
+      "proposta_tag": null,
+      "corpo": "Na busca de áudio do CapCut, digite o sentimento ou clima procurado, como suspense ou terror, e percorra os resultados até achar uma faixa que sirva. O professor faz assim para cada trecho, com termos como cinematic, epic e sexy.",
+      "evidencia": "Vamos vir aqui e escrever suspense E terror",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Efeito de teclado sincronizado com o texto que aparece digitado",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1033,
+      "fim": 1326,
+      "condicoes": "Aplica-se a trechos em que o texto aparece sendo digitado na tela.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Os cliques exatos ficaram na tela; a fala descreve o princípio e o uso de Ctrl C, Ctrl V e setas.",
+      "proposta_tag": null,
+      "corpo": "Quando o texto aparece digitado, coloque um efeito de teclado que acompanhe a digitação: o áudio deve parar quando a digitação para. O som deve ser baixo, sem exagero. Para sincronizar, o professor corta um pedaço curto do efeito e copia e cola a cada caractere que surge, avançando com as setas do teclado. Sobre repetir o efeito, disse que a pessoa nem vai perceber e não vai enjoar.",
+      "evidencia": "O áudio tem que ser baixo de um teclado, não precisa de loucura",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Música com boom na hora do zoom e fade out curto na troca",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1471,
+      "fim": 1540,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a música deve dar um impacto na virada, escolha uma faixa que tenha um boom e coloque esse ponto na frase que marca a mudança. Se ela vem de outra trilha, aplique um fade out bem curto na anterior. O professor mostra que a troca fica suave, sem parecer que a música mudou, mas ainda assim passa outro sentimento à pessoa.",
+      "evidencia": "nem parece que mudou de uma música para outra olha só",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Reveja do início depois de cada trecho e ajuste",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1545,
+      "fim": 1555,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na sonorização, assista várias vezes desde o começo, analisando e vendo o que dá para melhorar. O professor diz que a parte do som é assim mesmo e é muito importante.",
+      "evidencia": "Você vai olhando, vai analisando Vai ver o que dá pra melhorar",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Efeito sonoro ligado ao sentido da palavra dita",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 2432,
+      "fim": 2459,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Sincronize um efeito de som com a palavra-chave da frase. No exemplo, quando aparece a palavra emagrecimento, o professor procura um barulho que lembre emagrecer e o encaixa no ponto em que a palavra é dita. O efeito serve de ênfase e deve ser abaixado se estiver alto.",
+      "evidencia": "Se eu fizer tchuf, eu quero o barulhinho do emagrecimento.",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Plot do vídeo pede trilha pesada",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 3057,
+      "fim": 3066,
+      "condicoes": "Vale para o plot da VSL de exemplo, ponto onde se revela algo inesperado; o professor diz que já falou disso em outra aula.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição grafa o nome de outra aula como \"copia sobre o plot do Whis\"; a referência não é identificável.",
+      "proposta_tag": null,
+      "corpo": "No momento do plot da VSL, a revelação, use uma trilha de terror pesada. O professor lembra que já falou em outra aula do plot, que precisa ser algo pesado, e escolhe música de terror para essa parte. Ele testa faixas até achar uma que transmita o que pretende.",
+      "evidencia": "Essa é a parte do plot do vídeo",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Música que não encaixa no corte deve ser removida ou trocada",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 4044,
+      "fim": 4051,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Em outros momentos, na mesma parte, o professor diz que uma faixa não ficou boa e busca outra.",
+      "proposta_tag": null,
+      "corpo": "Se a música não encaixa com a edição, remova o trecho e teste outra faixa em vez de forçar o resultado. O professor faz isso mais de uma vez ao sonorizar o anúncio.",
+      "evidencia": "Tá vendo que não encaixou a edição com o som O que a gente faz? Remove",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "A aula cobre só a primeira parte do som e deixa cliques na tela",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 4643,
+      "fim": 4661,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Um trecho do meio da transcrição está degradado, com repetição sem conteúdo, e não foi usado.",
+      "proposta_tag": null,
+      "corpo": "A aula termina com a metade da VSL de exemplo sonorizada, e o professor diz que volta na parte 2 depois de uma pausa. A transcrição não captura as faixas escolhidas, os pontos de corte nem os cliques, que só aparecem na tela. O texto lido no vídeo é copy de exemplo; os números e citações dele não são dados de mercado.",
+      "evidencia": "E aí, eu volto para a parte 2 dessa aula",
+      "versao": 1
+    }
+  ]
+}

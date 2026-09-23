@@ -1,0 +1,129 @@
+{
+  "aula": "G12_A04",
+  "arquivo_sha256": "eb89ca8ff856e41241084430206a912b28a49f8e4521128f3fdddc6d00f483be",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "da5000c98d7c42d8578f7f4d63fb5823dd8a97a2dfd4cfd4da98f653fb009fde",
+    "2": "ec93f8e7830bee5739ff4d9f6c3043ad4a9ceed2a039d3bada099c466d065f92",
+    "3": "8b04c72bec2535f890dc45ffa6cfd1e2e19b280390817ffc4bc9bf6b28c65122",
+    "4": "8ad6285a01f26e74d428f4129213b64893debd76931395a2ce64449ae0a25c2c",
+    "5": "ea72276935db0e31b2eb7694316b122578891c29f9685e2cb89efaacf1b5b067",
+    "6": "99929b121db0360e3ec5925dff7cc6fc4bc9a01e496b9153ce0626f527f86c2c",
+    "7": "dadb616976b955f0d1e63c9c8c2a341c6848f410052c8eecf7e89a787659e6f7",
+    "8": "984e3570c3fe3fdfd10b473e22eb12c4efb651ec9324e2cba97d24b7ef922ad0",
+    "9": "0d0e958c52b7ba7bf890ad4cd59944c818de45e8847177a7c11e7dcc758ac93e"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "eu quero preço e conversão",
+      "explicacao": "O núcleo da unidade (PP em duas linhas, fácil de criar, converte bem quando público e problema estão bem definidos) está integralmente dentro de 47–87s ('linha 1 e linha 2, público e problema, é o famoso PP... a história é mais simples de criar, o anúncio é mais fácil de trabalhar... continua convertendo... o anúncio básico que a gente tem aí no mercado'). Mas a frase final do corpo ('a considera limitada para reduzir ainda mais o custo e aumentar a conversão') é uma inferência que só se sustenta no trecho seguinte ('eu quero preço e conversão', 'quero mais preço e mais conversão'), que começa em ~128s, fora do fim declarado (87s). É uma extrapolação razoável mas construída com material fora da faixa citada; não muda o uso prático da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Por quê? Quando eu faço isso, o meu CPM, tá bom? Custo por mil views, fica mais barato. O meu CPA, custo por aquisição, fica mais barato",
+      "explicacao": "Todos os elementos do corpo (apelo emocional amplo/'sentimentalismo' para engajar quem não tem a dor, quem tem a dor compra, redução de CPM e CPA, atribuição 'segundo o professor') batem com a fala dentro de 86–146s. Nenhum número de caso é tratado como regra de mercado; CPM/CPA aparecem como definição de conceito, não como dado numérico específico."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não tem problema, você vai entregar Só que você entende que quanto melhor é o trabalho Mais bem feito é o trabalho Melhor é a copy E melhor é esse gancho Você barateia a sua operação?",
+      "explicacao": "A resposta do professor a quem quer restringir a entrega só para quem converte, a ligação entre qualidade de copy/gancho e operação mais barata, e a justificativa sobre a pessoa 'descrente do mercado' estão dentro de 243–279s e batem com o corpo. A unidade generaliza a fala ('alguém' em vez de citar o nome ouvido na transcrição), o que é adequado porque o próprio professor responde em tom de princípio geral, não como exceção ligada só àquele interlocutor."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "aqui você aumenta ainda mais a tensão, é a apresentação do seu produto",
+      "explicacao": "Passos 1, 2 e 4 (choque nos 3s, conectar história ao produto, encerrar) estão claramente dentro de 281–328s. O passo 3 ('Aumentar a tensão apresentando o produto') usa quase literalmente a frase de uma explicação anterior da mesma estrutura, feita em ~223s (fora da faixa declarada); dentro da própria faixa 281–328s a formulação equivalente é 'você vai alavancar aqui para o seu produto, deixar esse aqui mais interessante', sem a palavra 'tensão'. O conteúdo existe na aula e o sentido é o mesmo, mas a redação do passo 3 parece ter puxado a frase do trecho anterior, fora do intervalo citado. Não muda a estrutura de quatro passos nem a ação a executar."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí agora vai entrar um médico do nada, como se aquela cama estivesse em um estúdio",
+      "explicacao": "A sequência descrita (abertura com 'tá ouvindo? escuta' + silêncio/vozes, sintomas ao longo do dia sem nomear a condição, entrada de um profissional que diz 'o nome disso é insônia', explicação simplificada das vozes, convite para saber mais sobre 'Doutor Slim' com promessa de 8h de sono) está coberta dentro de 329–711s, inclusive o nome do produto dito explicitamente pelo professor ('só doutor slim'). Ponto menor: dentro dessa faixa a fonte chama a personagem de 'um médico' (masculino), mas o corpo da unidade escreve 'uma médica' (feminino) — só na segunda leitura, já revisada pelo ChatGPT (fora desta faixa, coberta pela unidade 8), a fonte usa 'ela'. Não muda a orientação, mas é uma imprecisão de gênero da personagem dentro da própria faixa citada."
+    },
+    {
+      "numero": 6,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "corrija os erros de português e coloque tudo o que eu pedi dentro das aspas.",
+      "explicacao": "O núcleo da unidade — escrever o roteiro de forma organizada para que o ChatGPT entenda melhor e dê uma sugestão e análise narrativa melhores — está corretamente lastreado em 424–438s ('porque quando a gente for fazer a correção pro chat de PT ele vai entender o que a gente tá fazendo... e vai dar uma sugestão melhor e uma análise narrativa melhor'). Mas o detalhe 'entre aspas' incluído no corpo não aparece nesse intervalo; a instrução sobre aspas só é dita depois, em 718–756s ('coloque tudo o que eu pedi dentro das aspas'), que é o intervalo da unidade 7. A unidade 6 importou um elemento de um momento diferente da aula, fora da faixa declarada, misturando duas orientações distintas."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "corrija os erros de português e coloque tudo o que eu pedi dentro das aspas.",
+      "explicacao": "Os passos 1 a 4 do prompt (revisar, melhorar encaixe narrativo, não mudar nada relevante, corrigir português) estão literais em 718–756s. O passo 5 ('Trate como texto do anúncio tudo o que estiver entre aspas dentro do prompt') é uma interpretação de uma frase ambígua da fonte ('coloque tudo o que eu pedi dentro das aspas'), que também pode significar que o próprio professor, ao montar o prompt, coloca o texto do anúncio entre aspas — não necessariamente uma instrução ao ChatGPT sobre como tratar aspas. A leitura escolhida é plausível, mas a fonte é ambígua nesse ponto e a unidade mantém confiança 'alta' sem nota registrando a incerteza."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então a gente vai colar aqui e a gente vai melhorar esse aqui garantimos a você oito horas de sono garantimos a você e garantimos três pontos",
+      "explicacao": "A sequência de cenas da versão revisada pelo ChatGPT (silêncio e vozes, sintomas, entrada da médica — aqui a fonte usa 'ela entra e diz com firmeza', condizente com o corpo — nomeação da insônia, explicação, convite) e o reforço final da promessa em garantia condicional estão dentro de 760–863s e corretamente atribuídos ao professor (não à IA) como quem aperta a garantia. Copy de exemplo corretamente marcada como fictícia nas condições."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas se der certo, vai ser maravilhoso, tá bom? Copy feita, tá? Agora a gente vai para a IA",
+      "explicacao": "O encerramento da aula, a antecipação de dificuldade na troca de ângulo de câmera (da pessoa na cama para a médica) e o adiamento da geração do vídeo por IA para a aula seguinte estão dentro de 864–907s e batem com o corpo. A fonte alterna 'médico'/'aquela mulher' na própria descrição da transição, então o uso de 'médica' na unidade é razoável diante da ambiguidade da fonte. A nota sobre o trecho ilegível ('C&A') está correta e evita reproduzir um resíduo pouco confiável."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 193,
+      "trecho_fonte": "Normalmente eu pego a parte mais chocante",
+      "descricao": "Ao explicar o choque dos primeiros 3 segundos (mesmo trecho de origem da unidade 4, dito numa passagem anterior da aula), o professor dá uma dica prática de edição: pegar a parte mais chocante do material bruto (usa como analogia um vídeo sobre política) e colocá-la no início do anúncio. Nenhuma unidade preserva essa orientação de seleção de trecho.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for executar o passo 'choque nos 3 segundos' da estrutura (unidade 4) fica sem a orientação concreta de como escolher esse choque a partir do material disponível — que é selecionar deliberadamente o trecho mais impactante da filmagem, em vez de escrever algo do zero."
+    },
+    {
+      "inicio": 357,
+      "trecho_fonte": "Não com um anúncio qualquer que assim",
+      "descricao": "Ao abrir a demonstração do anúncio de insônia, o professor rejeita explicitamente o gancho genérico de pergunta de dor ('Se você sente que você não consegue dormir e você fica o dia inteiro cansado, não, por favor, por favor, não') e instrui mostrar algo que só quem realmente tem a condição sente ('Aquilo que só a pessoa que tem insônia passa e sente'). Nenhuma unidade registra essa ressalva/princípio de escrita.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consultar a unidade 5 sem essa ressalva pode escrever aberturas no formato genérico de pergunta ('Você sente que...?') que o próprio professor rejeita explicitamente nesta aula como fraco, perdendo o critério prático que ele ensina para diferenciar um gancho genérico de um gancho específico e evocativo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tema 'estrutura-de-anuncio' é defensável, mas o conteúdo (redução de CPM e CPA) se encaixa igualmente ou melhor em 'metricas-e-diagnostico', que lista explicitamente CPM e CPA na definição do tema. Classificação discutível entre dois valores defensáveis; não chega a levar o agente ao lugar errado, mas vale registrar."
+  ],
+  "material": [],
+  "resumo": "O arquivo tem 9 unidades cobrindo a estrutura PP, o uso de sentimentalismo para baratear CPM/CPA, a resposta do professor sobre gancho vs. entrega restrita, a estrutura de quatro atos aplicada a anúncio, o exemplo completo do anúncio fictício de insônia ('Doutor Slim') escrito e depois revisado via ChatGPT, e o fechamento anunciando a próxima aula. A maioria das unidades está bem lastreada; os problemas encontrados são pontuais: a unidade 6 mistura um detalhe ('entre aspas') que pertence à faixa da unidade 7, e há pequenas imprecisões de fronteira/gênero de personagem nas unidades 1, 4, 5 e 9, nenhuma delas com efeito prático relevante. Duas omissões reais foram localizadas na aula inteira: a dica de escolher o trecho mais chocante da filmagem para abrir o anúncio, e — mais relevante — a ressalva explícita do professor contra usar um gancho genérico de pergunta de dor, substituída por mostrar algo que só quem tem a condição sente. Não há problemas de perecibilidade escondida nem de material (a aula não tem material de apoio)."
+}

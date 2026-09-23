@@ -1,0 +1,23 @@
+{
+  "aula": "G09_A07",
+  "arquivo_sha256": "94a7f05f26048d23f8827b92fa45d74f9b9d7348fc03c5236f99368d5421a736",
+  "inspecao_sha256": "441c2e3efc87e68d69b88009b875219617483f78e713d47192546b2239a87b19",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. U12 recebeu o número seguinte ao maior existente, `retiradas` continua vazio, `correcoes` registra o ciclo, tipo `regra` com frase categórica, `evidencia` literal de 11 palavras dentro da faixa. Nada a corrigir.",
+  "fidelidade": "U12 lastreada pelo inspetor com trecho literal integralmente dentro de 566.92–581.76 e `citacoes_nao_literais` vazio. Os pontos (b) \"ela vai ver a história que você acabou de falar no anúncio\" e (c) \"segurar ela na sua VSL até o pitch de vendas\" são literais; o ponto (a), dúvida → clique, apoia-se na frase imediatamente anterior (\"Causando dúvida e questionando a pessoa\", 563.60–566.92) sem distorção de sentido — nuance de fronteira de faixa, não desvio. A explicação de \"pitch\" segue o vocabulário do curso (G02_A09), perdendo só o \"pela primeira vez\". Unidades 1–11 mantêm a evidência da inspeção integral, com hash conferido como inalterado. Nenhum sem-lastro, desvio ou faixa-errada.",
+  "cobertura": "A omissão material apontada em G09_A07-R1-F1 está coberta: U12 registra por que a dúvida da foto existe, o que o destino precisa entregar e que essa continuidade segura a pessoa na VSL até o pitch. A lista `omissoes` do inspetor ainda repete o item de 566.92 como \"material\", mas é acúmulo da inspeção anterior; o veredito da própria U12 e o resumo confirmam que o vão foi preenchido, então trato o item como resolvido. As duas omissões menores restantes (recolorir e espaçar o título depois de trocar a fonte, ~510.76; confirmação explícita de \"emagrecimento\", ~533.48) continuam menores: não mudam decisão nem impedem executar.",
+  "perecibilidade": "U12 com `geral` e `perecivel: false`, tratando \"Saiba Mais\" como chamada do exemplo, registrada em `condicoes`, sem passo de configuração de plataforma — opção que o julgamento anterior já declarou defensável. Inspetor não sinaliza perecível escondido. Sem falha.",
+  "aplicabilidade": "U12 se sustenta sozinha: diz a função da dúvida na foto, o que o destino precisa mostrar e o efeito na retenção, explica \"pitch\" na primeira ocorrência e delimita em `condicoes` o cenário (anúncio em foto que leva a VSL). Tema `estrutura-de-anuncio` e tarefas `roteirizar-anuncio` / `gerar-variacoes-de-criativo` levam o agente ao lugar certo. `regra` × `conceito` é discutível entre dois valores que a mudança mínima previa; ajuste menor no máximo.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U12: opcionalmente estender `inicio` para 563.60 para incluir \"Causando dúvida e questionando a pessoa\", que lastreia o ponto (a) do corpo dentro da própria faixa; fecha a nuance de fronteira apontada pelo inspetor.",
+    "U12: na explicação de \"pitch\", acrescentar \"pela primeira vez\" (\"o momento em que o valor do produto é apresentado pela primeira vez\") para bater com a definição de G02_A09 no vocabulário do FORMATO.",
+    "Mantidos da rodada anterior, sem ação obrigatória: vão ~510.76 (recolorir em branco/vermelho e espaçar as letras do título após trocar a fonte) poderia virar passo 4 de U8; a confirmação de \"emagrecimento\" em ~533.48 fica fora de qualquer faixa embora U3 e U9 usem o rótulo em `condicoes`; glosas de U2 (\"parte mais dolorosa\", ~72.24) e U9 (\"macabro\", até 542.94) ficam um instante fora da faixa declarada."
+  ],
+  "proximo": "Encerrar o ciclo e promover a aula para `revisado`. Nenhuma prova adicional necessária. Se o redator aplicar os ajustes menores em U12, incrementar `versao` e conferir só por script; o hash muda mas não abre nova rodada de inspeção."
+}

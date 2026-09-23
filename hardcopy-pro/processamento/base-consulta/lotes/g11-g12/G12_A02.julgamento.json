@@ -1,0 +1,41 @@
+{
+  "aula": "G12_A02",
+  "arquivo_sha256": "75a9a0ef371362c77043d74b7a68fd694fb024101d49bf0202ca09818948e6c9",
+  "inspecao_sha256": "e4e86a6216eb8c178b8ed173b31e142318d912ac34af3120a63a5e62445748ce",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Nada a corrigir por script.",
+  "fidelidade": "Inspeção integral: 15/15 unidades verificadas, todas com trecho_fonte literal, nenhuma em citacoes_nao_literais. 14 lastreadas. Falha material na unidade 7: o passo 4 do procedimento acrescenta uma conferência de aparência que o inspetor declara não ser dita na faixa 597–671 (inferência da extração); FORMATO §3 (\"passo que a fala não nomeia não entra no procedimento\"), a taxonomia de `procedimento` e a seção \"Próprio deste curso\" da rubrica classificam isso como sem-lastro material — o inspetor graduou \"menor\", mas o juiz não rebaixa gravidade fixada pela rubrica. Unidade 13 `faixa-errada` (passo de gênero/idade em ~1284–1303s, fora de 1102–1257): 1 em 15 = 6,7%, abaixo do teto de 10%; correção mecânica da faixa. Unidade 4: conteúdo das quatro partes íntegro, ordem parcialmente diferente da fonte — ajuste menor. Hipóteses de ferramenta (Veo 3, ElevenLabs, 'Eleven 3 Alpha') com nota dizendo a grafia da fonte e confiança no máximo média, conforme exigido. Ressalvas do professor preservadas (unidade 2 atribui a regra ao professor; unidade 14 registra as tentativas malsucedidas). Sem copy de exemplo promovida a fato, sem resíduo de silêncio, sem termo deformado promovido a conceito.",
+  "cobertura": "Inspeção declara busca de omissões na fonte inteira. Duas omissões localizadas com trecho literal: abrir a ferramenta \"Flow\" do Veo 3 e iniciar novo projeto antes de colar o prompt (539s) e conferir se o prompt gerado diz \"em brasileiro\" antes de copiar (706s). Nenhuma das duas muda a decisão nem impede executar — a unidade 6 já situa o usuário no campo de texto-para-vídeo e a unidade 4 já manda a fala ser em português; são detalhes a incorporar, não veto. Conteúdo que ficou só na tela está coberto pelo limite 8; aula sem oferta comercial; fechamento sem edição final coberto pelo limite 15.",
+  "perecibilidade": "Todas as 15 unidades com perecivel: true; inspetor sem apontamento. Nenhum perecível escondido em unidade `geral`. As unidades 2 e 5 (regras gerais em plataforma `geral`) estão marcadas perecíveis sem elemento perecível — sobra de marcação não reprova.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: procedimentos com Pré-condição, hipóteses de ferramenta em nota, jargão ('uma quadra', Instant Voice Clone) explicado no próprio corpo. Unidade 13 cumpre o exigido para técnica que contorna direito de terceiros: nota iniciada por \"Contorna política de plataforma ou direito de terceiros:\", perecivel: true, condicoes com o contexto do exemplo político. Referências a \"no exemplo\" são descritivas e não dependem do vídeo. Unidade 7, passo 2 (\"a ferramenta onde o próximo prompt será escrito\") é vago por limitação da fonte, declarado em nota e no limite 8 — aceitável. Classificações discutíveis: 6 (`regua`) e 12 (`regra`) caberiam melhor como `ferramenta`; 13 em `politicas-e-bloqueios` é defensável pela regra de contorno. Nenhuma leva o agente ao lugar errado.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor (com fonte), faixa 597–671: trecho literal \"a mesma mulher é cenário e porém agora ela dizendo e agora colocamos aqui mais uma parte do vídeo\" lastreia os passos 1–3 e a geração do clipe seguinte; declara que a instrução \"confira se a aparência da personagem se manteve igual à do clipe anterior\" (passo 4) não é dita na faixa e é inferência lógica da extração. Unidade 8 (limite) e sua âncora \"vamos printar aqui, aperta link no seu teclado, jogamos aqui para o Google Chat\" cobrem os passos 1–2. Nenhum trecho apresentado sustenta a conferência.",
+      "impacto": "Agente que consulta a base reproduz, como passo ensinado pelo professor, uma instrução que a fala não contém. FORMATO §3 e taxonomia `procedimento` vedam passo não nomeado pela fala; rubrica 'Próprio deste curso' classifica como sem-lastro material. Confiança baixa e nota existentes não autorizam manter o passo.",
+      "mudanca_minima": "Reduzir o passo 4 ao que a fala sustenta — \"Gere o clipe seguinte com esse prompt.\" (lastro: \"agora colocamos aqui mais uma parte do vídeo\") — removendo a conferência de aparência; incrementar `versao` para 2. Alternativa só se o inspetor apresentar trecho literal em que o professor instrui a conferência: manter o passo com a faixa ajustada para incluí-lo.",
+      "criterio_de_aceite": "Inspetor re-confere a unidade 7 (hash novo) e atesta que cada passo numerado tem trecho literal dentro de inicio–fim e que nenhum passo contém ação ou verificação que a fala não nomeia; validador continua com zero erros; `versao` = 2."
+    }
+  ],
+  "ajustes_menores": [
+    "U13 — faixa-errada abaixo do teto (1/15): estender `fim` de 1257 para ~1305 para abranger \"linguagem... masculino... mais velho\" (~1284–1303s), que lastreia o passo 3 (gênero e faixa etária). Corrigir no mesmo passe de F1; inspetor confere a nova faixa.",
+    "U4 — ordem das partes da estrutura difere parcialmente da fonte (fonte: cenário/programa matinal → descrição física → vestuário 'roupa social, não branca'). Reordenar e, se preciso, separar cenário de vestuário; conteúdo íntegro, sem mudança de sentido.",
+    "Omissão 539s (\"vamos vir na ferramenta do flow do vo3 tá, e a gente vai iniciar um novo projeto\"): incorporar à unidade 6, como pré-condição ou nota, que o prompt é colado depois de abrir a ferramenta 'Flow' do Veo 3 e iniciar um novo projeto. 'Flow' não está na tabela de grafias: registrar em nota como grafado na fonte, sem completar com conhecimento externo.",
+    "Omissão 706s (\"você vai olhar se ele tá falando em Brasil, tá? Em brasileiro, e aí a gente vai copiar esse prompt\"): na unidade 4, item 4 (ou na 9), especificar que a fala deve ser em português do Brasil e que se confere isso no prompt gerado antes de copiá-lo.",
+    "U6 e U12 — tipo: orientação presa a configuração de aplicativo específico (gerar um resultado por vez no Veo 3; modelo 'Eleven 3 Alpha' no ElevenLabs) cabe melhor como `ferramenta` do que `regua`/`regra`. Classificação discutível; não abre ciclo.",
+    "U2 e U5 — `perecivel: true` sem elemento perecível (regras gerais, plataforma `geral`). Sobra de marcação não reprova; opcional trocar para false.",
+    "U13 — tema `politicas-e-bloqueios` é defensável pela regra de contorno do FORMATO; `locucao-e-voz` também caberia. Manter como está; a tarefa `produzir-locucao` já leva o agente à unidade."
+  ],
+  "proximo": "Ciclo de correção 1 de 2. Redator corrige F1 na unidade 7 e aplica os ajustes menores no mesmo passe (faixa da 13, ordem da 4, duas omissões de detalhe nas 6 e 4/9), sem que os menores abram rodada própria. Inspetor re-confere apenas as unidades com hash alterado (7 obrigatoriamente; 4, 6, 13 e 4/9 se editadas) e a nova faixa da 13, com trecho literal por passo do procedimento 7. Juiz confere a lista F1 + efeitos das alterações; não se reabre o restante. Se o inspetor apresentar trecho literal em que o professor instrui conferir a aparência do avatar, F1 se resolve mantendo o passo com faixa ajustada."
+}

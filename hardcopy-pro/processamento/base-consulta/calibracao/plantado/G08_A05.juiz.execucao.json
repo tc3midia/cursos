@@ -1,0 +1,38 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T15:07:56+00:00",
+  "fim": "2026-09-20T15:10:42+00:00",
+  "duracao_ms": 164595,
+  "duracao_api_ms": 164564,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 14375,
+    "cache_creation_input_tokens": 11597,
+    "cache_read_input_tokens": 20123
+  },
+  "thinking_tokens": 8211,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.9557407499999999,
+  "esperas_por_limite": [],
+  "sistema_sha256": "49377a6cefd4f60fe9088efc70e399dec3c4309f0d30f98777d31c70284f0457",
+  "pacote_sha256": "01fb7b6a1c03fb00fd6302ddf37a4d5af45b998994cf25e2a1024722557d02e0",
+  "aula": "G08_A05",
+  "rotulo": "calibracao-hc",
+  "arquivo_sha256": "a8cf227b7012330a655969fbffcad8fa7d19e3cab654844d06a28bda9fdd1530",
+  "inspecao_sha256": "386b19cbc2e1a96c703abf7ac7309e1fe9c7c97b08ae294b53f418746f3ca1a2",
+  "destino": "hardcopy-pro/processamento/base-consulta/calibracao/plantado/G08_A05.julgamento.json",
+  "resultado_sha256": "14387ec7821a818610c4e31906160fc5090be9ccd8898e772f7895a338277d0f"
+}

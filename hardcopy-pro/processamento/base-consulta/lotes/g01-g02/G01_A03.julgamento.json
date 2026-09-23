@@ -1,0 +1,48 @@
+{
+  "aula": "G01_A03",
+  "arquivo_sha256": "e38766aeac5fca230d982182c5439cb1cdcf5d685f3eb6ebacbdc55697f508ad",
+  "inspecao_sha256": "21a055720fb924c4cddb2cf0893826caf2f51f3709e4f21bd2358e47d9cb2ee0",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os quatro apontamentos que o inspetor listou em `contrato` não são erro de script: duas frases do contexto, a plataforma da unidade 3 e o tema da unidade 10. Ficam como ajustes menores. A menção a resíduo de silêncio no contexto contraria o FORMATO (seção 3) e deve sair. Ela não usa o resíduo como fonte e não muda o que o agente faz.",
+  "fidelidade": "Falha por um desvio material, na unidade 7. A última frase da `Lógica:` diz que \"quem só recebe dicas de treino vê algo que nunca viu na vida\". O trecho literal do inspetor é \"e vender algo que nunca foi visto na vida dela\" (361–369s) e nenhuma citação foi listada como não literal. Por ele, o nunca visto é o processo vendido. Dicas e receitas são o que a pessoa já está acostumada a receber (294–309s). O sentido está invertido, e o trecho fica fora da faixa declarada (236–347).\n\nAs outras nove unidades estão lastreadas. A unidade 3 tem fonte fragmentada, preservada com `nota` e `confianca: media`, o que a rubrica aceita. As glosas das unidades 4, 5, 9 e 10 não mudam a orientação.\n\nNenhuma unidade recebeu `faixa-errada`. Nas unidades 4 e 5 o `fim` corta alguns segundos do fecho, mas a âncora e o núcleo estão dentro da faixa. Trato como ajuste menor.\n\nNão há copy de exemplo tratada como fato. O emagrecimento e a academia estão marcados como ilustrativos. Não há resíduo de silêncio usado como fonte. ClickBank aparece com `nota` sobre a grafia \"clickbait\".",
+  "cobertura": "Passa. A inspeção é integral e declara ter buscado omissões. As três omissões apontadas são menores, e concordo com a gravidade.\n\n- **Margem de erro:** a ressalva \"margem de erro praticamente nula, mas pode dar errado\" só importaria se alguma unidade afirmasse a margem quase nula. Nenhuma afirma.\n- **Critério do \"nunca visto\":** fica resolvido pela correção da unidade 7, na opção A.\n- **Script como IA:** o inspetor errou em parte. Ele afirma que o agente não sabe que o conteúdo do script não está na transcrição, mas a `nota` da unidade 5 diz exatamente isso. Procede só a outra metade: o corpo não diz que o script é uso de IA. A `nota` cogita prompt de ChatGPT, então o agente não é levado a erro. Fica como ajuste menor.",
+  "perecibilidade": "Passa. O inspetor não achou perecível escondido, e a leitura das unidades confirma.\n\n- A unidade 3 (ClickBank e Hotmart), a unidade 5 (script abaixo da aula e redes como fonte de pesquisa) e a unidade 10 (estrutura do curso) estão com `perecivel: true`.\n- As unidades marcadas `geral` não carregam tela, preço, recurso do curso nem número de mercado.\n- Os \"100 ou 200 reais por dia\" da unidade 6 são a expectativa do aluno impaciente, não preço nem parâmetro.",
+  "aplicabilidade": "Passa, com ajustes menores. As unidades se sustentam sem a aula ao lado.\n\n- **Unidade 1:** o conceito é atribuído ao professor e bate com o vocabulário do FORMATO.\n- **Unidade 5:** o procedimento começa com `Pré-condição:`, tem quatro passos que a fala nomeia e uma `nota` honesta sobre o recurso que falta.\n- **Unidade 7:** o exemplo tem as três marcas e a condição de caso ilustrativo.\n\nOs pontos fracos não mudam o uso:\n\n- **Unidade 3:** `plataformas-de-venda` é defensável, porque o ClickBank aparece como fonte de pesquisa de ofertas. Mas a orientação central é geral.\n- **Unidade 3:** usa \"Kishotenketsu\" e \"mandar para revisão\" sem explicar.\n- **Unidade 5:** não diz que o script é de IA.\n- **Unidade 6:** `regua` para uma proporção retórica é discutível frente a `regra`.\n- **Unidade 10:** `mecanismo-unico` e `curso-e-recursos` são ambos defensáveis como tema.\n\nClassificação discutível entre dois valores defensáveis é ajuste menor pela rubrica.",
+  "falhas": [
+    {
+      "id": "G01_A03-F1",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor marca desvio material com trecho literal conferido: \"e vender algo que nunca foi visto na vida dela.\" (361–369s). Na fonte, o que nunca foi visto é o processo que o professor vende. Dicas e receitas são o que a pessoa já está acostumada a receber (294–309s). A última frase do corpo da unidade 7 diz o contrário: \"quem só recebe dicas de treino vê algo que nunca viu na vida\". O trecho de origem também está fora da faixa declarada, 236–347. O resto do exemplo confere: causas, promessa de ir à academia, método depois por e-mail ou upsell, gratidão.",
+      "impacto": "O agente que consulta a unidade para definir mecanismo único ou montar oferta sai achando que dica de treino é a novidade que impressiona o público. A aula ensina o oposto: dica é o já batido, e o novo é o processo que resolve a barreira real. A frase também contradiz as unidades 2 e 8 da mesma aula. O erro seria repetido em skills de oferta com `confianca: alta`.",
+      "mudanca_minima": "Mexer só na última frase da `Lógica:` da unidade 7. Opção A, preferida porque também fecha a omissão menor do critério do \"nunca visto\": reescrever dizendo que, segundo o professor, dicas e receitas são o que a pessoa já está acostumada a receber, e que o processo vendido deve ser algo que ela nunca viu. Estender `fim` para cobrir 361–369s, por exemplo 369. Opção B: apagar a frase e manter a faixa. Nos dois casos, incrementar `versao` para 2 e registrar em `correcoes`. Não tocar no restante do exemplo, que está lastreado.",
+      "criterio_de_aceite": "(1) O corpo da unidade 7 não associa mais \"dicas de treino\" a \"algo que nunca viu na vida\". (2) Se a novidade for mencionada, ela é atribuída ao processo ou mecanismo vendido, as dicas e receitas aparecem como o já conhecido, `fim` ≥ 369 e a `evidencia` continua dentro da faixa. (3) `versao` = 2 e há entrada em `correcoes`. (4) `base_fcc.py` com zero erros. (5) O inspetor reconfere a unidade 7 contra 294–309s e 361–369s e a devolve como `lastreada`."
+    }
+  ],
+  "ajustes_menores": [
+    "Contexto, 6ª frase: retirar a menção a resíduo de silêncio, porque o FORMATO (seção 3) manda não mencionar no contexto. Não altera hash de unidade.",
+    "Contexto, 4ª frase: \"na aula anterior\" não tem lastro exato. A fonte diz \"na aula 1\" e esta é o Episódio 03. Trocar por \"numa aula anterior (o professor diz aula 1)\". Não altera hash de unidade.",
+    "Unidade 3: a orientação central (não copiar mecanismo pronto) é geral. Considerar `plataformas: [geral, plataformas-de-venda]` para o agente que filtra por `geral` não perder o alerta. É discutível entre dois valores defensáveis.",
+    "Unidade 3: explicar \"Kishotenketsu\" na primeira ocorrência, como a estrutura narrativa de quatro atos do curso. Esclarecer \"mandar para revisão\": pelo trecho do inspetor, \"Eu vou aprovar a sua revisão\", o professor aprovaria a revisão e mesmo assim a copy não vende. O exemplo da capsaicina ficou de fora, sem efeito prático.",
+    "Unidade 4: a segunda frase vem de pergunta retórica em 138–142s, fora do `fim` = 137. Estender `fim` para 142 ou tirar o \"Por isso\".",
+    "Unidade 5: dizer no corpo ou na `nota` que o script é uso de IA. Trecho do inspetor: \"vamos usar a inteligência artificial a nosso favor\". O contexto já diz \"script de IA\", mas a unidade é consultada sozinha.",
+    "Unidade 5: os exemplos entre parênteses do passo 1 são do caso da academia. Marcar como exemplo.",
+    "Unidade 5: `fim` = 277 corta o segmento 276,56–283,42, onde está parte do passo 4. Estender para 284.",
+    "Unidade 5: considerar a tarefa `usar-recursos-do-curso`, já que o procedimento depende de recurso do curso.",
+    "Unidade 6: `regua` para \"90% estudo e 10% estratégia\" é discutível frente a `regra`. A proporção é retórica, não parâmetro de decisão. Está atribuída ao professor, então não é desvio.",
+    "Unidade 9: corrigir a concordância de \"mecanismo únicos\". Trocar \"e não a falta de tempo de treino\" por algo fiel à fala: a pessoa esperava dicas de quantos minutos treinar por dia. \"Conseguir o que quer\" completa uma frase que a transcrição deixa cortada, e é aceitável.",
+    "Unidade 10: \"o que não foi tratado aqui deve ser buscado nela\" é inferência. A fala diz só \"para você entender melhor\". O tema `curso-e-recursos` seria alternativa defensável a `mecanismo-unico`.",
+    "Omissão menor: a ressalva de que a margem de erro é \"praticamente nula\" mas pode dar errado. Como nenhuma unidade afirma a margem quase nula, a falta não gera afirmação falsa.",
+    "Os ajustes nas unidades 3, 4, 5, 6, 9 e 10 são opcionais. Se aplicados, mudam o hash da unidade e exigem reconferência do inspetor nela."
+  ],
+  "proximo": "Abrir o ciclo 1 de correção. O redator corrige só a unidade 7, conforme G01_A03-F1. Recomendo que retire na mesma passada as duas frases de contexto indicadas nos ajustes menores, porque elas não alteram hash de unidade.\n\nDepois, o inspetor faz conferência focal na unidade 7. Se a coordenação decidir aplicar ajustes opcionais, ele reconfere também as unidades cujo hash mudar. A evidência das unidades intactas é preservada.\n\nNão há pedido de prova pendente. O apontamento material tem trecho literal conferido."
+}

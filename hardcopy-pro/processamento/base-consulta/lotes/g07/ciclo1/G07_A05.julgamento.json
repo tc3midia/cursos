@@ -1,0 +1,40 @@
+{
+  "aula": "G07_A05",
+  "arquivo_sha256": "9d18895108df95f61d13d2b00ed55fbecadcee6416e4f59f9fe40cbf1680e5ad",
+  "inspecao_sha256": "0390f33f8df909dad9a2b7be73e75a5aec29b2bf68ed2753016cf9345d7a8e50",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos após a correção. O apontamento do inspetor sobre a tarefa da unidade 5 é classificação discutível entre dois valores defensáveis, já registrada como ajuste menor na rodada anterior; não reabre.",
+  "fidelidade": "F1 resolvida: o corpo da unidade 8 atribui as duas variantes como hábito do professor, sem imperativo, com a razão preservada e a truncagem da transcrição registrada em nota; inspetor marca lastreada sem gravidade; versao 2. Na unidade 10, os quatro passos correspondem a ações nomeadas na fala, a hipótese sobre \"Em elementográfico\" está em nota com confianca media e não há menu, botão ou valor inventado. Porém o passo 3 diz \"Tirar um pouco do brilho do elemento\", enquanto a sequência literal citada por inspetor e redator é: \"Deixa ela aqui por enquanto / Vamos editar o vídeo primeiro\" (05:01–05:03) → \"Tirar um pouquinho desse brilho\" (05:07) → \"A gente pega a vinheta, coloca ela em 90 graus\" (05:13). A vinheta foi posta de lado, o professor anuncia que edita o vídeo primeiro, reduz \"esse brilho\" e só depois retoma a vinheta. Nada citado nomeia o elemento como objeto do ajuste; \"desse\" é dêitico. A unidade resolveu o referente no sentido que a sequência não apoia, sem nota, e o inspetor conferiu só a existência da ação, não o objeto. Isso é F3.",
+  "cobertura": "F2 fechada pela alternativa (a): a unidade 10 cobre 292–320s com evidencia literal contendo a vinheta e passos rastreáveis. A omissão de 57s (branco para transmitir seriedade) segue como ajuste menor, conforme já julgado. Observação de registro: o array `omissoes` da inspeção ainda lista o item de 290s como material aberto, embora o resumo declare F2 atendida; a próxima inspeção deve marcar esse item como fechado para o registro ficar coerente.",
+  "perecibilidade": "Unidades 8 e 10 marcadas perecivel: true com plataformas elevenlabs e canva. Nada escondido em unidade geral nas alteradas; o inspetor não sinaliza nada.",
+  "aplicabilidade": "Unidade 8 se sustenta sozinha: diz quem prefere, o quê, por quê, e que não é passo obrigatório. Unidade 10 tem pré-condição, passos e declara honestamente que a finalidade do efeito ficou na tela; o título \"como acabamento\" faz uma inferência leve de propósito que o próprio corpo diz não estar na fala (ajuste menor). O problema do passo 3 é de fidelidade, não de aplicabilidade. Tema direcao-de-arte-e-texto-na-tela para a vinheta é defensável; edicao-de-video seria a alternativa, sem efeito prático.",
+  "falhas": [
+    {
+      "id": "F3",
+      "unidades": [
+        10
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor e redator citam, na ordem: [00:05:00–00:05:03] \"pega essa daqui / Deixa ela aqui por enquanto / Vamos editar o vídeo primeiro\"; [00:05:04–00:05:07] \"Tirar um pouquinho desse brilho\"; [00:05:10–00:05:13] \"A gente pega a vinheta, coloca ela em 90 graus\". O passo 3 da unidade 10 diz \"Tirar um pouco do brilho do elemento\". Na sequência citada a vinheta está de lado, o professor declara editar o vídeo primeiro, reduz \"esse brilho\" e só então retoma a vinheta (\"A gente pega a vinheta\"). Nenhum trecho citado nomeia o elemento como objeto do ajuste de brilho; a unidade fixou o referente sem nota e o inspetor validou só a existência da ação \"reduzir o brilho\", não seu objeto. O próprio corpo fica incoerente: passo 2 deixa o elemento de lado para editar o vídeo primeiro e o passo 3 edita o elemento.",
+      "impacto": "Um agente que execute o procedimento reduz o brilho da vinheta em vez do vídeo (ou o contrário), produzindo resultado diferente do que o professor fez; como a finalidade do efeito já não está descrita, o passo errado é a única coisa que sobra para reproduzir.",
+      "mudanca_minima": "Reescrever o passo 3 da unidade 10 sem atribuir o brilho ao elemento. Duas saídas aceitáveis: (i) se o inspetor confirmar com trecho literal que o referente é o vídeo, fundir com o passo 2: \"Deixar a vinheta de lado e editar o vídeo primeiro: tirar um pouco do brilho\"; (ii) se o referente não se decide pela fala, \"Tirar um pouco do brilho\" sem objeto, com a nota ampliada: a fala diz só \"desse brilho\" logo após \"vamos editar o vídeo primeiro\", e o que está sendo ajustado ficou na tela. Manter confianca media, faixa, evidencia, tema, tarefas e plataformas; versao para 2. Na mesma edição, opcionalmente retirar \"e deixá-la sobre o vídeo\" do passo 4 (ajuste menor do inspetor).",
+      "criterio_de_aceite": "Passo 3 da unidade 10 não diz \"do elemento\", salvo se o inspetor citar trecho literal em que o professor nomeia o elemento como objeto do ajuste de brilho; se o referente ficar aberto, a nota registra que a fala diz apenas \"desse brilho\" após \"vamos editar o vídeo primeiro\"; versao = 2; inspetor reconfere a unidade 10 checando o objeto de cada passo com trecho_fonte e marca lastreada com gravidade nenhuma ou menor; validador zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U10, passo 4: \"e deixá-la sobre o vídeo\" não é dito na fala (inspetor); pode sair na mesma edição de F3.",
+    "U10, título: \"como acabamento\" infere um propósito que corpo e nota dizem não estar na fala; alternativa: \"Elemento 'Vinheta' girado em 90 graus no Canva\".",
+    "U8: \"voz de moça\" onde a fala diz \"a voz da menina\"; redação sem consequência.",
+    "U8: a razão vem de frase truncada (\"que a gente consegue trabalhar, ensino e não arriscar\"); a nota cobre, mas confianca media seria mais fiel ao grau de interpretação.",
+    "Registro da inspeção: o array omissoes ainda lista o item de 290s como material aberto; marcar como fechado na próxima inspeção.",
+    "Mantidos da inspeção integral, sem reabrir: U2 (ajuste de contraste de brilho tratado como parte do sombreado), U4 (fim 240s com bloco que vai a 258s), U7 (ordem escolha de voz × modelo), U5 (tarefa montar-criativo-visual discutível), omissão de 57s (texto branco para transmitir seriedade)."
+  ],
+  "proximo": "Ciclo 2, o último do artefato: redator corrige só o passo 3 da unidade 10 conforme F3 (e, se quiser, o passo 4 e o título na mesma edição). Inspetor faz conferência focal na unidade 10 verificando o objeto de cada passo com trecho literal, decide se o referente de \\\"desse brilho\\\" é o vídeo ou fica aberto, e atualiza o array omissoes marcando o item de 290s como fechado. Se F3 persistir após o ciclo 2, o caso vai para intervenção da coordenação e conferência focal final, sem nova chamada automática."
+}

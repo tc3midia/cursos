@@ -1,0 +1,60 @@
+{
+  "aula": "G03_A05",
+  "arquivo_sha256": "f321cfc9d5ed877784e13317f334a8b2ca4eef95e27fad25302dcbaca97a0d82",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "acf748b3488015bf6d46cfba8ae82c7d15baa5686962f53baab7c9ed209a466d",
+    "2": "89a129f0882aab7dbba94b58d0bcf36302602d23e4220009da674b11e541dc7f",
+    "3": "089b4db9fe556e27c0f0f9a9754e2be8153190db4b74804b39a102a9982bb308"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "incrível em 7 dias, até porque",
+      "explicacao": "O conteúdo tem lastro na fala: peso de academia, pessoa dentro do carro e mecanismo único criado a partir de algo existente. O problema é a faixa 50–148. A frase final do corpo (o módulo não promete criatividade incrível em 7 dias, o que o professor diz ser impossível) está em 00:00:36–00:00:44, antes de `inicio`. O trecho \"que não existia\", que fecha \"criar uma oferta a partir do que não existia\", começa em 00:02:28 (148 s) e termina perto de 154 s, depois de `fim`. Quem conferir só a faixa não acha essas duas partes. A faixa deveria ir de cerca de 32 a 155 s. Detalhe menor: a fonte diz \"a melhor forma\" e \"normalmente quando chega nessa situação, você encontra um mecanismo único\". O corpo escreve como imperativo e sem \"normalmente\". Não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Que você quer mostrar pra ela",
+      "explicacao": "O corpo define elefante na sala como \"dizer ao lead de frente aquilo que ele já está pensando\". A fonte diz outra coisa. Em 00:05:11–00:05:24 a fala é: \"Que esse elefante significa / Você já atirar pra pessoa / Que você quer mostrar pra ela / Pra ela ativar o modo dela / De sair / Do modo jacaré dela\". O que se joga na pessoa é \"o que você quer mostrar pra ela\". A fonte não diz \"de frente\" nem \"o que ela já está pensando\". Essa leitura vem do sentido corrente do termo, ou de uma inferência a partir do exemplo do jacaré, e não da fala. O trecho é mal transcrito e ambíguo, mas a unidade o resolve em silêncio, com `confianca: alta` e sem `nota`. Isso é a definição central da unidade, então quem consultar vai aplicar o termo com um sentido que a aula não dá. Correção mínima: repetir o que a fonte diz, com `nota` sobre a degradação da transcrição, e baixar `confianca` para `media`. Demais afirmações conferem: o elefante que não sai da cabeça, o modo jacaré como estado defensivo (\"mais um produto\", \"vai me vender um treino no final\") e \"você desarma ele e ele entra pro emocional\"."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A melhor forma de experienciar é testando",
+      "explicacao": "Confere com 00:05:55–00:08:41. Os números 3 e 150 estão marcados como \"no exemplo\", e a `nota` diz que são ilustração. \"Ignore as críticas\" vem condicionado a teste aprovado, ROI e vendas (\"está aprovado, está te dando ROI... vendendo bem, que se dane as outras três pessoas\"). \"Que se dane, testa\" e \"o mais difícil... foi criar o produto\" estão corretos. \"Criatividade vai a mil\" está atribuído ao professor (\"segundo ele\"). A faixa 343–521 cobre o conteúdo. Único ponto de atenção: `condicoes` limita a regra a oferta já validada, mas o corpo também traz \"em dúvida, teste\", que vale antes da validação. Isso não muda o uso."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 160,
+      "trecho_fonte": "e você chega nesse limite, a criatividade não é mais o problema, e sim o problema",
+      "descricao": "O professor diz duas vezes (00:02:40–00:02:50 e 00:05:43–00:05:49) que, quando se tem a capacidade de criar ofertas, o gargalo deixa de ser criatividade e passa a ser expansão e delegação de coisas a fazer (\"o problema não é mais a falta de ideias e sim a delegação dessas ideias\"). Nenhuma unidade registra isso, embora seja o argumento que dá título à aula (\"Capacidade\").",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem perguntar o que muda depois de dominar o olhar criativo não encontra a posição do professor de que o gargalo passa a ser expandir e delegar. A fonte não detalha como delegar, então a falta não impede executar nada."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A unidade 3 está fiel e bem condicionada. A unidade 2 tem um desvio material: define \\\"elefante na sala\\\" como dizer ao lead aquilo que ele já está pensando, e a fonte diz \\\"o que você quer mostrar pra ela\\\", num trecho mal transcrito e sem `nota`. A unidade 1 tem lastro, mas a faixa 50–148 deixa de fora a frase dos \\\"7 dias\\\" (36–44 s) e o fecho \\\"que não existia\\\" (148–154 s). Foi registrada uma omissão menor (gargalo passa a ser expansão e delegação). No `contexto`, \\\"encerramento do módulo\\\" e \\\"produto digital\\\" não aparecem na fonte, e a aula termina com \\\"até a próxima\\\"; é ajuste menor."
+}

@@ -1,0 +1,137 @@
+{
+  "aula": "G07_A07",
+  "arquivo_sha256": "2abc4d374dfaad56d6ffc0c080a5f74725ea988de9982fb0d1ad8816051dc91d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hashes_unidades": {
+    "1": "65295b90b2110dc268de891a535249f205dc3bf0ed1ccef82cbb5497b3502f6d",
+    "2": "15bdcfb83c5aeaf67e89eca15726fc67dc4b2e9ad890d373c2590601e43c6c6e",
+    "3": "1a5829ac51a71407bbde1f2ebf283e1c9640b11678e11bec628067f3c827fc56",
+    "4": "9f5e55a426150a1ca84161b24fc7608753c9e731d0c747e258ed64ced6c786a5",
+    "5": "3f1a040a1d13bc3a4cbf6cc100d8f8024dad2c1b83f3c20c0fd74198f07de404",
+    "6": "c0f23b9ab0b48e92c4f512c6bcfee0dfe52870dbf6f22fd1a115285aac29411d",
+    "7": "e1c02d2320ea7442e0f6f2a0de9ad69700304582c9f0593ea4e7d9a6df1219ac",
+    "8": "05c671dcf87782be4057299c10e3b9974766b376cce90bf40e21cf3b9fe6a42f",
+    "9": "63d1fa6de221f7e7fa2c42ce4c4d87884fba86538a34eec2dc67b3d5555c1f6f"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vai ignorar tudo isso daqui e vai pegar somente isso só a confiança porque quanto mais alto é o produto mas você precisa de confiança",
+      "explicacao": "O corpo resume corretamente a lista de argumentos padrão (preço, garantia, laudo cautelar, tanque cheio, IPVA, parcelamento) e a recomendação de ignorá-los em favor da confiança, e reproduz fielmente a régua 'quanto mais alto o produto, mais precisa de confiança' como afirmação do próprio professor (que ele estende a mentorias). A omissão do item 'cheque tudo/cheque duro' e da condição 'sem entrada' dentro da enumeração não altera a decisão ensinada (ignorar tudo e focar em confiança)."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "isso é uma verdade, mas quanto maior for o giro também mais você vende bem, entende?",
+      "explicacao": "A frase sobre giro ('quanto maior for o giro também mais você vende bem'), que sustenta a segunda parte do corpo ('ter mais giro ajuda mais do que aumentar o estoque'), fica em ~00:06:41–00:06:47 (≈401–407s), pouco depois do fim declarado (401s). O restante da unidade (estoque de 15/20/25 e vendas travadas em 10/12/15 por mês) está corretamente dentro da faixa 364–401. O efeito é pequeno: a ideia de giro é real na fonte, só está a poucos segundos fora do limite declarado."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "se você mostrar isso daqui para o seu cliente várias e várias e várias vezes chamamos de remarketing o seu cliente vai ver para entender que não interessa qual é a empresa ou a loja que tem o mesmo carro que o seu ele vai comprar com você",
+      "explicacao": "A última frase do corpo ('recomenda repetir esse anúncio... remarketing... até o cliente entender que vai comprar ali mesmo que outra loja tenha carro idêntico') vem de ~00:15:20–00:15:35 (≈920–935s), muito além do fim declarado (794s = 00:13:14). Os cinco passos da estrutura (gancho, invalidação, conexão emocional, medo, CTA) estão corretamente dentro de 496–794. Quem tentar verificar a recomendação de remarketing na faixa indicada não a encontrará ali. Secundariamente, a condição do campo 'condicoes' ('estrutura de cinco partes apresentada como aplicável a outros anúncios de negócio local') é uma generalização do extrator: o professor generaliza explicitamente o conceito de focar em confiança para outros negócios ('então lojista, lembre-se... foque nisso daqui, se o seu produto e o seu preço for alto'), mas não afirma que este roteiro de cinco partes específico se aplica a qualquer nicho local."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aqui chamamos de gancho, tá bom?",
+      "explicacao": "A definição de gancho como a frase de abertura do anúncio corresponde exatamente ao trecho da fonte e à definição-padrão do vocabulário do curso para esta aula. A caracterização adicional ('criar tensão ou curiosidade e prender a atenção') é inferida do exemplo imediatamente anterior na mesma aula, sem contradizer a fonte."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas é igual uma roda de ferro demora para rodar mas aí ela vai rodar de forma automática com tempo",
+      "explicacao": "Todos os elementos do corpo (metáfora da roda de ferro, confiança superando qualquer persuasão a longo prazo mesmo fora do nicho de carros, leitura sobre desgaste de promessas de mercado, e autoridade/nome sustentando vendas de grandes players) aparecem dentro da faixa declarada (957–1142s), na ordem em que a fonte apresenta. A marcação de confiança 'media' com nota é adequada, pois o conteúdo mistura princípio do professor com leitura de mercado sem dado citado."
+    },
+    {
+      "numero": 6,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "porque esse aqui é o melhor treinamento de VSL na minha opinião atualmente por quê? ele realmente te ensina aquilo que eu prometo que é criar algo totalmente novo e diferente do que o mercado inteiro está fazendo",
+      "explicacao": "O trecho do corpo 'recomenda a formação em VSL do curso Hard Copy como o treinamento que a pessoa deveria comprar para aprender a criar algo diferente do que o mercado faz' corresponde a este trecho, localizado em ~00:20:57–00:21:17 (≈1258–1277s), fora do fim declarado (1195s). Dentro da faixa 1143–1195 realmente declarada, a menção ao 'VSL da Rádio Copa' (grafia adotada Hard Copy) serve apenas de exemplo de 'entrega o que promete', não de recomendação de compra. O número '500, 600 mil' e a frase 'por que eu continuo com a hard copy' estão corretamente dentro da faixa. Quem verificar a recomendação de compra na faixa indicada não a encontrará ali."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "mas aí o cara tá com uma base enorme de clientes insatisfeitos",
+      "explicacao": "A fonte diz que, ao vender por promessa sem entrega, o vendedor precisa trocar de nicho/produto quando a oferta anterior se esgota (3, 6, 9 meses) E, além disso, fica com uma base cada vez maior de clientes insatisfeitos ('o cara tá com uma base enorme de clientes insatisfeitos'). O corpo da unidade substitui essa consequência por 'obriga o vendedor a trocar de produto ou de nicho e recomeçar com uma base nova', omitindo o dano de reputação/confiança acumulado, que é o ponto central do alerta do professor sobre por que essa estratégia falha no longo prazo. Isso muda o que o leitor entende como consequência prática de usar só promessa."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "quanto mais ordem bump você tem mais em dúvida a pessoa vai ter de comprar",
+      "explicacao": "O corpo reproduz corretamente a recomendação de um único order bump, o exemplo do funil com cinco, o mecanismo de dúvida reduzindo conversão, e a atribuição da conclusão a contatos de mercado do professor (não a dado publicado), tudo dentro da faixa declarada (1374–1414s)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se o seu produto e o seu preço for alto, foque nisso daqui, se você tem uma loja de 1,99 e não consegue",
+      "explicacao": "A faixa declarada (1514–1545s) corresponde exatamente à fala usada, incluindo o exemplo da loja de R$1,99 e a consequência de atrair clientes 'que vão chorar' (parafraseado como 'mais insatisfeitos'), sem alteração de número, condição ou sentido."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 185,
+      "trecho_fonte": "tem também, né, o seguro, o veículo, onde o dono também ganha uma pequena parte mensal daquela cota ali, uma cota mensal, enfim, as possibilidades de venda de carro são muitas, tá?",
+      "descricao": "Além dos argumentos padrão listados na Unidade 1 (preço, garantia, laudo cautelar, tanque cheio, IPVA, parcelamento), a fonte descreve que lojas de seminovos também vendem consórcio (dono ganha uma pequena comissão) e seguro do veículo (dono ganha uma cota mensal) como fontes extras de receita/argumento. Nenhuma unidade preserva essa parte.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem usa a Unidade 1 para mapear o que a loja tipicamente oferece (antes de decidir descartar tudo isso em favor da confiança) não fica sabendo que comissão de consórcio e cota de seguro também fazem parte desse conjunto de táticas comerciais comuns do nicho."
+    },
+    {
+      "inicio": 347,
+      "trecho_fonte": "Então você tem que olhar muito a realidade dessas pessoas antes de se comparar com elas",
+      "descricao": "Ao narrar os casos de Thiago TK e Felipe Fera vendendo carro na internet, o professor alerta que a realidade dessas pessoas (oportunidade e viralização pontuais) é diferente da de um lojista comum, recomendando cautela antes de se comparar com elas. Nenhuma unidade preserva esse alerta.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base pode tomar exemplos de sucesso viral como parâmetro replicável para o próprio negócio, sem o alerta do professor de que a situação desses casos não é comparável à de um lojista comum."
+    },
+    {
+      "inicio": 1057,
+      "trecho_fonte": "promessa é comprovação e validação e CTA não tem erro não tem erro tem erro sim",
+      "descricao": "O professor nomeia uma fórmula de anúncio comum no mercado (promessa, comprovação, validação, CTA) e explica que ela falha quando quem a usa não tem autoridade construída, pois o público hoje não acredita mais nesse tipo de discurso vindo de quem não é uma grande autoridade. A Unidade 5 preserva a conclusão geral sobre autoridade, mas nenhuma unidade nomeia essa fórmula específica nem a conecta ao motivo do fracasso.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for diagnosticar por que um anúncio construído nessa fórmula padrão não converte perde a referência nomeada pelo professor, ficando só com a conclusão genérica sobre autoridade já coberta pela Unidade 5."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tarefa 'pesquisar-publico-e-subnicho' não corresponde ao conteúdo, que trata da dinâmica de estoque/giro de vendas de uma loja de seminovos, não de pesquisa de dor/linguagem de público. Um agente buscando 'como pesquisar meu público' seria levado a uma unidade sem relação com essa tarefa.",
+    "Unidade 9: tema 'criatividade-e-angulo' (achar ângulo novo a partir do que já existe) não descreve bem o conteúdo, que é uma decisão sobre focar em confiança versus aceitar cliente de ticket baixo conforme o preço do produto; temas como 'anuncio-negocio-local' ou 'objecoes-e-credibilidade' descrevem melhor o conteúdo e evitariam levar o agente ao lugar errado."
+  ],
+  "material": [],
+  "resumo": "Das 9 unidades, 5 (1, 4, 5, 8, 9) são fielmente lastreadas na fonte, sem alteração de número, condição ou sentido. Três unidades (2, 3, 6) têm parte do corpo sourced de fora da faixa inicio–fim declarada — em grau leve na Unidade 2 (~6s) e em grau material nas Unidades 3 e 6, cujas afirmações centrais (recomendação de remarketing; recomendação de compra do treinamento de VSL) vêm de trechos localizados dezenas a mais de cem segundos além do fim declarado, o que já corresponde a 3 de 9 unidades com faixa (33%), acima do limiar de 10% do veto de fidelidade. A Unidade 7 tem um desvio material por substituir a consequência central do alerta da fonte (acumular uma base de clientes insatisfeitos) por uma leitura mais branda ('recomeçar com uma base nova'). Nenhuma unidade ficou sem o `perecivel: true` exigido. Há duas classificações de tema/tarefa (Unidades 2 e 9) que podem levar um agente ao lugar errado, e três pontos da fonte (consórcio/seguro como argumento adicional, alerta contra comparação com casos virais, e a fórmula \"promessa-comprovação-validação-CTA\") não foram preservados por nenhuma unidade, todos de gravidade menor."
+}

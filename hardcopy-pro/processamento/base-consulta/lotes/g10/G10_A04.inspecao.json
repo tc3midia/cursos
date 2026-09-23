@@ -1,0 +1,62 @@
+{
+  "aula": "G10_A04",
+  "arquivo_sha256": "6067981664b156e230e693b4afbbd3ee38177917fd7d0ad0a8ccf1768e14cbbd",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "5576f283e9439c5b9ec2681d3ee8627d4f0cb140d66f8296197c8f8235f1ead1",
+    "2": "738b404cdd7245e95076bd1c74f72f2c560551042eca64531b1797fd5bf4c056",
+    "3": "6006275f879cfce3c0150fd75bb786fe399da06057ee1f8bdcd910e6d9c6284c",
+    "4": "58b37eef9214855f3f10f17cd83329aa44f9601355bd72e3e2685f08303ab51b"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Um é 9x16 e o outro é 16x9",
+      "explicacao": "A fala nunca nomeia explicitamente qual proporção pertence a qual formato: diz só 'Quanto faz o criativo quanto a VSL, a única coisa que muda é a proporção. Um é 9x16 e o outro é 16x9', seguido de 'Então, o que muda é isso aqui, olha só. Entende?', o que sugere que o professor está apontando para algo na tela para fazer a distinção — recurso visual que a transcrição não captura. A unidade assume que 'um' = criativo (9x16) e 'o outro' = VSL (16x9), leitura razoável pela ordem em que os formatos foram citados e pela convenção do curso (criativo vertical, VSL em player horizontal), mas sem confirmação verbal inequívoca; 'confianca: alta' poderia ser 'media' com uma nota registrando essa dependência de ordem/tela. Além disso, o campo fim=140 corta a frase final usada no corpo ('Mas a parte teórica e o aprendizado aqui é a mesma coisa', 139.9–145.44s), que só começa dentro da faixa declarada e termina bem depois dela. Efeito prático: se a atribuição de proporção estiver invertida, quem seguir a unidade cegamente pode exportar o formato errado; a leitura mais provável está correta, mas o risco não é nulo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu explico em um outro treinamento que eu tenho, que é somente sobre criativos",
+      "explicacao": "A unidade reproduz fielmente que as guias de áudio, texto, sticker, efeitos, transições e filtros do CapCut são explicadas em outro treinamento do professor, e que esta aula cobre só a parte de áudio. Classificação como 'limite' e menção ao produto irmão como oferta (não como orientação) seguem a regra do curso para esse tipo de trecho. Faixa (92–107) bate com o segmento (92.34–106.44)."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa mídia é onde guardamos os nossos conteúdos",
+      "explicacao": "A unidade descreve corretamente, sem inventar passo de clique, a área de 'mídia' do CapCut usada para thumbnail e áudio, e registra como 'limite' que a edição completa (áudio + vídeo) fica para a aula seguinte — o que bate com 'Então na próxima aula eu vou estar te mostrando... toda a edição embasada no áudio junto com o cap cut e o vídeo'. Não há passo de procedimento inventado a partir da imagem. Faixa (150–175) cobre integralmente o trecho usado (150.1–174.48)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tem a malandragem De ficar cortando as músicas E fazer todo o sistema Para que o seu lead Sinta alguma coisa com isso E que você não tome ban",
+      "explicacao": "A unidade reflete com fidelidade que usar a música comercial (o professor cita o exemplo do Pink Floyd) sem tratamento leva a tomar ban, e que a 'malandragem' de cortar a música ao longo do vídeo evita o bloqueio e ainda gera conexão emocional com o lead. Corretamente marcada como técnica que contorna política/direito de terceiros, com 'perecivel: true' e 'nota' no formato exigido, e com 'confianca: media' justificada pelo fato de o próprio professor adiar os detalhes para a aula seguinte. Faixa (174–200) cobre o trecho relevante (174.48–199.8)."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "O arquivo cobre bem a aula G10_A04: as quatro unidades são lastreadas na fala, nenhuma é sem-lastro ou está fora de faixa, e não há omissão relevante de conteúdo didático (o trecho inicial é testemunho pessoal/motivação, que não conta como omissão). O ponto mais frágil é a unidade 1, que atribui proporção (9x16/16x9) e duração a cada formato (criativo vs VSL) seguindo a ordem da fala e convenção do curso, sem confirmação verbal 100% inequívoca (parece haver apontamento de tela), e cujo campo fim corta ligeiramente a frase final sobre a teoria ser igual para os dois formatos — gravidade menor. As unidades 2 e 3 registram corretamente os limites da aula (guias do CapCut fora do escopo, interface de mídia sem passos descritos na fala) e a unidade 4 trata com cuidado a técnica de cortar música para evitar bloqueio por direito autoral, com nota, perecibilidade e confiança adequadas. Não há material de apoio nesta aula, então a seção de divergências fala/material não se aplica, e não foram encontrados problemas de contrato."
+}

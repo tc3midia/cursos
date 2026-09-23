@@ -1,0 +1,174 @@
+{
+  "aula": "G02_A09",
+  "arquivo_sha256": "59f8feb87bff71f7e7ce58f2c31821633fd66ce6c7305a65777374a3a633ab2d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [4]; as demais mantêm a evidência da inspeção integral do arquivo 55273c7e11fb, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    4
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "hashes_unidades": {
+    "1": "d070f98cdd7f2ccb7bc8143aae756b9d360243a08775bb2429101edac616e84f",
+    "2": "a20aadd479838d439c51bd310e9200bf743542c6072359bb94a47309db4dda85",
+    "3": "8b67b2a83fb623350acb1138526ba5c84830a5f93dafedbfb1c2833521a2cc1f",
+    "4": "576c5bb1a9a37ff201148149ecc1186e7bb04d723990a6c9309d551827a6355a",
+    "5": "ea1753c8286e7d5178305fe584bbec72ab7916f7e194419fd86f1626291d392f",
+    "6": "cd3795f936cf3cb60da5cfd09d970d93e9969b8bce65d1344f4e8be0b6f4fd06",
+    "7": "8bb8eb62a021dfb24615a45270f3aab7cc2e218aba3087cec2148406b3683e3f",
+    "8": "7555834d838f5d8d69878265b14dbfe75615ecfcbfc08034c07577458d1d1df4",
+    "9": "5aaa291e748e1bbe4bf7dec083729b0481a555139fc39ee4d501fcaf73345a40",
+    "10": "86da451b8fdda4fa2028d897dea310d9cf54e6c5f11e4cc06f1a0b2651bfd5cd",
+    "11": "e534d586298895dd79d84c49dd63a5bf2b3ccb369cca8c943dbe82d701b3f7a4",
+    "12": "54ee60d2e8b0c814110dc4e357b69fbf02e99a25e11666eb953ddbf04a91d437",
+    "13": "b928dd0c772b7dbdfd0dd4aaf2476fb81a5f4a215a184ace7ffab3879ee726e5"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "mas muito bem construída mesmo",
+      "explicacao": "A definição de pitch (\"fala pela primeira vez o valor do seu produto\") e a exigência de construção cuidadosa estão na fonte, dentro da faixa 27–50. A cláusula \"e não apenas cumprida como formalidade\" é acréscimo de redação que a fala não faz. Não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que é o lead, o início, o plot twist, que é o mecanismo único",
+      "explicacao": "Os três pilares e a associação do plot twist ao mecanismo único estão na fonte, na faixa 51–68. \"A revelação\" vem da definição do vocabulário do curso e não muda o sentido. O tema `kishotenketsu` para uma lista de três pilares é discutível, mas defensável."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não vamos de conversinha",
+      "explicacao": "A crítica à pergunta \"quanto você acha que vale\", o motivo (todo mundo já está acostumado, não toca a emoção) e a alternativa (início forte, plot twist forte, depois o valor) batem com a fonte. A posição aparece atribuída (\"Para ele\"). Sem desvio."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porém se for acima de 30 dias",
+      "explicacao": "A falha G02_A09-F1 está resolvida. O passo 7 não remete mais à aula (não há \"condições da aula\" no corpo) e traz a condição por extenso: mencionar a garantia só se for acima de 30 dias, e não colocar se não for. Isso bate com a fonte: \"Porém se for acima de 30 dias\", \"Se não for acima de 30 dias / Não coloque\", \"Eu acho descaramento / Você colocar garantia de 7 dias\". A ressalva \"E muito cuidado ao colocar\" e \"Tem que ser algo muito natural\" também está na fonte. Toda essa fala fica entre 7:57 e 9:01 (cerca de 477–541 s), dentro da faixa 126–651, e a evidência \"Já joga o valor em cima / Sem desconto, sem nada\" está a cerca de 127–131 s, também dentro. A alteração não criou problema novo. Os passos 1 a 6 e 8 seguem a ordem da fala (valor, camada 1, camada 2, ultra, cinco motivos, comparação, garantia, ferida) e não trazem número nem condição alheios à fonte. \"Cinco motivos\" corresponde a \"os 5 motivos pro lead comprar\". O \"no fecho\" do passo 8 é só posição: a ferida é o último elemento antes da recapitulação em 10:22. O corpo tem 9 linhas (limite 15 para estrutura), sem timestamp, sem grafia deformada e sem sequência de 25 palavras copiada da fonte. Fica fora do passo o caso dos 30 dias exatos (\"Agora se for uma garantia de 30, 60 dias / Beleza\", seguido de \"Não indico colocar garantia de 30 dias / Mas se for / Coloque\"). Ele continua tratado na `nota` da unidade 10, como a lista de falhas previa, e não é defeito da unidade 4. Quem consultar a unidade 4 sozinho já sabe quando mencionar a garantia e que abaixo de 30 dias não se menciona."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "um treinamento principal com foco no mecanismo único",
+      "explicacao": "Treinamento principal focado no mecanismo único, exemplo da capsaicina e acesso ao módulo seguinte (encontros semanais) estão na fonte. Faixa correta."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o seu telefone, o seu whatsapp",
+      "explicacao": "Encontros semanais, checklist (quilos perdidos, próxima etapa) e suporte do mentor/médico/criador pelo WhatsApp estão na fonte, assim como o comentário de que isso é muito forte. A nota sobre PLR sem definição na aula é correta."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não vem com PLR, não vem com",
+      "explicacao": "A camada ultra vale o investimento todo. Sem PLR e sem grupo de WhatsApp. Análise do expert, live pessoal por Zoom ou nova temporada, com cuidado porque \"se você fizer um trem ruim, acabou\". Tudo está na fonte. A nota sobre o WhatsApp na camada 2 versus a proibição na ultra é fiel. Falta apenas o \"vai nessas duas aqui, que é sucesso\" (ver omissões)."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que de 100 pessoas que comprar esse produto de você",
+      "explicacao": "Os números (20 minutos, 129 ou 149 reais, 3 em 100, conversão baixa, desejo alto, \"sem medo\") estão na fonte. Estão tratados como exemplo, perecíveis, com condição de estimativa do professor, e o \"eu te garanto\" foi registrado na nota. \"Cerca de\" suaviza levemente o \"3 vão fazer\". Sem efeito no uso."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Porém, essa é a forma de forçar mais sem forçação possível da pessoa comprar o seu produto.",
+      "explicacao": "Comparação, postura tranquila, tempo como o que falta ao lead e a admissão de que \"claro que interessa\" estão na fonte. Os números e argumentos da copy de exemplo (8–10 quilos, receita de R$99, 20 quilos em 10 dias) ficaram de fora, o que é correto. A fala \"forçar mais sem forçação possível\" está truncada. A unidade a leu como \"forçar menos\", uma interpretação plausível que a nota cobre só em parte. Não muda a ação."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Não indico colocar garantia de 30 dias",
+      "explicacao": "A regra central (mencionar só acima de 30 dias, 7 dias é descaramento, cuidado porque lembra que é compra) está na fonte. A fonte se contradiz sobre 30 dias exatos: \"acima de 30 dias\" e \"30, 60 dias, beleza\" convivem com \"Não indico colocar garantia de 30 dias. Mas se for, coloque\". O corpo diz \"acima de 30\" e também que \"30 ou 60 dias já é aceitável\", e deixa a ressalva \"não indico\" só na nota. A incerteza está preservada em `nota` e `confianca: media`, então pode passar. Quem lê só o corpo não vê que o caso de 30 dias exatos é incerto. A faixa 473–570 avança sobre o início do toque na ferida (unidade 11), mas o conteúdo da garantia está dentro dela."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então não vai ter o problema de reembolso",
+      "explicacao": "Tocar a ferida de forma coerente sem assustar, o exemplo da separação e a exigência de estar 100% emocional estão na fonte. A fonte diz \"não vai ter o problema de reembolso / com aquele lead\", e o corpo suaviza para \"diminui\". Isso é mais cauteloso, atribuído (\"Segundo ele\"), e não muda a orientação. As expressões que a aula não define ficaram na nota."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Quando você fala bônus, vem a ligação de compra e ativa o modo sinestésico da pessoa.",
+      "explicacao": "Bônus 1, 2 e ultra como termos didáticos, dizer \"incluído\", separar em temporadas ou treinamentos, inventar o nome e o motivo (liga à compra, a pessoa passa a pensar) estão na fonte. A nota sobre o professor mandar refazer sem perguntar também está na fonte. Faixa correta."
+    },
+    {
+      "numero": 13,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Depois a gente explica o plot twist",
+      "explicacao": "A próxima aula trará a VSL criada pelo professor, e isso está na fonte (faixa correta). Mas o corpo diz também que a explicação detalhada do plot twist fica \"para outra aula\". A fonte só diz \"Depois a gente explica o plot twist\", sem dizer em que aula nem que seria detalhada. Essa fala está aos 124 s, fora da faixa 743–758 da unidade. O agente pode informar ao aluno uma remissão que a fonte não faz."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 340.88,
+      "trecho_fonte": "Aqui, você vai falar sobre a consulta pessoal",
+      "descricao": "Ao introduzir os \"5 motivos\" para o lead comprar, o professor só dá exemplos do tipo de argumento: a consulta pessoal que custa mais de 10 mil reais, \"somente a minha primeira temporada vai conseguir te guiar nesse problema\" e a segunda temporada como o que muda o rumo. As unidades 4 e 9 registram só que existem \"cinco motivos\" e não dizem que tipo de argumento o professor exemplifica (valor de mercado do que a camada ultra entrega e o papel das temporadas). A fonte não lista os cinco motivos. O \"10 mil reais\" é número de copy de exemplo e não deve virar régua.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente sabe que o pitch tem cinco motivos, mas não vê a natureza do argumento que o professor dá como exemplo. Pode inventar os motivos ou pular essa etapa."
+    },
+    {
+      "inicio": 324.98,
+      "trecho_fonte": "Então, vai nessas duas aqui, que é sucesso,",
+      "descricao": "Depois de citar análise do expert, live pessoal e nova temporada (esta com o aviso de que ficando ruim \"acabou\"), o professor diz \"vai nessas duas aqui, que é sucesso\". Ele indica preferência por duas das opções. A referência de \"duas\" é ambígua na transcrição, provavelmente análise e live. A unidade 7 apresenta as três opções lado a lado e só carrega o aviso sobre a temporada.",
+      "gravidade": "menor",
+      "efeito_pratico": "Perde-se a recomendação de preferência entre as opções da camada ultra. A ambiguidade da fala precisaria ir em `nota`."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4, passo 7: \"Garantia, só nas condições da aula\" depende de referência que ficou na aula. A condição (só acima de 30 dias) está apenas na unidade 10. Quem consulta a estrutura sozinho não sabe qual é a condição.",
+    "Unidades 5, 6 e 7: os títulos usam \"Bônus 1\", \"Bônus 2\" e \"Bônus ultra\" e nenhuma `condicoes` remete à proibição da unidade 12 (na fala de venda não se usa \"bônus\", diz-se \"incluído\"). Quem chega por essas unidades pode levar o termo para a VSL. Ajuste menor.",
+    "`contexto`, 4ª frase: diz que a aula assume que o aluno já viu lead, plot twist e mecanismo único \"nos episódios anteriores\" e, na mesma frase, que a explicação do plot twist fica para depois. A fala não diz que foi visto antes. Só diz \"Depois a gente explica o plot twist\". As duas afirmações se contradizem e a primeira não tem lastro.",
+    "Unidade 10: `inicio`–`fim` (473–570) sobrepõe a unidade 11 (542–622) por cerca de 28 s. O conteúdo da garantia termina por volta de 541 s. Não chega a ser faixa-errada, mas a faixa é mais larga que o conteúdo."
+  ],
+  "material": [],
+  "resumo": "Conferência focal só da unidade 4. A falha G02_A09-F1 está resolvida: o passo 7 traz a condição da garantia (só se for acima de 30 dias; abaixo disso, não mencionar) e não remete mais à aula. O passo tem lastro na fala entre 7:57 e 9:01, dentro da faixa 126–651, e a unidade continua lastreada nos demais passos. Não surgiu problema novo, e a lista de falhas não tinha item de cobertura, então não há omissões a registrar. O resultado do validador (versão 2, no máximo 15 linhas) é do script e não foi conferido aqui."
+}

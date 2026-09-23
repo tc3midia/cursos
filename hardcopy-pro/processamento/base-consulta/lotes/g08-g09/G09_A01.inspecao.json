@@ -1,0 +1,32 @@
+{
+  "aula": "G09_A01",
+  "arquivo_sha256": "a0e4460d883d47914c205e9a49648259100848ef745411ddd143974446a7f8b3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1
+  ],
+  "unidades_no_arquivo": [
+    1
+  ],
+  "hashes_unidades": {
+    "1": "69b2cfcb0efdb3bcb6edc734db67865031f9e7ce0dfb36527a57b657370fbcd6"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "você precisa de uma página validada e de um produto validado",
+      "explicacao": "A fonte impõe, além de ter comprado o Hard Copy e saber criar copy/VSL/página que não sejam ruins (38.8–50.74s), uma condição adicional e distinta na sequência seguinte (50.74–74.64s): 'você precisa de uma página validada e de um produto validado'. O corpo da unidade resume tudo isso apenas como 'já ter o treinamento Hard Copy e uma copy, VSL e página de vendas validadas', sem mencionar a exigência de um 'produto validado' — conceito distinto de página/copy, ligado a validação de oferta (MVP) ensinada em outra parte do curso. Quem consultar a unidade pode concluir que basta ter copy, VSL e página prontas para aproveitar o módulo de criativos, sem saber que o professor também exige a oferta/produto já validado, o que muda a avaliação de prontidão para aplicar o conteúdo."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "O arquivo tem uma única unidade (tipo `limite`, tema `curso-e-recursos`), coerente com o fato de a aula ser um vídeo de boas-vindas sem conteúdo técnico. A classificação de tipo, tema, tarefas vazias e `perecivel: true` está correta, e a faixa 38–153s está dentro dos limites da transcrição. Há um desvio material: a fonte lista 'página validada' e 'produto validado' como duas condições distintas, mas o corpo funde tudo em 'copy, VSL e página de vendas validadas', omitindo a exigência específica de produto validado. Fora esse ponto, não foram encontradas omissões, problemas de perecibilidade, de contrato ou de material adicionais; os resíduos de silêncio ('Hard Sounds.' no início e 'E aí' no fim) e os trechos motivacionais/testemunhais foram corretamente deixados de fora."
+}

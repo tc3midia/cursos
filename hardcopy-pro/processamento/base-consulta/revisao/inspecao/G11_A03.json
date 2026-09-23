@@ -1,0 +1,177 @@
+{
+  "aula": "G11_A03",
+  "arquivo_sha256": "d25c933d59205eadd62f4612a7150ee728918484c21ba3a00cfe01c48ace4ec4",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "hashes_unidades": {
+    "1": "c2539d014085fbe70271a7dea984ac09d3fce79e82dcc30e3610099d22795285",
+    "2": "87a8ca5c3fe666722dc2e3a21b320aeb666a5ab0fe27a74c26a696d3ad901b34",
+    "3": "cbfd99032b5a7afeb5be0cf91a7ee1ec8df160b3e950fca49cb70b074d5fc9c3",
+    "4": "d56e960881439bb920d5959461e42d2e092ba137b74f2eeec034ce6ac3eea0ba",
+    "5": "a381ff858153b902ab399e40e305af2831361a55f6f75e7b2ce8be57c1523583",
+    "6": "95ec361bf8d01eb8835db0a0bd85666d168de1c4c7dc7eab7672410fcbe313ca",
+    "7": "5f47e6c61245228731816b5b2cbd3951f5a7529f7499e3cc2e0f9b6e2ba02ac3",
+    "8": "08e31ce82ddfbc6ee1b0cf19b17cdd693f6344f4dc284c10ac4fda65280b1c22",
+    "9": "5d3c139479d8c51adcca41ba92913e9401e9ff0ef3ff0590d4539ca24b7435f5",
+    "10": "f0d8363dfa4f0b10c28d4b10e848473780d9e5881912e0c7e7290cadb07653cf",
+    "11": "d4c1723b2aed42ddd926cf519e88b7b51615ae67dd6313ff38d13a46ca8e4616",
+    "12": "24294f04fb97cd6f5d33a8eafe4cfe936015f22a5b2e5926789a43bf7b759ea5",
+    "13": "8e7de3e61b7e23174bce521a6fb263884f5ec57b4f29b136f746ac065be5b61a",
+    "14": "ad88105acf61be34fcc51307d1dddfc11e891dd9854e4a0ff835af9d2f2361c1"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "nessa aula eu não vou te ensinar como criar cópia de anúncio",
+      "explicacao": "O corpo reproduz fielmente o que a fala diz sobre o Hard Ads ser o treinamento de copy de anúncio incluído no Hardcopy Pro, cobrindo do emagrecimento ao cabelo, e sobre os tópicos (hook, variação, três atos) que ele ensina. Faixa 25–126 contém integralmente o trecho citado, sem extrapolação."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu preciso ter um bom gancho no início, nos três primeiros segundos",
+      "explicacao": "Os três passos (gancho nos 3 primeiros segundos, desenvolvimento conectando história diferente ao produto, CTA gerando dúvida para 'Saiba mais') seguem a ordem exata da fala dentro da faixa 136–181, sem número ou condição alterada."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "aquele agente virtual que a gente criou na aula passada",
+      "explicacao": "A fala, dentro da faixa 248–263, só diz que o agente foi criado 'na aula passada'; não afirma que ele foi 'montado sobre o ChatGPT'. Essa informação é inferida de pistas espalhadas pela aula (a expressão 'chat de PT' usada para o mesmo agente e o teste posterior em aba anônima do ChatGPT), mas não há uma frase que afirme isso diretamente, nem `nota` registrando a inferência, nem rebaixamento de `confianca` (ficou 'alta'). Quem consultar a unidade pode tomar como fato confirmado algo que é dedução contextual; a mesma afirmação se repete no `contexto` da aula."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente briga literalmente com o chat de PT",
+      "explicacao": "O procedimento (ler frase a frase, marcar o fraco/genérico, devolver correção com exemplo, pedir nova versão) resume com fidelidade a sequência de avaliação e correção mostrada entre 273–369, incluindo o padrão 'normalmente na primeira vez ele não dá um bom CTA' citado quase literalmente."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Meus anúncios não mencionam nome de produto",
+      "explicacao": "A unidade atribui corretamente a regra aos anúncios do próprio professor ('Os anúncios do professor...'), sem transformá-la em lei universal do mercado, e preserva a alternativa dada na fala (mencionar o que o lead quer em vez do nome do produto)."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque pode ser o melhor agente do mundo",
+      "explicacao": "O procedimento (copiar prompt, abrir aba anônima do ChatGPT, comparar resultado) está bem lastreado na faixa 536–566. Porém a frase final do corpo ('o professor usa para reforçar a importância de treinar o agente') apoia-se também no raciocínio dado logo antes da faixa declarada ('Porque pode ser o melhor agente do mundo, se você não treinar ele... ele vai te entregar um anúncio ruim', por volta de 502–526s), fora do inicio=536. O resultado pior do teste, dentro da faixa, já sustenta a conclusão, então o efeito prático é pequeno."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente faz um teste de pelo menos 3 anúncios",
+      "explicacao": "A unidade preserva corretamente que o número é uma prática das 'operações do Hard Copy' ('aqui nas operações da hardcopy'), registrando isso em `condicoes` em vez de apresentar como regra fixa de mercado."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu preciso que ela fique em aberto até o final do anúncio",
+      "explicacao": "A instrução de deixar a pergunta/afirmação de abertura sem resposta até o final, para manter o lead curioso, corresponde literalmente à faixa 940–954."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente vai jogar pra cá, vai dar um CTRL V",
+      "explicacao": "A decisão (quando a IA insiste no mesmo erro após correção explícita, editar manualmente) reflete com fidelidade a cena em que o professor desiste do prompt e edita o texto colado à mão, dentro da faixa 961–986."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí agora ele vai criar algo padronizado do mercado",
+      "explicacao": "A divisão em três anúncios (narrativa, mecanismo único, convite) reproduz quase literalmente a fala do professor dentro da faixa 1207–1257 ('Temos dois bons anúncios aqui, um anúncio de narrativa, outro anúncio de mecanismo único... agora a gente vai fazer um de convite'). O detalhe 'no padrão comum do mercado' aplicado ao terceiro anúncio, porém, só aparece na fala em 'E aí agora ele vai criar algo padronizado do mercado', em torno de 00:21:28 (~1289s), depois do fim=1257 declarado."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "como se um médico estivesse explicando para a sua paciente",
+      "explicacao": "A instrução de pedir a versão em primeira pessoa como autoridade (médico) e de enxugar o texto está inteiramente contida na faixa 1323–1352 ('E vamos enxugar esse Ads para melhorar e finalizar com um bom CTA')."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "De maneira alguma você faça com que a inteligência artificial faça tudo pra você",
+      "explicacao": "O corpo preserva com fidelidade a regra (IA como extensão, nunca substituta) e a ressalva do professor de que a IA 'ainda não tem esse poder absoluto', devidamente registrada como condição ligada ao momento da gravação em `condicoes`."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "na próxima aula eu vou te mostrar como que você vai criar a abertura desses anúncios",
+      "explicacao": "O limite reproduz exatamente o adiamento anunciado pelo professor para a aula seguinte, dentro da faixa 1444–1453."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Chamamos isso de teste de hook",
+      "explicacao": "A definição de 'teste de hook' como variação de abertura sobre um anúncio já validado corresponde literalmente à fala dentro da faixa 1453–1467."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 457,
+      "trecho_fonte": "vamos fazer algo que faça o lead botar a mão na cabeça e pensar puta que pariu nunca pensei nisso",
+      "descricao": "O professor define o critério de qualidade que usa para julgar se a revelação/insight de um anúncio é forte: o lead deve reagir com surpresa, do tipo 'nunca pensei nisso'. Nenhuma unidade preserva esse critério de avaliação.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base não tem o parâmetro explícito que o professor usa para separar um plot twist fraco de um forte, podendo aceitar como boa uma revelação que não produz esse efeito de surpresa no lead."
+    },
+    {
+      "inicio": 1063,
+      "trecho_fonte": "Dê uma explicação racional para ela perder a fome Porém, não conte o porquê",
+      "descricao": "Ao editar manualmente o anúncio, o professor ensina a técnica de dar uma explicação de aparência racional para o efeito do produto, sem revelar o verdadeiro mecanismo, para sustentar a curiosidade do lead ao longo do anúncio. Isso é diferente e mais específico do que 'deixar a pergunta em aberto até o final' (já coberto pela unidade 8): aqui a orientação é sobre o corpo do anúncio, não sobre o CTA.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem essa unidade, quem escreve o anúncio pode revelar o mecanismo real cedo demais no corpo do texto, mesmo seguindo a regra de deixar a pergunta do CTA em aberto, enfraquecendo a curiosidade que o professor busca construir."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "O arquivo está bem lastreado: as 14 unidades têm faixas de tempo e evidências literais fiéis ao que a fala diz, sem números de caso virando regra geral nem copy de exemplo tratada como fato. O único desvio comprovado é a Unidade 3, que afirma sem nota que o agente de IA foi 'montado sobre o ChatGPT', detalhe inferido do contexto e não dito diretamente na fala (repetido também no `contexto`). Duas outras unidades (6 e 10) apoiam um detalhe do corpo em conteúdo poucos segundos fora do inicio/fim declarado, com impacto pequeno. Localizei duas omissões de gravidade menor — o critério de reação do lead ('nunca pensei nisso') para avaliar a força do plot twist, e a técnica de dar uma explicação racional sem revelar o motivo real — nenhuma delas coberta por unidade existente."
+}

@@ -1,0 +1,52 @@
+{
+  "aula": "G10_A03",
+  "arquivo_sha256": "aa5bd7460a21311c737edceb4c0262e37f43b4dc0b3bc2c880b0c693dfae1472",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "bbfc331c70fe20c47ecca3a25291dd9d8c092159d1bf20fe219aa37e52c8f6c1",
+    "2": "a64c17fc61c50e3af3f88d7a3aa27b3db7cfe6906d54ad58f18398d7fb9be4d4",
+    "3": "e216e2907143799ae7e42f86d04463508ecb77bff84681afad411732467f64b4"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Cortando essa música em pequenas partes, a gente vai fazer isso na prática",
+      "explicacao": "A orientação de cortar a música em pequenas partes para evitar que o Facebook identifique a faixa e bloqueie o anúncio por direito autoral está dita ao longo de 00:00:30–00:01:49 (ex.: 'ele vai tomar copyright ele vai tomar ban', 'o Facebook vai bloquear o seu anúncio', 'de uma forma que o Facebook não vai conseguir identificar isso'), tudo dentro da faixa declarada (30–109.66). A evidência bate literalmente com a fonte e a nota de contorno de política está no formato exigido, com perecivel:true e plataforma meta-ads coerentes com a menção explícita e repetida ao Facebook."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "é só pra não deixar a voz no ar",
+      "explicacao": "O núcleo da unidade — não tocar a música inteira porque isso mata o sentimentalismo e não faz o lead comprar — está de fato em 00:01:59–00:02:15 ('Todas as vezes que utilizarmos uma música... Isso aí não vai trazer o sentimento... Isso vai fazer com que o lead tome sono'), dentro da faixa declarada (119.58–135.82), e a evidência citada bate certinho com esse trecho. Mas a frase do corpo 'como música de fundo genérica só para não deixar a voz no ar' vem de um trecho bem anterior, em 00:01:13.820–00:01:24.480 (~73.8–84.5s), fora da faixa 119.58–135.82 informada. Quem for conferir essa frase específica pela faixa declarada não vai encontrá-la ali; precisa procurar cerca de 35–45s antes do início marcado. O efeito prático é limitado porque a regra central segue sustentada dentro do intervalo, mas a citação dessa frase junto ao intervalo errado dificulta a verificação exata desse detalhe."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas primeiro eu vou te mostrar toda a parte teórica disso",
+      "explicacao": "A fala confirma que esta aula traz só a parte teórica ('Mas primeiro eu vou te mostrar toda a parte teórica disso, pra você entender e a gente jogar tudo na prática') e que os cortes práticos e a construção do sentimentalismo ficam para a próxima aula ('Então na próxima aula eu vou estar te mostrando como que a gente vai fazer de fato isso, com os cortes e a parte que vamos fazer o sentimentalismo de tudo isso'). Ambos os trechos, e a evidência citada, estão dentro da faixa declarada (109.66–146.28)."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "As três unidades desta aula curta do Hard Sounds cobrem de forma fiel o conteúdo da fala: a regra de cortar a música em pequenas partes para evitar bloqueio por direito autoral (com nota de contorno de política corretamente registrada e perecivel:true), a regra sobre os efeitos negativos de tocar a faixa inteira como fundo, e o limite que declara que só a teoria foi dada nesta aula, ficando a prática para a próxima. A unidade 2 tem uma imprecisão de faixa: parte do seu corpo cita uma frase (\"não deixar a voz no ar\") que está no vídeo bem antes do intervalo declarado, embora a afirmação central da unidade esteja corretamente sustentada dentro do intervalo informado. Não foram encontradas omissões relevantes, perecibilidade mal marcada, nem itens de contrato ou de material a apontar; o resíduo final \"Obrigado.\" foi corretamente deixado de fora das unidades."
+}

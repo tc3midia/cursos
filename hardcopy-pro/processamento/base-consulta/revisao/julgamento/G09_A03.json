@@ -1,0 +1,22 @@
+{
+  "aula": "G09_A03",
+  "arquivo_sha256": "08f8adc93f06f09c44d3319932d5a7a9efe641c6a958d4c54e30e676293db805",
+  "inspecao_sha256": "0d901f9964e4a3a1708968e1eaa37d60539fa8f86f6405b8b06338fd70bc3825",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Conferido na unidade alterada: evidência literal de 16 palavras com a grafia da transcrição (\"Eleven Labs\") e dentro da faixa 30–112.62; grafia adotada \"ElevenLabs\" no título, corpo e condições; corpo com 4 linhas e lista numerada de 3 partes (tipo `estrutura` satisfeito); `versao` 2; `condicoes` não nulo.",
+  "fidelidade": "G09_A03-F1 resolvida pelo critério de aceite. O inspetor lastreia a unidade 1 com trecho literal (~30s), não listado em `citacoes_nao_literais`, e confirma que o passo 2 apresenta o ElevenLabs como condicionado (voz que não seja a própria; senão, voz própria), que a linha final reproduz o enquadramento de duas ferramentas mais uma opcional e que a frase sobre o professor alternar entre a própria voz e a do ElevenLabs tem lastro em ~42s (também confirmada na unidade 3). A formulação posterior da fala (\"são as três ferramentas\", ~2:07) ficou preservada em `nota` sem contradizer o corpo; como a substância (ElevenLabs opcional) não está em dúvida e as duas formulações são compatíveis, `confianca: alta` é defensável. Ressalva sobre a evidência: o item acumulado em `omissoes` descreve a unidade 1 pré-correção (\"três passos fixos e ordenados\"); a versão atual contém a moldura que ele acusa faltar. Apontamento desatualizado, sem efeito no veredito.",
+  "cobertura": "A única omissão apontada (gravidade menor) foi absorvida pela correção da unidade 1. Nenhuma omissão nova localizada na fonte. Unidades 2–6 mantêm a evidência da inspeção integral, com hash inalterado.",
+  "perecibilidade": "Unidade 1 com `perecivel: true` e plataformas específicas (canva, elevenlabs, capcut), coerente com o conteúdo. Inspetor sem apontamento. Demais unidades intactas, fora do escopo desta conferência.",
+  "aplicabilidade": "A unidade 1 se sustenta sozinha: sequência Canva → locução (própria voz ou ElevenLabs, com a condição explícita no corpo e em `condicoes`) → CapCut, sem referência que dependa da aula. Tipo `estrutura`, tema `edicao-de-video`, tarefas e plataformas levam o agente ao lugar certo. A `nota` traz \"por volta de 2:07\", marcador de tempo que um agente sem a aula não usa, mas que não muda a leitura nem a decisão (ajuste menor).",
+  "falhas": [],
+  "ajustes_menores": [
+    "Contexto, frase 2: ainda descreve a ordem de uso como 'gravar a locução no ElevenLabs', sem a opcionalidade que a unidade 1 agora registra. Alinhar ao enquadramento (locução com a própria voz ou, opcionalmente, com o ElevenLabs). Já era item opcional na lista anterior; não abre ciclo.",
+    "Unidade 1, `nota`: 'por volta de 2:07' é marcador de tempo sem uso para quem consulta sem a aula. Trocar por 'mais adiante na aula' ou equivalente. Sem efeito no uso; o validador não barra timestamp em `nota`."
+  ],
+  "proximo": "Aprovado no ciclo 1; nenhum ciclo adicional. Gravar o julgamento e marcar o status da aula como `revisado`. Os dois ajustes menores ficam a critério da coordenação e não reabrem inspeção. Ao gravar a inspeção desta rodada, atualizar o item acumulado em `omissoes`, que descreve a unidade 1 na versão anterior à correção e hoje está resolvido."
+}

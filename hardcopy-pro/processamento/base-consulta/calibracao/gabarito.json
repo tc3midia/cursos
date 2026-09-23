@@ -1,0 +1,80 @@
+{
+  "nota": "Gabarito dos defeitos plantados pela coordenação em cópias das duas aulas ouro aprovadas no piloto (G02_A05 de piloto/s5-high, G08_A05 de piloto/s5-high/ciclo1). Gerado por calibracao/plantar.py. Não entra em nenhum pacote de modelo. As nove cópias plantadas passam no validador: nenhum dos defeitos é contável por script.",
+  "defeitos": [
+    {
+      "id": "P1",
+      "aula": "G02_A05",
+      "unidade": 2,
+      "classe": "número adulterado",
+      "defeito": "o protagonista ocupa 60% do tempo da VSL na fala; o corpo e a nota passaram a dizer 70%, e a âncora foi trocada por outra literal da mesma faixa, sem o número",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P2",
+      "aula": "G02_A05",
+      "unidade": 7,
+      "classe": "condição suprimida",
+      "defeito": "o contato direto com o lead vale para quem é o expert do produto (\"Se você vende um produto onde você é o expert\"); virou lei para qualquer produto, com `condicoes` nulo",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P3",
+      "aula": "G02_A05",
+      "unidade": 9,
+      "classe": "próprio do curso: número de copy fictícia promovido a régua",
+      "defeito": "unidade `regua` nova com 12 vezes de R$ 9,90 e garantia de 7 dias como referência de oferta; os números são da fala de venda do produto de emagrecimento inventado, e a garantia de 7 dias está na versão que o professor descarta",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P4",
+      "aula": "G02_A05",
+      "unidade": 9,
+      "classe": "omissão",
+      "defeito": "retirada a regra original U009: com os três bônus e o último incrível, não precisa falar de garantia, de quanto vale o produto nem de feedbacks (570–597 s)",
+      "veto_esperado": "cobertura"
+    },
+    {
+      "id": "P5",
+      "aula": "G02_A05",
+      "unidade": 6,
+      "classe": "perecível sem marca",
+      "defeito": "unidade `geral` com preço no corpo (99 reais) e `perecivel: false`; o script não barra porque a plataforma é `geral`",
+      "veto_esperado": "perecibilidade"
+    },
+    {
+      "id": "P6",
+      "aula": "G08_A05",
+      "unidade": 3,
+      "classe": "caso ou estimativa promovidos a régua",
+      "defeito": "\"um videozinho ali de 2, 3 minutos\", dito de passagem como possibilidade de destino, virou `regua` com \"deve ter de 2 a 3 minutos\"; saiu a marca de preferência do professor para este anúncio",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P7",
+      "aula": "G08_A05",
+      "unidade": 12,
+      "classe": "unidade sem lastro",
+      "defeito": "unidade nova com âncora literal verdadeira e conteúdo de conhecimento externo: temperatura de cor abaixo de 3000 K e melatonina; a fonte só tem a copy de exemplo e a frase do professor de que pesquisou",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P8",
+      "aula": "G08_A05",
+      "unidade": 6,
+      "classe": "próprio do curso: passo de tela inventado",
+      "defeito": "procedimento ganhou passos e valores que a fala não nomeia: tocar em Compartilhar e copiar o link, opção sem marca d'água, aba Uploads do Canva, zerar o volume do clipe. A fala só diz \"SnapTik, faz download, download HD\", que vai colocar o abajur no vídeo e tirar a voz",
+      "veto_esperado": "fidelidade"
+    },
+    {
+      "id": "P9",
+      "aula": "G08_A05",
+      "unidade": 10,
+      "classe": "próprio do curso: grafia deformada promovida a outro conceito",
+      "defeito": "\"Vamos vir em Cetix / Colocar a linha leve em multilingual\" é fala degradada; a unidade passou a tratar Cetix como painel do ElevenLabs e \"linha Leve\" como versão mais rápida do modelo, com `confianca: alta` e sem a nota de incerteza. Grafia fora da tabela do FORMATO, então o script não barra",
+      "veto_esperado": "fidelidade"
+    }
+  ],
+  "conferido_por_script": {
+    "descricao": "Grafia deformada que está na tabela do FORMATO não depende de inspetor nem de juiz. Conferido em 20/09/2026: trocar \"Kishotenketsu\" por \"Kim Shu\" no corpo de G02_A05 U010 faz o validador devolver erro de contrato."
+  }
+}

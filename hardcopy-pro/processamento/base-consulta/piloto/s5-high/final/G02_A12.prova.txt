@@ -1,0 +1,41 @@
+Prova de ferramenta pedida no julgamento da rodada 2 de G02_A12 (falha F3). Tudo abaixo é saída de script, produzida pela coordenação em 20/09/2026.
+
+Causa apurada: a checagem de cópia de 25 palavras comparava texto cru. O Markdown do material (ênfase com asterisco, marcadores de lista) e as marcações de tempo da transcrição quebravam a sequência, e a checagem não disparava. Era erro do pacote compartilhado (hipótese 2 do julgamento da rodada 1), não falta de leitura do material.
+Correção: a comparação passou a ser por sequência de palavras, sem caixa, pontuação, Markdown nem marcação de tempo, a mesma normalização já usada para a âncora. Vale para transcrição e para material.
+Versão do script usada em todos os itens abaixo: base_fcc.py sha256 bd90c4c5f764d1d30f9e38cb0a3a39b6d8e27f8640e2b704b186c8c3a585b5ed
+Material de G02_A12 lido pelo validador: 526 palavras.
+
+1. Teste de sanidade: arquivo da primeira extração (corpos v1 das unidades 6 e 9)
+   arquivo_sha256: 2b92062c2eae9c4573f1751598ba22db6ee6fea45c443bf7d3fee21eb6992e99
+   validador: erros = ["G02_A12: U006: cópia de 25 palavras no corpo", "G02_A12: U009: cópia de 25 palavras no corpo"]; avisos = []
+   maior sequência de palavras idêntica ao material, por unidade (limite do contrato: erro a partir de 25):
+     unidade 1 (versao 1): 17 palavras
+     unidade 2 (versao 1): 14 palavras
+     unidade 3 (versao 1): 14 palavras
+     unidade 4 (versao 1): 19 palavras
+     unidade 5 (versao 1): 7 palavras
+     unidade 6 (versao 1): 30 palavras
+     unidade 7 (versao 1): 21 palavras
+     unidade 8 (versao 1): 24 palavras
+     unidade 9 (versao 1): 49 palavras
+     unidade 10 (versao 1): 8 palavras
+
+2. Arquivo atual, do ciclo 1 (o mesmo arquivo_sha256 julgado na rodada 2)
+   arquivo_sha256: f4b2db2ae43b23907774f3d73c91868f4f8c6d37430f48419da0f283ecc31d4f
+   validador: erros = []; avisos = []
+   maior sequência de palavras idêntica ao material, por unidade (limite do contrato: erro a partir de 25):
+     unidade 1 (versao 1): 17 palavras
+     unidade 2 (versao 1): 14 palavras
+     unidade 3 (versao 1): 14 palavras
+     unidade 4 (versao 1): 19 palavras
+     unidade 5 (versao 1): 7 palavras
+     unidade 6 (versao 2): 8 palavras
+     unidade 7 (versao 1): 21 palavras
+     unidade 8 (versao 1): 24 palavras
+     unidade 9 (versao 2): 6 palavras
+     unidade 10 (versao 1): 8 palavras
+
+3. Teste automatizado que fixa a prova (tests/test_hardcopy.py, test_prova_pedida_pelo_juiz_no_piloto):
+   OK | Ran 1 test in 0.067s
+
+4. Alcance do defeito nas outras aulas do piloto, com o script corrigido: G02_A05, G08_A05 (ciclo 1), G16_A02, G02_A11 e G16_A09 continuam com zero erros de contrato.

@@ -1,0 +1,98 @@
+{
+  "aula": "G08_A07",
+  "arquivo_sha256": "ed2090c4c3729a970335e3a3fa32c625665719ab6fe74c8b5a3cd5e6d850c970",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "77fd07d10ce037bf553830c15d9f3881dd8e2c920ce99f8de93386cf9a1ca717",
+    "2": "849125d06b2b109a7ed772af280ebe7ff4d5690335355e4f23dce5b7445afff9",
+    "3": "982509a5c8917bfafe7c2b006795babf964297c7cb0601de266d7288ff36e708",
+    "4": "5bade7768ee496cfa7ae1bfbc30665c323d83dca0f3a278c2e54909c909c4fbf",
+    "5": "92f08b3a1c6c4aa44e90f3ea4a128aebe52f146044aec019a342649a433c85de",
+    "6": "6e84e562a9fa4c41b5f201a9e0d0ab78065d4667cf59dd913083a56a503ba0e4",
+    "7": "ea7648daf441106b3bf00788e5025fe35c8f523c391e1b5f92a08027fd7ba4d8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É a mesma coisa que você chegar no hospital e falar",
+      "explicacao": "O corpo reflete bem a fala: cuidar do animal é 'a base, é o básico' de um pet shop, e a comparação com pedir bom cuidado num hospital ilustra que é obrigação, não diferencial. Dois pontos menores, sem efeito prático: (a) o tipo 'conceito' é discutível — o conteúdo funciona mais como uma 'regra' de análise de mercado do que como uma definição estruturante; (b) a frase final do corpo ('é o ponto de partida para construir um anúncio com um ângulo diferente') generaliza um pouco além do que essa faixa diz explicitamente, embora seja coerente com o resto da aula."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você não está vendendo para o cachorro, meu amigo, não está vendendo para o cachorro, o cachorro é um ser irracional",
+      "explicacao": "A unidade preserva corretamente a regra de vender para quem decide/cuida (dono, pai), a generalização explícita do próprio professor para pet shop, produto infantil e produto para autismo, o exemplo da arminha de água, e a ressalva de que ele discorda que o cão seja totalmente irracional, mesmo afirmando que só o ser humano é racional biologicamente. Paráfrase fiel, sem números ou condições alterados."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então a gente vai colocar o medo aqui e invalidar todo o mercado em cima desse negócio",
+      "explicacao": "Os quatro passos do corpo (invalidar o mercado gerando medo com imagens de animais maltratados, declarar verdade absoluta, gerar curiosidade com CTA, usar isso para elevar preço) correspondem à sequência narrada na fala. O ponto fraco é de classificação, não de conteúdo: 'plataformas' ficou restrito a 'whatsapp', mas a fala usa o WhatsApp só como exemplo de botão de CTA dentro de uma estrutura de anúncio genérica ('se você criar um anúncio desse, né, com um botão de WhatsApp, provavelmente você vai ter muito retorno... por conta da curiosidade'). A estrutura em si não depende de WhatsApp; ver observação em 'contrato'."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Toque em Saiba Mais",
+      "explicacao": "O exemplo resume fielmente o roteiro fictício escrito ao vivo (crítica ao mercado que só promete cuidado, frase 'algo inimaginável', convite a clicar em 'Saiba Mais' sem revelar a oferta). 'condicoes' deixa claro que é copy de exemplo de um pet shop inventado, evitando que os elementos da copy virem regra, regua ou dado de mercado, como a rubrica exige."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai comprar 140 e vai dar algum presentinho, alguma coisinha que vai ajudar o cara.",
+      "explicacao": "A fala literalmente diz 'você vai comprar 140'; a unidade interpreta como 'cobrar 140' e registra isso em nota — leitura razoável dado o contexto ('vamos colocar que você cobra 100 reais... você vai comprar 140'). Porém a 'confianca' ficou em 'alta', quando essa correção de uma provável falha de transcrição pediria no máximo 'media'. O corpo também acrescenta 'que ajude o cliente no dia a dia com o pet', detalhe que nesta faixa específica não é dito (vem da copy da unidade 4). Nenhum dos dois pontos muda o uso do exemplo, que já é tratado corretamente como hipotético, não como preço de mercado."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É assim que funciona a mente do ser humano",
+      "explicacao": "A definição de 'verdade absoluta' e o mecanismo de crédito para o que vem depois dela no anúncio batem com a fala e com a definição de origem desta mesma aula (G08_A07) usada no vocabulário do curso."
+    },
+    {
+      "numero": 7,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "Elevem multilingual",
+      "explicacao": "O corpo afirma que 'a seleção é feita no que a fala nomeia como modelo Elevem multilingual', mas essa fala ocorre por volta de 00:11:22 (~682s), muito depois do 'fim' declarado da unidade (578s). Dentro da faixa 560–578s só há a escolha de uma voz 'doce, leve, suave' para o nicho 'pai de pet' e a menção a 'Eleven Labs' como ferramenta, sem o nome do modelo. Quem tentar conferir essa frase específica na faixa indicada não vai encontrá-la, o que impede a verificação desse trecho da unidade. Adicionalmente, a instrução central da unidade ('reaproveitar a mesma voz usada num anúncio anterior') depende de um anúncio de aula anterior que não é identificado nesta unidade nem nesta aula, ponto também listado em 'contrato'."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3 (estrutura de anúncio) está com 'plataformas: [\"whatsapp\"]', mas a fala trata o WhatsApp só como exemplo de canal para o botão de CTA dentro de uma estrutura de anúncio geral ('com um botão de WhatsApp, provavelmente você vai ter muito retorno... por conta da curiosidade'). Rotular a unidade como específica de WhatsApp pode levar um agente que busca orientação geral de estrutura de anúncio (Meta Ads, Instagram, TikTok etc.) a não encontrá-la ou a descartá-la por julgar que só vale para WhatsApp — a estrutura (invalidar mercado, verdade absoluta, curiosidade, preço) não depende dessa plataforma.",
+    "Unidade 7 não se sustenta sozinha na parte central da instrução: 'reaproveitar no ElevenLabs a mesma voz usada num anúncio anterior' (evidência: 'eu quero colocar aquela voz que a gente colocou no último anúncio, porque aquela voz é muito gostosa') remete a um anúncio de aula anterior que a fala não identifica além de descrevê-la como 'doce, leve, suave'. Um agente sem a aula não consegue de fato 'reaproveitar' voz nenhuma, só aplicar a descrição qualitativa do tom.",
+    "Unidade 1 está tipada como 'conceito', mas o conteúdo (reconhecer que uma prática do nicho é obrigação básica, não diferencial, para construir ângulo de anúncio) se encaixa igual ou melhor em 'regra'; classificação discutível entre dois valores defensáveis, sem efeito prático isolado."
+  ],
+  "material": [
+    "Esta aula (G08_A07) não tem material de apoio (material_ausente); todas as unidades corretamente usam fonte: 'fala'. Não há divergência fala×material a registrar nesta aula, nem uso indevido de material que não corresponda à aula."
+  ],
+  "resumo": "A extração de G08_A07 está majoritariamente bem lastreada na fala: a distinção entre obrigação e diferencial (U1), o direcionamento da venda ao dono/responsável (U2), a estrutura de invalidar mercado + verdade absoluta + curiosidade + preço (U3), o roteiro de exemplo do anúncio (U4), o exemplo numérico de preço (U5) e a definição de verdade absoluta (U6) correspondem ao que o professor diz, com poucos ajustes menores de redação, confiança ou tipo. O achado mais relevante é a unidade 7: ela cita o modelo 'Elevem multilingual' como se estivesse na faixa 560–578s, mas essa fala só ocorre por volta de 682s, configurando faixa-errada, e ainda depende de uma referência a 'anúncio anterior' que a aula não resolve. A unidade 3 rotula como 'whatsapp' uma estrutura de anúncio que a fala trata como genérica, o que pode direcionar mal quem consulta por plataforma. Percorrida a transcrição do início ao fim (incluindo os trechos de silêncio/loop e a digressão pessoal sobre carros, que não são fonte), não foram encontradas omissões de conteúdo didático relevante nem problemas de perecibilidade além dos já sinalizados; a aula não possui material de apoio a conferir."
+}

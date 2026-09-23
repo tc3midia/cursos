@@ -1,0 +1,167 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G05_A04",
+  "titulo": "Episódio 4 - Sentimentalismo",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de edição de som da trilha Hard Ads, sobre sentimentalismo aplicado à trilha sonora de um anúncio em vídeo.",
+    "O professor diz no início que a gravação original falhou e que a aula foi refeita com a voz dele colocada sobre o vídeo da edição.",
+    "É uma aula de tela: a montagem acontece na linha do tempo do editor, e a fala só descreve parte das ações.",
+    "No fecho, ele resume a lógica emocional da sequência sonora, e essa parte se entende só pela fala.",
+    "Assume que o aluno já tem um anúncio com locução para sonorizar. A aula não nomeia o editor usado nem detalha menus e níveis de volume."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Aula de tela refeita: os cortes exatos ficaram só na imagem",
+      "tipo": "limite",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 50,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor avisa que a gravação original da aula não foi salva e que ele refez a parte de som com a própria voz sobre o vídeo da edição. Grande parte da montagem (onde cortar, onde encaixar cada música e efeito, níveis de volume) foi mostrada só na tela. A transcrição não captura esses pontos exatos, então não use esta aula para reproduzir a montagem quadro a quadro.",
+      "evidencia": "coloquei a minha voz aqui e coloquei o vídeo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Sequência emocional da trilha sonora de um anúncio",
+      "tipo": "estrutura",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 399,
+      "fim": 455,
+      "condicoes": "Exemplo montado pelo professor para um anúncio com fala de jornada pessoal e uma música famosa de banda de rock; é a sequência que ele descreve para esse anúncio, não uma lei.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A transcrição das falas do anúncio de exemplo é ruidosa; a estrutura vem da explicação do professor no fecho da aula.",
+      "proposta_tag": null,
+      "corpo": "1. Começar com energia, usando música forte e conhecida, para chamar a atenção.\n2. Em seguida, explicar essa energia (a fala que dá sentido à abertura).\n3. Depois colocar suspense sobre a dor que o cliente sente.\n4. Logo após, acrescentar mais suspense ainda.\n5. Finalizar com a solução, entrando a música que o público quer ouvir.\nO suspense é usado, segundo o professor, porque o anúncio desafia a pessoa antes de entregar a resposta.",
+      "evidencia": "Começamos com energia Para chamar a atenção, olha só",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Música conhecida: reconhecimento no início e entrega no final",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 437,
+      "fim": 466,
+      "condicoes": "Explicação do professor sobre o anúncio de exemplo com música famosa; é a razão que ele dá para o anúncio funcionar, sem dado de resultado.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Use no anúncio uma música que o público já reconheça. O espectador identifica a música logo no início e, no final, junto da solução, recebe o que queria, que é ouvir a música. Segundo o professor, é isso que torna o anúncio bom de ouvir e de assistir, e é a razão que ele dá para o anúncio de exemplo fazer tanto sucesso.",
+      "evidencia": "No início ela assimila a música do Queen, ela já sabe o que é o Queen.",
+      "versao": 2
+    },
+    {
+      "numero": 4,
+      "titulo": "Plot da música: o trecho onde começa o boom",
+      "tipo": "conceito",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 138,
+      "fim": 148,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O professor aponta o trecho na tela, marcado em laranja, e não nomeia na fala a parte do anúncio à qual o junta.",
+      "proposta_tag": null,
+      "corpo": "O plot da música é o trecho em que começa o boom dela. O professor junta esse trecho a uma parte do anúncio que só aparece na tela; a fala não diz qual é essa parte nem com que finalidade ele faz a junção.",
+      "evidencia": "Laranja, ela é o plot da música",
+      "versao": 2
+    },
+    {
+      "numero": 5,
+      "titulo": "Isolamento vocal para tirar a voz do cantor e fade in ao reentrar",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 299,
+      "fim": 384,
+      "condicoes": "O professor usa um editor que não é nomeado na fala; o recurso de isolamento vocal depende dele.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A aula não diz o nome do editor nem o motivo de remover a voz do cantor além de a música não poder ter a voz dele naquela parte.",
+      "proposta_tag": null,
+      "corpo": "Quando a música usada tem voz de cantor e a parte do anúncio não pode ter essa voz, o professor clica em isolamento vocal e remove a voz só daquele trecho da música. Se ele muda o trecho, coloca a música de novo e o editor refaz o isolamento. Ao reentrar a música, aplica fade in no início.",
+      "evidencia": "Então a gente vai clicar em isolamento vocal",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Clique, distorção no épico e fade no início de um efeito",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 86,
+      "fim": 293,
+      "condicoes": "Preferências de montagem do professor neste anúncio; as posições, os cortes e os volumes exatos ficaram na tela.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Editor não nomeado na fala. A transcrição grafa \"Desforcido\" logo após \"Esse épico aqui, porém\"; a palavra é duvidosa e não foi interpretada no corpo.",
+      "proposta_tag": null,
+      "corpo": "O professor coloca um efeito sonoro de clique no anúncio e mais adiante coloca o clique novamente; as posições ele aponta na tela e a fala não as nomeia.\nSobre o que ele chama de \"esse épico\", aplica modificador de voz com distorção e fala em diminuir o volume, dizendo em seguida que talvez nem precise diminuir.\nTambém pega só o início de um efeito, aplica fade no finalzinho dele e faz a continuação em seguida.",
+      "evidencia": "Como que a gente faz isso? Modificador de voz",
+      "versao": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        3,
+        4,
+        6
+      ],
+      "retiradas": [],
+      "observacoes": "G05_A04-F1 (unidade 3): procede. Reescrevi a abertura do corpo sem \"só\" e sem \"completa\" e sem imperativo de exclusividade. O corpo agora só diz que o espectador reconhece a música no início e que no final, junto da solução, recebe o que queria, que é ouvir a música — o que não contradiz \"E voltamos com a parte do Queen\" (4:19) nem a remoção da voz (\"Mas a música, ela não pode ter a voz do Fred Mercury\"). Mantive a atribuição ao professor e ao anúncio de exemplo, em `condicoes` e no corpo. Ajustei o título, que trazia \"entregue no fim\" e podia ser lido como exclusividade. Como o corpo se apoia também em \"E aí finalizamos com a solução, com a música\" (07:17) e em \"Por isso que faz tanto sucesso\" (07:44), estendi a faixa de 447–465 para 437–466; a evidência continua literal e dentro dela. Tipo mantido em `regra`, como a falha permite. Versão vai a 2.\n\nG05_A04-F2 (unidade 4): procede. Mantive a definição lastreada (\"Ela é onde começa o boom da música\") e retirei \"o ponto de maior impacto\", que não está na aula. A segunda frase agora diz que o professor junta esse trecho a uma parte do anúncio que só aparece na tela e que a fala não diz qual nem com que finalidade — a fonte só traz \"Então, se a gente juntar ela / Com essa parte, olha como que fica\". Reescrevi a `nota`, que antes garantia que \"o corpo só registra o que a fala diz\"; agora ela apenas registra o apontamento na tela e o que a fala não nomeia, sem afirmar nada que o corpo contrarie. Título ajustado para não repetir a glosa retirada. Faixa e evidência inalteradas. Versão vai a 2.\n\nG05_A04-F3 (unidade 6): procede nos três pontos. (a) Retirei \"sob a fala nas trocas de trecho\" e \"nas transições\"; o corpo diz apenas que ele coloca um efeito sonoro de clique e depois o coloca novamente, e declara que as posições ficaram na tela — a fala só traz \"Um clique / Bem embaixo\", \"E colocamos o clique, tá?\" e \"Bem aqui a gente coloca o clique novamente\". (b) Retirei \"desforçada, sem tanta força\"; o corpo descreve só as ações nomeadas — modificador de voz, distorção, diminuir o volume e \"Acho que nem precisa diminuir\". A grafia \"Desforcido\" e a incerteza foram para a `nota`; como o termo não foi mantido no corpo, não usei aspas nem baixei a confiança, que segue `media` pelo que ficou na tela. (c) Troquei \"música épica\" por \"esse épico\", como o professor diz, e alinhei o título, que trazia \"épico distorcido\" e \"entre trechos\". Mantive o trecho do fade, que a falha não questiona. Faixa e evidência inalteradas. Versão vai a 2.\n\nNenhuma falha é de omissão material, então não criei unidade nova; conferi nos títulos das demais (001, 002, 005) que o conteúdo corrigido não duplica o que já existe — em especial o fade in de reentrada da música, que é da unidade 005, e o registro geral de aula de tela, que é da 001. Nenhuma unidade perdeu lastro a ponto de sair, então `retiradas` segue vazia. As demais unidades não foram tocadas. O campo `versao` não existe no formato de saída desta etapa; os incrementos indicados acima devem ser aplicados na gravação do JSON da aula."
+    }
+  ]
+}

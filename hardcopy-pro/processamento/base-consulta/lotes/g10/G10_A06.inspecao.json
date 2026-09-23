@@ -1,0 +1,196 @@
+{
+  "aula": "G10_A06",
+  "arquivo_sha256": "52a9c896fb6c8a38ef39bdc7d39ef3bdc50a100f7481d7725cd8760a78ac7bb1",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "2dc181a5a0489dca663bdc70d9ed8d9423735045e6a3bfb63380763ef963b6e9",
+    "2": "030ca1a6c12136514f7401ed3b2ecebddc284abdbd665853cde0dd91f6495b67",
+    "3": "1a34f5ca54a8c14d36717c4557b397bd2ed4ec246ff64bd77037ab1c6fa1978f",
+    "4": "ed26ea455f45e0e8f1b27e9d0d74cda7238cbfe95316a7dd9a37cb2b98066e3e",
+    "5": "e4c970e12760920bca742d942bc24f903ff93c71cf1694c96e368f6210af9d57",
+    "6": "b1e48560159c87b5da9cbb37f79082633365e2a61e3f162a32ac3965d4101324",
+    "7": "47fdb9e599631822aae39502d5e6bc0a8a23c74d201cbad070749e5c2ed60e44",
+    "8": "ae9d1dcef7cc737e918444873172a9287fb574a3e2dcf1484c6dac476a22bb1a",
+    "9": "ea545c2686afb4b20b674a01e16e925eb0121b0d45f7134f45019996bb631eed",
+    "10": "ae85e2341f0dc6f73829ba0ae0c413d75045d92601865890877ed4ebb4b880ea",
+    "11": "6ef3f654ba6c33bd0d735b646186af230809cea728dc3ff85669d6f6e3ab089e",
+    "12": "4412a60dcabb6bb5b508760850bdc5f097e6906b69da21ffbb7cd5a00b2a2087",
+    "13": "497a151f6039c7f4fd9967963cb5c2258fab52e175dda858a9040bf4370b58aa",
+    "14": "985ce98e673d93bd0b1b68854812c7efec15fe54d7da7d8f9ef993dac460de56",
+    "15": "5c08a2f466ee0fa6ab6639f76b48ec563d4fa18183cd7f3b71b6c2097e520aa2"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Normalmente fica nessas partes Onde estão sem som",
+      "explicacao": "O procedimento (extrair áudio, deletar vídeo, achar o plot, cortar o resto, arrastar pro final, usar velocidade 0.4) bate passo a passo com a fala, inclusive o número '0.4'. O único ponto frágil é a frase do corpo 'ele costuma aparecer logo depois de um trecho com pouco ou nenhum som', que interpreta uma fala fragmentada pela transcrição automática ('Normalmente fica nessas partes / Onde estão sem som'). É a leitura mais razoável, mas não é uma citação inequívoca; quem confiar cegamente nessa regra de localização pode buscar o plot no lugar errado se a música não seguir esse padrão."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Com essa parte aqui, o Facebook, TikTok não vai conseguir identificar essa música",
+      "explicacao": "Paráfrase fiel do trecho sobre manter só o plot da música pra dificultar a detecção por direito autoral. Nota começa com 'Contorna política de plataforma ou direito de terceiros:' e perecivel está true, como a regra do curso exige para esse tipo de conteúdo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não dá aquele tesão, não dá aquela vontade de clicar, não dá ainda, ainda não dá.",
+      "explicacao": "Corpo reflete fielmente a demonstração de que música sozinha, sem efeito sonoro, fica sem graça e não gera vontade de clicar."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O início, sempre você tem que dar um boom.",
+      "explicacao": "Preserva a regra do boom de abertura e a condição 'não importa qual for a música, contanto que ela tenha esse puff de início e depois vá se acalmando', que está dentro da faixa citada (04:42–04:50)."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente clica em cima dele clica aqui adicionar quadro chave",
+      "explicacao": "Os quatro passos (clicar no efeito, adicionar quadro-chave, aumentar volume no início, avançar e reduzir de novo) seguem exatamente a sequência falada entre 03:48 e 04:06."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É só você escrever aqui nessa barra de pesquisa que você vai achar do mesmo jeito que tá aqui.",
+      "explicacao": "Reflete corretamente que os efeitos favoritados do professor também podem ser achados por qualquer pessoa via busca, sem precisar tê-los salvos como favorito."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você vir aqui e escrever suspense em música, olha o que vai acontecer",
+      "explicacao": "Corpo bate com a demonstração de buscar diretamente pelo sentimento desejado (ex.: 'suspense') na busca de música/efeitos."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Nós não vamos calar a boca",
+      "explicacao": "Dentro da própria faixa declarada (403–420s), logo antes do trecho citado como evidência, o professor diz 'Porém, nós marcamos essa parte aqui, nós não vamos calar a boca' — uma exceção explícita que a unidade não registra. O corpo generaliza 'silencie completamente a música' antes de toda transição/revelação como regra fixa, omitindo essa condição contraditória presente na mesma faixa, mesmo que o padrão geral de calar a boca antes de reveals se repita em outros pontos da aula."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "se você está tocando em uma dor do seu lead e você está falando da geladeira, é importante você colocar o barulho da geladeira.",
+      "explicacao": "Paráfrase fiel do exemplo da geladeira generalizado como princípio de usar o som real do objeto/dor mencionado."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não consigo compartilhar nem nada disso",
+      "explicacao": "Termos 'Epic' e 'Metro W A' não constam na tabela de grafias nem são claramente reconhecíveis; a unidade trata isso corretamente, entre aspas, com nota e confiança baixa, conforme a regra do curso para termos não identificados."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu vou dando pista da música com o decorrer do vídeo",
+      "explicacao": "Corpo preserva a técnica de dar pistas da música e reservar o trecho principal pro final, e atribui corretamente ao professor (não confirma eficácia) a alegação de teste A/B citada em 'eu já fiz teste AB disso [...] e realmente funciona'."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos modificar a voz para não ficar repetido",
+      "explicacao": "Reflete fielmente a orientação de modificar a voz do efeito ao reutilizar a mesma peça sonora em outro ponto do vídeo."
+    },
+    {
+      "numero": 13,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Peguem a essência de vocês E coloquem em cima do seu projeto Peguem o meu ensinamento E passem esse aprendizado Para aquilo que vocês estão tentando construir Não faça algo Mais do mesmo e somente para copiar",
+      "explicacao": "Dentro da própria faixa declarada (19:03–19:32), a fala é uma orientação geral para não copiar os anúncios e VSLs do professor ('tem hoje muito anúncio e muita BSL baseada na minha'), usar a 'essência' de cada aluno e não fazer 'mais do mesmo' só para copiar ('Copiar ficou no passado'). A unidade estreita esse sentido para 'não replicar os mesmos efeitos sonoros e músicas', levando quem consulta a achar que o alerta vale só para a trilha sonora, quando a fala pede para não copiar o anúncio/VSL como um todo. Além disso, a evidência citada ('não se apeguem a colocar as mesmas coisas que eu coloco') está majoritariamente fora da faixa declarada, começando em ~19:59,92 (1139,92s), antes do inicio=1143 informado."
+    },
+    {
+      "numero": 14,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "entre a música do Pink Floyd o modificador e ele",
+      "explicacao": "A fala descreve o efeito de transição centralizado entre três elementos (a música do Pink Floyd, o modificador de voz e um terceiro elemento não identificado, 'ele'), não duas camadas como diz o corpo. A unidade simplifica para 'duas camadas de áudio', citando só dois dos três elementos e omitindo o terceiro, o que pode levar a um posicionamento impreciso ao reproduzir a técnica."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos arrastar e vamos colocar ela",
+      "explicacao": "Cumpre a regra de aula de tela: reconhece que grande parte da edição (cortes, posições exatas) ficou só na imagem, sem inventar detalhes de tela não ditos na fala."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 518,
+      "trecho_fonte": "Vamos de uma transição Pra outra, sem o lead perceber Mas ele vai sentir",
+      "descricao": "A fonte ensina que a transição sonora entre trechos deve ser feita de um jeito que o lead não perceba conscientemente, mas sinta o efeito. Nenhuma unidade preserva esse princípio de transição subliminar.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades pode aplicar cortes de transição perceptíveis/bruscos, achando que qualquer posicionamento de efeito nas transições já atende à técnica, perdendo a orientação central de que a mudança deve ser sutil a ponto de não ser notada conscientemente."
+    },
+    {
+      "inicio": 636,
+      "trecho_fonte": "entre uma letra E um vídeo Entre a letra e o vídeo Então aqui tá mostrando letra e só vídeo Fica muito bom de você mandar Um efeito aqui",
+      "descricao": "A fonte ensina a colocar um efeito sonoro (o exemplo usado é o do 'clipe da câmera') exatamente na transição entre um quadro de texto/legenda ('letra') e um quadro de vídeo, para reforçar essa mudança visual específica. Nenhuma unidade cobre esse posicionamento.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem essa orientação, quem monta a sonorização não sabe que a mudança entre um quadro de texto e um quadro de vídeo pede um efeito sonoro próprio de pontuação, podendo deixar essas transições sem o reforço sonoro recomendado."
+    },
+    {
+      "inicio": 1177,
+      "trecho_fonte": "você joga no chat EPT, ele refaz um resumo pra você, você edita tá tudo certo, ROD 1 ROD 0.8 isso é normal, cara, entende isso",
+      "descricao": "A fonte esclarece que reescrever/parafrasear conteúdo alheio via ChatGPT ainda conta como cópia ('isso é normal'), e que o objetivo defendido pelo professor é criar algo novo com base nos ensinamentos, não apenas reformular o que já existe. Isso complementa (e a unidade 13 sequer cobre) a orientação geral de não copiar anúncios/VSLs de que esse trecho faz parte.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base pode achar que reescrever uma copy existente via IA já cumpre a recomendação de não copiar, quando a fala do professor trata isso como cópia disfarçada, não como criação original."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 13: o tema escolhido (criatividade-e-angulo) e a faixa citada (19:03–19:32) correspondem a uma orientação geral do professor contra copiar anúncios/VSLs inteiros, mas o corpo foi redigido como se o alerta valesse só para 'efeitos sonoros e músicas'. Um agente buscando por som-e-sentimentalismo não vai achar essa unidade, e quem busca por criatividade-e-angulo (tema correto) vai receber uma versão artificialmente estreitada do que a fala realmente diz — ver detalhe no veredito da unidade 13."
+  ],
+  "material": [],
+  "resumo": "A base cobre bem a prática de sonorização mostrada na aula (extrair trilha, achar o plot da música, boom de abertura, quadro-chave de volume, calar a boca, casar efeito com o objeto citado, contorno de detecção de direito autoral), com a maioria das 15 unidades lastreadas e sem problema de perecibilidade ou de material (a aula não tem material de apoio). Dois desvios pesam mais: a unidade 13 estreita para 'efeitos sonoros e músicas' uma fala que, na própria faixa citada, é uma orientação geral contra copiar anúncios/VSLs inteiros, com a evidência caindo majoritariamente fora da faixa declarada; e a unidade 14 descreve como 'duas camadas' um posicionamento que a fala define entre três elementos. A unidade 8 omite uma exceção que o próprio professor marca na mesma faixa ('nós não vamos calar a boca'). Três pontos ensinados na fala — transição sonora imperceptível ao lead, efeito sonoro nas trocas de texto-para-vídeo, e a ressalva de que reescrever via ChatGPT ainda é cópia — não estão preservados em nenhuma unidade."
+}

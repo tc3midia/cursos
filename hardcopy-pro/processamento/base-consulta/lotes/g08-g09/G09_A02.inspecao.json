@@ -1,0 +1,93 @@
+{
+  "aula": "G09_A02",
+  "arquivo_sha256": "5310eaface5d07bffd0ae044c561f901e93ff889346b66b184388b6813c5bf25",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "218bb902cddd9cb48083a04ec04d7fca8c2cdcd2f040e9923acd44a163462f2e",
+    "2": "18789f38c5e2c67579e7d4f7882c0d5905e4acb78d979bfdc63dce69edfea537",
+    "3": "5ecb72cd607018fad6d0d2e2ce65b3a71068dc4b713df7c449f104f0806fdb24",
+    "4": "3f07fd3d9f322cdc737e5d4a63facd4290cdfa2db7ca0b053dd16bea4d9180db",
+    "5": "b9654c892075e03d4c7ea339e41685df66c48c8ceffe305d5a60984d3039ea61",
+    "6": "7eaa90ef33905fcbb92c2a2b6ca812626b94f2ca6b06ff76b6c45de5968c4509"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não trabalho com outro formato",
+      "explicacao": "O corpo reproduz fielmente a fala: o professor afirma usar só a estrutura do Kishotenketsu (transcrita como 'Kenshu Genketsu', grafia da tabela sem marca de hipótese) e justifica com saturação/CTR baixo do 'outro formato' não nomeado, o que a nota já sinaliza corretamente. A atribuição ao professor está clara no corpo ('O professor afirma...'), então não vira lei universal, apesar de o título não trazer sujeito explícito."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Agora com este formato você vai conseguir 4, 6, 8 CTR de 12, 15%",
+      "explicacao": "A fala diz '1.5 de ROI, 2 de ROI' e, na sequência, '4, 6, 8 CTR de 12, 15%' sem repetir a palavra ROI antes dos números 4,6,8. A unidade interpreta esses números como continuação de ROI ('ROI de 4 a 8') e '12,15%' como CTR — leitura razoável dado o padrão da fala, mas com alguma ambiguidade; confiança 'media' e a nota deixando explícito que é alegação pessoal do professor, sem fonte de mercado, cobrem essa incerteza de forma adequada."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "Surpreendente, um terror, um absurdo",
+      "explicacao": "O corpo detalha cada uma das quatro etapas (ex.: 'algo chocante, um terror ou um absurdo' para a abertura; 'gerar dúvida tanto em quem já passou... quanto em quem está perto de passar' para a etapa 2; 'apontar um inimigo em comum ligado ao que já foi introduzido no criativo' para a etapa 3), mas essas descrições vêm de falas anteriores a 00:03:44, fora da faixa declarada (224–345s): a abertura é definida em 00:00:58–00:01:07 ('Surpreendente, um terror, um absurdo... Ela clica em saber mais'), a dúvida é ilustrada em 00:02:46–00:03:02 ('as pessoas que já tomaram... puta que pariu, e agora?... quase que eu comprei isso daqui'), e a ligação inimigo-identificação em 00:04:44–00:05:29 ('Aqui se você colocar isso como inimigo Vai se identificar Por causa do criativo'). Dentro de 224–345s só existe um recap rápido rotulando as quatro etapas, sem essa elaboração; até o próprio campo 'condicoes' da unidade ('nicho totalmente diferente do meu... o formato serve para qualquer nicho') vem de fala em 00:00:38–00:00:54, também fora da faixa. Quem tentar conferir o corpo contra o intervalo informado não encontra sustentação para boa parte do texto."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não vou testar esse criativo Não vou colocar esse produto pra rodar Até porque eu nem tenho esse produto",
+      "explicacao": "A fala confirma o CTR de 15% citado só para o criativo fictício de emagrecimento e a ressalva explícita do professor de que não vai testar nem rodar o produto, porque o produto nem existe. A unidade preserva a ressalva integralmente e classifica corretamente como 'exemplo' (não 'régua'), evitando que o número vire parâmetro geral, conforme exige a regra de copy de exemplo do curso."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não é a edição e sim aquilo que você está fazendo atrás do anúncio, que é o que você está falando",
+      "explicacao": "Fala e corpo coincidem: o segredo para reter o público até o final não é a edição, e sim a copy/o que está sendo dito no anúncio; o contexto de pessoas perguntando pelo 'segredo' no direct/WhatsApp também está preservado com fidelidade."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu vou deixar aqui abaixo um documento que eu tenho onde você vai conseguir",
+      "explicacao": "A fala confirma a promessa de um documento de apoio para aplicar o processo da copy, sem detalhar conteúdo ou local de acesso. A unidade não inventa nenhum detalhe sobre o documento e registra isso corretamente como 'limite' perecível, com tema/tarefa de recursos do curso coerentes."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 284,
+      "trecho_fonte": "Aqui quando você cria esse tipo de conteúdo, você está criando um movimento de pessoas.",
+      "descricao": "A aula ensina que criar esse tipo de criativo, com um inimigo comum bem definido, gera um 'movimento de pessoas' em torno da causa, e contrasta isso com o erro comum de VSLs que colocam um inimigo genérico e desconectado do público ('que não tem nada a ver... e que a pessoa não se identifica'), diferente do inimigo introduzido pelo próprio criativo, com o qual o público se identifica. Nenhuma das seis unidades preserva esse ponto: a unidade 3 registra a ideia geral de 'confirmação com inimigo', mas não a comparação explícita com o erro comum em VSL nem o efeito de 'movimento de pessoas'.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta a base perde uma orientação prática específica sobre onde e como apresentar o antagonista/inimigo (via o próprio criativo, não como vilão genérico só na VSL) para gerar identificação do público, além do argumento do professor sobre o efeito de engajamento ('movimento de pessoas') dessa técnica — um diferencial explícito que o professor marca frente ao que 'esses copywriters fazem' de errado."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1: o título 'Só usa a estrutura do Kishotenketsu nos criativos de anúncio' não traz sujeito explícito (fica ambíguo se é regra do professor ou instrução ao leitor). O corpo esclarece a atribuição ao professor, então não chega a virar lei universal, mas um agente que navegue só por títulos pode ler errado; ajuste de título recomendado (ex.: 'O professor só usa...').",
+    "A ordem de numeração das unidades (1, 2, 3...) não segue a ordem real de aparição do conteúdo na fonte: o conteúdo da unidade 3 (abertura surpreendente, dúvida) aparece na fala a partir de ~00:00:56, antes do conteúdo das unidades 1 e 2 (~00:01:16 e ~00:01:36). Isso é consequência do problema de faixa apontado na unidade 3, não um erro de numeração isolado."
+  ],
+  "material": [],
+  "resumo": "Das seis unidades, cinco (1, 2, 4, 5, 6) estão bem lastreadas na fala, com a ressalva do professor sobre o criativo fictício preservada e os números de exemplo corretamente isolados como 'exemplo' em vez de 'régua'. A unidade 3 (estrutura do criativo em quatro partes) tem faixa-errada de gravidade material: seu corpo depende de trechos anteriores a 00:03:44 — definição da abertura em ~00:00:58–01:07 e da dúvida em ~00:02:46–03:02 — que ficam fora do intervalo declarado (224–345s), que só contém um recap resumido das quatro etapas. Foi identificada uma omissão material: a explicação do professor sobre como o inimigo introduzido pelo criativo gera um 'movimento de pessoas' e o contraste com o erro comum de VSLs que usam um inimigo genérico não aparece em nenhuma unidade. Não há material de apoio nesta aula para conferir, e nenhuma unidade ficou sem a marcação de perecibilidade necessária."
+}

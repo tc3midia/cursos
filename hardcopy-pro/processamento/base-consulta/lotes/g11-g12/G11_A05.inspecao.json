@@ -1,0 +1,161 @@
+{
+  "aula": "G11_A05",
+  "arquivo_sha256": "95266f9b24b5d819f10566ea5841ad3197022f5811e4e43d7aeefd9e30e1daf6",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "0da6b909c91f954814d86015e11426b0aeb0a0b4772aeabaaa30b9f50e274364",
+    "2": "09697fe10b9e23e0f9c0bb0a6a0542a3d769ab09664e4cc334228294316a6fb7",
+    "3": "51533a0b281e7cea59ad446475d5dc5e848864b69c8bb492d48a36e8c4aff684",
+    "4": "924f3bc4c2fcfe021261280e5190b216050e98725c37b5997eeb6caad22eebcd",
+    "5": "a2bfb7b224d31f887521cd9fedd64335733654ce6caf0eb8c64f15bcaaf3f902",
+    "6": "b9b7390868044aa9cd09efd06fcd53b2d2b8c49c342971f8f039fe01267bd5d3",
+    "7": "3ac5eca86cbfcd1456a0d86925d99ecdee8d4c9fe191a1bd3bb8e651361b14aa",
+    "8": "3fff74d390db6fd92d24f46e546dae8d57856c515d7f21945eb178cec9077159",
+    "9": "91577b5e50b76be4c9eeb4b32c32f7a70aa2afb7c7bb6e8554dec82eeff3e4df",
+    "10": "e735c257fe3d4a2207a77422c375d3acb5b1197030801347096aaf789f9cb129",
+    "11": "6d4a7941774ca647672f2a0c8d93d0b3b125a77f2a135fdef5c8d88269b9bc8c",
+    "12": "c6c3684ec02de1767b7fc81082e188d9f9495c20268f757ab9b9912f28d7574f"
+  },
+  "citacoes_nao_literais": [
+    "Por que eu falo que eu não gostei De acordo com a minha experiência Minha expertise Então eu sei exatamente o que a pessoa vai lá e vai falar Ah eu já vi coisa assim"
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos criar uma boa headline para que o lead pense e imagine algo",
+      "explicacao": "Os quatro passos do procedimento (explicar nicho/produto, pedir dúvida a ser resolvida só no play, pedir várias variações de uma vez, filtrar) batem com a fala entre 64–264s, inclusive o número 'dez' confirmado por 'dessas dez, a gente sobrou duas' (257–264s), dentro da faixa declarada."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque o que eu quero fazer o lead sentir é dúvida e ele precisa responder essa dúvida tocando no play",
+      "explicacao": "Corpo reproduz fielmente a regra dita entre 86–106s, sem adicionar nem retirar condição."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Vamos juntar um pouco de terror com um mecanismo único",
+      "explicacao": "O passo 2 do procedimento apresenta o pedido de tom 'terror unido ao mecanismo único' como parte da segunda rodada de refinamento (após colar as duas melhores headlines, unidade datada 264–580s). Na fonte esse pedido de terror ocorre em 158–173s, antes de 'dessas dez, a gente sobrou duas' (257–264s), ou seja, faz parte da primeira rodada (geração das dez variações), não da rodada de refinamento com as duas melhores. Quem seguir o procedimento como descrito vai inverter a ordem real: pedirá o tom de terror depois de já ter selecionado as duas melhores, quando na aula esse pedido veio antes da seleção. Adicionalmente, a evidência citada para o passo 3 ('eu quero mais variações e não explicações por favor') está no segmento 577,1–584,14s, que ultrapassa o fim declarado da unidade (580s)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É, ele só copiou e colou aqui e explicou.",
+      "explicacao": "O limite descreve corretamente que prompts e leitura de tela não são recuperáveis só pela fala, citando o próprio reconhecimento do professor dentro da faixa 343–351s."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É a porcentagem entre a visualização de página e o clique da VSL.",
+      "explicacao": "Definição de playrate reproduzida como dita, dentro da faixa 472–486s."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se 100 pessoas entram na sua página e você pagou R$1 para cada pessoa entrar, você gastou R$100",
+      "explicacao": "Números do cálculo (100 pessoas, R$1, 60%, R$1,66, 80%, R$1,25) conferem com a fala entre 490–527s; marcado corretamente como exemplo hipotético e perecível."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Se o seu play rate estiver em 60%, que é o básico do mercado",
+      "explicacao": "O número (60%) e a qualificação 'básico do mercado' estão na fala, mas o corpo acrescenta uma implicação não dita ('abaixo disso, a headline provavelmente está fraca; o objetivo é superar esse piso'). É uma extrapolação razoável, mas apresentada como se fosse afirmação do professor; não muda a decisão de forma relevante."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então demore de dias ou até semanas para fazer uma headline",
+      "explicacao": "Recomendação e justificativa (playrate barateia a operação) batem com a fala entre 539–546s."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "empresas como VTURB e outras tem teste de lead",
+      "explicacao": "Ferramenta nomeada diretamente na fala (grafia já adotada, sem necessidade de hipótese), com perecivel:true correto para tipo ferramenta e plataforma vturb."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não responda a pergunta acima deixe o lead mais curioso e passa o cta de aperte o play",
+      "explicacao": "Regra da sub-headline (não responder, manter curiosidade, CTA de play) confere com a fala em 657–679s."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tem coisas que ninguém nunca te contou Sobre fome, apetite e controle",
+      "explicacao": "A combinação final headline+sub-headline descrita (paráfrase, sem cópia bruta) corresponde à decisão fechada pelo professor em 754–770s, corretamente marcada como copy de exemplo/perecível."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Trabalhe muito com perguntas e respostas em cima do chat",
+      "explicacao": "Recomendação final de não confiar 100% na IA e buscar algo melhor confere com a fala em 783–795s."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 392,
+      "trecho_fonte": "Então aqui você pode dar várias variações junto com a sua criatividade também. Não se apegue só a IA.",
+      "descricao": "Instrução explícita de complementar as variações da IA com variações próprias do copywriter, dita no meio do processo de refinamento (~392-398s). Nenhuma unidade preserva esse ponto especificamente; a unidade 12 registra uma recomendação parecida ('nunca confie nele 100%'), mas essa é outra fala, em outro momento (783-795s), sem mencionar a criação de variações próprias.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades pode entender o processo como puramente iterativo com a IA (gerar, ler, filtrar, pedir de novo), sem saber que o professor recomenda também contribuir com variações escritas pelo próprio copywriter."
+    },
+    {
+      "inicio": 224,
+      "trecho_fonte": "Por que eu falo que eu não gostei De acordo com a minha experiência Minha expertise Então eu sei exatamente o que a pessoa vai lá e vai falar Ah eu já vi coisa assim",
+      "descricao": "Ao rejeitar uma variação de headline, o professor explica o critério: reconhece pelo conhecimento do nicho que a frase soaria como algo 'já visto' pelo público. Nenhuma unidade registra esse critério de avaliação; fica em zona cinzenta entre técnica transferível e construção de autoridade pessoal.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem esse trecho, quem consulta as unidades sabe que o professor filtra e descarta variações, mas não tem o critério concreto usado (evitar frases que soam clichê para quem já conhece o nicho)."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: a evidencia 'eu quero mais variações e não explicações por favor' está ancorada no segmento transcrito 577,1–584,14s, que ultrapassa o fim declarado da unidade (580s). Ajustar o fim da unidade para cobrir o segmento inteiro ou trocar a evidencia por um trecho certamente dentro de 264–580s (ex.: 'de novo eu acho que ele não entendeu, tá?', em ~325-326s, que já sustenta o mesmo passo 3 do procedimento)."
+  ],
+  "material": [],
+  "resumo": "A extração cobre com fidelidade a maior parte do fluxo de criação de headline/sub-headline com IA e a lógica de playrate da aula G11_A05, com 10 das 12 unidades bem lastreadas nas faixas declaradas. A unidade 3 mistura numa mesma rodada de refinamento (264–580s) um pedido de tom 'terror + mecanismo único' que na fonte ocorre antes, em 158–173s, invertendo a ordem real do processo demonstrado, e sua evidência citada ultrapassa levemente o fim declarado. A unidade 7 acrescenta uma implicação não dita literalmente sobre o que fazer abaixo do piso de 60% de playrate. Duas omissões pontuais e de gravidade menor foram localizadas (variações próprias além da IA; critério de rejeição por conhecimento de nicho), e nenhuma unidade não marcada como perecível deveria estar."
+}

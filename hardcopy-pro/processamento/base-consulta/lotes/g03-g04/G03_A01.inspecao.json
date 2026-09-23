@@ -1,0 +1,75 @@
+{
+  "aula": "G03_A01",
+  "arquivo_sha256": "bc61f5e3017d663adb49827ecf8a110cf14d49193c6b4495f6714ba763cade26",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "35186cdcbafa80b19dd7d0693fc5928e63bd8455b4f3648fdfdf5af4f939eb64",
+    "2": "358bc90550cbeeb3ea1f133185c5c0243fbc810f631ee35d2f5fdd4dc7aa70f9",
+    "3": "cb9671116eced35fe3c9fc80202d640e5c0b5e64ed6fbccddfeb8936a5ce6bae",
+    "4": "e4bfd62db76100b0f0890d026571c5b61aa0ce2e352326923eb084bf472d59bc"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai precisar de todo um processo",
+      "explicacao": "A fonte traz a comparação com academia e dieta, o papel do nutricionista de acelerar e manter, e a ideia de identificar 'coisas que as pessoas não estão vendo'. Tudo isso está no corpo, sem número nem condição alterados. A faixa 30–113 contém o conteúdo (que termina por volta de 96 s), e a evidência cai dentro dela. Não há problema para quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não está olhando para aquela coisa",
+      "explicacao": "O exemplo do carro e o das grávidas seguem a fala, inclusive a diferença 'prestou atenção porque virou objetivo'. A conclusão do corpo ('o que você não vê é o que você não está olhando... pensando um pouco fora da caixa') resume 'você realmente não está olhando para aquela coisa sem pensar um pouco fora da caixa' sem mudar o sentido. A faixa 98–172 cobre o conteúdo e a evidência."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque essa é a intenção, a intenção é botar dinheiro no bolso, não adianta.",
+      "explicacao": "As afirmações principais estão na fonte e atribuídas ao professor: criatividade como principal característica do copywriter, regras sem criatividade não vendem, e 'o que vira o jogo na copy é a criatividade'. Ponto de atenção: na última frase do corpo, 'já que o objetivo final é gerar dinheiro' cria uma relação causal com 'não espere ser o fodão em achar mecanismo único'. A transcrição desse trecho está degradada e a ligação não é clara. Logo depois vem 'Você vai ser um copywriter foda, até porque...', e a sequência pode ter perdido um 'não'. A unidade tem confiança alta e nenhuma nota. O efeito prático é pequeno, porque nada nesse trecho vira regra ou número."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Onde a gente já começa no produto",
+      "explicacao": "A fonte diz que foi 'uma aula de introdução para abrir as suas expectativas', que o aluno pode achar que será 'uma virada de chave' e passar a olhar tudo 'como se fosse Matrix', e que a próxima aula 'já começa no produto'. O corpo reproduz isso. Ressalvas menores: o título diz 'método começa na aula seguinte', e a palavra 'método' não é dita na fonte, que só diz 'já começa no produto'. O corpo também omite o contraponto imediato do professor ('Mas eu te garanto que isso aqui vai facilitar muito a sua vida'), então a unidade só transmite o lado de reduzir expectativa. Por fim, fim=259 corta 0,8 s do último segmento, que termina em 259,8 s."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 237,
+      "trecho_fonte": "Mas eu te garanto que isso aqui vai facilitar muito a sua vida",
+      "descricao": "A unidade 4 cobre o trecho em que o professor reduz a expectativa de 'virada de chave' e não preserva a fala seguinte, na mesma faixa. Nela ele promete, por conta própria, que o módulo vai facilitar a vida do aluno, e diz o que vai mostrar: como ele olha o mundo e as coisas ao redor. É uma promessa de resultado do professor e a indicação do que o módulo traz.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a unidade 4 fica só com o lado 'não é virada de chave' e não sabe que o professor diz que o módulo vai mostrar o jeito dele de olhar as coisas. Não muda decisão nem impede executar nada."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4: o título usa 'método', que a fonte não diz (ela diz 'já começa no produto'). O contexto repete 'o método propriamente dito'. Sugestão: usar a formulação da fala.",
+    "Unidade 4: o corpo usa 'o episódio', 'nesta aula' e 'a aula seguinte' sem nomear a aula. Quem lê só a unidade não sabe a qual aula ela se refere. Ajuste menor: identificar como aula introdutória do módulo de criatividade.",
+    "Unidade 4: tema `curso-e-recursos` para um limite sobre a natureza introdutória da aula. É defensável, mas discutível, porque `criatividade-e-angulo` também serviria. Classificação discutível entre dois valores é ajuste menor.",
+    "Unidade 4: fim=259, mas o segmento da âncora 'Onde a gente já começa no produto' termina em 259,8 s. Confirmar por script que a evidência ainda cai dentro da faixa, ou estender fim para 260."
+  ],
+  "material": [],
+  "resumo": "As quatro unidades têm lastro na fala e não há número, condição ou atribuição adulterados. Não há resíduo de silêncio nem material de apoio usado como fonte. A unidade 3 tem uma ligação causal ('já que o objetivo final é gerar dinheiro') apoiada em trecho degradado da transcrição e sem nota. A unidade 4 tem ajustes menores de título e classificação, além de uma omissão menor (a promessa do professor logo após o 'não é virada de chave'). Nada disso é falha material. Percorri a fonte inteira em busca de omissões e não achei conteúdo didático ausente."
+}

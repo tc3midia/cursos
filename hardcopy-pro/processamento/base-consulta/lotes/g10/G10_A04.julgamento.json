@@ -1,0 +1,38 @@
+{
+  "aula": "G10_A04",
+  "arquivo_sha256": "6067981664b156e230e693b4afbbd3ee38177917fd7d0ad0a8ccf1768e14cbbd",
+  "inspecao_sha256": "cb1163cffd4642000a705550acc51972e5c722acf8cb2b13e021aa50a7f9c430",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral, 4/4 unidades verificadas, zero citações não literais, nenhuma sem-lastro, desvio ou faixa-errada declarada. Unidades 2, 3 e 4 lastreadas com trecho literal, sem passo de tela inventado; a 4 cumpre a regra de contorno de política (nota com o prefixo exigido, perecivel true, confianca media justificada pelo adiamento dos detalhes). A unidade 1 falha: a fala diz \"Um é 9x16 e o outro é 16x9\" e resolve a distinção apontando a tela (\"o que muda é isso aqui, olha só\"); a unidade escreve \"O professor afirma que ... o criativo usa 9x16 e a VSL usa 16x9\" com confianca alta e nota null, e atribui as durações pela mesma inferência de ordem. A rubrica só deixa fonte ambígua passar quando a unidade preserva a incerteza com confianca adequada e nota; aqui não há nenhuma das duas. O inspetor classificou como menor, mas a afirmação atribuída ao professor não está na fala e quem consulta não tem como verificar isso pela evidência. Falha F1.",
+  "cobertura": "Inspetor declara busca de omissões na fonte inteira e não lista nenhuma; o trecho inicial é testemunho/motivação, que não conta. Aula de tela de 608 palavras rendeu dois limites (guias do CapCut fora do escopo; interface de mídia sem cliques descritos) e uma regra sobre corte de música, o que preserva o que a fala permite extrair. Passa.",
+  "perecibilidade": "As quatro unidades estão com perecivel true. As que exigem a marca (2 e 3 por CapCut e recurso do curso; 4 por política de plataforma) a têm. Inspetor não sinaliza perecível escondido. Passa.",
+  "aplicabilidade": "As quatro se sustentam sem a aula ao lado: os limites dizem o que ficou fora e por quê; a 4 traz condicoes preenchidas e o aviso de contorno na nota, com tarefas revisar-risco-de-bloqueio e sonorizar-video levando ao lugar certo; a 2 está em usar-recursos-do-curso. \"Aula seguinte\" aparece só dentro de limites, como registro do que falta, não como dependência de uso. Tipo regua na unidade 1 é discutível (conceito ou regra também defensáveis), o que fica como ajuste menor. Passa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"Quanto faz o criativo quanto a VSL, a única coisa que muda é a proporção. Um é 9x16 e o outro é 16x9\", seguido de \"Então, o que muda é isso aqui, olha só. Entende?\". A fala não nomeia qual proporção pertence a qual formato; a distinção é feita apontando a tela. A unidade escreve \"O professor afirma que ... o criativo usa 9x16 e a VSL usa 16x9\", com confianca alta e nota null. As durações (criativo cerca de 30 segundos; VSL 20 a 30 minutos) são atribuídas pela mesma ordem de menção, e o inspetor não cita trecho literal dessa frase. A frase \"Mas a parte teórica e o aprendizado aqui é a mesma coisa\" (139.9–145.44 s), usada no corpo, ultrapassa fim=140.",
+      "impacto": "Quem consulta lê, como afirmação verbal do professor e com confiança alta, um mapeamento que na fonte é inferência por ordem de menção e apontamento de tela. Agente que monte skill de formato/exportação cita a unidade sem ressalva e não consegue verificar o mapeamento pela evidência; se a atribuição estiver invertida, exporta criativo e VSL na proporção errada.",
+      "mudanca_minima": "Manter o conteúdo, mas reescrever a frase de proporção para dizer que a fala afirma \"um é 9x16 e o outro é 16x9\" e que a atribuição criativo=9x16 / VSL=16x9 segue a ordem em que os formatos são citados (e o apontamento de tela); aplicar o mesmo tratamento à duração; baixar confianca para media; preencher nota registrando o trecho literal, o apontamento de tela e a inferência por ordem; ajustar fim para 146 para cobrir a frase final; incrementar versao.",
+      "criterio_de_aceite": "Unidade 1 com confianca=media; nota não nula citando \"Um é 9x16 e o outro é 16x9\" e declarando que a atribuição a criativo/VSL é por ordem de menção; corpo não apresenta o mapeamento como afirmação verbal do professor; fim >= 146; versao incrementada. Inspeção seguinte confirma com trecho literal os números de duração (30 segundos; 20 a 30 minutos) e a forma como a fala os liga a cada formato."
+    }
+  ],
+  "ajustes_menores": [
+    "U1 — tipo regua é discutível: a orientação é uma comparação entre formatos; conceito ou regra também são defensáveis. Classificação entre dois valores defensáveis não abre ciclo.",
+    "U1 — perecivel: true com plataformas geral e sem tela, menu, preço ou recurso do curso é marcação a mais. Não reprova; pode ser revista se a intenção não for tratar proporções de formato como convenção de plataforma.",
+    "U1 — corpo diz \"aprendizado sobre som e edição\"; a fala diz \"a parte teórica e o aprendizado aqui\". \"edição\" estende levemente o \"aqui\"; sugerir \"sobre som\" ou \"desta aula\". Pode ser feito junto com F1, já que a unidade será reescrita.",
+    "Contexto, frase 2 — diz que o professor apresenta o CapCut como a ferramenta que passa a usar; não há unidade ferramenta correspondente, mas o inspetor não lista omissão e a informação está nos limites 2 e 3. Registro apenas."
+  ],
+  "proximo": "Redator aplica F1 na unidade 1 (corpo, confianca, nota, fim, versao), aproveitando para os ajustes menores da mesma unidade se quiser. Inspeção seguinte confere só a unidade 1 com o hash novo e traz o trecho literal da frase de duração para confirmar 30 segundos / 20 a 30 minutos e a ligação a cada formato. Unidades 2, 3 e 4 preservam a evidência enquanto o hash não mudar. Rodada 1 de 2."
+}

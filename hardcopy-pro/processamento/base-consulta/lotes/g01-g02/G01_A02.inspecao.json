@@ -1,0 +1,85 @@
+{
+  "aula": "G01_A02",
+  "arquivo_sha256": "cfe8c011199dfc325ec85d375f4768d79ccedba8238ffc943fd87afc07612b58",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "32f34f7eecefa98f0f5e9ff77f29c0f0dba4df1d76b31b23794fd8fc2784b884",
+    "2": "80f9647eb98f929319fd2282c0b8d07358a8599d50ed19e8683e7c088d62ca52",
+    "3": "d455c1bcdfa9eb78dd8013d4477d9305df72f87eaa62aba54136999205b6eaba",
+    "4": "4c44c49e72818ce84ebe2fa58b3047373b42defe455e074c6d1dcdf86786db97"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "provavelmente vai ser muito difícil de você conseguir um resultado por conta que a concorrência é muito grande",
+      "explicacao": "O conteúdo está na fonte (concorrência proporcional ao tamanho do nicho, VSL aprovada por ele, resultado não vem por causa do nicho), dentro da faixa 69–132, com evidência na faixa. Duas diferenças de tom, sem mudar o uso: o \"Não comece\" é imperativo do extrator (o professor diz \"provavelmente vai ser muito difícil\" e depois aponta subnichos como saída), e o \"provavelmente\" some do corpo. Mais tarde o professor é categórico (\"você não vai conseguir o resultado que você queria\"), então o sentido se mantém. A grafia \"Kensho\" está na tabela e a nota a registra."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Você vai vender o processo para a pessoa e depois você vende o sonho",
+      "explicacao": "A fonte tem duas falas que se tensionam. Em 00:02:31–00:02:37 o professor diz que se vende o processo \"e depois você vende o sonho\". Em 00:03:12–00:03:20 diz que \"quem não realizou o sonho não pode vender o sonho, pode vender o processo\". A unidade fica só com a segunda e resolve a tensão em silêncio: o título diz \"vender o processo, não o sonho\" e o corpo omite o \"depois você vende o sonho\", com confianca alta e nota nula. Quem consulta lê uma proibição de vender o sonho que o professor não fecha assim. Pode ser também fala mal transcrita, e nesse caso a unidade deveria registrar a incerteza em `nota` com confianca menor. O restante (subnichos, academia e dieta, R$ 99 como \"mais do mesmo\") está lastreado e dentro da faixa 128–200."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "ser pelo menos 10% do mercado inteiro",
+      "explicacao": "O caso (vergonha da academia, mais de 120 e 150 quilos, R$89, 5 aulinhas, 80 quilos em 30 dias) está lastreado e dentro da faixa. A afirmação da Lógica sobre \"pelo menos 10% do mercado inteiro\" está em 00:04:41–00:04:49 (segundos 281–289), depois do `fim` 280. Fica também fora o fecho \"onde você vai mostrar pra ela como que ela vai\". A evidência está dentro da faixa, e o ajuste é estender o `fim` para cerca de 290. Duas frases não são da fonte: \"Não é apresentado como preço ou meta garantidos\" e, na nota, \"ditos pelo professor como ilustração\". O professor apresenta o preço como sugestão dentro do caso e não rotula como ilustração. O efeito é pequeno, porque o número já está tratado como exemplo em `condicoes` e o tipo é `exemplo`."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "tá assistindo e ver qual que é o problema semelhante que todas têm que você pode vender",
+      "explicacao": "Os quatro passos e a pré-condição têm respaldo na fala: entrar no YouTube e pôr o nicho, ver os comentários dos vídeos, achar o problema semelhante, anotar no papel antes da aula do mecanismo único. A condição do renda extra (vender R$10 por dia com conhecimento ou mecanismo único, não ficar rico de hoje para amanhã) está fiel ao professor. Faixa 200–319 correta (o fim da fala é 319,26). Só perde o \"Vai no Facebook\" (ver omissões) e o corpo não explica \"mecanismo único\" (ver contrato)."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 151,
+      "trecho_fonte": "Você vai vender o processo para a pessoa e depois você vende o sonho",
+      "descricao": "O professor diz que, depois de vender o processo, se vende o sonho. Nenhuma unidade preserva essa sequência. A unidade 2 mantém só \"quem não realizou o sonho não pode vender o sonho\".",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta entende que o sonho nunca deve ser vendido, quando a fala prevê o sonho depois do processo. Muda como se escreve a promessa da copy. Mesma causa do desvio da unidade 2."
+    },
+    {
+      "inicio": 209,
+      "trecho_fonte": "Vai no Facebook",
+      "descricao": "Na instrução de tarefa o professor manda ir ao Facebook e ao YouTube para estudar subnichos. A unidade 4 só traz o YouTube, e o `plataformas` também é só `youtube`.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente restringe a pesquisa de subnichos ao YouTube. O passo concreto que o professor detalha é mesmo o dos comentários do YouTube, então a falta muda pouco a execução."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 2,
+      "problema": "O corpo cita o preço de R$ 99 (produto de marketing digital com cópia, tráfego, produto e mecanismo perfeitos), e o FORMATO manda `perecivel: true` para preço. A unidade está `perecivel: false`. A unidade 3, que cita R$ 89, já está marcada como perecível."
+    }
+  ],
+  "contrato": [
+    "Unidade 4 (e 3): o corpo manda seguir para \"a aula do mecanismo único\" e cita \"mecanismo único\" (na 3, \"bom mecanismo\") sem explicar o termo. A aula só diz que o aluno vai aprendê-lo \"lá na frente\". Quem consulta sem a aula não sabe o que é, e a unidade deveria dizer que é conteúdo da aula seguinte, não definido aqui. Ajuste menor.",
+    "Unidade 1: usa \"Kishotenketsu\" e \"VSL\" no corpo sem explicar na primeira ocorrência, como o FORMATO pede para o jargão do curso. A aula não define os dois, então a explicação teria de vir do vocabulário do FORMATO ou de um limite. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Aula curta e sem material de apoio, com quatro unidades bem ancoradas na fala. Há um desvio material na unidade 2: o título e o corpo dizem \"vender o processo, não o sonho\" e omitem o \"e depois você vende o sonho\" dito em 00:02:31–00:02:37, sem nota nem confianca menor. A unidade 3 tem o `fim` curto, e a fala do \"10% do mercado\" fica de fora (faixa-errada em 1 de 4 unidades). A unidade 2 cita R$ 99 sem `perecivel: true`, e há dois ajustes menores de contrato (jargão sem explicação) e uma omissão menor (Facebook)."
+}

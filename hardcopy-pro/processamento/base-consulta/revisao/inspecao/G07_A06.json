@@ -1,0 +1,77 @@
+{
+  "aula": "G07_A06",
+  "arquivo_sha256": "1e583746dfa337b1a946008574951aab77963ada5073b475dab50f18847f0c05",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3, 5]; as demais mantêm a evidência da inspeção integral do arquivo 5bb068e7796d, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3,
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "5da21fb99dc1997a2c09159731fcf9504ba2ba11f707faed12f50e0860783aa9",
+    "2": "526275303a13a00b05f673ac77f788514e027f481faf9838f15d6e4f5a3081d9",
+    "3": "cb9ab55e4fff5cf046a219e94b85970bfba8e0220f64d7d6e73e4e1e71f54b1a",
+    "4": "f9d4134fd92ab5df2160f26d20b6a8f79d8f114442f61a003336a57d953e363e",
+    "5": "af39caa8b12040d94cdb60d96009e6b7de5e70160aeb327aa6157f1ccd3291c8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente joga isso aqui pro outro",
+      "explicacao": "A faixa (44–118s) cobre exatamente o trecho em que o professor organiza as falas da neta e da avó na timeline usando só apontamentos dêiticos (\"aqui\", \"isso\", \"bem aqui\", \"joga a da tiazinha aqui\", \"tira as partes em branco\"), sem nomear a ação com precisão. A unidade descreve corretamente essa limitação e classifica como `limite`, tipo adequado ao conteúdo (\"aula de tela\" que não pode ser reconstruída pela fala). Sem efeito prático negativo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então faz um negócio mais simples, mais bem feito",
+      "explicacao": "O professor introduz a orientação com \"Lembrando que sempre quando você for fazer uma animação, não coloque coisas muito loucura [...] isso aqui, cara, mata o negócio [...] então faz um negócio mais simples, mais bem feito\" — o \"sempre\" sustenta o tratamento como regra geral de edição, e não como preferência pontual. O corpo da unidade preserva o sentido (evitar exagero, preferir simplicidade) sem inventar número ou condição. Sem efeito prático negativo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente vai dar um CTRL B aqui e fazer Tá, isso aqui Vamos remover O iniciozinho dessa música aqui Aumentar um pouquinho o volume E vamos modificar ela pra distorção",
+      "explicacao": "A correção de F1 foi aplicada corretamente. Título e corpo agora registram só a sequência de ações que a fala descreve (dá CTRL+B na faixa, remove o comecinho da música, aumenta o volume, modifica para distorção), sem afirmar que o atalho divide/corta o clipe no ponto do cursor. Essa leitura foi isolada em `nota`, explicitamente marcada como inferência da imagem não confirmada pela fala, com `confianca` rebaixada para `media` (consistente com a regra de que orientação sobre qual é o comportamento exato do recurso exige no máximo `media` quando a identificação é hipótese). A faixa 381–396 contém integralmente a `evidencia`, que é citação literal e contígua da fonte (diferenças só de pontuação/capitalização, que a regra de comparação ignora). Não há mais afirmação sem lastro; a unidade passa a `lastreada`, sem gravidade residual."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "vamos colocar aqui um terror no início",
+      "explicacao": "A estrutura de som (terror no início; filtro preto e branco + efeito de erro; suspense/épica testados no meio; \"Glory\" guardada para o final) está sustentada pela fala dentro da faixa. Mas o corpo acrescenta framing interpretativo que a fala não diz literalmente: \"no momento em que a neta se assusta ao ver a avó com o calçado novo\", \"numa virada da história\" e \"junto da chamada de ação final\" são inferências razoáveis do extrator a partir do roteiro do anúncio, não afirmações do professor. Além disso, na ordem real de fala o professor menciona a música \"Glory\" (dizendo que vai deixá-la para o final) antes de discutir o filtro preto-e-branco/efeito de erro e as músicas de suspense/épica — a unidade reordena para refletir a posição final no anúncio, não a ordem de narração. O `nota` já sinaliza parte dessa incerteza (escolha de música feita visualmente) e a `confianca: media` é adequada, então o impacto prático é baixo, mas a moldura narrativa acrescentada extrapola o que a fala afirma."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Produto físico é isso aqui Você cria um anúncio Em cima do que o cliente está querendo ver Que é o produto",
+      "explicacao": "A correção de F2 foi aplicada corretamente. `plataformas` passou a `[\"geral\"]` e `perecivel` a `false`, coerente com a regra da taxonomia de que menção de onde um exemplo rodou (locução do anúncio de exemplo feita com ElevenLabs) não tira o caráter geral da orientação sobre estrutura de anúncio. O nome ElevenLabs foi preservado em `nota`, agora dizendo explicitamente que a unidade não ensina nada da ferramenta, e mantido no passo 4 do corpo apenas como menção do exemplo, sem virar orientação de plataforma. O corpo continua fiel à fala e na mesma ordem da fonte (produto → história desconectada → imagens/vídeos → som/locução → CTA), e a `evidencia` permanece dentro da faixa 665–712, citação literal e contígua. A unidade passa a `lastreada`, sem gravidade residual, e deixa de aparecer indevidamente em qualquer linha de cobertura de `elevenlabs`."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4 (tipo `estrutura`, tema `som-e-sentimentalismo`): o conteúdo é a sequência de escolhas de som feitas pelo professor para este anúncio específico de exemplo (Comfort Size), sem que ele enuncie explicitamente uma regra geral do tipo \"sempre comece com terror, depois...\" — ao contrário da unidade 5, em que há uma generalização explícita (\"Produto físico é isso aqui\"). Isso a aproxima mais de um `exemplo` (caso narrado, com Situação/O que aconteceu/Lógica) do que de uma `estrutura` reutilizável como molde geral; a classificação atual pode levar um agente a tratar como template universal algo que a fala apresenta como decisão pontual de edição. Ajuste sugerido: reclassificar como `exemplo` ou reforçar em `condicoes`/corpo que é a lógica de sonorização daquele anúncio específico, não uma régua fixa de ordem de efeitos."
+  ],
+  "material": [],
+  "resumo": "Conferência focal restrita às unidades 3 e 5 confirma que as duas falhas do ciclo anterior foram sanadas dentro do critério de aceite: em U3, o corpo e o título deixaram de afirmar o mecanismo do atalho CTRL+B, mantendo essa leitura isolada em `nota` como inferência não confirmada, com `confianca: media` e evidência dentro da faixa; em U5, `plataformas` foi reduzida a `[\\\"geral\\\"]`, `perecivel` passou a `false` e a menção a ElevenLabs ficou preservada em `nota` como exemplo, sem virar orientação de ferramenta. Nenhuma das duas correções introduziu problema novo de fidelidade, cobertura, perecibilidade, contrato ou material dentro do escopo revisado. As demais unidades do arquivo não foram reabertas, por estarem fora do alcance desta conferência."
+}

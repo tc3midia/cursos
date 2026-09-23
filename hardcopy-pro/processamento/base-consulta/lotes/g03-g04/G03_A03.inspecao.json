@@ -1,0 +1,53 @@
+{
+  "aula": "G03_A03",
+  "arquivo_sha256": "f02f585401aff9df45419616ae0bbaaaa3a525f67b4466699ac97389a85e9c41",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2
+  ],
+  "hashes_unidades": {
+    "1": "31ac8e89e2555021536994180df446ef02e801b4bc5774876ac2e6f60c6f9fa2",
+    "2": "1c1428b55ab6e779a3c2d06ac99c02023f2384b7341739bc9ab90d38e11c33d6"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então a base de você hoje entender que a criatividade só serve quando é pra fazer dinheiro é muito importante",
+      "explicacao": "O corpo está lastreado na fonte. O problema não é criar, e sim validar ou fazer uma oferta (00:30–00:42). A criatividade que não coloca dinheiro no bolso não serve para nada (00:42–00:55). O professor contrasta a criatividade de quem fica só falando de ideias com a de quem a usa para estudar uma cópia (01:32–01:55). A unidade atribui isso ao professor e escopa para copy em corpo e `condicoes`, e a faixa 30–160 cobre esse conteúdo. Um ajuste menor: o professor faz uma concessão que a unidade não preserva. Depois de chamar a criatividade de conversa solta de 'criatividade de merda que não serve pra nada', ele diz 'É claro que cada um é cada um e várias pessoas podem utilizar isso a seu favor', e só então volta a 'o que a gente tá falando aqui é copy'. Como o corpo já limita a orientação a copy, o efeito prático é pequeno. Sobre a classificação, ver o item de `contrato`: a tarefa `validar-oferta` não corresponde ao que a aula ensina."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Percebi que todas essas pessoas do mundo inteiro referenciavam os Estados Unidos, John Benson e várias pessoas.",
+      "explicacao": "Os pontos centrais estão na fonte e atribuídos ao professor. São eles: 'o inexistente existe no existente', 'Nada nesse mundo é criado, sempre é copiado', quem 'aprimoram aquela cópia', os seis anos de referência até o Hard Copy, 'Se você ficar trancado no seu quarto... você pode agilizar esse processo saindo para a rua' e 'é uma questão de percepção'. A faixa 140–286 contém a evidência (160–166) e o fecho sobre percepção (280–282). Um ajuste menor: o corpo diz que ele se referenciou em 'autores e métodos americanos'. A fonte diz só que o mundo inteiro referenciava 'os Estados Unidos, John Benson e várias pessoas', e que ele passou seis anos 'me referenciando'. A palavra 'métodos' não está ali. O número 'seis anos' está atribuído a ele como caso pessoal e não virou régua, o que é correto."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 120,
+      "trecho_fonte": "É claro que cada um é cada um",
+      "descricao": "Concessão do professor logo após dizer que a criatividade de quem fica só falando de ideias não serve para nada: cada um é cada um e várias pessoas podem usar isso a seu favor. Só depois ele delimita que o assunto ali é copy. A unidade 1 preserva o limite a copy, mas não a concessão.",
+      "gravidade": "menor",
+      "efeito_pratico": "O leitor pode ler 'não serve para nada' como juízo absoluto sobre criatividade em geral. O corpo e a `condicoes` da unidade 1 já restringem a orientação a copy, então a decisão de quem consulta muda pouco."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "`contexto`, quarta frase: 'O fecho da transcrição tem resíduo de silêncio, que não foi usado.' O FORMATO (seção 3) manda não mencionar resíduo de silêncio no contexto. Basta remover essa frase; o resto da frase ('não traz procedimento, ferramenta nem métrica') pode ficar.",
+    "Unidade 1: `tipo: regra` com `tarefas: [\"validar-oferta\"]`. A aula não ensina a validar oferta. Ela só diz que 'o problema é validar ou então fazer uma oferta em cima daquilo' e que a criatividade só serve quando faz dinheiro. Um agente que consulte a tarefa `validar-oferta` (testar demanda antes de produzir o produto) cairá numa unidade motivacional sem método. Como `regra` exige tarefa e nenhuma tarefa da taxonomia se encaixa, `conceito` com `tarefas: []` seria mais fiel. Classificação discutível, portanto ajuste menor."
+  ],
+  "material": [],
+  "resumo": "As duas unidades estão lastreadas na fala e dentro de suas faixas. Não há desvio, sem-lastro nem número ou copy tratados como régua, e a aula não tem material de apoio. Os apontamentos são só menores: a concessão 'cada um é cada um' não foi preservada, 'métodos' foi acrescentado em 'autores e métodos americanos', a tarefa `validar-oferta` da unidade 1 não bate com o conteúdo, e o `contexto` cita o resíduo de silêncio. Percorri a transcrição inteira à procura de omissões e não achei outra relevante; o trecho do 'auditor' está degradado e o resíduo final ('Legenda Adriana Zanotto', 'E aí') não é fonte."
+}

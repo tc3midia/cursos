@@ -1,0 +1,89 @@
+{
+  "aula": "G08_A10",
+  "arquivo_sha256": "3087ff227ebbff85299fe565a097d580ade80192a34108e05cf2c6a197c5d6ee",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "2c292736d73d980402368ec15f230741f88e2681a6600da4952e1d2e4259fa0b",
+    "2": "531274b22abc333c79010bdc0a7c7d29c42e44fa97b48018fd1fbd6b012ad9e5",
+    "3": "3a58d2ed221df9f3b9717b84ceee5221a20adc8d46e95d394e44402ba12ba48e",
+    "4": "76121c25f7722a326f9e5ba7e37892692d08a4454c596291ee6e995d1ebfd6e3",
+    "5": "afe46598bc8218dc905248d515615884ad0ec2af06ca20f1187ed5bf9efc0fdd"
+  },
+  "citacoes_nao_literais": [
+    "Então lembre-se, o hard copy é pra você Que tá querendo iniciar um produto digital [...] O hard sound É toda a parte de sentimentalismo e som Já o backstage Eu te mostro Do zero Como eu criei a copy do hard ads A copy que converteu quase 60% a sua visualização"
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "De nada adianta você ter um bom anúncio Se a sua página de vendas ou produto não vale nada",
+      "explicacao": "A unidade sintetiza corretamente duas afirmações consecutivas do professor (50–78s): que anúncio bom não compensa produto/mecanismo único ruim, e que anúncio bom não compensa página de vendas/produto ruim. A síntese 'anúncio, mecanismo único e página de vendas precisam ser bons ao mesmo tempo' é uma reformulação lógica fiel, sem adulterar número, condição ou atribuição. Não perecível, correto (é um princípio geral, não preso a tela/preço/plataforma)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aqui meus amigos é o seguinte, no início a gente foca nos conceitos básicos para você criar um bom mecanismo único e um bom produto uma boa copy, então tem de sub nicho até plot twist, tem a copy push zoom, a página de vendas e a estruturação toda de uma VSL",
+      "explicacao": "A lista da unidade (mecanismo único, produto, copy, subnicho até plot twist, página de vendas, estruturação de VSL) segue a ordem da fonte. O fragmento 'tem a copy push zoom' entre 'plot twist' e 'página de vendas' está degradado na transcrição (não corresponde a nenhuma grafia da tabela nem é inteligível); a unidade corretamente não o extrai, em linha com a regra de que trecho degradado de transcrição não é fonte. A condição 'criada para você iniciante... no zero' foi preservada em `condicoes`. Nota e confiança 'media' condizem com a identificação por hipótese de 'Hard Copy' (grafada como 'Rádio Cop' dentro da própria faixa, em 158s aprox. não, na verdade dentro de 66–96s antes da faixa; a hipótese já está estabelecida no restante da aula e a nota está presente)."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque nós fomos os primeiros do mundo a criar uma narrativa de vendas Baseada no Kinshoten Ketsu Existe narrativa de vendas no Três Atos Na Jornada do Herói Existe com Premissa Existe com Jornada da Mulher",
+      "explicacao": "A unidade atribui corretamente a alegação de originalidade ('primeiro do mundo', 'primeiro brasileiro') ao professor, sem tratá-la como fato confirmado pela base, conforme exigido para afirmações de originalidade. A comparação com outras narrativas (três atos, jornada do herói, premissa, jornada da mulher) reflete fielmente a fonte. Nota cobre corretamente as duas identificações por hipótese ('Hard Copy' e 'Kishotenketsu'), com confiança rebaixada para 'media', dentro da faixa 151–224s onde 'Rádio Cop' e 'Kinshoten Ketsu' aparecem deformados (158,5s)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então lembre-se, o hard copy é pra você Que tá querendo iniciar um produto digital [...] O hard sound É toda a parte de sentimentalismo e som Já o backstage Eu te mostro Do zero Como eu criei a copy do hard ads A copy que converteu quase 60% a sua visualização",
+      "explicacao": "A unidade lista, na ordem da fonte, os cinco apontamentos finais (Hard Copy, Hard Sound, Backstage, recapitulação, suporte). Dentro da faixa 278–352s, 'hard copy' e 'hard sound' já aparecem grafados corretamente na transcrição (sem deformação), então a ausência de nota de hipótese aqui não é falha. O número 'quase 60%' é corretamente atribuído como alegação do próprio professor sobre sua copy do Hard Ads, não como dado de mercado ou régua, evitando o desvio típico de copy/alegação tratada como fato."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Quando você vem aqui, ó Na nossa área de membros e clica no Rádio Cop provavelmente você vai ser redirecionado para uma VSL caso você não tenha o acesso, mas caso você tenha, você vai ser redirecionado para cá",
+      "explicacao": "O `limite` descreve corretamente a natureza majoritariamente transicional/navegacional da aula e sinaliza que parte do conteúdo depende de cliques na tela não descritos o suficiente para virar procedimento, em linha com a regra de aula de tela ('Se o essencial ficou na tela, registrar um limite'). A evidência citada (clique em 'Rádio Cop' na área de membros) sustenta essa caracterização."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 87,
+      "trecho_fonte": "provavelmente você vai ser redirecionado para uma VSL caso você não tenha o acesso, mas caso você tenha, você vai ser redirecionado para cá",
+      "descricao": "A fonte explica que, ao clicar em Hard Copy na área de membros, o destino é condicionado ao acesso: sem o produto, o aluno é redirecionado a uma VSL de venda; com acesso, é redirecionado à área de treinamento. Nenhuma unidade preserva essa condição.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base não sabe que Hard Copy é um produto separado com controle de acesso dentro da área de membros, nem que o clique pode levar a uma página de vendas em vez do conteúdo, o que pode gerar confusão sobre como localizar o treinamento."
+    },
+    {
+      "inicio": 220,
+      "trecho_fonte": "nessa aula aqui, na prática, eu mostro, na aula 11, do zero, olha aqui, são 11 minutos e 35, onde eu mostro, do zero, eu pegando uma VSL, que começa com o estruplo infantil e finaliza te vendendo um produto de relacionamento.",
+      "descricao": "O professor descreve um conteúdo específico da temporada 2 (aula 11): uma VSL completa de cerca de 11 minutos e 35 segundos, construída do zero, que abre com um caso de abuso infantil e termina vendendo um produto de relacionamento. Nenhuma unidade registra esse ponto.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base não sabe que a temporada 2 inclui um exemplo prático integral do Kishotenketsu do início ao fim, nem que esse exemplo usa um gancho de tema sensível (abuso infantil) — informação útil tanto para quem procura um exemplo completo do método quanto para avaliar adequação do conteúdo antes de indicá-lo."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "As cinco unidades desta aula (majoritariamente de transição/navegação) estão bem lastreadas na fala, com grafias deformadas ('Rádio Cop', 'Kinshoten Ketsu') tratadas corretamente via grafia adotada, nota e confiança rebaixada quando a identificação depende de hipótese, e a alegação de originalidade e o número '60%' corretamente atribuídos ao professor em vez de tratados como fato ou régua. Perecibilidade e contrato não apresentaram falhas; não há material de apoio para esta aula. Foram encontradas duas omissões de gravidade menor, não cobertas por nenhuma unidade: a lógica de redirecionamento condicional ao acesso ao clicar em Hard Copy na área de membros, e a descrição específica do conteúdo prático da aula 11 da temporada 2. Um trecho degradado da transcrição ('copy push zoom') foi corretamente deixado de fora pela unidade 2, conforme a regra de trechos degradados não serem fonte."
+}

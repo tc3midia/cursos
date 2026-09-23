@@ -1,0 +1,24 @@
+{
+  "aula": "G12_A02",
+  "arquivo_sha256": "5f1db8b00b8e646524b8311e2694e9db53c393e324790579caaa4dead3d35191",
+  "inspecao_sha256": "0af860406e92141e902cbefff9b6f81c6bb6f38742c7f8e7a7f636c855d56695",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos após a correção. Evidência nova da unidade 7 (\"a mesma mulher é cenário e porém agora ela dizendo e agora colocamos aqui mais uma parte do vídeo\") tem 19 palavras, é literal, contígua e está dentro da faixa 597–671; `versao` = 2 conforme o critério de aceite. Procedimento mantém `Pré-condição:` e lista numerada com 4 passos.",
+  "fidelidade": "F1 resolvida pelo critério de aceite: o passo 4 foi reduzido a \"Gere o clipe seguinte com esse prompt.\", lastreado em \"e agora colocamos aqui mais uma parte do vídeo\"; o inspetor, em conferência focal com fonte, atesta trecho literal para cada passo dentro de inicio–fim (passo 1 em \"vamos printar aqui, aperta link no seu teclado\", passo 2 em \"jogamos aqui para o Google Chat\", passos 3–4 na âncora) e que nenhum passo traz ação ou verificação que a fala não nomeia. `citacoes_nao_literais` vazio. Nas unidades intactas, preservadas por hash: unidade 13 `faixa-errada` de gravidade menor (1 de 15 unidades com faixa = 6,7%, abaixo do teto de 10%; o passo de gênero/idade está a ~1284–1303s, fora de 1102–1257) e unidade 4 com reagrupamento parcial da ordem das partes da estrutura sem mudança de conteúdo. Nenhum `sem-lastro` ou `desvio` material.",
+  "cobertura": "Inspetor localiza duas omissões, ambas menores: abrir a ferramenta \"Flow\" do Veo 3 e iniciar novo projeto antes de colar o prompt (539s) e conferir se o prompt devolvido pelo chat especifica português do Brasil (706s). A primeira é navegação de ferramenta perecível, parcialmente coberta pelo `limite` 8; a segunda é checagem cujo conteúdo já está no item 4 da unidade 4 (fala em português). Nenhuma muda decisão nem impede executar. Não veta.",
+  "perecibilidade": "Todas as 15 unidades com `perecivel: true`. Ferramentas identificadas por hipótese (Veo 3, ElevenLabs) com `nota` e `confianca` no máximo média; termo não confirmado (\"Google Chat\") mantido só em `nota` com `confianca: baixa`. Unidade 13 tem `nota` iniciada por \"Contorna política de plataforma ou direito de terceiros:\", tema `politicas-e-bloqueios` e `perecivel: true`. Sem apontamento do inspetor; nada escondido em unidade `geral`.",
+  "aplicabilidade": "A unidade 7 se sustenta sozinha: pré-condição explícita, quatro passos nomeados pela fala, nota que declara a incerteza sobre onde a captura é colada, e limite 8 registrando o que ficou só na tela; não há duplicata entre 7 e 8. `tipo`, `tema`, `tarefas` e `plataformas` levam ao lugar certo (vídeo por IA + criar prompt). Nas demais, `condicoes` da unidade 4 e 13 deixam claro que o exemplo é político e pessoal do professor; unidade 13 avisa que a decisão de aplicar é de quem consulta. Sem veto.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Unidade 13: estender `fim` de 1257 para ~1305 para cobrir o passo de seleção de gênero masculino e idade mais avançada (trecho literal do inspetor a ~1284–1303s); faixa-errada menor, 1/15 = 6,7% < 10%.",
+    "Unidade 4: reordenar os itens 2 e 3 para seguir a ordem da fala (cenário/vestuário antes da descrição física e de comportamento), ou fundir em um item; conteúdo inalterado segundo o inspetor.",
+    "Omissão menor (539s): registrar, em `nota` ou pré-condição da unidade 6, que o prompt é colado após abrir a ferramenta 'Flow' do Veo 3 e iniciar novo projeto — navegação perecível, parcialmente coberta pelo limite 8.",
+    "Omissão menor (706s): registrar, em `nota` da unidade 4 ou 9, a checagem de que o prompt devolvido pelo chat especifica português do Brasil antes de copiá-lo para a ferramenta de vídeo."
+  ],
+  "proximo": "Aprovar: status da aula para `revisado`. Ajustes menores podem ser aplicados em lote, sem abrir ciclo; o mais útil é o `fim` da unidade 13. Registro para a coordenação: a conferência veio marcada como ciclo 3, mas o histórico do arquivo traz ciclo 0 (reparo de contrato, C1/C2 e script) e ciclo 1 (F1); conferir a contagem no laudo para o teto de dois ciclos."
+}

@@ -1,0 +1,67 @@
+{
+  "aula": "G04_A04",
+  "arquivo_sha256": "fe98a5726457f0384dd3161c90e94d46d2e8d43b0aeccfd0f657c53395499e85",
+  "inspecao_sha256": "d5eef4f49c93c5529eac5e8d8f276a7da755e351467fc991be18769c6370f258",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então o veto de contrato não se aplica. O script não pega dois problemas da unidade 6: uma tarefa errada que a própria `nota` manda ignorar e uma regra de grafia por hipótese descumprida. Eles estão tratados em aplicabilidade e fidelidade.",
+  "fidelidade": "A fidelidade falha nas unidades 2 e 6. As outras sete estão lastreadas com trecho literal e só têm ajustes menores.\n\n**Unidade 2.** O inspetor comprova com trecho literal que a fonte traz uma frase truncada: \"Ele vai pegar a pessoa que vale na academia\". O corpo troca essa frase por \"pega quem já está pronto para comprar aquilo\", que a fala não diz. O inspetor classificou como desvio menor, e eu não acompanho essa gravidade por três motivos:\n- É afirmação sem fonte sobre qual público o formato atinge, e a consequência que o próprio inspetor descreve muda a decisão de quem consulta: o agente concluiria que anúncio de apresentação serve para fundo de funil.\n- A unidade se contradiz, porque diz que o formato não pega consciência alta e que pega quem está pronto para comprar.\n- A exceção de fonte mal transcrita exige que a unidade preserve a incerteza. Aqui ela foi resolvida por invenção, e `confianca: media` com `nota` genérica não autoriza manter erro conhecido.\n\n**Unidade 6.** A falha não foi apontada pelo inspetor, mas aparece nas próprias unidades. O corpo usa \"Biblioteca de Anúncios\", que a tabela do FORMATO marca como identificação por hipótese, e a `evidencia` mostra a grafia \"Ads Libraria\". A `nota` não registra como a fonte grafou. A orientação depende de qual ferramenta é, e a `confianca` está `alta`, quando o teto é `media`. Isso cai em \"ferramenta identificada por hipótese sem `nota`\".\n\nNão há copy de exemplo tratada como fato, resíduo de silêncio usado como fonte nem ressalva do professor suprimida. A unidade 1 preserva que o formato performa. Os números vistos na tela (29 reais, contagens de anúncios) ficaram fora dos corpos.\n\nSobre faixa: uma frase da unidade 6 vem de 115–121 s, fora da faixa 465–530. O inspetor não classificou a unidade como `faixa-errada`, e a âncora está dentro da faixa, então fica como ajuste menor a resolver na mesma edição.",
+  "cobertura": "Não há veto de cobertura. O inspetor declarou busca integral de omissões e achou uma só, em 420 s: anúncio com abertura diferente que pula para a venda, \"quase acertou\", faltou o desenvolvimento. Concordo que é menor. A unidade 7 já manda fazer a conexão entre o gancho e o produto, e a unidade 3 já cobre que quem tem contexto e acrescenta texto \"decola mais\". A falta desse diagnóstico não muda a decisão nem impede executar.\n\nFalta também um `limite` para o conteúdo que ficou só na tela. Trato como ajuste menor, por analogia com \"oferta sem o `limite` correspondente\": as notas das unidades 5 e 8 já avisam que contagens e análises estavam na tela. Recomendo criar o `limite` como unidade 10, mas ele não é critério de aceite.",
+  "perecibilidade": "Não há veto de perecibilidade. O inspetor não achou perecível escondido, e a leitura direta das unidades confirma.\n- As unidades que tratam da Biblioteca de Anúncios, de afirmação de mercado e de anúncios de concorrentes (1, 2, 3, 5, 6 e 8) estão com `perecivel: true`.\n- As unidades marcadas `geral` e `perecivel: false` (4, 7 e 9) trazem orientação de roteiro sem tela, preço ou dado de mercado.\n- O \"saiba mais\" da unidade 7 é o nome do botão de chamada do anúncio e aparece de passagem. A orientação vale sem ele, então não sustenta veto.",
+  "aplicabilidade": "A aplicabilidade falha na unidade 6. A tarefa `criar-prompt-ou-agente` não tem relação com o corpo, que trata de pesquisa de concorrência na Biblioteca de Anúncios. O próprio extrator escreveu na `nota` que ela \"não se aplica; ignore\".\n\nNão é classificação discutível entre dois valores defensáveis: é erro conhecido mantido no metadado. O efeito alcança os derivados que o agente consulta antes do corpo:\n- `cobertura.jsonl` passaria a marcar `criar-prompt-ou-agente` × `meta-ads` como `presente`.\n- `tarefas/criar-prompt-ou-agente.md` listaria a unidade.\n- A `nota` não entra no hash nem nesses índices, então um aviso dentro dela não protege quem consulta.\n\nAs demais unidades se sustentam sozinhas: não há \"como eu mostrei\" sem explicação, e contexto × texto é explicado na unidade 3. Ficam como ajuste menor:\n- as unidades 1 a 3 marcadas `meta-ads` quando a orientação é de roteiro, o que é defensável porque os anúncios analisados são da Meta;\n- a tarefa `pesquisar-publico-e-subnicho` na unidade 5;\n- a unidade 4 narrar a cena antes de enunciar a regra;\n- a unidade 9 repetir a unidade 7.",
+  "falhas": [
+    {
+      "id": "G04_A04-F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor: \"Ele vai pegar a pessoa que vale na academia\". A frase está truncada e vem depois de \"mostrar para o cliente aquilo que ele quer\". Segundo o inspetor, a fala só afirma que a apresentação do produto \"não vai pegar topo de funil\" e \"não vai pegar a pessoa que tem um nível de consciência alta\". O corpo acrescenta \"pega quem já está pronto para comprar aquilo\", que a fala não diz e que contradiz o \"não pega consciência alta\" da mesma unidade. O inspetor ainda suspeita que \"alta\" seja erro de transcrição. A `nota` atual diz apenas que o trecho é confuso.",
+      "impacto": "Um agente que use a unidade para definir o público ou diagnosticar um anúncio conclui, com lastro aparente, que anúncio de apresentação serve para fundo de funil. A fonte não sustenta essa conclusão. A contradição interna ainda torna a unidade inutilizável para classificar nível de consciência.",
+      "mudanca_minima": "Retirar do corpo a afirmação sobre quem a apresentação \"pega\". Manter só o que a fala diz: apresentação do produto é diferente de contexto do produto; ela mostra ao cliente aquilo que ele quer; segundo o professor, não capta topo de funil nem quem tem nível de consciência alta. Registrar na `nota` que a frase seguinte da fonte está truncada (\"Ele vai pegar a pessoa que vale na academia\"), que o público atingido não é recuperável e que \"alta\" pode ser erro de transcrição. Manter a observação sobre o preço de 29 reais. A `confianca` fica no máximo `media`, ou `baixa` se o redator entender que a dúvida sobre \"alta\" atinge o núcleo. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 2 não contém \"pronto para comprar\" nem outra afirmação positiva sobre o público atingido que a fala não faça. A `nota` cita a frase truncada como transcrita e registra a dúvida sobre \"alta\". A `confianca` não é `alta`. `versao` ≥ 2. O validador retorna zero erros. A reinspeção da unidade 2 retorna `lastreada`."
+    },
+    {
+      "id": "G04_A04-F2",
+      "unidades": [
+        6
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Na unidade 6, `tarefas` é [\"analisar-concorrencia\", \"criar-prompt-ou-agente\"], e a `nota` diz literalmente \"Tarefa criar-prompt-ou-agente não se aplica; ignore.\". O inspetor confirma, na seção de contrato, que a tarefa não tem relação com o conteúdo (pesquisa de concorrência na Biblioteca de Anúncios) e que é erro conhecido mantido no metadado.",
+      "impacto": "`cobertura.jsonl` e o índice `tarefas/criar-prompt-ou-agente.md` são gerados a partir de `tarefas`. O agente que consulta a cobertura antes de responder veria `criar-prompt-ou-agente` × `meta-ads` como `presente` e seria levado a uma unidade que não ensina nada sobre prompt ou agente. A `nota` não aparece na cobertura, então o aviso de ignorar não chega a quem consulta.",
+      "mudanca_minima": "Remover `criar-prompt-ou-agente` de `tarefas` da unidade 6, deixando `analisar-concorrencia`. Apagar da `nota` a frase \"Tarefa criar-prompt-ou-agente não se aplica; ignore.\". Incrementar `versao`.",
+      "criterio_de_aceite": "`tarefas` da unidade 6 não contém `criar-prompt-ou-agente`. A `nota` não traz instrução de ignorar metadado. `versao` ≥ 2. O validador retorna zero erros. Nos derivados, a unidade 6 não aparece em `criar-prompt-ou-agente`."
+    },
+    {
+      "id": "G04_A04-F3",
+      "unidades": [
+        6
+      ],
+      "veto": "fidelidade",
+      "evidencia": "A falha é visível nas próprias unidades. A `evidencia` é \"Primeira coisa, não entre em Ads Libraria\". O título e o corpo usam \"Biblioteca de Anúncios\", grafia adotada que a tabela do FORMATO marca como hipótese. A `nota` não diz como a fonte grafou. A `confianca` está `alta`, e a orientação (não entrar nessa ferramenta) depende de qual ferramenta é. O FORMATO exige `nota` com a grafia da fonte e `confianca` no máximo `media` nesse caso. A rubrica lista \"ferramenta identificada por hipótese sem `nota`\" como item de fidelidade. O inspetor não apontou este item.",
+      "impacto": "O agente recebe, com confiança alta, a proibição de usar uma ferramenta nomeada. Ele não fica sabendo que o nome é identificação por hipótese sobre uma transcrição deformada. Assim não consegue pesar a incerteza nem verificar o termo na fonte.",
+      "mudanca_minima": "Acrescentar à `nota` da unidade 6 que a fonte grafa \"Ads Libraria\" e que a identificação com a Biblioteca de Anúncios é hipótese. Baixar `confianca` para `media`. Fazer na mesma edição de F2.",
+      "criterio_de_aceite": "A `nota` da unidade 6 registra a grafia da fonte (\"Ads Libraria\") e que a identificação é hipótese. `confianca` é `media`. O corpo e o título continuam com a grafia adotada. O validador retorna zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 6: a frase final do corpo (o pedido de não gravar a tela) vem de 115–121 s, fora da faixa 465–530. O trecho literal do inspetor é \"não fica gravando telinha\". A unidade já será editada por F2 e F3, então vale retirar a frase na mesma edição. Não é critério de aceite.",
+    "Falta uma unidade `limite` dizendo que o conteúdo dos anúncios analisados (imagem, texto, contagens) ficou só na tela. O `contexto` e as notas das unidades 5 e 8 já avisam em parte. Recomenda-se criar a unidade 10 (`limite`, `perecivel` conforme o contrato). Se criada, ela precisa ser inspecionada.",
+    "Omissão menor em cerca de 420 s: anúncio que abriu diferente e depois vendeu direto (\"quase acertou\", \"ele não fez o desenvolvimento\"). Pode virar complemento da unidade 7 ou unidade nova. A falta não muda a decisão de quem consulta.",
+    "Unidade 3: \"médico\" é inferência, porque a fala diz \"doutor\", \"uma autoridade\" e \"um monte de letras\". O título \"não basta\" é mais forte que a fala, em que o anunciante escala bem e só poderia melhorar. O corpo está fiel.",
+    "Unidade 4: \"leve mais, pague menos\" reconstrói um trecho degradado (\"leve sim, pague três\") sem avisar na `nota`. A unidade ficaria melhor enunciando a regra primeiro e o caso depois.",
+    "Unidade 5: a fala diz que \"todos esses anúncios\" têm um só anúncio rodando, e o corpo suaviza para \"a maioria\". A faixa fecha cerca de 1 s antes do fim da frase. A tarefa `pesquisar-publico-e-subnicho` é discutível. `condicoes` cita a Biblioteca de Anúncios sem `nota` sobre a grafia da fonte.",
+    "Unidade 8: \"funciona bem, mas não funciona mais igual antes\" foi dito sobre um só player, e o corpo estende a \"esses players\". O contraste entre antes e agora se perdeu.",
+    "Unidade 9: o título afirma como fato o que é ironia do professor, e a própria aula diz que esses anúncios performam. \"O que consideram certo\" não está na fala, que diz \"trabalhando duro e fazendo o nosso melhor\". A unidade repete a 7 e é candidata a retirada numa revisão futura.",
+    "Unidades 1 a 3: `plataformas: meta-ads` para orientação que é de roteiro de anúncio. É defensável porque os anúncios analisados são da Meta, mas `geral` também caberia. Na unidade 1, `condicoes` descreve uma observação (funciona bem para público 50+), não uma restrição.",
+    "Unidade 7: \"saiba mais\" é o nome do botão de chamada do anúncio, numa unidade `geral` e não perecível. A menção é incidental e não pede mudança."
+  ],
+  "proximo": "O arquivo vai ao redator de correções com as falhas F1, F2 e F3, no ciclo 1 de 2.\n\n**O que corrigir**\n- Só as unidades 2 e 6 são editadas. F2 e F3 entram numa única edição da unidade 6.\n- Vale retirar da unidade 6, na mesma edição, a frase que vem de fora da faixa.\n- As unidades 1, 3, 4, 5, 7, 8 e 9 não devem ser tocadas, para que a evidência do inspetor continue valendo pelos hashes.\n- Criar a unidade 10 (`limite` de tela) é opcional. Se for criada, entra na reinspeção.\n\n**O que conferir depois**\n- Rodar o validador e exigir zero erros.\n- Reinspecionar as unidades 2 e 6, e a 10 se existir, contra os critérios de aceite.\n\n**Pedido ao inspetor na reinspeção da unidade 2**\n- Transcrever literalmente o trecho entre 139 e 170 s em torno de \"nível de consciência alta\". O objetivo é confirmar se \"alta\" está na fonte e calibrar a `confianca`."
+}

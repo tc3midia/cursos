@@ -1,0 +1,82 @@
+{
+  "aula": "G01_A08",
+  "arquivo_sha256": "5d8f7b962f78f77b47bcaa135fdce973c8b9890149ac58cfc5b897297af8f621",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "c1cdf4cdb9c0a3914ea217e389f328b823066642d303e8e37105df8e07829f57",
+    "2": "ff97dedef5549bff648347c64ebe6161bf36f7c2811d34760388179ea9c7311a",
+    "3": "a750c21696ffb65101986b9dfea33928023d1fb89f2e00bb861dc8b1c0e887d2",
+    "4": "6901b304e5e1ae09b43a1800eba54cd3fb1095faa7a82a5fbb2234983182f2cc",
+    "5": "fa6c63bedb3327389fad4d2abb6df09b7835b9979cfc04d54ab161faa46df00f",
+    "6": "c2dd54588169bba453fde2d2a01e5ddee02a37062598cf56e20ea646fe5edb49"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não sei se é a melhor opção, eu não indico nem aconselho porque eu nunca experimentei e eu nunca comprei esse tipo de conteúdo",
+      "explicacao": "Todos os pontos do corpo estão na fonte dentro de 0–66 s: preferência por página de vendas para Low Ticket, preços de exemplo (R$29, R$49, R$39), funil e estrutura fortes, venda sem order bump e sem upsell, cursos sobre isso, \"nunca consegui\" e a ressalva \"não indico nem aconselho\". A preferência ficou atribuída ao professor e a ressalva foi preservada. A grafia adotada \"order bump\" substitui \"ordem bump\" da fonte, como o FORMATO manda. Os preços aparecem como exemplos, e a nota diz isso. A palavra \"faixa\" em `condicoes` poderia sugerir um intervalo, mas a nota corrige. `perecivel: true` está certo por causa dos preços."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Problema, consequência, invalidação e solução",
+      "explicacao": "Os quatro blocos e a ordem batem com a fonte: problema, consequência, invalidação e solução. Solução é o curso, o produto, o encapsulado ou, para afiliado, o produto do produtor. A condição de escopo (produto físico, dropshipping, PLR, produto digital, videoaulas) está em 66–80 s e aparece atribuída ao professor. A faixa 66–294 cobre o conteúdo. A frase final sobre PLR só registra que o termo não foi definido, o que é coerente com o FORMATO."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Que fala literalmente desse mecanismo único",
+      "explicacao": "O núcleo está em 96–146 s: o problema parece óbvio, a pessoa dá respostas rasas (\"eu como muito\", \"não vou pra academia\"), o exemplo é a mentalidade como causa de não emagrecer, e a reação \"Como assim? Deixa eu entender melhor isso\" faz a pessoa ler a página. A última frase do corpo (\"liga esse tipo de problema ao mecanismo único\") só se apoia em 152,6–155,1 s, isto é, cerca de 6 s depois do `fim` 146. A ligação é uma leitura razoável da fala, mas é inferência: o professor diz que a página de exemplo \"fala literalmente desse mecanismo único\". Ajuste mínimo: estender `fim` até uns 165 s ou tirar a frase. Não muda a orientação de quem consulta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu sempre aconselho você a falar sobre a consequência dela não resolver o seu problema",
+      "explicacao": "As duas naturezas de consequência (não resolver o problema ou não comprar o produto), a preferência atribuída (\"aconselha sempre\"), a razão (soa forçado e implorando pela compra), o \"mais do mesmo\" (engordar, ficar mal, morrer), o exemplo da bariátrica e a ligação com a reciprocidade estão na fonte, em 168–270 s. Os 20 e 30 quilos vêm de um caso de obesidade extrema, e o corpo os marca como \"por exemplo\", com o nicho em `condicoes`. Não viraram régua."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Onde você vai invalidar produtos",
+      "explicacao": "A ordem (invalidação, depois a solução como curso, produto, encapsulado ou produto do produtor para afiliado) bate com 270–294 s. O segmento longo de 4:36,9 a 4:54,3 é claramente comprimido, e a nota e a `confianca: media` registram isso. A frase \"a aula não detalha como escrever a invalidação\" é fiel ao pouco que a fonte traz. O conteúdo repete os blocos 3 e 4 da unidade 2, sem consequência para o uso."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu vou deixar uma página de vendas aqui embaixo",
+      "explicacao": "O professor remete a uma página de vendas de emagrecimento que criou, para mostrar como estruturou o mecanismo único e como fazer a VSL \"nesse modelo\". A fonte não descreve esse conteúdo, o que faz dele um `limite` correto. O fecho adia para a próxima aula a preparação para \"quinchu\", que a tabela do FORMATO lista como grafia de Kishotenketsu. A faixa 146–332 contém os dois trechos. `perecivel: true` está certo, por causa do link e do recurso do curso."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira e conferi as seis unidades contra ela. Todas estão lastreadas, sem número, condição ou atribuição adulterados, e a ressalva do professor sobre a venda só com o produto ficou preservada na unidade 1. O único ajuste é menor: na unidade 3, a frase que liga o problema ao mecanismo único se apoia em um trecho cerca de 6 s depois do `fim`. Não encontrei omissões, perecibilidade escondida, problemas de contrato nem divergência de material, porque a aula não tem material."
+}

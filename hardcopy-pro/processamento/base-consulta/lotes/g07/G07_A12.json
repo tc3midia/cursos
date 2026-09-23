@@ -1,0 +1,270 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A12",
+  "titulo": "Episódio 12 - CapCut (Serviços)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é a décima segunda do módulo de anúncios para negócios locais e mostra o professor editando, do início ao fim, um anúncio de serviço local (uma agência de gestão de tráfego) dentro do CapCut.",
+    "É majoritariamente uma aula de tela: o professor aponta menus, cores e posições na interface do editor enquanto fala, então boa parte dos ajustes de zoom e cor não é descrita com precisão suficiente para virar um procedimento completo.",
+    "A aula assume que o vídeo bruto (com a fala de um entrevistado) e o roteiro do anúncio já foram gravados antes, e que alguns elementos gráficos foram preparados em outro programa, citado de passagem como Canva.",
+    "O conteúdo cobre corte de trechos longos do material bruto, zoom no rosto do entrevistado, ajuste de contraste e exposição, um separador visual entre clipes, e depois a parte de som: escolha de trilha por sentimento, a técnica de silenciar a música em pontos de destaque, um efeito sonoro distorcido para dar ênfase, e cortes e fades de efeitos sonoros sobre a narração.",
+    "A aula não detalha como gravar o vídeo bruto, como escrever o roteiro do anúncio nem como configurar contas, pixel ou campanhas; ela fica só na etapa de edição em si dentro do CapCut."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Cortar trechos longos do bruto antes de seguir a edição",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 55,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao começar a editar o material bruto de um vídeo, remova primeiro os trechos que ficaram muito longos ou parados, antes de seguir para os demais ajustes (zoom, cor, separadores, som). O professor faz essa limpeza logo no início da edição do anúncio de serviço local.",
+      "evidencia": "vamos remover essa parte aqui que ficou muito longa",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Zoom no rosto do entrevistado usa recurso não identificado",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 54,
+      "fim": 80,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor amplia gradualmente o enquadramento do vídeo até focar no rosto da pessoa que fala no anúncio, usando um recurso do CapCut cujo nome ele mesmo diz não lembrar ('esse pino'). A transcrição não registra qual ferramenta, menu ou valores foram usados nessa aproximação, então o procedimento de zoom progressivo não pode ser reconstruído só a partir da fala.",
+      "evidencia": "eu esqueci o nome desse pino mas enfim não interessa o nome",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Reduzir contraste e exposição via Ajuste personalizado no CapCut",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 79,
+      "fim": 99,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: clipe de vídeo selecionado na linha do tempo do CapCut.\n1. Abra o menu Ajustes > Ajuste personalizado.\n2. Reduza o contraste e a exposição do clipe.\nO professor aplica esse ajuste ao vídeo do entrevistado do anúncio, sem detalhar o quanto reduzir de cada parâmetro.",
+      "evidencia": "ajustes, ajuste personalizado tá e olha só a gente vai pegar aqui ó contraste exposição diminuir",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Animações discretas ao inserir elementos feitos no Canva",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut",
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 169,
+      "fim": 195,
+      "condicoes": "Aplica-se à edição de um anúncio de serviço local (agência de gestão de tráfego) feito no CapCut, a partir de elementos preparados no Canva.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor prepara elementos gráficos no Canva e depois os anima dentro do editor de vídeo. Ele relata que o Canva 'ficou meio doido' na hora de fazer os ajustes, mas orienta manter a animação seguinte discreta, sem exagero — 'sem muita loucura, sem muita doideira' —, com um movimento mais comedido.",
+      "evidencia": "vamos fazer as animações, tá? Como sempre, sem muita loucura, sem muita doideira, uma coisa mais assim, ó",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Separador entre clipes com efeito 'escuro' na cor vermelha",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 276,
+      "fim": 310,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: clipes do anúncio já cortados e organizados na linha do tempo do CapCut.\n1. Insira um separador entre as partes do vídeo.\n2. Abra o menu de Efeitos e busque pela palavra 'escuro'.\n3. Entre os resultados, escolha a opção na cor vermelha.\nO professor usa esse separador escurecido em vermelho como marcação visual entre trechos do anúncio.",
+      "evidencia": "procura a palavra escuro aqui ó você vai ver escuro tem escuro aqui ó",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Reavaliar volume da narração após inserir som de clique",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 330,
+      "fim": 360,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao inserir um efeito sonoro de transição, como um som de clique, nos cortes do anúncio, reavalie o volume da narração original depois de ajustá-lo: o professor percebe, ao revisar, que a voz ficou baixa demais depois da mudança.",
+      "evidencia": "vamos diminuir essa voz aqui, tá? Colocar um cliquezinho aqui, ó",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Trilha 'épica motivacional' no momento de virada do anúncio",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 405,
+      "fim": 433,
+      "condicoes": "Demonstrado sobre um anúncio de serviço local (agência de gestão de tráfego); o professor testa uma primeira opção 'épica', descarta ('não gostei desse épico não') e escolhe uma segunda do subgênero 'épico, motivacional'.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No momento em que a narrativa do anúncio já convenceu e o argumento avança — o professor descreve como o ponto em que 'o bicho já tá pegando' — ele escolhe uma trilha do estilo 'épico, motivacional' para reforçar essa virada.",
+      "evidencia": "porque agora o pau já tá entrando dentro da pessoa ali, já o bicho tá pegando",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Calar a boca: silenciar a música no ponto de destaque emocional",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 451,
+      "fim": 464,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No trecho em que se quer destacar emocionalmente uma fala do anúncio, remova a música de fundo naquele ponto — o curso chama essa pausa de 'calar a boca'. Segundo o professor, deixar a música tocando ali tira 'aquele tesão, aquela emoção' do momento; o silêncio reforça o impacto da fala.",
+      "evidencia": "Removemos a música aqui porque a gente quer calar a boca.",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Som distorcido como efeito de ênfase no momento de maior impacto",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 464,
+      "fim": 488,
+      "condicoes": "Demonstrado logo após um trecho silenciado pela técnica de 'calar a boca'; o som distorcido é acrescentado sobre esse silêncio, no anúncio de serviço local usado como exemplo.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Inserir um efeito sonoro distorcido no momento de maior impacto do anúncio reforça a sensação de qualidade daquele trecho; o professor descreve esse recurso como 'o ouro do ouro' do vídeo.",
+      "evidencia": "quando você coloca um som desse aqui distorcido, então, meu amigo, aí a gente está falando do ouro do ouro.",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Cortar, reduzir volume e aplicar fade no efeito sonoro sobre a narração",
+      "tipo": "procedimento",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 522,
+      "fim": 548,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: um efeito sonoro já inserido sobre a narração original do anúncio.\n1. Corte o trecho do efeito sonoro no ponto desejado, usando o atalho Ctrl B do CapCut.\n2. Reduza o volume desse trecho e aplique um fade.\n3. Aumente o volume da narração original de volta ao nível padrão.\nA sequência evita que o efeito sonoro abafe demais a fala do anúncio.",
+      "evidencia": "dá um ctrl b diminui o volume aqui tá bom dá um fade",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Reaproveitar só o início de um efeito sonoro com fade out",
+      "tipo": "procedimento",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 548,
+      "fim": 563,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "baixa",
+      "nota": "A transcrição nomeia o efeito sonoro reaproveitado de forma ininteligível (algo como 'terror a Louma enterrou'); o nome não entra no corpo por não ser reconhecível.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: um efeito sonoro específico já usado antes em outro ponto do vídeo.\n1. Copie o efeito e cole-o (Ctrl V) no novo ponto do anúncio.\n2. Mantenha apenas o início do som, descartando o restante do trecho.\n3. Aplique um fade out ao final do trecho mantido.\nO professor reaproveita assim um som já testado em vez de buscar um novo.",
+      "evidencia": "pega só o início dele aqui ó só o início dela é o resto tá bom coloca aqui faz um fade out",
+      "versao": 1
+    }
+  ]
+}

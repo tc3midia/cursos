@@ -1,0 +1,24 @@
+{
+  "aula": "G16_A09",
+  "arquivo_sha256": "0644e67e713f0a3301bc9fb3d6b8abf8ba4291a8651d7d3ec31c751d023f4eb8",
+  "inspecao_sha256": "9ae703a9bff669a6cadb2660a3c08ab2893991a4039d59e0a564ba30235c967e",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "d8b5e6e0a4ef70fa984e2a9c27838557f86eda9017a7e29d3accdeecd9353333",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "O validador retornou zero erros. O único aviso (1 unidade, fora da faixa 3–60) é o resultado esperado para aula sem conteúdo didático e não veta. O inspetor apontou que a frase 5 do contexto menciona resíduo de silêncio, e o FORMATO manda não mencionar. Essa regra não tem marca [E], o script não a acusou e o resíduo não foi usado como fonte nem como evidência. Fica como ajuste menor.",
+  "fidelidade": "A unidade 1 está lastreada, com trecho literal da fonte, e não há nenhuma citação em `citacoes_nao_literais`. O inspetor confirma as duas listas: o que já foi mostrado (copy, edição, anúncio, som) e o que a temporada vai mostrar (VSL no VTURB, site, domínio, gestão de tráfego, operação, contingência, teste de criativo, teste de público). O pedido de atenção a cada ponto também está na fonte. A `nota` registra que o sujeito 'ele' não é identificado e que 'vTurbo' foi lido como VTURB por hipótese, com `confianca: media`, o que é adequado. Desvio menor: a fonte diz 'dessa temporada' e 'nessa temporada', e a unidade escreve 'temporada seguinte' sem registrar a inferência na `nota`. O contexto diz 'abertura da temporada' e o corpo diz 'temporada seguinte', e os dois divergem. Isso não altera número, condição nem o sentido do recado, e nada executável depende do ponto. Não é desvio material.",
+  "cobertura": "A inspeção foi integral e declara busca de omissões na fonte inteira (205 palavras). Não encontrou nenhuma. A aula é um recado sem passo, número ou regra, e uma unidade `limite` é o resultado correto segundo a rubrica e o FORMATO. O trecho inicial ausente da transcrição e o resíduo do fecho não contam como omissão.",
+  "perecibilidade": "`perecivel: true` está presente, como exigem o tema `curso-e-recursos` e a referência à estrutura de temporadas do curso. O inspetor não sinalizou nada. VTURB aparece só como item do que a temporada promete, e a unidade inteira já está marcada como perecível.",
+  "aplicabilidade": "A unidade se sustenta sozinha. Ela diz o que a aula é, que não ensina procedimento, e lista o que fica adiado. O tipo `limite`, o tema `curso-e-recursos`, `tarefas` vazia e a plataforma `geral` levam o agente ao lugar certo, porque nada ali é orientação de VTURB nem de domínio. `condicoes` situa a aula como transição. Ponto menor: 'consulte a temporada indicada' aponta para uma temporada que a fonte não nomeia. O agente não é levado a erro, porque a lista de temas permite localizar o conteúdo pelos índices de tema e tarefa. Não muda o uso.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Contexto, frase 5: remover a menção a resíduo de silêncio no fecho, porque o FORMATO manda não mencionar no contexto. Sugestão de texto: 'A transcrição não traz o começo da fala.' Motivo para ser menor: o resíduo não foi usado como fonte nem como evidência, e o validador não acusou erro.",
+    "Unidade 1, `nota`: registrar que 'temporada seguinte' é leitura do extrator e que a fonte só diz 'dessa temporada' e 'nessa temporada', sem nomear nem numerar a temporada. Motivo: a inferência não está registrada, mas não muda a decisão de quem consulta.",
+    "Unidade 1, corpo: trocar 'consulte a temporada indicada' por formulação que não pressuponha indicação nominal, por exemplo 'esses temas ficam para a temporada de operação do curso'. Motivo: a fonte não indica a temporada por nome. É ponto de autossuficiência e não causa erro de uso.",
+    "Alinhar a frase 1 do contexto ('recado curto de abertura da temporada de operação') com o corpo ('aviso sobre a temporada seguinte') numa formulação neutra: a aula anuncia o que a temporada de operação vai mostrar. Motivo: é inconsistência interna de redação. A fonte não decide entre as duas leituras."
+  ],
+  "proximo": "Aprovar o arquivo G16_A09 e promover o status para `revisado`. Os quatro ajustes menores ficam registrados e não abrem ciclo. Se forem aplicados em manutenção, a alteração de corpo incrementa `versao` e muda o hash da unidade 1, o que exige nova inspeção dessa unidade."
+}

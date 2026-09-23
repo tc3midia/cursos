@@ -1,0 +1,30 @@
+{
+  "aula": "G01_A03",
+  "arquivo_sha256": "99cf356baa3dc00e6f44e1bfdf5560070ddd2b980414d7fe2a7f053abc0f450b",
+  "inspecao_sha256": "34dc9431198e756d8507baa8927288aa5993df5ad38a92d2f43dbecceb126f8d",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "O validador devolveu zero erros e zero avisos. Os quatro apontamentos que o inspetor listou em `contrato` são editoriais e não erros de script: frase de resíduo de silêncio no contexto, \"aula anterior\" no contexto, plataforma da unidade 3 e tema da unidade 10. Ficam como ajustes menores. Na unidade 7, `versao` é 2 e há entrada do ciclo 1 em `correcoes`. Nada foi renumerado nem retirado.",
+  "fidelidade": "A falha G01_A03-F1 está resolvida nos cinco pontos do critério de aceite. (1) O corpo da unidade 7 não liga mais dicas de treino a \"algo que nunca viu\". (2) A novidade é atribuída ao processo vendido, e receitas e dicas aparecem como o que a pessoa já recebe; `fim` = 369, e a `evidencia` (294–309s) está dentro de 236–369. (3) `versao` = 2, com entrada em `correcoes`. (4) O validador não acusa erro. (5) O inspetor reconferiu a unidade contra 294–309s e 361–369s, com trechos literais e nenhuma citação não literal, e a devolveu como `lastreada`. A alteração não criou falha nova. O \"por isso\" e o \"precisa ser\" são leitura de redação que não muda a decisão de quem consulta. As outras nove unidades mantêm hash e evidência da inspeção integral, todas `lastreada` com gravidade nenhuma ou menor. Na unidade 3, a fonte ambígua está preservada com `nota` e `confianca: media`, como a rubrica admite. Nenhuma unidade foi marcada `faixa-errada`; os cortes de faixa nas unidades 4 e 5 são de poucos segundos e ficam como ajuste menor.",
+  "cobertura": "O inspetor declara ter buscado omissões e lista três, todas menores. A segunda, o critério do \"nunca visto\", está desatualizada. O texto dela ainda diz que a unidade 7 \"o inverte\", mas a unidade corrigida contém o critério, e o próprio resumo do inspetor diz que a omissão foi fechada. Desconsidero esse item. A ressalva \"tem como dar errado\" não veta, porque nenhuma unidade promete resultado e a falta dela não gera afirmação falsa. O enquadramento do script como IA também não veta: a nota da unidade 5 já diz que o conteúdo do script não está na transcrição e que ele pode ser um prompt. Não há etapa, régua ou alerta essencial ausente.",
+  "perecibilidade": "O inspetor não sinaliza nada. A unidade 3 (ClickBank e Hotmart), a unidade 5 (redes e script do curso) e a unidade 10 (parte 2 do curso) estão com `perecivel: true`. Não encontro preço, tela ou recurso escondido em unidade `geral`. Os \"100 ou 200 reais por dia\" da unidade 6 são a expectativa do aluno impaciente, atribuída ao professor, e não preço nem número de mercado.",
+  "aplicabilidade": "As unidades se sustentam sem a aula ao lado. A unidade 7, corrigida, se lê sozinha, traz as três marcas de `exemplo` e tem `condicoes` dizendo que o exemplo é ilustrativo. O procedimento da unidade 5 tem pré-condição, e a `nota` avisa que o script não está na transcrição. O \"no exemplo\" da unidade 9 se resolve dentro do próprio corpo. Dois pontos são discutíveis entre valores defensáveis e ficam como ajuste menor: `plataformas-de-venda` contra `geral` na unidade 3, e `mecanismo-unico` contra `curso-e-recursos` na unidade 10. A unidade 3 cita o Kishotenketsu sem explicar o termo, o que não muda o uso da regra. A aula não ensina técnica de contorno de política.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Contexto, 6ª frase: remover a menção ao resíduo de silêncio. O FORMATO, seção 3, manda não mencionar resíduo no contexto. O script não barra e a frase não afeta nenhuma unidade.",
+    "Contexto, 4ª frase: trocar \"na aula anterior\" por \"na aula 1\", como a fonte diz em 07:00–07:05. Esta aula é o Episódio 03.",
+    "Unidade 3: `plataformas` discutível entre `plataformas-de-venda` e `geral`. O título põe \"reformular concorrente é a base\" à frente do \"porém\" do professor. Ficou de fora que ele aprovaria a revisão e mesmo assim a copy não venderia. O Kishotenketsu é citado sem a explicação de uma linha, \"a estrutura narrativa do curso\".",
+    "Unidade 4: a segunda frase do corpo vem de 138–142s, fora de `fim` = 137. Estender `fim` para 142.",
+    "Unidade 5: `fim` = 277 corta o segmento 276,56–283,42s, onde está o passo 4. Estender para 284. A `nota` deveria dizer que o professor enquadra o script como uso de inteligência artificial. Os exemplos entre parênteses do passo 1 são do caso da academia e deveriam aparecer como exemplo.",
+    "Unidade 7: o \"por isso\" liga duas ideias que o professor não liga, e \"precisa ser\" endurece um pouco o \"vai vender algo que nunca foi visto\". Não muda o uso.",
+    "Unidade 9: corrigir a concordância em \"mecanismo únicos\". A glosa \"não a falta de tempo de treino\" troca a expectativa que o professor narra, de receber dicas de 30 ou 10 minutos por dia. \"Conseguir o que quer\" completa uma frase cortada na transcrição.",
+    "Unidade 10: o tema `curso-e-recursos` levaria o agente ao lugar mais direto. \"O que não foi tratado aqui deve ser buscado nela\" é inferência pequena; a fonte diz só \"para você entender melhor\".",
+    "Omissão menor em 376s: o professor diz que a margem de erro é praticamente nula, mas que \"tem como dar errado\" e que as chances caem com trabalho bem feito. Se houver edição futura, pode entrar como frase na unidade 4 ou na 7.",
+    "Inspeção: o item 2 de `omissoes` é resíduo da inspeção anterior, ainda diz que a unidade 7 \"o inverte\", e contradiz o resumo da conferência focal. Limpar no laudo."
+  ],
+  "proximo": "O ciclo 1 de correção está conferido e a falha G01_A03-F1 foi resolvida pelo critério de aceite, sem falha nova na unidade 7. A aula pode ir a `revisado`. Os ajustes menores ficam registrados e não abrem ciclo. Não é preciso nova chamada de inspetor nem de redator para este artefato."
+}

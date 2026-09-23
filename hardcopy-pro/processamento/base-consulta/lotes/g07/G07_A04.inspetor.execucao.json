@@ -1,0 +1,37 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T10:34:57+00:00",
+  "fim": "2026-09-22T10:42:55+00:00",
+  "duracao_ms": 473762,
+  "duracao_api_ms": 473729,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 51789,
+    "cache_creation_input_tokens": 20671,
+    "cache_read_input_tokens": 21796
+  },
+  "thinking_tokens": 47108,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.6049372,
+  "esperas_por_limite": [],
+  "sistema_sha256": "c38da934e999177ce624fc070dc25b23095d2dd5b0f0af5a40434028118cceba",
+  "pacote_sha256": "db76dd5cc99c9c7bad64ce50484a2cf4fbbed2395250903128dc537a0eaa9c38",
+  "aula": "G07_A04",
+  "rotulo": "lote-g07",
+  "arquivo_sha256": "cc4821e58f637b4a777459004685f479e737078443ae7386b7280f63428d75bc",
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g07/G07_A04.inspecao.json",
+  "resultado_sha256": "c665415f7dacdf33620d1d1b6232525efc026c6bf5b0b48cdca720b849eed62b"
+}

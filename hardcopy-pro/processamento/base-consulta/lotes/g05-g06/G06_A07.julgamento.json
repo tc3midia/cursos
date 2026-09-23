@@ -1,0 +1,68 @@
+{
+  "aula": "G06_A07",
+  "arquivo_sha256": "150bdfdab2c051e2ef124b718445cf35889f716d6f0999f1437cc463f8ddc41d",
+  "inspecao_sha256": "4305e67ea01544712e326bcc1866347c07c0b18fed4150a2ec7622726e284d7e",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então o contrato passa. As observações de classificação do inspetor (U5 como `regra`, U2 em `canva`) são discutíveis e estão registradas como ajuste menor.",
+  "fidelidade": "O veto de fidelidade falha por três unidades: U7, U4 e U3.\n\nA inspeção é integral e todos os apontamentos trazem trecho literal. `citacoes_nao_literais` está vazio, então a evidência basta para decidir.\n\n- **U7 (desvio material, como marcou o inspetor).** A frase \"O critério é variar o efeito conforme a fala e apontar visualmente para a ação\" não existe na fala, que só nomeia efeitos. Essa frase é a única parte acionável da unidade. Além disso, \"poucos efeitos repetidos\" contraria a fonte, que cita ao menos nove efeitos.\n\n- **U4 (gravidade elevada de menor para material).** \"Duplique a imagem\" e \"essa cópia\" são passos que a fala não nomeia, porque o trecho está degradado. A rubrica classifica passo de tela inventado como sem-lastro material. O passo ser coerente com o resultado não é lastro.\n\n- **U3 (gravidade elevada de menor para material).** O passo 3 dá o amarelo do caso como parâmetro do procedimento e acrescenta \"combinando com a imagem\", que a fala não diz. Na fala, a sombra vai \"para a cor amarela também\", acompanhando a cor escolhida para o texto da mãe. O inspetor rebaixou a gravidade porque a `nota` avisa que os passos são parciais. A rubrica não aceita `nota` nem `confianca` como licença para manter desvio conhecido, e o efeito é de execução: a cor da sombra fica errada.\n\n- **Sem falha de fidelidade.** U10 tem uma razão inventada que não muda a ação, e fica como ajuste menor. U1, U9 e U11 têm acréscimos e faixas menores. U6 passa como fonte ambígua preservada, com confiança média e `nota`. U5 preserva a ressalva do professor. Não há copy de exemplo tratada como fato, número adulterado nem resíduo de silêncio. Não há `faixa-errada` marcada.\n\nO resumo do inspetor conta 6 lastreadas e 5 com desvio. Os vereditos por unidade dão 8 lastreadas e 4 desvios. A inconsistência é só de contagem e não afeta a decisão.",
+  "cobertura": "A cobertura passa. O inspetor declarou busca de omissões na fonte inteira e localizou três, todas menores:\n\n- cor do texto por personagem ligada à troca de voz;\n- o que mostrar na cartela quando o produto entra;\n- critério de escolha da foto do antes.\n\nNenhuma delas impede decidir ou executar. É aula de tela com `limite` bem escrito (U12), e ter poucas unidades é o resultado esperado. As três omissões ficam registradas como complemento opcional.",
+  "perecibilidade": "A perecibilidade passa. Todas as unidades de Canva, ElevenLabs e Meta estão com `perecivel: true`. As duas unidades em `geral` (U6 e U10) não carregam tela, preço, recurso nem número de mercado. O inspetor não sinalizou nada, e a leitura direta das unidades confirma.",
+  "aplicabilidade": "A aplicabilidade passa, sem veto próprio.\n\n- **U5.** Traz o aviso de contorno de política em `nota` com o prefixo exigido. Tem tema `politicas-e-bloqueios` e é perecível.\n\n- **Leitura sem a aula.** As unidades se sustentam sozinhas. \"Cartela\" é compreensível no contexto de cada corpo.\n\n- **Classificações discutíveis, registradas como ajuste menor.** U2 está em `canva`, mas a regra de duas linhas não depende de ferramenta. U7 tem tema `edicao-de-video`, embora \"movimento do texto\" pertença a `direcao-de-arte-e-texto-na-tela`. U5 é `regra` com corpo narrativo. Em U8, a condição \"texto grande\" vale só para o Ctrl F.\n\n- **U7 depois do corte.** Sem a frase inventada, sobra uma lista de efeitos sem saber onde cada um se aplica. Se o redator julgar que o resto não se sustenta sozinho, a retirada é saída aceita, como descreve a falha F1.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        7
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita literalmente a fala do trecho: \"Aqui vamos colocar um teclado, ó, um teclado, aqui vamos colocar um deslocar, aqui vamos colocar um surgir palavras, um foguinho subindo pra cima e aqui um subir, beleza.\" Entre 15:15 e 17:01 o professor só nomeia efeitos e não enuncia critério algum. A frase da unidade \"O critério é variar o efeito conforme a fala e apontar visualmente para a ação\" não tem correspondente. \"Poucos efeitos repetidos\" contraria a fala, que cita ao menos nove (teclado, surgir, deslocar, subir, mesclar, sumir, bloco, sopro, piscar). \"Aba\" de elementos gráficos também é acréscimo.",
+      "impacto": "Os nomes dos efeitos estão deformados e não se sabe em qual texto cada um entrou, então a frase do critério é a única parte acionável da unidade. O agente que montar skill de criativo vai repetir, como ensinamento do curso, um critério de animação que a aula não dá. Vai repetir também uma recomendação de parcimônia que a fonte contradiz.",
+      "mudanca_minima": "Cortar a frase \"O critério é variar o efeito conforme a fala e apontar visualmente para a ação\" e a caracterização \"com poucos efeitos repetidos\". Trocar \"pela aba de elementos gráficos\" pelo que a fala diz. Manter só a lista de efeitos e a seta com piscar, como coisas que o professor faz, e manter a `nota` atual. Na mesma edição, recomenda-se mover o tema para `direcao-de-arte-e-texto-na-tela`. Alternativa aceita: se o que sobra não se sustenta sozinho, retirar a unidade (número 7 em `retiradas`), já que U12 registra que os efeitos por cartela ficaram só na tela.",
+      "criterio_de_aceite": "Vale um dos dois resultados. (a) U7 em `versao` 2, sem nenhuma frase de critério, razão ou recomendação atribuída ao professor; sem \"poucos efeitos\"; e o inspetor aponta `trecho_fonte` literal dentro de 915–1021 para cada afirmação restante do corpo. (b) U7 ausente, com 7 em `retiradas` e registro em `correcoes`. Nos dois casos o validador fica com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita a fala: \"Ó, aumentar aqui ele, tá? Aumentou, vem em editar imagem, desfoque, imagem inteira e aumenta.\" Informa que \"Duplique a imagem\" e \"essa cópia\" não são ditos. O que existe é o trecho degradado \"A gente pode fazer o seguinte / Vim aqui\" e, depois, \"Pega essa imagem e coloca lá no fundo\". \"Ajuste a foto principal por cima\" não tem correspondente claro. A rubrica, em \"Próprio deste curso\", classifica como sem-lastro material o passo de procedimento que a fala não nomeia. O inspetor marcou gravidade menor porque o passo é coerente com o resultado, mas coerência é plausibilidade, não lastro.",
+      "impacto": "O agente cita como passo ensinado pelo professor uma ação que ficou só na tela. Se o professor fez outra coisa (reinserir a foto, usar outra imagem de fundo), o procedimento publicado está errado. Como a fala é degradada nesse ponto, ninguém consegue verificar. A `nota` atual só cobre o nome da função 4x e não avisa da inferência.",
+      "mudanca_minima": "Reescrever os passos 3 e 4 só com o que a fala nomeia: aumentar a imagem, editar imagem, desfoque, imagem inteira, aumentar o desfoque; pegar essa imagem e colocar no fundo. Tirar \"Duplique\" e \"essa cópia\" dos passos. Tirar \"ajuste a foto principal por cima\", ou levá-lo para a `nota`. Acrescentar à `nota` que a fala não nomeia como a segunda imagem surge no quadro (trecho degradado) e que a duplicação é hipótese do extrator. Na mesma edição, se possível, ajustar a condição inferida \"não ocupa o quadro inteiro\" ao que a fala sustenta.",
+      "criterio_de_aceite": "U4 em `versao` 2. Nenhum passo numerado contém \"duplique\", \"cópia\" ou outra ação sem `trecho_fonte` literal apontado pelo inspetor dentro de 301–354. A `nota` declara que a origem da segunda imagem não é dita na fala. `confianca` fica no máximo `media`. Validador com zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita a fala: \"Muda essa cor aqui Para a cor amarela também\". Informa que em 1:32 o professor escolheu amarelo para o texto da fala da mãe, e a sombra vai para amarelo \"também\". \"Combinando com a imagem\" não é dito. \"Cor dominante da imagem\" não é dito, porque a fala diz só \"a cor dominante\", em trecho truncado. \"Outra ponta do gradiente\" é inferência. O inspetor marcou gravidade menor porque a `nota` avisa que os passos são parciais. A rubrica diz que `nota` e `confianca` não autorizam manter desvio conhecido, e que exemplo de caso apresentado como parâmetro geral é falha material.",
+      "impacto": "O passo 3 manda mudar a cor para amarelo como etapa fixa, com uma justificativa inventada (combinar com a imagem). Na fonte, o amarelo acompanha a cor do texto daquele caso. O agente que seguir a unidade vai aplicar degradê amarelo atrás de qualquer texto, ou escolher a cor pelo critério errado. O próprio inspetor registra que quem consulta pode fixar o amarelo como cor da sombra.",
+      "mudanca_minima": "No passo 3, tirar \"combinando com a imagem\". Apresentar o amarelo como a cor do caso: na aula, o texto da fala da mãe era amarelo e a sombra foi para amarelo também. No passo 2, usar \"a cor dominante\", sem \"da imagem\". No passo 4, manter \"transparente\" e, se a fala não diz qual extremidade do gradiente, registrar isso na `nota` em vez de afirmar \"a outra ponta\".",
+      "criterio_de_aceite": "U3 em `versao` 2. O corpo não contém \"combinando com a imagem\". O amarelo aparece só identificado como cor usada no caso da aula, ou não aparece. O inspetor aponta `trecho_fonte` literal dentro de 154–198 para cada passo, ou a `nota` marca o que é inferência. Validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U10: cortar a frase \"A ideia é dar identidade própria à personagem em vez de a mesma voz narrar tudo\". O professor não dá razão nesse ponto. A ação (voz feminina mais velha para a mãe) está lastreada e não muda.",
+    "U1: o `fim`=840 deixa de fora 849–854 e 882–897, que sustentam a \"Lógica\". Estender o `fim` para cerca de 915. Tirar \"de vida\" (a fala diz só \"uma realização\") e \"identificação\". Tema `anuncio-produto-com-dor` e plataforma `geral` seriam defensáveis para o roteiro; a classificação é discutível.",
+    "U11: o conteúdo começa em 1178, e o download está em 1216–1221, depois do `fim`=1210. Ajustar a faixa. \"Que o professor diz preferir\" refere-se, na fala, a uma voz específica (\"normalmente eu gosto dessa voz aqui\"), não à categoria voz mais velha. \"Gere de novo\" é inferido.",
+    "U9: tirar a glosa \"(a expressividade)\", porque a fala diz só \"exagero\". \"Escutando as opções\" é inferência de um silêncio.",
+    "U8: a condição \"texto grande\" vale só para o uso do Ctrl F, não para retirar os números. Ampliar `condicoes` ou deixar nulo; o corpo já está correto.",
+    "U2: `geral` é mais adequado que `canva`. A regra de duas linhas não depende de ferramenta, e a taxonomia diz que a menção de onde o exemplo rodou não muda a plataforma. Se mudar, reavaliar `perecivel`. \"Cartela do antes\" pressupõe a montagem da aula.",
+    "U5: `tipo` `regra` com corpo narrativo. `decisao` (\"Quando o antes e o depois ficam lado a lado…\") seria mais preciso. Discutível.",
+    "U6: \"outra avaliação\" vem de trecho ininteligível da transcrição. Tirar, ou marcar na `nota`.",
+    "U7: tema `edicao-de-video` para animação de texto. A taxonomia põe \"movimento do texto\" em `direcao-de-arte-e-texto-na-tela`. Ajustar na mesma edição de F1.",
+    "U4: \"Melhore a resolução\" é leitura de \"melhorar um pouquinho essa imagem\", e a condição \"não ocupa o quadro inteiro\" é inferida. Ajustar na mesma edição de F2.",
+    "Omissões menores localizadas pelo inspetor, sem veto: (a) texto da mãe em amarelo e do narrador em preto, ligado à troca de voz (86 s); (b) o que mostrar na cartela em que o produto entra: imagem do produto, vídeo ou cena de aplicação (574 s); (c) foto do antes escolhida pela coerência com o personagem, 40–45 anos e careca (268 s). Podem entrar como complemento em U1 ou U3, sem obrigação.",
+    "Inspeção: o resumo conta 6 lastreadas e 5 com desvio, mas os vereditos por unidade dão 8 lastreadas e 4 desvios. Corrigir a contagem no laudo."
+  ],
+  "proximo": "Este é o ciclo 1 de 2.\n\n**Redator.** Corrige só U7 (F1), U4 (F2) e U3 (F3), conforme a mudança mínima de cada falha. Os ajustes menores que caem nessas mesmas unidades (tema de U7, condição de U4) podem entrar na mesma edição. Dos demais, o único recomendado no mesmo passe é o corte da frase de razão de U10, por ser corte puro. Os outros ficam registrados e não são critério de aceite. Se U10 ou outra unidade for tocada, o hash dela muda, e ela entra na conferência.\n\n**Conferência seguinte.** O inspetor confere, com a fonte, apenas as unidades cujo hash mudou, contra os critérios de aceite de F1–F3. O juiz confere a lista. As unidades intactas (1, 2, 5, 6, 8, 9, 11 e 12, e a 10 se não for tocada) preservam a evidência atual.\n\nNão é preciso reextrair a aula. O problema é localizado: passos e critérios inferidos em três unidades de tela."
+}

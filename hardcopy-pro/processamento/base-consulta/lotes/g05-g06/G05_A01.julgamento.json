@@ -1,0 +1,71 @@
+{
+  "aula": "G05_A01",
+  "arquivo_sha256": "ba10b46df6b9a9a1c79298527f2336ebd658cd47ed75059e1850dc01b9e4e179",
+  "inspecao_sha256": "67084c1baf157e7b240a8995ec5646ecb1e6dcf85c470c940dff8e2c6d876172",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então o veto de contrato passa. O inspetor listou vários itens no campo `contrato` que são de aplicabilidade (tarefas, tema, autonomia das unidades); tratei cada um na área certa. O inspetor avisa que a evidência da unidade 12 começa cerca de 2,5 s antes de `inicio`. O script aceitou e eu não refaço o script. Fica como ajuste menor, junto com a faixa da mesma unidade.",
+  "fidelidade": "Falha pela unidade 5. O inspetor comprova com trecho literal que a fonte só narra uma escolha do professor neste anúncio: \"Eu não quis conversar com o copywriter... Eu quis abrir o meu público e conversar com todos. Por isso eu coloquei a palavra marketing digital. Por isso que eu denominei ela como copy\". O corpo abre com uma decisão impessoal (\"Se você quer que o anúncio alcance um público amplo... escolha palavras que todos entendam\"). Nem a condição nem o critério estão na fala. Isso é exemplo de caso apresentado como parâmetro geral, portanto desvio material. A `condicoes` atribui a escolha ao professor, mas o corpo diz o contrário e é o corpo que o agente executa.\n\nAs outras onze unidades estão lastreadas. Nada da copy de exemplo virou régua ou fato: as unidades 3, 9 e 10 trazem a condição de copy de exemplo. A unidade 4 mantém a preferência do professor como preferência. A unidade 7 preserva a conta inconsistente com `nota`, `condicoes` e `confianca: media`, que é o tratamento previsto para fonte contraditória. Em `faixa-errada` só entra a unidade 12, 1 de 12 (8,3%), abaixo dos 10%, então não veta. As divergências pequenas nas unidades 1, 2, 3, 4, 6, 7, 8 e 10 ficam como ajustes menores.\n\nNotei uma inconsistência do inspetor, sem efeito na decisão. Na unidade 6 ele diz que a fala só nomeia o vermelho. Na unidade 11 ele diz que a fala confirma \"cores\".",
+  "cobertura": "Passa. O inspetor declara alcance integral e busca de omissões na fonte inteira. A lista de omissões veio vazia. A aula é de escrita ao vivo com apoio de tela. As 12 unidades cobrem o raciocínio do ângulo, a copy, a divisão em quatro partes, a checagem de duração e os limites do que ficou na tela e da temporada. A definição de CTA que a fonte dá (\"chamada de ação para o nosso produto\") não virou unidade. Ela cabe como explicação de jargão dentro das unidades que usam o termo e não conta como omissão que mude a ação.",
+  "perecibilidade": "Passa. O inspetor não sinalizou nada. Conferi nas unidades: a única ferramenta nomeada (Invertexto, unidade 7) é `ferramenta`, com plataforma `outra`, `perecivel: true` e o nome em `nota`. Os dois `limite` de tema `curso-e-recursos` estão com `true`. As unidades marcadas `false` (1, 4, 5, 6, 8, 9, 10) não escondem tela, preço, recurso do curso nem número de mercado. O \"documento\" da unidade 6 é o rascunho do professor na tela, não um recurso do curso. Nenhuma técnica de contorno de política aparece.",
+  "aplicabilidade": "Falha em dois pontos.\n\n1. A unidade 4 traz a tarefa `refinar-saida-de-ia`. Nenhuma unidade nem o contexto mencionam IA: a copy é escrita à mão, ao vivo. A tarefa leva o agente ao lugar errado e ainda cria cobertura falsa em `cobertura.jsonl` (`refinar-saida-de-ia` × `geral` apareceria como `presente` por causa desta aula). Não é escolha entre dois valores defensáveis.\n\n2. As unidades 9 e 10 não se sustentam sozinhas.\n   - A unidade 9 identifica o caso como \"a copy da aula\" e \"o homem que se esforça\". Não diz que o anúncio parte de um vídeo de um homem acima do peso treinando que comove o público. Sem isso o agente não entende por que a virada para a venda é inesperada.\n   - A unidade 10 usa \"Ketsu CTA\" sem explicar. Remete a \"a frase de que prefere chamar de copy\" sem dizer qual é a frase. A `nota` manda \"ver nota da copy completa\" sem dar ID.\n\nFicam como ajustes menores:\n- As unidades 6 e 8 também citam \"o homem\", mas a orientação delas se entende sem o caso.\n- Classificação discutível: `regra` ou `conceito` nas unidades 1 e 8; tema da unidade 11; tema da unidade 4; tarefa `estruturar-vsl` na unidade 6.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita o trecho literal \"O que eu quis fazer com esse produto, com esse anúncio\" e a sequência \"Eu não quis conversar com o copywriter. Eu não quis conversar com o marqueteiro digital. Eu quis abrir o meu público E conversar com todos. Por isso eu coloquei a palavra marketing digital. Por isso que eu denominei ela como copy.\" A fala narra uma escolha do professor neste anúncio. O corpo abre com \"Se você quer que o anúncio alcance um público amplo, e não só quem já é do meio, escolha palavras que todos entendam\". A fonte não enuncia essa condição nem esse critério. O inspetor observa que \"copy\" é jargão, então o critério pode até contrariar o que o professor fez. A `condicoes` atribui a escolha ao professor e contradiz o corpo.",
+      "impacto": "O agente que consulta `definir-publico-do-anuncio` recebe como método do curso uma regra de escolha de vocabulário que o professor não ensinou, e a aplica a qualquer anúncio. É exemplo de caso apresentado como parâmetro geral.",
+      "mudanca_minima": "Reescrever só a unidade 5 atribuindo tudo ao professor e a este anúncio. O caminho mais simples é mudar `tipo` para `exemplo` com `Situação:`, `O que aconteceu:` e `Lógica:`. A unidade deve dizer que ele não quis falar só com copywriter nem com marqueteiro digital, quis abrir o público e conversar com todos, por isso pôs a expressão marketing digital na copy e denominou a solução de copy. Retirar o imperativo geral e o critério \"palavras que todos entendam\". Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo da unidade 5 não contém orientação impessoal ao leitor (\"Se você quer...\", \"escolha palavras que todos entendam\" ou equivalente). Toda afirmação está atribuída ao professor e ao anúncio da aula. Aparecem os quatro elementos da fala: não falar só com copywriter; não falar só com marqueteiro; abrir o público; uso de \"marketing digital\" e \"copy\" como consequência. Se `tipo: exemplo`, as três marcas estão presentes. A `versao` é maior que 1. O validador retorna zero erros. O inspetor marca a unidade como `lastreada`."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        4
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "A unidade 4 tem `tarefas: [\"roteirizar-anuncio\", \"refinar-saida-de-ia\"]`. A taxonomia define `refinar-saida-de-ia` como \"Corrigir e iterar o que a IA devolveu\". Nenhuma das 12 unidades nem o contexto mencionam IA. O contexto diz que o professor escreve a copy do zero, ao vivo. O inspetor confirma: \"a aula não usa IA\".",
+      "impacto": "Um agente que busca como iterar a saída de IA cai numa preferência de estilo sobre texto escrito à mão. `cobertura.jsonl` passa a marcar `refinar-saida-de-ia` × `geral` como `presente` com base nesta aula. Isso faz o agente acreditar que o curso cobre ali o que não cobre.",
+      "mudanca_minima": "Remover `refinar-saida-de-ia` de `tarefas` da unidade 4 e manter `roteirizar-anuncio`. Incrementar `versao`.",
+      "criterio_de_aceite": "`tarefas` da unidade 4 não contém `refinar-saida-de-ia` e contém ao menos uma tarefa válida. A `versao` foi incrementada. O validador retorna zero erros."
+    },
+    {
+      "id": "F3",
+      "unidades": [
+        9,
+        10
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Leitura direta das unidades, confirmada pelo inspetor.\nUnidade 9: a `Situação` diz apenas \"na copy da aula, o espectador assiste à história do homem que se esforça\". Não diz que é um anúncio em vídeo montado sobre o vídeo de um homem acima do peso treinando, com comentários de apoio.\nUnidade 10: \"copy escrita na aula\" e \"Ketsu CTA\" aparecem sem explicação. \"Retomando a frase de que prefere chamar de copy\" não diz qual é a frase. A `nota` remete a \"ver nota da copy completa\" sem ID.\nO contexto necessário só existe nas unidades 2 e 3.",
+      "impacto": "As duas unidades são os únicos exemplos desta aula para `plot-twist` e `pitch-e-cta`. Na 9, o agente não entende por que a virada surpreende, já que não sabe que é um vídeo motivacional sem relação com o produto. Na 10, ele não entende o que é retomado no fecho. O agente completa por conta própria ou descarta o exemplo.",
+      "mudanca_minima": "Unidade 9: na `Situação`, dizer em uma frase que é um anúncio em vídeo de um produto de copy do professor, construído sobre o vídeo de um homem acima do peso se esforçando para treinar, que o público vê com admiração. Trocar \"a copy da aula\" por essa descrição.\nUnidade 10:\n- dar a mesma identificação do caso;\n- explicar Ketsu CTA como a conclusão (quarto ato) com a chamada de ação, usando a explicação de CTA que a fonte dá;\n- escrever por extenso a ideia retomada (o que muitos chamam de marketing digital, o professor prefere chamar de copy);\n- trocar na `nota` \"ver nota da copy completa\" pela informação em si (nome do produto irreconhecível na transcrição) ou pelo ID da unidade 3.\nUsar só conteúdo já lastreado nas unidades 2, 3 e 6 ou na fonte, e nenhum conteúdo novo. Incrementar `versao` nas duas.",
+      "criterio_de_aceite": "Lidas isoladamente, as unidades 9 e 10 dizem o que o anúncio vende, qual é a história usada (homem acima do peso treinando, vídeo que motiva o público) e identificam a copy como copy de exemplo do professor. Nenhuma depende de \"da aula\" ou \"na aula\" como única identificação. Na unidade 10, \"Ketsu CTA\" e \"CTA\" estão explicados só com o que a fonte diz, a frase retomada aparece por extenso, e a `nota` não remete a outra unidade sem ID. As faixas e a evidência continuam válidas. O validador retorna zero erros. O inspetor mantém `lastreada` nas duas."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 12 (faixa-errada, 1 de 12 = 8,3%, abaixo do limite de 10%): recuar `inicio` para cerca de 683 para cobrir a frase-evidência. Retirar ou ancorar a afirmação sobre outras temporadas repetirem o exercício (dita em 140–146 s). Trocar \"a montagem do criativo fica para as aulas seguintes\" pelo que a fala diz: a próxima aula vai para o Canva. Convém corrigir neste mesmo ciclo por ser barato; a mudança altera o hash e pede reinspeção da unidade.",
+    "Unidade 1: a frase de apoio (\"ninguém pergunta como ele chegou àquela situação\") foi dita cerca de 15 s antes de `inicio`; recuar `inicio` para cerca de 80. \"Para achar o ângulo de um anúncio\" é enquadramento do extrator. `conceito` seria mais próximo que `regra`, mas a classificação é discutível.",
+    "Unidade 2: \"ainda não sabia como executar e faria a copy junto\" está em 134–138 s, depois de `fim` 132; estender `fim`. \"Viral\" e \"acima do peso\" não são ditos nessa faixa. \"Passa esperança\" é leitura de uma pergunta retórica. A `Lógica` é inferência do extrator.",
+    "Unidade 3: \"história desconectada do produto\" é vocabulário do extrator. A aula diz \"conexão\" e \"junção\".",
+    "Unidade 4: a `nota` diz que o motivo está truncado, e não está. A fala é \"Eu acho que fica uma coisa meio porca. Não sei porquê\". Corrigir a nota ao mexer na unidade por F2. O tema `abertura-e-gancho` é discutível, porque a preferência é dita ao reescrever a conexão e a jornada.",
+    "Unidade 6, última linha: a fala só nomeia \"pintar de vermelho\" para a introdução. O motivo \"não ficar bagunçado\" refere-se a colocar o trecho de 5 s, não a pintar.",
+    "Unidade 6, `nota`: segundo o inspetor, a afirmação de que a transcrição deforma o nome dos atos não corresponde à fonte. Ki, Sho e Ten vêm do vocabulário do curso, não desta aula; dizer isso na nota.",
+    "Unidade 6, `tarefas`: `estruturar-vsl` é discutível para copy de anúncio.",
+    "Unidade 7: o corpo põe 110 palavras por minuto e 20–22 s lado a lado sem avisar que a conta não fecha. Hoje só `nota` e `condicoes` protegem. Uma frase no corpo dizendo que a estimativa é a do professor e não decorre da referência de 110 resolveria.",
+    "Unidade 8: \"queria ouvir\" onde a fala diz só \"queria\". \"O homem visto como vencedor\" depende do caso da unidade 2. `conceito` ou `regra` é discutível. Repete o item 2 da unidade 6.",
+    "Unidade 10: \"fala pela primeira vez o nome do produto\" é reconstrução de trecho degradado (\"o primeiro ato de falar o nome do nosso produto\"); registrar isso em `nota`. A `Lógica` vem de 06:21–06:30, fora da faixa. Aproveitar a reescrita de F3.",
+    "Unidade 11: o tema `curso-e-recursos` é discutível para um limite de conteúdo de tela. `estrutura-de-anuncio` serviria; mantido por ser escolha entre dois valores defensáveis.",
+    "Unidades 6, 7 e 8: \"lead\" aparece sem dizer qual sentido vale (aqui, o prospect ou espectador). Unidade 6: \"CTA\" aparece sem a explicação que a fonte dá."
+  ],
+  "proximo": "Encaminhar F1, F2 e F3 ao redator de correções. O ciclo toca só as unidades 4, 5, 9 e 10. As unidades com hash intacto preservam a evidência atual.\n\nA conferência seguinte é focal e cobre:\n- reinspeção com fonte das unidades alteradas;\n- checagem dos critérios de aceite;\n- checagem de que a reescrita de 9 e 10 não trouxe conteúdo sem lastro;\n- rodada do validador.\n\nRecomendo aplicar no mesmo ciclo o ajuste da unidade 12 (faixa e frase sobre outras temporadas). Se isso for feito, incluí-la na reinspeção. Os demais ajustes menores ficam a critério do redator. Qualquer unidade cujo hash mude precisa de reinspeção.\n\nA unidade 3 está com `versao: 2` e o arquivo não traz `correcoes`. A coordenação deve confirmar em que rodada este artefato está, para a contagem do teto de dois ciclos."
+}

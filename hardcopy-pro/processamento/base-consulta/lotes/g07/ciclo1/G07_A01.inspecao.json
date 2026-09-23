@@ -1,0 +1,168 @@
+{
+  "aula": "G07_A01",
+  "arquivo_sha256": "b0ce99b221f1d31231263c2772a90ee501fa749acea857d66025865d4a3ab3af",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [8]; as demais mantêm a evidência da inspeção integral do arquivo febc1ed94c1e, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    8
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "447c078e88650a96d01394de8556428b2c80fe02fa375aed3af3bc66c24e6a49",
+    "2": "339bf006806d63bc25a6930d56f4bd3f52c1e84b42bc6cc5dcd69b8952e4da98",
+    "3": "2eb78080ce509275cbdb6affd489e039d54a5314789bee34e2e68889dd914a33",
+    "4": "dbba21da06edc44c9cfa88ffb0af3cc176d0132ce8e28cb025a8f52083403c91",
+    "5": "a45719da9d457b5f60342538f993f4c5cffda073fd0daa4d7f1177679c639374",
+    "6": "d63c26c0faf370273dbef706ebe5b3ab4cede166683410a42d04d64e157e1edc",
+    "7": "416b988a8d3b54e89a067ea003838beb9eb09586c2ce91eb71cd37fe9e1e8c2e",
+    "8": "1b49ee8a8bcf47c5a2a766809a53731b6aa37f5142c19e4197a6fc920865d488",
+    "9": "10df74e3dae2713e03f0493fc603ccca622fd26f0af8d456c6c7e70ae9f6d3c7",
+    "10": "73a902626531f96e91afd1dfcc325bbab617a06b560749ecb74dd364862bbcef",
+    "11": "71367537b7ba995d4d8d2d6d4ba5500313332a1260ef19e4eb33e0016eebee1c",
+    "12": "cf81873dc536645dcebf6b35eb8500acbc5db7a627271bdf0886bf37d8bcf656"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "internet quando a gente fala de negócio local 99,999 por cento são apresentação da empresa",
+      "explicacao": "O núcleo do corpo (quase todo anúncio de negócio local é 'apresentação') está bem lastreado neste trecho. Mas a unidade funde essa afirmação com uma anedota separada sobre comerciais de TV vistos na infância ('Compre isso e ganhe isso... Faça isso e ganhe um desconto'), apresentando as duas como uma descrição única do padrão atual de anúncios de negócio local, quando na fonte a segunda é uma ilustração histórica solta. Não muda a conclusão, mas mistura dois pontos distintos do professor."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Falta de longevidade, tá? Falta de pensamento lá na frente.",
+      "explicacao": "Paráfrase fiel da fala; nenhum número, condição ou atribuição alterada."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "CRM é um banco de dados onde você consegue através dele guardar nome telefone e-mail tudo do seu cliente",
+      "explicacao": "Definição de CRM reproduzida com fidelidade, sem desdobrar sigla nem inventar conteúdo."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aí você contrata uma ferramenta de WhatsApp e ela vai disparar as mensagens automaticamente para esses 800 leads",
+      "explicacao": "Os passos 1 a 4 do procedimento estão lastreados dentro da faixa 474–591. Porém o detalhe do passo 4 ('em áudio, vídeo ou mensagem de texto') só aparece na fala em 'onde você só manda um áudio, um vídeo, uma mensagem', no trecho [00:10:06.940–00:10:11.060] (606,9s), fora do fim=591 declarado. É um detalhe de apoio, não muda a execução do passo, mas o trecho que o sustenta está fora da faixa marcada."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Desses 800 leads, você pega 10% de conversão.",
+      "explicacao": "Simulação corretamente tipada como exemplo, com números e a ressalva do próprio professor ('vamos jogar baixo') preservada em condicoes; nada indica que os números viram régua."
+    },
+    {
+      "numero": 6,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Todas essas pessoas aqui já comprou com você na sua empresa",
+      "explicacao": "A fonte é contraditória nesse trecho: primeiro diz que 'todas' as pessoas já compraram, depois 'a maioria delas', e só então fixa '10%' ('De 9.600 pessoas 10% já comprou com você'). A unidade resolve essa ambiguidade em silêncio, afirmando que '10% já compraram mais de uma vez', sem nota nem confiança rebaixada, quando a fonte mal transcrita permitiria leitura diferente (ex.: 10% do total já eram clientes, não necessariamente recompradores). Efeito é baixo por se tratar de um exemplo ilustrativo, não de uma régua."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a roda de ferro é o seguinte no início ela demora para rodar",
+      "explicacao": "Definição e aplicação da metáfora 'roda de ferro' fiéis à fala, coerente com a definição de vocabulário do próprio curso para esta aula (G07_A01)."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você consegue estar ali fazendo 10, 15 mil reais de investimento no seu tráfego pago",
+      "explicacao": "A correção do ciclo 1 resolve F1. A unidade deixou de ser `regua` e passou a `exemplo`, com as três marcas obrigatórias (`Situação:`, `O que aconteceu:`, `Lógica:`), mantendo `condicoes` explícita ('projeção para o exemplo hipotético da loja de sapatos, não uma meta geral do curso') e `perecivel: true`. O trecho 'você consegue estar ali fazendo 10, 15 mil reais de investimento no seu tráfego pago' está literal dentro da faixa 814–856s ([00:13:46.240–00:14:15.560] 'então um bom gestor de tráfego você faz uma boa estratégia e em um ano, dois anos ali, mais ou menos, você consegue estar ali fazendo 10, 15 mil reais de investimento no seu tráfego pago'), confirmando que o valor é projeção de um exemplo, não régua de mercado — o desvio apontado em F1 está sanado. A ressalva do professor sobre a dificuldade de contratar um bom gestor de tráfego ('no qual não é fácil de contratar', 00:13:41.380) foi preservada no corpo ('ele ressalva que contratar um bom gestor não é fácil'), como a rubrica exige para ressalvas do professor. Título, tema, tarefa e plataforma foram mantidos coerentes com a mudança mínima pedida, e `evidencia` continua literal e dentro da faixa. Não identifico problema novo introduzido pela correção nesta unidade."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "mas aí cara quando você chegar nesse nível aqui você já vai tá faturando aí 400 500 mil por mês tranquilo",
+      "explicacao": "A estrutura geral (CRM → site → lookalike → tráfego pago → marketplaces) está bem lastreada. Mas a fonte apresenta 'faturando 400-500 mil por mês' como o que acontece quando se chega 'nesse nível' (resultado do funil já em curso), enquanto o passo 4 da unidade o trata como um gatilho/condição prévia para decidir expandir a marketplaces ('quando o faturamento chegar a X, expanda'), invertendo levemente a relação causa-efeito da fala."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a Magazine Luiza comprou a Netshoes quebrada, falida e devendo milhões de reais",
+      "explicacao": "Exemplo corretamente tipado, com a incerteza do próprio professor ('nunca foi explícito, nem falaram isso... mas eu te garanto') preservada em condicoes e confiança rebaixada para 'media'."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas eu não estou te prometendo, passa se quiser, se não deu certo o problema é seu",
+      "explicacao": "Ressalva do professor preservada com fidelidade, sem inverter o sentido."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Na próxima aula a gente vai de fato entrar nos anúncios",
+      "explicacao": "Fecho do episódio corretamente descrito como adiamento do conteúdo de construção de anúncio para o próximo episódio."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 974,
+      "trecho_fonte": "Tirando um bloqueio de uma conta no Facebook, chamada CRM.",
+      "descricao": "O professor argumenta que a base de CRM é o único ativo do negócio que 'ninguém pode tirar', exceto um bloqueio de conta no Facebook — a razão estratégica central para priorizar CRM sobre depender só da conta de anúncios. Nenhuma unidade preserva esse argumento.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta as unidades sobre CRM (3, 4, 8, 9) não vê a justificativa do professor para por que construir CRM é mais seguro que depender de conta de anúncio, perdendo o argumento que sustenta a prioridade dada à estratégia ao longo de toda a aula."
+    },
+    {
+      "inicio": 1010,
+      "trecho_fonte": "Isso não se vende, isso não se compra",
+      "descricao": "Na sequência, o professor complementa que quem compra uma base de dados 'sempre paga caro' e que hoje isso representa '80-20' do que sustenta o tráfego pago e a escala do negócio. Essa hierarquização entre construir CRM e investir em anúncio não está em nenhuma unidade.",
+      "gravidade": "material",
+      "efeito_pratico": "Sem esse trecho, um agente não sabe que o professor prioriza explicitamente a base de clientes (80%) acima do investimento em anúncio (20%) como fator decisivo de resultado, o que poderia mudar a ordem de prioridade recomendada a quem aplica a estratégia."
+    },
+    {
+      "inicio": 1042,
+      "trecho_fonte": "Em um ano a pessoa fica um milionário com uma loja de sapato",
+      "descricao": "O professor fecha o exemplo completo (CRM + lançamento meteórico + tráfego pago + site + marketplaces) com essa conclusão de resultado, não preservada em nenhuma unidade.",
+      "gravidade": "material",
+      "efeito_pratico": "A promessa de resultado que o próprio professor usa para validar a estratégia fica de fora da base; se fosse extraída, precisaria ser atribuída a ele como exemplo/opinião, não como fato — sua ausência deixa incompleta a moldura de expectativa criada na aula em torno do exemplo da loja de sapatos."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 8: tipo 'regua' aplicado a um número do exemplo hipotético contínuo da loja de sapatos (10-15 mil reais em tráfego pago), contrariando a regra de que número de caso narrado nunca vira régua; deveria ser 'exemplo', como as unidades 5, 6 e 9 da mesma narrativa."
+  ],
+  "material": [],
+  "resumo": "Conferência focal restrita à unidade 8 do arquivo G07_A01 (falha F1, veto de fidelidade). A correção do ciclo 1 reclassificou a unidade de `regua` para `exemplo`, com as marcas Situação/O que aconteceu/Lógica, preservou a ressalva do professor sobre a dificuldade de achar bom gestor de tráfego e marcou os valores de R$10–15 mil como projeção do caso hipotético da loja de sapatos, não como parâmetro geral de mercado. O trecho de evidência é literal e cai dentro da faixa 814–856s declarada. Não foram encontrados problemas novos de fidelidade, cobertura, perecibilidade, contrato ou material nesta unidade após a correção."
+}

@@ -1,0 +1,154 @@
+{
+  "aula": "G09_A07",
+  "arquivo_sha256": "e41894bc207bdc5f921686d4cdb1c711d666d83a83562b7ada1211fe9924cdae",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "247168c1e2f7ace1c71ba558f9bac426338fc3972e517137403b1a4f4acb4970",
+    "2": "bcafbe7d4ffd30bbc719fb2b0057052dddbd5bda55f7d8e1257bd09aaea6cd7a",
+    "3": "74ace989078fa3ce88ab3814e186096c1a0538eb757beff71792d7cb6d126adf",
+    "4": "95321230f08007008cf7bb726630bf2db1c0dc52ad2919e87c5cb1c219295a79",
+    "5": "6ce9f6d1fd125d38c521f50ac80d4ba6c0d16970ea03a4e493042e29f24fa278",
+    "6": "2afda6469bcd83acd65b97c6c88bb3d82e4b9c2be2d5959e91a462ce3fa25109",
+    "7": "25af897d0481201527a6d417c56a28390ec9d12251769d2fd6873dd7324cbad3",
+    "8": "6107647ed342a108aa7ce2640a40c50ffeda3566d2cadef086efd85a5ea53055",
+    "9": "c6006268883c659cb5f644e8b7de387caa5fe95974b6b778190899c94ec8cfdd",
+    "10": "deb14fe4086088b3ae98d029336b5d4438e656a861fb5f0d93c0edd06cd694cb",
+    "11": "5e22c9004593b481488c4a54ad03f9a10b0f8ac34553ba65fe4b7a99445d6d30"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aí você faz 10 vídeos e 10 fotos",
+      "explicacao": "O corpo e o número batem com a fala ('você faz 10 vídeos e 10 fotos', 'seu teste ainda fica mais qualificado'). A fala introduz a prática como opção ('Você pode criar duas variantes') e a unidade a apresenta como recomendação direta, mas isso não altera número, condição nem sentido — uso equivalente para quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "na foto são somente três que é o absurdo, dúvida e questionamento e pedido de ajuda com sentimento",
+      "explicacao": "A lista de três partes, na ordem certa, está literalmente dentro da faixa 52.3–71.7. A descrição de 'absurdo' como 'a cena ou elemento mais impactante/doloroso do anúncio' vem da frase seguinte ('eu peguei focado na parte mais dolorosa que pode ter um anúncio'), que começa em ~72.24s, ou seja, pouco depois do fim declarado (71.7). O sentido não muda, mas essa glosa específica não tem lastro dentro do intervalo informado."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "então o absurdo, colocamos um hospital a dúvida e o questionamento por causa de duas cápsulas",
+      "explicacao": "O exemplo reproduz fielmente hospital=absurdo, cápsulas/Saiba Mais/notícia=dúvida, mãe=pedido de ajuda, tudo dentro da faixa 77.94–98.52. A condição classifica o produto como 'emagrecimento em cápsulas'; a palavra 'emagrecimento' só é dita depois, em ~126.8s (dentro da faixa da unidade 6), e só é confirmada explicitamente em 'lembrando que esse é um produto que a gente vai vender de emagrecimento', em ~533s — fora da faixa desta unidade e fora da faixa de qualquer unidade da base. O rótulo está correto quanto ao conteúdo da fonte como um todo, mas sem lastro direto dentro do intervalo declarado desta unidade específica."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas o que vem de black é na foto claro, então quer dizer que a gente vai colocar uma mulher chorando",
+      "explicacao": "Trecho literal e integralmente dentro da faixa; a unidade preserva a ideia de que o conteúdo mais impactante ('black') vai para a foto mesmo quando o vídeo do mesmo anúncio não tem esse tom, sem alterar sentido. O termo 'black' corretamente não é definido por conta própria, com nota e confiança média."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e vamos colocar o post para Instagram quadrado 1080x1080",
+      "explicacao": "Dimensão (1080x1080) e formato (post quadrado para Instagram no Canva) citados literalmente e dentro da faixa; sem divergência de número ou de sentido."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Depois, vamos vir em duotone. E vamos trabalhar em cima do que queremos, que é colocá-la igual ao fundo.",
+      "explicacao": "Os seis passos (busca de template por palavra-chave, exclusão de elementos do template, busca de foto de pessoa por palavra-chave, remoção de fundo/redimensionamento/sombra, duotone da pessoa integrando-a ao fundo, inserção e duotone do fundo/hospital) seguem, em ordem, o que a fala descreve entre 122.3 e 296.38. Nenhum passo foi inventado; a interação lateral ('Cláudia, isso é mais do mesmo... calma, você vai ver que não é') fica de fora por ser diálogo, não a ação em si, o que é adequado."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "coloca um efeito flutuante na letra, trocamos a cor dessa letra para branco e duas cápsulas colocamos no vermelho",
+      "explicacao": "Os quatro passos (título centralizado e reduzido, efeito flutuante com cores branco/vermelho, elemento gráfico atrás da cabeça para contraste, CTA na cor secundária centralizado embaixo) batem com a fala entre 315.28 e 417.98. O passo 3 simplifica em uma ação só o reposicionamento de 'a foto' e a inserção separada de 'a sombra'/'elementos gráficos' invertidos, mas não inventa conteúdo. A nota sobre a ambiguidade 'CPA'/'CTA' na transcrição, com confiança média, é tratamento correto de fonte ambígua."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos clicar em removedor de fundo mesma coisa dual tone, coloca preto e branco",
+      "explicacao": "Os três passos (busca de imagem para preencher canto vazio — incluindo a tentativa fracassada com 'hospital' antes de achar com 'idoso' —, edição dessa imagem, e troca de fonte do título por comparação copiando o texto) seguem literalmente a sequência da fala entre 417.98 e 510.76."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente pode colocar uma tarja no olho dessa senhora Para ficar algo mais misterioso",
+      "explicacao": "A ação central (tarja preta nos olhos, testada primeiro em vermelho e trocada para preta) está literalmente dentro da faixa 542.94–560.72. A palavra 'macabro', citada no corpo como 'nas palavras do professor', vem da frase imediatamente anterior ('Para deixar ainda mais macabro essa parte aqui'), que termina exatamente em 542.94 — no limite ou antes do início declarado desta unidade, portanto fora da faixa em sentido estrito."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Está vendo que essa moça, essa senhora, ela consegue transmitir aquilo que a gente quer?",
+      "explicacao": "O trecho citado está dentro da ampla faixa declarada (107.74–560.72) e serve de âncora válida para o limite. A unidade documenta corretamente que detalhes exatos de template, cor, intensidade e posição ficaram só na tela, sem inventar valores nem passos."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu vou deixar esse documento aqui disponível para você conseguir criar as suas fotos",
+      "explicacao": "Trecho literal e dentro da faixa; a unidade registra corretamente que o documento é mencionado mas não detalhado na aula, com perecivel:true e tema curso-e-recursos/tarefa usar-recursos-do-curso coerentes com a regra do formato."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 510.76,
+      "trecho_fonte": "Colocamos aqui em branco.",
+      "descricao": "Depois de trocar a fonte do título (coberto pela unidade 8), a fala mostra a etapa final de recolorir o texto (branco na base, vermelho de destaque) e aumentar o espaçamento entre letras nessa fonte definitiva. Nenhuma unidade cobre esse trecho — fica no intervalo entre o fim da unidade 8 (510.76) e o início da unidade 9 (542.94).",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades troca a fonte do título (unidade 8) mas não sabe que precisa reaplicar as cores branco/vermelho e o espaçamento de letras no texto final, podendo entregar um título sem o contraste mostrado no exemplo do professor."
+    },
+    {
+      "inicio": 533.48,
+      "trecho_fonte": "lembrando que esse é um produto que a gente vai vender de emagrecimento",
+      "descricao": "Esta é a única frase da aula em que o professor confirma explicitamente que o anúncio de exemplo é de um produto de emagrecimento. Nenhuma unidade da base cobre esse trecho (fica no vão entre as unidades 8 e 9), embora as unidades 3 e 9 já usem 'emagrecimento' em condicoes.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem quiser conferir de onde vem a classificação 'produto de emagrecimento' citada nas unidades 3 e 9 não encontra essa confirmação dentro da faixa inicio–fim de nenhuma unidade da base."
+    },
+    {
+      "inicio": 566.92,
+      "trecho_fonte": "Quando ela clicar em Toque em Saiba Mais, ela vai ver a história que você acabou de falar no anúncio.",
+      "descricao": "Depois de fechar a tarja nos olhos (unidade 9), a fala explica a lógica estratégica da foto de anúncio: gerar dúvida no título leva ao clique em 'Saiba Mais', que entrega instantaneamente o que a pessoa queria ver, e isso a retém na VSL até o pitch de vendas ('E de quebra, você vai segurar ela na sua VSL até o pitch de vendas'). Nenhuma unidade preserva essa explicação, no vão entre a unidade 9 (fim 560.72) e a unidade 11 (início 588.22).",
+      "gravidade": "material",
+      "efeito_pratico": "Quem só usar as unidades sabe montar a estrutura visual da foto (hospital, dúvida, pedido de ajuda) mas não sabe por que essa estrutura funciona nem que ela precisa conduzir a pessoa a continuar na VSL até o pitch — perde a lógica que conecta a foto de anúncio ao restante do funil de vendas, podendo produzir fotos sem esse gancho de continuidade."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "As 11 unidades desta aula (G09_A07) estão bem lastreadas na fala, cobrindo com fidelidade o processo de transformar o vídeo de um anúncio em uma versão em foto no Canva, do enquadramento em três partes até a tarja nos olhos. Os únicos problemas de fidelidade encontrados são nuances de fronteira inicio/fim em três unidades (2, 3 e 9), onde um detalhe descritivo secundário vem de um trecho da fala imediatamente adjacente, mas fora do intervalo declarado — sem mudar o sentido central de nenhuma delas. Há uma omissão material: a explicação de que a dúvida gerada na foto serve para levar ao clique em 'Saiba Mais' e reter a pessoa na VSL até o pitch não é preservada por nenhuma unidade. Também faltam, em gravidade menor, a etapa final de recolorir o título após trocar a fonte e a frase que confirma explicitamente que o exemplo é de um produto de emagrecimento."
+}

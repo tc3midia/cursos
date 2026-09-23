@@ -1,0 +1,34 @@
+{
+  "aula": "G09_A01",
+  "arquivo_sha256": "3511be956e8da6abebf87d3bb8e53fd2277ac6877bebc852960d4372b65cf97a",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1]; as demais mantêm a evidência da inspeção integral do arquivo a0e4460d883d, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1
+  ],
+  "unidades_verificadas": [
+    1
+  ],
+  "unidades_no_arquivo": [
+    1
+  ],
+  "hashes_unidades": {
+    "1": "2eff934461b59c3b2bf1adb83a282c9c3683cec514c59330b58899d9987057c3"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você precisa de uma página validada e de um produto validado",
+      "explicacao": "A correção do ciclo 1 resolveu a falha F1: o corpo agora nomeia distintamente 'página validada' e 'produto validado' como condições exigidas pelo professor antes de aplicar o módulo Hard Ads, na mesma ordem em que a fonte as apresenta junto às demais condições (ter comprado o Hard Copy, saber criar copy, VSL e página não ruins). A evidência foi trocada para o trecho literal 'você precisa de uma página validada e de um produto validado', dentro da faixa 38–153s e do intervalo 50,74–74,64s indicado no apontamento, sem desdobrar ou explicar o termo além do que a aula diz. `versão` foi incrementada para 2, refletindo a mudança de corpo. Não foi introduzido nenhum problema novo: não há cópia bruta de 25 palavras seguidas da transcrição, a grafia de 'Hard Copy' e 'VSL' segue a tabela adotada, e `perecivel: true` permanece coerente com o tema `curso-e-recursos`. A unidade está lastreada contra a fonte, sem gravidade residual."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Conferência focal restrita à unidade 1 e à falha F1. A condição \"produto validado\" foi reincorporada ao corpo, agora nomeada distintamente ao lado de \"página validada\", na ordem da fonte, com evidência literal trocada para o trecho correspondente (50,74–74,64s) e `versão` incrementada para 2, conforme o critério de aceite. A unidade 1 passa a ser lastreada, sem gravidade residual, e a correção não introduziu problema novo (sem cópia bruta, grafias corretas, perecibilidade coerente). As demais unidades não foram reabertas, e não há omissão nova a registrar dentro do escopo desta conferência."
+}

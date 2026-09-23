@@ -1,0 +1,63 @@
+{
+  "aula": "G01_A02",
+  "arquivo_sha256": "cfe8c011199dfc325ec85d375f4768d79ccedba8238ffc943fd87afc07612b58",
+  "inspecao_sha256": "c8b56680a124e2f1b25939d266d43469484b9fda1d465d536df3a2a05053d4cf",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "perecibilidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos. O veto de contrato não se aplica. O inspetor listou em \"contrato\" jargão sem explicação: \"mecanismo único\" nas unidades 3 e 4, \"Kishotenketsu\" e \"VSL\" na unidade 1. Isso não é erro de script. Avaliei esses pontos como aplicabilidade e os registrei como ajustes menores.",
+  "fidelidade": "Falha por dois motivos.\n\n1. Unidade 2: desvio material, comprovado por trecho literal que não consta em citacoes_nao_literais. No segundo 151, dentro da faixa 128–200 da unidade, a fonte diz \"Você vai vender o processo para a pessoa e depois você vende o sonho\". Perto do segundo 192, diz que quem não realizou o sonho não pode vendê-lo, mas pode vender o processo. A unidade ficou só com a segunda fala. O título vira proibição (\"vender o processo, não o sonho\"), a confianca é alta e a nota é null. Fonte em tensão, ou mal transcrita, só passa quando a unidade preserva a incerteza com nota e confianca adequada. Aqui a tensão foi resolvida em silêncio para um lado, o que a rubrica trata como desvio.\n\n2. Unidade 3: faixa-errada. A frase da Lógica sobre \"pelo menos 10% do mercado inteiro\" está nos segundos 281–289, depois do fim 280. É 1 de 4 unidades com faixa, ou 25%, acima do teto de 10% da rubrica. O inspetor classificou como gravidade menor, mas o limiar é objetivo e a correção é local.\n\nAs unidades 1 e 4 estão lastreadas. Na unidade 1, o imperativo \"Não comece\" e a perda do \"provavelmente\" não mudam o sentido, porque mais adiante o professor é categórico. Na unidade 3, duas frases do extrator não vêm da fonte: \"Não é apresentado como preço ou meta garantidos\" no corpo e \"como ilustração\" na nota. O efeito é pequeno, porque o tipo exemplo e as condicoes já enquadram o número. Registrei como ajuste menor.\n\nNão vi erro visível do inspetor ao confrontar a evidência dele com as unidades. Tempos e faixas são coerentes entre si.",
+  "cobertura": "Sem veto próprio. A inspeção declara alcance integral e busca de omissões na fonte inteira. A omissão material apontada (\"e depois você vende o sonho\", segundo 151) tem a mesma causa do desvio da unidade 2. Ela fica consolidada em G01_A02-F1 sob fidelidade, para não contar a mesma causa duas vezes. A omissão do \"Vai no Facebook\" (segundo 209) é menor. O passo que a fala detalha é o dos comentários do YouTube, e a falta do Facebook não impede executar nem muda a decisão. O trecho motivacional do começo não conta como omissão.",
+  "perecibilidade": "Falha. A unidade 2 tem no corpo o preço de R$ 99, do produto de marketing digital usado como exemplo de \"mais do mesmo\", e está com perecivel: false e plataformas geral. Preço sem perecivel: true reprova pela rubrica e pelo FORMATO. É o caso de perecível escondido em unidade geral que o script não pega. A unidade 3, com R$ 89, está corretamente marcada. A unidade 4 está correta: plataforma youtube e perecivel true. A unidade 1 não tem conteúdo perecível.",
+  "aplicabilidade": "Sem veto. As quatro unidades se entendem sem a aula ao lado, e tipo, tema, tarefas e plataformas levam ao lugar certo. A tarefa montar-oferta na unidade 2 é defensável.\n\nFicam como ajustes menores, porque nenhum muda o uso:\n- A unidade 4 manda anotar \"antes de seguir para a aula do mecanismo único\". É referência à sequência do curso, mas o procedimento de pesquisa executa do mesmo jeito sem ela.\n- A unidade 1 cita Kishotenketsu e VSL sem explicar. A menção é incidental à regra, que diz que nicho amplo dificulta o resultado mesmo com método e VSL corretos.\n- A unidade 3 fala em \"bom mecanismo\" sem definir.\n\nA unidade 4 tem só youtube em plataformas, embora o professor cite também o Facebook. A classificação é defensável, porque o passo concreto é do YouTube.",
+  "falhas": [
+    {
+      "id": "G01_A02-F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal do inspetor, fora de citacoes_nao_literais, no segundo 151, dentro da faixa 128–200 da unidade: \"Você vai vender o processo para a pessoa e depois você vende o sonho\". Perto do segundo 192, a fonte diz que quem não realizou o sonho não pode vender o sonho, mas pode vender o processo. A unidade tem título \"Entrar por subnichos e vender o processo, não o sonho\", o corpo omite o \"depois você vende o sonho\", a confianca é alta e a nota é null.",
+      "impacto": "O agente que consulta lê uma proibição de vender o sonho que o professor não fecha assim. Ele escreverá promessa de copy e comporá oferta sem o sonho em nenhum momento, embora a fala preveja o sonho depois do processo. Se a fala estiver mal transcrita, o agente também não fica sabendo da incerteza e repete a versão unilateral com confiança alta.",
+      "mudanca_minima": "Só na unidade 2:\n(a) Trocar o título por um que não afirme a proibição, por exemplo \"Entrar por subnichos e vender o processo antes do sonho\".\n(b) Registrar no corpo as duas falas, atribuídas ao professor: vende-se o processo e depois o sonho; e quem não realizou o sonho não pode vendê-lo, mas pode vender o processo. Não conciliar as duas por interpretação própria.\n(c) Preencher nota dizendo que a fonte traz as duas falas sem conciliá-las, ou pode estar mal transcrita.\n(d) Baixar confianca para media.\n(e) Incrementar versao.\nManter o resto do corpo (subnichos, academia e dieta, \"mais do mesmo\"), que está lastreado.",
+      "criterio_de_aceite": "Na unidade 2:\n- o título não contém \"não o sonho\" nem outra formulação categórica de proibição;\n- o corpo traz, atribuída ao professor, a sequência processo primeiro e sonho depois, e também a fala sobre quem não realizou o sonho;\n- nota não nula descreve as duas falas e a incerteza;\n- confianca é media ou baixa;\n- a evidência continua literal e dentro de 128–200;\n- versao foi incrementada;\n- o validador fica com zero erros, sem sequência de 25 palavras copiada;\n- o inspetor reclassifica a unidade como lastreada."
+    },
+    {
+      "id": "G01_A02-F2",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor classificou a unidade 3 como faixa-errada, com trecho literal \"ser pelo menos 10% do mercado inteiro\" localizado nos segundos 281–289. A unidade declara inicio 234 e fim 280, e a Lógica do corpo usa essa afirmação. É 1 de 4 unidades com faixa, ou 25%, acima do teto de 10% da rubrica.",
+      "impacto": "Quem audita a unidade pela faixa declarada não encontra a afirmação dos 10% do mercado e não consegue verificá-la. A proporção de faixa-errada do arquivo passa do limite da rubrica.",
+      "mudanca_minima": "Estender o fim da unidade 3 para cerca de 290, cobrindo o trecho 281–289. Incrementar versao. Não alterar inicio nem evidencia.",
+      "criterio_de_aceite": "Na unidade 3:\n- o fim é ≥ 289 e não passa do fim da transcrição + 2;\n- o trecho \"ser pelo menos 10% do mercado inteiro\" está dentro de inicio–fim;\n- a evidência segue dentro da faixa;\n- o validador fica com zero erros;\n- o inspetor não classifica mais a unidade como faixa-errada, o que leva o arquivo a 0 de 4."
+    },
+    {
+      "id": "G01_A02-F3",
+      "unidades": [
+        2
+      ],
+      "veto": "perecibilidade",
+      "evidencia": "O corpo da unidade 2 cita \"um produto de marketing digital a R$ 99\" e a unidade está com perecivel: false e plataformas geral. O inspetor apontou o caso em perecibilidade. O FORMATO e a rubrica mandam perecivel: true para preço. A unidade 3, com R$ 89, já está marcada como perecível.",
+      "impacto": "O agente trata um valor em reais como referência estável de \"preço baixo\" do mercado e pode reutilizá-lo sem saber que preço envelhece. Os filtros da base por perecível deixam passar a unidade como atemporal.",
+      "mudanca_minima": "Marcar perecivel: true na unidade 2, na mesma edição de G01_A02-F1. Alternativa aceitável: tirar o valor em reais do corpo, deixando só \"preço baixo\", e manter perecivel: false.",
+      "criterio_de_aceite": "Na unidade 2:\n- ou perecivel é true;\n- ou o corpo, o título e as condicoes não contêm valor em reais.\nEm qualquer dos casos, o validador fica com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 3: tirar do corpo a frase \"Não é apresentado como preço ou meta garantidos\" e, da nota, \"como ilustração\". São comentários do extrator sem fala correspondente. O tipo exemplo e as condicoes já enquadram o número. Pode entrar na mesma edição de G01_A02-F2, porque o hash da unidade muda de qualquer forma.",
+    "Unidade 4: \"antes de seguir para a aula do mecanismo único\" remete à sequência do curso. Melhor dizer que o mecanismo único é o diferencial do produto em relação aos outros do mercado (definição de G01_A03 no vocabulário) e que esta aula não o detalha.",
+    "Unidade 4: o professor também manda ir ao Facebook (segundo 209) para estudar subnichos. Cabe uma menção no corpo ou nas condicoes, sem passo inventado. Manter só youtube em plataformas é defensável.",
+    "Unidade 1: Kishotenketsu e VSL aparecem sem explicação na primeira ocorrência. Se for explicar, usar só o vocabulário do FORMATO. A menção é incidental à regra.",
+    "Unidade 1: o \"Não comece\" e a perda do \"provavelmente\" endurecem o tom da primeira fala. O sentido se mantém, porque depois o professor é categórico. Opcional: atribuir como \"segundo o professor, provavelmente será muito difícil\".",
+    "Contexto: diz que o mecanismo único vem \"na aula seguinte\". A fala citada pelo inspetor diz \"lá na frente\". O efeito é nulo, porque G01_A03 de fato define o termo, mas a redação pode seguir a fala."
+  ],
+  "proximo": "Enviar ao redator de correções apenas G01_A02-F1, F2 e F3, que afetam as unidades 2 e 3. Isso consome um dos dois ciclos do artefato.\n\nA próxima inspeção deve ser focal nas unidades 2 e 3. Ela confere os critérios de aceite e os efeitos da alteração. Deve confirmar em especial:\n- que as duas falas da unidade 2 aparecem sem conciliação inventada;\n- que a nova faixa da unidade 3 cobre o trecho dos 10%.\n\nAs unidades 1 e 4 preservam a evidência atual se o hash não mudar. Os ajustes menores nelas alteram o corpo e, portanto, o hash, então só vale aplicá-los se a coordenação aceitar reinspecioná-las. Eles não abrem ciclo."
+}

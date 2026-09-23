@@ -1,0 +1,44 @@
+{
+  "aula": "G07_A04",
+  "arquivo_sha256": "cc4821e58f637b4a777459004685f479e737078443ae7386b7280f63428d75bc",
+  "inspecao_sha256": "c665415f7dacdf33620d1d1b6232525efc026c6bf5b0b48cdca720b849eed62b",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Falha. Unidade 8 inverte quem fala e para quem no exemplo de diálogo artificial: a fonte (trecho literal do inspetor, idêntico à própria `evidencia` da unidade) mostra a avó falando 'pra sua neta' a frase expositiva sobre a loja; o corpo atribui a fala à neta. Desvio de sentido comprovado, com efeito prático para quem replica o diálogo avó/neta que atravessa as unidades 6, 10 e 12. Unidade 2 substitui o exemplo 'produto vendido em Nova Serrana' por glosa externa ('tênis de polo popular de calçados'); é completar com conhecimento externo, mas em exemplo ilustrativo que não altera a orientação — fica como ajuste menor, alinhado ao inspetor. As demais 13 unidades estão lastreadas; ressalvas do professor preservadas (unidade 4 'não indico'), grafia deformada tratada por hipótese com nota e confiança média (unidade 4), copy de exemplo marcada em `condicoes` (6, 10, 12), fonte ambígua preservada com nota (9). Unidade 13 (`regua` com a duração do anúncio de exemplo) é fronteira com 'número de caso como régua', mas `condicoes` restringe o alcance e o inspetor, com a fonte, avaliou explicitamente esse risco; fica como classificação discutível.",
+  "cobertura": "Passa. O inspetor localiza três omissões, todas menores, e concordo: (a) venda por página ou WhatsApp 'depende da operação' é comentário lateral sem critério de decisão; (b) voz diferente por personagem e registro de fala de senhora de idade é orientação concreta, mas não impede executar o roteiro — as unidades 8 e 10 já pedem tom coloquial e real; (c) alerta contra foto de banco com marca d'água depende de apontamento na tela. Réguas, estrutura em três atos do anúncio (abertura 6, desenvolvimento 10, pitch 12) e o limite da execução visual (15) estão preservados.",
+  "perecibilidade": "Passa. Unidades com plataforma específica (2, 4 meta-ads; 15 canva), tema `curso-e-recursos` (14) e dependência de tela (11) estão com `perecivel: true`. Nenhum perecível escondido em unidade `geral`/`false`: 1, 6, 8, 9, 10 e 12 são orientações de roteiro; a menção ao filme Show de Truman em 8 não é recurso perecível. Marcação `true` sem motivo aparente em 3, 5 e 13 é imprecisão, não falha.",
+  "aplicabilidade": "Passa. As unidades se entendem sem a aula: tipos com formato correto (decisão em 5 começa com 'Quando', estruturas em 6, 10 e 12 com partes numeradas na ordem da fonte, exemplos 3 e 7 com as três marcas), `condicoes` preenchidas onde a orientação é de exemplo ou perfil (1, 3, 6, 10, 11, 12, 13), temas e tarefas levam ao lugar certo. Resíduos de redação que não mudam o uso: parêntese '(tirando empresas que o professor não reconhece)' em 5, 'trilha/ensaio' em 12, `regra` para o aviso de escopo da temporada em 14.",
+  "falhas": [
+    {
+      "id": "G07_A04-F1",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal em 519–612: 'que mulher, na sua sã consciência, vai chegar pra sua neta e vai falar' seguido da frase expositiva 'Eu comprei esse sapato porque ele é da loja tal'. Esse mesmo trecho é a `evidencia` da unidade e mostra a avó ('a mulher', a mesma de 'aí a mulher fala' na unidade 10) se dirigindo à neta. O corpo diz o contrário: 'como uma neta explicando educadamente por que preferiu o produto de uma loja específica'.",
+      "impacto": "Agente que consulta a unidade 8 junto com 6, 10 e 12 para replicar o anúncio avó/neta atribui a fala artificial à personagem errada e pode concluir que o problema é a neta explicar à avó, quando o ponto do professor é o mesmo personagem (avó) dizendo a mesma coisa de forma expositiva versus coloquial. Muda a instrução para quem escreve o diálogo.",
+      "mudanca_minima": "Reescrever a primeira frase do corpo para atribuir o exemplo expositivo à avó falando à neta (a avó explicando educadamente que comprou o sapato porque é de determinada loja). Manter o restante (comparação com Show de Truman e o teste prático). Incrementar `versao` para 2.",
+      "criterio_de_aceite": "O corpo da unidade 8 atribui a fala expositiva/ensaiada à avó dirigindo-se à neta, coerente com a `evidencia` da própria unidade e com a atribuição da unidade 10; inspetor confere contra o trecho 519–612 e classifica `lastreada`; nenhum outro campo semântico alterado além de `corpo` e `versao`; validador segue com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: substituir a glosa externa 'tênis de polo popular de calçados' pelo exemplo como o professor diz ('produto vendido em Nova Serrana'); se a fala diz 'tênis da Nike original', usar isso em vez de 'tênis de marca original de alto valor'. Motivo: completar com conhecimento externo em exemplo ilustrativo (inspetor: desvio menor, trecho literal). Não muda a orientação.",
+    "Unidade 5: remover o parêntese '(tirando empresas que o professor não reconhece)' — referência que ficou na aula, sem efeito no uso.",
+    "Unidade 12: esclarecer ou retirar 'ensaio' em 'entra uma trilha/ensaio' — termo opaco fora da aula.",
+    "Unidade 13: classificação discutível entre `regua` e `exemplo`; o número é a duração medida do anúncio de exemplo e `condicoes` já restringe. Aceitável manter; se retipar para `exemplo`, ajustar o corpo às três marcas.",
+    "Unidade 14: `regra` é forçado para um aviso de escopo da temporada; `limite` ou `conceito` cabem melhor. Discutível, não abre ciclo.",
+    "Unidade 11: confirmar que 'expressão mineira' vem da fala; se o professor não qualifica assim, deixar só 'cacife' entre aspas.",
+    "Unidades 3, 5 e 13: `perecivel: true` sem elemento perecível aparente; marcar `false` se não houver motivo na fonte.",
+    "Omissão menor (inspetor, ~397): orientação de usar voz diferente para cada personagem e falar como uma senhora de idade conversa. Recomendado acrescentar uma linha à unidade 10 (ou unidade curta `regra` com tarefa produzir-locucao/roteirizar-anuncio). Não impede executar o roteiro.",
+    "Omissão menor (inspetor, ~176): a venda pode fechar por página direta ou WhatsApp 'dependendo da operação'. Comentário lateral sem critério; opcional em `condicoes` da unidade 3.",
+    "Omissão menor (inspetor, ~774): alerta contra foto genérica de banco com marca d'água como persona; depende de tela. Opcional em `nota` da unidade 11 ou unidade curta com tarefa montar-criativo-visual."
+  ],
+  "proximo": "Encaminhar G07_A04-F1 ao redator de correções (ciclo 1 de 2). No mesmo passe, o redator pode resolver os ajustes menores — prioridade para a unidade 2 (tirar a glosa externa) e para a omissão sobre voz/registro por personagem na unidade 10 — sem que isso abra item novo. Conferência seguinte: inspeção focal na unidade 8 e nas unidades cujo hash mudar; as intactas preservam a evidência desta rodada. Para a coordenação: a causa de F1 (troca de quem fala em exemplo de diálogo lido pelo professor) é candidata a causa compartilhada nas aulas de anúncio com diálogo do grupo Hard Ads; se aparecer confirmada em uma segunda aula, aplicar a ampliação focal prevista na rubrica."
+}

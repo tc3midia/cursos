@@ -1,0 +1,299 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G11_A05",
+  "titulo": "Aula 5 - Headlines e Subheads de Impacto: A Arquitetura da Atenção",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula do Hardcopy Pro (trilha Hard IA) ensina a criar headlines e sub-headlines de VSL usando inteligência artificial combinada com a criatividade do copywriter.",
+    "O professor demonstra ao vivo, dentro de uma ferramenta de chat de IA que a aula não nomeia, pedindo variações de headline para um produto de exemplo ligado a emagrecimento e à sensação de fome, associado a Alzheimer em aula anterior de criação de anúncio.",
+    "A aula assume que o espectador já definiu o nicho e o anúncio de base em aulas anteriores do curso e já sabe operar algum chat de IA para copy.",
+    "O fio condutor é a métrica playrate: a porcentagem entre a visualização da página e o clique para assistir à VSL, usada para justificar o tempo investido em headline e sub-headline.",
+    "O professor mostra o processo de pedir variações, descartar, refinar com tons diferentes e corrigir a IA quando ela só explica em vez de variar, até fechar uma headline e uma sub-headline finais para o exemplo.",
+    "Parte do processo acontece na tela, na leitura de respostas da IA e do anúncio de referência, então nem todo prompt digitado nem todo texto lido é recuperável só pela fala.",
+    "A aula não aprofunda a estrutura geral da VSL, preço, oferta ou outras partes do funil, ficando restrita a headline, sub-headline e à lógica de playrate por trás delas."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Dar contexto à IA e filtrar variações de headline por dúvida",
+      "tipo": "procedimento",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente",
+        "refinar-saida-de-ia",
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 64,
+      "fim": 264,
+      "condicoes": "Demonstração feita sobre o anúncio de um produto de emagrecimento associado a Alzheimer/fome definido em aula anterior de criação de anúncio; a ferramenta de IA usada não é nomeada nesta aula, só chamada de 'inteligência artificial'.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A aula não identifica o nome da ferramenta de IA usada na demonstração.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: o anúncio e o nicho do produto já estão definidos (no exemplo, um produto de emagrecimento ligado a fome e apetite).\n1. Explique à IA o nicho e o produto e peça uma headline que faça o lead pensar, imaginar algo e sentir dúvida.\n2. Deixe claro que a dúvida só deve ser resolvida quando o lead apertar o play.\n3. Peça várias variações de uma vez (o professor pediu dez).\n4. Leia as variações e escolha as que mais geram dúvida, descartando as demais.",
+      "evidencia": "vamos criar uma boa headline para que o lead pense e imagine algo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Headline deve gerar dúvida que só o play resolve",
+      "tipo": "regra",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 86,
+      "fim": 106,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O objetivo central da headline é fazer o lead pensar e imaginar algo que gere dúvida. Essa dúvida deve ficar sem resposta até que o lead aperte o play e assista à VSL, porque é isso que motiva o clique.",
+      "evidencia": "porque o que eu quero fazer o lead sentir é dúvida e ele precisa responder essa dúvida tocando no play",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Refinar variações de headline devolvendo as melhores para a IA",
+      "tipo": "procedimento",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "refinar-saida-de-ia",
+        "criar-prompt-ou-agente",
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 264,
+      "fim": 580,
+      "condicoes": "Demonstração sobre o mesmo produto de emagrecimento/fome usado no ciclo inicial; a ferramenta de IA não é nomeada na aula.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A aula não identifica o nome da ferramenta de IA usada na demonstração.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: já existem duas headlines selecionadas como as melhores de uma rodada anterior de variações.\n1. Cole as duas melhores de volta na conversa com a IA como referência e peça novas variações a partir delas.\n2. Peça para combinar o estilo com um tom específico, como terror unido ao mecanismo único do produto, ou um tom de 'ato de conhecimento'.\n3. Se a IA responder copiando e explicando o texto em vez de criar variações novas, repita o pedido deixando claro que você quer variações, não explicações.\n4. Continue filtrando até chegar a uma headline que, na avaliação do professor, faça o lead pensar algo como 'só de ler isso eu já ganhei o meu dia'.",
+      "evidencia": "eu quero mais variações e não explicações por favor",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Prompts digitados na IA e anúncio de referência ficam só na tela",
+      "tipo": "limite",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 343,
+      "fim": 351,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Boa parte desta aula depende da tela: o professor digita os pedidos na IA e consulta o anúncio de referência do produto de emagrecimento/fome criado em aula anterior sem descrever tudo em voz alta. Em um trecho, ele mesmo reconhece que a IA só copiou e colou o texto anterior e o explicou, sem que esse conteúdo fosse lido para a transcrição. Os prompts exatos e o anúncio de referência completo não são recuperáveis só pela fala.",
+      "evidencia": "É, ele só copiou e colou aqui e explicou.",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Playrate: definição e por que a headline pesa nele",
+      "tipo": "conceito",
+      "tema": "metricas-e-diagnostico",
+      "tarefas": [
+        "ler-metricas-e-decidir"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 472,
+      "fim": 486,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor descreve a headline como uma das métricas mais importantes do mercado, porque ela impacta o playrate. Playrate é a porcentagem entre a visualização da página e o clique para assistir à VSL.",
+      "evidencia": "É a porcentagem entre a visualização de página e o clique da VSL.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Cálculo hipotético: playrate maior barateia o custo por lead",
+      "tipo": "exemplo",
+      "tema": "metricas-e-diagnostico",
+      "tarefas": [
+        "ler-metricas-e-decidir"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 490,
+      "fim": 527,
+      "condicoes": "Exemplo hipotético com valor de R$1 por clique de entrada na página; não é preço real de tráfego.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor monta um cálculo hipotético para mostrar o efeito financeiro do playrate.\nO que aconteceu: com 100 pessoas entrando na página a R$1 cada (R$100 gastos), um playrate de 60% dá 60 pessoas assistindo ao vídeo e custo de R$1,66 por lead; um playrate de 80% dá custo de R$1,25 por lead.\nLógica: poucos pontos percentuais a mais de playrate reduzem bastante o custo por lead, o que justifica investir tempo na headline.",
+      "evidencia": "Se 100 pessoas entram na sua página e você pagou R$1 para cada pessoa entrar, você gastou R$100",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "60% de playrate é tratado como básico do mercado",
+      "tipo": "regua",
+      "tema": "metricas-e-diagnostico",
+      "tarefas": [
+        "ler-metricas-e-decidir"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 496,
+      "fim": 506,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor trata 60% de playrate como o parâmetro básico do mercado. Abaixo disso, a headline provavelmente está fraca; o objetivo ao escrever a headline é superar esse piso.",
+      "evidencia": "Se o seu play rate estiver em 60%, que é o básico do mercado",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Reservar dias ou semanas para escrever a headline",
+      "tipo": "regra",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 539,
+      "fim": 546,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor recomenda dedicar dias ou até semanas para escrever uma boa headline, porque poucos pontos percentuais de playrate a mais barateiam bastante o custo por lead e, com isso, a operação inteira.",
+      "evidencia": "Então demore de dias ou até semanas para fazer uma headline",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "VTURB oferece teste de variação de headline",
+      "tipo": "ferramenta",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "vturb"
+      ],
+      "fonte": "fala",
+      "inicio": 548,
+      "fim": 558,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ferramentas de player de VSL como o VTURB já oferecem um teste de variação de headline, chamado pelo professor de teste de lead, dentro da própria plataforma. Ele usa isso como evidência de que essa métrica tem grande peso para o mercado.",
+      "evidencia": "empresas como VTURB e outras tem teste de lead",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Sub-headline não responde à headline e fecha com CTA de play",
+      "tipo": "regra",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 657,
+      "fim": 679,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A sub-headline não deve responder a pergunta ou afirmação levantada pela headline logo acima dela. Ao deixar a dúvida em aberto, o lead fica mais curioso. A sub-headline deve fechar com uma chamada para apertar o play, indicando que a resposta está na VSL.",
+      "evidencia": "não responda a pergunta acima deixe o lead mais curioso e passa o cta de aperte o play",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Exemplo final: headline e sub-headline escolhidas para o produto de exemplo",
+      "tipo": "exemplo",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 754,
+      "fim": 770,
+      "condicoes": "Copy de exemplo escrita ao vivo para um produto fictício de emagrecimento/apetite usado nas demonstrações do curso; não é headline testada em mercado real.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: ao final da demonstração, o professor fecha a combinação de headline e sub-headline para a VSL de exemplo sobre fome e apetite.\nO que aconteceu: ele escolhe como headline uma frase que promete revelar algo nunca contado sobre fome, apetite e controle, e como sub-headline uma afirmação de que o cérebro do lead sabe por que ele sente fome o tempo todo, seguida do convite para apertar o play antes que isso o faça comer de novo.\nLógica: segundo o professor, a combinação funciona porque a headline gera dúvida, a sub-headline aprofunda essa dúvida sem respondê-la, e só o play entrega a resposta.",
+      "evidencia": "Tem coisas que ninguém nunca te contou sobre fome, apetite e controle",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Nunca confiar 100% na IA para headline e sub-headline",
+      "tipo": "regra",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "refinar-saida-de-ia",
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 783,
+      "fim": 795,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A aula não nomeia a ferramenta de IA usada, referindo-se a ela apenas como 'chat' e 'inteligência artificial'.",
+      "proposta_tag": null,
+      "corpo": "Para definir uma boa headline e uma boa sub-headline, o professor recomenda trabalhar bastante fazendo perguntas e avaliando as respostas dentro do chat de IA, mas nunca confiar nele 100%: sempre tentar encontrar algo melhor do que a IA entrega para aquele produto.",
+      "evidencia": "Trabalhe muito com perguntas e respostas em cima do chat",
+      "versao": 1
+    }
+  ]
+}

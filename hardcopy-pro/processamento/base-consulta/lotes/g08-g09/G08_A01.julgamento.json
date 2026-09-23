@@ -1,0 +1,41 @@
+{
+  "aula": "G08_A01",
+  "arquivo_sha256": "aceba8890c54fa32cd3be4ed99cd62ccdf89653f35955f163fbf77be83c95e96",
+  "inspecao_sha256": "bfc3c75cdbb2701fd9d1407e94a7be787b2151b65ab73baa70005cb839459e78",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa. O apontamento de 'contrato' do inspetor sobre a tipagem da unidade 6 não é erro de contrato: os seis passos estão na fala e `procedimento` é tipo defensável; o problema real dessa unidade está em fidelidade (F1).",
+  "fidelidade": "13 unidades verificadas com trecho literal, nenhuma em citacoes_nao_literais. 11 lastreadas. Unidade 6: desvio material confirmado — a fonte impõe um segundo critério de descarte (o benefício precisa ser o que o público-alvo quer; trecho literal em ~557 sobre massa magra vs. perder peso) e a unidade só lista 'o mercado já anuncia'. Condição omitida = desvio (rubrica, veto 2). A ressalva 'não é fórmula pronta / pra te fazer pensar' (~639) não inverte a recomendação — o professor segue ensinando e diz que aplica na aula seguinte — e o passo 6 já embute iteração; fica como ajuste menor. Unidade 10: desvio menor de escopo (frase sobre 'gente ruim de pagar' dita ao criticar a página, atribuída ao anúncio); sentido não é invertido, a orientação de não mostrar o produto até o meio do anúncio está lastreada — ajuste menor. Unidade 4 (CPM de parceiros) e 12 (conversão de página fraca) tratadas corretamente como caso e como afirmação atribuída ao professor com confianca media e nota. Unidade 13: Hard Copy por hipótese com nota, conforme a tabela de grafias. Nenhuma copy de exemplo tratada como fato, nenhum resíduo de silêncio usado como fonte, nenhuma faixa-errada.",
+  "cobertura": "Inspetor declara busca integral de omissões. As duas omissões materiais apontadas (~639 e ~557) recaem sobre a mesma demonstração da unidade 6 e se resolvem por F1 e pelo ajuste menor correspondente; não abro veto separado de cobertura para a mesma causa. Explicação da jornada do herói (~743) é comentário lateral que não muda a execução: não é omissão. Trecho de oferta do Hard Copy (~473) sem `limite` próprio é ajuste menor pela rubrica; a unidade 13 já registra em condicoes/nota que a página é aprofundada em produto complementar. Réguas, estrutura de página, regra de não copiar página alheia e limite do roteiro adiado estão preservados.",
+  "perecibilidade": "Inspetor não apontou nada; conferi as unidades marcadas `geral`: 2 (conceito) e 5 (regra) não citam tela, recurso, preço ou número e estão corretamente com perecivel false; 1, 8, 9, 10, 11, 12 e 13 estão true por citar estrutura da temporada, aula seguinte, produto Seca Já, número de mercado e produto irmão. Unidades com chatgpt/meta-ads/outra estão true. Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: não há 'esse vídeo' nem 'como mostrei'; elefante na sala e mecanismo único oculto são explicados na própria unidade com o que a fonte diz. `condicoes` preenchido onde a orientação é de perfil ou caso (4, 5, 6, 7, 9, 10, 12, 13). O procedimento 6 está sem uma parte que a evidência do inspetor mostra existir na fonte — mesma causa de F1, sem veto adicional. Unidade 1 em `curso-e-recursos` para o escopo da temporada é defensável (estrutura e ordem das temporadas). Unidade 7: corpo atribui a preferência ao professor, mas o título é categórico — ajuste menor. Unidade 8: 'cópia de um anúncio' por 'copy' pode ser lido como duplicata — ajuste menor. Plataformas coerentes (Google registrado em nota como `outra`). Passa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        6
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal em ~557: 'Só que como a gente quer vender para pessoas acima do peso A pessoa acima do peso está cagando para esse aqui Ela quer perder peso'. O professor descarta o benefício 'aumento da massa magra' do cromo porque não é o que o público quer, não porque o mercado já o anuncia. Os passos 5–6 da unidade 6 fazem de 'o mercado já está anunciando' o único critério de descarte; nenhuma unidade registra o critério de interesse do público.",
+      "impacto": "Agente que siga a unidade 6 aceitaria como mecanismo único oculto qualquer benefício não anunciado pelo mercado, inclusive um irrelevante para o desejo do público (ganhar massa magra para quem quer emagrecer). O 'mecanismo' resultante não tem apelo de venda e contradiz o que o professor faz na demonstração. Muda a decisão no passo 6.",
+      "mudanca_minima": "No corpo da unidade 6, incluir nos passos 5–6 (ou como passo próprio entre eles) o critério: para cada benefício, verificar primeiro se ele é o que o público-alvo quer — no exemplo da aula, público acima do peso quer perder peso, então 'aumento da massa magra' é descartado mesmo sem o mercado usá-lo — e só então checar se o mercado já anuncia esse benefício. Manter os demais passos, plataformas, condicoes e evidencia. Incrementar versao para 2.",
+      "criterio_de_aceite": "Corpo da unidade 6 contém, dentro da lista numerada, o critério de interesse do público com o exemplo massa magra vs. perder peso; inspetor confirma o critério contra a fonte em torno de 557; versao = 2; validador com zero erros; hashes das outras 12 unidades inalterados salvo os ajustes menores registrados."
+    }
+  ],
+  "ajustes_menores": [
+    "U6 — na mesma edição de F1, registrar (uma frase no corpo ou em `nota`) que o professor apresenta a busca como demonstração ao vivo, sem fórmula pronta e sem garantia de acertar de primeira ('essa aula é pra te fazer pensar', ~639). Não inverte a recomendação, por isso não é veto.",
+    "U10 — a última frase atribui ao anúncio uma fala dita ao criticar a página de vendas (~1033: 'Foco no produto, foco na oferta, no desconto, no preço, você vai pegar só gente ruim de pagar'). Reescrever atribuindo o contexto ('o professor diz, ao criticar a página de vendas do produto, que foco no produto, na oferta, no desconto e no preço atrai só gente ruim de pagar') ou mover a frase para a U11.",
+    "U8 — 'na cópia de um anúncio' → 'na copy de um anúncio' no corpo; a transcrição grafou 'cópia' e a `evidencia` deve continuar como está na fonte.",
+    "U7 — título categórico ('Não use o ChatGPT…') para o que o corpo e as condicoes tratam como preferência; sugerido 'Professor não usa o ChatGPT para escrever a copy final'.",
+    "Oferta do Hard Copy em ~473 ('Isso aqui eu ensino no hardcop') sem `limite` correspondente: criar unidade 14 `limite` (tema curso-e-recursos, perecivel true) dizendo que o aprofundamento do método e da página é remetido ao produto irmão Hard Copy, ou estender a nota da U13. Ajuste menor pela rubrica.",
+    "Opcional — explicação do professor de que o foco natural no produto vem da jornada do herói (~743). Comentário lateral; pode entrar como `conceito` se o redator quiser, não é exigido.",
+    "U1 tema `curso-e-recursos` e U9 tarefa `definir-mecanismo-unico` são classificações discutíveis mas defensáveis; manter ou trocar (U9: `roteirizar-anuncio`) sem abrir ciclo."
+  ],
+  "proximo": "Ciclo de correção 1 de 2: redator aplica F1 na unidade 6 e, na mesma passada, os ajustes menores (em especial a frase de ressalva na U6 e a reatribuição na U10). Depois, inspeção focal nas unidades alteradas (6, 10, 8, 7 e eventual 14) conferindo F1 contra a fonte em ~557 e ~639, seguida de novo julgamento que checa só a lista acima e os efeitos das alterações. Unidades intactas preservam a evidência desta rodada."
+}

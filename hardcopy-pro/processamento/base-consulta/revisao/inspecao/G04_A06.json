@@ -1,0 +1,67 @@
+{
+  "aula": "G04_A06",
+  "arquivo_sha256": "e56e50c2cdf60a4bfa7bfdf1cb1234b5595ac4c3e48c8aa8a6887794d9305030",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "8735ebf15cb96a3fa8a3746677911fbc8e4b64294d3f1a3ff634dc9f6507df67",
+    "2": "1c68ed628530210d2a69a542e3be45277c487c01bfdf6449abd7a9790620f9a8",
+    "3": "ceaab0941049e9dfb9442ee5c5e4d427c70075842661d5cad7a45727a058e3db",
+    "4": "16bfa3583fa40e171d6f8dd15f795ab2c499f322451fe003a937ec3f25d20c98"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Mas você não pode começar com uma geladeira e vender uma meia",
+      "explicacao": "Faixa 49,1–66,1 correta. Cobre a regra de começar com algo desconectado, o exemplo da geladeira com a meia, a exceção de conectar os dois e a exigência de interesse. A frase \"a abertura não pode ser absurda a ponto de não ter relação nenhuma com o que se vende\" é glosa do extrator: a fonte só dá o caso geladeira/meia. A própria fonte tem essa tensão (\"desconectado\" e \"não pode\"), então a glosa não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Normalmente a pergunta que eu sempre faço antes de qualquer conexão que eu faço de anúncios é",
+      "explicacao": "Faixa 66,32–74,22 correta. A fonte diz que a pergunta vem \"antes de qualquer conexão que eu faço de anúncios\". O título e o corpo estreitam para \"antes de conectar a abertura ao anúncio\" e dizem que a pergunta é \"sobre a abertura\", o que a fonte não afirma. A nota admite que o sentido é interpretação e a unidade mantém a transcrição incerta entre aspas, com confiança baixa e atribuição ao hábito do professor. É apenas uma imprecisão pequena de redação."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Após isso, você desenvolve a história contando a base do que você prometeu",
+      "explicacao": "Faixa 74,32–84,04 correta. Desenvolver a história a partir do que foi prometido e conectar com o produto que será vendido está dito. O corpo não acrescenta nada."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Gancho, abri-la sua mente, início e fechar a sua boca, final.",
+      "explicacao": "Faixa 84,04–161,34 correta. A sequência do anúncio (indício do produto, luta para emagrecer, \"não é de dietinha\", confiança, antes e depois, plot twist, chamadas \"Toque em saiba mais\") tem lastro. A unidade trata os números e as alegações como texto fictício e não os promove a régua. Três pontos divergem: (1) O corpo diz \"O gancho abre a mente e o final a fecha\", mas a fonte diz \"fechar a sua boca, final\", então o objeto do fechamento mudou de boca para mente. A fonte está degradada e o trecho é frase da copy de exemplo, por isso o efeito prático é pequeno. (2) O corpo chama a cena da geladeira de \"desconectada\", mas a fonte diz \"Quando eu abro a geladeira / Demos um indício do produto\", ou seja, ela já sinaliza o produto de emagrecimento. Isso contrasta com a regra da unidade 1 (geladeira para vender meia é o que não se faz). (3) A Situação diz que o anúncio \"foi montado ao longo das aulas\", e a fonte só diz \"Em cima desse anúncio completo aqui / Conseguimos construir um anúncio inteiro\". Nenhum dos três muda uma decisão de quem consulta, mas o item (1) altera o sentido de uma frase da fonte."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto, 3ª frase: \"O começo e o fim da transcrição têm resíduo de silêncio, que foi ignorado.\" O FORMATO manda não mencionar resíduo de silêncio no contexto. É erro mecânico, corrigido removendo a frase. As linhas \"Copyright Australian Broadcasting Corporation\", \"Legenda Adriana Zanotto\" e \"Obrigado.\" não sustentam nenhuma unidade.",
+    "Unidade 4: a tarefa `analisar-vsl-pronta` (\"Percorrer uma VSL pronta identificando cada parte\") é discutível. A unidade recapitula um anúncio de exemplo lido na aula, não a análise de uma VSL alheia pronta. É ajuste menor de classificação, e `roteirizar-anuncio` já cobre o uso.",
+    "Unidade 4: a Situação depende de \"as aulas\" e da \"temporada\" anteriores (\"foi montado ao longo das aulas\"), que o leitor não tem. O corpo se entende, mas essa referência é do curso e a fonte não a afirma. Ajuste menor.",
+    "Unidade 4: a condição cita \"Mindcaps\" como grafado na transcrição, e a `nota` registra a hipótese de ser o Menticaps do curso. O tratamento está correto. O nome não é operativo no corpo, então não há efeito de uso."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira (30 s a 164,64 s; o resíduo de silêncio no início e no fim não foi usado). As quatro unidades têm faixa correta e lastro na fala, sem sem-lastro nem faixa-errada, e as unidades 2 e 4 preservam a incerteza da transcrição com nota. Achei um desvio menor na unidade 4 ('fechar a sua boca' virou 'fecha a mente', mais duas glosas leves) e um erro mecânico no contexto (menciona resíduo de silêncio). Não encontrei omissão relevante, problema de perecibilidade nem material de apoio (não há material nesta aula)."
+}

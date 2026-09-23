@@ -1,0 +1,63 @@
+{
+  "aula": "G01_A04",
+  "arquivo_sha256": "e8c6712db300c9a77031825d6c5b7af9f77ee2c937ec57c9c02ae21a430ad1db",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "6a1bc6ad69d7405efae13ee7600de336042fe3785fc000737927c405b83a2eb7",
+    "2": "8f1588b91466d567840c7f00a1c962df05032515622e62a7e0a768b8ce261a41",
+    "3": "0b69baa30cbf744f23dfcb04b54e68193f461de76183df2a15127cc0db489db0"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E provavelmente, se você fez uma copy boa, se você fez um produto bacana, uma linda VSL e você não conseguiu vender, provavelmente 50% está ali no mecanismo único.",
+      "explicacao": "Faixa 33–67 confere: o conteúdo vai de 33.66 (\"Eu tô batendo nessa tecla\") até 67.16 (\"Sim, 50% está no mecanismo único\"), e a evidência está dentro dela. O 50% aparece com \"provavelmente\" e atribuído ao professor, como na fonte. \"Kishu\" virou Kishotenketsu pela tabela de grafias. A frase \"não medição\" é leitura da unidade sobre o \"provavelmente\", sem efeito no uso. \"a copa que for\" (provável \"copy\") ficou de fora, sem efeito na decisão."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai ensinar para a pessoa não como ela conseguir esse dinheiro",
+      "explicacao": "Faixa 67–205 confere. Preferência, ressalva e atribuição estão preservadas: \"Eu acho que essa é a forma mais fácil\", \"não quero que você crie um único produto\", \"crie o primeiro produto com uma dor que você tem\". Há três imprecisões de redação sem efeito na decisão. (1) A fonte diz \"automaticamente você vai encontrar um mecanismo único\"; a unidade suaviza para \"quase automaticamente\". (2) A fonte diz que se ensina \"não como ela conseguir esse dinheiro, mas um processo dela conseguir isso melhor\"; a unidade escreve \"sem prometer o dinheiro em si\", que é paráfrase interpretativa. (3) A unidade omite o \"Por mais que você não tenha realizado o sonho de ficar no verde\" que precede essa frase. O caso do professor (\"não tinha dor de cópia\") foi preservado como ele o narra. O erro de classificação em `tarefas` está em `contrato`."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você encontrou o seu subnicho, encontrou o seu mecanismo único, aí sim você vai para a próxima aula, onde eu vou te explicar qual é a melhor forma de você estruturar uma VSL.",
+      "explicacao": "Este trecho está em 297.38–309.84, fora de `inicio`–`fim` (205–297). O último parágrafo do corpo (\"Só depois de ter subnicho e mecanismo único o aluno segue para a estrutura da VSL\") vem só dele. O resto do corpo está na faixa: evidência em 280.54–284.24, YouTube, iPhone e \"5 minutos\". A faixa deveria ir até cerca de 310 s. O `inicio` 205 também inclui cerca de 6 s sobre aprovação da VSL, e a orientação começa em torno de 211 s. O conteúdo em si está fiel: \"pesquisar isso por 4 dias, 5 dias\" e \"5 minutos\" batem com a fonte, com atribuição ao professor. O defeito é só de faixa, mas com 3 unidades uma `faixa-errada` já passa de 10% das unidades com faixa."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 200.58,
+      "trecho_fonte": "e me mandar no whatsapp, se eu",
+      "descricao": "O professor pede que o aluno, ao terminar as aulas e criar a VSL, a envie a ele por WhatsApp. Diz que, se aprovar de primeira, ficou muito bom; se não aprovar, trabalham juntos nela. Nenhuma unidade registra isso, nem como `limite`.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta não fica sabendo que o curso prevê revisão da VSL pelo professor via WhatsApp. É recurso ou suporte do curso, perecível, e sem `limite` de oferta o registro fica incompleto. Não muda a execução da técnica."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: `tarefas` inclui `escolher-formato-de-venda`, que na taxonomia é decidir entre VSL, página, X1 e destino do tráfego. A unidade trata de escolher o tema do primeiro produto a partir da própria dor, e a fonte não fala de formato de venda. A tag leva o agente ao lugar errado. Manter `definir-mecanismo-unico`; `pesquisar-publico-e-subnicho` é alternativa defensável, se couber.",
+    "`contexto`, 4ª frase: \"O fecho da transcrição tem resíduo de silêncio, que não foi usado.\" O FORMATO manda não mencionar resíduo de silêncio no contexto. Retirar a frase."
+  ],
+  "material": [],
+  "resumo": "As três unidades estão fiéis à fonte em números, condições e atribuições. Nenhum número de caso virou régua, e o \\\"50%\\\" e os \\\"4 a 5 dias\\\" aparecem atribuídos ao professor. Os defeitos são a `faixa-errada` da unidade 3, que cita um trecho de 297.38–309.84 fora de 205–297, e dois erros de contrato: a tarefa `escolher-formato-de-venda` na unidade 2 e a menção a resíduo de silêncio no contexto. Há também uma omissão menor, a revisão da VSL por WhatsApp. Não há material de apoio nem perecibilidade a corrigir."
+}

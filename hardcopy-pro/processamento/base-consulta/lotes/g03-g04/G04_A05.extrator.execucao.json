@@ -1,0 +1,48 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-21T14:41:12+00:00",
+  "fim": "2026-09-21T14:42:04+00:00",
+  "duracao_ms": 50880,
+  "duracao_api_ms": 50843,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 4941,
+    "cache_creation_input_tokens": 7407,
+    "cache_read_input_tokens": 21212
+  },
+  "thinking_tokens": 2067,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.08328440000000001,
+  "esperas_por_limite": [],
+  "sistema_sha256": "73be75ee2ffb57d1a1fa7f2572421f2cfde0eac577fd21da717fd22fcc60dd6f",
+  "pacote_sha256": "756fb3cc48389231cabf9fba5ac4486e736a3ccf691e55076922f0e5959d8bdc",
+  "aula": "G04_A05",
+  "rotulo": "lote-g03-g04",
+  "palavras_fonte": 1651,
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g03-g04/G04_A05.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "b3e8983b7af989f0a2027dc0c6d42662d9249d0b42f78b53d28e1de26938cb9e",
+  "unidades": 7,
+  "validador": {
+    "erros": [
+      "G04_A05: U001: tarefas vazias só em conceito ou limite",
+      "G04_A05: U005: tarefas vazias só em conceito ou limite"
+    ],
+    "avisos": []
+  }
+}

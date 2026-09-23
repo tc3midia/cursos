@@ -1,0 +1,54 @@
+{
+  "aula": "G10_A03",
+  "arquivo_sha256": "e4539564fd47d4658d59ea0aa4b42495996725a4ed0c91dc4d93e95270f86d8f",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2]; as demais mantêm a evidência da inspeção integral do arquivo aa5bd7460a21, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "bbfc331c70fe20c47ecca3a25291dd9d8c092159d1bf20fe219aa37e52c8f6c1",
+    "2": "2a27ad88a667bff6afd01b5035bb0761ae54ed818524c54ec7033faf9b75d04a",
+    "3": "e216e2907143799ae7e42f86d04463508ecb77bff84681afad411732467f64b4"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Cortando essa música em pequenas partes, a gente vai fazer isso na prática",
+      "explicacao": "A orientação de cortar a música em pequenas partes para evitar que o Facebook identifique a faixa e bloqueie o anúncio por direito autoral está dita ao longo de 00:00:30–00:01:49 (ex.: 'ele vai tomar copyright ele vai tomar ban', 'o Facebook vai bloquear o seu anúncio', 'de uma forma que o Facebook não vai conseguir identificar isso'), tudo dentro da faixa declarada (30–109.66). A evidência bate literalmente com a fonte e a nota de contorno de política está no formato exigido, com perecivel:true e plataforma meta-ads coerentes com a menção explícita e repetida ao Facebook."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "é só pra não deixar a voz no ar, né? Igual as pessoas falam.",
+      "explicacao": "F1 resolvida. A correção moveu `inicio` de 119.58 para 73.82 (mantendo `fim` 135.82), trazendo para dentro da faixa a oração '[00:01:19.940–00:01:24.480] é só pra não deixar a voz no ar' que sustenta 'como música de fundo genérica só para não deixar a voz no ar' no corpo. Conferi oração por oração dentro da nova faixa 73.82–135.82: 'não tocar a faixa inteira preenchendo o vídeo todo' apoia-se em 'Não vai pegar a música e vai ficar colocando tudo na música e o vídeo todo' (122.54–127.24s); 'não traz o sentimento (sentimentalismo) que se busca' apoia-se em 'o seu vídeo não vai ter o sentimentalismo que a gente tá procurando' (84.48–93.04s) e 'Isso aí não vai trazer o sentimento que a gente quer' (127.24–129.46s); 'não faz o lead arrepiar a ponto de comprar' apoia-se em 'E não vai fazer o lead arrepiar pra ele comprar' (129.46–131.98s); 'deixa o lead com sono do vídeo e do produto' apoia-se na própria `evidencia`, dentro da faixa (131.98–135.82s). Todas as orações do corpo têm lastro dentro de inicio–fim; a `evidencia` continua dentro da faixa. A sobreposição resultante com a faixa da unidade 1 (30–109.66) não viola o FORMATO (não há proibição de sobreposição) e não introduz problema novo: o trecho agora incluído (73.82–84.48s) trata do mesmo assunto do corpo (música de fundo sem sentido) e não contradiz nem se apropria de conteúdo de copyright que pertença exclusivamente à unidade 1. Nenhum problema novo foi criado pela alteração. Reclassifico de faixa-errada para lastreada, gravidade nenhuma."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Mas primeiro eu vou te mostrar toda a parte teórica disso",
+      "explicacao": "A fala confirma que esta aula traz só a parte teórica ('Mas primeiro eu vou te mostrar toda a parte teórica disso, pra você entender e a gente jogar tudo na prática') e que os cortes práticos e a construção do sentimentalismo ficam para a próxima aula ('Então na próxima aula eu vou estar te mostrando como que a gente vai fazer de fato isso, com os cortes e a parte que vamos fazer o sentimentalismo de tudo isso'). Ambos os trechos, e a evidência citada, estão dentro da faixa declarada (109.66–146.28)."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A conferência focal confirma que a falha F1 foi corrigida: o ajuste de `inicio` de 119.58s para 73.82s na unidade 2 trouxe para dentro da faixa a oração sobre \"não deixar a voz no ar\", e todas as demais orações do corpo (perda do sentimentalismo, lead não arrepiar, lead tomar sono) permanecem lastreadas dentro de 73.82–135.82s, assim como a `evidencia`. A reclassificação de faixa-errada para lastreada também resolve o problema de proporção (era 1 de 3 unidades com faixa, 33% > 10%). Nenhum problema novo foi introduzido pela alteração; a sobreposição com a faixa da unidade 1 é permitida pelo FORMATO. As unidades 1 e 3 não foram reabertas, conforme escopo desta conferência."
+}

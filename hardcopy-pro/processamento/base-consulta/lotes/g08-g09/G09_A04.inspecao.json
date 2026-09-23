@@ -1,0 +1,62 @@
+{
+  "aula": "G09_A04",
+  "arquivo_sha256": "8520f9103fc483ae73e4b1a69b6bb9e25e832c62ff06612b8a221c667b1260c0",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "48d3b211972ad0c8c6520ff5ba2f50e1b19cd55b0698526998a48eedafe2b8f4",
+    "2": "c4e8d3590859239cc664ea2d6fcc563e3dda2ecc28cbdb066edd1d59f9f97f18",
+    "3": "4826abc5bca273e2b76c92212577b11def5bea75673f39f58bdc3e1254880a3c",
+    "4": "7548c7225f0d3a058651ae9813a84c99a1dbb9e10634f8b8b77712e744bcdbd4"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos colar aqui na Eleven Labs, eu já escolhi a minha voz",
+      "explicacao": "Todos os seis passos batem com a fala: colar o texto com voz padrão já escolhida (pré-condição); trocar a voz em 'Voices, bem aqui no canto'; categorizar por gênero/idade/idioma priorizando o efeito emocional no lead ('não se apegue à linguagem'); ativar Multilingual 1 ou 2 em settings; evitar Eleven English/Eleven Turbo ('foque no Multilingual 1 ou Multilingual 2'); gerar, conferir se não gaguejou e baixar. Perto do fim a fala repete de forma confusa duas menções a gerar/baixar ('Generate Spread'... depois 'Clique no botão preto e clique em download'); a unidade condensa isso em dois passos sem alterar número, condição ou sentido, então não há prejuízo de uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Lembrando que ela é gratuita, ela tem 10 mil caracteres por mês",
+      "explicacao": "Os três números (10 mil, 5 mil, 100 mil) e a condição de cancelamento do plano pago batem exatamente com a fala ('e eu já usei 5 mil. Eu tenho um plano com 100 mil, mas hoje como eu não estou utilizando muito ela, eu cancelei'). O corpo atribui corretamente ao professor os dados pessoais (uso de 5 mil, plano cancelado), sem apresentá-los como regra geral, só o limite de 10 mil do plano gratuito é tratado como parâmetro da ferramenta, o que é fiel à fonte."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Sair aqui, deu o Generate Spread",
+      "explicacao": "O corpo afirma que, na faixa 177–213s, o professor localiza os botões de gerar/baixar áudio dizendo 'aqui' e 'no canto'. Mas 'no canto' não aparece nessa faixa: nela o professor só diz 'aqui' ('Sair aqui, deu o Generate Spread... Você clica aqui... Em Download... Clique no botão preto e clique em download'). A expressão 'no canto' foi dita antes, às 00:01:49–00:01:51, para localizar o menu 'Voices', assunto diferente. É uma mistura de trechos que atribui uma palavra a um ponto da fala onde ela não foi dita; a conclusão prática da unidade (rótulo exato só existe na tela) continua correta, por isso a gravidade é menor."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O Canva eu vou colocar na próxima aula porque o Canva é bem demorado",
+      "explicacao": "O corpo reproduz fielmente o fechamento: Canva adiado para a próxima aula por ser demorado ('bem demorado', 'bem chato'), mas necessário por ser bem feito e prender a atenção ('realmente vai de fato prender a atenção da pessoa'), com uma aula reservada para Canva, uma para CapCut e uma para o som ('vou precisar de uma aula para o CapCut e uma aula para o som')."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A aula é curta (≈3min38) e as quatro unidades cobrem bem o conteúdo didático: o procedimento de trocar voz e ativar o modelo multilíngue no ElevenLabs, o limite de caracteres do plano gratuito com a situação pessoal do professor, um limite sobre botões que só se identificam na tela, e o fechamento sobre Canva/CapCut/som. Percorri a transcrição do início ao fim (excluindo os resíduos de silêncio \"Copyright Australian Broadcasting Corporation\" e \"E aí\" repetido) e não encontrei conteúdo didático relevante deixado de fora; a leitura da copy de exemplo (remédio de emagrecer) é só demonstração da ferramenta e não é tratada como fato em nenhuma unidade. O único problema encontrado é um desvio de gravidade menor na unidade 3, que atribui a expressão \"no canto\" a um trecho da fala onde ela não foi dita (essa expressão pertence a outro momento, sobre o menu Voices). Todas as unidades estão corretamente marcadas como perecíveis, não há material de apoio para esta aula, e não identifiquei problemas de contrato."
+}

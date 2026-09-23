@@ -1,0 +1,39 @@
+{
+  "aula": "G08_A08",
+  "arquivo_sha256": "3161589d5b1e5a64cd6f790f50cc33668bb35a5d34a9fb6dc330ad8c0d827387",
+  "inspecao_sha256": "23e79b01dca67627611d72ff3eebe5f0c717fce2dc80c963cc1f3c4138d807fb",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Seis unidades, dentro da faixa esperada para aula de tela. Nada a corrigir.",
+  "fidelidade": "Falha. U1 e U3 apresentam como duas regras autônomas duas falas do professor sobre a mesma escolha de imagem (o cão maltratado), na mesma montagem: em ~0:53–1:10 ele fixa um teto (\"não vai pegar imagens pesadas... senão Facebook vai dar um bloqueiozinho\"); em ~3:35–3:52 chama a imagem escolhida de \"bem pesado\" e defende usá-la para escancarar mais que o mercado. A fonte não se contradiz de fato: é uma gradação (mais forte que o mercado, abaixo do que a moderação bloqueia). Mas cada unidade carrega só uma metade, ambas com `confianca: alta` e sem `nota`, e U1 resolve a tensão em silêncio ao escrever \"pesadas demais\", que a fonte não diz. Evidência forte: os dois trechos são literais, cruzados (o trecho_fonte de cada apontamento é a própria `evidencia` da outra unidade) e não estão em `citacoes_nao_literais`. U2, U4, U5 e U6 lastreadas; U4 e U5 com generalização leve que fica em ajuste menor. Sem termo deformado, sem copy de exemplo promovida a fato, sem passo de tela inventado, sem resíduo de silêncio.",
+  "cobertura": "Passa. Inspeção declara alcance integral com busca de omissões e não localiza nenhuma. A sequência do anúncio (U4), a lógica de abertura pela dor (U2), o alerta de moderação (U1) e a intenção final (U5) estão preservados. O que ficou só na tela está isolado em U6, e a continuação no CapCut está declarada no contexto como fora da aula.",
+  "perecibilidade": "Passa. U1 (meta-ads) e U6 (canva) marcadas `perecivel: true`. As unidades `geral` são de ângulo e roteiro, não de tela. Inspetor não sinalizou perecível escondido; registro à parte, como menor, a menção ao botão \"saiba mais\" em U4.",
+  "aplicabilidade": "Passa com ressalva menor. As unidades se sustentam sem a aula: sem \"esse vídeo\" no corpo, sem jargão do curso sem explicação, `tipo`/`tema`/`tarefas` coerentes com o conteúdo. U5 tem `condicoes: null` embora o corpo fale da peça específica; como o próprio corpo preserva o enquadramento (\"a intenção da peça\"), o uso não muda de forma material. O problema de U3 sem o teto de moderação está tratado em fidelidade (condição omitida), não aqui.",
+  "falhas": [
+    {
+      "id": "G08_A08-F1",
+      "unidades": [
+        1,
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal em ~0:53–1:10 (evidencia de U1): \"a gente não vai pegar imagens pesadas tá a gente vai pegar imagens assim porque senão Facebook provavelmente vai dar um bloqueiozinho\". Trecho literal em ~3:35–3:52 (evidencia de U3): \"é bem pesado né Ver um bichinho desse aqui sofrendo desse jeito muito mas é realmente isso que a gente quer transmitir tá mostrar algo totalmente diferente\". Inspetor confirma que as duas falas são sobre a mesma imagem, na mesma montagem. U3 omite o teto de moderação; U1 omite que o professor escolhe e chama de \"bem pesada\" a imagem que usa, e insere \"demais\", que a fonte não diz. Ambas `confianca: alta`, `nota: null`.",
+      "impacto": "As duas unidades são indexadas em temas e tarefas diferentes (U1 em politicas-e-bloqueios/revisar-risco-de-bloqueio; U3 em anuncio-produto-fisico/montar-criativo-visual), então o agente encontra uma sem a outra. Quem consulta só U3 para montar o criativo é orientado a \"escancarar mais\" sem saber que o professor fixou um limite para não ser bloqueado na Meta; quem consulta só U1 para auditar risco reprovaria a própria imagem que o professor escolheu na aula. Condição que a fonte impõe e a unidade omite; a reconciliação (\"pesadas demais\") foi feita em silêncio.",
+      "mudanca_minima": "Em U3, acrescentar ao corpo uma frase com o teto: na mesma montagem o professor descarta imagens pesadas a ponto de o Facebook bloquear, e o \"escancarar\" fica abaixo disso. Em U1, acrescentar ao corpo que, na mesma montagem, ele escolhe e chama de \"bem pesada\" a cena do cão maltratado, ou seja, o que evita é o nível que a moderação barra, não a cena de sofrimento; ou remover \"demais\" e deixar a gradação para a nota. Em ambas, preencher `nota` registrando os dois trechos literais e suas posições (~0:53–1:10 e ~3:35–3:52) e que o limiar é dado apontando a tela (\"imagens assim\"); rebaixar `confianca` para `media` pelo mesmo motivo. Incrementar `versao`. Alternativa aceitável: retirar 1 e 3 e criar uma única unidade `regra` com as duas metades, registrando a correspondência em `correcoes`.",
+      "criterio_de_aceite": "U1 e U3 (ou a unidade que as substituir) têm `nota` não nula citando os dois trechos literais; o corpo de cada uma contém as duas metades da orientação (mais forte que o mercado E abaixo do que a moderação bloqueia); nenhuma delas afirma \"pesadas demais\" sem que a nota explique a reconciliação; `confianca` no máximo `media`; `versao` incrementada; validador com zero erros; inspetor reconfere as unidades alteradas como `lastreada`."
+    }
+  ],
+  "ajustes_menores": [
+    "U5: preencher `condicoes` com o enquadramento de exemplo (peça montada ao vivo para um anúncio de pet shop), como fazem U2–U4; o título \"deve transmitir\" generaliza o que a fonte diz de \"esse vídeo\". O corpo já preserva o recorte, por isso não veta.",
+    "U4: `condicoes` afirma que a sequência \"serve de modelo para esse tipo de negócio\", o que o professor não diz (inspetor: demonstrada uma única vez, ao vivo, sem afirmar molde a repetir). Reduzir para \"demonstrada uma vez, ao vivo, neste anúncio\". O tipo `estrutura` é defensável (quatro atos aplicados ao anúncio); classificação discutível, não veto.",
+    "U6: a faixa termina em 660 s, mas há trecho de edição só-tela até ~727 s (mesclar, subir, teclado), segundo o inspetor. Ampliar `fim` para cobrir, se quiser deixar o limite completo; não muda a leitura.",
+    "U4: a parte 4 menciona \"toque em saiba mais\", botão de CTA da Meta, em unidade `geral` e `perecivel: false`. Discutível; o inspetor não sinalizou. Se o redator mexer na unidade, considerar mover essa menção para `nota` ou marcar perecível."
+  ],
+  "proximo": "Enviar G08_A08-F1 ao redator de correções (ciclo 1 de 2), limitado a U1 e U3 (ou à unidade que as substituir). Os ajustes menores podem ser feitos no mesmo passe sem abrir ciclo. Depois: validador com zero erros, inspetor reconfere só as unidades cujo hash mudou (as intactas preservam a evidência desta inspeção), e novo julgamento contra o critério de aceite de F1."
+}

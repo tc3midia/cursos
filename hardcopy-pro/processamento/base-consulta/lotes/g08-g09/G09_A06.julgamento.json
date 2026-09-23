@@ -1,0 +1,56 @@
+{
+  "aula": "G09_A06",
+  "arquivo_sha256": "e2b9c8de61c57c2d0b0c74d5ecd5b8b8710da66f512ff2d5ada6db14ec2d8b80",
+  "inspecao_sha256": "cfb18c53f1fe7b72989965699741572dd28c8dbc0e2280688dc594e57cff4ec0",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "cobertura"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral: 20/20 unidades lastreadas, `citacoes_nao_literais` vazia, nenhum sem-lastro, desvio ou faixa-errada. Ressalvas do professor preservadas (3: 'indico 100%' como preferência; 11: incerteza sobre achar a faixa; 12: 'eu não gosto' em condicoes). Contorno de direito de terceiros em 2 com nota no formato exigido e perecivel true. 'Save from Mad' e 'Epic Metro Art' tratados como manda a tabela de grafias. Duas ambiguidades de transcrição resolvidas sem nota e com confiança alta (5: 'tamanho padrão dos esforços' lido como 'criativos'; 12: 'tem muita coisa pro aqui' lido como recurso pago): o inspetor comprova a incerteza e a plausibilidade da leitura pelo contexto seguinte, sem prova de sentido diferente; os números e a orientação principal não mudam. Ajuste menor (nota + confiança media), não veto. Passa.",
+  "cobertura": "Falha. Duas omissões localizadas pelo inspetor com trecho literal e efeito prático demonstrável: (a) ~852, definição de fade ('a parte onde a música começa baixinha e vai aumentando') e o passo de baixar o volume no ponto de corte e aplicar fade pequeno para ligar o plot à música de conexão seguinte, usado na montagem e na correção da trilha; as unidades 8 (posicionar o plot e deletar o resto) e 16 (trocar trecho ruim) param antes desse passo, e um agente que monte a trilha só com elas entrega corte de áudio abrupto, o oposto do que a aula ensina; (b) ~519, exceção ao corte sincronizado para clipe genérico sem fala associada (localizar primeiro o próximo ponto de corte à frente na timeline e dimensionar o clipe até ele); a unidade 6 manda cortar 'no momento em que a fala corresponde ao que aparece na imagem', o que não é executável para um clipe sem fala correspondente. A busca de música por palavra de sentimento (~763) é complemento, não parte essencial: ajuste menor. Nenhuma das omissões é oferta, testemunho ou conteúdo só de tela.",
+  "perecibilidade": "Todas as unidades presas a CapCut, ElevenLabs, Canva, SaveFrom, menu, efeito nomeado ou preço (12: R$ 30/mês) estão com perecivel true; a unidade 9 (calar a boca, técnica geral) corretamente false; a unidade 1 marcada true por citar música específica em condicoes, o que não prejudica. Inspetor sem apontamentos. Passa.",
+  "aplicabilidade": "Passa. As unidades se entendem sem a aula: jargão explicado na própria unidade (plot da música em 8, calar a boca em 9, pipeline em 17), procedimentos com pré-condição e passos que a fala nomeia, e o limite 20 declara o que ficou na tela. Pontos discutíveis, sem mudar o uso: unidade 7 cita 'linha de referência que o professor usa' (referência de tela), mas o passo 3 traz o critério operacional (encaixar no tempo da fala); tipos discutíveis entre dois valores defensáveis em 1 e 16 (regra × exemplo, corpo narra ação do professor), 10 e 12 (regra × ferramenta), 17 (estrutura × procedimento); unidade 2 poderia listar youtube além de outra. Tudo ajuste menor.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        8,
+        16
+      ],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, omissão em ~852, trecho literal: 'É a parte onde a música começa baixinha e vai aumentando.' Definição de fade e o passo de reduzir o volume no ponto de corte e aplicar fade pequeno para ligar o plot da música à música de conexão seguinte, executado duas vezes na aula (montagem inicial e correção da trilha). Nenhuma unidade contém isso: a 8 termina em 'Deletar o restante da música' e a 16 em 'procura outra parte da faixa que funcione melhor'.",
+      "impacto": "Agente que construa a montagem de trilha a partir das unidades 8, 9, 10, 11 e 16 orienta posicionar o plot, cortar o resto e trocar trechos ruins sem nenhuma instrução de ligação entre duas faixas coladas, produzindo corte de áudio abrupto, exatamente o defeito que o passo do professor evita. Etapa essencial do procedimento de sonorização ausente.",
+      "mudanca_minima": "Criar uma unidade `procedimento` (plataformas capcut, tarefa sonorizar-video, tema som-e-sentimentalismo, perecivel true) ou acrescentar passos à unidade 8, com: a definição de fade exatamente como a fonte dá, baixar o volume no ponto de corte e aplicar fade pequeno para conectar o plot à música seguinte, só com o que a fala nomeia; evidência literal dentro da faixa em torno de 852. Na unidade 16, mencionar que a troca do trecho repete o fade, se a fala em ~1236–1247 ou vizinhança sustentar; senão, referenciar a nova unidade. Incrementar `versao` das unidades alteradas.",
+      "criterio_de_aceite": "Inspetor confirma a unidade nova ou os passos acrescentados como `lastreada` com trecho_fonte literal em ~852 e nenhum passo, menu ou valor que a fala não nomeie; a unidade aparece em `tarefas/sonorizar-video`; validador com zero erros; hashes das unidades não alteradas preservados."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        6
+      ],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, omissão em ~519, trecho literal: 'A gente localiza ele aqui na frente'. Para clipe genérico sem fala diretamente associada (exemplo das 'pessoas correndo'), a aula ensina localizar antes o próximo ponto de corte mais à frente na timeline e só então dimensionar o clipe. A unidade 6 só tem o caso 'a fala corresponde ao que aparece na imagem'.",
+      "impacto": "Para um clipe sem narração correspondente, o passo 1 da unidade 6 não é executável e o agente corta em ponto arbitrário. É condição que muda a ação do procedimento de corte sincronizado e não está registrada nem como exceção nem no limite 20.",
+      "mudanca_minima": "Acrescentar à unidade 6 uma exceção (em `condicoes` ou como passo condicional) ou criar unidade `decisao` começando com 'Quando o clipe não tem fala diretamente associada…', descrevendo apenas o que a fala nomeia: localizar primeiro o próximo ponto de corte à frente e estender o clipe genérico até ele. Se a fala em ~519 só apontar na tela sem nomear o critério, registrar essa exceção no `limite` 20 como conteúdo que ficou na imagem. Incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor confirma o trecho novo como `lastreada` com trecho_fonte literal em ~519, sem passo inventado; ou, no caso do fallback, confirma que a fala não nomeia o critério e que o limite 20 passou a citar a exceção. Validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U5: a fala diz 'tamanho padrão dos esforços' (transcrição degradada) e o corpo diz 'criativos' sem nota; acrescentar `nota` registrando a grafia da fonte e a leitura adotada, confiança media. Números e condição corretos, não muda a decisão.",
+    "U12: 'E tem muita coisa pro aqui também' é ambíguo; a ligação entre a transição padrão e o recurso pago de ~R$ 30/mês é leitura plausível pelo contexto seguinte, mas deve vir com `nota` da ambiguidade e confiança media. A orientação principal (evitar a transição, usar animação leve) não muda.",
+    "U1 e U16 (tipo regra): corpo narra o que o professor faz no caso demonstrado, não frase categórica; reformular como regra atribuída ou reclassificar como exemplo. Discutível, sem efeito na fidelidade.",
+    "U10 e U12: regra × ferramenta discutível (caminhos de menu 'Áudio > Efeitos sonoros' e 'Vídeo > Animação'); ambas já perecivel true.",
+    "U17: estrutura × procedimento discutível para um pipeline de ferramentas; sem efeito no uso.",
+    "U7 passo 2: 'linha de referência que o professor usa como guia' é referência de tela; reescrever de modo que o passo 3 (encaixar no tempo da fala) carregue a ação, ou remeter ao limite 20.",
+    "U2: considerar `youtube` em plataformas além de `outra`, já que a fonte do áudio é o YouTube; e trocar 'grafado como SaveFrom' por 'identificado como SaveFrom', pois SaveFrom é a grafia adotada e a fonte grafa 'Save from Mad' (já na nota).",
+    "Omissão ~763 (inspetor, menor): busca de música por palavra de sentimento ('Terror', 'suspense') na biblioteca do CapCut; pode virar unidade `ferramenta` opcional no mesmo ciclo.",
+    "U13 passo 3 descreve o efeito do zoom, não é ação; mover para frase de razão após a lista.",
+    "U1 e U12 usam 'lead' no sentido de prospect sem dizer qual sentido vale, como pede o vocabulário do FORMATO; o contexto torna claro, mas cabe uma palavra ('lead, o prospect')."
+  ],
+  "proximo": "Ciclo de correção 1 de 2: redator aplica F1 e F2 (e, se quiser, os ajustes menores no mesmo passe, sem abrir ciclo), incrementando `versao` só nas unidades tocadas. Inspetor reconfere apenas as unidades novas ou alteradas contra ~852 e ~519 com trecho literal, mais o efeito da alteração em 6, 8 e 16; unidades com hash intacto preservam a evidência atual. Validador roda antes do rejulgamento. Sem pedido de prova adicional: a evidência do inspetor bastou para decidir."
+}

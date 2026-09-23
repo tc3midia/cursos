@@ -1,0 +1,40 @@
+{
+  "aula": "G09_A07",
+  "arquivo_sha256": "e41894bc207bdc5f921686d4cdb1c711d666d83a83562b7ada1211fe9924cdae",
+  "inspecao_sha256": "f67e3701a3b795125f122e83a295dc722916e67fe156302fd4df210c3a35b8e8",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "cobertura"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral (11/11) e sem citações não literais; todas as unidades `lastreada`, nenhuma `desvio`, `sem-lastro` ou `faixa-errada`. Os três apontamentos de gravidade menor (2, 3, 9) são detalhe descritivo secundário cujo lastro fica segundos fora da faixa declarada — a âncora e a orientação central estão dentro — e o inspetor confirma que o sentido não muda: ajuste de `inicio`/`fim`, não veto. Regras próprias do curso respeitadas: copy de exemplo tratada como `exemplo` com condição (U3), nenhum passo de tela inventado nos procedimentos 6–8 (inspetor confere passo a passo), termo não identificado \"black\" mantido entre aspas com nota (U4), ambiguidade CPA/CTA registrada em nota com confiança média (U7), sem resíduo de silêncio. Reservas menores: U1 transforma \"você pode criar\" em imperativo e U4 usa `confianca: media` onde a rubrica prevê `baixa` para termo não identificado. Passa.",
+  "cobertura": "Inspetor buscou omissões na fonte inteira e localizou três com trecho literal. A do trecho 566.92–~588 é material: o professor fecha a aula explicando a função da foto no funil — a dúvida plantada leva ao clique em \"Saiba Mais\", o destino mostra a história contada no anúncio e isso segura a pessoa na VSL até o pitch. Nenhuma unidade preserva isso. Efeito prático: U2 define a parte \"dúvida e questionamento\" sem dizer o que ela precisa apontar; sem a continuidade foto → história → VSL → pitch, um agente que construa criativo estático pela base pode plantar uma dúvida que o destino não resolve, rompendo a lógica que a aula dá para a estrutura. Correção é uma unidade nova, sem mexer nas existentes. A omissão do recolorir/espaçamento após trocar a fonte (510.76–542.94) é menor: U7 já fixa branco/vermelho, falta só o espaçamento. A \"omissão\" da frase de 533s (\"produto de emagrecimento\") não é omissão: U3 e U9 já carregam a informação em `condicoes`; é a mesma questão de localização de lastro que o inspetor já registrou em U3, contada duas vezes. Falha.",
+  "perecibilidade": "Inspetor sem apontamentos. Conferidas as unidades `geral` com `perecivel: false` (1, 2, 4): prática de teste, estrutura de três partes e tom do elemento visual — nada de tela, recurso ou número de mercado escondido. U3 (copy de exemplo), U5–U10 (Canva) e U11 (documento do curso) marcadas `true`. Passa.",
+  "aplicabilidade": "Cada unidade se sustenta sem a aula: procedimentos com pré-condição e passos nomeáveis pela fala, estrutura com partes explicadas, exemplo com as três marcas e condição de copy fictícia, dois `limite` bem escritos (o que ficou na tela; documento prometido sem detalhe). Nenhum corpo depende de \"esse vídeo\"/\"como mostrei\"; a referência à aula anterior fica só no contexto, onde cabe. `tipo`/`tema`/`tarefas` levam ao lugar certo. Discutíveis sem mudar o uso: U9 `canva` vs `geral` e `regra` vs `exemplo` (a `condicoes` já situa o caso). Passa.",
+  "falhas": [
+    {
+      "id": "G09_A07-R1-F1",
+      "unidades": [],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, trecho literal em ~566.92, fora de qualquer faixa (vão entre U9, fim 560.72, e U11, início 588.22): \"Quando ela clicar em Toque em Saiba Mais, ela vai ver a história que você acabou de falar no anúncio.\" e, no mesmo bloco, \"E de quebra, você vai segurar ela na sua VSL até o pitch de vendas\". Nenhuma das 11 unidades registra essa lógica; U2 descreve a parte \"dúvida e questionamento\" sem dizer para onde ela conduz nem o que o destino precisa entregar.",
+      "impacto": "Agente que monte criativo estático pela base sabe as três partes e a edição no Canva, mas não sabe que a dúvida da foto deve ser resolvida pela história que a pessoa vê ao clicar, nem que essa continuidade é o que a retém na VSL até o pitch. Pode produzir foto cuja curiosidade o destino não paga, perdendo a função que a aula dá à estrutura.",
+      "mudanca_minima": "Criar uma unidade nova (número 12; não alterar U2 nem as demais), `fonte: fala`, faixa cobrindo ~566.9 até antes de 588.22, tipo `conceito` ou `regra`, tema `estrutura-de-anuncio` ou `variacoes-e-criativo-estatico`, tarefa `roteirizar-anuncio` e/ou `gerar-variacoes-de-criativo`, com corpo dizendo, em paráfrase: (a) a dúvida/questionamento da foto existe para levar ao clique na chamada (no exemplo, \"Saiba Mais\"); (b) ao clicar, a pessoa deve encontrar a história contada no anúncio; (c) isso a segura na VSL até o pitch. `evidencia` literal dentro da faixa (ex.: \"ela vai ver a história que você acabou de falar no anúncio\"). Se o corpo tratar o botão \"Saiba Mais\" como recurso de plataforma, marcar `perecivel: true`; se ficar como exemplo de chamada, `geral`/`false` é defensável.",
+      "criterio_de_aceite": "Existe unidade 12 com faixa dentro de 560.72–588.22 contendo os três pontos (dúvida → clique; destino mostra a história do anúncio; retenção na VSL até o pitch); validador com zero erros; inspetor confere a unidade 12 como `lastreada` com `trecho_fonte` literal dentro da faixa; hashes das unidades 1–11 inalterados salvo os ajustes menores registrados."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: estender `fim` de 71.7 para ≥72.5 para incluir a frase \"eu peguei focado na parte mais dolorosa que pode ter um anúncio\" (~72.24s), que lastreia a glosa de \"absurdo\" no corpo (inspetor).",
+    "U9: recuar `inicio` (542.94) para incluir a frase \"Para deixar ainda mais macabro essa parte aqui\", que termina no limite da faixa e é citada no corpo como palavra do professor (inspetor).",
+    "U3: \"emagrecimento\" em `condicoes` tem lastro em ~126.8s e ~533s, fora da faixa 77.94–98.52. Acrescentar `nota` dizendo que o nicho é confirmado adiante na aula (\"lembrando que esse é um produto que a gente vai vender de emagrecimento\"), ou reescrever a condição como \"produto em cápsulas, identificado pelo professor mais adiante como emagrecimento\". Cobre também a segunda \"omissão\" do inspetor, que não é omissão de conteúdo.",
+    "U1: fonte diz \"Você pode criar duas variantes\"; corpo está no imperativo (\"crie também\"). Preferir \"O professor recomenda criar...\" para manter como recomendação, conforme regra de `regra` da taxonomia. Inspetor considera uso equivalente; sem ciclo.",
+    "U4: termo \"black\" não identificado nem definido na fonte; a rubrica prevê `confianca: baixa` para termo mantido entre aspas com nota. Baixar para `baixa` ou retirar a glosa \"(mais impactante)\" do título e do corpo, deixando a leitura só na `nota`.",
+    "U8: fala em 510.76–542.94 mostra, após trocar a fonte, recolorir o título (branco na base, vermelho no destaque) e aumentar o espaçamento entre letras (inspetor, trecho \"Colocamos aqui em branco.\"). Opcional: acrescentar passo 4 e estender `fim`. U7 já fixa as cores; só o espaçamento é novo.",
+    "U9: `plataformas: [canva]` para uma escolha de direção de arte (tarja nos olhos) é discutível com `geral`; `regra` vs `exemplo` também. `condicoes` já situa o caso; qualquer dos valores é defensável.",
+    "Nota ao inspetor: a omissão em 533.48 (\"produto de emagrecimento\") duplica o apontamento de U3 — a informação está nas unidades 3 e 9; o que falta é lastro dentro da faixa, não conteúdo."
+  ],
+  "proximo": "Redator: criar a unidade 12 conforme F1 e, se quiser, aplicar os ajustes menores de faixa (U2, U9) e a nota de U3 na mesma passada, registrando em `correcoes` e incrementando `versao` só do que mudou. Rodar `base_fcc.py` (zero erros). Inspetor: conferir a unidade 12 com `trecho_fonte` literal e confirmar que os hashes das unidades intactas não mudaram. Juiz, rodada 2: checar somente F1 e os efeitos das alterações; não reabrir o resto."
+}

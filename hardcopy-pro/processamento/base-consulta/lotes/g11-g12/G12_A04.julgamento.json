@@ -1,0 +1,44 @@
+{
+  "aula": "G12_A04",
+  "arquivo_sha256": "eb89ca8ff856e41241084430206a912b28a49f8e4521128f3fdddc6d00f483be",
+  "inspecao_sha256": "98a7084bed2d4846a263ac0a31747509b37eccda9b4e3ee7aa8a8a57326ea2be",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "cobertura"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. O item que o inspetor registrou em `contrato` (tema da U2: `estrutura-de-anuncio` vs `metricas-e-diagnostico`) não é erro de contrato, é classificação discutível; vai para ajustes menores. Passa.",
+  "fidelidade": "Inspeção integral (9/9), todos os apontamentos com `trecho_fonte` literal e `citacoes_nao_literais` vazio. Nenhum `sem-lastro`. Único `desvio` (U6): o detalhe \"entre aspas\" vem de 718–756s, fora da faixa 424–438s, mas o próprio inspetor mostra que o conteúdo existe na aula e coincide com o que o professor faz; não há número, condição nem sentido diferente da fonte, portanto não é desvio na definição da rubrica — fica como ajuste de faixa/redação. Imprecisões de fronteira em U1 (frase final apoiada em ~128s) e U4 (passo 3 com redação de ~223s) não foram classificadas como `faixa-errada` pelo inspetor; núcleo e `evidencia` estão dentro da faixa e o sentido é o mesmo, então não reclassifico. U7 passo 5 interpreta frase ambígua (\"coloque tudo o que eu pedi dentro das aspas\") com `confianca: alta` e sem `nota` — a leitura é plausível e não muda a execução do prompt; ajuste. Copy de exemplo (U5, U8) está em `exemplo`, com `condicoes` declarando produto e números fictícios; a promessa de 8 horas e a garantia condicional não viraram régua. Grafia adotada (ChatGPT) no corpo e transcrita (\"chat de PT\") na evidência. Sem resíduo de silêncio usado como fonte; U9 evita a sigla ilegível com `nota`. Passa.",
+  "cobertura": "Falha por uma omissão material localizada pelo inspetor com trecho literal (~357s, \"Não com um anúncio qualquer que assim\"): o professor rejeita explicitamente a abertura genérica de pergunta de dor (\"Se você sente que você não consegue dormir e você fica o dia inteiro cansado... não, por favor, não\") e dá o critério positivo — mostrar aquilo que só quem tem a condição passa e sente. Nenhuma unidade preserva a ressalva nem o critério. Efeito prático: U4 diz só \"choque, mensagem de impacto\" e U1 apresenta o formato público+problema como \"converte bem\"; um agente que consulte a base para escrever gancho de anúncio em nicho de dor pode abrir com a pergunta genérica que o professor veta nesta aula, e não tem o critério de seleção do choque. Omissão 1 (~193s, pegar a parte mais chocante do material bruto) é dica lateral de execução: menor, registrada em ajustes.",
+  "perecibilidade": "Inspetor não encontrou perecível escondido; confiro nas unidades: U1–U4 são orientações gerais (estrutura PP, sentimentalismo, gancho, quatro atos) sem tela, preço, data ou número de mercado — CPM/CPA aparecem como definição, não como valor. U6, U7 e U8 (`chatgpt`) e U9 (recurso do curso: próxima aula) estão `perecivel: true`. U5 marcada `true` sem necessidade evidente, o que não reprova. Passa.",
+  "aplicabilidade": "Todas as unidades se sustentam sem a aula ao lado: jargão explicado na primeira ocorrência (PP, sentimentalismo, CPM, CPA, Kishotenketsu), `condicoes` preenchidas onde a orientação é condicionada (U1, U3, U5, U7, U8), `estrutura` com as partes que a evidência do inspetor mostra existirem (U4 com quatro atos, U7 com o prompt). Nenhuma técnica de contorno de política nesta aula. Temas de U2 (`estrutura-de-anuncio` vs `metricas-e-diagnostico`) e U3 (`objecoes-e-credibilidade` vs `estrutura-de-anuncio`) são discutíveis entre valores defensáveis e as `tarefas` levam o agente ao lugar certo; ajuste menor. Em U5, \"a estrutura descrita antes\" é referência de ordem da aula, mas a Situação já diz \"estrutura de quatro atos\", então o uso não muda. Passa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        4,
+        5
+      ],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, omissão 2, inicio 357, trecho_fonte literal \"Não com um anúncio qualquer que assim\"; descrição: o professor rejeita a abertura genérica de pergunta de dor (\"Se você sente que você não consegue dormir e você fica o dia inteiro cansado, não, por favor, por favor, não\") e instrui mostrar \"Aquilo que só a pessoa que tem insônia passa e sente\". Nenhuma das nove unidades contém a ressalva nem o critério; U4 fala só em \"choque, mensagem de impacto\" e U1 apresenta o formato público+problema como \"converte bem\".",
+      "impacto": "Agente que consulte a base para escrever gancho de anúncio em nicho de dor fica sem o critério do professor para construir o choque dos 3 segundos (mostrar o que só quem tem a condição vive) e sem a ressalva contra a pergunta genérica de dor; pode produzir exatamente a abertura que o professor veta nesta aula, apoiado na U1.",
+      "mudanca_minima": "Criar unidade nova, numero 10 (não renumerar nem alterar 4 e 5), tipo `regra` ou `decisao`, tema `anuncio-produto-com-dor` (ou `abertura-e-gancho`), tarefas [`escrever-gancho-de-anuncio`], plataformas [`geral`], fonte `fala`, faixa cobrindo ~357s, `condicoes` indicando anúncio para nicho de dor (exemplo da aula: insônia), corpo dizendo que o professor rejeita abrir com pergunta genérica de dor (do tipo \"você sente que não consegue dormir e fica o dia cansado?\") e orienta abrir mostrando o que só quem tem a condição passa e sente; `evidencia` literal dentro da faixa, com a grafia da transcrição; `perecivel: false`; `versao: 1`.",
+      "criterio_de_aceite": "Unidade 10 existe no arquivo; validador com zero erros; `evidencia` encontrada pelo script dentro de `inicio`–`fim`; corpo contém (a) a rejeição da abertura genérica de pergunta de dor e (b) o critério de mostrar o que só quem tem a condição sente; inspetor da rodada 2 classifica a unidade 10 como `lastreada` com `trecho_fonte` em ~357s e não lista mais a omissão 2; hashes das unidades 1–9 não alteradas permanecem iguais."
+    }
+  ],
+  "ajustes_menores": [
+    "U1 — a frase final (\"a considera limitada para reduzir ainda mais o custo e aumentar a conversão\") apoia-se em ~128s, fora de fim=87. Estender `fim` até cobrir a fala ou retirar a frase; não muda o uso.",
+    "U4 — passo 3 (\"Aumentar a tensão apresentando o produto\") usa redação de ~223s, fora de 281–328s; dentro da faixa a fala é \"alavancar para o seu produto, deixar esse aqui mais interessante\". Estender `inicio` ou reescrever o passo com a formulação da faixa; a estrutura de quatro partes está correta.",
+    "U6 — \"entre aspas\" vem de 718–756s (faixa da U7), não de 424–438s. Retirar \"entre aspas\" do corpo (já está nas `condicoes` da U7) ou ajustar a faixa. O inspetor rotulou como `desvio menor`; o juiz trata como ajuste porque nenhum número, condição ou sentido diverge da fonte.",
+    "U7 — passo 5 (\"Trate como texto do anúncio tudo o que estiver entre aspas\") é uma leitura de frase ambígua (\"coloque tudo o que eu pedi dentro das aspas\"), que também pode significar que o professor coloca o texto do anúncio entre aspas ao montar o prompt. Adicionar `nota` com a frase literal e as duas leituras e baixar `confianca` para `media`.",
+    "U5 — dentro de 329–711s a fonte diz \"um médico\"; o corpo escreve \"uma médica\" (o feminino só aparece na versão revisada, faixa da U8). Usar \"um médico\" ou registrar em `nota` que a fonte alterna o gênero da personagem.",
+    "U5 — em Lógica, \"a estrutura descrita antes\" é referência de ordem da aula; trocar por \"a estrutura de quatro atos\" para a unidade não depender da sequência.",
+    "U2 — tema `estrutura-de-anuncio` é defensável; `metricas-e-diagnostico` também (CPM e CPA estão na definição). Manter ou trocar, sem abrir ciclo.",
+    "U3 — tema `objecoes-e-credibilidade` é discutível; a orientação é sobre qualidade do gancho e custo da operação (`estrutura-de-anuncio` ou `publico-e-segmentacao`). As `tarefas` já levam o agente ao lugar certo.",
+    "Omissão 1 do inspetor (~193s, \"Normalmente eu pego a parte mais chocante\"): dica de escolher o trecho mais chocante do material bruto para abrir o anúncio. Lateral; pode entrar como frase de razão na U4 ou na nova unidade 10, se o redator quiser, mas não é exigido."
+  ],
+  "proximo": "Redator aplica F1 (unidade 10 nova, sem tocar em 1–9 salvo os ajustes menores que optar por fazer na mesma passagem), incrementa `versao` nas unidades cujo corpo ou metadado semântico mudar, roda o validador (zero erros), e o arquivo volta para inspeção focal na rodada 2: inspetor confere a unidade 10 com fonte e qualquer unidade cujo hash mudou, preservando a evidência das intactas. Juiz confere a lista F1 e os efeitos das alterações; não reabre o resto."
+}

@@ -1,0 +1,226 @@
+{
+  "aula": "G05_A02",
+  "arquivo_sha256": "3a15b7cef6d2c4acfff16d3eb4b7201d01ee0df7a503286f94d4dec987ece843",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "hashes_unidades": {
+    "1": "1f891d417177fe2dd73cd028c5e39457bcdaf8d1d04b0212fa4a9c838103e2ba",
+    "2": "cf9ab51c3f6f80f2b88cfa1d9439ee49b7aee41dda48f34aefb4acf942013ad8",
+    "3": "633b2f8ca7fa344a6cff1e68ea55cf6008e5064e0ab65d5a9dd1f62b11b0b00b",
+    "4": "2c07c2e6c883ea00b5a6d0e0472a3e8c3d691fc6587b3a2a622289b462ab77e0",
+    "5": "929b2244dcba1e484045dcc927100af248365af0744c68c3d5254ac2ae248a59",
+    "6": "423100e74c3bfc470218eaae1e4f5a8c207d7143471c1fdba218b3b48346334c",
+    "7": "5f3af8275db7900164a2b593fce0d62bd2a13dbffdd988452d7d74eb1f4c0179",
+    "8": "700cf0f3534f68d088d5c8b6cd021c9c6174af50c701e2e130cfdf06de824940",
+    "9": "fd566f96b20f7ec00024abde0b62e0916b19b6955b175fc7475367c1e68c5f1e",
+    "10": "fc8697d2d565a05f6b2ddaadcc9f05922a01848ca51555ebb75ce5dcd2377ae1",
+    "11": "6f41b6af64fec7d2313f35f275dee043c5c24b5ccff5fb7f6aa74f42be202a4f",
+    "12": "df0e857f362e4f1390ce2c27b5a78b9da606877491947aec3c6c8260fa0fe4ae",
+    "13": "933df0883a179d178926969591c26a3e8841bf0d1e1d0c014e7b819591aa3880",
+    "14": "485147b824570cca57839d6683465e0f095405b6c2066fdeea04bd16e5fa85dc",
+    "15": "993b0d04aef0b02bea76c60a4b02b8ff6a3d252ad538e31c129bc677b380ec0c",
+    "16": "72dd0830e187cfe347c476468ceef9d906008e318a606daca092f4eb76cfbbc1",
+    "17": "7af5e6dca45496be422c3a4153c1279404c6d6742d9f51464f979e9a3d905a3a"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Escreve o Snap Insta, clica aqui, dá o Ctrl V no link e faz o download normal",
+      "explicacao": "Os passos (buscar no Google, colar o link, download normal, fechar o anúncio) e a frase sobre marca d'água estão na fala. Em 'vídeo de referência', o corpo e a nota acrescentam o 'de referência', que a fonte não diz: em 00:07 o professor fala só em 'o vídeo que nós baixamos desse senhor'. Não muda a execução. A nota de hipótese sobre 'Snap Insta' está correta. Sobre o aviso de contorno de política, ver `contrato`."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você quer criar um anúncio hoje o tamanho de um Stories você vai colocar 1080 por 1920",
+      "explicacao": "Os números batem: 1080×1080 para post, 1080×1920 para Stories e anúncio, 1920×1080 para VSL no tamanho do YouTube. Faixa e evidência estão dentro do trecho. Tipo `regua` e `perecivel: true` estão corretos."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então lembre-se disso quando você for criar um anúncio pra você, não faça um xerox mail",
+      "explicacao": "Fiel ao trecho de 00:02:32 a 00:06:07: crítica a copiar fonte, fundo, cor e sombra; exemplo da barbearia como demonstração; 'performar pra ficar melhor do que eu faço no seu produto'. A condição do exemplo de outro nicho está preservada. A tag de plataforma `canva` para uma regra de conteúdo geral é discutível (ver `contrato`)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai ficar um negócio bagunçado e feio",
+      "explicacao": "'Sempre 2 linhas', 'nunca 3 linhas' e 'nunca palavras demais' estão na fala, e a preferência aparece nas condições. O `fim` 569 corta o segmento em que o professor diz que o vídeo 'fica muito estático em uma imagem, meu somente vai cansar' (00:09:28–00:09:36). O segmento começa dentro da faixa, então não chega a ser faixa-errada. A fala 'meu somente vai cansar' está degradada, e o corpo a resume como 'cansa'."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Esse anúncio aqui eu demorei dois minutos pra finalizar ele",
+      "explicacao": "Duplicar a página e trocar as fotos está dito. 'Dá muito trabalho, é muito demorado, mas fica muito bem feito' e 'dá uma conversão absurda' estão atribuídos ao professor. Os 'dois minutos' são de um anúncio específico que ele mostra ('esse anúncio aqui eu demorei dois minutos'). O corpo os transforma em 'um anúncio mais simples ele finaliza em dois minutos', e o 'mais simples' vem da imagem. É um caso narrado com leve tom de generalização. A nota já registra que a comparação ficou na tela."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Cara, isso aqui é você fazer um anúncio podre.",
+      "explicacao": "O núcleo está na fala: recusa do motion óbvio (mulher com a mão pra cima), 'fora da caixa', elemento que 'faz sentido com esquecer' e 'saia da mesmice'. O corpo define 'motions' como '(elementos animados)', e a fonte não define. Em `condicoes`, 'ele mesmo diz que gosta assim' vem de 00:12:07–00:12:12 ('Eu gosto de fazer assim'), fora da faixa 639–690. Ajustes menores."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Diminuindo ele, vamos editar a imagem, vamos em dual tone e vamos colocar ele na cor da letra",
+      "explicacao": "Remover fundo, reduzir, dual tone, pincel na cor da letra, contraste e brilho estão todos na fala, dentro da faixa 693–720. A nota sobre o termo falado está adequada."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O Canva vai te dar uma infinidade de sombras",
+      "explicacao": "Buscar 'sombra' em elementos, escolher, Ctrl C e Ctrl V, e jogar a letra por cima estão na fala (00:07:35–00:07:53), dentro da faixa."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai segurar o ctrl e apertar em todas as sombras",
+      "explicacao": "Mostrar camadas, Ctrl+clique nas sombras, botão direito e agrupar, e a posição do grupo estão na fala, e nenhum passo foi inventado. O professor diz 'joga pra trás da foto', corrige com 'Perdão' e conclui 'Pra trás da palavra' em 00:15:08–00:15:10. O corpo fica com a versão corrigida, que está certa. Esse fecho começa 0,5 s depois do `fim` 908, então o `fim` deveria ir a cerca de 911. Ajuste menor de faixa."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Sempre faça essa ligação de cores, tá?",
+      "explicacao": "A regra e a atribuição de preferência estão preservadas ('fica maravilhoso', 'não tem erro'). Vencedor e mão forte em vermelho aparecem só como exemplo."
+    },
+    {
+      "numero": 11,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "aqui beleza vamos para o desenvolvimento hoje ele está acima do peso aí voltamos com o senhor na",
+      "explicacao": "A razão ('Pra dar uma conexão / Pra pessoa saber o que a gente tá falando') está dentro da faixa, mas a condição do corpo ('Quando o texto passa a falar do problema do personagem, ... volta com a imagem dele') está em 00:16:29–00:16:46, cerca de 30 s antes do `inicio` 1034. A evidência também começa em 00:17:11, antes do `inicio`. A faixa deveria começar perto de 989. Quem confere pela faixa não vê o contexto que o corpo afirma. O 'problema do personagem' é leitura do 'hoje ele está acima do peso' do exemplo."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Fala mais do que a palavra",
+      "explicacao": "Imagem sem texto, som ao falar em 'venda', 'dica de ouro' e 'muito cuidado, muito bem feito' estão na fala (00:25:54–00:26:22). A incerteza sobre o som ('Da que me faz') está na nota. A faixa 1494–1582 é larga no começo, mas contém o conteúdo."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "fazer alguma coisa no alcanceira então sempre coloca uma série que não",
+      "explicacao": "A afirmação é atribuída ao professor: o Facebook 'não gosta de seta' e 'está induzindo a pessoa', e ele manda usar algo que 'não parece com seta'. A nota de contorno tem o prefixo exigido e `perecivel` está `true`. Dois detalhes vão além da fonte. (1) 'induz a pessoa a fazer algo no alcance' vem de 'alcanceira', que está degradado e não foi sinalizado. (2) 'apontando para o botão \"Saiba mais\"' não está dito: a fala só traz 'ao tocar em Saiba Mais, vamos colocar uma seta' e 'aqui a gente coloca de novo uma seta em baixo para forçar'. 'Série' → 'símbolo' está na nota."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "muito bom como tem muitas palavras aqui vai demorar um pouco colocamos um teclado",
+      "explicacao": "Estão na fala: 'nunca coloque isso', 'faça uma parada séria', animar por palavra, mudar de um efeito para outro, desfoque e piscando. O corpo diz 'Para palavra curta suspensa e para muitas palavras usa o efeito teclado'. Só 'muitas palavras' tem o efeito nomeado (teclado, com aumento de velocidade). Para a palavra curta suspensa o efeito não é dito ('a gente coloca esse'), e a frase do corpo pode ser lida como se ambas usassem teclado. 'Animação colorida' vem de 'colocar a coisa colorida', cujo objeto só aparece na tela. 'Entre uma frase e outra' também não está dito: a fala é 'mudar de um pro outro'. As condições já avisam que os efeitos ficaram na tela."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "que é a próxima aula, onde a gente vai para o Canva.",
+      "explicacao": "Os passos (compartilhar, baixar, vídeo MP4, todas as páginas, não salvar como separada, baixar) e a razão adiada estão na fala, dentro da faixa. A nota diz que 'na fala o professor diz que a próxima aula é a edição, transcrita como \"Canva\"'. A fonte não diz 'edição'; o que está lá é 'próxima aula, onde a gente vai para o Canva'. Como a aula já é no Canva, a ferramenta é de fato incerta, e o professor cita CapCut em 00:10:09. A nota deveria descrever o que a fala diz. Sem efeito sobre o procedimento."
+    },
+    {
+      "numero": 16,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "a temporada da criatividade é basicamente",
+      "explicacao": "Estão na fala: 'pensar fora da caixa', 'não pula aula' e o ensino de como fazer isso na temporada da criatividade. A última frase do corpo ('Esta aula não ensina o processo mental, só mostra o resultado no Canva') é inferência: o professor diz que a temporada 'é basicamente isso aqui' e 'eu mostro como que você consegue fazer uma parada dessa', sem declarar que esta aula não cobre isso. Ele também verbaliza o raciocínio ao escolher elementos (por exemplo, 'faz sentido com esquecer'). O mesmo enquadramento está no `contexto`. Ajuste menor."
+    },
+    {
+      "numero": 17,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Olha só, ficou muito grande.",
+      "explicacao": "O limite reflete a aula: a montagem do anúncio é feita por cliques, tamanho, posição e efeitos que a fala não descreve em passos. A evidência existe na faixa (00:12:14 e 00:20:29). A unidade é o `limite` correto para aula de tela."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 376.54,
+      "trecho_fonte": "até porque não faz sentido eu criar uma letra do zero, se eu já tem, né?",
+      "descricao": "Depois de mostrar a barbearia, o professor volta a usar a paleta e as fontes que ele já tem ('a minha paleta e as minhas letras') e trabalha o anúncio em cima delas. Nenhuma unidade registra isso.",
+      "gravidade": "menor",
+      "efeito_pratico": "A unidade 3 manda escolher fonte, fundo e cor próprios. Sem esta fala, o agente pode ler que é preciso inventar fonte e cor a cada anúncio. O professor mostra identidade fixa reaproveitada entre anúncios."
+    },
+    {
+      "inicio": 532.56,
+      "trecho_fonte": "Você vai pegar um pedacinho das frases",
+      "descricao": "A técnica de montagem divide a frase em pedaços e trabalha 'em cima de cada palavra': cada trecho da frase recebe sua página e seu visual ('vai colocar em cada palavra aqui'). As unidades 4 e 5 cobrem linhas por quadro e duplicar páginas, não essa divisão.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta a ideia de fatiar o texto por página. O agente sabe duplicar páginas e limitar linhas, mas não o critério de dividir a frase entre elas."
+    },
+    {
+      "inicio": 806.52,
+      "trecho_fonte": "Aí, normalmente, a gente tem que correr pro tiktok.",
+      "descricao": "Quando a biblioteca do Canva não tem um vídeo adequado (o exemplo é 'gula'), o professor busca no TikTok, copia o link e baixa com a ferramenta de download (00:13:36–00:13:59). A unidade 1 mostra o download, mas não diz que o TikTok é fonte de vídeo quando o Canva não serve.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente não sabe de onde o professor tira os vídeos que não estão no Canva."
+    },
+    {
+      "inicio": 1407.34,
+      "trecho_fonte": "Eu faço isso por marca própria, porque as pessoas que me acompanham gostam desses vídeos",
+      "descricao": "O professor escurece os vídeos de fundo (aumenta o contraste, diminui o brilho: 00:20:52, 00:23:27, 00:25:40) e diz que faz por marca própria, porque quem o acompanha gosta de vídeos mais escuros. A unidade 7 registra só 'contraste e aumenta o brilho' para outro elemento.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente pode aplicar 'aumentar o brilho' a tudo e não sabe que o padrão dos vídeos de fundo é escurecer, por preferência de marca e público dele."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1 (possível ausência de aviso): o professor ensina a baixar, 'sem marca d'água', vídeos de outras pessoas (00:00:30–00:00:57; 'o vídeo que nós baixamos desse senhor'; TikTok em 00:13:41) para usar no anúncio. Se o juiz entender que isso remove marca de terceiros ou contorna termos de plataforma, a `nota` não traz o aviso 'Contorna política de plataforma ou direito de terceiros:'. A fonte não diz que é contorno; a classificação fica para o juiz.",
+    "Unidade 3: a regra 'não copiar o anúncio dos outros, criar identidade própria' vale para qualquer criativo, mas tem `plataformas: [\"canva\"]`. Só a busca de modelos é específica do Canva. Classificação discutível, ajuste menor.",
+    "Unidade 6: `tema: criatividade-e-angulo` é definido na taxonomia como achar ângulo novo e modelar sem copiar. A unidade trata de escolher elementos gráficos no Canva, o que combina mais com `direcao-de-arte-e-texto-na-tela`. Discutível, ajuste menor.",
+    "Unidade 11: o corpo fala em 'o personagem' e 'a imagem dele' sem dizer que se trata do protagonista do anúncio de exemplo, com sua imagem já mostrada. Sem a aula, a unidade fica vaga sobre de quem é a imagem. Ajuste menor."
+  ],
+  "material": [],
+  "resumo": "As 17 unidades foram conferidas contra a transcrição; não há material de apoio. Nenhuma tem número adulterado, `sem-lastro` ou copy de exemplo tratada como fato. Os defeitos são todos menores: uma faixa-errada (11) e desvios pequenos de redação nas unidades 5, 6, 13, 14, 15 e 16, mais o `contrato` das unidades 1, 3, 6 e 11. A cobertura omitiu quatro pontos menores (paleta própria, fatiar a frase por página, TikTok como fonte de vídeo, escurecer os vídeos por marca), nenhum que impeça executar, e não há perecibilidade escondida."
+}

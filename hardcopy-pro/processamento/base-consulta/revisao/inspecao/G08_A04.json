@@ -1,0 +1,112 @@
+{
+  "aula": "G08_A04",
+  "arquivo_sha256": "dc8c4e46bb3a4d3294b0c69ef7f6c3304938a678645753f0e8065a9230f73c43",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 5]; as demais mantêm a evidência da inspeção integral do arquivo 5c23ca54da37, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "1772dd64679e4804f99e2dd155b90c28ac2ddb7708b3026977a072eafc191a5f",
+    "2": "72d1cb4083cdf4f7b47de5fd70a81c1b781fab41c4c812df9ecb610a32ad9774",
+    "3": "12aaf49311d23d547b52d94c3ebbdea6175c9f7be3a878e5ae89b8f85247e42d",
+    "4": "d48e090b6d35164540f53a04fac7b2116acffdb8b22c5de26478b160a4734318",
+    "5": "f0216c913c781ea011c41e91a6c1dd395c9a3f4962772ecc6d4be3a6b44ca932",
+    "6": "21aa6d928e3f38aa9222cbdbd2f99db8a8057aa65410f1f739a0f6b200158755",
+    "7": "f101ec85a011d4463a978e92ab0eb3e531d451e05866afe40623d8a79ddf33b8"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente não precisa tratar o áudio, remover ruído, nem nada disso, porque é o MEI-A, né?",
+      "explicacao": "A regra (áudio do ElevenLabs não precisa de tratamento/remoção de ruído) está dita quase literalmente. O trecho 'porque é o MEI-A' é de fato confuso na transcrição; a unidade tratou isso com confiança média e nota explicando a incerteza, o que é adequado. A comparação com 'gravação real que pode trazer ruído de fundo' é uma extrapolação leve do extrator para dar contexto, mas não distorce o sentido da regra."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos colocar um terrorzinho, claro",
+      "explicacao": "F1 foi resolvida: o corpo corrigido não atribui mais posição narrativa (\"antes da revelação\", \"perto do fechamento com CTA\") à escolha de trilha. Cada afirmação tem lastre literal dentro da faixa 339,2–525,78 s: 'dá todo o charme' (05:42,54–05:46,54), 'terrorzinho'/'Um suspense' (05:49,02–05:55,02), 'aumentar um pouquinho o volume da voz' (06:09,2–06:16,98), 'fade out' e 'micro-ondas' (07:08,98–07:29,24), 'parada de fé'/'pessoa ficar feliz'/'motivação' (08:31,6–08:45,78). A Lógica agora só descreve sentimento e ordem temporal ('primeiro suspense, depois... feliz'), sem correlacionar com ato do anúncio, o que é o que a fala sustenta. Não identifico problema novo: a leve inversão na ordem de menção entre 'motivação' (busca) e 'parada de fé' (o que ele decide colocar) não altera o sentido nem a decisão de quem consulta — é diferença de redação sem efeito no uso. Faixa e evidência conferem com a transcrição; versão incrementada para 2."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aqui a gente vai remover o sono novamente para a pessoa prestar atenção no que a gente está falando, tá?",
+      "explicacao": "A transcrição usa 'remover o sono', quase certamente erro do reconhecimento automático de fala para 'remover o som/silêncio' (contaminado pela palavra 'sono', tema central da copy sendo editada). A leitura da unidade ('remover trechos de silêncio') é razoável e consistente com a definição dada no início da aula ('tirar as partes brancas do áudio'), mas a unidade declara confiança alta e não registra nota sobre essa ambiguidade de transcrição, como a rubrica pede para fonte mal transcrita."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Aqui a gente vai colocar micro-ondas",
+      "explicacao": "A unidade, do tipo limite, descreve corretamente que boa parte da edição fica só na imagem (menus, filtros, transições) e cita como exemplo o efeito sonoro nomeado apenas como 'micro-ondas', que está de fato na fala dentro da faixa indicada. Resultado esperado para aula de tela."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vai procurar escuro aqui",
+      "explicacao": "F1 foi resolvida: título, Situação e Lógica não citam mais 'antes da revelação do produto' nem remetem à U2 ('no mesmo trecho de tensão'). Cada passo do corpo tem lastre literal dentro da faixa 480,24–500,78 s: 'filtrozinho'/'Na verdade um efeito' (08:00,24–08:04,40), 'Efeito escuro'/'Vai procurar escuro aqui' (08:04,88–08:09,46), 'Procurou, colocou o vermelho'/'Coloca o vermelho' (08:09,46–08:14,10), 'vamos colocar de novo essa transição aqui' (08:14,10–08:18,92). A expressão 'que já havia usado antes' é inferência direta e não especulativa da palavra 'de novo' dita pelo professor, não uma posição narrativa, e não faz a unidade depender da U2. A Lógica registra explicitamente que o critério da escolha não é dado pela fala, o que é fiel ao FORMATO para aula de tela. Não identifico problema novo. `confianca: media` com `nota` sobre a hesitação 'filtrozinho'/'efeito' atende ao critério de aceite. Faixa e evidência conferem; versão incrementada para 2."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Perfeito. Vamos deixar até aqui nos 46 segundos e olha só, um anúncio de 46 segundos, muito rapidinho, muito bem feito.",
+      "explicacao": "Número de caso (46 segundos de um anúncio específico) corretamente tratado como exemplo perecível, com condição explicitando que não é régua geral de duração. Consistente com a regra de que número de caso não vira régua."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Criamos um produto em cima do encapsulado, que não mostra nenhum encapsulado aqui e mostra o que tem dentro do encapsulado. Isso é o mecanismo único oculto.",
+      "explicacao": "A regra reproduz fielmente a ação (mostrar o conteúdo/benefício em vez da embalagem) e a atribui ao professor como técnica para produto saturado, com condição adequada e sem virar lei universal. A definição de 'mecanismo único oculto' usada no corpo é a mesma do vocabulário do curso, corretamente atribuída a outra aula."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 369.2,
+      "trecho_fonte": "eu vou aumentar um pouquinho o volume da voz dela tá",
+      "descricao": "Ao mixar a trilha sonora com a locução, o professor sobe o volume da voz em relação à música; nenhuma unidade registra esse ajuste.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta as unidades de sonorização desta aula não fica sabendo que, ao adicionar trilha, o professor recomenda reforçar o volume da narração para que ela não fique abafada pela música."
+    },
+    {
+      "inicio": 571.6,
+      "trecho_fonte": "Agora vamos caçar o plot dessa melodia",
+      "descricao": "O professor busca o 'plot' (parte mais marcante) da música escolhida para posicioná-la estrategicamente no anúncio, técnica ligada ao conceito de vocabulário do curso 'plot da música'; não há unidade que registre essa aplicação nesta aula.",
+      "gravidade": "menor",
+      "efeito_pratico": "Um agente que consulte as unidades de sonorização desta aula não saberá que ela também demonstra, na prática, a técnica de localizar o trecho mais impactante da trilha antes de posicioná-la no anúncio."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidades 2 e 5 classificam a plataforma como 'capcut'; como a orientação de fundo (trilha por clima, filtro de cor por sentimento) é conceitual e não exclusiva do CapCut, 'geral' com o nome da ferramenta em nota também seria defensável — classificação discutível entre dois valores, portanto ajuste menor, não erro de contrato."
+  ],
+  "material": [],
+  "resumo": "Conferência focal restrita às unidades 2 e 5 quanto à falha F1 (correlação inferida entre recurso de edição e ato narrativo, sem nota/confiança ajustada). A correção do ciclo 1 removeu as expressões de posição narrativa ('antes da revelação', 'perto do fechamento com CTA', 'no mesmo trecho de tensão') e manteve só o que a fala nomeia dentro das faixas ajustadas, com evidência literal para cada afirmação de corpo e título. Nenhuma das duas unidades ficou dependente da outra, `confianca` e `nota` estão compatíveis com o que resta de inferência, e a `versao` foi incrementada nas duas. Não encontrei problema novo introduzido pela correção nem falha de cobertura decorrente desta lista; as duas unidades passam a `lastreada` com gravidade `nenhuma`."
+}

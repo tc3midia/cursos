@@ -1,0 +1,95 @@
+{
+  "aula": "G09_A02",
+  "arquivo_sha256": "dbd30407d4b6ff3d2d23bebb1e99ebf13bb30349294c802548e7c238820f71f3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [3]; as demais mantêm a evidência da inspeção integral do arquivo 5310eaface5d, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    3
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "218bb902cddd9cb48083a04ec04d7fca8c2cdcd2f040e9923acd44a163462f2e",
+    "2": "18789f38c5e2c67579e7d4f7882c0d5905e4acb78d979bfdc63dce69edfea537",
+    "3": "e60a5e4e329d05e55fde3494c7851ea1c1e581b9a7190bdb3a3a482c7481f1f5",
+    "4": "3f07fd3d9f322cdc737e5d4a63facd4290cdfa2db7ca0b053dd16bea4d9180db",
+    "5": "b9654c892075e03d4c7ea339e41685df66c48c8ceffe305d5a60984d3039ea61",
+    "6": "7eaa90ef33905fcbb92c2a2b6ca812626b94f2ca6b06ff76b6c45de5968c4509"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não trabalho com outro formato",
+      "explicacao": "O corpo reproduz fielmente a fala: o professor afirma usar só a estrutura do Kishotenketsu (transcrita como 'Kenshu Genketsu', grafia da tabela sem marca de hipótese) e justifica com saturação/CTR baixo do 'outro formato' não nomeado, o que a nota já sinaliza corretamente. A atribuição ao professor está clara no corpo ('O professor afirma...'), então não vira lei universal, apesar de o título não trazer sujeito explícito."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Agora com este formato você vai conseguir 4, 6, 8 CTR de 12, 15%",
+      "explicacao": "A fala diz '1.5 de ROI, 2 de ROI' e, na sequência, '4, 6, 8 CTR de 12, 15%' sem repetir a palavra ROI antes dos números 4,6,8. A unidade interpreta esses números como continuação de ROI ('ROI de 4 a 8') e '12,15%' como CTR — leitura razoável dado o padrão da fala, mas com alguma ambiguidade; confiança 'media' e a nota deixando explícito que é alegação pessoal do professor, sem fonte de mercado, cobrem essa incerteza de forma adequada."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É um nicho totalmente diferente do meu, que hoje o meu nicho é o marketing digital.",
+      "explicacao": "A correção do ciclo 1 (G09_A02-F1) mudou `inicio` de 224 para 38, mantendo `fim: 345`, corpo e `evidencia` intactos, e subiu `versao` para 2 — exatamente a mudança mínima pedida. Reconferi item a item dentro da nova faixa 38–345s: (a) `condicoes` sobre o nicho ('É um nicho totalmente diferente do meu... marketing digital' em 38,5–43,1s; 'dá para colocar em qualquer nicho' em 47,3–51,4s) e sobre o produto fictício de emagrecimento ('como um produto de emagrecimento' em ~118s) têm fonte dentro da faixa; (b) parte 1 'abertura surpreendente' está em 'Sempre com algo / Surpreendente, um terror, um absurdo' (58,7–63,4s) e reforçada no recap 'Coloque um início surpreendente' (334s); (c) parte 2 'dúvida' está em 'as pessoas que já tomaram... vão falar, puta que pariu, e agora?' (166,7–174s) e 'as pessoas que não tomaram... quase que eu comprei isso daqui' (174,4–182,9s); (d) parte 3 'confirmação com inimigo' está em 'Uma confirmação, a primeira confirmação do anúncio' (186,9s), 'Inimigo em comum' (214s) e no fechamento 'Aqui se você colocar isso como inimigo / Vai se identificar / Por causa do criativo' (327–330,9s); (e) parte 4 'pedido de ajuda como CTA' está em 'temos o pedido de ajuda / Literalmente o pedido de ajuda' (219,8–226,2s) e 'você pedir a ajuda em formato de CTA' (340,6–344,6s). A `evidencia` da unidade ('Coloque um início surpreendente... Para aí sim você confirmar', 334–344,6s) permanece dentro da faixa. Todos os quatro passos e a condição de nicho agora têm sustentação literal verificável dentro de `inicio`–`fim`; nenhum conteúdo foi cortado do corpo. A alteração não introduziu problema novo: a ordem dos quatro passos no corpo bate com a ordem em que o professor os recapitula na fala (início surpreendente, dúvida, confirmar, pedir ajuda/CTA), e `inicio: 38 < fim: 345 ≤ 452 + 2` continua válido. A falha G09_A02-F1 está resolvida; com isso, 0 das 6 unidades da aula com faixa ficam em `faixa-errada` (0% ≤ 10%)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não vou testar esse criativo Não vou colocar esse produto pra rodar Até porque eu nem tenho esse produto",
+      "explicacao": "A fala confirma o CTR de 15% citado só para o criativo fictício de emagrecimento e a ressalva explícita do professor de que não vai testar nem rodar o produto, porque o produto nem existe. A unidade preserva a ressalva integralmente e classifica corretamente como 'exemplo' (não 'régua'), evitando que o número vire parâmetro geral, conforme exige a regra de copy de exemplo do curso."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não é a edição e sim aquilo que você está fazendo atrás do anúncio, que é o que você está falando",
+      "explicacao": "Fala e corpo coincidem: o segredo para reter o público até o final não é a edição, e sim a copy/o que está sendo dito no anúncio; o contexto de pessoas perguntando pelo 'segredo' no direct/WhatsApp também está preservado com fidelidade."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu vou deixar aqui abaixo um documento que eu tenho onde você vai conseguir",
+      "explicacao": "A fala confirma a promessa de um documento de apoio para aplicar o processo da copy, sem detalhar conteúdo ou local de acesso. A unidade não inventa nenhum detalhe sobre o documento e registra isso corretamente como 'limite' perecível, com tema/tarefa de recursos do curso coerentes."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 284,
+      "trecho_fonte": "Aqui quando você cria esse tipo de conteúdo, você está criando um movimento de pessoas.",
+      "descricao": "A aula ensina que criar esse tipo de criativo, com um inimigo comum bem definido, gera um 'movimento de pessoas' em torno da causa, e contrasta isso com o erro comum de VSLs que colocam um inimigo genérico e desconectado do público ('que não tem nada a ver... e que a pessoa não se identifica'), diferente do inimigo introduzido pelo próprio criativo, com o qual o público se identifica. Nenhuma das seis unidades preserva esse ponto: a unidade 3 registra a ideia geral de 'confirmação com inimigo', mas não a comparação explícita com o erro comum em VSL nem o efeito de 'movimento de pessoas'.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta a base perde uma orientação prática específica sobre onde e como apresentar o antagonista/inimigo (via o próprio criativo, não como vilão genérico só na VSL) para gerar identificação do público, além do argumento do professor sobre o efeito de engajamento ('movimento de pessoas') dessa técnica — um diferencial explícito que o professor marca frente ao que 'esses copywriters fazem' de errado."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1: o título 'Só usa a estrutura do Kishotenketsu nos criativos de anúncio' não traz sujeito explícito (fica ambíguo se é regra do professor ou instrução ao leitor). O corpo esclarece a atribuição ao professor, então não chega a virar lei universal, mas um agente que navegue só por títulos pode ler errado; ajuste de título recomendado (ex.: 'O professor só usa...').",
+    "A ordem de numeração das unidades (1, 2, 3...) não segue a ordem real de aparição do conteúdo na fonte: o conteúdo da unidade 3 (abertura surpreendente, dúvida) aparece na fala a partir de ~00:00:56, antes do conteúdo das unidades 1 e 2 (~00:01:16 e ~00:01:36). Isso é consequência do problema de faixa apontado na unidade 3, não um erro de numeração isolado."
+  ],
+  "material": [],
+  "resumo": "Conferência focal restrita à unidade 3 para a falha G09_A02-F1 (faixa-errada). A correção do ciclo 1 mudou apenas `inicio` de 224 para 38, mantendo `fim: 345`, corpo e `evidencia`, e subiu `versao` para 2, exatamente conforme a mudança mínima pedida. Reconferi cada um dos quatro passos da estrutura e a condição de nicho contra a transcrição: todos têm sustentação literal dentro da nova faixa 38–345s, sem corte de conteúdo e sem problema novo introduzido. A falha está resolvida e a proporção de `faixa-errada` no arquivo cai para 0 de 6 unidades com faixa, dentro do limite da rubrica."
+}

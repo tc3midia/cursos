@@ -1,0 +1,66 @@
+{
+  "aula": "G01_A04",
+  "arquivo_sha256": "fbe81b06606e43e24d63f23f6e3dd46ece7017501443ccc96263d62c709eaf98",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 3]; as demais mantêm a evidência da inspeção integral do arquivo e8c6712db300, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    3
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "6a1bc6ad69d7405efae13ee7600de336042fe3785fc000737927c405b83a2eb7",
+    "2": "70f2a634cb612fef296bc2a84bfdc8517bc48a73b72e46d4257c924500385eab",
+    "3": "39df28cfd4ad80c2afa252587c010476f28b98453c33d1e437b1c110029a819c"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E provavelmente, se você fez uma copy boa, se você fez um produto bacana, uma linda VSL e você não conseguiu vender, provavelmente 50% está ali no mecanismo único.",
+      "explicacao": "Faixa 33–67 confere: o conteúdo vai de 33.66 (\"Eu tô batendo nessa tecla\") até 67.16 (\"Sim, 50% está no mecanismo único\"), e a evidência está dentro dela. O 50% aparece com \"provavelmente\" e atribuído ao professor, como na fonte. \"Kishu\" virou Kishotenketsu pela tabela de grafias. A frase \"não medição\" é leitura da unidade sobre o \"provavelmente\", sem efeito no uso. \"a copa que for\" (provável \"copy\") ficou de fora, sem efeito na decisão."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Crie o primeiro produto com uma dor que você tem",
+      "explicacao": "F2 resolvida. `tarefas` agora é só [\"definir-mecanismo-unico\"], que descreve o corpo (criar o primeiro produto sobre a própria dor para que o mecanismo único saia da experiência vivida). `escolher-formato-de-venda` saiu e nada o substituiu. Percorri a transcrição e ela não trata de escolher entre VSL, página, X1 ou destino de tráfego. A única menção a VSL na faixa é o professor oferecendo avaliar a VSL do aluno pelo WhatsApp. Corpo, condições, faixa 67–205 e evidência ficaram como estavam, e o trecho citado (178,12–181,08) está dentro da faixa. A alteração não criou problema novo: `tarefas` não está vazia, só tem valor do enum e bate com o corpo. A cobertura de `escolher-formato-de-venda` × `geral` deixa de apontar esta aula."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você encontrou o seu subnicho, encontrou o seu mecanismo único, aí sim você vai para a próxima aula, onde eu vou te explicar qual é a melhor forma de você estruturar uma VSL.",
+      "explicacao": "F1 resolvida. O trecho que sustenta o último parágrafo do corpo (a sequência subnicho e mecanismo único antes da estrutura da VSL) está em 297,38–309,84 e agora cai dentro da faixa 205–310. `fim` 310 respeita o limite da transcrição (447 + 2). O restante do corpo tem lastro dentro da faixa: sem IA (214,78–219,78), comentários do YouTube e a dor que as pessoas não sabem resolver (245–255), o iPhone e Steve Jobs com a ressalva de que não é para o aluno fazer algo nessa escala (219–243), o aviso contra 5 minutos de pesquisa (263–266) e o pedido de 4 a 5 dias de pesquisa (284,54–288,24), atribuído a ele. A evidência da unidade (\"Então, eu estou te pedindo para você pesquisar isso por 4 dias, 5 dias.\") continua literal e dentro da faixa. Como a alteração só estendeu `fim`, não apareceu problema novo. A unidade está com `perecivel: true` e plataforma `youtube`, coerentes entre si. O `inicio` 205 fica um pouco antes do começo do conteúdo (cerca de 211), mas isso não gera `faixa-errada` porque a faixa cobre o conteúdo."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 200.58,
+      "trecho_fonte": "e me mandar no whatsapp, se eu",
+      "descricao": "O professor pede que o aluno, ao terminar as aulas e criar a VSL, a envie a ele por WhatsApp. Diz que, se aprovar de primeira, ficou muito bom; se não aprovar, trabalham juntos nela. Nenhuma unidade registra isso, nem como `limite`.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta não fica sabendo que o curso prevê revisão da VSL pelo professor via WhatsApp. É recurso ou suporte do curso, perecível, e sem `limite` de oferta o registro fica incompleto. Não muda a execução da técnica."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: `tarefas` inclui `escolher-formato-de-venda`, que na taxonomia é decidir entre VSL, página, X1 e destino do tráfego. A unidade trata de escolher o tema do primeiro produto a partir da própria dor, e a fonte não fala de formato de venda. A tag leva o agente ao lugar errado. Manter `definir-mecanismo-unico`; `pesquisar-publico-e-subnicho` é alternativa defensável, se couber.",
+    "`contexto`, 4ª frase: \"O fecho da transcrição tem resíduo de silêncio, que não foi usado.\" O FORMATO manda não mencionar resíduo de silêncio no contexto. Retirar a frase."
+  ],
+  "material": [],
+  "resumo": "As duas falhas do ciclo estão resolvidas. F1: a unidade 3 agora cobre em `inicio`–`fim` (205–310) o trecho de 297,38–309,84 que sustenta o parágrafo final, e deixa de ser `faixa-errada`. F2: a unidade 2 não traz mais `escolher-formato-de-venda` em `tarefas`, e a fonte de fato não trata de formato de venda. As alterações não criaram problema novo em nenhuma das duas, e não há omissão nem perecibilidade a registrar decorrente da lista. As demais unidades não foram reabertas."
+}

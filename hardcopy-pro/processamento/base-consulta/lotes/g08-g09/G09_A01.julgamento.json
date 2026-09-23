@@ -1,0 +1,36 @@
+{
+  "aula": "G09_A01",
+  "arquivo_sha256": "a0e4460d883d47914c205e9a49648259100848ef745411ddd143974446a7f8b3",
+  "inspecao_sha256": "ed18bdee53fccb9768c9abe1c32bc5839896eba58e3d7f573557b602ac6d7afa",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Zero erros no validador. O único aviso (1 unidade, fora da faixa 3–60) é o resultado esperado para aula de boas-vindas sem conteúdo didático, conforme a rubrica; não pede ação.",
+  "fidelidade": "Falha. Desvio comprovado com trecho literal (fora de `citacoes_nao_literais`): a fonte, em 50.74–74.64s, impõe \"página validada e produto validado\" como condições nomeadas; o corpo da unidade 1 rende a condição só como \"copy, VSL e página de vendas validadas\" e suprime \"produto validado\". Condição que a fonte impõe e a unidade omite é desvio pela rubrica. O restante do corpo (abertura do módulo, Hard Copy como pré-requisito, prevenção de reembolso, promessa de conteúdo diferente, \"comece com algo surpreendente\", conteúdo a partir da aula 2) está lastreado segundo a inspeção integral, e a evidência está dentro da faixa.",
+  "cobertura": "Sem omissões. O inspetor declarou busca na fonte inteira e não localizou orientação deixada de fora; testemunho, motivação e promoção do módulo não contam como omissão. Os resíduos de silêncio (\"Hard Sounds.\" na abertura, \"E aí\" no fecho) ficaram corretamente fora do corpo, da evidência e do contexto.",
+  "perecibilidade": "Correta. Unidade sobre estrutura do curso e produto irmão (Hard Copy) com `perecivel: true` e tema `curso-e-recursos`, como o contrato exige. Nada perecível escondido em unidade `geral`.",
+  "aplicabilidade": "Passa. A unidade se entende sem a aula ao lado: diz o que a aula é, em que módulo está, o que o professor condiciona e onde começa o conteúdo prático. `tipo: limite`, `tema: curso-e-recursos`, `tarefas: []` e `plataformas: [geral]` levam o agente ao lugar certo. A recomendação \"comece o produto com algo surpreendente\" aparece atribuída ao professor e marcada como não detalhada nesta aula, o que evita que o agente a trate como técnica ensinada aqui.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Trecho literal da fonte (50.74–74.64s): \"você precisa de uma página validada e de um produto validado\". Corpo da unidade 1: \"condiciona o proveito do módulo a já ter o treinamento Hard Copy e uma copy, VSL e página de vendas validadas\" — a condição \"produto validado\" não aparece.",
+      "impacto": "A unidade escolhe relatar a condição de prontidão que o professor impõe e a relata incompleta. Um agente que consulte a base para dizer o que é exigido antes de aplicar o módulo Hard Ads declarará pronto quem tem copy, VSL e página, sem saber que o professor também exige produto (oferta) validado — no vocabulário do curso, validação de demanda, distinta de página que converte. Muda a avaliação de prontidão e a resposta do agente.",
+      "mudanca_minima": "Na segunda linha do corpo da unidade 1, reescrever a condição preservando o que a fonte nomeia, na ordem em que aparece: já ter o treinamento Hard Copy, saber fazer copy, VSL e página que não sejam ruins, e ter uma página validada e um produto validado. Não explicar o que é \"produto validado\" além do que a aula diz. Incrementar `versao` para 2. Nada mais no arquivo muda.",
+      "criterio_de_aceite": "O corpo da unidade 1 contém \"produto validado\" como condição distinta e nomeada ao lado de \"página validada\"; a inspeção de reconferência marca a unidade 1 como `lastreada` contra o trecho 50.74–74.64s; `versao` = 2; validador com zero erros; hash da unidade alterado e refletido na nova inspeção."
+    }
+  ],
+  "ajustes_menores": [
+    "Aviso do validador (1 unidade, fora de 3–60): esperado para aula de boas-vindas; registrar apenas, sem ação.",
+    "Contexto, frase 2, repete a mesma condição incompleta da unidade 1 (\"copy, VSL e página de vendas já validadas\"). Ao aplicar F1, alinhar a frase do contexto para não contradizer o corpo corrigido; não abre ciclo por si só porque o contexto não é unidade citável."
+  ],
+  "proximo": "Redator aplica F1 na unidade 1 (e alinha a frase 2 do contexto). Inspetor reconfere só a unidade 1 contra o trecho 38.8–74.64s, com trecho literal, e registra o novo hash. Juiz, rodada 2, confere o critério de aceite de F1 e nada mais. Ciclo 1 de 2 consumido."
+}

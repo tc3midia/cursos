@@ -1,0 +1,163 @@
+{
+  "aula": "G07_A12",
+  "arquivo_sha256": "9cff559ca036fff684dc0fa7b9514277f2acfe3049c7b0865d481feaac8b4410",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "e2c0773384fe9f55eb6da3e1c2d67511ce4a6896096d16facfe0acf0c9412c50",
+    "2": "1e90353dca263a76077a699e0982d5dcbfe185a581c55e4d1036c1ef384c5652",
+    "3": "902507a58569d5a4165e51f48f828938677751636d49b0d39437d0aad4998a8b",
+    "4": "6346e32238916ce179b851e2ec63926bea111c0abf523a1e1504fcdc85fec95e",
+    "5": "2aebdf19e778476fe01c4faa90d0bfc71d7a489023aedee0f616b370cf51e22a",
+    "6": "cb3ccc424e859693a83a6967c17480d738b2920dbd835bc880e632b94bdc1199",
+    "7": "4016ccf5ec56191ccdabc2a90e3bae9158519faafafe43976cf46c6b4ab1a6de",
+    "8": "e09ea428659ad8e4b223731e15ac96f71f1f4ff99108c6662d8ff12ce06a4bcb",
+    "9": "141fc589c29bb27f2dcb544261ce45b0c50ebbbea196ea0ffca39e4a69000ee6",
+    "10": "ff7f0444f5d50cdfd7cb1ff39288b89b58de19d3c3762aef3fe85dcd86b4382f",
+    "11": "b3645a857e9f836425b5aff57842e8f447465e922ce66e5e3189990898a9df09"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vamos remover essa parte aqui que ficou muito longa, tá vendo?",
+      "explicacao": "A fala mostra só uma ação pontual ('essa parte aqui que ficou muito longa'), feita nesse corte específico. A unidade generaliza isso para uma regra de fluxo de trabalho ('ao começar a editar... remova primeiro... antes de seguir para os demais ajustes (zoom, cor, separadores, som)'), acrescentando uma ordem de prioridade que a fala não afirma explicitamente. O conteúdo em si (cortar partes longas) é fiel; só a moldura de 'regra de sempre fazer isso primeiro' é uma extrapolação do extrator."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "a gente vai vir aqui ó transformar tá a gente vai criar aqui um pininho",
+      "explicacao": "A unidade afirma que 'a transcrição não registra qual ferramenta, menu ou valores foram usados nessa aproximação'. Isso não é exato: a fala nomeia o menu 'Transformar' antes de mencionar o 'pino' (provável keyframe) cujo nome o professor diz ter esquecido. Só o nome do controle específico dentro do menu ficou sem identificação, não o menu inteiro. Quem consultar a unidade vai achar que nenhuma pista de caminho existe, quando na verdade o caminho até o recurso (menu Transformar) é conhecido."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ajustes, ajuste personalizado tá e olha só a gente vai pegar aqui ó contraste exposição diminuir",
+      "explicacao": "O procedimento (abrir Ajustes > Ajuste personalizado, reduzir contraste e exposição) corresponde exatamente à sequência de menus e ações ditas na fala, sem valores inventados além do que foi dito ('diminuir', sem número, que a unidade também não inventa)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos fazer as animações, tá? Como sempre Sem muita loucura Sem muita doideira Uma coisa mais assim, ó",
+      "explicacao": "A orientação de manter as animações discretas, atribuída como prática habitual do professor ('como sempre'), e a menção ao Canva ('ficou meio doido') estão fielmente preservadas, sem virar lei universal além do que a fala sustenta."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos colocar em efeitos efeitos é melhor efeitos e procura a palavra escuro aqui ó você vai ver escuro tem escuro aqui ó falei que não tinha e vai pegar essa vermelha aqui",
+      "explicacao": "Os três passos do procedimento (inserir separador, buscar 'escuro' no menu de Efeitos, escolher a opção vermelha) seguem exatamente a ordem e os termos usados na fala."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "vamos diminuir Essa voz aqui, tá? Colocar um cliquezinho aqui, ó Vamos ver Ficou um pouquinho baixo aqui, né?",
+      "explicacao": "A unidade descreve como se o clique viesse antes do ajuste de volume a ser reavaliado ('ao inserir... reavalie o volume... depois de ajustá-lo'), mas na fala o professor primeiro reduz a voz, só depois insere o clique e então percebe que o volume ficou baixo. A ideia central (reavaliar o volume da narração após mexer no áudio) permanece correta; só a relação causal específica está um pouco invertida."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "porque agora o pau já tá entrando dentro da pessoa ali, já o bicho tá pegando",
+      "explicacao": "A unidade interpreta o momento como 'a narrativa do anúncio já convenceu e o argumento avança', mas a expressão da fala ('o bicho tá pegando') indica que a situação está ficando intensa/séria, não que a persuasão já foi concluída. É uma leitura de sentido diferente da fonte; a orientação prática (usar trilha épica/motivacional nesse ponto) continua correta."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Removemos a música aqui porque a gente quer calar a boca.",
+      "explicacao": "A unidade reproduz fielmente a técnica e o motivo dado na fala (tirar a música tira o efeito, o silêncio reforça o impacto), consistente com a definição de 'calar a boca' usada no curso."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "quando você coloca um som desse aqui distorcido, então, meu amigo, aí a gente está falando do ouro do ouro.",
+      "explicacao": "A unidade preserva a afirmação e a atribuição ao professor ('ouro do ouro') sem acrescentar dado não dito."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "dá um ctrl b diminui o volume aqui tá bom dá um fade e aqui a gente coloca o a voz no original aumenta um pouquinho aqui ó deixa no padrão",
+      "explicacao": "Os três passos (cortar com Ctrl B, reduzir volume e aplicar fade no efeito, subir a narração de volta ao padrão) seguem a ordem e os termos da fala sem invenção de menu ou valor."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "gente pega esse terror a louma enterrou dá um control v aqui e pega só o início dele aqui ó só o início dela é o resto tá bom coloca aqui faz um fade out",
+      "explicacao": "A unidade preserva corretamente a incerteza sobre o nome do efeito sonoro (confiança baixa e nota explicando o trecho ininteligível) e descreve fielmente colar, manter só o início e aplicar fade out."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 362,
+      "trecho_fonte": "Cara, será que tem algum efeito sonoro de vento?",
+      "descricao": "Depois de ajustar o volume da narração e inserir o clique (unidade 6), o professor busca um efeito sonoro temático (som de vento) na biblioteca, testa, e depois ajusta a 'velocidade' desse efeito e reduz seu volume ('Vamos vir em velocidade pra ver se vai dar certo... diminuímos o volume... ficou bom') antes de aprovar o resultado. Nenhuma unidade registra essa técnica de buscar efeito temático e ajustar sua velocidade de reprodução.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades de som (6, 8, 9, 10, 11) não vai saber que o professor também testa efeitos sonoros temáticos e ajusta a velocidade deles como parte do processo de encaixar o som na cena, uma variação do trabalho de sonorização não coberta pelas unidades existentes."
+    },
+    {
+      "inicio": 500,
+      "trecho_fonte": "Uma parte boa dela, achamos, aqui ó, colocamos aqui",
+      "descricao": "Antes de aplicar o corte com Ctrl B e o fade descritos na unidade 10, o professor descreve que primeiro 'caça' e escolhe um trecho específico ('uma parte boa') dentro de uma faixa de música/motivação, em vez de usar a faixa a partir do início. Isso antecede e explica a origem do trecho que a unidade 10 já corta e ajusta.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só a unidade 10 vai aplicar corte e fade a partir do início de qualquer faixa escolhida, sem saber que o professor primeiro procura o trecho de maior impacto dentro da faixa antes de cortar, podendo usar um pedaço menos eficaz da música."
+    },
+    {
+      "inicio": 626,
+      "trecho_fonte": "Bem na hora que ele fala a forma",
+      "descricao": "Ao final da edição, o professor sincroniza a entrada de um elemento (gráfico ou texto) com o instante exato em que a narração diz uma palavra específica ('a forma'), como técnica de timing. Nenhuma unidade registra essa prática de alinhar elementos visuais a palavras específicas da fala.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades de direção de arte (3, 4, 5) não vai saber que o curso também ensina a sincronizar a entrada de elementos gráficos com palavras exatas da narração para reforçar o sentido do anúncio."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 7,
+      "problema": "Marcada plataformas: geral e perecivel: false, mas a ação de origem ('vamos colocar um épico'... 'não gostei desse épico não'... 'vamos colocar épico, motivacional') é a busca e teste de faixas por categoria/gênero dentro da biblioteca de música do editor usado na demonstração — o mesmo padrão de busca por palavra-chave que a unidade 5 (separador 'escuro') registrou corretamente como capcut/perecível. Fica escondida uma possível dependência de recurso de plataforma (biblioteca de música categorizada)."
+    },
+    {
+      "numero": 9,
+      "problema": "Marcada plataformas: geral e perecivel: false, mas a ação de origem ('vamos pegar aqui, distorção') também é a seleção de um efeito sonoro por palavra-chave numa biblioteca de efeitos do editor, análoga à busca de 'escuro' na unidade 5 (capcut/perecível). O corpo abstrai isso para o princípio criativo (som distorcido = ênfase), mas o mecanismo demonstrado depende de recurso de plataforma não sinalizado."
+    }
+  ],
+  "contrato": [],
+  "material": [],
+  "resumo": "As 11 unidades desta aula de edição no CapCut estão majoritariamente bem lastreadas na fala, com desvios pontuais de sentido: a unidade 2 declara que nenhum menu foi capturado quando a fala nomeia o menu 'Transformar', e a unidade 7 lê 'o bicho tá pegando' como persuasão já concluída em vez de intensidade crescente. A fonte tem pelo menos três trechos didáticos sem unidade correspondente — busca e ajuste de velocidade de um efeito sonoro de vento, escolha de um trecho específico dentro de uma faixa de música antes de cortá-la, e sincronização de um elemento gráfico com uma palavra exata da narração —, todos de impacto menor. As unidades 7 e 9 escondem possível dependência de recursos de busca por categoria/palavra-chave da ferramenta de edição sob plataforma 'geral' e perecivel:false, inconsistente com o tratamento dado à unidade 5 para o mesmo tipo de ação. Esta aula não tem material avulso, então não há divergências fala/material a registrar."
+}

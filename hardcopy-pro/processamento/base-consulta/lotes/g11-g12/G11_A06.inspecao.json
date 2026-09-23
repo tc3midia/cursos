@@ -1,0 +1,42 @@
+{
+  "aula": "G11_A06",
+  "arquivo_sha256": "8effc54c44e0d1ee4e2f47f4fbc5025a2e1ff28475e4b77d366469e45c339fae",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2
+  ],
+  "hashes_unidades": {
+    "1": "7cab2c0160a77cf5bf0f163cbe5d1d02aaf8391ebdecab41d147b9ba117ef273",
+    "2": "3482df385c8438d44729061f9390f5b8a883dee95f03fbfab2681d37fe826ea3"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tudo que você precisa para criar um anúncio com o IA e soltar ele de uma qualidade boa",
+      "explicacao": "O corpo resume fielmente o trecho de oferta (29.98–189.82s): o agente de prompt já criado no curso, o anúncio para a Hardcopy feito do zero e validado, edição em Canva/corte de imagens, consistência de avatar com voz via ElevenLabs/Canva/CapCut, e a promoção final das trilhas Hard Copy, Hard Ads e Zero a 100k como conteúdo já pago a ser aproveitado. Plataformas (canva, elevenlabs, capcut) e perecivel:true batem com a fala. O trecho confuso 'para criar anúncios com Expert... tá essa parte aqui esse' (transcrição degradada) foi corretamente deixado de fora em vez de virar um passo inventado. Abertura residual 'Hard Sounds.' (0–29.98s) e o resíduo final 'E aí' não foram usados como evidência, como esperado."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "nunca utilize uma inteligência artificial para você fazer com que ela dê os dados e jogue na mesa",
+      "explicacao": "A regra categórica (IA é meio, não fim; usar a si mesmo como base; resultado sai péssimo se só se repassar o que a IA entrega) está fielmente parafraseada, sem número, sem condição inventada, e a afirmação final sobre não colocar a IA à frente do criador em nenhum dos cursos foi corretamente atribuída ao professor ('O professor afirma...'). A unidade não preserva a introdução pessoal 'Cláudia, eu percebi que você me mostrou...' que abre o trecho (95.1s), mas isso é testemunho pessoal/motivacional, que o FORMATO dispensa de virar unidade e não conta como omissão; o conteúdo prescritivo em si já é dado pelo professor em segunda pessoa ('você'), não restrito a um caso narrado."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Aula de encerramento da primeira temporada de Hard IA, curta (0–236s) e majoritariamente promocional. As duas unidades cobrem bem o conteúdo real: a unidade 1 (limite) descreve fielmente a oferta da próxima temporada e a promoção das trilhas pagas, com plataformas e perecibilidade corretas; a unidade 2 (regra) reproduz com fidelidade o princípio de que a IA é meio e não fim, atribuído ao professor, sem números ou condições distorcidas. Resíduos de transcrição ('Hard Sounds.' na abertura e 'E aí' repetido no fecho) foram corretamente ignorados como fonte, e o trecho degradado sobre 'Expert/agente de prompt' não virou passo inventado. Não foram encontradas omissões relevantes, problemas de perecibilidade, de contrato ou divergências fala/material (a aula não tem material de apoio); nenhuma unidade recebeu veredito diferente de lastreada."
+}

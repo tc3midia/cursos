@@ -1,0 +1,376 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A04",
+  "titulo": "Episódio 4 - Sapatos",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula faz parte do grupo Hard Ads sobre negócios locais e usa como fio condutor a construção de um anúncio de sapatos/calçados para uma loja física.",
+    "O professor mostra como definir o público de um produto genérico (que existe em muitas faixas de preço) antes de escrever o anúncio, e como a categoria do criativo influencia a segmentação automática da plataforma.",
+    "Como exercício, ele escolhe um público de 50 anos ou mais com dores, para vender um calçado ortopédico fictício chamado 'Comfort Size', afirmando que a técnica demonstrada serve para qualquer nicho e que só usa esse por ser mais difícil de trabalhar.",
+    "Ao vivo, ele constrói um roteiro de anúncio que começa com uma história pessoal desconectada do produto (a avó com um calçado novo) e segue com um diálogo entre avó e neta que insere as características do produto de forma coloquial.",
+    "Ele critica exemplos de depoimento e diálogo 'atuados' em anúncios e VSLs de terceiros, usando o filme Show de Truman como comparação para defender um tom mais natural e direto.",
+    "A aula fecha com a duração aproximada do anúncio de exemplo e o aviso de que a montagem visual desse anúncio no Canva será mostrada na aula seguinte.",
+    "A aula pressupõe que o aluno já conhece noções anteriores do curso, como história desconectada e CTA, e não repete definições básicas de estrutura narrativa."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Produto genérico com várias faixas de preço exige definir o público antes",
+      "tipo": "regra",
+      "tema": "publico-e-segmentacao",
+      "tarefas": [
+        "pesquisar-publico-e-subnicho",
+        "definir-publico-do-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 86,
+      "condicoes": "Vale para produtos genéricos vendidos em faixas de preço muito diferentes (o exemplo dado é sapato, de R$30 a R$700 ou mais).",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Um produto genérico como sapato é vendido em faixas de preço muito diferentes e atrai perfis de comprador distintos entre si: quem compra sem pensar duas vezes mesmo pagando caro, e quem prefere ter várias opções baratas e ir trocando. Por isso, antes de criar o anúncio, a primeira coisa a fazer é definir o público e entendê-lo.",
+      "evidencia": "então a primeira coisa que você tem que fazer antes de qualquer coisa é definir o seu público e entender ele, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Categoria do anúncio direciona qual público o Facebook vai entregar",
+      "tipo": "regra",
+      "tema": "publico-e-segmentacao",
+      "tarefas": [
+        "definir-publico-do-anuncio"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 85,
+      "fim": 132,
+      "condicoes": "Vale para quem quer usar o posicionamento do criativo para influenciar a segmentação automática da plataforma por classe de consumidor.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A categoria e o posicionamento do anúncio (por exemplo, tênis de marca original de alto valor, tênis de polo popular de calçados, ou um tênis de R$4.000) comunicam para qual público a oferta é, e isso muda quem a plataforma entrega o anúncio. Se o anunciante não quer que o anúncio apareça para consumidores de baixa renda, uma forma de conseguir isso é fazer um anúncio de categoria alta: o algoritmo do Facebook identifica esse padrão e passa a entregar o anúncio só para esse público.",
+      "evidencia": "o Facebook vai conseguir identificar aquele público e jogar só para ele",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Persona de exemplo: 50+ com dores buscando calçado ortopédico",
+      "tipo": "exemplo",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "definir-publico-do-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 162,
+      "fim": 219,
+      "condicoes": "Público e produto (calçado ortopédico, 50+) são o exemplo escolhido pelo professor para a aula; a técnica em si não é restrita a esse nicho.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: para demonstrar a construção de um anúncio na aula, o professor precisa de um público concreto para trabalhar.\nO que aconteceu: ele define como exemplo um público de 50 anos ou mais, que sofre com dores e pressão sanguínea, para vender um calçado ortopédico.\nLógica: ele afirma que a técnica que vai demonstrar em seguida (história desconectada seguida de diálogo) serve para qualquer nicho; escolheu esse público de exemplo por considerá-lo mais difícil de trabalhar.",
+      "evidencia": "Isso que a gente está fazendo aqui serve para qualquer tipo de nicho",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Não indica estudar a Biblioteca de Anúncios da concorrência",
+      "tipo": "regra",
+      "tema": "analise-de-concorrencia",
+      "tarefas": [
+        "analisar-concorrencia"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 221,
+      "fim": 240,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição grafa a ferramenta como 'Eds Libraria'; grafia adotada é Biblioteca de Anúncios (Meta), identificação por hipótese conforme tabela de grafias do curso.",
+      "proposta_tag": null,
+      "corpo": "O professor abre a Biblioteca de Anúncios (ferramenta da Meta para consultar anúncios ativos de concorrentes) só para dar uma noção rápida ao aluno de como está o nicho de calçado ortopédico. Ele declara, porém, que não indica que o aluno abra a Biblioteca de Anúncios para estudar e ficar procurando o que os concorrentes estão fazendo, porque isso 'fecha a cabeça'.",
+      "evidencia": "Eu não indico você abrir o Eds Libraria e estudar e procurar e ver o que as pessoas estão fazendo aqui",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Concorrência repetitiva no nicho de calçado motiva história desconectada",
+      "tipo": "decisao",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "analisar-concorrencia",
+        "roteirizar-anuncio",
+        "escrever-abertura"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 268,
+      "fim": 311,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a pesquisa de concorrência mostra que os anúncios de um nicho (tirando empresas que o professor não reconhece) são repetitivos e ficam só listando características do produto (leve, bonito, bom), a alternativa é mudar de ângulo: focar em outro aspecto, começando o anúncio com uma história desconectada do produto e usando o restante do vídeo para mostrar o máximo possível de imagens e vídeos do calçado, sem deixar o anúncio chato.",
+      "evidencia": "a gente vai focar em outro aspecto agora, a gente vai começar com uma história desconectada junto com o calçado",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Abertura com história pessoal desconectada antes de revelar o calçado",
+      "tipo": "estrutura",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "escrever-abertura",
+        "escrever-gancho-de-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 306,
+      "fim": 362,
+      "condicoes": "Exemplo de copy fictícia para o nicho de calçado ortopédico; a estrutura ensinada (história desconectada + revelação) é o que vale, não o texto específico do exemplo.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Contar uma história pessoal desconectada do produto (no exemplo do professor: visitar a casa da avó e se assustar com algo nela).\n2. Descrever o problema ou a dor da personagem antes da mudança (no exemplo, ela vivia reclamando de dores e mal conseguia andar).\n3. Revelar, 'do nada', que a personagem está usando o produto — esse é o gancho que conecta a história ao calçado anunciado.",
+      "evidencia": "eu fui na casa da minha avó e me assustei bem na hora que eu vi ela com um tênis",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "VSL com depoimento encenado soa como teatro e afasta o espectador",
+      "tipo": "exemplo",
+      "tema": "objecoes-e-credibilidade",
+      "tarefas": [
+        "diagnosticar-copy-ou-anuncio",
+        "analisar-vsl-pronta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 413,
+      "fim": 519,
+      "condicoes": "Caso relatado pelo próprio professor sobre uma VSL de terceiros que ele assistiu; não é métrica nem estatística de mercado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor relata ter assistido a uma VSL de terceiros sobre emagrecimento, estruturada como um programa de entrevista.\nO que aconteceu: um apresentador chama um casal para dar depoimento; os dois se comportam de forma exagerada e ensaiada (beijo forçado, frases genéricas de felicidade) ao 'provar' que emagreceram.\nLógica: o professor usa o caso para argumentar que depoimento ou diálogo com atuação forçada soa falso e afasta o espectador, mesmo quando a história de fundo é real.",
+      "evidencia": "puta que pariu, cara, que teatro é esse aqui, que merda é essa aqui",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Diálogo de anúncio precisa soar real, não ensaiado",
+      "tipo": "regra",
+      "tema": "personagens-e-roteiro",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "construir-personagens"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 519,
+      "fim": 612,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Diálogo entre personagens em um anúncio soa falso quando fica expositivo, como uma neta explicando educadamente por que preferiu o produto de uma loja específica. O professor compara com o filme Show de Truman, em que o protagonista desconfia da própria vida justamente quando as pessoas ao redor falam de forma ensaiada e apontada para a câmera. Teste prático: perguntar se uma pessoa real, em sã consciência, falaria daquele jeito; se não, o diálogo precisa ficar mais coloquial e direto ('papo reto').",
+      "evidencia": "que mulher, na sua sã consciência, vai chegar pra sua neta e vai falar",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Ao vender produto físico, focar em fotos, imagens e vídeos dele",
+      "tipo": "regra",
+      "tema": "anuncio-produto-fisico",
+      "tarefas": [
+        "montar-criativo-visual",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 612,
+      "fim": 622,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala 'qualidade, a gente esquece um pouco' é elíptica sobre o que exatamente perde prioridade (produção do vídeo? atuação do diálogo?); o corpo preserva essa ambiguidade.",
+      "proposta_tag": null,
+      "corpo": "Ao vender um produto físico, o professor recomenda dar menos peso à qualidade e concentrar o esforço no próprio produto: fotos, imagens e vídeos dele.",
+      "evidencia": "qualidade, a gente esquece um pouco e a gente foca no produto, tá bom? Fotos, imagens, vídeos.",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Diálogo da avó encaixa características do calçado na fala sobre a dor",
+      "tipo": "estrutura",
+      "tema": "desenvolvimento-e-conexao",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-desenvolvimento-e-plot-twist",
+        "construir-personagens"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 629,
+      "fim": 758,
+      "condicoes": "Diálogo de exemplo (fictício) para o calçado ortopédico do exercício da aula; ilustra a técnica de encaixar características do produto na fala natural do personagem, não é texto pronto para reaproveitar.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Depois da abertura, a personagem mais jovem pergunta à avó se ela ainda estava reclamando das dores.\n2. A avó comenta que o calçado é bonito, mas nega, de início, que ele resolva algo específico.\n3. A partir daí, a fala da avó vai encaixando as características do produto (furinhos confortáveis, ser ortopédico, palmilha confortável) associadas à dor dela, em tom coloquial, evitando soar como uma lista de vendedor.",
+      "evidencia": "Vó, a senhora não estava reclamando das dores desse dia? Aí a mulher fala, ele é bonitinho, não é?",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Dois perfis dentro do público 50+: compra online vs. compra na loja",
+      "tipo": "conceito",
+      "tema": "publico-e-segmentacao",
+      "tarefas": [
+        "definir-publico-do-anuncio",
+        "pesquisar-publico-e-subnicho"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 763,
+      "fim": 825,
+      "condicoes": "Distinção observada pelo professor dentro do público de mulheres 50+ ao pensar o anúncio de calçado.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O professor aponta fotos na tela ao diferenciar os dois perfis de compradora; a unidade usa só a distinção descrita em fala.",
+      "proposta_tag": null,
+      "corpo": "Dentro de um público amplo (por exemplo, mulheres de 50 anos ou mais), o professor distingue dois perfis: um que compra pela internet, gosta de novidade e de fazer compras, e prefere produtos baratos; e outro que prefere comprar na loja física, já tem uma posição financeira mais estabelecida (o professor usa a expressão mineira 'ter cacife') e não compra do mesmo jeito que o primeiro. O anúncio de história com diálogo, construído nesta aula, foi pensado para esse segundo perfil.",
+      "evidencia": "essas daqui gostam de novidades, de shopping e produtos gostosos de usar",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Pitch liga nome do produto de exemplo ao benefício central e estético",
+      "tipo": "estrutura",
+      "tema": "pitch-e-cta",
+      "tarefas": [
+        "escrever-pitch-e-cta",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 866,
+      "fim": 928,
+      "condicoes": "'Comfort Size' é nome de produto fictício criado pelo professor como exemplo; não é produto real do mercado.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Depois do diálogo entre as personagens, entra uma trilha/ensaio e uma locução com o nome do produto de exemplo (o professor usa 'Comfort Size').\n2. A frase de pitch liga esse nome ao benefício central relacionado à dor ('pode te ajudar a se livrar das dores nos pés').\n3. Na sequência, soma um benefício estético secundário ('e ainda ter esse charme nos seus pés'), criando uma repetição sonora entre as duas frases que terminam em 'pés'.",
+      "evidencia": "como o comfort size pode te ajudar a se livrar das dores nos pés",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Anúncio de exemplo fica em torno de um minuto, direto ao ponto",
+      "tipo": "regua",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 928,
+      "fim": 962,
+      "condicoes": "Duração referente a esse anúncio de exemplo específico (calçado ortopédico com história e diálogo); tratada pelo professor como referência, não como regra fixa obrigatória para todo anúncio.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao passar o roteiro do anúncio de exemplo pelo contador de palavras, o professor mostra que ele dá em torno de um minuto de duração. Ele recomenda manter o anúncio curto e direto ao ponto: começar rápido, desenvolver a história ao longo do vídeo e fechar com o CTA.",
+      "evidencia": "vai ter no máximo um minuto, um minutinho de anúncio",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Temporada de negócios locais também ajuda quem trabalha com dropshipping",
+      "tipo": "regra",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 974,
+      "fim": 987,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor observa que o conteúdo da temporada de anúncios para negócios locais também ajuda quem está trabalhando com dropshipping e e-commerce, mesmo essa parte do curso sendo voltada a negócio físico local.",
+      "evidencia": "Essa temporada de negócios locais ajuda muito a pessoa que está usando, tá? Que tá trabalhando em cima do drop, dropship, e-commerce.",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Execução visual do anúncio no Canva fica para a próxima aula",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 962,
+      "fim": 974,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula termina sem mostrar a execução visual do anúncio. O professor avisa que a próxima aula vai usar o Canva para montar esse anúncio e fazer a 'jogada de imagem' em cima do produto físico.",
+      "evidencia": "na próxima aula a gente vai pro Canva mostrar como que a gente vai fazer esse anúncio",
+      "versao": 1
+    }
+  ]
+}

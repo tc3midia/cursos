@@ -1,0 +1,60 @@
+{
+  "aula": "G11_A01",
+  "arquivo_sha256": "8020a71a429f6ac9ca53872d48134482c6797c0eb616de915058985030cbc8f3",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "0620d521f5cbbab0240af0cecaf82accd4365721b8d7fbf9126898f9f57fac69",
+    "2": "986fb8ff9282244bf3d5a2ee600bc124939b0a5036aff7b563507b72c9aef6eb",
+    "3": "5dcad3d148d9ff0647e93685c94e59dbd5b480ab6bf38d8f5e8c884c34d5bb55"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa aula é pra apresentar pra você e pra você ver o que a gente vai ter daqui pra frente, tá bom?",
+      "explicacao": "A unidade classifica corretamente a aula como um 'trailer' sem conteúdo técnico (tipo limite), o que corresponde exatamente à regra do FORMATO para 'aula sem conteúdo didático (abertura, recado, convite)'. Os tópicos listados no corpo (escrever anúncios completando esboço com IA, montar agentes de IA especializados, hooks validados sobre criativos remetidos à aula 5, anatomia de um bom anúncio, e liberação do agente virtual na aula 2) batem com trechos correspondentes da fala ('a gente vai pegar o anúncio, vai pegar um esboço e vai complementar com inteligência artificial', 'Vamos criar vários agentes de IA...', 'vamos criar Hooks validados em cima de criativos... você vai aprender na aula 5', 'vou estar liberando para você o agente virtual que eu alimentei por meses'). Faixa 0–241 cobre corretamente o conteúdo real da aula, parando antes do resíduo final ('E aí')."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "quando a gente joga uma ideia pro chat GPT, ele responde mais do mesmo",
+      "explicacao": "O corpo preserva fielmente a ressalva do professor ('normalmente' -> 'tende a'), sem transformá-la em lei absoluta, e preserva a consequência (pular a etapa de jogar a ideia crua na ferramenta). Faixa 27–47 contém integralmente o trecho fonte. `perecivel: true` está correto pois a plataforma é 'chatgpt' (diferente de 'geral')."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você não assistiu esse e já pulou pra cá Não faça isso",
+      "explicacao": "A recomendação de assistir Hard Copy, Hard Sounds e 0 a 100K antes desta aula, com a condição 'para quem está começando do zero', está corretamente lastreada e a condição foi preservada em `condicoes`. A identificação de 'Rádio Copy' como Hard Copy segue a tabela oficial de grafias (marcada como hipótese na própria tabela). Para 'Rádio Sound', a unidade reconhece corretamente que o termo não consta na tabela, registra a inferência por analogia em `nota` e baixa a `confianca` para 'media', conforme a regra de fonte ambígua preservada com confiança adequada e nota. A menção à CTRL Z como empresa fictícia criada na trilha 0 a 100K está correta e devidamente atribuída como exemplo do curso, não como caso real."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 220,
+      "trecho_fonte": "A gente vai ensinar ele a aprender sobre a sua empresa",
+      "descricao": "A fala afirma que o agente virtual a ser liberado na aula 2 será ensinado a aprender sobre a empresa do próprio aluno ('e com isso você vai ter realmente uma mão de copy ao seu lado'), dando ao agente um caráter personalizável. Nenhuma unidade preserva essa característica; a unidade 1 registra apenas que o agente foi alimentado com o material do professor por meses.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar a unidade sobre a aula 2 fica sem saber que o agente virtual poderá ser ensinado/personalizado com dados da própria empresa do aluno, um diferencial do recurso anunciado que pode pesar na decisão de como usá-lo assim que disponível."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "O arquivo tem 3 unidades, todas lastreadas na fala e sem desvios de número, condição ou sentido. A unidade 1 usa corretamente o tipo `limite` para a aula de abertura/trailer da temporada Hard IA, e a unidade 3 trata com cuidado a grafia ambígua de 'Rádio Sound', preservando a incerteza com `nota` e `confianca: media`. Todas as unidades perecíveis pertinentes estão corretamente marcadas `perecivel: true`, e não há material de apoio nesta aula para checar divergências. Foi encontrada uma omissão de gravidade menor: a fala promete que o futuro agente virtual (aula 2) poderá ser ensinado sobre a empresa do aluno, detalhe que nenhuma unidade registra."
+}

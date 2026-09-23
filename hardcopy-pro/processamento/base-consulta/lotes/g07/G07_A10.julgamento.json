@@ -1,0 +1,25 @@
+{
+  "aula": "G07_A10",
+  "arquivo_sha256": "9deb3d2206b80a8cea97a1e229501951b4fadf1ef2a19e38a81b903770c9270a",
+  "inspecao_sha256": "bae3272fbc87588940e4dbf39b6a2ede6b7af4e3a251479f9efb7afc7d9ebcf7",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. Nada a corrigir por script.",
+  "fidelidade": "Inspeção integral, quatro de quatro unidades verificadas, nenhuma citação não literal. Todas `lastreadas`, com trecho literal. Os dois pontos sensíveis deste curso estão bem tratados: os números de caso (40–60 s, 91 palavras; R$ 1.200, R$ 400, R$ 5.000) ficaram em `exemplo`, perecíveis, com `condicoes` dizendo que são do anúncio ou do diálogo ilustrativo, e a copy de exemplo (CTA \"Saiba Mais\") não virou fato. A afirmação polêmica da unidade 4 (vence o melhor argumento, verdade ou mentira) está atribuída ao professor, não promovida a lei. O único apontamento é a faixa da unidade 1: a generalização em `condicoes` (qualquer prestador de serviço a empresas) e o detalhe das ligações repetidas de gestores de tráfego vêm de 0:34–0:42 e 0:56–1:07, antes do `inicio` 88.92. O conteúdo é fiel à fonte, a âncora `evidencia` está dentro da faixa e a estrutura principal também; o inspetor manteve `lastreada` com gravidade menor e eu concordo: afeta rastreabilidade, não a orientação. Fica como ajuste menor, não como `faixa-errada`.",
+  "cobertura": "Inspetor declara busca de omissões na fonte inteira e não localiza nenhuma. O que ficou de fora (testemunho pessoal, motivação sobre fechar clientes, gancho para a aula seguinte no Canva, resíduos \"Copywriting. Hard Sounds.\" e \"E aí\" em laço) não conta como omissão pela rubrica. A sequência de abertura do anúncio, a condição de nicho saturado e o exemplo de negociação estão preservados.",
+  "perecibilidade": "Unidades 2 e 3 (números de caso) marcadas `perecivel: true`, como manda o FORMATO. Unidades 1 e 4 são orientação geral sem tela, ferramenta, preço ou recurso do curso; `false` está correto. O gancho para o Canva ficou só no `contexto`, sem virar unidade, então não há perecível escondido. Inspetor não sinalizou nada.",
+  "aplicabilidade": "As quatro unidades se sustentam sem a aula: a unidade 1 explica elefante na sala e verdade absoluta na primeira ocorrência, tem as quatro partes numeradas e `condicoes` preenchido; as unidades 2 e 3 dizem explicitamente que os números pertencem ao caso; a unidade 4 limita o contexto a negociação em reunião ou ligação. Duas classificações discutíveis: a tarefa `roteirizar-anuncio` na unidade 3 descreve mal um conteúdo de posicionamento e preço de oferta (`montar-oferta` ou `definir-preco-e-garantia` encaixam melhor), e `conceito` na unidade 4 poderia ser `regra`. Ambas são escolhas entre valores defensáveis e não desviam o agente de forma que mude o uso; ficam como ajustes menores. Um detalhe de redação: a definição de elefante na sala no corpo da unidade 1 (\"objeção óbvia que o público já carrega\") vai um pouco além do que a própria unidade mostra da fonte (o incômodo que o lead já vive); vale alinhar para não inventar definição.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U1 — faixa: mover `inicio` para cerca de 34 s (0:34), de modo que a generalização em `condicoes` (qualquer prestador de serviço a empresas, 0:34–0:42) e o detalhe das ligações repetidas de gestores de tráfego (0:56–1:07) fiquem dentro da faixa; `inicio` entra no hash, então incrementar `versao`. Alternativa: retirar essas duas frases da unidade.",
+    "U2 — faixa: estender `fim` para cerca de 180 s, cobrindo 'Se o seu nicho for saturado' (~178.9 s), que a linha Lógica usa. Efeito só de rastreabilidade; a condição já está ancorada na U1.",
+    "U3 — tarefas: trocar `roteirizar-anuncio` por `montar-oferta` (ou acrescentar `definir-preco-e-garantia`); o conteúdo é diálogo de posicionamento e preço, não redação de anúncio. Tema `anuncio-negocio-local` é defensável pelo grupo da aula, mas `oferta-e-entregaveis` descreveria melhor a unidade. Classificação discutível, sem abrir ciclo.",
+    "U4 — tipo: `conceito` vs `regra` são ambos defensáveis; se trocar para `regra`, é preciso preencher `tarefas` (não há tarefa de negociação no enum; cabe `proposta_tag` de tarefa se o redator quiser registrar a lacuna).",
+    "U1 — redação: a definição de elefante na sala no corpo ('a objeção óbvia que o público já carrega') não é a que a fonte da aula dá; alinhar ao que a própria unidade mostra ('o incômodo que o lead já vive antes de falar da oferta') ou à definição de G03_A05 do vocabulário, sem acrescentar sentido."
+  ],
+  "proximo": "Aprovar e mudar `status` da aula para `revisado`. Ajustes menores podem ser aplicados localmente pelo executor e conferidos por script (`--check`), sem abrir ciclo de correção; se a faixa da U1 for alterada, o hash muda e a evidência do inspetor para essa unidade precisa ser refeita só para a faixa nova."
+}

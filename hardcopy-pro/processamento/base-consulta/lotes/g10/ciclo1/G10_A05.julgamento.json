@@ -1,0 +1,25 @@
+{
+  "aula": "G10_A05",
+  "arquivo_sha256": "a9404c724be08005016eb3ddf1c3c49d0223a65bc432e41b9ad695682eaa13b8",
+  "inspecao_sha256": "129eaf686531ff51c3fa93693da7a58003f8ea50761bd5bc27455b044169df75",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. O campo `retiradas` não aparece no excerto recebido, mas a regra [E] de identidade (presentes ∪ retiradas = 1..6, sem furo) só passa com 5 listado, e o histórico de correções registra `retiradas: [5]`. Critério de aceite de F1 atendido pela via primária.",
+  "fidelidade": "F1 resolvida: a unidade 5 (silêncio total antes do botão como prescrição geral no imperativo) foi retirada em vez de reescrita. Inspetor confirma com trecho literal (\"a gente marcou no nosso vídeo, Todas as partes que vamos calar a boca ... Dá uma, duas, três, quatro, Cinco partes\") que o ponto é um dos cinco cortes da demonstração, e que U4 já o preserva com `condicoes` de vídeo de exemplo. Registro que o inspetor anterior errou ao afirmar não haver trecho literal para \"se arrepiar\" e \"só uma edição\": o executor apontou e o inspetor atual confirmou as frases na faixa 4:14–4:21; o erro não muda o resultado, porque o defeito determinante era a generalização. U2 (trecho ambíguo com `confianca: alta` sem nota) e U3 (palavra \"mecanismo\" onde a fonte diz \"nome\") seguem como apontamentos menores da inspeção integral: nenhum muda a ação que o agente executa.",
+  "cobertura": "Inspetor declara `omissoes: []` e afirma ter buscado. A retirada de U5 não deixa conteúdo órfão: o mecanismo (cortar a trilha, deixar só a voz, levar ao botão) está em U1 com lastro literal (\"toca na porra do botão\"), e o corte mudo antes do CTA está narrado em U4 como parte da demonstração.",
+  "perecibilidade": "Nada sinalizado pelo inspetor. U4 e U6 (atalho Ctrl B, timeline do editor, próxima aula) já estão `perecivel: true`; U1 e U2 são orientação geral sem tela.",
+  "aplicabilidade": "As cinco unidades se sustentam sem a aula: U1 explica a técnica de calar a boca na primeira ocorrência; U4 nomeia o atalho e descreve os cortes sem depender da imagem; U6 é o `limite` esperado de aula de tela, dizendo o que ficou só na imagem e o que a Parte 2 cobre. Tema `plot-twist` em U3 é defensável mas discutível, já que na aula o trecho ilustra o critério de escolha dos cortes de som — ajuste menor.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U2: o trecho-fonte 'colocar em cima da sua cópia e no seu som' é ambíguo e o corpo o interpreta como 'releia a copy e reescute o áudio' com confianca alta e sem nota; se a unidade for reaberta, registrar a dúvida em nota e baixar para media. Não muda a orientação (procurar os trechos que dão arrepio).",
+    "U3: título ('nome do mecanismo') e fecho do corpo ('entregar o mecanismo cedo demais') usam 'mecanismo' onde a fonte fala do nome do método (Kishotenketsu / formato coreano de vendas); trocar por 'nome do método' evita confusão com 'mecanismo único' (G01_A03). A ação ensinada (não revelar cedo) está correta.",
+    "U3: tema plot-twist / tarefa escrever-desenvolvimento-e-plot-twist versus som-e-sentimentalismo — dois valores defensáveis; manter como está a menos que a unidade seja reaberta.",
+    "U4: o executor observa, no histórico, que a localização do trecho mudo ('logo antes do botão de chamada para ação') vem de gesto de tela ('Você vê que aqui não tem som'); o inspetor, com fonte, mantém a unidade como lastreada em 4:09–4:13. Como é exemplo sob condição de demonstração e U1 lastreia a ligação com o botão, não abre ciclo; se U4 for reaberta, confirmar trecho literal para a posição ou retirar a localização.",
+    "Registro para calibração: a afirmação do laudo anterior de que não havia trecho literal para 'se arrepiar' e 'só uma edição' estava errada (frases existem em 00:04:14–00:04:21); sem efeito no veredito."
+  ],
+  "proximo": "Aprovar a aula e promover o status para `revisado`. Nenhum ciclo adicional. Os ajustes menores ficam registrados para eventual reabertura futura das unidades 2, 3 e 4; não exigem ação agora."
+}

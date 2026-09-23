@@ -1,0 +1,36 @@
+{
+  "aula": "G16_A09",
+  "arquivo_sha256": "0644e67e713f0a3301bc9fb3d6b8abf8ba4291a8651d7d3ec31c751d023f4eb8",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1
+  ],
+  "unidades_no_arquivo": [
+    1
+  ],
+  "hashes_unidades": {
+    "1": "787ad76cdf0e70fb93f55d68d43e2029a3a35bde78f634de0c5da5e7a18986ff"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "a partir de agora dessa temporada você verá ele te mostrando",
+      "explicacao": "O conteúdo confere com a fonte. A fala lista copy, edição, anúncio e som como o que já foi mostrado. Lista também VSL no VTURB, site, domínio, gestão de tráfego, operação, contingência, teste criativo e teste de público como o que virá. Inclui o pedido de atenção 'porque cada ponto é válido'. A evidência está numa só faixa e dentro de 30–72 s. O tipo `limite` e o `perecivel: true` estão coerentes, e a `nota` sobre o sujeito 'ele' e sobre 'vTurbo' está correta. Ajuste menor: a fonte só diz 'dessa temporada' e 'nessa temporada', nunca 'próxima' ou 'seguinte'. A unidade resolve essa deixis em silêncio ('temporada seguinte', 'consulte a temporada indicada'), e a `nota` não registra a inferência. Nenhuma temporada é nomeada na fonte, então 'a temporada indicada' não aponta para lugar nenhum. Isso não muda a decisão de quem consulta, porque o recado é o mesmo. Convém registrar na `nota` que 'seguinte' é leitura do extrator."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto, frase 5: 'o fecho tem resíduo de silêncio, que não foi usado'. O FORMATO manda não mencionar resíduo de silêncio no contexto. Basta remover a frase ou reduzi-la a 'a transcrição não traz o começo da fala'.",
+    "Contexto, frase 1 ('recado curto de abertura da temporada de operação') e corpo da unidade ('aviso sobre a temporada seguinte') descrevem a posição da aula de modos diferentes: abertura da temporada ou aviso que a antecede. A fonte só diz 'dessa temporada'. Convém alinhar os dois textos com a formulação mais neutra: a aula anuncia o que a temporada de operação vai mostrar.",
+    "Corpo: 'consulte a temporada indicada' manda o leitor para uma temporada que a fonte não indica por nome nem número. É ajuste menor de autossuficiência, pois a `condicoes` situa a aula como transição entre edição e operação."
+  ],
+  "material": [],
+  "resumo": "O arquivo tem uma única unidade `limite`, fiel à fala de 30 a 72 s: o recado sobre o que a temporada de operação vai mostrar. Não há número, condição ou atribuição alterados, não há resíduo de silêncio usado como fonte e não há omissão didática. Os apontamentos são menores: 'temporada seguinte/indicada' é inferência não registrada na `nota`, e o contexto menciona resíduo de silêncio, o que o FORMATO proíbe. Perecibilidade e classificação estão corretas."
+}

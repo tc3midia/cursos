@@ -1,0 +1,106 @@
+{
+  "aula": "G08_A03",
+  "arquivo_sha256": "827ccf5690072f3943a5784e3817bdae092a79e8580ae621ea6b966ffd3982c8",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "hashes_unidades": {
+    "1": "fd0112e8bc70ce0101e063ecac055aece0021150a714b5cea528044532ffbab4",
+    "2": "2aa0c87c117967d9e733a8324070ed707c60bf097c1d5b0444adb149322cca87",
+    "3": "8fff70a67f0af345317bb224bfef208c0d1140262e32374e1979ac86461ab947",
+    "4": "9f412bc0deba28090ac73a9b860e88e75e6877458d0eceb7b19a5fed1ce9ba08",
+    "5": "ef06f1c927526b9d0a62cb13e37456e2c3e22f0ce2b532a89eaaba0f5a7a5acb",
+    "6": "6f39953e32949af74261ee8f8d4d9418db31ca7b75f61b762775a546d79f6086",
+    "7": "19269c3f4af834a25f4d4a416ba4bd2abe3a015092ea55f51b21289e691136dc"
+  },
+  "citacoes_nao_literais": [
+    "olhar é um negócio muito forte em relação a quando a gente tá chamando uma pessoa pra ação [...] Então vamos colocar o olhar pra pessoa. Pra gente realmente tentar conversar com ela",
+    "Vamos colocar aqui de vermelho Para dar um contraste Vamos deixar ela isolada [...] Vamos colocar um motion aqui"
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu vou pegar essa jovem aqui eu vou tirar o rosto dela tá porque a gente não tem direito autoral nela muito menos a gente quer ter problema com isso tá",
+      "explicacao": "A fala descreve exatamente essa ação e o motivo: o professor tira o rosto da modelo porque não tem direito autoral sobre a imagem dela e quer evitar problema. A unidade preserva a condição (falta de direito de imagem) e o motivo sem inventar nada. Único ponto: é uma técnica de contorno de direito de terceiros e a unidade não traz a nota obrigatória prevista para esse caso (ver 'contrato')."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e se a gente aumentar assim o Facebook da bloqueio viu eu esqueci eu sempre esqueço o Facebook é cansado com emagrecimento, então vamos deixar assim",
+      "explicacao": "A fala mostra o professor recuando na intensidade da edição da imagem de 'antes' porque lembra que o Facebook costuma bloquear anúncios do nicho de emagrecimento editados de forma mais chamativa. A unidade atribui isso corretamente ao professor ('segundo ele... prefere'), sem virar lei de mercado, com condicoes e confianca/nota coerentes com a ambiguidade da transcrição de tela. Falta, porém, a nota obrigatória de contorno de política de moderação, e a tema poderia ser politicas-e-bloqueios em vez de anuncio-produto-com-dor — este é exatamente o exemplo de 'camuflar antes e depois para passar na moderação' citado no FORMATO (ver 'contrato')."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente não fala sobre o antes e depois, nem que ela emagreceu, mas ela consegue assimilar isso, você vai entender.",
+      "explicacao": "A fala confirma literalmente que a peça de antes/depois não afirma o resultado em texto e que a intenção é o espectador assimilar sozinho que houve resultado ('a pessoa assimila... que a pessoa teve resultado com esse tipo de abordagem'). A unidade preserva isso fielmente, sem transformar o caso específico em regra além do que a fala já generaliza ('o que acontece aqui')."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "olhar é um negócio muito forte em relação a quando a gente tá chamando uma pessoa pra ação [...] Então vamos colocar o olhar pra pessoa. Pra gente realmente tentar conversar com ela",
+      "explicacao": "A fala liga explicitamente a escolha do 'olhar' ao momento de chamar a pessoa para ação e à ideia de 'conversar' com quem assiste, o que sustenta a leitura de que a imagem deve olhar diretamente para o espectador nesse momento. A atribuição da incerteza do professor sobre o motivo ('eu não sei o porquê') está preservada de forma implícita e não contradiz o corpo."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos tirar novamente Os números Vamos colocar eles por extenso 200 200 miligramas",
+      "explicacao": "A fala mostra o professor removendo a abreviação do número e reescrevendo por extenso, imediatamente após anunciar que vão para o Eleven Labs fazer a locução, o que sustenta tanto a ação quanto o exemplo numérico ('200mg' → '200 miligramas') citados no corpo."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos colocar aqui de vermelho Para dar um contraste Vamos deixar ela isolada [...] Vamos colocar um motion aqui",
+      "explicacao": "O trecho citado é só comando de tela ('colocar em vermelho', 'motion') sem posição, valor ou sequência reconstruível, confirmando corretamente a natureza de 'limite' da unidade: boa parte desta aula é demonstração visual que a fala não descreve o suficiente para virar procedimento."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "já está pronto o Canva, o Eleven Labs e na próxima aula a gente vai colocar vida nessa parada",
+      "explicacao": "A fala final confirma literalmente que Canva e Eleven Labs estão prontos e que a animação fica para a aula seguinte. Ressalva importante: a fala também mostra, mais cedo na mesma aula (~13:27), uma etapa de animação já feita dentro do próprio Canva, que esta unidade (e o contexto) não menciona — ver 'omissoes'."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 807,
+      "trecho_fonte": "concluímos o Canva, olha só que maravilha, prontinho, agora a gente vai animar, como a gente sempre faz, tá?",
+      "descricao": "Entre 13:27 e 15:56 a fala mostra uma etapa de animação feita dentro do próprio Canva ainda nesta aula ('agora a gente vai animar, como a gente sempre faz'), seguida de um trecho de espera/confirmação ('Vamos lá' repetido e 'E é isso, finalizamos agora') antes de baixar a peça e seguir para o Eleven Labs. Nenhuma unidade registra que essa animação em Canva acontece nesta aula; a unidade 7, sobre o fechamento, diz que 'a montagem final, com animação, fica para a aula seguinte', o que dá a entender que nenhuma animação ocorre aqui.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta só a unidade 7 pode concluir que a peça sai do Canva totalmente estática e que a animação só começa na aula seguinte (em outra ferramenta), quando na verdade uma primeira passada de animação já é feita dentro do Canva nesta mesma aula, antes da locução."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1 (numero 1) ensina a ocultar/remover o rosto de uma pessoa cuja imagem não tem direito autoral, explicitamente para 'não ter problema com isso' — é uma técnica de contorno de direito de terceiros. perecivel já está true, mas nota está null; segundo a regra própria do curso, deveria começar com 'Contorna política de plataforma ou direito de terceiros:'.",
+    "Unidade 2 (numero 2) ensina a suavizar a edição da imagem de 'antes' para não ser bloqueado pela moderação do Facebook no nicho de emagrecimento ('o Facebook é cansado com emagrecimento, então vamos deixar assim') — é literalmente o exemplo de 'camuflar antes e depois para passar na moderação' que o FORMATO cita como técnica que contorna política de plataforma. Falta a nota obrigatória 'Contorna política de plataforma ou direito de terceiros:'. Além disso, o FORMATO recomenda tema politicas-e-bloqueios para esse tipo de caso, e a unidade está em anuncio-produto-com-dor; um agente buscando esse assunto em temas/politicas-e-bloqueios.md não encontraria essa unidade."
+  ],
+  "material": [],
+  "resumo": "As sete unidades estão bem lastreadas na fala, com evidências literais corretas e dentro das faixas declaradas; não encontrei sem-lastro, faixa-errada nem desvio de número, condição ou sentido. Duas unidades (1 e 2) ensinam técnicas que contornam direito de imagem/moderação de plataforma — remover rosto sem direito autoral e suavizar edição de 'antes' para não ser bloqueado pelo Facebook — mas nenhuma traz a nota obrigatória de contorno de política, e a unidade 2 está classificada num tema de nicho quando o próprio FORMATO usa esse exato caso como exemplo do tema politicas-e-bloqueios. Há uma omissão de gravidade menor: a fala mostra uma etapa de animação já feita dentro do Canva nesta mesma aula (~13:27), que a unidade sobre o fechamento da aula não menciona, dando a entender que toda animação fica para a aula seguinte. Perecibilidade e ausência de material de apoio estão consistentes com a fonte."
+}

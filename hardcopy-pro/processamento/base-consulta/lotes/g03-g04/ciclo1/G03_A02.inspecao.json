@@ -1,0 +1,123 @@
+{
+  "aula": "G03_A02",
+  "arquivo_sha256": "c6fe433cc67e4b8c0f75c7c5ee5db7df5439a2e7cee2faf19d96b294371c55b0",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [2, 3, 4, 5]; as demais mantêm a evidência da inspeção integral do arquivo 150b89cb8e78, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "bd40dd628164e7fa1f1e3aeaf5dbc3479e5494d12cc8ded5f99ebbc614dc07ef",
+    "2": "7409cef09add00c1b77ad3a9cbb0972dfdbb2cd8536229f04daaa63ae71c6c80",
+    "3": "4de5bd28be2446c45d1b0fa135a6dde357b4306550a82488b329f8eaa3e17306",
+    "4": "d0a9860f2f18cf8cf19fecd44645022667e323ecfe1aa4329043cd95e0b5a988",
+    "5": "a7db5ef260bb67a445088828cddb1d9ef50e42f94a660d679d48b49c41268158"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A melhor forma disso é você tendo um mecanismo único lindo",
+      "explicacao": "O corpo reproduz a fala: mecanismo único como melhor forma de vender bem, ressalva de que são vários fatores (\"É claro que são um conjunto de vários fatores\") e \"Já é o 80-20 da operação\". Está atribuído ao professor. Os 20 reais que voltam 150 ou 100 ficaram só na nota, como ilustração, e não viraram régua, o que está correto. A faixa 0–48 cobre o conteúdo e a evidência cai dentro dela. Detalhe sem efeito no uso: \"investimento em anúncio\" é leitura do contexto; a fala diz só \"você coloca 20 reais e te volta 150\"."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você não souber vender ele",
+      "explicacao": "F1 resolvida pelo critério de aceite (caminho a). \"Captar e ensino\" saiu do corpo; ficou só \"suquinho de osso\", que a fonte diz em 00:03:01. A nota não é nula. Ela cita o trecho degradado (\"Porque captar e ensino\", 00:02:58) e a ambiguidade do fecho, e os dois citados existem na fonte. `confianca` é `media` e `versao` é 3. A última frase segue a fonte: sem saber vender o produto (\"o mecanismo único dele / Criar uma boa cópia / E ter a criatividade de você fazer isso\"), \"uma promessa simples\" \"não dá pra vender\". Cita a criatividade e não diz mais que mecanismo único e copy \"não sustentam a venda\". O 18 kg em 30 dias é a promessa do produto do expert que o professor comenta, não régua. A frase sobre Himalaia, África e receita da avó vem da fala e está atribuída ao professor (\"é mentira, segundo o professor\"). A faixa 146–240 contém todo o conteúdo, e a evidência está em 00:03:30–00:03:33. Nenhum desvio novo."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tipo, ela quer uma coisa fácil, ela quer emagrecer, ela não quer ir para a academia, ela já tentou de tudo, ela já comprou vários procedimentos e não deu certo, o que eu vou fazer para ela comprar o meu produto?",
+      "explicacao": "C1 atendida pelo critério: perfil do comprador, pergunta-guia e comentários no YouTube estão na fonte e no que a unidade diz. \"Poucas fazem o processo\", \"gostam de promessas\" e \"coisas fáceis\" estão em 00:04:19–00:04:34. A criatividade \"de forma automática\" está atribuída ao professor (00:04:55). \"Comentários no YouTube\" é a única fonte de pesquisa citada, e nada foi acrescentado. `condicoes` fixa o nicho. `perecivel: true` é exigido por `youtube`. Ajuste menor de faixa: a Pré-condição (\"Você sabe que a pessoa quer emagrecer / Você sabe que o seu produto é bom / Mas você não sabe como apresentá-lo\") está em 00:04:02–00:04:13, ou seja, 242–253 s. A frase \"Várias pessoas querem emagrecer\" termina em 259,3 s. As duas ficam antes de `inicio` 259. Quem for verificar a Pré-condição na faixa não a encontra. O restante do conteúdo está dentro da faixa e a evidência também. Sugestão: `inicio` perto de 242. Não considero a unidade `faixa-errada` porque o núcleo (perfil, pergunta, pesquisa) está em 259–315."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu não vou olhar comentáriozinho no Facebook, ads, library",
+      "explicacao": "C2 atendida pelo critério. A chave é \"vivenciar ou conviver com quem tem a dor\", dita em 00:05:20–00:05:26. A pastelaria, a recusa de Facebook e biblioteca de anúncios e o \"ninguém faz isso\" aparecem atribuídos ao professor. `condicoes` limita a prática a copy de emagrecimento. A nota registra \"parcelaria\" (00:05:45) contra \"pastelaria\" (00:06:45) e não resolve a tensão com os comentários no YouTube da unidade 3. Ajustes menores. (a) \"Anota na hora, porque são pessoas acima do peso\" cria um nexo causal que a fonte não faz: \"E eu já anoto / Eu já vejo o que cada pessoa tá fazendo ali / Na hora / E eu vejo, cara, isso aqui são tudo pessoas acima do peso / Isso aqui é ouro\". (b) O paralelo do psicólogo (00:06:45–00:07:05) vem como \"estende o mesmo raciocínio\". A fonte diz \"Ninguém nunca fingiu ter depressão pra ir num psicólogo e ver quais são as armas que ele utiliza praquilo / E se ele consegue identificar que você tá mentindo\". É uma afirmação de que ninguém faz isso, e o fingimento ficou de fora. Não inverte a orientação, mas suaviza. (c) \"Biblioteca de Anúncios\" é identificação por hipótese (a tabela marca Hipótese), e a fonte grafa \"ads, library\". A nota não registra essa grafia. O uso não muda, porque a orientação é o que o professor não faz. Sem desvio de preferência virando regra."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela vem de coisas que já são pré-moldadas na sua mente",
+      "explicacao": "C3 atendida pelo critério. O corpo traz a afirmação de que a criatividade não vem do inexistente, o sonho (\"incapaz de criar pessoas\", \"você já viu aquilo e o seu subconsciente pré-moldou aquilo no seu sonho\") e a consequência de conhecer lugares, pessoas e hábitos (00:08:00–00:08:10). Tudo está atribuído ao professor (\"para ele\"), e não entrou definição externa. Faixa 429–497 e evidência dentro dela. Frase do `contexto` sobre a próxima aula: confirmada pela fala, \"Então, na próxima aula a gente vai falar do inexistente / Para você entender um pouquinho como é que funciona isso / E aplicar no seu produto\". A frase não foi corrigida, mas se sustenta na fonte. Ressalva menor em `contrato`. Numeração 1..5 sem furo e `retiradas` vazio."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 279,
+      "trecho_fonte": "Tipo, ela quer uma coisa fácil, ela quer emagrecer, ela não quer ir para a academia, ela já tentou de tudo, ela já comprou vários procedimentos e não deu certo, o que eu vou fazer para ela comprar o meu produto?",
+      "descricao": "Bloco de 4:00 a 5:15 sem unidade. Diante de um produto bom sem ideia de como apresentá-lo, o professor descreve o comprador de emagrecimento: muitos querem emagrecer, poucos fazem o processo, a maioria gosta de promessas e de coisas fáceis. Ensina a se perguntar \"o que eu vou fazer para ela comprar o meu produto?\", porque a criatividade vem de forma automática. Diz também para estudar o produto e olhar comentários no YouTube.",
+      "gravidade": "material",
+      "efeito_pratico": "O agente não tem o método que a aula dá para gerar a ideia do mecanismo único (perfil do comprador, pergunta-guia, pesquisa em comentários). A unidade 2 só diz o que não fazer e para \"procurar algo diferente\", sem dizer como."
+    },
+    {
+      "inicio": 320,
+      "trecho_fonte": "É você vivenciando aquilo ou convivendo com uma pessoa que tem aquela dor",
+      "descricao": "Técnica central da aula, de 5:15 a 7:09. A chave da criatividade para um produto ou mecanismo único é vivenciar a dor ou conviver com quem a tem. Como preferência e prática pessoal do professor, para copy de emagrecimento ele não olha comentário no Facebook nem a biblioteca de anúncios. Vai a uma pastelaria (a transcrição grafa \"parcelaria\" em 5:45, mas \"comendo um pastel\" e \"pastelaria\" confirmam) e observa a vontade de comer, o que sentem e o que cada um faz. Ele diz que ninguém faz isso. O paralelo com o psicólogo (fingir depressão para ver as armas dele) ilustra a mesma ideia.",
+      "gravidade": "material",
+      "efeito_pratico": "É o método de pesquisa de público e de criação de mecanismo único que a aula ensina, e nenhuma unidade o preserva. Quem consulta não recebe a orientação nem o contraste com a pesquisa em comentários, e não sabe que é a prática pessoal do professor."
+    },
+    {
+      "inicio": 429,
+      "trecho_fonte": "Porque a criatividade, ela não vem do inexistente",
+      "descricao": "Fecho conceitual, de 7:09 a 8:17. A criatividade não vem do inexistente, vem de coisas já pré-moldadas na mente, ilustrado com o sonho, em que a mente não cria rostos que a pessoa nunca viu. Por isso é preciso conhecer lugares novos, pessoas e hábitos para ter base. O professor fecha com \"E esse é o ponto\".",
+      "gravidade": "material",
+      "efeito_pratico": "É o ponto que o professor declara como conclusão da aula e o que justifica a técnica de vivência. Sem ele o agente não sabe explicar por que observar público real e ampliar repertório, e não responde a pergunta \"como ser criativo com um produto\"."
+    },
+    {
+      "inicio": 126,
+      "trecho_fonte": "Quando dá muito errado, você não passa do teste de público",
+      "descricao": "Enquadramento de risco, de 1:57 a 2:24. Criar o produto pela própria criatividade \"ou vai dar muito certo ou vai dar muito errado\". Se dá errado, não passa do teste de público, então \"você só tem a ganhar\", porque a única perda é dinheiro. Para o professor, perda de dinheiro em tráfego pago e marketing digital é investimento a longo prazo.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta a razão do professor para recomendar arriscar um mecanismo único criativo e a ligação com o teste de público. Não impede executar, mas o agente perde o argumento contra a escolha do mais do mesmo."
+    },
+    {
+      "inicio": 64,
+      "trecho_fonte": "Você encontra um produto que já está vendendo muito bem",
+      "descricao": "Resposta do professor à pergunta de abertura (como encontrar o mecanismo único). Ela vem por um mecanismo único \"padrão\" e por um produto que já vende muito bem. Segue o exemplo em que o mercado entende que a copy é o 80-20, mas não consegue fazê-la vender por falta de criatividade, \"e aí é que você entra\". A transcrição está degradada aqui (\"COPE\", \"desembolar\").",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta o ponto de partida indicado (partir de produto que já vende e aplicar a criatividade). Como o trecho é ambíguo, o efeito é limitado; ao preservar, é preciso nota e confianca baixa."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto, última frase: menciona o \"resíduo de legenda\" do fecho. O FORMATO (seção 3) manda não mencionar resíduo de silêncio no contexto. Ajuste menor: retirar a menção.",
+    "Unidade 2 usa \"lead\" no sentido de prospect (\"o lead o vê como mais do mesmo\"), sem dizer qual sentido vale. Na fonte, \"lead\" aparece como início da VSL (\"prometendo no meu lead\") e quem diz \"é mais do mesmo\" é \"ele\", o prospect. O vocabulário do FORMATO pede explicitar o sentido dentro da unidade. Ajuste menor.",
+    "Contexto: \"Assume que o aluno já conhece a ideia de mecanismo único e de copy\" e \"fala para quem cria copy e anúncio de produto digital\" são inferências, não estão dito na aula. Ajuste menor, sem efeito sobre as unidades.",
+    "Unidade 2 agrupa numa só unidade `decisao` a condição do mais do mesmo, a orientação de buscar algo diferente, a proibição de inventar origem e a frase final sobre promessa simples. Não é erro de contrato, mas reforça que o `condicoes` está `null` embora o corpo se limite a produto de emagrecimento. Classificação discutível.",
+    "Ajuste menor (arquivo, `contexto`): o último item diz que o fecho tem \"resíduo de legenda\". O FORMATO seção 3 manda não mencionar resíduo de silêncio no contexto. Basta tirar a menção, sem alterar o sentido do resto.",
+    "Ajuste menor (`contexto`, item sobre a próxima aula): \"A aula deixa para a próxima aula o tema do 'inexistente'\" se sustenta em \"Então, na próxima aula a gente vai falar do inexistente\", mas lida sozinha sugere que o conceito não é tratado aqui. A unidade 5 o trata (\"Porque a criatividade, ela não vem do inexistente\"). A sugestão de redação registrada no histórico do ciclo 1 não foi aplicada.",
+    "Ajuste menor (unidade 2): \"o lead o vê como mais do mesmo\" usa \"lead\" no sentido de prospect, sem dizer qual sentido vale. Na mesma passagem a fonte usa \"prometendo no meu lead\" no sentido de início da copy (00:03:25–00:03:28). O FORMATO pede que a unidade diga qual sentido vale.",
+    "Ajuste menor (unidade 4): a `nota` não registra como a fonte grafou \"Biblioteca de Anúncios\" (\"ads, library\", 00:05:38). A tabela do FORMATO marca essa identificação como hipótese, e hipótese pede nota com a grafia. Sem efeito no uso.",
+    "Ajuste menor (unidade 5): a tarefa `pesquisar-publico-e-subnicho` não é o que a unidade ensina, que é ampliar repertório para criar. Uma tarefa como `definir-mecanismo-unico`, ou nenhuma (`conceito` pode ficar sem tarefa), descreve melhor a unidade. Classificação discutível."
+  ],
+  "material": [],
+  "resumo": "As quatro falhas da lista (F1, C1, C2, C3) foram resolvidas segundo os critérios de aceite. As unidades 2, 3, 4 e 5 ficam `lastreadas`, sem desvio nem trecho sem lastro, e não restou omissão decorrente da lista. Em `unidades` ficaram só ajustes menores, na faixa da unidade 3 e no paralelo do psicólogo da unidade 4. Em `contrato` ficaram apontamentos menores, como a menção a resíduo de legenda no `contexto`. Nada disso abre ciclo. O validador não foi executado por mim, e a única frase do `contexto` conferida é a da próxima aula, que se sustenta na fonte."
+}

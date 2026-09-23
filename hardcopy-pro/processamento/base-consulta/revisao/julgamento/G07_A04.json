@@ -1,0 +1,25 @@
+{
+  "aula": "G07_A04",
+  "arquivo_sha256": "dc42c4807c9896eb3409943c20f54578db809e51ed9ed38287fc9051cae6ad56",
+  "inspecao_sha256": "9aa5a4105c793ac3c9c5be3431eff452f3fb592a35098d1986679b3ebe79fa44",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. `versao` da unidade 8 incrementada para 2 como pedia o critério de aceite; nenhum campo de contrato tocado na correção.",
+  "fidelidade": "G07_A04-F1 resolvida: o corpo da unidade 8 atribui a fala expositiva à avó falando à neta, batendo com a `evidencia` da própria unidade ('Que mulher, na sua sã consciência, vai chegar pra sua neta e vai falar') e com a atribuição da unidade 10. Inspetor conferiu com trecho literal em 519–612 e classificou `lastreada`, gravidade nenhuma, sem outro campo semântico alterado. Unidades intactas preservam a evidência da inspeção integral (hash inalterado). Permanece o desvio menor da unidade 2 (glosa 'tênis de polo popular de calçados' onde o professor diz 'produto vendido em Nova Serrana'), já classificado como não material pelo inspetor e fora da lista de falhas da rodada anterior; fica em ajustes menores.",
+  "cobertura": "Inspetor declara ter buscado omissões e lista três, todas com trecho literal e gravidade menor (destino de venda página/WhatsApp em 176s; voz por personagem e registro de fala em 397s; alerta sobre foto de banco com marca d'água em 774s). Nenhuma muda a decisão de quem consulta as unidades existentes: réguas, estrutura do roteiro (abertura, diálogo, pitch), ressalva sobre Biblioteca de Anúncios e o `limite` do Canva estão preservados. A correção da unidade 8 não alterou a cobertura. Ficam como ajustes menores.",
+  "perecibilidade": "Inspetor não sinaliza nada. Conferência direta: unidades `geral` com `perecivel: false` (1, 6, 8, 9, 10, 12) não escondem tela, recurso de plataforma, preço nem número de mercado; a comparação com o filme Show de Truman na unidade 8 não é recurso de plataforma. Meta-ads (2, 4), Canva (15), tema curso-e-recursos (14) e números (13) estão marcados `true`.",
+  "aplicabilidade": "A unidade 8 corrigida se sustenta sem a aula: explica a referência ao Show de Truman no próprio corpo, glosa 'papo reto' como coloquial e direto, e tipo `regra`, tema `personagens-e-roteiro`, tarefas `roteirizar-anuncio`/`construir-personagens` levam o agente ao lugar certo. Única ressalva: a primeira frase admite leitura em que 'que comprou aquele sapato' modifica 'neta'; o contexto da frase ('soa falso quando fica expositivo, como a avó respondendo') sustenta a leitura pretendida, então é redação, não veto. Demais unidades intactas já julgadas na rodada anterior.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U8 (redação): na primeira frase, trocar 'a avó respondendo à neta que comprou aquele sapato' por 'a avó respondendo à neta que ela comprou aquele sapato', para o 'que' não ser lido como relativa de 'neta'. Não muda o sentido nem a decisão.",
+    "U2 (carregado da inspeção integral, desvio menor): a glosa 'tênis de polo popular de calçados' não está na fala; o professor diz 'produto vendido em Nova Serrana'. Substituir pela expressão da fonte ou remover o segundo exemplo da lista; a orientação (categoria do criativo direciona a entrega) fica igual.",
+    "Omissão menor (176s): o professor diz que a venda do calçado pode fechar por página direta ou via WhatsApp conforme a operação. Pode entrar como complemento em U3 ou em unidade nova; não altera as unidades existentes.",
+    "Omissão menor (397s): usar voz diferente para cada personagem e adequar o registro de fala ao perfil (falar como uma senhora de idade conversa). Complemento possível em U10, que já traz o 'tom coloquial'.",
+    "Omissão menor (774s): alerta contra usar a foto genérica de 'senhora de idade' de banco de imagens com marca d'água. Complemento possível em U11."
+  ],
+  "proximo": "Promover a aula a `revisado` e publicar. Os ajustes menores podem ser aplicados em retoque único, sem abrir ciclo; se forem aplicados, basta conferência por script (hash das unidades tocadas muda e a inspeção focal cobre só elas). Nenhum pedido de prova pendente."
+}

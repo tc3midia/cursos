@@ -1,0 +1,85 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G04_A01",
+  "titulo": "Episódio 1 - Mão na massa",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de abertura da temporada de roteirização da trilha Hard Ads, em que o professor apresenta o que a temporada cobre.",
+    "Destina-se a quem já passou, ou deveria passar, pela temporada anterior, chamada de criatividade, antes de roteirizar anúncios.",
+    "O professor diz que a temporada explica a roteirização dos anúncios dele, com base na construção da história e na conexão com o público, e que nesta aula mostra como ele faz para que nas próximas o aluno faça.",
+    "Deixa para outras temporadas a roteirização para outros nichos, e para o Hard Copy o ensino de VSL.",
+    "A aula não traz técnica aplicável; é sobretudo contextualização, motivação e menção ao produto irmão."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Não pular a temporada de criatividade antes da roteirização",
+      "tipo": "regra",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 42.12,
+      "fim": 100,
+      "condicoes": "Vale para o aluno que segue as temporadas do curso na ordem.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A temporada anterior à de roteirização se chama criatividade. O professor critica quem a pula e vai direto para a roteirização ou para a edição por se sentir criativo. Ele orienta assistir às aulas dela, porque ali explicou o que faz para criar os anúncios e mostrou de forma prática como ter criatividade, o que passa por fazer o produto de modo totalmente diferente do mercado.",
+      "evidencia": "E tem muito espertinho que pula essa temporada e já vem direto pra roteirização",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "O que a temporada de roteirização promete ensinar",
+      "tipo": "conceito",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 105,
+      "fim": 135,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Alta retenção e resultados são afirmações do professor; a base não confirma eficácia.",
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, a temporada explica toda a roteirização que ele usa nos próprios anúncios para obter alta retenção. Os eixos são a construção da história e a conexão com o público, de modo que a pessoa sinta que o anúncio é para ela. Nesta aula ele mostra como faz, e nas próximas mostra como o aluno fará. O formato, diz ele, se replica para outros nichos, que serão trabalhados em outras temporadas.",
+      "evidencia": "Essa temporada, eu vou te explicar toda a roteirização de tudo que eu faço",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Trecho de venda do Hard Copy sem conteúdo didático",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 149,
+      "fim": 172,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Hard Copy identificado por hipótese; a transcrição grafa \"hardcopy\".",
+      "proposta_tag": null,
+      "corpo": "Perto do fim, o professor cita o Hard Copy, produto irmão, como o lugar onde explica o formato de enredo em detalhe e onde ensina a fazer uma VSL, um vídeo de vendas. É menção de oferta e não traz orientação; quem precisa de VSL é remetido a esse outro produto.",
+      "evidencia": "Eu explico muito isso lá no hardcopy",
+      "versao": 1
+    }
+  ]
+}

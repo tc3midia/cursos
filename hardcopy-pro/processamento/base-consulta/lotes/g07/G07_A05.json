@@ -1,0 +1,226 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A05",
+  "titulo": "Episódio 5 - Canva (Sapatos)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é o episódio 5 da trilha Hard Ads, grupo Negócios Locais, e mostra o professor montando ao vivo, no Canva, um anúncio em vídeo para um calçado ortopédico fictício voltado a pessoas idosas com dor nos pés.",
+    "Pressupõe que quem assiste já sabe operar o Canva, já tem o roteiro do anúncio pronto e já conhece a lógica de anúncio ensinada em aulas anteriores do curso.",
+    "O professor busca cenas de aparência autêntica no TikTok, baixa vídeos com o SnapTik, ajusta texto e sombra no Canva e, como conteúdo extra, gera duas variantes de locução no ElevenLabs para o mesmo roteiro.",
+    "Ele avisa que parte do material usado como exemplo foi tirada do TikTok de outra pessoa, chama isso de plágio e recomenda que o aluno crie conteúdo autêntico em vez de copiar; também deixa claro que não tem vínculo com a marca do calçado mostrado.",
+    "A aula é majoritariamente uma gravação de tela, com cliques, arrastes e ajustes visuais narrados de forma vaga ('aqui', 'assim'), então boa parte da montagem não é descrita em palavras suficientes para reconstrução sem a imagem.",
+    "A aula termina antes da etapa de som e finalização do anúncio, que fica para o CapCut na aula seguinte."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Vídeo de exemplo veio de outra conta do TikTok: aviso de plágio",
+      "tipo": "regra",
+      "tema": "etica-e-promessa",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok"
+      ],
+      "fonte": "fala",
+      "inicio": 68,
+      "fim": 87,
+      "condicoes": "Vale para quando o exemplo usado em aula reaproveita conteúdo de outra pessoa; não é uma orientação para reutilizar vídeo alheio de forma idêntica num anúncio real.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor usa, como exemplo neste episódio, vídeos que encontrou no TikTok em uma conta de terceiros para montar o anúncio. Ele avisa que reaproveitar esse material do jeito exato como mostrado é plágio e que a demonstração serve só para fins didáticos. Orienta o aluno a não repetir o mesmo vídeo e a criar conteúdo autêntico ao montar o próprio anúncio.",
+      "evidencia": "não faça da mesma forma até porque esse aqui é plágio",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Sombra de texto no Canva funciona melhor sobre texto branco",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 107,
+      "fim": 125,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No Canva, ao aplicar o efeito de sombra (sombreado) sobre um texto, teste a cor do texto antes de finalizar: sobre texto preto o sombreado praticamente não aparece; sobre texto branco, o sombreado fica visível e melhora o contraste.",
+      "evidencia": "sombreado é bom usar no branco",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Sem imagem de banco para a cena, buscar no TikTok e baixar com SnapTik",
+      "tipo": "decisao",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok",
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 164,
+      "fim": 199,
+      "condicoes": "Contexto do episódio: montagem de anúncio de negócio local para produto de dor nos pés voltado a idosos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Contorna política de plataforma ou direito de terceiros: a técnica consiste em baixar vídeo publicado por outra pessoa no TikTok, usando o SnapTik, para reaproveitar como cena do próprio anúncio, sem menção a autorização do criador original.",
+      "proposta_tag": null,
+      "corpo": "Se a busca por imagens prontas, como no banco do Canva, não encontrar nada para o tema da cena do anúncio, pesquise o mesmo tema com termos mais diretos direto no TikTok. Ao achar um vídeo que sirva, baixe-o com o SnapTik, ferramenta de download de vídeos do TikTok, para depois importar a cena no editor.",
+      "evidencia": "então vamos para o nosso amigo tiktok",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Preferir cenas autênticas do TikTok a fotos de banco muito produzidas",
+      "tipo": "regra",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok"
+      ],
+      "fonte": "fala",
+      "inicio": 216,
+      "fim": 240,
+      "condicoes": "Preferência do professor para anúncio de produto ligado a dor e a público idoso; não apresentada como regra obrigatória para outros nichos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para as cenas de um anúncio de negócio local voltado a idosos, o professor prefere imagens e vídeos com aparência real e de dia a dia, encontrados no TikTok, em vez de fotos ou vídeos de banco muito produzidos e artificiais, que ele chama de 'festival de marionete'.",
+      "evidencia": "não é aquele festival de marionete não, sai fora, pra que isso",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Disclaimer de que não há vínculo com o produto usado como exemplo",
+      "tipo": "regra",
+      "tema": "etica-e-promessa",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 405,
+      "fim": 414,
+      "condicoes": "Vale para quando o professor usa produto real de terceiros como exemplo didático de anúncio.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao demonstrar o anúncio com um calçado real como exemplo, o professor avisa que não tem vínculo com a marca, não sabe se o produto é bom ou ruim e não está vendendo esse calçado. Ele pede para o aluno lembrar disso.",
+      "evidencia": "eu não tenho vínculo nenhum com esse calçado",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Seta apontando para o botão 'Saiba mais' no fechamento do anúncio",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 592,
+      "fim": 599,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No fechamento do anúncio, ao exibir o texto ou botão 'Saiba mais' (chamada para ação), acrescente uma seta apontando para ele, para dirigir a atenção do espectador até o CTA.",
+      "evidencia": "toca em saiba mais aí a gente coloca uma setinha",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "No ElevenLabs, revisar pontuação e escolher o modelo antes de gerar áudio",
+      "tipo": "procedimento",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 724,
+      "fim": 764,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: roteiro do anúncio pronto para virar locução no ElevenLabs, ferramenta de geração de voz sintética.\n1. Revise a pontuação do texto (vírgulas e pontos) antes de colar na ferramenta, porque o ElevenLabs é sensível à pontuação e ela muda a entonação gerada.\n2. Nas configurações da ferramenta, selecione o modelo Eleven Multilingual.\n3. Escolha a voz desejada e gere o áudio.",
+      "evidencia": "vamos deixar tudo pontuadinho, certinho, porque ele é muito chato com isso",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Gerar duas variantes de voz diferentes para o mesmo roteiro",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 812,
+      "fim": 830,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao gerar a locução de um anúncio no ElevenLabs, crie duas variantes do mesmo roteiro com vozes diferentes, por exemplo uma voz de pessoa mais velha e uma voz mais jovem. Isso permite testar qual voz funciona melhor sem se comprometer com uma única escolha logo de início.",
+      "evidencia": "eu gosto de criar duas variantes exatamente iguais com as vozes diferentes",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Montagem no Canva narrada de forma vaga, sem detalhe reconstruível",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 40,
+      "fim": 136,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte deste episódio é o professor operando o Canva na tela: duplicando elementos, arrastando camadas, ajustando cor e posição, narrando só com termos como 'aqui', 'assim', 'isso aqui'. A transcrição não permite reconstruir os cliques, menus e posições exatas usados para montar o anúncio; só entram nesta base os pontos em que a fala descreve uma decisão de forma que se entende sem a imagem.",
+      "evidencia": "duplica e continua bem na hora",
+      "versao": 1
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "aula": "G04_A01",
+  "arquivo_sha256": "51f957cb6162986c5f8481982de623bcec0e89442fbcdbc427a4aad168c4a0e4",
+  "inspecao_sha256": "0baf04d7d9e082f2a3d0bd3aea54552870322605e1a8f1665d1ffba2989af657",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos, então não há veto de contrato. O inspetor listou sob \"contrato\" quatro itens que não são de contrato: aplicabilidade da unidade 2, tipo da unidade 2, `condicoes` da unidade 1 e faixa das unidades 1 e 2. Tratei cada um na área certa deste parecer. Nenhum deles é erro de script.",
+  "fidelidade": "Veto por `faixa-errada` acima de 10% das unidades com faixa. Não há `sem-lastro` nem `desvio` material. O inspetor cobriu as três unidades com trecho literal, e nenhum apontamento está em `citacoes_nao_literais`.\n\n- **Unidade 2.** É o caso claro. O corpo tem quatro afirmações e duas estão fora de 105–135 s. \"Nesta aula ele mostra como faz, e nas próximas...\" está em 189,68–195,82 s, e o trecho citado pelo inspetor vem dali. \"O formato se replica para outros nichos, em outras temporadas\" está em 34,78 s e em 181–186 s. Quem confere a faixa declarada não encontra metade do corpo.\n- **Unidade 1.** A frase final do corpo (\"fazer o produto de modo totalmente diferente do mercado\") está em 100,70–103,84 s, e o `fim` é 100. O excesso é de cerca de 4 s, caso marginal. Ainda assim é objetivo e está comprovado com trecho literal.\n- **Limiar.** Mesmo descontando a unidade 1, a unidade 2 sozinha dá 1 de 3 (33%). Contando as duas, são 2 de 3. A regra de mais de 10% é atingida nas duas contagens. O inspetor marcou cada caso como gravidade \"menor\", mas a rubrica não condiciona esse limiar à gravidade individual, e não o rebaixo.\n- **Resto.** O conteúdo das três unidades tem lastro e está atribuído ao professor. A unidade 3 está lastreada dentro da faixa. Não há copy de exemplo tratada como fato, resíduo de silêncio nem grafia deformada.\n- **Ajustes menores.** A `condicoes` sem fonte da unidade 1, a atribuição imprecisa de \"o que faz para criar os anúncios\" e as inferências da unidade 3 (\"em detalhe\", \"ensina a fazer uma VSL\") não mudam o uso de unidades que são de estrutura do curso e de oferta.",
+  "cobertura": "Sem veto. O inspetor declarou busca integral de omissões e localizou duas, ambas classificadas como menores.\n\n- **Posição contra prints de resultado e contra \"vender um sonho\" (138 s).** Está embutida no trecho de autoridade e oferta. É um posicionamento do professor, não uma etapa, régua ou condição que mude a execução de alguma tarefa. A falta não impede decidir nem executar nada nesta aula.\n- **Anúncio específico que a temporada trabalha (175,94 s).** Ajuda a localizar material nas aulas seguintes, mas não muda decisão.\n\nNenhuma das duas sustenta veto, e ficam como ajustes menores. A segunda pode ser absorvida sem custo na correção de F2, porque a nova faixa cobre esse trecho. A aula é de abertura, sem técnica, e três unidades é um resultado coerente.",
+  "perecibilidade": "Sem veto. As três unidades são do tema `curso-e-recursos`, que trata de estrutura de temporadas e produto irmão, e todas têm `perecivel: true`. O inspetor não encontrou perecível escondido.",
+  "aplicabilidade": "Sem veto. As três unidades se entendem sozinhas como orientação sobre a estrutura do curso, e tema, tarefa e plataforma levam ao lugar certo. Ficam como ajustes menores:\n\n- **Unidade 2.** Usa \"Nesta aula\" e \"nas próximas\", referência relativa. O agente tem o título da aula na linha de `unidades.jsonl`, então isso não muda o uso. Convém nomear a aula ao reescrever.\n- **Unidade 2.** O `tipo` `conceito` para descrever a promessa de uma temporada é discutível frente a `limite`. Os dois são defensáveis.\n- **Unidade 1.** A `condicoes` é estranha ao alvo da fala, que é quem pula a temporada. Não impede o uso e deve ser corrigida na mesma edição.",
+  "falhas": [
+    {
+      "id": "G04_A01-F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Veredito do inspetor: `faixa-errada`. A frase final do corpo (\"o que passa por fazer o produto de modo totalmente diferente do mercado\") vem do trecho literal \"Ela tá fazendo o seu produto de uma forma totalmente diferente do mercado\", em 100,70–103,84 s. A unidade declara `fim`: 100.",
+      "impacto": "Quem confere a unidade pela faixa 42,12–100 s não encontra a última afirmação do corpo, e a checagem de lastro por faixa falha para esse trecho. Somada à unidade 2, a aula ultrapassa o limite de 10% de `faixa-errada`.",
+      "mudanca_minima": "Alterar `fim` da unidade 1 para cobrir o trecho, cerca de 104 s, e incrementar `versao`. A alternativa é retirar do corpo a frase sobre fazer o produto de modo diferente do mercado e manter `fim`: 100. Não é preciso mexer no restante do corpo por causa desta falha.",
+      "criterio_de_aceite": "O inspetor localiza todas as afirmações do corpo da unidade 1 dentro de `inicio`–`fim`, com trecho literal, e o veredito da unidade deixa de ser `faixa-errada`. A `evidencia` continua dentro da faixa. O validador continua com zero erros."
+    },
+    {
+      "id": "G04_A01-F2",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Veredito do inspetor: `faixa-errada`. A faixa declarada, 105–135 s, cobre só a promessa de roteirização, a alta retenção, a construção da história e a conexão com o público. \"Nesta aula ele mostra como faz, e nas próximas mostra como o aluno fará\" está em 189,68–195,82 s (trecho literal: \"Essa aula eu vou te mostrar como que eu faço\"). \"O formato se replica para outros nichos, que serão trabalhados em outras temporadas\" está em 34,78 s (\"Ele é replicado para qualquer situação ou ocasião\") e em 181–186 s (roteirização para \"os outros nichos\").",
+      "impacto": "Metade do corpo não pode ser verificada na faixa declarada. O agente ou revisor que usa `inicio`–`fim` para voltar à fonte não acha duas das quatro afirmações. Sozinha, esta unidade já dá 33% de `faixa-errada` na aula.",
+      "mudanca_minima": "1. Deixar na unidade 2 só o que está em 105–135 s: a promessa de explicar a roteirização dos próprios anúncios, a alta retenção atribuída ao professor, a construção da história e a conexão com o público. Incrementar `versao`.\n2. Levar o conteúdo do fim da aula para uma unidade nova, com número após o maior existente e faixa própria em torno de 175–196 s. Esse conteúdo inclui que a aula de abertura mostra como o professor faz, que as seguintes mostram como o aluno fará, que os outros nichos ficam para outras temporadas e, se couber, que o caso trabalhado é o anúncio que o aluno viu antes de comprar.\n3. Na unidade nova, usar tema `curso-e-recursos`, `perecivel: true` e evidência literal dentro da faixa.\n4. Retirar a frase \"se replica\" (34,78 s) ou apoiá-la apenas no que está dentro da faixa da unidade em que ficar.\n5. Se o redator tratar a mudança como divisão formal, seguir a seção 4 do FORMATO: retirar a 2, criar novas e registrar em `correcoes`.\n6. Não ampliar a faixa da unidade 2 para 34–196 s. Isso cobriria quase a aula inteira e esvaziaria a função da faixa.",
+      "criterio_de_aceite": "O inspetor localiza com trecho literal, dentro do respectivo `inicio`–`fim`, cada afirmação do corpo da unidade 2 e de qualquer unidade criada na correção. Nenhuma delas recebe `faixa-errada`. A `evidencia` de cada uma está dentro da sua faixa. A numeração e `retiradas` seguem a seção 4 do FORMATO, e o validador continua com zero erros. A aula fica com `faixa-errada` em no máximo 10% das unidades com faixa, o que aqui significa zero."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 1, `condicoes`: \"Vale para o aluno que segue as temporadas do curso na ordem\" não está na fonte e contraria o alvo da fala, que é quem pula a temporada. Como a unidade já será editada por F1, passar para `null` ou reformular (por exemplo, \"para quem está prestes a ir direto à roteirização ou à edição\"). Não é critério de aceite do ciclo.",
+    "Unidade 1, corpo: \"ali explicou o que faz para criar os anúncios\" atribui à temporada de criatividade uma fala que, segundo o inspetor (57–62 s), se refere ao treinamento inteiro. Trocar por \"no treinamento\" ou remover na mesma edição.",
+    "Unidade 2: \"Nesta aula\" e \"nas próximas\" são referências relativas. Ao reescrever ou mover a frase (F2), nomear como \"a aula de abertura da temporada de roteirização\" e \"as aulas seguintes da temporada\".",
+    "Unidade 2: `tipo` `conceito` para a promessa de conteúdo de uma temporada é discutível frente a `limite`. Os dois são defensáveis e não exige mudança.",
+    "Unidade 3 e contexto: \"em detalhe\" amplia \"explico muito\". \"Ensina a fazer uma VSL\" e \"é remetido\" são inferência de uma frase que ficou inacabada na transcrição. Sugestão: \"cita o Hard Copy para quem precisa fazer uma VSL\". Não muda o uso, por ser `limite` de oferta. A mesma inferência aparece na quarta frase do `contexto`.",
+    "Omissão menor (138 s): o professor diz não postar prints de resultado e ser \"totalmente contra\" vender um sonho, porque vende um processo. Pode virar uma unidade curta de `etica-e-promessa`, atribuída como posição do professor. Não é exigida.",
+    "Omissão menor (175,94 s): a temporada trabalha a roteirização do anúncio que o aluno viu antes de comprar o produto. Pode ser absorvida na unidade nova criada por F2."
+  ],
+  "proximo": "1. Abre o ciclo 1 de 2 de correção para G04_A01.\n2. O redator recebe F1 (faixa da unidade 1) e F2 (faixa da unidade 2, com unidade nova para o trecho final). Corrige só isso e aproveita a edição para os ajustes menores das unidades 1 e 2.\n3. Roda-se `base_fcc.py` e exige-se zero erros.\n4. A conferência seguinte é focal. O inspetor reverifica as unidades 1, 2 e a(s) nova(s), com trecho literal para cada afirmação e sua posição na faixa.\n5. A unidade 3 preserva a evidência atual se o hash dela não mudar.\n6. Se a redação da unidade 3 for ajustada, ela volta para a conferência.\n7. Não há pedido de prova adicional. A evidência do inspetor foi suficiente para decidir."
+}

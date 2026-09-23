@@ -1,0 +1,106 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G04_A07",
+  "titulo": "Episódio 7 - Presta atenção",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é o recado de fecho da primeira temporada da trilha Hard Ads, no grupo de roteirização. Não ensina técnica nova: orienta como o aluno deve percorrer o curso.",
+    "É dirigida a quem está terminando a temporada de roteirização e vai passar para a de edição. Assume que o aluno assistiu às aulas de roteiro e de criatividade.",
+    "O professor pede a ordem correta de estudo e diz que copy e criatividade não se delegam, ao contrário do resto da operação.",
+    "Anuncia que a próxima temporada mostra a base de edição, e menciona suporte e o tipo de material que o curso não entrega. Isso é registrado como limite, sem conteúdo didático.",
+    "Boa parte do começo e do fim da transcrição é resíduo de silêncio e foi ignorada."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Ordem de estudo: criatividade, esta temporada, depois edição",
+      "tipo": "regra",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 53.1,
+      "fim": 65.1,
+      "condicoes": "Vale para o percurso entre as temporadas do curso na época da gravação.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala diz \"essa aula\" para a temporada em curso (roteirização); a interpretação segue esse sentido.",
+      "proposta_tag": null,
+      "corpo": "O professor pede que o aluno preste atenção em cada aula da segunda temporada e assista na ordem certa. Primeiro vem a criatividade, depois a temporada de roteirização em que a aula está, e só então a edição. Ele diz que nada foi posto na sequência por acaso.",
+      "evidencia": "Primeiro assista a criatividade Depois assista a essa aula E depois vai para a edição",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Copy e criatividade não se delegam; o resto sim",
+      "tipo": "regra",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 78.78,
+      "fim": 125.38,
+      "condicoes": "É a posição do professor sobre a divisão de trabalho; ele mesmo diz que o resto pode ser delegado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, a primeira e a segunda temporada do treinamento, junto com a parte de criatividade, são as mais importantes. Copy e criatividade não devem ser delegadas: quem faz o produto é quem sente o produto e dá o melhor nele. O restante da operação pode ser delegado. Ele justifica com o 8020, sem detalhar a conta. Diz também que quem estudou as aulas já sabe montar um enredo ao chegar à segunda temporada.",
+      "evidencia": "Quando a gente fala de copy e criatividade A gente não delega, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Base de edição e reedição do texto ficam para a próxima temporada",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 36.14,
+      "fim": 52.58,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Esta aula não ensina edição. O professor adia para a próxima temporada a apresentação de toda a base que ele usa na edição. Nela, ele pega o texto trabalhado e o edita de novo em outro formato, para mostrar como o anúncio e a edição são construídos.",
+      "evidencia": "Na próxima temporada, vamos mostrar toda a base que eu utilizo na edição.",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Trecho de suporte e de material que o curso não entrega",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 135.04,
+      "fim": 150.04,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição traz \"swap\" e \"notion\"; a grafia pode estar deformada e o sentido não é confirmável.",
+      "proposta_tag": null,
+      "corpo": "O professor cita, na época da gravação, um suporte que funciona 24 horas, sem detalhar canal ou condições. Diz que o curso não entrega \"swap\" nem \"notion\", termos como transcritos, e que a proposta é ensinar para abrir a mente do aluno. Não há orientação prática de copy ou anúncio neste trecho.",
+      "evidencia": "A gente tem um suporte funcionando 24 horas agora, tá?",
+      "versao": 1
+    }
+  ]
+}

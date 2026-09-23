@@ -1,0 +1,121 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G04_A01",
+  "titulo": "Episódio 1 - Mão na massa",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de abertura da temporada de roteirização da trilha Hard Ads, em que o professor apresenta o que a temporada cobre.",
+    "Destina-se a quem já passou, ou deveria passar, pela temporada anterior, chamada de criatividade, antes de roteirizar anúncios.",
+    "O professor diz que a temporada explica a roteirização dos anúncios dele, com base na construção da história e na conexão com o público, e que nesta aula mostra como ele faz para que nas próximas o aluno faça.",
+    "Deixa para outras temporadas a roteirização para outros nichos, e para o Hard Copy o ensino de VSL.",
+    "A aula não traz técnica aplicável; é sobretudo contextualização, motivação e menção ao produto irmão."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Não pular a temporada de criatividade antes da roteirização",
+      "tipo": "regra",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 42.12,
+      "fim": 104,
+      "condicoes": "Vale para o aluno que segue as temporadas do curso na ordem.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A temporada anterior à de roteirização se chama criatividade. O professor critica quem a pula e vai direto para a roteirização ou para a edição por se sentir criativo. Ele orienta assistir às aulas dela, porque ali explicou o que faz para criar os anúncios e mostrou de forma prática como ter criatividade, o que passa por fazer o produto de modo totalmente diferente do mercado.",
+      "evidencia": "E tem muito espertinho que pula essa temporada e já vem direto pra roteirização",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "O que a temporada de roteirização promete ensinar",
+      "tipo": "conceito",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 105,
+      "fim": 135,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Alta retenção e resultados são afirmações do professor; a base não confirma eficácia.",
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, esta temporada explica toda a roteirização que ele usa nos próprios anúncios para que tenham alta retenção. Ele mostra como constrói esses anúncios com base na construção da história e, no que chama de mais importante, na conexão com o público. O objetivo dessa conexão é que a pessoa sinta que o anúncio é para ela e que aquilo vai virar o jogo dela.",
+      "evidencia": "Essa temporada, eu vou te explicar toda a roteirização de tudo que eu faço",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Trecho de venda do Hard Copy sem conteúdo didático",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 149,
+      "fim": 172,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Hard Copy identificado por hipótese; a transcrição grafa \"hardcopy\".",
+      "proposta_tag": null,
+      "corpo": "Perto do fim, o professor cita o Hard Copy, produto irmão, como o lugar onde explica o formato de enredo em detalhe e onde ensina a fazer uma VSL, um vídeo de vendas. É menção de oferta e não traz orientação; quem precisa de VSL é remetido a esse outro produto.",
+      "evidencia": "Eu explico muito isso lá no hardcopy",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "O que esta aula mostra e o que fica para as outras temporadas",
+      "tipo": "conceito",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 174.16,
+      "fim": 195.82,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O anúncio trabalhado nesta temporada de roteirização é o próprio anúncio que o aluno viu antes de comprar o produto. O professor diz que nas outras temporadas explica a roteirização desse mesmo tipo de anúncio para os outros nichos. Nesta aula ele mostra como ele faz; nas próximas aulas, mostra como o aluno vai fazer.",
+      "evidencia": "Essa aula eu vou te mostrar como que eu faço",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1,
+        2,
+        4
+      ],
+      "retiradas": [],
+      "observacoes": "G04_A01-F1: confirmada na fonte. A frase final do corpo da unidade 1 se apoia em \"Ela tá fazendo o seu produto de uma forma totalmente diferente do mercado\" [00:01:40.700–00:01:43.840], fora do `fim` declarado (100). Apliquei a mudança mínima indicada: `fim` passa de 100 para 104, cobrindo o trecho até 103,84 s. O corpo não foi alterado e a `evidencia` (\"E tem muito espertinho que pula essa temporada e já vem direto pra roteirização\", 45,24–49,86 s) continua dentro da faixa 42,12–104.\n\nG04_A01-F2: confirmada na fonte. Na unidade 2 ficaram só as afirmações verificáveis em 105–135 s: a promessa de explicar toda a roteirização dos próprios anúncios (\"Essa temporada, eu vou te explicar toda a roteirização de tudo que eu faço\", 105,06 s), a alta retenção atribuída ao professor (109,50 s), a construção da história (116,68 s) e a conexão com o público, incluindo \"E como ele sente que aquilo é pra ele\" (123,52 s) e \"virar o jogo dele\" (128,40 s). Retirei do corpo as duas afirmações que estavam fora da faixa. Não ampliei a faixa da unidade 2. A `evidencia` foi mantida e está em 105,06–109,50 s.\nO conteúdo do fim da aula virou a unidade nova 4 (número após o maior existente, 3), com faixa própria 174,16–195,82 s, tema `curso-e-recursos`, `perecivel: true` e evidência literal dentro da faixa (\"Essa aula eu vou te mostrar como que eu faço\", 189,68 s). Ela reúne o que está lá: o caso trabalhado é o anúncio que o aluno viu antes de comprar (175,94 s), a roteirização para os outros nichos fica para as outras temporadas (180,08–188,08 s) e a divisão entre esta aula, que mostra como o professor faz, e as próximas, que mostram como o aluno fará (189,68–195,82 s).\nNão tratei como divisão formal: a unidade 2 permanece com o mesmo número e conteúdo remanescente próprio, então `retiradas` fica vazia e a seção 4 do FORMATO continua satisfeita ({1,2,3,4} ∪ {} = 1..4).\nSobre o item 4 da mudança mínima: a frase \"se replica\" (34,78 s) não foi reaproveitada em nenhuma unidade. O que sustenta a ideia de outros nichos na unidade 4 é apenas o trecho de 181–186 s, dentro da faixa dela; por isso o corpo fala em roteirização para os outros nichos nas outras temporadas, sem a afirmação de que o formato se replica para qualquer situação ou ocasião."
+    }
+  ]
+}

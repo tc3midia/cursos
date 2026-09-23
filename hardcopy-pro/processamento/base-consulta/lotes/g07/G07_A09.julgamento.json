@@ -1,0 +1,52 @@
+{
+  "aula": "G07_A09",
+  "arquivo_sha256": "5eb9b45892f94968c45d4832c226859a283cb01d81e145f4a546a1533a47f0e0",
+  "inspecao_sha256": "48974af3aea7afee09b497d367153971d87a284288c550d118c899da77545c16",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Nada a corrigir. As correções de U1 e U5 alteram campos que entram no hash (inicio/fim, corpo), então `versao` incrementa e o validador roda de novo.",
+  "fidelidade": "Reprova. (a) U5: desvio material comprovado com trecho literal (\"Não encaixou Vamos pegar o inicio da música então\"): a unidade transforma em regra fixa (\"use o plot, e não o início\") um processo de tentativa e ajuste em que o pico não encaixou e o professor usou o início da música. É ressalva/resultado suprimido que inverte a orientação. (b) U1: faixa-errada, passo 5 (\"tacada de mestre\") lastreado em ≈209–213s com `fim` 197. 1 de 8 unidades com faixa = 12,5%, acima do teto de 10% da rubrica. (c) U4: nome \"calar a boca\" atribuído ao curso sem que esta aula o diga; o termo existe no vocabulário do FORMATO (G09_A06), a técnica está corretamente descrita e o sentido não muda — ajuste menor, não desvio material. Demais unidades (2, 3, 6, 7, 8) lastreadas com trecho literal; U7 atribui opinião e previsão ao professor com nota, como a rubrica pede; U3 aplica a tabela de grafias (ElevenLabs) sem hipótese. Nenhum resíduo de silêncio, copy de exemplo tratada como fato ou passo de tela inventado apontado.",
+  "cobertura": "Passa. Inspeção declarou alcance integral com busca de omissões. As duas omissões localizadas (418s: não exagerar em elementos decorativos ao animar texto; 771s: voltar para música de suspense quando o clima fica pesado) são orientações laterais de demonstração; faltar não muda a decisão nem impede executar. Conteúdo que ficou só na tela está corretamente declarado na U8 `limite`, padrão esperado para aula de tela. Registradas como ajustes menores.",
+  "perecibilidade": "Passa. Inspetor não sinalizou nada e não encontro perecível escondido em unidade `geral`: U1 (estrutura de anúncio, menção à FIPE sem número) e U4 (técnica de som) são gerais e estáveis; U2 marcada `true` de forma conservadora, sem prejuízo; U3, U5, U6, U8 presas a ferramenta e marcadas; U7 marca a previsão de mercado com prazo.",
+  "aplicabilidade": "Passa. Nenhuma unidade depende de \"esse vídeo\" ou \"como mostrei\"; jargões (\"tacada de mestre\", \"consciência de perder\", \"plot\" da música, \"formato de feedback\") vêm explicados na própria unidade; `condicoes` preenchidas em U1 e U2, onde a orientação é de nicho; U8 diz o que ficou na tela. Pontos discutíveis, sem veto: U3 é `regra` com corpo iniciado por \"Quando\" (padrão de `decisao`); U5 e U6 marcadas `capcut` quando o princípio (qual trecho da música usar, não repetir o efeito) é geral e o CapCut é só a ferramenta da demonstração. A U5 reescrita precisa continuar se sustentando sozinha e conter só passos que a fala nomeia.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal logo após o fim declarado (818s): \"Não encaixou Vamos pegar o inicio da música então\". Na demonstração o professor testa o plot (pico) escolhido em 807–818s, ele não encaixa, e recorre ao início da música, que \"quase encaixou\". O corpo da unidade diz \"use o 'plot' dela — o trecho de pico ou mais marcante da faixa, e não o início\" e o título repete \"em vez do início\".",
+      "impacto": "Um agente que siga a unidade descarta por princípio o início da faixa, exatamente a opção que funcionou no exemplo da aula, e não sabe que o professor trabalha por tentativa e ajuste (testa o pico, testa o início, ajusta até encaixar). Ressalva/resultado do professor suprimido, invertendo a recomendação.",
+      "mudanca_minima": "Reescrever título e corpo para registrar o processo da fonte: tentar primeiro o trecho de pico (plot) alinhado à linha-chave da narração; se não encaixar com a fala, testar o início da música; ajustar até encaixar — no exemplo da aula, o pico não encaixou e o início quase encaixou. Retirar 'e não o início' e equivalentes. Estender `fim` para cobrir o trecho citado pelo inspetor. Retipar como `decisao` (\"Quando o plot da música não encaixa com a fala, ...\") ou `procedimento`; manter `regra` só se a frase categórica refletir a fonte. Manter apenas passos que a fala nomeia (confirmar que 'fade in/fade out' é dito). Incrementar `versao`.",
+      "criterio_de_aceite": "Corpo e título não contêm exclusão categórica do início da música; o corpo menciona o recuo para o início quando o pico não encaixa e atribui o resultado ao exemplo da aula; faixa `inicio`–`fim` contém o trecho \"Não encaixou Vamos pegar o inicio da música então\"; inspetor reclassifica U5 como `lastreada`; validador com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: faixa-errada. Passo 5 (\"Tacada de mestre: feche mostrando a origem e a autoridade local...\") lastreado em \"Você mostrou de onde você é aqui Você mostrou a sua autoridade\", ≈209–213s, com `fim` declarado 197. Com 8 unidades com faixa, 1 faixa-errada = 12,5%, acima do teto de 10% da rubrica.",
+      "impacto": "Quem for verificar o passo 5 dentro de 30–197s não encontra a fonte; a faixa deixa de servir como âncora de inspeção para a parte final da estrutura.",
+      "mudanca_minima": "Ajustar `fim` da U1 para ≥ 213 (por exemplo 215), sem alterar o corpo. Incrementar `versao` (a faixa entra no hash).",
+      "criterio_de_aceite": "Inspetor confirma que o trecho do passo 5 está dentro de `inicio`–`fim` e reclassifica U1 como `lastreada`; nenhuma unidade da aula permanece `faixa-errada`; validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U4: 'O curso chama essa técnica de calar a boca' atribui a esta aula um termo que ela não diz (inspetor: desvio menor; o nome vem de G09_A06, vocabulário do FORMATO). Mover o nome para `nota` ('nome usado em G09_A06; esta aula não emprega o termo') ou reescrever como 'em outra aula (G09_A06) o professor chama...'. Não muda a orientação; corrigir no mesmo ciclo.",
+    "Omissão menor (418s, trecho literal 'Sem ficar colocando muita flor E muita coisa aqui Pra não ficar um negócio feio'): moderação na decoração do texto animado. Opcional: uma `regra` curta em `direcao-de-arte-e-texto-na-tela` / `montar-criativo-visual`, plataforma `capcut`.",
+    "Omissão menor (771s, 'E aqui agora a gente mexe um suspense de novo, porque ficou pesado aqui o clima'): voltar para trilha de suspense quando o clima fica pesado. Opcional: uma `decisao` em `som-e-sentimentalismo` / `sonorizar-video`.",
+    "U5 e U6: `plataformas: capcut` para princípios que não dependem da ferramenta (qual trecho da música usar; não repetir o mesmo efeito de voz). Classificação discutível; `geral` com CapCut em `nota` seria mais consultável por cobertura. Decidir na reescrita de U5.",
+    "U3: `regra` com corpo iniciado por 'Quando ...', padrão de `decisao`. Discutível: ou reformular em frase categórica ou retipar.",
+    "U2: `perecivel: true` sem conteúdo perecível identificado (perfil de comprador; valores são exemplo narrado). Conservador e sem prejuízo; pode voltar a `false`.",
+    "U2: inspetor nota a menção literal a 'autoridade' poucos segundos antes de `inicio` 219. Opcional: iniciar em ≈209 para cobrir a ponte com o fim da U1 (sobreposição de faixas é permitida)."
+  ],
+  "proximo": "Ciclo de correção 1 de 2. Redator aplica F1 e F2 (e, no mesmo passe, o ajuste de U4 e a decisão sobre plataformas de U5). Depois, inspeção focal sobre U1 e U5 (hashes mudam; as demais preservam evidência): confirmar que o trecho 'Não encaixou Vamos pegar o inicio da música então' cai dentro da nova faixa de U5, que o corpo reescrito registra o recuo para o início, e que 'fade in/fade out' é nomeado pela fala (se não for, sai do corpo por ser passo de tela). Em seguida, julgamento rodada 2 sobre a lista F1–F2."
+}

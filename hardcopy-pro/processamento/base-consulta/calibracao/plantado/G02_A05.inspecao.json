@@ -1,0 +1,139 @@
+{
+  "aula": "G02_A05",
+  "arquivo_sha256": "8e0466b6ee186fa5b54085a3a998d24ceb01866823a72afcc72fd678eb5d5799",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "24d2296504061bc291401e8ca0c204434cfccc88c6911057ed73818465222230",
+    "2": "34813fa26749eb2eeca5ca8169de84ea71dc6e4a95f67e6935f40c1ac1cc96fa",
+    "3": "451c99477d22d37ae91ff6cf7ece4e46469a118cc9f01c67cf49b85ba4b0733e",
+    "4": "be428b114303db0aa833050ecc8c347cfa21a969087deb8c763675a4ba2b0f9c",
+    "5": "7527500786e2e601ffd9f324fe5a7221c1c8114cae0983c7ea493f1fd9b2ca4b",
+    "6": "bebaf5b818e3ecfc6d4c08e022cd0d9a693a92053d3645cb32c5772c46ab414a",
+    "7": "8363aa9ca2b62cbdf22ec1dca780ef483e85a0ee2c601522e2743ce53a60af07",
+    "8": "e65f258398c0492670b1cf07384e0050178ca58bb1edac144c4609d6383640a5",
+    "9": "cfd04e8304b13ef475cbe4902f20303380805f3f2b17127afc24ee9d3797cb5d",
+    "10": "2f13ddf20df62b5cf0e8cecc7682841721be254a13256e5a86a482c883e80959"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "utilizam somente o narrador e o protagonista.",
+      "explicacao": "Corpo e condição batem com a fonte. A VSL comum com jornada do herói usa só narrador e protagonista. O professor propõe trabalhar os personagens por completo, como nos doramas. Ele diz que não é obrigação e que, bem feito, vende bem. A fonte tem uma tensão ('Você precisa de personagens' e depois 'isso aqui é uma obrigação? Não'), e a unidade a resolve pelo lado literal da fala sem distorcer. A faixa 33–92 cobre o conteúdo."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "O protagonista é 60% do tempo da VSL, tá bom?",
+      "explicacao": "Número adulterado. A fonte diz 60% para o protagonista, duas vezes: em 00:01:31 ('O protagonista é 60% do tempo da VSL') e em 00:02:38 ('Por que o protagonista é 60% do tempo'). O corpo e a nota dizem 70% e afirmam que 'a fala dá 70%'. Quem consultar esta régua vai dimensionar a VSL com número errado, e a nota ainda induz o leitor a confiar nele. Os 20% seguintes e a ambiguidade de 'O protagonista é 20%' (provavelmente o antagonista) estão corretamente sinalizados. Além disso, a faixa 91–181 termina antes de duas afirmações que o corpo usa: 'para depois entrarmos na dor' (~180–185s) e os NPCs 'para criar um formato de novela e storytelling' (188–196s)."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O protagonista seria a mãe do filho que está preso",
+      "explicacao": "Protagonista, antagonista (a dor, a perda de peso) e NPCs (filho e delegacia) estão como na fala. O exemplo aparece como exemplo, não como régua. A última frase da Lógica ('só precisa trabalhar um pouquinho melhor neles') começa em ~150,02s, colada ao fim=150, o que é irrelevante na prática."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ela não vai esperar que você venda algo no final pra ela",
+      "explicacao": "Razão dada pelo professor, com atribuição preservada. A pessoa entende que não é um produto vendendo e passa a esperar o fechamento da história. O corpo atribui a ele que o formato não existe no Brasil e que ele o usa há bastante tempo. A condição diz que a base não confirma eficácia. A escolha do tema é discutível, mas defensável."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "para depois termos um plot twist com um mecanismo único.",
+      "explicacao": "A ordem da fonte é roteiro, embasamento da história, plot twist com mecanismo único e oferta com valor e bônus. A unidade a preserva. A explicação de mecanismo único vem do vocabulário do FORMATO e é permitida."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Na segunda parte você vai receber todo o bônus da PLR,",
+      "explicacao": "Produto base, bônus 1 (receita de 30 dias, tipo PLR), bônus 2 (aulas rápidas para exercício em casa) e bônus 3 (o incrível, que vale o produto e dá o senso de urgência) batem com a fala. O preço de 99 reais está marcado como exemplo. Ajuste menor: a frase final 'na fala de venda diz que é incluído' não está nesta aula. Vem do vocabulário de outra aula (G02_A09). Aqui, na própria copy de venda, o professor diz 'bônus da PLR'. Como o FORMATO autoriza esse verbete, não é sem-lastro, mas a frase não vale como o que esta aula diz. O corpo também traz o preço de 99 reais e a unidade está com perecivel false (ver perecibilidade)."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Se você vende um produto onde você é o expert, dê a possibilidade do lead conversar com você nessa parte.",
+      "explicacao": "A unidade tira a condição e generaliza. A fonte só manda dar a conversa com o vendedor 'se você vende um produto onde você é o expert'. O corpo diz 'Qualquer que seja o produto' e deixa `condicoes: null`. Quem vende sem ser o expert receberia a orientação como regra. Além disso, a fonte descreve o bônus incrível como 'algo surreal, como uma live..., ou então uma consultoria grátis..., ou então um grupo de WhatsApp, ou enfim'. São exemplos abertos, e o corpo os transforma em 'deve ser sempre o contato direto com quem vende'. A fonte só diz que o bônus 3 sempre tem que ser o incrível. Os números do Airbnb (15 min, 30 min, 1 h) e a atribuição do efeito ao professor estão corretos."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não, você vai falar com ela que o valor é 12 vezes de R$9,90,",
+      "explicacao": "A unidade trata a fala como copy de exemplo e diz que preço, garantia e credenciais são do texto fictício. A sequência (mecanismo único, receitas, exercício em casa, live personalizada) bate com a fonte. A nota reconhece corretamente que o professor descarta a versão com valor cheio, 99 reais e 7 dias de garantia. Essa nota contradiz a unidade 9, que promove justamente os números descartados."
+    },
+    {
+      "numero": 9,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Que você não precisa falar de garantia",
+      "explicacao": "Números de copy de exemplo e de caso hipotético viraram `regua`. O 99 vem de 'Vamos supor que você está vendendo aulas... Tá? 99 reais'. O 12x de R$9,90 é fala da copy lida. Os 7 dias de garantia estão na versão que o professor corrige com 'Não, você vai falar com ela...' e depois nega no fechamento: 'Você não precisa falar de garantia', 'não precisa falar de quanto vale esse produto', 'não precisa de feedbacks' (~573–585s, fora da faixa 428–475). A unidade diz 'A garantia de referência é de 7 dias', o contrário do que a fonte conclui. Ela também liga '12 vezes de R$9,90' a 'um produto de 99 reais', relação que a fonte não faz (12 × 9,90 é 118,80). Falta a condição de copy de exemplo (a `condicoes` diz só 'Oferta de produto de aulas'), e a unidade 6 diz que o 99 é 'do exemplo, não recomendação'. Quem consulta receberia preço e garantia como parâmetro do curso."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Você vai ver uma VSL que eu vou criar",
+      "explicacao": "A promessa de VSL nas próximas aulas e a descrição da VSL de venda do curso (treinamento como produto, bônus, aulas do Kishotenketsu em outra temporada, conexão por WhatsApp pessoal para correção) batem com a fala. O trecho é tratado como oferta e limite, com perecivel true. A faixa 599–651 cobre o conteúdo."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 573.54,
+      "trecho_fonte": "Que você não precisa falar de garantia",
+      "descricao": "O fecho do exemplo fica sem unidade: com os 3 bônus incríveis, o professor diz que não é preciso falar de garantia, de quanto vale o produto nem usar feedbacks. Ele explica que a pessoa chega nessa parte, se arrepia, conclui que não emagrece mais com outra pessoa e compra. As unidades 8 e 9 têm faixas que terminam antes (566 e 475). A 9 ainda afirma o contrário sobre a garantia.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem consulta não sabe que, com a oferta de três bônus fechando com o incrível, garantia, justificativa de valor e depoimentos são dispensados. Recebe, pela unidade 9, uma garantia de 7 dias como referência e pode acrescentar à VSL justamente o que o professor manda cortar."
+    }
+  ],
+  "perecibilidade": [
+    {
+      "numero": 6,
+      "problema": "O corpo traz o preço de 99 reais como valor do produto base, e a condição o descreve como preço do exemplo. Preço deve ter `perecivel: true`, e a unidade está com false."
+    }
+  ],
+  "contrato": [
+    "Unidade 3: 'formato de absurdo' aparece no corpo e na condição sem explicação. A fonte também não o define (só diz que 'todo esse roteiro aqui já pega em base'). Quem consulta sem a aula não sabe o que é esse formato. A nota diz que a fala é breve, mas o corpo poderia registrar que o termo não é definido. Ajuste menor.",
+    "Unidades 6 e 9: a unidade 6 diz que o preço de 99 reais 'é do exemplo, não recomendação', e a unidade 9 promove o mesmo 99 (mais 12x de R$9,90 e 7 dias de garantia) como `regua`. As duas contradizem a nota da unidade 8, que diz que o professor descarta a versão com 99 reais e 7 dias de garantia. A base fica inconsistente entre unidades da mesma aula. A correção é da unidade 9.",
+    "Unidade 4: o tema `objecoes-e-credibilidade` é defensável, mas o conteúdo também cabe em `personagens-e-roteiro`, junto das unidades 1 a 3, de que é a justificativa. Classificação discutível, ajuste menor."
+  ],
+  "material": [],
+  "resumo": "O arquivo tem três desvios materiais. A unidade 2 troca 60% por 70% para o protagonista e ainda afirma na nota que a fala diz 70%. A unidade 7 tira a condição 'onde você é o expert' e generaliza exemplos abertos de bônus como regra. A unidade 9 transforma números da copy e do caso hipotético (99 reais, 12x de R$9,90, garantia de 7 dias) em régua, e afirma o oposto do fecho da aula, que diz que não é preciso falar de garantia. Esse fecho não tem unidade e foi registrado como omissão material. As unidades 1, 3, 4, 5, 8 e 10 estão lastreadas. A 6 tem ajustes menores: uma frase sobre 'incluído' que vem de outra aula e o preço de 99 reais em unidade não perecível. Não há material de apoio."
+}

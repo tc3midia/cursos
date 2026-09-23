@@ -1,0 +1,42 @@
+{
+  "aula": "G12_A05",
+  "arquivo_sha256": "ccb47cc5415b9f2226ec21a53a1c1b9640b0f78907cd481291d09a45203b5480",
+  "inspecao_sha256": "cecfe74881b9eba6c5580313a59b897645d32c0305430e017587fcf2c1243166",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Nada a corrigir por script.",
+  "fidelidade": "Inspeção integral, 15/15 unidades verificadas, nenhuma citação não literal. 14 unidades lastreadas com trecho literal dentro da faixa. A unidade 8 tem desvio material comprovado: o inspetor cita \"vamos pegar as 3 vozes aqui\" e descreve três tomadas (\"a primeira\", \"a segunda voz já foi\", \"vou fazer uma terceira\"), sendo a primeira uma gravação contínua com várias frases emendadas; a unidade prescreve \"uma tomada separada para cada frase, formando um banco de gravações curtas\", estrutura que a fala não descreve. A própria `nota` da unidade admite que a formulação é interpretação do extrator — baixar confiança não autoriza manter erro conhecido. Grafias deformadas (VO3, \"Google Prompt\") tratadas com nota e confiança adequadas. Nenhuma copy de exemplo promovida a fato, nenhum resíduo de silêncio usado como fonte, nenhuma ressalva suprimida (unidade 2 preserva a autocorreção do professor; unidades 6 e 9 atribuem a preferência ao professor).",
+  "cobertura": "Aula de tela com dois `limite` bem escritos (12 e 15) cobrindo o que ficou só na imagem e o que foi adiado. A única omissão localizada pelo inspetor (transição de câmera para introduzir segundo personagem no mesmo prompt, trecho literal em 487s) é técnica alternativa, não parte essencial de procedimento nem condição que mude a ação das unidades existentes; efeito prático é perder uma opção mais econômica que gerar clipe extra. Ajuste menor, não veto.",
+  "perecibilidade": "Todas as 15 unidades com `perecivel: true`, inclusive as três marcadas `geral` (2, 6, 9), que tratam de uso de IA. Inspetor não sinalizou perecível escondido. Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula ao lado. Pontos discutíveis, sem mudar o uso: unidade 1 abre com \"No início da aula\" (referência residual) e é classificada como `regua` quando é leitura de tela (defensável como `ferramenta`); unidade 15 mistura `geral` com `canva`; unidade 3 inverte a ordem de duas partes em relação à fonte, mas a fonte as dita entrelaçadas numa frase só e a ordem não muda a montagem do prompt; unidade 7 poderia levar também `criar-prompt-ou-agente`. Nenhuma técnica de contorno de política nesta aula. Passa.",
+  "falhas": [
+    {
+      "id": "G12_A05-F01",
+      "unidades": [
+        8
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: \"vamos pegar as 3 vozes aqui\"; fonte mostra três tomadas (\"a primeira\", \"a segunda voz já foi\", \"vou fazer uma terceira\"), a primeira contendo várias frases curtas emendadas numa gravação contínua (\"Amanhã você tem que fazer a unha... Amanhã você tem que comprar...\"). A unidade prescreve nos passos 1–2: \"uma frase curta por vez\" e \"Grave uma tomada separada para cada frase, formando um banco de gravações curtas\". A própria nota da unidade declara que \"a formulação como procedimento generalizável é interpretação do extrator\".",
+      "impacto": "Agente que executar o procedimento gravará dezenas de arquivos isolados, um por frase, em vez de poucas tomadas contínuas com várias frases cada, como o professor faz. Número e estrutura do processo adulterados em passo de procedimento.",
+      "mudanca_minima": "Reescrever os passos 1–2 da unidade 8 conforme a fonte: gravar poucas tomadas (o professor fez três), cada uma como gravação contínua encadeando várias frases curtas que representam cobranças e pensamentos diferentes do dia a dia do personagem; remover 'uma tomada separada para cada frase' e 'banco de gravações curtas'. Ajustar a nota para não confessar generalização não lastreada (ou converter a unidade em `exemplo` mantendo a condição de demonstração). Reconfirmar que os passos 3–4 (ajuste individual de volume/velocidade/efeitos e sobreposição) estão na fala dentro de 847–920. Incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor reconfere a unidade 8 (hash novo) com trecho literal e a marca `lastreada` sem gravidade material; nenhum passo afirma uma gravação por frase; o número de tomadas, se citado, bate com a fonte e é atribuído ao que o professor fez; cada passo numerado tem trecho da fala dentro da faixa; validador continua com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 1: remover 'No início da aula' do corpo (referência residual à aula); avaliar reclassificar como `ferramenta` em vez de `regua`, já que é leitura do custo na tela e não parâmetro de decisão apresentado pelo professor; o título diz 'por geração' enquanto o inspetor descreve 'ao abrir o projeto' — confirmar ou trocar por 'no modo quality'.",
+    "Unidade 3: FORMATO pede partes de `estrutura` na ordem da fonte; inspetor aponta que cenário vem antes da descrição física da personagem. Trocar a ordem de 1 e 2 ou registrar em nota que a fonte dita as partes entrelaçadas numa só frase.",
+    "Cobertura (omissão menor, 487s): técnica de introduzir um segundo personagem dentro do mesmo prompt descrevendo a câmera saindo do rosto de um personagem e seguindo o outro que 'chega do nada'. Pode virar uma unidade `regra` ou `procedimento` curta no ciclo já aberto, com trecho literal como evidência; não obrigatório para aprovar.",
+    "Unidade 7: acrescentar tarefa `criar-prompt-ou-agente` ao lado de `gerar-video-com-ia` (o corpo orienta o que vai no prompt e na conversa de texto).",
+    "Unidade 14: a cláusula 'em vez de usar sempre a mesma voz para todos os personagens' é contraste que a fala citada não enuncia; podar ou manter só a orientação positiva (escolher preset que combine com o personagem).",
+    "Unidade 15: `plataformas` mistura `geral` com `canva`; deixar só `canva` (ou só `geral`), pois `geral` significa que a orientação não depende de ferramenta.",
+    "Unidade 11: 'continue usando' pressupõe etapa anterior; trocar por 'use' para a unidade se sustentar sozinha.",
+    "Contexto, frase 2: 'chamado Veo 3 (identificado na tabela de grafias do curso como Veo 3)' é redundante; basta 'Veo 3 (grafado VO3 na transcrição)'."
+  ],
+  "proximo": "Ciclo de correção 1 de 2. Redator corrige a unidade 8 conforme G12_A05-F01 e, se quiser, aplica os ajustes menores no mesmo passe (inclusive a unidade opcional sobre transição de câmera). Inspetor reconfere só as unidades com hash alterado, com trecho literal para cada passo da unidade 8; as unidades intactas preservam a evidência desta inspeção. Juiz confere a lista de falhas e os efeitos da alteração, sem reabrir o resto."
+}

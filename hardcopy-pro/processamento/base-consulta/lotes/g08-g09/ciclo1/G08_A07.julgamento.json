@@ -1,0 +1,24 @@
+{
+  "aula": "G08_A07",
+  "arquivo_sha256": "7b0dda57a35c96e09b5d9a1235a3b06cc7f1e63c57e78088923260401f5584f0",
+  "inspecao_sha256": "b8515bb20853071860d3a57ed42d338197707d2d740f8546eddbbf8d8a0b14d2",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. `versao` incrementada para 2 em U3 e U7, únicas unidades tocadas; `retiradas` vazio, numeração 1..7 íntegra. Nova `evidencia` de U7 (21 palavras) está dentro de 560–578 e atravessa marcações vizinhas, o que a seção 2 do FORMATO permite. `evidencia` de U3 não mudou e permanece na faixa 437–564.",
+  "fidelidade": "F1 resolvida pela alternativa (b): a frase sobre o modelo \"Elevem multilingual\" (~683s, fora da faixa) saiu do corpo e da nota de U7; o inspetor reconferiu com trechos literais que cada afirmação do corpo novo tem lastro dentro de 560–578 (\"Vamos colocar no Eleven Labs já\"; \"Uma vozinha doce, leve, suave. Uma voz realmente pra esse tipo de nicho, que é o nicho de pai de pet.\"). Faixa-errada cai de 1/7 para 0/7. `confianca: alta` em U7 é defensável: ElevenLabs consta na tabela de grafias com base \"Procedimento descrito bate com a ferramenta\", não como hipótese, a fala diz \"Eleven Labs\" e a orientação de tom não depende de qual ferramenta é. U3 manteve o corpo e continua `lastreada`. `citacoes_nao_literais` vazio. Nenhum desvio ou sem-lastro novo nas unidades alteradas; as intactas preservam a evidência anterior por hash.",
+  "cobertura": "Sem alteração de alcance: nenhuma unidade retirada, `omissoes` vazio acumulado da inspeção integral. Retirar de U7 a menção ao modelo de voz não muda a decisão de quem consulta, porque a orientação executável (tom da voz para o público \"pai de pet\", no ElevenLabs) permanece completa; a verdade absoluta segue em U6 e o exemplo de preço em U5.",
+  "perecibilidade": "U7 permanece `elevenlabs` + `perecivel: true`. U3 passou a `geral` + `perecivel: false`, mudança que o julgamento anterior declarou não ser critério de aceite; o corpo não contém preço numérico, tela, menu, data, oferta nem recurso do curso, e o botão de WhatsApp é só exemplo de CTA. Os números R$100/R$140 estão em U5, que continua `exemplo` perecível. `perecibilidade` do inspetor vazio.",
+  "aplicabilidade": "F2 resolvida: U3 agora indexa em roteirizar-anuncio × geral e escrever-gancho-de-anuncio × geral, e um agente que monta anúncio para produto físico em qualquer rede encontra a estrutura; o WhatsApp ficou no corpo como exemplo, conforme a definição de `geral` na taxonomia. F3 resolvida: o corpo de U7 não depende mais de identificar anúncio ou aula anterior; o verbo da orientação é a escolha do tom, atribuída como preferência do professor, e o reaproveitamento foi para `nota` como contexto. `condicoes` de U7 recorta o nicho e o público. Os três itens em `contrato` da inspeção são resíduo acumulado da inspeção integral (F2, F3 e o ajuste menor de U1), superados pelos vereditos por unidade desta conferência.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U1: `tipo` discutível entre `conceito` e `regra` (inspetor); dois valores defensáveis, sem efeito prático — registrado, não abre ciclo.",
+    "U1: a frase final do corpo ('ponto de partida para construir um anúncio com um ângulo diferente') generaliza um pouco além da faixa 116–147, embora coerente com a aula (inspetor, gravidade menor).",
+    "U5: a leitura de 'comprar 140' como 'cobrar 140' está registrada em `nota`, mas `confianca: alta` sobre uma correção de transcrição pediria `media` (inspetor); o exemplo já é tratado como hipotético, então o uso não muda.",
+    "U5: o trecho 'que ajude o cliente no dia a dia com o pet' vai além do que a faixa 521–547 diz ('alguma coisinha que vai ajudar o cara'); o complemento vem da copy de U4. Sem efeito na decisão."
+  ],
+  "proximo": "Promover G08_A07 a `revisado`; nenhum ciclo adicional necessário. Os ajustes menores podem ser feitos em edição editorial futura sem abrir rodada. Para a coordenação: a causa de F2 (menção de canal em exemplo de CTA rotulada como plataforma específica) é genérica; se a mesma causa for confirmada em outra aula do lote, aplicar a ampliação focal prevista na rubrica para duas aulas adicionais antes de fechar o lote."
+}

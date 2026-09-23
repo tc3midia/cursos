@@ -1,0 +1,69 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "e8c0e313f3bf0bd953c1ac05e44e326d5e0fc8478daa10f31741d5c472d0a634",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 3]; as demais mantêm a evidência da inspeção integral do arquivo a16910b3b5ef, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    3
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "7ee66df9154ab41d9514bb5220adadf5d25c43532f5e5963bcee56939c4a6d1c",
+    "2": "85764a2348a7a2374fa510a2ea8dc1eb5866ed429b549c57f0ba925b57763127",
+    "3": "84dcef46a3f234ef283535fa07a695956cd21ee37ffb1679819f8e54d170da01",
+    "4": "e42a47e5d14bd4e2a50e36a38c905cc865a3f2b0aa78d9e31b359d5c122b356e"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E com sons bem fortes também, igual esse clique",
+      "explicacao": "G08_A06-F2 procede e foi resolvida: `fim` passou de 70 para 160, o que agora inclui o trecho em que o professor detalha a música pesada e o som de clique (00:02:29.520–00:02:33.300, ~149–153s) e o corte desses elementos na calmaria ('Já que não tem esse clique, não tem nada que acalmaria, que é tranquilidade', 00:02:33.300–00:02:39.320, ~153–159s), antes fora da faixa declarada (30–70). Com isso, todo o corpo — os dois blocos de sentimento contrastantes e os elementos sonoros que os caracterizam (música pesada e clique no drama; ausência deles na calmaria) — está dentro de 30–160s. A evidência da unidade ('ele começa com suspense, ele começa com medo, com terror, ele vai dar aquele impulso de medo', ~42–49s) segue dentro da nova faixa. Não identifiquei problema novo criado pela alteração: o trecho acrescentado (145–160s) é o próprio professor comentando o desenho de som do exemplo que está editando, coerente com o restante do corpo, não introduz copy de exemplo como fato e não excede o fim da transcrição (390s)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Olha só, eu fiz aqui nesse início toda a parte de drama aqui e aqui eu já comecei uma coisa mais leve, mais tranquila, mais calma, por quê?",
+      "explicacao": "O corpo descreve com precisão que a fala, nesse intervalo (00:01:10.560–00:01:39.180), só mostra o professor apontando para uma edição já pronta ('eu fiz aqui', 'olha como que ficou') sem nomear nenhum programa, menu ou comando, o que é fiel ao trecho. A ressalva é a `plataforma: capcut` e a identificação da ferramenta: a fala nunca cita CapCut nem nenhuma variante deformada do nome (não há 'cap cut' nem 'TapCut' na transcrição desta aula); a única base para CapCut é o título do episódio e o nome do arquivo de vídeo, fora do que a fala e o material dizem. A `nota` registra isso corretamente, o que evita um `sem-lastro`, mas a classificação de plataforma depende de uma fonte que não é a fala/material transcritos."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele está saindo aí a R$ 79 Você vai vender a R$ 169 R$ 189 Com a página de vendas bem feita",
+      "explicacao": "G08_A06-F1 procede quanto ao conteúdo da unidade e foi resolvida no que depende dela: retipagem de `regua` para `exemplo`, corpo com as três marcas ('Situação:', 'O que aconteceu:', 'Lógica:'), novo título ('Estimativa de compra e venda do abajur usado no exemplo') e nova `condicoes` que nomeia o caso como estimativa sobre o abajur fictício 'Light Touch' e nega explicitamente ser parâmetro testado ou faixa de referência de mercado. Não há mais unidade `regua` com R$ 79/R$ 169/R$ 189 no arquivo; a `nota` preserva o 'provavelmente' e atribui ao professor a afirmação sobre a Insider. `fim` foi corretamente estendido de 197 para 202, cobrindo 'Eles não mostram o produto' (00:03:18.380–00:03:20.380, ~198–200s), que sustenta a frase de 'Lógica'; toda a numeração de preço (169.3–176.5s) e a menção à Insider (179–200s) seguem dentro de 167–202s. Ponto que fica fora do alcance desta unidade, mas relevante para o julgamento: o critério de aceite de F1 também exigia que 'o contexto não chame a faixa de referência', e essa parte não foi aplicada — reporto o resíduo em `contrato`, pois é um problema do campo `contexto` do arquivo, não do corpo da unidade 3, que considero lastreada e sem gravidade."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A Red Bull não mostra o seu energético Ela mostra a experiência Ela mostra a energia Do que você vai ter tomando o Red Bull",
+      "explicacao": "O corpo reproduz fielmente os exemplos de Red Bull (mostra a experiência/esporte, não o energético) e Coca-Cola (raramente mostra o produto, mostra felicidade e família), presentes entre 00:03:25.900 e 00:04:17.500, e a aplicação da mesma lógica ao anúncio do abajur ('ele não sabia que precisava de um abajur até ele ver esse vídeo'), em 00:04:24.120–00:04:31.840. Não há número de caso, condição ou atribuição alterada; a generalização como `regra` é adequada porque o professor apresenta isso como princípio, não como resultado de um teste específico."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3 está tipada como `regua`, mas o número (compra a R$79, venda a R$169–189) é dado pelo professor com 'provavelmente' sobre 'esse produto aqui' — o exemplo específico do abajur 'Light Touch' usado no módulo —, não como parâmetro validado de mercado para dropshipping em geral. Isso é caso de exemplo apresentado como régua (ver apontamento em `unidades`); o tipo correto seria `exemplo`, com `condicoes` marcando que é uma estimativa de caso único. Manter como `regua` pode levar um agente que busca parâmetros de precificação de dropshipping a tratar uma estimativa avulsa como referência testada.",
+    "Unidade 2 marca `plataformas: [\"capcut\"]` (e por consequência `perecivel: true`) tendo como única base o título do episódio ('Episódio 6 - CapCut') e o nome do arquivo de vídeo; a fala não nomeia CapCut nem nenhuma outra ferramenta de edição em nenhum momento da transcrição. A `nota` da unidade admite isso, mas um agente que consultar `cobertura.jsonl` por tarefa=editar-video × plataforma=capcut encontrará esta unidade e pode esperar conteúdo real de CapCut, quando na verdade ela só registra a ausência de qualquer passo de ferramenta na fala.",
+    "O critério de aceite de G08_A06-F1 exigia, além da correção da unidade 3, que 'o contexto não chame a faixa de referência'. A unidade 3 foi corrigida corretamente, mas a frase 5 do array `contexto` do arquivo não foi atualizada: continua dizendo 'Dá uma faixa de preço de referência para um produto físico de dropshipping/e-commerce, comprado por cerca de R$ 79 e revendido entre R$ 169 e R$ 189', repetindo a mesma generalização de caso-para-regra (preço de um exemplo fictício apresentado como faixa de referência de mercado) que motivou a falha original. O próprio histórico de correções (ciclo 1, observações do opus-5) registra que essa mudança no contexto deveria ser aplicada pelo executor fora dos campos de unidade, mas o texto entregue no pacote não reflete essa alteração. Um agente que leia apenas o contexto da aula ainda recebe a generalização vetada, mesmo com a unidade 3 corrigida."
+  ],
+  "material": [],
+  "resumo": "Nesta conferência focal (unidades 1 e 3), as duas falhas listadas foram resolvidas no nível da unidade: a unidade 1 teve a faixa estendida (30–160s) e agora cobre todo o detalhe sonoro do exemplo dentro do próprio corpo, ficando lastreada sem gravidade; a unidade 3 foi retipada de `regua` para `exemplo`, com as três marcas, novo título e `condicoes` que isolam a estimativa de preço como caso do produto fictício do exemplo, também lastreada sem gravidade. Não encontrei problema novo introduzido pelas alterações nessas duas unidades. Um resíduo permanece fora do escopo das unidades: a frase 5 do `contexto` do arquivo não foi atualizada e ainda descreve os valores R$ 79/R$ 169/R$ 189 como faixa de referência de mercado para dropshipping, repetindo a generalização que o critério de aceite de F1 também mandava corrigir; registrei isso em `contrato` para o julgamento decidir se a falha está de fato encerrada."
+}

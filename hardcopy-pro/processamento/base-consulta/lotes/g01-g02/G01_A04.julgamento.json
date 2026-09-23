@@ -1,0 +1,52 @@
+{
+  "aula": "G01_A04",
+  "arquivo_sha256": "e8c6712db300c9a77031825d6c5b7af9f77ee2c937ec57c9c02ae21a430ad1db",
+  "inspecao_sha256": "65c51d94aa9fd995dd3021dac399a1665ac4784ee9dfa9187ce5d427bb9b5682",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos, e o juiz não refaz essa medida. Os dois itens que o inspetor pôs em `contrato` não são erro de script. A tarefa errada da unidade 2 é aplicabilidade (F2). A menção a resíduo de silêncio no `contexto` descumpre uma instrução do FORMATO sem regra [E] que a barre, e fica como ajuste menor.",
+  "fidelidade": "Falha só por faixa. O conteúdo das três unidades está lastreado: o \"50%\" aparece com \"provavelmente\" e atribuído ao professor, e \"4 dias, 5 dias\" e \"5 minutos\" batem com a fonte. Na unidade 2, a preferência (\"eu acho que essa é a forma mais fácil\") e a ressalva (\"não quero que você crie um único produto\") estão preservadas. Não há número de caso tratado como régua, copy de exemplo tratada como fato nem resíduo usado como fonte. O defeito é a unidade 3. O último parágrafo do corpo vem de 297,38–309,84, fora de `inicio`–`fim` (205–297). O inspetor sustenta isso com trecho literal, e não há citação não literal. São 1 de 3 unidades com faixa (33%), e a rubrica manda reprovar acima de 10%, sem margem para o juiz relevar. As três imprecisões de redação da unidade 2 não mudam número, condição nem sentido e ficam como ajuste menor.",
+  "cobertura": "Passa. A inspeção declara alcance integral e busca de omissões na fonte inteira. A única omissão localizada é o pedido de enviar a VSL pronta ao professor por WhatsApp para aprovação (200,58 s). Isso é suporte do curso, não técnica, e a falta não muda decisão nem execução de quem consulta. Por analogia com oferta sem `limite`, é ajuste menor. Réguas, condições e ressalvas da aula estão nas unidades.",
+  "perecibilidade": "Passa. A unidade 3, com plataforma `youtube`, está com `perecivel: true`. As unidades 1 e 2 são orientação geral, sem tela, preço, recurso do curso ou número de mercado escondido. O \"50%\" é estimativa pessoal do professor, atribuída e anotada como tal, não dado de mercado. O inspetor não sinalizou nenhum ponto.",
+  "aplicabilidade": "Falha na unidade 2. A tarefa `escolher-formato-de-venda` (decidir entre VSL, página, X1 e destino do tráfego) não tem relação com o corpo, que trata de escolher o tema do primeiro produto a partir da própria dor. O inspetor confirma que a fonte não fala de formato de venda. Não é escolha entre dois valores defensáveis. A tag põe a unidade no índice `tarefas/escolher-formato-de-venda` e marca cobertura `presente` em `cobertura.jsonl` para uma tarefa que a aula não cobre. No resto, as três unidades se sustentam sozinhas. Mecanismo único vem explicado na primeira ocorrência. As `condicoes` das unidades 2 e 3 estão preenchidas. `decisao` começa com \"Quando\" e `regua` tem número. Tema, tipo e plataformas são defensáveis. Kishotenketsu sem explicação na unidade 1 é ajuste menor.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita como literal: \"Você encontrou o seu subnicho, encontrou o seu mecanismo único, aí sim você vai para a próxima aula, onde eu vou te explicar qual é a melhor forma de você estruturar uma VSL.\" O trecho está em 297,38–309,84, e a unidade declara `inicio` 205 e `fim` 297. O último parágrafo do corpo (\"Só depois de ter subnicho e mecanismo único o aluno segue para a estrutura da VSL...\") vem só desse trecho. São 1 de 3 unidades com faixa (33%), acima do limite de 10% da rubrica.",
+      "impacto": "Quem abre a faixa declarada para conferir a unidade não encontra a fonte da condição de sequência (subnicho e mecanismo único antes da estrutura da VSL). Essa parte do corpo fica sem como ser verificada, e a página derivada mostra uma faixa hh:mm:ss errada.",
+      "mudanca_minima": "Na unidade 3, estender `fim` para cerca de 310, de modo a cobrir 297,38–309,84 e respeitando `fim` ≤ fim da transcrição + 2. Não mexer no corpo por causa desta falha. Incrementar `versao`. Ajustar `inicio` para cerca de 211 é opcional e não é exigido. A alternativa aceitável é retirar o último parágrafo do corpo e manter a faixa, mas estender é preferível porque preserva a condição de sequência.",
+      "criterio_de_aceite": "Unidade 3 com `fim` ≥ 310 e dentro do limite da transcrição, de modo que o trecho 297,38–309,84 caia dentro de `inicio`–`fim`. Se a alternativa for usada, o corpo não pode ter a frase sobre seguir para a estrutura da VSL. `versao` = 2. Validador com zero erros. A conferência focal classifica a unidade 3 como `lastreada`, sem `faixa-errada`."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        2
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "`tarefas` da unidade 2 é [\"definir-mecanismo-unico\", \"escolher-formato-de-venda\"]. A taxonomia define `escolher-formato-de-venda` como \"Decidir entre VSL, página, X1 e destino do tráfego\". O corpo trata de criar o primeiro produto sobre uma dor própria. O inspetor, que leu a fonte inteira, afirma que ela não fala de formato de venda.",
+      "impacto": "Um agente que busca orientação sobre formato de venda recebe uma unidade sobre tema de produto. Além disso, `cobertura.jsonl` passa a marcar `presente` para `escolher-formato-de-venda` × `geral` com esta aula, que não cobre essa tarefa.",
+      "mudanca_minima": "Remover `escolher-formato-de-venda` de `tarefas` da unidade 2 e manter `definir-mecanismo-unico`. Não é preciso acrescentar outra tarefa; se o redator acrescentar, ela tem de corresponder ao corpo. Incrementar `versao`.",
+      "criterio_de_aceite": "`tarefas` da unidade 2 não contém `escolher-formato-de-venda`, não está vazia e só tem valores do enum que descrevem o corpo. `versao` = 2. Validador com zero erros. Corpo, condições e faixa da unidade 2 sem alteração de sentido."
+    }
+  ],
+  "ajustes_menores": [
+    "`contexto`, 4º item: retirar a frase \"O fecho da transcrição tem resíduo de silêncio, que não foi usado.\" O FORMATO manda não mencionar resíduo de silêncio no contexto. A frase não afeta quem consulta, o `contexto` não entra no hash das unidades e o item continua válido só com a primeira frase. Como o arquivo já vai ser editado, convém corrigir neste mesmo ciclo.",
+    "Unidade 2: a fonte diz \"automaticamente você vai encontrar um mecanismo único\" e a unidade escreve \"quase automaticamente\". Convém alinhar com a fonte. Não muda a decisão.",
+    "Unidade 2: \"sem prometer o dinheiro em si\" é paráfrase interpretativa de \"não como ela conseguir esse dinheiro, mas um processo dela conseguir isso melhor\". O melhor é dizer que se ensina o processo para conseguir melhor, não como conseguir o dinheiro. Pode incluir a ressalva que a fonte dá antes (\"por mais que você não tenha realizado o sonho de ficar no verde\"). Não muda a decisão.",
+    "Unidade 1: Kishotenketsu aparece sem explicação na primeira ocorrência. Acrescentar a definição do vocabulário do curso (a estrutura narrativa de quatro atos do curso). Do jeito que está, o leitor entende que é uma estratégia, então o uso não é afetado. Se a unidade 1 for alterada, o hash muda e ela entra na conferência focal.",
+    "O pedido de enviar a VSL pronta ao professor por WhatsApp para aprovação (perto de 200 s) não tem `limite`. É suporte do curso, perecível, e pode virar a unidade 4 (`limite`, tema `curso-e-recursos`, `perecivel: true`). Não é obrigatório, por analogia com oferta sem `limite`.",
+    "Observação sobre a inspeção: o inspetor classificou a tarefa errada da unidade 2 e a frase do `contexto` como `contrato`. Contrato é medido pelo script, que deu zero erros. O primeiro ponto é aplicabilidade e o segundo é ajuste editorial. O conteúdo dos apontamentos está correto, só a gaveta está errada."
+  ],
+  "proximo": "Abrir ciclo de correção com a lista F1 e F2. Se este for o primeiro julgamento do artefato, é o ciclo 1 de 2. O redator corrige só as unidades 3 (faixa) e 2 (tarefas). Se quiser, aplica os ajustes menores de redação e retira a frase do `contexto`. Depois roda o validador e faz a conferência focal das unidades cujo hash mudou, que são a 2 e a 3, e também a 1 se for alterada. A unidade 1 mantém a evidência atual se ficar intacta. Não há motivo para reextrair a aula: o conteúdo está fiel e os dois defeitos são localizados e de correção objetiva."
+}

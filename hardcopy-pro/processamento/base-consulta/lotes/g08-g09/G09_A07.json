@@ -1,0 +1,271 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G09_A07",
+  "titulo": "Aula 7 - Imagens",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula faz parte do grupo \"Recapitulando\" da trilha Hard Ads do curso Hardcopy Pro e ensina a transformar um anúncio em vídeo já criado em uma versão estática (foto) para o teste de criativos.",
+    "O professor demonstra ao vivo, no Canva, como montar a foto a partir do mesmo roteiro do anúncio em vídeo, usando como exemplo um anúncio fictício de um produto de emagrecimento em cápsulas.",
+    "A aula assume que o aluno já assistiu à aula anterior em que o anúncio em vídeo e sua copy foram criados, e que já tem uma conta no Canva.",
+    "A maior parte do conteúdo é demonstração de edição de tela (busca de template, remoção de fundo, duotone, textos e CTA), por isso boa parte dos detalhes visuais exatos, como cores, templates escolhidos e posições, não é descrita em palavras e fica fora da extração.",
+    "A aula fecha citando um documento que o professor deixará disponível para o aluno replicar o processo, sem detalhar o conteúdo desse material."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Criar foto pareada a cada vídeo testado, mesma quantidade",
+      "tipo": "regra",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 29.98,
+      "fim": 49.5,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao testar criativos, crie também uma versão em foto para cada anúncio em vídeo testado, mantendo a mesma quantidade entre os dois formatos — por exemplo, se o teste usa 10 vídeos, produza também 10 fotos baseadas neles. Isso deixa o teste de criativo mais qualificado.",
+      "evidencia": "Aí você faz 10 vídeos e 10 fotos",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Foto do anúncio reduz o vídeo a três partes: absurdo, dúvida, pedido de ajuda",
+      "tipo": "estrutura",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 52.3,
+      "fim": 71.7,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A versão em foto do anúncio condensa a mensagem do vídeo em três partes, na ordem em que aparecem:\n1. Absurdo — a cena ou elemento mais impactante/doloroso do anúncio.\n2. Dúvida e questionamento — o elemento que gera curiosidade sobre a alegação do produto.\n3. Pedido de ajuda com sentimento — a frase que carrega a emoção do apelo.\nO vídeo do mesmo anúncio tem mais etapas; a foto reduz tudo a essas três.",
+      "evidencia": "na foto são somente três que é o absurdo, dúvida e questionamento e pedido de ajuda com sentimento",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Exemplo: três partes aplicadas a anúncio fictício de emagrecimento",
+      "tipo": "exemplo",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 77.94,
+      "fim": 98.52,
+      "condicoes": "É copy de exemplo para um produto fictício de emagrecimento em cápsulas usado didaticamente pelo professor; a alegação de saúde não corresponde a produto real.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor preenche a estrutura de três partes (absurdo, dúvida-e-questionamento, pedido de ajuda com sentimento) usando como exemplo um anúncio fictício de um produto de emagrecimento em cápsulas.\nO que aconteceu: para o absurdo ele usa uma cena de hospital; para a dúvida e questionamento usa a alegação sobre as cápsulas com a chamada para tocar em Saiba Mais e assistir a uma notícia; para o pedido de ajuda com sentimento usa uma frase sobre a mãe da protagonista.\nLógica: a instanciação mostra como aplicar a estrutura a um caso concreto; a alegação de saúde e a frase de dor pertencem à copy fictícia do exemplo do curso, não são dado real de produto ou de mercado.",
+      "evidencia": "por causa de duas cápsulas e toque em Saiba Mais e assista a notícia",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Conteúdo mais 'black' (impactante) fica reservado para a versão em foto",
+      "tipo": "regra",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 98.52,
+      "fim": 106.42,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O termo 'black' não é definido na fonte; a leitura como 'conteúdo mais impactante/chocante' segue o contexto da fala, que o associa à escolha de uma imagem de pessoa chorando.",
+      "proposta_tag": null,
+      "corpo": "Na versão em foto de um anúncio pode entrar um elemento mais 'black' (mais impactante), como a imagem de uma pessoa chorando, mesmo quando nada do roteiro do vídeo do mesmo anúncio tem esse tom. A foto pode carregar um elemento visual mais forte do que o vídeo correspondente.",
+      "evidencia": "mas o que vem de black é na foto claro, então quer dizer que a gente vai colocar uma mulher chorando",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Post de foto no Canva: quadrado 1080x1080 para Instagram",
+      "tipo": "regua",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva",
+        "instagram"
+      ],
+      "fonte": "fala",
+      "inicio": 107.74,
+      "fim": 115.72,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao criar a versão em foto do anúncio no Canva, use um design de post para Instagram no formato quadrado, com dimensão de 1080x1080 pixels.",
+      "evidencia": "e vamos colocar o post para Instagram quadrado 1080x1080",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Montar no Canva a base da foto: template, pessoa e fundo com duotone",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 122.3,
+      "fim": 296.38,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: design novo criado no Canva no formato de post quadrado, com o roteiro e a copy do anúncio em vídeo já definidos como referência.\n1. Na busca de templates do Canva, procure por uma palavra-chave ligada ao nicho ou à emoção do anúncio (por exemplo, \"terror\") e escolha um modelo cujo visual combine com o clima do anúncio, para usar de base.\n2. Exclua do template os elementos que não servem para o anúncio, mantendo o restante do layout como esqueleto da composição.\n3. Na aba de elementos, busque fotos de pessoas com uma palavra-chave relacionada ao público (por exemplo, \"idosa\") até encontrar uma imagem cuja expressão transmita o sentimento que o anúncio quer simbolizar.\n4. Remova o fundo dessa foto, redimensione e posicione a pessoa dentro do design; adicione sombra para que ela não fique desproporcional ao cenário de fundo.\n5. Aplique o efeito duotone na foto da pessoa, combinando uma cor retirada do próprio fundo com preto, e ajuste intensidade, contraste e brilho até ela parecer integrada à cena.\n6. Insira a imagem de fundo do cenário do anúncio (no exemplo, um hospital) e aplique duotone em preto e branco com as cores invertidas.",
+      "evidencia": "então colocamos esta cor aqui e colocamos um preto",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Inserir título e CTA na foto do anúncio no Canva",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 315.28,
+      "fim": 417.98,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição registra 'CPA' no trecho sobre a criação do texto do CTA ('fazemos o CPA'); pelo contexto (criação da chamada para ação logo após posicionar o elemento do CTA), interpretei como possível troca por 'CTA', já que CPA no curso designa uma métrica de anúncio, não um elemento de copy.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: composição de fundo e da pessoa já montada no design, com o roteiro/copy do anúncio como referência do texto.\n1. Escreva o texto de gancho do anúncio como título, centralize-o e reduza o tamanho da fonte até caber bem na composição.\n2. Aplique um efeito flutuante nas letras do título; deixe o texto principal em branco e destaque em vermelho a palavra ou expressão central da copy.\n3. Posicione um elemento gráfico atrás da cabeça da pessoa e envie-o para trás na ordem de empilhamento das camadas, para dar contraste ao título.\n4. Crie o CTA (chamada para ação) com um elemento na cor secundária do anúncio e o texto da chamada, centralizado na parte de baixo do design.",
+      "evidencia": "coloca um efeito flutuante na letra, trocamos a cor dessa letra para branco",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Preencher espaços vazios e ajustar fonte do título no Canva",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 417.98,
+      "fim": 510.76,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: design com composição, título e CTA já posicionados, mas com espaço vazio sobrando em algum canto.\n1. Busque na aba de elementos por uma palavra-chave ligada ao tema do anúncio (por exemplo, \"hospital\" ou \"idoso\") até achar uma imagem que preencha o canto vazio.\n2. Remova o fundo dessa imagem, aplique duotone em preto e branco, ajuste contraste e brilho, e posicione-a atrás dos demais elementos com um pouco de transparência.\n3. Se a fonte do título não agradar, procure outro modelo do mesmo tema com uma fonte diferente, copie o texto já escrito e cole nesse novo modelo para comparar, substituindo o título se o resultado ficar melhor.",
+      "evidencia": "vamos clicar em removedor de fundo mesma coisa dual tone, coloca preto e branco",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Tarja preta nos olhos para reforçar clima dramático na foto",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 542.94,
+      "fim": 560.72,
+      "condicoes": "Aplicado no exemplo de anúncio de emagrecimento; o professor testou primeiro uma tarja vermelha e trocou para preta por ter ficado melhor.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para reforçar o clima mais dramático (\"macabro\", nas palavras do professor) de um anúncio em foto, adicione uma tarja preta sobre os olhos da pessoa retratada; isso deixa a imagem mais misteriosa.",
+      "evidencia": "A gente pode colocar uma tarja no olho dessa senhora Para ficar algo mais misterioso",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Detalhes de cor, template e posição da edição no Canva ficam só na tela",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 107.74,
+      "fim": 560.72,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte desta aula é demonstração de edição de tela no Canva, com o professor apontando elementos sem nomeá-los com precisão (\"essa cor aqui\", \"coloca aqui\"). A transcrição não permite reconstituir qual template exato foi escolhido, os valores exatos de cor, intensidade, contraste e brilho aplicados no efeito duotone, nem a posição exata de cada elemento no design; esses detalhes ficaram só na imagem.",
+      "evidencia": "Está vendo que essa moça, essa senhora, ela consegue transmitir aquilo que a gente quer",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Documento prometido para criar fotos de anúncio não é detalhado na aula",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 588.22,
+      "fim": 597.62,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No fechamento, o professor menciona que vai deixar disponível um documento para o aluno conseguir criar as próprias fotos de anúncio, com base no exemplo dado na aula. A aula não descreve o conteúdo desse documento nem onde encontrá-lo.",
+      "evidencia": "Eu vou deixar esse documento aqui disponível para você conseguir criar as suas fotos",
+      "versao": 1
+    }
+  ]
+}

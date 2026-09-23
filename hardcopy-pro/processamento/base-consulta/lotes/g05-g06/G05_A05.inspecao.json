@@ -1,0 +1,36 @@
+{
+  "aula": "G05_A05",
+  "arquivo_sha256": "d062de991796e9cd338dae417cd8b96dc4ee51be5038630248afaa6cbbb58ea1",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1
+  ],
+  "unidades_no_arquivo": [
+    1
+  ],
+  "hashes_unidades": {
+    "1": "5d357b7022b6aec6fc455788844e892ffef50fb65d9ad16b9037e06e70aca772"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vou mostrar em outros nichos",
+      "explicacao": "O corpo confere com a fonte, ponto a ponto. (1) A próxima temporada mostra como o professor cria \"tudo isso aqui em outro nicho\", com foco em \"produto com dores\" (0:30–0:49). (2) O rol \"digital, infoproduto, produto físico, emagrecimento, pessoas a 150 anos\" está na fala (0:49–0:58), e \"150 anos\" fica como transcrito, com nota. (3) O contraste entre vender no próprio nicho, onde \"já estou acostumado\", e vender em outro nicho, onde \"não estou acostumado\", está na fala (1:08–1:17). A mensagem de que \"não tem nenhuma pessoa fora da curva\", só quem \"estudou muito\", também está (1:22–1:29). (4) \"Arroz com feijão\" está em 1:53 e é atribuído ao professor. A faixa 30–122 cobre tudo isso, e a evidência está dentro dela e com 20 palavras. O trecho de oferta (\"vai valer cada centavo que você pagou\") entra só como convite dentro de um `limite`, como o FORMATO pede. O resíduo (\"Copyright Australian Broadcasting Corporation\") não foi usado. Ressalva menor: a última frase do corpo (\"quem precisa de um nicho específico não deve esperar encontrá-lo aqui\") é conclusão do extrator, não fala do professor. Ele só diz que \"nas próximas temporadas\" mostra outros nichos e que o nicho do aluno provavelmente estará na próxima. A conclusão é coerente e não muda a decisão de quem consulta, mas não é citação. O passado \"vendeu\" também é redação do extrator, porque a fonte diz \"é vender para uma pessoa que está no meu nicho\". Nenhum dos dois pontos altera número, condição ou sentido."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Menor (contexto, frase 6): \"Uma parte da transcrição é resíduo automático sem relação com a aula e não foi usada.\" O FORMATO, seção 3, diz que o resíduo de silêncio não se extrai, não se cita como evidência e não se menciona no contexto. A frase deve sair. O script talvez não pegue isso.",
+    "Menor (contexto, frase 5): \"não assume pré-requisito além de ter assistido à temporada anterior\". Na fala, o professor diz \"depois de toda essa aula aqui, agora você vai para a próxima temporada\". O que a aula assume é ter concluído a temporada que ela encerra, não a anterior a ela. A redação pode levar o agente a ler o pré-requisito como a temporada de antes.",
+    "Menor e discutível (`confianca`): o corpo mantém \"pessoas a 150 anos\" entre aspas, como transcrito e com `nota`, o que está certo. Mas o FORMATO manda `confianca: baixa` para termo não reconhecível fora da tabela, e a unidade está em `media`. Dois valores são defensáveis, porque a dúvida está só em um item lateral da lista. Não abre ciclo."
+  ],
+  "material": [],
+  "resumo": "Arquivo com uma única unidade `limite`, que descreve corretamente uma aula de encerramento e convite para a próxima temporada. A unidade está lastreada, com faixa correta e sem número, condição ou atribuição adulterados. Percorri a transcrição inteira e não achei omissão. O trecho de 2:03 em diante (\\\"esse homem se dedicando\\\", jornada, copy, \\\"ao tocar em saiba mais\\\") tem cara de trailer promocional de outro produto, e o resto é resíduo de silêncio. A `perecivel: true` já está aplicada. Não há material de apoio. Só restam ajustes menores no contexto e na `confianca`, sem efeito material."
+}

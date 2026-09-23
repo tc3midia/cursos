@@ -1,0 +1,47 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-22T10:23:27+00:00",
+  "fim": "2026-09-22T10:23:54+00:00",
+  "duracao_ms": 25311,
+  "duracao_api_ms": 25284,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 2581,
+    "cache_creation_input_tokens": 2279,
+    "cache_read_input_tokens": 21280
+  },
+  "thinking_tokens": 1634,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.039186,
+  "esperas_por_limite": [],
+  "sistema_sha256": "73be75ee2ffb57d1a1fa7f2572421f2cfde0eac577fd21da717fd22fcc60dd6f",
+  "pacote_sha256": "e23eed12330d944fc726a9e872df9e1a1f540e8cb7d02e6f3fda559517557b4a",
+  "aula": "G07_A13",
+  "rotulo": "lote-g07",
+  "palavras_fonte": 314,
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g07/G07_A13.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "6e8b2da16677352b59f9598c33e1dae4aa1941be319916338e28488d338c923a",
+  "unidades": 1,
+  "validador": {
+    "erros": [],
+    "avisos": [
+      "G07_A13: 1 unidades, fora da faixa 3–60"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "aula": "G07_A04",
+  "arquivo_sha256": "cc4821e58f637b4a777459004685f479e737078443ae7386b7280f63428d75bc",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hashes_unidades": {
+    "1": "04d2664cd109750ef92ae7ffd2ca8e0d8940ad4dd48dce56dd6fa6bce716b381",
+    "2": "94931bdc18e878598d6f525c697932d7e3d42cd75d212764bfdd3557857e62a6",
+    "3": "d1e7eda19b559786c56fb094cc2ce889f777d06cf9ec1c6bea36fc8899a54797",
+    "4": "8126b9f44a8c2adc378058de406c0147a8cddd49c3aee61f774ef73fd13873d0",
+    "5": "7244e5da316ccf9f96a38570c1ae596cb4639ad61728d766a56fff361166b282",
+    "6": "4d3bea8004afd4cf4e8c29796684ebd91206d28fc14b079b4962dad932cfd42b",
+    "7": "f58ea3fd13e81b0ca97030150897a1855b402448ecd83b8dbd48ee9b9c2d46a5",
+    "8": "1d78c2f93331cc09a2be298e849e642de0cfff6ee81b7733587cbfa4b48dd1e1",
+    "9": "7f71ac795eac9345f6c91b9cf7da0caff548624ba761a98a8b2aa9119f10c177",
+    "10": "bf9cfe657ee0c220a277e6767e16a24301e8a7c4923c7b1345c57a584abf686a",
+    "11": "596a69140fc1b88dd8fa4d739a6a6b23d6af1ccba5c107f1ea4ca723a25068d1",
+    "12": "b6e7729da74d4a9ae7f8ab24b1a68460076689ee8b8e144834c19b1686755a73",
+    "13": "4fd3c197e53337702a7d9aee08051e467e2b1efc199953af6fc8cc55d5753871",
+    "14": "3ffacaca87586c4d34469361f299459edb5f3b0fbb8610c0d98c6152034f46bd",
+    "15": "299c66d808be8e3c1ce4eb2d07ef8282801b02012f28ed9ece0de70910f56a4e"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a primeira coisa que você tem que fazer antes de qualquer coisa é definir o seu público e entender ele, tá?",
+      "explicacao": "A fonte sustenta integralmente a unidade: sapato como produto genérico vendido em faixas de preço muito diferentes ('sapatos de R$30, de R$60, de R$300, de R$700'), os dois perfis de comprador (quem compra sem pensar duas vezes vs. quem prefere várias opções baratas) e a conclusão de que a primeira ação é definir e entender o público. Faixa e números batem."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "não vai ser o mesmo anúncio de um produto vendido em Nova Serrana, tá?",
+      "explicacao": "O professor cita três exemplos concretos de posicionamento: 'tênis da Nike original', 'produto vendido em Nova Serrana' e 'tênis de 4 mil reais'. A unidade troca o segundo exemplo por uma glosa interpretativa própria, 'tênis de polo popular de calçados', que não está na fala — Nova Serrana não é nomeada nem explicada como tal na fonte. É uma pequena adição de sentido (interpretação de mercado não dita pelo professor) que não muda a lógica central da unidade (categoria do criativo direciona a segmentação), por isso gravidade menor, não material."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele sofre com dores e pressão sanguínea E eu quero vender um calçado ortopédico",
+      "explicacao": "A definição do público de exemplo (50 anos ou mais, dores, pressão sanguínea, calçado ortopédico) e a declaração de que a técnica serve para qualquer nicho, sendo esse escolhido por ser mais difícil, estão literalmente na fala nos segmentos citados. A estrutura Situação/O que aconteceu/Lógica é respeitada."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu não indico você abrir o Eds Libraria e estudar e procurar e ver o que as pessoas estão fazendo aqui",
+      "explicacao": "A ressalva do professor ('eu não indico') é preservada corretamente pela unidade, com a razão dada ('fecha a sua cabeça'). A grafia deformada 'Eds Libraria' foi identificada por hipótese como Biblioteca de Anúncios, com nota e confiança média conforme exigido pela tabela de grafias."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente vai focar em outro aspecto agora, a gente vai começar com uma história desconectada junto com o calçado",
+      "explicacao": "A observação sobre concorrência repetitiva ('Conheça sapato tal, ele é isso, ele é aquilo...') e a decisão de mudar para história desconectada estão na fala. O corpo começa com 'Quando', satisfazendo o requisito de tipo 'decisao'."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "eu fui na casa da minha avó e me assustei bem na hora que eu vi ela com um tênis",
+      "explicacao": "Os três passos da estrutura (história desconectada, descrição do problema, revelação 'do nada') seguem a ordem e o conteúdo do exemplo da avó tal como narrado na fala."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "puta que pariu, cara, que teatro é esse aqui, que merda é essa aqui",
+      "explicacao": "O caso da VSL com casal dando depoimento encenado (programa, beijo, frases de felicidade) e a crítica do professor ao 'teatro' estão na fala dentro da faixa. Tratado corretamente como exemplo/caso, não como regra geral."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "que mulher, na sua sã consciência, vai chegar pra sua neta e vai falar",
+      "explicacao": "A fonte diz explicitamente que é 'a mulher' (a avó, chamada de 'a mulher' desde a citação 'aí a mulher fala' na unidade 10) quem se dirige 'pra sua neta' e fala a frase artificial ('Eu comprei esse sapato porque ele é da loja tal'). A unidade inverte os papéis, descrevendo o discurso expositivo como 'uma neta explicando ... por que preferiu o produto de uma loja específica', quando na fala é a avó explicando à neta. Essa inversão de quem fala e para quem muda a leitura de quem consulta a unidade para replicar o diálogo (avó explica feature ao neta, não o contrário)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Qualidade, a gente esquece um pouco e a gente foca no produto, tá bom? Fotos, imagens, vídeos.",
+      "explicacao": "A fala é elíptica e a unidade preserva essa ambiguidade com confiança média e nota explicando a imprecisão, conforme previsto na rubrica para fonte ambígua. Não há adulteração de sentido, apenas a leitura literal da frase confusa do professor."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vó, a senhora não estava reclamando das dores desse dia? Aí a mulher fala, ele é bonitinho, não é?",
+      "explicacao": "A sequência de turnos (neta pergunta à avó; avó comenta o calçado, nega desconforto e encaixa características do produto) corresponde à versão final limpa do diálogo lida pelo professor. Diferente da unidade 8, aqui a atribuição avó/neta está correta."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa mulher aqui, ela vai na loja comprar",
+      "explicacao": "A distinção entre a mulher que compra pela internet (novidade, shopping, barato) e a que compra na loja física (tem 'cacife') está na fala, embora dependa de apontamento de fotos na tela. O extrator sinalizou essa dependência visual com nota e confiança média, mitigando o risco apontado nas regras de 'aula de tela'."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "como o comfort size pode te ajudar a se livrar das dores nos pés",
+      "explicacao": "Os três passos (nome do produto fictício, benefício central ligado à dor, benefício estético secundário com repetição sonora em 'pés') seguem a fala, inclusive o comentário do próprio professor sobre a rima ('Ficou pés e pés aqui'). Condição corretamente marca que é copy de exemplo fictícia."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vai ter no máximo um minuto, um minutinho de anúncio",
+      "explicacao": "A duração aproximada do anúncio de exemplo e a recomendação de ser direto ao ponto estão na fala. `condicoes` deixa claro que é referência ao anúncio de exemplo, não regra fixa de mercado, evitando o desvio de virar 'régua' universal."
+    },
+    {
+      "numero": 14,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Essa temporada de negócios locais ajuda muito a pessoa que está usando, tá? Que tá trabalhando em cima do drop, dropship, e-commerce.",
+      "explicacao": "Correspondência literal com a fala. Tema 'curso-e-recursos' e `perecivel: true` estão corretos conforme exigido para esse tema."
+    },
+    {
+      "numero": 15,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "na próxima aula a gente vai pro Canva mostrar como que a gente vai fazer esse anúncio",
+      "explicacao": "A unidade documenta corretamente, como `limite`, que a execução visual fica para a aula seguinte no Canva, sem inventar conteúdo que só existiria na próxima gravação."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 176,
+      "trecho_fonte": "compre esse sapato em uma página direta ou então via whatsapp tudo vai depender da sua operação",
+      "descricao": "Ao apresentar o exercício do calçado, o professor diz que a venda pode fechar tanto por uma página direta quanto via WhatsApp, dependendo da operação do negócio. Nenhuma unidade preserva essa informação sobre destino de venda.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem usa as unidades desta aula (persona, roteiro do anúncio) não fica sabendo que o mesmo anúncio de calçado pode direcionar tanto para página de vendas quanto para WhatsApp conforme a operação da loja, perdendo um ponto de decisão relevante para a tarefa 'escolher-formato-de-venda'."
+    },
+    {
+      "inicio": 397,
+      "trecho_fonte": "Aí a gente vai conversar aqui da mesma forma que uma senhora de idade conversa, tá?",
+      "descricao": "Antes de criticar diálogos artificiais em VSLs, o professor ensina duas técnicas de construção de diálogo entre personagens: usar uma voz diferente para cada personagem ('a gente vai colocar outra voz, essa mulher a gente vai conseguir identificar melhor') e adequar o registro de fala ao perfil do personagem (falar como uma senhora de idade conversa). Nenhuma unidade preserva essas duas orientações.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades 8 e 10 para roteirizar o diálogo do anúncio não recebe a orientação de diferenciar a voz de cada personagem nem de adaptar o registro de fala ao perfil do personagem, podendo produzir um roteiro ou áudio em que os falantes soam indistinguíveis ou fora de personagem."
+    },
+    {
+      "inicio": 774,
+      "trecho_fonte": "Só que várias pessoas esquecem dessa marca d'água aqui Isso aqui não existe, cara",
+      "descricao": "Ao mostrar a foto genérica de 'senhora de idade' usada por muita gente no anúncio, o professor avisa que ela tem marca d'água visível, ou seja, é uma foto de banco de imagens que não representa uma pessoa real. Esse alerta não aparece em nenhuma unidade.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem usa a unidade sobre os dois perfis de compradora (unidade 11) para escolher fotos de persona no anúncio não é avisado para evitar imagens genéricas de banco com marca d'água, podendo comprometer a credibilidade do criativo com uma foto evidentemente não real."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "A aula está majoritariamente bem lastreada: 13 das 15 unidades batem com a fala dentro da faixa declarada, sem números, condições ou atribuições adulteradas. Há um desvio material na unidade 8, que inverte quem fala e para quem no exemplo de diálogo (a fonte mostra a avó falando de forma artificial para a neta; a unidade descreve o contrário), e um desvio menor na unidade 2, que troca a referência a 'Nova Serrana' por uma glosa de mercado não dita pelo professor. Três omissões menores não são preservadas por nenhuma unidade: a possibilidade de fechar a venda via página ou WhatsApp, a orientação de variar voz e registro de fala por personagem, e o alerta contra usar fotos de banco com marca d'água como persona. Não foram encontrados problemas de perecibilidade, contrato ou material (a aula não tem material de apoio)."
+}

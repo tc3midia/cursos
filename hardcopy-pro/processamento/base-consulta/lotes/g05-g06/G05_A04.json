@@ -1,0 +1,154 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G05_A04",
+  "titulo": "Episódio 4 - Sentimentalismo",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de edição de som da trilha Hard Ads, sobre sentimentalismo aplicado à trilha sonora de um anúncio em vídeo.",
+    "O professor diz no início que a gravação original falhou e que a aula foi refeita com a voz dele colocada sobre o vídeo da edição.",
+    "É uma aula de tela: a montagem acontece na linha do tempo do editor, e a fala só descreve parte das ações.",
+    "No fecho, ele resume a lógica emocional da sequência sonora, e essa parte se entende só pela fala.",
+    "Assume que o aluno já tem um anúncio com locução para sonorizar. A aula não nomeia o editor usado nem detalha menus e níveis de volume."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Aula de tela refeita: os cortes exatos ficaram só na imagem",
+      "tipo": "limite",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 50,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor avisa que a gravação original da aula não foi salva e que ele refez a parte de som com a própria voz sobre o vídeo da edição. Grande parte da montagem (onde cortar, onde encaixar cada música e efeito, níveis de volume) foi mostrada só na tela. A transcrição não captura esses pontos exatos, então não use esta aula para reproduzir a montagem quadro a quadro.",
+      "evidencia": "coloquei a minha voz aqui e coloquei o vídeo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Sequência emocional da trilha sonora de um anúncio",
+      "tipo": "estrutura",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 399,
+      "fim": 455,
+      "condicoes": "Exemplo montado pelo professor para um anúncio com fala de jornada pessoal e uma música famosa de banda de rock; é a sequência que ele descreve para esse anúncio, não uma lei.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A transcrição das falas do anúncio de exemplo é ruidosa; a estrutura vem da explicação do professor no fecho da aula.",
+      "proposta_tag": null,
+      "corpo": "1. Começar com energia, usando música forte e conhecida, para chamar a atenção.\n2. Em seguida, explicar essa energia (a fala que dá sentido à abertura).\n3. Depois colocar suspense sobre a dor que o cliente sente.\n4. Logo após, acrescentar mais suspense ainda.\n5. Finalizar com a solução, entrando a música que o público quer ouvir.\nO suspense é usado, segundo o professor, porque o anúncio desafia a pessoa antes de entregar a resposta.",
+      "evidencia": "Começamos com energia Para chamar a atenção, olha só",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Música conhecida no início e entregue no fim prende o espectador",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 447,
+      "fim": 465,
+      "condicoes": "Explicação do professor sobre o anúncio de exemplo com música famosa; é a razão que ele dá para o anúncio funcionar, sem dado de resultado.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Abra o anúncio com uma música que o público já reconhece e só entregue a música completa no final, junto da solução. O espectador identifica a música logo no início e, ao fim, recebe o que queria ouvir, o que torna o anúncio agradável de ouvir e de assistir. Essa é a explicação do professor para o anúncio de exemplo funcionar.",
+      "evidencia": "No início ela assimila a música do Queen, ela já sabe o que é o Queen.",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Plot da música: o ponto onde começa o boom",
+      "tipo": "conceito",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 138,
+      "fim": 148,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O professor aponta a parte na tela (marcada em laranja); o corpo só registra o que a fala diz.",
+      "proposta_tag": null,
+      "corpo": "O plot da música é o trecho em que começa o boom dela, o ponto de maior impacto. O professor junta esse trecho à parte do anúncio que quer destacar para que o pico da música coincida com o momento da fala.",
+      "evidencia": "Laranja, ela é o plot da música",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Isolamento vocal para tirar a voz do cantor e fade in ao reentrar",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 299,
+      "fim": 384,
+      "condicoes": "O professor usa um editor que não é nomeado na fala; o recurso de isolamento vocal depende dele.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A aula não diz o nome do editor nem o motivo de remover a voz do cantor além de a música não poder ter a voz dele naquela parte.",
+      "proposta_tag": null,
+      "corpo": "Quando a música usada tem voz de cantor e a parte do anúncio não pode ter essa voz, o professor clica em isolamento vocal e remove a voz só daquele trecho da música. Se ele muda o trecho, coloca a música de novo e o editor refaz o isolamento. Ao reentrar a música, aplica fade in no início.",
+      "evidencia": "Então a gente vai clicar em isolamento vocal",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Efeitos entre trechos: clique, épico distorcido e fade no efeito",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 86,
+      "fim": 293,
+      "condicoes": "Preferências de montagem do professor neste anúncio; posições e volumes exatos ficaram na tela.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Editor não nomeado na fala.",
+      "proposta_tag": null,
+      "corpo": "O professor coloca um efeito sonoro de clique sob a fala nas trocas de trecho e o repete nas transições. Para deixar a música épica desforçada, sem tanta força, usa o modificador de voz com distorção e diminui um pouco o volume, dizendo que talvez nem precise. Também pega só o início de um efeito e aplica fade no finalzinho, encadeando outro efeito na continuação.",
+      "evidencia": "Como que a gente faz isso? Modificador de voz",
+      "versao": 1
+    }
+  ]
+}

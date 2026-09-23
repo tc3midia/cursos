@@ -1,0 +1,25 @@
+{
+  "aula": "G06_A02",
+  "arquivo_sha256": "40774f6700e395872fad3b37471c372467953ad1699336afde202843475d7a1b",
+  "inspecao_sha256": "f13e867474dc2bba16e4816ca7ae6d3d2469fced4fb170151ec1bb0578652120",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "O validador deu zero erros e zero avisos. Os números presentes são 1..6, sem furo, com `retiradas` vazio. As versões das unidades alteradas foram incrementadas: a 2 foi para 3 e a 6 foi para 2. O inspetor apontou a menção ao resíduo de silêncio no contexto e o uso de `condicoes` como atribuição na unidade 5. O script não barra nenhum dos dois, e nenhum muda a decisão de quem consulta, então entram como ajustes menores.",
+  "fidelidade": "F1 está resolvida. A unidade 6 tem faixa 499–511, abaixo do fim da transcrição (583 s). A evidência \"Então, na próxima aula a gente já vai com um exemplo claro\" é literal e cai dentro da faixa. O corpo ficou só com o adiamento do exemplo de emagrecimento. A frase da quarta temporada saiu do corpo e da nota; o descarte estava autorizado no julgamento anterior. O inspetor marcou a unidade como `lastreada`.\n\nF2 está resolvida. Só o `fim` da unidade 2 mudou, de 210 para 230. O trecho \"E oferecer ele de uma forma inconsciente\" (226–229 s) cai na faixa. O corpo é idêntico ao anterior, e o inspetor marcou `lastreada`.\n\nNão há `citacoes_nao_literais`. As seis unidades estão `lastreada`, e `faixa-errada` ficou em 0%. As ressalvas do inspetor nas unidades 3 e 5 são de redação e não alteram a definição de subtexto nem a regra do 2 mais 2. Não há copy de exemplo tratada como fato, passo de tela inventado nem resíduo de silêncio usado como fonte. Nenhuma das duas unidades alteradas ganhou problema novo.",
+  "cobertura": "A inspeção cobre as seis unidades: focal nas unidades 2 e 6, e evidência preservada nas outras quatro, cujo hash não mudou. O inspetor declara busca acumulada de omissões e não encontrou nenhuma. Descartar a menção à quarta temporada não é omissão, porque é estrutura do curso e já está no contexto. A aula tem 1.710 palavras e rendeu o esqueleto do anúncio, os três princípios (subtexto, arma de Chekhov, 2 mais 2) e o `limite` do exemplo adiado. Não ficou de fora nenhuma régua, passo ou alerta que mude a ação.",
+  "perecibilidade": "Não há apontamento. A unidade 6 (`curso-e-recursos`, que trata da ordem das aulas) tem `perecivel: true`. A unidade 3 também tem `perecivel: true`, o que se sustenta pela promessa de um treinamento próprio sobre subtexto. As unidades 1, 2, 4 e 5 são orientação geral de roteiro, sem tela, preço, ferramenta ou número de mercado, e `perecivel: false` está correto nelas.",
+  "aplicabilidade": "As unidades se sustentam sem a aula ao lado.\n\n- **Unidade 2:** a estrutura tem três partes na ordem da fonte, e `condicoes` avisa que é o padrão pessoal do professor.\n- **Unidades 3 e 4:** definem os termos com o que a aula diz. A nota da 4 avisa que o professor não detalha a aplicação ao anúncio.\n- **Unidade 5:** é regra categórica, com as tarefas corretas.\n- **Unidade 6:** é um `limite` claro sobre o que a aula não traz.\n\nTipos, temas e tarefas levam o agente ao lugar certo. Não há referência pendurada na aula. Não há técnica que contorne política de plataforma.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Contexto: a frase \"o fecho da transcrição traz apenas resíduo sem conteúdo\" menciona resíduo de silêncio, e o FORMATO manda não mencionar resíduo no contexto. A correção é retirar a frase. Não afeta nenhuma unidade nem o hash delas.",
+    "Unidade 3: \"acaba saturando o mesmo método\" resolve em silêncio um termo degradado da transcrição (\"saturou o MacDent\", provavelmente \"mercado\"). A correção é trocar por \"mercado\" com registro na `nota`, ou registrar a incerteza. Não muda a definição de subtexto.",
+    "Unidade 3: \"e não só os americanos de copy\" sugere que o professor também estuda os americanos. Segundo o inspetor, ele diz que se baseia em roteiristas e resumos de filme e critica quem estuda os americanos. É ajuste de redação e não muda a orientação.",
+    "Unidade 5: \"a explicação vem na versão de destino\" é leitura do extrator sobre \"na sua versão você explica\". É plausível e não afeta o uso. Se a unidade for tocada, aproximar da fala.",
+    "Unidade 5: `condicoes` traz a atribuição à Pixar, que não é condição de uso. A correção é mover para o corpo ou deixar `condicoes` como null."
+  ],
+  "proximo": "A aula G06_A02 pode ir para `revisado`. F1 e F2 foram aceitas pelo critério de aceite no ciclo 2, e nenhuma falha nova apareceu nas unidades alteradas.\n\nOs ajustes menores não abrem ciclo. Os das unidades 3 e 5 mudam corpo ou `condicoes`. Isso altera o hash e faz a unidade perder a evidência preservada. Eles devem ser aplicados só em manutenção que já preveja reconferência dessas unidades. O ajuste do contexto pode ser feito a qualquer momento."
+}

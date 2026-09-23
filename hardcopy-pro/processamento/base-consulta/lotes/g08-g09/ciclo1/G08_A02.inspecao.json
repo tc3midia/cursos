@@ -1,0 +1,85 @@
+{
+  "aula": "G08_A02",
+  "arquivo_sha256": "3aef8979a41bce166f4579120487e6d4901c7fc79617666bcadde4e7c544cb21",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 2, 3, 4]; as demais mantêm a evidência da inspeção integral do arquivo ae443004303b, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "7c5e2f3147be4d0e08f7d968fa21bfbd5bb61c78878fa36c5887d78a0dbc20c3",
+    "2": "5cca423b7233eddb8e04d2140880f089c33b29fb947635ad0b015256002292c2",
+    "3": "9adc9abaa59794242884d3f38055bb97d644ab887985c968c85b88aa7cd03657",
+    "4": "583ac8eb51f0ded2ca0322be9156202aab64ea0ff4e8bcdce7ba17607ade75ef"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "aqui a gente está fazendo uma parada informativa, começamos com algo diferente do que a gente queria vender como sempre, isso não é normal",
+      "explicacao": "F1 foi resolvido corretamente. O `fim` foi ampliado de 244 para 322s, e a frase final do corpo sobre a originalidade do formato (\"não existe entre os concorrentes... focam só no produto\") agora cai dentro da faixa: ela é dita na releitura do anúncio, entre 00:05:11.720 e 00:05:21.520 (311,7–321,5s), e o restante do corpo (gancho informativo, ponte para o mecanismo único oculto e CTA de exclusividade) também está todo entre 215 e 322s, seja na explicação inicial (00:03:35–00:04:03) seja na releitura completa do anúncio (00:04:17–00:05:21). A `evidencia` permanece literal e dentro da faixa (215,96–223,54s). Nenhum problema novo foi introduzido pela ampliação."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "em momento algum a gente falou de prometer nada pra pessoa",
+      "explicacao": "F2 foi resolvido. O corpo foi reescrito para se limitar ao que a fonte diz com clareza (o professor sustenta que o anúncio de exemplo em momento algum promete algo ao lead), removendo a generalização sobre \"palavra ligada a resultado\" que se apoiava no trecho mal transcrito \"perda não, perda não é perda\". A `confianca` foi rebaixada de alta para media e a `nota` registra esse trecho ambíguo, como a rubrica exige para fonte incerta preservada com confiança adequada. A segunda metade do corpo, sobre o mecanismo único oculto não ser mentira porque o produto tem a propriedade, continua lastreada e dentro da faixa 207–233 (dita entre 223,5s e 233s). Nenhum problema novo identificado."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "material",
+      "trecho_fonte": "Faz um anúncio desse aqui E bota junto do lado dos seus anúncios de jornada do herói E três atos Pra ver o estrago que vai dar",
+      "explicacao": "F4 foi cumprido no critério literal: o corpo não cita mais \"episódio\", \"aula\" nem \"vídeo\", nomeia as três partes da estrutura e se lê sem depender da U1. Mas a correção introduziu um problema novo de fidelidade: dentro da faixa declarada (357–406s), o professor só diz \"faz um anúncio desse aqui\" e manda publicar ao lado dos anúncios de jornada do herói/três atos para comparar o resultado — ele não nomeia, nesse trecho, \"gancho informativo desconectado\", \"ponte para o mecanismo único oculto\" nem \"CTA de exclusividade\". Essa descrição das três partes, agora presente no corpo da U3, só é dita pelo professor entre aproximadamente 215s e 244s (00:03:35–00:04:03), que é a faixa da U1, fora dos 357–406s declarados na U3. Quem for verificar essa parte do corpo no ponto indicado pela faixa não vai encontrá-la, o que impede checar exatamente o conteúdo que a correção de F4 acrescentou. Com isso, 1 das 4 unidades com faixa (25%) está com faixa incorreta, acima do teto de 10% da rubrica de fidelidade."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Esse anúncio aqui é de impulso, normalmente a pessoa já compra sem pensar, é assim que funciona.",
+      "explicacao": "F3 foi resolvido com a criação desta unidade nova (numerada após a maior existente, conforme a regra de identidade do FORMATO). Ela cobre tanto a objeção encenada na aula (vários afiliados vendem o mesmo produto e o lead pode reconhecê-lo) quanto a justificativa do professor (o anúncio é de impulso, a pessoa compra sem checar a exclusividade), dentro da própria faixa (243–258s, cobrindo 243,9–257,3s) e com `evidencia` literal. O corpo começa com \"Quando\", compatível com o tipo `decisao`, e se lê sem depender da U1. Nenhum problema novo identificado."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 252,
+      "trecho_fonte": "Esse anúncio aqui é de impulso, normalmente a pessoa já compra sem pensar, é assim que funciona.",
+      "descricao": "Logo após ler o CTA de exclusividade ('único produto do Brasil que contém a espirulina'), o professor encena uma objeção (existem afiliados vendendo o mesmo produto, que a pessoa já pode reconhecer) e responde que a alegação de exclusividade funciona mesmo assim porque esse tipo de anúncio gera compra por impulso, sem a pessoa parar para checar a alegação. Nenhuma unidade preserva essa objeção nem a justificativa do professor.",
+      "gravidade": "material",
+      "efeito_pratico": "Quem seguir a unidade 1 sem essa informação pode achar que a alegação 'único produto do Brasil' precisa ser literalmente exata, ou não vai entender por que o professor considera a técnica válida mesmo havendo outros afiliados vendendo o mesmo produto — perdendo o motivo real (compra por impulso) que ele dá para sustentar o uso da alegação de exclusividade."
+    },
+    {
+      "inicio": 286,
+      "trecho_fonte": "Com apenas 200mg por dia, que eu olhei no chat APT,",
+      "descricao": "O professor menciona duas vezes (no início e perto do fim da leitura da copy) que pesquisou fatos reais do produto — a propriedade desintoxicante da espirulina e a dosagem de 200mg/dia — 'no chat' / 'no chat APT' (ChatGPT), antes de montar o gancho informativo do anúncio de exemplo. Nenhuma unidade registra essa etapa de checagem de fatos.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem quiser aplicar a estrutura da unidade 1 não sabe que o professor recomenda, na prática, checar uma informação real do produto (por exemplo, via ChatGPT) antes de escrever o gancho — que é justamente o que sustenta a afirmação da unidade 2 de que o anúncio 'não mente'."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2 usa o termo 'mecanismo único oculto' como se já estivesse definido, sem explicá-lo dentro do próprio corpo (a definição só aparece na unidade 1); um agente que consultar só a unidade 2 não sabe o que é esse mecanismo.",
+    "Unidade 3 recomenda testar 'a estrutura informativa deste episódio' sem descrever no próprio corpo em que ela consiste, dependendo da unidade 1 para ser entendida isoladamente."
+  ],
+  "material": [],
+  "resumo": "As falhas F1, F2 e F3 foram corretamente resolvidas nas unidades 1, 2 e na unidade nova 4: faixas, evidências, confiança e atribuições agora estão lastreadas, sem generalização indevida e sem autorreferência. A correção de F4 na unidade 3 cumpriu o critério literal (removeu a autorreferência e nomeou as três partes da estrutura), mas introduziu um problema novo: a descrição das três partes (gancho, ponte, CTA) não é dita dentro da faixa declarada de 357–406s, e sim entre 215–244s (faixa da U1), tornando a unidade 3 faixa-errada de gravidade material. Com 1 de 4 unidades com faixa incorreta (25%), o arquivo permanece acima do teto de 10% da rubrica de fidelidade e precisa de nova correção focada na U3 antes de passar."
+}

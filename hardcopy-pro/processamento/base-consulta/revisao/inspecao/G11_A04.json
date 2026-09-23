@@ -1,0 +1,126 @@
+{
+  "aula": "G11_A04",
+  "arquivo_sha256": "3b1bd6de075d32d4f4785738fdecc5ab68265c73283bb3578095836baa144e02",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [5]; as demais mantêm a evidência da inspeção integral do arquivo d40aac8380ff, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    5
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "b83f40d5cce56486b2bffb9bb1a26e89fd6d347b5ed427c9b2f88ed56775de9e",
+    "2": "f72256f213262131451ef2062cae0807a54d9e8e52478f500cf04800dc71dafa",
+    "3": "cd0b3554beb8b76b208943efa10b8c863db129ee6089aae1cc068548ed4ee7fa",
+    "4": "2c90c2511b0294341df7255530c2a639d3e04f78eb242acf249c764cc25cb1c5",
+    "5": "7afb180d7acc7ba0fce046a2787ebc15825146f6f8530f28f9eeb09548fcb41b",
+    "6": "26ace3e606fb39d1a9ccaa4b18f802250b8d63c77bd4de2ab9053c591b320f08",
+    "7": "4215fbccd2a681b53b743b57bb9f9fdeae5066a4f68d245dfd05f069fa2d627b",
+    "8": "8bf5041b41090f6d896fa86f140b0cc6924eb76258851974525b68cc8bdbe839",
+    "9": "85b469a348e059d91c4df62afab7488c310ddbd1b83c7844e81a90c8341dace6",
+    "10": "a07bfb33084d71415045c64857e338110f83dd2a4786517a90ace4837e4328ab"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "porque ela não necessita necessariamente criatividade e é bem rápido é bem simples a gente vai fazer uma variação de hooks para um criativo validado",
+      "explicacao": "O corpo acrescenta 'ao contrário de criar um anúncio do zero', um contraste que a fala não faz nesse trecho; o professor só diz que a tarefa é rápida, simples e não exige necessariamente criatividade. É conteúdo plausível, mas que a aula não afirma; não muda a orientação central da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "o hook é o início do anúncio",
+      "explicacao": "A definição de hook (início do anúncio) e lead (equivalente na VSL, termo usado por quem tem mais tempo de mercado), além da observação de que há quem chame o início da VSL de hook também, estão fielmente preservadas dentro da faixa 73–110s."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente precisa ter primeiramente a nossa ia muito bem alimentada e muito bem estudada com o nosso conhecimento geral junto com ela nunca vamos deixar ela fazer tudo sozinha porque ela ainda não chegou nesse ponto",
+      "explicacao": "A unidade reproduz corretamente a recomendação de alimentar bem a IA antes de usá-la e a ressalva de nunca deixá-la decidir sozinha, com a justificativa dada pelo professor, dentro da faixa 113–130s."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "vamos copiar todo o anúncio e vamos jogar em um chat que já esteja trabalhado com isso",
+      "explicacao": "Os passos (copiar o anúncio, colar no chat já treinado avisando que foi validado e pedindo variações com base no que funcionou, e a observação de que demora/travamento do chat é sinal de boa alimentação, não erro) batem com a fala entre 140–205s. A identificação da ferramenta como 'chatgpt' vem com nota e confiança média, como exige o processo para hipótese; ver ressalva sobre a força dessa evidência em 'contrato'."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Com base no que funcionou nesse anúncio Ou seja, começo direto, com uma prova prática Chamada pra assistir Uma ênfase na VSL como espetáculo Aqui vai algumas variações de hooks Então ele já deixou pronto",
+      "explicacao": "A correção do ciclo 1 resolveu a falha G11_A04-F01: o corpo de U5 agora atribui os quatro elementos (começo direto, prova prática, chamada para assistir, ênfase na VSL como espetáculo) à resposta do chat de IA lida pelo professor após o pedido de variações, não a uma análise prévia do professor passada como referência à IA. A faixa 205–218 s cobre integralmente a leitura da resposta, do 'Tá bom? Ó' de transição até o fecho 'Então ele já deixou pronto' (207,66–217,74 s na transcrição), e a evidência citada é literal e contígua dentro dessa faixa. `condicoes` registra corretamente que a lista é saída da IA sobre um anúncio específico, não critério do professor nem lista obrigatória. O corpo mantém as marcas exigidas para `exemplo` (Situação/O que aconteceu/Lógica), fica dentro dos limites de título e de palavras da evidência, e não introduz cópia bruta, timestamp nem novo desvio de atribuição. Nenhum problema novo foi criado pela correção."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "com base nas três variações acima me dê várias opções de hooks ainda melhores",
+      "explicacao": "O procedimento de selecionar as três melhores variações recebidas e pedir ao chat opções ainda melhores com base nelas está corretamente lastreado na fala, dentro da faixa 314–337s."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "coloca aqui agora para ficar bem organizado variação 1 negrito",
+      "explicacao": "O passo 2 do corpo afirma 'Destaque o hook em negrito', mas na fala 'Negrito' aparece logo após o professor digitar o rótulo 'Variação 1' ('coloca aqui agora para ficar bem organizado, Variação 1, Negrito, e aqui a gente separa por páginas'), indicando que o negrito é aplicado ao rótulo da variação, não ao texto do hook. O restante do procedimento (separar hook do resto do anúncio, organizar em páginas por variação) está lastreado."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "sempre que você validar um anúncio faça isso que cara a assertividade de anúncios vai aumentar e muito",
+      "explicacao": "A recomendação de repetir o processo a cada novo anúncio validado, e a ideia de que até um hook já bem-sucedido pode ser trocado de novo ('retroalimentada'), estão fielmente preservadas dentro da faixa 543–563s."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "tenta pegar o melhor anúncio da sua operação e faz isso para ver o que acontece",
+      "explicacao": "A orientação para operação pequena ou sem margem de lucro aplicar a técnica no melhor anúncio disponível está corretamente lastreada na fala, dentro da faixa 563–573s."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "como que eu faço headlines e sub-headlines de impacto",
+      "explicacao": "O limite descreve corretamente que a próxima aula tratará de headlines e sub-headlines de impacto com apoio de IA, sem desenvolver esse conteúdo aqui, conforme a fala entre 575–585s."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidades 4 e 6 classificam plataforma como 'chatgpt', mas a fala usa só a palavra genérica 'chat' ('vamos jogar em um chat que já esteja trabalhado com isso'; 'como eu já tenho um chat que eu alimento ele todos os dias'), sem nenhuma das deformações de ChatGPT listadas na tabela de grafias (chat GPT, chat de PT etc.). A identificação vem com nota e confiança média, cumprindo a regra de hipótese, mas a evidência é fraca porque não há deformação alguma a apontar — é uma inferência pelo padrão do curso. Vale checagem do juiz sobre se 'geral' (com nota) não seria mais fiel, já que a técnica descrita (colar texto, pedir variações) não depende de recurso específico do ChatGPT."
+  ],
+  "material": [],
+  "resumo": "Conferência focal restrita à unidade 5, única unidade listada na falha G11_A04-F01 do ciclo de correção. A reescrita do corpo corrigiu a má atribuição: os elementos (começo direto, prova prática, chamada para assistir, ênfase na VSL como espetáculo) agora são corretamente creditados à resposta do chat de IA lida pelo professor, e não a uma análise prévia dele repassada como referência. A faixa e a evidência citada conferem literalmente com a fonte entre 205 e 218 segundos, e nenhum problema novo foi introduzido pela alteração. As demais unidades do arquivo não foram reabertas, conforme escopo da conferência."
+}

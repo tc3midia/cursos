@@ -1,0 +1,163 @@
+{
+  "aula": "G11_A05",
+  "arquivo_sha256": "1a646f5d56b71ab42e206a0e6c8f233383cc107440b3b2cf110a580ca9da0881",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 3, 7]; as demais mantêm a evidência da inspeção integral do arquivo 95266f9b24b5, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    3,
+    7
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "217931f486a8d1229d25fa8d22effee3ccde1522cf6ce4eda65c6d93f9c9c572",
+    "2": "09697fe10b9e23e0f9c0bb0a6a0542a3d769ab09664e4cc334228294316a6fb7",
+    "3": "f0137215570acfd17b4e7ac13140f7aeb750ff9ea325708a91334c12a352139d",
+    "4": "924f3bc4c2fcfe021261280e5190b216050e98725c37b5997eeb6caad22eebcd",
+    "5": "a2bfb7b224d31f887521cd9fedd64335733654ce6caf0eb8c64f15bcaaf3f902",
+    "6": "b9b7390868044aa9cd09efd06fcd53b2d2b8c49c342971f8f039fe01267bd5d3",
+    "7": "6923d59c88e35f77c458c9e5b0f46bd6293a256f5b8edc0c6dc59c8f54220ea5",
+    "8": "3fff74d390db6fd92d24f46e546dae8d57856c515d7f21945eb178cec9077159",
+    "9": "91577b5e50b76be4c9eeb4b32c32f7a70aa2afb7c7bb6e8554dec82eeff3e4df",
+    "10": "e735c257fe3d4a2207a77422c375d3acb5b1197030801347096aaf789f9cb129",
+    "11": "6d4a7941774ca647672f2a0c8d93d0b3b125a77f2a135fdef5c8d88269b9bc8c",
+    "12": "c6c3684ec02de1767b7fc81082e188d9f9495c20268f757ab9b9912f28d7574f"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Vamos juntar um pouco de terror com um mecanismo único",
+      "explicacao": "F1 resolvida para esta unidade. Conferi a ordem cronológica de todos os cinco passos dentro da faixa declarada (64–265s): passo 1 'peça uma headline que faça o lead pensar, imaginar algo e sentir dúvida' = 79,46–97,08s ('vamos criar uma boa headline / para que o lead pense e imagine algo'); passo 2 'dúvida só resolvida no play' = 97,08–105,56s ('e ele precisa responder essa dúvida tocando no play'); passo 3 'copie de volta as que você considerou boas' = 123,7–127,4s ('A gente vai copiar o que é bom / E vai mandar para ele'); passo 4 'terror + mecanismo único + várias opções' = 158,22–179s (trecho citado); passo 5 'ficou com duas de dez' = 257,86–264,4s ('dessas dez, a gente sobrou duas'). Todos os cinco passos estão dentro de 64–265s e na mesma ordem em que ocorrem na fonte; nenhum depende de fala anterior a 64s nem foge da faixa. A definição parentética de 'mecanismo único' bate com o vocabulário do curso (G01_A03), não é invenção. Nenhum problema novo introduzido pela correção."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "porque o que eu quero fazer o lead sentir é dúvida e ele precisa responder essa dúvida tocando no play",
+      "explicacao": "Corpo reproduz fielmente a regra dita entre 86–106s, sem adicionar nem retirar condição."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu entendi, mas o meu lead provavelmente não vai entender.",
+      "explicacao": "F1 resolvida quanto ao ponto apontado: nenhum passo da unidade 3 depende de fala anterior a 264s, e a espinha dorsal dos cinco passos está correta e dentro de 264–580s — passo 1 'colar as duas melhores + contexto geral' = 286–297s ('acima eu coloquei duas das melhores heads que você criou'); passo 2 'recusar intro de vídeo e pedir mais variações' = 326–340s ('eu quero que você me dê mais variações e melhores com base nisso'); passo 3 'ato de conhecimento' = 420,68–434,26s; passo 4 'filtro por efeito no lead (manter)' = 434–458s ('Só de ler isso eu já ganhei o meu dia'); passo 5 'contingência de explicação em vez de variação' = 569,1–577,1s ('eu quero mais variações e não explicações'). Ressalva residual, de grau menor: os passos 4 e 5, tal como redigidos, também amarram um segundo exemplo que antecede cronologicamente o passo 3 — o exemplo de 'descartar' do passo 4 é a fala citada acima, em 369,08–371,5s (antes do 'ato de conhecimento' em 420s), e o diagnóstico 'ele só copiou e colou aqui e explicou' que embasa o passo 5 está em 346,1–348,82s (também antes do passo 3). Isso não inverte a ação central de nenhum passo nem muda o que o leitor deve fazer em cada etapa (ambos os passos são formulados como critério geral/contingência, não como ação pontual única), mas é uma pequena imprecisão de ordenação interna que vale registrar. Não constitui novo passo indevido nem número, condição ou atribuição alterados — não reabre o veto de fidelidade, apenas ajuste menor."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É, ele só copiou e colou aqui e explicou.",
+      "explicacao": "O limite descreve corretamente que prompts e leitura de tela não são recuperáveis só pela fala, citando o próprio reconhecimento do professor dentro da faixa 343–351s."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "É a porcentagem entre a visualização de página e o clique da VSL.",
+      "explicacao": "Definição de playrate reproduzida como dita, dentro da faixa 472–486s."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se 100 pessoas entram na sua página e você pagou R$1 para cada pessoa entrar, você gastou R$100",
+      "explicacao": "Números do cálculo (100 pessoas, R$1, 60%, R$1,66, 80%, R$1,25) conferem com a fala entre 490–527s; marcado corretamente como exemplo hipotético e perecível."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se o seu play rate estiver em 60%, que é o básico do mercado",
+      "explicacao": "F2 resolvida. O corpo corrigido contém uma única frase — 'O professor trata 60% de playrate como o básico do mercado' — com correspondência direta à fala em 496,48–505,58s, sem a inferência de diagnóstico ('abaixo disso, a headline provavelmente está fraca...') que havia sido apontada como afirmação sem fonte. O tipo `regua` continua satisfeito (o corpo mantém o número '60%'). Nenhum problema novo: `perecivel: true` mantido corretamente (número de mercado), atribuição ao professor está explícita, e a citação de evidência está dentro da faixa 496–506s."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então demore de dias ou até semanas para fazer uma headline",
+      "explicacao": "Recomendação e justificativa (playrate barateia a operação) batem com a fala entre 539–546s."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "empresas como VTURB e outras tem teste de lead",
+      "explicacao": "Ferramenta nomeada diretamente na fala (grafia já adotada, sem necessidade de hipótese), com perecivel:true correto para tipo ferramenta e plataforma vturb."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "não responda a pergunta acima deixe o lead mais curioso e passa o cta de aperte o play",
+      "explicacao": "Regra da sub-headline (não responder, manter curiosidade, CTA de play) confere com a fala em 657–679s."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tem coisas que ninguém nunca te contou Sobre fome, apetite e controle",
+      "explicacao": "A combinação final headline+sub-headline descrita (paráfrase, sem cópia bruta) corresponde à decisão fechada pelo professor em 754–770s, corretamente marcada como copy de exemplo/perecível."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Trabalhe muito com perguntas e respostas em cima do chat",
+      "explicacao": "Recomendação final de não confiar 100% na IA e buscar algo melhor confere com a fala em 783–795s."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 392,
+      "trecho_fonte": "Então aqui você pode dar várias variações junto com a sua criatividade também. Não se apegue só a IA.",
+      "descricao": "Instrução explícita de complementar as variações da IA com variações próprias do copywriter, dita no meio do processo de refinamento (~392-398s). Nenhuma unidade preserva esse ponto especificamente; a unidade 12 registra uma recomendação parecida ('nunca confie nele 100%'), mas essa é outra fala, em outro momento (783-795s), sem mencionar a criação de variações próprias.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir só as unidades pode entender o processo como puramente iterativo com a IA (gerar, ler, filtrar, pedir de novo), sem saber que o professor recomenda também contribuir com variações escritas pelo próprio copywriter."
+    },
+    {
+      "inicio": 224,
+      "trecho_fonte": "Por que eu falo que eu não gostei De acordo com a minha experiência Minha expertise Então eu sei exatamente o que a pessoa vai lá e vai falar Ah eu já vi coisa assim",
+      "descricao": "Ao rejeitar uma variação de headline, o professor explica o critério: reconhece pelo conhecimento do nicho que a frase soaria como algo 'já visto' pelo público. Nenhuma unidade registra esse critério de avaliação; fica em zona cinzenta entre técnica transferível e construção de autoridade pessoal.",
+      "gravidade": "menor",
+      "efeito_pratico": "Sem esse trecho, quem consulta as unidades sabe que o professor filtra e descarta variações, mas não tem o critério concreto usado (evitar frases que soam clichê para quem já conhece o nicho)."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: a evidencia 'eu quero mais variações e não explicações por favor' está ancorada no segmento transcrito 577,1–584,14s, que ultrapassa o fim declarado da unidade (580s). Ajustar o fim da unidade para cobrir o segmento inteiro ou trocar a evidencia por um trecho certamente dentro de 264–580s (ex.: 'de novo eu acho que ele não entendeu, tá?', em ~325-326s, que já sustenta o mesmo passo 3 do procedimento)."
+  ],
+  "material": [],
+  "resumo": "Conferência focal das unidades 1, 3 e 7 após o ciclo 1 de correção. F1 (ordem cronológica dos passos das unidades 1 e 3, procedimento de refinamento de headline com IA) foi resolvida: todos os passos numerados estão dentro das faixas declaradas e na ordem em que ocorrem na fonte, com apenas uma imprecisão menor e residual na unidade 3, onde os passos 4 e 5 combinam, cada um, um exemplo de apoio que antecede cronologicamente o passo 3 com o exemplo principal que vem depois — sem alterar a ação central de cada passo. F2 (inferência de diagnóstico não sustentada na unidade 7, sobre playrate abaixo de 60%) foi integralmente resolvida: o corpo agora contém só o que a fala de 496–506s sustenta. Nenhum problema novo de gravidade material foi encontrado nas três unidades revisadas."
+}

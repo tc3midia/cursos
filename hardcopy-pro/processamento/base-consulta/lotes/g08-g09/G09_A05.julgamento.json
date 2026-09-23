@@ -1,0 +1,87 @@
+{
+  "aula": "G09_A05",
+  "arquivo_sha256": "daf153fab5cee3073b34b4f8d63e4cf2d19f9202de155dfeb66ecf74b8aead6e",
+  "inspecao_sha256": "28116962eb14e3d33e586a75aecd2255464d802a138a09d8721bc17e8347f006",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "cobertura",
+    "aplicabilidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Os quatro apontamentos que o inspetor colocou em \"contrato\" (jargão \"cor alternativa\" na 7, tipo da 8, tema da 10, tipo da 18) não são erros de script; são questões de aplicabilidade/classificação e ficam registrados como ajustes menores. Área passa.",
+  "fidelidade": "Inspeção integral, 21/21 unidades, nenhuma citação não literal. Um desvio material comprovado: unidade 19 suprime a autoclassificação do professor (\"é um anúncio Totalmente black\", trecho literal dito entre a lista pele/antes-depois/palavrão e \"vai rodar no Facebook de uma forma tranquila\") e a substitui por \"isso deixa o anúncio dentro das regras da plataforma\", afirmação sem lastro que inverte o sentido — caso de ressalva do professor suprimida. Faixa-errada em 12 e 20 (2/21 = 9,5%, abaixo do teto de 10%, portanto não sustentam veto sozinhas); na 20 o inspetor descreve ainda uma possível fusão de dois pontos da fala, que a citação literal não prova por si e fica como item a confirmar na reinspeção. Unidade 10: ambiguidade de empilhamento de camadas resolvida em silêncio, gravidade menor, aceita como ajuste. Sem copy de exemplo tratada como fato (17 é exemplo com condição), preferência preservada como preferência (13), termo \"abaianado\" definido pela fonte, sem resíduo de silêncio, sem passo de tela inventado apontado. Área falha pela unidade 19.",
+  "cobertura": "Omissão material localizada com trecho literal em ~244s (\"Não se apegue ao preto, ao branco, ao amarelo, ao azul, ao rosa, nada disso... vamos mudar a cor de acordo com o sentimento que vamos inserir\"): nenhuma unidade diz que a cor de fundo muda ao longo da VSL conforme o sentimento de cada trecho. Efeito prático: a unidade 3 (fim 209) e sua condição \"não é uma cor fixa para todo produto\" levam o agente a escolher uma cor por produto e usá-la o criativo inteiro, quando a aula demonstra preto na abertura, vermelho na acusação, azul combinando com a cena e verde no CTA — a execução sai diferente. As outras cinco omissões (definição de \"cor alternativa\", espaçamento entre linhas, cor de destaque combinando com a cena, contraste/brilho, não animar vídeo já animado) são complementos e não abrem ciclo. O inspetor erra ao dizer que a unidade 10 usa \"cor alternativa\": o corpo da 10 não usa o termo; só a 7. Área falha pela omissão de ~244s.",
+  "perecibilidade": "Inspetor não encontrou perecível escondido em unidade `geral`; todas as 21 unidades estão com `perecivel: true`, inclusive regras gerais que não dependem de tela nem recurso (1, 3, 4, 5, 8, 11, 13). Sobre-marcação não é veto; registrada como ajuste menor. Técnicas de contorno (10, 12, 20) estão marcadas. Área passa.",
+  "aplicabilidade": "Unidade 19 descreve, uma vez restaurada a fidelidade, uma técnica que o próprio professor chama de \"totalmente black\" para passar na moderação do Facebook, sem `nota` iniciada por \"Contorna política de plataforma ou direito de terceiros:\" — material pela seção \"Próprio deste curso\". Menores: unidade 7 usa \"cor alternativa definida para o produto\" sem explicar (a fonte define em ~423s; o sentido é inferível, não muda o uso); unidade 12 recomenda \"esse formato\" de seta que só existe na imagem, sem dizer que ficou na tela; unidade 10 traz `meta-ads` e `revisar-risco-de-bloqueio` sem apoio no corpo; classificações discutíveis em 8 (regra/decisao), 10 (tema) e 18 (decisao/regra). Os limites 16 e 21 se sustentam sozinhos. Área falha pela unidade 19.",
+  "falhas": [
+    {
+      "id": "G09_A05-F01",
+      "unidades": [
+        19
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal dentro da faixa 2076–2092: \"é um anúncio Totalmente black\", dito logo após listar pele/antes-e-depois/palavrão e antes de \"vai rodar no Facebook de uma forma tranquila\". O corpo da unidade omite a autoclassificação e escreve \"isso deixa o anúncio dentro das regras da plataforma\", frase que não está na fonte e contradiz o rótulo do professor.",
+      "impacto": "Agente que consultar vai apresentar a técnica como conformidade simples com as regras do Facebook e replicá-la com confiança, quando o professor a marca como black que passa por evitar os gatilhos visuais. Muda a decisão de quem consulta sobre o risco assumido.",
+      "mudanca_minima": "Reescrever o corpo preservando a atribuição: o professor classifica o anúncio como \"totalmente black\" e diz que, mesmo assim, roda no Facebook porque em nenhum momento mostra pele, antes-e-depois nem palavras de baixo calão. Retirar \"dentro das regras da plataforma\". Incrementar versao.",
+      "criterio_de_aceite": "Corpo contém a autoclassificação \"black\"/\"totalmente black\" atribuída ao professor e não contém afirmação de que o anúncio está dentro das regras; inspetor reconfere a unidade como lastreada com trecho literal."
+    },
+    {
+      "id": "G09_A05-F02",
+      "unidades": [
+        19
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Mesmo trecho da F01. A unidade tem `nota: null`, tema `politicas-e-bloqueios` e descreve como fazer um anúncio que o professor chama de black passar na moderação; a rubrica (Próprio deste curso) exige aviso em `nota` para técnica que contorna política de plataforma.",
+      "impacto": "Quem consulta não recebe o aviso de que a decisão de aplicar é dele, ao contrário das unidades 12 e 20 da mesma aula, que trazem a nota.",
+      "mudanca_minima": "Preencher `nota` começando por \"Contorna política de plataforma ou direito de terceiros:\" e dizendo que o professor classifica o anúncio como black e que a aprovação, segundo ele, vem de evitar pele, antes-e-depois e palavrão. `perecivel: true` e tema já estão corretos.",
+      "criterio_de_aceite": "Campo `nota` da unidade 19 começa com o prefixo exato \"Contorna política de plataforma ou direito de terceiros:\"."
+    },
+    {
+      "id": "G09_A05-F03",
+      "unidades": [
+        3
+      ],
+      "veto": "cobertura",
+      "evidencia": "Inspetor, trecho literal em ~244s (fora de qualquer faixa; a unidade 3 termina em 209 e a 4 começa em 264): \"Não se apegue ao preto, ao branco, ao amarelo, ao azul, ao rosa, nada disso. Como queremos que o início seja impactante, vamos mudar a cor de acordo com o sentimento que vamos inserir\". Inspetor relata a demonstração ao longo da aula: preto na abertura, vermelho na acusação, azul combinando com a cena da polícia, verde no CTA.",
+      "impacto": "A unidade 3 e sua condição (\"não é uma cor fixa para todo produto\") levam o agente a definir uma cor por produto e mantê-la o criativo inteiro. A aula ensina a trocar a cor de fundo a cada quadro conforme o sentimento do trecho; sem isso, o criativo montado a partir da base sai diferente do método demonstrado.",
+      "mudanca_minima": "Criar unidade nova (número 22, tipo `regra`, tema `direcao-de-arte-e-texto-na-tela`, tarefa `montar-criativo-visual`, plataformas `geral`, faixa em torno de 244 com evidência literal) dizendo que a cor de fundo não é fixa: muda a cada quadro conforme o sentimento daquele trecho, citando só as trocas que a fala nomeia. Alternativa: estender o fim da unidade 3 para cobrir ~244 e acrescentar essa orientação ao corpo, com versao incrementada.",
+      "criterio_de_aceite": "Existe unidade cujo corpo afirma que a cor de fundo muda ao longo da VSL conforme o sentimento de cada trecho, com `evidencia` literal dentro da faixa; inspetor a confere como lastreada e retira a omissão de ~244s da lista."
+    },
+    {
+      "id": "G09_A05-F04",
+      "unidades": [
+        12
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: faixa-errada. Faixa declarada 1745–1753 cobre só o alerta inicial; \"É um mistério\" e \"essa seta eu já testei várias vezes e ela não dá bloqueio\" (trecho literal) estão em ~1757–1770. O corpo e a nota se apoiam nesse trecho. Sozinha (2/21 = 9,5%) não veta; entra por ser erro conhecido que impede verificar a unidade pela faixa.",
+      "impacto": "Quem conferir a fonte pela faixa não encontra o fundamento da recomendação de usar o formato testado nem o da nota de contorno; a âncora de verificação está quebrada.",
+      "mudanca_minima": "Corrigir `fim` para cobrir o trecho citado (≈1770; o redator confere o segundo exato na transcrição). Incrementar versao. Aproveitar para dizer no corpo ou na nota que o formato da seta ficou só na tela.",
+      "criterio_de_aceite": "Todo conteúdo do corpo e da nota da unidade 12 está dentro de `inicio`–`fim`, confirmado pelo inspetor; `evidencia` continua dentro da faixa; validador sem erro."
+    },
+    {
+      "id": "G09_A05-F05",
+      "unidades": [
+        20
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: faixa-errada. Trecho literal \"não tem nenhuma palavra lá escrito Nada em relação A promessa ou a premissa Que você está fazendo\" está em ~2114–2124, fora de 2100–2111, e é a base da frase do corpo \"não consegue checar a promessa ou premissa feita\". O inspetor afirma que na fonte esse é ponto distinto, não consequência de tirar título/subtítulo; a citação por si não prova a separação, então esse ponto vai à reinspeção. Sozinha (2/21) a faixa-errada não veta; entra por ser erro conhecido e por carregar dúvida material de sentido.",
+      "impacto": "Verificação pela faixa impossível. Se os pontos forem distintos, o corpo atribui a \"tirar título, subtítulo e comentários\" um efeito (impedir a checagem da promessa) que a fonte não liga diretamente, e o agente vai afirmar um nexo causal que o professor não fez.",
+      "mudanca_minima": "Estender `fim` para cobrir ~2124. Reler o trecho com a fonte: se a observação sobre promessa/premissa é ponto separado, dividir o corpo em duas afirmações sem nexo causal (tirar textos → Facebook entende como só vídeo; e, à parte, não há promessa escrita); se é consequência direta, manter e registrar a leitura em `correcoes`. Incrementar versao.",
+      "criterio_de_aceite": "Faixa cobre tudo que o corpo afirma; inspetor, na reinspeção, declara explicitamente se a frase de ~2114–2124 é ponto distinto ou consequência e confere o corpo como lastreada sem fusão de sentido."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 7: explicar \"cor alternativa\" na primeira ocorrência com o que a fonte diz (~423s: qualquer cor serve como segunda cor de destaque, reaproveitada nas palavras-chave). O inspetor errou ao dizer que a unidade 10 também usa o termo; o corpo da 10 não usa. Pode ser resolvido junto da unidade nova da F03.",
+    "Unidade 10: acrescentar à nota que a ordem de empilhamento das camadas (logo atrás ou à frente do personagem) é ambígua na fala; retirar `meta-ads` das plataformas e reavaliar a tarefa `revisar-risco-de-bloqueio` se a fala não menciona Facebook nesse trecho; tema `direcao-de-arte-e-texto-na-tela` × `politicas-e-bloqueios` é discutível, pode manter.",
+    "Unidade 12: registrar que o formato específico de seta recomendado só existe na imagem (aula de tela), para o agente não procurar uma descrição que a fala não dá.",
+    "Unidade 8: corpo começa com \"Quando\"; `regra` × `decisao` é classificação discutível entre dois valores defensáveis. Unidade 18: `decisao` × `regra`, idem. Unidade 15: tema/tarefa `edicao-de-video`/`editar-video` × `montar-criativo-visual` para exportação, idem.",
+    "Unidade 15: opcionalmente registrar \"todas as páginas\" como parte do fluxo de exportação; não muda o resultado.",
+    "Perecibilidade: unidades 1, 3, 4, 5, 8, 11 e 13 são regras gerais sem tela, recurso ou número de mercado e estão com `perecivel: true`; avaliar `false`. Não é veto.",
+    "Omissões menores do inspetor, todas com trecho literal, podem entrar como unidades complementares se o redator quiser, sem abrir ciclo: espaçamento entre linhas (~321s), cor de destaque combinando com a cor da cena (~831s), contraste/brilho para escurecer clipe de banco (~1075s), não animar elemento que já é vídeo (~1921s)."
+  ],
+  "proximo": "Rodada 1 de 2. Redator aplica F01–F05 (unidades 19, 20, 12 e nova unidade ou ampliação da 3) e registra em `correcoes`. Reinspeção focal nessas unidades, com hash das intactas preservado. O inspetor deve responder explicitamente a duas perguntas: (a) a frase de ~2114–2124 sobre promessa/premissa é ponto distinto ou consequência de tirar título/subtítulo/comentários? (b) a fala menciona Facebook/Meta no trecho da unidade 10 (1355–1567), para manter ou retirar `meta-ads`? Juiz reavalia só a lista de falhas e os efeitos das alterações."
+}

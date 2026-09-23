@@ -1,0 +1,83 @@
+{
+  "aula": "G03_A02",
+  "arquivo_sha256": "150b89cb8e78891e9a06be7802b36a65506124ceaf93e16cf824356e4956ed61",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2
+  ],
+  "hashes_unidades": {
+    "1": "bd40dd628164e7fa1f1e3aeaf5dbc3479e5494d12cc8ded5f99ebbc614dc07ef",
+    "2": "42589b6d42186760cf25eb3ac6cfd993b1b9d451cc077f42bc2f5853ceca82fc"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A melhor forma disso é você tendo um mecanismo único lindo",
+      "explicacao": "O corpo reproduz a fala: mecanismo único como melhor forma de vender bem, ressalva de que são vários fatores (\"É claro que são um conjunto de vários fatores\") e \"Já é o 80-20 da operação\". Está atribuído ao professor. Os 20 reais que voltam 150 ou 100 ficaram só na nota, como ilustração, e não viraram régua, o que está correto. A faixa 0–48 cobre o conteúdo e a evidência cai dentro dela. Detalhe sem efeito no uso: \"investimento em anúncio\" é leitura do contexto; a fala diz só \"você coloca 20 reais e te volta 150\"."
+    },
+    {
+      "numero": 2,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Entendeu? Porque captar e ensino",
+      "explicacao": "Três pontos, nenhum com efeito grande no uso. (1) \"captar e ensino\" é trecho degradado da transcrição, sem sentido reconhecível na fonte. A unidade o apresenta como exemplo concreto do que o público já conhece, sem aspas, sem nota e com confianca alta. Pelo FORMATO, termo não reconhecível fica entre aspas, com nota e confianca baixa. Quem consulta pode tomar o termo como prática real citada pelo professor. \"Suquinho de osso\" está claro na fonte. (2) A última frase reformula a condição. A fonte diz: \"Se você não souber vender ele\" [3:48], \"Ou seja, o mecanismo único dele. Criar uma boa cópia. E ter a criatividade de você fazer isso. Através de uma promessa simples. Não dá pra vender\". A unidade escreve \"Se o mecanismo único e uma boa copy não sustentam a venda\", que põe a falha nos elementos e não em quem vende, e deixa de fora a criatividade. A transcrição é ambígua nesse trecho e a unidade não a preserva com nota. A mensagem central (promessa simples não vende, por melhor que seja o produto) se mantém. (3) \"Não invente origem para dar novidade\" é imperativo inferido. O professor só diz que Himalaia, África ou receita da avó seria mentira (\"Foi uma coisa que você acabou de inventar\"). \"Para dar novidade\" não está na fala. O 18 quilos em 30 dias é número de caso narrado, mas aparece só como ilustração introduzida por \"como\", não como régua. Faixa 146–240 correta."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 279,
+      "trecho_fonte": "Tipo, ela quer uma coisa fácil, ela quer emagrecer, ela não quer ir para a academia, ela já tentou de tudo, ela já comprou vários procedimentos e não deu certo, o que eu vou fazer para ela comprar o meu produto?",
+      "descricao": "Bloco de 4:00 a 5:15 sem unidade. Diante de um produto bom sem ideia de como apresentá-lo, o professor descreve o comprador de emagrecimento: muitos querem emagrecer, poucos fazem o processo, a maioria gosta de promessas e de coisas fáceis. Ensina a se perguntar \"o que eu vou fazer para ela comprar o meu produto?\", porque a criatividade vem de forma automática. Diz também para estudar o produto e olhar comentários no YouTube.",
+      "gravidade": "material",
+      "efeito_pratico": "O agente não tem o método que a aula dá para gerar a ideia do mecanismo único (perfil do comprador, pergunta-guia, pesquisa em comentários). A unidade 2 só diz o que não fazer e para \"procurar algo diferente\", sem dizer como."
+    },
+    {
+      "inicio": 320,
+      "trecho_fonte": "É você vivenciando aquilo ou convivendo com uma pessoa que tem aquela dor",
+      "descricao": "Técnica central da aula, de 5:15 a 7:09. A chave da criatividade para um produto ou mecanismo único é vivenciar a dor ou conviver com quem a tem. Como preferência e prática pessoal do professor, para copy de emagrecimento ele não olha comentário no Facebook nem a biblioteca de anúncios. Vai a uma pastelaria (a transcrição grafa \"parcelaria\" em 5:45, mas \"comendo um pastel\" e \"pastelaria\" confirmam) e observa a vontade de comer, o que sentem e o que cada um faz. Ele diz que ninguém faz isso. O paralelo com o psicólogo (fingir depressão para ver as armas dele) ilustra a mesma ideia.",
+      "gravidade": "material",
+      "efeito_pratico": "É o método de pesquisa de público e de criação de mecanismo único que a aula ensina, e nenhuma unidade o preserva. Quem consulta não recebe a orientação nem o contraste com a pesquisa em comentários, e não sabe que é a prática pessoal do professor."
+    },
+    {
+      "inicio": 429,
+      "trecho_fonte": "Porque a criatividade, ela não vem do inexistente",
+      "descricao": "Fecho conceitual, de 7:09 a 8:17. A criatividade não vem do inexistente, vem de coisas já pré-moldadas na mente, ilustrado com o sonho, em que a mente não cria rostos que a pessoa nunca viu. Por isso é preciso conhecer lugares novos, pessoas e hábitos para ter base. O professor fecha com \"E esse é o ponto\".",
+      "gravidade": "material",
+      "efeito_pratico": "É o ponto que o professor declara como conclusão da aula e o que justifica a técnica de vivência. Sem ele o agente não sabe explicar por que observar público real e ampliar repertório, e não responde a pergunta \"como ser criativo com um produto\"."
+    },
+    {
+      "inicio": 126,
+      "trecho_fonte": "Quando dá muito errado, você não passa do teste de público",
+      "descricao": "Enquadramento de risco, de 1:57 a 2:24. Criar o produto pela própria criatividade \"ou vai dar muito certo ou vai dar muito errado\". Se dá errado, não passa do teste de público, então \"você só tem a ganhar\", porque a única perda é dinheiro. Para o professor, perda de dinheiro em tráfego pago e marketing digital é investimento a longo prazo.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta a razão do professor para recomendar arriscar um mecanismo único criativo e a ligação com o teste de público. Não impede executar, mas o agente perde o argumento contra a escolha do mais do mesmo."
+    },
+    {
+      "inicio": 64,
+      "trecho_fonte": "Você encontra um produto que já está vendendo muito bem",
+      "descricao": "Resposta do professor à pergunta de abertura (como encontrar o mecanismo único). Ela vem por um mecanismo único \"padrão\" e por um produto que já vende muito bem. Segue o exemplo em que o mercado entende que a copy é o 80-20, mas não consegue fazê-la vender por falta de criatividade, \"e aí é que você entra\". A transcrição está degradada aqui (\"COPE\", \"desembolar\").",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta o ponto de partida indicado (partir de produto que já vende e aplicar a criatividade). Como o trecho é ambíguo, o efeito é limitado; ao preservar, é preciso nota e confianca baixa."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Contexto, última frase: menciona o \"resíduo de legenda\" do fecho. O FORMATO (seção 3) manda não mencionar resíduo de silêncio no contexto. Ajuste menor: retirar a menção.",
+    "Unidade 2 usa \"lead\" no sentido de prospect (\"o lead o vê como mais do mesmo\"), sem dizer qual sentido vale. Na fonte, \"lead\" aparece como início da VSL (\"prometendo no meu lead\") e quem diz \"é mais do mesmo\" é \"ele\", o prospect. O vocabulário do FORMATO pede explicitar o sentido dentro da unidade. Ajuste menor.",
+    "Contexto: \"Assume que o aluno já conhece a ideia de mecanismo único e de copy\" e \"fala para quem cria copy e anúncio de produto digital\" são inferências, não estão dito na aula. Ajuste menor, sem efeito sobre as unidades.",
+    "Unidade 2 agrupa numa só unidade `decisao` a condição do mais do mesmo, a orientação de buscar algo diferente, a proibição de inventar origem e a frase final sobre promessa simples. Não é erro de contrato, mas reforça que o `condicoes` está `null` embora o corpo se limite a produto de emagrecimento. Classificação discutível."
+  ],
+  "material": [],
+  "resumo": "As duas unidades têm lastro na fala e as faixas estão certas. A unidade 1 está fiel. A unidade 2 tem um desvio menor: usa \\\"captar e ensino\\\", trecho degradado da transcrição, como exemplo firme, sem nota. Reformula ainda a condição final sobre promessa simples. O problema principal é a cobertura: os três ensinamentos centrais da aula (pergunta sobre o perfil do comprador, vivência da dor na pastelaria e criatividade que vem de base) não estão em nenhuma unidade. Nenhuma perecibilidade a corrigir e nenhum material de apoio a conferir. O contexto cita resíduo de legenda, o que o FORMATO proíbe."
+}

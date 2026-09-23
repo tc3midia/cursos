@@ -1,0 +1,54 @@
+{
+  "aula": "G04_A02",
+  "arquivo_sha256": "07f0f4061b891c5148728a509309748f7dde84e7c6df5bf311a32f0e89161177",
+  "inspecao_sha256": "9c9d6eed7681594e4717ee7bd1008927041eaec8a9cc306a13875cb324545864",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. O validador devolveu zero erros e zero avisos. Os dois itens que o inspetor pôs em `contrato` (\"quatro sílabas\" na unidade 2, \"lead\" sem sentido declarado na unidade 1) não são erros de script. São explicação de jargão, e eu os tratei em aplicabilidade como ajustes menores.",
+  "fidelidade": "Falha, só por faixa. Não há sem-lastro nem desvio: números, condições e atribuições conferem, com trechos literais e nenhuma citação não literal. O 35 segundos do caso ficou como `exemplo` com a condição certa. O fecho degradado está preservado com `confianca: baixa` e `nota`. O resíduo \"Obrigado.\" não foi usado. O defeito são duas unidades `faixa-errada`, que o inspetor comprova com marcações de tempo e trechos literais. Na unidade 3, a última linha do corpo vem de ~151–166 s e o `fim` é 151. Na unidade 4, a terceira frase vem de ~181–189 s e o `fim` é 174; além disso, os primeiros ~17 s da faixa são de outro assunto. São 2 de 7 unidades com faixa (28,6%), acima do limite de 10% da rubrica. A rubrica trata esse limite como objetivo, independente da gravidade por unidade, então não rebaixo. A evidência é coerente com as próprias unidades: o trecho 151–166 s que o inspetor atribui ao corpo da unidade 3 cai exatamente dentro da faixa declarada da unidade 4. A correção é local, em `inicio`/`fim`, sem reextração.",
+  "cobertura": "Passa. O inspetor declara alcance integral com busca de omissões na fonte inteira (911 palavras, sem material) e não lista nenhuma. As unidades cobrem a definição do formato, a oposição à jornada do herói, os quatro atos, a regra dos 30 segundos e o exemplo de abertura. Os limites registram a recapitulação do Hard Copy e o fecho degradado, que ficou na tela. O Ketsu aparecer só como \"conclusão\" reflete a truncagem da fonte e está registrado em `nota`. Não é omissão.",
+  "perecibilidade": "Passa. O inspetor não sinalizou nada. O exemplo com número de caso (5), o limite sobre o produto irmão (6) e o limite sobre conteúdo de tela e próxima aula (7) estão com `perecivel: true`. As unidades 1 a 4 são orientação de método, sem tela, preço, recurso ou número de mercado escondido em `geral`.",
+  "aplicabilidade": "Passa, com ajustes menores. As sete unidades se sustentam sem a aula ao lado.\n- Tipos: a `estrutura` traz as quatro partes numeradas na ordem da fonte, o `exemplo` tem as três marcas e `condicoes` de caso, e os limites dizem o que a transcrição não captura.\n- \"As quatro sílabas do Kishotenketsu\" (unidade 2) é eco de apontamento de tela, mas o leitor resolve pelo próprio nome do método e pelas unidades 1 e 3. Não muda o uso.\n- \"Lead\" sem sentido declarado (unidade 1) é inequívoco no contexto (quem assiste ao anúncio).\n- O tema `plot-twist` no limite do fecho (unidade 7) e `condicoes: null` na regra dos 30 segundos (unidade 4) são classificações discutíveis entre valores defensáveis.",
+  "falhas": [
+    {
+      "id": "G04_A02-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor marcou `faixa-errada` com trecho literal (\"A base de você criar um bom anúncio\"). A última linha do corpo (base do storytelling: abrir com história bem diferente do que se vende e conectar de forma inteligente) vem de 2:30.96–2:46.2 (~151–166 s), depois de `fim`=151. O núcleo Ki/Sho/Ten/Ketsu (137–151 s) está dentro da faixa e é fiel. Com a unidade 4, são 2 de 7 unidades com faixa errada (28,6%, limite de 10%).",
+      "impacto": "Quem abre a faixa declarada para verificar ou citar a orientação não encontra a frase final do corpo. A âncora de tempo deixa de sustentar a unidade inteira. O trecho da fonte que a sustenta aparece atribuído à faixa de outra unidade (a 4).",
+      "mudanca_minima": "Alterar `fim` da unidade 3 de 151 para ~167 (fim da frase sobre conectar as histórias de forma inteligente, 2:46.2). Não mexer no corpo. Incrementar `versao`. A sobreposição de faixa com a unidade 4 é aceitável.",
+      "criterio_de_aceite": "Na conferência focal, o inspetor confirma que as quatro partes e a linha final do corpo da unidade 3 estão todas dentro de `inicio`–`fim`. O `base_fcc.py` sai com zero erros, com a âncora `evidencia` ainda dentro da faixa. `versao` = 2."
+    },
+    {
+      "id": "G04_A02-F2",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor marcou `faixa-errada` com trecho literal (\"quando você entende que o início é uma desconexão do seu produto,\"). A terceira frase do corpo (\"a venda fica mais simples\") vem de 3:01.3–3:09.0 (~181–189 s), depois de `fim`=174 e dentro da faixa da unidade 5. A regra dos 30 segundos está em 2:48.06–2:54.48 (~168–174 s). Os primeiros ~17 s da faixa (151–168 s) são do assunto da unidade 3.",
+      "impacto": "A faixa declarada não contém um terço do corpo e começa em trecho de outro assunto. Quem confere a regra pela faixa não acha a justificativa e encontra, no início, fala que pertence a outra unidade.",
+      "mudanca_minima": "Alterar `fim` da unidade 4 de 174 para ~190, cobrindo a frase até 3:09.0. Opcional no mesmo passe: subir `inicio` para ~166, desde que a âncora `evidencia` continue dentro da faixa e o validador passe. Alternativa equivalente: retirar a terceira frase do corpo e manter `fim`=174. Incrementar `versao`. A sobreposição com a unidade 5 é aceitável.",
+      "criterio_de_aceite": "Na conferência focal, o inspetor confirma que todas as frases do corpo da unidade 4 estão dentro de `inicio`–`fim`. O `base_fcc.py` sai com zero erros, com a âncora `evidencia` dentro da faixa. `versao` = 2. Depois da correção, a aula fica com no máximo 10% de unidades `faixa-errada` (na prática, zero)."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: trocar \"as quatro sílabas do Kishotenketsu\" por \"os quatro atos (Ki, Sho, Ten, Ketsu)\", ou explicar a expressão. Na fala, o professor apontava para a tela. Motivo: clareza para quem lê sem a aula. Não muda a decisão, porque as unidades 1 e 3 resolvem a referência.",
+    "Unidade 1: dizer que \"lead\" é o prospect que assiste ao anúncio ou à VSL, como o FORMATO pede para esse termo. Sem efeito no uso.",
+    "Unidade 1 (`nota`): a grafia \"não interessa em show\" não está na tabela de grafias. A nota deveria dizer que a identificação como Kishotenketsu vem do título da aula e do contexto (quatro atos), e não \"segue a tabela\". `nota` não entra no hash.",
+    "Unidade 4: \"o foco é só chamar a atenção\" acrescenta \"só\". A fonte diz \"o foco é chamar a atenção\". Pode ser corrigido no mesmo passe de F2, porque o hash da unidade já muda.",
+    "Unidade 4: `condicoes` poderia registrar que é orientação dada dentro do método do professor (abertura desconectada do produto). Classificação discutível, não muda o uso.",
+    "Unidade 5: em `Lógica`, \"captura o público inteiro\" é mais forte que a fonte, que diz \"a maioria das pessoas\" e \"o máximo de pessoas possíveis\". Alinhar com \"a maioria\", que o próprio `O que aconteceu` já usa.",
+    "Unidade 5: \"funciona nos anúncios dele\" vem de \"se você acompanha a gente no Instagram, você sabe que isso realmente funciona\" (240.4–244.5 s), que não cita anúncios e fica 0,4 s depois de `fim`=240. Reescrever como afirmação do professor de que funciona e, se o corpo for tocado, estender `fim` para ~245.",
+    "Unidade 6: a última frase (\"O aprofundamento dos atos não é dado nesta aula\") é inferência de \"recapitulada\" e a fonte não a diz. Suavizar ou retirar. Sem efeito prático.",
+    "Unidade 7: o tema `plot-twist` para um limite de fecho degradado é discutível. `curso-e-recursos` seria igualmente defensável, já que o trecho não ensina o terceiro ato."
+  ],
+  "proximo": "Esta reprovação abre o ciclo 1 de correção (de 2).\n1. O redator aplica só F1 e F2: `fim` das unidades 3 e 4, `inicio` da 4 se quiser, e `versao`+1. Não há reextração.\n2. Rodar `base_fcc.py` e confirmar zero erros, com atenção à âncora `evidencia` dentro das novas faixas.\n3. Fazer a conferência focal do inspetor nas unidades 3 e 4, cujos hashes mudam. As unidades 1, 2, 5, 6 e 7 preservam a evidência atual se não forem tocadas.\n4. O ajuste de \"só\" na unidade 4 pode entrar no mesmo passe sem custo.\n5. Os ajustes de corpo nas unidades 1, 2, 5 e 6 mudam o hash e ampliariam a conferência. Ficam a critério da coordenação e não são condição de aceite. A correção da `nota` da unidade 1 não altera o hash.\n6. Com F1 e F2 aceitas e nenhum efeito colateral, a aula passa."
+}

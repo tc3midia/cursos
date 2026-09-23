@@ -1,0 +1,74 @@
+{
+  "aula": "G07_A06",
+  "arquivo_sha256": "5bb068e7796deb6874ba1e12016e8d24b485ecb444600ec58f29145e7e73905e",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "5da21fb99dc1997a2c09159731fcf9504ba2ba11f707faed12f50e0860783aa9",
+    "2": "526275303a13a00b05f673ac77f788514e027f481faf9838f15d6e4f5a3081d9",
+    "3": "662b31737e1948fd0f54ea50570f8be380be1e066b4bfa09c60da3d3077347cc",
+    "4": "f9d4134fd92ab5df2160f26d20b6a8f79d8f114442f61a003336a57d953e363e",
+    "5": "e77e4efecd46e69491aeab1134c0c23d5cf0050c758b07c3a5b927e7ab5e90a2"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "a gente joga isso aqui pro outro",
+      "explicacao": "A faixa (44–118s) cobre exatamente o trecho em que o professor organiza as falas da neta e da avó na timeline usando só apontamentos dêiticos (\"aqui\", \"isso\", \"bem aqui\", \"joga a da tiazinha aqui\", \"tira as partes em branco\"), sem nomear a ação com precisão. A unidade descreve corretamente essa limitação e classifica como `limite`, tipo adequado ao conteúdo (\"aula de tela\" que não pode ser reconstruída pela fala). Sem efeito prático negativo."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "então faz um negócio mais simples, mais bem feito",
+      "explicacao": "O professor introduz a orientação com \"Lembrando que sempre quando você for fazer uma animação, não coloque coisas muito loucura [...] isso aqui, cara, mata o negócio [...] então faz um negócio mais simples, mais bem feito\" — o \"sempre\" sustenta o tratamento como regra geral de edição, e não como preferência pontual. O corpo da unidade preserva o sentido (evitar exagero, preferir simplicidade) sem inventar número ou condição. Sem efeito prático negativo."
+    },
+    {
+      "numero": 3,
+      "veredito": "sem-lastro",
+      "gravidade": "material",
+      "trecho_fonte": "a gente vai dar um ctrl b aqui e fazer",
+      "explicacao": "A fala mostra apenas a ação: \"a gente vai dar um CTRL B aqui e fazer, tá, isso aqui, vamos remover o iniciozinho dessa música aqui, aumentar um pouquinho o volume\" — em nenhum momento o professor explica o que o atalho faz. O corpo da unidade afirma como fato que \"o atalho CTRL+B divide (corta) o clipe de áudio ou vídeo no ponto do cursor\", uma explicação de mecanismo que só poderia vir da imagem (ver o corte acontecer) ou de conhecimento externo sobre o CapCut — exatamente o tipo de completude não autorizada pela regra de aula de tela (\"passo que só poderia vir da imagem é sem-lastro\"). Efeito prático: um agente que consulte a unidade recebe como ensinado pelo curso um detalhe técnico (comportamento exato do atalho) que a aula não confirma; se a explicação estiver imprecisa, o agente erra a expectativa sobre a ferramenta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "vamos colocar aqui um terror no início",
+      "explicacao": "A estrutura de som (terror no início; filtro preto e branco + efeito de erro; suspense/épica testados no meio; \"Glory\" guardada para o final) está sustentada pela fala dentro da faixa. Mas o corpo acrescenta framing interpretativo que a fala não diz literalmente: \"no momento em que a neta se assusta ao ver a avó com o calçado novo\", \"numa virada da história\" e \"junto da chamada de ação final\" são inferências razoáveis do extrator a partir do roteiro do anúncio, não afirmações do professor. Além disso, na ordem real de fala o professor menciona a música \"Glory\" (dizendo que vai deixá-la para o final) antes de discutir o filtro preto-e-branco/efeito de erro e as músicas de suspense/épica — a unidade reordena para refletir a posição final no anúncio, não a ordem de narração. O `nota` já sinaliza parte dessa incerteza (escolha de música feita visualmente) e a `confianca: media` é adequada, então o impacto prático é baixo, mas a moldura narrativa acrescentada extrapola o que a fala afirma."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você cria um anúncio em cima do que o cliente está querendo ver que é o produto",
+      "explicacao": "Os cinco passos (produto como gancho, história desconectada conectada ao produto, várias imagens/vídeos do produto, som e locução — com ElevenLabs citado corretamente via nota — e CTA forte com fotos do produto) seguem de perto a fala dentro da faixa 665–712s, na mesma ordem em que o professor os enuncia. A generalização para \"produto físico\" está no próprio discurso do professor (\"Produto físico é isso aqui\"), não é invenção do extrator, e as `condicoes` deixam claro que é sobre o exemplo de Comfort Size. Sem efeito prático negativo."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 4 (tipo `estrutura`, tema `som-e-sentimentalismo`): o conteúdo é a sequência de escolhas de som feitas pelo professor para este anúncio específico de exemplo (Comfort Size), sem que ele enuncie explicitamente uma regra geral do tipo \"sempre comece com terror, depois...\" — ao contrário da unidade 5, em que há uma generalização explícita (\"Produto físico é isso aqui\"). Isso a aproxima mais de um `exemplo` (caso narrado, com Situação/O que aconteceu/Lógica) do que de uma `estrutura` reutilizável como molde geral; a classificação atual pode levar um agente a tratar como template universal algo que a fala apresenta como decisão pontual de edição. Ajuste sugerido: reclassificar como `exemplo` ou reforçar em `condicoes`/corpo que é a lógica de sonorização daquele anúncio específico, não uma régua fixa de ordem de efeitos."
+  ],
+  "material": [],
+  "resumo": "O arquivo desta aula (edição no CapCut de um anúncio fictício de calçados) está majoritariamente lastreado: as unidades 1, 2 e 5 refletem bem a fala, com faixas, números e generalizações corretamente atribuídos, e a unidade 5 preserva de forma fiel a atribuição ao professor e a marcação de ElevenLabs. A unidade 3 tem um problema material de fidelidade: atribui ao atalho CTRL+B do CapCut um comportamento específico (\\\"divide o clipe no ponto do cursor\\\") que a fala nunca explica, configurando sem-lastro por completude externa em unidade do tipo `ferramenta`. A unidade 4 é essencialmente correta, mas acrescenta framing narrativo interpretativo e reordena um item (a música \\\"Glory\\\") de um jeito que não segue estritamente a ordem de narração da fonte, o que é apenas ajuste menor; sua classificação como `estrutura` (em vez de `exemplo`) também merece reconsideração. Não foram encontradas omissões de conteúdo didático relevante, divergências de material (a aula não tem material de apoio) nem problemas de perecibilidade — os poucos itens perecíveis (CapCut, ElevenLabs) já estão corretamente marcados."
+}

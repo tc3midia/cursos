@@ -1,0 +1,37 @@
+{
+  "aula": "G10_A03",
+  "arquivo_sha256": "aa5bd7460a21311c737edceb4c0262e37f43b4dc0b3bc2c880b0c693dfae1472",
+  "inspecao_sha256": "085f89bfaeccd7be589166891e4b25bc587dfc1b50cc1c465d16d184f25d0cef",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Unidades 1 e 3 lastreadas com trecho literal dentro da faixa; a nota de contorno de política da unidade 1 está no formato exigido e o resíduo final \"Obrigado.\" ficou de fora. A unidade 2 é faixa-errada comprovada: o inspetor cita literalmente \"é só pra não deixar a voz no ar\" e a localiza em ~73.8–84.5s, fora da faixa declarada 119.58–135.82; a evidência e a afirmação central estão dentro da faixa, mas parte do corpo não. Com 1 de 3 unidades com faixa (33%), o limiar de 10% da rubrica está ultrapassado ⇒ veto. Sem desvio nem sem-lastro apontados.",
+  "cobertura": "Inspeção com alcance integral e busca de omissões declarada; nenhuma omissão. Fonte de 443 palavras coberta pela regra de corte (u1), pelo efeito do fundo contínuo no sentimentalismo (u2) e pelo limite que remete a prática ao episódio seguinte (u3). Passa.",
+  "perecibilidade": "Unidade 1 com perecivel:true, plataforma meta-ads e nota de contorno; unidade 3 com perecivel:true por referir estrutura do curso; unidade 2 é geral e não contém tela, recurso, preço ou data. Inspetor não apontou perecível escondido. Passa.",
+  "aplicabilidade": "As três unidades se sustentam sem a aula ao lado: u1 nomeia a plataforma (\"o professor cita o Facebook\") e o que fazer; u2 é regra fechada; u3 é limite que diz o que ficou para depois. Tipos, temas, tarefas e plataformas levam ao lugar certo (politicas-e-bloqueios + revisar-risco-de-bloqueio em u1; som-e-sentimentalismo + sonorizar-video em u2). \"lead\" em u2 sem indicação explícita do sentido é ajuste menor, porque \"comprar\" e \"com sono\" deixam claro que é o prospect. Passa.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        2
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor (trecho literal, não listado em citacoes_nao_literais): \"é só pra não deixar a voz no ar\" está em 00:01:13.820–00:01:24.480 (~73.8–84.5s), fora da faixa declarada 119.58–135.82. O corpo da unidade usa essa fala em \"como música de fundo genérica só para não deixar a voz no ar\". A evidência e a afirmação central (\"Todas as vezes que utilizarmos uma música... não vai trazer o sentimento... o lead tome sono\") estão dentro da faixa. 1 de 3 unidades com faixa = 33% > 10%.",
+      "impacto": "Quem consulta e vai à transcrição pela faixa declarada não encontra a parte do corpo que caracteriza o erro como 'música só para preencher o silêncio'; a faixa deixa de servir como trilha de verificação para essa oração e a unidade fica parcialmente não auditável.",
+      "mudanca_minima": "Opção preferida: ajustar `inicio` da unidade 2 para o começo do trecho em que o professor fala em não deixar a voz no ar (~73.8s, conforme o inspetor), mantendo `fim` 135.82 e a `evidencia` atual; sobreposição com a faixa da unidade 1 não é proibida. Alternativa: remover do corpo a oração \"como música de fundo genérica só para não deixar a voz no ar\" e manter a faixa. Em qualquer caso, incrementar `versao` para 2 e registrar em `correcoes`.",
+      "criterio_de_aceite": "Inspetor reconfere a unidade 2 com a fonte e a reclassifica como `lastreada`, atestando que toda oração do corpo tem lastro dentro de `inicio`–`fim`; `evidencia` continua dentro da faixa; validador com zero erros; `versao` = 2; hashes das unidades 1 e 3 inalterados."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: indicar na primeira ocorrência que \"lead\" aqui é o prospect (a pessoa que assiste), conforme o vocabulário do FORMATO pede para esse termo de dois sentidos; o contexto já deixa claro, por isso não é veto.",
+    "Unidade 1: o corpo diz \"tende a fazer o vídeo tomar aviso de direito autoral\" enquanto os trechos citados pelo inspetor são categóricos (\"ele vai tomar copyright, ele vai tomar ban\"); manter a formulação categórica do professor evita atenuar a orientação. Não muda a decisão de quem consulta.",
+    "Unidade 3: tema `som-e-sentimentalismo` com perecivel:true é defensável; `curso-e-recursos` também seria. Classificação discutível, não abre ciclo."
+  ],
+  "proximo": "Redator aplica F1 na unidade 2 (preferir ajustar `inicio` para ~73.8s; alternativa, retirar a oração do corpo), incrementa `versao` e registra em `correcoes`. Inspetor reconfere apenas a unidade 2, confirmando que todo o corpo está dentro da faixa; unidades 1 e 3 preservam a evidência por hash intacto. Ajustes menores podem entrar na mesma edição sem nova conferência dedicada. Segue para julgamento de rodada 2 (ciclo 1 de 2)."
+}

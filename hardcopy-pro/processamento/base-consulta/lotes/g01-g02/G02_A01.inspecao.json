@@ -1,0 +1,75 @@
+{
+  "aula": "G02_A01",
+  "arquivo_sha256": "19da2d69e7558f856732ea9bda1465333206a4f6d6f65264bc7c264a4be5efc5",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "596851074a7656f28a2e4814d29a294ec99b016d872803cd9f852e00920681bb",
+    "2": "5572e95ae5441ef44458d1975ae9b2349ddf7b7c3c626c8ecddf9807ddc9a325",
+    "3": "060cefd31d32a2837409626182c55d8fba1919e8d5958e66c7dc4bf5d663e085",
+    "4": "ef99dfbc4fefcbc323b4288bc0d39a7f04b32d6b2765de65ab80df058149915c",
+    "5": "5e6fb15cdded29e51df5d6d30d9e7777fda08b282d8006d892d4afbcac0884ed"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu sei que já fizemos uma primeira temporada sobre isso, mas é importante frisar que se você não entender os mecanismos básicos para a criação de uma cópia bem feita para um tipo de produto, não vai adiantar você aplicar o Kinshu.",
+      "explicacao": "A condição central está fiel: sem os mecanismos básicos de copy para um tipo de produto, aplicar o Kishotenketsu não adianta. A grafia adotada está correta e a evidência está dentro da faixa (30–45,76 s). O corpo acrescenta uma frase de encadeamento (\"Por isso a segunda temporada parte do que a primeira já ensinou e não substitui esse fundamento\") que o professor não diz nesses termos. Ele só diz \"já fizemos uma primeira temporada sobre isso\" e, mais adiante, manda rever a primeira temporada como base. A inferência é coerente e não muda o uso. Fica como ajuste menor."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, eu separei essa temporada em 10 aulas, onde cada aula vai explicar a base da nossa cópia sobre o Kinshu, tá bom?",
+      "explicacao": "São 10 aulas, e a aula 9 traz uma VSL preparada por ele (\"Uma BSL que eu preparei\"), com abertura degradada em \"estruco de uma criança\", um plot twist para vender um produto e \"É pesado né\". A unidade preserva a degradação com `nota` e `confianca: media` e não inventa a cena. Ela usa a definição de plot twist do vocabulário do FORMATO, o que é permitido. O único ponto solto é \"aplica tudo numa VSL\". O professor diz só \"Eu vou colocar na prática\", sem dizer \"tudo\". O efeito é pequeno. A faixa 45–80 cobre o conteúdo, que termina em 79,96 s."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A primeira temporada novamente",
+      "explicacao": "Fiel à fonte: \"Caso você tenha alguma dúvida / Reveja a aula novamente / Eu aconselho / Que você reveja / A primeira temporada novamente / Pegue de base / Os ensinamentos dela / Para você aplicar na sua copy / Juntamente com o estudo / Que você vai fazer com essa temporada\". A aconselhamento está atribuído ao professor. A evidência (88,06–95,44 s) e todo o conteúdo estão dentro de 80–102."
+    },
+    {
+      "numero": 4,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "E a prática leva a perfeição",
+      "explicacao": "O núcleo da unidade (não tratar como só conhecimento; ligar o computador, ir no Word e colocar em prática) está fiel e dentro da faixa 103–123 (evidência em 113,06–120,98 s). O fecho do corpo, \"porque a prática leva à perfeição\", vem da fala de 126,76 a 129,22 s, fora de 103–123. Entre os dois trechos vêm \"Eu sou a prova viva disso\" e \"Com 6 anos tentando\", que são testemunho. Quem conferir a faixa não encontra essa razão. A correção é estender `fim` até cerca de 129,6 s (\"Entendeu?\" termina em 129,58 s), sem invadir a unidade 5, que começa em 130. Há 1 faixa-errada em 5 unidades com faixa, então o limiar de 10% da rubrica é atingido em número, embora o desvio seja pequeno e pontual. O `\"começar a escrever\"` do corpo é inferência razoável (\"Vai no Word\", \"aplicar na sua copy\") e não é problema."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É o meu WhatsApp pessoal",
+      "explicacao": "A condição está preservada: dúvida persistente depois de rever as aulas leva ao botão de suporte, que é o WhatsApp pessoal do professor. O compromisso \"eu vou tirar todas as suas dúvidas possíveis\" aparece atribuído a ele, então não vira promessa da base. Evidência (141,58–143,46 s) e conteúdo estão dentro de 130–150. Em `condicoes`, \"na época da gravação\" não está na fonte. É uma ressalva temporal acrescentada pelo extrator, conservadora e sem efeito no uso, por isso só menor."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Ajuste menor, classificação discutível: nas unidades 1 e 4, que são orientações de estudo/copy, a tarefa `usar-recursos-do-curso` só existe porque o enum não tem tarefa melhor, e ela força `perecivel: true`. Na unidade 1 (tema `kishotenketsu`, fundamento de copy) isso deixa como perecível um princípio que não depende de recurso do curso. Na unidade 2 o tipo `limite` foi escolhido por eliminação, como diz a própria `nota`. Ele descreve a estrutura da temporada e antecipa a aula 9, o que é defensável mas não é um limite no sentido estrito. Nenhum dos dois leva o agente ao lugar errado.",
+    "Cópia bruta: nenhuma unidade tem sequência de 25 palavras idêntica à fonte. Os tipos casam com as regras do FORMATO: `decisao` começa com \"Se \", `regra` sem exigência de número, e as duas unidades com `confianca` diferente de alta trazem `nota`."
+  ],
+  "material": [],
+  "resumo": "As 5 unidades foram conferidas contra a transcrição inteira, e não há material de apoio nesta aula. Quatro estão lastreadas, com ajustes menores de redação: uma frase de encadeamento na unidade 1, \\\"aplica tudo\\\" na 2 e a ressalva \\\"na época da gravação\\\" na 5. A unidade 4 tem `faixa-errada`: a razão \\\"a prática leva à perfeição\\\" está em 126,76–129,22 s, fora de 103–123. Isso é 1 em 5 unidades com faixa. Não encontrei omissão didática (o resto é testemunho e filler) nem perecível sem marca, e a única correção necessária é estender o `fim` da unidade 4."
+}

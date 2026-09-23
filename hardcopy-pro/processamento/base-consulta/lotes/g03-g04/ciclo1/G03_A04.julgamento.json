@@ -1,0 +1,28 @@
+{
+  "aula": "G03_A04",
+  "arquivo_sha256": "ee8226a12e424671df8c5a24cd69b8e9a23bcf6781340bd6e743428357fceaba",
+  "inspecao_sha256": "a8582728c912eeeb8ffb6154c37577daea057c7ca514b62575273f39fc60a209",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "O validador retornou zero erros e zero avisos. `versao` de U3 é 2, e a alteração está registrada no ciclo 1 de `correcoes`. O primeiro item da lista `contrato` do inspetor diz que o `condicoes` de U3 (\"deve antes rever o treinamento\") contradiz o corpo. Esse item é resíduo acumulado da inspeção anterior: o texto citado não existe mais na unidade, e o próprio inspetor declara F1 resolvida no veredito de U3. Não o considero. Os outros itens dessa lista são classificações discutíveis, e o próprio inspetor os marca como ajuste menor.",
+  "fidelidade": "F1 está resolvida. O `condicoes` de U3 agora diz \"A quem insistir, ele diz que pode ir e que volte dali a dois meses para rever o treinamento\". Essa é a ordem do trecho literal do inspetor: \"beleza, pode ir, pode ir, aí daqui a dois meses você volta nesse treinamento\". A revisão do treinamento deixou de ser pré-requisito. Corpo e condição dizem a mesma coisa. O corpo não mudou, mantém \"não indico\" e continua atribuído ao professor como preferência. A correção não criou desvio novo.\n\nAs seis unidades estão lastreadas e todas têm trecho literal; `citacoes_nao_literais` está vazia. Três ressalvas são menores e não mudam a decisão de quem consulta:\n- U1: a frase final é ligação do extrator.\n- U5: \"provavelmente\" suaviza o \"tenho certeza\" do professor.\n- U6: a faixa está curta nas duas bordas.\n\nMantenho U6 como lastreada, como o inspetor classificou. O conteúdo central e a âncora estão dentro da faixa, o julgamento anterior não abriu falha por isso, e o hash da unidade não mudou.",
+  "cobertura": "Não há omissões listadas. A inspeção integral anterior, preservada, cobriu as seis unidades e buscou omissões. A inspeção focal declara que a correção não gerou omissão. A aula é curta, com 1186 palavras, e as seis unidades cobrem o que ela ensina: a definição de experiência, viver a situação do público, a contraindicação do nicho de emagrecimento com a ressalva do professor, os dois perfis de público, partir do que se vive e o caso do Spotify. Os exemplos laterais que ficaram de fora, pastelaria e psicólogo, não contam como omissão.",
+  "perecibilidade": "Não há apontamentos. U3 cita produtos irmãos do curso (Hard Copy, tráfego pago, renda extra) e está com `perecivel: true`, o que é correto. As outras unidades são orientação geral, sem tela, preço, data ou recurso de plataforma. A menção a uma série em streaming em U6 faz parte do caso narrado. A `nota` e o `condicoes` dessa unidade já registram que os fatos não foram verificados.",
+  "aplicabilidade": "As unidades se sustentam sozinhas. U3 começa com \"Se\", descreve o perfil, a recomendação, a ressalva e a consequência, e `condicoes` agora concorda com o corpo. Ficam como ajuste menor três classificações entre valores defensáveis:\n- U5 e U6: a tarefa `definir-mecanismo-unico`.\n- U4: o tema `publico-e-segmentacao`.\n- U6 e contexto: a referência a \"aula seguinte\".\n\n\"Capacidade\" fica sem definição porque a fonte não a define, e o FORMATO proíbe inventar uma. Nenhum desses pontos leva o agente a uma ação errada.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U6: a faixa está curta nas bordas. A apresentação da série e do \"Pilot Bay\" citado na `nota` fica em 305–321 s, e o anúncio da próxima aula em 383,6–386,7 s. Sugestão do inspetor: `inicio` ≈ 305 e `fim` ≈ 387. Não abre ciclo, porque o conteúdo central e a evidência estão dentro da faixa atual.",
+    "U6 e contexto: \"tema da aula seguinte\" e \"Deixa para a aula seguinte\" dependem da ordem do curso. Trocar por algo como \"tema que o professor deixa para a próxima aula, sem defini-lo aqui\".",
+    "U5 e U6: a tarefa `definir-mecanismo-unico` é discutível. A aula não fala em mecanismo único; trata de achar ideia de produto pela experiência vivida. Avaliar a remoção ou deixar só `pesquisar-publico-e-subnicho` em U5.",
+    "U4: o tema `publico-e-segmentacao` foge da definição da taxonomia (funil, classe, quem decide a compra). `subnicho-e-pesquisa-de-publico` seria mais próximo. O título fala em \"o erro de cada\", mas a fonte trata o veterano como público difícil de fisgar, e não como quem erra.",
+    "U1 e contexto: \"enxergar o que os outros não veem\" é ligação do extrator. A fonte diz \"olhar as coisas de uma forma totalmente diferente\". Aproximar da fala.",
+    "U5: \"provavelmente há algo\" suaviza o \"eu tenho certeza que existe algo\" do professor e deixa a afirmação sem atribuição. \"Ou faz\" é acréscimo leve. Sugestão: \"o professor diz ter certeza de que existe algo…\".",
+    "U3: \"em cerca de dois meses\" no corpo contra \"daqui a dois meses\" na fonte. Não afeta o uso.",
+    "Inspeção: `alcance` diz que o hash das unidades intactas foi conferido como inalterado, e `resumo` diz que os hashes não foram conferidos. Aceito o item (d) do critério de aceite pela declaração do executor na conferência (hash inalterado, evidência preservada) e porque `--reviews` rejeita laudo com hash divergente. Registro a inconsistência de redação do inspetor."
+  ],
+  "proximo": "A falha F1 foi corrigida no ciclo 1, e a aula pode seguir para `revisado`. Falta rodar `base_fcc.py --reviews` para confirmar por script que os hashes de U1, U2, U4, U5 e U6 batem com os da inspeção preservada. Os ajustes menores ficam registrados para uma eventual passada editorial e não abrem ciclo."
+}

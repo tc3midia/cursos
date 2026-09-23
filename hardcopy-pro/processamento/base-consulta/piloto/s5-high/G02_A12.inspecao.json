@@ -1,0 +1,128 @@
+{
+  "aula": "G02_A12",
+  "arquivo_sha256": "2b92062c2eae9c4573f1751598ba22db6ee6fea45c443bf7d3fee21eb6992e99",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hashes_unidades": {
+    "1": "e8c5a9b19dfd96a6bee3ca69a74e63336745644283f816440362df17f442b8e6",
+    "2": "0050b92f73e225d5ab5d24151e348ae49009d6ececf2769cea6b595a47ed063e",
+    "3": "dd2145f50920b10bbd947f20c23b1ee142507f2aef34f04d7dbdce7ab32e9282",
+    "4": "7b58d7083f60bf9f048adcc125470852918db12230a014474bd6fbb61fb3a735",
+    "5": "675e20888723beb066b946bd59ff07b5a253bd300233df58e9cfad18e1900b45",
+    "6": "8e41eee23ab7ba430f2daa43657e85bf3b1dc1a049659e52a3c3ab06d7584c64",
+    "7": "f0a6b3ce53c6e7d12c41f6a97c5d53a538f3cabbeec2a5092a1ac93bc567521d",
+    "8": "141f887053744e21331f7e5e850970334d32461cdd3ba52ad03c15917fdf843b",
+    "9": "fec468801248061ac82c6671d5d08367313642fa1e21edc54e537c1cc5a71cdd",
+    "10": "43ab6373f26518b781918b65253bec0fca7fd3175396ac8a51a79fbeeccc47f6"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Uma boa copy faz a intermediação entre uma dor criada e uma boa oferta. A estrutura não depende apenas do formato narrativo: deve partir de fatos já presentes na mente do lead. Se a VSL começa com uma história diferente, mas não estabelece conexão com a oferta, ela fica desconexa.",
+      "explicacao": "O corpo reproduz as três ideias do material sem número, condição ou sentido alterado. A glosa \"o prospect\" segue o sentido comum de lead que o FORMATO admite. A evidência é literal."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Uma boa copy, por si só, não explica todo o resultado de uma VSL. O material atribui grande parte da decisão de compra ao mecanismo único e ao produto.",
+      "explicacao": "A atribuição ao material está preservada e a glosa de mecanismo único bate com o vocabulário do FORMATO. O corpo acrescenta \"Ao diagnosticar uma VSL que não vende, não culpe só o texto\", que o material não diz. É uma inferência prescritiva no mesmo sentido da fonte, então não muda a decisão de quem consulta, mas a frase é da extração e não do material."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O produto está claro? Você sabe o que está vendendo?",
+      "explicacao": "As duas perguntas antes de escrever e as perguntas de conferência da VSL estão todas no material, com a ordem \"antes\" e \"depois\" preservada. A unidade junta \"produto claro\" e \"sabe o que está vendendo\" numa frase e chama o conjunto de \"cinco perguntas\". A contagem bate com as cinco interrogações do material. A evidência é literal, mas está dentro da faixa da lista, não em uma frase isolada."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O documento observa que a jornada do herói é muito comum no digital e propõe o **Kishotenketsu** como outro formato narrativo.",
+      "explicacao": "A observação e a proposta estão atribuídas ao material. Os quatro atos e os rótulos Ki (introdução), Sho (desenvolvimento), Ten (plot twist) e Ketsu (conclusão) vêm dos títulos das seções. O tipo conceito, com `tarefas` vazio, é permitido."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Depois do pitch de vendas, retome a oferta por outro ponto de vista para ajudar o lead a decidir. Em seguida, apresente informações práticas, como garantia e plataforma, e convide à ação sem implorar.",
+      "explicacao": "As quatro partes estão na ordem da fonte e cada função bate com a seção correspondente. A omissão de \"agradeça e encerre\" e das condições finas fica coberta pelas unidades 6 a 9. Não há desvio."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Dê pistas do que virá na VSL. O documento chama essas pistas de *vestígios*: o futuro plot twist pode estar à vista sem que o lead o perceba.",
+      "explicacao": "As três orientações do Ki estão preservadas, inclusive a citação de tragédia, violência sexual e acontecimentos difíceis como exemplos de temas que provocam atenção, atribuída ao material. A `nota` não endossa o uso. Não há desvio de fidelidade. O problema de cópia bruta deste corpo está em `contrato`."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Evite afirmações de venda como “confiança”, “juro”, “prometo” e “sincero” antes de preparar o lead. O documento ressalva o nicho de marketing digital.",
+      "explicacao": "Corpo, condição \"antes de preparar o lead\" e o aviso de que o material não detalha a ressalva estão preservados, com `confianca` media e `nota`. A `condicoes` diz que a ressalva é \"sobre palavras de confiança\". A fonte só a coloca logo depois desse item, sem dizer a que ela se refere. Essa leitura é razoável e a `nota` admite que a ressalva não foi detalhada. O corpo não menciona a ressalva, que fica só em `condicoes` e `nota`."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Depois de um plot twist forte, apresente o produto sem desconto.",
+      "explicacao": "As quatro orientações do Ten estão no corpo com o mesmo sentido. \"Sem desconto\" mantém a redação ambígua da fonte, sem completar."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O documento recomenda não usar uma garantia de apenas sete dias como argumento de destaque.",
+      "explicacao": "O conteúdo do Ketsu está fiel: retomar a oferta por outro ponto de vista, informações práticas, convite sem implorar, garantia de sete dias sem destaque, confiança demonstrada sem as palavras, agradecer e encerrar. A recomendação sobre a garantia está atribuída ao documento. O corpo é cópia quase literal do material, o que é erro de contrato e está em `contrato`."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Não presuma que a permanência do lead no vídeo significa decisão de compra: ele ainda pode estar avaliando a oferta. Mantenha a qualidade do texto até o fim.",
+      "explicacao": "A condição (o lead pode ainda estar avaliando) e a orientação final estão preservadas. O \"Por isso\" liga duas frases que o material põe no mesmo item, então não muda o sentido."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 9, cópia bruta (erro mecânico). O corpo repete o material palavra por palavra, ignorando pontuação e marcadores de lista. A sequência vai de \"depois do pitch de vendas, retome a oferta por outro ponto de vista para ajudar o lead a decidir. Em seguida, apresente informações práticas como garantia e plataforma, e convide à ação sem implorar\" até \"O documento recomenda não usar uma garantia de apenas sete dias como argumento de destaque\". Isso dá 49 palavras contíguas, contra o limite de 25. Precisa ser reescrito como paráfrase. O script deve confirmar.",
+    "Unidade 6, cópia bruta (erro mecânico). Contando à mão, há uma sequência de 30 palavras idênticas ao material: \"temas que provocam atenção. Dê pistas do que virá na VSL. O documento chama essas pistas de vestígios: o futuro plot twist pode estar à vista sem que o lead\". A sequência só quebra em \"o perceba\", que no corpo está como \"perceba\". Ultrapassa 25 palavras e precisa ser parafraseada. O script deve confirmar.",
+    "Jargão sem explicação na primeira ocorrência (menor, aplicabilidade). \"lead\" aparece nas unidades 3, 5, 6, 7, 8, 9 e 10 sem dizer o sentido (o FORMATO exige indicar qual dos dois sentidos vale); só a unidade 1 dá a glosa \"o prospect\". \"pitch\" (5, 9) e \"plot twist\" (4, 5, 6, 8) também entram sem explicação. Um agente que leia só uma dessas unidades não sabe o que são.",
+    "Unidade 6, `condicoes` (menor). O texto é uma nota de procedência (\"Orientação do material avulso; os exemplos de temas difíceis são citados por ele, sem detalhamento\") e não uma condição de aplicação. Pode levar a crer que a orientação só vale sob alguma exceção. `condicoes` deveria ser `null`, ou dizer que o material cita os exemplos sem detalhar.",
+    "Unidade 2, tarefa `definir-mecanismo-unico` (menor, discutível). A unidade só diz que o mecanismo único pesa na decisão de compra e não ensina a achá-lo ou formulá-lo. Quem consulta essa tarefa chega aqui sem nenhum método."
+  ],
+  "material": [],
+  "resumo": "Conferi as 10 unidades contra o material e percorri o material inteiro atrás de omissões. Todas as unidades são lastreadas. Nenhuma omissão relevante e nenhum item perecível sem marca. Divergência de fala e material não se aplica, porque só há material. O problema material está no contrato: os corpos das unidades 9 (49 palavras contíguas) e 6 (30 palavras) copiam o material acima do limite de 25 e precisam de paráfrase, com confirmação por script. Há ainda ajustes menores: uma frase interpretativa na unidade 2, jargão como \"lead\" e \"pitch\" sem explicação, e a `condicoes` da unidade 6, que é nota de procedência."
+}

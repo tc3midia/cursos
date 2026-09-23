@@ -1,0 +1,72 @@
+{
+  "aula": "G04_A01",
+  "arquivo_sha256": "51f957cb6162986c5f8481982de623bcec0e89442fbcdbc427a4aad168c4a0e4",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "22a686a8953bfad6e3d62bb45ab3366145c782b7bbcbad47f8d63391c06d4858",
+    "2": "1e447792b59f4a39a83b323495f029a7ec15bbd4a30732bf36775d8897a21600",
+    "3": "e95e1fee80531f6ebab9aae16f0328df13e76075db4f6c73053a6c88b24ee6e4"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Ela tá fazendo o seu produto de uma forma totalmente diferente do mercado",
+      "explicacao": "O conteúdo central está na fonte: temporada anterior chamada criatividade (42,12 s), crítica a quem a pula para ir à roteirização ou à edição (45–53 s), orientação de assistir às aulas e a fala de que ele mostrou a criatividade de forma prática (94,9–100,56 s). A frase final do corpo, \"fazer o produto de modo totalmente diferente do mercado\", está em 100,70–103,84 s, depois do `fim` 100. A faixa precisa ir até cerca de 104 s. Duas ressalvas menores. (a) O corpo diz que \"ali\" ele explicou \"o que faz para criar os anúncios\", mas a fala de 57–62 s (\"literalmente tudo que eu faço pra criar os meus anúncios\") se refere ao treinamento inteiro, não só à temporada de criatividade. (b) `condicoes` (\"Vale para o aluno que segue as temporadas na ordem\") não está na fonte e é incoerente: o alvo da fala é quem pula a temporada, e a condição sugere que a regra não vale para esse aluno."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Essa aula eu vou te mostrar como que eu faço",
+      "explicacao": "A faixa 105–135 s cobre a promessa de explicar a roteirização, a alta retenção, a construção da história e a conexão com o público (105–130 s). Duas das quatro afirmações do corpo estão fora dela. \"Nesta aula ele mostra como faz, e nas próximas mostra como o aluno fará\" está em 189,68–195,82 s, e o trecho citado é dessa passagem. \"O formato se replica para outros nichos, que serão trabalhados em outras temporadas\" está em 34,78 s (\"Ele é replicado para qualquer situação ou ocasião\") e em 181–186 s (\"Eu vou te explicar toda a roteirização\" para \"os outros nichos\"). O conteúdo é fiel e atribuído (\"Segundo o professor\", \"diz ele\"), com a nota sobre alta retenção. O defeito é só de faixa: quem conferir 105–135 s não encontra metade do corpo. Resolve-se ampliando a faixa ou dividindo a unidade."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu explico muito isso lá no hardcopy",
+      "explicacao": "A menção ao Hard Copy como lugar onde ele explica o formato de enredo e a frase sobre precisar de uma VSL estão na fonte, dentro da faixa 149–172 s. Duas ressalvas de redação. \"Em detalhe\" amplia \"explico muito\". A frase sobre a VSL (\"Se você não entrou no hardcopy e está precisando fazer uma VSL... um vídeo de vendas\") fica inacabada na transcrição e é seguida de \"puxando o gancho aqui para vender o meu produto de forma alguma\", então \"ensina a fazer uma VSL\" e \"é remetido\" são inferência. Não muda o uso, porque a unidade é um `limite` de oferta, sem orientação. A `nota` de hipótese e a grafia adotada estão corretas."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 138,
+      "trecho_fonte": "Eu sou totalmente contra",
+      "descricao": "O professor diz que não compartilha nem posta prints de resultado (Facebook Ads, Kiwify) e que é totalmente contra vender um sonho para a pessoa, porque ele vende um processo. É uma posição dele sobre promessa e prova de resultado, do tema `etica-e-promessa`. Nenhuma unidade a preserva.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar a base sobre promessa de resultado ou uso de prints de faturamento não encontra o posicionamento do professor. Não impede executar nada nesta aula, que não é técnica."
+    },
+    {
+      "inicio": 175.94,
+      "trecho_fonte": "Que você viu antes de comprar o meu produto",
+      "descricao": "Perto do fim, o professor diz que a temporada vai trabalhar a roteirização de um anúncio específico, o que o aluno viu antes de comprar o produto dele. Ele diz também que as próximas aulas mostrarão como o aluno fará. As unidades falam da promessa da temporada em geral, mas não registram que o caso trabalhado é esse anúncio.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consultar não sabe que os exemplos da temporada partem de um único anúncio real do professor, o que ajuda a localizar o material nas aulas seguintes. A falta não muda nenhuma decisão de aplicação."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: o corpo depende de referência que ficou na aula (\"Nesta aula ele mostra como faz, e nas próximas...\"). Um agente que consulta sem a aula não sabe a qual aula nem a quais \"próximas\" a frase se refere. Ajuste menor.",
+    "Unidade 2: o `tipo` `conceito` descreve a promessa de conteúdo da temporada, não define nem distingue um conceito do curso. Um `limite` ou uma descrição de estrutura do curso serviria melhor. Classificação discutível entre dois valores defensáveis, ajuste menor.",
+    "Unidade 1: `condicoes` (\"Vale para o aluno que segue as temporadas do curso na ordem\") não tem lastro na fonte e contradiz o alvo da fala, que é quem pula a temporada. Deve ser removida ou reformulada, por exemplo para quem está prestes a pular a temporada de criatividade.",
+    "Unidades 1 e 2: `faixa` (`inicio`/`fim`) não cobre todo o conteúdo do corpo; ver os vereditos `faixa-errada`. Com 2 de 3 unidades em `faixa-errada`, a regra de mais de 10% da rubrica é atingida."
+  ],
+  "material": [],
+  "resumo": "As três unidades têm lastro no conteúdo e não há sem-lastro, cópia de copy de exemplo, resíduo de silêncio usado como fonte nem grafia errada. As unidades 1 e 2 têm a faixa `inicio`–`fim` menor que o conteúdo do corpo: na 1, uma frase fica ~4 s depois do `fim`; na 2, metade do corpo vem de trechos ao redor de 34 s e 190 s. Isso dá 2 de 3 unidades em `faixa-errada` e aciona a regra de mais de 10% da rubrica. Há também uma `condicoes` inventada na unidade 1 e duas omissões menores: a posição contra vender um sonho e o anúncio específico que a temporada trabalha. Não há perecibilidade escondida nem material de apoio."
+}

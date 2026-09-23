@@ -1,0 +1,63 @@
+{
+  "aula": "G03_A05",
+  "arquivo_sha256": "4a80c8eeb8ccf0bf6732edb37a6c3d9bb8d29a2491ce7308461c1a574581bc7d",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "focal nas unidades [1, 2]; as demais mantêm a evidência da inspeção integral do arquivo f321cfc9d5ed, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "conferencia_focal": [
+    1,
+    2
+  ],
+  "unidades_verificadas": [
+    1,
+    2,
+    3
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3
+  ],
+  "hashes_unidades": {
+    "1": "478befc3120f3744d4818e68d2e1c76c9ddef539a33bc9b3e90cff79e9827319",
+    "2": "bd1b6df56f6e8360b0b0180e8aa7f854b1296bba63bc9cb42daeda9925f75fba",
+    "3": "089b4db9fe556e27c0f0f9a9754e2be8153190db4b74804b39a102a9982bb308"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e normalmente quando chega nessa situação, você encontra um mecanismo único que você criou da sua mente",
+      "explicacao": "F2 resolvida. A faixa passou a 30–155 e cobre as duas pontas que estavam fora. \"incrível em 7 dias, até porque / isso é impossível\" está em 00:00:40–00:00:44 (40–44 s), e o fecho \"que não existia\" está no segmento 00:02:28–00:02:34.72 (148 s a cerca de 154,7 s). A transcrição começa em 30 s, então `inicio` 30 fica dentro dela, e `fim` 155 respeita o limite de fim + 2. A `evidencia` (\"você pega como citado nas aulas anteriores um peso de academia e você não olha para aquele peso\") é literal, atravessa os segmentos 00:01:03.9–00:01:11.14 e 00:01:11.14–00:01:16.64, e está dentro da faixa. O corpo confere com a fonte: o exemplo do peso de academia (\"quanto que uma pessoa compra esse peso, quanto que ela vende, quem ganha dinheiro com isso, como que a academia ganha\") e o dos carros; o \"normalmente\" restituído; a atribuição \"Segundo o professor\"; e a ressalva dos 7 dias, que ele chama de impossível. `versao` = 2. Não achei problema novo introduzido pela correção. \"a partir daquilo que não existia\" repete a redação ambígua da fonte e não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Que esse elefante significa Você já atirar pra pessoa Que você quer mostrar pra ela Pra ela ativar o modo dela De sair Do modo jacaré dela",
+      "explicacao": "F1 resolvida. O corpo não traz mais \"de frente\" nem \"aquilo que ele já está pensando\". A definição agora diz que o elefante na sala significa \"já atirar para a pessoa aquilo que você quer mostrar a ela, para que ela saia do modo jacaré\". Isso corresponde ao trecho fragmentado de 00:05:11–00:05:24 e vem com o marcador \"no que a fala sustenta\". O \"aquilo\" só completa o \"que você quer mostrar pra ela\" da fonte e não muda o sentido. A `nota` registra a degradação da transcrição e cita frases literais; `confianca` é `media`; `versao` = 2. O resto do corpo confere: a ilustração do elefante (00:04:48–00:05:04), o modo jacaré com \"você quer mais um produto\" e \"Esse cara vai me vender um treino no final\", e o desarme com entrada no emocional (00:05:38–00:05:41). \"Estado defensivo do lead\" e o sentido de prospect vêm do vocabulário do FORMATO. A nova `evidencia` é literal e está em 311,9–324 s, dentro de 285–344. A troca da evidência e a extensão do `fim` para 344 não criaram problema."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A melhor forma de experienciar é testando",
+      "explicacao": "Confere com 00:05:55–00:08:41. Os números 3 e 150 estão marcados como \"no exemplo\", e a `nota` diz que são ilustração. \"Ignore as críticas\" vem condicionado a teste aprovado, ROI e vendas (\"está aprovado, está te dando ROI... vendendo bem, que se dane as outras três pessoas\"). \"Que se dane, testa\" e \"o mais difícil... foi criar o produto\" estão corretos. \"Criatividade vai a mil\" está atribuído ao professor (\"segundo ele\"). A faixa 343–521 cobre o conteúdo. Único ponto de atenção: `condicoes` limita a regra a oferta já validada, mas o corpo também traz \"em dúvida, teste\", que vale antes da validação. Isso não muda o uso."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 160,
+      "trecho_fonte": "e você chega nesse limite, a criatividade não é mais o problema, e sim o problema",
+      "descricao": "O professor diz duas vezes (00:02:40–00:02:50 e 00:05:43–00:05:49) que, quando se tem a capacidade de criar ofertas, o gargalo deixa de ser criatividade e passa a ser expansão e delegação de coisas a fazer (\"o problema não é mais a falta de ideias e sim a delegação dessas ideias\"). Nenhuma unidade registra isso, embora seja o argumento que dá título à aula (\"Capacidade\").",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem perguntar o que muda depois de dominar o olhar criativo não encontra a posição do professor de que o gargalo passa a ser expandir e delegar. A fonte não detalha como delegar, então a falta não impede executar nada."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "Conferência focal das unidades 1 e 2. As duas falhas do ciclo estão resolvidas pelos critérios de aceite. A unidade 1 tem faixa 30–155 que cobre a fala dos 7 dias e o fecho \\\"que não existia\\\". A unidade 2 define o elefante na sala só com o que o trecho fragmentado sustenta, com `nota` e `confianca: media`. Não achei problema novo nelas, e as falhas da lista não geraram omissão."
+}

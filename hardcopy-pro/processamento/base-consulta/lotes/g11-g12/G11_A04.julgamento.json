@@ -1,0 +1,38 @@
+{
+  "aula": "G11_A04",
+  "arquivo_sha256": "d40aac8380ffab5bd301eb43022bb8124c47cf12ea80aba04dc1872ee15e315b",
+  "inspecao_sha256": "d7643233d9b76f4ed78ccef53b8ae5bd0e6abf8686fc3890528fe0fd8999343f",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. Passa.",
+  "fidelidade": "Inspeção integral, dez unidades verificadas, nenhuma citação não literal. Sete lastreadas (2, 3, 4, 6, 8, 9, 10). Três desvios: U5 material, U1 e U7 menores. U5 credita ao professor uma análise (\"começo direto, prova prática, chamada para assistir, ênfase na VSL como espetáculo\") que, pelo trecho literal do inspetor (\"aqui vai algumas variações de hooks então ele já deixou pronto\"), é resposta do chat lida em voz alta, e ainda diz que essa análise veio \"antes de pedir variações à IA\" e foi \"passada ao chat como referência\". As próprias unidades corroboram o inspetor: a faixa de U5 (207–217 s) vem depois da faixa em que o prompt é colado em U4 (140–205 s), então a análise não pode ter precedido o pedido. Autoria e sequência invertidas mudam o sentido e a execução. Veto. U1 acrescenta contraste (\"ao contrário de criar um anúncio do zero\") não dito; U7 atribui o negrito ao hook quando a fala o aplica ao rótulo \"Variação 1\". Ambos não mudam a decisão: ajustes menores. Sem faixa-errada.",
+  "cobertura": "Inspetor declara alcance integral com busca de omissões e não localiza nenhuma. O fluxo da aula (alimentar a IA, copiar o anúncio validado, gerar e refinar variações, montar os anúncios finais, repetir o processo, prévia da próxima aula) está representado. Passa.",
+  "perecibilidade": "Nada sinalizado pelo inspetor. As unidades `geral` com `perecivel: false` (1, 2, 7, 8, 9) são orientações que não dependem de tela, menu ou ferramenta. As que tocam comportamento de IA ou recurso do curso (3, 4, 5, 6, 10) estão marcadas `true`. Passa.",
+  "aplicabilidade": "As unidades se sustentam sem a aula: sem referência a \"esse vídeo\" ou jargão inexplicado; hook e lead definidos em U2 conforme o vocabulário do FORMATO; procedimentos 4, 6 e 7 com pré-condição e passos; `condicoes` preenchido em 1, 4, 5 e 9 onde o corpo só vale sob condição; U9 começa com \"Se\". Dois pontos discutíveis, sem veto: `plataformas: chatgpt` em U4 e U6 é hipótese sem nenhuma grafia na fala (só \"chat\"), e a técnica não depende de recurso próprio do ChatGPT, então `geral` com a hipótese em `nota` seria mais fiel; `tarefas: editar-video` em U7 aponta para uma unidade que organiza texto, não edita vídeo. Classificações entre valores defensáveis: ajustes menores. Passa.",
+  "falhas": [
+    {
+      "id": "G11_A04-F01",
+      "unidades": [
+        5
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: \"aqui vai algumas variações de hooks então ele já deixou pronto\" — o texto \"começo direto com uma prova prática chamada pra assistir uma ênfase na vsl como espetáculo\" é a resposta do chat lida pelo professor, gerada após o prompt colado (U4, 140–205 s). O corpo de U5 diz que \"o professor analisou o que fazia o hook original funcionar antes de pedir variações à IA\" e que \"esses elementos identificados no anúncio validado foram passados ao chat como referência\". A faixa da própria unidade (207–217 s) é posterior ao pedido, contradizendo o \"antes\".",
+      "impacto": "Quem consulta acrescentaria ao procedimento um passo que o professor não executa (analisar manualmente os elementos do hook e passá-los ao chat antes de pedir variações) e tomaria como critério do professor para bom hook uma lista que é saída da IA. Muda a execução e a atribuição.",
+      "mudanca_minima": "Reescrever o corpo de U5 mantendo o tipo `exemplo`: Situação: o professor colou o anúncio validado no chat já treinado e pediu variações de hook com base no que funcionou. O que aconteceu: o chat respondeu listando primeiro o que, na leitura dele, fazia o hook funcionar (começo direto, prova prática, chamada para assistir, ênfase na VSL como espetáculo) e em seguida entregou as variações; o professor leu essa análise em voz alta. Lógica: a lista de elementos é a leitura da IA sobre o anúncio de exemplo, não um critério formulado pelo professor nem uma entrada que ele forneceu ao chat. Ajustar `condicoes` para registrar que a análise é saída de IA sobre um anúncio específico. Incrementar `versao`.",
+      "criterio_de_aceite": "O corpo de U5 atribui os quatro elementos à resposta do chat, situa essa resposta depois do pedido de variações, e não contém mais as afirmações de que o professor analisou o hook antes de pedir nem de que os elementos foram passados ao chat como referência. Inspetor reconfere U5 contra a fala entre 205 e 217 s com trecho literal e marca `lastreada`. Validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U1: retirar \"ao contrário de criar um anúncio do zero\"; o inspetor comprova que a fala só diz que a variação é rápida, simples e não exige necessariamente criatividade, sem esse contraste.",
+    "U7, passo 2: não afirmar que o hook é posto em negrito; pelo trecho literal (\"variação 1 negrito\"), o negrito vai no rótulo da variação. Redigir como: separar o hook do restante do texto e rotular cada bloco (\"Variação 1\", \"Variação 2\"…, com o rótulo em destaque) para facilitar a edição posterior.",
+    "U4 e U6, `plataformas`: a fala diz apenas \"chat\", sem nenhuma grafia da tabela; a técnica (copiar, colar, pedir variações) não depende de recurso próprio do ChatGPT. Preferir `geral` com a hipótese de ChatGPT em `nota`, mantendo `perecivel: true` e `confianca: media`. Se ficar `chatgpt`, a `nota` atual já registra a hipótese; classificação discutível, não veta.",
+    "U7, `tarefas`: considerar retirar `editar-video`; a unidade organiza texto para uma edição futura, não ensina a editar."
+  ],
+  "proximo": "Encaminhar F01 ao redator de correções (ciclo 1 de 2), aplicando na mesma passagem os ajustes menores de U1, U7 e, se aceito, a troca de plataforma em U4/U6. Reinspeção focada nas unidades cujo hash mudar (ao menos U5; U1, U4, U6, U7 se editadas), com trecho literal do início da resposta do chat e confirmação da sequência prompt → resposta; as demais unidades preservam a evidência atual. Novo julgamento confere a lista de falhas e os efeitos das alterações."
+}

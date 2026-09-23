@@ -1,0 +1,328 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G08_A01",
+  "titulo": "Episódio 1 - Mecanismo único oculto",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula abre, na trilha Hard Ads, uma temporada sobre anunciar produtos físicos fora do padrão do curso (abajur, encapsulado e pet shop), usando um encapsulado de emagrecimento como exemplo ao longo de toda a aula.",
+    "O tema central é o mecanismo único oculto: um benefício real do produto que o mercado inteiro ainda não está usando como argumento de venda, encontrado ao pesquisar a composição do produto em vez de olhar só a página de vendas dele.",
+    "O professor demonstra, em tela, uma pesquisa passo a passo usando a página de vendas de um encapsulado, o Google e o ChatGPT para achar esse benefício escondido, chegando ao exemplo da espirulina.",
+    "Também entram orientações sobre criativo engajante e CPM, sobre não copiar página de vendas de outro produtor, sobre não focar o anúncio no produto, e uma estrutura de página de vendas que o professor diz usar.",
+    "A aula pressupõe que quem assiste já conhece termos do curso como elefante na sala e já sabe montar e rodar um anúncio; ela não ensina configuração de conta de anúncio nem edição de vídeo.",
+    "A aplicação prática do exemplo encontrado (o roteiro do anúncio usando a espirulina) fica para a aula seguinte da mesma temporada, que esta aula anuncia mas não mostra."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Temporada cobre abajur, encapsulado e pet shop; esta aula foca no encapsulado",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 56,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor declara que esta temporada de anúncios vai tratar de produtos físicos fora do comum: abajur, encapsulado e pet shop. Esta aula usa só o encapsulado de emagrecimento como exemplo prático; o que a temporada ensina especificamente sobre abajur e sobre pet shop não está nesta aula.",
+      "evidencia": "Abajur, porra, o que a gente vai fazer no abajur? É encapsulado, beleza, encapsulado dá pra gente brincar e pet shop, tá bom?",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Mecanismo único oculto: diferencial escondido dentro do próprio produto",
+      "tipo": "conceito",
+      "tema": "mecanismo-unico",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 62,
+      "fim": 104,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor propõe pegar um produto simples, sem nada de especial à primeira vista, e procurar dentro dele algo diferente que o mercado inteiro não está vendendo. Ele chama esse diferencial escondido de mecanismo único oculto, para diferenciar de um produto genérico que todo mundo vende do mesmo jeito.",
+      "evidencia": "que existe algo diferente que o mercado inteiro não tá vendendo tá isso eu chamo de mecanismo único oculto tá bom",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Criativo engajante barateia entrega mesmo para quem não compra",
+      "tipo": "regra",
+      "tema": "metricas-e-diagnostico",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "ler-metricas-e-decidir"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 114,
+      "fim": 200,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O modelo comum de anúncio direto funciona filtrando quem quer o produto, que fica, de quem não quer, que sai, e isso é considerado normal. O professor defende ir além disso: o anúncio deve chamar a atenção tanto de quem quer comprar quanto de quem não quer, desde que essas pessoas engajem com o conteúdo. Segundo ele, quando o criativo é engajado, a plataforma entende que é um bom anúncio e entrega mais fácil, mais rápido e mais barato, o que reduz o custo por mil impressões.",
+      "evidencia": "para chamar a atenção tá para chamar a atenção de quem quer e quem não quer engajar com o seu conteúdo",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Caso de CPM baixo citado pelo professor em parceiros de emagrecimento",
+      "tipo": "exemplo",
+      "tema": "metricas-e-diagnostico",
+      "tarefas": [
+        "ler-metricas-e-decidir"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 200,
+      "fim": 219,
+      "condicoes": "Caso citado pelo professor sobre parceiros dele no nicho de emagrecimento; não é dado de mercado comprovado, é número de caso trazido como argumento de aula.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor cita parceiros dele, grandes empresas do nicho de emagrecimento, como contraste com o CPM comum desse nicho, que segundo ele fica em 150 a 180 reais.\nO que aconteceu: segundo o professor, esses parceiros conseguem CPM de 30 a 40 reais e ainda vendem bem, com ROI de 3 a 4, por seguirem a abordagem de engajamento que ele descreve.\nLógica: ele usa o caso para sustentar que um criativo engajante barateia a entrega do anúncio; o número é apresentado como resultado de parceiros dele, não como estatística de mercado independente.",
+      "evidencia": "o cara tá pegando CPM de 40, de 30 reais",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Mecanismo único oculto importa mais em nicho saturado",
+      "tipo": "regra",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 218,
+      "fim": 247,
+      "condicoes": "Exemplo do professor é o nicho de emagrecimento, citado como nicho saturado.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O mecanismo único oculto faz mais diferença quando o produto está em um nicho totalmente saturado, como o de emagrecimento no exemplo da aula. Nesses casos, o desafio é achar, dentro do próprio produto, um mecanismo que ninguém do mercado está vendendo nem sabe que existe.",
+      "evidencia": "O mecanismo único oculto faz total diferença quando você está em um nicho totalmente saturado",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Como achar o mecanismo único oculto pela composição do produto",
+      "tipo": "procedimento",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico",
+        "analisar-concorrencia"
+      ],
+      "plataformas": [
+        "chatgpt",
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 247,
+      "fim": 733,
+      "condicoes": "Demonstração feita com um encapsulado de emagrecimento como exemplo; aplicável a produto físico saturado que tenha lista de composição ou ingredientes.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Plataforma 'outra' refere-se à pesquisa feita no Google, citada na aula como ferramenta de apoio.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: você tem um produto físico saturado para vender (no exemplo da aula, um encapsulado de emagrecimento) e acesso à página de vendas dele, ao Google e ao ChatGPT.\n1. Abra a página de vendas do produto e repare que ela costuma focar em desconto, escassez e suporte, sem explicar de verdade a composição.\n2. No Google, pesquise o nome do produto junto com a palavra composição, para achar outro site que liste os ingredientes dele.\n3. Copie essa lista de composição e cole no ChatGPT, pedindo para ele explicar para que serve cada componente.\n4. Escolha um componente da lista e peça ao ChatGPT para citar todas as especificações e usos desse componente isoladamente.\n5. Para cada benefício que aparecer, verifique antes de tudo se é aquilo que o público que você quer atingir deseja. No exemplo da aula, o aumento de massa magra é um benefício bom, mas quem está acima do peso quer perder peso, então esse benefício é descartado mesmo sem o mercado estar usando ele.\n6. Passado esse filtro, pesquise no Google se o mercado já está anunciando esse benefício para aquele tipo de produto.\n7. Se o benefício já estiver sendo usado por todo mundo, descarte e teste outro componente da lista até achar um que interesse ao público e que ninguém do mercado esteja anunciando: esse é o mecanismo único oculto.",
+      "evidencia": "você vai copiar toda essa composição dele aqui e aí você vai perguntar o chat",
+      "versao": 2
+    },
+    {
+      "numero": 7,
+      "titulo": "Não use o ChatGPT para escrever a copy final",
+      "tipo": "regra",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 378,
+      "fim": 393,
+      "condicoes": "Preferência pessoal do professor, dita como algo que ele mesmo não faz.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor diz que usa o ChatGPT raramente e não consegue usá-lo para criar a copy em si, porque o texto gerado fica muito parecido com o que todo mundo já produz. Ele defende que o toque de criatividade humana na escrita é indispensável, e usa o ChatGPT só como apoio de pesquisa (como explicar a composição de um produto), não para redigir o texto de venda.",
+      "evidencia": "eu não consigo usar ele para criar copy tá eu não uso ele para isso",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Aula não mostra o roteiro final do anúncio com o mecanismo achado",
+      "tipo": "limite",
+      "tema": "mecanismo-unico",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 733,
+      "fim": 1206,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte da pesquisa do mecanismo único oculto acontece na tela (buscas no Google, respostas do ChatGPT), e a fala não narra cada busca ou cada resposta em detalhe, então nem todo o raciocínio de descarte de componentes é recuperável só pelo texto. Além disso, o professor diz explicitamente que vai aplicar esse exemplo (o encapsulado com espirulina) na cópia de um anúncio só na aula seguinte da mesma temporada; esta aula não chega a mostrar esse roteiro pronto.",
+      "evidencia": "na próxima aula a gente já vai em cima da cópia deste exemplo aqui",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Top afiliados não usam os criativos prontos do produtor",
+      "tipo": "regra",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "definir-mecanismo-unico"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 805,
+      "fim": 890,
+      "condicoes": "Observação do professor sobre produtores que oferecem grupo de afiliados com criativos e discurso padronizados, no nicho de encapsulado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando um produto tem grupo de afiliados, o próprio produtor costuma entregar criativos prontos e discurso padrão baseado na força da marca, e todo mundo que segue esse material vende do mesmo jeito. O professor diz que, se você perguntar a um produtor como vende o seu principal afiliado, a resposta típica é que esse afiliado não usa os criativos nem a estrutura entregues pelo produtor: ele tem criativos e estrutura próprios, e usa do produtor só o checkout, porque não há outra opção nessa etapa. Ele conclui que vender bem um produto de outra pessoa usando o material padrão é possível, mas sair da caixa e aplicar algo diferente do que todo mundo está vendendo é o que rende mais.",
+      "evidencia": "o meu top afiliado hoje não usa meus criativos e não usa minha",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Venda o benefício do mecanismo oculto, não o produto ou o desconto",
+      "tipo": "regra",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 957,
+      "fim": 1066,
+      "condicoes": "Aplica-se ao anunciar um produto físico saturado usando um mecanismo único oculto encontrado nele.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Em vez de anunciar o produto pelo nome ou marca, o professor recomenda anunciar os benefícios do mecanismo único oculto encontrado nele (no exemplo, os benefícios da espirulina, em vez do nome do encapsulado, o Seca Já). Do início até o meio do anúncio, o produto não deveria aparecer; ele só pode aparecer no final, se aparecer. Focar o anúncio no produto, na oferta, no desconto e no preço tende a atrair leads desqualificados: gente sem dinheiro para pagar e com muitas reclamações.",
+      "evidencia": "vamos vender não o seca já e sim isso aqui os benefícios da espirulina",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Não reaproveite página de vendas de outro produtor, mesmo renomado",
+      "tipo": "regra",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1033,
+      "fim": 1054,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor recomenda nunca usar a página de vendas de outra pessoa como modelo, mesmo que seja a página de um produtor renomado que já vendeu muito com ela. Para ele, o fato de uma página já ter vendido bastante para o dono do produto não é motivo para copiá-la.",
+      "evidencia": "nunca use em páginas de vendas dos outros",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Página de vendas fraca converte perto de 0,5% a 1%",
+      "tipo": "regua",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas",
+        "diagnosticar-copy-ou-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1066,
+      "fim": 1089,
+      "condicoes": "Refere-se a uma página de vendas fraca, focada em desconto e preço, no nicho de emagrecimento visto na aula; o professor trata isso como a realidade comum do mercado, não como benchmark validado.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A frase do professor sobre a taxa fica confusa na transcrição ('meio por cento de conversão não tá maravilhoso tá maravilhoso'); o sentido geral é que 0,5% a 1% é considerado uma taxa fraca.",
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, mesmo com um bom anúncio levando tráfego, uma página de vendas fraca converte em torno de 1%, podendo cair para 0,5%, ou seja, cerca de 1 venda a cada 100 visitantes. Ele descreve essa taxa como a realidade comum do mercado para esse tipo de página malfeita.",
+      "evidencia": "é um por cento de conversão tá bom a cada cem pessoas uma pessoa",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Estrutura de página de vendas que o professor usa para emagrecimento",
+      "tipo": "estrutura",
+      "tema": "pagina-de-vendas",
+      "tarefas": [
+        "escrever-pagina-de-vendas"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1089,
+      "fim": 1206,
+      "condicoes": "Página de exemplo feita pelo próprio professor para um produto de emagrecimento; ele diz mostrar essa página em detalhe em um produto complementar do curso.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O professor cita o nome do produto complementar de forma pouco clara na fala ('hardcop', 'Hardcore'); a grafia adotada na base para esse produto é Hard Copy, por hipótese.",
+      "proposta_tag": null,
+      "corpo": "1. Headline de interesse com prova social, sem focar no nome do produto (no exemplo, um número de pessoas que a rotina teria ajudado a emagrecer).\n2. Tópicos logo abaixo descrevendo o que a leitora sente, para ela se reconhecer no texto.\n3. Remoção do elefante na sala (a objeção óbvia do leitor) junto com alguns depoimentos.\n4. Apresentação de algo disruptivo que invalida as soluções populares do nicho (no exemplo, dietas e protocolos conhecidos de emagrecimento).\n5. Uma pequena história de transformação de uma personagem, introduzida como se fosse uma troca de mensagem, para a leitora se identificar.\n6. Mais benefícios do produto e o que a compradora vai receber.\n7. Depoimentos adicionais.\n8. Bloco de preço, no final da página.",
+      "evidencia": "Descubra a rotina que emagreceu mais de 25 mil pessoas",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        6
+      ],
+      "retiradas": [],
+      "observacoes": "F1 — corrigida. Voltei à transcrição no trecho apontado (por volta de 00:09:17–00:09:23): \"Aumento da massa magra, que é muito bom. Só que como a gente quer vender para pessoas acima do peso A pessoa acima do peso está cagando para esse aqui Ela quer perder peso\". Confirma que o professor aplica dois filtros distintos e nessa ordem: primeiro o interesse do público (massa magra é descartada porque quem está acima do peso quer perder peso, não ganhar massa), e só depois a checagem de saturação no mercado (\"Inibição de apetite. Beleza, já usam isso\", \"Regulação do nível de açúcar no sangue. Já usam\"). O antigo passo 5 virou passo 5 (critério de interesse do público, com o exemplo massa magra vs. perder peso) e passo 6 (checagem de o mercado já anunciar); o antigo passo 6 virou passo 7, agora exigindo as duas condições para o benefício ser o mecanismo único oculto.\n\nMetadados preservados: numero, titulo, tipo, tema, tarefas, plataformas, fonte, inicio (247), fim (733), condicoes, perecivel, confianca, nota e proposta_tag inalterados, como pede a mudança mínima. O trecho novo está dentro da faixa já declarada (o segmento fica em ~557 s, entre 247 e 733), então não foi preciso mexer em inicio/fim.\n\nEvidencia: mantida como estava (\"você vai copiar toda essa composição dele aqui e aí você vai perguntar o chat\", em ~399 s, dentro da faixa), conforme instrução explícita da falha de manter a evidencia. Vale registrar para a próxima conferência que a âncora agora cobre o passo 3 e não o passo novo; se o inspetor preferir ancorar no critério corrigido, o trecho literal disponível é \"como a gente quer vender para pessoas acima do peso\".\n\nversao: o esquema de saída não tem campo versao; a unidade 6 deve ser gravada com versao = 2, já que houve alteração de corpo. Nenhuma outra unidade foi tocada, então os hashes das 12 restantes seguem inalterados. Sem unidades novas e sem retiradas: o critério corrigido é parte do mesmo procedimento e não cabia em unidade separada — conferi os títulos das demais e nenhuma cobre o filtro de interesse do público (a 010 trata de vender o benefício em vez do produto, não da seleção do benefício)."
+    }
+  ]
+}

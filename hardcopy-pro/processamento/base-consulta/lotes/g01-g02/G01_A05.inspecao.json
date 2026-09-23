@@ -1,0 +1,146 @@
+{
+  "aula": "G01_A05",
+  "arquivo_sha256": "ba59e68cc2e1e398b1f7745b609fa8b56f4e85c7d4b4734da6de06a85ee558b8",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "hashes_unidades": {
+    "1": "092292e156b9201b6e1d970c1ba6b8f6d995908f912db056ff49de28ccc13913",
+    "2": "be352bfaf4b3404d798e5d9c8a3320d065aa64563549803f02d3130b8fdf33db",
+    "3": "3fd72e8d4fbf499e3f0cd0497efa603c43aee9e658185fadfacc13fb81919092",
+    "4": "cd286efd5be89d9de002641bc05e118c1293e86c053e3ac98f4b5e158ff2c10d",
+    "5": "562dd9c190b07dc78ae7a328d41b65ffe43b62bd218219b60c6f30d9fd750561",
+    "6": "d66a6bf622028f11d084f6b511b34d777d8e53ea85fc95480cd3dc7c5f907737",
+    "7": "95beb9c493a2af869e9ba74b0383837687a00853ca523d80c578c6b3394b6b02",
+    "8": "bb3a3ce44fb9193bd3166a53141c152e1954b4b1c94c4cdc4cde0fea9d7c624e",
+    "9": "5d73816f216519f936bd38fc487ae0200e5176ddc838bad3e09d8b98dcefec3d",
+    "10": "61acbdbb24bfd205cf8d14f8c5100e24f386129204f7d8b4a9a2600f4fe66750",
+    "11": "3514c278391ac20c948d6233d61e5ad3204f4f852593460f8ab588fad16f971e",
+    "12": "c92609457ef08af5dcd0042a6d7e128d7ab13b4d890802c19f2006f08708d511"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu prometi que eu não iria falar sobre o Facebook Ads, nem mostrar a tela da Teamify, nem mostrar exemplos de como criar uma boa cópia",
+      "explicacao": "O conteúdo está na fonte: não há exemplo de copy, o produto varia (ebook, videoaulas, assinatura, físico), e a promessa de não mostrar a tela da \"Teamify\" está preservada com nota e confianca baixa. Dois pontos menores. A faixa termina em 136 s, mas a frase \"Porém, o arroz com feijão nunca\" está em 137–139,6 s, fora de inicio–fim. E o \"(o fundamento)\" que a unidade acrescenta ao \"arroz com feijão\" é glosa do extrator, não fala do professor. Não muda o uso."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A primeira coisa que você precisa entender é como que você vai vender esse produto antes de estruturar a cópia",
+      "explicacao": "Dores e valor a entender antes da copy estão na fonte. Preço e escolha entre VSL e página de vendas ficam atribuídos ao nível de consciência, como nas perguntas retóricas de 00:03:20–00:03:29. Faixa 165–210 confere."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ele vai falar pra você que o curso é de acordo com a quantidade de páginas que o seu ebook tem",
+      "explicacao": "A crítica ao curso de um grande player, o exemplo de 40 páginas a R$97 (atribuído ao curso criticado, não à aula) e \"Faz sentido nenhum\" estão na fonte. O R$97 não vira régua. A fonte tem \"Se tem 20 ou 20 reais\", trecho degradado que a unidade corretamente não usa. A faixa termina em 199 s e corta \"Nenhum, zero\" (198,96–200,84 s); não muda o uso."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "mas tem um único significado que é o quanto o seu cliente sabe do seu produto e o quanto ele vende anúncio daquele produto",
+      "explicacao": "A definição principal (\"o quanto ele sabe sobre aquele assunto\") e o sinônimo \"nível de conhecimento\" estão na fonte. A leitura de \"vende\" como \"vê\" é hipótese sinalizada na nota, com confianca media. Ajuste menor: \"Se o assunto é novidade, o nível é baixo\" não é dito assim. A fonte só pergunta \"Se for uma novidade / Quanto que isso vale?\" (00:03:37). A ligação novidade→baixo é inferência do extrator, apoiada apenas no caso do subnicho (\"nunca viram aquele tipo de produto\"). O efeito prático é pequeno."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Tornando assim a obrigação de vender em uma VSL",
+      "explicacao": "Confere: nível alto, VSL, preço mais barato, diferencial pelo mecanismo (a nota registra o \"mecanismo ruim\"). O número 50–60 anúncios/dia está atribuído ao professor, com a condição de 2–3 h de navegação em `condicoes`, e não vira régua. Ajuste menor: a frase sobre a obrigação da VSL está em 331,02–335,84 s, logo após o fim da faixa (331). O \"praticamente\" suaviza o \"obrigação\" da fonte de forma coerente com o \"claro que tem\" seguinte."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É muito mais difícil que uma página de venda",
+      "explicacao": "R$29, mecanismo único muito forte e copy excelente conferem, com resultado atribuído ao professor e valores marcados como ilustração em `condicoes`. Ajuste menor 1: a fonte diz \"vender um produto de R$99 sem uma VSL / É muito mais difícil que uma página de venda\", frase incoerente, porque sem VSL já é página de vendas. A unidade a repete como fluente, com confianca alta e sem nota. Devia sinalizar a transcrição ambígua e baixar para media. Ajuste menor 2: o título diz \"só funciona\", mas a fonte diz \"consegue\" para o caso de R$29 e \"muito mais difícil\" para R$99, não impossível."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "é alto, é igual ao X1",
+      "explicacao": "Nível baixo + lead caro → X1 no WhatsApp, o exemplo do dono de loja de carros, as opções high ticket e o aviso de CPM maior conferem. Três ajustes menores. (a) \"X1 (venda um a um)\" define X1, que o FORMATO lista como usado sem definição na fonte; nenhuma fala desta aula o define. (b) \"o produto precisa ser high ticket\" é mais forte que a fonte, que diz \"porque o seu produto vai ser um produto high ticket\". (c) \"o vídeo é mais caro\" repete uma transcrição provavelmente deformada (\"é um vídeo mais caro, você vai pagar um CPM um pouco maior\") sem nota."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "mas normalmente a gente consegue encontrar",
+      "explicacao": "\"Muito difícil de achar\", a ligação com subnicho, as pessoas que \"nunca viram aquele tipo de produto\" e a referência ao exemplo anterior conferem. É verdade que a fonte não indica formato de venda para esse caso. Faixa 457–488 confere."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Após isso, dê uma olhada na quantidade de curtidas, comentários e reações",
+      "explicacao": "Os passos 1–3 conferem (Biblioteca de Anúncios do Facebook, nicho/subnicho, curtidas/comentários/reações, YouTube) e a ausência de limiar numérico está correta. O passo 4 (\"leia os comentários para inferir o nível\") é síntese do extrator: o suporte está em 522–551 s, fora da faixa 488–523. Ele remete à \"unidade seguinte\", dependência de ordem. Efeito pequeno."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O nível de consciência deles é um pouquinho maior",
+      "explicacao": "\"Já tentei e não deu certo\" → um pouco maior; dúvidas (\"como funciona\", \"como faz\") → um pouco mais baixo. A relatividade da fonte está preservada e não vira faixa fixa. \"Onde você trabalha o seu mecanismo único e o seu subnicho\" vira \"o professor diz trabalhar\", mudança de pessoa sem efeito no uso."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Veja o melhor mecanismo único para você colocar no seu produto",
+      "explicacao": "Os três passos (subnicho, mecanismo único, nível de conscientização) conferem e estão na ordem da fonte. A definição de mecanismo único vem do vocabulário do FORMATO (G01_A03), permitida. Classificação como `estrutura` é discutível (registrada em contrato)."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então eu não vou ter acesso a ele, pode ficar tranquilo",
+      "explicacao": "O documento individual, os três campos (subnicho, mecanismo único, nível), a finalidade de conferir a teoria e o adiamento da estrutura de copy conferem. \"Kishu\" foi normalizado para Kishotenketsu com nota. A unidade admite que a fonte não descreve o documento além disso. Faixa 591–636 confere."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "U11 (estrutura): o conteúdo é uma recapitulação de três passos (subnicho, mecanismo único, nível de consciência), não um molde com partes a preencher. Classificação discutível entre `estrutura` e outro tipo, ajuste menor.",
+    "U9: o passo 4 diz \"leitura na unidade seguinte\", referência a outra unidade que não se sustenta lida isoladamente. Trocar por uma referência autossuficiente ou remeter explicitamente à leitura de comentários descrita na U10.",
+    "U6: baixar `confianca` para media e adicionar `nota` sobre a frase transcrita incoerente (\"sem uma VSL / É muito mais difícil que uma página de venda\"), para o leitor saber que o comparador é incerto."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira (0–673 s) e conferi as 12 unidades contra ela; a aula não tem material de apoio. Todas estão lastreadas: nenhum número, condição ou atribuição foi adulterado, e o caso de 50–60 anúncios/dia, o R$29/R$99 e o R$97 do ebook aparecem como exemplos do professor, não como régua. Os pontos são todos menores: faixas que cortam uma frase (U1, U5), uma definição de X1 e uma inferência de \"novidade → nível baixo\" que a fonte não diz (U7, U4), e uma frase transcrita incoerente reproduzida sem nota (U6). Não achei omissão nem perecibilidade a corrigir; a U11 tem classificação de tipo discutível."
+}

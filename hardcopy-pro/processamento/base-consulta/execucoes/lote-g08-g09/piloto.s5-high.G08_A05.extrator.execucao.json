@@ -1,0 +1,47 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T14:11:24+00:00",
+  "fim": "2026-09-20T14:13:17+00:00",
+  "duracao_ms": 112373,
+  "duracao_api_ms": 112353,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 10926,
+    "cache_creation_input_tokens": 10345,
+    "cache_read_input_tokens": 20614
+  },
+  "thinking_tokens": 5880,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.15476679999999998,
+  "esperas_por_limite": [],
+  "sistema_sha256": "00f4fc47d27e82494c4b33f8c37b4a3c525c7e65955b48c9dfc62dc3614100e3",
+  "pacote_sha256": "1a59586cc88bbfce4ddc4957ec672723afb01c120529a64e3e106168bf527cf9",
+  "aula": "G08_A05",
+  "rotulo": "piloto-hc",
+  "palavras_fonte": 2377,
+  "destino": "hardcopy-pro/processamento/base-consulta/piloto/s5-high/G08_A05.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "3838731d1d6a8b98d0a2478d89d8c404933ea8d3e44ced275628c85b1fb558a6",
+  "unidades": 11,
+  "validador": {
+    "erros": [
+      "G08_A05: U002: evidência fora da faixa"
+    ],
+    "avisos": []
+  }
+}

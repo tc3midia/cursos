@@ -1,0 +1,45 @@
+{
+  "papel": "extrator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T14:13:17+00:00",
+  "fim": "2026-09-20T14:15:25+00:00",
+  "duracao_ms": 125841,
+  "duracao_api_ms": 125811,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 11386,
+    "cache_creation_input_tokens": 39516,
+    "cache_read_input_tokens": 20614
+  },
+  "thinking_tokens": 5452,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.27605080000000004,
+  "esperas_por_limite": [],
+  "sistema_sha256": "00f4fc47d27e82494c4b33f8c37b4a3c525c7e65955b48c9dfc62dc3614100e3",
+  "pacote_sha256": "6ad308172c57ad9439c517da66b1fc0f35003f43f437dfabe5552ff701874856",
+  "aula": "G16_A02",
+  "rotulo": "piloto-hc",
+  "palavras_fonte": 9686,
+  "destino": "hardcopy-pro/processamento/base-consulta/piloto/s5-high/G16_A02.json",
+  "normalizacoes": {
+    "perecivel_por_plataforma": []
+  },
+  "resultado_sha256": "380a9c7e673df460ecd1164455973a8fcac790f4754fb2564d75f2ede8f03f00",
+  "unidades": 16,
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-21T15:08:05+00:00",
+  "fim": "2026-09-21T15:09:43+00:00",
+  "duracao_ms": 96008,
+  "duracao_api_ms": 95983,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 9495,
+    "cache_creation_input_tokens": 11172,
+    "cache_read_input_tokens": 20042
+  },
+  "thinking_tokens": 5520,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.359126,
+  "esperas_por_limite": [],
+  "sistema_sha256": "115a9cdbde09ba6ac888e0ee93b53065b9234bc5414e1e2a1d63ab0854abe365",
+  "pacote_sha256": "c55c4bf5c3612d7caba10fce8f22b37d602ca562899a86186e965d743b6adfc9",
+  "aula": "G03_A02",
+  "rotulo": "lote-g03-g04-ciclo1",
+  "ciclo": 1,
+  "arquivo_anterior_sha256": "150b89cb8e78891e9a06be7802b36a65506124ceaf93e16cf824356e4956ed61",
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g03-g04/ciclo1/G03_A02.json",
+  "resultado_sha256": "c6fe433cc67e4b8c0f75c7c5ee5db7df5439a2e7cee2faf19d96b294371c55b0",
+  "unidades_alteradas": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

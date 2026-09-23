@@ -1,0 +1,42 @@
+{
+  "aula": "G02_A01",
+  "arquivo_sha256": "19da2d69e7558f856732ea9bda1465333206a4f6d6f65264bc7c264a4be5efc5",
+  "inspecao_sha256": "bfb038e1842c6a82d30ba6ffd37de166aa1b6d6153e08b1d2fab5b4157665bce",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "O validador retornou zero erros e zero avisos. O inspetor confirma que não há cópia bruta, que os tipos seguem as regras do FORMATO e que as duas unidades com `confianca` abaixo de alta têm `nota`. Não há veto de contrato.",
+  "fidelidade": "Veto por `faixa-errada` na unidade 4. A inspeção foi integral, todos os trechos são literais e `citacoes_nao_literais` está vazio. O fecho do corpo, \"porque a prática leva à perfeição\", vem de 126,76–129,22 s, e a faixa declarada é 103–123. Isso dá 1 em 5 unidades com faixa, ou 20%, acima do limiar de 10% da rubrica. Esse limiar não depende de gravidade, então o veto vale mesmo com o desvio pequeno e pontual. As unidades 1, 2, 3 e 5 estão lastreadas, e o inspetor não apontou `sem-lastro` nem `desvio` material. Os pontos de redação dessas unidades (\"Por isso a segunda temporada parte…\" na 1, \"aplica tudo\" na 2, \"na época da gravação\" na 5) não mudam número, condição nem sentido e ficam como ajustes menores. A degradação \"estruco de uma criança\" está preservada com `nota` e `confianca: media`, como a rubrica admite.",
+  "cobertura": "Sem veto. O inspetor declarou busca de omissões na fonte inteira, de 434 palavras, e não encontrou nenhuma. O restante da fala é testemunho (\"Eu sou a prova viva disso\", \"Com 6 anos tentando\") e enchimento, que a rubrica não conta como omissão. A aula é um recado de abertura, e as cinco unidades cobrem mais que o mínimo esperado, que seria um `limite`.",
+  "perecibilidade": "Sem veto. As cinco unidades têm `perecivel: true`: divisão da temporada, aula 9, primeira temporada, Word e o suporte pelo WhatsApp pessoal. O inspetor não sinalizou perecível escondido, e eu também não vejo nenhum nas unidades.",
+  "aplicabilidade": "Sem veto. As unidades se sustentam sem a aula ao lado. A unidade 1 explica o Kishotenketsu em `condicoes`, a 2 define plot twist com a definição da fonte, e a 5 traz a condição \"reviu e ainda não entendeu\" no corpo do `decisao`. As classificações discutíveis não levam o agente ao lugar errado e ficam como ajustes menores: a tarefa `usar-recursos-do-curso` na unidade 1, o tipo `limite` escolhido por eliminação na 2 e a plataforma `whatsapp` para canal de suporte na 5. Nenhuma técnica contorna política de plataforma.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        4
+      ],
+      "veto": "fidelidade",
+      "evidencia": "O inspetor cita o trecho literal \"E a prática leva a perfeição\", em 126,76–129,22 s, que não está em `citacoes_nao_literais`. A unidade 4 declara `inicio: 103` e `fim: 123`, mas o corpo termina com \"porque a prática leva à perfeição\". É 1 `faixa-errada` em 5 unidades com faixa, ou 20%, acima do limiar de 10% da rubrica. O núcleo da unidade e a `evidencia` (113,06–120,98 s) estão dentro da faixa.",
+      "impacto": "Quem conferir a unidade pela faixa declarada não encontra a razão que o corpo atribui ao professor, e essa oração fica inverificável. O defeito não muda a orientação para o agente, mas quebra a rastreabilidade que a base promete por unidade.",
+      "mudanca_minima": "Alterar só o `fim` da unidade 4 para cobrir a fala até \"Entendeu?\", que termina em 129,58 s. O novo `fim` fica entre 129,58 e 130 e não passa do `inicio` da unidade 5, que é 130. Manter `inicio`, corpo, `evidencia` e demais campos. Incrementar `versao` para 2 e registrar a correção em `correcoes`. Alternativa equivalente, se a coordenação preferir não estender a faixa sobre o trecho de testemunho: retirar do corpo a oração \"porque a prática leva à perfeição\" e manter 103–123.",
+      "criterio_de_aceite": "(a) A unidade 4 tem `fim` entre 129,58 e 130 com o corpo inalterado, ou mantém 103–123 sem a oração final. (b) A unidade 4 está em `versao: 2` e a correção consta em `correcoes`. (c) `base_fcc.py` retorna zero erros. (d) Na conferência focal, o inspetor confirma que toda frase do corpo da unidade 4 tem trecho-fonte dentro de `inicio`–`fim` e classifica a unidade como `lastreada`. (e) Os hashes das unidades 1, 2, 3 e 5 não mudam."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 1: a frase \"Por isso a segunda temporada parte do que a primeira já ensinou e não substitui esse fundamento\" é encadeamento do extrator; o professor só diz \"já fizemos uma primeira temporada sobre isso\". É coerente com a fala e não muda o uso. Pode ser enxugada em revisão futura.",
+    "Unidade 1: a tarefa `usar-recursos-do-curso` com tema `kishotenketsu` força `perecivel: true` num princípio de estudo. A classificação é discutível entre valores defensáveis, e o enum não tem tarefa melhor para pré-requisito.",
+    "Unidade 2: \"aplica tudo numa VSL\" vai além de \"Eu vou colocar na prática\". Trocar por \"coloca na prática numa VSL\" quando a unidade for tocada.",
+    "Unidade 2: a `nota` traz resíduo de processo (\"Tipo ajustado: fato-material exige fonte material, então usado limite\"). A `nota` não entra no hash, então pode ser limpa sem perder a evidência. O tipo `limite` foi escolhido por eliminação, mas é defensável, porque a unidade antecipa o que fica para a aula 9.",
+    "Unidade 2: usa \"Kishotenketsu\" sem a explicação na primeira ocorrência que o FORMATO pede; a unidade 1 faz isso em `condicoes`. Não muda o uso de um `limite` sobre a estrutura da temporada.",
+    "Unidade 5: \"na época da gravação\" em `condicoes` não está na fonte. É uma ressalva conservadora, e `perecivel: true` já a cobre.",
+    "Unidade 5: `plataformas: [whatsapp]` para canal de suporte. A taxonomia define `whatsapp` como canal de venda um a um ou de disparo, mas o tema `curso-e-recursos` evita confusão. É discutível entre `whatsapp` e `geral`.",
+    "Contexto: a menção \"gravado em 2×\" não foi conferida pelo inspetor, que cuidou das unidades. Confirmar na conferência focal se a fonte sustenta isso e, se não, retirar. O contexto não entra no hash das unidades."
+  ],
+  "proximo": "Este é o ciclo 1 de correção. O redator recebe só a falha F1, uma correção mecânica no `fim` da unidade 4, e não precisa reextrair nada. As unidades 1, 2, 3 e 5 não devem ser alteradas em corpo nem em metadado que entre no hash, para preservar a evidência já colhida. A limpeza da `nota` da unidade 2 é opcional e não afeta o hash.\n\nA conferência seguinte é focal: validador no arquivo, inspetor só na unidade 4 para checar faixa e lastro de cada frase do corpo, e confirmação de \"gravado em 2×\" no contexto.\n\nPara a coordenação: numa aula de 5 unidades, uma única `faixa-errada` já passa do limiar de 10%. Apliquei a régua como está escrita. Se esse efeito em aulas curtas não for o desejado, a decisão é da rubrica e de Will, não deste julgamento."
+}

@@ -1,0 +1,22 @@
+{
+  "aula": "G06_A12",
+  "arquivo_sha256": "af2947e73c292e7257053be42f6b8a1d66f0f6d715425d6116eebb55d7d0e92d",
+  "inspecao_sha256": "c93e645664d51b4aa431d56b5b5bb1f53691943936bcf0d3468e88636f1b6476",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "O validador retornou zero erros. O único aviso (1 unidade, fora da faixa 3–60) é esperado: aula sem conteúdo didático rende uma unidade `limite`, como o FORMATO prevê. Sem veto.",
+  "fidelidade": "A inspeção foi integral. A unidade 1 está `lastreada`, com trecho literal da fonte e nenhuma citação em `citacoes_nao_literais`. O inspetor confirmou cada afirmação do corpo dentro da faixa 29.98–142.14:\n- a quarta temporada dedicada a negócios locais;\n- os exemplos de loja;\n- os três perfis;\n- a promessa da ferida por nicho;\n- a frase sobre criatividade aplicada.\n\nA `nota` preserva a incerteza sobre o número da temporada atual (\"terceira temporada e na quarta\"), com `confianca: media`. É o tratamento que a rubrica pede para fonte mal transcrita.\n\nHá dois preenchimentos interpretativos. O corpo diz \"início do anúncio\", e a fonte diz só \"O início\". O corpo diz \"vender pronto\", e a fonte diz \"não é te vender\". Nenhum altera número, condição ou sentido de modo que mude a decisão de quem consulta. A unidade é um `limite` que avisa que nada disso foi ensinado. Ficam como ajuste menor. Não há copy de exemplo tratada como fato, passo de tela, resíduo de silêncio usado como fonte nem ressalva suprimida. Sem veto.",
+  "cobertura": "O inspetor declara ter buscado omissões na fonte inteira (402 palavras) e não achou nenhuma. A aula é recado de encerramento com oferta da próxima temporada. O trecho inicial degradado e o resíduo final (\"E aí\") ficaram de fora, corretamente. O `limite` da aula existe e diz o que a temporada seguinte promete cobrir. Sem veto.",
+  "perecibilidade": "A unidade trata de estrutura do curso e ordem de temporadas, com tema `curso-e-recursos` e `perecivel: true`. `condicoes` avisa que a ordem das temporadas pode mudar. O inspetor não sinalizou perecível escondido. Sem veto.",
+  "aplicabilidade": "A unidade se sustenta sozinha. Ela diz o que a aula é, o que a próxima temporada promete e para quem. Também avisa que nada disso deve ser tratado como conteúdo já coberto, que é o que um agente precisa para não preencher lacuna.\n\n`tipo: limite`, `tema: curso-e-recursos`, `tarefas: []` e `plataformas: [geral]` levam ao lugar certo. A menção ao Instagram é só a origem do pedido do público e não pede plataforma específica. O corpo não depende de referência que ficou na aula. Sem veto.",
+  "falhas": [],
+  "ajustes_menores": [
+    "Unidade 1: o corpo diz \"o início do anúncio e a conexão feita a partir dele\", e a fonte diz apenas \"O início e a conexão que você vai fazer com tudo isso\", sem dizer início de quê. Sugestão: \"o início e a conexão feita a partir dele\", sem especificar \"do anúncio\". Motivo: preenchimento interpretativo plausível. Não muda decisão, porque a unidade é `limite` e avisa que o conteúdo não foi ensinado.",
+    "Unidade 1: o corpo diz \"não é vender pronto\", e a fonte diz \"não é te vender e sim fazer você criar\". Sugestão: \"o esquema do treinamento não é vender para o aluno, e sim fazê-lo criar\". Motivo: a palavra \"pronto\" não está na fonte. O sentido geral se mantém e não afeta o uso."
+  ],
+  "proximo": "Aprovar G06_A12 e promover o status para `revisado`. Os dois ajustes menores não abrem ciclo. Se forem aplicados junto com outra correção, incrementar `versao` da unidade 1 e refazer o hash da inspeção. Nenhum pedido de prova pendente."
+}

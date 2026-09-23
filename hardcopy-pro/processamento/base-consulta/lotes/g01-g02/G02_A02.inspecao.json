@@ -1,0 +1,142 @@
+{
+  "aula": "G02_A02",
+  "arquivo_sha256": "8ef5ea27e031527624f203ee05abea1b18f5f63300c210a5b50c016baae60119",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "2156dc75e1566d0301d3fba9a18d9c5e4c1a225cb332d594f62eddf80dd3bfee",
+    "2": "92bf976971550739a48a0c4695a77338fb276af6be13884a7d49218f2573c67b",
+    "3": "e648e65af28cc474fa44f5839afbe270036d578fb3d454d9c5ed8d481e94b486",
+    "4": "1441ff210e5f46e93e497887b1ca8c1d7e24f922f06227da52796d50f454eaaa",
+    "5": "065ca8acef35b6bd3740182d5dfc52ecaf9bb6ca87b1b19017842127857643d6",
+    "6": "753a8cb0a4ed76fc71a9dc078b9cbce6d886e30b38fe44db98420e5950a27510",
+    "7": "528c7697065b5ef7bf6fc968a4a41a92e2c326333cf67e4fd61557b21451fc32",
+    "8": "2d65659ea347f999d636506dd177dcd1fea63dd633445abf51188d5f899d261e",
+    "9": "cc26070092c894da9d6953c6833a7a9692bc5a55981bfc2eed666eb6b3913a73",
+    "10": "97d82c324ab18710340c95d2b577d69b2d0e03b4d582e839fc9763d0afb985b1",
+    "11": "1746bb18f854e4babd188c972cfc26c14666f8448eef48592505d4e5b00959b5"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Porém, na VSL, você pode aumentar isso para dois minutos,",
+      "explicacao": "A fala traz a regra dos três segundos no orgânico, os dois minutos permitidos na VSL, e o lead como início da VSL. A unidade preserva os três pontos. A condicoes deixa claro que os dois minutos são o que o professor diz que a VSL permite, não um mínimo. A faixa 30–74 cobre o conteúdo."
+    },
+    {
+      "numero": 2,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Fala, poxa, eu vou dar uma chance",
+      "explicacao": "A primeira frase do corpo (lead é o início da VSL, não o cliente) está dentro da faixa, em 172,4–177,56 s. A segunda frase do corpo (pegar na dor da pessoa para ela dar uma chance e continuar assistindo) está em 177,56–193,56 s. O trecho \"Fala, poxa, eu vou dar uma chance\" fica em 187,2–191,74 s, bem depois do fim=180. Quem consultar só a faixa perde metade do que o corpo afirma. Correção mínima: fim ≈ 194. O conteúdo em si é fiel."
+    },
+    {
+      "numero": 3,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Esse início é o que define se a VSL é boa ou não.",
+      "explicacao": "A frase está em 74,48–78,94 s e a faixa começa em 78,9, então só 0,04 s dela cabe na faixa. O corpo abre com ela na Situação, e o título a repete. O restante (três alterações, só o lead mudou, vários testes, conversão atual) está dentro da faixa, em 83,9–102,9 s. Caso limítrofe, com conteúdo fiel e ressalva de relato preservada. Correção mínima: inicio ≈ 74,4. A Lógica (\"onde vale testar e iterar\") é inferência do extrator, sem efeito no uso."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "E eu gosto de separar o início impactante em quatro diferentes sessões, dependendo do produto que eu vou anunciar.",
+      "explicacao": "Os quatro tipos, a escolha conforme o produto e a atribuição como preferência do professor batem com a fonte. O ponto de atenção é de tipo (ver `contrato`): a fonte dá alternativas, não partes de um molde em sequência."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A curiosidade no emagrecimento, na VSL de emagrecimento, é 90% dos produtos atualmente é a curiosidade.",
+      "explicacao": "Os números (90% curiosidade, 0% absurdo, medo com \"quase ninguém\") e a atribuição ao professor estão corretos. A lacuna de transcrição sobre a dor está sinalizada na nota. Dois acréscimos leves: \"cerca de 90%\", quando a fonte diz 90% sem aproximação, e a frase final (\"serve para ver quais tipos estavam saturados e quais estavam livres\"), que o professor não diz e é inferência do extrator. Nenhum dos dois muda a decisão de quem consulta."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu nunca vi utilizando em nenhuma VSL",
+      "explicacao": "Situação, mecanismo único X, subnicho de casal, dor na família e o \"100% a dor na família\" estão na fonte, todos atribuídos ao professor. A Lógica acrescenta que a dor é escolhida \"por ser ainda pouco usada\" e que isso \"faz querer continuar assistindo\". O professor só diz que é interessante e que nunca a viu em VSL; o efeito sobre a audiência é inferência do extrator. A observação de mercado \"nunca vi em nenhuma VSL\" também pede `perecivel: true` (ver `perecibilidade`)."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e, enfim, eu não estudei muito sobre isso, mas isso eu tenho certeza que melhora.",
+      "explicacao": "O subnicho acima de 40 anos com joelho, articulação e osteoporose, o contraste com o chá milagroso para diabetes, o plot twist como ponto de entrada do produto e a orientação de não dizer que é para emagrecer estão na fonte. A ressalva do professor (não estudou muito o assunto) está na condicoes. A citação entre aspas de \"se não emagrecer, não cabe no vestido\" é paráfrase, o que não muda o sentido."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A pessoa não tem autoestima por conta do seu corpo",
+      "explicacao": "Fatores (amizades, desejos, sexualidade), mentalidade como ponto comum, e explicar o que incomoda antes de levar ao produto estão na fonte. A ressalva \"não se apegue ao nicho\" está em 418–425 s, dentro da faixa, e aparece na condicoes."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Vamos começar com uma dor semelhante para criar uma conexão",
+      "explicacao": "O conteúdo (dor semelhante para criar conexão, depois o mecanismo único, e o público \"extremamente doida para comprar\") está na fonte, assim como a referência à primeira temporada. O corpo, porém, vira uma regra geral do lead (\"Comece o lead com uma dor semelhante\"), enquanto a fala está dentro do desenvolvimento do lead por dor. Na mesma aula o professor lista quatro tipos de lead, escolhidos conforme o produto. A condicoes não limita o escopo ao lead por dor. Quem consultar para escrever um lead de curiosidade ou absurdo pode ler a unidade como obrigatória. Ajuste: registrar em `condicoes` que é a jogada do lead por dor."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "O que não te frustra mais não é a pessoa",
+      "explicacao": "Indicação para mulheres ou homens (principalmente homens acima de 30 ou 35 anos), abertura como produto de relacionamento, pensamento do espectador sobre a esposa e o público desconfiado estão na fonte. O trecho da frustração está mal transcrito (\"O que não te frustra mais não é a pessoa / E sim o que as pessoas vão achar\"). A unidade o resolve como \"além da frustração com o outro, pesa o que os demais vão achar\", em silêncio e com confiança alta. Se a leitura correta for \"o que mais frustra não é a pessoa, e sim a opinião dos outros\", o peso muda. Ajuste: `nota` com a incerteza e `confianca: media`. A Lógica final é inferência do extrator."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Deixei dois exemplos aqui, porque eu vou disponibilizar esse documento para você reencher esse exemplo.",
+      "explicacao": "A divisão em quatro partes (com a autocorreção \"três… na verdade quatro\"), medo como próxima aula, o documento com dois exemplos e o envio junto com a VSL estão na fonte. O limite \"conteúdo do documento não aparece na transcrição\" está declarado. `perecivel: true` está correto por ser recurso do curso."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [
+    {
+      "numero": 6,
+      "problema": "A unidade está com `perecivel: false`, mas o corpo e a Lógica trazem observação de mercado que muda com o tempo: o professor diz \"Eu nunca vi utilizando em nenhuma VSL\" e o corpo justifica a escolha da dor por ela ser \"ainda pouco usada\". A unidade 5 trata observação equivalente como perecível. Marcar `perecivel: true` e dizer na condicoes que é observação do professor na época da gravação."
+    }
+  ],
+  "contrato": [
+    "Unidade 4: `tipo: estrutura` para os quatro inícios (dor, medo, curiosidade, absurdo). A fonte os dá como alternativas escolhidas conforme o produto (\"Começamos ou pela dor, pelo medo, curiosidade ou o absurdo\"), não como partes ordenadas de um molde. O corpo não traz a função de cada parte, e a lista numerada sugere sequência que a fonte não dá. `conceito` ou `decisao` seria mais fiel. Classificação discutível (menor).",
+    "Unidade 3: a tarefa `gerar-variacoes-de-criativo` é definida como variações de hook, som ou imagem sobre um criativo. A unidade trata de reescrever o lead de uma VSL e testar. Levaria a consulta a um lugar próximo, mas discutível (menor).",
+    "Unidade 5: `tipo: conceito` para observação de mercado com percentuais. A taxonomia define conceito como definição ou distinção usada para pensar. Discutível entre `conceito` e `regua` (menor). A `perecivel: true` está correta.",
+    "Unidades 6 e 7: usam \"mecanismo único\" e \"plot twist\" sem explicar. A unidade 9 explica mecanismo único, mas a 6 e a 7 são consultadas sozinhas. Unidades 6, 8 e 10 usam \"lead\" sem dizer o sentido (início da VSL). O FORMATO pede explicar o jargão na primeira ocorrência dentro da unidade e dizer qual sentido de lead vale (menor)."
+  ],
+  "material": [],
+  "resumo": "Conferi as 11 unidades e percorri a transcrição inteira à procura de omissões. Não achei orientação da aula sem unidade, e não há sem-lastro, resíduo de silêncio usado como fonte, copy de exemplo tratada como fato nem grafia deformada no corpo. O conteúdo é fiel, com atribuição ao professor e ressalvas preservadas. Restam só ajustes menores: faixa-errada nas unidades 2 e 3 (2 de 11, acima do limite de 10% da rubrica, que o juiz decide), `perecivel` faltando na 6, escopo do lead por dor faltando na condicoes da 9, transcrição ambígua sem nota na 10, e classificações discutíveis."
+}

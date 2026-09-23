@@ -1,0 +1,112 @@
+{
+  "aula": "G02_A03",
+  "arquivo_sha256": "c5aab66f4082a8d33261dd97af4044068fe1db579c009c0533ec8bc3c9d60798",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "hashes_unidades": {
+    "1": "1f879ca65d915493b7d0b64f80cc0639fcd67c238b9be66fe6455678619167f1",
+    "2": "0e58271c35bf4615f89923b17f27ea26c2ba6b633cb2fe70ce4427dfda56a893",
+    "3": "4dbd5ae519048b45b22ea3e2e92a722523849f4b9e5da22861f22978c2b76fbd",
+    "4": "262ee01938910305962f568c1422116116f5fe47dea52e4e5058a2d1de0d859a",
+    "5": "f7efb99a6d50220809d720bf9e411d2af6f44503696de5304fabb400b18f4050",
+    "6": "b1c8161b7511e05791ac8371317e069d25d797af59a681183807e3f23ce225b8",
+    "7": "129365f6634c4c9377f20b5041cd03e79bf2a75ae050ae2ef63be9a98c68ceb7",
+    "8": "38f5473d9463800dddb48aa41b301b29072efe770b9808acfda79cfe026c5980"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "todas as VSLs, páginas de vendas, precisa começar com um início impactante, ou com um problema, ou com uma dor, tem que começar, não tem pra onde correr",
+      "explicacao": "A regra central está na fonte e dentro da faixa 0–46. A última frase do corpo (\"e não apenas a estrutura de quatro atos do Kishotenketsu\") interpreta uma abertura mal transcrita: \"Início impactante e o que não pode faltar é uma VSL e não só VSL como quinchu, tá bom?\". A fonte não fala em \"quatro atos\" nessa passagem. A leitura é plausível, mas fica com confianca alta e sem nota. Não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Para quem já é um pouquinho mais veterano, tem mais lá seus 2, 3 anos de casa já no marketing digital, beleza.",
+      "explicacao": "Analogia do robô, \"não indico para quem está começando\" e \"tenta fazer, mas toma muito cuidado\" estão preservados, e a faixa 25–98 cobre tudo. A condição diz que o professor indica o medo \"só para quem tem em torno de 2 a 3 anos\". A fonte diz que ele não indica para iniciante e que para o \"mais veterano, tem mais lá seus 2, 3 anos de casa\" está bem. Isso soa como piso, não como faixa exclusiva. É diferença de redação, sem efeito relevante."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "De maneira nenhuma vamos falar sobre emagrecimento no início, vamos falar no meio, construindo um roteiro em base disso, tá bom?",
+      "explicacao": "Confere: dor do dinheiro, pessoas mais bonitas com mais oportunidades, \"não é culpa dela\" para a VSL parecer informativa, e explicar antes de levar ao emagrecimento (só no meio). O 90% está atribuído como suposição do professor (\"Como eu imagino que seja 90% abaixo da classe média\"). A faixa 118–214 contém tudo, inclusive \"nunca vi em uma VSL\" (por volta de 195–206 s)."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Hora nenhuma você vai falar para ela que a culpa dela ter estrias ou ela está perdendo os fios ou o cabelo é o emagrecimento",
+      "explicacao": "O conteúdo confere. Há três detalhes de redação. (1) A fonte diz que a culpa \"é o emagrecimento\", frase ambígua ou mal transcrita; o corpo troca por \"a obesidade\" sem nota e com confianca alta. O efeito prático é o mesmo. (2) Some a condição \"Dependendo do grau da obesidade, a pessoa tem perca de fios\" para a perda de cabelo. (3) \"a pessoa fica abismada\" perde a atribuição ao professor e o \"vai comprar\" (\"ela vai ficar completamente abismada e vai comprar\"). Nenhum muda a decisão de quem consulta. Convém nota sobre a ambiguidade e atribuir o resultado ao professor. A faixa 217–361 cobre o conteúdo e se sobrepõe à da unidade 5."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "É o nicho mais genérico que existe hoje no Brasil",
+      "explicacao": "As afirmações de mercado (mais vende, mais difícil de entrar, mais soluções, lead de maior consciência) estão na fonte e atribuídas ao professor, com perecivel true. Há uma inserção: \"O professor escolheu emagrecimento porque... é o nicho mais genérico\". A fonte não dá esse motivo. Ela diz só que o nicho é o mais genérico, que \"emagrecimento, renda extra e relacionamento\" são os três, com emagrecimento em \"primeiro lugar\", e que os exemplos servem de base para entender um início impactante. O nexo causal é do extrator; o efeito no uso é pequeno."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Eu tô contando essa curiosidade aqui pra vocês só pra falar que existe, porque já é algo muito mais do mesmo, todo mundo já usa isso, e agora eles estão usando um novo termo chamado PLR Expert, que é pessoas no fundo conversando e um doutor falando que isso vai dar certo, que aquilo e tal, mas eu não indico, já tem muito isso no mercado,",
+      "explicacao": "Confere: definição de curiosidade, VSL advertorial (site tipo G1, Gshow, Globo News com VSL), \"só para pessoas acima de 35 anos\", PLR Expert e a ressalva de que não indica, com nota sobre PLR sem definição. A faixa 388–476 cobre o conteúdo."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu acho que é muito nichado e eu acho que não dá certo.",
+      "explicacao": "Conteúdo e ressalva do professor preservados (\"Eu não usaria nenhuma hipótese\"). O percentual do exemplo (\"tantos por cento das empresas\") está corretamente tratado como ilustrativo. Dois ajustes menores. (a) A faixa fim=642 corta a razão \"isso aqui pode abrir muito a mente de vocês\" (646–654 s), embora o corpo a use. (b) O corpo diz que o professor \"usaria comparação\" e depois que \"não a usaria\"; isso reflete a fonte, que se contradiz (\"O que eu usaria seria uma comparação\" por volta de 510 s, depois \"Porém, eu não utilizaria\"), mas a unidade não sinaliza a virada. O \"pois\" entre \"não demonstram confiança\" e \"vista como desleixo\" é ligação do extrator."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você vai ver até o final",
+      "explicacao": "O conteúdo é fiel: absurdo adiado para a próxima aula, \"totalmente fora do contexto e fora do padrão\", sem orientação de como fazer. A faixa 651–665 corta a descrição do absurdo. \"Pra você pegar o seu lead e colocar ele num canto e falar, peraí. Você vai ver até o final\" está em cerca de 664–671 s, e o corpo usa essa parte (\"prende o lead para ver até o final\"). A âncora \"Que é algo totalmente fora do contexto\" (660 s) está dentro. O fim=665 coincide com a duração original da gravação (00:11:05), enquanto a transcrição vai até 714 s."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [
+    {
+      "numero": 3,
+      "problema": "Caso limítrofe. A condição traz \"90% abaixo da classe média\", um número sobre a composição do público de emagrecimento no mercado, e a unidade está com perecivel false. A fonte atribui o número ao professor (\"Como eu imagino que seja 90% abaixo da classe média\"), e a unidade preserva a atribuição. Se o juiz entender que é número de mercado, deve virar perecivel true, como já foi feito com as afirmações de mercado da unidade 5. Se entender que é só pressuposto do exemplo, a marcação atual se sustenta."
+    }
+  ],
+  "contrato": [
+    "Unidade 5: tipo `conceito` com tarefas [] mistura afirmações de mercado sobre emagrecimento com a orientação de preencher os exemplos com o próprio produto. Quem procura `escrever-abertura` não encontra a segunda parte. \"os mesmos exemplos\" e \"Os exemplos servem de base\" remetem aos exemplos da aula, sem dizer quais. Classificação discutível, ajuste menor.",
+    "Unidade 1: \"O que não pode faltar é essa abertura\" repete o título da aula, e a passagem original está mal transcrita. Sem nota registrando a incerteza, a unidade fica parcialmente presa à aula. Ajuste menor.",
+    "Unidade 7: o corpo diz que o professor \"usaria comparação\" e depois que \"não a usaria\". Um agente que leia só \"O que aconteceu\" pode tomar a comparação como recomendação. Uma nota sobre a virada do professor resolveria. Ajuste menor.",
+    "Nenhuma cópia bruta de 25 palavras nem grafia deformada no corpo, título ou condições. Faixas e evidências das oito unidades caem dentro da fonte."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira (0–714 s) e conferi as oito unidades, sem material de apoio. Todas estão lastreadas. Números (90%, 2–3 anos, 35 anos), ressalvas do professor (\\\"não indico\\\", \\\"não usaria\\\") e a atribuição do percentual ilustrativo do exemplo 7 estão preservados. Não achei omissão relevante. Ficam ajustes menores: uma troca de palavra em passagem ambígua na unidade 4, um nexo causal inserido na 5, faixas curtas nas unidades 7 e 8, e um caso limítrofe de perecibilidade na 3 (número 90%)."
+}

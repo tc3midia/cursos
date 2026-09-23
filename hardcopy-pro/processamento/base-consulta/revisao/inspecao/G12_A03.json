@@ -1,0 +1,77 @@
+{
+  "aula": "G12_A03",
+  "arquivo_sha256": "ebf70b15a69d28770e276e33a437b8678e50ad29abef7a97de10c4dd22450060",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hashes_unidades": {
+    "1": "02e87167bcfeae65fa681a507a13a7ceaa2b08a29c775c30173bf0c2de4f64b3",
+    "2": "9991e29571e0cfe8148f33355d73914d8d0b605d7f812114e7c13f9b7cd688bd",
+    "3": "896fa09da8d7a23b8e8f638eb02227ff745087e344b41d9b02cfe1ca6b78ec58",
+    "4": "92ddcb8da50d151fb1e58c72df50df1f58cf09b06b7ee632dafaae45045d4bc3"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você está assistindo a direção e ver vários anúncios, eu estou criando vários anúncios",
+      "explicacao": "A caracterização geral da aula como demonstração de tela do professor editando um anúncio de exemplo é sustentada: a fala confirma, perto do fim, que se trata de anúncios ('eu estou criando vários anúncios'), e o corpo do tempo todo mostra apontamentos de tela ('colocamos aqui em cima, tá, e a gente vai ver como é que tá esse vídeo aqui', 116–137s) consistentes com cortes, máscaras, efeitos e transições mencionados ao longo da faixa 30–2129s. A unidade lista plataforma só como 'capcut', mas a fala também nomeia o Canva como ferramenta usada numa etapa da montagem (ver omissão registrada); isso não torna a unidade falsa, só incompleta nesse detalhe, por isso não rebaixo a gravidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente separa tudo, a vocal tá aqui, o áudio normal tá aqui, então a gente uniu aqui",
+      "explicacao": "O núcleo técnico (separar áudio e vocais no CapCut e reaproveitar as duas trilhas) está bem lastreado dentro da faixa declarada (287–321s). Dois pontos menores: (1) a frase que justifica o motivo da separação — 'A gente vai retirar o áudio aqui agora, lá na frente a gente vai retirar o áudio, então a gente não pode deixar ele falando, tá?' — está no segmento imediatamente anterior (277–287s), ou seja, no limite ou levemente fora da faixa 287–321 declarada pela unidade; (2) a frase do corpo 'sem perder o som ambiente' é uma inferência do que a separação vocal/áudio costuma permitir, não uma frase dita literalmente pelo professor. Nenhum dos dois pontos muda a orientação prática (separar as trilhas e reaproveitá-las continua correto), por isso o efeito é menor, não material."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Snap, Tiki, vai baixar esse fórdio, baixou o download do vídeo, close, tá aqui o vídeo dele",
+      "explicacao": "O trecho confirma o uso de uma ferramenta de download (grafada na transcrição como 'Snap, Tiki', identificada por hipótese como SnapTik conforme a tabela do FORMATO) para baixar um vídeo externo antes de trazê-lo à edição. A unidade preserva a identificação como hipótese, com nota nomeando SnapTik e confiança 'media', como o formato exige quando a orientação depende de qual ferramenta é. A faixa 689–705s corresponde exatamente ao segmento da fala."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Texto, legendas automáticas, português e brasil excluir legendas atuais e gerar",
+      "explicacao": "Os quatro passos do procedimento (abrir Texto > legendas automáticas, escolher português do Brasil, marcar para excluir legendas atuais e gerar, e escolher a variante de letra maior) correspondem, em ordem, à sequência falada entre 21:00 e 21:57 ('Texto, legendas automáticas, português e brasil excluir legendas atuais e gerar' / 'Aguarda um pouquinho' / 'a gente seleciona a maior... essa daqui é uma das melhores'). A frase confusa sobre o motivo de gerar a legenda ('essa batalha... quasar') é preservada como incerta em nota, com confiança 'media' e citação literal do trecho degradado, conforme esperado para fonte ambígua."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 636,
+      "trecho_fonte": "Vamos lá para o Canva, e a gente já finaliza essa parte, Canva é um minuto ali, então",
+      "descricao": "A fala mostra que uma etapa da montagem do anúncio é finalizada no Canva, não só no CapCut. Nenhuma unidade registra o uso do Canva; a unidade 1 (limite) e o contexto descrevem a aula inteira como dentro do CapCut, com plataforma marcada só como 'capcut'.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base para saber quais ferramentas essa aula emprega pode não perceber que o Canva também é usado numa etapa da montagem, e pode não abrir o Canva ao tentar acompanhar o processo completo mostrado na aula."
+    },
+    {
+      "inicio": 501,
+      "trecho_fonte": "A animação que eu gosto de usar é essa de novo vídeo, que é a flashzinha, essa aqui ó, a gente muda um pouquinho de velocidade, e fica o pé junto a ver.",
+      "descricao": "O professor nomeia uma preferência pessoal de transição entre cenas (uma animação do tipo 'flash') e diz que reduz um pouco a velocidade dela. Nenhuma unidade preserva essa preferência de transição, embora ela seja um dos poucos pontos da edição que a fala nomeia com alguma clareza.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta a base não fica sabendo que o professor tem uma transição preferida para cortes de cena, nem que ele costuma ajustar a velocidade dela — um detalhe de estilo replicável que fica de fora."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [],
+  "material": [],
+  "resumo": "As quatro unidades desta aula de tela (edição ao vivo no CapCut) estão bem lastreadas nos poucos trechos em que a fala nomeia algo com clareza — separar áudio e vocais, baixar vídeo com SnapTik (hipótese) e gerar legenda automática — com hipóteses de ferramenta e trechos ambíguos corretamente marcados em nota e confiança reduzida. O único ponto de atenção fino é a unidade de separação de áudio/vocais, cuja frase de justificativa fica no limite da faixa declarada e cujo corpo contém uma pequena inferência técnica não dita literalmente; o efeito é menor. Duas omissões pontuais de gravidade menor não foram preservadas por nenhuma unidade: o uso do Canva para finalizar uma parte do anúncio (a aula é descrita como só dentro do CapCut) e a preferência do professor por uma transição 'flash' com velocidade reduzida. Não há problemas de perecibilidade, contrato ou material nesta aula, e o restante do conteúdo ficou corretamente fora das unidades por depender da imagem."
+}

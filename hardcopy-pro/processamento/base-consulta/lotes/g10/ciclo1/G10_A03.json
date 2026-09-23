@@ -1,0 +1,99 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G10_A03",
+  "titulo": "Episódio 3 - O que Queremos Ouvir",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é o terceiro episódio do módulo Hard Sounds do curso Hardcopy Pro, sobre o uso de música em vídeos de anúncio e VSL.",
+    "O professor explica por que não se deve colocar uma música comercial inteira, do início ao fim, dentro de um vídeo de anúncio.",
+    "A justificativa tem duas frentes: o risco de a plataforma (o professor cita o Facebook) identificar a música e bloquear o anúncio por direito autoral, e a perda do sentimentalismo que a música deveria gerar no lead.",
+    "A solução apresentada é cortar a faixa em pequenas partes e inserir esses trechos no vídeo, em vez de usá-la como fundo contínuo do começo ao fim.",
+    "A aula é curta e fica só na parte teórica: o professor avisa que vai mostrar na prática, no episódio seguinte, como fazer os cortes e como construir o sentimentalismo.",
+    "Pressupõe que o espectador já escolheu ou vai escolher uma música para o vídeo e busca entender como evitar bloqueio e manter o efeito emocional.",
+    "Não aborda ferramenta de edição, software específico nem passo a passo técnico de corte de áudio."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Cortar a música em pequenas partes evita bloqueio por direito autoral",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio",
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 109.66,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Contorna política de plataforma ou direito de terceiros: o professor ensina a cortar a música em pequenos trechos e inseri-los no vídeo para que o Facebook não consiga identificar a faixa e não aplique bloqueio por direito autoral no anúncio.",
+      "proposta_tag": null,
+      "corpo": "Colocar uma música direto e inteira, do início ao fim, num vídeo de anúncio tende a fazer o vídeo tomar aviso de direito autoral (copyright), o anúncio tomar ban e a plataforma (o professor cita o Facebook) bloquear o anúncio. Para evitar isso com qualquer música escolhida, a orientação é cortar a faixa em pequenas partes e colocar esses pedaços no vídeo, em vez de tocá-la inteira como música de fundo contínua enquanto a pessoa fala. Essa fragmentação serve justamente para que a plataforma não consiga identificar a música original.",
+      "evidencia": "Cortando essa música em pequenas partes, a gente vai fazer isso na prática",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Música tocando o vídeo inteiro mata o sentimentalismo e não faz o lead comprar",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 73.82,
+      "fim": 135.82,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Sempre que uma música for usada no vídeo, a orientação é não tocar a faixa inteira preenchendo o vídeo todo, como música de fundo genérica só para não deixar a voz no ar. Fazer isso não traz o sentimento (sentimentalismo) que se busca e não faz o lead arrepiar a ponto de comprar; pelo contrário, deixa o lead com sono do vídeo e do produto.",
+      "evidencia": "Isso vai fazer com que o lead tome sono do seu vídeo, do seu produto",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Aula cobre só a teoria do corte de música; prática fica para o próximo episódio",
+      "tipo": "limite",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 109.66,
+      "fim": 146.28,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor declara que esta aula traz só a parte teórica de por que cortar a música em pequenas partes. A demonstração prática de como fazer os cortes e como construir o sentimentalismo a partir deles fica para o episódio seguinte do curso.",
+      "evidencia": "Então na próxima aula eu vou estar te mostrando como que a gente vai fazer de fato isso",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        2
+      ],
+      "retiradas": [],
+      "observacoes": "F1 (unidade 2): procede. Voltei à transcrição e confirmei que a oração \"como música de fundo genérica só para não deixar a voz no ar\" se apoia em \"a pessoa coloca uma musiquinha de fundo ali, e aí a pessoa vai falando e a música não tem sentido nenhum\" (00:01:13.820–00:01:19.860) e \"é só pra não deixar a voz no ar, né? Igual as pessoas falam.\" (00:01:19.940–00:01:24.480), isto é, 73,82–84,48 s, fora da faixa declarada 119.58–135.82. Apliquei a opção preferida da mudança mínima: `inicio` passa de 119.58 para 73.82 (início do segmento 00:01:13.820), `fim` continua 135.82. Não alterei corpo, título, tipo, tema, tarefas, plataformas, condições, perecibilidade, confiança nem evidência.\n\nCom a nova faixa, cada oração do corpo tem lastro dentro de `inicio`–`fim`: \"não tocar a faixa inteira preenchendo o vídeo todo\" apoia-se em \"deixar ela até o final, igual normalmente todo anúncio que você vê\" (73,48–73,82 em diante) e em \"Não vai pegar a música e vai ficar colocando tudo na música e o vídeo todo\" (122,54–127,24); \"música de fundo genérica só para não deixar a voz no ar\" em 73,82–84,48; \"não traz o sentimento (sentimentalismo) que se busca\" em \"o seu vídeo não vai ter o sentimentalismo que a gente tá procurando\" (84,48–93,04) e \"Isso aí não vai trazer o sentimento que a gente quer\" (127,24–129,46); \"não faz o lead arrepiar a ponto de comprar\" em \"E não vai fazer o lead arrepiar pra ele comprar\" (129,46–131,98); \"deixa o lead com sono do vídeo e do produto\" na própria evidência (131,98–135,82), que segue dentro da faixa.\n\nA sobreposição com a faixa da unidade 1 é aceita pela própria mudança mínima e não conflita com o FORMATO, que só exige 0 ≤ inicio < fim ≤ fim da transcrição + 2 (aqui 168 + 2).\n\nCampos fora do meu contrato de saída: `versao` da unidade 2 deve ir para 2 e a mudança de faixa deve ser registrada em `correcoes` do JSON da aula — o esquema desta entrega não tem esses campos, então registro aqui para o executor gravar. As unidades 1 e 3 não foram tocadas, de modo que os hashes delas permanecem inalterados."
+    }
+  ]
+}

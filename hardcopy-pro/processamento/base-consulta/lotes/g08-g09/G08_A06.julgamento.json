@@ -1,0 +1,49 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "a16910b3b5efec6f31214fcfe52e1a7c10ba5f4e9fac008094266e8ec8559d16",
+  "inspecao_sha256": "1da5aad13cf39a5238b621d318c4b7eed328b1b4e0f4cfcadbdaba7f75273ff6",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Passa. Validador com zero erros e zero avisos. Os dois itens que o inspetor registrou em `contrato` (tipo da unidade 3, plataforma da unidade 2) não são erro de script; o primeiro é fidelidade (tratado em F1), o segundo é classificação discutível (ajuste menor).",
+  "fidelidade": "Falha. Unidade 3: desvio material comprovado com trecho literal — estimativa do professor (\"esse produto aqui provavelmente\") para o abajur fictício 'Light Touch' apresentada como `regua` e generalizada em `condicoes` para dropshipping/e-commerce; a rubrica trata número de caso como régua como desvio, qualquer que seja a `confianca` ou a `nota`. Unidade 1: `faixa-errada` com trecho literal fora da faixa (detalhe de música pesada e som de clique em ~146–159s, faixa declarada 30–70); 1 de 4 unidades com faixa = 25%, acima do limiar de 10%. Unidades 2 e 4 lastreadas; a 4 sem qualquer ressalva.",
+  "cobertura": "Passa. Inspeção integral sem omissões localizadas. Aula de tela com o `limite` da unidade 2 dizendo o que ficou só na imagem, que é o resultado esperado. O anúncio de pet shop para o próximo episódio está registrado no contexto como fora da aula. Não há oferta comercial apontada.",
+  "perecibilidade": "Passa. Unidade 1 marca `true` pela referência às temporadas do curso; unidade 3 marca `true` pelo preço; unidade 2 marca `true` pela plataforma. Unidade 4 em `geral` e `false`: Red Bull e Coca-Cola aparecem como exemplos de princípio, sem número de mercado, o que não exige a marca. Inspetor não sinalizou perecível escondido.",
+  "aplicabilidade": "Passa como veto próprio, com uma observação. Unidades 1, 2 e 4 se sustentam sem a aula: a menção às \"outras temporadas do curso\" na unidade 1 não é necessária para executar os dois blocos; a unidade 4 explica o princípio com os exemplos dentro do próprio corpo. Na unidade 3, `tipo: regua` + `tema: preco-e-garantia` + `tarefa: definir-preco-e-garantia` levam o agente que busca parâmetro de precificação direto a uma estimativa de caso; é o mesmo defeito de F1 e se resolve com a mesma correção, por isso não abro veto separado. Unidade 2 com `plataformas: capcut` é defensável: o título do manifesto é base legítima de identificação, a `nota` registra a hipótese, e a unidade não entra em `cobertura.jsonl` porque `tarefas` está vazio, ao contrário do que o inspetor supôs.",
+  "falhas": [
+    {
+      "id": "G08_A06-F1",
+      "unidades": [
+        3
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: \"Ele está saindo aí a R$ 79 Você vai vender a R$ 169 R$ 189 Com a página de vendas bem feita\", precedido de \"esse produto aqui provavelmente\", sobre o abajur fictício 'Light Touch' do anúncio comentado. A unidade tipa como `regua`, tema `preco-e-garantia`, tarefa `definir-preco-e-garantia`, com `condicoes` \"Vale para produto físico vendido por dropshipping/e-commerce\"; a própria `nota` admite o \"provavelmente\". A frase 5 do contexto repete a generalização (\"faixa de preço de referência para um produto físico de dropshipping/e-commerce\"). Rubrica: número de caso narrado apresentado como `regua` ou regra geral = desvio; FORMATO: preço de caso é `exemplo`, perecível, nunca `regua`.",
+      "impacto": "Agente que consulta `preco-e-garantia` ou `definir-preco-e-garantia` recebe compra a R$ 79 e venda a R$ 169–189 como parâmetro de mercado testado para qualquer produto físico de dropshipping, quando é uma estimativa avulsa do professor sobre um produto inventado para o exemplo. Muda a decisão de precificação de quem consulta.",
+      "mudanca_minima": "Retipar a unidade 3 como `exemplo` com as marcas `Situação:`, `O que aconteceu:`, `Lógica:`; em `condicoes`, dizer que é estimativa do professor para o abajur fictício 'Light Touch' do exemplo, não parâmetro testado; manter `perecivel: true`, `confianca: media` e a `nota` sobre o \"provavelmente\"; manter a menção à Insider atribuída ao professor. Reescrever a frase 5 do contexto para \"estimativa de compra e venda para o abajur do exemplo\" em vez de \"faixa de preço de referência\". Incrementar `versao`. Alternativa aceitável: retirar a unidade (listar 3 em `retiradas`).",
+      "criterio_de_aceite": "Nenhuma unidade `regua` no arquivo com os números R$ 79 / R$ 169 / R$ 189; a unidade 3 (ou sua sucessora) é `exemplo` com as três marcas, `condicoes` nomeia o caso como estimativa sobre produto fictício de exemplo, e o contexto não chama a faixa de referência; inspetor re-confere como `lastreada`; validador com zero erros."
+    },
+    {
+      "id": "G08_A06-F2",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor: núcleo do corpo (bloco de drama seguido de calmaria) lastreado em 00:00:29.980–00:01:09.840, dentro da faixa 30–70; o detalhe \"música mais pesada e efeitos sonoros fortes (como um som de clique)\" e \"corta os efeitos fortes e a música pesada\" só aparece em 00:02:25.820–00:02:39.320 (~146–159s), trecho literal \"uma música um pouco mais pesada E com sons bem fortes também, igual esse clique\". Veredito `faixa-errada` em 1 de 4 unidades com faixa = 25%, acima do limiar de 10% da rubrica.",
+      "impacto": "Quem conferir a fonte na faixa declarada não encontra parte do corpo; a âncora temporal deixa de sustentar a unidade inteira e o próximo inspetor tem de procurar fora da faixa para lastrear. Conteúdo em si está correto.",
+      "mudanca_minima": "Ajustar `fim` para no mínimo 160, cobrindo o trecho de ~146–159s (a `evidencia` atual continua dentro da faixa); ou, alternativamente, remover do corpo o detalhe de música pesada e som de clique nas partes 1 e 2. Incrementar `versao`.",
+      "criterio_de_aceite": "Inspetor re-confere a unidade 1 como `lastreada`, com toda afirmação do corpo localizada entre `inicio` e `fim`; `evidencia` dentro da faixa; validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "U2: `plataformas: capcut` versus `geral` é classificação discutível; mantida. O título do manifesto é base aceita de identificação (como Kiwify em G17_A04), a `nota` registra a hipótese e a `confianca` é `media`. O impacto que o inspetor descreve em `cobertura.jsonl` não ocorre: com `tarefas: []` a unidade não entra em nenhuma linha tarefa × plataforma. Nenhuma alteração exigida.",
+    "U1: `condicoes` restringe a produtos cujo apelo é calma, enquanto a última linha do corpo generaliza (\"muda só o sentimentalismo, que deve espelhar o benefício central do produto\"). Harmonizar a redação para deixar claro que os dois blocos drama→calmaria valem para o abajur e que, para outros produtos, o sentimento muda. Não abre ciclo.",
+    "U1: tema `som-e-sentimentalismo` e `edicao-de-video` são ambos defensáveis; mantido.",
+    "U3: ao retipar (F1), manter a afirmação sobre a Insider (\"cobra mais caro e é a que mais vende\") explicitamente atribuída ao professor, não como dado de mercado confirmado."
+  ],
+  "proximo": "Rodada 1 de 2. Redator de correções aplica F1 (unidade 3 e frase 5 do contexto) e F2 (unidade 1), sem tocar nas unidades 2 e 4, cuja evidência fica preservada pelo hash. Inspetor re-confere só as unidades alteradas e verifica que nenhuma outra unidade com faixa passou a ter conteúdo fora do intervalo. Juiz confere a lista de falhas e os efeitos da alteração."
+}

@@ -1,0 +1,76 @@
+{
+  "aula": "G06_A06",
+  "arquivo_sha256": "43fc805a70d312deb38895ed4a427a4f8d3f08810e6ad1580a58f8be6114252c",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "494d43635d3d17ab671ad901e23eccafeee59a237bb8ee8750a7474e1928f174",
+    "2": "fcd496852750bfade6e195589b9cdf1fc4e9c9017542b1e855ce85f2a092adbf",
+    "3": "621e5bcf0f108b3e3e8cd12d2de56683409374f6049bab08c969bd71cd33d52a",
+    "4": "4aeccd94322b65ca7939887d533371c7a9a53da78bf4c4a36ac2d27303d4882f",
+    "5": "94ca238e4993c4854817c85d2d3bdb2fb8e6b356fa4b9629c0db41d835522b30"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O negócio é você começar com uma história diferente, desenvolver essa história com o seu produto,",
+      "explicacao": "Os três movimentos (história diferente, desenvolver com o produto, CTA forte) e a referência ao exemplo de emagrecimento estão na fala, entre 37 e 55 s. \"Sem segredo além disso\" corresponde a \"Não tem saída, mistério, não tem nada disso\". A cláusula de objetivo (\"faça com que a pessoa pense que ela precise saber como que funciona\") está em 30–37 s, colada ao início da faixa, e a instrução em si cabe inteira dentro dela. A condição \"vale para qualquer nicho\" vem de 1:30–1:36 (\"dá pra você colocar em qualquer área, não interessa\") e está corretamente atribuída ao professor. Não há efeito prático."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "vamos botar aí que é o público nosso que tem entre 30 a 50 anos e já tem filhos, né?",
+      "explicacao": "Números (30 a 50 anos, 45 anos, três meses), sequência da copy (conselho da mãe, priorizar o trabalho, autoestima, academia, tratamento da Touro Hair, Saiba Mais e avaliação gratuita) e a natureza de exemplo estão fiéis à fala. A `condicoes` diz que é copy de exemplo com produto inventado, e a `nota` avisa que a reescrita ao vivo deixa a versão final fora da fala. O único ponto a corrigir é a `Lógica`. Ela acrescenta razões que o professor não diz: \"arrependimento familiar com o qual o público se identifica\" e o CTA levar à avaliação gratuita \"em vez de pedir a compra direta\". O professor só chama a história de \"desconectada\", diz \"Aqui eu coloquei um CTA de quiz\" e, no fim, lista o checkout direto como destino possível. Quem consulta pode ler a preferência por não pedir a compra direta como lógica do professor. O efeito é pequeno, porque a unidade 4 preserva a lista de destinos."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "porque eu já ouvi muito isso de várias",
+      "explicacao": "A fonte diz \"e isso é uma verdade absoluta porque eu já ouvi muito isso de várias pessoas\" e, mais adiante, \"eu resolvi focar no meu trabalho... e hoje com 45 anos eu entendi o que a minha mãe quis dizer\". Em 1:52 o professor também afirma que o público tem \"conselhos que ele ouviu\", então \"o público já ouviu\" tem lastro. A `nota` registra com honestidade que o efeito de crédito não é dito nesta aula, e a `condicoes` diz que é leitura dele e não lei. A ressalva de ajuste está na redação: o corpo é imperativo (\"Abra a história com um conselho...\") e vira prescrição, quando o professor apenas analisa a copy dele e o motivo que dá é experiência própria (\"eu já ouvi\"). A `condicoes` mitiga; não muda a decisão de quem consulta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Página de vendas, ou um quiz, ou seu nome, sobrenome, tarará,",
+      "explicacao": "A sequência história desconectada, conexão, produto no final e CTA está em 7:19–7:48. O CTA de quiz e a lista de destinos (página de vendas, quiz, VSL, WhatsApp, checkout direto) estão em 7:48–8:04. \"O criativo conta muito\" está em 8:05. A `condicoes` diz, com razão, que a aula não dá critério de escolha. A fala nesse ponto está degradada (\"ou seu nome, sobrenome, tarará\"), e a unidade a lê como \"um quiz que pede nome e sobrenome\" sem `nota`. É leitura plausível, mas não confirmada. A faixa 460–490 cobre o trecho."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Na próxima aula, a gente já vai pro Canva de uma vez",
+      "explicacao": "O conteúdo está na fala: Canva sobre o mesmo produto, subtextos, antes e depois, na aula seguinte. A frase-âncora ocupa o segmento 8:11.14–8:14.56 (491,14–494,56 s), e `inicio` é 494, então a âncora fica quase toda antes da faixa. O restante (\"Em cima desse produto\", \"subtextos\", \"antes e depois\") está dentro de 494–512. O ajuste seria `inicio` ≈ 491, para a faixa conter a frase que a unidade cita. A `perecivel: true` e a plataforma `canva` estão corretas."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: `tipo: regra` com corpo imperativo (\"Abra a história com um conselho...\") para o que o professor apresenta como leitura da própria copy (\"isso é uma verdade absoluta\"). `conceito` ou `exemplo` descreveria melhor. A `condicoes` já diz que não é lei geral; classificação discutível, ajuste menor.",
+    "Unidade 4: `tipo: regra` sem frase categórica. O corpo lista destinos possíveis do CTA e repete em parte a sequência história, produto e CTA da unidade 1. `conceito` ou `estrutura` se ajustaria melhor; ajuste menor.",
+    "Unidade 4: a leitura da fala degradada (\"ou seu nome, sobrenome, tarará\") como quiz que pede nome e sobrenome não tem `nota` nem `confianca` que sinalize a incerteza. A `confianca` é `media` e a unidade não a explica; ajuste menor."
+  ],
+  "material": [],
+  "resumo": "Percorri a transcrição inteira e conferi as 5 unidades contra ela. Não achei número adulterado, sem-lastro material nem omissão didática. A copy de exemplo Touro Hair (30 a 50 anos, 45 anos, três meses) está tratada como exemplo com `condicoes` de copy fictícia, e não vira régua. Ficam ajustes menores: a `Lógica` da unidade 2 traz razões não ditas pelo professor; as unidades 3 e 4 têm `tipo: regra` discutível; a unidade 5 tem `inicio` cerca de 3 s depois da âncora citada. Não há perecível escondido e não há material de apoio nesta aula."
+}

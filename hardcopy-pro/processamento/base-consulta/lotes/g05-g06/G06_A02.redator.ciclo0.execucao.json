@@ -1,0 +1,46 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-21T15:35:24+00:00",
+  "fim": "2026-09-21T15:35:49+00:00",
+  "duracao_ms": 23711,
+  "duracao_api_ms": 23676,
+  "consumo": {
+    "input_tokens": 4,
+    "output_tokens": 3134,
+    "cache_creation_input_tokens": 11753,
+    "cache_read_input_tokens": 49400
+  },
+  "thinking_tokens": 678,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.08824000000000001,
+  "esperas_por_limite": [],
+  "sistema_sha256": "115a9cdbde09ba6ac888e0ee93b53065b9234bc5414e1e2a1d63ab0854abe365",
+  "pacote_sha256": "88c1b48c7fb466d0b58cba3c3454f2044e5dff77c536dadf5ba5cb9f22e8b5a5",
+  "aula": "G06_A02",
+  "rotulo": "lote-g05-g06-reparo",
+  "ciclo": 0,
+  "arquivo_anterior_sha256": "550a8852a0e938387325a2853f0a27ea233bdbd2c1db248b4d751e7b9e21b391",
+  "destino": "hardcopy-pro/processamento/base-consulta/lotes/g05-g06/G06_A02.json",
+  "resultado_sha256": "78d1b495309d1adb22cb81946e15f62bd99cc0e3e6937641c3e9a5f2b9f2d564",
+  "unidades_alteradas": [
+    1,
+    2
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

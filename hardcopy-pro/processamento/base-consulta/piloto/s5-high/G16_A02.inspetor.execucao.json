@@ -1,0 +1,37 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T14:21:10+00:00",
+  "fim": "2026-09-20T14:27:42+00:00",
+  "duracao_ms": 391181,
+  "duracao_api_ms": 391148,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 39098,
+    "cache_creation_input_tokens": 46595,
+    "cache_read_input_tokens": 21220
+  },
+  "thinking_tokens": 34619,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.581608,
+  "esperas_por_limite": [],
+  "sistema_sha256": "1e51fddf6fd8f95037cdd27acd668457b398d4f770db406b774856261b58616f",
+  "pacote_sha256": "b1f35962406f35fe0e97f638776917e67d42a72b27a1e18d8fa480fced0b19ca",
+  "aula": "G16_A02",
+  "rotulo": "piloto-hc",
+  "arquivo_sha256": "380a9c7e673df460ecd1164455973a8fcac790f4754fb2564d75f2ede8f03f00",
+  "destino": "hardcopy-pro/processamento/base-consulta/piloto/s5-high/G16_A02.inspecao.json",
+  "resultado_sha256": "d263180fa15f3349f569e651aeb306149df21a1347ee100bf90db8209f457b03"
+}

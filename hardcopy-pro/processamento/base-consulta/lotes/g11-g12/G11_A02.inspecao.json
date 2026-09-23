@@ -1,0 +1,170 @@
+{
+  "aula": "G11_A02",
+  "arquivo_sha256": "c3af9958b9265da2835dcd4e305a690c1da2a4a9efe14180305c051a2f5bdb2b",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "hashes_unidades": {
+    "1": "7856a91f8068b00331d720b31f93562cab5febbb9cbad606be6d15d4b315c1e5",
+    "2": "a62950b1c5b7a2f0bcaf3ef05c2aa8f6b06f69780c51623dd3923cb162b3d288",
+    "3": "05e31a3107e47c90a5e5ae4793899e9ea4831b69aed1898e05a626aeff7f9f6a",
+    "4": "5d22cba6c074184c8d9c9ecd183562c69a1ed58898ef55d695dd53f98a62cc1f",
+    "5": "2b76e69792d57fa95b0dbfad13b51cd09949433774b6289f27f08bb37f144cb0",
+    "6": "91b064cace5f38fe509e2ffb76dc768861fb186cf9cf4d64c1df9b4767659935",
+    "7": "71f35fce7a9febb0c06d226ba2c329dcbe2bcbc27faf01974f0001de4a0d7444",
+    "8": "b2f0b64750ee4ca9c26c7482f3e32d4e9f4b57c35cbd60f3ef2d64de69b21faf",
+    "9": "aeedc3d63b2f2f86f370dbd094de3b89994bf49a897306ca486416021c944b3e",
+    "10": "9e3c28d152e785906f64c76f0113b671c079fbfa370352705a22f9566451866a",
+    "11": "126a09b140a253220f99b8bb52bcb234be8660ddbf75432adaf458a351dfba28",
+    "12": "e177379051b2e1f6b8695cd6e64a390f4f54d969bbb24dde8c54cf84a6a110b8",
+    "13": "7b1b3066aad6943973de74eb02aa4cfe01f1e0ee7c68b03e9aa09ebcd4d90c3e"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Criar vários agentes para essa operação, para que cada um seja bom em uma coisa",
+      "explicacao": "A instrução de criar múltiplos agentes especializados está dita literalmente na abertura da aula, dentro da faixa indicada (29–36s). Único reparo é de classificação (ver 'contrato'): o conteúdo é uma orientação categórica, mais próxima de 'regra' do que de 'conceito' (definição/distinção)."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "onde ele te ensina a criar VSLs, ele te mostra isso na prática, ele faz toda a estrutura de uma boa narrativa de vendas",
+      "explicacao": "A descrição do agente (chamado 'HideCopy' na fala, grafado como HardCopy na unidade) e a informação de que foi alimentado 'durante meses' batem com a fala, dentro da faixa; nota e confiança 'media' são adequadas para a identificação por hipótese do nome."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele vai te gerar esse prompt, tá bom? E aí a gente vai jogar esse prompt No próprio hardcopy",
+      "explicacao": "Os três passos (pedir ao ChatGPT um prompt de especialização por produto+nicho, copiar, colar no agente HardCopy) seguem a ordem e o conteúdo da fala dentro da faixa 91–143s."
+    },
+    {
+      "numero": 4,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "E ele vai te perguntar mais ainda, como sempre",
+      "explicacao": "As cinco perguntas citadas aparecem na fala e na ordem correta, mas são a saída de uma interação ao vivo do agente com o próprio professor, não um roteiro fixo que qualquer agente especializado repetirá; tipar como 'estrutura' (molde fixo e reutilizável) generaliza um comportamento de IA gerado dinamicamente numa única demonstração. A condição registrada já avisa que 'um agente diferente pode seguir uma sequência de perguntas diferente', o que atenua o problema, mas 'exemplo' descreveria melhor a natureza pontual do caso."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Tudo começa com uma dor genérica Uma promessa clichê e um saiba mais Que leva para o mesmo buraco de sempre",
+      "explicacao": "O anúncio-manifesto gerado e comentado pelo professor está corretamente tratado como 'exemplo', com condição explicitando que é copy de demonstração, evitando tratar copy fictícia como fato de mercado."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A regra é sempre falar o prompt em inglês Porém, o avatar do vídeo falar",
+      "explicacao": "As três regras (prompt em inglês, fala do avatar no idioma do nicho, pedir máximo de detalhes e ultrarrealismo) correspondem à fala dentro da faixa 404–452s."
+    },
+    {
+      "numero": 7,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Não faz sentido a gente Colocar no Da hardcopy Porque ela é especializada em copy Aqui a gente vai colocar hardcopy Criação de fotos",
+      "explicacao": "A regra geral (um agente por especialidade, renomeado como 'empresa - especialidade') está corretamente lastreada para o caso do agente de prompts de vídeo, dentro da faixa 487–512s declarada. O corpo, porém, estende o exemplo a 'prompts de vídeo ou de foto': a aplicação da mesma regra ao agente de fotos só ocorre por volta de 09:15–09:27 (cerca de 555–567s), fora da faixa da unidade."
+    },
+    {
+      "numero": 8,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Ele é 100 reais por mês Mas dá uma puta diferença pra você",
+      "explicacao": "A recomendação do plano pago e o valor citado batem com a fala dentro da faixa 568–582s; perecível corretamente marcado como true dado o preço."
+    },
+    {
+      "numero": 9,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque a Sora não tá tão boa quanto o VO3",
+      "explicacao": "A preferência pelo Sora e os motivos citados (velocidade, preço, sem limite de criações, vídeos de 3 a 5 segundos, estética de terror) estão corretamente na faixa 587–682s. Mas a nomeação explícita de 'VO3' e a comparação direta 'Sora não tá tão boa quanto o VO3', usadas no corpo e na nota da unidade, só aparecem por volta de 11:34 (694s), depois do fim declarado (682s); a unidade atribui a um período dentro de sua faixa uma identificação que só se confirma fora dela."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "você clica nessa cabana e aí você vem aqui, edite prontos",
+      "explicacao": "Corretamente tratado como 'limite': a fala não detalha o clique/recurso da tela o suficiente para virar procedimento, e a unidade registra essa lacuna e a incerteza do nome do recurso com nota e confiança baixa, como pede a regra de aula de tela."
+    },
+    {
+      "numero": 11,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "O link do agente hardcopy Que é esse agente aqui Vai estar disponível para você",
+      "explicacao": "A disponibilização do link do agente está dita na fala dentro da faixa 739–746s; a menção complementar a 'anúncios, hooks e início de VSL' vem de um trecho que começa poucos segundos após o fim declarado, mas apenas reitera o que já está dito nas unidades 1 e 2 sobre o uso do agente, sem introduzir fato novo relevante."
+    },
+    {
+      "numero": 12,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Se você Der um de besta E querer só que a inteligência artificial faça o papel Você vai perder dinheiro",
+      "explicacao": "O alerta sobre perder dinheiro ao delegar tudo à IA sem capacidade própria está dito literalmente dentro da faixa 756–776s; perecível corretamente false, por ser princípio geral sem amarra a ferramenta, tela, preço ou data."
+    },
+    {
+      "numero": 13,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "na próxima aula Eu vou te ensinar como você vai escrever anúncios Que vendem com IA",
+      "explicacao": "O limite (conteúdo de como escrever o anúncio com IA fica para a próxima aula) está dito literalmente dentro da faixa 787–806s declarada."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 357,
+      "trecho_fonte": "A gente vai renomear ele e vai colocar Anúncios A gente vai colocar o nome da empresa aqui E vai colocar anúncios",
+      "descricao": "Depois de especializar o primeiro agente (para o produto/nicho de copy), o professor ensina a salvar (dar F5) e renomear o chat com a convenção 'nome da empresa + especialidade' (ex.: 'hard copy - criação de ads'), aplicada pela primeira vez ao agente de anúncios. Nenhuma unidade preserva esse passo de salvar/renomear nesse momento específico, embora a mesma convenção reapareça nas unidades sobre os agentes de prompts e de fotos.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem seguir as unidades sem esse trecho pode não saber que precisa atualizar (F5) e renomear cada chat especializado logo após criá-lo para conseguir reencontrá-lo depois, e pode achar que a convenção de nomes só se aplica aos agentes de prompt/foto, não ao de anúncios, que foi o primeiro exemplo dado na aula."
+    },
+    {
+      "inicio": 691,
+      "trecho_fonte": "Porque as pessoas olham e falam Ah, nossa, vai usar a Sora Porque a Sora não tá tão boa quanto o VO3",
+      "descricao": "Falta o trecho em que o professor rebate diretamente quem diz que a Sora é inferior ao VO3 (Veo 3), comparando preço e tempo de produção entre as duas ferramentas para justificar a preferência pelo Sora.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem só vê a unidade sobre a preferência pelo Sora não sabe que o professor endereça de forma explícita a objeção mais óbvia (qualidade inferior ao VO3) com um contra-argumento de custo e tempo, o que deixa a justificativa da unidade mais fraca do que a apresentada na fala original."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 1 está tipada como 'conceito', mas o corpo é uma orientação categórica ('criar vários agentes... cada um bom em uma coisa'), não uma definição/distinção que o curso usa para pensar; o tipo 'regra' descreve melhor o conteúdo e evita que um agente buscando por 'conceito' deixe de encontrar essa orientação.",
+    "Unidade 4 está tipada como 'estrutura' (molde com partes fixas, nomeadas e ordenadas, para preencher com conteúdo novo), mas o conteúdo é a saída de uma interação ao vivo entre o professor e seu próprio agente de IA; 'exemplo' (com Situação/O que aconteceu/Lógica) descreveria melhor a natureza pontual do caso e evitaria sugerir que a sequência de perguntas é um roteiro fixo a ser seguido por qualquer agente."
+  ],
+  "material": [],
+  "resumo": "O arquivo cobre bem a aula: as 13 unidades refletem passos, regras e um exemplo de saída de IA citados na fala, majoritariamente dentro das faixas de tempo declaradas, sem uso indevido de resíduo de silêncio ou de copy fictícia como fato de mercado. Três unidades (4, 7 e 9) apresentam desvios menores: a unidade 4 trata a saída de uma interação ao vivo como se fosse uma estrutura fixa de perguntas; as unidades 7 e 9 puxam para o corpo um exemplo (agente de fotos) e uma identificação de ferramenta (VO3/Veo 3) que só se confirmam pouco depois do fim de faixa declarado. Duas omissões menores não aparecem em nenhuma unidade: o passo de salvar/renomear o primeiro chat especializado (agente de anúncios) e o trecho em que o professor rebate a objeção de que a Sora seria pior que o VO3. Não há problemas de perecibilidade nem de material (a aula não tem material de apoio nesta trilha); dois ajustes de tipo (unidades 1 e 4) são sugeridos em 'contrato', sem gravidade que comprometa o uso das unidades."
+}

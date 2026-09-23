@@ -1,0 +1,38 @@
+{
+  "papel": "juiz",
+  "modelo_pedido": "claude-fable-5-1",
+  "modelos_usados": [
+    "claude-fable-5-1"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T14:32:33+00:00",
+  "fim": "2026-09-20T14:35:09+00:00",
+  "duracao_ms": 154711,
+  "duracao_api_ms": 154677,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 13283,
+    "cache_creation_input_tokens": 12662,
+    "cache_read_input_tokens": 20123
+  },
+  "thinking_tokens": 9352,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.92244075,
+  "esperas_por_limite": [],
+  "sistema_sha256": "49377a6cefd4f60fe9088efc70e399dec3c4309f0d30f98777d31c70284f0457",
+  "pacote_sha256": "4af923b61fe0f9bf9f49d64c883670296a43d09ea7d3585fc0056d6f395f075e",
+  "aula": "G16_A02",
+  "rotulo": "piloto-hc",
+  "arquivo_sha256": "380a9c7e673df460ecd1164455973a8fcac790f4754fb2564d75f2ede8f03f00",
+  "inspecao_sha256": "d263180fa15f3349f569e651aeb306149df21a1347ee100bf90db8209f457b03",
+  "destino": "hardcopy-pro/processamento/base-consulta/piloto/s5-high/G16_A02.julgamento.json",
+  "resultado_sha256": "385b802edfb95f889ebefecc009a8951d7adfa4766bf338050a2874b1274c970"
+}

@@ -1,0 +1,25 @@
+{
+  "aula": "G08_A10",
+  "arquivo_sha256": "832931fed0b85d8af05ac989ccebb58f0c71b0dee252c712e4d0cafb03dc6495",
+  "inspecao_sha256": "c0662f5487b7f6858a84bc34b76b49fdf3899a2f66ea26897b66bfe2deec2dad",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "passa",
+  "vetos": [],
+  "contrato": "Validador com zero erros e zero avisos. `versao` da U3 gravada como 2, como o critério de aceite exigia; faixa 151–243 válida e evidência dentro dela.",
+  "fidelidade": "F1 resolvida pelo critério de aceite: (a) item 1 da U3 sustentado por trecho literal 'na segunda temporada você vai ter na prática todo o processo do Kinshoten Ketsu' (151,94–166,94s); item 2 sustentado por 'nessa aula aqui, na prática, eu mostro, na aula 11, do zero [...] são 11 minutos e 35 [...] que começa com o estruplo infantil e finaliza te vendendo um produto de relacionamento' (220,8–242,8s), ambos dentro da faixa declarada; (b) a alegação de originalidade saiu da lista numerada e virou frase de atribuição separada, sustentada por 'nós fomos os primeiros do mundo a criar uma narrativa de vendas Baseada no Kinshoten Ketsu', e continua registrada na nota como afirmação não confirmada pela base; (c) o enquadramento 'duas partes centrais, segundo o professor' foi removido; (d) a nota mantém as grafias 'Rádio Cop'/'Rádio Clop' e 'Kinshoten Ketsu' e acrescenta 'estruplo infantil'. A tradução de 'estruplo infantil' por 'um caso de abuso infantil' generaliza o termo deformado, mas não inverte sentido, número ou condição, a grafia bruta está divulgada na nota e a própria mudança mínima do julgamento anterior propôs essa redação: não é desvio material. Unidades 1, 2, 4 e 5 intactas, `lastreadas` na inspeção integral preservada.",
+  "cobertura": "A omissão 2 do inspetor (aula 11, VSL de ~11:35 do zero) está agora coberta pela U3; o inspetor a mantém na lista acumulada, mas a própria explicação dele para a U3 reconhece que foi coberta — entrada residual, sem efeito. A omissão 1 (87s: clique em Hard Copy redireciona para VSL de venda sem acesso ou para o treinamento com acesso) é detalhe de navegação da área de membros, perecível, cuja falta não muda decisão nem impede executar; a U5 já registra que as indicações dependem de cliques na tela não descritos pela fala. Não veta.",
+  "perecibilidade": "U1 `geral` e `perecivel: false` é correto: princípio geral, sem tela, preço ou plataforma. U2–U5 com `perecivel: true`, coerente com tema `curso-e-recursos` e tarefa `usar-recursos-do-curso`. Inspetor não sinaliza nada; nada escondido em unidade `geral`.",
+  "aplicabilidade": "A U3 se sustenta sozinha: explica Kishotenketsu na primeira ocorrência ('a estrutura narrativa de quatro atos do curso'), nomeia a trilha, a temporada e a aula, e descreve abertura e fecho da VSL de exemplo; tema e tarefa levam um agente que busca recursos do curso ao lugar certo; `condicoes: null` é aceitável porque a informação de navegação vale para qualquer aluno. Tipo `estrutura` para descrever o que uma temporada cobre é discutível frente à definição da taxonomia (molde para preencher com conteúdo novo), mas é defensável, paralelo às U2 e U4 já aceitas e o julgamento anterior deixou a escolha ao redator: classificação discutível entre valores defensáveis, ajuste menor. U5 (`limite`) continua descrevendo corretamente o caráter de transição e o que ficou na tela.",
+  "falhas": [],
+  "ajustes_menores": [
+    "U3: 'um caso de abuso infantil' generaliza o termo deformado 'estruplo infantil' (provável 'estupro'); a nota já divulga a grafia bruta, então basta, se quiser, aproximar a redação do que a fonte diz ou explicitar na nota que 'abuso' é leitura do artefato. Não abre ciclo.",
+    "U3: a fonte diz que 'a Kinshoten Ketsu é a primeira narrativa de vendas criada por um brasileiro'; o corpo resume como 'o primeiro brasileiro a fazer isso'. Deriva de paráfrase em alegação de autoridade já atribuída e sinalizada em nota, sem efeito prático; redação pré-existente, não introduzida pela correção.",
+    "Omissão 1 do inspetor (87s): o clique em Hard Copy na área de membros leva a uma VSL de venda para quem não tem acesso e ao treinamento para quem tem. Detalhe de navegação perecível; se for registrado, cabe em uma linha na U4 ou na U5, sem novo ciclo.",
+    "Tipo `estrutura` nas U2, U3 e U4 para descrever o que temporadas e trilhas cobrem é discutível frente à definição da taxonomia (molde para preencher com conteúdo novo); `conceito` ou `limite` seriam igualmente defensáveis. Classificação entre valores defensáveis, ajuste menor.",
+    "Inspeção: a omissão 2 continua na lista acumulada apesar de a U3 já a cobrir; entrada residual do laudo, nenhuma ação nas unidades."
+  ],
+  "proximo": "Nenhum ciclo adicional. Marcar a aula como `revisado` e gravar o julgamento com o hash atual do arquivo. Os ajustes menores ficam registrados para o redator aplicar em passagem editorial, se houver, sem reabrir a revisão."
+}

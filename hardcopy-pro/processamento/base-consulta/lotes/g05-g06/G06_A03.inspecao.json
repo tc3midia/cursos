@@ -1,0 +1,93 @@
+{
+  "aula": "G06_A03",
+  "arquivo_sha256": "b9c328c2c6981533a9bfe6614810074bc9db057f0d1ce5ffc058fa5b9e1e4196",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "hashes_unidades": {
+    "1": "d8eb70e7f0faf8a040ffa771910bc0ac2a7faf3b4381fe3187db6eeab781ed56",
+    "2": "47c89d07d19140e3aed425d9caad097d5a461a9f93c07fb3374c13722229cfbf",
+    "3": "0c56583839d87cca3b2e939634aadc8255afc5360c972d060189f2e28e0665f0",
+    "4": "ea2ef1435da8c46be00ef93d1f9b57084e972fbb9741e88fa2189d49b126c22d",
+    "5": "5dc09d8d215d458f582ce3e71011fe6690a03cdcf17a69042f47aef01346aa1d"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Então, o anúncio é fazer o seu lead pensar, ficar com uma pulguinha atrás da orelha para ele tocar em Saiba Mais.",
+      "explicacao": "O objetivo do anúncio (pulguinha, tocar em Saiba Mais) está a 29,98–38,84 s. Começar com história totalmente diferente e vender o produto só no final está a 50,5–60,5 s. Tudo cabe na faixa 30–63. A unidade atribui a abordagem ao professor e limita ao nicho demonstrado, sem transformar preferência em lei. Sem número, sem condição perdida."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Já percebeu o quanto os homens hoje em dia são diretos demais?",
+      "explicacao": "O relato bate com a fonte: abertura sobre homens diretos, \"invasivo\" e \"não julgo eles\", virada \"invasiva com o meu corpo\", \"impossível esperar pelas pessoas aquilo que eu não fazia por mim\", \"emagrecendo a minha mente primeiro\", fecho em \"dieta mental\", corte de \"demais\" e \"bom\" (3:28–3:39). Os 20 quilos ficaram fora do corpo e a condição marca a alegação como copy fictícia. Ponto menor: \"voltado ao público feminino\" e \"o produto só aparece no fecho, sem ser explicado\" se apoiam em falas de 7:22 a 8:00 (\"Normalmente as mulheres amam falar\"; \"hora nenhuma você tá mostrando pra ela\"), depois do fim 418. Não muda o uso, porque as duas ideias estão na fonte."
+    },
+    {
+      "numero": 3,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Que você é inteligente, você é esperto",
+      "explicacao": "As seis partes existem na fala e seguem a ordem dela: início intrigante (2:02–2:14), subtexto (3:05), dúvida/pulga (3:21–3:50), conexão (3:50–4:08), antes e depois \"de forma inconsciente\" (5:11–5:16), fecho \"saiba mais\" (5:53–6:02). O professor não enuncia molde, e a unidade avisa isso em `condicoes` e `nota`. Dois pontos menores. (a) Na parte 2, \"para o lead perceber sozinho e não ser informado de tudo\" é glosa. A fonte, degradada, diz só \"pra você não esquecer que você é inteligente, você é esperto, você pega as coisas rápido, então você vai dobrar\". (b) A parte 1 se apoia em 2:02–2:14 (122–134 s), antes do `inicio` 134. Nenhum dos dois muda a decisão de quem consulta."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A única coisa que você falou é uma dieta mental",
+      "explicacao": "A análise da copy pronta (7:55–8:12) diz que em nenhum momento o produto é mostrado, que só se fala em dieta mental e que a VSL o mostra depois, quando \"ela fecha o negócio\". A unidade preserva isso e limita `condicoes` ao modelo demonstrado, sem lei universal. Faixa 420–492 correta. A evidência está dentro dela."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Então, a próxima aula a gente já vai pro Canva, já vai botar esse negócio pra rodar.",
+      "explicacao": "Estão na fonte o aviso de que \"todas as aulas de cópia\" terão erro, palavrão e música e que \"costumam demorar um pouco mais\" (2:40–2:59), e a promessa de ir ao Canva na próxima aula (8:29–8:33). Ponto menor: a fonte não diz que a próxima aula é a \"montagem do criativo\" ou \"o visual do anúncio\". Diz só que vai \"pro Canva\", para \"botar esse negócio pra rodar\". A unidade lê isso como montagem visual sem sinalizar a inferência. O efeito prático é pequeno."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 442.96,
+      "trecho_fonte": "Normalmente as mulheres amam falar",
+      "descricao": "Na análise da copy pronta, o professor justifica o começo do anúncio: abre com um assunto de que o público-alvo normalmente gosta de falar (\"fofoquinha\", \"conversinha fiada\") e só depois entra o desenvolvimento. Ele ressalva que não está generalizando. As unidades não registram esse critério de escolha do assunto de abertura, só que a abertura \"intriga\".",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem for escrever anúncio para outro público sabe que a abertura é sobre outro assunto, mas não que ele foi escolhido por ser algo de que o público gosta de falar."
+    },
+    {
+      "inicio": 380.74,
+      "trecho_fonte": "E já querem aqui no subtexto",
+      "descricao": "O professor aponta onde está o subtexto na copy: em \"já querem [aquilo]\", com o objeto deixado sem dizer (\"chegam e já querem aquilo, sem uma conversa\"). A parte 2 da unidade 3 só diz que \"aqui entra o subtexto da aula anterior\", sem indicar qual trecho da copy o carrega.",
+      "gravidade": "menor",
+      "efeito_pratico": "O agente não consegue reproduzir o subtexto no exemplo, porque não sabe que ele é o \"aquilo\" deixado implícito."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "`contexto`, 6ª frase: \"O final da transcrição tem resíduo de legenda automática, que não foi usado.\" O FORMATO manda não mencionar resíduo de silêncio no contexto. A frase deve sair. A menção à aula seguinte sobre o Canva pode ficar.",
+    "Unidade 3 (`estrutura`, \"Esqueleto do anúncio\"): o próprio arquivo diz que o professor não enuncia o molde e que a ordem foi inferida da copy escrita ao vivo. O tipo `estrutura` e o título apresentam como molde fixo algo que é leitura do extrator sobre um caso. Classificação discutível, ajuste menor. `exemplo` ou uma frase mais explícita no corpo evitaria que o agente trate a inferência como método do curso.",
+    "Unidade 4: `tema` `formato-de-venda` e tarefa `escolher-formato-de-venda` levam a uma unidade que só diz que o anúncio não explica o produto e a VSL o faz depois. Ela não ensina a escolher entre VSL, página e X1. `estrutura-de-anuncio` e `roteirizar-anuncio` descrevem melhor. Ajuste menor.",
+    "Unidade 5 (`limite`): `plataformas: [canva]` e `tema: curso-e-recursos` colocam a unidade na busca por Canva, mas ela diz que o Canva não é tratado nesta aula. O `perecivel: true` está correto pelo tema. A plataforma é discutível, ajuste menor.",
+    "Unidade 1: o corpo diz \"começa, de novo, com uma história totalmente diferente\". \"De novo\" remete a aula anterior e não se entende sem ela. Ajuste menor: tirar \"de novo\" ou dizer a que se refere."
+  ],
+  "material": [],
+  "resumo": "As cinco unidades têm lastro na fala e nenhuma tem número, condição ou atribuição adulterada. A copy fictícia de emagrecimento (os 20 quilos) ficou marcada como exemplo e não virou régua. Há só ajustes menores: duas inferências pequenas (unidades 3 e 5), uma unidade parcialmente apoiada fora da faixa (unidade 2) e duas omissões menores. O ponto de contrato mais claro é o `contexto` mencionar resíduo de legenda, o que o FORMATO proíbe. Não há material de apoio nem problema de perecibilidade."
+}

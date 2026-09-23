@@ -1,0 +1,54 @@
+{
+  "aula": "G10_A07",
+  "arquivo_sha256": "bc708c1b153b01ae7d2274232b679cce9c9270f9949b4326cb9e34b640c645e8",
+  "inspecao_sha256": "fe1bf7afb16d7350f53cc8504057201e89f4ad0f3dece129e75679e7e5ae7884",
+  "rodada": 1,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade",
+    "aplicabilidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos: passa. Os dois itens que o inspetor listou sob `contrato` não são regras de script — o primeiro (falta de `limite` de tela) é cobertura, o segundo (plataformas da U2) é aplicabilidade — e foram tratados nessas áreas.",
+  "fidelidade": "Inspeção integral, nove unidades verificadas, nenhuma citação não literal, nenhuma faixa-errada. Oito unidades lastreadas com trecho literal; tratamento correto do trecho degradado (U8) e da ambiguidade em U5. Falha em U1: o corpo escreve \"sentimentalismo (uso emocional do som)\", mas a fala só usa o termo (\"se eu colocar o sentimentalismo no seu produto\") e o FORMATO lista \"sentimentalismo\" entre os termos usados sem definição na fonte, com ordem explícita de não definir por conta própria. É afirmação sem fonte — completar com conhecimento externo — e material porque o agente passaria a citar como definição do curso algo que o curso não dá, para um termo que nomeia um tema inteiro. Inferências pequenas em U2 (\"na edição\", fonte diz só \"você vai se aprimorando\") e U3 (\"notificação\" acrescentado ao efeito buscado como \"payment\") são menores e não mudam a orientação.",
+  "cobertura": "O inspetor declarou busca integral e listou três omissões, todas menores e com trecho literal: som de impacto na abertura (170), parte mais alta da música no momento mais importante (537) e ênfase em reduzir volume em pontos-chave (602). Nenhuma muda decisão nem impede executar o que as unidades já dão; as duas últimas ecoam \"plot da música\" e \"calar a boca\", definidos em G09_A06, e a terceira depende de contexto visual não recuperável. Falta uma unidade `limite` para o que ficou só na tela, embora o contexto (item 4) o registre; como nenhuma unidade é procedimento nem alega completude, o efeito prático é baixo. Passa, com ajustes registrados.",
+  "perecibilidade": "U1, U2, U6, U7 e U9 marcadas `true`. O inspetor sinaliza U3 (`geral`, `perecivel: false`) por citar efeitos da biblioteca do CapCut; o corpo, porém, descreve tipos de som (obturador de câmera, pagamento, micro-ondas), não item de menu nem nome de biblioteca, e a orientação — sobrepor efeitos discretos no corte — sobrevive a qualquer editor. Não vejo recurso de plataforma escondido; é classificação discutível e fica como ajuste. Passa.",
+  "aplicabilidade": "Falha em U2: o corpo é uma regra geral de operação de anúncios (teste de lead + teste de criativo) que não menciona rede, mas `plataformas` lista tiktok, youtube e instagram ao lado de `geral`. As redes vêm apenas do conselho lateral de conteúdo orgânico guardado em `condicoes`, que tampouco é condição de validade da regra. Resultado: `cobertura.jsonl` marcaria `subir-campanha-de-teste` como presente nessas três plataformas apontando para uma unidade que nada diz sobre teste nelas — o agente chega ao lugar errado e responde que o curso cobre o que não cobre. As demais unidades se sustentam sozinhas: \"lead\", \"dark\" e \"plot\" são explicados no próprio corpo; U7 tem `condicoes` que delimita a incerteza; U8 é limite bem redigido.",
+  "falhas": [
+    {
+      "id": "F1",
+      "unidades": [
+        1
+      ],
+      "veto": "fidelidade",
+      "evidencia": "Inspetor, trecho literal: 'eu só pego o seu projeto se eu colocar o sentimentalismo no seu produto' — a fala usa o termo sem defini-lo. Corpo da U1: 'sentimentalismo (uso emocional do som)'. FORMATO §3, vocabulário: 'Usados sem definição na fonte: X1, PLR, sentimentalismo, subnicho, CBO, CPA. Não definir por conta própria.'",
+      "impacto": "Agente que consulta a base passa a citar 'uso emocional do som' como definição do curso para um termo que nomeia o tema som-e-sentimentalismo e aparece em muitas aulas; a definição inventada se propaga a skills e respostas como se fosse do professor.",
+      "mudanca_minima": "Remover a glosa '(uso emocional do som)' do corpo, deixando 'sentimentalismo' sem definição; incrementar `versao`. Alternativa, se o redator concluir que a unidade é só construção de autoridade sem orientação (FORMATO §3): retirar a unidade e listar 1 em `retiradas`.",
+      "criterio_de_aceite": "Corpo, título e nota de U1 não contêm definição, glosa ou paráfrase explicativa de 'sentimentalismo'; ou U1 retirada com o número 1 em `retiradas`. Validador com zero erros."
+    },
+    {
+      "id": "F2",
+      "unidades": [
+        2
+      ],
+      "veto": "aplicabilidade",
+      "evidencia": "Corpo: 'A base de uma operação de anúncios bem-sucedida é o teste de lead (abertura) da VSL somado ao teste de criativo' (evidência 'isso daqui é a base é criativo e lead'), sem menção a rede. `plataformas`: geral, tiktok, youtube, instagram. Segundo o inspetor, as redes aparecem na fonte só no conselho lateral 'faça um orgânicozinho... um TikTok, um YouTube, um Instagram, um Reels', guardado em `condicoes`, que não condiciona a validade da regra.",
+      "impacto": "`cobertura.jsonl` registra subir-campanha-de-teste como presente em tiktok, youtube e instagram com base em unidade que nada diz sobre teste nessas redes; agente que filtra por plataforma chega ao lugar errado e afirma cobertura inexistente. `geral` junto de plataforma específica também contradiz a taxonomia (geral = não depende de rede).",
+      "mudanca_minima": "`plataformas` de U2 → ['geral'] (`perecivel` pode voltar a false); `condicoes` → null. Preservar o conselho de orgânico ou em `nota` de U2 ou em unidade nova (número 10, tipo `decisao` começando por 'Quando ainda não tem a base de testes...', plataformas tiktok/youtube/instagram, `perecivel: true`, faixa própria dentro de ≈113–159), sem a especificação 'na edição', que a fonte não diz ('você vai se aprimorando'). Incrementar `versao` de U2.",
+      "criterio_de_aceite": "U2.plataformas == ['geral']; U2.condicoes é null ou contém apenas condição de validade da regra; se existir unidade nova para o orgânico, seu corpo carrega a orientação, não contém 'na edição' e tem evidência literal na faixa; validador com zero erros; hashes das unidades não tocadas inalterados."
+    }
+  ],
+  "ajustes_menores": [
+    "U3: 'som de notificação/pagamento' é inferência do termo de busca 'payment'; preferir 'som de pagamento (efeito buscado como \"payment\")' ou só 'som de pagamento'. Se o redator quiser deixar explícito que os efeitos vieram da biblioteca do CapCut, marcar `perecivel: true`; como está (tipos de som genéricos), `false` é defensável.",
+    "U3: faixa 234–482 cobre quase quatro minutos e engloba as faixas de U4, U5 e U6; estreitar para os trechos em que os efeitos são inseridos, se identificáveis.",
+    "Adicionar uma unidade `limite` dizendo que a maior parte da edição (posição de cliques, nomes exatos de efeitos e ajustes de forma de onda) ficou só na tela, como o FORMATO §3 pede para aula de tela; o contexto já diz isso, mas contexto não é citável como unidade. Pode entrar no mesmo passe de correção sem abrir ciclo.",
+    "Omissões menores apontadas pelo inspetor, opcionais: (a) abrir a peça com som de impacto ('boom'/estouro, 170) — cabe como exemplo adicional em U3; (b) alinhar a parte mais alta da música ao momento mais importante (537) — cabe na linha 'Lógica' de U6; (c) ênfase do professor em diminuir o volume em pontos-chave (602) — só registrar se a fala nomear onde, sem importar o termo 'calar a boca' de outra aula.",
+    "U7: tipo `regra` é discutível frente a `ferramenta` (orientação presa a limitação do aplicativo) e tema `edicao-de-video` frente a `politicas-e-bloqueios` (direito de uso de música); qualquer dos valores é defensável.",
+    "U9: `perecivel: true` sem elemento perecível no corpo (método geral, plataforma geral); marcar `false` é opcional.",
+    "U1: além de F1, considerar se a unidade carrega orientação ou é apenas construção de autoridade (contratos com grandes players, valor cobrado); o FORMATO §3 diz que testemunho e autoridade não viram unidade salvo quando carregam orientação.",
+    "Inspetor: a explicação de U3 fala em 'outras quatro unidades' e lista três (4, 5, 6); sem efeito no julgamento."
+  ],
+  "proximo": "Redator aplica F1 e F2 neste ciclo (1 de 2), podendo aproveitar o passe para o `limite` de tela e os ajustes menores sem que isso conte como novo apontamento. Reinspeção focal em U1, U2 e na unidade nova se criada, com trecho literal do conselho de orgânico (≈113–159) para confirmar a redação e a faixa; hashes das demais unidades devem se preservar. O julgamento seguinte confere apenas a lista F1–F2 e os efeitos das alterações, mais o validador com zero erros."
+}

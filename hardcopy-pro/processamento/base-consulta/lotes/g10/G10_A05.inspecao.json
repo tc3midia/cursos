@@ -1,0 +1,84 @@
+{
+  "aula": "G10_A05",
+  "arquivo_sha256": "10fa1e7bff715ad570b979d25890768a8570e986bb5192ecee32e2072d2eff68",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hashes_unidades": {
+    "1": "fdbe8bf68a55ebc3454b64a8e4c06033ff4e98b7343773d4cf30413951d6c3b6",
+    "2": "18edd369f05855d77f4e816a0634a2efb9dfeb62c09481bd50189272fb3afe39",
+    "3": "f773445a7b9ab4e9314e4e59f1075fd755eacc8edf73c30e5841e23c81aa9d44",
+    "4": "ee3a68a9efd54af114a4564a166629bf70304b7d705d7100ba30b0f9806d8dd2",
+    "5": "15c43f0046487d2a1c748b489e7dd4635d6023bfac0449e42670a2c0a917de98",
+    "6": "0731363e92fe0bf557e3c619e52ff93c2c2f61462c2aa0b97368a8738c1922c1"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "e a única coisa que sai é a sua voz ou a voz da IA.",
+      "explicacao": "O corpo reproduz fielmente a técnica: no ponto importante, cortar a trilha e deixar só a voz/voz da IA, prendendo a atenção até o clique no botão ('toca na porra do botão'). Não há número, condição ou atribuição alterada que mude o uso da unidade."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "A melhor forma de você ver isso é você colocar em cima da sua cópia e no seu som",
+      "explicacao": "Esse trecho da transcrição está mal formado/ambíguo (não fica claro o que significa 'colocar em cima da sua cópia e no seu som'). O corpo interpreta como 'releia a copy e reescute o áudio da VSL', leitura plausível mas não certa, e a unidade não registra essa incerteza: mantém confianca 'alta' sem nota, quando o esperado pela regra de fonte ambígua é confianca mais baixa com nota explicando a dúvida. Não muda a orientação prática central (procurar os trechos que arrepiam), por isso o efeito é menor."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque eu quero que a pessoa se impressione quando ela ouvir este nome.",
+      "explicacao": "A fonte fala em não revelar o nome do produto/método ('este nome', referindo-se a 'Kim Shu Den Kits'/Kishotenketsu e a 'formato coreano de vendas') para causar impacto. O fechamento do corpo ('em vez de entregar o mecanismo cedo demais') e o título introduzem a palavra 'mecanismo', termo que o vocabulário do curso reserva para 'mecanismo único' (o diferencial do produto, definido em G01_A03), conceito distinto de 'nome do método/produto'. Isso pode levar quem consulta a confundir os dois conceitos. Não muda a ação central ensinada (não revelar cedo), por isso é ajuste menor."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "Dá uma, duas, três, quatro",
+      "explicacao": "A sequência narrada bate com a fonte: corte após a frase sobre 'terra de verdades' (2:38-2:40), corte na virada para 'como se vende através da verdade' (3:17-3:18), cortes ao redor de 'sem prometer carro... mansão ou essas balelas' na parte da oferta (3:33-3:39, com o Ctrl B repetido), e o trecho sem som antes do botão (4:09-4:13). O total de cinco pontos confere com 'Dá uma, duas, três, quatro, Cinco partes'. A nota sobre a repetição do comando Ctrl B é justificada, pois a fonte de fato repete a leitura de forma ambígua."
+    },
+    {
+      "numero": 5,
+      "veredito": "desvio",
+      "gravidade": "material",
+      "trecho_fonte": "Todas as partes que vamos calar a boca",
+      "explicacao": "A fonte apresenta o trecho sem som antes do botão como um dos cinco pontos marcados dentro da demonstração de um único vídeo de exemplo ('a gente marcou no nosso vídeo, Todas as partes que vamos calar a boca... Dá uma, duas, três, quatro, Cinco partes'), não como regra geral enunciada pelo professor para toda VSL. A unidade 5 converte esse ponto pontual do exemplo — já coberto, com o contexto correto de demonstração, pela unidade 4 — numa regra prescritiva independente ('Perto do botão de chamada para ação da VSL, deixe um trecho totalmente sem som...'), ou seja, um caso de exemplo apresentado como parâmetro geral. Quem consultar só a unidade 5 pode entender que é obrigatório aplicar silêncio total antes de todo botão de CTA em qualquer VSL, decisão de produção que a fonte não sustenta como regra, só como escolha feita nesse exemplo específico."
+    },
+    {
+      "numero": 6,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "A gente vai dar cor pra essa parada aqui",
+      "explicacao": "Reflete corretamente que a marcação foi feita na timeline com Ctrl B sem a fala nomear o editor, e que aplicar cor às marcações e finalizar a edição de áudio ficam para a próxima aula, como a fonte diz logo em seguida ('E vai fazer, De fato, essa edição')."
+    }
+  ],
+  "omissoes": [],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 3: a classificação tema 'plot-twist' / tarefa 'escrever-desenvolvimento-e-plot-twist' é defensável mas discutível — o trecho, nesta aula de Hard Sounds sobre 'calar a boca', serve como exemplo do critério 'embasado no que você tá vendendo' para escolher pontos de corte de áudio, não como instrução de escrita de roteiro de VSL. Um agente buscando como escrever a revelação (plot twist) de uma VSL pode estranhar encontrar aqui uma unidade sobre por que o professor não cita o nome do próprio método nos anúncios. Classificação discutível entre dois valores defensáveis, portanto ajuste menor, não extravio grave."
+  ],
+  "material": [],
+  "resumo": "A extração cobre bem o núcleo da aula: a técnica de 'calar a boca' (cortar trilha e deixar só a voz), o critério de escolha dos pontos ('embasado no que você tá vendendo') e a demonstração de marcação com Ctrl B, evitando corretamente transformar os '5 pontos' do exemplo numa régua geral. Dois problemas pontuais foram encontrados: a unidade 5 transforma um ponto específico da demonstração (silêncio antes do botão, já coberto com o contexto correto na unidade 4) numa regra prescritiva geral, caracterizando exemplo de caso apresentado como parâmetro geral (falha material); e a unidade 3 introduz a palavra 'mecanismo' sem base nesse trecho da fala, conflando com o conceito distinto de 'mecanismo único' do curso (ajuste menor). A unidade 2 tem confiança alta sobre um trecho de transcrição ambíguo sem nota reconhecendo a incerteza (ajuste menor). Percorri a transcrição do início ao fim, incluindo o card inicial 'Hora de Calar a Boca' e o resíduo final ('E aí' repetido, corretamente não usado como fonte), e não localizei conteúdo didático relevante deixado de fora pelas seis unidades. A aula não tem material de apoio, então não há divergências fala/material a registrar."
+}

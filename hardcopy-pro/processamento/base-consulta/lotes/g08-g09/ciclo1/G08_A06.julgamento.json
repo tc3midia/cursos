@@ -1,0 +1,35 @@
+{
+  "aula": "G08_A06",
+  "arquivo_sha256": "e8c0e313f3bf0bd953c1ac05e44e326d5e0fc8478daa10f31741d5c472d0a634",
+  "inspecao_sha256": "0ebd9d4436bf023a19410835f78c660bf11b0d42d2f2fe7c85c6f7efe7429094",
+  "rodada": 2,
+  "gerado_por": "fable-5.1",
+  "esforco": "xhigh",
+  "contrato_sha256": "83ec8b1646c33c86b3f23b9485ed3d2bb8b3d23b686eea3771465b54a2623c0f",
+  "veredito": "falha",
+  "vetos": [
+    "fidelidade"
+  ],
+  "contrato": "Validador com zero erros e zero avisos. O primeiro item de `contrato` do inspetor (unidade 3 tipada como `regua`) é resíduo acumulado da inspeção integral e está visivelmente desatualizado: a unidade 3 é `exemplo` neste arquivo. O segundo item (unidade 2 com `plataformas: [capcut]` só pelo título) é acumulado, não foi falha no julgamento anterior e o hash da unidade não mudou; a preocupação com `cobertura.jsonl` não se sustenta como descrita, porque a unidade 2 tem `tarefas: []` e não entra em nenhuma linha tarefa × plataforma. O terceiro item (frase 5 do contexto) procede e está tratado em falhas.",
+  "fidelidade": "F2 (unidade 1) resolvida: `fim` 70→160; inspetor re-confere `lastreada` sem gravidade, com trecho literal do detalhe sonoro (~149–153s) e do corte na calmaria (~153–159s) dentro da faixa; evidência (~42–49s) dentro; nenhum problema novo introduzido; sem `faixa-errada` restante no arquivo. F1 (unidade 3) resolvida no nível da unidade: `exemplo` com as três marcas, título sem \"de referência\", `condicoes` nomeia o caso como estimativa sobre o abajur fictício 'Light Touch' e nega ser parâmetro, `nota` preserva o \"provavelmente\" e atribui a afirmação sobre a Insider ao professor, `fim` 197→202 cobrindo \"Eles não mostram o produto\"; inspetor re-confere `lastreada`. Resíduo: a quarta condição do critério de aceite de F1 (\"o contexto não chama a faixa de referência\") não foi aplicada — a frase 5 do `contexto` continua apresentando os valores do exemplo fictício como \"faixa de preço de referência para um produto físico de dropshipping/e-commerce\". Mesmo defeito material da falha original (caso apresentado como parâmetro geral), agora em contradição com a própria unidade 3. Unidades 2 e 4 intactas, evidência preservada por hash.",
+  "cobertura": "Sem omissões apontadas; a busca por omissões foi declarada na inspeção integral e acumulada nesta focal. As alterações do ciclo não removeram conteúdo (a unidade 1 manteve o detalhe sonoro estendendo a faixa em vez de amputar o corpo). Nada a vetar.",
+  "perecibilidade": "Unidade 1 `perecivel: true` (referência à estrutura das temporadas do curso em condições e corpo); unidade 2 `true` (plataforma `capcut`); unidade 3 `true` (preço e marca). Unidade 4 `false` e `geral`: Red Bull e Coca-Cola são exemplos de onde a lógica aparece, não recurso, preço ou plataforma. Nada escondido em unidade `geral`. Nada a vetar.",
+  "aplicabilidade": "Unidade 3 como `exemplo` com `condicoes` explícitas se sustenta sozinha e leva o agente que consulta `preco-e-garantia` ou `definir-preco-e-garantia` a ler o número como estimativa de caso, não como parâmetro. Unidade 1 explica os dois blocos e o que cada um faz sem depender da imagem. Unidade 2 é `limite` bem escrito para aula de tela, com `nota` sobre a origem da identificação do CapCut. Unidade 4 é regra geral com exemplos nomeados. Nenhum veto; a plataforma da unidade 2 é classificação discutível entre dois valores defensáveis (ajuste menor).",
+  "falhas": [
+    {
+      "id": "G08_A06-F1",
+      "unidades": [],
+      "veto": "fidelidade",
+      "evidencia": "Resíduo da falha G08_A06-F1 (ciclo 1). Critério de aceite exigia que 'o contexto não chame a faixa de referência'. Visível no arquivo entregue, campo `contexto`, frase 5: \"Dá uma faixa de preço de referência para um produto físico de dropshipping/e-commerce, comprado por cerca de R$ 79 e revendido entre R$ 169 e R$ 189.\" O inspetor confirma no terceiro item de `contrato`; o redator registrou a mudança nas observações do ciclo 1 como pendente para o executor, e ela não foi aplicada. A unidade 3, corrigida, diz em `condicoes` que 'não é parâmetro testado nem faixa de referência de mercado para produto físico'; o contexto da mesma aula diz o contrário. Trecho da fonte, já lastreado: 'esse produto aqui provavelmente / Ele está saindo aí a R$ 79 / Você vai vender a R$ 169 / R$ 189', sobre o abajur fictício do exemplo.",
+      "impacto": "Agente que leia a página da aula recebe em `## Contexto da aula` os valores de um produto inventado como faixa de referência de mercado para dropshipping, exatamente a generalização vetada, e em contradição com a unidade 3 do mesmo arquivo. Muda a decisão de precificação de quem consulta e mina a confiança na unidade corrigida. Nenhuma unidade precisa mudar; o defeito está só no campo `contexto`.",
+      "mudanca_minima": "Reescrever a frase 5 do `contexto` para algo como: \"Dá uma estimativa de compra e venda para o abajur do exemplo, em drop/e-commerce, sem apresentar os valores como faixa de referência de mercado.\" Não alterar nenhuma unidade nem incrementar `versao` de unidade (o `contexto` não entra no hash das unidades).",
+      "criterio_de_aceite": "A frase 5 do `contexto` (e nenhuma outra frase do contexto) não contém 'referência' nem apresenta R$ 79 / R$ 169 / R$ 189 como faixa ou parâmetro geral; se citar os valores, os nomeia como estimativa para o abajur do exemplo. Hashes das unidades 1–4 inalterados. Inspetor confirma no campo `contrato` que o contexto não generaliza mais o caso. Validador com zero erros."
+    }
+  ],
+  "ajustes_menores": [
+    "Unidade 2: `plataformas: [capcut]` apoiada só no título da aula, com `nota` que declara isso. Classificação discutível entre `capcut` e `geral`; ambas defensáveis. Manter como está; não abre ciclo. A unidade tem `tarefas: []`, então não entra em `cobertura.jsonl` por tarefa × plataforma, ao contrário do que o item acumulado do inspetor sugere.",
+    "Inspeção: o primeiro item de `contrato` (unidade 3 como `regua`) está desatualizado após a correção. Remover na próxima inspeção para a lista não confundir a conferência focal final.",
+    "Unidade 1: a frase 'mesmo processo de edição usado nas outras temporadas do curso' aparece tanto em `condicoes` quanto na última linha do corpo. Repetição; pode ficar."
+  ],
+  "proximo": "Ciclo 2 (último antes da conferência focal final). Executor aplica só a reescrita da frase 5 do `contexto`, sem tocar em unidades nem em `versao`. Inspetor faz conferência focal do campo `contexto` (confirma que nenhuma frase apresenta os valores do exemplo como faixa de referência) e confirma hashes das unidades 1–4 inalterados; deve também retirar do `contrato` acumulado o item obsoleto sobre a unidade 3 como `regua`. Validador zero erros. Com isso, F1 e F2 ficam encerradas e a aula pode ir a `revisado`."
+}

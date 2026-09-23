@@ -1,0 +1,151 @@
+{
+  "aula": "G06_A05",
+  "arquivo_sha256": "75e5a354c205bcd676cd8bf925efac78d5016acf95ddafe64d94728ffeb170b4",
+  "gerado_por": "sonnet-5",
+  "esforco": "xhigh",
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
+  "unidades_verificadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "unidades_no_arquivo": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "hashes_unidades": {
+    "1": "2315e36dc188d0f43e3bb20641351014cddd39e45798154e1170bc4374bb20ce",
+    "2": "89a688a9e9fd4c731e31921673f2933836a367c5d35b407bec94cb428b36135c",
+    "3": "b3654585c673e64f5dd85d63348ad93a6ad5ebf7ca89a2a5911ff30f6b871ea6",
+    "4": "b35b8ed0aa6b20a8200569086e9b652eb63ce45e62cf4817703d6ca09b4b354b",
+    "5": "f8aae0a93f3c85cea95ce1591ecb8a39dd356dc3b5eb75ecf1eabe177a458342",
+    "6": "682f7c95cc11d84626b9ad2ae0d2766b139c13af55bbbd2b06fca73b17755d28",
+    "7": "15fd5f0bbdd0e8aa860dd2f7de098f9bcf7292896a7e9c7b0305195619ada59b",
+    "8": "f1cfadb4f7660c6335129f17073f419d7ff82ffe055a7d89aeabad2971f1792a",
+    "9": "0e0ad229bd408ce2d3d3002c89d2e30b71e967d40a230c3acbce201691f80da1",
+    "10": "3ecc46233c69c33368660087ac21c87d0aaabb4923b8fab661493a4aa190e5d2",
+    "11": "49931db86a11dd7f89e5ec3f4ee5c475b31705f57de8c0371e45b888523ab7aa"
+  },
+  "citacoes_nao_literais": [],
+  "unidades": [
+    {
+      "numero": 1,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "A gente vai selecionar isso aqui tudo e vai aumentar um pouquinho o volume, tá bom?",
+      "explicacao": "O passo 4 (\"selecione tudo e aumente um pouco o volume\") é dito em 88.16–91.6, depois do fim declarado (85.66). O resto do procedimento está dentro da faixa e lastreado (zoom, Ctrl B, juntar, repetir até acabar o espaço). Corrigir com fim ≈ 91.6. Detalhe de redação: a fonte diz \"a gente não precisa colocar isolamento focal e redução de ruído\". O corpo escreve \"Não aplique\" e amplia \"áudio do Eleven Eves\" para \"áudio de voz gerada\". As condições mantêm o ElevenLabs, então o efeito prático é pequeno."
+    },
+    {
+      "numero": 2,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "pra gente não ter problema de copyright, tá?",
+      "explicacao": "O conteúdo está na faixa. Cobrir os rostos por causa do copyright, a justificativa de vídeo didático e a dúvida sobre \"Lógico que não\" estão preservados, com nota de contorno e perecivel true. Dois pontos menores. (a) \"Antes dos efeitos\": o professor diz \"Perfeito, agora vamos para os efeitos aqui,\" e cobrir o rosto entra nessa etapa. (b) O corpo afirma \"sem intenção de vender\", mas a fala está degradada (\"não tem influído nenhum de vender e sentir e ensinar\"). A nota da unidade avisa da truncagem, então o risco é baixo."
+    },
+    {
+      "numero": 3,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Não sei se vocês lembram, tá?",
+      "explicacao": "O corpo diz \"Ele pergunta se o público lembra dessa primeira aparição\", o que soa como o público do anúncio. Na fonte o professor fala com os alunos da aula: \"Não sei se vocês lembram, tá? / Vou relembrar vocês agora aqui, ó.\" Não é técnica de lembrança do espectador do anúncio. O resto está lastreado: preto e branco \"para fazer a conexão com o início\", \"o que ela era\" e \"o que ela superou\". Leitura provável do agente: a unidade pede uma memória do espectador que a aula não pede. O efeito é pequeno."
+    },
+    {
+      "numero": 4,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "E aqui o intuito é só mostrar o iniciozinho da música",
+      "explicacao": "Usar só o início da música para a pessoa reconhecer está lastreado (\"opa, eu conheço essa música, entende?\"), e a faixa 396–436 cobre. Acréscimo menor: \"depois de baixar o volume para não competir com a voz\". A fonte só diz \"Tá muito alta a música, vamos diminuir um pouquinho o volume dela\", sem a razão. Sem efeito prático relevante. A condição \"música que o público reconheça\" decorre do objetivo declarado."
+    },
+    {
+      "numero": 5,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Você começa com uma música diferente",
+      "explicacao": "Lastreada na faixa 439–456: trocar de música para a parte de tensão, com efeito \"muito, muito bom\". Nuance menor: a fonte diz \"Vamos pegar uma música que vai dar um boom pra começar na parte de tensão\", ou seja, o \"boom\" é a música escolhida. O corpo separa \"efeito sonoro de impacto ('boom')\" de \"uma música diferente\". Sem mudança de decisão."
+    },
+    {
+      "numero": 6,
+      "veredito": "faixa-errada",
+      "gravidade": "menor",
+      "trecho_fonte": "Porque já mudou o conceito aqui da conversa",
+      "explicacao": "O núcleo (silêncio porque a pessoa vai pensar, \"por que essa mulher entende o lado dele\") está em 466–482 e lastreado. A última frase do corpo (\"Depois do silêncio ele volta com a música, porque o conceito da conversa já mudou\") vem de 497.82–508.04, fora do fim declarado (482). Nenhuma outra unidade cobre esse intervalo. Corrigir com fim ≈ 508. Sem efeito no conteúdo, só na faixa."
+    },
+    {
+      "numero": 7,
+      "veredito": "lastreada",
+      "gravidade": "nenhuma",
+      "trecho_fonte": "ficou melhor, encaixou melhor, né?",
+      "explicacao": "Distorção no modificador de voz (\"não ficou legal, não é?\"), depois fade (\"encaixou melhor\"), dentro de 508–540. A unidade evita virar regra e diz que foi juízo de ouvido em um trecho."
+    },
+    {
+      "numero": 8,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Achar o plot nessa música",
+      "explicacao": "O passo 1 glosa \"plot da música\" como \"o trecho que o professor quer aproveitar\". Esta aula não define o termo (\"Achar o plot nessa música / E já unificar aqui\"). O vocabulário do curso traz outra definição, de G09_A06: \"A parte mais importante da música\". A glosa da unidade é inventada e pode levar o agente a escolher o trecho por gosto, não pela parte mais importante. Os demais passos estão lastreados: deletar o restante, aumentar o volume e \"joga até onde a gente quer\", Ctrl B e diminuir o volume. Detalhe de faixa sem efeito: \"Não, ficou bom.\" cai em 633.84, logo depois do fim (632)."
+    },
+    {
+      "numero": 9,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "Remover a voz desse jovem rapaz aqui.",
+      "explicacao": "Ctrl B, isolamento vocal, \"remover voz\" e \"vai ficar só o som\" estão lastreados. A condição \"voz cantada que atrapalharia a locução\" é inferência: o professor não diz por que remove a voz, e \"instrumental\" também é leitura do corpo. Menor, porque o motivo é provável. A frase \"muito de impacto\" começa em 667.28, na borda do fim declarado (667), sem efeito."
+    },
+    {
+      "numero": 10,
+      "veredito": "lastreada",
+      "gravidade": "menor",
+      "trecho_fonte": "De uma forma que o nosso querido Facebook não iria identificar",
+      "explicacao": "Ordem e conteúdo conferem: história diferente do que vende, depois antes e depois, e \"finalizaria com uma regra do meu produto\". O termo duvidoso foi preservado sem interpretação. O aviso de contorno e perecivel true estão corretos. Pontos menores: o corpo troca \"Facebook\" por \"a plataforma\", a nota fala em \"moderação da Meta\" (a fala só diz \"não iria identificar\"), e \"A história vira ponte…\" é síntese da unidade sobre o texto de exemplo. As alegações de peso do exemplo (20 quilos) não viraram régua."
+    },
+    {
+      "numero": 11,
+      "veredito": "desvio",
+      "gravidade": "menor",
+      "trecho_fonte": "Eu peguei uma música que eu gosto muito, que é a Shape of My Heart.",
+      "explicacao": "O corpo afirma que \"a fala não nomeia [...] as músicas e efeitos usados\" e nem \"menus\". Dentro da faixa 155–960 o professor nomeia a música (\"Shape of My Heart\") em 397.6. Ele também nomeia recursos: \"modificador de voz\", \"distorção\", \"isolamento vocal, remover voz\", \"fade\" e Ctrl B. As unidades 7 e 9 já citam esses recursos, então o limite contradiz o arquivo. Efeito menor: o agente pode achar que nada de escolha sonora foi dito. O restante (passos e valores só na tela, trecho degradado sobre animação, ajustes de volume na tela) está lastreado."
+    }
+  ],
+  "omissoes": [
+    {
+      "inicio": 103.92,
+      "trecho_fonte": "a gente começa a brincadeira que a gente sempre faz.",
+      "descricao": "Antes da fase de animação, o professor corta o vídeo com Ctrl B em vários pontos da fala (\"Já percebeu quantos homens...\", \"Ctrl-B.\", \"Ctrl-B de novo.\") e encerra com \"Maravilha, encerramos aqui os cortes\" (155.54). A unidade 1 cobre só os silêncios do áudio e o limite (unidade 11) começa em 155. A fase de cortes sincronizados com a fala não aparece em nenhuma unidade, nem como limite.",
+      "gravidade": "menor",
+      "efeito_pratico": "Quem consulta não sabe que houve uma etapa de cortes do vídeo no ritmo da fala nem que ela foi mostrada só na tela. O efeito é pequeno, porque a fala quase não explica critério nem posição dos cortes."
+    },
+    {
+      "inicio": 681.24,
+      "trecho_fonte": "Uma coisa mais triste, entende?",
+      "descricao": "Depois de remover a voz, na parte que ele chama de \"muito de impacto\", o professor escolhe um piano (\"Vamos colocar um piano aqui / Uma coisa mais triste, entende?\"). Pesquisa \"piano\", \"suspense\", \"sad\" e diz \"Isso fica muito bom\". Em seguida retira a faixa, sem dizer por quê. Nenhuma unidade registra qual clima de trilha ele buscou para o momento de impacto. O limite (11) só menciona a busca por sons tristes.",
+      "gravidade": "menor",
+      "efeito_pratico": "Falta a única orientação da aula que liga um momento do anúncio a um clima de trilha (impacto → piano/algo mais triste). Ela é ambígua, porque a faixa foi retirada logo depois, o que explica não passar de menor."
+    }
+  ],
+  "perecibilidade": [],
+  "contrato": [
+    "Unidade 2: tipo `regra` (frase categórica) não corresponde ao corpo. O corpo narra o que o professor fez no exemplo e manda \"não trate a técnica como recomendação\", o que é ressalva de caso, mais próximo de `exemplo` ou `limite`. Discutível entre dois valores defensáveis, portanto ajuste menor.",
+    "Unidade 10: o terceiro item da `estrutura` fica sem função (\"uma regra do meu produto\", não interpretado) e a `confianca` está `media`. O termo é duvidoso e só está com `nota`. Coerente com o FORMATO seria `confianca: baixa`. Menor.",
+    "Contexto: \"várias escolhas, como cobrir rostos, foram feitas só porque o vídeo é didático\". A fonte só liga o \"didático\" ao ato de tampar os rostos (\"A gente está fazendo isso simplesmente por fins de idade\" e \"esse aqui é um vídeo didático\"). \"Várias escolhas\" generaliza. Menor."
+  ],
+  "material": [],
+  "resumo": "Arquivo majoritariamente lastreado, sem número inventado, sem copy de exemplo tratada como fato e sem passo de tela sem fonte. Não achei divergência material, mas há três apontamentos que o juiz deve ver. (1) Duas unidades (1 e 6) têm trecho do corpo fora do `inicio`–`fim`; são 2 de 11, o que passa de 10% pela regra mecânica. Cada uma se resolve estendendo o fim (≈91.6 e ≈508). (2) Três desvios menores: a unidade 3 atribui ao público do anúncio uma fala dirigida aos alunos, a unidade 8 inventa a glosa de \"plot da música\" e o limite (11) afirma que a fala não nomeia música nem recurso, o que é falso. (3) Duas omissões menores: a fase de cortes do vídeo e a escolha de piano/trilha triste para o impacto. Sem material de apoio e sem apontamento de perecibilidade."
+}

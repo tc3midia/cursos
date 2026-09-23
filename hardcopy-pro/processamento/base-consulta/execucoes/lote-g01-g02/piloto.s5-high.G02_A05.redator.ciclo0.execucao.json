@@ -1,0 +1,45 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-20T14:15:45+00:00",
+  "fim": "2026-09-20T14:16:00+00:00",
+  "duracao_ms": 14151,
+  "duracao_api_ms": 14112,
+  "consumo": {
+    "input_tokens": 4,
+    "output_tokens": 1779,
+    "cache_creation_input_tokens": 29144,
+    "cache_read_input_tokens": 27986
+  },
+  "thinking_tokens": 257,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 3,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.13997120000000002,
+  "esperas_por_limite": [],
+  "sistema_sha256": "e485ac51a2f2f778d584ab091800feed1146f7b5edd5fdfa9f59048b48291795",
+  "pacote_sha256": "ec711f22261ac5e2524da1db0300a42ab7bb23dbcdb48c0285334efb44482b8c",
+  "aula": "G02_A05",
+  "rotulo": "piloto-hc-reparo",
+  "ciclo": 0,
+  "arquivo_anterior_sha256": "faa48b2e228ae3b9d6f6e4c7b287eebde02687fe4fdf7547db8eb640c075482f",
+  "destino": "hardcopy-pro/processamento/base-consulta/piloto/s5-high/G02_A05.json",
+  "resultado_sha256": "6a9cb4e103446c751e1efe45a3a707bcd6ebba49e12b39d51808fd934706a3f2",
+  "unidades_alteradas": [
+    1
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}
