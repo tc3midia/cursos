@@ -1,11 +1,15 @@
 {
   "aula": "M02_A03",
-  "arquivo_sha256": "bcfa6021c06f4aaa7c9dcd398906d79f4e6f4274b4e4a3982f6cf0c6de81a9f4",
+  "arquivo_sha256": "086fdbabd75408d5bfe6df4b7f194aef6717acdf34c82e52337bcfeba696c484",
   "gerado_por": "sonnet-5",
   "esforco": "xhigh",
-  "alcance": "focal nas unidades [18]; as demais mantêm a evidência da inspeção integral do arquivo 086fdbabd754, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "alcance": "focal nas unidades [5, 6, 8, 11, 12]; as demais mantêm a evidência da inspeção integral do arquivo 9388bf78089a, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
   "conferencia_focal": [
-    18
+    5,
+    6,
+    8,
+    11,
+    12
   ],
   "unidades_verificadas": [
     1,
@@ -65,7 +69,7 @@
     "15": "677a33eb6648771027e6bc1a5c8a63f86dd5dd8cc2fd45c32adbf2b49d431bd4",
     "16": "4e5add75377cc4b8ba0d1631ddc7bce1c7fa49b9249459545f2a92854fc868fe",
     "17": "2e65fae2b7c8441c9b7e1783bc314f78c700004c2165199d09cf4b8e6a0d2fd8",
-    "18": "dfda1b0315e1985ef57ef9afd55acb222073f25098708f888596a400b7d38f82"
+    "18": "0f3223423a2ffd4c2d7dc714c30067d902cd51c89a33962beba9a1377672426b"
   },
   "citacoes_nao_literais": [],
   "unidades": [
@@ -192,8 +196,8 @@
       "numero": 18,
       "veredito": "lastreada",
       "gravidade": "nenhuma",
-      "trecho_fonte": "Alinhe cada imagem ao trecho do roteiro correspondente. O apoio visual deve tornar a mensagem mais fácil de entender.",
-      "explicacao": "A falha C1 (cópia bruta) foi resolvida. O corpo agora é paráfrase, e a maior sequência idêntica ao material tem 11 palavras (\"Observe vídeos que tiveram boa resposta para estudar temas e imagens\"), abaixo do limite de 25. Os quatro elementos do material continuam presentes e na mesma ordem: tema com relevância (situações compartilhadas, referências culturais, acontecimentos atuais, este último escrito como \"fatos atuais\"), imagem de abertura que gera identificação ou curiosidade, alinhamento entre cada imagem e o trecho do roteiro com a razão declarada (tornar a mensagem mais fácil de entender), e estudo de vídeos com boa resposta adaptado à própria mensagem. Não entrou número, condição nem afirmação nova. A alteração não criou problema: `fonte` segue `material`, com `inicio` e `fim` nulos. A evidência é literal no material. A nota continua registrando a diferença entre a fala (\"impactante\"/\"chocante\") e o material (\"identificação ou curiosidade\") sem escolher um lado. O corpo tem 5 linhas, dentro do limite do tipo."
+      "trecho_fonte": "Abra com uma imagem que gere identificação ou curiosidade.",
+      "explicacao": "Os quatro pontos do material estão corretos. A nota registra a diferença fala × material sobre a imagem de abertura (impactante/chocante × identificação/curiosidade), sem escolher um lado."
     }
   ],
   "omissoes": [
@@ -217,5 +221,5 @@
     "Fala × material sobre a imagem de abertura: a fala pede imagem 'impactante'/'chocante' (U3, U6); o material diz 'identificação ou curiosidade'. A U18 registra as duas versões em `nota`. A U3 cita o material como fonte (fala+material), segue só a fala e não tem nota sobre a divergência. A divergência está registrada uma vez no arquivo, mas a unidade que mais depende dela não a carrega. Ajuste menor.",
     "U1 (fala+material): o corpo afirma 'a posição não importa', com base na fala ('ou vice-versa, não importa'). O material descreve o criador embaixo e a imagem em cima. As duas versões são compatíveis, mas a unidade não anota isso. Registro menor."
   ],
-  "resumo": "Conferência focal só da unidade 18. A falha de cópia bruta foi corrigida: o corpo virou paráfrase fiel aos quatro elementos do material, com no máximo 11 palavras seguidas idênticas ao material. Nenhum campo novo foi alterado e não apareceu desvio, sem-lastro, perda de conteúdo do material nem problema de contrato. Não há omissão nova ligada à lista de falhas."
+  "resumo": "Conferência focal das unidades 5, 6, 8, 11 e 12: as seis falhas da lista (F1 a F6) foram resolvidas pelo critério de aceite, e nenhuma alteração criou problema novo nessas unidades. Os corpos não mudaram, exceto na U8 (frase sobre elementos viciantes retirada, informação preservada na U3) e na U11 (documento identificado e \"pause a aula\"). As faixas passaram a cobrir todas as afirmações, então nenhuma das cinco é `faixa-errada`. As U6, U8, U11 e U12 estão com `perecivel: true`, e a U5 já estava. As demais unidades não foram reabertas, e não conferi a saída do validador."
 }

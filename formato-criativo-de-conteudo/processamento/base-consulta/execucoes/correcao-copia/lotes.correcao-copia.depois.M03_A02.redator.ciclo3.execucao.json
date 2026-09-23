@@ -1,0 +1,45 @@
+{
+  "papel": "redator",
+  "modelo_pedido": "claude-opus-5",
+  "modelos_usados": [
+    "claude-opus-5"
+  ],
+  "esforco": "high",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-21T13:23:11+00:00",
+  "fim": "2026-09-21T13:23:35+00:00",
+  "duracao_ms": 23550,
+  "duracao_api_ms": 23518,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 2301,
+    "cache_creation_input_tokens": 15008,
+    "cache_read_input_tokens": 13545
+  },
+  "thinking_tokens": 1353,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.2143875,
+  "esperas_por_limite": [],
+  "sistema_sha256": "d419e183388c0e4d151969dd5dbbb06b20eb6d7cdc033bc92724547a315775aa",
+  "pacote_sha256": "138804fba20d93249379941a125b572c98067e3cc9445ae048ec35cc75c776a9",
+  "aula": "M03_A02",
+  "rotulo": "correcao-copia",
+  "ciclo": 3,
+  "arquivo_anterior_sha256": "8c76c76dd3ba2de2023d6ab6758d7bd9815ae40013b940f5e055164d1563211c",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/correcao-copia/depois/M03_A02.json",
+  "resultado_sha256": "f550b5c18a9a90aad53a06ac9d86e81e8b58304d6158dad4418419b0c99ed601",
+  "unidades_alteradas": [
+    15
+  ],
+  "validador": {
+    "erros": [],
+    "avisos": []
+  }
+}

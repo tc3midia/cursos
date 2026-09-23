@@ -1,11 +1,11 @@
 {
   "aula": "M04_A04",
-  "arquivo_sha256": "3157a03e12f823c8c88c69e306dee255ec6d50f8589461888c1756bde434de4e",
+  "arquivo_sha256": "3ad19111b4d89629696a6ba32477d6f06d59cc3b1693bed545dc9e47e2a58e50",
   "gerado_por": "sonnet-5",
   "esforco": "xhigh",
-  "alcance": "focal nas unidades [13]; as demais mantêm a evidência da inspeção integral do arquivo 3ad19111b4d8, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "alcance": "focal nas unidades [1]; as demais mantêm a evidência da inspeção integral do arquivo 3deb0636f798, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
   "conferencia_focal": [
-    13
+    1
   ],
   "unidades_verificadas": [
     1,
@@ -54,7 +54,7 @@
     "10": "e007b2c753f6dd1dd3ffdc335738da0079cc81eef57e53ef84fac5c8a383a02f",
     "11": "a70a841b8c364933ac9ff79cbdd3ef88f4c091bf4db9f64c6606d23164a270b6",
     "12": "0da66bfd8eace1fcc73016f0882b2f93721bbbe077669bd21051c0eb039f0673",
-    "13": "a94146023a7f6042384214c8a42e815940a4924b33c62c0d22670084c5e2b55b",
+    "13": "2d02484912a459f2ce86df5a64ef26cb162afabec4926cf83f37ffded544c57c",
     "14": "2a6aec8aef6bec36974a516a4984301fbfc4b0a48830d435ee6e53187e38b891",
     "15": "74e9e141e1a3f5d7cb93555d4c3777ae42af63e19bb59959d757b9a6b7907093"
   },
@@ -147,9 +147,9 @@
     {
       "numero": 13,
       "veredito": "lastreada",
-      "gravidade": "menor",
-      "trecho_fonte": "roupa, cenário, luz, gestos e expressão corporal participam da narrativa.",
-      "explicacao": "A falha do ciclo era a cópia de 25 palavras, e foi resolvida. Conferi as cinco partes contra a estrutura sugerida do material. A maior sequência idêntica é de cerca de 15 palavras, no passo 1: \"uma emoção como superação, medo ou liberdade, uma descoberta, um dilema interno ou um contraste\". Os passos 2 a 5 estão parafraseados, na ordem da fonte (mensagem, cenas simbólicas, propósito visual, voz e texto, trilha). O conteúdo de cada passo está preservado: as três emoções, o exemplo da mulher vendada que tira a venda e abre as janelas, a opção entre narração, texto na tela ou apenas música, e a trilha que amplifica a emoção e orienta o ritmo. O corpo tem 5 linhas numeradas, sem timestamp. A `evidencia` continua literal no material, com 15 palavras. Ajuste menor: no passo 3 o corpo troca \"expressão corporal\" por \"postura do corpo\", e a nota do ciclo diz ter mantido \"expressão corporal\". É uma troca de termo sem efeito prático na execução da estrutura, e não abre novo ciclo."
+      "gravidade": "nenhuma",
+      "trecho_fonte": "pode haver narração, texto na tela ou apenas música",
+      "explicacao": "Os cinco passos, na ordem do material, com as emoções listadas, o exemplo da mulher de olhos vendados e a trilha sonora que amplifica a emoção e orienta o ritmo, conferem com o material."
     },
     {
       "numero": 14,
@@ -201,5 +201,5 @@
     "A U14 conserva do material \"sem depender de explicações verbais para cada detalhe\" e \"corpo, luz e silêncio\", que contrastam com a prática da fala (vídeo muito falado, imagens que ilustram o que é dito, dublagem). Esse contraste está registrado na nota da U2, mas não na da U14, que mantém `confianca: alta`. Ajuste menor.",
     "Nada indica divergência de número entre fala e material. O \"Dia 7\" da fala (04:20) é um trecho curto de outro vídeo. O material chama o vídeo princesa→bruxa de \"dia 5\". A fonte não permite afirmar que são o mesmo vídeo, então não classifico como divergência."
   ],
-  "resumo": "Conferência focal só da U13. A falha do ciclo 3 (cópia de 25 palavras do material) foi resolvida: o corpo agora é paráfrase, com a maior sequência idêntica em cerca de 15 palavras. Conteúdo, ordem e as cinco partes seguem fiéis ao material, sem sem-lastro nem desvio material. Resta um ajuste menor, a troca de \\\"expressão corporal\\\" por \\\"postura do corpo\\\" no passo 3. Não há omissão nem perecibilidade decorrente da alteração."
+  "resumo": "Conferência focal da U1 (falha M04_A04-F1). A frase de Situação agora segue a ordem da fonte (caos, depois a paixão pela dopamina, depois \\\"acabou a paz, começou a palestrinha\\\") e não atribui mais o caos à motivação. \\\"O que aconteceu\\\" e \\\"Lógica\\\" continuam lastreadas, a evidência está na faixa e a nota registra a ambiguidade. A falha está resolvida pelo critério de aceite, sem problema novo e sem omissão decorrente."
 }

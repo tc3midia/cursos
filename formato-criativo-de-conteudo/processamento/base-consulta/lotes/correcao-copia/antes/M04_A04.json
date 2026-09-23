@@ -315,9 +315,9 @@
       "confianca": "alta",
       "nota": null,
       "proposta_tag": null,
-      "corpo": "1. Mensagem ou transformação: defina primeiro o que o vídeo carrega — uma emoção como superação, medo ou liberdade, uma descoberta, um dilema interno ou um contraste.\n2. Cenas simbólicas: monte imagens que traduzam estados de espírito e momentos de virada. O material ilustra com uma mulher vendada que anda pela casa, depois tira a venda e abre as janelas.\n3. Propósito visual: figurino, cenário, luz, gesto e postura do corpo entram cada um cumprindo um papel dentro da narrativa.\n4. Voz e texto: decida entre narração, texto na tela ou apenas música; em qualquer escolha, as imagens precisam dar a entender e fazer sentir a história.\n5. Trilha: escolha a música pensando em ampliar a emoção e conduzir o ritmo.",
+      "corpo": "1. Defina a mensagem ou transformação: escolha uma emoção (superação, medo, liberdade), uma descoberta, um dilema interno ou um contraste.\n2. Planeje cenas simbólicas: use imagens que representem estados de espírito e momentos de mudança. Exemplo do material: uma mulher de olhos vendados anda pela casa e depois tira a venda e abre as janelas.\n3. Dê propósito aos elementos visuais: roupa, cenário, luz, gestos e expressão corporal participam da narrativa.\n4. Escolha o uso de voz e texto: pode haver narração, texto na tela ou só música, e a história precisa ser compreendida e sentida pelas imagens.\n5. Trabalhe a trilha sonora: a música amplifica a emoção e orienta o ritmo.",
       "evidencia": "Escolha o uso de voz e texto: pode haver narração, texto na tela ou apenas música.",
-      "versao": 2
+      "versao": 1
     },
     {
       "numero": 14,
@@ -377,15 +377,6 @@
       ],
       "retiradas": [],
       "observacoes": "M04_A04-F1 (U1): falha procede. Voltei à transcrição na faixa 60–122. A fonte diz, em 01:00–01:09, \"O relacionamento era um caos, até que o Aleph ficou apaixonado por uma tal de dopamina.\" e, em 01:09–01:12, \"Aí pronto, acabou a paz, começou a palestrinha.\" O caos é apresentado como estado anterior e a paixão pela \"dopamina\" como o marco seguinte; a fala não diz que agir por motivação causou o caos. Reescrevi só a frase de Situação para seguir essa ordem, sem afirmar relação de causa entre motivação e caos e sem dizer em que momento o caos surgiu. \"O que aconteceu\" e \"Lógica\" ficaram idênticos, palavra por palavra, ao original. Acrescentei à `nota` o registro de que a transcrição não explicita o vínculo entre a fala da dopamina e a fala seguinte sobre a paz e a palestrinha, em vez de resolver essa ambiguidade no corpo (a nota anterior sobre \"história televisual\" e sobre os nomes próprios incertos foi preservada). Metadados semânticos (tipo, tema, tarefas, plataformas, fonte, faixa 60–122, condições, perecível, confiança média) não mudaram. `evidencia` mantida: \"Ou seja, dá vários motivos para a ação.\" aparece literalmente em 01:54.920–01:58.120, dentro da faixa. `versao` deve ir para 2 (o esquema de saída não tem campo `versao`; registro aqui a instrução). Corpo com 3 linhas, com as três marcas de `exemplo`, sem timestamp e sem sequência longa copiada da fonte. Nenhuma unidade nova foi criada: o conteúdo corrigido é o mesmo caso já coberto pela U1, e os títulos das demais não tratam do vídeo de abertura. Nenhuma retirada."
-    },
-    {
-      "ciclo": 3,
-      "por": "opus-5",
-      "unidades": [
-        13
-      ],
-      "retiradas": [],
-      "observacoes": "C1 (U013, cópia de 25 palavras): a falha procede. Conferido contra o material: o corpo antigo colava os itens 3 e 4 quase na íntegra — a sequência \\\"Dê propósito aos elementos visuais: roupa, cenário, luz, gestos e expressão corporal participam da narrativa. 4. Escolha o uso de voz e texto: pode haver narração, texto na tela ou\\\" ultrapassa 25 palavras idênticas antes de divergir em \\\"só música\\\" contra \\\"apenas música\\\" do material. Os pares de itens 1–2 e 4–5 também formavam corridas de cerca de 23 palavras idênticas, dentro do limite mas por margem estreita. Reescrevi as cinco partes como paráfrase, preservando na ordem e sem perda: emoção (superação, medo, liberdade), descoberta, dilema interno e contraste no passo 1; imagens de estados de espírito e momentos de mudança mais o exemplo da mulher de olhos vendados no passo 2; roupa/figurino, cenário, luz, gestos e expressão corporal com papel narrativo no passo 3; narração, texto na tela ou apenas música com a compreensão vindo pelas imagens no passo 4; trilha que amplifica a emoção e orienta o ritmo no passo 5. Mantive o formato de lista numerada exigido por `estrutura` e a ordem da fonte. Nenhum outro campo foi alterado: tipo, tema, tarefas, plataformas, fonte `material`, `inicio`/`fim` nulos, condicoes, perecivel, confianca, nota e proposta_tag seguem iguais. A `evidencia` foi mantida idêntica porque continua sendo trecho literal do material (item 4 da estrutura sugerida), tem menos de 24 palavras e a unidade é de fonte `material`, sem faixa a recalcular; mexer nela contrariaria o critério de aceite de que nenhum outro campo mude. `versao` deve ir a 2 no arquivo, por ser correção de corpo."
     }
   ]
 }

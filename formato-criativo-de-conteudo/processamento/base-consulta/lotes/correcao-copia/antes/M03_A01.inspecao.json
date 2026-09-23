@@ -1,11 +1,11 @@
 {
   "aula": "M03_A01",
-  "arquivo_sha256": "28b13dd9099265c4833a16e163d10af36d6f3f24b75ca6b9ed2fc4e9b15598d0",
+  "arquivo_sha256": "db9848a00e6a85d7b803b3949ddaee2531486bb5a7daf37fced6559ba1b135b7",
   "gerado_por": "sonnet-5",
   "esforco": "xhigh",
-  "alcance": "focal nas unidades [11]; as demais mantêm a evidência da inspeção integral do arquivo db9848a00e6a, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
+  "alcance": "focal nas unidades [8]; as demais mantêm a evidência da inspeção integral do arquivo 682968bec304, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
   "conferencia_focal": [
-    11
+    8
   ],
   "unidades_verificadas": [
     1,
@@ -48,7 +48,7 @@
     "8": "b04008c3ab111d6c4d690469d03b8add4f869f2790ed758d9df7fc2fdee8b998",
     "9": "79961d7b307876b09f592a1314a87a215f0849cca656b6f3da7b2b6fbb098442",
     "10": "31b2a571e072b034d8409888d3737ba3fbac631d7c272ef7f921966f12db66fc",
-    "11": "5dcea50da6df001d432d68f82fe80c15e865ed2640793a6ecb855ad4474879a6",
+    "11": "7b772ade4346f268665a4bb8620c6b6e0d387adf4d695b7526230ca6afc61468",
     "12": "21f10f6014d9d129d403f6de8e5d3d84e68b570ae6ee1791dbf3ce67e919b873",
     "13": "b792186d1481e19853090104cde95ace05d0a59ba8d88a800bf63cf705ed9ee8"
   },
@@ -128,8 +128,8 @@
       "numero": 11,
       "veredito": "lastreada",
       "gravidade": "nenhuma",
-      "trecho_fonte": "O material associa essa consistência a maiores chances de acerto e viralização.",
-      "explicacao": "A reescrita do ciclo 3 preservou o conteúdo do material. Os três blocos aparecem com os rótulos e funções da fonte (Começo/gancho: chamar atenção e indicar a quem o conteúdo se dirige; Meio/interesse: desenvolver o argumento ou contar a história; Fim/desejo e ação: apresentar a moral da história, despertar desejo e indicar uma ação), na mesma ordem. A associação a mais chances de acerto e viralização segue atribuída ao material, e não afirmada como resultado. A única troca de sentido é \"os temas podem mudar\" virar \"os temas variam\", que não altera o uso. Sobre a cópia bruta que motivou o ciclo: a maior sequência idêntica ao material tem 14 palavras (\"desejo e ação apresentar a moral da história despertar desejo e indicar uma ação\"), abaixo do limite de 25. Os cortes nas junções (\"dirige → No meio, o\", \"história → No fim vêm\") quebram o encadeamento. A `evidencia` continua literal no material. A `nota` já registra que os rótulos do material (gancho/interesse/desejo e ação) diferem do AIDA da fala, com `confianca` media. Não há sinal de problema novo."
+      "trecho_fonte": "chamar atenção e indicar a quem o conteúdo se dirige",
+      "explicacao": "O conteúdo reproduz o material com atribuição correta. A nota registra que os rótulos do material (gancho, interesse, desejo e ação) diferem da AIDA da fala. \"Os temas mudam\" no corpo está um pouco mais forte que \"podem mudar\" do material, sem efeito no uso. O problema aqui é a cópia literal do corpo (ver contrato)."
     },
     {
       "numero": 12,
@@ -171,5 +171,5 @@
     "Bomtalvão, unidades 7 e 12: a fala diz que ele \"sempre termina comentando\" e deixa um comentário no fim do vídeo. O material diz \"pergunta final\" e também cita \"apresentação de preços\", que a fala não menciona. A unidade 7 está marcada fala+material, mas só traz a versão da fala e não registra o que o material diz. A unidade 12 traz a versão do material sem cruzar com a fala. As duas versões deveriam constar na nota da unidade 7.",
     "Grafia dos nomes (menor): o FORMATO §3 manda usar a grafia do material quando ele cita o nome. As unidades 4 e 5 usam \"Thay\" e o material grafa \"Tay Dantas\". As unidades 9 e 10 usam \"Mari Krieger\" e o material grafa \"Mari Kruger\". As unidades 6, 7 e 12 já seguem o material (\"Bomtalvão\", \"Hanah Franklin\"). A nota da unidade 2 escreve \"Hannah\" para quem fez o desenho, enquanto o material grafa \"Hanah\". As unidades 4, 9 e 10 registram a variação ao menos em parte, mas o corpo e o título ficaram inconsistentes com a regra e entre si."
   ],
-  "resumo": "Conferência focal da unidade 11, a única no escopo. A correção do ciclo 3 resolveu a cópia bruta: a maior sequência idêntica ao material caiu para 14 palavras, e nenhum número, condição ou sentido da fonte mudou. O corpo segue lastreado no material, e a `nota` mantém registrada a diferença de rótulos entre material e fala. A lista de falhas de cobertura veio vazia, então não registrei omissões."
+  "resumo": "Conferência focal só da unidade 8, alvo da falha M03_A01-F1. A correção atende os quatro critérios de aceite: os dois testes agora aparecem como suposição atribuída ao professor, o trecho de ~15:51–16:07 sustenta o corpo, o resto de `Lógica:` manteve o sentido e `versao` = 3. Não vi problema novo em fidelidade, faixa, perecibilidade ou contrato. Não há omissão decorrente da lista, porque ela não trazia falha de cobertura. A confirmação do validador com zero erros fica com o script."
 }

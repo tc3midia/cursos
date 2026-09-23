@@ -1,12 +1,10 @@
 {
   "aula": "M03_A02",
-  "arquivo_sha256": "f550b5c18a9a90aad53a06ac9d86e81e8b58304d6158dad4418419b0c99ed601",
+  "arquivo_sha256": "8c76c76dd3ba2de2023d6ab6758d7bd9815ae40013b940f5e055164d1563211c",
   "gerado_por": "sonnet-5",
   "esforco": "xhigh",
-  "alcance": "focal nas unidades [15]; as demais mantêm a evidência da inspeção integral do arquivo 8c76c76dd3ba, com hash de unidade conferido como inalterado; omissões, contrato e material acumulados",
-  "conferencia_focal": [
-    15
-  ],
+  "alcance": "integral: todas as unidades e busca de omissões na fonte inteira",
+  "conferencia_focal": null,
   "unidades_verificadas": [
     1,
     2,
@@ -60,7 +58,7 @@
     "12": "9588713e2cb167a104f2bc9c5c343ddf059b2a8131fdb18f28f567d7d5c55d46",
     "13": "e3cc341267b33ce45a834aa0563dc05305742ddc122a8f69c03acedc297007fb",
     "14": "9a8f71fb1200429d8c8261d390da46c5785ce2b594712b85dd9d4f3ee62a6226",
-    "15": "7a69defcd8f21395621d7d359f895b22395f234a13226eb9d4b4c7daaaa939fa",
+    "15": "7b31fdc12b99c8e22141eb5f5ec58b690ec2f822e5f9eac458758978fba73ad7",
     "16": "86aaf48f9f96e6e53548ab0bd8f27d80d9a66f28ebb9b8e540ee4b19dfa2755c",
     "17": "4ee6c5f053aabd0859a2c0081f09f0826906889a4f46634da3197a2686019937"
   },
@@ -169,7 +167,7 @@
       "veredito": "lastreada",
       "gravidade": "nenhuma",
       "trecho_fonte": "Para enriquecer o tema, combine duas ou três dimensões, como nicho, cultura pop e conflito universal.",
-      "explicacao": "A falha C1 (cópia bruta) foi resolvida. O corpo agora parafraseia as duas frases que antes repetiam 25 palavras do material. A frase \"É o assunto que desperta a atenção do público desejado. Verifique se as pessoas se interessam por ele e se conseguem se reconhecer na situação.\" virou \"assunto capaz de despertar a atenção do público que você quer alcançar\" e \"Confira se essas pessoas têm interesse pelo assunto e se conseguem se ver na situação retratada\". A maior sequência idêntica ao material ficou em cerca de 11 palavras (\"duas ou três dimensões, como nicho, cultura pop e conflito universal\"), abaixo do limite de 25. O sentido, o número (\"duas ou três dimensões\") e os exemplos (nicho, cultura pop, conflito universal) foram mantidos. A troca de \"combine\" por \"o material orienta combinar\" atribui a orientação ao material, o que é correto. A palavra \"retratada\" não está no material, mas não muda o sentido nem o uso. A âncora `evidencia` é literal e existe no material, com 12 palavras. O `fonte: material` com `inicio` e `fim` nulos está coerente. `perecivel: true` está de acordo com a regra do curso para recurso do curso. Nenhum problema novo foi criado pela alteração."
+      "explicacao": "O material traz as duas frases da unidade: o tema interessante como assunto que desperta a atenção do público desejado, com o teste de interesse e reconhecimento, e a combinação de duas ou três dimensões. `fonte: material`, com `inicio` e `fim` nulos, está correto."
     },
     {
       "numero": 16,
@@ -193,5 +191,5 @@
     "U1: o campo `condicoes` traz observação do professor (vender produto ou ideia, não vender em todo vídeo, sempre convencer de algo), não uma condição sob a qual a orientação vale. A regra de abrir com tema e fechar na ideia vale em geral, e `condicoes` sugere restrição inexistente. É ajuste menor de classificação. O conteúdo poderia ir ao corpo ou virar `nota`."
   ],
   "material": [],
-  "resumo": "Conferência focal só da U015. A cópia bruta apontada (25 palavras idênticas ao material) foi corrigida por paráfrase que preserva sentido, número e exemplos. A alteração não criou desvio, sem-lastro, perecibilidade nem erro de contrato novo, e a âncora continua literal. A lista de falhas de cobertura estava vazia, então não registrei omissões. As demais unidades não foram reabertas."
+  "resumo": "Percorri a transcrição inteira (0–980 s) e o material contra as 17 unidades. Todas as 17 têm lastro na fonte, sem número, condição ou atribuição adulterados, inclusive o número de caso da U12 (80 mil por dia), que está como ilustração do professor e não como régua. Não encontrei omissão material nem perecível sem marca, e não vi contradição entre fala e material. Os apontamentos são menores: alguns trechos passam poucos segundos da faixa (U5, U11), a U7 lê \\\"querência\\\" como \\\"crença\\\" sem avisar, e há dois ajustes de contrato (numeração da U14 e `condicoes` da U1).\""
 }

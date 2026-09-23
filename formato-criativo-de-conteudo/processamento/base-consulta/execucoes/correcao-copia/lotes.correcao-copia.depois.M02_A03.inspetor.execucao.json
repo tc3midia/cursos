@@ -1,0 +1,37 @@
+{
+  "papel": "inspetor",
+  "modelo_pedido": "claude-sonnet-5",
+  "modelos_usados": [
+    "claude-sonnet-5"
+  ],
+  "esforco": "xhigh",
+  "via": "assinatura Claude Code, claude -p headless (2.1.273 (Claude Code)); sem Batch API",
+  "inicio": "2026-09-21T13:24:04+00:00",
+  "fim": "2026-09-21T13:24:36+00:00",
+  "duracao_ms": 31251,
+  "duracao_api_ms": 31224,
+  "consumo": {
+    "input_tokens": 2,
+    "output_tokens": 3151,
+    "cache_creation_input_tokens": 41982,
+    "cache_read_input_tokens": 0
+  },
+  "thinking_tokens": 2314,
+  "stop_reason": "tool_use",
+  "stop_details": null,
+  "terminal_reason": "completed",
+  "subtype": "success",
+  "is_error": false,
+  "api_error_status": null,
+  "num_turns": 2,
+  "ferramentas_negadas": [],
+  "custo_nominal_usd": 0.199442,
+  "esperas_por_limite": [],
+  "sistema_sha256": "3727a36fb10caa709cce683c763325b6c13c77325dab0d51739f435f2c84e012",
+  "pacote_sha256": "7f38235253aa997710f8e385d0df2b0589a1f991ec28b83a3cb0ccc1d27702a4",
+  "aula": "M02_A03",
+  "rotulo": "correcao-copia",
+  "arquivo_sha256": "bcfa6021c06f4aaa7c9dcd398906d79f4e6f4274b4e4a3982f6cf0c6de81a9f4",
+  "destino": "formato-criativo-de-conteudo/processamento/base-consulta/lotes/correcao-copia/depois/M02_A03.inspecao.json",
+  "resultado_sha256": "20fdcd630ca0605d756198822c79b90d6e51733ae23f95661a61affec9991ff7"
+}

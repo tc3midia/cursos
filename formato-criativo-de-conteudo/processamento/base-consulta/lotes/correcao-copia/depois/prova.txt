@@ -1,0 +1,11 @@
+Contexto desta conferência, em saída de script da coordenação (21/09/2026). A base já estava fechada e estas aulas já tinham julgamento `passa`. Depois do fechamento, o validador foi corrigido: a checagem de cópia de 25 palavras comparava texto cru, e o Markdown do material e as marcações de tempo escondiam a cópia. Com a comparação por sequência de palavras, quatro unidades passaram a dar erro de contrato. Só essas unidades foram ao redator, para paráfrase, sem outra falha apontada. Não é ciclo de correção de conteúdo.
+Versão do script: base_fcc.py sha256 bd90c4c5f764d1d30f9e38cb0a3a39b6d8e27f8640e2b704b186c8c3a585b5ed
+
+M02_A03 unidade 18, arquivo antes (versao 1): erros do validador = ["M02_A03: U018: cópia de 25 palavras no corpo"]; maior sequência idêntica à fonte no corpo = 28 palavras
+M02_A03 unidade 18, arquivo depois (versao 2): erros do validador = []; maior sequência idêntica à fonte no corpo = 17 palavras
+M03_A01 unidade 11, arquivo antes (versao 1): erros do validador = ["M03_A01: U011: cópia de 25 palavras no corpo"]; maior sequência idêntica à fonte no corpo = 36 palavras
+M03_A01 unidade 11, arquivo depois (versao 2): erros do validador = []; maior sequência idêntica à fonte no corpo = 14 palavras
+M03_A02 unidade 15, arquivo antes (versao 1): erros do validador = ["M03_A02: U015: cópia de 25 palavras no corpo"]; maior sequência idêntica à fonte no corpo = 27 palavras
+M03_A02 unidade 15, arquivo depois (versao 2): erros do validador = []; maior sequência idêntica à fonte no corpo = 11 palavras
+M04_A04 unidade 13, arquivo antes (versao 1): erros do validador = ["M04_A04: U013: cópia de 25 palavras no corpo"]; maior sequência idêntica à fonte no corpo = 33 palavras
+M04_A04 unidade 13, arquivo depois (versao 2): erros do validador = []; maior sequência idêntica à fonte no corpo = 16 palavras

@@ -269,9 +269,9 @@
       "confianca": "media",
       "nota": "O material chama o começo de \"gancho\" e o meio de \"interesse\"; a fala apresenta AIDA (atenção, interesse, desejo, ação). Não é divergência clara, mas os rótulos diferem.",
       "proposta_tag": null,
-      "corpo": "O material de apoio resume o padrão em três blocos, cada um com rótulo próprio.\nComeço, que ele chama de gancho: chamar atenção e indicar a quem o conteúdo se dirige.\nNo meio, o interesse: desenvolver o argumento ou contar a história.\nNo fim vêm desejo e ação: apresentar a moral da história, despertar desejo e indicar uma ação.\nSegundo o material, essa consistência é associada a mais chances de acerto e de viralização; os temas variam enquanto o padrão de roteiro permanece.",
+      "corpo": "O material de apoio resume o padrão em três blocos. Começo (gancho): chamar atenção e indicar a quem o conteúdo se dirige. Meio (interesse): desenvolver o argumento ou contar a história. Fim (desejo e ação): apresentar a moral da história, despertar desejo e indicar uma ação. O material associa essa consistência a maiores chances de acerto e viralização e afirma que os temas mudam enquanto o padrão permanece.",
       "evidencia": "chamar atenção e indicar a quem o conteúdo se dirige",
-      "versao": 2
+      "versao": 1
     },
     {
       "numero": 12,
@@ -336,15 +336,6 @@
       ],
       "retiradas": [],
       "observacoes": "M03_A01-F1 (unidade 8): falha procede. Na fonte, os dois testes vêm marcados como hipótese: \"é que, vamos supor, nas primeiras análises que eu fiz pra testar, eu experimentei, ah, vamos fingir que vai falar mal pra falar bem? Vamos. Deu certo? Eu permaneço.\" e, logo depois, \"Vamos supor que eu faça um teste de, ah, vamos ver o que acontece se logo no início a gente usar um elemento de identificação. Ah, não funcionou mais... Então deixa a identificação pra lá, a gente permanece com o contraste de emoções.\" Reescrevi apenas as duas últimas frases de `Lógica:`, agora em condicional e atribuídas ao professor como suposição, sem afirmar que os testes ocorreram nem que tiveram resultado. Preservei \"Situação:\", \"O que aconteceu:\" e a parte de \"Lógica:\" sobre frase fixa, olhar e falsa crítica como contraste, todos com o mesmo sentido. Mantive faixa 801–970 (a passagem corrigida, ~15:48–16:08, continua dentro dela), a âncora \"vou te trazer os três princípios\" (literal em 15:07, dentro da faixa) e todos os metadados, inclusive `confianca: media`, `nota`, `perecivel: true` e `condicoes`. O corpo segue com três linhas não vazias, sem timestamp e sem trecho copiado. A unidade 10 não foi tocada, conforme o parecer. O campo `versao` não faz parte do contrato desta entrega; ao gravar no JSON da aula, subir a versão da unidade 8 para 3 e registrar o ciclo em `correcoes`."
-    },
-    {
-      "ciclo": 3,
-      "por": "opus-5",
-      "unidades": [
-        11
-      ],
-      "retiradas": [],
-      "observacoes": "C1 (U011, veto de contrato, cópia de 25 palavras): falha confirmada contra a fonte. O corpo anterior repetia a seção \"Estrutura básica\" do material quase palavra por palavra; a sequência idêntica atravessava os três marcadores sem quebra (\"...gancho chamar atenção e indicar a quem o conteúdo se dirige meio interesse desenvolver o argumento ou contar a história fim desejo e ação apresentar...\"), ultrapassando o limite de 25 palavras. Reescrevi apenas o campo `corpo`, inserindo palavras próprias exatamente nas junções em que o material encadeia os blocos (\"dirige → meio\", \"interesse → desenvolver\", \"história → fim\"), de modo que a maior sequência literal remanescente fica em 14 palavras (\"desejo e ação apresentar a moral da história despertar desejo e indicar uma ação\"). Preservei integralmente o conteúdo: os três rótulos do material (gancho, interesse, desejo e ação), a função de cada bloco, a ordem da fonte, a associação que o material faz entre consistência e chances de acerto e viralização, e a observação de que os temas mudam enquanto o padrão permanece — esta última também reformulada, já que o original reproduzia \"O material associa essa consistência a maiores chances de acerto e viralização\". Nenhum outro campo foi alterado: `titulo`, `tipo`, `tema`, `tarefas`, `plataformas`, `fonte`, `inicio`/`fim` (null, correto para fonte só material), `condicoes`, `perecivel`, `confianca`, `nota` e `proposta_tag` seguem idênticos. A `evidencia` não precisou mudar porque o trecho \"chamar atenção e indicar a quem o conteúdo se dirige\" (10 palavras) continua literal no material e continua ancorando o bloco de começo, que segue no corpo. `versao` deve ser incrementada para 2 pelo executor, já que o corpo mudou."
     }
   ]
 }

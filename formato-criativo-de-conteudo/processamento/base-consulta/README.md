@@ -340,6 +340,22 @@ Perfil das unidades: 290 regras, 149 exemplos, 130 conceitos, 50 decisões, 49 l
 
 **US$ 134,73 nominais em 287 chamadas**, todas com `stop_reason: tool_use` e `terminal_reason: completed`, sem recusa. Dentro disso, o julgamento integral das 13 aulas finais custou US$ 13,38 em 19 chamadas. Fora da base: US$ 13,30 (configurações descartadas do piloto, teste de tamanho e calibração). Total do trabalho: US$ 148,03 nominais, US$ 2,74 por aula. O juiz é 57% do custo das aulas publicadas, o inspetor 25% e o extrator 8%. Há mais 10 registros de tentativas com erro (2 por limite de tempo, 8 por limite de sessão da assinatura). A projeção feita no piloto (ordem de US$ 70) estava errada por baixo: supunha 16 julgamentos e foram 87 chamadas de juiz.
 
+### Correção posterior: cópia bruta em 4 unidades (21/09/2026)
+
+No piloto do Hardcopy Pro o juiz achou um defeito no validador compartilhado: a checagem de cópia de 25 palavras comparava texto cru, e o Markdown do material e as marcações de tempo escondiam a cópia. Com a comparação por sequência de palavras, esta base, já fechada, passou a acusar 4 unidades, todas de fonte `material`: `M02_A03` U018, `M03_A01` U011, `M03_A02` U015 e `M04_A04` U013 (28, 36, 27 e 33 palavras idênticas à fonte, nessa ordem). Will decidiu corrigir.
+
+Via normal, em `lotes/correcao-copia/`: paráfrase pelo Opus 5 `high` só dessas unidades (rodada 3, reparo de contrato, não é ciclo de conteúdo), conferência focal pelo Sonnet 5 `xhigh` com a evidência das demais preservada por hash, e conferência do juiz Fable 5.1 `xhigh` com a saída de script da coordenação anexada por `julgar --prova`. As quatro unidades saíram `lastreada` na focal e as quatro aulas tiveram `passa`, sem falha. Maior sequência idêntica depois da correção: 17, 14, 11 e 16 palavras. Publicadas por `fcc_publicar.py`; `base_fcc.py --reviews --check` voltou a **zero erros e 1 aviso**, e `--inventory` segue sem divergência. Nenhum outro arquivo gerado mudou.
+
+Consumo, em tokens (12 chamadas, todas `tool_use` e `completed`; por decisão de Will em 21/09/2026 o consumo passa a ser relatado em tokens da assinatura, não em dólar):
+
+| Papel | Modelo e esforço | Chamadas | Entrada nova | Cache lido | Saída |
+|---|---|---:|---:|---:|---:|
+| Inspetor | `claude-sonnet-5` `xhigh` | 4 | 114.104 | 43.938 | 14.782 |
+| Juiz | `claude-fable-5-1` `xhigh` | 4 | 83.000 | 42.366 | 20.502 |
+| Redator | `claude-opus-5` `high` | 4 | 81.531 | 70.742 | 15.649 |
+
+Os julgamentos anteriores dessas quatro aulas ficam em `lotes/correcao-copia/antes/`.
+
 ### Pendências
 
 - Nenhuma falha material conhecida pendente na base.

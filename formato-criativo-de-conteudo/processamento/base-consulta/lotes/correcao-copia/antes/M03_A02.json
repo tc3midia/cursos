@@ -358,9 +358,9 @@
       "confianca": "alta",
       "nota": null,
       "proposta_tag": null,
-      "corpo": "Segundo o material de apoio, o tema interessante é o assunto capaz de despertar a atenção do público que você quer alcançar. Confira se essas pessoas têm interesse pelo assunto e se conseguem se ver na situação retratada.\nPara enriquecer o tema, o material orienta combinar duas ou três dimensões, como nicho, cultura pop e conflito universal.",
+      "corpo": "Segundo o material de apoio, o tema interessante é o assunto que desperta a atenção do público desejado; verifique se as pessoas se interessam por ele e se conseguem se reconhecer na situação. Para enriquecer o tema, combine duas ou três dimensões, como nicho, cultura pop e conflito universal.",
       "evidencia": "combine duas ou três dimensões, como nicho, cultura pop e conflito universal",
-      "versao": 2
+      "versao": 1
     },
     {
       "numero": 16,
@@ -407,17 +407,6 @@
       "corpo": "O material propõe escolher um tema, definir a moral e escrever a interseção entre os dois. Em seguida, publicar a ideia nos comentários, ler a proposta de um colega e sugerir uma melhoria simples. Para feedback direto, indica participar da comunidade.",
       "evidencia": "Escolha um tema, defina a moral e escreva a interseção entre ambos.",
       "versao": 1
-    }
-  ],
-  "correcoes": [
-    {
-      "ciclo": 3,
-      "por": "opus-5",
-      "unidades": [
-        15
-      ],
-      "retiradas": [],
-      "observacoes": "C1 (U015): confirmada a cópia bruta. O corpo reproduzia, ignorando caixa e pontuação, exatamente 25 palavras seguidas do material: \"É o assunto que desperta a atenção do público desejado. Verifique se as pessoas se interessam por ele e se conseguem se reconhecer na situação.\" Reescrevi essas duas frases em paráfrase (\"assunto capaz de despertar a atenção do público que você quer alcançar\", \"Confira se essas pessoas têm interesse pelo assunto e se conseguem se ver na situação retratada\") e troquei \"combine\" por \"o material orienta combinar\", preservando integralmente o sentido, os números (\"duas ou três dimensões\") e os exemplos (\"nicho, cultura pop e conflito universal\"). A maior sequência idêntica ao material passou a ter cerca de doze palavras. Nenhum outro campo mudou: tipo, tema, tarefas, plataformas, fonte, faixa (null, porque a fonte é só material), condições, perecibilidade, confiança, nota, proposta de tag e a âncora literal \"combine duas ou três dimensões, como nicho, cultura pop e conflito universal\" — que continua existindo no material e tem doze palavras, dentro do limite — seguem como estavam. Como o corpo mudou, o hash da unidade muda e ela precisa de nova conferência; a versão deve ser incrementada pelo executor."
     }
   ]
 }
