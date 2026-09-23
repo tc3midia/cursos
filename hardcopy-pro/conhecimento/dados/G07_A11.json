@@ -1,0 +1,143 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A11",
+  "titulo": "Episódio 11 - Canva (Serviços)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta é a décima primeira aula da trilha Hard Ads, dentro do módulo de Negócios Locais, e mostra o professor montando ao vivo, no Canva, o criativo de um anúncio fictício de exemplo para um negócio de serviço (aparentemente gestão de tráfego/marketing local).",
+    "A aula assume que quem assiste já conhece, de aulas anteriores do curso, termos como arma de Chekhov, '2 mais 2 é melhor que 4' e 'verdade absoluta', e aplica esses conceitos diretamente na montagem do criativo em vez de reexplicá-los do zero.",
+    "Boa parte do conteúdo é demonstração de tela (cores, brilho, saturação, sombra, filtros, posição de imagem e texto) narrada com apontamentos como 'olha só' e 'vamos colocar aqui', por isso muitos detalhes visuais só fazem sentido vendo a imagem.",
+    "Ao final, o professor sai do Canva e usa o ElevenLabs para gerar a locução do anúncio, dando uma orientação pontual sobre como escrever números para a narração sintética.",
+    "A aula não cobre a estrutura completa do anúncio nem a edição em vídeo; ela mesma anuncia que a próxima aula vai tratar da montagem no CapCut."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Escurecer e dessaturar a foto de fundo para dar contraste ao texto do criativo",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 171,
+      "fim": 477,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A posição exata da vinheta girada e o efeito visual final de cada ajuste só ficam claros vendo a tela; a descrição aqui segue só o que o professor verbaliza como lógica do tratamento de imagem, repetida várias vezes ao longo da aula para fotos diferentes.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: foto de fundo já posicionada no criativo do Canva, atrás do texto principal do anúncio.\n1. Diminua o brilho, a saturação e a calidez da imagem de fundo para escurecê-la e criar contraste com o texto.\n2. Aplique, quando disponível, o filtro chamado X-Process na imagem para reforçar esse contraste.\n3. Duplique e ajuste a sombra atrás do texto, reduzindo a opacidade dela, para o texto não ficar difícil de ler sobre a foto.\n4. Como um 'hackzinho' adicional, adicione uma vinheta girada a 90 graus sobre a imagem para escurecer parte dela e puxar o olhar para o texto.",
+      "evidencia": "diminuir esse brilho, aumentar um pouquinho, diminuir a saturação, e a calidez",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Arma de Chekhov e '2 mais 2 é melhor que 4' no roteiro do anúncio",
+      "tipo": "conceito",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 277,
+      "fim": 332,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A arma de Chekhov é um princípio segundo o qual todo elemento presente em uma história (ou em um anúncio) precisa ser necessário; elementos irrelevantes devem ser removidos. O professor liga esse princípio ao conceito do curso '2 mais 2 é melhor que 4': em vez de explicar diretamente algo ao lead (o público que assiste ao anúncio), é melhor plantar um elemento que pareça sem importância no momento e deixar que o próprio lead conclua o sentido dele mais adiante, como um filme que foca numa caixa sem explicação e só faz sentido depois. Ele usa essa lógica para justificar as escolhas de roteiro do anúncio de exemplo que monta na aula.",
+      "evidencia": "todos os elementos presentes em uma história devem ser necessários e elementos irrelevantes devem ser removidos",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Exemplo: 'não prometo resultado' como verdade absoluta em anúncio local",
+      "tipo": "exemplo",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "escrever-pitch-e-cta",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 385,
+      "fim": 860,
+      "condicoes": "Copy de exemplo escrita na aula para um anúncio fictício de serviço de gestão de tráfego voltado a negócio local; não é caso real nem estatística de mercado.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O nicho exato do negócio anunciado não fica totalmente claro pela fala (trechos como '500 litros por mês' não são compreensíveis sem a tela).",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor está montando, no Canva, um anúncio de exemplo para um negócio de serviço (gestão de tráfego) dirigido a empresa local.\nO que aconteceu: ele escreve a frase 'eu não te prometo o resultado' e a nomeia como 'verdade absoluta', antes de completar com a promessa de que, ao marcar uma reunião, o lead vai entender que o trabalho dele vai além de uma simples gestão de tráfego.\nLógica: abrir com uma afirmação inquestionável (não prometer resultado) faz a frase seguinte, que já é uma promessa, herdar a credibilidade da primeira; é a técnica de 'verdade absoluta' aplicada dentro do pitch do anúncio. A frase e o contexto do negócio são copy fictícia de aula, não dado de mercado nem caso real.",
+      "evidencia": "eu não te prometo o resultado, uma verdade absoluta, olha só, eu não te prometo o resultado",
+      "versao": 2
+    },
+    {
+      "numero": 4,
+      "titulo": "Escrever números por extenso ao gerar locução no ElevenLabs",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 887,
+      "fim": 905,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao gerar a locução de um anúncio no ElevenLabs, escreva os números por extenso (em palavras) em vez de em algarismos antes de colar o texto na ferramenta. O professor dá como exemplo trocar '20' por 'vinte' e '500' pela forma por extenso antes de gerar a voz sintética, para a narração sair correta.",
+      "evidencia": "sempre que você for no Eleven Labs, você coloca os números no formato de palavras",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Aula majoritariamente de demonstração de tela no Canva",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 1030,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A maior parte desta aula é o professor montando ao vivo, no Canva, um criativo de anúncio de exemplo para negócio local (escolha de imagens, cores, posição de texto, efeitos como X-Process e vinheta), apontando constantemente para a tela com expressões como 'olha só' e 'vamos colocar aqui'. A transcrição não permite reconstruir o anúncio completo, nem identificar com certeza o nicho exato do negócio anunciado, nem os valores exatos de cor, posição e tamanho usados: esses detalhes ficaram só na imagem.",
+      "evidencia": "olha só que coisa linda que ficou isso aqui",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        3
+      ],
+      "retiradas": [],
+      "observacoes": "C1: título da unidade 3 tinha 82 caracteres, acima do limite de 80. Voltei à fonte (trecho em torno de 06:16–06:50) para confirmar o conteúdo e encurtei o título removendo \"de serviço\" (que já está detalhado em `condicoes`), mantendo o essencial \"Exemplo: 'não prometo resultado' como verdade absoluta em anúncio local\" (71 caracteres). Nenhum outro campo foi alterado: `evidencia`, `corpo`, faixa de tempo, `tarefas`, `tema` e demais metadados permanecem os mesmos, pois a falha apontada era só o tamanho do título."
+    }
+  ]
+}

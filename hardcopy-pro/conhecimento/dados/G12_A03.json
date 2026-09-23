@@ -1,0 +1,109 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G12_A03",
+  "titulo": "Aula 03 - Exemplo 1 - Edição",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula pertence à trilha Hard IA, segunda temporada, e mostra o professor editando ao vivo, na tela, um anúncio de exemplo dentro do CapCut.",
+    "O vídeo funciona como demonstração prática, então pressupõe que quem assiste já conhece a interface básica do CapCut e os conceitos de roteiro e anúncio ensinados em aulas anteriores do curso.",
+    "A transcrição automática captura sobretudo falas de apontamento para a tela, como 'aqui', 'isso' e 'essa parte', além de longos trechos de repetição de silêncio, o que limita bastante o que pode virar orientação sem a imagem.",
+    "Os poucos pontos que a fala nomeia com clareza são o uso do recurso de separar áudio e vocais para remover a fala de alguém sem perder o som ambiente, o download de um vídeo externo com uma ferramenta de terceiros antes de editar, e a geração de legenda automática com escolha de um estilo de letra maior.",
+    "A aula não descreve com detalhe suficiente cortes, máscaras, transições e escolha de música, porque essas ações ficaram só na imagem.",
+    "Não há material de apoio para esta aula, só a transcrição da fala."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Aula de tela: edição de exemplo no CapCut com pouco descritível na fala",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 2129,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Esta aula é uma demonstração de tela em tempo real do professor editando um anúncio de exemplo no CapCut: ele corta cenas, aplica máscaras, efeitos, transições e legendas enquanto aponta para a interface. A fala consiste majoritariamente em referências do tipo 'aqui', 'isso' e 'essa parte', sem nomear a maior parte dos menus, botões e valores usados, então a maioria dos passos de edição não pode ser reconstruída só a partir da transcrição. Os poucos pontos que a fala nomeia com clareza — separar áudio e vocais, baixar vídeo com uma ferramenta externa e gerar legenda automática — estão registrados em unidades à parte; o restante da montagem, como cortes específicos, máscaras, transições e escolha de música, ficou só na imagem.",
+      "evidencia": "colocamos aqui em cima, tá, e a gente vai ver como é que tá esse vídeo aqui",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Separar áudio e vocais no CapCut para tirar a fala de alguém",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 287,
+      "fim": 321,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O trecho traz palavras que parecem erro de transcrição ('alunos', 'locais'), prováveis substitutos de 'áudios' e 'vocais'; o corpo descreve a função apesar dessa imprecisão.",
+      "proposta_tag": null,
+      "corpo": "No CapCut, o professor usa o recurso de separar áudio e vocais para tirar a voz de uma pessoa falando em um trecho de vídeo sem perder o som ambiente. Ele descreve que o recurso divide a faixa em duas, uma com a parte vocal e outra com o áudio normal, e depois ele reaproveita só a faixa que precisa. Ele faz isso porque, nesse trecho da edição, não pode deixar a pessoa aparecer falando.",
+      "evidencia": "A gente separa tudo, a vocal tá aqui, o áudio normal tá aqui, então a gente uniu aqui",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Baixar vídeo externo com SnapTik antes de editar no CapCut",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 689,
+      "fim": 705,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "SnapTik identificado por hipótese, a partir da grafia da transcrição 'Snap, Tiki', usada aqui para baixar um vídeo externo antes de trazê-lo para o CapCut.",
+      "proposta_tag": null,
+      "corpo": "O professor usa uma ferramenta de download de vídeo (grafada na transcrição como 'Snap, Tiki') para baixar um vídeo pronto e usá-lo como material bruto na edição. Ele baixa o vídeo, fecha a ferramenta e localiza o arquivo baixado para incorporar à montagem que está fazendo no CapCut.",
+      "evidencia": "Snap, Tiki, vai baixar esse fórdio, baixou o download do vídeo, close, tá aqui o vídeo dele",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Gerar legenda automática no CapCut e escolher letra maior",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1260,
+      "fim": 1317,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A frase em que o professor justifica por que gera a legenda está degradada na transcrição ('não esqueçam porque essa batalha, apesar de estar muito realista, a gente não vai dar o espaço de quasar'); os termos 'batalha' e 'quasar' não são identificáveis com segurança, por isso o motivo exato fica incerto.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: vídeo já cortado e pronto para receber legenda, aberto no CapCut.\n1. Abra o menu de Texto e escolha a opção de legendas automáticas.\n2. Selecione o idioma português do Brasil.\n3. Marque para excluir as legendas atuais e gerar novas, e aguarde o processamento terminar.\n4. Entre os estilos de legenda gerados, escolha a variante com a letra maior, que o professor trata como a melhor opção.\nEle diz que gera a legenda para manter a atenção da pessoa no vídeo e no texto, mas a razão exata dessa escolha não é clara na transcrição.",
+      "evidencia": "Texto, legendas automáticas, português e brasil excluir legendas atuais e gerar",
+      "versao": 1
+    }
+  ]
+}

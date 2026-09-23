@@ -1,0 +1,271 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G06_A08",
+  "titulo": "Episódio 8 - CapCut Cabelo",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é uma gravação de tela em que o professor edita no CapCut o anúncio em vídeo do produto inventado Touro Hair (queda de cabelo), na trilha Hard Ads, grupo de produtos com dores.",
+    "A narração do anúncio é um relato em primeira pessoa de um homem de 45 anos; ela é copy de exemplo e nada dela vira dado de mercado.",
+    "O foco é o som: escolha de música por sentimento, posição do pico da música, silêncio, clique, transição sonora, fade e tirar a música no antes e depois.",
+    "A aula assume que o aluno já viu a edição do anúncio de emagrecimento, que o professor cita como padrão a repetir, e o CapCut aberto.",
+    "Boa parte é clique e arrasto na tela; a transcrição só captura o que a fala descreve, e no meio da aula há um trecho de fragmentos soltos sem sentido.",
+    "Fica para a aula seguinte outro assunto e o fechamento da temporada; o resultado final do anúncio aparece no fim do vídeo."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Música épica quando o sentimento do trecho é orgulho",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 400,
+      "fim": 411,
+      "condicoes": "Dito sobre o trecho de copy de exemplo do Touro Hair em que o personagem fala com orgulho do que fez pelo trabalho.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A transcrição grafa o produto como Toro Herz, Toro Hair e Tomo Hair; adotada a grafia Touro Hair.",
+      "proposta_tag": null,
+      "corpo": "Escolha a trilha pelo sentimento que a fala do trecho carrega. No trecho em que o personagem fala com orgulho, o professor coloca música épica e recusa música triste, porque a tristeza ali ficaria feia e destoaria do que ele está dizendo.",
+      "evidencia": "Então não adianta a gente colocar tristeza",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Posicionar o plot da música entre duas falas",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 413,
+      "fim": 426,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O plot da música é a parte mais importante dela, segundo outra aula do curso; aqui a fala só mostra o uso e o ponto exato ficou na tela.",
+      "proposta_tag": null,
+      "corpo": "Pegue a música pelo plot dela, a parte mais importante, e centralize esse ponto na linha do tempo. O professor encaixa o início do pico entre uma fala e a seguinte, guiando-se por uma marca visível na onda da música, para o pico bater certinho na virada entre as duas.",
+      "evidencia": "A gente vai pegar ela no plot aqui, bem no plot",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Clique sonoro na transição de foto",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 434,
+      "fim": 449,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando o vídeo troca de uma imagem para outra, coloque um efeito de clique na transição. O som avisa a pessoa de que uma imagem está passando, o que torna a transição perceptível e a edição mais bem acabada.",
+      "evidencia": "Pra pessoa ver que tá passando uma imagem aqui",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Silêncio absoluto antes da parte triste",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 456,
+      "fim": 470,
+      "condicoes": "Trecho de copy de exemplo em que o personagem diz que aos 40 anos já não se tem a mesma disposição.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A trilha triste usada vem de uma lista de músicas na tela; a fala só a chama de 7.",
+      "proposta_tag": null,
+      "corpo": "Antes do trecho em que o clima vira para tristeza, o professor deixa silêncio absoluto e só então entra a música triste. O silêncio marca a virada de sentimento e prepara a entrada da trilha nova.",
+      "evidencia": "Silêncio absoluto agora",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Diminuir volume e fazer fade ao fim do trecho de música",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 521,
+      "fim": 527,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao terminar o uso de uma música, corte o excedente, baixe o volume e aplique fade para ela sair suave em vez de cortar seca. O professor repete o gesto em vários pontos da aula.",
+      "evidencia": "corta, diminui o áudio aqui, o volume, faz um fade",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Transição sonora distorcida entre dois trechos",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 572,
+      "fim": 601,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O efeito é escolhido na biblioteca de efeitos do editor; a fala só o chama de distorcido.",
+      "proposta_tag": null,
+      "corpo": "Entre um trecho e o outro, o professor coloca um efeito sonoro de transição, aqui um distorcido, sobe um pouco o volume dele e aumenta o fade out para o efeito não ficar abrupto. Ele diz que o resultado dá mais pressão e um clima de plot.",
+      "evidencia": "Vamos colocar aqui um distorcido.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Tirar a música no antes e depois",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 666,
+      "fim": 672,
+      "condicoes": "Vale para o momento do anúncio em que aparece o antes e o depois.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Retire a música na parte em que o anúncio mostra o antes e o depois, para esse momento receber toda a atenção. É a ideia que o curso chama de calar a boca na hora certa: tirar a música onde se quer destacar.",
+      "evidencia": "Porque aqui a gente vai ter um antes e um depois",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Ajustar a velocidade da fala para fechar junto da animação",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 120,
+      "fim": 133,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição não capta o comando exato do CapCut, só que se divide a faixa e se aumenta a velocidade.",
+      "proposta_tag": null,
+      "corpo": "Quando a fala termina antes de a animação do texto acabar e deixa um espaço, o professor divide a faixa de voz e aumenta a velocidade do trecho até ele chegar à linha em que a animação termina. Assim voz e animação fecham juntas.",
+      "evidencia": "Ela finalizou antes de acabar a animação",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Não animar texto pequeno na tela",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 208,
+      "fim": 230,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala dá só a razão de tamanho; o tipo de animação usado ficou na tela.",
+      "proposta_tag": null,
+      "corpo": "O professor anima os textos legendados do anúncio, mas deixa sem animação o texto pequeno demais, porque nele a animação não compensa.",
+      "evidencia": "Aqui a gente não anima, que é muito pequeno.",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Rever a aula até pegar a maldade do som",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 776,
+      "fim": 794,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para o professor, o som muda toda a jogada do anúncio. Ele recomenda rever essas aulas quantas vezes for preciso até pegar a maldade do som.",
+      "evidencia": "Quantas vezes for preciso pra você pegar a maldade do som.",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Aula de tela: o que a transcrição não captura",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 814,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula é edição em CapCut feita com cliques e arrastos. Não se recuperam da fala as músicas, os efeitos e os pontos exatos de corte, nem como as vozes do rapaz e da senhora foram intercaladas na abertura. No meio da aula há um trecho de fragmentos soltos sem sentido. O texto do anúncio do Touro Hair é copy de exemplo: o relato dos 45 anos, os 3 meses e a chamada para avaliação gratuita não são dados reais. O professor diz que a edição segue o padrão do anúncio de emagrecimento e que a aula seguinte muda de assunto para fechar a temporada.",
+      "evidencia": "Vamos lá então, vamos começar aqui com a voz do rapaz",
+      "versao": 1
+    }
+  ]
+}

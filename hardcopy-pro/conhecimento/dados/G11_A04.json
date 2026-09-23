@@ -1,0 +1,272 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G11_A04",
+  "titulo": "Aula 4 - Hooks Validados: Como Criar Aberturas de Anúncios Impossíveis de Ignorar",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula do Hardcopy Pro faz parte da trilha Hard IA e ensina a criar variações de hook para um anúncio de vídeo já validado, usando um chat de inteligência artificial que o profissional já alimenta com informações do próprio negócio.",
+    "Ela assume que quem assiste já tem um criativo validado, ou seja, um anúncio rodando com retorno comprovado, e algum chat de IA (aparentemente ChatGPT) previamente treinado com o histórico do negócio.",
+    "Explica a diferença entre hook, o início do anúncio, e lead, termo mais antigo para o início da VSL.",
+    "Demonstra na prática, com um anúncio de exemplo, como copiar o anúncio para o chat, pedir variações de hooks baseadas no que funcionou, escolher as melhores, pedir uma nova rodada de opções ainda melhores e depois montar os anúncios finais juntando cada hook escolhido com o restante do texto original.",
+    "Fecha recomendando repetir esse processo sempre que um anúncio for validado, inclusive trocando um hook que já funcionou, e sugerindo que operações pequenas ou sem margem de lucro apliquem a técnica no melhor anúncio disponível.",
+    "Deixa para a aula seguinte o ensino de como escrever headlines e sub-headlines de impacto com apoio de inteligência artificial."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Variação de hook sobre criativo validado é rápida e dispensa criatividade",
+      "tipo": "regra",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 34,
+      "fim": 49,
+      "condicoes": "Vale para quando já existe um criativo validado, isto é, um anúncio que está rodando e dando retorno; não se aplica a um anúncio ainda não testado.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, fazer variações de hook para um anúncio que já foi validado (que já está rodando com retorno) é uma tarefa rápida e simples, que não exige necessariamente criatividade, ao contrário de criar um anúncio do zero.",
+      "evidencia": "porque ela não necessita necessariamente criatividade e é bem rápido é bem simples a gente vai fazer uma variação de hooks para um criativo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Hook é o início do anúncio; lead é termo mais antigo para início da VSL",
+      "tipo": "conceito",
+      "tema": "abertura-e-gancho",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 73,
+      "fim": 110,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Hook é o início do anúncio; o teste de variações feito sobre essa parte é chamado de teste de hook. Na VSL, o início equivalente é chamado de teste de lead. O professor observa que quem usa o termo 'lead' para o início da VSL costuma ser quem está há mais tempo no mercado, enquanto há quem chame o início da própria VSL de hook também.",
+      "evidencia": "o hook é o início do anúncio",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Antes de gerar variações de hook, alimente a IA e não a deixe decidir sozinha",
+      "tipo": "regra",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 113,
+      "fim": 130,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para fazer um bom teste de variação de hooks, o professor diz que primeiro é preciso deixar a inteligência artificial bem alimentada e bem estudada com o conhecimento geral do negócio. Mesmo assim, ele recomenda nunca deixar que a IA crie as variações completamente sozinha, porque, segundo ele, ela ainda não chegou a esse ponto.",
+      "evidencia": "a gente precisa ter primeiramente a nossa ia muito bem alimentada e muito bem estudada",
+      "versao": 2
+    },
+    {
+      "numero": 4,
+      "titulo": "Procedimento para gerar variações de hook com chat de IA já treinado no negócio",
+      "tipo": "procedimento",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "criar-prompt-ou-agente",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 140,
+      "fim": 205,
+      "condicoes": "Pressupõe um chat de IA já alimentado continuamente com informações do próprio negócio; o professor não descreve o resultado com um chat sem esse preparo prévio.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala usa apenas a palavra genérica 'chat' para a ferramenta, sem nomear explicitamente; pelo padrão do curso, em que o profissional alimenta esse chat diariamente com dados do negócio como se fosse um agente da empresa, presume-se ChatGPT, mas a identificação é hipótese.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: já existe um anúncio validado, com retorno comprovado, e um chat de IA já treinado com informações do próprio negócio.\n1. Copie o texto completo do anúncio validado.\n2. Cole esse texto nesse chat, avisando que o anúncio foi validado e pedindo variações de hooks para ele, com base no que funcionou nele, e solicitando várias opções.\n3. Aguarde a resposta: em uma conversa longa, com muito histórico acumulado, o chat pode demorar mais ou até travar; segundo o professor, isso é sinal de que a IA está bem alimentada, não um erro, e a tendência é piorar quanto mais informação for acumulada.",
+      "evidencia": "vamos copiar todo o anúncio e vamos jogar em um chat",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Elementos do hook apontados pela IA no anúncio de exemplo",
+      "tipo": "exemplo",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "escrever-gancho-de-anuncio",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 205,
+      "fim": 218,
+      "condicoes": "A lista de elementos é saída da IA sobre um anúncio específico usado como exemplo; não é critério do professor nem lista obrigatória para todo hook.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor colou o anúncio já validado num chat de IA que ele alimenta com o negócio e pediu variações de hook com base no que tinha funcionado.\nO que aconteceu: o chat respondeu dizendo primeiro o que, na leitura dele, fazia o anúncio funcionar — começo direto, prova prática, chamada para assistir e ênfase na VSL como espetáculo — e só então entregou as variações de hook; o professor leu essa análise em voz alta ao receber a resposta.\nLógica: esses elementos são a leitura da IA sobre um anúncio específico, não um critério formulado pelo professor nem uma referência que ele tenha passado ao chat antes de pedir as variações.",
+      "evidencia": "Com base no que funcionou nesse anúncio Ou seja, começo direto, com uma prova prática",
+      "versao": 2
+    },
+    {
+      "numero": 6,
+      "titulo": "Iterar pedindo variações de hook ainda melhores a partir das melhores já geradas",
+      "tipo": "procedimento",
+      "tema": "ia-para-copy-e-prompts",
+      "tarefas": [
+        "refinar-saida-de-ia",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "chatgpt"
+      ],
+      "fonte": "fala",
+      "inicio": 314,
+      "fim": 337,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala usa apenas a palavra genérica 'chat' para a ferramenta, sem nomear explicitamente; presume-se ChatGPT pelo padrão do curso, mas a identificação é hipótese.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: o chat de IA já gerou uma primeira leva de variações de hook a partir do anúncio validado.\n1. Releia as opções recebidas e selecione as que considerar boas; no exemplo do professor, ele seleciona três.\n2. Cole essas opções escolhidas de volta na mesma conversa com o chat.\n3. Peça que ele gere novas opções de hooks ainda melhores, tomando as variações selecionadas como base.",
+      "evidencia": "com base nas três variações acima me dê várias opções de hooks ainda melhores",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Montar cada anúncio final juntando o hook escolhido com o anúncio original",
+      "tipo": "procedimento",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 429,
+      "fim": 538,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: já existem hooks escolhidos entre as variações geradas, e o restante do texto do anúncio original permanece inalterado.\n1. Para cada hook escolhido, monte um anúncio completo unindo esse hook com o restante do texto do anúncio original.\n2. Destaque o hook em negrito e mantenha-o separado visualmente do resto do texto, para facilitar depois a edição do vídeo.\n3. Organize cada anúncio completo em uma página ou seção própria, identificada como \"Variação 1\", \"Variação 2\", \"Variação 3\" e assim por diante.",
+      "evidencia": "deixa separado o hook com o que já é o anúncio",
+      "versao": 2
+    },
+    {
+      "numero": 8,
+      "titulo": "Repetir a variação de hooks sempre que validar um novo anúncio",
+      "tipo": "regra",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 543,
+      "fim": 563,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Sempre que um anúncio for validado, o professor recomenda repetir o processo de gerar variações de hook para ele, porque isso aumenta bastante a assertividade dos anúncios. Ele descreve o processo como algo que pode ser retroalimentado: mesmo um hook que já funcionou pode ser trocado de novo depois, em busca de um resultado ainda melhor.",
+      "evidencia": "sempre que você validar um anúncio faça isso que cara a assertividade de anúncios vai aumentar e muito",
+      "versao": 2
+    },
+    {
+      "numero": 9,
+      "titulo": "Operação pequena ou sem margem: aplicar a técnica no melhor anúncio",
+      "tipo": "decisao",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 563,
+      "fim": 573,
+      "condicoes": "Vale para quem tem operação pequena ou ainda não obteve margem de lucro consistente.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Se você tem uma operação pequena ou ainda não obteve uma margem de lucro consistente, pegue o melhor anúncio dessa operação e aplique nele a técnica de variação de hooks, para ver o que acontece com o resultado.",
+      "evidencia": "tenta pegar o melhor anúncio da sua operação e faz isso para ver o que acontece",
+      "versao": 2
+    },
+    {
+      "numero": 10,
+      "titulo": "Próxima aula tratará de headlines e sub-headlines de impacto com IA",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 575,
+      "fim": 585,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula termina anunciando que o conteúdo seguinte do curso vai ensinar a escrever headlines e sub-headlines de impacto com apoio de inteligência artificial; esse assunto não é desenvolvido nesta aula.",
+      "evidencia": "como que eu faço headlines e sub-headlines de impacto",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        3,
+        7,
+        8,
+        9
+      ],
+      "retiradas": [],
+      "observacoes": "C1 (U003): título tinha 81 caracteres, acima do limite de 80. Removida a palavra \"bem\" antes de \"a IA\" (redundante, o corpo já traz \"bem alimentada e bem estudada\"), resultando em 77 caracteres. Corpo e evidência mantidos, pois não foram apontados pelo veto.\n\nC2 (U007): título tinha 89 caracteres. Reescrito de forma mais enxuta (\"Montar cada anúncio final juntando o hook escolhido com o anúncio original\", 74 caracteres), preservando o mesmo sentido do procedimento. Corpo e evidência mantidos.\n\nC3 (U008): título tinha 94 caracteres. Reescrito para \"Repetir a variação de hooks sempre que validar um novo anúncio\" (62 caracteres), mantendo a regra central; o detalhe de \"mesmo trocando hook que já funcionou\" já está preservado no corpo.\n\nC4 (U008): a evidência original (\"sempre que você validar um anúncio faça isso que a assertividade de anúncios vai aumentar e muito\") pulava a palavra \"cara\", que a transcrição tem no meio da frase (\"faça isso que, cara, a assertividade...\"), quebrando a sequência literal contígua exigida pelo FORMATO. Corrigida para incluir \"cara\" na sequência, ficando literal e contígua com a fonte, com 18 palavras (dentro do limite de 1–24).\n\nC5 (U009): título tinha 92 caracteres. Reescrito para \"Operação pequena ou sem margem: aplicar a técnica no melhor anúncio\" (67 caracteres), preservando a condição (mantida em `condicoes`) e o corpo integrais.\n\nNenhuma unidade nova foi necessária; as falhas eram todas de forma (tamanho de título e literalidade de evidência), sem indício de omissão material. Nenhuma unidade foi retirada."
+    },
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        5
+      ],
+      "retiradas": [],
+      "observacoes": "G11_A04-F01: falha confirmada contra a fonte. O prompt é colado entre 02:38 e 03:00 (\"Eu validei este / Ads para o / HardCopy / Vamos criar / Variações de / Hooks para ele / Com base / No que funcionou / Me dê / várias opções\") e a fala de 03:25–03:37 (\"Com base no que funcionou nesse anúncio / Ou seja, começo direto, com uma prova prática / Chamada pra assistir / Uma ênfase na VSL como espetáculo / Aqui vai algumas variações de hooks / Então ele já deixou pronto\") é o professor lendo a resposta do chat, posterior ao pedido. Corpo de U5 reescrito mantendo tipo `exemplo`: os quatro elementos passam a ser atribuídos à resposta da IA, situada depois do pedido; removidas as afirmações de que o professor analisou o hook antes e de que passou esses elementos ao chat como referência. `condicoes` ajustadas para registrar que é saída de IA sobre um anúncio específico. Faixa estendida de 207–217 para 205–218 para cobrir o início da leitura da resposta (\"Com base no que funcionou nesse anúncio\", 205,5 s) e o fecho \"Então ele já deixou pronto\" (até 217,74 s); a evidência foi trocada por trecho literal dentro da nova faixa, com a grafia da transcrição. Título ajustado para refletir a atribuição à IA. Demais metadados preservados; nenhuma outra unidade tocada e nenhum número renumerado. Observação para a próxima conferência: o título 004 (\"Procedimento para gerar variações de hook com chat de IA já treinado no negócio\") cobre a execução do pedido, então não foi criada unidade nova."
+    }
+  ]
+}

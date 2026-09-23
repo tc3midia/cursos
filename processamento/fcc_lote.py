@@ -56,6 +56,41 @@ def strip_context_times(folder, lesson):
     return changed
 
 
+PARENTHETICAL = re.compile(r'\s*\([^()]*\)')
+
+
+def strip_context_spellings(folder, lesson):
+    """Erro mecânico recorrente nas trilhas de ferramenta: o extrator cita entre parênteses, no contexto da aula, a grafia deformada da transcrição
+    ("transcrito como 'TapCut'"), e o FORMATO exige a grafia adotada no contexto. O script retira só o parêntese; grafia deformada fora de parêntese fica para a coordenação."""
+    if not base.DEFORMED:
+        return []
+    path = folder / f'{lesson}.json'
+    data = json.loads(path.read_text())
+    changed = []
+    for i, sentence in enumerate(data['contexto']):
+        if base.DEFORMED.search(sentence):
+            cleaned = PARENTHETICAL.sub(lambda m: '' if base.DEFORMED.search(m.group(0)) else m.group(0), sentence)
+            cleaned = ' '.join(cleaned.split()).replace(' ,', ',').replace(' .', '.')
+            if cleaned != sentence and not base.DEFORMED.search(cleaned):
+                changed.append({'antes': sentence, 'depois': cleaned})
+                data['contexto'][i] = cleaned
+    if changed:
+        data.setdefault('correcoes', []).append({'ciclo': 0, 'por': 'script', 'unidades': [], 'retiradas': [], 'observacoes': 'Erro mecânico de contrato no contexto da aula: retirado o parêntese que citava a grafia deformada da transcrição; o FORMATO exige a grafia adotada no contexto. ' + json.dumps(changed, ensure_ascii=False)})
+        path.write_text(base.dump(data))
+    return changed
+
+
+def context_only_failure(judgment, previous_context, current_context):
+    """Verdadeiro quando o julgamento reprova só por falha sem unidade (fora cobertura, que cria unidade) e o ciclo anterior não mudou o contexto:
+    o redator não aplicou o que a falha pedia, e outro ciclo não resolve. A aula vai para a coordenação."""
+    failures = judgment.get('falhas', [])
+    if judgment.get('veredito') != 'falha' or not failures:
+        return False
+    if any(f.get('unidades') or f.get('veto') == 'cobertura' for f in failures):
+        return False
+    return previous_context == current_context
+
+
 def verdict(folder, lesson):
     path = folder / f'{lesson}.julgamento.json'
     return json.loads(path.read_text())['veredito'] if path.exists() else None
@@ -77,6 +112,7 @@ def main():
     # 1. Reparo de contrato: uma tentativa, antes de qualquer inspeção. Não conta como ciclo de correção.
     for lesson in args.aulas:
         strip_context_times(folder, lesson)
+        strip_context_spellings(folder, lesson)
     broken = [a for a in args.aulas if contract_errors(folder, a, rows, tax)]
     run('corrigir', broken, 'claude-sonnet-5', 'high', f'{args.rotulo}-reparo', rodada=0, entrada=folder, saida=folder)
     for lesson in args.aulas:
@@ -116,6 +152,15 @@ def main():
     current = {lesson: folder for lesson in to_judge}
     for cycle in (1, 2):
         failing = [a for a in to_judge if verdict(current[a], a) == 'falha']
+        if cycle == 2:
+            # Falha só de contexto que o redator já teve a chance de aplicar no ciclo 1 e não aplicou: outro ciclo não resolve; vai para a coordenação.
+            for lesson in list(failing):
+                judgment = json.loads((current[lesson] / f'{lesson}.julgamento.json').read_text())
+                before, after = (json.loads((f / f'{lesson}.json').read_text())['contexto'] for f in (folder, current[lesson]))
+                if context_only_failure(judgment, before, after):
+                    summary[lesson].update({'estado': 'falha só de contexto não aplicada pelo redator: pendente para a coordenação', 'pasta': str(current[lesson]), 'ciclos': 1})
+                    to_judge.remove(lesson)
+                    failing.remove(lesson)
         if not failing:
             break
         previous, target = (folder if cycle == 1 else folder / 'ciclo1'), folder / f'ciclo{cycle}'

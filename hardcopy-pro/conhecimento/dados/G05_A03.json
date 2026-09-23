@@ -1,0 +1,295 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G05_A03",
+  "titulo": "Eposódio 3 - vídeo",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de edição em vídeo da trilha Hard Ads, gravada em tela no CapCut: o professor monta um anúncio vertical a partir de uma locução já gravada, de uma música já escolhida e de um criativo baixado do Canva.",
+    "Cobre só a parte de junção e edição visual: tratar e cortar a locução, sincronizar os takes com a fala, aplicar filtro, animação e efeito. A parte de som e sentimentalismo fica para a aula seguinte, e o anúncio termina ainda cru.",
+    "Ele avisa que não ensina a ferramenta inteira, só o necessário para montar um anúncio de conversão de forma rápida.",
+    "Boa parte é demonstração com cliques na tela; só entrou o que a fala descreve de modo compreensível sem a imagem. Zooms e animações específicas escolhidas em cada trecho ficaram só na imagem.",
+    "Pressupõe locução gravada, criativo visual pronto e o CapCut instalado. Os preços e recursos citados são os da época da gravação."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Aula cobre junção e edição visual; som fica para a próxima",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 39,
+      "fim": 109,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor divide a edição do anúncio em duas aulas. Nesta, mostra só a junção dos takes e a edição visual. A parte de som, que ele chama de sentimentalismo, fica em aula separada, para o aluno consultar cada etapa sem procurar no meio de uma aula longa.\nEle também declara que não ensina toda a ferramenta de edição: o objetivo é criar um anúncio de conversão de forma rápida e fácil, usando poucos recursos.",
+      "evidencia": "Uma, eu vou mostrar só a junção e a edição.",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Tratar a locução no CapCut antes de cortar",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video",
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 137,
+      "fim": 160,
+      "condicoes": "Locução já gravada e colocada na timeline do CapCut.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A primeira coisa que o professor faz com a locução na timeline é aplicar três recursos do CapCut: isolamento vocal, redução de ruído e aprimorar a voz.\nO programa processa o áudio conforme o pedido e, quando termina, a voz fica mais nítida e mais fluida, segundo ele.",
+      "evidencia": "Redução de ruído e aprimorar a voz",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Recursos de áudio do CapCut são pagos, mas dá para editar de graça",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 160,
+      "fim": 210,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição está confusa nesta parte (a frase sobre o professor comprar o plano aparece truncada). A leitura é que ele assina o plano pago e diz que não muda nada na vida de quem não assinar.",
+      "proposta_tag": null,
+      "corpo": "O professor avisa que o tratamento de áudio é um recurso pago do CapCut e diz que, na época da gravação, o plano custava 30 reais por mês para acessar essas ferramentas.\nEle afirma que dá para editar de graça sem problema; para quem estiver disposto, sugere assinar, mas ressalta que isso não muda a vida de ninguém.",
+      "evidencia": "Hoje o CapCut custa 30 reais por mês",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Cortar a locução com Ctrl B eliminando vícios e estalos",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video",
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 226,
+      "fim": 342,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Aula de tela: os pontos exatos de corte ficaram na imagem; só entrou o que a fala descreve.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: locução tratada e colocada na timeline do CapCut.\n1. Use o bastão de orientação, que marca onde você está editando na timeline, para posicionar o ponto de corte.\n2. Aperte Ctrl B para cortar e arraste o trecho seguinte para juntar as partes.\n3. Corte as expressões e ruídos de fala, como os que aparecem quando a pessoa faz sons entre frases, e os estalos, que normalmente ficam no fim de uma palavra.\n4. Deixe um pequeno espaço no corte para a fala não ficar seca.\n5. Ouça para conferir se o corte não comeu parte da frase; se comeu, recoloque o trecho.\nRepita até o áudio ficar limpo.",
+      "evidencia": "Deixa um espacinho assim pra não ficar muito direto",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Não precisa de fade nos cortes da locução",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 283,
+      "fim": 303,
+      "condicoes": "Preferência do professor: quem achar necessário pode colocar.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor não aplica fade (entrada e saída suaves no início e no fim de cada trecho de voz) nos cortes da locução. Diz que alguns editores pedem isso para encaixar a voz, mas ele não vê necessidade: o objetivo é fazer algo bem feito e rápido. Quem quiser usar pode aplicar no início e no fim do trecho.",
+      "evidencia": "Mas cara, eu não vejo necessidade nenhuma",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Não transformar a locução em clipe composto ao sincronizar",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 362,
+      "fim": 608,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Na aula ele primeiro cria o clipe composto e depois desfaz, dizendo que não é bom fazer isso.",
+      "proposta_tag": null,
+      "corpo": "Depois de cortar a locução, o professor a junta em um clipe composto, que une tudo em um único clipe, e leva à timeline principal para mostrar o processo. Em seguida ele desfaz e recomenda não fazer a composição do clipe do áudio.\nA razão: mantendo os cortes separados, os pontos de Ctrl B servem de referência para saber até onde a fala já foi e onde cortar o vídeo.",
+      "evidencia": "para não fazer o clipe composto desse áudio aqui",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Sincronizar os takes do criativo com a fala",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 424,
+      "fim": 726,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Aula de tela: o ajuste de velocidade foi feito arrastando na imagem; a fala descreve só a lógica. O professor diz também que esta é a parte mais importante da edição, embora mecânica.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: locução limpa e criativo baixado do Canva na timeline principal do CapCut.\n1. Confirme a proporção do projeto em 9 por 16.\n2. Ouça a fala e avance o criativo conforme o áudio, cortando com Ctrl B no fim de cada frase para passar ao próximo take.\n3. Se o take avançou antes de a palavra acabar, procure o fim da frase, corte ali e use velocidade para diminuir o take até ele encaixar no bastão do fim da fala.\n4. Se o take ficou maior ou o atraso foi maior que a fala, aumente a velocidade em vez de diminuir.\n5. Se um take não tem frase de referência, vá ao próximo e veja qual é a fala seguinte.\nO professor chama esta etapa de a mais chave da edição, mesmo sendo trabalho robótico.",
+      "evidencia": "A gente procura o final do vídeo aqui",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Filtro preto e branco em um trecho do criativo",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 550,
+      "fim": 575,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "baixa",
+      "nota": "Aula de tela: a fala não deixa claro qual elemento fica em preto e branco nem o motivo. Só se sabe o menu usado e que se aplica a uma parte do criativo.",
+      "proposta_tag": null,
+      "corpo": "No trecho em que a locução fala do homem se dedicando, o professor abre Filtros no CapCut e aplica o efeito preto e branco sobre a parte do vídeo que ele quer, e não sobre o criativo inteiro. A fala não explica a intenção além disso.",
+      "evidencia": "aqui a gente vai colocar um preto e branco",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Prefira animação a transição no CapCut",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 818,
+      "fim": 866,
+      "condicoes": "Preferência do professor; ele diz que aplica na maioria dos trechos, mas não em todos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Depois de juntar tudo, o professor dá cor ao anúncio com animações, em vez de transições, que muita gente usa. Acha que a animação fica mais bonita.\nA animação serve para encaixar um take no outro de forma agradável; ele a coloca na maioria dos takes, mas não em todos.",
+      "evidencia": "Eu prefiro animação, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Sem efeito colorido demais: seja profissional",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "editar-video",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 836,
+      "fim": 953,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição está deformada onde ele explica o dano à atenção; a leitura é que o excesso de cor prejudica a atenção do espectador.",
+      "proposta_tag": null,
+      "corpo": "O professor pede que as animações no CapCut sigam o mesmo critério do Canva: sem efeitos coloridos ou infantis, com aparência profissional. No exemplo, testou um efeito, achou muito colorido e trocou por fade.\nSegundo ele, efeitos coloridos demais desviam a atenção da pessoa. Vá aplicando com cuidado, só onde faz sentido.",
+      "evidencia": "Cara, não coloca esses negócios coloridos demais",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Efeito escuro para separar palavras",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1096,
+      "fim": 1120,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "baixa",
+      "nota": "A transcrição é truncada aqui e a demonstração está na tela; a frase sobre quando aplicar ('quando não tem palavras') não é totalmente clara.",
+      "proposta_tag": null,
+      "corpo": "Em Efeitos, o professor gosta de colocar um efeito escuro para separar as palavras, principalmente onde não há fala. Ele mostra o efeito na tela, mas a fala não detalha o nome exato nem a duração.",
+      "evidencia": "E eu gosto de colocar um efeito escuro aqui",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Perder uma palavra é melhor que perder a atenção",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1145,
+      "fim": 1197,
+      "condicoes": "Preferência do professor.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Aula de tela: qual parte foi removida ficou na imagem.",
+      "proposta_tag": null,
+      "corpo": "No fim da edição, o professor remove um trecho do início que não o agradava, deixando a sequência mais fluida. Diz que a versão anterior bagunçava a mente da pessoa.\nA preferência dele: perder uma palavra da fala em vez de perder a atenção do público naquele momento.",
+      "evidencia": "Então eu prefiro perder uma palavra",
+      "versao": 1
+    }
+  ]
+}

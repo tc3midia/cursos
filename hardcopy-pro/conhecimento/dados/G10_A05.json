@@ -1,0 +1,144 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G10_A05",
+  "titulo": "Episódio 5 - Na prática (Parte 1)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [
+    5
+  ],
+  "contexto": [
+    "Aula prática (Parte 1) da trilha Hard Sounds do curso Hardcopy Pro, sobre a técnica que o curso chama de calar a boca: cortar a trilha sonora nos pontos mais importantes da VSL ou do anúncio, deixando só a voz do locutor ou da IA.",
+    "O professor assume que quem assiste já viu a aula anterior que define esse conceito e foca aqui em demonstrar, sobre um vídeo de exemplo, como identificar e marcar esses pontos usando o atalho Ctrl B no editor de vídeo.",
+    "Ele explica que a escolha dos pontos se baseia no que está sendo vendido, incluindo o hábito de não revelar o nome do próprio produto ou mecanismo cedo demais, para causar impacto na revelação.",
+    "A demonstração é feita sobre um roteiro de VSL fictício, sem produto ou marca reais, e o editor de vídeo usado na tela não é nomeado na fala.",
+    "A aula fecha marcando cinco pontos de corte no vídeo de exemplo e adia para a próxima aula (Parte 2) a aplicação de cor às marcações e a execução final da edição de áudio."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Calar a boca corta a trilha e deixa só a voz no ponto-chave",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 66,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao aplicar a técnica de calar a boca num ponto importante da VSL ou do anúncio, corte toda a trilha sonora e deixe só a voz do locutor ou da IA tocando naquele trecho. Isso cria, para quem assiste, uma sensação de transição de áudio e de vídeo nesse instante. O objetivo é prender a atenção da pessoa só no que está sendo dito ali e levá-la, logo em seguida, a clicar no botão de chamada para ação.",
+      "evidencia": "a única coisa que sai é a sua voz ou a voz da IA",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Ache os pontos de corte pelo que a VSL está vendendo",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 119.66,
+      "fim": 152.38,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para decidir quais partes do vídeo recebem o corte de calar a boca, use como critério o que está sendo vendido: releia a copy e reescute o áudio da VSL procurando os trechos que dão arrepio, e marque esses pontos como os mais importantes para aplicar o corte de som.",
+      "evidencia": "Embasado no que você tá vendendo",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Não revele o nome do mecanismo cedo, para causar impacto na revelação",
+      "tipo": "regra",
+      "tema": "plot-twist",
+      "tarefas": [
+        "escrever-desenvolvimento-e-plot-twist"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 122.22,
+      "fim": 138.34,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A transcrição registra 'Kim Shu Den Kits'; a tabela de grafias do curso identifica essa deformação como Kishotenketsu. O professor ilustra a regra com o próprio produto (o método Kishotenketsu/Hardcopy Pro).",
+      "proposta_tag": null,
+      "corpo": "Nos próprios vídeos e anúncios, o professor nunca declara abertamente que vende o método Kishotenketsu nem que vende um formato coreano de vendas. A razão dada é fazer a pessoa se impressionar quando ouvir esse nome mais adiante, em vez de entregar o mecanismo cedo demais.",
+      "evidencia": "hora nenhuma eu coloco que eu vendo um formato coreano de vendas",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Demonstração: marcando cinco pontos de calar a boca numa VSL de exemplo",
+      "tipo": "exemplo",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 152.38,
+      "fim": 276.54,
+      "condicoes": "Demonstração sobre um roteiro de VSL de exemplo lido na aula, não um caso real de mercado.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição repete a frase 'sem prometer carro' e o comando Ctrl B em sequência muito próxima, o que deixa incerto se são dois cortes distintos ou uma correção de leitura; confiança rebaixada por isso.",
+      "proposta_tag": null,
+      "corpo": "Situação: sobre um vídeo de exemplo já narrado, o professor demonstra como marcar na timeline os pontos de calar a boca usando o atalho Ctrl B.\nO que aconteceu: ele marca um corte logo após a frase de abertura sobre verdade, outro na virada em que o discurso passa de criticar o mercado para prometer mostrar 'como se vende através da verdade', mais cortes ao redor da frase que nega promessas exageradas já na parte da oferta, e por fim aponta um trecho totalmente sem som logo antes do botão de chamada para ação; ao final ele soma e confirma cinco pontos marcados nesse vídeo.\nLógica: a demonstração mostra, na prática, que os pontos de corte tendem a cair nos momentos de virada, de reforço da oferta e de proximidade do botão, aplicando o critério de procurar o que dá arrepio explicado antes.",
+      "evidencia": "Dá uma, duas, três, quatro",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Marcação na tela; cor e edição final ficam para a próxima aula",
+      "tipo": "limite",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 276.54,
+      "fim": 284.84,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A marcação dos pontos de corte é feita direto na timeline do editor de vídeo mostrado na tela, sem que a fala nomeie o programa nem descreva menus além do atalho Ctrl B para marcar o corte. A aplicação de cor a essas marcações e a execução final da edição de áudio ficam para a próxima aula desta mesma sequência (Parte 2).",
+      "evidencia": "a gente vai dar cor pra essa parada aqui",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [],
+      "retiradas": [
+        5
+      ],
+      "observacoes": "F1 — resolvida pela via primária: unidade 5 retirada do arquivo e 5 listado em `retiradas`. Motivo conferido na fonte: o corpo prescrevia no imperativo (\"deixe um trecho totalmente sem som de trilha\") algo que a fala só descreve enquanto aponta a linha do tempo do vídeo de exemplo, logo depois de fechar a demonstração dos cinco cortes (\"Então olha só, a gente marcou no nosso vídeo, Todas as partes que vamos calar a boca ... Dá uma, duas, três, quatro, Cinco partes\"). Optei por retirar em vez de reescrever porque a versão atribuída à demonstração ficaria sobreposta a U4 (\"Demonstração: marcando cinco pontos de calar a boca numa VSL de exemplo\"), criando duplicata; e o mecanismo em si (cortar a trilha e deixar só a voz no ponto importante) já está em U1.\n\nCorreção ao laudo, para a próxima conferência: a afirmação do inspetor de que \"Não há trecho literal apontado para 'faz a pessoa se arrepiar' nem para 'feito só na edição'\" não procede diante da transcrição. Dentro da faixa 246,76–262,28 estão, literalmente: \"Essa parte aqui\" / \"É só uma edição\" (00:04:14.900–00:04:17.100) e \"Para a pessoa se arrepiar\" (00:04:20.020–00:04:21.080). Ou seja, o defeito real da unidade não era a causa sem lastro, e sim a generalização para toda VSL.\n\nPonto adicional que também pesou na retirada e não está no laudo: o posicionamento \"perto do botão de chamada para ação\" não é nomeado pela fala. O professor diz \"E olha só, aqui / Você vai olhar bem de pertinho / Nessa parte de som / Você vê que aqui não tem som\" — o \"aqui\" é gesto de tela (aula de tela), e a localização do trecho mudo na linha do tempo não se entende sem a imagem. Qualquer reaproveitamento futuro desse ponto deveria ir para o corpo de U4, sem indicar onde o trecho mudo fica, e não como unidade própria."
+    }
+  ]
+}

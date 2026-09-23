@@ -1,0 +1,111 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G02_A10",
+  "titulo": "Episódio 08 Na prática",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula da 2ª temporada (Kishotenketsu) do Hard Copy em que o professor lê do começo ao fim uma VSL de exemplo que criou para o treinamento, sobre um produto de recuperação de casamento.",
+    "Quase toda a aula é a leitura da própria copy de exemplo, com poucos comentários. O texto lido é fictício, e seus números, depoimentos e alegações não são dado de mercado.",
+    "O professor avisa que a análise por etapa da VSL fica para a aula seguinte, então esta aula não explica o porquê das escolhas.",
+    "Assume que o aluno já conhece a estrutura em quatro atos do Kishotenketsu, vista nas aulas anteriores.",
+    "Traz também um aviso sobre a disponibilidade do documento da VSL, que só é oferecido como order bump no checkout do curso."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "VSL de exemplo nunca foi lançada nem testada",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 43,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A VSL mostrada na aula foi criada pelo professor só para o treinamento. Ela nunca foi lançada nem testada no mercado. Ele diz que a montou como a VSL que rodaria se tivesse de vender esse tipo de produto. Não há resultado de campanha que a valide: ela mostra o que o professor faria, não um caso comprovado.",
+      "evidencia": "Essa VSL nunca foi lançada, ela nunca foi testada",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Documento da VSL de exemplo só no order bump do checkout",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 80,
+      "fim": 115,
+      "condicoes": "Vale para o curso na época da gravação; o professor pode ter mudado a disponibilidade depois.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição grafa o termo como \"Rodem Bump\" e \"ordem Bump\"; adotado order bump por hipótese da tabela de grafias.",
+      "proposta_tag": null,
+      "corpo": "O professor diz que a VSL de exemplo não fica disponível como documento dentro do treinamento. Ela pode ser comprada como order bump no checkout, uma oferta extra na hora da compra. Na aula ele só explica a VSL comentando-a. Ele recomenda ter o documento em mãos como base para criar a própria VSL, porque cada parte está bem explicada nele. O conteúdo desse documento não faz parte da aula.",
+      "evidencia": "Somente em ordem Bump e eu vou explicar comentando ela",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "A análise etapa por etapa da VSL fica para a aula seguinte",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "analisar-vsl-pronta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 115,
+      "fim": 122,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Esta aula é só a leitura comentada da VSL de exemplo. O professor adia para a aula seguinte a explicação de cada etapa da VSL. Por isso a aula não define os atos, o motivo de cada escolha nem as funções de cada parte. Para essa análise, consulte a aula posterior.",
+      "evidencia": "Na próxima aula eu vou mostrar cada etapa dessa VSL",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "VSL de exemplo lida na íntegra: sequência das partes",
+      "tipo": "exemplo",
+      "tema": "kishotenketsu",
+      "tarefas": [
+        "analisar-vsl-pronta",
+        "estruturar-vsl"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 123,
+      "fim": 704,
+      "condicoes": "Copy de exemplo de produto fictício (recuperação de casamento); preços, número de casais, valor de consulta e alegações citados na copy pertencem ao texto inventado e não são dado de mercado nem meta. A divisão em atos não é feita pelo professor nesta aula.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O professor não rotula as partes nesta aula; a sequência abaixo é só descrição do que a leitura traz, sem mapeá-la nos atos do Kishotenketsu.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor lê uma VSL de exemplo criada para o treinamento, sem comentar as escolhas e adiando a análise para a aula seguinte.\nO que aconteceu: a VSL abre com uma história dramática sobre uma mãe faxineira, sua filha Sofia e uma frase da criança que a mãe interpreta como abuso do pai. Em seguida vêm a denúncia, a busca e apreensão, a narração em primeira pessoa da culpa e das dúvidas da mãe, e o exame que não confirma o abuso. O marido dá a sua versão e se explica pela brincadeira do dedinho. O divórcio e a perda da guarda levam a mãe à depressão. Depois quem fala revela ser a própria Sofia, adulta, que se apresenta como psiquiatra e neurocientista e atribui divórcios à falta de comunicação. Ela critica os cursinhos que prometem recuperar o casamento em 30 dias e define neurociência. Descreve então as sessões do tratamento e uma terapia online individual de uma hora. Apresenta o preço e convida a tocar no botão verde, reforçando o convite com a sua história, a pergunta sobre métodos que não funcionaram, o valor da consulta e uma última chance. Fecha agradecendo e despedindo-se.\nLógica: o professor só mostra a VSL pronta como modelo. A explicação de cada parte fica para a aula seguinte, então a função de cada trecho não deve ser inferida daqui.",
+      "evidencia": "Andressa chegou em casa cansada de mais um dia de trabalho pesado como faxineira",
+      "versao": 1
+    }
+  ]
+}

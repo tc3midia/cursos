@@ -1,0 +1,420 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G05_A02",
+  "titulo": "Eposódio 2 - canva",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de tela da trilha Hard Ads (edição): o professor cria no Canva um anúncio em vídeo vertical, palavra por palavra, sobre uma copy de exemplo dele. A copy usada só serve de material para a demonstração e não é fonte de orientação.",
+    "Serve a quem já tem o roteiro do anúncio e quer montar o criativo visual: texto na tela, cores, sombras, elementos, animação e exportação.",
+    "Assume que o aluno já baixou ou vai baixar vídeos de referência e que vai passar depois pela edição em outra ferramenta, citada no fecho como próxima aula. A grafia dessa ferramenta no fecho está confusa na transcrição.",
+    "Boa parte dos cliques e menus ficou só na imagem; entram apenas as orientações que a fala descreve de modo compreensível. O professor mistura passos e opiniões de gosto pessoal, e a base os registra como preferências dele.",
+    "A aula deixa para a temporada de criatividade o ensino de como pensar ideias fora da caixa."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Baixar vídeo sem marca d'água com o SnapInsta",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 58,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contorna política de plataforma ou direito de terceiros: o professor baixa, sem marca d'água, o vídeo de outra pessoa e o usa dentro do anúncio que monta na aula (\"o vídeo que nós baixamos desse senhor\"; no TikTok, copia o link e baixa do mesmo jeito). Ferramenta: SnapInsta (transcrito como \"Snap Insta\"; identificação por hipótese).",
+      "proposta_tag": null,
+      "corpo": "O professor busca a ferramenta SnapInsta no Google, cola o link do vídeo nela e faz o download normal. Depois fecha o anúncio que abre na página e o arquivo já foi baixado. Ele diz que a ferramenta serve para baixar sem marca d'água. O vídeo é de outra pessoa e é o que ele sobe no anúncio que monta na sequência. Em seguida ele segue para o Canva.",
+      "evidencia": "Escreve o Snap Insta, clica aqui, dá o Ctrl V no link e faz o download normal",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Dimensões do design: 1080 por 1920 para anúncio, 1920 por 1080 para VSL",
+      "tipo": "regua",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 74,
+      "fim": 135,
+      "condicoes": "Vale para o tamanho personalizado ou o formato de Stories escolhido ao criar um design no Canva.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao criar um design, escolher Stories para o Instagram já abre no formato vertical, que serve também para TikTok, YouTube Shorts e status do WhatsApp. Segundo o professor, 1080 por 1080 é o tamanho do post e 1080 por 1920 é o dos Stories. Para anúncio no tamanho de Stories, use largura 1080 e altura 1920 (tamanho personalizado). Para uma VSL no tamanho do YouTube, use 1920 por 1080.",
+      "evidencia": "quando você coloca 1080 por 1920 é o tamanho dos stories",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Não copiar o anúncio de outro: criar identidade própria",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 152,
+      "fim": 367,
+      "condicoes": "O exemplo de barbearia é só demonstração de outro nicho; o professor pede para não se apegar ao que ele faz.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor critica quem copia o anúncio de outra pessoa (mesma fonte, mesmo fundo, mesma cor, mesma sombra), porque o anúncio não fica verdadeiro. Em vez disso, busque nos modelos do Canva pelo nicho (ele usa barbearia na aba de designs), escolha fonte, fundo e cor que passem o que você quer transmitir ao cliente e teste até algo agradar. Ele mostra que isso muda por completo a cara do criativo e diz que o objetivo é fazer uma pegada própria, ficando melhor que o que ele faz no seu produto, sem imitá-lo.",
+      "evidencia": "lembre-se disso quando você for criar um anúncio pra você, não faça um xerox mail",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "No máximo 2 linhas por quadro e poucas palavras",
+      "tipo": "regua",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual",
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 539,
+      "fim": 569,
+      "condicoes": "Preferência categórica do professor para o texto na tela dos anúncios dele.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao montar o texto na tela do anúncio, use sempre 2 linhas, nunca 3 ou 4. Com 2 linhas o quadro fica organizado e a transição acompanha o que se fala. Com 3 linhas o resultado fica bagunçado e feio. Também nunca ponha palavras demais, porque o vídeo fica estático em uma imagem e cansa.",
+      "evidencia": "Nunca 3 linhas Vai ficar um negócio bagunçado e feio",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Montar o anúncio duplicando a página e trocando as imagens",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 495,
+      "fim": 530,
+      "condicoes": "Método caprichado do professor; ele mostra também um anúncio mais simples, feito por ele em dois minutos, sem detalhar aqui.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A comparação com o anúncio simples ficou na tela; a fala não diz qual é o resultado de cada um.",
+      "proposta_tag": null,
+      "corpo": "O professor cria o anúncio inteiro no Canva duplicando a página anterior e trocando as fotos e vídeos. Reconhece que dá muito trabalho e é demorado, mas afirma que fica muito bem feito e dá uma conversão absurda. Diz que um anúncio mais simples ele finaliza em dois minutos e deixa a escolha ao aluno.",
+      "evidencia": "Vamos criar todo o nosso anúncio duplicando a página anterior e fazendo a troca de fotos.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Escolher elementos fora da mesmice e ligados ao sentido da palavra",
+      "tipo": "regra",
+      "tema": "criatividade-e-angulo",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 639,
+      "fim": 690,
+      "condicoes": "Preferência do professor; ele mesmo diz que gosta assim.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na aba de elementos do Canva há vários motions (elementos animados). O professor recusa o motion óbvio, como uma mulher com a mão para cima ao lado da palavra, e chama isso de anúncio podre. Ele busca pela ideia da palavra do texto (por exemplo esquecer) um elemento que faça sentido e saia da mesmice, ainda que pouco convencional.",
+      "evidencia": "Vamos sair um pouquinho fora da caixa.",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Recolorir imagem sem fundo com dual tone na cor da letra",
+      "tipo": "ferramenta",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 693,
+      "fim": 720,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Nome do recurso conforme falado: dual tone.",
+      "proposta_tag": null,
+      "corpo": "Para integrar um elemento à palavra, o professor abre a edição de imagem e remove o fundo, deixando só o objeto. Reduz o tamanho, aplica dual tone e escolhe a cor da letra pelo pincel. Depois ajusta o contraste e aumenta o brilho.",
+      "evidencia": "Diminuindo ele, vamos editar a imagem, vamos em dual tone e vamos colocar ele na cor da letra",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Sombra do Canva atrás do texto",
+      "tipo": "ferramenta",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 455,
+      "fim": 475,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Em elementos, escreva sombra: o Canva devolve muitas opções. Escolha uma, copie e cole com Ctrl C e Ctrl V para reforçar o efeito, e jogue a letra por cima.",
+      "evidencia": "O Canva vai te dar uma infinidade de sombras",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Agrupar várias sombras e mandá-las para trás da palavra",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 871,
+      "fim": 908,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Menus só apontados na tela; a fala nomeia camadas, agrupar e posição.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: uma imagem com várias cópias de sombra coladas sobre ela.\n1. Abra Mostrar camadas.\n2. Segure Ctrl e clique em todas as sombras.\n3. Clique com o botão direito e agrupe, para que virem uma só.\n4. Em posição, mande o grupo para trás da palavra.",
+      "evidencia": "Você vai segurar o ctrl e apertar em todas as sombras",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Ligar a cor da palavra à cor do elemento",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1149,
+      "fim": 1163,
+      "condicoes": "Preferência categórica do professor; ele diz que assim não tem erro.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Deixe a palavra-chave e o elemento gráfico que a representa na mesma cor, como o vencedor e a mão forte em vermelho. O professor recomenda fazer sempre essa ligação de cores.",
+      "evidencia": "Sempre faça essa ligação de cores, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Retomar a imagem do personagem para conectar o desenvolvimento",
+      "tipo": "regra",
+      "tema": "desenvolvimento-e-conexao",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1034,
+      "fim": 1040,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando o texto passa a falar do problema do personagem, o professor volta com a imagem dele na tela. Segundo ele, isso dá conexão e faz a pessoa saber do que se fala.",
+      "evidencia": "Pra que a gente voltou com esse rapaz aqui? Pra dar uma conexão Pra pessoa saber o que a gente tá falando",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Quando a imagem dispensa a palavra",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "montar-criativo-visual",
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1494,
+      "fim": 1582,
+      "condicoes": "O professor pede muito cuidado e execução bem feita; a técnica é de estilo dele.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O som citado ficou pouco claro na transcrição; a fala só diz que aparece um barulhinho ao falar em venda.",
+      "proposta_tag": null,
+      "corpo": "Em algumas partes do anúncio a imagem ou o vídeo diz mais do que a palavra. Nessas partes, o professor não coloca texto e usa só uma imagem, e um som aparece quando se fala em venda, para a pessoa assimilar e sentir mais que uma palavra. Ele chama isso de dica de ouro, mas avisa que tem de ser muito bem feito.",
+      "evidencia": "Fala mais do que a palavra",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Seta no criativo: o Facebook não gosta",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 1898,
+      "fim": 1975,
+      "condicoes": "Afirmação do professor sobre o Facebook, sem fonte de política citada.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contorna política de plataforma ou direito de terceiros: a orientação é usar um símbolo que não pareça seta para não ser identificado. O trecho está confuso na transcrição (\"série\", provavelmente o símbolo).",
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, o Facebook consegue identificar seta e não gosta dela, porque considera que induz a pessoa a fazer algo no alcance. Por isso ele orienta usar sempre um símbolo que não pareça uma seta. No exemplo, ele ainda coloca uma seta, apontando para o botão \"Saiba mais\".",
+      "evidencia": "ele não gosta de seta, ele fala que você está induzindo a pessoa",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Animação do texto: sóbria, variada e por palavra",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1998,
+      "fim": 2193,
+      "condicoes": "Gosto pessoal do professor; os efeitos específicos ficaram na tela.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Depois de montar as páginas, o professor anima o texto no Canva. Ele manda nunca colocar animação colorida e fazer algo sério. Anima por palavra e alterna os efeitos entre uma frase e outra, o que faz grande diferença, sem fazer coisa feia. Para palavra curta suspensa e para muitas palavras usa o efeito teclado, aumentando a velocidade. Também usa desfoque e piscar em destaques.",
+      "evidencia": "é bom você sempre mudar de um pro outro, que isso faz uma grande diferença",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Exportar o anúncio como MP4 com todas as páginas",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 2194,
+      "fim": 2206,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Na fala o professor diz que a próxima aula é a edição, transcrita como \"Canva\"; a ferramenta não é clara.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: anúncio pronto no Canva.\n1. Clique em compartilhar e depois em baixar.\n2. Escolha vídeo MP4.\n3. Selecione todas as páginas e não salve como separada; ele diz que a razão aparece depois.\n4. Clique em baixar.",
+      "evidencia": "Vídeo MP4 Todas as páginas Não salve como separada",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Pensar fora da caixa fica para a temporada de criatividade",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1626,
+      "fim": 1650,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor afirma que criar um bom anúncio é pensar fora da caixa e que o ensino de como fazer isso está na temporada de criatividade do curso. Por isso pede para o aluno não pular aula. Esta aula não ensina o processo mental, só mostra o resultado no Canva.",
+      "evidencia": "a temporada da criatividade é basicamente isso aqui",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Maior parte dos passos de edição ficou só na tela",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 495,
+      "fim": 2193,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A maior parte da aula é o professor montando o anúncio inteiro no Canva, com cliques, ajustes de posição, tamanho, cores e efeitos que a transcrição não descreve. As frases usadas no anúncio são um exemplo de demonstração. A transcrição não permite reproduzir o anúncio passo a passo; só as orientações registradas em outras unidades são confiáveis.",
+      "evidencia": "Olha só, ficou muito grande.",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1
+      ],
+      "retiradas": [],
+      "observacoes": "G05_A02-F1: corrigida a unidade 1. (a) `nota` reescrita começando literalmente por \"Contorna política de plataforma ou direito de terceiros:\", dizendo que o professor baixa sem marca d'água o vídeo de outra pessoa e o usa no anúncio, e mantendo a identificação por hipótese da ferramenta com a grafia da transcrição (\"Snap Insta\"). O lastro está na fala: \"o Snap Insta, ele é feito para você baixar sem marca d'água\" (00:00:30–00:00:57), \"Vamos subir o vídeo que nós baixamos desse senhor e vamos fazer toda a transição nisso\" (00:07:03) e, na busca no TikTok, \"Vamos dar um Ctrl C / Abrir uma nova guia / Snap / Ctrl V / Fazer o download\" (00:13:47–00:13:52). (b) A expressão \"de referência\" foi removida do corpo e da nota; no lugar, \"o vídeo\" e \"vídeo de outra pessoa\", nos termos da fala. (c) `perecivel` segue `true` e `plataformas` segue `[\"outra\"]`; `tipo`, `tema`, `tarefas`, faixa 30–58 e `evidencia` ficaram como estavam, porque a mudança de redação não muda o trecho ancorado. (d) `confianca` mantida em `media` porque a orientação depende de qual ferramenta é e a identificação é hipótese.\n\nPendências fora do meu escopo de campos: o incremento de `versao` para 2 e o registro em `correcoes` são do executor, já que esses campos não fazem parte do que entrego aqui. O mesmo vale para a frase 3 do `contexto` da aula: onde ela diz \"vídeos de referência\", deve passar a dizer que o professor baixa o vídeo de outra pessoa, sem marca d'água, para usar no anúncio — não há campo de contexto nesta entrega.\n\nNenhuma outra unidade foi tocada. Conferi nos títulos das demais que o conteúdo corrigido já está coberto pela unidade 1 e não criei unidade nova; as unidades 11 e 12 tratam do uso das imagens dentro do criativo, não do download."
+    }
+  ]
+}

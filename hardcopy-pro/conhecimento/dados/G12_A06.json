@@ -1,0 +1,373 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G12_A06",
+  "titulo": "Aula 06 - Exemplo 2 - Edição",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula pertence à trilha Hard IA, segunda temporada, e é a segunda de duas aulas de exemplo em que o professor edita, do início ao fim, um anúncio fictício de um produto para insônia dentro do Canva.",
+    "O público é quem já passou pelas etapas de geração de vídeo e avatar por IA e chega aqui só para a etapa de edição: cortar, ilustrar, sonorizar e legendar o material já gravado.",
+    "A aula assume que os clipes de vídeo, o avatar e a locução do anúncio já existem prontos, e foca só no trabalho de pós-produção no Canva.",
+    "É uma aula de tela: o professor narra o que está clicando ('aqui', 'isso', 'olha') enquanto trabalha, então boa parte da sequência exata de menus e botões não fica clara sem a imagem, e a extração cobre só o que a fala descreve com nomes e critérios reconhecíveis.",
+    "O anúncio de exemplo usa um produto fictício de insônia só para ilustrar a técnica; números, textos de tela e nome de efeito citados dentro dele não são dados de mercado.",
+    "A aula não cobre como gerar os clipes de vídeo por IA nem como escrever a copy do anúncio, etapas tratadas em outras aulas do curso."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Extrair o áudio de cada clipe antes de editar",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 56.82,
+      "fim": 72.16,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Como primeiro passo ao editar um anúncio no Canva, extraia o áudio de cada clipe de vídeo usado e posicione-o numa faixa de áudio padrão do projeto, ajustando o encaixe antes de seguir com o resto da edição. O professor descreve isso como algo que faz sempre, em todos os clipes do anúncio.",
+      "evidencia": "como sempre, extrai o áudio de tudo e bota em um lugar padrão",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Buscar clipe de banco pela palavra do problema e escurecer",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 113.74,
+      "fim": 136.9,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para abrir um anúncio de um nicho de dor, busque no banco de vídeos do Canva pela palavra-chave do próprio problema (no exemplo do professor, 'insônia') e escolha um clipe com uma pessoa passando por aquilo. Depois, aplique um filtro que deixe a cena bem escura, quase preta, para criar um clima negativo antes de qualquer menção ao produto.",
+      "evidencia": "vai deixar ele bem escuro, ó pretos, maravilha",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "No exemplo, clipe com homem é descartado depois de escolher uma mulher",
+      "tipo": "exemplo",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 113.74,
+      "fim": 169.74,
+      "condicoes": "Escolha feita dentro do exemplo de anúncio de insônia montado na aula; o professor não enuncia isso como regra.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O motivo da recusa não é dito na fala. A leitura de continuidade entre os clipes é inferência a partir da ordem das escolhas, por isso a confiança fica em media.",
+      "proposta_tag": null,
+      "corpo": "Situação: montando o começo do anúncio de insônia, o professor busca no banco de vídeos clipes de quem sofre o problema e o primeiro que ele aprova mostra uma mulher.\nO que aconteceu: ao procurar o clipe seguinte, ele rejeita de imediato um resultado em que aparece um homem e continua até achar outro com uma mulher.\nLógica: a fala não dá o motivo da recusa; o único critério visível é manter a mesma pessoa retratada nos clipes seguidos, já que a escolhida para representar quem sofre o problema era uma mulher.",
+      "evidencia": "Não, aqui já é um homem, aqui já não pode.",
+      "versao": 2
+    },
+    {
+      "numero": 4,
+      "titulo": "Usar fonte de terror e palavras temáticas no fundo preto",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 192.68,
+      "fim": 219.08,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Sobre um fundo bem preto, use uma fonte de estilo terror para reforçar visualmente o clima negativo da abertura do anúncio. Complemente buscando, no banco de vídeos, clipes ligados a palavras temáticas como 'almas' ou 'fantasmas', na mesma linha do problema apresentado.",
+      "evidencia": "aqui a gente coloca uma letra de terror, com um fundo bem preto",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Texto na tela sincronizado com a fala, revelado aos poucos",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual",
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 235.74,
+      "fim": 319.32,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Escreva, na tela, um texto curto que reforce exatamente o que a locução está dizendo naquele momento (no exemplo, a frase sobre dormir pouco por noite). Coloque uma camada escura ou avermelhada atrás da letra e ajuste até ficar bem escura. Configure o texto para aparecer devagar, com efeito de desembaçar (de borrado para nítido), e aumente a velocidade desse efeito até o resultado parecer natural.",
+      "evidencia": "essa letra eu quero que ela venha aparecendo devagarzinho, então desembaçar",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Passos para finalizar um clipe editado no Canva",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 402.26,
+      "fim": 424.44,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: um clipe do anúncio já cortado e ajustado dentro do Canva.\n1. Delete o que sobrou e não vai ser usado.\n2. Mova o clipe para a faixa (trilha) principal do projeto; o professor diz que faz isso sempre, em todo clipe que termina de editar.\n3. Ajuste a proporção final do anúncio para 9 por 16.",
+      "evidencia": "sempre jogando para a faixa principal quando finalizar",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Ilustrar a fala do especialista com clipe literal do que ele diz",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 430.22,
+      "fim": 455.76,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a figura de autoridade do anúncio (no exemplo, um médico) explica o mecanismo do problema, sobreponha vídeos curtos de banco que ilustrem literalmente o que está sendo dito, por exemplo cérebro e sistema nervoso quando a fala menciona esses termos.",
+      "evidencia": "uma ilustração daquilo que o médico tá falando, simplesmente isso",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Duplicar clipes quando o trecho tem vários vídeos fica só na tela",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 600.3,
+      "fim": 628.36,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O professor interrompe a própria explicação dizendo que não entendeu e segue tentando na tela; por isso a duplicação não se reconstrói pela fala.",
+      "proposta_tag": null,
+      "corpo": "Num trecho do anúncio em que o material não é um clipe só, mas vários vídeos em sequência, o professor diz que é preciso duplicar tudo e criar um clipe com o rosto para aplicar o mesmo tratamento. A fala não descreve como fazer essa duplicação e ele mesmo declara não ter entendido enquanto tenta, de modo que esse passo depende da imagem da tela e não se recupera pela transcrição.",
+      "evidencia": "gente vai ter que pegar duplicar tudo criar um clipe com o rosto aqui",
+      "versao": 2
+    },
+    {
+      "numero": 9,
+      "titulo": "Fazer o barulho de fundo parar quando a solução chega no anúncio",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 960.34,
+      "fim": 1008.08,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a figura que representa a solução do problema entra no anúncio (no exemplo, o médico), corte os efeitos de barulho que vinham tocando, como se a chegada dela fizesse o barulho do problema acabar. Isso reforça, pelo som, que a solução chegou.",
+      "evidencia": "o médico vai chegar como se ele fosse a solução desse problema então todo barulho vai acabar",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Escolha de um efeito sonoro específico não é identificável na transcrição",
+      "tipo": "limite",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1008.08,
+      "fim": 1020.34,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "baixa",
+      "nota": "A transcrição registra 'eu compro B' para nomear o efeito sonoro escolhido pelo professor entre os favoritos salvos no Canva; o termo não corresponde a nada reconhecível e fica como transcrito.",
+      "proposta_tag": null,
+      "corpo": "O professor diz escolher, entre seus efeitos sonoros favoritos salvos no Canva, um efeito específico para usar no anúncio, mas o nome desse efeito, na transcrição, aparece como \"eu compro B\", trecho que não é identificável.",
+      "evidencia": "pegar o efeito que eu gosto que é este daqui ó eu compro B",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Trocar a trilha de tensão por música épica na chegada da solução",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1020.34,
+      "fim": 1127.62,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "'Epic Motivação, Solução de Problemas' parece nome ou categoria de faixa do banco de música do Canva; a fala não detalha se é o nome exato do arquivo.",
+      "proposta_tag": null,
+      "corpo": "Na transição entre a apresentação do problema e a chegada da solução (no exemplo, quando o médico entra no anúncio), troque a trilha de tensão por uma música mais comercial, do tipo 'motivação épica' ou 'solução de problemas', posicionada bem na transição entre uma parte e outra. Depois, aumente o volume das vozes principais (a locução) em relação à trilha.",
+      "evidencia": "música de Epic Motivação, Solução de Problemas",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Gerar legendas automáticas palavra por palavra no Canva",
+      "tipo": "ferramenta",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1132.66,
+      "fim": 1167.9,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No Canva, depois de ajustar o som, vá em legendas, exclua as legendas atuais e gere legendas automáticas de novo. Escolha a exibição palavra por palavra para a legenda aparecer no vídeo.",
+      "evidencia": "legendas automáticas, excluir legendas atuais e gerar",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Formatação visual do convite final de um anúncio",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1266.82,
+      "fim": 1351.18,
+      "condicoes": "O exemplo usa um produto fictício; o texto do convite em si ('toque em saiba mais...') é copy de exemplo, não é a orientação em si.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No fechamento do anúncio, formate o texto de convite à ação (CTA) centralizado, em letras maiúsculas, com destaque em amarelo e negrito. Acrescente um ícone relacionado à ação pedida (no exemplo, um teclado, já que o convite era para tocar em um botão) e aplique uma animação em loop no texto.",
+      "evidencia": "um amarelinho assim, um negrito",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Abrir o anúncio desconectado do produto e revelar só no fim",
+      "tipo": "conceito",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1351.18,
+      "fim": 1378.58,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao revisar o anúncio pronto, o professor descreve o resultado como um início totalmente diferente do produto, mostrando apenas o problema (no exemplo, o que é a insônia), com o produto sendo vendido só no final, de forma que a virada do problema para a solução fique marcada.",
+      "evidencia": "a gente fez um início totalmente diferente tá mostrando mesmo que que é insônia",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Mascarar e desfocar uma região do clipe no Canva",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 549.88,
+      "fim": 870.34,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala só nomeia os comandos; o propósito do efeito e o caminho exato dos menus ficam na tela. Numa das repetições o professor diz também \"tela\" entre \"básico\" e \"desfocar\", sem explicar o que é, por isso isso não entrou como passo.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: clipe já na linha do tempo do Canva, com a região que você quer tratar visível.\n1. Recortar o clipe no ponto em que aparece a região a destacar, por exemplo o rosto da pessoa.\n2. Adicionar máscara ao trecho recortado e escolher película.\n3. Aplicar suavizar.\n4. No grupo de efeitos básico, aplicar desfocar.\n5. Repetir em cada trecho que pedir o mesmo tratamento; ao refazer, o professor aplica a máscara de novo e aumenta a película.",
+      "evidencia": "Mascara, adiciona máscara, película",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        3,
+        8,
+        15
+      ],
+      "retiradas": [],
+      "observacoes": "G12_A06-F1: acatada. Voltei à transcrição: em 113,74–125,44 o professor escolhe um clipe (\"olha aqui uma mulherzinha aqui ó\"), em 161,74–164,74 recusa um resultado (\"Não, aqui já é um homem, aqui já não pode.\") e em 167,74–169,74 fecha com \"Aqui é uma mulher.\" Não existe na aula qualquer menção a locução, narração ou avatar ligada a essa escolha — a regra anterior era inferência sem lastro. U3 virou tipo 'exemplo' com Situação/O que aconteceu/Lógica, faixa ampliada para 113,74–169,74 (a escolha anterior é o que torna a recusa inteligível e mantém a evidência dentro da faixa), 'condicoes' marcando que é escolha dentro do exemplo de anúncio de insônia, confianca rebaixada para media e nota registrando que o motivo não é dito na fala e que a leitura de continuidade é inferência. Título trocado para não afirmar o critério de gênero da locução. A versao deve ir para 2 (o campo não existe no esquema desta saída).\n\nG12_A06-F2: acatada pelo caminho principal, sem recorrer à alternativa de 'correcoes'. A fala nomeia sim uma sequência executável e a repete: 549,88–558,96 \"Vamos recortar aqui\" / \"Bem aqui no rosto dela\" / \"Cortou aqui\"; 558,96–565,18 \"Mascara, adiciona máscara, película\" / \"E suaviza\"; 570,3–572,54 \"desfocar\"; 725,18–741,42 \"Mascara novamente, película aumenta\"; 864,16–870,34 \"Agora sim, básico, tela, desfocar, penúltimo e último\". Criei a unidade nova (número 15) como procedimento, canva, perecivel true, confianca media, com exatamente esses comandos e nada além: recortar no ponto do rosto, adicionar máscara, película, suavizar, desfocar no grupo básico, e repetir. Nenhum menu, valor ou clique não nomeado entrou. A faixa começa em 549,88 e não em 558,96 porque o recorte é o primeiro passo da mesma sequência e a fala o nomeia; a cobertura pedida a partir de 558,96 está contida. A nota registra que o propósito do efeito e o caminho dos menus ficam na tela, e que numa das repetições a fala diz \"tela\" entre \"básico\" e \"desfocar\" sem explicar o que é — por isso não virou passo autônomo. U8 foi reescrita para cobrir só o trecho de duplicar clipes (600,3–628,36), onde o professor constata \"são vários vídeos\" e diz \"não entendi\" enquanto tenta; o corpo e a nota não afirmam mais que máscara e desfoque sejam irreconstruíveis, então não contradizem a unidade nova. Título e faixa de U8 ajustados; versao deve ir para 2.\n\nNenhuma outra unidade foi tocada. Conferi nos títulos das demais que a técnica de máscara e desfoque não estava coberta: 006 trata de finalizar o clipe (faixa principal e proporção) e 012 de legendas automáticas."
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -79,7 +80,10 @@ def schema_for(role, tax):
                  'falhas': {'type': 'array', 'items': failure}, 'ajustes_menores': {'type': 'array', 'items': text}, 'proximo': text}
     elif role == 'redator':
         props = {'unidades_corrigidas': {'type': 'array', 'items': unit_schema(tax, True)}, 'unidades_novas': {'type': 'array', 'items': unit_schema(tax, False)},
-                 'retiradas': {'type': 'array', 'items': {'type': 'integer'}}, 'observacoes': text}
+                 'retiradas': {'type': 'array', 'items': {'type': 'integer'}},
+                 # O contexto da aula não é unidade: sem este campo, uma falha do juiz sobre o contexto não tinha por onde passar (G08_A06, lote 5).
+                 'contexto': {'type': 'array', 'items': text, 'description': 'Só quando uma falha pedir mudança no contexto da aula: as 3 a 8 frases do contexto completas, na ordem, já reescritas. Sem pedido sobre o contexto, lista vazia.'},
+                 'observacoes': text}
     else:
         raise ValueError(role)
     return {'type': 'object', 'properties': props, 'required': list(props), 'additionalProperties': False}
@@ -101,8 +105,11 @@ def fixed_block(role):
 
 
 def source_block(row, text, material):
-    parts = [f'<aula curso="{row["curso"]}" codigo="{row["aula"]}" modulo="{row["modulo_titulo"]}" titulo="{row["titulo"]}">',
-             f'<transcricao arquivo="transcricao.md" fim_segundos="{row["fim_transcricao_segundos"]:.0f}">\n{text.strip()}\n</transcricao>']
+    parts = [f'<aula curso="{row["curso"]}" codigo="{row["aula"]}" modulo="{row["modulo_titulo"]}" titulo="{row["titulo"]}">']
+    if text.strip():
+        parts.append(f'<transcricao arquivo="transcricao.md" fim_segundos="{row["fim_transcricao_segundos"]:.0f}">\n{text.strip()}\n</transcricao>')
+    else:
+        parts.append('<transcricao_ausente motivo="aula só de material: todas as unidades têm fonte material, sem faixa"/>')
     if material:
         parts.append(f'<material arquivo="{Path(row["fontes"]["material"]["caminho"]).name}">\n{material.strip()}\n</material>')
     elif row['material_ignorado']:
@@ -118,17 +125,47 @@ def units_block(data):
 
 # ---------------------------------------------------------------- chamada
 
+LIMIT_RETRIES = 12
+LIMIT_TEXT = re.compile(r'session limit|usage limit|rate limit|limit reached', re.I)
+RESET_AT = re.compile(r'resets?\s+(?:at\s+)?(\d{1,2})(?::(\d{2}))?\s*(am|pm)', re.I)
+
+
+def limit_wait(raw, clock=None):
+    """Segundos a esperar quando a chamada bateu no limite da assinatura; None quando o erro é outro ou não houve erro."""
+    message = str(raw.get('result') or '')
+    if not raw.get('is_error') or not (raw.get('api_error_status') == 429 or LIMIT_TEXT.search(message)):
+        return None
+    current = clock or datetime.datetime.now()
+    match = RESET_AT.search(message)
+    if not match:
+        return 1800
+    hour = int(match.group(1)) % 12 + (12 if match.group(3).lower() == 'pm' else 0)
+    target = current.replace(hour=hour, minute=int(match.group(2) or 0), second=0, microsecond=0)
+    if target <= current:
+        target += datetime.timedelta(days=1)
+    return int((target - current).total_seconds()) + 120
+
+
 def call(role, system, user, schema, model, effort, timeout):
     EMPTY.mkdir(exist_ok=True)
     cmd = ['claude', '-p', '--model', model, '--effort', effort, '--system-prompt', system, '--tools', '', '--strict-mcp-config',
            '--setting-sources', '', '--disable-slash-commands', '--no-session-persistence', '--exclude-dynamic-system-prompt-sections',
            '--output-format', 'json', '--json-schema', json.dumps(schema, ensure_ascii=False, sort_keys=True)]
     started = now()
-    try:
-        proc = subprocess.run(cmd, input=user, cwd=EMPTY, capture_output=True, text=True, timeout=timeout)
-        raw = json.loads(proc.stdout) if proc.stdout.strip().startswith('{') else {'is_error': True, 'result': proc.stdout[-2000:], 'stderr': proc.stderr[-2000:]}
-    except subprocess.TimeoutExpired:
-        raw = {'is_error': True, 'result': f'timeout de {timeout}s', 'terminal_reason': 'timeout'}
+    waits = []
+    while True:
+        try:
+            proc = subprocess.run(cmd, input=user, cwd=EMPTY, capture_output=True, text=True, timeout=timeout)
+            raw = json.loads(proc.stdout) if proc.stdout.strip().startswith('{') else {'is_error': True, 'result': proc.stdout[-2000:], 'stderr': proc.stderr[-2000:]}
+        except subprocess.TimeoutExpired:
+            raw = {'is_error': True, 'result': f'timeout de {timeout}s', 'terminal_reason': 'timeout'}
+        pause = limit_wait(raw)
+        if pause is None or len(waits) >= LIMIT_RETRIES:
+            break
+        # Limite de sessão da assinatura: guarda a tentativa, espera a renovação e repete a mesma chamada.
+        waits.append({'em': now(), 'status': raw.get('api_error_status'), 'mensagem': str(raw.get('result') or '')[:200], 'espera_segundos': pause})
+        print(f'[limite de sessão] {role}: esperando {pause // 60} min', file=sys.stderr, flush=True)
+        time.sleep(pause)
     usage = raw.get('usage') or {}
     record = {
         'papel': role, 'modelo_pedido': model, 'modelos_usados': sorted((raw.get('modelUsage') or {}).keys()), 'esforco': effort,
@@ -139,6 +176,7 @@ def call(role, system, user, schema, model, effort, timeout):
         'stop_reason': raw.get('stop_reason'), 'stop_details': raw.get('stop_details'), 'terminal_reason': raw.get('terminal_reason'),
         'subtype': raw.get('subtype'), 'is_error': raw.get('is_error'), 'api_error_status': raw.get('api_error_status'), 'num_turns': raw.get('num_turns'),
         'ferramentas_negadas': raw.get('permission_denials'), 'custo_nominal_usd': raw.get('total_cost_usd'),
+        'esperas_por_limite': waits,
         'sistema_sha256': base.sha(system.encode()), 'pacote_sha256': base.sha((system + '\x00' + user + '\x00' + json.dumps(schema, sort_keys=True)).encode()),
     }
     output = raw.get('structured_output')
@@ -287,14 +325,48 @@ def run_judge(args, lesson, tax, rows):
                  'e se a alteração criou falha nova nas unidades alteradas. A evidência das unidades intactas foi preservada da inspeção anterior porque o hash delas não mudou; a rubrica manda não procurar '
                  'perfeição editorial no restante. Histórico de correções do arquivo:\n' + json.dumps(data.get('correcoes', []), ensure_ascii=False, indent=1)
                  + '\nFalhas do julgamento anterior:\n' + json.dumps(earlier['falhas'], ensure_ascii=False, indent=1) + '\n</conferencia_de_correcao>')
+    proof = args.prova.read_text().strip() if args.prova else None
+    if proof:
+        # Prova de ferramenta pedida pelo juiz: saída de script produzida pela coordenação. Não traz transcrição, material nem caminho do clone.
+        user += '\n\n<prova_da_coordenacao>\n' + proof + '\n</prova_da_coordenacao>'
     output, record = call('juiz', fixed_block('juiz'), user, schema_for('juiz', tax), args.modelo, args.esforco, args.timeout)
     record.update({'aula': lesson, 'rotulo': args.rotulo, 'arquivo_sha256': base.sha(target.read_bytes()), 'inspecao_sha256': base.sha(inspection.read_bytes()), 'destino': str(out.relative_to(base.ROOT))})
+    if proof:
+        record['prova_da_coordenacao_sha256'] = base.sha(proof.encode())
     if output:
         save(out, {'aula': lesson, 'arquivo_sha256': record['arquivo_sha256'], 'inspecao_sha256': record['inspecao_sha256'], 'rodada': args.rodada,
                    'gerado_por': MODELS[args.modelo], 'esforco': args.esforco, 'contrato_sha256': base.contract_hash(), **output})
         record['resultado_sha256'] = base.sha(out.read_bytes())
     save(args.saida / f'{lesson}.juiz.execucao.json', record)
     return f'{lesson}: {output["veredito"] if output else "falhou"} {output["vetos"] if output else ""}, saída {record["consumo"]["output_tokens"]}'
+
+
+def apply_fix(data, output, affected, cycle, author):
+    """Aplica a saída do redator a uma cópia do JSON da aula: unidades corrigidas (só as afetadas), novas, retiradas e, quando devolvido, o contexto."""
+    new = copy.deepcopy(data)
+    by_number = {u['numero']: u for u in new['unidades']}
+    changed = []
+    for u in output['unidades_corrigidas']:
+        if u['numero'] in by_number and u['numero'] in affected:
+            old = by_number[u['numero']]
+            u['versao'] = old['versao'] + 1
+            u['nota'] = u['nota'] or None
+            old.clear()
+            old.update(u)
+            changed.append(u['numero'])
+    highest = max([u['numero'] for u in new['unidades']] + new['retiradas'])
+    for n, u in enumerate(output['unidades_novas'], highest + 1):
+        new['unidades'].append({'numero': n, **u, 'versao': 1})
+        changed.append(n)
+    for n in output['retiradas']:
+        if n in affected:
+            new['unidades'] = [u for u in new['unidades'] if u['numero'] != n]
+            new['retiradas'].append(n)
+    context = output.get('contexto') or []
+    if context:
+        new['contexto'] = list(context)
+    new['correcoes'] = new.get('correcoes', []) + [{'ciclo': cycle, 'por': author, 'unidades': changed, 'retiradas': output['retiradas'], 'contexto': bool(context), 'observacoes': output['observacoes']}]
+    return new, changed
 
 
 def run_fix(args, lesson, tax, rows):
@@ -320,26 +392,7 @@ def run_fix(args, lesson, tax, rows):
     out = args.saida / f'{lesson}.json'
     record.update({'aula': lesson, 'rotulo': args.rotulo, 'ciclo': args.rodada, 'arquivo_anterior_sha256': base.sha(target.read_bytes()), 'destino': str(out.relative_to(base.ROOT))})
     if output:
-        new = copy.deepcopy(data)
-        by_number = {u['numero']: u for u in new['unidades']}
-        changed = []
-        for u in output['unidades_corrigidas']:
-            if u['numero'] in by_number and u['numero'] in affected:
-                old = by_number[u['numero']]
-                u['versao'] = old['versao'] + 1
-                u['nota'] = u['nota'] or None
-                old.clear()
-                old.update(u)
-                changed.append(u['numero'])
-        highest = max([u['numero'] for u in new['unidades']] + new['retiradas'])
-        for n, u in enumerate(output['unidades_novas'], highest + 1):
-            new['unidades'].append({'numero': n, **u, 'versao': 1})
-            changed.append(n)
-        for n in output['retiradas']:
-            if n in affected:
-                new['unidades'] = [u for u in new['unidades'] if u['numero'] != n]
-                new['retiradas'].append(n)
-        new['correcoes'] = new.get('correcoes', []) + [{'ciclo': args.rodada, 'por': MODELS[args.modelo], 'unidades': changed, 'retiradas': output['retiradas'], 'observacoes': output['observacoes']}]
+        new, changed = apply_fix(data, output, affected, args.rodada, MODELS[args.modelo])
         save(out, new)
         errors, warnings = base.validate_lesson(row, text, segments, material, new, tax)
         record.update({'resultado_sha256': base.sha(out.read_bytes()), 'unidades_alteradas': changed, 'validador': {'erros': errors, 'avisos': warnings}})
@@ -358,6 +411,7 @@ def main():
     parser.add_argument('--entrada', type=Path, help='pasta com os JSON de aula a inspecionar, julgar ou corrigir')
     parser.add_argument('--inspecao', type=Path)
     parser.add_argument('--julgamento', type=Path)
+    parser.add_argument('--prova', type=Path, help='julgar: arquivo de texto com prova de ferramenta pedida pelo juiz; entra no pacote como <prova_da_coordenacao>')
     parser.add_argument('--bloco', type=int, default=0, help='inspeção em blocos: máximo de unidades por chamada (aulas longas)')
     parser.add_argument('--focal', action='store_true', help='inspeção focal de correção: exige --inspecao (anterior) e --julgamento (lista de falhas)')
     parser.add_argument('--rodada', type=int, default=1)
@@ -365,7 +419,7 @@ def main():
     parser.add_argument('--timeout', type=int, default=2400)
     parser.add_argument('--refazer', action='store_true')
     args = parser.parse_args()
-    for name in ('saida', 'entrada', 'inspecao', 'julgamento'):
+    for name in ('saida', 'entrada', 'inspecao', 'julgamento', 'prova'):
         if getattr(args, name):
             setattr(args, name, getattr(args, name).resolve())
     tax = base.taxonomy()

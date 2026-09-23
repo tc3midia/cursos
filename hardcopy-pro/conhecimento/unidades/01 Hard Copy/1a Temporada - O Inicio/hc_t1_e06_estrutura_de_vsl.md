@@ -1,0 +1,218 @@
+---
+type: unidades-aula
+status: revisado
+title: "Episódio 06 Estrutura de VSL"
+curso: hardcopy-pro
+trilha: "01 Hard Copy"
+grupo: "01 Hard Copy/1a Temporada - O Inicio"
+modulo: "01"
+ordem: 6
+aula: G01_A06
+aula_id: 0edf98f2cc7f0397
+account_id: account.86ajrj8n9
+fonte_repo: tc3midia/cursos
+fonte_commit: 7470ca0
+fontes:
+  - transcricao.md
+extraido_em: 2026-09-21
+gerado_por: sonnet-5
+retiradas: []
+---
+
+# Episódio 06 Estrutura de VSL
+
+## Contexto da aula
+
+A aula é o Episódio 06 da 1ª temporada do Hardcopy Pro e apresenta, em versão resumida, a estrutura de uma VSL em três passos.
+Ela assume que o aluno já escolheu o formato de venda na aula anterior e que já tem, ou vai ter, subnicho, nível de consciência, mecanismo único e oferta.
+O professor anuncia três partes (página de vendas, VSL e X1), mas na transcrição desenvolve só a VSL; o X1 no WhatsApp fica para a aula seguinte.
+Ele contrasta o modelo com a VSL padrão de jornada do herói e dá uma faixa de preço indicada para VSL.
+O passo a passo detalhado, baseado no Kishotenketsu, fica para a segunda temporada; a primeira serve para entender como uma copy bem feita é estruturada.
+O fecho da transcrição traz apenas o convite para a próxima aula.
+
+## Unidades
+
+<a id="u-0edf98f2cc7f0397-001"></a>
+
+### U:0edf98f2cc7f0397:001 — Antes da estrutura: formato de venda, subnicho, consciência e mecanismo
+```yaml
+tipo: "regra"
+plataforma: [geral]
+tema: "formato-de-venda"
+tarefas: [escolher-formato-de-venda, estruturar-vsl]
+fonte: fala
+faixa: 00:00:30–00:00:57
+perecivel: false
+confianca: "alta"
+versao: 1
+evidencia: "Com base na aula anterior, você já sabe qual que é o formato de vendas que você"
+```
+A estrutura de venda do produto só se monta depois que se sabe o formato de venda que será usado (WhatsApp, VSL ou página de vendas), definido na aula anterior. O professor diz que não sabe o nível de consciência do cliente, o subnicho nem o mecanismo único de cada aluno; por isso a aula dá uma estrutura geral, que o aluno preenche com esses três elementos.
+
+<a id="u-0edf98f2cc7f0397-002"></a>
+
+### U:0edf98f2cc7f0397:002 — A aula anuncia três partes, mas só a VSL é desenvolvida
+```yaml
+tipo: "limite"
+plataforma: [geral]
+tema: "formato-de-venda"
+tarefas: []
+fonte: fala
+faixa: 00:00:56–00:01:12
+perecivel: true
+confianca: "media"
+versao: 1
+evidencia: "Então eu vou dividir essa aula em três partes"
+nota: "O professor anuncia página de vendas, VSL e X1 e começa pela VSL. A transcrição não traz desenvolvimento de página de vendas nem de X1; o X1 é adiado para a aula seguinte."
+```
+O professor anuncia dividir a aula em três partes: página de vendas, VSL e X1. Na transcrição só a VSL é desenvolvida, e ele diz que começa por ela por ser a de que mais gosta. Não há aqui orientação sobre estrutura de página de vendas nem de X1.
+
+<a id="u-0edf98f2cc7f0397-003"></a>
+
+### U:0edf98f2cc7f0397:003 — VSL em três passos: atenção, estruturar para o mecanismo, vender
+```yaml
+tipo: "estrutura"
+plataforma: [geral]
+tema: "kishotenketsu"
+tarefas: [estruturar-vsl]
+fonte: fala
+faixa: 00:01:34–00:02:13
+condicoes: "Base é o Kishotenketsu, que o professor diz ensinar na segunda temporada; a aula não detalha os atos. Exige subnicho, mecanismo único bom e oferta boa."
+perecivel: true
+confianca: "alta"
+versao: 1
+evidencia: "Primeiro você vai pegar a atenção da pessoa"
+nota: "O professor diz \"quinchu\" na transcrição; adotada a grafia Kishotenketsu."
+```
+O professor apresenta a VSL em apenas três passos, diz que não vai falar de jornada do herói ("já era", porque as pessoas já estão acostumadas) e que a base é o Kishotenketsu.
+1. Pegar a atenção da pessoa.
+2. Estruturá-la para o mecanismo único (o diferencial do produto em relação aos outros do mercado).
+3. Vender o produto.
+Para isso é preciso ter subnicho, mecanismo único bom e oferta boa.
+
+<a id="u-0edf98f2cc7f0397-004"></a>
+
+### U:0edf98f2cc7f0397:004 — VSL para produtos de R$97 a R$197; R$29 fica com página de vendas
+```yaml
+tipo: "regua"
+plataforma: [geral]
+tema: "preco-e-garantia"
+tarefas: [escolher-formato-de-venda, definir-preco-e-garantia]
+fonte: fala
+faixa: 00:02:12–00:02:52
+condicoes: "Indicação do professor para VSL; produtos de R$29 são associados por ele à página de vendas."
+perecivel: true
+confianca: "alta"
+versao: 1
+evidencia: "Não venda produtos de R$49,00 e nem R$29,00 com uma VSL"
+```
+O professor indica VSL para produtos de R$97 a R$197, por ser um tipo de venda para valores um pouco mais altos. Não vender produto de R$49 nem de R$29 com VSL, porque se perde dinheiro: a VSL prende o lead por 10, 15, 20 ou 30 minutos com toda a história e as dúvidas respondidas, e vender por R$29 depois disso não faz sentido. Para R$29 ele indica página de vendas.
+
+<a id="u-0edf98f2cc7f0397-005"></a>
+
+### U:0edf98f2cc7f0397:005 — Atenção com algo novo no nicho, sem revelar o mecanismo único no início
+```yaml
+tipo: "regra"
+plataforma: [geral]
+tema: "mecanismo-unico"
+tarefas: [escrever-abertura, estruturar-vsl]
+fonte: fala
+faixa: 00:02:52–00:03:30
+perecivel: false
+confianca: "alta"
+versao: 1
+evidencia: "Você não pode fazer com que a pessoa saiba"
+```
+A atenção deve vir de algo que a pessoa nunca viu relacionado ao nicho. Não deixe o lead saber, no começo do vídeo, qual é o mecanismo único. Exemplo do professor: no nicho de emagrecimento com dificuldade de ir à academia, se o mecanismo único é a mentalidade, ela não pode ser anunciada na abertura. É isso que afasta a VSL da jornada do herói, pois a VSL é criada com base no mecanismo único e no cliente.
+
+<a id="u-0edf98f2cc7f0397-006"></a>
+
+### U:0edf98f2cc7f0397:006 — Contraste: VSL padrão de jornada do herói
+```yaml
+tipo: "exemplo"
+plataforma: [geral]
+tema: "abertura-e-gancho"
+tarefas: [diagnosticar-copy-ou-anuncio, estruturar-vsl]
+fonte: fala
+faixa: 00:03:30–00:04:03
+condicoes: "Roteiro ilustrativo, resumido pelo professor, no nicho de emagrecimento e dificuldade de ir à academia."
+perecivel: false
+confianca: "alta"
+versao: 1
+evidencia: "Isso é VSL padrão"
+```
+Situação: o professor mostra como seria uma VSL padrão de jornada do herói para o nicho de emagrecimento.
+O que aconteceu: ela começa entregando o resultado (ir à academia todos os dias) e o mecanismo de imediato; depois o narrador conta a própria história difícil, apresenta uma amiga com resultado atribuído à mentalidade e termina mandando clicar no botão e comprar. Ele avisa que resumiu bastante.
+Lógica: serve de contraponto, pois nesse modelo o mecanismo é anunciado logo e a história gira em torno do narrador.
+
+<a id="u-0edf98f2cc7f0397-007"></a>
+
+### U:0edf98f2cc7f0397:007 — Abertura: dor semelhante, produto de lado, história centrada na pessoa
+```yaml
+tipo: "regra"
+plataforma: [geral]
+tema: "abertura-e-gancho"
+tarefas: [escrever-abertura]
+fonte: fala
+faixa: 00:04:16–00:04:49
+perecivel: false
+confianca: "alta"
+versao: 1
+evidencia: "Esqueça o seu produto por enquanto"
+```
+Trabalhe na pessoa uma dor semelhante à dela, para que ela crie conexão com o produto. Esqueça o produto por enquanto e construa a base com uma boa história com a qual ela realmente se identifique. Cuidado: o personagem principal não é o narrador, e sim a pessoa. Não crie uma história fora do contexto do que ela vive; crie algo pelo qual ela realmente passe.
+
+<a id="u-0edf98f2cc7f0397-008"></a>
+
+### U:0edf98f2cc7f0397:008 — Achar a dor em comum por pesquisa; o palpite do professor é só ilustração
+```yaml
+tipo: "exemplo"
+plataforma: [geral]
+tema: "subnicho-e-pesquisa-de-publico"
+tarefas: [pesquisar-publico-e-subnicho, escrever-abertura]
+fonte: fala
+faixa: 00:04:48–00:05:26
+condicoes: "As dores citadas são suposição declarada do professor, não dado de pesquisa."
+perecivel: false
+confianca: "alta"
+versao: 1
+evidencia: "mas isso tem que ser a base de pesquisas"
+```
+Situação: o professor fala do nicho de quem tem dificuldade para emagrecer e para ir à academia, e pergunta como descobrir a dor em comum.
+O que aconteceu: ele supõe que essa pessoa tenha autoestima baixa e problemas sexuais com o cônjuge, mas avisa que está chutando.
+Lógica: a dor usada na história deve vir de pesquisa, para tocar fundo na pessoa, não de palpite. A aula não ensina como fazer essa pesquisa.
+
+<a id="u-0edf98f2cc7f0397-009"></a>
+
+### U:0edf98f2cc7f0397:009 — Passo a passo da VSL fica para a segunda temporada
+```yaml
+tipo: "limite"
+plataforma: [geral]
+tema: "curso-e-recursos"
+tarefas: [usar-recursos-do-curso]
+fonte: fala
+faixa: 00:05:27–00:06:27
+perecivel: true
+confianca: "alta"
+versao: 1
+evidencia: "Mas eu vou ensinar tudo isso aula por aula, passo por passo na segunda temporada"
+nota: "O professor diz \"Kinshu\" na transcrição; adotada a grafia Kishotenketsu."
+```
+O professor diz que não entra em detalhes de como funciona a base nem de como fazer, e que ensina tudo aula por aula, passo a passo, na segunda temporada. A estrutura da VSL será totalmente a base do Kishotenketsu, sem mudar de rota. A primeira temporada serve para entender como se cria a estrutura de uma copy bem feita, antes de incluir o Kishotenketsu.
+
+<a id="u-0edf98f2cc7f0397-010"></a>
+
+### U:0edf98f2cc7f0397:010 — X1 no WhatsApp fica para a próxima aula
+```yaml
+tipo: "limite"
+plataforma: [whatsapp]
+tema: "copy-para-x1"
+tarefas: []
+fonte: fala
+faixa: 00:06:40–00:06:49
+perecivel: true
+confianca: "alta"
+versao: 1
+evidencia: "Como que funciona o X1 no WhatsApp"
+```
+A aula seguinte explica como funciona o X1 no WhatsApp, para quem vende produto de high ticket e também de low ticket. Nada disso é desenvolvido nesta aula.

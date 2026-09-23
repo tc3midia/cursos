@@ -1,0 +1,237 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G10_A07",
+  "titulo": "Episódio 7 - Atenção!",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula (G10_A07, trilha Hard Sounds, \"Episódio 7 - Atenção!\") é uma demonstração prática e continuação direta da aula anterior de sonorização, com o professor refazendo a edição de um vídeo usando apenas a biblioteca de som e música do CapCut, sem a faixa de terceiros usada antes.",
+    "Ela assume que quem assiste já viu a aula anterior sobre sonorização de VSL ou anúncio e já sabe operar o básico do CapCut, já que boa parte do conteúdo é o professor apontando a tela e ajustando forma de onda, efeito e corte.",
+    "O público-alvo são alunos do curso que produzem VSL ou anúncio e querem usar som, música e sentimentalismo para reforçar a narrativa e melhorar a performance do criativo.",
+    "Grande parte da aula é edição ao vivo no CapCut e por isso muito do que aparece na tela, como a posição exata de clique e o nome de efeitos específicos na biblioteca, não é recuperável só pela fala.",
+    "A aula termina remetendo a uma variação futura do mesmo criativo trocando apenas a trilha sonora, deixando o vídeo finalizado para o aluno ver em outro lugar, sem detalhar esse resultado aqui.",
+    "Um trecho perto do final da transcrição está degradado e não corresponde a fala compreensível do professor."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Sentimentalismo no som como diferencial que o professor vende",
+      "tipo": "exemplo",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 38,
+      "fim": 92,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição grafa ROI como 'ROD'; grafia adotada conforme tabela do curso. Os números de ROI (2, 1, 1,5) são citados pelo professor como resultado de clientes dele, não confirmados como dado de mercado.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor descreve como fecha contratos de sonorização de VSL com grandes players do mercado.\nO que aconteceu: segundo ele, só assume o projeto se puder colocar sentimentalismo na peça; caso contrário, diz que o cliente continuaria com um ROI baixo, como 2, 1 ou 1,5.\nLógica: ele usa esse relato para justificar o valor alto que cobra pelo serviço, afirmando que poucos profissionais dominam essa técnica em VSL.",
+      "evidencia": "eu só pego o seu projeto se eu colocar o sentimentalismo no seu produto",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Base de operação de anúncios: teste de lead e de criativo",
+      "tipo": "regra",
+      "tema": "teste-de-criativos",
+      "tarefas": [
+        "subir-campanha-de-teste"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 113,
+      "fim": 159,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "Conselho lateral do professor, na sequência da mesma fala, a quem ainda não tem essa base: fazer conteúdo orgânico no TikTok, no YouTube, no Instagram e em Reels enquanto constrói, porque assim a pessoa vai se aprimorando e um vídeo finalizado pode dar dinheiro e caixa para manter a operação. Não vira unidade própria nem condição desta regra, porque não altera a validade dela.",
+      "proposta_tag": null,
+      "corpo": "A base de uma operação de anúncios bem-sucedida é o teste de lead (abertura) da VSL somado ao teste de criativo.",
+      "evidencia": "isso daqui é a base é criativo e lead",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Efeitos sonoros pontuais reforçam cortes do vídeo",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 234,
+      "fim": 482,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para reforçar cortes e pontos de destaque do vídeo, o professor sobrepõe pequenos efeitos sonoros discretos à trilha de fundo, como som de obturador de câmera, som de notificação/pagamento e som de micro-ondas, cada um posicionado exatamente no corte ou na palavra que se quer marcar.",
+      "evidencia": "vamos colocar um clique de câmera",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Emoção da copy dita a trilha sonora de cada trecho",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 242,
+      "fim": 262,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A trilha e os efeitos sonoros de cada trecho do vídeo devem seguir a emoção que a copy pede naquele ponto, por exemplo medo, raiva ou a virada para a solução. Essa correspondência entre parte da copy e sentimento do som é fixa e não deve ser alterada pelo editor de som.",
+      "evidencia": "aqui eu queria transmitir medo, aqui eu queria transmitir raiva e aqui eu queria transmitir a solução",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Cortar áudio na troca de fala funciona como transição",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 294,
+      "fim": 337,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A transcrição também menciona, de forma pouco clara, que grandes players usariam esse corte de áudio na passagem para depoimentos; o trecho não entrou no corpo por estar ambíguo.",
+      "proposta_tag": null,
+      "corpo": "Ao cortar de uma fala para outra, com mudança de plano ou de take, o áudio pode ser removido por completo nesse ponto sem prejuízo, porque o próprio corte de fala já funciona como transição natural. Isso vale tanto para vídeo em que a pessoa aparece de rosto quanto para conteúdo 'dark' (sem aparecer), sempre na passagem de um take para outro.",
+      "evidencia": "de uma fala para a outra você tem esse tipo de transição",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Encaixe preciso do pico da música muda o sentimento",
+      "tipo": "exemplo",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 376,
+      "fim": 459,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "'Plot' aqui é o termo do curso para a parte mais importante da música, no mesmo sentido do termo 'plot da música' definido em outra aula do curso.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor sonoriza um trecho específico do vídeo de demonstração e ajusta o encaixe da faixa musical escolhida.\nO que aconteceu: ele localiza o 'plot' (pico, parte mais importante) da música e reposiciona sua entrada; um deslocamento de apenas 0,2 segundo no ponto de entrada muda perceptivelmente o sentimento que a música transmite ao espectador.\nLógica: ele usa esse teste para mostrar que a precisão no encaixe da música, e não só a escolha da faixa, é o que faz a trilha bater com o momento certo do vídeo.",
+      "evidencia": "é por causa de 0.2 segundos a gente consegue trazer um sentimento diferente nessa música",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "CapCut restringe compartilhamento de certas músicas da biblioteca",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 604,
+      "fim": 619,
+      "condicoes": "Vale para faixas específicas da biblioteca interna do CapCut com essa restrição; o professor não especifica quais nem a regra exata de licenciamento.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Nem toda música da biblioteca do CapCut pode ser repassada a terceiros. O professor usa, na demonstração, uma faixa que considera uma ótima transição, mas diz não poder entregá-la aos alunos porque o CapCut é limitado nesse ponto.",
+      "evidencia": "porque o CapCut é meio limitado com isso",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Trecho final da transcrição está degradado e incompreensível",
+      "tipo": "limite",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 764,
+      "fim": 774,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Um trecho da transcrição perto do fim da aula está degradado e não corresponde a fala clara do professor: aparecem menções soltas a 'depoimentos falsos' e a algo como 'sprays do mercado' associado a um som de notificação. Não é possível extrair orientação confiável desse trecho.",
+      "evidencia": "sprays do mercado olhando para você como um vídeo de som de notificação",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Testar músicas de fundo diferentes sobre um criativo validado",
+      "tipo": "regra",
+      "tema": "variacoes-e-criativo-estatico",
+      "tarefas": [
+        "gerar-variacoes-de-criativo",
+        "ler-metricas-e-decidir"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 798,
+      "fim": 814,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Depois de validar um criativo, o professor cria variações trocando apenas o som de fundo por músicas diferentes, mantendo o resto do vídeo igual, e usa a performance de cada variação para decidir qual delas tem a melhor música para aquele criativo.",
+      "evidencia": "a música que mais performar foi a melhor música",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1,
+        2
+      ],
+      "retiradas": [],
+      "observacoes": "F1 (U1) — corrigida pela mudança mínima. Removi a glosa \"(uso emocional do som)\" do corpo; o termo \"sentimentalismo\" agora aparece sem definição, glosa ou paráfrase explicativa no corpo, no título e na nota. Conferi na transcrição que a fala usa o termo três vezes sem defini-lo (\"se eu colocar o sentimentalismo no seu produto\", \"se eu não colocar, eu não fecho negócio contigo\", \"ele vai e fecha comigo o sentimentalismo\"), o que confirma a falha e o item do vocabulário do FORMATO (\"Usados sem definição na fonte: X1, PLR, sentimentalismo...\"). Não retirei a unidade: ela não é só construção de autoridade, carrega o relato com os números de ROI (2, 1, 1,5) atribuídos a clientes do professor, que é o que o tipo `exemplo` e a nota de perecibilidade existem para registrar; a alternativa de retirada seria mais destrutiva que a falha exige. Tipo, tema, tarefas, plataformas, faixa (38–92) e evidência ficaram como estavam — a evidência \"eu só pego o seu projeto se eu colocar o sentimentalismo no seu produto\" está literal na transcrição em 52,22–56,30, dentro da faixa. `versao` deve ir a 2.\n\nF2 (U2) — corrigida. `plataformas` passou a ['geral'], `condicoes` passou a null e `perecivel` voltou a false (o tipo é `regra`, o tema é teste-de-criativos e a tarefa é subir-campanha-de-teste; nenhum gatilho de perecibilidade do FORMATO se aplica depois de tirar as plataformas específicas). Voltei à fonte: a regra está em 138,1–139,5 (\"Isso daqui é a base / É criativo e lead\") e não nomeia rede nenhuma; as redes aparecem só no conselho lateral de 141,3–148,7. Corpo, título, faixa (113–159) e evidência preservados. `versao` deve ir a 2.\n\nF2, preservação do conselho de orgânico — escolhi a `nota` de U2, entre as duas opções que o julgamento ofereceu, e não criei a unidade 10. Motivo: nenhuma tarefa da taxonomia cobre \"produzir conteúdo orgânico para se aprimorar e gerar caixa\". A mais próxima seria `subir-campanha-de-teste`, e uma unidade nova com essa tarefa e com tiktok/youtube/instagram recriaria em cobertura.jsonl exatamente a presença falsa que F2 condena — o curso continuaria sem dizer nada sobre montar campanha de teste nessas redes. Sem tarefa cabível, a unidade nova não se sustentaria (o FORMATO só admite `tarefas` vazia em `conceito` e `limite`). Na nota não usei \"na edição\": a fala diz apenas \"porque você vai se aprimorando\", sem dizer em quê. Se a próxima conferência preferir a unidade nova mesmo assim, o material está todo na nota e a faixa literal é 139–159.\n\nNenhuma unidade retirada. Não toquei em 3–9, e nenhuma delas cobre o conselho de orgânico (conferi pelos títulos: as demais tratam de efeitos sonoros, trilha por emoção, corte de áudio, encaixe do pico, limitação do CapCut, trecho degradado e teste de músicas sobre criativo validado). O campo `versao` não existe no contrato de saída deste papel; fica registrado aqui que as duas unidades corrigidas devem incrementar para 2."
+    }
+  ]
+}

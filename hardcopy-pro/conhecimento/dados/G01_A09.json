@@ -1,0 +1,76 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G01_A09",
+  "titulo": "Episódio 09 Plot Twist",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Episódio de encerramento da 1ª temporada do Hard Copy, curto e sem técnica nova. O professor fecha a temporada mostrando que ela mesma foi construída com o Kishotenketsu.",
+    "Ele recapitula três movimentos da temporada, sendo o terceiro o plot twist, que acontece na própria aula, e afirma que o foco do curso é escrever uma carta de vendas persuasiva.",
+    "Depois anuncia que o próximo módulo (a próxima temporada) ensina a criar a VSL com o mesmo método, explicando cada etapa e revisando a VSL juntos na última aula.",
+    "A aula pressupõe que o aluno assistiu à temporada inteira e não ensina passo a passo de escrita; isso fica para a temporada seguinte.",
+    "Há trechos de motivação pessoal e sobre reembolso que não viram orientação."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "A 1ª temporada resumida em três pontos, com o plot twist no próprio episódio",
+      "tipo": "exemplo",
+      "tema": "kishotenketsu",
+      "tarefas": [
+        "escrever-desenvolvimento-e-plot-twist"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 128,
+      "fim": 179,
+      "condicoes": "Refere-se à 1ª temporada do Hard Copy; o professor não nomeia os atos Ki, Sho, Ten e Ketsu neste episódio.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição grafa o método como \"Kinshu\". Só o terceiro ponto é chamado de plot twist pela fala; a fonte não diz a que ato corresponde cada um dos outros pontos e não menciona um quarto.",
+      "proposta_tag": null,
+      "corpo": "Situação: no fecho da 1ª temporada, o professor diz que ali vai um resumo de tudo o que usou na própria temporada, através do Kishotenketsu (a estrutura narrativa do curso).\nO que aconteceu: ele cita três pontos. No primeiro episódio, mostrou que o aluno vai aprender muito mais do que foi prometido na VSL que o trouxe até ali. Depois, passou dados e um conhecimento que o aluno não imaginava aprender. O terceiro, que ele chama de plot twist (algo que a pessoa não estava esperando acontecer), está acontecendo naquele momento do episódio: mostrar que o que o aluno está aprendendo pode virar o jogo para ele, e não só somar mais conhecimento. Ele fecha dizendo que o foco do curso era o aluno conseguir escrever uma carta de vendas persuasiva a ponto de o lead implorar para comprar.\nLógica: o professor apresenta a temporada que o aluno acabou de assistir como feita com o método que ensina, e faz o plot twist cair no episódio em que o aluno está. Dos três pontos, só o terceiro é nomeado pela fala.",
+      "evidencia": "E o terceiro, que é o plot twist, que tá sendo literalmente agora",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Próxima temporada: criar a VSL passo a passo e revisar na última aula",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 94,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "A transcrição grafa o método como \"Kensho\".",
+      "proposta_tag": null,
+      "corpo": "A 1ª temporada é apresentada como preparação (\"arroz com feijão\") para escrever uma VSL bem feita e bem estruturada; ela traz os principais conceitos para aplicar o Kishotenketsu na VSL. Sobre esse conteúdo já entregue na temporada, o professor diz que resolveu não limitá-lo por tempo.\nA criação da VSL em si não é ensinada nesta aula: fica para o próximo módulo, no qual o professor diz que vai explicar cada passo e cada etapa, mostrar a melhor forma de criar a VSL pelo mesmo método que usou na VSL que trouxe o aluno ao curso, e revisá-la junto com o aluno na última aula.",
+      "evidencia": "E toda essa temporada que você viu agora, é o arroz com feijão",
+      "versao": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1,
+        2
+      ],
+      "retiradas": [],
+      "observacoes": "G01_A09-F1: procede. Conferi na transcrição: a frase do foco do curso começa em 164,56 s (\"um conhecimento a mais. Que o foco\") e termina em 178,58 s (\"comprar. É basicamente isso que vamos\"), fora do `fim: 163` anterior. Estendi `fim` da unidade 1 para 179, mantendo o corpo íntegro. A transcrição termina em ~222 s, então 179 respeita o teto de fim + 2. A evidência (\"E o terceiro, que é o plot twist, que tá sendo literalmente agora\", 154,36–160,64 s) continua dentro da faixa. `inicio: 128` segue lastreado em \"produto, aqui vai\" (128,92 s). Versão a incrementar para 2 (o campo `versao` não existe no formato de saída desta etapa).\n\nG01_A09-F2: procede. A fala só diz \"aqui vai um resumo de tudo que eu usei nessa temporada, através do Kinshu\" e nomeia como plot twist apenas o terceiro ponto; não há molde de partes fixas para preencher com conteúdo novo. Reclassifiquei a unidade 1 de `estrutura` para `exemplo`, com corpo em `Situação:` / `O que aconteceu:` / `Lógica:`. Tirei \"atos\" do título, que passou a \"A 1ª temporada resumida em três pontos, com o plot twist no próprio episódio\". A Lógica ficou restrita ao que a fala sustenta: o professor apresenta a temporada como feita com o método e o plot twist acontece no próprio episódio; nenhum ponto é associado a Ki, Sho ou Ketsu. A ressalva de que só o terceiro é nomeado está no corpo e na `nota`, e a `nota` deixou de afirmar que \"o quarto ato não é mencionado\" como se a fonte previsse quatro — passou a dizer que a fonte não menciona um quarto. Troquei a tarefa de `estruturar-vsl` para `escrever-desenvolvimento-e-plot-twist`, entre as duas admitidas pelo critério, para que a unidade não apareça em consulta de esqueleto de VSL. Tema mantido em `kishotenketsu`, porque a unidade cobre os três pontos e não um ato só. `perecivel: true` mantido (estrutura do curso). Versão a incrementar para 2.\n\nG01_A09-F3: procede. Na fonte, \"Eu resolvi não limitar por tempo esse tipo de conteúdo, porque eu acredito e eu tenho certeza que você aprendeu algo com esse tipo de conteúdo que eu te passei agora\" (28,98–54,58 s) se refere ao que já foi passado. Reescrevi a frase, que agora atribui o \"não limitar por tempo\" ao conteúdo já entregue na temporada e vem logo após a descrição da 1ª temporada, antes do trecho sobre o próximo módulo, para não deixar o referente ambíguo. Versão a incrementar para 2.\n\nAjuste decorrente, fora das três falhas: a unidade 2 afirmava no corpo a revisão da VSL na última aula, cuja fala (\"E na última aula, vamos revisar ela juntos\") está em 90,10–93,64 s, fora do `fim: 90` anterior. Como a unidade já muda de hash por F3, estendi `fim` para 94 para que todo o corpo fique verificável na faixa e o inspetor não a marque como `faixa-errada` na próxima rodada. Nenhum outro campo da unidade 2 foi alterado.\n\nNenhuma unidade foi retirada e nenhuma nova foi criada: as três falhas são de classificação, faixa e referente, todas resolvíveis dentro das unidades existentes. Não há material nesta aula. Não mexi em nada fora das unidades 1 e 2."
+    }
+  ]
+}

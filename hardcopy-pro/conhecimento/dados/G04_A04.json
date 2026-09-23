@@ -1,0 +1,250 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G04_A04",
+  "titulo": "Episódio 4 - Concorrência",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "A aula é o episódio 4 da roteirização da trilha Hard Ads e mostra, com o professor navegando na Biblioteca de Anúncios, anúncios de concorrentes na Meta, sobretudo no nicho de emagrecimento.",
+    "Ela serve para quem vai criar anúncios e assume o conceito de contexto × texto e o de começar com uma história desconectada, vistos em outras aulas.",
+    "O professor usa a aula como exemplo do que não fazer: anúncios que abrem vendendo o produto, e a recomendação de não usar a Biblioteca de Anúncios para pesquisar.",
+    "Boa parte do que ele analisa está na tela; a transcrição só captura os comentários dele, não o conteúdo dos anúncios mostrados.",
+    "A aula fecha prometendo abrir, na aula seguinte, como tudo funciona."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Anúncio que apresenta o produto: funciona, mas com lead de mente fechada",
+      "tipo": "conceito",
+      "tema": "abertura-e-gancho",
+      "tarefas": [],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 58,
+      "fim": 103,
+      "condicoes": "Segundo o professor, o formato funciona bem para público acima de 50 anos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor descreve o anúncio focado no produto, que apresenta o produto logo de início, como um formato que performa bem, inclusive para pessoas acima de 50 anos, e que rende um clique bom quando se acerta. O problema apontado é que demora muito para acertar. Como o foco está no produto, o lead chega com a mente fechada: já sabe que vão vender algo e a venda não é camuflada de forma eficiente.",
+      "evidencia": "você cria focado no balela cap, no produto.",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Apresentação do produto não pega topo de funil nem consciência alta",
+      "tipo": "conceito",
+      "tema": "nivel-de-consciencia",
+      "tarefas": [
+        "diagnosticar-copy-ou-anuncio"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 139,
+      "fim": 171,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Trecho de transcrição confusa: logo depois da fala usada aqui vem \"Ele vai pegar a pessoa que vale na academia\", frase truncada que não permite recuperar qual público o anúncio de apresentação atinge; por isso a unidade não afirma nada sobre esse público. A palavra \"alta\" em \"nível de consciência alta\" pode ser erro de transcrição. O preço de cerca de 29 reais aparece na leitura de um anúncio de concorrente na tela e não é orientação.",
+      "proposta_tag": null,
+      "corpo": "Ao analisar o anúncio de um concorrente, o professor distingue apresentação do produto de contexto do produto.\nA apresentação mostra ao cliente aquilo que ele já quer.\nSegundo o professor, um anúncio assim não pega topo de funil nem a pessoa que tem nível de consciência alta.",
+      "evidencia": "Isso aqui não é um contexto do produto, isso aqui é uma apresentação",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Contexto a favor não basta: falta o texto",
+      "tipo": "conceito",
+      "tema": "objecoes-e-credibilidade",
+      "tarefas": [
+        "analisar-concorrencia",
+        "diagnosticar-copy-ou-anuncio"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 205,
+      "fim": 345,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O professor cita um médico concorrente pelo nome; omitido de propósito.",
+      "proposta_tag": null,
+      "corpo": "Ao analisar um anúncio de médico que escala bem, o professor diz que ele vende pela autoridade, ou seja, tem o contexto (ser autoridade) a seu favor, mas não tem o texto: abre falando o mesmo que todo mundo, já vendendo o produto com promessa de resultado. Para o professor, quem já tem contexto e acrescenta texto (persona, transição de imagem, edição e desenvolvimento) decola mais. Ele é contra abrir vendendo o produto porque não dá surpresa nem mexe com a pessoa no fundo para que clique em saiba mais.",
+      "evidencia": "Mas o texto, ele tá falando exatamente a mesma coisa que todo mundo, olha só.",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Não focar em preço no anúncio; responder à pergunta em vez de fazê-la",
+      "tipo": "regra",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "diagnosticar-copy-ou-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 349,
+      "fim": 370,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "Fala curta e informal; a interpretação da segunda parte é aproximada.",
+      "proposta_tag": null,
+      "corpo": "Ao ver anúncio de concorrente com oferta do tipo leve mais, pague menos, o professor diz que não se pode focar em preço. Ao ver anúncio que pergunta o que a pessoa sente ao se olhar no espelho, ele diz que o anúncio deve responder isso à pessoa em vez de só perguntar.",
+      "evidencia": "Não pode focar em preço",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Emagrecimento não está saturado: concorrentes repetem a mesma abordagem",
+      "tipo": "conceito",
+      "tema": "analise-de-concorrencia",
+      "tarefas": [
+        "analisar-concorrencia",
+        "pesquisar-publico-e-subnicho"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 382,
+      "fim": 463,
+      "condicoes": "Afirmação do professor sobre o nicho de emagrecimento, feita na época da gravação, com base na Biblioteca de Anúncios.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contagens de anúncios por concorrente vistas na tela; a fala só cita alguns números, que não são régua.",
+      "proposta_tag": null,
+      "corpo": "O professor afirma que o nicho de emagrecimento não está saturado: está saturado de gente que faz a mesma coisa. Ele mostra que a maioria dos concorrentes tem só um anúncio rodando e poucos fazem teste de criativo, e diz que quem faz algo diferente vende. Atribui a isso a facilidade de entrar no nicho com algo diferente.",
+      "evidencia": "O nicho de emagrecimento não tá saturado.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Não use a Biblioteca de Anúncios para pesquisar concorrência",
+      "tipo": "regra",
+      "tema": "analise-de-concorrencia",
+      "tarefas": [
+        "analisar-concorrencia"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 465,
+      "fim": 533,
+      "condicoes": "É preferência e postura do professor; ele reconhece que há quem pague por ferramentas para ver o que performa.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fonte grafa \"ads librar\", \"ads pie\", \"Ads Libraria\" e \"Ads Librele\"; a identificação com a Biblioteca de Anúncios é hipótese, e a orientação depende de qual ferramenta é. Ele contradiz o próprio uso didático da biblioteca na aula, mas entra nela só para provar o ponto.",
+      "proposta_tag": null,
+      "corpo": "O professor orienta a nunca entrar na Biblioteca de Anúncios na hora de criar um produto ou um anúncio, nem para dar uma olhadinha.\nO motivo que ele dá: ver todo mundo vendendo do mesmo jeito fecha a mente e faz quem tenta sair da curva concluir que está errado.\nEle afirma que quem sai da curva está certo, vai bater a cabeça de vez em quando, mas, se acertar, vende muito mais que os demais.\nHá quem pague por ferramenta para saber o que está performando; ele prefere deixar que paguem.\nNa própria aula ele entra na biblioteca apenas para mostrar os anúncios como exemplo do que não fazer.",
+      "evidencia": "Primeira coisa, não entre em Ads Libraria",
+      "versao": 2
+    },
+    {
+      "numero": 7,
+      "titulo": "Nunca comece o anúncio vendendo o produto: gancho, conexão e curiosidade",
+      "tipo": "regra",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "escrever-gancho-de-anuncio",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 530,
+      "fim": 580,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Nunca venda o produto no início do vídeo. Comece com um gancho, faça a conexão com o produto e leve a pessoa ao final a querer tocar em saiba mais, porque precisa saber do que se trata.",
+      "evidencia": "Sempre crie um gancho, faça a conexão com aquele produto",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Grandes players abrem anúncios com história desconectada",
+      "tipo": "exemplo",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "analisar-concorrencia",
+        "escrever-abertura"
+      ],
+      "plataformas": [
+        "meta-ads",
+        "instagram"
+      ],
+      "fonte": "fala",
+      "inicio": 553,
+      "fim": 700,
+      "condicoes": "Observação do professor na época da gravação, sobre anúncios de grandes players que ele cita; não é dado verificável na base.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Os nomes dos players foram omitidos do corpo; a análise dos anúncios estava na tela.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor manda olhar os anúncios dos maiores players do mercado.\nO que aconteceu: segundo ele, esses players não começam os anúncios vendendo o produto; abrem com uma historinha, algo desconectado, e constroem a partir dela até o que vendem. Ele diz que já sabem que abrir como antes ainda funciona bem, mas não igual.\nLógica: usa o comportamento deles como prova de que o storytelling atual, começar com algo desconectado, é o caminho, em vez de abrir com o produto.",
+      "evidencia": "Começar com algo desconectado",
+      "versao": 2
+    },
+    {
+      "numero": 9,
+      "titulo": "Conselho de fechamento: quem abre vendendo joga dinheiro fora",
+      "tipo": "regra",
+      "tema": "abertura-e-gancho",
+      "tarefas": [
+        "diagnosticar-copy-ou-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 657,
+      "fim": 705,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "O tom é irônico; a orientação reforça a regra de não abrir vendendo.",
+      "proposta_tag": null,
+      "corpo": "O professor repete no fecho que não se deve começar o anúncio vendendo o produto. Ironiza quem ignora o conselho e diz que essa pessoa vai rasgar dinheiro, enquanto ele e seus alunos seguem trabalhando o que consideram certo.",
+      "evidencia": "Nunca comece o seu anúncio vendendo o seu produto",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        8
+      ],
+      "retiradas": [],
+      "observacoes": "C1: a evidência \"Começar com algo desconectado\" está em 00:09:21.460–00:09:23.700 (≈561–564 s), fora da faixa antiga 580–700. O corpo também cobre falas anteriores a 580, como \"Funciona bem, mas não funciona mais igual antes\" (09:35–09:38), e a unidade abre em \"Pega os maiores players do mercado\" (09:13.180 ≈ 553 s). Por isso corrigi só o `inicio`, de 580 para 553, e mantive evidência, corpo e demais campos. O `fim` de 700 continua cobrindo o trecho do Pablo Marçal, que termina perto de 655 s."
+    },
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        2,
+        6
+      ],
+      "retiradas": [],
+      "observacoes": "G04_A04-F1 (unidade 2): removida do corpo a afirmação \"pega quem já está pronto para comprar aquilo\", que a fala não faz. O corpo agora só traz a distinção apresentação × contexto do produto, o \"mostrar para o cliente aquilo que ele quer\" e o que o professor nega (\"Ele não vai pegar topo de funil\", \"Ele não vai pegar a pessoa que tem um nível de consciência alta\"). A nota passou a citar a frase truncada como transcrita (\"Ele vai pegar a pessoa que vale na academia\"), a registrar que o público atingido não é recuperável e a dúvida sobre \"alta\". Mantida a observação sobre os 29 reais. Confiança mantida em `media` (não `baixa`) porque a paráfrase reproduz literalmente o que a fala afirma e a dúvida está sinalizada na nota; a decisão fica registrada para a próxima conferência. `fim` foi de 170 para 171 para que a faixa cubra inteiro o segmento \"Ele vai cobrar uns 29 reais por esse aplicativo\" (169.600–170.400), citado na nota. Versão deve ir para 2.\n\nG04_A04-F2 (unidade 6): `criar-prompt-ou-agente` removida de `tarefas`, que fica só com `analisar-concorrencia`; a frase \"Tarefa criar-prompt-ou-agente não se aplica; ignore.\" saiu da nota. Versão deve ir para 2.\n\nG04_A04-F3 (unidade 6, mesma edição): a nota agora registra as grafias da fonte (\"ads librar\", \"ads pie\", \"Ads Libraria\", \"Ads Librele\") e que a identificação com a Biblioteca de Anúncios é hipótese; `confianca` baixada para `media`. Título e corpo seguem com a grafia adotada; a `evidencia` continua com a grafia da transcrição.\n\nDois ajustes decorrentes na unidade 6, fora da lista de falhas, ambos para manter a unidade válida depois da edição: (a) `fim` foi de 530 para 533, porque a `evidencia` \"Primeira coisa, não entre em Ads Libraria\" ocorre em 529.860–532.120 e ficava parcialmente fora da faixa declarada; (b) saiu do corpo o pedido para o aluno não gravar a tela, que está em 119–121 (\"não fica gravando telinha / Pra ficar mostrando pros outros\"), muito antes da faixa 465–533 e em outro assunto (o professor pedindo que não usem o vídeo para expor concorrentes). Esse pedido não está coberto pelos títulos das demais unidades; não criei unidade nova porque é ressalva sobre o uso da aula, não orientação de trabalho — fica registrado aqui caso a próxima conferência entenda que é omissão."
+    }
+  ]
+}

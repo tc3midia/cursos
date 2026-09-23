@@ -1,0 +1,270 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A05",
+  "titulo": "Episódio 5 - Canva (Sapatos)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula é o episódio 5 da trilha Hard Ads, grupo Negócios Locais, e mostra o professor montando ao vivo, no Canva, um anúncio em vídeo para um calçado ortopédico fictício voltado a pessoas idosas com dor nos pés.",
+    "Pressupõe que quem assiste já sabe operar o Canva, já tem o roteiro do anúncio pronto e já conhece a lógica de anúncio ensinada em aulas anteriores do curso.",
+    "O professor busca cenas de aparência autêntica no TikTok, baixa vídeos com o SnapTik, ajusta texto e sombra no Canva e, como conteúdo extra, gera duas variantes de locução no ElevenLabs para o mesmo roteiro.",
+    "Ele avisa que parte do material usado como exemplo foi tirada do TikTok de outra pessoa, chama isso de plágio e recomenda que o aluno crie conteúdo autêntico em vez de copiar; também deixa claro que não tem vínculo com a marca do calçado mostrado.",
+    "A aula é majoritariamente uma gravação de tela, com cliques, arrastes e ajustes visuais narrados de forma vaga ('aqui', 'assim'), então boa parte da montagem não é descrita em palavras suficientes para reconstrução sem a imagem.",
+    "A aula termina antes da etapa de som e finalização do anúncio, que fica para o CapCut na aula seguinte."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Vídeo de exemplo veio de outra conta do TikTok: aviso de plágio",
+      "tipo": "regra",
+      "tema": "etica-e-promessa",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok"
+      ],
+      "fonte": "fala",
+      "inicio": 68,
+      "fim": 87,
+      "condicoes": "Vale para quando o exemplo usado em aula reaproveita conteúdo de outra pessoa; não é uma orientação para reutilizar vídeo alheio de forma idêntica num anúncio real.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor usa, como exemplo neste episódio, vídeos que encontrou no TikTok em uma conta de terceiros para montar o anúncio. Ele avisa que reaproveitar esse material do jeito exato como mostrado é plágio e que a demonstração serve só para fins didáticos. Orienta o aluno a não repetir o mesmo vídeo e a criar conteúdo autêntico ao montar o próprio anúncio.",
+      "evidencia": "não faça da mesma forma até porque esse aqui é plágio",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Sombra de texto no Canva funciona melhor sobre texto branco",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 107,
+      "fim": 125,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No Canva, ao aplicar o efeito de sombra (sombreado) sobre um texto, teste a cor do texto antes de finalizar: sobre texto preto o sombreado praticamente não aparece; sobre texto branco, o sombreado fica visível e melhora o contraste.",
+      "evidencia": "sombreado é bom usar no branco",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Sem imagem de banco para a cena, buscar no TikTok e baixar com SnapTik",
+      "tipo": "decisao",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok",
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 164,
+      "fim": 199,
+      "condicoes": "Contexto do episódio: montagem de anúncio de negócio local para produto de dor nos pés voltado a idosos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Contorna política de plataforma ou direito de terceiros: a técnica consiste em baixar vídeo publicado por outra pessoa no TikTok, usando o SnapTik, para reaproveitar como cena do próprio anúncio, sem menção a autorização do criador original.",
+      "proposta_tag": null,
+      "corpo": "Se a busca por imagens prontas, como no banco do Canva, não encontrar nada para o tema da cena do anúncio, pesquise o mesmo tema com termos mais diretos direto no TikTok. Ao achar um vídeo que sirva, baixe-o com o SnapTik, ferramenta de download de vídeos do TikTok, para depois importar a cena no editor.",
+      "evidencia": "então vamos para o nosso amigo tiktok",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Preferir cenas autênticas do TikTok a fotos de banco muito produzidas",
+      "tipo": "regra",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "tiktok"
+      ],
+      "fonte": "fala",
+      "inicio": 216,
+      "fim": 240,
+      "condicoes": "Preferência do professor para anúncio de produto ligado a dor e a público idoso; não apresentada como regra obrigatória para outros nichos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para as cenas de um anúncio de negócio local voltado a idosos, o professor prefere imagens e vídeos com aparência real e de dia a dia, encontrados no TikTok, em vez de fotos ou vídeos de banco muito produzidos e artificiais, que ele chama de 'festival de marionete'.",
+      "evidencia": "não é aquele festival de marionete não, sai fora, pra que isso",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Disclaimer de que não há vínculo com o produto usado como exemplo",
+      "tipo": "regra",
+      "tema": "etica-e-promessa",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 405,
+      "fim": 414,
+      "condicoes": "Vale para quando o professor usa produto real de terceiros como exemplo didático de anúncio.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao demonstrar o anúncio com um calçado real como exemplo, o professor avisa que não tem vínculo com a marca, não sabe se o produto é bom ou ruim e não está vendendo esse calçado. Ele pede para o aluno lembrar disso.",
+      "evidencia": "eu não tenho vínculo nenhum com esse calçado",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Seta apontando para o botão 'Saiba mais' no fechamento do anúncio",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 592,
+      "fim": 599,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No fechamento do anúncio, ao exibir o texto ou botão 'Saiba mais' (chamada para ação), acrescente uma seta apontando para ele, para dirigir a atenção do espectador até o CTA.",
+      "evidencia": "toca em saiba mais aí a gente coloca uma setinha",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "No ElevenLabs, revisar pontuação e escolher o modelo antes de gerar áudio",
+      "tipo": "procedimento",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 724,
+      "fim": 764,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: roteiro do anúncio pronto para virar locução no ElevenLabs, ferramenta de geração de voz sintética.\n1. Revise a pontuação do texto (vírgulas e pontos) antes de colar na ferramenta, porque o ElevenLabs é sensível à pontuação e ela muda a entonação gerada.\n2. Nas configurações da ferramenta, selecione o modelo Eleven Multilingual.\n3. Escolha a voz desejada e gere o áudio.",
+      "evidencia": "vamos deixar tudo pontuadinho, certinho, porque ele é muito chato com isso",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Preferência do professor: duas variantes do mesmo roteiro com vozes diferentes",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao",
+        "gerar-variacoes-de-criativo"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 812,
+      "fim": 830,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "O motivo sai truncado na transcrição: \"que a gente consegue trabalhar, ensino e não arriscar\".",
+      "proposta_tag": null,
+      "corpo": "O professor gosta de gerar no ElevenLabs duas variantes exatamente iguais do mesmo roteiro, mudando só a voz: na aula ele faz uma com voz de pessoa idosa e depois refaz com voz de moça.\nEle explica que faz assim para ter as duas para trabalhar e não arriscar numa única escolha de voz.\nÉ preferência dele, apresentada como hábito próprio, não como passo obrigatório do método.",
+      "evidencia": "eu gosto de criar duas variantes exatamente iguais com as vozes diferentes",
+      "versao": 2
+    },
+    {
+      "numero": 9,
+      "titulo": "Montagem no Canva narrada de forma vaga, sem detalhe reconstruível",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 40,
+      "fim": 136,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Grande parte deste episódio é o professor operando o Canva na tela: duplicando elementos, arrastando camadas, ajustando cor e posição, narrando só com termos como 'aqui', 'assim', 'isso aqui'. A transcrição não permite reconstruir os cliques, menus e posições exatas usados para montar o anúncio; só entram nesta base os pontos em que a fala descreve uma decisão de forma que se entende sem a imagem.",
+      "evidencia": "duplica e continua bem na hora",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Elemento \"Vinheta\" girado em 90 graus como acabamento no Canva",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 292,
+      "fim": 320,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A transcrição grafa \"Em elementográfico\"; hipótese de que seja a busca de elementos gráficos do Canva. No passo 3 a fala diz apenas \"Tirar um pouquinho desse brilho\", logo depois de \"Vamos editar o vídeo primeiro\", sem nomear se o brilho ajustado é o do vídeo ou o do elemento; o objeto do ajuste ficou na tela. A fala também não diz para que serve o efeito nem onde o elemento é posicionado.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: a página do anúncio no Canva já com o vídeo da cena colocado.\n1. Buscar \"Vinheta\" na busca de elementos gráficos do Canva.\n2. Pegar um dos resultados e deixá-lo de lado, editando o vídeo primeiro.\n3. Tirar um pouco do brilho.\n4. Girar a vinheta em 90 graus.\nO professor apresenta isso como um \"hackzinho\" que gosta muito de fazer, sem dizer que efeito visual ele busca.",
+      "evidencia": "A gente pega a vinheta, coloca ela em 90 graus",
+      "versao": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        8,
+        10
+      ],
+      "retiradas": [],
+      "observacoes": "F1 — atendida. Conferi a fonte: em [00:13:36.120–00:13:42.540] o professor diz \"Porque eu gosto de criar duas variantes exatamente iguais com as vozes diferentes / que a gente consegue trabalhar, ensino e não arriscar\". Reescrevi o corpo da unidade 8 sem imperativo dirigido ao leitor, atribuindo ao professor como preferência e marcando explicitamente que não é passo obrigatório; a razão (\"não arriscar numa única escolha de voz\") foi preservada. Mantive tipo `regra`, faixa 812–830, tema, tarefas, plataformas e a `evidencia` anterior, que continua literal e dentro da faixa. Ajustei o título, que afirmava a orientação como comando (\"Gerar duas variantes...\"). Acrescentei `nota` registrando que o motivo aparece truncado na transcrição automática. `versao` deve ir para 2.\n\nF2 — atendida pela alternativa (a) do critério de aceite. Ao voltar à fonte, constatei que a fala nomeia os passos, e não apenas \"aqui/assim\": \"A gente vem aqui e escreve / Vinheta / Em elementográfico e pega essa daqui\" (04:55–05:00), \"Deixa ela aqui por enquanto / Vamos editar o vídeo primeiro\" (05:01–05:03), \"Tirar um pouquinho desse brilho\" (05:07), \"A gente pega a vinheta, coloca ela em 90 graus\" (05:13). Logo não era caso de ampliar a unidade 9. Criei a unidade 10 (número após o maior existente, 9), `procedimento`, faixa 292–320, com quatro passos que correspondem cada um a uma ação nomeada na fala. Não incluí a finalidade do efeito: a descrição de \"moldura escura nas bordas\" é leitura da imagem, e a fala não a enuncia; registrei isso em `nota` e no fim do corpo, e por isso a confiança ficou `media`. Também deixei em `nota` que \"Em elementográfico\" é grafia da transcrição, com a leitura por hipótese (elementos gráficos do Canva), já que esse termo não consta da tabela de grafias. Não estendi a faixa da unidade 9 (40–136s), que segue cobrindo outro trecho. Deixei de fora o \"duplicamos aqui e jogamos lá pra baixo\" (05:19–05:23), porque é a duplicação de página que a aula repete o tempo todo e não pertence à técnica.\n\nNenhuma unidade retirada. Não mexi em unidades fora da lista de falhas."
+    },
+    {
+      "ciclo": 2,
+      "por": "opus-5",
+      "unidades": [
+        10
+      ],
+      "retiradas": [],
+      "observacoes": "F3 (unidade 10) — corrigida pela saída (ii) da mudança mínima. Voltei à transcrição na faixa 292–320 e conferi cada passo contra a fala: \"A gente vem aqui e escreve / Vinheta / Em elementográfico e pega essa daqui\" (passo 1 e 2), \"Deixa ela aqui por enquanto / Vamos editar o vídeo primeiro\" (passo 2), \"Deixa ela um pouquinho assim / Tirar um pouquinho desse brilho\" (passo 3), \"A gente pega a vinheta, coloca ela em 90 graus\" (passo 4). Nenhum trecho nomeia o objeto do ajuste de brilho: o professor diz só \"desse brilho\", e o pronome imediatamente anterior (\"Deixa ela um pouquinho assim\") é igualmente ambíguo entre o elemento e o vídeo, então o referente não se decide pela fala e não havia como confirmar \"do vídeo\" com trecho literal. O passo 3 passou a ser \"Tirar um pouco do brilho\", sem objeto, o que também remove a incoerência apontada entre os passos 2 e 3 (deixar de lado para editar o vídeo primeiro × editar o elemento em seguida). Nota ampliada para registrar que a fala diz apenas \"desse brilho\" logo após \"Vamos editar o vídeo primeiro\" e que o objeto ficou na tela. Apliquei o ajuste menor opcional: retirei \"e deixá-la sobre o vídeo\" do passo 4, porque a fala só diz o giro de 90 graus, e ajustei a nota, que antes falava em \"onde exatamente o elemento é posicionado sobre o vídeo\", para \"onde o elemento é posicionado\", sem pressupor o posicionamento. Mantidos numero, titulo, tipo, tema, tarefas, plataformas, fonte, faixa 292–320, condicoes, perecivel e confianca media; evidencia mantida, pois continua literal e dentro da faixa. A unidade deve subir para versao 2 na gravação (o campo não existe neste formato de saída). Nenhuma outra unidade foi tocada e nada foi retirado."
+    }
+  ]
+}

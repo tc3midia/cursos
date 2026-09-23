@@ -1,0 +1,171 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G09_A03",
+  "titulo": "Aula 3 - Ferramentas",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta é uma aula curta e introdutória, dentro do módulo Hard Ads, que apresenta as ferramentas usadas para produzir VSLs e criativos de anúncio.",
+    "O professor nomeia Canva, ElevenLabs e CapCut e explica a ordem de uso: criar no Canva, gravar a locução no ElevenLabs e depois editar juntando tudo no CapCut.",
+    "Ele reforça que essa mesma sequência de edição serve tanto para VSL quanto para criativo de anúncio, tanto em tráfego orgânico quanto em tráfego pago.",
+    "A aula toca rapidamente na configuração de tamanho personalizado no Canva para post, stories e VSL/YouTube, sem se aprofundar no assunto.",
+    "Pressupõe-se que o aluno já viu o script de exemplo sobre emagrecimento produzido em aula anterior, que continuará sendo reaproveitado nas próximas aulas do módulo.",
+    "Não há demonstração de tela detalhada nesta aula: o passo a passo de cada ferramenta (Canva e CapCut) fica explicitamente para a aula seguinte."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Ordem das ferramentas: Canva e CapCut, com ElevenLabs opcional",
+      "tipo": "estrutura",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "montar-criativo-visual",
+        "produzir-locucao",
+        "editar-video"
+      ],
+      "plataformas": [
+        "canva",
+        "elevenlabs",
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 112.62,
+      "condicoes": "O professor diz que as ferramentas usadas são duas, Canva e CapCut; o ElevenLabs é uma a mais, para quem quiser colocar uma voz que não seja a da própria pessoa.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Mais adiante, por volta de 2:07, o professor lista \"Canva, CapCut e Eleven Labs\" e diz \"São as três ferramentas\" de iniciantes do mercado; o enquadramento de abertura, porém, é de duas ferramentas mais o ElevenLabs como extra condicionado.",
+      "proposta_tag": null,
+      "corpo": "1. Canva: criar o que está no esboço do anúncio ou da VSL.\n2. Locução do que foi criado. O ElevenLabs entra aqui só se você quiser uma voz que não seja a sua; caso contrário, a locução é feita com a própria voz. O professor diz que às vezes usa a dele, às vezes a do ElevenLabs.\n3. CapCut: editar, juntando a criação com a locução.\nO professor apresenta duas ferramentas como as que se utiliza, Canva e CapCut, e o ElevenLabs como uma a mais, opcional.",
+      "evidencia": "são somente duas ferramentas que utilizamos, tá? Tem uma a mais, que é o Eleven Labs",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Formato de edição vale para VSL e criativo, orgânico e pago",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 51.18,
+      "fim": 63.2,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O formato de edição ensinado nesta aula vale tanto para VSL quanto para criativo de anúncio. Vale também tanto para tráfego orgânico quanto para tráfego pago, ou seja, para qualquer situação de uso.",
+      "evidencia": "ele vale para o orgânico, ele vale para o tráfego pago, para qualquer coisa",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Locução pode ser voz própria ou voz sintética do ElevenLabs",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 36.2,
+      "fim": 47.1,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Na locução, é possível gravar com a própria voz ou usar o ElevenLabs para gerar uma voz sintética que não é da própria pessoa. O professor diz que ele mesmo alterna entre as duas opções, às vezes usando a própria voz, às vezes a voz do ElevenLabs.",
+      "evidencia": "caso alguém queira colocar uma voz que não seja da própria pessoa",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Tamanho personalizado no Canva por formato: post, stories, VSL",
+      "tipo": "regua",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 160.96,
+      "fim": 233.46,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No Canva, ao criar um design com tamanho personalizado, definem-se largura e altura. Um post usa 1080 de largura por 1080 de altura. O preset pronto de Stories do Instagram já entrega 1080 de largura por 1920 de altura, o mesmo resultado de configurar esses valores manualmente em tamanho personalizado. Para VSL ou vídeo no YouTube, inverte-se os valores: 1920 de largura por 1080 de altura.",
+      "evidencia": "Largura 1920 Por altura 1080",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "ElevenLabs transforma texto digitado em fala",
+      "tipo": "ferramenta",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 258.32,
+      "fim": 265.06,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "No ElevenLabs, o uso básico é digitar o texto desejado para a locução; a ferramenta gera a fala lendo literalmente esse texto digitado.",
+      "evidencia": "Colocamos o texto aqui e ele vai literalmente falar aquilo que a gente escreveu",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Aula não aprofunda dimensões nem mostra o passo a passo das ferramentas",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "canva",
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 240.06,
+      "fim": 279.66,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor declara que não vai se aprofundar na configuração de dimensões (altura e largura) no Canva por considerar algo simples e fora do foco do treinamento, que é ensinar o básico da edição. Ele adia para a aula seguinte a demonstração prática de como o Canva funciona e de como fazer a edição completa no CapCut.",
+      "evidencia": "e também essa não é a ideia do treinamento",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1
+      ],
+      "retiradas": [],
+      "observacoes": "G09_A03-F1 (unidade 1): corrigido contra a fonte. Voltei à transcrição: em 00:00:30–00:00:42 o professor diz \"Como eu prometi, são somente duas ferramentas que utilizamos, tá? Tem uma a mais, que é o Eleven Labs, caso alguém queira colocar uma voz que não seja da própria pessoa\", e em 00:00:42 complementa \"às vezes eu coloco a minha voz, às vezes eu coloco a voz do Eleven Labs\". O passo 2 passou a descrever a locução como etapa cujo executor é opcionalmente o ElevenLabs (só se quiser voz que não seja a própria; senão, voz própria). A linha final trocou \"três ferramentas do processo\" pelo enquadramento do professor (duas ferramentas, Canva e CapCut, mais o ElevenLabs como uma a mais). `condicoes` deixou de ser nulo e traz essa condição. Título ajustado para \"Ordem das ferramentas: Canva e CapCut, com ElevenLabs opcional\". `inicio` estendido de 79.5 para 30.0 para cobrir o trecho do enquadramento, e a `evidencia` foi trocada para o trecho literal desse ponto, grafado como a transcrição escreve (\"Eleven Labs\"); no corpo, título e condições usei a grafia adotada ElevenLabs. `fim` mantido em 112.62, que cobre a sequência Canva → locução → edição. Tipo `estrutura` preservado: lista numerada de três partes na ordem da fonte. Ressalva registrada em `nota`, não no corpo: por volta de 2:07 a fala diz \"É com Canva, CapCut e Eleven Labs / São as três ferramentas / De iniciantes do mercado\" — as duas formulações existem na aula, e a nota preserva a segunda sem contradizer o critério de aceite. `versao` deve ser incrementada de 1 para 2 na gravação (o campo não faz parte deste formato de saída). Sem unidades novas: a opcionalidade da voz já tem unidade própria (003 \"Locução pode ser voz própria ou voz sintética do ElevenLabs\"), e aqui ela entra apenas como condição do passo. Nada retirado."
+    }
+  ]
+}

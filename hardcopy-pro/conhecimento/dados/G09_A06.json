@@ -1,0 +1,552 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G09_A06",
+  "titulo": "Aula 6 - CapCut",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Esta aula do grupo \"02 Hard Ads/07 Recapitulando\" é uma demonstração de tela em que o professor monta, do início ao fim, um anúncio de vídeo dentro do CapCut, a partir de frames já criados no Canva e de uma narração já gerada no ElevenLabs.",
+    "Ela cobre escolha e download de música, remoção de silêncios da narração, corte do vídeo sincronizado com a fala, ajuste de velocidade, posicionamento do trecho mais importante da música, uso de efeitos sonoros, cortes de música para destacar trechos, ajustes de cor e filtro, escolha de animações de transição e exportação do arquivo final.",
+    "Pressupõe que quem assiste já sabe operar o básico do CapCut e já chegou a essa etapa com a locução e as artes prontas de aulas anteriores do curso.",
+    "Boa parte da orientação depende de cliques e posições exatas na tela, que a transcrição automática só descreve parcialmente.",
+    "A aula não cobre a edição de criativos feitos só com fotos no Canva, que fica para a aula seguinte, segundo o professor."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Escolher música base pela idade e sentimento do lead",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 44,
+      "fim": 85,
+      "condicoes": "Exemplo demonstrado na aula: lead de 25 a 45 anos e a música citada como ilustração foi 'November Rain'; a escolha de faixa etária e tom deve se adaptar a cada lead e nicho trabalhado.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Antes de abrir o editor, o professor escolhe a música de fundo do anúncio pensando na faixa etária do lead. Ele opta por uma base de tom triste, capaz de arrepiar quem assiste, porque, segundo ele, poucos anúncios usam esse tipo de música e isso ajuda a mexer com a pessoa do outro lado.",
+      "evidencia": "Uma música base, algo que vai fazer a pessoa arrepiar",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Baixar áudio do YouTube com SaveFrom para usar no anúncio",
+      "tipo": "procedimento",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "outra"
+      ],
+      "fonte": "fala",
+      "inicio": 95,
+      "fim": 160,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contorna política de plataforma ou direito de terceiros: a aula ensina baixar o áudio de uma música comercial do YouTube por um site externo para usar como trilha do anúncio, sem mencionar licenciamento. Grafia da ferramenta é hipótese: a transcrição escreve 'Save from Mad', identificado pela tabela de grafias como SaveFrom.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: música-alvo já identificada e tocando numa aba do YouTube.\n1. Abrir uma nova aba e pesquisar por download de músicas ou download de vídeos no YouTube.\n2. Entrar no site usado na aula, grafado como SaveFrom.\n3. Colar o link do vídeo do YouTube com Ctrl V e clicar em baixar.\n4. Selecionar a opção de áudio MP4A; uma guia extra de propaganda abre e deve ser fechada.\n5. Clicar em fazer download e aguardar; o professor diz que baixar música demora mais que outros arquivos, sem saber explicar o motivo.\n6. Depois de baixado, mover o arquivo para a pasta desejada.",
+      "evidencia": "Vamos vir no Save from Mad",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Preferir CapCut no computador para editar",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 163,
+      "fim": 188,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O CapCut é apresentado como a ferramenta mais simples que existe para editar. Ele tem versão para celular e para computador, mas o professor indica 100% a versão de computador, por ser mais simples, mais rápida e mais tranquila para mexer nas partes de áudio e de texto.",
+      "evidencia": "mas eu indico 100% o computador por ser mais simples",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Remover os intervalos de silêncio entre falas do ElevenLabs",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut",
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 215,
+      "fim": 336,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: narração gerada no ElevenLabs já importada para a timeline de áudio do CapCut.\n1. Dar zoom na timeline de áudio e localizar as partes brancas, que marcam onde o ElevenLabs passa de uma frase para outra.\n2. Cortar cada uma dessas partes com Ctrl B e excluir o trecho de silêncio, arrastando os pedaços de áudio até encostarem um no outro.\n3. Repetir esse corte e remoção em todos os intervalos de silêncio da narração.\n4. Selecionar todos os pedaços já unidos, clicar com o botão direito e escolher criar clipe composto para juntar tudo em um único clipe.\n5. Aumentar um pouco o volume desse clipe composto para dar destaque à voz.",
+      "evidencia": "É o Eleven Labs quando ele passa de uma frase pra outra",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Formato de tela por tipo de criativo: vertical, quadrado, horizontal",
+      "tipo": "regua",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 349,
+      "fim": 380,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao jogar o vídeo para a timeline, o CapCut costuma ajustar automaticamente a proporção para o tamanho do projeto. Se isso não acontecer, o professor orienta configurar manualmente: 9 por 16 para o anúncio, tratado como tamanho padrão dos criativos; 1 por 1 para post de Instagram; e 16 por 9 para VSL, podendo inverter conforme o formato desejado.",
+      "evidencia": "Clica aqui e coloca 9 por 16.",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Cortar e sincronizar o vídeo com a fala da narração",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 380,
+      "fim": 431,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: vídeo já posicionado na timeline, no formato de tela correto.\n1. Ouvir a narração e identificar o momento em que a fala corresponde ao que aparece na imagem.\n2. Nesse ponto, cortar o clipe de vídeo com Ctrl B.\n3. Arrastar o pedaço cortado para encostar na parte seguinte, sem deixar espaço entre um corte e outro.\n4. Repetir o corte e o arraste a cada nova fala, acompanhando a narração do início ao fim do anúncio.",
+      "evidencia": "toda vez que a mulher falar aquilo que estamos vendo",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Ajustar velocidade do vídeo até a linha de referência",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 459,
+      "fim": 491,
+      "condicoes": "No exemplo demonstrado o ajuste inicial foi para 1,3x; o valor certo varia conforme o quanto o corte está desalinhado da fala.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: um corte de vídeo ficou mais longo ou mais curto do que a fala correspondente da narração.\n1. Selecionar o clipe e abrir a opção de velocidade.\n2. Aumentar ou diminuir a velocidade até a barra chegar numa linha de referência que o professor usa como guia de edição.\n3. Ajustar o valor para mais ou para menos até o clipe encaixar certinho no tempo da fala.",
+      "evidencia": "que é a linha que usamos de referência para edição",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Encontrar o plot da música e encaixá-lo depois da fala",
+      "tipo": "procedimento",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 613,
+      "fim": 686,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: música de fundo já baixada; o professor chama de plot da música a parte mais importante da faixa.\n1. Avançar a música até localizar esse trecho mais importante.\n2. Marcar o ponto com Ctrl B para registrar onde o plot começa.\n3. Arrastar esse trecho para posicioná-lo logo depois do fim da fala da narração, não durante ela.\n4. Deletar o restante da música que não será usado.\nColocar o plot logo após a fala, segundo o professor, ajuda a criar uma conexão emocional, porque a pessoa reage à música nesse momento.",
+      "evidencia": "A parte mais importante da música, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Calar a boca: tirar a música nas partes que quer destacar",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 704,
+      "fim": 759,
+      "condicoes": "No exemplo do anúncio trabalhado na aula, os trechos tratados como importantes foram um destaque em vermelho, a palavra 'emagrecer' e o rosto da senhora idosa que aparece na peça.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor chama de 'calar a boca' a técnica de tirar a música exatamente nas partes do anúncio que se quer destacar. A regra é: toda parte considerada importante do anúncio fica sem música por cima, para que o silêncio dê destaque a ela.",
+      "evidencia": "Eu chamo isso de calar a boca",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Usar efeito de clique antes da música para preparar o ouvinte",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 864,
+      "fim": 924,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O CapCut tem uma biblioteca de efeitos sonoros, em Áudio > Efeitos sonoros, com opções como dinheiro, relógio e cliques. O professor usa um efeito de clique logo antes da entrada da música ou de uma transição importante, porque isso prepara quem assiste para o que está prestes a chegar.",
+      "evidencia": "Que está prestes a chegar, que é a música",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Usar só o início de uma faixa como efeito de tensão",
+      "tipo": "ferramenta",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 928,
+      "fim": 982,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Nome da faixa como dito na fala: 'Epic Metro Art'. O próprio professor diz não saber se quem for reproduzir o passo vai conseguir encontrar esse efeito específico na biblioteca do CapCut.",
+      "proposta_tag": null,
+      "corpo": "O professor usa apenas o trecho inicial de uma faixa, que ele nomeia como 'Epic Metro Art', como um efeito isolado que causa uma sensação de desespero antes do restante do som. A técnica é pegar só o começo dessa faixa na biblioteca de áudio do CapCut e arrastá-la para o ponto desejado, sem usar a música inteira.",
+      "evidencia": "Mas o nome da música é isso, Epic Metro Art",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Evitar a transição padrão do CapCut e preferir animação leve",
+      "tipo": "regra",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1000,
+      "fim": 1048,
+      "condicoes": "É preferência do professor; ele reconhece que muita gente usa a transição padrão.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor evita a transição padrão do CapCut porque, na avaliação dele, deixa o vídeo com muita mexida e pode confundir o lead. Ele também lembra que essa transição está ligada a um recurso pago do aplicativo, cerca de R$ 30 por mês, o que complica para quem está começando. No lugar dela, usa o menu Vídeo > Animação em cada corte, sempre escolhendo animações leves, porque animação pesada, segundo ele, deixa o resultado malfeito.",
+      "evidencia": "Eu não gosto dela porque fica muito",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Aplicar zoom em cortes de vídeo muito longos",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1082,
+      "fim": 1095,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: um trecho de vídeo na timeline dura mais do que o movimento natural da cena sustenta, como no exemplo de uma cena de hospital citado pelo professor.\n1. Selecionar o clipe longo.\n2. Ir em Animação > Combinação e aplicar um efeito de zoom.\n3. O zoom aproxima a imagem e depois volta, dando movimento ao trecho parado.",
+      "evidencia": "animação, combinação e dá um zoom",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Aumentar contraste e vinheta para clima mais macabro",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "editar-video",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1097,
+      "fim": 1146,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: cena em que se quer transmitir um clima mais pesado, que o professor chama de macabro; no exemplo, a cena da senhora idosa.\n1. Abrir Ajustes > Ajuste personalizado no clipe.\n2. Aumentar o contraste.\n3. Aumentar um pouco o brilho.\n4. Adicionar uma vinheta.\nO professor compara o resultado com e sem o ajuste para mostrar a diferença.",
+      "evidencia": "aumentar o contraste e colocar uma",
+      "versao": 1
+    },
+    {
+      "numero": 15,
+      "titulo": "Aplicar filtro preto e branco para transmitir desespero",
+      "tipo": "procedimento",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "editar-video",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1140,
+      "fim": 1168,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: cena em que se quer passar desespero ou pedido de ajuda; no exemplo, a cena da senhora idosa.\n1. Ir em Filtros e escolher o filtro preto e branco.\n2. Aplicar o filtro no clipe.\n3. Diminuir um pouco a força do filtro, em vez de deixá-lo no máximo.",
+      "evidencia": "vamos colocar o preto e branco",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Rever o anúncio pronto e trocar música que não funcionou",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video",
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1236,
+      "fim": 1307,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Depois de montar o anúncio, o professor assiste de novo e, ao notar que um trecho de música não transmitiu o sentimento pretendido mesmo com o corte de vídeo correto, remove esse trecho e procura outra parte da faixa que funcione melhor, em vez de manter o que já estava editado.\nAo reencaixar o trecho novo na mesma posição do plot, ele refaz os cortes com Ctrl B, deleta o que sobra e repete o acabamento da emenda: diminui o volume de um lado, aumenta do outro e coloca de novo um fade bem pequeno.",
+      "evidencia": "a parte da música ficou ruim porque não transmitiu aquilo que a gente queria",
+      "versao": 2
+    },
+    {
+      "numero": 17,
+      "titulo": "Pipeline do criativo: Canva, ElevenLabs e CapCut",
+      "tipo": "estrutura",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video",
+        "produzir-locucao",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva",
+        "elevenlabs",
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1318,
+      "fim": 1341,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Canva: criação das artes e frames visuais do anúncio.\n2. ElevenLabs: geração da locução, a narração em voz sintética.\n3. CapCut: importação de tudo, edição do vídeo, sincronização com a locução, montagem da trilha sonora e dos efeitos sonoros, finalizando o criativo.\nO professor descreve essa sequência como a forma como monta os criativos do curso.",
+      "evidencia": "Começamos pelo Canva, Eleven Labs, jogamos para o CapCut",
+      "versao": 1
+    },
+    {
+      "numero": 18,
+      "titulo": "Exportar o criativo no CapCut: nome, local e resolução",
+      "tipo": "procedimento",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1373,
+      "fim": 1409,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: edição do criativo finalizada na timeline do CapCut.\n1. Clicar em Exportar.\n2. Dar um nome que identifique a campanha e o número do criativo, por exemplo 'Criativo 01'.\n3. Escolher onde salvar e não mexer na capa do vídeo.\n4. Ignorar a opção de exportar áudio separado, porque o CapCut já cria dois arquivos, um de vídeo e outro de áudio.\n5. Manter ou não a resolução em 1080; segundo o professor a diferença não é tão grande.\n6. Clicar em exportar.",
+      "evidencia": "ele vai criar dois arquivos, um arquivo de vídeo e outro de áudio",
+      "versao": 1
+    },
+    {
+      "numero": 19,
+      "titulo": "VSL e anúncio vertical seguem o mesmo processo, só muda a resolução",
+      "tipo": "regua",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1449,
+      "fim": 1476,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Segundo o professor, a única diferença entre editar uma VSL e editar o anúncio vertical trabalhado na aula é a resolução: a VSL usa 1920x1080, tamanho que ele trata como padrão, e o anúncio vertical usa 1080x1920. Edição, locução e trilha sonora seguem exatamente o mesmo processo nos dois formatos.",
+      "evidencia": "A edição, locução, trilha sonora, tudo é a mesma coisa",
+      "versao": 1
+    },
+    {
+      "numero": 20,
+      "titulo": "Vários cliques do CapCut nesta aula só aparecem na tela",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 1555,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Boa parte desta aula é uma demonstração de tela no CapCut, com o professor apontando cliques, menus e posições exatas sem sempre nomear o caminho completo de cada um. A transcrição não permite reconstruir com certeza todos os pontos de clique, como a localização exata de cada efeito, filtro ou corte na timeline; quem for reproduzir o passo a passo precisa assistir à aula junto com este material.",
+      "evidencia": "Vamos dar zoom na timeline, tá vendo?",
+      "versao": 2
+    },
+    {
+      "numero": 21,
+      "titulo": "Ligar dois trechos de música com corte, volume e fade",
+      "tipo": "procedimento",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 829,
+      "fim": 860,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Pré-condição: trilha sonora do anúncio já montada, com um trecho ainda descoberto entre a música principal e a música da conexão.\n1. Alongar a faixa de música segurando e arrastando a borda, para ela voltar um pouco e cobrir esse trecho.\n2. Cortar com Ctrl B no ponto de emenda.\n3. Diminuir o volume dessa parte.\n4. Aumentar o fade dela; fade, como o professor define, é a parte em que a música começa baixinha e vai aumentando.\n5. Fazer a mesma coisa na outra emenda, com um fade bem pequeno.",
+      "evidencia": "É a parte onde a música começa baixinha e vai aumentando.",
+      "versao": 1
+    },
+    {
+      "numero": 22,
+      "titulo": "Clipe sem fala associada: achar antes o próximo ponto de corte",
+      "tipo": "decisao",
+      "tema": "edicao-de-video",
+      "tarefas": [
+        "editar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 508,
+      "fim": 530,
+      "condicoes": "Vale para trecho genérico do vídeo, sem narração correspondente; no exemplo da aula, um clipe só com pessoas correndo.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O professor aponta o ponto na tela ao localizá-lo; a fala nomeia o critério (não se sabe onde vai ser o próximo frame, então localiza à frente), mas não descreve o ponto exato.",
+      "proposta_tag": null,
+      "corpo": "Quando o trecho de vídeo não tem uma fala diretamente associada, não dá para achar o corte pela narração, e o professor não sabe onde vai ser o próximo frame.\nNesse caso, localizar primeiro, mais à frente na timeline, onde começa a próxima parte que tem fala correspondente, e só então deixar o clipe genérico terminar nesse ponto.",
+      "evidencia": "A gente localiza ele aqui na frente",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        20
+      ],
+      "retiradas": [],
+      "observacoes": "C1: a unidade 20 tinha fim=1557, excedendo o limite de faixa. O atributo da transcrição declara fim_segundos=\"1555\" para esta aula, então o teto é 1555+2=1557; ainda assim o validador aponta a faixa 0–1557 como inválida, o que indica que o fim real usado pelo script é o do último segmento efetivo da transcrição (a fala \"E aí\" termina em 00:25:54.540 ≈ 1554,54s), cujo +2 fica abaixo de 1557. Corrigi o campo `fim` para 1555, exatamente o valor declarado no cabeçalho da transcrição para esta aula — dentro de qualquer uma das duas leituras do limite (≤1557 ou ≤1556,54) e sem depender de arredondamento. Não toquei em `inicio`, `evidencia`, `corpo` nem nos demais metadados, pois a falha só aponta a faixa e nenhum outro campo precisa de ajuste; a evidência (\"Vamos dar zoom na timeline, tá vendo?\", por volta de 247s) continua dentro da nova faixa 0–1555. A versão da unidade deve ser incrementada pelo executor, já que `fim` entra no hash."
+    },
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        16,
+        21,
+        22
+      ],
+      "retiradas": [],
+      "observacoes": "F1 (fade, unidades 8 e 16): procede. A fala em 829–860 traz a etapa inteira e a definição do termo: \"Já temos toda a trilha sonora do nosso vídeo / Porém, falta essa parte aqui / Que é entre a música principal e a conexão\"; \"Colocamos o CTRL B e nessa parte aqui vamos diminuir o volume\"; \"E vamos aumentar o fade. O que é fade? / É a parte onde a música começa baixinha e vai aumentando\"; \"Aqui vamos fazer a mesma coisa e colocar um fade bem pequeno\". Criei unidade `procedimento` nova em vez de acrescentar passos à unidade 8, porque a 8 fecha em 686 (posicionar o plot e deletar o resto) e o fade acontece 140 s depois, depois de a trilha já estar montada com três faixas; enfiar isso na 8 deformaria a faixa e o recorte dela. Assim a unidade 8 fica intacta e preserva o hash. Só o que a fala nomeia entrou: arrastar a borda, Ctrl B, diminuir volume, aumentar fade, fade pequeno na outra emenda — nenhum menu ou valor numérico foi acrescentado, porque a fala não dá nenhum.\n\nF1, parte da unidade 16: a vizinhança sustenta, sim. Em 1286–1306: \"e aqui vamos dar um ctrl B e vamos ctrl B aqui, teletamos e colocamos o fader novamente / Diminuímos o volume / Aumentamos o volume aqui / E colocamos um fade bem pequeno\". Acrescentei uma segunda linha ao corpo com esse acabamento e estendi a faixa de 1236–1247 para 1236–1307, que é onde o trecho vive. A evidência foi mantida (continua literal e dentro da nova faixa). No corpo usei \"fade\"; a transcrição escreve \"fader\" nesse ponto, o que fica registrado aqui e não no corpo. `versao` da unidade 16 deve ir para 2 (o campo não existe neste formato de entrega).\n\nF2 (unidade 6): procede, e a fala nomeia o critério — não é caso de fallback no limite 20. Em 515–522: \"Como a gente não sabe / Aonde que vai ser o próximo frame / A gente localiza ele aqui na frente\"; em 542–548: \"ele veio, finalizou aqui / E a próxima parte / É a mulher\". Criei unidade `decisao` começando com \"Quando\", conforme a primeira opção da mudança mínima, e deixei a unidade 6 intacta para preservar o hash dela; a exceção se lê sozinha e aponta o mesmo procedimento de corte. Coloquei `confianca: media` com nota porque o professor localiza o ponto apontando na tela: a regra de decisão está na fala, a posição exata do corte não. O limite 20 não foi alterado, já que a exceção deixou de ser conteúdo perdido na imagem.\n\nNenhuma outra unidade foi tocada e nada foi renumerado."
+    }
+  ]
+}

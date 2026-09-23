@@ -1,0 +1,426 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G06_A04",
+  "titulo": "Episódio 4 - Canva Emagrecimento",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula de tela da trilha Hard Ads, grupo Produtos com Dores: o professor monta no Canva os quadros de um criativo de anúncio em vídeo para o nicho de emagrecimento e depois gera a locução no ElevenLabs.",
+    "O foco é o subtexto no criativo: a imagem diz o que o texto não diz. Também entram escolhas de imagem, cor e animação e os truques que o professor usa contra a moderação da Meta.",
+    "Boa parte do trabalho ficou só na tela (cliques, camadas, efeitos, escolha de cada foto). A transcrição não captura esses passos, e por isso a aula rende poucos procedimentos.",
+    "O texto lido na aula é copy de exemplo, em primeira pessoa, sobre 'emagrecer a mente primeiro'. Suas alegações e números pertencem a essa copy fictícia e não são régua.",
+    "A aula assume que o formato e o tamanho do criativo já foram vistos na segunda temporada. Deixa a montagem final, com áudio e junção de tudo no CapCut, para a aula seguinte."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Formato e tamanho do criativo ficam para a segunda temporada",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 57,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor não repete nesta aula o tamanho e o formato do criativo no Canva, porque diz já tê-los mostrado na segunda temporada do curso. Quem precisar dessas medidas deve buscá-las lá; esta aula só mostra a montagem em cima do formato já definido.",
+      "evidencia": "eu mostrei qual que é o tamanho, o formato que você vai utilizar",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Montagem no Canva ficou em grande parte só na tela",
+      "tipo": "limite",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 1075,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A maior parte da aula é o professor mexendo no Canva: trocar template, fundo, fontes, camadas, sombras, fotos e efeitos de animação, com falas como 'olha só'. A transcrição não permite reconstruir esses passos (qual foto, qual fonte, qual efeito em qual quadro). Só entram como unidades as orientações que a fala explica por si. Não use esta aula como passo a passo de cliques.",
+      "evidencia": "Estamos no Canva, um lugar maravilhoso, onde acontecem as mágicas, onde tudo pode, tá?",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Trabalhar com subtexto: a imagem diz o que o texto não diz",
+      "tipo": "regra",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "montar-criativo-visual",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 130,
+      "fim": 160,
+      "condicoes": "Exemplo dado em criativo de emagrecimento com texto sobre homens diretos.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao montar cada quadro, escolha imagens que façam a pessoa entender o que ela quer sem que o texto diga. O professor define subtexto como aquilo que as pessoas não estão lendo, mas estão vendo. Ele orienta a colocar elementos visuais que façam a pessoa captar a ideia, em vez de escrevê-la.",
+      "evidencia": "sempre trabalhar com o subtexto, aquilo que as pessoas não estão lendo, mas estão vendo",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Frase de destaque na mesma cor de um elemento da imagem",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 180,
+      "fim": 186,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala não deixa claro de qual elemento da imagem a cor é copiada; adiante o professor repete o gesto com camisa, cabelo e foguete, mas isso não está coberto pela faixa desta unidade.",
+      "proposta_tag": null,
+      "corpo": "Quando a imagem e o texto não casam bem, o professor pega a frase de destaque e a pinta na mesma cor de um elemento da imagem. Ele classifica o resultado como incrível.",
+      "evidencia": "Pega a frase de destaque e coloca Na mesma cor, incrível",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Foto ruim: melhorar resolução com upscaler 4x do Canva",
+      "tipo": "ferramenta",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 236,
+      "fim": 248,
+      "condicoes": "Vale para imagem com resolução péssima trazida de busca no Google.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "O ícone do menu foi chamado de 'borboletinha' e os cliques ficaram na tela.",
+      "proposta_tag": null,
+      "corpo": "Se a foto boa tem resolução péssima, o professor abre 'editar a imagem' no Canva, usa o recurso de upscaler de imagem em 4x e substitui a foto original pela versão aumentada. Ele diz que o resultado ficou perfeito no exemplo.",
+      "evidencia": "imagem upscaler, coloca 4x, vamos ver, se vai dar alguma coisa",
+      "versao": 1
+    },
+    {
+      "numero": 6,
+      "titulo": "Imagem de homem comum, não de homem muito bonito",
+      "tipo": "regra",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "montar-criativo-visual",
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 322,
+      "fim": 386,
+      "condicoes": "Preferência do professor para o criativo de emagrecimento com narradora que fala do comportamento de homens; a afirmação de que há estudos é dele e não foi verificada.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para ilustrar o comportamento de homens diretos, o professor usa a foto de um homem do cotidiano, uma pessoa normal, que a espectadora associa aos homens que conheceu. Ele diz que, com homem muito bonito, a abordagem soa como cantada; com homem feio, a conversa muda. Por isso não recomenda pôr um homem lindo nesse ponto: a imagem não passaria a ideia de querer algo sem conversa nem conexão.",
+      "evidencia": "Se você colocar um homem bonitinho Lindo, não vai pegar muito bem",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Antes e depois: foto sem muita pele e com antes separado do depois",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 472,
+      "fim": 493,
+      "condicoes": "Anúncio de emagrecimento com antes e depois, na visão do professor sobre a moderação do Facebook.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Contorna política de plataforma ou direito de terceiros: o professor ensina a apresentar antes e depois de modo que a moderação não o leia como tal; a decisão de aplicar é de quem consulta.",
+      "proposta_tag": null,
+      "corpo": "Use foto que não mostre muita pele, porque senão o Facebook bloqueia. O professor diz que, na forma como anuncia, o antes e o depois ficam bem separados, e por isso o anúncio não sofre bloqueio; segundo ele, assim se consegue escapar.",
+      "evidencia": "ele não dá bloqueio porque o antes e o depois é muito separado",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "No quadro de antes e depois, deixar a imagem sem texto",
+      "tipo": "regra",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 516,
+      "fim": 529,
+      "condicoes": "Exemplo do quadro com a foto da barriga da personagem.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Em um quadro cuja imagem já comunica, o professor não escreve nada. Ele explica que o subtexto fala mais do que o texto, então deixa a foto sozinha e passa ao próximo quadro.",
+      "evidencia": "Porque o subtexto vai falar mais do que o texto",
+      "versao": 1
+    },
+    {
+      "numero": 9,
+      "titulo": "Criativo que faz pensar em vez de cara de VSL",
+      "tipo": "regra",
+      "tema": "estrutura-de-anuncio",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 662,
+      "fim": 712,
+      "condicoes": "Preferência pessoal do professor, dada no criativo de emagrecimento de exemplo.",
+      "perecivel": false,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor quer que o anúncio provoque reflexão e não seja só sobre corpo ou barriga: a ideia é fazer a pessoa pensar e ainda mostrar o resultado da personagem. Ele diz não gostar do visual com cara de VSL, de conversinha enfiada, e prefere uma pegada mais pensativa, que mexe mais com a pessoa. É preferência dele, não lei.",
+      "evidencia": "A gente quer fazer a pessoa pensar",
+      "versao": 1
+    },
+    {
+      "numero": 10,
+      "titulo": "Repetir um quadro como mini arma de Chekhov",
+      "tipo": "regra",
+      "tema": "subtexto-e-curiosidade",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 717,
+      "fim": 732,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "media",
+      "nota": "A fala é curta; o professor não explica o mecanismo além de chamar a repetição de mini arma de Chekhov.",
+      "proposta_tag": null,
+      "corpo": "O professor reaproveita em outro quadro do criativo um elemento já usado antes e diz que isso funciona como uma mini arma de Chekhov (princípio de que todo elemento presente em uma história deve ser necessário). Ele ressalva que não chega nem perto de uma arma de Chekhov de verdade, mas já é o início dela para um anúncio.",
+      "evidencia": "Para dar uma mini arma de Chekhov",
+      "versao": 1
+    },
+    {
+      "numero": 11,
+      "titulo": "Seta no criativo: sugerir a seta sem que pareça seta",
+      "tipo": "regra",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 856,
+      "fim": 921,
+      "condicoes": "Segundo o professor sobre o Facebook; ele mesmo mantém uma seta no quadro final por ser o call to action.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Contorna política de plataforma ou direito de terceiros: o professor evita seta literal para não ser bloqueado. A fala é ambígua sobre o desenho exato do elemento que sugere seta, e mais adiante ele mantém uma seta no quadro final; as duas coisas ficam registradas.",
+      "proposta_tag": null,
+      "corpo": "Seta explícita no criativo provavelmente é bloqueada pelo Facebook, diz o professor. Ele coloca algo que não pareça uma seta, mas que a pessoa entenda como seta. Depois, no quadro final, ele diz manter a seta porque ela já é o call to action.",
+      "evidencia": "provavelmente vai bloquear então você coloca sempre algo mais assim",
+      "versao": 1
+    },
+    {
+      "numero": 12,
+      "titulo": "Hack do antes e depois: sequência de imagens com o antes sem sentido",
+      "tipo": "exemplo",
+      "tema": "politicas-e-bloqueios",
+      "tarefas": [
+        "revisar-risco-de-bloqueio",
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "meta-ads"
+      ],
+      "fonte": "fala",
+      "inicio": 944,
+      "fim": 1002,
+      "condicoes": "Criativo de emagrecimento em vídeo montado no Canva; a eficácia contra o Facebook é afirmação do professor.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": "Contorna política de plataforma ou direito de terceiros: mostra antes e depois de forma que a moderação leia como imagem normal; a decisão de aplicar é de quem consulta.",
+      "proposta_tag": null,
+      "corpo": "Situação: o professor precisa mostrar antes e depois de emagrecimento sem ser bloqueado.\nO que aconteceu: ele passa várias imagens em sequência e, segundo ele, o Facebook aceita e lê o conjunto como imagem normal, sem associar ao emagrecimento. O antes da personagem aparece só no meio dessas imagens, sem sentido para a plataforma, e o depois vem em seguida. Ele diz que assim não há anúncio agressivo nem black.\nLógica: para o professor, o antes e depois tem muito poder de venda, e essa sequência é o hack dele para usá-lo. A pessoa que assiste completa o sentido sozinha, e essa lógica é o subtexto: o que se vê e não está escrito.",
+      "evidencia": "Esse é o nosso hack pra postar antes e depois, gente.",
+      "versao": 1
+    },
+    {
+      "numero": 13,
+      "titulo": "Animação simples e limpa, sem excesso de efeito",
+      "tipo": "regra",
+      "tema": "direcao-de-arte-e-texto-na-tela",
+      "tarefas": [
+        "montar-criativo-visual"
+      ],
+      "plataformas": [
+        "canva"
+      ],
+      "fonte": "fala",
+      "inicio": 1012,
+      "fim": 1053,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao animar os quadros no Canva, o professor manda não usar animação tosca nem cheia de efeitos. Prefere uma pegada mais limpa e mais clara, com movimentos simples nos blocos e nas palavras, sem deixar o criativo feio.",
+      "evidencia": "Lembrando, não coloque animação tosca.",
+      "versao": 1
+    },
+    {
+      "numero": 14,
+      "titulo": "Preparar o texto e configurar a voz no ElevenLabs",
+      "tipo": "ferramenta",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 1134,
+      "fim": 1340,
+      "condicoes": "Para quem não quer gravar a própria voz.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A fala sobre a versão do modelo multilingual é confusa na transcrição ('multilingual.2', '2.2', '2.5'). Só se sabe que ele confere se o modelo multilingual está selecionado. Também não ficou claro o que exatamente eram 'espaços' apagados.",
+      "proposta_tag": null,
+      "corpo": "Pré-condição: texto do criativo pronto e o ElevenLabs aberto.\n1. Cole o texto e apague os espaços e marcações usados na montagem.\n2. Troque abreviações como KG por extenso, por exemplo '20 quilos'.\n3. Confira a escrita e se há números no texto: com números, a voz pode falar em inglês.\n4. Escolha uma voz feminina ou masculina que faça sentido para o anúncio.\n5. Abra as configurações e confira se está no modelo multilingual.\n6. Se a entonação ficar ruim, ajuste a similaridade e teste de novo com o multilingual.\n7. Clique no botão de baixar a locução.",
+      "evidencia": "aí se tiver números ele vai falar inglês",
+      "versao": 2
+    },
+    {
+      "numero": 15,
+      "titulo": "Copy de exemplo: emagrecer a mente primeiro",
+      "tipo": "exemplo",
+      "tema": "anuncio-produto-com-dor",
+      "tarefas": [
+        "roteirizar-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1240,
+      "fim": 1277,
+      "condicoes": "Copy de exemplo escrita pelo professor; alegações, personagem e números ('20 quilos') pertencem ao texto fictício e não são dados.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Situação: o professor quer um anúncio de emagrecimento em vídeo que sirva de exemplo.\nO que aconteceu: a locução é em primeira pessoa e começa falando de homens diretos que chegam querendo algo sem conversa. A narradora se assume igualmente invasiva com o próprio corpo, comendo sem pensar. Ela vê a semelhança e diz que abriu a mente e fechou a boca, chegando à ideia de emagrecer a mente primeiro. Fecha convidando a tocar em saiba mais.\nLógica: o ângulo parte de um comportamento conhecido, liga-o ao próprio problema da narradora e só depois entrega a virada, sem falar de dieta logo no início. É copy de exemplo, não modelo garantido.",
+      "evidencia": "Já percebeu quantos homens hoje em dia são direitos?",
+      "versao": 1
+    },
+    {
+      "numero": 16,
+      "titulo": "Voz de IA funciona, mas o professor aconselha gravar a própria",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1344,
+      "fim": 1370,
+      "condicoes": "Preferência do professor; o exemplo que ele cita é o de um produto dele.",
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "A frase logo antes do exemplo está truncada na transcrição ('Cláudia, não funciona'); só se afirma o que a sequência seguinte confirma. A grafia 'hardcopy' na fonte foi adotada como Hard Copy (hipótese).",
+      "proposta_tag": null,
+      "corpo": "Quem não quer gravar a voz pode usar voz de inteligência artificial. O professor aconselha muito gravar a própria voz. Ele conta que o Hard Copy começou com voz de IA, que depois foi trocada pela dele, e que a VSL do Hard Copy feita com voz de IA funcionou muito bem.",
+      "evidencia": "Eu aconselho muito a gravar a voz",
+      "versao": 1
+    },
+    {
+      "numero": 17,
+      "titulo": "Locução gerada nesta aula; montagem no CapCut fica para a próxima",
+      "tipo": "limite",
+      "tema": "curso-e-recursos",
+      "tarefas": [
+        "usar-recursos-do-curso"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 1337,
+      "fim": 1390,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "O professor incluiu a geração da locução nesta aula para não perder tempo depois no CapCut. Junção dos quadros com o áudio e finalização ficam para a aula seguinte.",
+      "evidencia": "Até a próxima aula, onde a gente já vai meter o cacete no CapCut",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 0,
+      "por": "sonnet-5",
+      "unidades": [
+        14
+      ],
+      "retiradas": [],
+      "observacoes": "C1 (U014): o corpo tinha 9 linhas e o limite para o tipo `ferramenta` é 8. Fundi os passos 3 e 4 (\"confere se não tem números que aí se tiver números ele vai falar inglês tá e confere a escrita\"), que a fonte dá em sequência. O corpo ficou com 8 linhas, sem perder nenhuma ação nem condição. Os demais campos, a faixa e a evidência não mudaram. A evidência continua dentro da faixa 1134–1340. Não converti o tipo para `procedimento`, para não alterar metadado além do que a falha pede."
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Validação e geração determinística da base Formato Criativo de Conteúdo (stdlib).
+"""Validação e geração determinística de base de conhecimento por curso (stdlib).
+
+O curso vem da variável de ambiente CURSO (padrão: formato-criativo-de-conteudo). O que é próprio
+de cada curso fica em PROFILES: commit das fontes, contagem por grupo, materiais e leitura do manifesto.
 
 Adaptado de base_consulta.py. O JSON por aula em conhecimento/dados/ é a fonte editável;
 unidades Markdown, unidades.jsonl, cobertura.jsonl e índices são derivados.
@@ -8,24 +11,53 @@ Os enums vêm de conhecimento/taxonomia.md, nunca deste arquivo.
 import argparse
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
-COURSE = 'formato-criativo-de-conteudo'
+PROFILES = {
+    'formato-criativo-de-conteudo': {
+        'base': 'aaff8b6daa998403849b9edf5393c023c30db8de',
+        'aulas_por_grupo': {1: 6, 2: 10, 3: 11, 4: 10, 5: 7, 6: 8, 7: 2},
+        # Materiais que não entram no pacote do extrator, com o motivo registrado.
+        'materiais_ignorados': {
+            'M02_A09': 'PDF de apoio da aula 9 repete o da aula 8 (Storytelling Visual); o Markdown só registra a divergência, sem conteúdo didático da aula',
+        },
+    },
+    'hardcopy-pro': {
+        'base': '7470ca05b1ba5a27a1081745df0d881b92aeaec6',
+        # 18 grupos na ordem do manifesto; o grupo 2 inclui o material avulso como última aula.
+        'aulas_por_grupo': {1: 9, 2: 12, 3: 6, 4: 7, 5: 5, 6: 12, 7: 13, 8: 10, 9: 7, 10: 7, 11: 6, 12: 6, 13: 6, 14: 6, 15: 5, 16: 9, 17: 5, 18: 8},
+        'materiais_ignorados': {},
+        # Grafias que a transcrição deforma e o contrato (FORMATO, seção 3) manda trocar fora de `evidencia` e `nota`.
+        'grafias_deformadas': r'\b(Kinshu\w*|Kishu|Kensho|quinchu\w*|Kinshoten|Kenshu|Genketsu|Kim Shu|quinchotem|BSL|PSL|DSL|MVR|R[áa]dio Cop\w*|R[áa]dio Clop|RedCop\w*|Eleven (Lapse|Eves|Leves|Lex)|Level ?Labs|chat (de PT|EPT|IPT|APT)|VO3|VL3|Rengen|Qify|QI-Fi|Golderi|Vetorbi|UTM file|TapCut|ads librar\w*|Ads Libr\w+|Eds Libr\w+|Rodem Bump|ordenbump|Save from Mad|Tchekhov|ROD)\b',
+        # Resíduo de silêncio da transcrição automática: nunca é âncora nem assunto.
+        'residuos': r'Legenda Adriana Zanotto|Australian Broadcasting Corporation',
+        # Material sem aula gravada: entra como aula só de material, no fim do grupo indicado.
+        # Decisão de Will em 21/09/2026: páginas de aula e índice espelham as pastas do curso, como o criador organizou. Os dados de consulta continuam únicos.
+        'espelha_curso': True,
+        'materiais_avulsos': [
+            {'grupo': '01 Hard Copy/2a Temporada - Kishotenketsu', 'pasta': 'hc_surpresa_estruturacao_de_copy',
+             'titulo': 'Surpresa: estruturação de copy', 'arquivo': 'Materiais/01 Hard Copy/Surpresa/estruturacao_de_copy.md'},
+        ],
+    },
+}
+COURSE = os.environ.get('CURSO', 'formato-criativo-de-conteudo')
+PROFILE = PROFILES[COURSE]
 CDIR = ROOT / COURSE
 KNOW = CDIR / 'conhecimento'
 PROC = CDIR / 'processamento' / 'base-consulta'
-BASE = 'aaff8b6daa998403849b9edf5393c023c30db8de'
+BASE = PROFILE['base']
 REPO = 'tc3midia/cursos'
-LESSONS_PER_MODULE = {1: 6, 2: 10, 3: 11, 4: 10, 5: 7, 6: 8, 7: 2}
-# Materiais que não entram no pacote do extrator, com o motivo registrado.
-IGNORED_MATERIALS = {
-    'M02_A09': 'PDF de apoio da aula 9 repete o da aula 8 (Storytelling Visual); o Markdown só registra a divergência, sem conteúdo didático da aula',
-}
+LESSONS_PER_MODULE = PROFILE['aulas_por_grupo']
+IGNORED_MATERIALS = PROFILE['materiais_ignorados']
+DEFORMED = re.compile(PROFILE['grafias_deformadas'], re.I) if PROFILE.get('grafias_deformadas') else None
+RESIDUE = re.compile(PROFILE['residuos'], re.I) if PROFILE.get('residuos') else None
 STAMP = re.compile(r'^\[(\d\d):(\d\d):(\d\d)\.(\d{3})[–-](\d\d):(\d\d):(\d\d)\.(\d{3})\] ?', re.M)
 SOURCES = ('fala', 'material', 'fala+material')
 UNIT_FIELDS = {'numero', 'titulo', 'tipo', 'tema', 'tarefas', 'plataformas', 'fonte', 'inicio', 'fim', 'condicoes',
@@ -95,7 +127,52 @@ def parse_segments(text):
     return segments
 
 
+def source_files(files):
+    return {k: {'caminho': p.relative_to(ROOT).as_posix(), 'sha256': sha(p.read_bytes())} for k, p in files.items()}
+
+
+def seconds(value):
+    h, m, s = value.split(':')
+    return int(h) * 3600 + int(m) * 60 + float(s)
+
+
+def inventory_hardcopy():
+    """Manifesto sem número de aula: o grupo e a ordem vêm da posição no manifesto; o aula_id vem da pasta, que é estável."""
+    items = [json.loads(line) for line in (CDIR / 'manifest.jsonl').read_text().splitlines()]
+    groups = list(dict.fromkeys(item['grupo'] for item in items))
+    rows, order = [], defaultdict(int)
+
+    def common(group, folder, title):
+        number = groups.index(group) + 1
+        order[number] += 1
+        return {'curso': COURSE, 'aula': f'G{number:02}_A{order[number]:02}', 'aula_id': sha(f'{COURSE}/{folder}'.encode())[:16],
+                'trilha': group.split('/')[0], 'modulo': f'{number:02}', 'modulo_titulo': group, 'ordem': order[number],
+                'titulo': title, 'pasta': folder, 'fonte_repo': REPO, 'fonte_commit': BASE, 'material_ignorado': None}
+
+    for item in items:
+        source = CDIR / item['arquivo']
+        folder = source.parent
+        text = source.read_text()
+        segments = parse_segments(text)
+        if not segments:
+            raise ValueError(f'Fonte sem timestamps: {source}')
+        row = {**common(item['grupo'], folder.name, item['titulo']),
+               'duracao_segundos': seconds(item['duracao_original']), 'fim_transcricao_segundos': max(s[1] for s in segments),
+               'palavras_transcricao': len(text.split()), 'video_sha256': item['sha256'], 'video_bytes': item['tamanho_bytes'],
+               'fontes': source_files({'transcricao': source, 'legenda': folder / 'legenda.srt', 'segmentos': folder / 'segmentos.json'})}
+        rows.append((row, text, segments, None))
+    for extra in PROFILE.get('materiais_avulsos', []):
+        path = CDIR / extra['arquivo']
+        row = {**common(extra['grupo'], extra['pasta'], extra['titulo']), 'duracao_segundos': 0, 'fim_transcricao_segundos': 0,
+               'palavras_transcricao': 0, 'video_sha256': None, 'video_bytes': 0, 'fontes': source_files({'material': path})}
+        rows.append((row, '', [], path.read_text()))
+    rows.sort(key=lambda r: r[0]['aula'])
+    return rows
+
+
 def inventory():
+    if COURSE == 'hardcopy-pro':
+        return inventory_hardcopy()
     rows = []
     for line in (CDIR / 'manifest.jsonl').read_text().splitlines():
         item = json.loads(line)
@@ -133,7 +210,7 @@ def inventory_errors(rows):
     count = defaultdict(int)
     for row, *_ in rows:
         count[int(row['modulo'])] += 1
-        if row['titulo'] != (CDIR / row['fontes']['transcricao']['caminho'].split('/', 1)[1]).read_text().splitlines()[0].removeprefix('# '):
+        if 'transcricao' in row['fontes'] and row['titulo'] != (CDIR / row['fontes']['transcricao']['caminho'].split('/', 1)[1]).read_text().splitlines()[0].removeprefix('# '):
             errors.append(f'{row["aula"]}: título do manifesto difere do cabeçalho da transcrição')
     if dict(count) != LESSONS_PER_MODULE:
         errors.append(f'Contagem por módulo divergente: {dict(count)}')
@@ -195,6 +272,8 @@ def validate_lesson(row, text, segments, material, data, tax):
     require(isinstance(context, list) and 3 <= len(context) <= 8 and all(isinstance(x, str) and x.strip() for x in context), 'contexto exige 3–8 frases')
     for sentence in context if isinstance(context, list) else []:
         require(not FORBIDDEN_WORDS.search(str(sentence)) and not TIME_IN_BODY.search(str(sentence)), 'contexto com marcador temporal ou timestamp')
+        if DEFORMED and DEFORMED.search(str(sentence)):
+            errors.append(f'{row["aula"]}: contexto com grafia deformada "{DEFORMED.search(str(sentence)).group(0)}"')
     retired = data.get('retiradas', [])
     require(isinstance(retired, list) and all(type(n) is int for n in retired), 'retiradas inválidas')
     units = data.get('unidades', [])
@@ -234,6 +313,12 @@ def validate_lesson(row, text, segments, material, data, tax):
         require(1 <= len(lines) <= limit and len(body.strip()) > 15, f'{tag}: corpo com {len(lines)} linhas (limite {limit})')
         require(not TIME_IN_BODY.search(body), f'{tag}: timestamp ou marcação no corpo')
         require(not FORBIDDEN_WORDS.search(body), f'{tag}: marcador temporal no corpo')
+        if DEFORMED:
+            for field in ('titulo', 'corpo', 'condicoes'):
+                found = DEFORMED.search(u[field] or '')
+                require(not found, f'{tag}: grafia deformada "{found.group(0) if found else ""}" em {field}; usar a grafia adotada do FORMATO')
+        if RESIDUE:
+            require(not RESIDUE.search(str(u['evidencia']) + ' ' + body), f'{tag}: resíduo de silêncio da transcrição usado como fonte')
         if u['tipo'] == 'regua':
             require(NUMBER.search(body), f'{tag}: régua sem número')
         if u['tipo'] == 'procedimento':
@@ -246,9 +331,10 @@ def validate_lesson(row, text, segments, material, data, tax):
             require(all(mark in body for mark in ('Situação:', 'O que aconteceu:', 'Lógica:')), f'{tag}: exemplo exige Situação/O que aconteceu/Lógica')
         if u['tipo'] == 'fato-material':
             require(u['fonte'] == 'material', f'{tag}: fato-material exige fonte material')
-        words = norm(body).split()
-        for haystack in (transcript, material_text):
-            require(not any(' '.join(words[i:i + 25]) in haystack for i in range(max(0, len(words) - 24))), f'{tag}: cópia de 25 palavras no corpo')
+        # Cópia bruta por sequência de palavras: marcação de tempo, caixa, pontuação e Markdown da fonte não escondem a cópia.
+        words = word_seq(body).split()
+        for haystack in (transcript_words, material_words):
+            require(not any(' ' + ' '.join(words[i:i + 25]) + ' ' in haystack for i in range(max(0, len(words) - 24))), f'{tag}: cópia de 25 palavras no corpo')
         require(u['fonte'] in SOURCES, f'{tag}: fonte inválida {u["fonte"]!r}')
         require(u['fonte'] == 'fala' or bool(material_text), f'{tag}: fonte cita material, mas a aula não tem material utilizável')
         evidence = u['evidencia'] if isinstance(u['evidencia'], str) else ''
@@ -329,10 +415,24 @@ def unit_md(row, u):
     return '\n'.join(lines)
 
 
+def page_path(row):
+    """Caminho da página da aula dentro de `conhecimento/unidades/`. Curso espelhado: o mesmo caminho da pasta da fonte no curso."""
+    if not PROFILE.get('espelha_curso'):
+        return f'{row["aula"]}.md'
+    source = next(iter(row['fontes'].values()))['caminho']
+    return Path(source).parent.relative_to(COURSE).as_posix() + '.md'
+
+
+def page_group(row):
+    """Pasta do curso em que a aula mora, com o nome que o criador deu: trilha e grupo, ou `Materiais/...` para material avulso."""
+    return Path(page_path(row)).parent.as_posix()
+
+
 def lesson_md(row, data, status):
-    names = ['transcricao.md'] + ([Path(row['fontes']['material']['caminho']).name] if 'material' in row['fontes'] and not row['material_ignorado'] else [])
+    names = (['transcricao.md'] if 'transcricao' in row['fontes'] else []) + ([Path(row['fontes']['material']['caminho']).name] if 'material' in row['fontes'] and not row['material_ignorado'] else [])
     front = ['---', 'type: unidades-aula', f'status: {status}', f'title: {json.dumps(row["titulo"], ensure_ascii=False)}',
-             f'curso: {COURSE}', f'modulo: "{row["modulo"]}"', f'ordem: {row["ordem"]}', f'aula: {row["aula"]}', f'aula_id: {row["aula_id"]}',
+             f'curso: {COURSE}', *([f'trilha: {json.dumps(row["trilha"], ensure_ascii=False)}'] if 'trilha' in row else []),
+             *([f'grupo: {json.dumps(page_group(row), ensure_ascii=False)}'] if PROFILE.get('espelha_curso') else []), f'modulo: "{row["modulo"]}"', f'ordem: {row["ordem"]}', f'aula: {row["aula"]}', f'aula_id: {row["aula_id"]}',
              'account_id: account.86ajrj8n9', f'fonte_repo: {REPO}', f'fonte_commit: {BASE[:7]}', 'fontes:', *[f'  - {n}' for n in names]]
     if row['material_ignorado']:
         front += ['fontes_ignoradas:', f'  - {Path(row["fontes"]["material"]["caminho"]).name}: {json.dumps(row["material_ignorado"], ensure_ascii=False)}']
@@ -367,9 +467,10 @@ def generated(allow_partial=False):
             raise ValueError('\n'.join(errors))
         status = lesson_status(row)
         entries.append((row, data, status))
-        outputs[f'{COURSE}/conhecimento/unidades/{row["aula"]}.md'] = lesson_md(row, data, status)
+        outputs[f'{COURSE}/conhecimento/unidades/{page_path(row)}'] = lesson_md(row, data, status)
         for u in data['unidades']:
-            record = {'id': unit_id(row, u), 'aula': row['aula'], 'aula_id': row['aula_id'], 'modulo': row['modulo'], 'ordem': row['ordem'],
+            record = {'id': unit_id(row, u), 'aula': row['aula'], 'aula_id': row['aula_id'], **({'trilha': row['trilha']} if 'trilha' in row else {}),
+                      **({'grupo': page_group(row), 'pagina': f'unidades/{page_path(row)}'} if PROFILE.get('espelha_curso') else {}), 'modulo': row['modulo'], 'ordem': row['ordem'],
                       'aula_titulo': row['titulo'], 'status_aula': status, **{k: u[k] for k in sorted(UNIT_FIELDS)}, 'hash': unit_hash(row, u)}
             flat.append(record)
             if u['proposta_tag']:
@@ -385,7 +486,7 @@ def generated(allow_partial=False):
     outputs[f'{COURSE}/conhecimento/cobertura.jsonl'] = ''.join(json.dumps(r, ensure_ascii=False, sort_keys=True) + '\n' for r in coverage)
 
     def link(r):
-        return f'- [{r["aula"]}: {r["titulo"]}](../unidades/{r["aula"]}.md#{r["id"].lower().replace(":", "-")}) · `{r["id"]}` · {r["tipo"]}' + (' · perecível' if r['perecivel'] else '')
+        return f'- [{r["aula"]}: {r["titulo"]}](../{quote(r["pagina"]) if "pagina" in r else "unidades/" + r["aula"] + ".md"}#{r["id"].lower().replace(":", "-")}) · `{r["id"]}` · {r["tipo"]}' + (' · perecível' if r['perecivel'] else '')
 
     for kind, key, single in (('temas', 'tema', True), ('tarefas', 'tarefas', False)):
         for slug, definition in tax[kind].items():
@@ -403,8 +504,19 @@ def generated(allow_partial=False):
     index = [f'# Base de conhecimento: {COURSE}', '', f'{len(entries)}/{len(rows)} aulas · {len(flat)} unidades.', '',
              'Base para consulta por agentes. Dados de primeira classe: [unidades.jsonl](unidades.jsonl) e [cobertura.jsonl](cobertura.jsonl). '
              'Contrato em [FORMATO.md](FORMATO.md) e [taxonomia.md](taxonomia.md). O alcance real da revisão está em [processamento](../processamento/base-consulta/README.md).', '',
-             '## Aulas', '', '| Aula | Título | Unidades | Status |', '|---|---|---:|---|']
-    index += [f'| {row["aula"]} | [{row["titulo"]}](unidades/{row["aula"]}.md) | {len(data["unidades"])} | {status} |' for row, data, status in entries]
+             '## Aulas', '']
+    if PROFILE.get('espelha_curso'):
+        # Mesma ordem e mesmos nomes de pasta do curso; material avulso por último, na pasta em que o curso o guarda.
+        index += ['As pastas de `unidades/` repetem as do curso, com os nomes que o criador deu.', '']
+        ordered = sorted(entries, key=lambda e: ('transcricao' not in e[0]['fontes'], e[0]['aula']))
+        for group in dict.fromkeys(page_group(row) for row, _, _ in ordered):
+            index += [f'### {group}', '', '| Aula | Título | Unidades | Status |', '|---|---|---:|---|']
+            index += [f'| {row["aula"]} | [{row["titulo"]}](unidades/{quote(page_path(row))}) | {len(data["unidades"])} | {status} |' for row, data, status in ordered if page_group(row) == group]
+            index.append('')
+        index.pop()
+    else:
+        index += ['| Aula | Título | Unidades | Status |', '|---|---|---:|---|']
+        index += [f'| {row["aula"]} | [{row["titulo"]}](unidades/{row["aula"]}.md) | {len(data["unidades"])} | {status} |' for row, data, status in entries]
     for kind in ('temas', 'tarefas'):
         index += ['', f'## {kind.capitalize()}', '']
         for slug in tax[kind]:

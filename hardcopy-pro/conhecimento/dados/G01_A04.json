@@ -1,0 +1,100 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G01_A04",
+  "titulo": "Episódio 04 Mecanismo Único, parte 02",
+  "extraido_em": "2026-09-21",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula curta de continuação sobre mecanismo único (o diferencial do produto em relação aos outros do mercado), na 1a Temporada do Hard Copy. O professor a chama de parte 2 e diz que resolveu gravá-la pela importância do mecanismo no produto.",
+    "Dirigida a quem vai criar o primeiro produto e a VSL. Assume que o aluno já viu a parte 1 sobre mecanismo único.",
+    "Traz o argumento de que sem mecanismo único a copy não salva, a dica de vender um produto ligado à própria dor e a orientação de pesquisar dores nos comentários do YouTube antes de escrever a copy.",
+    "Deixa para a aula seguinte a estrutura da VSL. O fecho da transcrição tem resíduo de silêncio, que não foi usado."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Sem mecanismo único, a copy fica no mais do mesmo",
+      "tipo": "regra",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico",
+        "diagnosticar-copy-ou-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 33,
+      "fim": 67,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "O professor atribui \"50%\" ao mecanismo único como estimativa pessoal (\"provavelmente\"), não como dado medido.",
+      "proposta_tag": null,
+      "corpo": "Sem um mecanismo único (o diferencial do produto em relação aos outros do mercado), o produto vira o mais do mesmo. Nenhuma estratégia, nem o Kishotenketsu, compensa isso: é preciso ter um mecanismo único bom.\nSe a copy é boa, o produto é bacana, a VSL é bem feita e mesmo assim não vendeu, o professor diz que provavelmente 50% do problema está no mecanismo único. É estimativa dele, não medição.",
+      "evidencia": "Se você não tiver um mecanismo único, você vai ser o mais do mesmo",
+      "versao": 1
+    },
+    {
+      "numero": 2,
+      "titulo": "Para o primeiro produto, venda algo ligado à sua própria dor",
+      "tipo": "decisao",
+      "tema": "mecanismo-unico",
+      "tarefas": [
+        "definir-mecanismo-unico"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 67,
+      "fim": 205,
+      "condicoes": "Vale para quem quer criar um produto rápido e ganhar dinheiro rápido com o primeiro produto; o professor não pede que a pessoa se apegue à própria dor para todos os produtos.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": "A transcrição grafa o mecanismo do curso como \"Kinshu\"; identificado como Kishotenketsu pela tabela de grafias.",
+      "proposta_tag": null,
+      "corpo": "Quando você quer criar um produto rápido e ganhar dinheiro rápido, crie o primeiro produto sobre uma dor que você mesmo tem. O professor considera essa a forma mais fácil de vender.\nO motivo dado: com a experiência vivida no problema, o mecanismo único aparece quase automaticamente, e a copy e a VSL saem mais fortes porque vêm de quem passou pela dor.\nExemplo dele: sem ter dor de copy, via pessoas criando produto do jeito errado e pensou em vender um produto sobre isso; assim criou o mecanismo único Kishotenketsu, que diz ter usado por anos.\nOutros casos citados: quem tem problema financeiro pode ensinar um processo para melhorar a situação, sem prometer o dinheiro em si; quem está acima do peso e não vendeu emagrecimento pode tentar de novo com o processo e um mecanismo único.\nRessalva: ele não quer que a pessoa crie um único produto e pare; a dica é para o primeiro.",
+      "evidencia": "Crie o primeiro produto com uma dor que você tem",
+      "versao": 2
+    },
+    {
+      "numero": 3,
+      "titulo": "Pesquise dores nos comentários do YouTube por 4 a 5 dias",
+      "tipo": "regua",
+      "tema": "subnicho-e-pesquisa-de-publico",
+      "tarefas": [
+        "pesquisar-publico-e-subnicho",
+        "definir-mecanismo-unico"
+      ],
+      "plataformas": [
+        "youtube"
+      ],
+      "fonte": "fala",
+      "inicio": 205,
+      "fim": 310,
+      "condicoes": "Dica dada para achar o mecanismo único de forma mais rápida, sem inteligência artificial.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Para achar o mecanismo único sem usar IA, entre no YouTube e leia os comentários: o professor diz que as pessoas têm muita dor e nem elas sabem a solução, e que isso pode ser usado a favor do aluno.\nA base é que as pessoas não sabem o que querem até alguém mostrar; ele cita o lançamento do iPhone por Steve Jobs, mas avisa que não está pedindo para o aluno fazer algo nessa escala.\nNão espere achar um mecanismo único em 5 minutos de pesquisa. Ele pede pesquisar por 4 a 5 dias, ver a dor da pessoa e entender o principal problema dela, e só então pensar na copy do produto.\nSó depois de ter subnicho e mecanismo único o aluno segue para a estrutura da VSL, tema da aula seguinte.",
+      "evidencia": "Então, eu estou te pedindo para você pesquisar isso por 4 dias, 5 dias.",
+      "versao": 2
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        2,
+        3
+      ],
+      "retiradas": [],
+      "observacoes": "F1 (unidade 3, faixa-errada): confirmado na transcrição. O parágrafo final do corpo (\"Só depois de ter subnicho e mecanismo único o aluno segue para a estrutura da VSL\") vem do trecho [00:04:57.380–00:05:09.840] — \"Você encontrou o seu subnicho, encontrou o seu mecanismo único, aí sim você vai para a próxima aula, onde eu vou te explicar qual é a melhor forma de você estruturar uma VSL.\" —, que cai em 297,38–309,84 e ficava fora da faixa declarada 205–297. Apliquei a mudança preferida: `fim` passou de 297 para 310, o que cobre o trecho e respeita o limite (fim da transcrição 447, portanto 310 ≤ 449). Corpo não alterado. `inicio` mantido em 205 (o ajuste para ~211 era opcional). A evidência da unidade (\"Então, eu estou te pedindo para você pesquisar isso por 4 dias, 5 dias.\", em 280,54–284,24) continua literal e dentro da nova faixa, então foi preservada. `versao` deve ir para 2 (o campo não existe no formato de saída desta etapa; o incremento cabe à gravação do JSON da aula).\n\nF2 (unidade 2, tarefa sem lastro): confirmado. Percorri a transcrição inteira e não há nenhuma passagem sobre decidir entre VSL, página, X1 ou destino de tráfego; a única menção a VSL no trecho 67–205 é a promessa de avaliar a VSL do aluno pelo WhatsApp, que não é escolha de formato. Removi `escolher-formato-de-venda` e mantive apenas `definir-mecanismo-unico`, que descreve o corpo (criar o primeiro produto sobre a própria dor para que o mecanismo único apareça da experiência vivida). Não acrescentei outra tarefa: `validar-oferta` e `montar-oferta` não têm lastro nesta fala. Corpo, condições, faixa, tipo e demais metadados inalterados. `versao` deve ir para 2.\n\nNada mais foi tocado: a unidade 1 não estava na lista e não foi mexida; nenhuma unidade nova foi criada (o conteúdo das duas falhas já cabe nas unidades existentes) e nenhuma foi retirada."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "curso": "hardcopy-pro",
+  "aula": "G07_A09",
+  "titulo": "Episódio 9 - CapCut (Carros)",
+  "extraido_em": "2026-09-22",
+  "gerado_por": "sonnet-5",
+  "esforco": "high",
+  "retiradas": [],
+  "contexto": [
+    "Aula G07_A09 do Hardcopy Pro, trilha Hard Ads, grupo 02 Hard Ads/05 Negócios Locais, chamada 'Episódio 9 - CapCut (Carros)'.",
+    "É uma aula de tela: o professor edita no CapCut um anúncio em vídeo pronto para uma loja/concessionária de carros usados, apontando cortes, efeitos e ajustes diretamente na interface.",
+    "Assume que quem assiste já conhece a estrutura de quatro atos e o vocabulário de anúncio ensinados em aulas anteriores da trilha Hard Ads, e concentra-se em como montar esse anúncio específico de carros no formato que o professor chama de 'formato de feedback'.",
+    "Cobre a arquitetura do roteiro do anúncio (confiança, feedbacks, invalidação do mercado, fechamento), uma reflexão sobre qual perfil de comprador de carro o anúncio consegue atrair, e a edição de áudio: voz gerada por IA, corte de música para gerar tensão, uso do trecho de pico da faixa e efeito de distorção de voz para dar ênfase.",
+    "Boa parte dos cliques, menus e ajustes finos de edição fica só na imagem e não é descrita pela fala, então a base captura os princípios e deixa de lado os passos que dependem da tela.",
+    "A aula fecha anunciando que a próxima trata de anúncio para prestação de serviço de gestão de tráfego, sem desenvolver esse assunto aqui."
+  ],
+  "unidades": [
+    {
+      "numero": 1,
+      "titulo": "Estrutura do anúncio em formato de feedback para loja de carros",
+      "tipo": "estrutura",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "roteirizar-anuncio",
+        "escrever-pitch-e-cta"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 30,
+      "fim": 215,
+      "condicoes": "Demonstrado para anúncio de concessionária/loja de carros usados; o professor chama esse molde de 'formato de feedback'.",
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "1. Confiança inicial: abra mostrando confiança no produto, funcionando como o gancho do anúncio.\n2. Nicho: mostre o nicho para o espectador reconhecer o contexto.\n3. Prova com feedbacks reais: em vez de prometer laudo e garantia como o resto do mercado, posicione a honestidade como diferencial e prove com depoimentos reais, mostrando o rosto de clientes reais, não avaliações genéricas.\n4. Invalidação do mercado e elevação de valor: descarte comparar preço abaixo da tabela de referência (o professor cita a FIPE) e afirme que o valor está em comprar sem dor de cabeça.\n5. Tacada de mestre: feche mostrando a origem e a autoridade local do negócio e repita a oferta única com a chamada para ação.",
+      "evidencia": "começamos com uma confiança mostrando a confiança no produto entendeu logo após isso mostramos os feedbacks",
+      "versao": 2
+    },
+    {
+      "numero": 2,
+      "titulo": "Perfil de comprador de carro que já aceita perder na troca",
+      "tipo": "decisao",
+      "tema": "anuncio-negocio-local",
+      "tarefas": [
+        "definir-publico-do-anuncio"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 219,
+      "fim": 317,
+      "condicoes": "Vale para anúncio de concessionária ou loja de troca de carros usados, depois que a peça já mostrou autoridade local.",
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Se o comprador está trocando um carro popular por 'o carro dos sonhos' dele (exemplo citado: um Palio 2008 trocando por um Honda Civic), ele ainda não tem o que o professor chama de 'consciência de perder': resiste a perder dinheiro na negociação e prefere vender o carro antigo por fora, em marketplace ou redes sociais, antes de fechar a troca na loja.\nSe o comprador já troca um carro de padrão mais alto por outro ainda melhor (exemplos citados: Virtus, Jetta, Civic G10 ou Corolla G10 trocando por um BMW 320i), ele já chega sabendo que vai perder valor na negociação e não quer negociar: quer comodidade, trocar de carro sem dor de cabeça.\nO professor ilustra com uma cena hipotética em que o comprador oferece um valor abaixo do carro (exemplo: 78 mil num carro de 82 mil), aceita a resposta sem insistir e fecha na hora, porque já vinha disposto a essa perda.\nSegundo o professor, um anúncio que constrói autoridade local antes do pitch atrai esse segundo perfil de cliente, de nível financeiro e de 'consciência de perder' maiores.",
+      "evidencia": "Esse cara já chega na loja sabendo Que ele vai perder",
+      "versao": 1
+    },
+    {
+      "numero": 3,
+      "titulo": "Voz do ElevenLabs rápida não precisa de corte antes de usar",
+      "tipo": "regra",
+      "tema": "locucao-e-voz",
+      "tarefas": [
+        "produzir-locucao"
+      ],
+      "plataformas": [
+        "elevenlabs"
+      ],
+      "fonte": "fala",
+      "inicio": 334,
+      "fim": 340,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando a narração gerada por IA já sai rápida e natural, como no caso em que o professor identifica a voz usada como sendo do ElevenLabs, não é necessário cortar nem remover trechos dela antes de inserir no anúncio: a voz entra direto, sem edição adicional de remoção.",
+      "evidencia": "a gente não vai precisar remover nada dela",
+      "versao": 1
+    },
+    {
+      "numero": 4,
+      "titulo": "Calar a boca: cortar a música nos momentos de tensão da fala",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 599,
+      "fim": 612,
+      "condicoes": null,
+      "perecivel": false,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao editar o som de um anúncio, corte ou silencie a trilha exatamente nos momentos de maior tensão da narração, para que a fala fique em evidência sem a música por cima. O curso chama essa técnica de 'calar a boca' — tirar a música nas partes que se quer destacar.",
+      "evidencia": "Novamente cortamos o áudio Porque a tensão total nessa parte",
+      "versao": 1
+    },
+    {
+      "numero": 5,
+      "titulo": "Encaixe da música: testar o plot e recuar para o início se não encaixar",
+      "tipo": "decisao",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 807,
+      "fim": 874,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Quando for encaixar uma música num trecho do anúncio no CapCut, extraia o áudio da faixa e tente primeiro o plot dela — a parte mais importante da música —, alinhado à linha-chave da narração, e ouça o resultado.\nSe o plot não encaixar com a fala, pegue o início da música e teste de novo, aumentando o volume e dando fade out no fim do trecho.\nSe ainda faltar pouco para encaixar, junte os pedaços com a pinça e aplique uma junção na emenda.\nNa demonstração da aula o plot não encaixou, o início quase encaixou e o professor fechou o encaixe juntando os trechos.",
+      "evidencia": "Não encaixou Vamos pegar o inicio da música então",
+      "versao": 2
+    },
+    {
+      "numero": 6,
+      "titulo": "Não repetir o mesmo efeito de distorção de voz no mesmo anúncio",
+      "tipo": "regra",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 621,
+      "fim": 696,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "Ao aplicar um efeito de distorção de voz no CapCut para dar ênfase a uma frase específica do roteiro, não repita o mesmo efeito em outro trecho parecido do mesmo vídeo: mantenha a voz original nas demais partes semelhantes, porque usar o mesmo efeito de novo deixa o anúncio repetitivo.",
+      "evidencia": "porque é diferente um do outro, não fica repetitivo",
+      "versao": 1
+    },
+    {
+      "numero": 7,
+      "titulo": "Professor: áudio bem trabalhado pesa mais que avatar de IA de famoso",
+      "tipo": "conceito",
+      "tema": "som-e-sentimentalismo",
+      "tarefas": [
+        "sonorizar-video"
+      ],
+      "plataformas": [
+        "geral"
+      ],
+      "fonte": "fala",
+      "inicio": 1076,
+      "fim": 1109,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "media",
+      "nota": "Afirmação e previsão de mercado atribuídas ao professor (prazo de 6 a 7 meses a partir da gravação); a base não confirma isso como fato.",
+      "proposta_tag": null,
+      "corpo": "O professor afirma que, na visão dele, o trabalho de áudio do anúncio (efeitos e emoção sonora, como os demonstrados na aula) desperta mais sentimento na pessoa do que apostar numa imagem gerada por IA de alguém famoso só para dar aparência de 'especialista' e confiança.\nEle prevê que o áudio vai se tornar praticamente obrigatório em anúncios no mercado brasileiro dentro de 6 a 7 meses a partir da gravação.",
+      "evidencia": "Que o áudio vai ser uma coisa irrecusável daqui a 6, 7 meses no mercado brasileiro",
+      "versao": 1
+    },
+    {
+      "numero": 8,
+      "titulo": "Aula de tela no CapCut: edição fina não capturada pela transcrição",
+      "tipo": "limite",
+      "tema": "edicao-de-video",
+      "tarefas": [],
+      "plataformas": [
+        "capcut"
+      ],
+      "fonte": "fala",
+      "inicio": 0,
+      "fim": 1202,
+      "condicoes": null,
+      "perecivel": true,
+      "confianca": "alta",
+      "nota": null,
+      "proposta_tag": null,
+      "corpo": "A aula é majoritariamente uma demonstração de tela no CapCut: o professor corta, arrasta, aplica efeitos e ajusta volume apontando diretamente na interface ('olha aqui', 'vamos colocar assim'). A transcrição não captura nomes exatos de menus, botões, valores numéricos de efeito nem a sequência exata de cliques; por isso boa parte da edição fina (posições de corte, ajustes de fade, parâmetros do modificador de voz) não pôde virar procedimento passo a passo.",
+      "evidencia": "aqui a gente vai colocar uns efeitinhos pra ficar",
+      "versao": 1
+    }
+  ],
+  "correcoes": [
+    {
+      "ciclo": 1,
+      "por": "opus-5",
+      "unidades": [
+        1,
+        5
+      ],
+      "retiradas": [],
+      "observacoes": "F1 (U5): procede. Voltei à fonte entre 807 e 874. O professor diz \"Pega o plot dela, né? Igual eu expliquei pra vocês\", dá \"um fade out\", ouve e conclui \"Não encaixou Vamos pegar o inicio da música então\"; depois \"Quase encaixou, tá vendo?\" e resolve com \"Junta aqui um pouquinho Coloca a pinça aqui e junta ... A gente pega uma junção\". Reescrevi título e corpo como processo de tentativa e ajuste, sem exclusão categórica do início; retirei \"e não o início\" do título e do corpo e atribuí o resultado à demonstração da aula. Retipei de `regra` para `decisao` (corpo começa com \"Quando \"). Estendi `fim` de 818 para 874, cobrindo o trecho citado pelo inspetor e a junção que fecha o ajuste. Troquei a evidência para o trecho literal \"Não encaixou Vamos pegar o inicio da música então\" (grafia da transcrição, \"inicio\" sem acento), agora dentro da faixa. Retirei \"fade in\": a fala nomeia só \"fade out\" dentro dessa faixa (\"E aqui eu vou dar um fade out\", \"A gente vai meter um fade out aqui\"); mantive só passos que a fala nomeia. `versao` deve ir a 2. Mantive tema, tarefa, plataforma, perecibilidade e confiança `media` (aula de tela).\n\nF2 (U1): procede. \"Você mostrou de onde você é aqui Você mostrou a sua autoridade\" está em 209,3–213,28 s, fora do `fim` declarado de 197. Ajustei `fim` para 215, sem tocar no corpo nem na evidência (a evidência original, em 36–50 s, continua dentro da faixa). `versao` deve ir a 2.\n\nNenhuma unidade retirada e nenhuma nova: o conteúdo das duas falhas cabe nas unidades existentes, e os títulos das demais não cobrem o encaixe da música (U4 trata de \"calar a boca\", não do posicionamento do plot)."
+    }
+  ]
+}
